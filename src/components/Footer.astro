@@ -1,0 +1,113 @@
+---
+import { Image } from 'astro:assets';
+import logo from '../assets/images/logo.avif';
+
+const product = [
+  { label: 'Features', href: '/#features1' },
+  { label: 'Pricing', href: '/Pricing' },
+  { label: 'Contact us', href: 'mailto:support@marqly.com' },
+];
+const legal = [
+  { label: 'Terms of Use', href: '/T&C' },
+  { label: 'Privacy Policy', href: '/privacypolicy' },
+];
+const extensions = [
+  { label: 'Chrome extension', href: 'https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc' },
+  { label: 'Firefox extension', href: 'https://addons.mozilla.org/en-US/firefox/addon/marqly/' },
+  { label: 'Edge extension', href: 'https://microsoftedge.microsoft.com/addons/detail/marqly-%E2%80%93-the-ultimate-boo/gojjglmdginjjpgajdnobmnkmcogngok' },
+];
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="brand-col">
+      <a href="/" aria-label="Marqly home">
+        <Image src={logo} alt="Marqly" height={28} width={112} densities={[1, 2]} />
+      </a>
+      <p class="tagline">The bookmark manager supercharged with AI.</p>
+      <div class="social">
+        <a href="https://twitter.com/getmarqly" aria-label="Marqly on X">X</a>
+        <a href="https://www.facebook.com/profile.php?id=100088234261663" aria-label="Marqly on Facebook">Facebook</a>
+      </div>
+    </div>
+
+    <nav class="links" aria-label="Product">
+      <h3>Product</h3>
+      {product.map((l) => <a href={l.href}>{l.label}</a>)}
+    </nav>
+
+    <nav class="links" aria-label="Download">
+      <h3>Download</h3>
+      {extensions.map((l) => <a href={l.href}>{l.label}</a>)}
+    </nav>
+
+    <nav class="links" aria-label="Legal">
+      <h3>Legal</h3>
+      {legal.map((l) => <a href={l.href}>{l.label}</a>)}
+    </nav>
+  </div>
+  <div class="container copyright">
+    <p>© {year} Marqly. All rights reserved.</p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    background: var(--color-heading);
+    color: rgba(255, 255, 255, 0.7);
+    padding-block: var(--space-16) var(--space-8);
+  }
+  .footer-inner {
+    display: grid;
+    grid-template-columns: 1.6fr 1fr 1fr 1fr;
+    gap: var(--space-8);
+  }
+  .brand-col :global(img) {
+    filter: brightness(0) invert(1);
+  }
+  .tagline {
+    margin-top: var(--space-4);
+    font-size: var(--fs-sm);
+    max-width: 26ch;
+  }
+  .social {
+    display: flex;
+    gap: var(--space-4);
+    margin-top: var(--space-6);
+    font-size: var(--fs-sm);
+  }
+  .social a:hover {
+    color: #fff;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+  .links h3 {
+    color: #fff;
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    margin-bottom: var(--space-2);
+  }
+  .links a {
+    font-size: var(--fs-sm);
+    color: rgba(255, 255, 255, 0.7);
+    transition: color 0.15s ease;
+  }
+  .links a:hover {
+    color: #fff;
+  }
+  .copyright {
+    margin-top: var(--space-16);
+    padding-top: var(--space-6);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: var(--fs-xs);
+  }
+  @media (max-width: 810px) {
+    .footer-inner {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+</style>

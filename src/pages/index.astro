@@ -1,18 +1,198 @@
 ---
-// Placeholder home page — replaced in Phase 5 with the cloned Marqly home.
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import heroApp from '../assets/images/hero-app.avif';
+
+const APP = 'https://app.marqly.com/';
+
+// SEO + structured data captured 1:1 from the live site (meta.json).
+const title = 'Marqly — AI Bookmark Manager | Organize Smarter, Find Faster';
+const description =
+  'Marqly is the AI-powered bookmark manager that organizes your saved links automatically. Smart tagging, cross-platform sync, and reader mode. Start free — no card required.';
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: 'Marqly',
+    description:
+      'Marqly is an AI-powered bookmark manager that organizes your saved links automatically with smart tagging, cross-platform sync, and reader mode.',
+    url: 'https://www.marqly.com',
+    applicationCategory: 'Productivity',
+    operatingSystem: 'Web, Chrome, Firefox, Edge, Safari',
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+    aggregateRating: { '@type': 'AggregateRating', ratingValue: '4.8', reviewCount: '50' },
+    featureList:
+      'AI Auto-Tagging, Bookmark Organization, Cross-Platform Sync, Reader Mode, AI Summaries, Offline Mode, Link Health Monitoring, Tab Saver',
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Marqly',
+    url: 'https://www.marqly.com',
+    logo: 'https://www.marqly.com/logo.png',
+    description:
+      'Marqly is an AI-powered bookmark manager that organizes your saved links automatically with smart tagging, cross-platform sync, and reader mode.',
+    sameAs: [
+      'https://twitter.com/getMarqly',
+      'https://www.facebook.com/marqly',
+      'https://www.linkedin.com/company/marqly',
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'What is Marqly bookmark manager?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Marqly is an AI-powered bookmark manager that auto-organizes your saved links with smart tagging, cross-platform sync, reader mode, and AI summaries. Available as a browser extension for Chrome, Firefox, Edge, and Safari.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Is Marqly bookmark manager free?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes, Marqly offers a free plan with up to 50 bookmarks. Pro plan at $84/year includes unlimited bookmarks, AI tagging, and advanced features.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Which browsers does Marqly support?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Marqly supports Chrome, Firefox, Edge, and Safari via browser extensions, plus any browser via the web app.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'How is Marqly different from other bookmark managers?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Marqly uses AI to auto-tag and organize bookmarks. Search by context, not keywords. Includes reader mode, AI summaries, offline access, and link health monitoring.',
+        },
+      },
+    ],
+  },
+];
 ---
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Marqly — migration scaffold</title>
-  </head>
-  <body>
-    <main>
-      <h1>Marqly marketing site — Astro scaffold</h1>
-      <p>Pixel-perfect clone in progress.</p>
-    </main>
-  </body>
-</html>
+<BaseLayout title={title} description={description} jsonLd={jsonLd}>
+  <section class="hero">
+    <div class="container hero-inner">
+      <a class="badge" href={APP}>✨ Introducing Marqly 4.0</a>
+      <h1 class="hero-title">
+        The Bookmark Manager
+        <span class="accent">supercharged with AI.</span>
+      </h1>
+      <p class="hero-sub">
+        Rebuilt from the ground up with AI at the core. Marqly brings lightning-fast
+        performance, smart auto-tagging, and a beautiful new interface.
+      </p>
+      <div class="hero-cta">
+        <a href={APP} class="btn-primary">Get Started for Free →</a>
+        <span class="no-card">No card required</span>
+      </div>
+    </div>
+
+    <div class="container hero-shot">
+      <Image
+        src={heroApp}
+        alt="Marqly app interface showing organized bookmarks"
+        widths={[768, 1200, 2048]}
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="eager"
+      />
+    </div>
+  </section>
+
+  <section class="section features-intro" id="features1">
+    <div class="container">
+      <h2>Everything you need in a bookmark manager</h2>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    padding-top: var(--space-24);
+    text-align: center;
+    background:
+      radial-gradient(60% 50% at 50% 0%, var(--color-accent-blue) 0%, transparent 70%),
+      var(--color-bg);
+  }
+  .hero-inner {
+    max-width: 820px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-6);
+  }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--fs-sm);
+    font-weight: 500;
+    color: var(--color-heading-soft);
+    background: #fff;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-pill);
+    padding: 0.35rem 0.9rem;
+    box-shadow: var(--shadow-sm);
+  }
+  .hero-title {
+    font-size: var(--fs-hero);
+    font-weight: 600;
+  }
+  .hero-title .accent {
+    display: block;
+    color: var(--color-primary);
+  }
+  .hero-sub {
+    font-size: var(--fs-lg);
+    color: var(--color-text-muted);
+    max-width: 38ch;
+  }
+  .hero-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-3);
+  }
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    background: var(--color-heading);
+    color: #fff;
+    font-weight: 600;
+    padding: 0.9rem 1.6rem;
+    border-radius: var(--radius-pill);
+    transition: transform 0.15s ease;
+  }
+  .btn-primary:hover {
+    transform: translateY(-1px);
+  }
+  .no-card {
+    font-size: var(--fs-sm);
+    color: var(--color-text);
+  }
+  .hero-shot {
+    margin-top: var(--space-16);
+  }
+  .hero-shot :global(img) {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+  }
+  .features-intro {
+    text-align: center;
+  }
+  .features-intro h2 {
+    font-size: var(--fs-h2);
+  }
+</style>

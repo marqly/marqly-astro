@@ -1,0 +1,105 @@
+---
+import { Image } from 'astro:assets';
+import logo from '../assets/images/logo.avif';
+
+const nav = [
+  { label: 'Home', href: '/' },
+  { label: 'Pricing', href: '/Pricing' },
+  { label: 'Extension', href: '/Extension' },
+  { label: 'Blog', href: '/blog' },
+];
+const CHROME_STORE =
+  'https://chrome.google.com/webstore/detail/marqly/kcadneobjofkppmekgadodnaojoehemc/';
+const APP = 'https://app.marqly.com';
+---
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="/" class="brand" aria-label="Marqly home">
+      <Image src={logo} alt="Marqly" height={28} width={112} densities={[1, 2]} />
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      {nav.map((item) => <a href={item.href}>{item.label}</a>)}
+    </nav>
+
+    <div class="actions">
+      <a href={CHROME_STORE} class="btn btn-ghost">Install Extension</a>
+      <a href={APP} class="btn btn-dark">Sign in</a>
+    </div>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: saturate(180%) blur(12px);
+    border-bottom: 1px solid var(--color-border);
+  }
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    gap: var(--space-8);
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .nav {
+    display: flex;
+    gap: var(--space-8);
+    margin-inline: auto;
+  }
+  .nav a {
+    font-size: var(--fs-sm);
+    font-weight: 500;
+    color: var(--color-heading-soft);
+    transition: color 0.15s ease;
+  }
+  .nav a:hover {
+    color: var(--color-primary);
+  }
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    flex-shrink: 0;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-pill);
+    transition: transform 0.15s ease, background 0.15s ease;
+  }
+  .btn-ghost {
+    color: var(--color-heading-soft);
+  }
+  .btn-ghost:hover {
+    color: var(--color-primary);
+  }
+  .btn-dark {
+    background: var(--color-heading);
+    color: #fff;
+  }
+  .btn-dark:hover {
+    transform: translateY(-1px);
+  }
+  @media (max-width: 810px) {
+    .nav {
+      display: none;
+    }
+    .btn-ghost {
+      display: none;
+    }
+  }
+</style>
