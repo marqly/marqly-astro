@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Astro build output
+dist/
+.astro/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+*.log
+
+# Claude Code sandbox — agent scratch space
+# (active/README.md, active/scripts/, and .gitkeep files are tracked; everything else is ignored)
+# NOTE: ~/.gitignore_global ignores all README.md — re-include the ones we want tracked.
+!active/README.md
+!README.md
+active/tmp/*
+!active/tmp/.gitkeep
+active/logs/*
+!active/logs/.gitkeep
+
+# Capture artifacts are large binaries — not tracked
+active/logs/capture/
