@@ -45,7 +45,22 @@ Never dump generated files into this project root. Use `./active/tmp/` for
 ephemeral work and `./active/logs/` for research outputs (incl. capture
 artifacts and diff scores). The root stays clean.
 
+## Deploy
+
+- GitHub repo `marqly/marketing_site` is connected to Cloudflare Pages (auto-build on push to `main`).
+- Cloudflare build settings should be: build `npm run build`, output `dist`. No adapter (static).
+- `.nvmrc` pins Node 22 for the Pages build (Astro 5.18 needs Node ≥20.19).
+- A push to `main` triggers a **production** build — do not push a half-finished state without the user's OK.
+
+## Migration status (2026-05-25)
+
+- Done: scaffold, full 24-page capture, diff harness, tokens/fonts, shell (BaseLayout/Header/Footer), pages: Home, Pricing, Extension, Terms, Privacy, vs/raindrop (first-pass clones).
+- First-pass diff scores ~10–27% (structurally faithful; pixel-polish pending). Pricing best (~11%).
+- Pending: pixel-polish iteration, blog (template + 17 MDX posts, dedupe 3 junk slugs), SEO/redirects finalize, deploy verify on *.pages.dev, DNS cutover.
+- `/T&C` → `/terms` 301 (ampersand URL normalized); other URLs preserved 1:1.
+
 ## Lab Notes: What Not To Do
 
-<!-- append one-liners as you discover mistakes -->
-<!-- format: - <date>: <what failed> → <why> → <what to do instead> -->
+- 2026-05-25: Astro 5.18 + npm 11 throw EBADENGINE on Node 20.10 (need ≥20.19) → build still works locally but is unsupported → `.nvmrc=22` for Cloudflare; recommend bumping local Node to 22 LTS.
+- 2026-05-25: `/vs/raindrop` is a near-empty stub on the LIVE site (only H1+subhead even after JS hydration) → not a capture failure, the page is unfinished in production → clone matches; ask user whether to build it out or drop it.
+- 2026-05-25: capture.mjs uses `waitUntil:'load'` which is fine for Framer's SSR'd pages → fully client-rendered pages would need `networkidle`+wait, but only vs/raindrop was JS-only and it's just a stub.
