@@ -1,0 +1,79 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+// SEO + structured data captured 1:1 from the live site (meta.json).
+const title = 'Marqly vs Raindrop.io: Best AI Bookmark Manager 2025';
+const description =
+  "Compare Marqly vs Raindrop.io features, pricing & performance. See why users are switching to Marqly's AI-powered bookmark manager with smart tagging, cross-platform sync & better UX.";
+const canonical = 'https://www.marqly.com/vs/raindrop';
+
+// JSON-LD parsed verbatim from meta.json (single Organization object).
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Marqly',
+    url: 'https://www.marqly.com',
+    logo: 'https://www.marqly.com/logo.png',
+    description:
+      'Marqly is an AI-powered bookmark manager that organizes your saved links automatically with smart tagging, cross-platform sync, and reader mode.',
+    sameAs: [
+      'https://twitter.com/getMarqly',
+      'https://www.facebook.com/marqly',
+      'https://www.linkedin.com/company/marqly',
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonical={canonical}
+  jsonLd={jsonLd}
+>
+  <section class="vs-hero">
+    <div class="container vs-hero-inner">
+      <h1 class="vs-title">Marqly vs Raindrop.io</h1>
+      <p class="vs-sub">Compare the Best AI-Powered Bookmark Managers in 2025</p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  /* Faithful to the captured source: a centered hero with the H1 and a
+     subheading. The detailed comparison content on the live page is
+     rendered client-side and is not present in the captured markup. */
+  .vs-hero {
+    padding-block: var(--space-32);
+    text-align: center;
+  }
+  .vs-hero-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-24);
+  }
+  .vs-title {
+    font-size: var(--fs-h1);
+    font-weight: 600;
+    color: var(--color-heading);
+  }
+  .vs-sub {
+    font-size: var(--fs-lg);
+    font-weight: 500;
+    color: var(--color-heading);
+    max-width: 50ch;
+  }
+
+  @media (max-width: 810px) {
+    .vs-hero {
+      padding-block: var(--space-16);
+      text-align: left;
+    }
+    .vs-hero-inner {
+      align-items: flex-start;
+      gap: var(--space-16);
+    }
+  }
+</style>

@@ -1,0 +1,653 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import deviceLaptop from '../assets/images/pricing/device-laptop.webp';
+import deviceTablet from '../assets/images/pricing/device-tablet.avif';
+import devicePhone from '../assets/images/pricing/device-phone.avif';
+
+const APP = 'https://app.marqly.com/';
+
+// SEO + structured data captured 1:1 from the live site (meta.json).
+const title = 'Marqly Pricing — Free & Pro Plans | AI Bookmark Manager from $0';
+const description =
+  'Compare Marqly Free vs Pro plans. Free: 50 bookmarks with basic features. Pro at $84/year: Unlimited bookmarks, AI tagging, smart organization, and more. Start free today.';
+const canonical = 'https://www.marqly.com/Pricing';
+
+// jsonLd from meta.json is an array of raw JSON strings — parse each for SEO parity.
+const rawJsonLd = [
+  "{\n  \"@context\": \"https://schema.org\",\n    \"@type\": \"Organization\",\n      \"name\": \"Marqly\",\n        \"url\": \"https://www.marqly.com\",\n          \"logo\": \"https://www.marqly.com/logo.png\",\n            \"description\": \"Marqly is an AI-powered bookmark manager that organizes your saved links automatically with smart tagging, cross-platform sync, and reader mode.\",\n              \"sameAs\": [\n                  \"https://twitter.com/getMarqly\",\n                      \"https://www.facebook.com/marqly\",\n                          \"https://www.linkedin.com/company/marqly\"\n                            ]\n                            }",
+];
+const jsonLd = rawJsonLd.map((s) => JSON.parse(s));
+
+const freeFeatures = [
+  'Up to 50 bookmarks',
+  'Basic Search',
+  'Bookmark Preview',
+  'Bookmark Tags',
+  'Access on Mobile, Tablet',
+  'Unlimited Devices',
+];
+
+// Pro features — second item ("AI Powered Features") is highlighted in purple on the live site.
+const proFeatures = [
+  { label: 'Unlimited bookmarks', accent: false },
+  { label: 'AI Powered Features', accent: true },
+  { label: 'Super Fast Search', accent: false },
+  { label: 'Fast Web Preview', accent: false },
+  { label: 'Bookmark Preview', accent: false },
+  { label: 'Bookmark Tags', accent: false },
+  { label: 'Boards / Collections', accent: false },
+  { label: 'Highlights & Notes', accent: false },
+  { label: 'Read Mode', accent: false },
+  { label: 'Smart Sorting', accent: false },
+  { label: 'Unlimited Devices', accent: false },
+  { label: 'Access anywhere', accent: false },
+  { label: 'Priority support by email', accent: false },
+];
+
+const faqs = [
+  'Can I use Marqly for free?',
+  'How is the Pro plan different from the Free?',
+  'Do you have monthly and yearly billing options?',
+  'How is the payment being processed? Can I pay with Paypal?',
+  'Purchase cancellation or refunds?',
+];
+
+const platforms = ['macOS', 'Windows', 'iOS', 'Android', 'Web'];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonical={canonical}
+  jsonLd={jsonLd}
+>
+  <!-- ===== Pricing hero ===== -->
+  <section class="pricing-hero">
+    <div class="container">
+      <span class="eyebrow">Pricing Plan</span>
+      <h1 class="pricing-title">Enjoy all features and unlimited bookmarks.</h1>
+
+      <div class="billing-toggle" role="group" aria-label="Billing period">
+        <button type="button" class="toggle-tab">Monthly</button>
+        <button type="button" class="toggle-tab is-active" aria-pressed="true">
+          Annually
+          <span class="save-badge">Save 30%</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- ===== Plan cards ===== -->
+    <div class="container plans">
+      <!-- Free plan -->
+      <article class="plan-card">
+        <header class="plan-head">
+          <h2 class="plan-name">Free Plan</h2>
+          <div class="plan-price">
+            <span class="amount">$0</span>
+          </div>
+        </header>
+        <a href={APP} class="plan-cta cta-light">Start for Free</a>
+        <ul class="feature-list">
+          {
+            freeFeatures.map((f) => (
+              <li>
+                <span class="check" aria-hidden="true">
+                  <svg viewBox="0 0 20 20" width="16" height="16">
+                    <path
+                      d="M4 10.5l3.5 3.5L16 6"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span>{f}</span>
+              </li>
+            ))
+          }
+        </ul>
+      </article>
+
+      <!-- Pro plan -->
+      <article class="plan-card plan-card--pro">
+        <header class="plan-head">
+          <h2 class="plan-name">Pro Plan</h2>
+          <div class="plan-price">
+            <span class="amount">$84</span>
+            <span class="period">/year</span>
+          </div>
+        </header>
+        <a href={APP} class="plan-cta cta-dark">Get Started</a>
+        <ul class="feature-list">
+          {
+            proFeatures.map((f) => (
+              <li class={f.accent ? 'is-accent' : ''}>
+                <span class="check" aria-hidden="true">
+                  <svg viewBox="0 0 20 20" width="16" height="16">
+                    <path
+                      d="M4 10.5l3.5 3.5L16 6"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span>{f.label}</span>
+              </li>
+            ))
+          }
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq section">
+    <div class="container">
+      <p class="faq-eyebrow">FAQ</p>
+      <h2 class="faq-title">Do you have any questions for Marqly?</h2>
+
+      <div class="faq-list">
+        {
+          faqs.map((q) => (
+            <details class="faq-item">
+              <summary>
+                <span>{q}</span>
+                <span class="faq-plus" aria-hidden="true">+</span>
+              </summary>
+            </details>
+          ))
+        }
+      </div>
+
+      <div class="faq-cta">
+        <h3>Still have a question?</h3>
+        <p>Get in touch — we’re happy to help!</p>
+        <a href={APP} class="contact-btn">Contact us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Cross-platform / devices band ===== -->
+  <section class="devices">
+    <div class="container">
+      <ul class="platforms" aria-label="Supported platforms">
+        {platforms.map((p) => <li>{p}</li>)}
+      </ul>
+
+      <h2 class="devices-title">Connect it anywhere, anytime.</h2>
+      <p class="devices-sub">
+        Access your bookmarks seamlessly across all your devices.
+      </p>
+
+      <div class="devices-cta">
+        <a href={APP} class="dev-btn dev-btn--dark">Start for Free</a>
+        <a href={APP} class="dev-btn dev-btn--blue">Download page -&gt;</a>
+      </div>
+
+      <div class="devices-shots">
+        <div class="shot shot-laptop">
+          <Image
+            src={deviceLaptop}
+            alt="Marqly on macOS"
+            widths={[512, 1024]}
+            sizes="(max-width: 810px) 90vw, 640px"
+            loading="lazy"
+          />
+        </div>
+        <div class="shot shot-tablet">
+          <Image
+            src={deviceTablet}
+            alt="Marqly on tablet"
+            widths={[400, 760]}
+            sizes="(max-width: 810px) 60vw, 380px"
+            loading="lazy"
+          />
+        </div>
+        <div class="shot shot-phone">
+          <Image
+            src={devicePhone}
+            alt="Marqly on mobile"
+            widths={[240, 460]}
+            sizes="(max-width: 810px) 40vw, 230px"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  /* ===== Pricing hero ===== */
+  .pricing-hero {
+    padding-top: var(--space-16);
+    text-align: center;
+  }
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--fs-sm);
+    font-weight: 500;
+    color: var(--color-heading-soft);
+    background: #fff;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-pill);
+    padding: 0.3rem 0.85rem;
+    box-shadow: var(--shadow-sm);
+  }
+  .pricing-title {
+    margin-top: var(--space-6);
+    font-family: var(--font-display);
+    font-size: clamp(1.75rem, 3vw, 2.25rem);
+    font-weight: 700;
+    line-height: var(--lh-snug);
+    color: var(--color-heading);
+    max-width: 18ch;
+    margin-inline: auto;
+  }
+
+  /* Billing toggle */
+  .billing-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin-top: var(--space-8);
+    padding: 5px;
+    background: #000;
+    border-radius: var(--radius-pill);
+  }
+  .toggle-tab {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-display);
+    font-size: var(--fs-sm);
+    font-weight: 500;
+    color: #fff;
+    background: transparent;
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-pill);
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+  .toggle-tab.is-active {
+    background: #fff;
+    color: #231645;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(47, 1, 151, 0.08);
+  }
+  .save-badge {
+    display: inline-flex;
+    align-items: center;
+    font-family: var(--font-sans);
+    font-size: var(--fs-xs);
+    font-weight: 700;
+    color: #fff;
+    background: #7749f6;
+    border-radius: var(--radius-pill);
+    padding: 0.15rem 0.5rem;
+    line-height: 1.2;
+  }
+
+  /* ===== Plan cards ===== */
+  .plans {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: var(--space-8);
+    margin-top: var(--space-16);
+    text-align: left;
+  }
+  .plan-card {
+    flex: 0 1 340px;
+    background: #fff;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-8);
+    box-shadow: var(--shadow-sm);
+  }
+  .plan-card--pro {
+    box-shadow: var(--shadow-md);
+  }
+  .plan-head {
+    margin-bottom: var(--space-6);
+  }
+  .plan-name {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    font-weight: 400;
+    color: #080808;
+    line-height: var(--lh-tight);
+  }
+  .plan-price {
+    margin-top: var(--space-4);
+    display: flex;
+    align-items: baseline;
+    gap: 0.35rem;
+  }
+  .plan-price .amount {
+    font-family: var(--font-display);
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--color-heading);
+    line-height: 1;
+  }
+  .plan-price .period {
+    font-family: var(--font-display);
+    font-size: var(--fs-base);
+    color: var(--color-text);
+  }
+
+  .plan-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: var(--font-display);
+    font-size: var(--fs-lg);
+    font-weight: 500;
+    padding: 0.85rem 1.5rem;
+    border-radius: var(--radius-pill);
+    transition: transform 0.15s ease;
+  }
+  .plan-cta:hover {
+    transform: translateY(-1px);
+  }
+  .cta-light {
+    background: #fff;
+    color: #757575;
+    border: 1px solid var(--color-border-strong);
+  }
+  .cta-dark {
+    background: #000;
+    color: #fff;
+  }
+
+  .feature-list {
+    list-style: none;
+    margin-top: var(--space-8);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+  .feature-list li {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    font-family: var(--font-display);
+    font-size: var(--fs-base);
+    color: var(--color-heading-soft);
+  }
+  .feature-list li.is-accent {
+    color: #7e4fff;
+    font-weight: 500;
+  }
+  .check {
+    flex-shrink: 0;
+    display: inline-flex;
+    color: var(--color-heading);
+  }
+  .feature-list li.is-accent .check {
+    color: #7e4fff;
+  }
+
+  /* ===== FAQ ===== */
+  .section {
+    padding-block: var(--space-32);
+  }
+  .faq {
+    text-align: center;
+  }
+  .faq-eyebrow {
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: var(--space-2);
+  }
+  .faq-title {
+    font-family: var(--font-display);
+    font-size: var(--fs-h2);
+    font-weight: 700;
+    color: var(--color-heading);
+    max-width: 16ch;
+    margin: 0 auto var(--space-12);
+    line-height: var(--lh-snug);
+  }
+  .faq-list {
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    text-align: left;
+  }
+  .faq-item {
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background: #fff;
+    box-shadow: var(--shadow-sm);
+  }
+  .faq-item summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-4);
+    padding: 1.1rem 1.4rem;
+    font-family: var(--font-display);
+    font-size: var(--fs-base);
+    font-weight: 500;
+    color: var(--color-heading-soft);
+  }
+  .faq-item summary::-webkit-details-marker {
+    display: none;
+  }
+  .faq-plus {
+    flex-shrink: 0;
+    font-size: 1.25rem;
+    line-height: 1;
+    color: var(--color-text);
+    transition: transform 0.2s ease;
+  }
+  .faq-item[open] .faq-plus {
+    transform: rotate(45deg);
+  }
+
+  .faq-cta {
+    max-width: 560px;
+    margin: var(--space-16) auto 0;
+    padding: var(--space-12) var(--space-8);
+    border-radius: var(--radius-lg);
+    background: linear-gradient(180deg, #f4f1ff 0%, #f7f5ff 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-3);
+  }
+  .faq-cta h3 {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-heading);
+  }
+  .faq-cta p {
+    font-size: var(--fs-base);
+    color: var(--color-text-muted);
+  }
+  .contact-btn {
+    margin-top: var(--space-3);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-display);
+    font-size: var(--fs-lg);
+    font-weight: 500;
+    color: #fff;
+    background: #7749f6;
+    padding: 0.7rem 1.6rem;
+    border-radius: var(--radius-pill);
+    transition: transform 0.15s ease;
+  }
+  .contact-btn:hover {
+    transform: translateY(-1px);
+  }
+
+  /* ===== Devices band ===== */
+  .devices {
+    padding-block: var(--space-32) 0;
+    text-align: center;
+    background:
+      radial-gradient(70% 60% at 50% 0%, #e9f2ff 0%, transparent 70%),
+      #f4f9ff;
+    overflow: hidden;
+  }
+  .platforms {
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-2);
+    margin-bottom: var(--space-8);
+  }
+  .platforms li {
+    font-family: var(--font-display);
+    font-size: var(--fs-base);
+    letter-spacing: 0.01em;
+    color: #484956;
+    background: #fff;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-pill);
+    padding: 0.4rem 0.9rem;
+    box-shadow: var(--shadow-sm);
+  }
+  .devices-title {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    font-weight: 600;
+    color: var(--color-heading);
+    line-height: var(--lh-tight);
+  }
+  .devices-sub {
+    margin-top: var(--space-4);
+    font-family: var(--font-display);
+    font-size: var(--fs-lg);
+    color: #484956;
+  }
+  .devices-cta {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-4);
+    margin-top: var(--space-8);
+    flex-wrap: wrap;
+  }
+  .dev-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-display);
+    font-size: var(--fs-lg);
+    font-weight: 500;
+    padding: 0.8rem 1.6rem;
+    border-radius: var(--radius-pill);
+    transition: transform 0.15s ease;
+  }
+  .dev-btn:hover {
+    transform: translateY(-1px);
+  }
+  .dev-btn--dark {
+    background: #000;
+    color: #fff;
+  }
+  .dev-btn--blue {
+    background: #f0f7ff;
+    color: #094b83;
+  }
+
+  .devices-shots {
+    position: relative;
+    margin-top: var(--space-16);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 0;
+    max-width: 1000px;
+    margin-inline: auto;
+  }
+  .devices-shots :global(img) {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .shot-laptop {
+    flex: 0 0 62%;
+    z-index: 1;
+  }
+  .shot-tablet {
+    flex: 0 0 34%;
+    margin-left: -6%;
+    z-index: 2;
+  }
+  .shot-phone {
+    flex: 0 0 16%;
+    margin-left: -6%;
+    z-index: 3;
+  }
+
+  /* ===== Responsive ===== */
+  @media (max-width: 810px) {
+    .pricing-title {
+      font-size: 1.75rem;
+    }
+    .plans {
+      flex-direction: column;
+      align-items: center;
+      gap: var(--space-6);
+    }
+    .plan-card {
+      flex: 1 1 auto;
+      width: 100%;
+      max-width: 420px;
+    }
+    .section {
+      padding-block: var(--space-24);
+    }
+    .faq-cta h3 {
+      font-size: 1.5rem;
+    }
+    .devices {
+      padding-top: var(--space-24);
+    }
+    .devices-cta {
+      flex-direction: column;
+      align-items: center;
+    }
+    .dev-btn {
+      width: 100%;
+      max-width: 320px;
+    }
+    .devices-shots {
+      flex-wrap: wrap;
+      gap: var(--space-4);
+    }
+    .shot-laptop {
+      flex: 0 0 100%;
+    }
+    .shot-tablet {
+      flex: 0 0 55%;
+      margin-left: 0;
+    }
+    .shot-phone {
+      flex: 0 0 28%;
+      margin-left: 0;
+    }
+  }
+</style>
