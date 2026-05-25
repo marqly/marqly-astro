@@ -1,0 +1,30 @@
+{
+  "base": "https://www.marqly.com",
+  "pages": [
+    { "url": "https://www.marqly.com/",             "slug": "home" },
+    { "url": "https://www.marqly.com/Pricing",       "slug": "pricing" },
+    { "url": "https://www.marqly.com/Extension",     "slug": "extension" },
+    { "url": "https://www.marqly.com/T&C",           "slug": "terms" },
+    { "url": "https://www.marqly.com/privacypolicy", "slug": "privacy" },
+    { "url": "https://www.marqly.com/vs/raindrop",   "slug": "vs-raindrop" },
+    { "url": "https://www.marqly.com/blog",          "slug": "blog-index" },
+
+    { "url": "https://www.marqly.com/blog/7-best-chrome-bookmark-extensions-in-2026-(tested-ranked)-copy", "slug": "blog/7-best-chrome-extensions-copy" },
+    { "url": "https://www.marqly.com/blog/7-best-chrome-bookmark-extensions-2026-tested-ranked",           "slug": "blog/7-best-chrome-extensions-v2" },
+    { "url": "https://www.marqly.com/blog/7-best-chrome-bookmark-extensions-in-2026-(tested-ranked)",      "slug": "blog/7-best-chrome-extensions" },
+    { "url": "https://www.marqly.com/blog/what-is-bookmark-manager-how-it-works-2026-guide",               "slug": "blog/what-is-bookmark-manager" },
+    { "url": "https://www.marqly.com/blog/how-to-sync-bookmarks-across-all-your-devices-in-2026",          "slug": "blog/how-to-sync-bookmarks" },
+    { "url": "https://www.marqly.com/blog/marqly-vs-notion-for-bookmarks-which-should-you-use-in-2026",     "slug": "blog/marqly-vs-notion" },
+    { "url": "https://www.marqly.com/blog/how-to-organize-bookmarks-the-ultimate-guide-for-2026",           "slug": "blog/how-to-organize-bookmarks" },
+    { "url": "https://www.marqly.com/blog/marqly-vs-pocket-which-save-for-later-tool-is-better-in-2026",     "slug": "blog/marqly-vs-pocket" },
+    { "url": "https://www.marqly.com/blog/what-is-an-ai-bookmark-manager-complete-guide-for-2026",          "slug": "blog/what-is-ai-bookmark-manager" },
+    { "url": "https://www.marqly.com/blog/how-to-migrate-from-raindrop.io-to-marqly-complete-guide",        "slug": "blog/migrate-from-raindrop" },
+    { "url": "https://www.marqly.com/blog/best-raindrop.io-alternative-in-2026-why-users-are-switching-to-marqly", "slug": "blog/best-raindrop-alternative" },
+    { "url": "https://www.marqly.com/blog/marqly-vs-raindrop.io-the-complete-comparison-guide-(2026)",      "slug": "blog/marqly-vs-raindrop" },
+    { "url": "https://www.marqly.com/blog/beyond-browser-bookmarks-why-a-dedicated-manager-like-marqly-is-your-productivity-secret-weapon", "slug": "blog/beyond-browser-bookmarks" },
+    { "url": "https://www.marqly.com/blog/how-to-manage-your-internet-info-like-a-pro-in-2025",             "slug": "blog/manage-internet-info" },
+    { "url": "https://www.marqly.com/blog/how-to-manage-bookmarks-efficiently-a-step-by-step-guide",        "slug": "blog/manage-bookmarks-efficiently" },
+    { "url": "https://www.marqly.com/blog/why-marqly-is-the-best-bookmark-manager-for-2025",                "slug": "blog/why-marqly-best" },
+    { "url": "https://www.marqly.com/blog/top-5-bookmark-managers-in-2025",                                 "slug": "blog/top-5-bookmark-managers" }
+  ]
+}
