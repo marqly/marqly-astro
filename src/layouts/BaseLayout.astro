@@ -1,8 +1,9 @@
 ---
 import '@fontsource-variable/inter';
+import '@fontsource-variable/inter-tight';
 import '../styles/global.css';
-import Navbar from '../components/framer/Navbar.js';
-import Footer from '../components/framer/Footer.js';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 
 export interface Props {
   title: string;
@@ -12,13 +13,6 @@ export interface Props {
   ogType?: 'website' | 'article';
   /** Raw JSON-LD objects to embed as <script type="application/ld+json">. */
   jsonLd?: unknown[];
-  /** Real Framer Navbar variant for this page. */
-  navVariant?:
-    | 'Desktop / Home'
-    | 'Desktop / Pricing'
-    | 'Desktop / Exstension'
-    | 'Desktop / Blog'
-    | 'Desktop / Help';
   /** Hide the chrome (used for bare pages if ever needed). */
   bare?: boolean;
 }
@@ -30,7 +24,6 @@ const {
   ogImage = 'https://framerusercontent.com/images/7UYfhI4ZV3zLhONSnu6R2MfcM.png',
   ogType = 'website',
   jsonLd = [],
-  navVariant = 'Desktop / Home',
   bare = false,
 } = Astro.props;
 
@@ -68,58 +61,12 @@ const canonicalURL = canonical ?? new URL(Astro.url.pathname, Astro.site).href;
         <script type="application/ld+json" set:html={JSON.stringify(obj)} />
       ))
     }
-
-    <!-- Google Analytics 4 — same property as the rest of marqly.com.
-         Guarded so staging (*.workers.dev) and localhost don't pollute analytics. -->
-    <script is:inline define:vars={{ gaId: 'G-M6QHXLGPG7' }}>
-      if (location.hostname === 'marqly.com' || location.hostname.endsWith('.marqly.com')) {
-        const s = document.createElement('script');
-        s.async = true;
-        s.src = 'https://www.googletagmanager.com/gtag/js?id=' + gaId;
-        document.head.appendChild(s);
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        window.gtag = gtag;
-        gtag('js', new Date());
-        gtag('config', gaId);
-      }
-    </script>
   </head>
   <body>
-    {!bare && <Navbar client:only="react" variant={navVariant} />}
+    {!bare && <Header />}
     <main>
       <slot />
     </main>
-    {!bare && <Footer client:only="react" variant="Desktop" />}
-
-    <!-- Nav fix: Framer Link components render <a> without href and route via JS
-         that doesn't work standalone. Give them real hrefs + force navigation. -->
-    <script is:inline>
-      (function () {
-        var map = { Home: '/', Pricing: '/Pricing', Extension: '/Extension', Blog: '/blog' };
-        function apply() {
-          document.querySelectorAll('a').forEach(function (a) {
-            var t = (a.textContent || '').replace(/\s+/g, ' ').trim();
-            if (map[t] && !a.getAttribute('href')) a.setAttribute('href', map[t]);
-          });
-        }
-        apply();
-        new MutationObserver(apply).observe(document.documentElement, { childList: true, subtree: true });
-        document.addEventListener(
-          'click',
-          function (e) {
-            var a = e.target && e.target.closest ? e.target.closest('a') : null;
-            if (!a) return;
-            var t = (a.textContent || '').replace(/\s+/g, ' ').trim();
-            if (map[t]) {
-              e.preventDefault();
-              e.stopImmediatePropagation();
-              location.assign(map[t]);
-            }
-          },
-          true,
-        );
-      })();
-    </script>
+    {!bare && <Footer />}
   </body>
 </html>
