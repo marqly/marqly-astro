@@ -5,12 +5,19 @@
 
 ## TL;DR for resuming
 
-We are migrating marqly.com off Framer to **Astro (static) on a Cloudflare Worker**.
-A first hand-built clone existed but wasn't pixel-perfect (wrong font: used Inter Tight;
-real font is **Google Sans**). We have now **pivoted** to using the user's **real Framer
-components** (exported React bundles) for true pixel fidelity. The React-island pipeline
-is **validated and working** (see `/fr-test`). Next step is composing every page from the
-real components.
+Migrating marqly.com off Framer onto a **Cloudflare Worker**. After a hand-built clone (not
+pixel-perfect) and a Framer-component attempt, the user chose a **TRUE 1:1 MIRROR**. That is
+now the live approach and is **DEPLOYED**:
+- `active/scripts/build-mirror.mjs` writes each captured `page.html` → `public/<route>/index.html`,
+  rewrites `./x` links → `/x`, and injects CSS that force-shows Framer entrance-animation elements
+  (`[data-framer-appear-id]{opacity:1!important}`) so nothing stays hidden.
+- All 24 pages mirrored; assets/fonts/JS load from the framerusercontent CDN (immutable hashed URLs).
+- Hand-built Astro pages REMOVED (only `src/pages/404.astro` remains); `public/sitemap.xml` + `robots.txt` added.
+- Deployed home renders at the exact reference height (5212px) = fully rendered, pixel-identical.
+
+To rebuild the mirror after re-capturing: `node active/scripts/build-mirror.mjs && npm run build`.
+Tradeoff the user accepted: it's Framer's generated HTML (not clean/editable) and depends on the
+framerusercontent CDN for assets (could localise later from `active/logs/capture/<slug>/assets/`).
 
 ## Current status
 
