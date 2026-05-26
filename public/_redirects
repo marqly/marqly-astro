@@ -1,11 +1,1 @@
-# Cloudflare Pages redirects.
-# URL-preservation strategy: live URLs are kept 1:1 wherever possible.
-# Exceptions handled here:
-
-# /T&C contains an ampersand (bad URL practice); normalize to /terms (301 keeps SEO equity).
-/T&C   /terms   301
-/T%26C /terms   301
-
-# Junk/duplicate blog slugs → canonical (added during the blog phase):
-# /blog/7-best-chrome-bookmark-extensions-in-2026-(tested-ranked)-copy  /blog/<canonical>  301
-# /blog/7-best-chrome-bookmark-extensions-2026-tested-ranked            /blog/<canonical>  301
+# True mirror of marqly.com — live URLs served verbatim, no redirects.
