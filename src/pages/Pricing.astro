@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PricingSection from '../components/framer/PricingSection.js';
+import Faq from '../components/framer/Faq.js';
+
+const title = 'Marqly Pricing — Free & Pro Plans | AI Bookmark Manager from $0';
+const description =
+  'Compare Marqly Free vs Pro plans. Free: 50 bookmarks with basic features. Pro at $84/year: Unlimited bookmarks, AI tagging, smart organization, and more. Start free today.';
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Marqly',
+    url: 'https://www.marqly.com',
+    logo: 'https://www.marqly.com/logo.png',
+    description:
+      'Marqly is an AI-powered bookmark manager that organizes your saved links automatically with smart tagging, cross-platform sync, and reader mode.',
+    sameAs: [
+      'https://twitter.com/getMarqly',
+      'https://www.facebook.com/marqly',
+      'https://www.linkedin.com/company/marqly',
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  navVariant="Desktop / Pricing"
+  jsonLd={jsonLd}
+>
+  <PricingSection client:only="react" variant="Desktop / Anually" />
+  <Faq client:only="react" variant="Variant 1" />
+</BaseLayout>

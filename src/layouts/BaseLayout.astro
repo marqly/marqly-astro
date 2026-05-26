@@ -91,5 +91,35 @@ const canonicalURL = canonical ?? new URL(Astro.url.pathname, Astro.site).href;
       <slot />
     </main>
     {!bare && <Footer client:only="react" variant="Desktop" />}
+
+    <!-- Nav fix: Framer Link components render <a> without href and route via JS
+         that doesn't work standalone. Give them real hrefs + force navigation. -->
+    <script is:inline>
+      (function () {
+        var map = { Home: '/', Pricing: '/Pricing', Extension: '/Extension', Blog: '/blog' };
+        function apply() {
+          document.querySelectorAll('a').forEach(function (a) {
+            var t = (a.textContent || '').replace(/\s+/g, ' ').trim();
+            if (map[t] && !a.getAttribute('href')) a.setAttribute('href', map[t]);
+          });
+        }
+        apply();
+        new MutationObserver(apply).observe(document.documentElement, { childList: true, subtree: true });
+        document.addEventListener(
+          'click',
+          function (e) {
+            var a = e.target && e.target.closest ? e.target.closest('a') : null;
+            if (!a) return;
+            var t = (a.textContent || '').replace(/\s+/g, ' ').trim();
+            if (map[t]) {
+              e.preventDefault();
+              e.stopImmediatePropagation();
+              location.assign(map[t]);
+            }
+          },
+          true,
+        );
+      })();
+    </script>
   </body>
 </html>

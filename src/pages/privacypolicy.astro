@@ -1,0 +1,170 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+// SEO captured 1:1 from the live site (meta.json).
+const title = 'Marqly — AI Bookmark Manager';
+const description =
+  'Marqly is the best AI-powered bookmark manager for Chrome, Firefox, Edge & Safari. Save, organize, and find your bookmarks instantly with smart AI tagging, cross-platform sync, and offline access. Free bookmark manager to get started.';
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Marqly',
+    url: 'https://www.marqly.com',
+    logo: 'https://www.marqly.com/logo.png',
+    description:
+      'Marqly is an AI-powered bookmark manager that organizes your saved links automatically with smart tagging, cross-platform sync, and reader mode.',
+    sameAs: [
+      'https://twitter.com/getMarqly',
+      'https://www.facebook.com/marqly',
+      'https://www.linkedin.com/company/marqly',
+    ],
+  },
+];
+---
+
+<BaseLayout title={title} description={description} jsonLd={jsonLd}>
+  <article class="legal">
+    <div class="prose">
+      <h1>Privacy Policy</h1>
+
+      <p class="lead">Effective Date: 10th May 2024</p>
+
+      <p>
+        <strong>Introduction</strong> Marqly ("we," "us," or "our") values your privacy.
+        This Privacy Policy outlines how we collect, use, store, and share your information
+        when you use our website and application ("Services").
+      </p>
+
+      <p>
+        <strong>Information We Collect</strong> - Email and Profile Picture: We collect your
+        email and profile picture (if available) to facilitate sign-up and display in your
+        account and profile.
+      </p>
+
+      <p>
+        <strong>How We Use Your Information</strong> - We use your email and profile picture
+        solely for account creation, authentication, and profile display.
+      </p>
+
+      <p>
+        <strong>Sharing Your Information</strong> - We do not share your information with
+        third parties, except as described in this Privacy Policy or required by law.
+      </p>
+
+      <p>
+        <strong>Access and Storage</strong> - Your data is stored securely and accessed only
+        as necessary to provide our Services.
+      </p>
+
+      <p>
+        <strong>Google User Data</strong> - We use Google user data only as described in this
+        Privacy Policy. Our app accesses, uses, stores, or shares Google user data in
+        accordance with the permissions granted by you. - Our privacy policy is linked to the
+        OAuth Consent Screen on the Google API Console.
+      </p>
+
+      <p>
+        <strong>Your Rights</strong> - You have the right to access, update, or delete your
+        personal information. Contact us at
+        <a href="mailto:support@marqly.com">support@marqly.com</a> for any requests.
+      </p>
+
+      <p>
+        <strong>Changes to This Privacy Policy</strong> - We may update this Privacy Policy
+        from time to time. Changes will be posted on our website, and we encourage you to
+        review it periodically.
+      </p>
+
+      <p>
+        <strong>Contact Us</strong> - If you have any questions about this Privacy Policy,
+        please contact us at
+        <a href="mailto:support@marqly.com">support@marqly.com</a>.
+      </p>
+
+      <p>
+        <strong>Accessing the Privacy Policy</strong> - Our privacy policy is hosted on our
+        website and accessible from the app's home page. It is publicly available at
+        www.marqly.com/privacy-policy.
+      </p>
+
+      <p>
+        <strong>Terms and Conditions</strong> - For more details, please read our Terms of Use
+        at www.marqly.com/T&amp;C.
+      </p>
+
+      <h2>Contact Information</h2>
+
+      <p>Address: 92 Scheuvront Drive, DE, PA 90110</p>
+
+      <p>
+        <a href="mailto:support@marqly.com">Email: support@marqly.com</a>
+      </p>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .legal {
+    background: var(--color-bg);
+    padding: var(--space-24) var(--container-pad) var(--space-32);
+  }
+  .prose {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+  .prose h1 {
+    font-family: var(--font-display);
+    font-size: var(--fs-h2);
+    font-weight: 600;
+    color: var(--color-heading);
+    line-height: var(--lh-tight);
+    margin-bottom: var(--space-6);
+  }
+  .prose h2 {
+    font-family: var(--font-display);
+    font-size: var(--fs-h3);
+    font-weight: 500;
+    color: var(--color-heading);
+    line-height: var(--lh-snug);
+    margin-top: var(--space-16);
+    margin-bottom: var(--space-4);
+  }
+  .prose .lead {
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-6);
+  }
+  .prose p {
+    font-family: var(--font-sans);
+    font-size: var(--fs-base);
+    line-height: var(--lh-base);
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-4);
+  }
+  .prose strong {
+    color: var(--color-heading-soft);
+    font-weight: 600;
+  }
+  .prose a {
+    color: var(--color-link-hover);
+    text-decoration: none;
+    word-break: break-word;
+  }
+  .prose a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 810px) {
+    .legal {
+      padding-top: var(--space-16);
+      padding-bottom: var(--space-24);
+    }
+  }
+  @media (max-width: 480px) {
+    .legal {
+      padding-left: var(--space-4);
+      padding-right: var(--space-4);
+    }
+  }
+</style>
