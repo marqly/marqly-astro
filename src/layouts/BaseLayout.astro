@@ -1,8 +1,8 @@
 ---
 import '@fontsource-variable/inter';
 import '../styles/global.css';
-import Navbar from '../components/framer/Navbar.js';
-import Footer from '../components/framer/Footer.js';
+import Navbar from '../components/ResponsiveNavbar.jsx';
+import Footer from '../components/ResponsiveFooter.jsx';
 
 export interface Props {
   title: string;
@@ -84,7 +84,7 @@ const canonicalURL = canonical ?? new URL(Astro.url.pathname, Astro.site).href;
   <body>
     {!bare && (
       <div class="fr-chrome">
-        <Navbar client:only="react" variant={navVariant} />
+        <Navbar client:only="react" desktopVariant={navVariant} />
       </div>
     )}
     <main>
@@ -92,7 +92,7 @@ const canonicalURL = canonical ?? new URL(Astro.url.pathname, Astro.site).href;
     </main>
     {!bare && (
       <div class="fr-chrome">
-        <Footer client:only="react" variant="Desktop" />
+        <Footer client:only="react" />
       </div>
     )}
 
