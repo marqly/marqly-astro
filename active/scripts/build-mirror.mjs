@@ -25,6 +25,32 @@ const REVEAL_CSS = `<style id="mirror-reveal">
 .framer-appear,[data-framer-appear-id] *{opacity:1 !important;}
 </style>`;
 
+// Framer renders nav items as <a> WITHOUT href and navigates via JS that doesn't
+// run in the static mirror. Inject real hrefs + a capture-phase click handler so
+// every nav link/logo works as a normal browser link.
+const NAV_FIX = `<script id="mirror-navfix">
+(function(){
+  var map={'Home':'/','Pricing':'/Pricing','Extension':'/Extension','Blog':'/blog'};
+  function apply(){
+    document.querySelectorAll('a').forEach(function(a){
+      var t=(a.textContent||'').replace(/\\s+/g,' ').trim();
+      var h=a.getAttribute('href');
+      if(map[t] && (!h || h==='./' || h==='/#')) a.setAttribute('href',map[t]);
+      // logo: an anchor with no href and no text (icon only) -> home
+      if((!h||h==='./') && !t) a.setAttribute('href','/');
+    });
+  }
+  apply();
+  new MutationObserver(apply).observe(document.documentElement,{childList:true,subtree:true});
+  document.addEventListener('click',function(e){
+    var a=e.target&&e.target.closest?e.target.closest('a'):null;
+    if(!a) return;
+    var t=(a.textContent||'').replace(/\\s+/g,' ').trim();
+    if(map[t]){ e.preventDefault(); e.stopImmediatePropagation(); location.assign(map[t]); }
+  },true);
+})();
+</script>`;
+
 function fixHtml(html) {
   let out = html;
   // Rewrite Framer relative nav links "./X" -> "/X" (so they work from nested routes)
@@ -33,6 +59,8 @@ function fixHtml(html) {
   out = out.replace(/location\.host[^<]*?marqly\.com[^<]*?(?=<\/script>)/gi, '/* redirect neutralised */');
   // Inject the reveal override at the very end of <head> so it wins specificity/order.
   out = out.replace(/<\/head>/i, `${REVEAL_CSS}</head>`);
+  // Inject the navigation fix just before </body>.
+  out = out.replace(/<\/body>/i, `${NAV_FIX}</body>`);
   return out;
 }
 
