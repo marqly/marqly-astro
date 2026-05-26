@@ -53,6 +53,12 @@ const NAV_FIX = `<script id="mirror-navfix">
 
 function fixHtml(html) {
   let out = html;
+  // Strip ALL Framer JS (keep JSON-LD). The half-hydrating SPA router hijacks
+  // navigation; with no scripts the page is stable static HTML and the injected
+  // hrefs navigate normally. (Loses JS-only UI: mobile menu, accordions, animations.)
+  out = out.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, (m) =>
+    /application\/ld\+json/i.test(m) ? m : '');
+  out = out.replace(/<script\b[^>]*\/>/gi, '');
   // Rewrite Framer relative nav links "./X" -> "/X" (so they work from nested routes)
   out = out.replace(/href="\.\//g, 'href="/');
   // Neutralise any domain-canonical redirect script Framer injects (keeps us on our host).
