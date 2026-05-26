@@ -1,0 +1,290 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import { Image } from 'astro:assets';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  post: CollectionEntry<'blog'>;
+}
+
+const { post } = Astro.props;
+const { data } = post;
+const slug = post.id;
+const url = `https://www.marqly.com/blog/${slug}`;
+
+const fmtDate = (d: Date) =>
+  d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
+const blogPosting = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: data.title,
+  description: data.description,
+  datePublished: data.pubDate.toISOString(),
+  dateModified: (data.updatedDate ?? data.pubDate).toISOString(),
+  author: { '@type': 'Organization', name: 'Marqly', url: 'https://www.marqly.com' },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Marqly',
+    logo: { '@type': 'ImageObject', url: 'https://www.marqly.com/favicon.png' },
+  },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+  ...(data.ogImage ? { image: data.ogImage } : {}),
+  ...(data.tags.length ? { keywords: data.tags.join(', ') } : {}),
+};
+
+const breadcrumb = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.marqly.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.marqly.com/blog' },
+    { '@type': 'ListItem', position: 3, name: data.title, item: url },
+  ],
+};
+
+const faqPage = data.faqs.length
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: data.faqs.map((f) => ({
+        '@type': 'Question',
+        name: f.q,
+        acceptedAnswer: { '@type': 'Answer', text: f.a },
+      })),
+    }
+  : null;
+
+const jsonLd = [blogPosting, breadcrumb, ...(faqPage ? [faqPage] : [])];
+---
+
+<BaseLayout
+  title={data.seoTitle ?? data.title}
+  description={data.description}
+  canonical={url}
+  ogImage={data.ogImage}
+  ogType="article"
+  navVariant="Desktop / Blog"
+  jsonLd={jsonLd}
+>
+  <article class="post">
+    <header class="post-header">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a><span>/</span><a href="/blog">Blog</a>
+      </nav>
+      <p class="kicker">{data.category}</p>
+      <h1>{data.title}</h1>
+      <p class="dek">{data.description}</p>
+      <div class="byline">
+        <span>Marqly Team</span>
+        <span class="dot">·</span>
+        <time datetime={data.pubDate.toISOString()}>{fmtDate(data.pubDate)}</time>
+        {data.updatedDate && (
+          <>
+            <span class="dot">·</span>
+            <span>Updated {fmtDate(data.updatedDate)}</span>
+          </>
+        )}
+      </div>
+    </header>
+
+    {data.heroImage && (
+      <figure class="hero">
+        <Image src={data.heroImage} alt={data.heroAlt ?? data.title} widths={[480, 800, 1200]} sizes="(max-width: 760px) 100vw, 760px" />
+      </figure>
+    )}
+
+    <div class="post-body">
+      <slot />
+    </div>
+
+    {data.faqs.length > 0 && (
+      <section class="faq" aria-labelledby="faq-heading">
+        <h2 id="faq-heading">Frequently asked questions</h2>
+        <dl>
+          {data.faqs.map((f) => (
+            <div class="faq-item">
+              <dt>{f.q}</dt>
+              <dd>{f.a}</dd>
+            </div>
+          ))}
+        </dl>
+      </section>
+    )}
+
+    <aside class="post-cta">
+      <h2>Stop losing what you save.</h2>
+      <p>Marqly turns everything you bookmark into a searchable, AI-powered second brain. Ask it anything — find saves by meaning, not keywords.</p>
+      <a class="cta-btn" href={data.ctaUrl}>{data.ctaLabel} →</a>
+    </aside>
+  </article>
+</BaseLayout>
+
+<style>
+  .post {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: var(--space-16) var(--space-6) var(--space-24);
+  }
+
+  .crumbs {
+    display: flex;
+    gap: var(--space-2);
+    font-size: var(--fs-sm);
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-8);
+  }
+  .crumbs a:hover { color: var(--color-link-hover); }
+
+  .kicker {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: var(--fs-xs);
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-bottom: var(--space-3);
+  }
+
+  .post-header h1 {
+    font-family: var(--font-display);
+    font-size: var(--fs-h1);
+    color: var(--color-heading);
+    margin-bottom: var(--space-4);
+  }
+
+  .dek {
+    font-size: var(--fs-lg);
+    line-height: var(--lh-snug);
+    color: var(--color-text-soft);
+    margin-bottom: var(--space-6);
+  }
+
+  .byline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--fs-sm);
+    color: var(--color-text-muted);
+  }
+  .byline .dot { opacity: 0.5; }
+
+  .hero {
+    margin: var(--space-12) 0;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    border: 1px solid var(--color-border);
+  }
+  .hero :global(img) { width: 100%; height: auto; }
+
+  /* Article body */
+  .post-body {
+    font-size: 1.125rem;
+    line-height: 1.75;
+    color: var(--color-heading-soft);
+  }
+  .post-body :global(h2) {
+    font-size: var(--fs-h2);
+    margin: var(--space-12) 0 var(--space-4);
+    scroll-margin-top: 100px;
+  }
+  .post-body :global(h3) {
+    font-size: var(--fs-h3);
+    margin: var(--space-8) 0 var(--space-3);
+  }
+  .post-body :global(p) { margin: var(--space-4) 0; }
+  .post-body :global(ul),
+  .post-body :global(ol) { margin: var(--space-4) 0; padding-left: var(--space-6); }
+  .post-body :global(li) { margin: var(--space-2) 0; }
+  .post-body :global(a) {
+    color: var(--color-primary);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .post-body :global(a:hover) { color: var(--color-primary-hover); }
+  .post-body :global(strong) { color: var(--color-heading); font-weight: 600; }
+  .post-body :global(img) {
+    border-radius: var(--radius-md);
+    margin: var(--space-8) 0;
+    border: 1px solid var(--color-border);
+  }
+  .post-body :global(blockquote) {
+    border-left: 3px solid var(--color-primary);
+    padding-left: var(--space-6);
+    margin: var(--space-8) 0;
+    color: var(--color-text-soft);
+    font-style: italic;
+  }
+  .post-body :global(code) {
+    font-family: var(--font-mono);
+    font-size: 0.9em;
+    background: var(--color-bg-alt);
+    padding: 0.15em 0.4em;
+    border-radius: var(--radius-sm);
+  }
+  .post-body :global(hr) {
+    border: 0;
+    border-top: 1px solid var(--color-border);
+    margin: var(--space-12) 0;
+  }
+  .post-body :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: var(--space-8) 0;
+    font-size: var(--fs-base);
+  }
+  .post-body :global(th),
+  .post-body :global(td) {
+    text-align: left;
+    padding: var(--space-3) var(--space-4);
+    border-bottom: 1px solid var(--color-border);
+  }
+  .post-body :global(th) {
+    background: var(--color-bg-alt);
+    color: var(--color-heading);
+    font-weight: 600;
+  }
+
+  /* FAQ */
+  .faq {
+    margin-top: var(--space-16);
+    padding-top: var(--space-12);
+    border-top: 1px solid var(--color-border);
+  }
+  .faq h2 { font-size: var(--fs-h3); margin-bottom: var(--space-6); }
+  .faq-item { padding: var(--space-4) 0; border-bottom: 1px solid var(--color-border); }
+  .faq dt {
+    font-family: var(--font-display);
+    font-weight: 600;
+    color: var(--color-heading);
+    font-size: var(--fs-lg);
+    margin-bottom: var(--space-2);
+  }
+  .faq dd { margin: 0; color: var(--color-text-soft); line-height: var(--lh-base); }
+
+  /* CTA */
+  .post-cta {
+    margin-top: var(--space-16);
+    padding: var(--space-12);
+    background: var(--color-bg-alt);
+    border-radius: var(--radius-xl);
+    text-align: center;
+  }
+  .post-cta h2 { font-size: var(--fs-h3); margin-bottom: var(--space-3); }
+  .post-cta p { color: var(--color-text-soft); max-width: 48ch; margin: 0 auto var(--space-6); }
+  .cta-btn {
+    display: inline-block;
+    background: var(--color-primary);
+    color: var(--color-on-primary);
+    font-weight: 600;
+    padding: var(--space-4) var(--space-8);
+    border-radius: var(--radius-pill);
+    transition: background 0.15s ease;
+  }
+  .cta-btn:hover { background: var(--color-primary-hover); }
+
+  @media (max-width: 760px) {
+    .post { padding: var(--space-12) var(--space-4) var(--space-16); }
+    .post-cta { padding: var(--space-8) var(--space-6); }
+  }
+</style>
