@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
+import react from '@astrojs/react';
 import cloudflare from '@astrojs/cloudflare';
 
 // https://astro.build/config
@@ -11,7 +12,7 @@ import cloudflare from '@astrojs/cloudflare';
 export default defineConfig({
   site: 'https://www.marqly.com',
   trailingSlash: 'ignore',
-  integrations: [mdx(), sitemap()],
+  integrations: [react(), mdx(), sitemap()],
   adapter: cloudflare({
     platformProxy: { enabled: true },
   }),

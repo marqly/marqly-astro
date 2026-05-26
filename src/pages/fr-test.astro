@@ -1,0 +1,26 @@
+---
+// Throwaway validation page for the real Framer components. Deleted after verifying.
+import Navbar from '../components/framer/Navbar.js';
+import Footer from '../components/framer/Footer.js';
+import CtaButton from '../components/framer/CtaButton.js';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Framer component test</title>
+    <style>
+      body { margin: 0; font-family: sans-serif; }
+      .spacer { height: 80px; display: grid; place-items: center; color: #999; }
+    </style>
+  </head>
+  <body>
+    <Navbar client:only="react" variant="Desktop / Home" />
+    <div class="spacer">— real Navbar above / CTA below —</div>
+    <CtaButton client:only="react" />
+    <div class="spacer">— Footer below —</div>
+    <Footer client:only="react" variant="Desktop" />
+  </body>
+</html>
