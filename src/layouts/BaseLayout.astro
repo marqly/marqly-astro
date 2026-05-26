@@ -68,6 +68,22 @@ const canonicalURL = canonical ?? new URL(Astro.url.pathname, Astro.site).href;
         <script type="application/ld+json" set:html={JSON.stringify(obj)} />
       ))
     }
+
+    <!-- Google Analytics 4 — same property as the rest of marqly.com.
+         Guarded so staging (*.workers.dev) and localhost don't pollute analytics. -->
+    <script is:inline define:vars={{ gaId: 'G-M6QHXLGPG7' }}>
+      if (location.hostname === 'marqly.com' || location.hostname.endsWith('.marqly.com')) {
+        const s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=' + gaId;
+        document.head.appendChild(s);
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', gaId);
+      }
+    </script>
   </head>
   <body>
     {!bare && <Navbar client:only="react" variant={navVariant} />}
