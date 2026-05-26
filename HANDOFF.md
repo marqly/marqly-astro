@@ -21,11 +21,21 @@ DONE & committed:
 - Screenshot-diff harness (`active/scripts/diff.mjs`) + capture script (`active/scripts/capture.mjs`).
 - Shared shell `BaseLayout` (full SEO + JSON-LD), and first-pass pages: Home, Pricing, Extension, terms, privacypolicy, vs/raindrop.
 
-IN PROGRESS (the pivot — may be uncommitted/WIP):
+DONE (pivot — committed + DEPLOYED to staging 2026-05-26):
 - Added `@astrojs/react` + React 18 + framer-motion 11.
-- Downloaded the 7 unique real Framer components → `src/components/framer/`:
-  `Navbar.js, Footer.js, PricingSection.js, Faq.js, CtaButton.js, HeroCircle.js, AiCircle.js` + `_framer-runtime.js` (1.9 MB, must stay in same dir).
-- Validated rendering via throwaway page `src/pages/fr-test.astro` → renders pixel-perfect, no console errors.
+- 7 real Framer components in `src/components/framer/` + `_framer-runtime.js` (1.9 MB, must stay in same dir).
+- `BaseLayout` now renders the REAL Navbar (prop `navVariant`) + Footer as `client:only="react"` — every page has pixel-perfect chrome.
+- `/Pricing` rebuilt from real `PricingSection` (`Desktop / Anually`) + `Faq` (`Variant 1`) → 1:1 pixel-perfect, verified on the live staging URL.
+- `src/pages/fr-test.astro` still exists (proof page) — DELETE when done.
+
+KEY BLOCKER for 100% on other pages:
+- The Framer export only included 7 REUSABLE components — NOT the page-body sections
+  (home hero text block, "Everything you need" feature grid, testimonials, the Desktop/Mobile
+  section, Extension hero/cards, the blog post layout). Those were built on the Framer canvas,
+  not as components, so we don't have their code. Home/Extension/Terms/Privacy BODIES are still
+  hand-built approximations (real chrome around them).
+- TO FINISH 100%: ask the user to export those page sections via the same Framer plugin and add
+  them to `src/components/framer/`, then compose the pages from them (like /Pricing).
 
 ## NEXT STEPS (do these in order)
 
