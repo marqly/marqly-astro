@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import ResponsivePricing from '../components/ResponsivePricing.jsx';
+import PricingSection from '../components/PricingSection.astro';
 import Faq from '../components/framer/Faq.js';
 
 const title = 'Marqly Pricing — Free & Pro Plans | AI Bookmark Manager from $0';
@@ -9,6 +9,6 @@ const description =
 ---
 
 <BaseLayout title={title} description={description} navVariant="Desktop / Pricing">
-  <div class="fr-chrome"><ResponsivePricing client:only="react" /></div>
+  <PricingSection />
   <div class="fr-chrome"><Faq client:only="react" /></div>
 </BaseLayout>
