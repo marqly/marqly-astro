@@ -22,8 +22,15 @@ const description =
     display: flex;
     justify-content: center;
     width: 100%;
+    /* Breathing room above the FAQ (from the plan cards) and below (to the footer) */
+    padding-block: var(--space-32);
   }
   .faq-center :global(.framer-15hz13w) {
     max-width: 100%;
+  }
+  @media (max-width: 810px) {
+    .faq-center {
+      padding-block: var(--space-24);
+    }
   }
 </style>
