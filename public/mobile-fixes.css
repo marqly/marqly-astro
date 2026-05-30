@@ -1,0 +1,59 @@
+/* ------------------------------------------------------------------ *
+ * Mobile stopgap fixes for the static Framer-capture pages
+ * (Home, Extension, T&C, Privacy, vs/raindrop).
+ *
+ * These pages are frozen Framer HTML captures whose responsive
+ * breakpoint variants don't switch, so at phone widths the desktop
+ * navbar overflows and decorative stickers overlap the hero. This file
+ * condenses the header and hides/right-sizes the messy decorations on
+ * small screens. It is intentionally surgical — the real fix is the
+ * planned rebuild of these pages as Astro on the shared BaseLayout +
+ * ResponsiveNavbar (which already gives Pricing/Blog a proper hamburger).
+ *
+ * Selectors are either page-agnostic (data-framer-name, navbar-scoped)
+ * or page-specific (harmless where they don't match), so one shared file
+ * can be linked from every static page.
+ * ------------------------------------------------------------------ */
+
+@media (max-width: 600px) {
+  /* --- Shared header: condense the overflowing desktop navbar --------
+     Hide the cramped inline nav links, let the row fit the viewport, and
+     collapse the fixed-width CTA so the logo + auth buttons sit cleanly.
+     Scoped to the navbar so footer menus are untouched. */
+  [data-framer-name="Components / Navbar"] [data-framer-name="Menu"] {
+    display: none !important;
+  }
+  [data-framer-name="Components / Navbar"] [data-framer-name^="Desktop /"] {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  [data-framer-name="Components / Navbar"] [data-framer-name="CTA"] {
+    width: auto !important;
+    flex: 0 0 auto !important;
+    min-width: 0 !important;
+    gap: 8px !important;
+  }
+
+  /* --- Home: hide draggable emoji/folder stickers + brain that overlap
+     the hero text and the "Get Started for Free" button. */
+  .framer-1tcvu7,
+  [data-framer-name="🧠"] {
+    display: none !important;
+  }
+
+  /* --- Extension: hide the floating browser-logo cluster that overlaps
+     the hero title, and shrink the oversized hero headings. */
+  [data-framer-name="Hero Icons"] {
+    display: none !important;
+  }
+  .framer-q9ldkz,
+  .framer-q9ldkz * {
+    font-size: 40px !important;
+    line-height: 1.05 !important;
+  }
+  .framer-1vwn2dw,
+  .framer-1vwn2dw * {
+    font-size: 42px !important;
+    line-height: 1.05 !important;
+  }
+}
