@@ -10,5 +10,20 @@ const description =
 
 <BaseLayout title={title} description={description} navVariant="Desktop / Pricing">
   <PricingSection />
-  <div class="fr-chrome"><Faq client:only="react" /></div>
+  <div class="faq-center"><Faq client:only="react" /></div>
 </BaseLayout>
+
+<style>
+  /* The Framer FAQ root is a fixed-width block; BaseLayout's .fr-chrome centering
+     rule is scoped to BaseLayout and doesn't reach a wrapper authored here, so
+     center it explicitly. (display:contents on the astro-island means the Framer
+     root becomes the flex item.) */
+  .faq-center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .faq-center :global(.framer-15hz13w) {
+    max-width: 100%;
+  }
+</style>
