@@ -1,0 +1,398 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import heroApp from '../assets/images/home/hero-app.png';
+import featureDesktop from '../assets/images/home/feature-desktop.png';
+import featureMobile from '../assets/images/home/feature-mobile.png';
+import browsers from '../assets/images/home/browsers.avif';
+import avatarAdrian from '../assets/images/home/avatar-adrian.avif';
+import avatarMichael from '../assets/images/home/avatar-michael.avif';
+import avatarChenten from '../assets/images/home/avatar-chenten.avif';
+
+const APP = 'https://app.marqly.com/';
+const CHROME = 'https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc';
+
+const title = 'Marqly — AI Bookmark Manager | Organize Smarter, Find Faster';
+const description =
+  'Marqly is the AI-powered bookmark manager that organizes your saved links automatically. Smart tagging, cross-platform sync, and reader mode. Start free — no card required.';
+const canonical = 'https://www.marqly.com/';
+
+const features = [
+  {
+    title: 'AI Auto-Organize',
+    body: 'Links land where they belong with accurate tags applied instantly by AI.',
+    icon: 'M12 3l1.9 4.6L18.5 9l-4.6 1.9L12 15l-1.9-4.1L5.5 9l4.6-1.4L12 3z',
+  },
+  {
+    title: 'Instant Search',
+    body: 'Find any bookmark instantly by text, tag, date, or URL.',
+    icon: 'M11 4a7 7 0 1 0 4.2 12.6L20 21M11 4a7 7 0 0 1 0 14',
+  },
+  {
+    title: 'Offline Mode & Link Health',
+    body: 'Full access without a connection. Know when saved links break or go stale.',
+    icon: 'M12 3v18M5 8l7-5 7 5M4 13h16M6 13v6h12v-6',
+  },
+  {
+    title: 'Reader View & AI Summaries',
+    body: 'Get the context without reopening pages. Distraction-free reading built in.',
+    icon: 'M4 5h16M4 9h16M4 13h10M4 17h10',
+  },
+];
+
+const testimonials = [
+  {
+    name: 'Chenten',
+    avatar: avatarChenten,
+    quote:
+      'Great bookmarking tool with a user-friendly interface. Absolutely a great way to save your bookmarks.',
+  },
+  {
+    name: 'Adrian',
+    avatar: avatarAdrian,
+    quote:
+      'I love the simplicity of Marqly. It allows me to manage all of my bookmarks in a single place.',
+  },
+  {
+    name: 'Michael',
+    avatar: avatarMichael,
+    quote: 'Fantastic way to organize bookmarks. Highly recommended!',
+  },
+];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonical={canonical}
+  navVariant="Desktop / Home"
+>
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="container">
+      <span class="eyebrow">✦ Introducing Marqly 5.0 ✦</span>
+      <h1 class="hero-title">
+        The Bookmark Manager <span class="grad">supercharged with AI.</span>
+      </h1>
+      <p class="hero-sub">
+        The free bookmark manager that reads, tags, and organizes every link you save.
+        Search by context, not keywords. Welcome to the future of bookmarks.
+      </p>
+      <a href={APP} class="btn btn-dark">Get Started for Free →</a>
+      <p class="micro">No card required</p>
+
+      <div class="hero-shot">
+        <Image
+          src={heroApp}
+          alt="Marqly bookmark manager dashboard"
+          widths={[480, 800, 1200, 1600]}
+          sizes="(max-width: 980px) 94vw, 1100px"
+          loading="eager"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Everything you need ===== -->
+  <section class="everything">
+    <div class="container">
+      <h2 class="section-title">Everything you need in a bookmark manager</h2>
+      <p class="section-sub">
+        Rebuilt from the ground up with AI at the core. Marqly brings lightning-fast
+        performance, smart auto-tagging, and a beautiful new interface.
+      </p>
+      <ul class="features">
+        {features.map((f) => (
+          <li class="feature-card">
+            <span class="feat-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d={f.icon} />
+              </svg>
+            </span>
+            <h3 class="feat-title">{f.title}</h3>
+            <p class="feat-body">{f.body}</p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== Desktop & Mobile ===== -->
+  <section class="devices">
+    <div class="container">
+      <p class="eyebrow-soft">Blazing Fast. Beautifully Calm.</p>
+      <h2 class="section-title">Bookmark Manager for Desktop &amp; Mobile</h2>
+      <a href={APP} class="btn btn-dark">Try Marqly Now →</a>
+
+      <div class="devices-shots">
+        <Image
+          class="dev-laptop"
+          src={featureDesktop}
+          alt="Marqly on desktop"
+          widths={[360, 600, 880]}
+          sizes="(max-width: 810px) 88vw, 560px"
+          loading="lazy"
+        />
+        <Image
+          class="dev-phone"
+          src={featureMobile}
+          alt="Marqly on mobile"
+          widths={[180, 320]}
+          sizes="(max-width: 810px) 40vw, 220px"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Testimonials ===== -->
+  <section class="loved">
+    <div class="container">
+      <h2 class="section-title">Loved by people.</h2>
+      <p class="section-sub">What do people think about our product</p>
+      <a href={APP} class="btn btn-dark">Sign up now →</a>
+
+      <ul class="testimonials">
+        {testimonials.map((t) => (
+          <li class="tcard">
+            <p class="tquote">{t.quote}</p>
+            <div class="tmeta">
+              <Image class="tavatar" src={t.avatar} alt={t.name} width={44} height={44} />
+              <span class="tname">{t.name}</span>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== Tab Saver / Extension CTA ===== -->
+  <section class="tabsaver">
+    <div class="container">
+      <h2 class="section-title">Free Bookmark Manager Extension with Tab Saver</h2>
+      <p class="section-sub">
+        Save bookmarks from Chrome, Edge, and Firefox with one click. Tab Saver collapses
+        all your open tabs and reduces memory usage by up to 95%.
+      </p>
+      <a href={CHROME} class="btn btn-dark" target="_blank" rel="noopener">Install Free Extension</a>
+      <div class="browsers-shot">
+        <Image src={browsers} alt="Available on Chrome, Firefox, Edge and Safari" widths={[260, 440]} sizes="(max-width: 810px) 60vw, 360px" loading="lazy" />
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .container { width: min(100% - 2rem, 1140px); margin-inline: auto; }
+
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    color: #7749f6;
+    background: #f3effe;
+    border-radius: var(--radius-pill);
+    padding: 0.35rem 0.9rem;
+  }
+  .eyebrow-soft {
+    font-family: var(--font-display);
+    font-size: var(--fs-base);
+    font-weight: 600;
+    color: var(--color-text);
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    font-family: var(--font-display);
+    font-size: var(--fs-lg);
+    font-weight: 600;
+    padding: 0.85rem 1.6rem;
+    border-radius: var(--radius-pill);
+    transition: transform 0.15s ease;
+  }
+  .btn:hover { transform: translateY(-1px); }
+  .btn-dark { background: #000; color: #fff; }
+
+  /* ===== Hero ===== */
+  .hero { padding-top: var(--space-16); text-align: center; }
+  .hero-title {
+    margin-top: var(--space-6);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(2.5rem, 7vw, 4.5rem);
+    line-height: 1.05;
+    color: var(--color-heading);
+    max-width: 16ch;
+    margin-inline: auto;
+  }
+  .hero-title .grad {
+    background: linear-gradient(90deg, #2b9bff 0%, #6a5bff 50%, #8b3bff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .hero-sub {
+    margin-top: var(--space-6);
+    font-family: var(--font-display);
+    font-size: var(--fs-lg);
+    color: var(--color-text);
+    max-width: 44ch;
+    margin-inline: auto;
+    line-height: var(--lh-snug);
+  }
+  .btn-dark { margin-top: var(--space-8); }
+  .micro {
+    margin-top: var(--space-3);
+    font-size: var(--fs-sm);
+    color: var(--color-text);
+  }
+  .hero-shot {
+    margin-top: var(--space-12);
+  }
+  .hero-shot :global(img) {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: var(--shadow-md);
+  }
+
+  /* ===== Everything ===== */
+  .everything { padding-block: var(--space-32); text-align: center; }
+  .section-title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    line-height: var(--lh-tight);
+    color: var(--color-heading);
+    max-width: 20ch;
+    margin-inline: auto;
+  }
+  .section-sub {
+    margin-top: var(--space-5);
+    font-family: var(--font-display);
+    font-size: var(--fs-lg);
+    color: var(--color-text);
+    max-width: 52ch;
+    margin-inline: auto;
+    line-height: var(--lh-snug);
+  }
+  .everything-shot { margin-top: var(--space-12); }
+
+  .features {
+    list-style: none;
+    margin-top: var(--space-12);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-6);
+    text-align: left;
+  }
+  .feature-card {
+    background: #f7f7fb;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-8);
+  }
+  .feat-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    border-radius: 12px;
+    background: #ece6fe;
+    color: #7749f6;
+  }
+  .feat-title {
+    margin-top: var(--space-5);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: var(--fs-xl);
+    color: var(--color-heading);
+  }
+  .feat-body {
+    margin-top: var(--space-3);
+    font-family: var(--font-display);
+    font-size: var(--fs-base);
+    color: var(--color-heading-soft);
+    line-height: var(--lh-snug);
+  }
+
+  /* ===== Devices ===== */
+  .devices { padding-bottom: var(--space-32); text-align: center; }
+  .devices .btn-dark { margin-top: var(--space-6); }
+  .devices-shots {
+    margin-top: var(--space-12);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: var(--space-6);
+  }
+  .devices-shots :global(.dev-laptop) {
+    width: min(88vw, 560px);
+    height: auto;
+    border-radius: 14px;
+    border: 1px solid var(--color-border);
+    background: #fff;
+    box-shadow: var(--shadow-md);
+  }
+  .devices-shots :global(.dev-phone) {
+    width: clamp(120px, 22vw, 200px);
+    height: auto;
+    border-radius: 22px;
+    border: 1px solid var(--color-border);
+    background: #fff;
+    box-shadow: var(--shadow-md);
+  }
+
+  /* ===== Testimonials ===== */
+  .loved { padding-bottom: var(--space-32); text-align: center; }
+  .loved .btn-dark { margin-top: var(--space-6); }
+  .testimonials {
+    list-style: none;
+    margin-top: var(--space-12);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-6);
+    text-align: left;
+  }
+  .tcard {
+    background: #fff;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-8);
+    box-shadow: var(--shadow-sm);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-6);
+  }
+  .tquote {
+    font-family: var(--font-display);
+    font-size: var(--fs-base);
+    color: var(--color-heading-soft);
+    line-height: var(--lh-snug);
+  }
+  .tmeta { display: flex; align-items: center; gap: var(--space-3); margin-top: auto; }
+  .tmeta :global(.tavatar) { width: 44px; height: 44px; border-radius: 50%; }
+  .tname { font-family: var(--font-display); font-weight: 600; color: var(--color-heading); }
+
+  /* ===== Tab Saver ===== */
+  .tabsaver { padding-bottom: var(--space-32); text-align: center; }
+  .tabsaver .btn-dark { margin-top: var(--space-6); }
+  .browsers-shot { margin-top: var(--space-12); display: flex; justify-content: center; }
+  .browsers-shot :global(img) { width: min(60%, 360px); height: auto; }
+
+  @media (max-width: 810px) {
+    .hero { padding-top: var(--space-12); }
+    .everything, .devices, .loved, .tabsaver { padding-block: var(--space-24); }
+    .devices, .loved, .tabsaver { padding-top: 0; }
+    .features { grid-template-columns: 1fr; gap: var(--space-5); }
+    .testimonials { grid-template-columns: 1fr; gap: var(--space-5); }
+    .devices-shots { flex-direction: column; align-items: center; gap: var(--space-5); }
+  }
+</style>
