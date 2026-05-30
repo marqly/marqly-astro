@@ -1,0 +1,290 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import heroLaptop from '../assets/images/extension/hero-laptop.webp';
+import heroPhone from '../assets/images/extension/hero-phone.avif';
+import websiteLaptop from '../assets/images/extension/website-laptop.webp';
+import mobilePhone from '../assets/images/extension/mobile-phone-a.avif';
+
+const APP = 'https://app.marqly.com/';
+const CHROME = 'https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc';
+
+const title = 'Bookmark Manager Extension for Chrome, Firefox & Edge | Marqly';
+const description =
+  'Download the Marqly bookmark manager extension for Chrome, Firefox, Edge, and Safari. Save bookmarks with one click, auto-organize with AI tagging, and save tabs to reduce memory usage by 95%. Free to install.';
+const canonical = 'https://www.marqly.com/Extension';
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonical={canonical}
+  navVariant="Desktop / Exstension"
+>
+  <!-- ===== Hero ===== -->
+  <section class="ext-hero">
+    <div class="container">
+      <span class="eyebrow">✦ Available Now ✦</span>
+      <h1 class="hero-title">Access Marqly<br />anywhere.</h1>
+      <p class="hero-sub">Collect and browse bookmarks you like more easily accessible</p>
+      <a href={APP} class="btn btn-blue">Start for Free</a>
+
+      <div class="hero-shots">
+        <Image
+          class="shot-laptop"
+          src={heroLaptop}
+          alt="Marqly bookmark manager open in a desktop browser"
+          widths={[480, 800, 1100]}
+          sizes="(max-width: 810px) 92vw, 760px"
+          loading="eager"
+        />
+        <Image
+          class="shot-phone"
+          src={heroPhone}
+          alt="Marqly on a phone"
+          widths={[160, 280]}
+          sizes="(max-width: 810px) 34vw, 180px"
+          loading="eager"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Any device ===== -->
+  <section class="ext-devices">
+    <div class="container">
+      <span class="eyebrow">✦ Install Marqly ✦</span>
+      <h2 class="section-title">Access Marqly<br />on any device</h2>
+
+      <div class="device-cards">
+        <!-- Website / browser extension -->
+        <article class="device-card">
+          <h3 class="card-title">Website</h3>
+          <p class="card-sub">Access it from any browser</p>
+          <a href={CHROME} class="btn btn-dark" target="_blank" rel="noopener">
+            <span class="dl-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3v12" /><path d="M7 10l5 5 5-5" /><path d="M5 21h14" />
+              </svg>
+            </span>
+            Install Extensions
+          </a>
+          <div class="card-shot">
+            <Image
+              src={websiteLaptop}
+              alt="Marqly running in a web browser"
+              widths={[400, 640, 900]}
+              sizes="(max-width: 810px) 90vw, 440px"
+              loading="lazy"
+            />
+          </div>
+        </article>
+
+        <!-- Mobile app -->
+        <article class="device-card">
+          <h3 class="card-title">Mobile App</h3>
+          <p class="card-sub">Coming Soon</p>
+          <div class="store-badges">
+            <span class="store-badge is-soon">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M16.365 1.43c0 1.14-.42 2.2-1.13 2.99-.85.95-2.24 1.69-3.4 1.6-.14-1.12.41-2.31 1.08-3.05.76-.85 2.08-1.48 3.2-1.54.02 0 .16 0 .25 0zM20.5 17.04c-.55 1.28-.82 1.85-1.53 2.98-.99 1.58-2.39 3.54-4.12 3.55-1.54.02-1.93-1-4.02-.99-2.09.01-2.52 1.01-4.06.99-1.73-.02-3.05-1.79-4.04-3.36-2.77-4.4-3.06-9.56-1.35-12.3 1.21-1.95 3.13-3.09 4.93-3.09 1.84 0 2.99 1.01 4.51 1.01 1.47 0 2.37-1.01 4.5-1.01 1.6 0 3.3.87 4.51 2.38-3.97 2.17-3.32 7.84.22 9.84z"/></svg>
+              iOS
+            </span>
+            <span class="store-badge is-soon">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M3.5 20.3c.1.5.5.9 1 1.1L14 16l-2.4-2.4L3.5 20.3zM3 4.2v15.6c0 .1 0 .2.1.3L11.6 12 3.1 3.9c-.1.1-.1.2-.1.3zm14.6 5.4L5.1 2.6l-.6-.2L13 11l4.6-1.4zM20.5 10.6l-2.5-1.4L15.3 12l2.7 2.8 2.5-1.4c.8-.5.8-1.9 0-2.4z"/></svg>
+              Android
+            </span>
+          </div>
+          <div class="card-shot card-shot--phones">
+            <Image
+              src={mobilePhone}
+              alt="Marqly mobile app preview"
+              widths={[260, 420]}
+              sizes="(max-width: 810px) 70vw, 300px"
+              loading="lazy"
+            />
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .container {
+    width: min(100% - 2rem, 1080px);
+    margin-inline: auto;
+  }
+
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    color: #7749f6;
+    background: #f3effe;
+    border-radius: var(--radius-pill);
+    padding: 0.35rem 0.9rem;
+  }
+
+  /* ===== Hero ===== */
+  .ext-hero {
+    padding-top: var(--space-16);
+    text-align: center;
+    background: linear-gradient(180deg, #f7f7fb 0%, #fff 70%);
+  }
+  .hero-title {
+    margin-top: var(--space-6);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(2.5rem, 7vw, 4rem);
+    line-height: var(--lh-tight);
+    color: var(--color-heading);
+  }
+  .hero-sub {
+    margin-top: var(--space-5);
+    font-family: var(--font-display);
+    font-size: var(--fs-lg);
+    color: var(--color-text);
+    max-width: 30ch;
+    margin-inline: auto;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    font-family: var(--font-display);
+    font-size: var(--fs-lg);
+    font-weight: 600;
+    padding: 0.85rem 1.6rem;
+    border-radius: var(--radius-pill);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .btn:hover { transform: translateY(-1px); }
+  .btn-blue {
+    margin-top: var(--space-8);
+    color: #fff;
+    background: linear-gradient(180deg, #4aa3ff 0%, #2b82ff 100%);
+    box-shadow: 0 8px 22px rgba(43, 130, 255, 0.32);
+  }
+  .btn-dark {
+    color: #fff;
+    background: #000;
+  }
+  .dl-icon { display: inline-flex; }
+
+  .hero-shots {
+    position: relative;
+    margin-top: var(--space-12);
+    display: flex;
+    justify-content: center;
+  }
+  .hero-shots :global(.shot-laptop) {
+    width: min(92vw, 760px);
+    height: auto;
+    border-radius: 14px;
+    box-shadow: var(--shadow-md);
+  }
+  .hero-shots :global(.shot-phone) {
+    position: absolute;
+    right: max(2vw, calc(50% - 380px - 10px));
+    bottom: -8%;
+    width: clamp(96px, 16vw, 168px);
+    height: auto;
+    border-radius: 18px;
+    box-shadow: var(--shadow-md);
+  }
+
+  /* ===== Any device ===== */
+  .ext-devices {
+    padding-block: var(--space-32);
+    text-align: center;
+  }
+  .section-title {
+    margin-top: var(--space-6);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(2.25rem, 6vw, 3.5rem);
+    line-height: var(--lh-tight);
+    color: var(--color-heading);
+  }
+
+  .device-cards {
+    margin-top: var(--space-12);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-6);
+    text-align: left;
+  }
+  .device-card {
+    background: #f7f7fb;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-8);
+    overflow: hidden;
+  }
+  .card-title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--color-heading);
+  }
+  .card-sub {
+    margin-top: var(--space-2);
+    font-family: var(--font-display);
+    font-size: var(--fs-base);
+    color: var(--color-text);
+  }
+  .device-card .btn,
+  .store-badges {
+    margin-top: var(--space-6);
+  }
+  .store-badges {
+    display: flex;
+    gap: var(--space-3);
+  }
+  .store-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-family: var(--font-display);
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    color: #9a95a6;
+    background: #eceaf1;
+    border-radius: var(--radius-pill);
+    padding: 0.6rem 1rem;
+  }
+  .store-badge.is-soon { cursor: default; }
+
+  .card-shot {
+    margin-top: var(--space-8);
+    display: flex;
+    justify-content: center;
+  }
+  .card-shot :global(img) {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+  .card-shot--phones :global(img) {
+    width: min(70%, 300px);
+  }
+
+  @media (max-width: 810px) {
+    .ext-hero { padding-top: var(--space-12); }
+    .hero-title { font-size: clamp(2.25rem, 11vw, 3rem); }
+    .ext-devices { padding-block: var(--space-24); }
+    .device-cards {
+      grid-template-columns: 1fr;
+      gap: var(--space-5);
+    }
+    .hero-shots :global(.shot-phone) {
+      right: 4vw;
+      bottom: -6%;
+    }
+  }
+</style>
