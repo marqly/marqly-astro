@@ -26,9 +26,9 @@ faqs:
     a: "Not directly — Pinterest doesn't expose a public import API. You can move them manually: install the Marqly browser extension, open each Pin, and save the underlying article URL into Marqly. It's the kind of migration most people do over a week, pinning the things that still matter and letting the rest go. The result is a smaller, more useful library that you can actually search."
   - q: "Does Marqly have a free tier like Pinterest?"
     a: "Yes. Marqly's free tier covers unlimited saves, AI auto-tagging, semantic search, and the reader. Pro adds AI summaries, ask-your-library, and cross-platform sync. The free tier is the easiest way to test whether semantic search changes how you use your saves."
-heroImage: ../../assets/blog/raindrop-vs-marqly.png
+heroImage: ../../assets/blog/pinterest-vs-marqly.png
 heroAlt: "Pinterest vs Marqly: Pinterest is for inspiration, Marqly is for finding what you saved — illustration"
-ogImage: "https://www.marqly.com/og/raindrop-vs-marqly.png"
+ogImage: "https://www.marqly.com/og/pinterest-vs-marqly.png"
 ---
 
 Pinterest is one of the best products ever built for *finding new ideas*. Open the app, scroll for ten minutes, and you've got a board full of recipes, room layouts, and weekend projects you'll probably never do. That's the magic — and it's the thing Marqly isn't trying to replace.

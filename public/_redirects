@@ -6,6 +6,14 @@
 /T&C   /terms   301
 /T%26C /terms   301
 
+# Thin /vs/ stubs → full comparison articles (301 consolidates SEO, kills cannibalization).
+/vs/raindrop    /blog/raindrop-vs-marqly   301
+/vs/raindrop/   /blog/raindrop-vs-marqly   301
+/vs/pocket      /blog/pocket-vs-marqly     301
+/vs/pocket/     /blog/pocket-vs-marqly     301
+/vs/pinterest   /blog/pinterest-vs-marqly  301
+/vs/pinterest/  /blog/pinterest-vs-marqly  301
+
 # Old Framer blog posts → new AEO posts (301 preserves SEO equity, kills cannibalization).
 /blog/marqly-vs-raindrop.io-the-complete-comparison-guide-(2026)  /blog/raindrop-vs-marqly  301
 /blog/best-raindrop.io-alternative-in-2026-why-users-are-switching-to-marqly  /blog/raindrop-vs-marqly  301
