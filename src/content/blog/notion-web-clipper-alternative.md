@@ -71,4 +71,4 @@ Understandable — single-source-of-truth is appealing. Just know the trade-off:
 
 ---
 
-*Related: [What Is a Second Brain App?](/what-is-a-second-brain-app) · [Best AI Bookmark Manager 2026](/best-ai-bookmark-manager-2026)*
+*Related: [What Is a Second Brain App?](/blog/what-is-a-second-brain-app) · [Best AI Bookmark Manager 2026](/blog/best-ai-bookmark-manager-2026)*

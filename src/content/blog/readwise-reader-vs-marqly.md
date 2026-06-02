@@ -71,4 +71,4 @@ If you've been eyeing Readwise Reader but balking at $12/month, Marqly gives you
 
 ---
 
-*Related: [The Best AI Bookmark Manager in 2026](/best-ai-bookmark-manager-2026) · [What Is a Second Brain App?](/what-is-a-second-brain-app)*
+*Related: [The Best AI Bookmark Manager in 2026](/blog/best-ai-bookmark-manager-2026) · [What Is a Second Brain App?](/blog/what-is-a-second-brain-app)*

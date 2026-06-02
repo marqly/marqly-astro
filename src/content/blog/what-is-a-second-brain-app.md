@@ -83,4 +83,4 @@ Free to try, no credit card. Turn the reading you're already doing into a brain 
 
 ---
 
-*Related: [The Best AI Bookmark Manager in 2026](/best-ai-bookmark-manager-2026) · [8 Best Pocket Alternatives](/best-pocket-alternatives-2026)*
+*Related: [The Best AI Bookmark Manager in 2026](/blog/best-ai-bookmark-manager-2026) · [8 Best Pocket Alternatives](/blog/best-pocket-alternatives-2026)*

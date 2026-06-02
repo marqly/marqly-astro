@@ -49,7 +49,7 @@ Your export is portable, so the real question is *where* it should live. The thr
 - **Raindrop.io** — if you want a free, general-purpose bookmark manager.
 - **Instapaper** — if you want minimalist, no-frills reading.
 
-(For a full breakdown, see [The 8 Best Pocket Alternatives in 2026](/best-pocket-alternatives-2026).)
+(For a full breakdown, see [The 8 Best Pocket Alternatives in 2026](/blog/best-pocket-alternatives-2026).)
 
 ## Step 3: Import your library
 

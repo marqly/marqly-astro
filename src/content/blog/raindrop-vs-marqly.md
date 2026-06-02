@@ -77,4 +77,4 @@ You can [import your bookmarks into Marqly free](https://app.marqly.com/lp/ai-se
 
 ---
 
-*Related: [The Best AI Bookmark Manager in 2026](/best-ai-bookmark-manager-2026) · [8 Best Pocket Alternatives](/best-pocket-alternatives-2026)*
+*Related: [The Best AI Bookmark Manager in 2026](/blog/best-ai-bookmark-manager-2026) · [8 Best Pocket Alternatives](/blog/best-pocket-alternatives-2026) · [Pinterest vs Marqly](/blog/pinterest-vs-marqly)*

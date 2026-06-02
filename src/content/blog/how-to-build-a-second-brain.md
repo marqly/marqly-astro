@@ -86,4 +86,4 @@ If you take one thing from this: **lower the maintenance to near zero, or you wo
 
 ---
 
-*Related: [What Is a Second Brain App?](/what-is-a-second-brain-app) · [How to Organize Your Bookmarks](/how-to-organize-bookmarks)*
+*Related: [What Is a Second Brain App?](/blog/what-is-a-second-brain-app) · [How to Organize Your Bookmarks](/blog/how-to-organize-bookmarks)*

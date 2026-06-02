@@ -65,4 +65,4 @@ Free to try, no credit card.
 
 ---
 
-*Related: [Best AI Bookmark Manager 2026](/best-ai-bookmark-manager-2026) · [What Is a Second Brain App?](/what-is-a-second-brain-app)*
+*Related: [Best AI Bookmark Manager 2026](/blog/best-ai-bookmark-manager-2026) · [What Is a Second Brain App?](/blog/what-is-a-second-brain-app)*

@@ -83,4 +83,4 @@ If your Obsidian vault is great for notes but your *reading* is scattered across
 
 ---
 
-*Related: [What Is a Second Brain App?](/what-is-a-second-brain-app) · [Notion Web Clipper Alternative](/notion-web-clipper-alternative)*
+*Related: [What Is a Second Brain App?](/blog/what-is-a-second-brain-app) · [Notion Web Clipper Alternative](/blog/notion-web-clipper-alternative)*

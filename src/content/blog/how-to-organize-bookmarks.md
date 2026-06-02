@@ -87,4 +87,4 @@ If you're tired of cleaning up bookmarks every month, [Marqly](https://app.marql
 
 ---
 
-*Related: [What Is a Second Brain App?](/what-is-a-second-brain-app) · [Search Bookmarks by Meaning](/search-bookmarks-by-meaning)*
+*Related: [What Is a Second Brain App?](/blog/what-is-a-second-brain-app) · [Search Bookmarks by Meaning](/blog/search-bookmarks-by-meaning)*

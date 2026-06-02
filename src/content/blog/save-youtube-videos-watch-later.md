@@ -84,4 +84,4 @@ The point isn't more folders — it's that you can *find* a video by what it was
 
 ---
 
-*Related: [How to Organize Your Bookmarks](/how-to-organize-bookmarks) · [Search Bookmarks by Meaning](/search-bookmarks-by-meaning)*
+*Related: [How to Organize Your Bookmarks](/blog/how-to-organize-bookmarks) · [Search Bookmarks by Meaning](/blog/search-bookmarks-by-meaning)*

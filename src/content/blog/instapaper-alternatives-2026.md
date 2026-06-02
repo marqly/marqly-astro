@@ -71,4 +71,4 @@ The reason to leave Instapaper isn't the reading — it's the *finding*. If you'
 
 ---
 
-*Related: [8 Best Pocket Alternatives in 2026](/best-pocket-alternatives-2026) · [Best AI Bookmark Manager](/best-ai-bookmark-manager-2026)*
+*Related: [8 Best Pocket Alternatives in 2026](/blog/best-pocket-alternatives-2026) · [Best AI Bookmark Manager](/blog/best-ai-bookmark-manager-2026)*

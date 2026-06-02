@@ -80,7 +80,7 @@ If you exported your Pocket data before shutdown (an HTML file), import is about
 2. Settings → Import → drag in your `pocket-export.html`.
 3. Your saves appear with tags intact; AI indexing runs in the background.
 
-(Full walkthrough: [How to Export and Migrate Your Pocket Data](/how-to-export-migrate-pocket-data).)
+(Full walkthrough: [How to Export and Migrate Your Pocket Data](/blog/how-to-export-migrate-pocket-data).)
 
 ## Where Pocket was still better
 
@@ -96,4 +96,4 @@ Marqly is, functionally, **the upgrade Pocket never shipped**: the same effortle
 
 ---
 
-*Related: [8 Best Pocket Alternatives in 2026](/best-pocket-alternatives-2026) · [What Is a Second Brain App?](/what-is-a-second-brain-app)*
+*Related: [8 Best Pocket Alternatives in 2026](/blog/best-pocket-alternatives-2026) · [Pinterest vs Marqly](/blog/pinterest-vs-marqly) · [What Is a Second Brain App?](/blog/what-is-a-second-brain-app)*
