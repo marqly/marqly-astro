@@ -1,5 +1,5 @@
 ---
-import BaseLayout from './BaseLayout.astro';
+import LandingLayout from './LandingLayout.astro';
 import { Image } from 'astro:assets';
 import type { CollectionEntry } from 'astro:content';
 
@@ -58,13 +58,12 @@ const faqPage = data.faqs.length
 const jsonLd = [blogPosting, breadcrumb, ...(faqPage ? [faqPage] : [])];
 ---
 
-<BaseLayout
+<LandingLayout
   title={data.seoTitle ?? data.title}
   description={data.description}
   canonical={url}
   ogImage={data.ogImage}
   ogType="article"
-  navVariant="Desktop / Blog"
   jsonLd={jsonLd}
 >
   <article class="post">
@@ -118,7 +117,7 @@ const jsonLd = [blogPosting, breadcrumb, ...(faqPage ? [faqPage] : [])];
       <a class="cta-btn" href={data.ctaUrl}>{data.ctaLabel} →</a>
     </aside>
   </article>
-</BaseLayout>
+</LandingLayout>
 
 <style>
   .post {
@@ -148,7 +147,7 @@ const jsonLd = [blogPosting, breadcrumb, ...(faqPage ? [faqPage] : [])];
   .post-header h1 {
     font-family: var(--font-display);
     font-size: var(--fs-h1);
-    color: var(--color-heading);
+    color: rgba(10, 10, 10, 1);
     margin-bottom: var(--space-4);
   }
 

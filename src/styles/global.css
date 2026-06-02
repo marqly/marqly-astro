@@ -14,25 +14,33 @@
 html {
   -webkit-text-size-adjust: 100%;
   scroll-behavior: smooth;
+  /* Prevent horizontal scroll from the marquee / decorative gradients */
+  overflow-x: clip;
 }
 
 body {
   font-family: var(--font-sans);
+  font-feature-settings: var(--features);
   font-size: var(--fs-base);
   line-height: var(--lh-base);
-  color: var(--color-text);
-  background: var(--color-bg);
+  color: var(--ink-3);
+  background: var(--surface-1);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-display);
-  color: var(--color-heading);
+  font-family: var(--font-sans);
+  color: var(--ink-1);
   line-height: var(--lh-tight);
-  font-weight: 600;
-  letter-spacing: -0.02em;
+  font-weight: 500;
+  letter-spacing: var(--tracking-tight);
+}
+
+p {
+  color: var(--ink-3);
+  line-height: var(--lh-base);
 }
 
 img, picture, svg, video {
@@ -48,6 +56,8 @@ a {
 button {
   font: inherit;
   cursor: pointer;
+  border: 0;
+  background: transparent;
 }
 
 ul, ol {
@@ -55,7 +65,7 @@ ul, ol {
   padding: 0;
 }
 
-/* Layout helpers */
+/* --- Layout helpers --- */
 .container {
   width: 100%;
   max-width: var(--container-max);
@@ -64,14 +74,92 @@ ul, ol {
 }
 
 .section {
-  padding-block: var(--space-24);
+  padding-block: var(--section-pad-y);
 }
 
-@media (max-width: 810px) {
-  .section {
-    padding-block: var(--space-16);
-  }
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: var(--fs-xs);
+  font-weight: 500;
+  color: var(--ink-1);
+  background: var(--surface-3);
+  border: 1px solid var(--border-1);
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-pill);
+  letter-spacing: var(--tracking-base);
 }
+
+/* --- Pill button primitive --- */
+.btn {
+  --btn-bg: var(--ink-1);
+  --btn-fg: #fff;
+  --btn-bd: transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  font-weight: 500;
+  letter-spacing: var(--tracking-base);
+  padding: 0.75rem 1.15rem;
+  border-radius: var(--radius-pill);
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  border: 1px solid var(--btn-bd);
+  white-space: nowrap;
+  transition: transform var(--dur-fast) var(--ease-out),
+              background var(--dur-base) var(--ease-in-out),
+              border-color var(--dur-base) var(--ease-in-out),
+              color var(--dur-base) var(--ease-in-out);
+  will-change: transform;
+}
+.btn:hover { transform: translateY(-1px); }
+.btn:active { transform: translateY(0); }
+.btn:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 4px var(--accent-ring);
+}
+
+.btn--lg {
+  height: 48px;
+  padding: 0 1.5rem;
+  font-size: var(--fs-base);
+}
+.btn--sm { padding: 0.5rem 0.85rem; font-size: var(--fs-xs); }
+
+.btn--primary {
+  --btn-bg: var(--accent);
+  --btn-fg: #fff;
+}
+.btn--primary:hover { --btn-bg: var(--accent-hover); }
+
+.btn--dark {
+  --btn-bg: var(--ink-1);
+  --btn-fg: #fff;
+}
+
+.btn--outline {
+  --btn-bg: transparent;
+  --btn-fg: var(--ink-1);
+  --btn-bd: var(--border-2);
+}
+.btn--outline:hover { --btn-bg: var(--ink-1); --btn-fg: #fff; --btn-bd: var(--ink-1); }
+
+.btn--ghost {
+  --btn-bg: transparent;
+  --btn-fg: var(--ink-2);
+  --btn-bd: transparent;
+}
+.btn--ghost:hover { --btn-bg: var(--surface-3); --btn-fg: var(--ink-1); }
+
+.btn .arrow {
+  display: inline-block;
+  transition: transform var(--dur-base) var(--ease-out);
+}
+.btn:hover .arrow { transform: translateX(3px); }
 
 .visually-hidden {
   position: absolute;
@@ -85,42 +173,41 @@ ul, ol {
   border: 0;
 }
 
-/* ------------------------------------------------------------------ *
- * Mobile header polish for the Framer ResponsiveNavbar "Mobile" variant.
- * The capture renders the bar flush to the viewport edges with no padding
- * and an abrupt menu open. These globals add breathing room on all sides
- * and a smooth menu entrance. Classes belong to the Framer Navbar
- * component: .framer-1myr5nr = header row; .framer-1p1uk2t = open menu panel.
- * Scoped to <=810px (where ResponsiveNavbar switches to the Mobile variant)
- * so desktop is untouched. Higher specificity (.fr-chrome .framer-m5kwrt …)
- * + !important to win over the runtime-injected Framer CSS.
- * ------------------------------------------------------------------ */
-@media (max-width: 810px) {
-  /* The Mobile navbar root renders ~1300px wide (its intrinsic width), and the
-     .fr-chrome max-width clamp only hits the display:contents island, not this
-     root — so the bar overflows and the Sign in button lands off-screen.
-     Force it to the viewport width. */
-  .fr-chrome .framer-m5kwrt {
-    width: 100% !important;
-    max-width: 100% !important;
-    box-sizing: border-box !important;
-  }
-  .fr-chrome .framer-m5kwrt .framer-1myr5nr {
-    box-sizing: border-box !important;
-    width: 100% !important;
-    padding: 16px 20px !important;
-    gap: 12px !important;
-  }
-  .fr-chrome [data-framer-name="Menu"].framer-1p1uk2t {
-    padding: 6px 20px 20px !important;
-    box-shadow: 0 18px 40px rgba(20, 12, 48, 0.12);
-    border-bottom-left-radius: 18px;
-    border-bottom-right-radius: 18px;
-    transform-origin: top center;
-    animation: navMenuIn 0.26s cubic-bezier(0.22, 0.61, 0.36, 1) both;
-  }
+/* --- Scroll reveal (data-reveal) --- */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 700ms var(--ease-out), transform 700ms var(--ease-out);
+  will-change: opacity, transform;
 }
-@keyframes navMenuIn {
-  from { opacity: 0; transform: translateY(-12px); }
-  to { opacity: 1; transform: translateY(0); }
+[data-reveal].is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] { opacity: 1; transform: none; transition: none; }
+}
+
+/* Stagger helper — apply data-reveal-delay="0..6" to a child */
+[data-reveal-delay="1"] { transition-delay: 60ms; }
+[data-reveal-delay="2"] { transition-delay: 120ms; }
+[data-reveal-delay="3"] { transition-delay: 180ms; }
+[data-reveal-delay="4"] { transition-delay: 240ms; }
+[data-reveal-delay="5"] { transition-delay: 320ms; }
+[data-reveal-delay="6"] { transition-delay: 400ms; }
+
+/* --- Selection --- */
+::selection {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* --- Focus ring for any focusable inside content --- */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+[tabindex]:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--accent-ring);
+  border-radius: 6px;
 }

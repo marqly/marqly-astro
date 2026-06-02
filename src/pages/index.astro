@@ -1,17 +1,16 @@
 ---
 import { Image } from 'astro:assets';
-import BaseLayout from '../layouts/BaseLayout.astro';
-
+import LandingLayout from '../layouts/LandingLayout.astro';
 import heroApp from '../assets/images/home/hero-app.png';
-import featureDesktop from '../assets/images/home/feature-desktop.png';
-import featureMobile from '../assets/images/home/feature-mobile.png';
 import browsers from '../assets/images/home/browsers.avif';
 import avatarAdrian from '../assets/images/home/avatar-adrian.avif';
 import avatarMichael from '../assets/images/home/avatar-michael.avif';
 import avatarChenten from '../assets/images/home/avatar-chenten.avif';
+import avatarTina from '../assets/images/home/avatar-tina.avif';
 
-const APP = 'https://app.marqly.com/';
-const CHROME = 'https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc';
+const APP = 'https://app.marqly.com';
+const CHROME =
+  'https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc';
 
 const title = 'Marqly — AI Bookmark Manager | Organize Smarter, Find Faster';
 const description =
@@ -19,380 +18,2313 @@ const description =
 const canonical = 'https://www.marqly.com/';
 
 const features = [
+  { key: 'ai', ai: true, title: 'AI Auto-Organize', body: 'Links land where they belong with accurate tags applied instantly by AI.' },
+  { key: 'search', title: 'Instant Search', body: 'Find any bookmark instantly by text, tag, date, or URL.' },
+  { key: 'reader', title: 'Reader View & AI Summaries', body: 'Get the context without reopening pages. Distraction-free reading built in.' },
+  { key: 'offline', title: 'Offline Mode & Link Health', body: 'Full access without a connection. Know when saved links break or go stale.' },
+  { key: 'sync', title: 'Cross-Platform Sync', body: 'Pocket, mobile, desktop — in lockstep. Your library, everywhere you read.' },
+];
+
+const steps = [
   {
-    title: 'AI Auto-Organize',
-    body: 'Links land where they belong with accurate tags applied instantly by AI.',
-    icon: 'M12 3l1.9 4.6L18.5 9l-4.6 1.9L12 15l-1.9-4.1L5.5 9l4.6-1.4L12 3z',
+    n: '01',
+    title: 'Install the extension',
+    body: 'One click from the Chrome, Firefox, or Edge store. Marqly sits quietly in your toolbar until you need it.',
   },
   {
-    title: 'Instant Search',
-    body: 'Find any bookmark instantly by text, tag, date, or URL.',
-    icon: 'M11 4a7 7 0 1 0 4.2 12.6L20 21M11 4a7 7 0 0 1 0 14',
+    n: '02',
+    title: 'Save anything, anywhere',
+    body: 'Click the Marqly icon — or hit ⌘+Shift+S. We capture the page and tag it for you.',
   },
   {
-    title: 'Offline Mode & Link Health',
-    body: 'Full access without a connection. Know when saved links break or go stale.',
-    icon: 'M12 3v18M5 8l7-5 7 5M4 13h16M6 13v6h12v-6',
+    n: '03',
+    title: 'Find it the moment you need it',
+    body: 'Search by what it was about, not by what it was called. The page finds itself.',
+  },
+];
+
+const tiers = [
+  {
+    name: 'Free',
+    price: '$0',
+    period: 'forever',
+    blurb: 'Everything you need to stop losing tabs.',
+    cta: 'Get Marqly Free',
+    href: APP,
+    featured: false,
+    perks: [
+      'Up to 50 bookmarks',
+      'Basic search',
+      'Bookmark preview',
+      'Bookmark tags',
+      'Access on mobile, tablet',
+      'Unlimited devices',
+    ],
   },
   {
-    title: 'Reader View & AI Summaries',
-    body: 'Get the context without reopening pages. Distraction-free reading built in.',
-    icon: 'M4 5h16M4 9h16M4 13h10M4 17h10',
+    name: 'Pro',
+    monthly: { amount: '$9', period: 'per month' },
+    yearly: { amount: '$4.50', period: 'per month, billed annually' },
+    blurb: '7-day free trial. Cancel anytime.',
+    cta: 'Start 7-day trial',
+    href: APP,
+    featured: true,
+    perks: [
+      'Unlimited bookmarks',
+      'AI Powered Features',
+      'Super fast search',
+      'Boards & collections',
+      'Highlights & notes',
+      'Read mode',
+      'Smart sorting',
+      'Priority support by email',
+    ],
   },
 ];
 
 const testimonials = [
   {
     name: 'Chenten',
+    role: 'Product Designer, Berlin',
     avatar: avatarChenten,
     quote:
       'Great bookmarking tool with a user-friendly interface. Absolutely a great way to save your bookmarks.',
   },
   {
     name: 'Adrian',
+    role: 'Indie founder, Lisbon',
     avatar: avatarAdrian,
     quote:
       'I love the simplicity of Marqly. It allows me to manage all of my bookmarks in a single place.',
   },
   {
     name: 'Michael',
+    role: 'Researcher, Toronto',
     avatar: avatarMichael,
-    quote: 'Fantastic way to organize bookmarks. Highly recommended!',
+    quote:
+      'Fantastic way to organize bookmarks. Highly recommended!',
+    dark: true,
+  },
+  {
+    name: 'Tina',
+    role: 'Editor, New York',
+    avatar: avatarTina,
+    quote:
+      'The reader mode plus AI summaries save me hours every week. Worth every cent of Pro.',
   },
 ];
 ---
 
-<BaseLayout
-  title={title}
-  description={description}
-  canonical={canonical}
-  navVariant="Desktop / Home"
->
-  <!-- ===== Hero ===== -->
-  <section class="hero">
+<LandingLayout title={title} description={description} canonical={canonical}>
+  <!-- ============================================================ -->
+  <!-- HERO                                                         -->
+  <!-- ============================================================ -->
+  <section class="hero" aria-labelledby="hero-h1">
     <div class="container">
-      <span class="eyebrow">✦ Introducing Marqly 5.0 ✦</span>
-      <h1 class="hero-title">
-        The Bookmark Manager <span class="grad">supercharged with AI.</span>
-      </h1>
-      <p class="hero-sub">
-        The free bookmark manager that reads, tags, and organizes every link you save.
-        Search by context, not keywords. Welcome to the future of bookmarks.
-      </p>
-      <a href={APP} class="btn btn-dark">Get Started for Free →</a>
-      <p class="micro">No card required</p>
+      <div class="hero-inner">
+        <span class="eyebrow" data-reveal>
+          <span class="dot"></span> Introducing Marqly 5.0 — AI tagging, reimagined
+        </span>
 
-      <div class="hero-shot">
-        <Image
-          src={heroApp}
-          alt="Marqly bookmark manager dashboard"
-          widths={[480, 800, 1200, 1600]}
-          sizes="(max-width: 980px) 94vw, 1100px"
-          loading="eager"
-        />
-      </div>
-    </div>
-  </section>
+        <h1 id="hero-h1" class="hero-title" data-reveal data-reveal-delay="1">
+          The Bookmark Manager<br />
+          <span class="grad">supercharged with AI.</span>
+        </h1>
 
-  <!-- ===== Everything you need ===== -->
-  <section class="everything">
-    <div class="container">
-      <h2 class="section-title">Everything you need in a bookmark manager</h2>
-      <p class="section-sub">
-        Rebuilt from the ground up with AI at the core. Marqly brings lightning-fast
-        performance, smart auto-tagging, and a beautiful new interface.
-      </p>
-      <ul class="features">
-        {features.map((f) => (
-          <li class="feature-card">
-            <span class="feat-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                <path d={f.icon} />
-              </svg>
-            </span>
-            <h3 class="feat-title">{f.title}</h3>
-            <p class="feat-body">{f.body}</p>
-          </li>
-        ))}
-      </ul>
-    </div>
-  </section>
+        <p class="hero-sub" data-reveal data-reveal-delay="2">
+          The free bookmark manager that reads, tags, and organizes every link you save.
+          Search by context, not keywords. Welcome to the future of bookmarks.
+        </p>
 
-  <!-- ===== Desktop & Mobile ===== -->
-  <section class="devices">
-    <div class="container">
-      <p class="eyebrow-soft">Blazing Fast. Beautifully Calm.</p>
-      <h2 class="section-title">Bookmark Manager for Desktop &amp; Mobile</h2>
-      <a href={APP} class="btn btn-dark">Try Marqly Now →</a>
+        <div class="hero-ctas" data-reveal data-reveal-delay="3">
+          <a href={APP} class="btn btn--primary btn--lg">
+            Get Started for Free
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
 
-      <div class="devices-shots">
-        <Image
-          class="dev-laptop"
-          src={featureDesktop}
-          alt="Marqly on desktop"
-          widths={[360, 600, 880]}
-          sizes="(max-width: 810px) 88vw, 560px"
-          loading="lazy"
-        />
-        <Image
-          class="dev-phone"
-          src={featureMobile}
-          alt="Marqly on mobile"
-          widths={[180, 320]}
-          sizes="(max-width: 810px) 40vw, 220px"
-          loading="lazy"
-        />
-      </div>
-    </div>
-  </section>
+        <p class="hero-micro" data-reveal data-reveal-delay="4">
+          No card required · Works on every device
+        </p>
 
-  <!-- ===== Testimonials ===== -->
-  <section class="loved">
-    <div class="container">
-      <h2 class="section-title">Loved by people.</h2>
-      <p class="section-sub">What do people think about our product</p>
-      <a href={APP} class="btn btn-dark">Sign up now →</a>
+        <!-- Hero composition: dashboard screenshot + callouts + save popup overlaid -->
+        <div class="hero-shot" data-reveal data-reveal-delay="4">
+          <div class="callout callout--left" aria-hidden="true">
+            <span class="callout-dot callout-dot--accent"></span>
+            Tagged in 0.3s
+          </div>
 
-      <ul class="testimonials">
-        {testimonials.map((t) => (
-          <li class="tcard">
-            <p class="tquote">{t.quote}</p>
-            <div class="tmeta">
-              <Image class="tavatar" src={t.avatar} alt={t.name} width={44} height={44} />
-              <span class="tname">{t.name}</span>
+          <Image
+            class="hero-bg"
+            src={heroApp}
+            alt="Marqly bookmark manager dashboard"
+            widths={[480, 800, 1200, 1600]}
+            sizes="(max-width: 980px) 94vw, 1100px"
+            loading="eager"
+          />
+
+          <!-- Save popup (the extension in action, overlaid on the dashboard) -->
+          <div class="save-pop" role="img" aria-label="Marqly extension saving a webpage with AI-generated tags">
+            <div class="save-pop-head">
+              <span class="save-pop-icon" aria-hidden="true">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1z"/></svg>
+              </span>
+              <div>
+                <strong>Save to Marqly</strong>
+                <span class="save-pop-sub">Auto-tagging with AI</span>
+              </div>
             </div>
-          </li>
-        ))}
-      </ul>
-    </div>
-  </section>
-
-  <!-- ===== Tab Saver / Extension CTA ===== -->
-  <section class="tabsaver">
-    <div class="container">
-      <h2 class="section-title">Free Bookmark Manager Extension with Tab Saver</h2>
-      <p class="section-sub">
-        Save bookmarks from Chrome, Edge, and Firefox with one click. Tab Saver collapses
-        all your open tabs and reduces memory usage by up to 95%.
-      </p>
-      <a href={CHROME} class="btn btn-dark" target="_blank" rel="noopener">Install Free Extension</a>
-      <div class="browsers-shot">
-        <Image src={browsers} alt="Available on Chrome, Firefox, Edge and Safari" widths={[260, 440]} sizes="(max-width: 810px) 60vw, 360px" loading="lazy" />
+            <div class="save-pop-tags">
+              <span class="tag tag--accent">productivity</span>
+              <span class="tag">deep-work</span>
+              <span class="tag">research</span>
+              <span class="tag">to-read</span>
+            </div>
+            <div class="save-pop-foot">
+              <span class="save-pop-spinner" aria-hidden="true"></span>
+              <span>Saving & generating summary…</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-</BaseLayout>
+
+  <!-- ============================================================ -->
+  <!-- FEATURES BENTO — pixel-perfect custom UI per card            -->
+  <!-- ============================================================ -->
+  <section class="features section" id="features" aria-labelledby="features-h2">
+    <div class="container">
+      <header class="section-head" data-reveal>
+        <span class="eyebrow"><span class="dot"></span> Features</span>
+        <h2 id="features-h2" class="section-title">
+          Everything you need in a bookmark manager
+        </h2>
+        <p class="section-sub">
+          Rebuilt from the ground up with AI at the core. Marqly brings lightning-fast
+          performance, smart auto-tagging, and a beautiful new interface.
+        </p>
+      </header>
+
+      <div class="bento">
+        <!-- AI card (full width) -->
+        <article class="bento-card bento-card--ai bento-card--wide" data-reveal data-reveal-delay="1">
+          <div class="bento-text">
+            <span class="ai-badge">AI</span>
+            <h3 class="bento-title">AI Auto-Organize</h3>
+            <p class="bento-body">Links land where they belong with accurate tags applied instantly by AI.</p>
+          </div>
+          <div class="bento-shot">
+            <div class="ui-panel ui-inbox" aria-hidden="true">
+              <div class="ui-panel-head">
+                <div class="ui-panel-title">
+                  <span class="ui-spark" aria-hidden="true">
+                    <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 6.6L21 11l-6.6 2.4L12 20l-2.4-6.6L3 11l6.6-2.4L12 2z"/></svg>
+                  </span>
+                  Inbox
+                </div>
+                <span class="ui-badge">4 new</span>
+                <div class="ui-panel-tools" aria-hidden="true">
+                  <span></span><span></span><span></span>
+                </div>
+              </div>
+              <ul class="ui-list">
+                <li class="ui-row">
+                  <span class="ui-favicon" style="--c:#111">M</span>
+                  <div class="ui-row-main">
+                    <span class="ui-row-title">Designing for AI Agents</span>
+                    <span class="ui-row-sub">medium.com · @kentcdodds · 6 min</span>
+                  </div>
+                  <div class="ui-row-tags">
+                    <span class="ui-tag ui-tag--ai">productivity</span>
+                    <span class="ui-tag ui-tag--ai">design</span>
+                  </div>
+                </li>
+                <li class="ui-row">
+                  <span class="ui-favicon" style="--c:#000">N</span>
+                  <div class="ui-row-main">
+                    <span class="ui-row-title">The True Cost of Context Switching</span>
+                    <span class="ui-row-sub">nytimes.com · @sellersburg · 8 min</span>
+                  </div>
+                  <div class="ui-row-tags">
+                    <span class="ui-tag">productivity</span>
+                    <span class="ui-tag">deep-work</span>
+                  </div>
+                </li>
+                <li class="ui-row">
+                  <span class="ui-favicon" style="--c:#635bff">S</span>
+                  <div class="ui-row-main">
+                    <span class="ui-row-title">Why Async Communication Wins</span>
+                    <span class="ui-row-sub">stripe.com · blog · 5 min</span>
+                  </div>
+                  <div class="ui-row-tags">
+                    <span class="ui-tag ui-tag--ai">workplace</span>
+                    <span class="ui-tag ui-tag--ai">remote</span>
+                  </div>
+                </li>
+                <li class="ui-row">
+                  <span class="ui-favicon" style="--c:#fc6d26">JC</span>
+                  <div class="ui-row-main">
+                    <span class="ui-row-title">How to Build Habits That Stick</span>
+                    <span class="ui-row-sub">jamesclear.com · blog · 7 min</span>
+                  </div>
+                  <div class="ui-row-tags">
+                    <span class="ui-tag">productivity</span>
+                    <span class="ui-tag">habits</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <!-- Instant Search (cell) -->
+        <article class="bento-card bento-card--cell" data-reveal data-reveal-delay="1">
+          <div class="bento-text">
+            <h3 class="bento-title">Instant Search</h3>
+            <p class="bento-body">Find any bookmark instantly by text, tag, date, or URL.</p>
+          </div>
+          <div class="bento-shot">
+            <div class="ui-panel ui-search" aria-hidden="true">
+              <div class="ui-search-bar">
+                <span class="ui-search-icon" aria-hidden="true">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+                </span>
+                <span class="ui-search-query">ai tools</span>
+                <span class="ui-search-cursor" aria-hidden="true"></span>
+                <span class="ui-search-kbd">⌘K</span>
+              </div>
+              <div class="ui-search-meta">12 results · 0.04s</div>
+              <ul class="ui-list ui-list--rows">
+                <li class="ui-row ui-row--active">
+                  <span class="ui-favicon" style="--c:#0ea5a4">AT</span>
+                  <div class="ui-row-main">
+                    <span class="ui-row-title">AI Tools <em>Weekly</em></span>
+                    <span class="ui-row-sub">aitoolsweekly.com · newsletter</span>
+                  </div>
+                </li>
+                <li class="ui-row">
+                  <span class="ui-favicon" style="--c:#111">M</span>
+                  <div class="ui-row-main">
+                    <span class="ui-row-title">Designing for <em>AI</em> Agents</span>
+                    <span class="ui-row-sub">medium.com · @kentcdodds</span>
+                  </div>
+                </li>
+                <li class="ui-row">
+                  <span class="ui-favicon" style="--c:#222">GH</span>
+                  <div class="ui-row-main">
+                    <span class="ui-row-title">Best <em>AI</em> Bookmarks</span>
+                    <span class="ui-row-sub">github.com · awesome list</span>
+                  </div>
+                </li>
+                <li class="ui-row">
+                  <span class="ui-favicon" style="--c:#007aff">P</span>
+                  <div class="ui-row-main">
+                    <span class="ui-row-title">Prompt Library for <em>AI</em> Tools</span>
+                    <span class="ui-row-sub">promptbase.com · directory</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <!-- Reader View & AI Summaries (cell) -->
+        <article class="bento-card bento-card--cell" data-reveal data-reveal-delay="2">
+          <div class="bento-text">
+            <h3 class="bento-title">Reader View & AI Summaries</h3>
+            <p class="bento-body">Get the context without reopening pages. Distraction-free reading built in.</p>
+          </div>
+          <div class="bento-shot">
+            <div class="ui-panel ui-reader" aria-hidden="true">
+              <div class="ui-reader-bar">
+                <span class="ui-reader-back" aria-hidden="true">←</span>
+                <span class="ui-reader-domain">nytimes.com</span>
+                <span class="ui-reader-actions" aria-hidden="true">
+                  <span class="ui-pill ui-pill--on">Read</span>
+                  <span class="ui-pill">Save</span>
+                </span>
+              </div>
+              <div class="ui-reader-body">
+                <div class="ui-reader-text">
+                  <h4 class="ui-reader-title">The True Cost of<br/>Context Switching</h4>
+                  <span class="ui-reader-meta">8 min read · Apr 2026</span>
+                  <div class="ui-reader-lines" aria-hidden="true">
+                    <span style="width:96%"></span>
+                    <span style="width:82%"></span>
+                    <span style="width:94%"></span>
+                    <span style="width:70%"></span>
+                    <span style="width:88%"></span>
+                    <span style="width:60%"></span>
+                  </div>
+                </div>
+                <div class="ui-summary">
+                  <div class="ui-summary-head">
+                    <span class="ui-spark ui-spark--ai" aria-hidden="true">
+                      <svg width="9" height="9" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 6.6L21 11l-6.6 2.4L12 20l-2.4-6.6L3 11l6.6-2.4L12 2z"/></svg>
+                    </span>
+                    <strong>AI Summary</strong>
+                  </div>
+                  <ul class="ui-summary-bullets">
+                    <li>Context switches cost 23 min of refocus per interruption.</li>
+                    <li>Async tools cut meetings and recover ~6 hrs per week.</li>
+                    <li>Save with one click; AI tags + summary arrive in 0.3s.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Offline Mode & Link Health (cell) -->
+        <article class="bento-card bento-card--cell" data-reveal data-reveal-delay="1">
+          <div class="bento-text">
+            <h3 class="bento-title">Offline Mode & Link Health</h3>
+            <p class="bento-body">Full access without a connection. Know when saved links break or go stale.</p>
+          </div>
+          <div class="bento-shot">
+            <div class="ui-panel ui-offline" aria-hidden="true">
+              <div class="ui-panel-head">
+                <div class="ui-panel-title">Saved · 12</div>
+                <div class="ui-offline-pill">
+                  <span class="ui-offline-dot" aria-hidden="true"></span>
+                  Offline
+                </div>
+              </div>
+              <ul class="ui-list ui-list--rows">
+                <li class="ui-row">
+                  <span class="ui-favicon" style="--c:#000">N</span>
+                  <div class="ui-row-main">
+                    <span class="ui-row-title">The True Cost of Context Switching</span>
+                    <span class="ui-row-sub">nytimes.com</span>
+                  </div>
+                  <span class="ui-status ui-status--ok">
+                    <span class="ui-status-dot" aria-hidden="true"></span> Cached
+                  </span>
+                </li>
+                <li class="ui-row">
+                  <span class="ui-favicon" style="--c:#111">M</span>
+                  <div class="ui-row-main">
+                    <span class="ui-row-title">Designing for AI Agents</span>
+                    <span class="ui-row-sub">medium.com</span>
+                  </div>
+                  <span class="ui-status ui-status--ok">
+                    <span class="ui-status-dot" aria-hidden="true"></span> Cached
+                  </span>
+                </li>
+                <li class="ui-row">
+                  <span class="ui-favicon" style="--c:#635bff">S</span>
+                  <div class="ui-row-main">
+                    <span class="ui-row-title">Why Async Communication Wins</span>
+                    <span class="ui-row-sub">stripe.com</span>
+                  </div>
+                  <span class="ui-status ui-status--ok">
+                    <span class="ui-status-dot" aria-hidden="true"></span> Cached
+                  </span>
+                </li>
+                <li class="ui-row">
+                  <span class="ui-favicon" style="--c:#9b9b9b">D</span>
+                  <div class="ui-row-main">
+                    <span class="ui-row-title">Old Link Archive 2019</span>
+                    <span class="ui-row-sub">deadlink.com</span>
+                  </div>
+                  <span class="ui-status ui-status--bad">
+                    <span class="ui-status-dot" aria-hidden="true"></span> 404
+                  </span>
+                </li>
+              </ul>
+              <div class="ui-offline-bar">
+                <span class="ui-offline-icon" aria-hidden="true">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12.55a11 11 0 0 1 14 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><circle cx="12" cy="20" r="1"/></svg>
+                </span>
+                11 of 12 available offline · last synced 2m ago
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Cross-Platform Sync (cell) -->
+        <article class="bento-card bento-card--cell" data-reveal data-reveal-delay="2">
+          <div class="bento-text">
+            <h3 class="bento-title">Cross-Platform Sync</h3>
+            <p class="bento-body">Pocket, mobile, desktop — in lockstep. Your library, everywhere you read.</p>
+          </div>
+          <div class="bento-shot">
+            <div class="ui-panel ui-sync" aria-hidden="true">
+              <div class="ui-panel-head">
+                <div class="ui-panel-title">All devices</div>
+                <div class="ui-sync-pill">
+                  <span class="ui-sync-check" aria-hidden="true">
+                    <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  Synced · 2s ago
+                </div>
+              </div>
+              <div class="ui-devices">
+                <div class="ui-device ui-device--phone">
+                  <div class="ui-device-head">
+                    <span class="ui-device-icon" aria-hidden="true">📱</span>
+                    <span class="ui-device-name">iPhone</span>
+                    <span class="ui-device-check" aria-hidden="true">✓</span>
+                  </div>
+                  <ul class="ui-list ui-list--rows ui-list--mini">
+                    <li class="ui-row"><span class="ui-row-title">How to Build a Second Brain…</span></li>
+                    <li class="ui-row"><span class="ui-row-title">Best Pocket Alternatives 2026</span></li>
+                  </ul>
+                </div>
+                <div class="ui-device ui-device--desktop">
+                  <div class="ui-device-head">
+                    <span class="ui-device-icon" aria-hidden="true">💻</span>
+                    <span class="ui-device-name">MacBook</span>
+                    <span class="ui-device-check" aria-hidden="true">✓</span>
+                  </div>
+                  <ul class="ui-list ui-list--rows ui-list--mini">
+                    <li class="ui-row"><span class="ui-row-title">How to Build a Second Brain…</span></li>
+                    <li class="ui-row"><span class="ui-row-title">Best Pocket Alternatives 2026</span></li>
+                  </ul>
+                </div>
+                <div class="ui-device ui-device--tablet">
+                  <div class="ui-device-head">
+                    <span class="ui-device-icon" aria-hidden="true">📱</span>
+                    <span class="ui-device-name">iPad</span>
+                    <span class="ui-device-check" aria-hidden="true">✓</span>
+                  </div>
+                  <ul class="ui-list ui-list--rows ui-list--mini">
+                    <li class="ui-row"><span class="ui-row-title">How to Build a Second Brain…</span></li>
+                    <li class="ui-row"><span class="ui-row-title">Best Pocket Alternatives 2026</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="ui-sync-foot">247 bookmarks · 4 devices · 0 conflicts</div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- HOW IT WORKS — 3 steps with custom UI illustrations          -->
+  <!-- ============================================================ -->
+  <section class="how" aria-labelledby="how-h2">
+    <div class="container">
+      <header class="section-head" data-reveal>
+        <span class="eyebrow"><span class="dot"></span> How it works</span>
+        <h2 id="how-h2" class="section-title">
+          From save to found in three quiet steps.
+        </h2>
+        <p class="section-sub">
+          Marqly gets out of your way. Install once, save anywhere, find instantly.
+        </p>
+      </header>
+
+      <ol class="steps">
+        <li class="step" data-reveal data-reveal-delay="1">
+          <div class="step-vis step-vis--install" aria-hidden="true">
+            <div class="ui-toolbar">
+              <div class="ui-toolbar-dots"><span></span><span></span><span></span></div>
+              <div class="ui-toolbar-url">
+                <span class="ui-toolbar-lock" aria-hidden="true">
+                  <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                </span>
+                chromewebstore.google.com
+              </div>
+              <div class="ui-toolbar-icons" aria-hidden="true">
+                <span></span><span></span>
+                <span class="ui-toolbar-ext">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1z"/></svg>
+                </span>
+              </div>
+            </div>
+            <div class="step-install-body">
+              <div class="step-install-title">Add to Chrome</div>
+              <div class="step-install-sub">Marqly — All-in-one Bookmark Manager</div>
+              <div class="step-install-row">
+                <span class="step-install-stars" aria-hidden="true">★★★★★ <span>4.9</span></span>
+                <span class="step-install-users">200k+ users</span>
+              </div>
+              <button class="step-install-btn" type="button" tabindex="-1">
+                + Add to Chrome
+              </button>
+              <div class="step-install-browsers" aria-hidden="true">
+                <span class="step-install-browser" title="Chrome">C</span>
+                <span class="step-install-browser" title="Firefox">F</span>
+                <span class="step-install-browser" title="Edge">E</span>
+                <span class="step-install-browser" title="Safari">S</span>
+              </div>
+            </div>
+          </div>
+          <span class="step-num">01</span>
+          <h3 class="step-title">Install the extension</h3>
+          <p class="step-body">One click from the Chrome, Firefox, or Edge store. Marqly sits quietly in your toolbar until you need it.</p>
+        </li>
+
+        <li class="step" data-reveal data-reveal-delay="2">
+          <div class="step-vis step-vis--save" aria-hidden="true">
+            <div class="ui-save-kbd" aria-hidden="true">
+              <span class="kbd">⌘</span><span class="kbd">⇧</span><span class="kbd">S</span>
+              <span class="ui-save-kbd-label">press anywhere</span>
+            </div>
+            <div class="ui-save-pop">
+              <div class="ui-save-pop-head">
+                <span class="ui-save-pop-icon" aria-hidden="true">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1z"/></svg>
+                </span>
+                <strong>Save to Marqly</strong>
+              </div>
+              <div class="ui-save-pop-title">The True Cost of Context Switching</div>
+              <div class="ui-save-pop-url">nytimes.com / 2026 / …</div>
+              <div class="ui-save-pop-tags">
+                <span class="ui-tag ui-tag--ai">productivity</span>
+                <span class="ui-tag">deep-work</span>
+                <span class="ui-tag">to-read</span>
+              </div>
+              <div class="ui-save-pop-foot">
+                <span class="ui-spinner" aria-hidden="true"></span>
+                <span>Auto-tagging with AI…</span>
+              </div>
+            </div>
+          </div>
+          <span class="step-num">02</span>
+          <h3 class="step-title">Save anything, anywhere</h3>
+          <p class="step-body">Click the Marqly icon — or hit ⌘+Shift+S. We capture the page and tag it for you.</p>
+        </li>
+
+        <li class="step" data-reveal data-reveal-delay="3">
+          <div class="step-vis step-vis--find" aria-hidden="true">
+            <div class="ui-search-bar ui-search-bar--lg">
+              <span class="ui-search-icon" aria-hidden="true">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+              </span>
+              <span class="ui-search-query">productivity tips</span>
+              <span class="ui-search-cursor" aria-hidden="true"></span>
+            </div>
+            <div class="ui-search-meta">8 results · 0.06s</div>
+            <ul class="ui-list ui-list--rows ui-list--compact">
+              <li class="ui-row">
+                <span class="ui-favicon" style="--c:#fc6d26">JC</span>
+                <div class="ui-row-main">
+                  <span class="ui-row-title">Atomic Habits — Tiny Changes, Big Results</span>
+                  <span class="ui-row-sub">jamesclear.com · habits</span>
+                </div>
+              </li>
+              <li class="ui-row">
+                <span class="ui-favicon" style="--c:#0a0a0a">CN</span>
+                <div class="ui-row-main">
+                  <span class="ui-row-title">Deep Work — Rules for Focused Success</span>
+                  <span class="ui-row-sub">calnewport.com · focus</span>
+                </div>
+              </li>
+              <li class="ui-row">
+                <span class="ui-favicon" style="--c:#007aff">A</span>
+                <div class="ui-row-main">
+                  <span class="ui-row-title">The Async Communication Playbook</span>
+                  <span class="ui-row-sub">doist.com · remote</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <span class="step-num">03</span>
+          <h3 class="step-title">Find it the moment you need it</h3>
+          <p class="step-body">Search by what it was about, not by what it was called. The page finds itself.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- PRICING — toggle monthly / yearly                            -->
+  <!-- ============================================================ -->
+  <section class="pricing section" id="pricing" aria-labelledby="pricing-h2">
+    <div class="container">
+      <header class="section-head" data-reveal>
+        <span class="eyebrow"><span class="dot"></span> Pricing</span>
+        <h2 id="pricing-h2" class="section-title">
+          Simple pricing. Powerful bookmarking.
+        </h2>
+        <p class="section-sub">
+          Start free. Upgrade when your library outgrows the basics.
+        </p>
+      </header>
+
+      <div class="billing-toggle-wrap" data-reveal data-reveal-delay="1">
+        <div class="billing-toggle" role="tablist" aria-label="Billing period">
+          <button class="bt-opt" type="button" role="tab" aria-selected="true" data-billing-opt="monthly">
+            Monthly
+          </button>
+          <button class="bt-opt" type="button" role="tab" aria-selected="false" data-billing-opt="yearly">
+            Yearly <span class="bt-save">Save 50%</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="tiers tiers--two" data-billing="monthly" data-reveal data-reveal-delay="2">
+        <article class="tier">
+          <h3 class="tier-name">{tiers[0].name}</h3>
+          <div class="tier-price">
+            <span class="tier-amount">{tiers[0].price}</span>
+            <span class="tier-period">{tiers[0].period}</span>
+          </div>
+          <p class="tier-blurb">{tiers[0].blurb}</p>
+          <a href={tiers[0].href} class="btn btn--outline btn--lg tier-cta">
+            {tiers[0].cta}
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+          <ul class="tier-perks">
+            {tiers[0].perks.map((p) => (
+              <li>
+                <span class="check" aria-hidden="true">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
+                </span>
+                {p}
+              </li>
+            ))}
+          </ul>
+        </article>
+
+        <article class="tier tier--featured">
+          <span class="tier-flag">7-day free trial</span>
+          <h3 class="tier-name">{tiers[1].name}</h3>
+          <div class="tier-price" data-show="monthly">
+            <span class="tier-amount">{tiers[1].monthly.amount}</span>
+            <span class="tier-period">{tiers[1].monthly.period}</span>
+          </div>
+          <div class="tier-price" data-show="yearly" hidden>
+            <span class="tier-amount">{tiers[1].yearly.amount}</span>
+            <span class="tier-period">{tiers[1].yearly.period}</span>
+          </div>
+          <p class="tier-blurb">{tiers[1].blurb}</p>
+          <a href={tiers[1].href} class="btn btn--primary btn--lg tier-cta">
+            {tiers[1].cta}
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+          <ul class="tier-perks">
+            {tiers[1].perks.map((p) => (
+              <li>
+                <span class="check" aria-hidden="true">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
+                </span>
+                {p}
+              </li>
+            ))}
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- TESTIMONIALS                                                 -->
+  <!-- ============================================================ -->
+  <section class="reviews section" id="reviews" aria-labelledby="reviews-h2">
+    <div class="container">
+      <header class="section-head" data-reveal>
+        <span class="eyebrow"><span class="dot"></span> Loved by people</span>
+        <h2 id="reviews-h2" class="section-title">
+          People who used to lose links — and now don't.
+        </h2>
+      </header>
+
+      <div class="reviews-row" data-reveal data-reveal-delay="1">
+        <button class="reviews-arrow reviews-arrow--prev" type="button" aria-label="Previous review" data-review-prev>←</button>
+        <div class="reviews-track" data-review-track>
+          {testimonials.map((t) => (
+            <figure class={`review ${t.dark ? 'review--dark' : ''}`}>
+              <div class="review-stars" aria-label="5 out of 5">★★★★★</div>
+              <blockquote class="review-quote">"{t.quote}"</blockquote>
+              <figcaption class="review-meta">
+                <Image src={t.avatar} alt="" width={40} height={40} class="review-avatar" />
+                <div>
+                  <strong>{t.name}</strong>
+                  <span>{t.role}</span>
+                </div>
+              </figcaption>
+            </figure>
+          ))}
+        </div>
+        <button class="reviews-arrow reviews-arrow--next" type="button" aria-label="Next review" data-review-next>→</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- FINAL CTA                                                    -->
+  <!-- ============================================================ -->
+  <section class="final-cta" aria-labelledby="cta-h2">
+    <div class="container">
+      <div class="cta-card" data-reveal>
+        <div class="cta-glow" aria-hidden="true"></div>
+        <span class="eyebrow eyebrow--dark"><span class="dot"></span> Free forever · No card</span>
+        <h2 id="cta-h2" class="cta-title">
+          Your future self will thank you for the links you save today.
+        </h2>
+        <p class="cta-sub">Start using Marqly in under a minute.</p>
+        <div class="cta-ctas">
+          <a href={APP} class="btn btn--primary btn--lg">
+            Get Marqly Free
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+          <a href={CHROME} class="btn btn--outline btn--lg" target="_blank" rel="noopener">
+            Add to Chrome
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- TAB SAVER                                                    -->
+  <!-- ============================================================ -->
+  <section class="tabsaver section" aria-labelledby="tabsaver-h2">
+    <div class="container">
+      <div class="tabsaver-inner" data-reveal>
+        <div class="tabsaver-text">
+          <span class="eyebrow"><span class="dot"></span> Free Extension</span>
+          <h2 id="tabsaver-h2" class="section-title section-title--left">
+            Free Bookmark Manager Extension with Tab Saver
+          </h2>
+          <p class="section-sub section-sub--left">
+            Save bookmarks from Chrome, Edge, and Firefox with one click. Tab Saver
+            collapses all your open tabs and reduces memory usage by up to 95%.
+          </p>
+          <a href={CHROME} class="btn btn--primary btn--lg" target="_blank" rel="noopener">
+            Install Free Extension
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+        <div class="tabsaver-shot">
+          <Image
+            src={browsers}
+            alt="Available on Chrome, Firefox, Edge and Safari"
+            widths={[260, 440]}
+            sizes="(max-width: 760px) 70vw, 360px"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+</LandingLayout>
+
+<script is:inline>
+  // ----- Reviews carousel arrows -----
+  (function () {
+    const track = document.querySelector('[data-review-track]');
+    const prev = document.querySelector('[data-review-prev]');
+    const next = document.querySelector('[data-review-next]');
+    if (!track || !prev || !next) return;
+    const step = () => {
+      const card = track.querySelector('.review');
+      if (!card) return 360;
+      const gap = parseFloat(getComputedStyle(track).columnGap || 16);
+      return card.getBoundingClientRect().width + gap;
+    };
+    prev.addEventListener('click', () => track.scrollBy({ left: -step(), behavior: 'smooth' }));
+    next.addEventListener('click', () => track.scrollBy({ left: step(), behavior: 'smooth' }));
+  })();
+
+  // ----- Pricing billing toggle (monthly / yearly) -----
+  (function () {
+    const wrap = document.querySelector('[data-billing]');
+    if (!wrap) return;
+    const opts = document.querySelectorAll('[data-billing-opt]');
+    const prices = wrap.querySelectorAll('[data-show]');
+    opts.forEach((opt) => {
+      opt.addEventListener('click', () => {
+        const v = opt.getAttribute('data-billing-opt');
+        if (wrap.getAttribute('data-billing') === v) return;
+        wrap.setAttribute('data-billing', v);
+        opts.forEach((o) => {
+          const active = o === opt;
+          o.classList.toggle('is-active', active);
+          o.setAttribute('aria-selected', active ? 'true' : 'false');
+        });
+        prices.forEach((p) => {
+          p.toggleAttribute('hidden', p.getAttribute('data-show') !== v);
+        });
+      });
+    });
+  })();
+</script>
 
 <style>
-  .container { width: min(100% - 2rem, 1140px); margin-inline: auto; }
-
-  .eyebrow {
-    display: inline-flex;
+  /* ============================================================ */
+  /* HERO                                                         */
+  /* ============================================================ */
+  .hero {
+    position: relative;
+    padding-top: clamp(3rem, 6vw, 5.5rem);
+    padding-bottom: clamp(3rem, 6vw, 5rem);
+    overflow: clip;
+  }
+  .hero-inner {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: var(--space-2);
-    font-size: var(--fs-sm);
-    font-weight: 600;
-    color: #7749f6;
-    background: #f3effe;
-    border-radius: var(--radius-pill);
-    padding: 0.35rem 0.9rem;
   }
-  .eyebrow-soft {
-    font-family: var(--font-display);
-    font-size: var(--fs-base);
-    font-weight: 600;
-    color: var(--color-text);
+  .dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+    display: inline-block;
   }
 
-  .btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: var(--space-2);
-    font-family: var(--font-display);
-    font-size: var(--fs-lg);
-    font-weight: 600;
-    padding: 0.85rem 1.6rem;
-    border-radius: var(--radius-pill);
-    transition: transform 0.15s ease;
-  }
-  .btn:hover { transform: translateY(-1px); }
-  .btn-dark { background: #000; color: #fff; }
-
-  /* ===== Hero ===== */
-  .hero { padding-top: var(--space-16); text-align: center; }
   .hero-title {
     margin-top: var(--space-6);
-    font-family: var(--font-display);
-    font-weight: 700;
-    font-size: clamp(2.5rem, 7vw, 4.5rem);
-    line-height: 1.05;
-    color: var(--color-heading);
-    max-width: 16ch;
-    margin-inline: auto;
+    font-size: var(--fs-display);
+    line-height: var(--lh-display);
+    font-weight: 600;
+    letter-spacing: -0.045em;
+    color: var(--ink-1);
+    max-width: 22ch;
   }
   .hero-title .grad {
-    background: linear-gradient(90deg, #2b9bff 0%, #6a5bff 50%, #8b3bff 100%);
+    background: var(--accent-grad);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
   .hero-sub {
     margin-top: var(--space-6);
-    font-family: var(--font-display);
     font-size: var(--fs-lg);
-    color: var(--color-text);
-    max-width: 44ch;
-    margin-inline: auto;
-    line-height: var(--lh-snug);
+    line-height: 1.5;
+    color: var(--ink-3);
+    max-width: 52ch;
   }
-  .btn-dark { margin-top: var(--space-8); }
-  .micro {
-    margin-top: var(--space-3);
-    font-size: var(--fs-sm);
-    color: var(--color-text);
+  .hero-ctas {
+    margin-top: var(--space-8);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-3);
+  }
+  .hero-ctas .btn--primary.btn--lg {
+    box-sizing: border-box;
+    width: 240px;
+    height: 48px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    --btn-bg: #000;
+  }
+  .hero-ctas .btn--primary.btn--lg:hover {
+    --btn-bg: #000;
+  }
+  .hero-micro {
+    margin-top: var(--space-4);
+    font-size: var(--fs-xs);
+    color: var(--ink-4);
   }
   .hero-shot {
-    margin-top: var(--space-12);
+    position: relative;
+    margin-top: clamp(2.5rem, 5vw, 4.5rem);
+    width: 100%;
+    max-width: 1100px;
   }
-  .hero-shot :global(img) {
+  .hero-shot :global(img.hero-bg) {
     width: 100%;
     height: auto;
-    border-radius: 16px;
-    box-shadow: var(--shadow-md);
+    border-radius: var(--radius-card);
+    box-shadow:
+      0 1px 0 rgba(13, 13, 16, 0.04),
+      0 24px 60px -20px rgba(13, 13, 16, 0.18),
+      0 8px 24px -8px rgba(13, 13, 16, 0.08);
+    border: 1px solid var(--border-1);
   }
 
-  /* ===== Everything ===== */
-  .everything { padding-block: var(--space-32); text-align: center; }
-  .section-title {
-    font-family: var(--font-display);
-    font-weight: 700;
-    font-size: clamp(2rem, 5vw, 3.5rem);
-    line-height: var(--lh-tight);
-    color: var(--color-heading);
-    max-width: 20ch;
-    margin-inline: auto;
+  /* ----- Floating callouts (overlaid on hero) ----- */
+  .callout {
+    position: absolute;
+    z-index: 3;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: var(--fs-xs);
+    font-weight: 500;
+    color: var(--ink-1);
+    background: var(--surface-1);
+    border: 1px solid var(--border-1);
+    padding: 0.55rem 0.85rem;
+    border-radius: var(--radius-pill);
+    box-shadow: var(--shadow-callout);
+    white-space: nowrap;
   }
-  .section-sub {
-    margin-top: var(--space-5);
-    font-family: var(--font-display);
-    font-size: var(--fs-lg);
-    color: var(--color-text);
-    max-width: 52ch;
-    margin-inline: auto;
-    line-height: var(--lh-snug);
+  .callout-dot {
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--ink-1);
+    display: inline-block;
   }
-  .everything-shot { margin-top: var(--space-12); }
+  .callout-dot--accent {
+    background: var(--accent);
+    box-shadow: 0 0 0 4px var(--accent-mute);
+  }
+  .callout--left {
+    top: 14%;
+    left: -6px;
+    animation: floatA 5.5s var(--ease-in-out) infinite;
+  }
+  @keyframes floatA { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+  @media (prefers-reduced-motion: reduce) {
+    .callout--left { animation: none; }
+  }
 
-  .features {
-    list-style: none;
-    margin-top: var(--space-12);
+  /* ----- Save popup (extension in action, overlaid on the dashboard) ----- */
+  .save-pop {
+    position: absolute;
+    z-index: 2;
+    top: 8%;
+    right: 4%;
+    margin-top: 10px;
+    margin-right: -24px;
+    width: clamp(220px, 24%, 300px);
+    background: var(--surface-1);
+    border: 1px solid var(--border-2);
+    border-radius: 14px;
+    box-shadow: var(--shadow-float);
+    padding: 0.75rem 0.8rem;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: var(--space-6);
-    text-align: left;
+    gap: 0.55rem;
+    transform-origin: top right;
+    animation: popIn 600ms 500ms var(--ease-out) both;
   }
-  .feature-card {
-    background: #f7f7fb;
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-lg);
-    padding: var(--space-8);
+  .save-pop-head {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
   }
-  .feat-icon {
+  .save-pop-icon {
+    width: 26px; height: 26px;
+    background-color: rgba(0, 0, 0, 1);
+    color: #fff;
+    border-radius: 7px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 46px;
-    height: 46px;
-    border-radius: 12px;
-    background: #ece6fe;
-    color: #7749f6;
+    flex-shrink: 0;
   }
-  .feat-title {
-    margin-top: var(--space-5);
-    font-family: var(--font-display);
-    font-weight: 700;
-    font-size: var(--fs-xl);
-    color: var(--color-heading);
+  .save-pop-head strong {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--ink-1);
+    line-height: 1.1;
   }
-  .feat-body {
-    margin-top: var(--space-3);
-    font-family: var(--font-display);
-    font-size: var(--fs-base);
-    color: var(--color-heading-soft);
-    line-height: var(--lh-snug);
+  .save-pop-sub {
+    display: block;
+    font-size: 0.62rem;
+    color: var(--ink-4);
+    margin-top: 1px;
   }
-
-  /* ===== Devices ===== */
-  .devices { padding-bottom: var(--space-32); text-align: center; }
-  .devices .btn-dark { margin-top: var(--space-6); }
-  .devices-shots {
-    margin-top: var(--space-12);
+  .save-pop-tags {
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    gap: var(--space-6);
+    flex-wrap: wrap;
+    gap: 0.25rem;
   }
-  .devices-shots :global(.dev-laptop) {
-    width: min(88vw, 560px);
-    height: auto;
-    border-radius: 14px;
-    border: 1px solid var(--color-border);
-    background: #fff;
-    box-shadow: var(--shadow-md);
+  .tag {
+    display: inline-flex;
+    font-size: 0.62rem;
+    font-weight: 500;
+    color: var(--ink-2);
+    background: var(--surface-3);
+    padding: 0.18rem 0.55rem;
+    border-radius: var(--radius-pill);
   }
-  .devices-shots :global(.dev-phone) {
-    width: clamp(120px, 22vw, 200px);
-    height: auto;
-    border-radius: 22px;
-    border: 1px solid var(--color-border);
-    background: #fff;
-    box-shadow: var(--shadow-md);
+  .tag--accent {
+    background: var(--accent-soft);
+    color: var(--accent);
+  }
+  .save-pop-foot {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-size: 0.62rem;
+    color: var(--ink-4);
+  }
+  .save-pop-spinner {
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    border: 1.5px solid var(--border-2);
+    border-top-color: var(--accent);
+    animation: spin 0.9s linear infinite;
+    flex-shrink: 0;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes popIn {
+    from { opacity: 0; transform: translateY(-6px) scale(0.95); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .save-pop, .save-pop-spinner { animation: none; }
   }
 
-  /* ===== Testimonials ===== */
-  .loved { padding-bottom: var(--space-32); text-align: center; }
-  .loved .btn-dark { margin-top: var(--space-6); }
-  .testimonials {
+  /* ----- Responsive: hide callouts / save-pop on small screens ----- */
+  @media (max-width: 860px) {
+    .callout--left { left: 4px; top: 6%; }
+    .save-pop { right: 4%; top: 6%; width: 42%; }
+  }
+  @media (max-width: 640px) {
+    .save-pop { display: none; }
+  }
+
+  /* ============================================================ */
+  /* SECTION HEAD                                                 */
+  /* ============================================================ */
+  .section-head {
+    max-width: 720px;
+    margin-inline: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-5);
+  }
+  .section-head--left {
+    margin-inline: 0;
+    text-align: left;
+    align-items: flex-start;
+  }
+  .section-title {
+    font-size: var(--fs-h1);
+    font-weight: 500;
+    letter-spacing: -0.035em;
+    line-height: 1.08;
+    color: var(--ink-1);
+  }
+  .section-title--left {
+    text-align: left;
+    max-width: 20ch;
+  }
+  .section-sub {
+    font-size: var(--fs-lg);
+    color: var(--ink-3);
+    max-width: 56ch;
+    line-height: 1.5;
+  }
+  .section-sub--left { text-align: left; }
+
+  /* ============================================================ */
+  /* FEATURES BENTO                                               */
+  /* ============================================================ */
+  .features { background: var(--surface-1); }
+  .bento {
+    margin-top: var(--space-16);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+  }
+  .bento-card {
+    background: var(--surface-2);
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-card);
+    padding: clamp(1.25rem, 2.4vw, 1.75rem);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-5);
+    min-height: 0;
+    overflow: hidden;
+    transition: transform var(--dur-base) var(--ease-out),
+                border-color var(--dur-base) var(--ease-out);
+  }
+  .bento-card:hover { transform: translateY(-2px); border-color: var(--border-2); }
+
+  .bento-card--wide { grid-column: 1 / -1; flex-direction: row; align-items: center; gap: clamp(1.5rem, 3vw, 2.5rem); }
+  .bento-card--cell { grid-column: auto; }
+
+  /* AI variant (purple) */
+  .bento-card--ai {
+    background: linear-gradient(135deg, #f9f6ff 0%, #f3effe 100%);
+    border-color: #e2d6ff;
+  }
+  .bento-card--ai:hover { border-color: var(--ai); }
+  .ai-badge {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--ai);
+    background: var(--ai-soft);
+    padding: 0.22rem 0.6rem;
+    border-radius: var(--radius-pill);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: var(--space-2);
+  }
+
+  .bento-text { min-width: 0; }
+  .bento-card--wide .bento-text { flex: 1; }
+  .bento-card--cell .bento-text {
+    flex: 0 0 auto;
+    height: fit-content;
+  }
+  .bento-title {
+    font-size: var(--fs-h3);
+    font-weight: 500;
+    color: var(--ink-1);
+    letter-spacing: -0.025em;
+    line-height: 1.2;
+  }
+  .bento-card--ai .bento-title {
+    background: var(--ai-grad);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .bento-body {
+    margin-top: var(--space-3);
+    font-size: var(--fs-sm);
+    color: var(--ink-3);
+    line-height: 1.55;
+  }
+  .bento-card--wide .bento-body { max-width: 44ch; }
+  .bento-card--cell .bento-body { max-width: 36ch; }
+
+  .bento-shot {
+    flex: 0 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .bento-card--wide .bento-shot { flex: 1 1 55%; }
+  .bento-card--cell .bento-shot {
+    flex: 1;
+    align-items: stretch;
+  }
+  .bento-card--cell .bento-shot > .ui-panel.ui-reader,
+  .bento-card--cell .bento-shot > .ui-panel.ui-offline,
+  .bento-card--cell .bento-shot > .ui-panel.ui-sync {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 342px;
+  }
+
+  @media (max-width: 760px) {
+    .bento { grid-template-columns: 1fr; }
+    .bento-card--wide { flex-direction: column; }
+    .bento-card--wide .bento-shot { width: 100%; }
+  }
+
+  /* ============================================================ */
+  /* UI PRIMITIVES — used inside bento + steps                    */
+  /* ============================================================ */
+  .ui-panel {
+    width: 100%;
+    background: var(--surface-1);
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-inner);
+    overflow: hidden;
+    box-shadow:
+      0 1px 0 rgba(13, 13, 16, 0.03),
+      0 12px 28px -10px rgba(13, 13, 16, 0.12);
+    font-size: 0.78rem;
+  }
+  .ui-panel-head {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.55rem 0.75rem;
+    background: var(--surface-2);
+    border-bottom: 1px solid var(--border-1);
+  }
+  .ui-panel-title {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--ink-1);
+  }
+  .ui-spark {
+    display: inline-flex;
+    width: 16px; height: 16px;
+    background: linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%);
+    color: #fff;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  .ui-spark--ai {
+    background: linear-gradient(135deg, #a78bfa 0%, #818cf8 100%);
+  }
+  .ui-badge {
+    display: inline-flex;
+    font-size: 0.62rem;
+    font-weight: 600;
+    color: var(--accent);
+    background: var(--accent-soft);
+    padding: 0.12rem 0.5rem;
+    border-radius: var(--radius-pill);
+  }
+  .ui-panel-tools {
+    margin-left: auto;
+    display: inline-flex;
+    gap: 4px;
+  }
+  .ui-panel-tools span {
+    width: 14px; height: 14px;
+    border-radius: 4px;
+    background: var(--surface-3);
+    display: block;
+  }
+
+  .ui-list {
     list-style: none;
+    margin: 0;
+    padding: 0.25rem 0;
+  }
+  .ui-row {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid var(--border-1);
+  }
+  .ui-row:last-child { border-bottom: none; }
+  .ui-row--active {
+    background: var(--accent-soft);
+  }
+  .ui-row-main {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  .ui-row-title {
+    font-size: 0.74rem;
+    font-weight: 500;
+    color: var(--ink-1);
+    line-height: 1.25;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .ui-row-title em {
+    font-style: normal;
+    color: var(--accent);
+    font-weight: 600;
+    background: linear-gradient(transparent 60%, rgba(0, 122, 255, 0.18) 60%);
+    border-radius: 2px;
+    padding: 0 1px;
+  }
+  .ui-row-sub {
+    font-size: 0.62rem;
+    color: var(--ink-4);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .ui-row-tags {
+    display: flex;
+    gap: 4px;
+    flex-shrink: 0;
+  }
+
+  .ui-favicon {
+    flex: 0 0 auto;
+    width: 24px; height: 24px;
+    border-radius: 6px;
+    background: var(--c, #555);
+    color: #fff;
+    font-size: 0.55rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ui-tag {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.6rem;
+    font-weight: 500;
+    color: var(--ink-2);
+    background: var(--surface-3);
+    padding: 0.15rem 0.5rem;
+    border-radius: var(--radius-pill);
+    white-space: nowrap;
+  }
+  .ui-tag--ai {
+    background: linear-gradient(135deg, #f3effe 0%, #ece4ff 100%);
+    color: var(--ai);
+    border: 1px solid rgba(119, 73, 246, 0.2);
+    position: relative;
+    animation: aiPulse 3.4s var(--ease-in-out) infinite;
+  }
+  @keyframes aiPulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(119, 73, 246, 0); }
+    50% { box-shadow: 0 0 0 3px rgba(119, 73, 246, 0.12); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .ui-tag--ai { animation: none; }
+  }
+
+  /* ----- AI inbox card ----- */
+  .ui-inbox .ui-row-title { max-width: 22ch; }
+
+  /* ----- Search card ----- */
+  .ui-search-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.65rem 0.75rem;
+    background: var(--surface-2);
+    border-bottom: 1px solid var(--border-1);
+  }
+  .ui-search-bar--lg { padding: 0.8rem 0.9rem; }
+  .ui-search-icon {
+    display: inline-flex;
+    color: var(--ink-4);
+  }
+  .ui-search-query {
+    width: fit-content;
+    flex: none;
+    font-size: 0.78rem;
+    color: var(--ink-1);
+    font-weight: 500;
+  }
+  .ui-search-cursor {
+    width: 1.5px;
+    height: 14px;
+    background: var(--accent);
+    display: inline-block;
+    margin-left: -2px;
+    animation: blink 1.05s steps(2) infinite;
+  }
+  @keyframes blink { 50% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { .ui-search-cursor { animation: none; } }
+  .ui-search-kbd {
+    font-size: 0.6rem;
+    color: var(--ink-4);
+    font-family: var(--font-mono);
+    border: 1px solid var(--border-1);
+    border-radius: 5px;
+    padding: 0.1rem 0.35rem;
+  }
+  .ui-search-meta {
+    font-size: 0.62rem;
+    color: var(--ink-4);
+    padding: 0.45rem 0.75rem 0.25rem;
+    font-family: var(--font-mono);
+  }
+
+  /* ----- Reader card ----- */
+  .ui-reader { display: flex; flex-direction: column; }
+  .ui-reader-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.55rem 0.75rem;
+    background: var(--surface-2);
+    border-bottom: 1px solid var(--border-1);
+  }
+  .ui-reader-back {
+    color: var(--ink-3);
+    font-size: 0.9rem;
+  }
+  .ui-reader-domain {
+    font-size: 0.7rem;
+    color: var(--ink-3);
+    font-weight: 500;
+    flex: 1;
+  }
+  .ui-reader-actions {
+    display: inline-flex;
+    gap: 0.25rem;
+  }
+  .ui-pill {
+    display: inline-flex;
+    font-size: 0.6rem;
+    font-weight: 500;
+    color: var(--ink-3);
+    background: var(--surface-1);
+    border: 1px solid var(--border-1);
+    padding: 0.18rem 0.5rem;
+    border-radius: var(--radius-pill);
+  }
+  .ui-pill--on {
+    background: #000;
+    color: #fff;
+    border-color: transparent;
+  }
+  .ui-reader-body {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    align-content: stretch;
+    gap: 0;
+    padding: 0.65rem 0.75rem 0.75rem;
+  }
+  .ui-reader-text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-right: 0.5rem;
+  }
+  .ui-reader-title {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--ink-1);
+    line-height: 1.2;
+    letter-spacing: -0.015em;
+    margin: 0;
+  }
+  .ui-reader-meta {
+    font-size: 0.6rem;
+    color: var(--ink-4);
+    display: block;
+    margin: 0;
+  }
+  .ui-reader-lines {
+    display: grid;
+    gap: 0.32rem;
+  }
+  .ui-reader-lines span {
+    height: 4px;
+    background: var(--surface-3);
+    border-radius: 3px;
+    display: block;
+  }
+  .ui-summary {
+    background: linear-gradient(135deg, #faf7ff 0%, #f3effe 100%);
+    border: 1px solid #e2d6ff;
+    border-radius: 10px;
+    padding: 0.55rem 0.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .ui-summary-head {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+  .ui-summary-head strong {
+    font-size: 0.66rem;
+    font-weight: 600;
+    color: var(--ai);
+    letter-spacing: 0.02em;
+  }
+  .ui-summary-bullets {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 0.3rem;
+  }
+  .ui-summary-bullets li {
+    position: relative;
+    padding-left: 0.65rem;
+    font-size: 0.6rem;
+    color: var(--ink-2);
+    line-height: 1.4;
+  }
+  .ui-summary-bullets li::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0.45em;
+    width: 4px; height: 4px;
+    border-radius: 50%;
+    background: var(--ai);
+  }
+
+  /* ----- Offline card ----- */
+  .ui-offline {
+    display: flex;
+    flex-direction: column;
+  }
+  .ui-offline .ui-list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .ui-offline-pill {
+    margin-left: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.62rem;
+    font-weight: 600;
+    color: var(--ink-3);
+    background: var(--surface-1);
+    border: 1px solid var(--border-1);
+    padding: 0.18rem 0.5rem;
+    border-radius: var(--radius-pill);
+  }
+  .ui-offline-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: #ff9f0a;
+    box-shadow: 0 0 0 3px rgba(255, 159, 10, 0.18);
+  }
+  .ui-status {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.6rem;
+    font-weight: 600;
+    padding: 0.18rem 0.5rem;
+    border-radius: var(--radius-pill);
+  }
+  .ui-status-dot {
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .ui-status--ok { color: #1f9d55; background: rgba(31, 157, 85, 0.1); }
+  .ui-status--ok .ui-status-dot { background: #1f9d55; }
+  .ui-status--bad { color: #d64545; background: rgba(214, 69, 69, 0.1); }
+  .ui-status--bad .ui-status-dot { background: #d64545; }
+  .ui-offline-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.45rem 0.75rem;
+    border-top: 1px solid var(--border-1);
+    font-size: 0.6rem;
+    color: var(--ink-4);
+  }
+  .ui-offline-icon { color: var(--ink-4); display: inline-flex; }
+
+  /* ----- Sync card ----- */
+  .ui-sync {
+    display: flex;
+    flex-direction: column;
+  }
+  .ui-sync-pill {
+    margin-left: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.62rem;
+    font-weight: 600;
+    color: #1f9d55;
+    background: rgba(31, 157, 85, 0.1);
+    padding: 0.18rem 0.55rem;
+    border-radius: var(--radius-pill);
+  }
+  .ui-sync-check {
+    width: 12px; height: 12px;
+    border-radius: 50%;
+    background: #1f9d55;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ui-devices {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 0.55rem 0.6rem;
+  }
+  .ui-device {
+    border: 1px solid var(--border-1);
+    border-radius: 10px;
+    padding: 0.5rem 0.6rem;
+    background: var(--surface-2);
+  }
+  .ui-device-head {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-bottom: 0.35rem;
+  }
+  .ui-device-icon {
+    font-size: 0.85rem;
+    line-height: 1;
+  }
+  .ui-device-name {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--ink-1);
+    flex: 1;
+  }
+  .ui-device-check {
+    width: 16px; height: 16px;
+    border-radius: 50%;
+    background: #1f9d55;
+    color: #fff;
+    font-size: 0.55rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+  }
+  .ui-device .ui-list { padding: 0; }
+  .ui-device .ui-row {
+    padding: 0.18rem 0;
+    border-bottom: none;
+    font-size: 0.62rem;
+    color: var(--ink-3);
+  }
+  .ui-device .ui-row::before {
+    content: '';
+    width: 4px; height: 4px;
+    border-radius: 50%;
+    background: var(--ink-4);
+    display: inline-block;
+    flex: 0 0 auto;
+  }
+  .ui-list--mini .ui-row-title { font-size: 0.66rem; }
+  .ui-list--compact .ui-row { padding: 0.4rem 0.75rem; }
+  .ui-sync-foot {
+    padding: 0.5rem 0.75rem 0.6rem;
+    border-top: 1px solid var(--border-1);
+    font-size: 0.6rem;
+    color: var(--ink-4);
+    text-align: center;
+  }
+
+  /* ============================================================ */
+  /* HOW IT WORKS                                                 */
+  /* ============================================================ */
+  .how {
+    background: var(--surface-2);
+    padding-block: var(--section-pad-y);
+    border-top: 1px solid var(--border-1);
+    border-bottom: 1px solid var(--border-1);
+  }
+  .steps {
     margin-top: var(--space-12);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: var(--space-6);
-    text-align: left;
+    gap: var(--space-4);
   }
-  .tcard {
-    background: #fff;
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-lg);
-    padding: var(--space-8);
-    box-shadow: var(--shadow-sm);
+  .step {
+    background: var(--surface-1);
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-card);
+    padding: clamp(1.25rem, 2.4vw, 1.75rem);
     display: flex;
     flex-direction: column;
-    gap: var(--space-6);
+    gap: var(--space-3);
   }
-  .tquote {
-    font-family: var(--font-display);
-    font-size: var(--fs-base);
-    color: var(--color-heading-soft);
-    line-height: var(--lh-snug);
+  .step-vis {
+    background: var(--surface-2);
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-inner);
+    overflow: hidden;
+    box-shadow: 0 1px 0 rgba(13, 13, 16, 0.03);
+    margin-bottom: var(--space-2);
+    min-height: 226px;
+    display: flex;
+    flex-direction: column;
   }
-  .tmeta { display: flex; align-items: center; gap: var(--space-3); margin-top: auto; }
-  .tmeta :global(.tavatar) { width: 44px; height: 44px; border-radius: 50%; }
-  .tname { font-family: var(--font-display); font-weight: 600; color: var(--color-heading); }
+  .step-num {
+    font-size: var(--fs-xs);
+    font-weight: 600;
+    color: var(--accent);
+    background: var(--accent-soft);
+    padding: 0.3rem 0.65rem;
+    border-radius: var(--radius-pill);
+    align-self: flex-start;
+    letter-spacing: 0.06em;
+  }
+  .step-title {
+    font-size: var(--fs-h4);
+    font-weight: 500;
+    color: var(--ink-1);
+    letter-spacing: -0.02em;
+  }
+  .step-body {
+    font-size: var(--fs-sm);
+    color: var(--ink-3);
+    line-height: 1.55;
+  }
 
-  /* ===== Tab Saver ===== */
-  .tabsaver { padding-bottom: var(--space-32); text-align: center; }
-  .tabsaver .btn-dark { margin-top: var(--space-6); }
-  .browsers-shot { margin-top: var(--space-12); display: flex; justify-content: center; }
-  .browsers-shot :global(img) { width: min(60%, 360px); height: auto; }
+  /* ----- Step 01: Install ----- */
+  .ui-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.7rem;
+    background: var(--surface-3);
+    border-bottom: 1px solid var(--border-1);
+  }
+  .ui-toolbar-dots {
+    display: inline-flex;
+    gap: 4px;
+  }
+  .ui-toolbar-dots span {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: #d0d0d4;
+    display: block;
+  }
+  .ui-toolbar-dots span:nth-child(1) { background: #ff6058; }
+  .ui-toolbar-dots span:nth-child(2) { background: #ffc130; }
+  .ui-toolbar-dots span:nth-child(3) { background: #28c941; }
+  .ui-toolbar-url {
+    flex: 1;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    background: var(--surface-1);
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-pill);
+    padding: 0.18rem 0.5rem;
+    font-size: 0.6rem;
+    color: var(--ink-3);
+    font-family: var(--font-mono);
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .ui-toolbar-lock { color: var(--ink-4); display: inline-flex; }
+  .ui-toolbar-icons {
+    display: inline-flex;
+    gap: 3px;
+  }
+  .ui-toolbar-icons span {
+    width: 14px; height: 14px;
+    border-radius: 4px;
+    background: var(--surface-1);
+    border: 1px solid var(--border-1);
+  }
+  .ui-toolbar-ext {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--ink-1) !important;
+    color: #fff;
+    border-color: transparent !important;
+    box-shadow: 0 0 0 4px rgba(13, 13, 16, 0.12);
+    animation: extPulse 2.4s var(--ease-in-out) infinite;
+  }
+  @keyframes extPulse {
+    0%, 100% { box-shadow: 0 0 0 4px rgba(13, 13, 16, 0.12); }
+    50% { box-shadow: 0 0 0 7px rgba(13, 13, 16, 0.06); }
+  }
+  @media (prefers-reduced-motion: reduce) { .ui-toolbar-ext { animation: none; } }
 
-  @media (max-width: 810px) {
-    .hero { padding-top: var(--space-12); }
-    .everything, .devices, .loved, .tabsaver { padding-block: var(--space-24); }
-    .devices, .loved, .tabsaver { padding-top: 0; }
-    .features { grid-template-columns: 1fr; gap: var(--space-5); }
-    .testimonials { grid-template-columns: 1fr; gap: var(--space-5); }
-    .devices-shots { flex-direction: column; align-items: center; gap: var(--space-5); }
+  .step-install-body {
+    flex: 1;
+    padding: 0.85rem 0.9rem 0.95rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .step-install-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--ink-1);
+    letter-spacing: -0.015em;
+  }
+  .step-install-sub {
+    font-size: 0.62rem;
+    color: var(--ink-4);
+  }
+  .step-install-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.6rem;
+    color: var(--ink-3);
+    margin-top: 0.15rem;
+  }
+  .step-install-stars {
+    color: var(--star);
+    letter-spacing: 0.05em;
+  }
+  .step-install-stars span {
+    color: var(--ink-1);
+    font-weight: 600;
+    margin-left: 4px;
+    letter-spacing: 0;
+  }
+  .step-install-users {
+    color: var(--ink-4);
+  }
+  .step-install-btn {
+    margin-top: 0.5rem;
+    width: 100%;
+    background: var(--ink-1);
+    color: #fff;
+    border: none;
+    border-radius: var(--radius-pill);
+    padding: 0.55rem 0.9rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    cursor: default;
+  }
+  .step-install-browsers {
+    margin-top: 0.6rem;
+    display: flex;
+    gap: 0.35rem;
+    justify-content: center;
+  }
+  .step-install-browser {
+    width: 22px; height: 22px;
+    border-radius: 50%;
+    background: var(--surface-1);
+    border: 1px solid var(--border-1);
+    color: var(--ink-2);
+    font-size: 0.6rem;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ----- Step 02: Save ----- */
+  .step-vis--save {
+    padding: 0.85rem 0.75rem 0.95rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    background: var(--surface-2);
+  }
+  .ui-save-kbd {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-family: var(--font-mono);
+  }
+  .kbd {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 22px;
+    height: 22px;
+    padding: 0 0.4rem;
+    background: var(--surface-1);
+    border: 1px solid var(--border-2);
+    border-bottom-width: 2px;
+    border-radius: 6px;
+    font-size: 0.68rem;
+    font-weight: 600;
+    color: var(--ink-1);
+  }
+  .ui-save-kbd-label {
+    margin-left: 0.4rem;
+    font-size: 0.6rem;
+    color: var(--ink-4);
+    font-family: var(--font-sans, var(--font-mono));
+  }
+  .ui-save-pop {
+    width: 100%;
+    background: var(--surface-1);
+    border: 1px solid var(--border-2);
+    border-radius: 12px;
+    padding: 0.6rem 0.65rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    box-shadow: 0 8px 22px -8px rgba(13, 13, 16, 0.12);
+  }
+  .ui-save-pop-head {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .ui-save-pop-icon {
+    width: 18px; height: 18px;
+    background-color: rgba(0, 0, 0, 1);
+    color: #fff;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ui-save-pop-head strong {
+    font-size: 0.68rem;
+    font-weight: 600;
+    color: var(--ink-1);
+  }
+  .ui-save-pop-title {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--ink-1);
+    line-height: 1.3;
+  }
+  .ui-save-pop-url {
+    font-size: 0.58rem;
+    color: var(--ink-4);
+    font-family: var(--font-mono);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .ui-save-pop-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.22rem;
+  }
+  .ui-save-pop-foot {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.58rem;
+    color: var(--ink-4);
+  }
+  .ui-spinner {
+    width: 9px; height: 9px;
+    border-radius: 50%;
+    border: 1.5px solid var(--border-2);
+    border-top-color: var(--accent);
+    animation: spin 0.9s linear infinite;
+    flex-shrink: 0;
+  }
+
+  /* ----- Step 03: Find ----- */
+  .step-vis--find {
+    padding: 0.6rem 0 0;
+  }
+  .step-vis--find .ui-search-bar--lg { border-bottom: 1px solid var(--border-1); }
+  .step-vis--find .ui-list {
+    flex: 1;
+  }
+
+  @media (max-width: 800px) {
+    .steps { grid-template-columns: 1fr; }
+  }
+
+  /* ============================================================ */
+  /* PRICING                                                      */
+  /* ============================================================ */
+  .pricing { background: var(--surface-1); }
+  .billing-toggle-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--space-8);
+    margin-bottom: var(--space-8);
+  }
+  .billing-toggle {
+    display: inline-flex;
+    align-items: center;
+    background: var(--surface-2);
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-pill);
+    padding: 4px;
+    gap: 0;
+  }
+  .bt-opt {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.55rem 1.15rem;
+    font-size: var(--fs-sm);
+    font-weight: 500;
+    color: var(--ink-3);
+    background: transparent;
+    border: none;
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+    font-family: inherit;
+    transition: color var(--dur-base) var(--ease-out),
+                background var(--dur-base) var(--ease-out);
+  }
+  .bt-opt.is-active {
+    background: var(--surface-1);
+    color: var(--ink-1);
+    box-shadow:
+      0 1px 0 rgba(13, 13, 16, 0.04),
+      0 4px 10px -4px rgba(13, 13, 16, 0.12);
+  }
+  .bt-save {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(135deg, #34c759 0%, #1f9d55 100%);
+    padding: 0.15rem 0.5rem;
+    border-radius: var(--radius-pill);
+    letter-spacing: 0.04em;
+  }
+
+  .tiers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+    align-items: stretch;
+    max-width: 820px;
+    margin-inline: auto;
+  }
+  .tier {
+    position: relative;
+    background: var(--surface-2);
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-card);
+    padding: clamp(1.5rem, 2.8vw, 2.25rem);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    transition: transform var(--dur-base) var(--ease-out),
+                border-color var(--dur-base) var(--ease-out);
+  }
+  .tier:hover { transform: translateY(-2px); border-color: var(--border-2); }
+  .tier--featured {
+    background: linear-gradient(165deg, #0d0d10 0%, #1a1a1f 100%);
+    color: #fff;
+    border-color: transparent;
+    box-shadow:
+      0 1px 0 rgba(13, 13, 16, 0.04),
+      0 24px 60px -20px rgba(13, 13, 16, 0.35);
+  }
+  .tier--featured:hover { border-color: transparent; }
+  .tier-flag {
+    position: absolute;
+    top: -10px; left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.7rem;
+    font-weight: 600;
+    background: var(--accent);
+    color: #fff;
+    padding: 0.3rem 0.7rem;
+    border-radius: var(--radius-pill);
+    letter-spacing: 0.04em;
+  }
+  .tier-name {
+    font-size: var(--fs-h4);
+    font-weight: 500;
+    color: inherit;
+    letter-spacing: -0.02em;
+  }
+  .tier-price {
+    display: flex;
+    align-items: baseline;
+    gap: 0.4rem;
+  }
+  .tier-price[hidden] { display: none; }
+  .tier-amount {
+    font-size: clamp(2.25rem, 4vw, 3rem);
+    font-weight: 500;
+    letter-spacing: -0.05em;
+    line-height: 1;
+  }
+  .tier-period {
+    font-size: var(--fs-sm);
+    color: inherit;
+    opacity: 0.65;
+  }
+  .tier-blurb {
+    font-size: var(--fs-sm);
+    line-height: 1.5;
+    opacity: 0.75;
+  }
+  .tier--featured .tier-blurb {
+    color: rgba(209, 209, 224, 1);
+  }
+  .tier-cta { width: 100%; }
+  .tier-perks {
+    margin-top: var(--space-4);
+    padding-top: var(--space-4);
+    border-top: 1px solid currentColor;
+    display: grid;
+    gap: 0.7rem;
+  }
+  .tier--featured .tier-perks { border-top-color: rgba(255, 255, 255, 0.12); }
+  .tier-perks li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.55rem;
+    font-size: var(--fs-sm);
+    line-height: 1.45;
+  }
+  .check {
+    flex: 0 0 auto;
+    width: 18px; height: 18px;
+    border-radius: 50%;
+    background: var(--accent-soft);
+    color: var(--accent);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1px;
+  }
+  .tier--featured .check { background: rgba(0, 122, 255, 0.18); color: #7eb6ff; }
+
+  @media (max-width: 760px) {
+    .tiers { grid-template-columns: 1fr; }
+  }
+
+  /* ============================================================ */
+  /* REVIEWS                                                      */
+  /* ============================================================ */
+  .reviews { background: var(--surface-2); border-top: 1px solid var(--border-1); border-bottom: 1px solid var(--border-1); }
+  .reviews-row {
+    margin-top: var(--space-12);
+    position: relative;
+  }
+  .reviews-track {
+    display: flex;
+    gap: var(--space-4);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    padding-bottom: var(--space-3);
+  }
+  .reviews-track::-webkit-scrollbar { display: none; }
+  .review {
+    flex: 0 0 calc(33.333% - 1.1rem);
+    min-width: 280px;
+    scroll-snap-align: start;
+    background: var(--surface-1);
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-card);
+    padding: clamp(1.25rem, 2.4vw, 1.75rem);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+  }
+  .review--dark {
+    background: linear-gradient(165deg, #0d0d10 0%, #1a1a1f 100%);
+    border-color: transparent;
+    color: #fff;
+  }
+  .review--dark .review-quote { color: rgba(255, 255, 255, 0.92); }
+  .review--dark .review-meta strong { color: #fff; }
+  .review--dark .review-meta span { color: rgba(255, 255, 255, 0.6); }
+  .review--dark .review-stars { color: var(--star); }
+  .review-stars { color: var(--star); letter-spacing: 0.1em; font-size: var(--fs-sm); }
+  .review-quote {
+    font-size: var(--fs-lg);
+    color: var(--ink-1);
+    line-height: 1.4;
+    letter-spacing: -0.015em;
+    flex: 1;
+  }
+  .review-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    margin-top: auto;
+    padding-top: var(--space-3);
+    border-top: 1px solid currentColor;
+  }
+  .review--dark .review-meta { border-top-color: rgba(255, 255, 255, 0.12); }
+  .review-meta :global(img),
+  .review-meta img {
+    width: 40px; height: 40px;
+    border-radius: 50%;
+  }
+  .review-meta strong { display: block; color: var(--ink-1); font-weight: 600; font-size: var(--fs-sm); }
+  .review-meta span { display: block; color: var(--ink-4); font-size: var(--fs-xs); }
+
+  .reviews-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    background: var(--surface-1);
+    border: 1px solid var(--border-1);
+    color: var(--ink-1);
+    font-size: 1.1rem;
+    z-index: 2;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform var(--dur-fast) var(--ease-out),
+                background var(--dur-base) var(--ease-out);
+    box-shadow: var(--shadow-callout);
+  }
+  .reviews-arrow:hover { background: var(--ink-1); color: #fff; }
+  .reviews-arrow--prev { left: -20px; }
+  .reviews-arrow--next { right: -20px; }
+  @media (max-width: 800px) {
+    .review { flex-basis: 85%; min-width: 0; }
+    .reviews-arrow { display: none; }
+  }
+
+  /* ============================================================ */
+  /* FINAL CTA                                                    */
+  /* ============================================================ */
+  .final-cta {
+    padding-block: var(--section-pad-y);
+    background: var(--surface-1);
+  }
+  .cta-card {
+    position: relative;
+    background: var(--surface-2);
+    border: 1px solid var(--border-1);
+    border-radius: clamp(20px, 2.5vw, 28px);
+    padding: clamp(2.5rem, 6vw, 5rem) clamp(1.5rem, 4vw, 3rem);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-5);
+    overflow: hidden;
+  }
+  .cta-glow {
+    position: absolute;
+    inset: -40% -10% auto -10%;
+    height: 80%;
+    background: radial-gradient(closest-side, rgba(0, 122, 255, 0.16), transparent 70%);
+    filter: blur(30px);
+    pointer-events: none;
+    z-index: 0;
+  }
+  .cta-card > * { position: relative; z-index: 1; }
+  .eyebrow--dark {
+    background: var(--surface-1);
+  }
+  .cta-title {
+    font-size: clamp(1.75rem, 4vw, 3rem);
+    font-weight: 500;
+    letter-spacing: -0.04em;
+    line-height: 1.08;
+    color: var(--ink-1);
+    max-width: 22ch;
+  }
+  .cta-sub {
+    font-size: var(--fs-lg);
+    color: var(--ink-3);
+  }
+  .cta-ctas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-3);
+    margin-top: var(--space-3);
+  }
+
+  /* ============================================================ */
+  /* TAB SAVER                                                    */
+  /* ============================================================ */
+  .tabsaver { background: var(--surface-1); }
+  .tabsaver-inner {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: clamp(2rem, 5vw, 4rem);
+    align-items: center;
+  }
+  .tabsaver-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-5);
+  }
+  .tabsaver-text .btn { margin-top: var(--space-2); }
+  .tabsaver-shot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tabsaver-shot :global(img) {
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+  }
+  @media (max-width: 760px) {
+    .tabsaver-inner { grid-template-columns: 1fr; }
   }
 </style>
