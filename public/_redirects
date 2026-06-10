@@ -6,6 +6,10 @@
 /T&C   /terms   301
 /T%26C /terms   301
 
+# Convenience aliases for the legal pages (App Store metadata, old links).
+/privacy        /privacypolicy  301
+/privacy-policy /privacypolicy  301
+
 # Thin /vs/ stubs → full comparison articles (301 consolidates SEO, kills cannibalization).
 /vs/raindrop    /blog/raindrop-vs-marqly   301
 /vs/raindrop/   /blog/raindrop-vs-marqly   301
