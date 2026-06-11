@@ -64,7 +64,7 @@ const tiers = [
   {
     name: 'Pro',
     monthly: { amount: '$9', period: 'per month' },
-    yearly: { amount: '$4.50', period: 'per month, billed annually' },
+    yearly: { amount: '$7', period: 'per month, billed annually' },
     blurb: '7-day free trial. Cancel anytime.',
     cta: 'Start 7-day trial',
     href: APP,
@@ -649,16 +649,16 @@ const testimonials = [
 
       <div class="billing-toggle-wrap" data-reveal data-reveal-delay="1">
         <div class="billing-toggle" role="tablist" aria-label="Billing period">
-          <button class="bt-opt" type="button" role="tab" aria-selected="true" data-billing-opt="monthly">
+          <button class="bt-opt" type="button" role="tab" aria-selected="false" data-billing-opt="monthly">
             Monthly
           </button>
-          <button class="bt-opt" type="button" role="tab" aria-selected="false" data-billing-opt="yearly">
-            Yearly <span class="bt-save">Save 50%</span>
+          <button class="bt-opt is-active" type="button" role="tab" aria-selected="true" data-billing-opt="yearly">
+            Yearly <span class="bt-save">Save 22%</span>
           </button>
         </div>
       </div>
 
-      <div class="tiers tiers--two" data-billing="monthly" data-reveal data-reveal-delay="2">
+      <div class="tiers tiers--two" data-billing="yearly" data-reveal data-reveal-delay="2">
         <article class="tier">
           <h3 class="tier-name">{tiers[0].name}</h3>
           <div class="tier-price">
@@ -685,11 +685,11 @@ const testimonials = [
         <article class="tier tier--featured">
           <span class="tier-flag">7-day free trial</span>
           <h3 class="tier-name">{tiers[1].name}</h3>
-          <div class="tier-price" data-show="monthly">
+          <div class="tier-price" data-show="monthly" hidden>
             <span class="tier-amount">{tiers[1].monthly.amount}</span>
             <span class="tier-period">{tiers[1].monthly.period}</span>
           </div>
-          <div class="tier-price" data-show="yearly" hidden>
+          <div class="tier-price" data-show="yearly">
             <span class="tier-amount">{tiers[1].yearly.amount}</span>
             <span class="tier-period">{tiers[1].yearly.period}</span>
           </div>
