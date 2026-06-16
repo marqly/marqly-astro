@@ -122,5 +122,35 @@ const canonicalURL = canonical ?? new URL(Astro.url.pathname, Astro.site).href;
         box-shadow: 0 0 0 3px var(--accent-ring);
       }
     </style>
+
+    <!-- Chatbase support chat widget — host-gated to marqly.com (same as GA4),
+         so local dev / previews don't create junk support conversations. -->
+    <script is:inline define:vars={{ chatbaseId: 'KXQtLhA-2MmoU2GDrn_2N' }}>
+      if (location.hostname === 'marqly.com' || location.hostname.endsWith('.marqly.com')) {
+        (function () {
+          if (!window.chatbase || window.chatbase('getState') !== 'initialized') {
+            window.chatbase = (...args) => {
+              if (!window.chatbase.q) { window.chatbase.q = []; }
+              window.chatbase.q.push(args);
+            };
+            window.chatbase = new Proxy(window.chatbase, {
+              get(target, prop) {
+                if (prop === 'q') { return target.q; }
+                return (...args) => target(prop, ...args);
+              },
+            });
+          }
+          const onLoad = function () {
+            const script = document.createElement('script');
+            script.src = 'https://www.chatbase.co/embed.min.js';
+            script.id = chatbaseId;
+            script.domain = 'www.chatbase.co';
+            document.body.appendChild(script);
+          };
+          if (document.readyState === 'complete') { onLoad(); }
+          else { window.addEventListener('load', onLoad); }
+        })();
+      }
+    </script>
   </body>
 </html>
