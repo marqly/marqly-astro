@@ -66,7 +66,7 @@ This is exactly Marqly's lane: **one-click capture, AI auto-tagging, summaries, 
 | Reader mode | ❌ | ✅ |
 | AI summaries | ❌ (via plugins) | ✅ |
 | Local-first | ✅ | Cloud |
-| Price | Free (paid sync) | Free tier; ~$7/mo Pro |
+| Price | Free (paid sync) | Free tier; ~$4/mo Pro |
 
 ## The setup most people actually want
 

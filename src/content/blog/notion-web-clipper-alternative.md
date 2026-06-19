@@ -16,7 +16,7 @@ faqs:
   - q: "Why is Notion's Web Clipper bad for reading articles?"
     a: "Notion is a note and database tool, not a reading tool. Its clipper has no reader mode, no semantic search over saves, no auto-tagging or summaries, and it clutters the workspace you use for real work. It's the wrong shape for capture-and-retrieve."
   - q: "What is the best Notion Web Clipper alternative?"
-    a: "Marqly is the best alternative for saving and finding articles. It offers one-click save, a clean reader, AI auto-tagging, summaries, and semantic search so you find any save by meaning — turning your reading into a searchable knowledge base without bloating Notion. Free tier; Pro ~$7/mo."
+    a: "Marqly is the best alternative for saving and finding articles. It offers one-click save, a clean reader, AI auto-tagging, summaries, and semantic search so you find any save by meaning — turning your reading into a searchable knowledge base without bloating Notion. Free tier; Pro ~$4/mo."
   - q: "Can I keep using Notion and a dedicated read-it-later tool together?"
     a: "Yes, and most people prefer that split. Keep Notion for writing and projects, and use a purpose-built tool for capturing and searching what you read. Many keep a link to important saves in Notion while doing the actual capturing, reading, and searching in a dedicated tool."
   - q: "Does Marqly have a reader mode and search that Notion lacks?"
@@ -44,7 +44,7 @@ Notion is the wrong shape for "save the web and find it later." It's a blank-pag
 The cleanest setup most people land on: **keep Notion for your writing and projects, and use a purpose-built tool for capturing and searching what you read.** That keeps your Notion workspace clean and gives your reading a home designed for it.
 
 ### Marqly — the dedicated reading + AI search layer
-Marqly is built for exactly the job Notion's clipper isn't: one-click save, a clean reader, **AI auto-tagging**, **summaries**, and **semantic search** so you can find any save by meaning. Your reading becomes a searchable knowledge base — without bloating Notion. Web, iOS, desktop. Free tier; Pro ~$7/mo. [Try it free →](https://app.marqly.com/lp/knowledge-base)
+Marqly is built for exactly the job Notion's clipper isn't: one-click save, a clean reader, **AI auto-tagging**, **summaries**, and **semantic search** so you can find any save by meaning. Your reading becomes a searchable knowledge base — without bloating Notion. Web, iOS, desktop. Free tier; Pro ~$4/mo. [Try it free →](https://app.marqly.com/lp/knowledge-base)
 
 ### Other options
 - **Raindrop.io** — free, visual, manual organization; keyword search.

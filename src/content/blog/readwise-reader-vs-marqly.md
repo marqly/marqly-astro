@@ -1,7 +1,7 @@
 ---
 title: "Readwise Reader vs Marqly: Premium Reading vs AI Search (2026)"
 seoTitle: "Readwise Reader vs Marqly (2026) — Honest Comparison | Marqly"
-description: "Readwise Reader ($12/mo) is built for highlighters. Marqly ($7/mo) is built for AI search. Here's how the two read-it-later tools compare, honestly."
+description: "Readwise Reader ($12/mo) is built for highlighters. Marqly ($4/mo) is built for AI search. Here's how the two read-it-later tools compare, honestly."
 pubDate: 2026-04-14
 category: "Comparisons"
 targetKeyword: "readwise reader vs marqly"
@@ -14,7 +14,7 @@ ctaUrl: "https://app.marqly.com/lp/ai-search"
 ctaLabel: "Try Marqly free"
 faqs:
   - q: "Is Marqly cheaper than Readwise Reader?"
-    a: "Yes. Marqly is roughly $7/month and includes a free plan to start, while Readwise Reader costs $12/month (about $8 annual) with no free tier. For many people, the price and the free plan are the whole decision."
+    a: "Yes. Marqly is roughly $4/month and includes a free plan to start, while Readwise Reader costs $12/month (about $8 annual) with no free tier. For many people, the price and the free plan are the whole decision."
   - q: "What is the main difference between Readwise Reader and Marqly?"
     a: "Readwise Reader is built around highlighting and spaced-repetition review, making saved highlights stick over time. Marqly is built around semantic AI search, so you find what you saved by meaning. Reader is highlight-first; Marqly is search-first."
   - q: "Should I choose Readwise Reader or Marqly?"
@@ -26,7 +26,7 @@ heroAlt: "Readwise Reader vs Marqly: Premium Reading vs AI Search (2026) — ill
 ogImage: "https://www.marqly.com/og/readwise-reader-vs-marqly.png"
 ---
 
-Readwise Reader is the gold standard for serious readers who highlight everything and want those highlights to stick. It's also the most expensive option in the category at **$12/month**. Marqly approaches the same "AI for your reading" space from a different angle — search-first, and roughly half the price. Here's an honest comparison so you can pick the right one.
+Readwise Reader is the gold standard for serious readers who highlight everything and want those highlights to stick. It's also the most expensive option in the category at **$12/month**. Marqly approaches the same "AI for your reading" space from a different angle — search-first, and about a third of the price. Here's an honest comparison so you can pick the right one.
 
 ## At a glance
 
@@ -34,7 +34,7 @@ Readwise Reader is the gold standard for serious readers who highlight everythin
 |---|---|---|
 | Core strength | Highlighting + spaced repetition | Semantic AI search |
 | Free tier | ❌ | ✅ |
-| Price | $12/mo (~$8 annual) | ~$7/mo |
+| Price | $12/mo (~$8 annual) | ~$4/mo |
 | Highlight + review system | ✅ Best-in-class | Basic |
 | Semantic search | ✅ | ✅ (core focus) |
 | Auto-tagging | Partial | ✅ |
@@ -54,7 +54,7 @@ If your workflow is highlight-heavy and you'll use spaced repetition, Reader ear
 
 ## Where Marqly wins
 
-- **Price + a free tier.** Marqly is ~$7/mo with a free plan to start. Reader has no free tier and costs $12/mo. For many people, that's the whole decision.
+- **Price + a free tier.** Marqly is ~$4/mo with a free plan to start. Reader has no free tier and costs $12/mo. For many people, that's the whole decision.
 - **Search-first simplicity.** Marqly is built around *finding* what you saved by meaning, with far less setup and a lighter learning curve. You don't have to adopt a whole methodology — you save, and you search.
 - **Auto-organization.** AI tags your saves so you don't manage a system.
 
@@ -67,7 +67,7 @@ The honest trade-off: Marqly's highlighting and review features are basic compar
 
 ## The price-conscious path
 
-If you've been eyeing Readwise Reader but balking at $12/month, Marqly gives you the AI-search and summary layer at ~$7 with a free tier to test first. [Import your library and try it free](https://app.marqly.com/lp/ai-search) — no credit card — and see if search-first fits how you actually read.
+If you've been eyeing Readwise Reader but balking at $12/month, Marqly gives you the AI-search and summary layer at ~$4 with a free tier to test first. [Import your library and try it free](https://app.marqly.com/lp/ai-search) — no credit card — and see if search-first fits how you actually read.
 
 ---
 

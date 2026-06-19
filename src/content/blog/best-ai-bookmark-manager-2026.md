@@ -20,7 +20,7 @@ faqs:
   - q: "How do I tell if a bookmark tool's AI is real?"
     a: "Run a two-minute test: save three articles, wait a day, then try to find one by paraphrasing it without using any word from the title. If the tool surfaces it, the semantic search is real. If it returns nothing, the 'AI' is marketing."
   - q: "Which AI bookmark manager is best for searching by meaning?"
-    a: "Marqly is built around semantic search first, so you can find saves by meaning across your whole library, plus auto-tagging and AI summaries. It runs on web, iOS, and desktop with a free tier and Pro at roughly $7 a month."
+    a: "Marqly is built around semantic search first, so you can find saves by meaning across your whole library, plus auto-tagging and AI summaries. It runs on web, iOS, and desktop with a free tier and Pro at roughly $4 a month."
 heroImage: ../../assets/blog/best-ai-bookmark-manager-2026.png
 heroAlt: "The Best AI Bookmark Manager in 2026: What to Look For (and 5 to Try) — illustration"
 ogImage: "https://www.marqly.com/og/best-ai-bookmark-manager-2026.png"
@@ -55,7 +55,7 @@ Semantic AI search fixes the actual problem. It turns a graveyard of forgotten l
 ## 5 AI bookmark managers worth trying in 2026
 
 ### Marqly — strongest on the query layer
-Built around semantic search first. Save anything, and find it later by meaning across your whole library — plus auto-tagging and AI summaries. Web, iOS, desktop. Free tier; Pro ~$7/mo. If the "search what you remember" experience is what you're after, this is the most focused option. [Try it free →](https://app.marqly.com/lp/ai-search)
+Built around semantic search first. Save anything, and find it later by meaning across your whole library — plus auto-tagging and AI summaries. Web, iOS, desktop. Free tier; Pro ~$4/mo. If the "search what you remember" experience is what you're after, this is the most focused option. [Try it free →](https://app.marqly.com/lp/ai-search)
 
 ### mymind — strongest on auto-organization
 "No organizing, ever." AI tags and surfaces everything; beautiful, visual, calm. No free tier (~$8/mo). Great for visual thinkers; less article-reading focused.

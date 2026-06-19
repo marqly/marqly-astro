@@ -20,7 +20,7 @@ faqs:
   - q: "How is Marqly's search different from Raindrop's?"
     a: "Raindrop's search matches keywords and full text. Marqly searches by meaning, so you can describe a half-remembered article and it surfaces it even if your words aren't in the text. Once your library passes a few hundred items, this is the difference between finding things and giving up."
   - q: "How much does Marqly cost compared to Raindrop?"
-    a: "Marqly's Pro plan is roughly $7 a month versus Raindrop's $3, and Marqly is younger. The trade-off is honest: you pay a bit more for semantic search, AI auto-tagging, summaries, and the ability to ask questions across your whole library."
+    a: "Marqly's Pro plan is roughly $4 a month versus Raindrop's $3, and Marqly is younger. The trade-off is honest: you pay a bit more for semantic search, AI auto-tagging, summaries, and the ability to ask questions across your whole library."
 heroImage: ../../assets/blog/raindrop-vs-marqly.png
 heroAlt: "Raindrop.io vs Marqly: Free Bookmarks vs AI Search (2026) — illustration"
 ogImage: "https://www.marqly.com/og/raindrop-vs-marqly.png"
@@ -40,7 +40,7 @@ Raindrop.io is, deservedly, the most popular bookmark manager around — especia
 | AI summaries | ❌ | ✅ |
 | Ask your library | ❌ | ✅ |
 | Reader mode | ✅ | ✅ |
-| Pro price | $3/mo | ~$7/mo |
+| Pro price | $3/mo | ~$4/mo |
 | Maturity | Very mature | Newer, growing |
 
 ## Where Raindrop wins
@@ -62,7 +62,7 @@ The difference is the **retrieval model**.
 - **Auto-tagging.** Raindrop expects you to organize. Marqly's AI tags saves automatically, so the library structures itself.
 - **Summaries + ask-your-library.** Marqly summarizes saves and lets you ask questions across everything you've saved — turning a bookmark list into a knowledge base.
 
-The trade-off is honest: Marqly costs a bit more ($7 vs $3) and is younger.
+The trade-off is honest: Marqly costs a bit more ($4 vs $3) and is younger.
 
 ## How to choose
 

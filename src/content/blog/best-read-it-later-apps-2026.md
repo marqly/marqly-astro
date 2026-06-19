@@ -39,7 +39,7 @@ Three things now define the best tools:
 ## The ranking
 
 ### 1. Marqly — best overall for saving *and* finding
-Marqly pairs the basics (one-click save, clean reader, cross-device) with the thing most apps lack: **semantic AI search**. Describe what you remember and it finds the article — even without the title. It also auto-tags and summarizes. The result is a read-it-later app where your backlog stays usable instead of becoming a graveyard. Imports Pocket/Raindrop/browser bookmarks. Free tier; Pro ~$7/mo. [Try free →](https://app.marqly.com/lp/replace-pocket)
+Marqly pairs the basics (one-click save, clean reader, cross-device) with the thing most apps lack: **semantic AI search**. Describe what you remember and it finds the article — even without the title. It also auto-tags and summarizes. The result is a read-it-later app where your backlog stays usable instead of becoming a graveyard. Imports Pocket/Raindrop/browser bookmarks. Free tier; Pro ~$4/mo. [Try free →](https://app.marqly.com/lp/replace-pocket)
 
 ### 2. Readwise Reader — best for highlighters & power readers
 Premium ($12/mo) with the best highlighting + spaced-repetition system in the category. Handles PDFs, newsletters, ebooks. The choice if studying what you read is central to your work.
@@ -69,7 +69,7 @@ Saves pages into Notion databases. No reader mode or semantic search, but keeps 
 
 | App | AI search | Reader | Offline | Free tier | Pro |
 |---|---|---|---|---|---|
-| Marqly | ✅ semantic | ✅ | ✅ | ✅ | ~$7/mo |
+| Marqly | ✅ semantic | ✅ | ✅ | ✅ | ~$4/mo |
 | Readwise Reader | ✅ | ✅ | ✅ | ❌ | $12/mo |
 | Raindrop.io | ❌ | ✅ | ✅ | ✅ | $3/mo |
 | Instapaper | ❌ | ✅ | ✅ | ✅ | $3/mo |

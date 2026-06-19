@@ -42,7 +42,7 @@ Now that Pocket is gone, the natural question for its 20M+ refugees is: what rep
 | Ask your library questions | ❌ | ✅ |
 | Import your Pocket data | — | ✅ (tags preserved) |
 | Apps | Web, mobile | Web, iOS, desktop |
-| Price | Free + $5/mo premium | Free + ~$7/mo Pro |
+| Price | Free + $5/mo premium | Free + ~$4/mo Pro |
 | Still exists | ❌ | ✅ |
 
 ## What Marqly keeps from Pocket
