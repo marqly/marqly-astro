@@ -7,6 +7,7 @@ const product = [
   { label: 'Pricing', href: '/#pricing' },
   { label: 'AI Tagging', href: '/#features' },
   { label: 'Contact us', href: 'mailto:support@marqly.com' },
+  { label: 'Help', href: 'https://help.marqly.com/' },
 ];
 const download = [
   { label: 'iOS app', href: 'https://apps.apple.com/us/app/marqly-ai-bookmark-manager/id6758905385' },
@@ -44,7 +45,7 @@ const year = new Date().getFullYear();
 
       <nav class="links" aria-label="Product">
         <h4>Product</h4>
-        {product.map((l) => <a href={l.href}>{l.label}</a>)}
+        {product.map((l) => <a href={l.href} target={l.href.startsWith('http') ? '_blank' : undefined} rel={l.href.startsWith('http') ? 'noopener' : undefined}>{l.label}</a>)}
       </nav>
 
       <nav class="links" aria-label="Download">
