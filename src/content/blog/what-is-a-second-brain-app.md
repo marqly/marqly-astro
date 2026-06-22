@@ -116,7 +116,7 @@ That's it. No taxonomy to design, no daily review ritual to maintain. The system
 
 ## What should you look for in a second brain app?
 
-Look for frictionless one-click capture, automatic AI organization instead of manual folders, and semantic search that finds things by meaning. Those three are non-negotiable. Beyond them, AI summaries help you triage a backlog, and cross-device coverage ensures the tool works everywhere you actually read — web, phone, and desktop.
+Look for frictionless one-click capture, automatic AI organization instead of manual folders, and semantic search that finds things by meaning. Those three are non-negotiable. Beyond them, AI summaries help you triage a backlog, and cross-device coverage ensures the tool works everywhere you actually read — web, phone, and desktop. If you'd rather skip straight to a shortlist, our roundup of [the best second brain apps](/blog/best-second-brain-apps-2026) ranks the contenders against exactly these criteria.
 
 Run any candidate through this checklist before you commit:
 

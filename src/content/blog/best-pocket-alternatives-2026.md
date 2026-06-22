@@ -144,7 +144,7 @@ Matter combines a reading app with high-quality text-to-speech, so you can liste
 
 ## 7. Wallabag — best for self-hosters
 
-Wallabag is open-source and self-hostable, which makes it the privacy-and-control choice. If you want to own your data on your own server and never depend on a company that might shut down (the Pocket lesson), Wallabag is it. The trade-off is setup effort and no AI features.
+Wallabag is open-source and self-hostable, which makes it the privacy-and-control choice. If you want to own your data on your own server and never depend on a company that might shut down (the Pocket lesson), Wallabag is it — and if you're set on running your own stack, we go deeper on the [self-hosted Pocket alternatives](/blog/best-self-hosted-pocket-alternative) elsewhere. The trade-off is setup effort and no AI features.
 
 **Who it's best for:** technical users and privacy hardliners who'd rather run their own server than trust another vendor. If the Pocket shutdown left you wanting full control of your data, Wallabag delivers it. Everyone else should weigh the maintenance burden honestly — there's no AI, search is basic, and you're now your own sysadmin.
 
@@ -183,7 +183,7 @@ Here's the general path that works for every tool in this guide:
 4. **Verify and tidy up.** Spot-check that your saves came across and that tags landed where you expect. This is the moment to let an AI-native tool earn its keep — tools like Marqly auto-tag on import, so a messy Pocket pile arrives sorted instead of as one giant untagged list.
 5. **Re-save anything important that didn't make it.** Any link that 404s on import is gone from the live web, not just your library. If it mattered, find an archived copy and re-save it now while you're thinking about it.
 
-One realistic expectation to set: no importer reconstructs the article text Pocket cached for you, because that text was never in the export. What you're migrating is the *list* of what you saved — and that's the part worth keeping.
+One realistic expectation to set: no importer reconstructs the article text Pocket cached for you, because that text was never in the export. What you're migrating is the *list* of what you saved — and that's the part worth keeping. If you want to know exactly [what's actually inside your Pocket export](/blog/what-is-in-your-pocket-export-file) before you import, it's worth a look.
 
 ## What actually matters in 2026?
 

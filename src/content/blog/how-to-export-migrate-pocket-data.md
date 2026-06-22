@@ -39,7 +39,7 @@ If Pocket's export is still accessible for your account, here's the path:
 
 > **Do this now if you haven't.** Once a shutdown service fully decommissions its servers, export endpoints can disappear without warning. Your export file is your insurance.
 
-The exported HTML is a standard bookmarks file — the same format browsers use — so it's portable to almost any modern read-it-later or bookmark tool.
+The exported HTML is a standard bookmarks file — the same format browsers use — so it's portable to almost any modern read-it-later or bookmark tool. If you're curious exactly [what's inside the Pocket export file](/blog/what-is-in-your-pocket-export-file) — and what it leaves behind — it's worth a quick read before you import.
 
 ## Step 2: Choose where to migrate
 

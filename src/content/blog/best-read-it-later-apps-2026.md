@@ -57,7 +57,7 @@ The classic clean-reading experience. Simple, fast, reliable — but no AI or se
 Strong reader plus excellent text-to-speech, so you can listen to articles like a podcast. Reading isn't the only thing worth stashing, though — here's how Marqly handles [saving videos to watch later](/blog/save-youtube-videos-watch-later).
 
 ### 7. Wallabag — best for privacy / self-hosting
-Open-source and self-hostable. You own your data forever — the post-Pocket peace of mind. Requires setup, no AI.
+Open-source and self-hostable. You own your data forever — the post-Pocket peace of mind. Requires setup, no AI. If running your own stack is the priority, it's the [best self-hosted option](/blog/best-self-hosted-pocket-alternative) we've tested.
 
 ### 8. Pocket Casts–style hybrids / Omnivore forks — best for tinkerers
 Since Omnivore wound down, several community forks exist. Good if you like open-source and experimentation; less polished.

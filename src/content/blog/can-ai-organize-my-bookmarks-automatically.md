@@ -57,7 +57,7 @@ AI organization plus semantic search replaces that:
 - A save can relate to many topics without being duplicated.
 - Nothing gets "lost in the wrong folder," because there's no folder to lose it in.
 
-Some people keep a couple of folders for active projects, and that's fine. But the deep hand-built folder tree is no longer the only way to stay organized.
+Some people keep a couple of folders for active projects, and that's fine. But the deep hand-built folder tree is no longer the only way to stay organized — in fact, with auto-tagging and semantic search [you can stop organizing into folders entirely](/blog/stop-organizing-bookmarks-folders-obsolete).
 
 ## Manual vs. AI organization
 

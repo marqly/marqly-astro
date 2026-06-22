@@ -73,7 +73,7 @@ A lot of apps slap "AI" on keyword search dressed up with filters. Run this test
 - Wait a day so you forget the wording.
 - Search by paraphrasing one of them using **none** of its title words.
 
-If the right article surfaces near the top, the semantic search is real. If you get nothing, it's keyword matching with marketing on top.
+If the right article surfaces near the top, the semantic search is real. If you get nothing, it's keyword matching with marketing on top. We ran this exact test across the major apps to see [which tools actually do semantic search](/blog/ai-bookmark-managers-semantic-search-compared) and which only claim to.
 
 ## Get more out of AI search
 
