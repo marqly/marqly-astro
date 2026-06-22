@@ -32,8 +32,7 @@
     if (!links.length) {
       links = [
         { text: 'Home', href: '/' },
-        { text: 'Pricing', href: '/Pricing' },
-        { text: 'Extension', href: '/Extension' },
+        { text: 'Pricing', href: '/#pricing' },
         { text: 'Blog', href: '/blog' }
       ];
     }

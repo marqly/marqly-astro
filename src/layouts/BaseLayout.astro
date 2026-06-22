@@ -102,7 +102,7 @@ const canonicalURL = canonical ?? new URL(Astro.url.pathname, Astro.site).href;
          real hrefs + force navigation so the blog chrome links work. -->
     <script is:inline>
       (function () {
-        var map = { Home: '/', Pricing: '/Pricing', Extension: '/Extension', Blog: '/blog' };
+        var map = { Home: '/', Pricing: '/#pricing', Blog: '/blog' };
         function apply() {
           document.querySelectorAll('a').forEach(function (a) {
             var t = (a.textContent || '').replace(/\s+/g, ' ').trim();
