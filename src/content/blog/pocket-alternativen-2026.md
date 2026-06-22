@@ -31,7 +31,7 @@ Als Mozilla Pocket am 8. Juli 2025 abschaltete, standen über 20 Millionen Nutze
 
 Die gute Nachricht: Die „Später lesen“-Kategorie ist mit Pocket nicht gestorben, sondern erwachsen geworden. Die besten Tools 2026 speichern nicht nur Links – sie fassen mit KI zusammen, was du speicherst, verschlagworten automatisch und lassen dich **nach Bedeutung suchen** statt durch Ordner zu wühlen.
 
-Hier sind die acht besten Pocket-Alternativen 2026, verglichen nach dem, was wirklich zählt: Import deiner alten Pocket-Bibliothek, Lesemodus, Suchqualität und Preis.
+Hier sind die acht besten Pocket-Alternativen 2026, verglichen nach dem, was wirklich zählt: Import deiner alten Pocket-Bibliothek, Lesemodus, Suchqualität und Preis. (Du kannst diesen Leitfaden auch [auf Englisch lesen](/blog/best-pocket-alternatives-2026).)
 
 ## Schnellvergleich
 

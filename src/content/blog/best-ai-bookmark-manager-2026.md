@@ -34,7 +34,7 @@ Real AI value in a bookmark manager shows up in three layers. The best tools do 
 
 ### 1. The organization layer — auto-tagging
 
-You save something; the AI reads it and tags it automatically. No manual folders, no filing. This is table stakes in 2026 — if you're still dragging links into folders by hand, the tool isn't doing its job.
+You save something; the AI reads it and tags it automatically. No manual folders, no filing. This is table stakes in 2026 — if you're still dragging links into folders by hand, the tool isn't doing its job. (Curious how this works under the hood? Here's how [AI can auto-organize your bookmarks](/blog/can-ai-organize-my-bookmarks-automatically) without you lifting a finger.)
 
 ### 2. The summary layer — instant TL;DRs
 
@@ -42,7 +42,7 @@ The AI generates a short summary of each save so you can decide what's worth you
 
 ### 3. The query layer — semantic search (the one that matters most)
 
-This is the difference-maker. **Semantic search** lets you find a save by describing what you remember, not by matching exact keywords. You type "the thing about remote teams and trust" and it surfaces the right article even though those exact words never appear in the title.
+This is the difference-maker. **Semantic search** lets you find a save by describing what you remember, not by matching exact keywords. You type "the thing about remote teams and trust" and it surfaces the right article even though those exact words never appear in the title. (This is the whole skill of learning to [search your bookmarks with AI](/blog/how-to-search-bookmarks-with-ai).)
 
 This is the layer most tools *don't* truly have. Keyword search dressed up with filters is not semantic search. If a tool can't find a save when you paraphrase it, its "AI" is cosmetic.
 
@@ -50,12 +50,12 @@ This is the layer most tools *don't* truly have. Keyword search dressed up with 
 
 Here's the uncomfortable truth about saving links: **most people save far more than they ever revisit.** Studies of read-it-later usage consistently show the majority of saved items are never reopened. The bottleneck was never saving — it's retrieval. Folders and keyword search collapse once you have a few hundred items.
 
-Semantic AI search fixes the actual problem. It turns a graveyard of forgotten links into a knowledge base you can interrogate. That's why "AI bookmark manager" is really shorthand for "a bookmark manager you can finally search like a brain."
+Semantic AI search fixes the actual problem. It turns a graveyard of forgotten links into a knowledge base you can interrogate. That's why "AI bookmark manager" is really shorthand for "a bookmark manager you can finally search like a brain" — the practical way to [turn your bookmarks into a second brain](/blog/what-is-a-second-brain-app).
 
 ## 5 AI bookmark managers worth trying in 2026
 
 ### Marqly — strongest on the query layer
-Built around semantic search first. Save anything, and find it later by meaning across your whole library — plus auto-tagging and AI summaries. Web, iOS, desktop. Free tier; Pro ~$4/mo. If the "search what you remember" experience is what you're after, this is the most focused option. [Try it free →](https://app.marqly.com/lp/ai-search)
+Built around semantic search first. Save anything, and find it later by meaning across your whole library — plus auto-tagging and AI summaries. Web, iOS, desktop. Free tier; Pro ~$4/mo. If the "search what you remember" experience is what you're after, this is the most focused option — read [our full Marqly review](/blog/marqly-review-2026) for the deep dive. [Try it free →](https://app.marqly.com/lp/ai-search)
 
 ### mymind — strongest on auto-organization
 "No organizing, ever." AI tags and surfaces everything; beautiful, visual, calm. No free tier (~$8/mo). Great for visual thinkers; less article-reading focused.
@@ -75,7 +75,7 @@ Before committing, run this test: save three articles, wait a day, then try to f
 
 ## Bottom line
 
-In 2026, the bookmark managers worth using are the ones that solve retrieval, not just storage. The organization and summary layers are nice; the **query layer** is what changes how you actually use your saved knowledge.
+In 2026, the bookmark managers worth using are the ones that solve retrieval, not just storage. The organization and summary layers are nice; the **query layer** is what changes how you actually use your saved knowledge. And if you're leaving Pocket, our roundup of the [best Pocket alternatives](/blog/best-pocket-alternatives-2026) covers where to land — while our guide to [organizing the bookmarks you already have](/blog/how-to-organize-bookmarks) helps you tame the pile you're bringing with you.
 
 If you want to feel that difference immediately, [import your library into Marqly](https://app.marqly.com/lp/ai-search) and try searching for something you saved months ago — by meaning. Free, no credit card.
 

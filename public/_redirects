@@ -43,3 +43,7 @@
 /blog/7-best-chrome-bookmark-extensions-2026-tested-ranked  /blog/best-ai-bookmark-manager-2026  301
 /blog/7-best-chrome-bookmark-extensions-in-2026-(tested-ranked)  /blog/best-ai-bookmark-manager-2026  301
 /blog/7-best-chrome-bookmark-extensions-in-2026-(tested-ranked)-copy  /blog/best-ai-bookmark-manager-2026  301
+
+# Cannibalization fix: duplicate AI-search post consolidated into the canonical survivor.
+/blog/search-bookmarks-by-meaning   /blog/how-to-search-bookmarks-with-ai   301
+/blog/search-bookmarks-by-meaning/  /blog/how-to-search-bookmarks-with-ai   301

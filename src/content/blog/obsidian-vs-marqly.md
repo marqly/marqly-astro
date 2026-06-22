@@ -53,7 +53,7 @@ Obsidian is a weak fit for the "save the web and find it later" job:
 - **No auto-organization.** Everything is manual — notes, links, structure. That's the point for writing, but it's friction for saving.
 - **No reader mode or summaries** for consumed content.
 
-This is exactly Marqly's lane: **one-click capture, AI auto-tagging, summaries, and semantic search** so the stuff you read stays findable without manual upkeep.
+This is exactly Marqly's lane: **one-click capture, AI auto-tagging, summaries, and semantic search** so the stuff you read stays findable without manual upkeep. If you want the deep dive on those features, the [full Marqly review](/blog/marqly-review-2026) breaks them down, and you can see how it stacks up against other [AI bookmark managers](/blog/best-ai-bookmark-manager-2026).
 
 ## Comparison
 
@@ -73,7 +73,7 @@ This is exactly Marqly's lane: **one-click capture, AI auto-tagging, summaries, 
 You don't have to choose. The cleanest 2026 stack:
 
 - **Obsidian** for your original notes and connected thinking.
-- **Marqly** for everything you read and save from the web — captured in one click, found by meaning.
+- **Marqly** for everything you read and save from the web — captured in one click, found by meaning, building [a second brain from your bookmarks](/blog/what-is-a-second-brain-app) alongside your notes.
 
 Keep your writing tool for writing and your capture tool for capturing. Forcing Obsidian to be your read-it-later app (or forcing a read-it-later app to be your note system) is where people get frustrated.
 
@@ -83,4 +83,4 @@ If your Obsidian vault is great for notes but your *reading* is scattered across
 
 ---
 
-*Related: [What Is a Second Brain App?](/blog/what-is-a-second-brain-app) · [Notion Web Clipper Alternative](/blog/notion-web-clipper-alternative)*
+*Related: [Notion Web Clipper Alternative](/blog/notion-web-clipper-alternative)*

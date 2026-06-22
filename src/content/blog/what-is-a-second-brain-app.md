@@ -28,7 +28,7 @@ ogImage: "https://www.marqly.com/og/what-is-a-second-brain-app.png"
 
 You read constantly — articles, threads, docs, research. But how much of it can you actually recall when you need it? For most people, the answer is "almost none." The ideas wash over you and disappear. A **second brain app** is the fix: a place that captures what you read and makes it findable forever, so your past reading becomes a resource instead of a blur.
 
-Here's what a second brain actually is, how it differs from plain note-taking, and the fastest way to build one — starting from the bookmarks you're already saving.
+Here's what a second brain actually is, how it differs from plain note-taking, and [how to actually build one](/blog/how-to-build-a-second-brain) — starting from the bookmarks you're already saving.
 
 ## The simple definition
 
@@ -48,7 +48,7 @@ These overlap, but they're not the same:
 - **Bookmark managers** capture links effortlessly, but historically they're write-only graveyards — you save and never return, because keyword search and folders don't scale.
 - **A true second brain** captures as effortlessly as bookmarking *and* retrieves as intelligently as a well-organized notebook — without the manual writing.
 
-The 2026 breakthrough is AI closing that gap: you save with one click (bookmark-easy), and AI does the organizing and makes it semantically searchable (notebook-smart).
+The 2026 breakthrough is AI closing that gap: you save with one click (bookmark-easy), and AI does the organizing and makes it semantically searchable (notebook-smart). That's [the AI version of a second brain](/blog/what-is-an-ai-second-brain) — the same capture-and-recall idea, with the filing and finding handled for you.
 
 ## Why most "second brains" fail
 
@@ -60,7 +60,7 @@ The systems that *stick* are the ones with near-zero maintenance: you save, the 
 
 You don't need to start from scratch or migrate to a complex note system. The fastest second brain is built from the reading you already do:
 
-1. **Pick a tool that captures and retrieves with AI.** You want one-click saving + automatic tagging + semantic search (so you can ask for things by meaning, not exact title).
+1. **Pick a tool that captures and retrieves with AI.** You want one-click saving + automatic tagging + semantic search (so you can ask for things by meaning, not exact title). The same tooling that lets you [organize the bookmarks behind it](/blog/how-to-organize-bookmarks) is what turns a pile of saves into a brain.
 2. **Import what you already have.** If you used Pocket, Raindrop, or browser bookmarks, import the lot — instant backfill of your "brain."
 3. **Save as you read, with one click.** Don't sort. Let the AI tag it.
 4. **Retrieve by asking.** When you need that half-remembered article, describe it. The semantic search finds it. No folder spelunking.

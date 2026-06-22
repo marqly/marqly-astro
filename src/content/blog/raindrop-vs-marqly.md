@@ -60,7 +60,7 @@ The difference is the **retrieval model**.
 
 - **Semantic search.** Raindrop's search matches keywords and full text. Marqly searches by *meaning* — describe a half-remembered article and it surfaces it even if your words aren't in the text. Once your library passes a few hundred items, this is the difference between finding things and giving up.
 - **Auto-tagging.** Raindrop expects you to organize. Marqly's AI tags saves automatically, so the library structures itself.
-- **Summaries + ask-your-library.** Marqly summarizes saves and lets you ask questions across everything you've saved — turning a bookmark list into a knowledge base.
+- **Summaries + ask-your-library.** Marqly summarizes saves and lets you ask questions across everything you've saved — turning a bookmark list into a knowledge base. The [full Marqly review](/blog/marqly-review-2026) walks through each of these features in detail.
 
 The trade-off is honest: Marqly costs a bit more ($4 vs $3) and is younger.
 

@@ -112,7 +112,7 @@ Pinterest doesn't expose a public import API, so this is a manual process — bu
 1. Install the [Marqly browser extension](https://app.marqly.com).
 2. Open your most-saved Pinterest boards. For each pin pointing to an article, click through and save the article URL into Marqly (⌘⇧S).
 3. Skip the pins that no longer matter. Be ruthless — most of us have hundreds of pins that were never going to be re-opened.
-4. Let Marqly's AI auto-tag and index everything in the background.
+4. Let Marqly's AI auto-tag and index everything in the background — no need to manually [organize your saves](/blog/how-to-organize-bookmarks) into boards.
 5. After a week, search for a few things you remember pinning. If Marqly finds them by meaning, you'll feel the difference immediately.
 
 The result isn't a 1:1 copy of your Pinterest boards — it's the subset of pins that were actually *articles*, in a tool that can find them again.

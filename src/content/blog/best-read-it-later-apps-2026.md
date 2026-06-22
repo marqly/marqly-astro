@@ -42,19 +42,19 @@ Three things now define the best tools:
 Marqly pairs the basics (one-click save, clean reader, cross-device) with the thing most apps lack: **semantic AI search**. Describe what you remember and it finds the article — even without the title. It also auto-tags and summarizes. The result is a read-it-later app where your backlog stays usable instead of becoming a graveyard. Imports Pocket/Raindrop/browser bookmarks. Free tier; Pro ~$4/mo. [Try free →](https://app.marqly.com/lp/replace-pocket)
 
 ### 2. Readwise Reader — best for highlighters & power readers
-Premium ($12/mo) with the best highlighting + spaced-repetition system in the category. Handles PDFs, newsletters, ebooks. The choice if studying what you read is central to your work.
+Premium ($12/mo) with the best highlighting + spaced-repetition system in the category. Handles PDFs, newsletters, ebooks. The choice if studying what you read is central to your work. If it's on your shortlist, see [Readwise Reader vs Marqly](/blog/readwise-reader-vs-marqly) for a closer look.
 
 ### 3. Raindrop.io — best free option
 Generous free tier, saves every media type, polished. Keyword search rather than semantic, but excellent if you want free and don't mind organizing manually.
 
 ### 4. Instapaper — best minimalist reader
-The classic clean-reading experience. Simple, fast, reliable — but no AI or semantic search, and little recent development.
+The classic clean-reading experience. Simple, fast, reliable — but no AI or semantic search, and little recent development. If you're leaving Instapaper, our [Instapaper alternatives](/blog/instapaper-alternatives-2026) guide covers smarter options in depth.
 
 ### 5. mymind — best for visual saving
 "Never organize again." AI auto-tags everything; gorgeous and calm. No folders by design, no free tier (~$8/mo).
 
 ### 6. Matter — best for listening
-Strong reader plus excellent text-to-speech, so you can listen to articles like a podcast.
+Strong reader plus excellent text-to-speech, so you can listen to articles like a podcast. Reading isn't the only thing worth stashing, though — here's how Marqly handles [saving videos to watch later](/blog/save-youtube-videos-watch-later).
 
 ### 7. Wallabag — best for privacy / self-hosting
 Open-source and self-hostable. You own your data forever — the post-Pocket peace of mind. Requires setup, no AI.

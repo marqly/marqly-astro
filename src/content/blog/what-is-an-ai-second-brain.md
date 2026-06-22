@@ -35,7 +35,7 @@ The phrase "second brain" has been around for years. What changed in 2026 is tha
 
 It's software that does three things your biological brain is bad at: storing everything reliably, organizing it without effort, and recalling the right thing on demand. The "AI" part is what handles the organizing and recalling automatically.
 
-A traditional second brain (think a folder system or a wiki) stores everything but leaves the organizing and finding to you. An AI second brain takes that work off your plate — it tags and summarizes saves as they come in, and finds them by meaning when you go looking.
+A traditional second brain (think a folder system or a wiki) stores everything but leaves the organizing and finding to you — if you're still fuzzy on the basics, here's [what a second brain app is](/blog/what-is-a-second-brain-app). An AI second brain takes that work off your plate — it tags and summarizes saves as they come in, and finds them by meaning when you go looking.
 
 ## How is an AI second brain different from a normal notes app?
 
@@ -60,11 +60,11 @@ You don't have to understand the plumbing. What you notice is that filing disapp
 
 - **Find anything by memory.** Search "the essay about a founder who burned out" and get it, even with no matching keywords.
 - **Skim before you read.** AI summaries tell you what a long save is about so you can decide whether to dive in.
-- **Ask your own library.** "What did I save about pricing strategy?" returns a synthesized answer drawn from your saves.
+- **Ask your own library.** "What did I save about pricing strategy?" returns a synthesized answer drawn from your saves — you can effectively [chat with your saved articles](/blog/how-to-chat-with-your-saved-articles) instead of reopening them one by one.
 - **Stop organizing.** Auto-tagging means the structure builds itself as you save.
 
 ## Do you actually need one?
 
 If you save things constantly but rarely find them again, yes. The bottleneck for most people was never capturing information — it's retrieving it months later from a pile that keyword search and folders can't navigate.
 
-An AI second brain fixes that bottleneck. If the idea of describing a half-remembered article and instantly getting it back sounds useful, [Marqly is a free way to try it](https://app.marqly.com) on web, iOS, and desktop. Save a few things, wait a week, then search by meaning — that's the whole pitch, and it either clicks or it doesn't.
+An AI second brain fixes that bottleneck. If you're convinced and want the practical setup, here's [how to build one, step by step](/blog/how-to-build-a-second-brain). And if the idea of describing a half-remembered article and instantly getting it back sounds useful, [Marqly is a free way to try it](https://app.marqly.com) on web, iOS, and desktop. Save a few things, wait a week, then search by meaning — that's the whole pitch, and it either clicks or it doesn't.

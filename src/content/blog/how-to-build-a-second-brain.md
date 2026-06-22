@@ -47,7 +47,7 @@ The breakthrough is that AI now removes the two things that killed second brains
 - **Organizing** — AI auto-tags what you save, so you don't file anything.
 - **Retrieval** — semantic search finds saves by meaning, so retrieval doesn't depend on how you filed them (you didn't file them).
 
-This flips the model: instead of *organizing so you can find*, you *save and describe later*. Maintenance drops to roughly zero, which is exactly what makes the system stick.
+This flips the model: instead of *organizing so you can find*, you *save and describe later*. Maintenance drops to roughly zero, which is exactly what makes the system stick. This automated, hands-off approach is [the AI version of a second brain](/blog/what-is-an-ai-second-brain), and it's what makes building one realistic in 2026.
 
 ## How to build it, step by step
 

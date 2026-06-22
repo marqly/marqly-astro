@@ -55,7 +55,7 @@ If your workflow is highlight-heavy and you'll use spaced repetition, Reader ear
 ## Where Marqly wins
 
 - **Price + a free tier.** Marqly is ~$4/mo with a free plan to start. Reader has no free tier and costs $12/mo. For many people, that's the whole decision.
-- **Search-first simplicity.** Marqly is built around *finding* what you saved by meaning, with far less setup and a lighter learning curve. You don't have to adopt a whole methodology — you save, and you search.
+- **Search-first simplicity.** Marqly is built around *finding* what you saved by meaning, with far less setup and a lighter learning curve. You don't have to adopt a whole methodology — you save, and you search. If you're weighing the wider category first, it's worth scanning [the best read-it-later apps](/blog/best-read-it-later-apps-2026) and the leading [Pocket alternatives](/blog/best-pocket-alternatives-2026) before committing.
 - **Auto-organization.** AI tags your saves so you don't manage a system.
 
 The honest trade-off: Marqly's highlighting and review features are basic compared to Readwise's. If spaced-repetition review is your reason for being, Reader is better at that specific thing.
@@ -67,7 +67,7 @@ The honest trade-off: Marqly's highlighting and review features are basic compar
 
 ## The price-conscious path
 
-If you've been eyeing Readwise Reader but balking at $12/month, Marqly gives you the AI-search and summary layer at ~$4 with a free tier to test first. [Import your library and try it free](https://app.marqly.com/lp/ai-search) — no credit card — and see if search-first fits how you actually read.
+If you've been eyeing Readwise Reader but balking at $12/month, Marqly gives you the AI-search and summary layer at ~$4 with a free tier to test first — [see everything Marqly does](/blog/marqly-review-2026) in the full review. [Import your library and try it free](https://app.marqly.com/lp/ai-search) — no credit card — and see if search-first fits how you actually read.
 
 ---
 

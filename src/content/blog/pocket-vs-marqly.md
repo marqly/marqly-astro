@@ -86,7 +86,7 @@ If you exported your Pocket data before shutdown (an HTML file), import is about
 
 In fairness: Pocket had a **massive, mature community** and years of polish, and it was backed by Mozilla. Marqly is newer, so its community is smaller (though growing quickly post-Pocket). If you valued Pocket purely for its simplicity and never wanted more than save-and-read, a minimalist option like Instapaper is also worth a look.
 
-But if the thing that frustrated you about Pocket was *finding* what you saved, that's precisely the gap Marqly was built to close.
+But if the thing that frustrated you about Pocket was *finding* what you saved, that's precisely the gap Marqly was built to close. For a fuller verdict, read [our honest Marqly review](/blog/marqly-review-2026), or weigh it against [all the Pocket alternatives](/blog/best-pocket-alternatives-2026) before you decide.
 
 ## The honest summary
 

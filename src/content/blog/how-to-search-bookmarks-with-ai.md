@@ -11,6 +11,7 @@ tags:
   - "search bookmarks with ai"
   - "natural language bookmark search"
   - "find bookmarks by meaning"
+  - "search bookmarks by meaning"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Try Marqly free"
 faqs:
@@ -39,7 +40,7 @@ The practical effect: searching "why mornings feel productive" can find an artic
 
 ## How do I search my bookmarks with AI, step by step?
 
-1. **Pick a tool with real semantic search.** Not every "AI" label is genuine — see the test below.
+1. **Pick a tool with real semantic search.** Not every "AI" label is genuine — see the test below, or start from our shortlist of [the best AI bookmark managers](/blog/best-ai-bookmark-manager-2026).
 2. **Describe, don't keyword.** Write a sentence: "the guide on negotiating a higher salary at a startup."
 3. **Include any detail you recall.** A name, a number, a tone, a topic — each one sharpens the ranking.
 4. **Scan the top results.** Because they're ranked by relevance to your idea, the right save is usually in the first two or three.
@@ -56,7 +57,13 @@ The practical effect: searching "why mornings feel productive" can find an artic
 | Scales with library size | Breaks down | Holds up |
 | Best for | Known exact phrases | Finding by idea |
 
-Keyword search isn't useless — it's fine when you remember an exact phrase. But for pulling a half-remembered save out of a pile of hundreds, AI search is the tool that actually works.
+Keyword search isn't useless — it's fine when you remember an exact phrase. But for pulling a half-remembered save out of a pile of hundreds, AI search is the tool that actually works — it's exactly how you [find a save when you forgot the title](/blog/how-to-find-a-saved-article-you-forgot-the-title-of).
+
+## Why searching by meaning matters more the more you save
+
+A handful of bookmarks is searchable by eye. But saving compounds — a few hundred items in, folders and keyword search quietly break down, and most of what you saved becomes invisible. Studies of read-it-later behavior consistently find that the majority of saved articles are never reopened. The bottleneck was never saving; it's **retrieval**.
+
+That's the real case for searching by meaning: it scales with your library instead of collapsing under it. The bigger your collection grows, the more a semantic search that understands "that piece about focus and dopamine" beats a keyword box that needs the exact title. Searchable saved knowledge like this is the foundation you need to [build an AI second brain](/blog/what-is-an-ai-second-brain).
 
 ## How can I tell if a tool's AI search is real?
 

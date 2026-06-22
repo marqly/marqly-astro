@@ -82,7 +82,7 @@ At ~$4/mo, Marqly sits below premium tools like Readwise Reader ($12/mo) while o
 ## Who Marqly is for
 
 - People with a large, messy backlog of bookmarks they can't find.
-- Former Pocket users who want the AI search Pocket never had.
+- Former Pocket users who want the AI search Pocket never had (if you're still shopping, compare the [Pocket alternatives](/blog/best-pocket-alternatives-2026) first).
 - Anyone building a "second brain" from what they read, without the maintenance.
 
 ## Who it's not for

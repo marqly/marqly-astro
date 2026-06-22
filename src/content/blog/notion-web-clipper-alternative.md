@@ -44,7 +44,7 @@ Notion is the wrong shape for "save the web and find it later." It's a blank-pag
 The cleanest setup most people land on: **keep Notion for your writing and projects, and use a purpose-built tool for capturing and searching what you read.** That keeps your Notion workspace clean and gives your reading a home designed for it.
 
 ### Marqly — the dedicated reading + AI search layer
-Marqly is built for exactly the job Notion's clipper isn't: one-click save, a clean reader, **AI auto-tagging**, **summaries**, and **semantic search** so you can find any save by meaning. Your reading becomes a searchable knowledge base — without bloating Notion. Web, iOS, desktop. Free tier; Pro ~$4/mo. [Try it free →](https://app.marqly.com/lp/knowledge-base)
+Marqly is built for exactly the job Notion's clipper isn't: one-click save, a clean reader, **AI auto-tagging**, **summaries**, and **semantic search** so you can find any save by meaning. As an [AI bookmark manager](/blog/best-ai-bookmark-manager-2026), your reading becomes a searchable knowledge base — effectively a [second brain app](/blog/what-is-a-second-brain-app) for what you read — without bloating Notion. Web, iOS, desktop. Free tier; Pro ~$4/mo. [Try it free →](https://app.marqly.com/lp/knowledge-base)
 
 ### Other options
 - **Raindrop.io** — free, visual, manual organization; keyword search.
@@ -71,4 +71,4 @@ Understandable — single-source-of-truth is appealing. Just know the trade-off:
 
 ---
 
-*Related: [What Is a Second Brain App?](/blog/what-is-a-second-brain-app) · [Best AI Bookmark Manager 2026](/blog/best-ai-bookmark-manager-2026)*
+*Related: [Obsidian vs Marqly](/blog/obsidian-vs-marqly)*

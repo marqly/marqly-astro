@@ -56,7 +56,7 @@ A dedicated bookmark manager (Raindrop, Marqly, etc.) lets you use **tags** inst
 
 ## Option 3: Let AI organize it for you (the 2026 approach)
 
-The real shift in 2026: stop organizing manually at all. Modern AI bookmark managers **auto-tag** everything you save and let you **search by meaning**, so the organization happens for you and retrieval doesn't depend on your filing at all.
+The real shift in 2026: stop organizing manually at all. Modern AI bookmark managers **auto-tag** everything you save and let you **search by meaning**, so the organization happens for you and retrieval doesn't depend on your filing at all. Instead of sorting links yourself, you [let AI organize them for you](/blog/can-ai-organize-my-bookmarks-automatically) the moment you save.
 
 Here's the mental model: instead of *filing* things so you can find them later, you *save* things and *describe* them later. You type "that article about sleep and focus" and semantic search surfaces it — no folder, no exact title needed.
 
@@ -64,7 +64,7 @@ This inverts the whole problem. The reason bookmarks become a mess is that organ
 
 ### How to set it up
 
-1. **Pick a tool with AI auto-tagging + semantic search.** (Test it: save 3 links, wait a day, search by paraphrasing one without its title. If it's found, the AI is real.)
+1. **Pick a tool with AI auto-tagging + semantic search** — see our shortlist of [the best AI bookmark managers](/blog/best-ai-bookmark-manager-2026). (Test it: save 3 links, wait a day, search by paraphrasing one without its title. If it's found, the AI is real.)
 2. **Import your existing bookmarks** — browser export, Pocket export, etc. Instant backfill.
 3. **Save with one click as you browse.** Don't sort.
 4. **Find by describing.** When you need something, describe it in plain language.
@@ -83,8 +83,10 @@ Whatever you use, follow one principle: **the less filing a system requires, the
 
 ## Try the zero-maintenance approach
 
-If you're tired of cleaning up bookmarks every month, [Marqly](https://app.marqly.com/lp/ai-search) does the organizing for you — auto-tags everything you save and lets you find any of it by meaning. Import your browser bookmarks (or a Pocket/Raindrop export) and search your existing pile in minutes. Free, no credit card.
+If you're tired of cleaning up bookmarks every month, [Marqly](https://app.marqly.com/lp/ai-search) does the organizing for you — auto-tags everything you save and lets you find any of it by meaning. The same system can [organize saved YouTube videos too](/blog/save-youtube-videos-watch-later), not just articles. Import your browser bookmarks (or a Pocket/Raindrop export) and search your existing pile in minutes. Free, no credit card.
+
+Still deciding between a tool that captures the web and a place to write things up? Our take on [saving the web vs. note-taking](/blog/obsidian-vs-marqly) breaks down where each one fits.
 
 ---
 
-*Related: [What Is a Second Brain App?](/blog/what-is-a-second-brain-app) · [Search Bookmarks by Meaning](/blog/search-bookmarks-by-meaning)*
+*Related: [What Is a Second Brain App?](/blog/what-is-a-second-brain-app) · [Search Bookmarks With AI](/blog/how-to-search-bookmarks-with-ai)*

@@ -50,7 +50,7 @@ Describe what you remember the way you'd tell a friend, then let semantic search
 
 ## What is semantic search, and why does it work here?
 
-Semantic search understands what your words *mean* rather than matching them letter-for-letter. It converts both your query and your saved content into a mathematical representation of meaning, then finds the closest matches by concept.
+Semantic search understands what your words *mean* rather than matching them letter-for-letter. It converts both your query and your saved content into a mathematical representation of meaning, then finds the closest matches by concept — letting you [search by meaning, not keywords](/blog/how-to-search-bookmarks-with-ai).
 
 That's why it tolerates fuzzy memory. "Sleep and willpower" can find an article titled "How Rest Rebuilds Self-Control," because the two phrases live near each other in meaning even though they share no words. Keyword search sees two unrelated strings; semantic search sees one idea.
 
@@ -61,10 +61,10 @@ When the memory is really faint, give the search more to work with:
 - **Combine fragments.** "The long essay about a founder who quit and moved to a farm" beats searching "farm" alone.
 - **Use sensory or emotional details.** "The scary article about phone addiction in kids" works because the content carries that tone.
 - **Don't worry about being wrong.** Semantic search degrades gracefully — a partly-wrong description still ranks the right save near the top.
-- **Search across formats.** A good tool searches notes, saved videos, and PDFs the same way it searches articles, so you don't have to remember *where* you saved it either.
+- **Search across formats.** A good tool searches notes, saved videos, and PDFs the same way it searches articles, so you don't have to remember *where* you saved it either. (For a shortlist of [an AI bookmark manager that does this](/blog/best-ai-bookmark-manager-2026), see our 2026 roundup.)
 
 ## Find it by meaning, not memory
 
-The hard part of saving things was never the saving — it's the finding. Most of us have hundreds of bookmarks we've effectively lost because keyword search can't match a memory.
+The hard part of saving things was never the saving — it's the finding. Most of us have hundreds of bookmarks we've effectively lost because keyword search can't match a memory. The longer-term fix is to [organize bookmarks so they're findable](/blog/how-to-organize-bookmarks) in the first place, so retrieval never depends on a perfect memory.
 
 The fix is to search the way you actually remember: by idea. [Marqly lets you describe what you recall and finds the save instantly](https://app.marqly.com) across web, iOS, and desktop. Free to try, no credit card — so the next time a half-remembered article nags at you, you can actually get it back.

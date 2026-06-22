@@ -55,7 +55,38 @@ const faqPage = data.faqs.length
     }
   : null;
 
-const jsonLd = [blogPosting, breadcrumb, ...(faqPage ? [faqPage] : [])];
+// Entity schema — asserts Marqly as a recognizable software product + organization on
+// every post. Helps answer engines (Google AI Overviews, ChatGPT, Perplexity) confidently
+// cite/recommend Marqly in "best X" answers. Paid price intentionally omitted until the
+// live Stripe pricing is confirmed; the free tier (0) is asserted via AggregateOffer.
+const softwareApp = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: 'Marqly',
+  applicationCategory: 'ProductivityApplication',
+  operatingSystem: 'Web, iOS, Chrome',
+  url: 'https://www.marqly.com',
+  description:
+    'AI bookmark manager with semantic search — save articles, videos, and links, then find any of them by describing what you remember instead of the exact title.',
+  featureList: [
+    'Semantic AI search (find saves by meaning, not keywords)',
+    'Automatic AI tagging',
+    'AI article summaries',
+    'Import from Pocket, Raindrop, and browser bookmarks',
+  ],
+  offers: { '@type': 'AggregateOffer', priceCurrency: 'USD', lowPrice: '0', offerCount: 2 },
+};
+
+const organization = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Marqly',
+  url: 'https://www.marqly.com',
+  logo: 'https://www.marqly.com/favicon.png',
+  sameAs: ['https://twitter.com/getmarqly', 'https://x.com/getmarqly'],
+};
+
+const jsonLd = [blogPosting, breadcrumb, softwareApp, organization, ...(faqPage ? [faqPage] : [])];
 ---
 
 <LandingLayout
