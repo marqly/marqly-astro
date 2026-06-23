@@ -90,8 +90,10 @@
   --space-24: 6rem;
   --space-32: 8rem;
 
-  /* --- Radii (only two values system-wide) --- */
+  /* --- Radii --- */
   --radius-pill: 40px;
+  --radius-xl: 24px;
+  --radius-lg: 20px;
   --radius-card: 16px;
   --radius-inner: 12px;
 
