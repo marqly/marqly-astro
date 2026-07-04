@@ -72,3 +72,7 @@ That said, treat it like a sharp research assistant, not an oracle: it's excelle
 Most people's bookmarks are a graveyard of good intentions — articles saved and never reopened. Being able to *ask* that pile turns it from dead storage into a working knowledge base.
 
 If you want to ask questions across everything you've saved and get sourced answers back, [Marqly is built for exactly that](https://app.marqly.com) and is free to try on web, iOS, and desktop. Save what matters, then start asking your own library.
+
+---
+
+*Related: [How to Chat With a YouTube Video](/blog/chat-with-youtube-videos) · [Summarize YouTube Videos with AI](/blog/summarize-youtube-videos-with-ai) · [Search Bookmarks With AI](/blog/how-to-search-bookmarks-with-ai)*

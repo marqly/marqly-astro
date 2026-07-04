@@ -1,0 +1,43 @@
+# Marqly
+
+> Marqly is an AI bookmark manager: save articles, videos, and links from any browser, let AI tag and summarize them automatically, then find any save by describing what you remember — semantic search by meaning, not keywords. Free tier; Pro is $48/year (about $4/month billed annually) with a 7-day free trial. Runs as a browser extension (Chrome, Edge, Firefox, Safari), a web app at app.marqly.com, and an iOS app.
+
+Key facts:
+- The browser extension is the core of the product: one-click save, AI auto-tagging, side-panel library, tab saver, in-page highlighter, save-page-as-PDF, and an AI card on YouTube.
+- YouTube AI card: on every YouTube watch page, Marqly shows a card next to the video with an AI Summary tab (streaming TL;DR + key sections, plus books mentioned in the video), a Chat tab (ask questions answered from the video's transcript — Pro), and a Transcript tab (playback-synced, one-click copy). A Bookmark button in YouTube's action row saves the video with its transcript attached.
+- Highlights: select text on any website, highlight in 6 colors, add notes; highlights persist on the page when you revisit and sync to your library. Boards of links and highlights can be shared as a public page (no signup needed to view).
+- Save as PDF: capture any page as a clean PDF that matches the on-screen layout (lazy-loaded images included), locally in the browser.
+- Import: Pocket exports, Raindrop.io collections, and standard browser bookmark HTML exports.
+- Search: semantic — "that video about sourdough starters" finds the right save without the title.
+
+## Product
+
+- [Marqly home](https://www.marqly.com/): overview, features, pricing
+- [Web app](https://app.marqly.com/): sign up / sign in (free, no card required)
+- [Chrome extension](https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc): install from the Chrome Web Store
+- [iOS app](https://apps.apple.com/us/app/marqly-ai-bookmark-manager/id6758905385): App Store
+- [Help center](https://help.marqly.com/): documentation and support
+
+## Guides
+
+- [How to summarize YouTube videos with AI](https://www.marqly.com/blog/summarize-youtube-videos-with-ai): AI summaries on the watch page itself
+- [How to chat with a YouTube video](https://www.marqly.com/blog/chat-with-youtube-videos): transcript-grounded Q&A next to the player
+- [How to get a YouTube video transcript](https://www.marqly.com/blog/how-to-get-youtube-video-transcript): native method + one-click copy
+- [How to highlight text on any website](https://www.marqly.com/blog/how-to-highlight-text-on-any-website): persistent highlights in 6 colors with notes
+- [How to save a webpage as a PDF](https://www.marqly.com/blog/save-webpage-as-pdf): screen-faithful capture without cut-offs
+- [How to search bookmarks with AI](https://www.marqly.com/blog/how-to-search-bookmarks-with-ai): find saves by meaning
+- [Best AI bookmark manager 2026](https://www.marqly.com/blog/best-ai-bookmark-manager-2026): what "AI" should actually mean in a bookmark tool
+- [How to organize bookmarks](https://www.marqly.com/blog/how-to-organize-bookmarks): tags over folders
+
+## Comparisons
+
+- [Pocket vs Marqly](https://www.marqly.com/blog/pocket-vs-marqly)
+- [Raindrop.io vs Marqly](https://www.marqly.com/blog/raindrop-vs-marqly)
+- [Readwise Reader vs Marqly](https://www.marqly.com/blog/readwise-reader-vs-marqly)
+- [Obsidian vs Marqly](https://www.marqly.com/blog/obsidian-vs-marqly)
+- [Best Pocket alternatives 2026](https://www.marqly.com/blog/best-pocket-alternatives-2026)
+
+## Optional
+
+- [Blog index](https://www.marqly.com/blog): all guides and comparisons
+- [Terms](https://www.marqly.com/terms) · [Privacy](https://www.marqly.com/privacypolicy)

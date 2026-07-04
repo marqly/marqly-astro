@@ -14,7 +14,7 @@ const CHROME =
 
 const title = 'Marqly — AI Bookmark Manager | Organize Smarter, Find Faster';
 const description =
-  'Marqly is the AI-powered bookmark manager that organizes your saved links automatically. Smart tagging, cross-platform sync, and reader mode. Start free — no card required.';
+  'Marqly is the AI bookmark manager that auto-organizes your links, summarizes YouTube videos, and highlights any page. Start free — no card required.';
 const canonical = 'https://www.marqly.com/';
 
 const features = [
@@ -23,13 +23,91 @@ const features = [
   { key: 'reader', title: 'Reader View & AI Summaries', body: 'Get the context without reopening pages. Distraction-free reading built in.' },
   { key: 'offline', title: 'Offline Mode & Link Health', body: 'Full access without a connection. Know when saved links break or go stale.' },
   { key: 'sync', title: 'Cross-Platform Sync', body: 'Pocket, mobile, desktop — in lockstep. Your library, everywhere you read.' },
+  { key: 'youtube', title: 'YouTube AI Summaries & Chat', body: 'A TL;DR, a transcript, and answers about any video — right on the watch page.' },
+  { key: 'highlights', title: 'Highlights & Notes', body: 'Highlight any website in 6 colors. Your highlights survive reloads and sync everywhere.' },
+  { key: 'pdf', title: 'Save Pages as PDF', body: 'Freeze any page exactly as it looks on screen — free, local, one click.' },
+];
+
+// Visible FAQ + matching FAQPage JSON-LD (identical text — Google's requirement).
+const homeFaqs = [
+  {
+    q: 'Is Marqly free?',
+    a: 'Yes. The free plan includes one-click saving, tags, search, and access on every device — no credit card required. Marqly Pro adds unlimited bookmarks, AI features like semantic search and YouTube chat, highlights, and smart sorting for $48/year (about $4/month billed annually) after a 7-day free trial.',
+  },
+  {
+    q: 'Which browsers does the Marqly extension support?',
+    a: 'The Marqly extension runs on Chrome, Edge, Firefox, and Safari. Your library also syncs to the Marqly web app and the iOS app, so everything you save is available on desktop, tablet, and phone.',
+  },
+  {
+    q: 'Can Marqly summarize YouTube videos?',
+    a: 'Yes. Marqly adds an AI card right on the YouTube watch page with a streaming summary (TL;DR plus key sections), a chat tab that answers questions from the video’s transcript, and a playback-synced transcript you can copy in one click. Books mentioned in the video are surfaced automatically.',
+  },
+  {
+    q: 'Can I highlight text on websites with Marqly?',
+    a: 'Yes. Select text on any page and highlight it in one of 6 colors, with optional notes. Highlights are restored when you revisit the page, appear in the browser side panel, and sync to your Marqly library so they’re searchable alongside your bookmarks.',
+  },
+  {
+    q: 'Can Marqly save a webpage as a PDF?',
+    a: 'Yes. From the save dialog you can export any page as a clean PDF that matches the on-screen layout — lazy-loaded images included. It runs locally in your browser and the page is never uploaded anywhere.',
+  },
+  {
+    q: 'How is Marqly different from browser bookmarks?',
+    a: 'Browser bookmarks are a folder tree you have to file and remember. Marqly auto-tags every save with AI and lets you search by meaning — describe what the page was about and it surfaces, even if you forgot the title. It also captures highlights, transcripts, and PDFs, not just URLs.',
+  },
+];
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Marqly',
+    url: 'https://www.marqly.com/',
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Marqly',
+    url: 'https://www.marqly.com',
+    logo: 'https://www.marqly.com/favicon.png',
+    sameAs: ['https://twitter.com/getmarqly', 'https://x.com/getmarqly'],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: 'Marqly',
+    applicationCategory: 'ProductivityApplication',
+    operatingSystem: 'Web, iOS, Chrome, Edge, Firefox, Safari',
+    url: 'https://www.marqly.com',
+    description:
+      'AI bookmark manager with semantic search — save articles, videos, and links, then find any of them by describing what you remember instead of the exact title.',
+    featureList: [
+      'Semantic AI search (find saves by meaning, not keywords)',
+      'Automatic AI tagging',
+      'AI article summaries',
+      'AI YouTube summaries, chat, and playback-synced transcript on the watch page',
+      'Web highlighter — 6 colors and notes that persist on any page',
+      'Save any webpage as a clean, screen-faithful PDF',
+      'Public board sharing — links and highlights, no signup to view',
+      'Import from Pocket, Raindrop, and browser bookmarks',
+    ],
+    offers: { '@type': 'AggregateOffer', priceCurrency: 'USD', lowPrice: '0', offerCount: 2 },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: homeFaqs.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  },
 ];
 
 const steps = [
   {
     n: '01',
     title: 'Install the extension',
-    body: 'One click from the Chrome, Firefox, or Edge store. Marqly sits quietly in your toolbar until you need it.',
+    body: 'One click from the Chrome, Edge, Firefox, or Safari store. Marqly sits quietly in your toolbar until you need it.',
   },
   {
     n: '02',
@@ -72,6 +150,7 @@ const tiers = [
     perks: [
       'Unlimited bookmarks',
       'AI Powered Features',
+      'YouTube AI summaries & chat',
       'Super fast search',
       'Boards & collections',
       'Highlights & notes',
@@ -115,7 +194,7 @@ const testimonials = [
 ];
 ---
 
-<LandingLayout title={title} description={description} canonical={canonical}>
+<LandingLayout title={title} description={description} canonical={canonical} jsonLd={jsonLd}>
   <!-- ============================================================ -->
   <!-- HERO                                                         -->
   <!-- ============================================================ -->
@@ -123,7 +202,7 @@ const testimonials = [
     <div class="container">
       <div class="hero-inner">
         <span class="eyebrow" data-reveal>
-          <span class="dot"></span> Introducing Marqly 5.0 — AI tagging, reimagined
+          <span class="dot"></span> New — AI summaries, chat & transcripts on YouTube
         </span>
 
         <h1 id="hero-h1" class="hero-title" data-reveal data-reveal-delay="1">
@@ -508,6 +587,109 @@ const testimonials = [
             </div>
           </div>
         </article>
+
+        <!-- YouTube AI card (full width) -->
+        <article class="bento-card bento-card--yt bento-card--wide" data-reveal data-reveal-delay="1">
+          <div class="bento-text">
+            <span class="yt-badge">New · On YouTube</span>
+            <h3 class="bento-title">YouTube, summarized next to the video</h3>
+            <p class="bento-body">
+              A TL;DR in seconds, chat that answers from the transcript, and a transcript that
+              follows playback — in a card on every watch page. Save the video and it's
+              searchable forever.
+            </p>
+          </div>
+          <div class="bento-shot">
+            <div class="ui-panel ui-ytwrap" aria-hidden="true">
+              <div class="ui-yt-player">
+                <span class="ui-yt-play">
+                  <svg width="10" height="12" viewBox="0 0 10 12" fill="currentColor"><path d="M0 0l10 6-10 6z"/></svg>
+                </span>
+                <div class="ui-yt-progress"><span></span></div>
+              </div>
+              <div class="ui-yt-card">
+                <div class="ui-yt-tabs">
+                  <span class="ui-yt-tab is-on">Summary</span>
+                  <span class="ui-yt-tab">Chat</span>
+                  <span class="ui-yt-tab">Transcript</span>
+                </div>
+                <div class="ui-tldr">
+                  <span class="ui-tldr-label">TL;DR</span>
+                  <p>Deep work beats long hours — three systems for staying focused in a distracted world, with the research behind each.</p>
+                </div>
+                <div class="ui-yt-lines">
+                  <span style="width:92%"></span>
+                  <span style="width:74%"></span>
+                  <span style="width:84%"></span>
+                </div>
+                <div class="ui-yt-books">
+                  <span class="ui-yt-books-label">Mentioned in this video</span>
+                  <span class="ui-book">Deep Work</span>
+                  <span class="ui-book">Atomic Habits</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Highlights (cell) -->
+        <article class="bento-card bento-card--cell" data-reveal data-reveal-delay="1">
+          <div class="bento-text">
+            <h3 class="bento-title">Highlights & Notes</h3>
+            <p class="bento-body">Highlight any website in 6 colors. Your highlights survive reloads, live in the side panel, and sync everywhere.</p>
+          </div>
+          <div class="bento-shot">
+            <div class="ui-panel ui-hl" aria-hidden="true">
+              <div class="ui-hl-text">
+                <p>The research is unambiguous: <mark class="hl hl--yellow">attention, once fractured, takes 23 minutes to rebuild</mark>. Teams that protect long blocks of focus ship faster — and report it.</p>
+                <p>What looks like a time problem is usually <mark class="hl hl--green">an attention problem in disguise</mark> — and no calendar app fixes that.</p>
+              </div>
+              <div class="ui-hl-toolbar">
+                <span class="hl-dot" style="--c:#fff3a3"></span>
+                <span class="hl-dot" style="--c:#c9f2d0"></span>
+                <span class="hl-dot" style="--c:#cfe6ff"></span>
+                <span class="hl-dot" style="--c:#ffd9e8"></span>
+                <span class="hl-dot" style="--c:#e6dcff"></span>
+                <span class="hl-dot" style="--c:#ffe4c7"></span>
+                <span class="ui-hl-note">+ Note</span>
+              </div>
+              <div class="ui-mini-foot">Restored on revisit · Synced to your library</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Save as PDF (cell) -->
+        <article class="bento-card bento-card--cell" data-reveal data-reveal-delay="2">
+          <div class="bento-text">
+            <h3 class="bento-title">Save Pages as PDF</h3>
+            <p class="bento-body">Freeze any page exactly as it looks on screen — lazy-loaded images included. Free, local, one click.</p>
+          </div>
+          <div class="bento-shot">
+            <div class="ui-panel ui-pdf" aria-hidden="true">
+              <div class="ui-pdf-menu">
+                <div class="ui-pdf-row is-on">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                  Save page as PDF
+                </div>
+                <div class="ui-pdf-row">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m10 9 5 3-5 3z" fill="currentColor" stroke="none"/></svg>
+                  Download video
+                </div>
+              </div>
+              <div class="ui-pdf-file">
+                <span class="ui-pdf-badge">PDF</span>
+                <div class="ui-pdf-main">
+                  <span class="ui-pdf-name">context-switching.pdf</span>
+                  <span class="ui-pdf-meta">A4 · Screen layout · 2.1 MB</span>
+                </div>
+                <span class="ui-pdf-check">
+                  <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                </span>
+              </div>
+              <div class="ui-mini-foot">Captured locally — never uploaded</div>
+            </div>
+          </div>
+        </article>
       </div>
     </div>
   </section>
@@ -565,7 +747,7 @@ const testimonials = [
           </div>
           <span class="step-num">01</span>
           <h3 class="step-title">Install the extension</h3>
-          <p class="step-body">One click from the Chrome, Firefox, or Edge store. Marqly sits quietly in your toolbar until you need it.</p>
+          <p class="step-body">One click from the Chrome, Edge, Firefox, or Safari store. Marqly sits quietly in your toolbar until you need it.</p>
         </li>
 
         <li class="step" data-reveal data-reveal-delay="2">
@@ -752,6 +934,32 @@ const testimonials = [
           ))}
         </div>
         <button class="reviews-arrow reviews-arrow--next" type="button" aria-label="Next review" data-review-next>→</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- FAQ — visible content mirrors FAQPage JSON-LD                -->
+  <!-- ============================================================ -->
+  <section class="faq-home section" id="faq" aria-labelledby="faq-h2">
+    <div class="container">
+      <header class="section-head" data-reveal>
+        <span class="eyebrow"><span class="dot"></span> FAQ</span>
+        <h2 id="faq-h2" class="section-title">Questions, answered.</h2>
+      </header>
+
+      <div class="faq-list" data-reveal data-reveal-delay="1">
+        {homeFaqs.map((f, i) => (
+          <details class="faq-item" open={i === 0}>
+            <summary>
+              {f.q}
+              <span class="faq-chev" aria-hidden="true">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+              </span>
+            </summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
       </div>
     </div>
   </section>
@@ -2340,5 +2548,330 @@ const testimonials = [
   }
   @media (max-width: 760px) {
     .tabsaver-inner { grid-template-columns: 1fr; }
+  }
+
+  /* ============================================================ */
+  /* YOUTUBE AI BENTO CARD                                        */
+  /* ============================================================ */
+  .bento-card--yt {
+    background: linear-gradient(135deg, #fff7f6 0%, #fdf0ee 100%);
+    border-color: #f6d9d4;
+  }
+  .bento-card--yt:hover { border-color: #e5484d; }
+  .yt-badge {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #c93838;
+    background: rgba(229, 72, 77, 0.1);
+    padding: 0.22rem 0.6rem;
+    border-radius: var(--radius-pill);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: var(--space-2);
+  }
+  .ui-ytwrap {
+    display: flex;
+    flex-direction: column;
+    max-width: 440px;
+  }
+  .ui-yt-player {
+    position: relative;
+    background: linear-gradient(160deg, #17171c 0%, #26262e 100%);
+    min-height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ui-yt-play {
+    width: 36px; height: 25px;
+    background: #e5484d;
+    border-radius: 7px;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ui-yt-progress {
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.22);
+  }
+  .ui-yt-progress span {
+    display: block;
+    width: 38%;
+    height: 100%;
+    background: #e5484d;
+  }
+  .ui-yt-card {
+    padding: 0.6rem 0.7rem 0.7rem;
+    display: grid;
+    gap: 0.55rem;
+  }
+  .ui-yt-tabs { display: inline-flex; gap: 0.25rem; }
+  .ui-yt-tab {
+    font-size: 0.62rem;
+    font-weight: 600;
+    color: var(--ink-3);
+    border: 1px solid var(--border-1);
+    background: var(--surface-2);
+    padding: 0.2rem 0.6rem;
+    border-radius: var(--radius-pill);
+  }
+  .ui-yt-tab.is-on {
+    background: var(--ink-1);
+    color: #fff;
+    border-color: transparent;
+  }
+  .ui-tldr {
+    background: var(--surface-2);
+    border: 1px solid var(--border-1);
+    border-radius: 10px;
+    padding: 0.5rem 0.6rem;
+    display: grid;
+    gap: 0.25rem;
+  }
+  .ui-tldr-label {
+    font-size: 0.58rem;
+    font-weight: 700;
+    color: var(--ink-4);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .ui-tldr p {
+    margin: 0;
+    font-size: 0.66rem;
+    line-height: 1.45;
+    color: var(--ink-2);
+  }
+  .ui-yt-lines { display: grid; gap: 0.32rem; }
+  .ui-yt-lines span {
+    height: 4px;
+    background: var(--surface-3);
+    border-radius: 3px;
+    display: block;
+  }
+  .ui-yt-books {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.3rem;
+    padding-top: 0.45rem;
+    border-top: 1px solid var(--border-1);
+  }
+  .ui-yt-books-label {
+    flex-basis: 100%;
+    font-size: 0.58rem;
+    font-weight: 600;
+    color: var(--ink-4);
+  }
+  .ui-book {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.6rem;
+    font-weight: 500;
+    color: var(--ink-2);
+    background: var(--surface-1);
+    border: 1px solid var(--border-1);
+    padding: 0.18rem 0.5rem;
+    border-radius: 6px;
+  }
+
+  /* ============================================================ */
+  /* HIGHLIGHTS BENTO CELL                                        */
+  /* ============================================================ */
+  .bento-card--cell .bento-shot > .ui-panel.ui-hl,
+  .bento-card--cell .bento-shot > .ui-panel.ui-pdf {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 240px;
+  }
+  .ui-hl-text {
+    padding: 0.75rem 0.8rem 0.5rem;
+    display: grid;
+    gap: 0.55rem;
+  }
+  .ui-hl-text p {
+    margin: 0;
+    font-size: 0.68rem;
+    line-height: 1.6;
+    color: var(--ink-2);
+  }
+  .hl {
+    border-radius: 3px;
+    padding: 0 2px;
+    color: inherit;
+  }
+  .hl--yellow { background: #fff3a3; }
+  .hl--green { background: #c9f2d0; }
+  .ui-hl-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.5rem 0.8rem;
+    border-top: 1px solid var(--border-1);
+  }
+  .hl-dot {
+    width: 14px; height: 14px;
+    border-radius: 50%;
+    background: var(--c, #eee);
+    border: 1px solid rgba(13, 13, 16, 0.08);
+    display: inline-block;
+  }
+  .ui-hl-note {
+    margin-left: auto;
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: var(--ink-3);
+    border: 1px solid var(--border-1);
+    background: var(--surface-2);
+    padding: 0.18rem 0.5rem;
+    border-radius: var(--radius-pill);
+  }
+  .ui-mini-foot {
+    padding: 0.45rem 0.8rem;
+    border-top: 1px solid var(--border-1);
+    font-size: 0.6rem;
+    color: var(--ink-4);
+  }
+
+  /* ============================================================ */
+  /* PDF BENTO CELL                                               */
+  /* ============================================================ */
+  .ui-pdf-menu {
+    margin: 0.7rem 0.8rem 0;
+    border: 1px solid var(--border-1);
+    border-radius: 10px;
+    overflow: hidden;
+    background: var(--surface-2);
+  }
+  .ui-pdf-row {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.5rem 0.6rem;
+    font-size: 0.68rem;
+    font-weight: 500;
+    color: var(--ink-3);
+  }
+  .ui-pdf-row + .ui-pdf-row { border-top: 1px solid var(--border-1); }
+  .ui-pdf-row.is-on {
+    background: var(--surface-1);
+    color: var(--ink-1);
+    font-weight: 600;
+  }
+  .ui-pdf-file {
+    margin: 0.55rem 0.8rem 0.7rem;
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    border: 1px solid var(--border-1);
+    border-radius: 10px;
+    padding: 0.5rem 0.6rem;
+    background: var(--surface-1);
+  }
+  .ui-pdf-badge {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px; height: 34px;
+    background: #d64545;
+    color: #fff;
+    font-size: 0.55rem;
+    font-weight: 700;
+    border-radius: 6px;
+    letter-spacing: 0.04em;
+  }
+  .ui-pdf-main {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .ui-pdf-name {
+    font-size: 0.68rem;
+    font-weight: 600;
+    color: var(--ink-1);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .ui-pdf-meta {
+    font-size: 0.58rem;
+    color: var(--ink-4);
+  }
+  .ui-pdf-check {
+    flex: 0 0 auto;
+    width: 16px; height: 16px;
+    border-radius: 50%;
+    background: #1f9d55;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ============================================================ */
+  /* FAQ                                                          */
+  /* ============================================================ */
+  .faq-home {
+    background: var(--surface-2);
+    border-top: 1px solid var(--border-1);
+  }
+  .faq-list {
+    margin-top: var(--space-12);
+    max-width: 760px;
+    margin-inline: auto;
+    display: grid;
+    gap: var(--space-3);
+  }
+  .faq-item {
+    background: var(--surface-1);
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-inner);
+    overflow: hidden;
+    transition: border-color var(--dur-base) var(--ease-out);
+  }
+  .faq-item:hover { border-color: var(--border-2); }
+  .faq-item summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-4);
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--ink-1);
+    letter-spacing: -0.01em;
+  }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-chev {
+    flex: 0 0 auto;
+    width: 26px; height: 26px;
+    border-radius: 50%;
+    background: var(--surface-2);
+    border: 1px solid var(--border-1);
+    color: var(--ink-3);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform var(--dur-base) var(--ease-out);
+  }
+  .faq-item[open] .faq-chev { transform: rotate(45deg); }
+  .faq-item > p {
+    margin: 0;
+    padding: 0 1.25rem 1.1rem;
+    font-size: var(--fs-sm);
+    line-height: 1.65;
+    color: var(--ink-3);
+    max-width: 68ch;
   }
 </style>
