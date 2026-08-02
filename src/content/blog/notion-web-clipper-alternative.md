@@ -71,4 +71,4 @@ Understandable — single-source-of-truth is appealing. Just know the trade-off:
 
 ---
 
-*Related: [Obsidian vs Marqly](/blog/obsidian-vs-marqly)*
+*Related: [Obsidian vs Marqly](/compare/marqly-vs-obsidian-web-clipper)*

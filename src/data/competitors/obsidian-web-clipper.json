@@ -1,0 +1,80 @@
+{
+  "name": "Obsidian Web Clipper",
+  "slug": "obsidian-web-clipper",
+  "aka": ["obsidian-clipper", "obsidian"],
+  "category": "notes",
+  "status": "active",
+  "shutdownNote": null,
+  "website": "https://obsidian.md/clipper",
+  "tagline": "The official clipper that saves the web as Markdown in your local vault",
+  "pricing": {
+    "free": true,
+    "paid": null,
+    "trial": null,
+    "notes": "The clipper and the Obsidian app are completely free, including commercial use (policy since February 2025). The only paid add-ons are optional: Obsidian Sync from $4/month billed annually ($5 monthly) for cross-device sync, and Obsidian Publish at $8/site/month for public sharing."
+  },
+  "platforms": ["chrome", "firefox", "safari", "edge", "ios", "android", "windows", "mac", "linux"],
+  "features": {
+    "aiAutoTagging": false,
+    "semanticSearch": false,
+    "aiSummaries": true,
+    "youtubeAi": false,
+    "chatWithSaves": false,
+    "highlights": true,
+    "annotationNotes": true,
+    "savePdf": false,
+    "fullTextSearch": true,
+    "tabSaver": false,
+    "publicSharing": false,
+    "importPocket": false,
+    "importBrowserHtml": false,
+    "offlineReading": true,
+    "iosApp": true,
+    "androidApp": true,
+    "browserExtension": true,
+    "freeTier": true,
+    "api": false,
+    "selfHosted": true
+  },
+  "pros": [
+    "Entirely free and open source, including commercial use of Obsidian itself",
+    "Clips become plain Markdown files on your own disk — total privacy, zero lock-in",
+    "Highlighter mode captures the passages you mark, not just whole pages",
+    "Powerful per-site templates auto-title, tag, and file clips using page metadata",
+    "Interpreter runs clip-time AI prompts (summarize, extract, translate) with your own API key or free local Ollama",
+    "Works on Chrome, Firefox, Edge, and Safari — including Safari on iPhone and iPad"
+  ],
+  "cons": [
+    "No sync out of the box — cross-device access means Obsidian Sync at $4/month or DIY workarounds",
+    "No cloud features: no public sharing (Publish costs $8/month extra), no web app",
+    "No automatic tagging or semantic search — organizing and finding clips is manual",
+    "AI features require configuring your own LLM provider and paying its usage costs",
+    "Only useful if you also run the Obsidian app"
+  ],
+  "bestFor": "Obsidian users and local-first purists who want web content as portable Markdown they own forever, with capture automation via templates.",
+  "verdict": "The best free clipper for people who keep their knowledge in plain files — as long as you'll organize, sync, and search it yourself.",
+  "overview": "Obsidian Web Clipper is the official, open-source browser extension for Obsidian, the local-first Markdown note app. It runs on Chrome, Firefox, Edge, and Safari — including Safari on iOS and iPadOS — and saves pages, selections, or highlights as clean Markdown files in your vault, where they stay on your own disk with zero lock-in. Per-site templates decide how each clip is titled, tagged, and filed, pulling metadata through selector and Schema.org variables. An optional Interpreter feature runs natural-language prompts at clip time — summarize, extract, translate — using your own API key from Anthropic, OpenAI, Gemini, and others, or a local Ollama model at no cost. Everything is free, including commercial use of Obsidian since early 2025. The trade-off is that cloud conveniences are add-ons: cross-device sync via Obsidian Sync starts at $4 per month, and public sharing via Obsidian Publish costs $8 per site per month.",
+  "faqs": [
+    {
+      "q": "Is Obsidian Web Clipper free?",
+      "a": "Yes, completely. The clipper is free and open source, and since February 2025 Obsidian itself is free for all use, including commercial — no license required. The only costs are optional: Obsidian Sync from $4/month for encrypted cross-device sync, Obsidian Publish at $8/month for public sites, and your own API usage if you enable the AI Interpreter."
+    },
+    {
+      "q": "Is Obsidian Web Clipper still maintained?",
+      "a": "Yes, actively. The clipper is developed by the Obsidian team on GitHub with a steady near-monthly release cadence — versions shipped in April, May, June, and July 2026. Obsidian itself is one of the healthiest products in the notes space, with a large plugin ecosystem and a sustainable, VC-free business model."
+    },
+    {
+      "q": "What is the best Obsidian Web Clipper alternative?",
+      "a": "Evernote Web Clipper offers richer capture (screenshots, five browsers) if you accept its subscription. Karakeep suits self-hosters who want AI filing. If the manual-organization side of Obsidian wears on you, Marqly is a strong option: AI tags and summarizes every save automatically, and semantic search finds bookmarks by meaning — no templates or vault maintenance."
+    },
+    {
+      "q": "Does Obsidian Web Clipper work on iPhone?",
+      "a": "Yes — unusually for a clipper, it runs as a Safari extension on iOS and iPadOS, so you can clip pages straight into your vault from your phone. You will need the free Obsidian mobile app to read and edit those clips, and either Obsidian Sync or a DIY setup (like iCloud) to keep the vault consistent across devices."
+    },
+    {
+      "q": "Can I export my data from Obsidian?",
+      "a": "There is nothing to export — that is the point. Every clip is already a plain Markdown file sitting in a folder on your disk, readable by any text editor and importable into virtually any notes tool. No proprietary format, no export step, no lock-in. If you stop using Obsidian tomorrow, your clipped content remains fully usable."
+    }
+  ],
+  "lastVerified": "2026-08-02"
+}

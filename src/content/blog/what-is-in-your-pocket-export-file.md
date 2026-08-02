@@ -102,7 +102,7 @@ The column on the left is genuinely the part worth keeping — it's the map of e
 
 Decoding the export is step one; the bigger opportunity is fixing the thing Pocket never solved. Most people saved far more than they ever found again, because keyword search and folders don't scale past a few hundred items — and a CSV of links does nothing to change that on its own.
 
-That's the angle [Marqly](https://app.marqly.com) is built on. Import your saved links and it re-saves them into a library you can search **by meaning** — you describe what you remember ("the piece about deep work dying") and it surfaces the save even if you've forgotten the title. It runs on web, iOS, and Chrome, so saving stays one tap once your history is in. (For a closer look at how it compares to Pocket specifically, see [Pocket vs Marqly](/blog/pocket-vs-marqly).)
+That's the angle [Marqly](https://app.marqly.com) is built on. Import your saved links and it re-saves them into a library you can search **by meaning** — you describe what you remember ("the piece about deep work dying") and it surfaces the save even if you've forgotten the title. It runs on web, iOS, and Chrome, so saving stays one tap once your history is in. (For a closer look at how it compares to Pocket specifically, see [Pocket vs Marqly](/compare/marqly-vs-pocket).)
 
 A realistic expectation, since this whole guide is about setting them: no tool can resurrect the article text that was never in your export, and how cleanly tags and dates land depends on the file and the importer. What you're recovering is the *list* of what you saved — and with semantic search on top, that list finally becomes something you can actually use.
 

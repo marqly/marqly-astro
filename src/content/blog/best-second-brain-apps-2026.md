@@ -75,7 +75,7 @@ Notion is the best second brain app if you want one tool to hold notes, docs, da
 Obsidian is the best second brain app for original writing and connected thinking, especially if you value privacy. Notes are plain Markdown files on your own machine, backlinks and the graph view make connecting ideas genuinely powerful, and a huge plugin ecosystem extends it endlessly. For developing your *own* knowledge, it's superb.
 
 - **Best for:** writers, researchers, and Zettelkasten fans who want local-first, file-based notes they fully control.
-- **Skip if:** your real need is saving and re-finding web content. Its web clipper is clunky and turns pages into messy Markdown, search is text-matching rather than semantic, and there's no auto-organization. We break this down in [Obsidian vs. an AI bookmark manager](/blog/obsidian-vs-marqly) — they solve opposite halves of the problem.
+- **Skip if:** your real need is saving and re-finding web content. Its web clipper is clunky and turns pages into messy Markdown, search is text-matching rather than semantic, and there's no auto-organization. We break this down in [Obsidian vs. an AI bookmark manager](/compare/marqly-vs-obsidian-web-clipper) — they solve opposite halves of the problem.
 
 ## Tana — best structured outliner
 

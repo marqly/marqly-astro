@@ -1,0 +1,79 @@
+{
+  "name": "Wallabag",
+  "slug": "wallabag",
+  "aka": ["wallabag-it"],
+  "category": "read-it-later",
+  "status": "active",
+  "shutdownNote": null,
+  "website": "https://wallabag.org",
+  "tagline": "The open-source, self-hostable read-it-later app",
+  "pricing": {
+    "free": true,
+    "paid": "€11/year on wallabag.it (official hosting; also €4 for 3 months, or a €30/year supporter plan)",
+    "trial": "14-day free trial on wallabag.it, no card required",
+    "notes": "Self-hosting is completely free — Wallabag is open-source (MIT). The wallabag.it hosted service funds development and includes all features on every plan."
+  },
+  "platforms": ["web", "ios", "android", "chrome", "firefox"],
+  "features": {
+    "aiAutoTagging": false,
+    "semanticSearch": false,
+    "aiSummaries": false,
+    "youtubeAi": false,
+    "chatWithSaves": false,
+    "highlights": true,
+    "annotationNotes": true,
+    "savePdf": true,
+    "fullTextSearch": true,
+    "tabSaver": false,
+    "publicSharing": true,
+    "importPocket": true,
+    "importBrowserHtml": true,
+    "offlineReading": true,
+    "iosApp": true,
+    "androidApp": true,
+    "browserExtension": true,
+    "freeTier": true,
+    "api": true,
+    "selfHosted": true
+  },
+  "pros": [
+    "Fully open-source and self-hostable — your reading data lives on your own server if you want it to",
+    "Official hosting at wallabag.it costs just €11/year, among the cheapest paid plans anywhere",
+    "Exports articles to PDF, ePub, and other formats for e-readers",
+    "Rule-based automatic tagging files saves without manual work",
+    "Imports from Pocket, Instapaper, and browser bookmark files",
+    "Mature project maintained continuously since 2013, with apps for iOS and Android"
+  ],
+  "cons": [
+    "Utilitarian design — the web app and mobile apps feel dated next to commercial competitors",
+    "Article parsing can fail or render poorly on complex, script-heavy sites",
+    "No AI features of any kind: no summaries, semantic search, or smart tagging",
+    "Self-hosting requires real setup and ongoing maintenance (PHP, database, updates)"
+  ],
+  "bestFor": "Privacy-focused readers and self-hosters who want a Pocket-style queue under their own control, plus e-reader owners who export articles to ePub.",
+  "verdict": "The safest long-term bet in read-it-later — open source and dirt cheap — as long as you value ownership over polish.",
+  "overview": "Wallabag is an open-source read-it-later application, started in 2013 in France and maintained continuously since. You can run it on your own server for free or use the official hosted service at wallabag.it, which costs €11 a year (with a 14-day free trial) and funds development of the open-source project. Saved articles are stripped to a clean reading view, can be tagged manually or through rule-based automatic tagging, annotated with notes on selected text, and exported to PDF, ePub, and other formats — a favorite feature for e-reader owners. Wallabag offers browser extensions for Chrome and Firefox, native iOS and Android apps with offline reading, RSS feeds of your saves, public share links for individual articles, and a full REST API. Importers cover Pocket, Instapaper, Readability, and browser bookmark files. The trade-off is polish: the interface is functional rather than beautiful, and there are no AI features.",
+  "faqs": [
+    {
+      "q": "Is Wallabag free?",
+      "a": "Yes, if you self-host — Wallabag is open-source and the software costs nothing. If you prefer not to run a server, the official hosted service at wallabag.it costs €11/year (about $1/month) with a 14-day free trial and no card required. Every plan includes all features; there is no artificial feature gating."
+    },
+    {
+      "q": "Is Wallabag still maintained?",
+      "a": "Yes. Wallabag has been in continuous development since 2013, making it one of the longest-lived projects in the category, and the wallabag.it hosting service directly funds ongoing open-source work. Unlike venture-backed apps such as Omnivore or corporate-owned Pocket, its sustainability model is boring and stable: cheap subscriptions plus a community of self-hosters."
+    },
+    {
+      "q": "What is the best Wallabag alternative?",
+      "a": "Among open-source options, Linkwarden adds full-page archiving, collaboration, and optional AI tagging, while Readeck is a lighter self-hosted choice. If you want a hosted app with modern AI, Marqly is a strong option — automatic tagging, semantic search that finds saves by meaning, highlights, and YouTube summaries — though it is not self-hostable. Readwise Reader suits power readers with bigger budgets."
+    },
+    {
+      "q": "Does Wallabag work on iPhone?",
+      "a": "Yes. There is an official Wallabag iOS app that connects to either wallabag.it or your self-hosted instance, with offline reading and share-sheet saving. It is functional rather than fancy — reading works well, but it lacks the polish and audio features of apps like Matter or Instapaper. An Android app and mobile-friendly web interface are also available."
+    },
+    {
+      "q": "Can I export my data from Wallabag?",
+      "a": "Yes, comprehensively. Wallabag exports individual articles or your whole library in JSON, CSV, ePub, PDF, and plain text, and its REST API gives full programmatic access. If you self-host, the database is yours to begin with. This portability works both ways: Wallabag also imports from Pocket, Instapaper, and browser bookmark HTML files."
+    }
+  ],
+  "lastVerified": "2026-08-02"
+}

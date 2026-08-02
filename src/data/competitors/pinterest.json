@@ -1,0 +1,93 @@
+{
+  "name": "Pinterest",
+  "slug": "pinterest",
+  "aka": [
+    "pinterest-boards",
+    "save-to-pinterest",
+    "pinterest-save-button",
+    "pins"
+  ],
+  "category": "visual",
+  "status": "active",
+  "shutdownNote": null,
+  "website": "https://www.pinterest.com",
+  "tagline": "Visual discovery engine where saves become boards of ideas",
+  "pricing": {
+    "free": true,
+    "paid": null,
+    "trial": null,
+    "notes": "Entirely free and ad-supported for consumers — there is no paid tier and no ad-free subscription. Promoted pins appear roughly every 4-6 pins in the feed. Businesses pay for ads, not users."
+  },
+  "platforms": [
+    "web",
+    "chrome",
+    "edge",
+    "firefox",
+    "safari",
+    "ios",
+    "android"
+  ],
+  "features": {
+    "aiAutoTagging": false,
+    "semanticSearch": false,
+    "aiSummaries": false,
+    "youtubeAi": false,
+    "chatWithSaves": false,
+    "highlights": false,
+    "annotationNotes": true,
+    "savePdf": false,
+    "fullTextSearch": false,
+    "tabSaver": false,
+    "publicSharing": true,
+    "importPocket": false,
+    "importBrowserHtml": false,
+    "offlineReading": false,
+    "iosApp": true,
+    "androidApp": true,
+    "browserExtension": true,
+    "freeTier": true,
+    "api": true,
+    "selfHosted": false
+  },
+  "pros": [
+    "Unmatched visual discovery — related pins and Lens visual search turn one save into a stream of similar ideas",
+    "Massive scale and network effects: 631 million monthly users and billions of pins covering almost any visual topic",
+    "Boards are excellent visual organization, with sections, collaborators, and optional secret boards",
+    "Completely free with no caps on pins or boards",
+    "Broadest platform coverage in this space: iOS, Android, web, and official save buttons for Chrome, Edge, Firefox, and Safari",
+    "Zero abandonment risk — a public company actively shipping AI features like personalized boards and the Pinterest Assistant"
+  ],
+  "cons": [
+    "It's a social discovery product, not a private bookmark manager — the feed constantly pushes other people's content and shopping over your own library",
+    "Ads roughly every 4-6 pins, with no paid way to remove them",
+    "Link rot is endemic: pins often outlive the pages they point to, or lead to spam blogs",
+    "Awkward for non-visual saving — articles and text pages need a usable image, and there's no text capture or highlighting",
+    "Weak retrieval of your own saves: keyword search over titles and descriptions only, with no tags or full-text search"
+  ],
+  "bestFor": "Visual planning — home decor, fashion, recipes, travel, mood boards — where discovering new ideas matters as much as keeping the ones you saved.",
+  "verdict": "The best place to collect and discover visual inspiration; the wrong place to manage bookmarks you actually need to find again.",
+  "overview": "Pinterest is a visual discovery platform launched in March 2010 by Ben Silbermann, Evan Sharp, and Paul Sciarra, now a public company with a record 631 million monthly active users as of early 2026. Users save images and links as pins onto boards, which can be public, collaborative, or secret, and the recommendation engine surfaces related ideas alongside everything saved. Lens visual search finds pins from photos, and private notes can be attached to pins and boards. The official Save button extension works in Chrome, Edge, Firefox, and Safari, alongside full-featured iOS and Android apps and the web app. The consumer product is entirely free and ad-supported, with promoted pins mixed into feeds and no paid ad-free option. A public developer API allows programmatic access to pins and boards. Recent development centers on AI: automatically personalized boards shipped in 2025, and a conversational Pinterest Assistant that draws on saved content is rolling out.",
+  "faqs": [
+    {
+      "q": "Is Pinterest free?",
+      "a": "Yes, completely. Pinterest has no paid consumer tier, no premium subscription, and no caps on pins or boards — the business model is advertising, so promoted pins appear roughly every four to six pins in your feed and there is no paid way to remove them. Businesses pay to run ads; regular users never pay anything."
+    },
+    {
+      "q": "Is Pinterest still maintained?",
+      "a": "Very much so. Pinterest is a public company (NYSE: PINS) that reported a record 631 million monthly active users and over $1 billion in quarterly revenue in early 2026, its tenth straight quarter of double-digit user growth. It ships major features continuously, including AI-personalized boards in 2025 and a conversational Pinterest Assistant in rollout."
+    },
+    {
+      "q": "What is the best Pinterest alternative?",
+      "a": "It depends on the job. For private visual mood boards without ads, Savee and Cosmos are popular with designers. For saving articles, videos, and links you actually need to retrieve later, a bookmark manager fits better than a discovery feed — Raindrop.io covers visual collections, and Marqly adds AI auto-tagging and semantic search so saves resurface by description. Pinterest remains unbeatable for idea discovery itself."
+    },
+    {
+      "q": "Does Pinterest work on iPhone?",
+      "a": "Yes. The iPhone app is Pinterest's primary surface — most usage is mobile — and it's actively updated, with saving from Safari via the share sheet, Lens camera search, and full board management. There's an iPad app as well. The experience is equivalent to or better than the desktop website for browsing and saving."
+    },
+    {
+      "q": "Can I export my data from Pinterest?",
+      "a": "Yes, but it's slow and coarse. Go to Settings, then Privacy and data, and request your data; Pinterest emails a download link within about 48 hours containing an archive of your pins and boards. There's no one-click CSV or bookmark-HTML export of boards, so moving pins into another tool typically means using the developer API or third-party migration scripts."
+    }
+  ],
+  "lastVerified": "2026-08-02"
+}

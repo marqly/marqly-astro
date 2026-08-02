@@ -1,0 +1,140 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import Breadcrumbs from '../../components/seo/Breadcrumbs.astro';
+import CtaBox from '../../components/seo/CtaBox.astro';
+import { breadcrumbList, itemList, organization, webSite } from '../../lib/schema';
+
+const tools = [
+  {
+    name: 'YouTube transcript viewer',
+    desc: 'Paste a link, get the full transcript — copy it or download it as text.',
+    path: '/tools/youtube-transcript',
+  },
+  {
+    name: 'YouTube summarizer',
+    desc: 'TL;DR any video with AI — key points from the actual transcript.',
+    path: '/tools/youtube-summarize',
+  },
+  {
+    name: 'Bookmark file viewer',
+    desc: 'Open any bookmarks HTML export, search it, export to CSV or JSON.',
+    path: '/tools/bookmark-file-viewer',
+  },
+  {
+    name: 'Duplicate bookmark finder',
+    desc: 'Find duplicate bookmarks by normalized URL and download a deduplicated file.',
+    path: '/tools/duplicate-bookmark-finder',
+  },
+  {
+    name: 'Pocket export converter',
+    desc: "Turn Pocket's export CSV into a bookmarks HTML file or clean JSON.",
+    path: '/tools/pocket-export-converter',
+  },
+  {
+    name: 'URL cleaner',
+    desc: 'Strip utm_*, fbclid, gclid, and 20+ other tracking parameters from links.',
+    path: '/tools/url-cleaner',
+  },
+  {
+    name: 'Reading time calculator',
+    desc: 'Word count, character count, reading time, and speaking time for any text.',
+    path: '/tools/reading-time',
+  },
+  {
+    name: 'Dead link checker',
+    desc: 'Test up to 25 URLs at a time — see which are dead, redirected, or fine.',
+    path: '/tools/dead-link-checker',
+  },
+];
+
+const title = 'Free Tools for Bookmarks, Links & YouTube — No Signup Needed';
+const description =
+  'Eight free tools from the Marqly team: YouTube transcripts and summaries, bookmark file viewer, duplicate finder, Pocket converter, URL cleaner, and more.';
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: 'Free tools', path: '/tools' },
+  ]),
+  itemList(tools.map((t) => t.name), '/tools'),
+];
+---
+
+<LandingLayout title={title} description={description} jsonLd={jsonLd} ogImage="https://www.marqly.com/og/seo/hub-tools.png">
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs items={[{ name: 'Home', path: '/' }, { name: 'Free tools', path: '/tools' }]} />
+      <header class="tools-head">
+        <h1>Free tools</h1>
+        <p>
+          Small, sharp tools for bookmarks, links, and YouTube — free, no signup, no upload limits
+          disguised as pricing pages. Built by the Marqly team; everything runs in your browser
+          except the link checker, which needs a server to dodge CORS.
+        </p>
+      </header>
+
+      <ul class="tool-cards">
+        {tools.map((t) => (
+          <li>
+            <a href={t.path} class="tool-card">
+              <h2>{t.name}</h2>
+              <p>{t.desc}</p>
+              <span class="more">Open the tool →</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+
+      <CtaBox />
+    </div>
+  </section>
+</LandingLayout>
+
+<style>
+  .tools-head { max-width: 60ch; margin-bottom: var(--space-12); }
+  .tools-head h1 {
+    font-size: var(--fs-3xl);
+    font-weight: 600;
+    letter-spacing: var(--tracking-tight);
+    color: var(--ink-1);
+  }
+  .tools-head p { margin-top: var(--space-4); font-size: var(--fs-md); color: var(--ink-2); }
+
+  .tool-cards {
+    list-style: none;
+    margin: 0 0 var(--space-14);
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-4);
+  }
+  .tool-card {
+    display: block;
+    height: 100%;
+    background: var(--surface-1);
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-md);
+    padding: var(--space-5);
+    transition: border-color var(--dur-base) var(--ease-out), transform var(--dur-fast) var(--ease-out);
+  }
+  .tool-card:hover { border-color: var(--border-2); transform: translateY(-2px); }
+  .tool-card h2 { font-size: var(--fs-md); font-weight: 600; color: var(--ink-1); }
+  .tool-card p {
+    margin-top: var(--space-2);
+    font-size: var(--fs-sm);
+    color: var(--ink-3);
+    line-height: var(--lh-base);
+  }
+  .tool-card .more {
+    display: inline-block;
+    margin-top: var(--space-3);
+    font-size: var(--fs-xs);
+    font-weight: 500;
+    color: var(--ink-2);
+  }
+
+  @media (max-width: 1000px) { .tool-cards { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 620px) { .tool-cards { grid-template-columns: 1fr; } }
+</style>

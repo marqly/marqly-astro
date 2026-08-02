@@ -1,0 +1,119 @@
+---
+import { getCollection } from 'astro:content';
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import Breadcrumbs from '../../components/seo/Breadcrumbs.astro';
+import CtaBox from '../../components/seo/CtaBox.astro';
+import { competitors, getCompetitor } from '../../lib/competitors';
+import { breadcrumbList, itemList, organization, webSite } from '../../lib/schema';
+
+const verdictEntries = await getCollection('verdicts', ({ data }) => !data.draft);
+const thirdParty = verdictEntries
+  .map((v) => {
+    const a = getCompetitor(v.data.a);
+    const b = getCompetitor(v.data.b);
+    return a && b ? { slug: v.id, a, b } : null;
+  })
+  .filter((x): x is NonNullable<typeof x> => Boolean(x))
+  .sort((x, y) => x.slug.localeCompare(y.slug));
+
+const title = 'Compare Bookmark Managers & Read-It-Later Apps (2026)';
+const description =
+  'Side-by-side comparisons of bookmark managers, read-it-later apps, and web highlighters — features, pricing, and honest verdicts for 2026.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Compare', path: '/compare' },
+];
+const jsonLd = [
+  organization(),
+  webSite(),
+  breadcrumbList(crumbs),
+  itemList(
+    [
+      ...competitors.map((c) => `Marqly vs ${c.name}`),
+      ...thirdParty.map((p) => `${p.a.name} vs ${p.b.name}`),
+    ],
+    '/compare',
+  ),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  ogImage="https://www.marqly.com/og/seo/hub-compare.png"
+>
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs items={crumbs} />
+      <header class="head">
+        <h1>Compare the tools, honestly.</h1>
+        <p>
+          Feature-by-feature comparisons of every serious bookmark manager, read-it-later app,
+          and web highlighter — including the matchups that don't involve us. Every page shows
+          real pricing and where each tool genuinely wins.
+        </p>
+      </header>
+
+      <h2>Marqly vs …</h2>
+      <ul class="grid">
+        {competitors.map((c) => (
+          <li>
+            <a class="card" href={`/compare/marqly-vs-${c.slug}`}>
+              <h3>Marqly vs {c.name}</h3>
+              <p>{c.tagline}</p>
+            </a>
+          </li>
+        ))}
+      </ul>
+
+      {thirdParty.length > 0 && (
+        <>
+          <h2>Popular head-to-heads</h2>
+          <ul class="grid">
+            {thirdParty.map((p) => (
+              <li>
+                <a class="card" href={`/compare/${p.slug}`}>
+                  <h3>{p.a.name} vs {p.b.name}</h3>
+                  <p>Which fits your workflow — and what both miss.</p>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+
+      <CtaBox />
+    </div>
+  </section>
+</LandingLayout>
+
+<style>
+  .head { max-width: 60ch; margin-bottom: var(--space-12); }
+  .head h1 { font-size: var(--fs-3xl); font-weight: 600; letter-spacing: var(--tracking-tight); color: var(--ink-1); }
+  .head p { margin-top: var(--space-4); font-size: var(--fs-md); color: var(--ink-2); }
+  h2 { font-size: var(--fs-xl); font-weight: 600; color: var(--ink-1); margin: var(--space-10) 0 var(--space-5); }
+  .grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-4);
+  }
+  .card {
+    display: block;
+    height: 100%;
+    background: var(--surface-1);
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-md);
+    padding: var(--space-5);
+    transition: border-color var(--dur-base) var(--ease-out), transform var(--dur-fast) var(--ease-out);
+  }
+  .card:hover { border-color: var(--border-2); transform: translateY(-2px); }
+  .card h3 { font-size: var(--fs-md); font-weight: 600; color: var(--ink-1); }
+  .card p { margin-top: var(--space-2); font-size: var(--fs-sm); color: var(--ink-3); }
+  @media (max-width: 1000px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 620px) { .grid { grid-template-columns: 1fr; } }
+</style>

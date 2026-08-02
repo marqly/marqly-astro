@@ -74,7 +74,7 @@ A note on the table: "imports Pocket" means the tool accepts a standard Pocket e
 
 If Pocket's biggest weakness was that saving things was easy but *finding* them later was painful, Marqly is the direct answer. Its core feature is **semantic AI search**: you describe what you remember ("that article about sleep and cortisol") and it finds the save by meaning, even if you don't recall the title or the exact words. It also auto-tags everything you save, generates AI summaries, and can answer questions across your whole library.
 
-**Why Pocket users switch to it:** it imports your Pocket export — along with Raindrop and browser exports — and then makes the pile actually searchable. You get a clean distraction-free reader, auto-tagging that runs on import so you don't sort anything by hand, and AI summaries on long saves. It's the "upgrade Pocket never shipped." Available on web, iOS, and Chrome. For a deeper head-to-head, see [Pocket vs Marqly, compared](/blog/pocket-vs-marqly).
+**Why Pocket users switch to it:** it imports your Pocket export — along with Raindrop and browser exports — and then makes the pile actually searchable. You get a clean distraction-free reader, auto-tagging that runs on import so you don't sort anything by hand, and AI summaries on long saves. It's the "upgrade Pocket never shipped." Available on web, iOS, and Chrome. For a deeper head-to-head, see [Pocket vs Marqly, compared](/compare/marqly-vs-pocket).
 
 **Who it's best for:** anyone whose Pocket library quietly became a graveyard — hundreds of saves, none of them findable. If you save more than you ever re-read and you want to actually *retrieve* things, this is the one. It's a weaker fit if all you want is a bare-bones text reader with zero AI; Instapaper does that for less.
 
@@ -102,7 +102,7 @@ Reader, from the Readwise team, is the premium choice for serious readers. It ha
 
 The catch is price and complexity: at roughly **$10–12/month** with no permanent free tier, it's the most expensive option here, and it's built for heavy knowledge workers rather than casual savers.
 
-**Who it's best for:** researchers, students, and writers who highlight obsessively and want those highlights resurfaced over time. If you're choosing between Reader and an AI-search-first tool, the trade-off is depth of reading versus speed of retrieval — see [Readwise Reader vs Marqly](/blog/readwise-reader-vs-marqly) for the full breakdown. Skip Reader if you just want to save and find articles; it's more app than you need.
+**Who it's best for:** researchers, students, and writers who highlight obsessively and want those highlights resurfaced over time. If you're choosing between Reader and an AI-search-first tool, the trade-off is depth of reading versus speed of retrieval — see [Readwise Reader vs Marqly](/compare/marqly-vs-readwise-reader) for the full breakdown. Skip Reader if you just want to save and find articles; it's more app than you need.
 
 - **Pros:** Outstanding highlighting + review, AI features, handles every format.
 - **Cons:** No permanent free tier, premium price, steeper learning curve.

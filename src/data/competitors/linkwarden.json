@@ -1,0 +1,79 @@
+{
+  "name": "Linkwarden",
+  "slug": "linkwarden",
+  "aka": ["link-warden", "linkwarden-cloud"],
+  "category": "bookmark-manager",
+  "status": "active",
+  "shutdownNote": null,
+  "website": "https://linkwarden.app",
+  "tagline": "Open-source collaborative bookmark manager that archives everything you save",
+  "pricing": {
+    "free": true,
+    "paid": "Cloud: $3/month per user billed yearly (25% off) or $4/month billed monthly",
+    "trial": "14-day free trial of Cloud, cancel anytime",
+    "notes": "Self-hosting is free — Linkwarden is fully open source (AGPL-3.0) with all features included. The Cloud plan has no free tier beyond the trial and supports up to 30,000 links per user (expandable via support)."
+  },
+  "platforms": ["web", "ios", "android", "chrome", "firefox", "edge"],
+  "features": {
+    "aiAutoTagging": true,
+    "semanticSearch": false,
+    "aiSummaries": false,
+    "youtubeAi": false,
+    "chatWithSaves": false,
+    "highlights": true,
+    "annotationNotes": true,
+    "savePdf": true,
+    "fullTextSearch": true,
+    "tabSaver": false,
+    "publicSharing": true,
+    "importPocket": true,
+    "importBrowserHtml": true,
+    "offlineReading": true,
+    "iosApp": true,
+    "androidApp": true,
+    "browserExtension": true,
+    "freeTier": true,
+    "api": true,
+    "selfHosted": true
+  },
+  "pros": [
+    "Every saved link is preserved as a screenshot, PDF, and readable copy — link rot can't touch your library",
+    "Fully open source (AGPL) with free self-hosting and feature parity with the paid cloud",
+    "Optional AI tagging, including support for local models, so auto-organization can stay private",
+    "Collaborative collections with permissions, plus public sharing via a link",
+    "Cheap cloud hosting at $3–4/month per user with a 14-day trial",
+    "Official iOS and Android apps (launched late 2025) with share-sheet saving and offline caching"
+  ],
+  "cons": [
+    "No free cloud tier — free means running your own server",
+    "Search is keyword/full-text only; no semantic search, summaries, or chat",
+    "Mobile apps are new and still catching up to the web experience",
+    "Built for collecting and preserving, not reading — no reader queue, text-to-speech, or reading progress"
+  ],
+  "bestFor": "Self-hosters, researchers, and teams who treat bookmarks as an archive — anyone who wants a permanent, searchable copy of every page they save.",
+  "verdict": "The best open-source answer to link rot; pick it for preservation and ownership rather than reading comfort or AI-powered recall.",
+  "overview": "Linkwarden is an open-source, self-hostable bookmark manager focused on preservation and collaboration. Every saved link is automatically archived as a screenshot, a PDF, and a readable text copy — and can be pushed to the Wayback Machine — so bookmarks keep working even after the original page changes or disappears. Links are organized into nested collections with tags, optional AI-generated tags (including via local models for privacy), highlights and annotations, and full-text search across archived content. Collections can be shared publicly or edited collaboratively with per-user permissions. The project is AGPL-3.0 licensed with all features available when self-hosting for free; the official Cloud service costs $3/month per user billed yearly (or $4 billed monthly) after a 14-day trial and supports up to 30,000 links per user. Browser extensions cover Chrome, Firefox, and Edge, a REST API enables integrations, and official iOS and Android apps arrived in late 2025 with share-sheet saving and offline caching.",
+  "faqs": [
+    {
+      "q": "Is Linkwarden free?",
+      "a": "Yes, if you self-host: Linkwarden is fully open source under AGPL-3.0, and a self-hosted instance includes every feature at no cost beyond your server. The managed Cloud service has no permanent free tier — it costs $3/month per user billed yearly ($4 billed monthly) after a 14-day free trial."
+    },
+    {
+      "q": "Is Linkwarden still being developed?",
+      "a": "Yes, very actively. Linkwarden has grown into one of the most popular open-source bookmark managers, with a public GitHub repository (19k+ stars), frequent releases, and official iOS and Android apps launched in late 2025. Development is funded by the Cloud subscription, giving it a sustainable model that pure-donation projects often lack."
+    },
+    {
+      "q": "What is the best Linkwarden alternative?",
+      "a": "Among self-hosted tools, Wallabag is the reading-focused counterpart and Karakeep (formerly Hoarder) adds AI-heavier organization. For hosted apps, Raindrop.io offers a generous free tier, and Marqly is a strong option if finding saves matters more than archiving them — it auto-tags with AI and supports semantic search by meaning, plus highlights and YouTube summaries, though it is not self-hostable."
+    },
+    {
+      "q": "Does Linkwarden work on iPhone?",
+      "a": "Yes. Linkwarden shipped an official iOS app in late 2025 with collections, tags, search, share-sheet saving, and cached data for offline viewing; it works with both Linkwarden Cloud and self-hosted instances. The app is new and still gaining features, so the web app remains the most complete way to manage a large library."
+    },
+    {
+      "q": "Can I export my data from Linkwarden?",
+      "a": "Yes. Linkwarden exports your links as standard bookmark HTML or JSON from settings, and archived page copies (screenshots and PDFs) can be downloaded. A documented REST API allows full programmatic export. If you self-host, everything already lives in your own database and file storage, so portability is total by design."
+    }
+  ],
+  "lastVerified": "2026-08-02"
+}

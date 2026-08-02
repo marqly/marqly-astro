@@ -1,0 +1,296 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import ToolShell from '../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, organization, webSite } from '../../lib/schema';
+
+const title = 'Pocket Export Converter — CSV to Bookmarks HTML or JSON';
+const description =
+  'Convert your saved Pocket export CSV to a bookmarks HTML file or JSON — free, in your browser. Pocket shut down in 2025; your saved file still works here.';
+
+const faqs = [
+  {
+    q: 'Can I still export my data from Pocket?',
+    a: 'No. Pocket shut down in July 2025 and the export page stopped working on October 8, 2025. This tool is for people who downloaded their export while it was available. If you have the ZIP Pocket emailed or served you, your saves are in there as CSV — unzip it and you are fine.',
+  },
+  {
+    q: 'What exactly is in the Pocket CSV?',
+    a: 'One row per save with five columns: title, url, time_added (a Unix timestamp), tags (separated by | pipes), and status (unread or archive). No article text, images, or highlights — Pocket exports were always just the link list plus that metadata. This tool preserves all five fields in the JSON output.',
+  },
+  {
+    q: 'Does the bookmarks HTML keep my tags and read status?',
+    a: 'Tags yes — they are written into the TAGS attribute, which Firefox reads on import (Chrome ignores it but keeps the links). Read status no: the bookmarks format has no concept of unread versus archived, so everything imports as a plain bookmark. Use the JSON download if the status matters to you.',
+  },
+  {
+    q: 'Do I even need to convert it for Marqly?',
+    a: 'No — Marqly imports the Pocket file directly, no conversion step. Every save gets AI tags and a summary on import, and semantic search works across all of it. The converter here is for everything else: browsers, and any app that only speaks bookmarks HTML or JSON.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: 'Free tools', path: '/tools' },
+    { name: 'Pocket export converter', path: '/tools/pocket-export-converter' },
+  ]),
+  faqPage(faqs),
+];
+---
+
+<LandingLayout title={title} description={description} jsonLd={jsonLd} ogImage="https://www.marqly.com/og/seo/tool-pocket-export-converter.png">
+  <ToolShell
+    name="Pocket export converter"
+    heading="Convert your Pocket export"
+    sub="Turn Pocket's CSV into a bookmarks HTML file any browser can import, or into clean JSON. Unzip your Pocket export first — the CSV is inside."
+    faqs={faqs}
+    ctaHeading="Skip the conversion entirely"
+    ctaSub="Marqly imports your Pocket file directly and AI tags and summarizes every save — the closest thing to getting Pocket back, plus search that actually finds things."
+  >
+    <div class="tool-row">
+      <div class="grow">
+        <label for="pc-file">Pocket CSV file (unzip the export first)</label>
+        <input id="pc-file" type="file" accept=".csv" />
+      </div>
+    </div>
+    <p class="tool-status" id="pc-status" role="status"></p>
+    <div class="tool-actions hidden" id="pc-actions">
+      <button class="btn btn--primary btn--sm" id="pc-html" type="button">Download bookmarks HTML</button>
+      <button class="btn btn--outline btn--sm" id="pc-json" type="button">Download JSON</button>
+    </div>
+    <div class="hidden" id="pc-table-wrap" style="overflow-x: auto;">
+      <table class="tool-table">
+        <thead>
+          <tr><th>Title</th><th>URL</th><th>Added</th><th>Tags</th><th>Status</th></tr>
+        </thead>
+        <tbody id="pc-tbody"></tbody>
+      </table>
+    </div>
+
+    <Fragment slot="content">
+      <h2>What's inside a Pocket export</h2>
+      <p>
+        Pocket's final export format was a ZIP archive containing one or more CSV files (large
+        libraries were split into parts). Each row is one save with five columns:
+        <code>title</code>, <code>url</code>, <code>time_added</code> (a Unix timestamp),
+        <code>tags</code> (pipe-separated), and <code>status</code> (<code>unread</code> or
+        <code>archive</code>). That's the whole inheritance — no article text, no images, no
+        highlights. The full anatomy is in
+        <a href="/blog/what-is-in-your-pocket-export-file">what's in your Pocket export file</a>.
+      </p>
+      <p>
+        <strong>Unzip before uploading.</strong> This tool reads the CSV, not the ZIP. If your
+        export came in parts, convert each CSV separately.
+      </p>
+
+      <h2>An honest note about timing</h2>
+      <p>
+        Pocket shut down in July 2025, and the export endpoint itself went dark on
+        <strong>October 8, 2025</strong>. There is no way to generate a new export today — this
+        page exists for the people who grabbed their file in time and still have it sitting in
+        Downloads. If that's you, the file is fully usable: every URL, tag, and save date is
+        intact, and converting it takes seconds. The broader migration options are covered in
+        <a href="/blog/how-to-export-migrate-pocket-data">how to export and migrate your Pocket
+        data</a>.
+      </p>
+
+      <h2>What each download gives you</h2>
+      <ul>
+        <li>
+          <strong>Bookmarks HTML</strong> — the standard Netscape format every browser imports.
+          Save dates are preserved via <code>ADD_DATE</code>, and your Pocket tags are written to
+          the <code>TAGS</code> attribute (Firefox imports those; Chrome ignores the attribute but
+          keeps the links). The list is flat — Pocket had tags, not folders, so there is no tree to
+          lose.
+        </li>
+        <li>
+          <strong>JSON</strong> — every field preserved exactly, including <code>status</code>,
+          which the bookmarks format can't represent. The right choice if you're scripting a
+          migration or want a lossless archival copy alongside the CSV.
+        </li>
+      </ul>
+
+      <h2>Where to point the file next</h2>
+      <p>
+        Any browser will swallow the bookmarks HTML — but a browser's bookmark manager is a
+        downgrade from what Pocket did. <a href="https://app.marqly.com">Marqly</a> imports the
+        Pocket file directly (no conversion needed), AI-tags and summarizes every save on the way
+        in, and finds any of them later from a half-remembered description. Steps are in
+        <a href="/faq/how-do-i-import-from-pocket">how do I import from Pocket</a>, and the full
+        comparison lives at <a href="/alternatives/pocket">Pocket alternatives</a>.
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  type PocketItem = {
+    title: string;
+    url: string;
+    time_added: number | null;
+    tags: string[];
+    status: string;
+  };
+
+  const fileInput = document.getElementById('pc-file') as HTMLInputElement;
+  const status = document.getElementById('pc-status')!;
+  const actions = document.getElementById('pc-actions')!;
+  const tableWrap = document.getElementById('pc-table-wrap')!;
+  const tbody = document.getElementById('pc-tbody')!;
+
+  const PREVIEW = 50;
+  let items: PocketItem[] = [];
+
+  /** Minimal RFC-4180-ish CSV parser: quoted fields, escaped quotes, CRLF. */
+  function parseCsv(text: string): string[][] {
+    const rows: string[][] = [];
+    let row: string[] = [];
+    let field = '';
+    let inQuotes = false;
+    for (let i = 0; i < text.length; i++) {
+      const c = text[i];
+      if (inQuotes) {
+        if (c === '"') {
+          if (text[i + 1] === '"') {
+            field += '"';
+            i++;
+          } else {
+            inQuotes = false;
+          }
+        } else {
+          field += c;
+        }
+      } else if (c === '"') {
+        inQuotes = true;
+      } else if (c === ',') {
+        row.push(field);
+        field = '';
+      } else if (c === '\n' || c === '\r') {
+        if (c === '\r' && text[i + 1] === '\n') i++;
+        row.push(field);
+        rows.push(row);
+        row = [];
+        field = '';
+      } else {
+        field += c;
+      }
+    }
+    if (field.length > 0 || row.length > 0) {
+      row.push(field);
+      rows.push(row);
+    }
+    return rows.filter((r) => !(r.length === 1 && r[0] === ''));
+  }
+
+  function toItems(rows: string[][]): PocketItem[] {
+    if (rows.length === 0) return [];
+    const header = rows[0].map((h) => h.trim().toLowerCase());
+    const col = (name: string) => header.indexOf(name);
+    const iTitle = col('title');
+    const iUrl = col('url');
+    const iAdded = col('time_added');
+    const iTags = col('tags');
+    const iStatus = col('status');
+    if (iUrl === -1) return [];
+    return rows
+      .slice(1)
+      .map((r) => {
+        const rawAdded = iAdded !== -1 ? Number.parseInt(r[iAdded] ?? '', 10) : NaN;
+        const rawTags = iTags !== -1 ? (r[iTags] ?? '') : '';
+        return {
+          title: (iTitle !== -1 ? r[iTitle] : '')?.trim() || '(untitled)',
+          url: (r[iUrl] ?? '').trim(),
+          time_added: Number.isFinite(rawAdded) ? rawAdded : null,
+          tags: rawTags.split('|').map((t) => t.trim()).filter(Boolean),
+          status: (iStatus !== -1 ? (r[iStatus] ?? '') : '').trim(),
+        };
+      })
+      .filter((it) => /^https?:/i.test(it.url));
+  }
+
+  const fmtDate = (unix: number | null) => {
+    if (unix === null) return '';
+    const d = new Date(unix * 1000);
+    return Number.isNaN(d.getTime()) ? '' : d.toISOString().slice(0, 10);
+  };
+
+  fileInput.addEventListener('change', async () => {
+    const file = fileInput.files?.[0];
+    if (!file) return;
+    status.classList.remove('is-error');
+    try {
+      items = toItems(parseCsv(await file.text()));
+    } catch {
+      status.textContent = 'Could not read that file.';
+      status.classList.add('is-error');
+      return;
+    }
+    if (items.length === 0) {
+      status.textContent =
+        'No saves found. Make sure this is the CSV from inside your Pocket export ZIP (columns: title, url, time_added, tags, status).';
+      status.classList.add('is-error');
+      tableWrap.classList.add('hidden');
+      actions.classList.add('hidden');
+      return;
+    }
+
+    tbody.textContent = '';
+    for (const it of items.slice(0, PREVIEW)) {
+      const tr = document.createElement('tr');
+      const tdTitle = document.createElement('td');
+      tdTitle.textContent = it.title.length > 60 ? `${it.title.slice(0, 57)}…` : it.title;
+      const tdUrl = document.createElement('td');
+      tdUrl.textContent = it.url.length > 70 ? `${it.url.slice(0, 67)}…` : it.url;
+      const tdAdded = document.createElement('td');
+      tdAdded.textContent = fmtDate(it.time_added);
+      const tdTags = document.createElement('td');
+      tdTags.textContent = it.tags.join(', ');
+      const tdStatus = document.createElement('td');
+      tdStatus.textContent = it.status;
+      tr.append(tdTitle, tdUrl, tdAdded, tdTags, tdStatus);
+      tbody.appendChild(tr);
+    }
+    status.textContent =
+      items.length > PREVIEW
+        ? `${items.length} saves parsed — previewing the first ${PREVIEW}. Downloads include everything.`
+        : `${items.length} saves parsed.`;
+    tableWrap.classList.remove('hidden');
+    actions.classList.remove('hidden');
+  });
+
+  function download(content: string, name: string, type: string) {
+    const blob = new Blob([content], { type });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = name;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  }
+
+  const esc = (s: string) =>
+    s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+  document.getElementById('pc-html')!.addEventListener('click', () => {
+    const lines = items.map((it) => {
+      const date = it.time_added !== null ? ` ADD_DATE="${it.time_added}"` : '';
+      const tags = it.tags.length > 0 ? ` TAGS="${esc(it.tags.join(','))}"` : '';
+      return `    <DT><A HREF="${esc(it.url)}"${date}${tags}>${esc(it.title)}</A>`;
+    });
+    const html = [
+      '<!DOCTYPE NETSCAPE-Bookmark-file-1>',
+      '<!-- Converted from a Pocket CSV export by marqly.com/tools/pocket-export-converter -->',
+      '<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">',
+      '<TITLE>Pocket Bookmarks</TITLE>',
+      '<H1>Pocket Bookmarks</H1>',
+      '<DL><p>',
+      ...lines,
+      '</DL><p>',
+      '',
+    ].join('\n');
+    download(html, 'pocket-bookmarks.html', 'text/html');
+  });
+
+  document.getElementById('pc-json')!.addEventListener('click', () => {
+    download(JSON.stringify(items, null, 2), 'pocket-export.json', 'application/json');
+  });
+</script>

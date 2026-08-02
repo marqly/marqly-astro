@@ -1,0 +1,80 @@
+{
+  "name": "Evernote Web Clipper",
+  "slug": "evernote-web-clipper",
+  "aka": ["evernote", "evernote-clipper"],
+  "category": "notes",
+  "status": "active",
+  "shutdownNote": null,
+  "website": "https://evernote.com/features/webclipper",
+  "tagline": "Clip pages, articles, and screenshots straight into your Evernote notebooks",
+  "pricing": {
+    "free": true,
+    "paid": "Evernote Starter $14.99/mo or $99/yr; Advanced $24.99/mo or $249.99/yr",
+    "trial": null,
+    "notes": "The clipper extension is free, but it saves into Evernote — and Evernote's free plan is capped at 50 notes, 1 notebook, and 1 device, so sustained use effectively requires a paid plan. Prices have risen repeatedly under owner Bending Spoons."
+  },
+  "platforms": ["web", "chrome", "firefox", "safari", "edge", "ios", "android", "windows", "mac"],
+  "features": {
+    "aiAutoTagging": false,
+    "semanticSearch": true,
+    "aiSummaries": true,
+    "youtubeAi": false,
+    "chatWithSaves": true,
+    "highlights": false,
+    "annotationNotes": true,
+    "savePdf": true,
+    "fullTextSearch": true,
+    "tabSaver": false,
+    "publicSharing": true,
+    "importPocket": false,
+    "importBrowserHtml": false,
+    "offlineReading": true,
+    "iosApp": true,
+    "androidApp": true,
+    "browserExtension": true,
+    "freeTier": true,
+    "api": true,
+    "selfHosted": false
+  },
+  "pros": [
+    "Clipper works on all five major browsers — Chrome, Firefox, Safari, Edge, and Opera",
+    "Add tags, remarks, and a destination notebook right at clip time",
+    "Best-in-class search: OCR reads text inside images, and paid plans search inside PDFs and documents",
+    "Evernote v11 added real AI — an assistant that chats across your notes, semantic search, and AI meeting notes",
+    "Mature apps on web, Windows, Mac, iOS, and Android with offline notes on paid plans",
+    "Multiple capture modes: full page, simplified article, selection, bookmark, or annotated screenshot"
+  ],
+  "cons": [
+    "Free plan is effectively a demo — 50 notes, one notebook, one device",
+    "Expensive: the Advanced plan is $249.99/year, among the priciest in the category",
+    "No automatic tagging — clips still need manual filing",
+    "A heavyweight note platform is overkill if all you want is to save and find links",
+    "Cannot highlight text on live web pages — markup happens inside notes after clipping"
+  ],
+  "bestFor": "People already living in Evernote who want web content, PDFs, and screenshots searchable alongside their notes — and who are willing to pay for it.",
+  "verdict": "Still the most capable clipper-plus-backend combo for deep archives, but the crippled free plan and premium pricing make it hard to justify for bookmarking alone.",
+  "overview": "Evernote Web Clipper is the browser extension for Evernote, the long-running note app now owned by Bending Spoons. Available for Chrome, Firefox, Safari, Edge, and Opera, it clips full pages, simplified articles, selections, or annotated screenshots into your notebooks, with tags and remarks added at save time. The backend is where it earns its keep: Evernote's search reads text inside images and, on paid plans, inside PDFs and documents, and the v11 release in January 2026 added an AI assistant that chats across your notes, semantic search, and AI meeting notes. Apps cover web, Windows, Mac, iOS, and Android, with offline notebooks on paid plans and a public API. The catch is pricing: the free plan is capped at 50 notes, one notebook, and a single device, while paid plans run from $14.99 per month (Starter, $99/year) to $24.99 per month (Advanced, $249.99/year) — among the most expensive in the category.",
+  "faqs": [
+    {
+      "q": "Is Evernote Web Clipper free?",
+      "a": "The extension itself is free, but it clips into Evernote, where the free plan allows only 50 notes, one notebook, and one device — enough to test, not enough to live in. Real use means Starter at $14.99/month ($99/year) or Advanced at $24.99/month ($249.99/year) for unlimited notes, devices, and storage."
+    },
+    {
+      "q": "Is Evernote Web Clipper still maintained?",
+      "a": "Yes. The clipper receives regular updates across Chrome, Firefox, Safari, Edge, and Opera, and Evernote itself is under active development by Bending Spoons — version 11 shipped in January 2026 with an AI assistant, semantic search, and AI meeting notes. The trade-off of that investment has been repeated price increases and a much smaller free plan."
+    },
+    {
+      "q": "What is the best Evernote Web Clipper alternative?",
+      "a": "It depends on what you clip for. Obsidian Web Clipper is the best free, local-first option; Notion Web Clipper suits Notion users. If you mainly save links and articles to find later, Marqly is a strong choice — AI tags and summarizes every save automatically and semantic search retrieves them by meaning, at a fraction of Evernote's price."
+    },
+    {
+      "q": "Does Evernote Web Clipper work on iPhone?",
+      "a": "Not as an extension — the clipper is desktop-browser software. On iPhone you save through the Evernote iOS app's share sheet instead, which captures URLs and content into your notebooks. Note that the free plan's one-device limit means using Evernote on iPhone plus a desktop already requires a paid plan."
+    },
+    {
+      "q": "Can I export my data from Evernote?",
+      "a": "Yes. Evernote exports notes and notebooks as ENEX files — a widely supported format that Obsidian, Notion, and most note apps can import — as well as multi-note HTML and PDF. Clipped web pages export with their content intact. Export is available on every plan, including free, from the desktop apps."
+    }
+  ],
+  "lastVerified": "2026-08-02"
+}

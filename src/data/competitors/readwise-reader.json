@@ -1,0 +1,80 @@
+{
+  "name": "Readwise Reader",
+  "slug": "readwise-reader",
+  "aka": ["readwise", "reader"],
+  "category": "read-it-later",
+  "status": "active",
+  "shutdownNote": null,
+  "website": "https://readwise.io/read",
+  "tagline": "The power-reader app that folds articles, RSS, newsletters, PDFs, and highlights into one inbox",
+  "pricing": {
+    "free": false,
+    "paid": "$9.99/month billed annually ($119.88/year) or $12.99/month billed monthly (Full plan)",
+    "trial": "30-day free trial",
+    "notes": "No permanent free tier — after the 30-day trial you must subscribe. Reader is only included in the Full plan; the cheaper Lite plan ($5.59/month billed annually) covers classic Readwise highlight syncing without the Reader app."
+  },
+  "platforms": ["web", "ios", "android", "chrome", "firefox"],
+  "features": {
+    "aiAutoTagging": false,
+    "semanticSearch": false,
+    "aiSummaries": true,
+    "youtubeAi": true,
+    "chatWithSaves": true,
+    "highlights": true,
+    "annotationNotes": true,
+    "savePdf": false,
+    "fullTextSearch": true,
+    "tabSaver": false,
+    "publicSharing": false,
+    "importPocket": true,
+    "importBrowserHtml": false,
+    "offlineReading": true,
+    "iosApp": true,
+    "androidApp": true,
+    "browserExtension": true,
+    "freeTier": false,
+    "api": true,
+    "selfHosted": false
+  },
+  "pros": [
+    "Handles every content type in one inbox: articles, RSS, newsletters, PDFs, ePubs, YouTube videos, and Twitter threads",
+    "Ghostreader AI can summarize documents, define terms, and answer questions about what you're reading",
+    "YouTube videos get synced transcripts you can read, highlight, and query",
+    "Best-in-class highlight workflow with daily review and exports to Notion, Obsidian, and Roam",
+    "Keyboard-first design that power readers consistently rate as the fastest in the category",
+    "Documented API and active, well-funded development"
+  ],
+  "cons": [
+    "No free tier at all — $9.99+/month makes it one of the most expensive options in the category",
+    "Reader requires the Full plan, so you pay for Readwise highlight syncing whether you use it or not",
+    "Dense, feature-heavy UI with a real learning curve for casual readers",
+    "No public sharing of collections, and tagging is manual rather than automatic",
+    "Search is keyword-based rather than semantic"
+  ],
+  "bestFor": "Serious readers and note-takers who consume large volumes across articles, newsletters, PDFs, and video, and want highlights flowing into Notion or Obsidian.",
+  "verdict": "The most powerful reading tool on the market — worth the subscription for heavy readers, overkill and overpriced for casual bookmarking.",
+  "overview": "Readwise Reader is the read-it-later app from the team behind Readwise, the popular highlight-syncing service. Launched in public beta in 2022, Reader combines saved articles, RSS feeds, email newsletters, PDFs, ePubs, Twitter threads, and YouTube videos into a single triage-oriented inbox available on the web, iOS, Android, and via browser extensions. Its Ghostreader assistant uses AI to summarize documents, define terms, and answer questions against the text, and YouTube videos come with synced transcripts you can highlight like an article. Everything feeds the core Readwise loop: highlights and notes sync to Notion, Obsidian, Evernote, and other tools, with spaced-repetition review built in. Reader is bundled exclusively with the Readwise Full plan at $9.99/month billed annually ($119.88/year) or $12.99/month billed monthly, after a 30-day free trial; there is no permanent free tier. A documented API and active development round out a distinctly power-user product.",
+  "faqs": [
+    {
+      "q": "Is Readwise Reader free?",
+      "a": "No. Readwise Reader has a 30-day free trial but no permanent free tier. It is included only in the Readwise Full plan at $9.99/month billed annually ($119.88/year) or $12.99/month billed monthly. The cheaper Lite plan ($5.59/month billed annually) covers only classic Readwise highlight syncing and does not include the Reader app."
+    },
+    {
+      "q": "Is Readwise Reader still being developed?",
+      "a": "Yes, very actively. Reader left beta and has become the flagship product of the Readwise team, with frequent updates across web, iOS, and Android. The company is bootstrapped and profitable on subscriptions, which makes a Pocket- or Omnivore-style shutdown less likely — though it also means there is no free plan subsidizing casual users."
+    },
+    {
+      "q": "What is the best Readwise Reader alternative?",
+      "a": "If the $119.88/year price is the issue, Instapaper offers a solid free tier for pure reading, and Wallabag is free if you self-host. Marqly is a strong option if you want the AI parts — automatic tagging, summaries, semantic search, and YouTube transcripts with chat — with a free tier and a $48/year Pro that undercuts Reader substantially. Matter suits listening-focused iOS readers."
+    },
+    {
+      "q": "Does Readwise Reader work on iPhone?",
+      "a": "Yes. Reader has a full-featured native iOS app with offline reading, text-to-speech, highlighting, and share-sheet saving, and it syncs with the web app, Android app, and browser extension. The app is free to download, but you need an active Readwise Full subscription (or trial) to use it — there is no free tier."
+    },
+    {
+      "q": "Can I export my data from Readwise Reader?",
+      "a": "Yes. Readwise is built around data portability: highlights and notes export continuously to Notion, Obsidian, Evernote, Roam, and Markdown files, and your document list can be exported as CSV. A documented public API provides programmatic access to everything. If you cancel, you can take your library and annotations with you in open formats."
+    }
+  ],
+  "lastVerified": "2026-08-02"
+}

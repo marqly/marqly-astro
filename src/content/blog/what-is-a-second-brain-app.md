@@ -78,7 +78,7 @@ Think of it as two genuinely different products solving the same problem from op
 - **Heavy PKM** (Notion, Obsidian) is a *note-taking-first* system. You build the knowledge yourself — typing notes, linking pages, designing databases or a graph of backlinks. The payoff is total control and deep synthesis. The cost is that *you* are the organizing engine, forever.
 - **Lightweight, save-the-web** (an AI bookmark manager) is a *capture-first* system. You save what you read and let AI tag and index it. The payoff is near-zero maintenance and instant recall. The cost is that it's built around saved material, not long-form original writing.
 
-Neither is "better" in the abstract — they're tuned for different people. But most people who say they want a second brain don't actually want to maintain a knowledge base. They want to stop losing things they've read. For that goal, the lightweight path wins almost every time. If you're weighing the two directly, [Obsidian vs. an AI bookmark manager](/blog/obsidian-vs-marqly) lays out the trade-off in detail.
+Neither is "better" in the abstract — they're tuned for different people. But most people who say they want a second brain don't actually want to maintain a knowledge base. They want to stop losing things they've read. For that goal, the lightweight path wins almost every time. If you're weighing the two directly, [Obsidian vs. an AI bookmark manager](/compare/marqly-vs-obsidian-web-clipper) lays out the trade-off in detail.
 
 Here's the contrast at a glance:
 

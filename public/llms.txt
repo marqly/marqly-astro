@@ -31,13 +31,34 @@ Key facts:
 
 ## Comparisons
 
-- [Pocket vs Marqly](https://www.marqly.com/blog/pocket-vs-marqly)
-- [Raindrop.io vs Marqly](https://www.marqly.com/blog/raindrop-vs-marqly)
-- [Readwise Reader vs Marqly](https://www.marqly.com/blog/readwise-reader-vs-marqly)
-- [Obsidian vs Marqly](https://www.marqly.com/blog/obsidian-vs-marqly)
+- [Compare hub](https://www.marqly.com/compare): Marqly vs every major bookmark manager, plus third-party head-to-heads — feature tables use verified pricing/features
+- [Marqly vs Pocket](https://www.marqly.com/compare/marqly-vs-pocket)
+- [Marqly vs Raindrop.io](https://www.marqly.com/compare/marqly-vs-raindrop)
+- [Marqly vs Readwise Reader](https://www.marqly.com/compare/marqly-vs-readwise-reader)
+- [Marqly vs Instapaper](https://www.marqly.com/compare/marqly-vs-instapaper)
 - [Best Pocket alternatives 2026](https://www.marqly.com/blog/best-pocket-alternatives-2026)
+
+## Alternatives guides
+
+- [Alternatives hub](https://www.marqly.com/alternatives): ranked alternatives for every major tool, including shut-down ones (Pocket, Omnivore)
+- [Pocket alternatives](https://www.marqly.com/alternatives/pocket) · [Raindrop alternatives](https://www.marqly.com/alternatives/raindrop) · [Instapaper alternatives](https://www.marqly.com/alternatives/instapaper) · [Readwise Reader alternatives](https://www.marqly.com/alternatives/readwise-reader)
+
+## FAQ (every question is a full page)
+
+- [FAQ hub](https://www.marqly.com/faq): 60 answered questions across pricing, features, imports, privacy
+- Key answers: [Is Marqly free?](https://www.marqly.com/faq/is-marqly-free) · [What is an AI bookmark manager?](https://www.marqly.com/faq/what-is-an-ai-bookmark-manager) · [What is semantic search?](https://www.marqly.com/faq/what-is-semantic-search) · [Is Marqly a Pocket replacement?](https://www.marqly.com/faq/is-marqly-a-pocket-replacement)
+
+## Free tools (no signup)
+
+- [Tools hub](https://www.marqly.com/tools)
+- [YouTube transcript viewer](https://www.marqly.com/tools/youtube-transcript) · [YouTube summarizer](https://www.marqly.com/tools/youtube-summarize) · [Bookmark file viewer](https://www.marqly.com/tools/bookmark-file-viewer) · [Duplicate bookmark finder](https://www.marqly.com/tools/duplicate-bookmark-finder) · [Pocket export converter](https://www.marqly.com/tools/pocket-export-converter) · [Dead link checker](https://www.marqly.com/tools/dead-link-checker) · [URL cleaner](https://www.marqly.com/tools/url-cleaner) · [Reading time calculator](https://www.marqly.com/tools/reading-time)
+
+## Use cases
+
+- Personas: [students](https://www.marqly.com/for-students) · [researchers](https://www.marqly.com/for-researchers) · [developers](https://www.marqly.com/for-developers) · [writers](https://www.marqly.com/for-writers) · [teachers](https://www.marqly.com/for-teachers) — and more under the same /for-* pattern
+- Jobs: [read it later](https://www.marqly.com/read-it-later) · [web highlighter](https://www.marqly.com/web-highlighter) · [YouTube summarizer](https://www.marqly.com/youtube-summarizer) · [second brain](https://www.marqly.com/second-brain) · [bookmark sync](https://www.marqly.com/bookmark-sync)
 
 ## Optional
 
-- [Blog index](https://www.marqly.com/blog): all guides and comparisons
+- [Blog index](https://www.marqly.com/blog): all guides, reviews, and comparisons
 - [Terms](https://www.marqly.com/terms) · [Privacy](https://www.marqly.com/privacypolicy)

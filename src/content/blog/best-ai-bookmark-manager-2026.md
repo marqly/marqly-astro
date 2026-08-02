@@ -102,10 +102,10 @@ Marqly is built around the query layer first. Save anything from web, iOS, or Ch
 "No organizing, ever." mymind auto-tags and surfaces everything in a beautiful, calm, visual canvas — closer to a moodboard than a reading queue. Its retrieval leans on tags and visual recall more than true paraphrase search, and there's no free tier (~$8/mo). Excellent for designers and visual thinkers collecting images and inspiration; less suited to people whose saves are mostly long-form articles they need to find by argument.
 
 ### Readwise Reader — best for serious highlighters
-Reader layers AI features (including chat over your documents) onto a best-in-class reading, highlighting, and spaced-repetition stack. It's the power tool for heavy knowledge workers who annotate everything and want highlights flowing back into Readwise. The premium price (~$12/mo) and depth are aimed at that crowd; if you mostly want fast retrieval rather than a full reading workflow, it's more app than you need. See how it stacks up in our [Readwise Reader vs Marqly](/blog/readwise-reader-vs-marqly) comparison.
+Reader layers AI features (including chat over your documents) onto a best-in-class reading, highlighting, and spaced-repetition stack. It's the power tool for heavy knowledge workers who annotate everything and want highlights flowing back into Readwise. The premium price (~$12/mo) and depth are aimed at that crowd; if you mostly want fast retrieval rather than a full reading workflow, it's more app than you need. See how it stacks up in our [Readwise Reader vs Marqly](/compare/marqly-vs-readwise-reader) comparison.
 
 ### Raindrop.io — best free, all-media library
-Raindrop is polished, saves every media type, and has one of the most generous free plans in the category. But its search is keyword-based, not semantic — so it's a superb *bookmark manager* and not yet a true *AI* one. If you've outgrown its search but love its library, our [Raindrop vs Marqly](/blog/raindrop-vs-marqly) breakdown covers exactly where each one wins, and Marqly imports your Raindrop collections directly.
+Raindrop is polished, saves every media type, and has one of the most generous free plans in the category. But its search is keyword-based, not semantic — so it's a superb *bookmark manager* and not yet a true *AI* one. If you've outgrown its search but love its library, our [Raindrop vs Marqly](/compare/marqly-vs-raindrop) breakdown covers exactly where each one wins, and Marqly imports your Raindrop collections directly.
 
 ### Matter — best for listening to your saves
 Matter pairs a clean reader with high-quality text-to-speech and some AI features, so you can listen to your backlog on a walk or commute. If audio is how you get through long reads, it's the standout. Its meaning-search is partial, so treat it as a listening-first reader rather than a retrieval-first knowledge base.
@@ -118,7 +118,7 @@ Match the tool to the job, not the marketing. Pick by your **primary** use — w
 2. **You're building a long-term knowledge base / second brain** → Marqly, for the same reason — it's designed to be [searched like a brain](/blog/what-is-a-second-brain-app), not just stored.
 3. **You collect images, design inspiration, and visual references** → mymind. Its visual canvas and zero-organizing philosophy fit moodboard work better than article retrieval.
 4. **You're a heavy reader-highlighter who annotates everything** → Readwise Reader, especially if you already live in the Readwise ecosystem.
-5. **You want a free, beautiful library and don't need meaning search yet** → Raindrop.io. Just know you'll [feel the search ceiling](/blog/raindrop-vs-marqly) as the library grows.
+5. **You want a free, beautiful library and don't need meaning search yet** → Raindrop.io. Just know you'll [feel the search ceiling](/compare/marqly-vs-raindrop) as the library grows.
 6. **You'd rather listen than read** → Matter, for its text-to-speech.
 7. **You're leaving Pocket and want a soft landing** → start with our [best Pocket alternatives](/blog/best-pocket-alternatives-2026) roundup; Marqly imports Pocket exports directly and adds the meaning search Pocket never had.
 

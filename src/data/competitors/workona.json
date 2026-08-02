@@ -1,0 +1,91 @@
+{
+  "name": "Workona",
+  "slug": "workona",
+  "aka": [
+    "workona-spaces",
+    "workona-tab-manager",
+    "tab-manager-by-workona",
+    "workona-project-organizer"
+  ],
+  "category": "tab-manager",
+  "status": "active",
+  "shutdownNote": null,
+  "website": "https://workona.com",
+  "tagline": "Project workspaces for your browser — tabs, docs, notes, and tasks per space",
+  "pricing": {
+    "free": true,
+    "paid": "Pro from $7/month billed annually ($84/yr); Team from $8/user/month billed annually, 3-user minimum",
+    "trial": null,
+    "notes": "Free plan is capped at 5 spaces (cut from 10 in late 2024). Monthly-billing rates aren't displayed on the pricing page (third parties report $9/mo Pro) and no trial length is published. 50% discount for verified nonprofit and education users."
+  },
+  "platforms": [
+    "web",
+    "chrome",
+    "edge",
+    "firefox",
+    "ios"
+  ],
+  "features": {
+    "aiAutoTagging": false,
+    "semanticSearch": false,
+    "aiSummaries": false,
+    "youtubeAi": false,
+    "chatWithSaves": false,
+    "highlights": false,
+    "annotationNotes": true,
+    "savePdf": false,
+    "fullTextSearch": false,
+    "tabSaver": true,
+    "publicSharing": true,
+    "importPocket": false,
+    "importBrowserHtml": false,
+    "offlineReading": false,
+    "iosApp": true,
+    "androidApp": false,
+    "browserExtension": true,
+    "freeTier": true,
+    "api": false,
+    "selfHosted": false
+  },
+  "pros": [
+    "True workspace model: each space bundles open tabs, saved links, cloud files, notes, and tasks for one project, with instant context switching",
+    "Automatic session saving with cloud backups — hourly snapshots and 90-day session history on paid plans mean a crash never loses a window",
+    "Real cross-device sync, including native iPhone and iPad apps that can show the tabs open on your desktop",
+    "Team collaboration is genuinely built in: shared spaces, real-time editing, templates, and SSO/SCIM at the enterprise tier",
+    "Integrates with Google Drive, Slack, and task apps so cloud docs live alongside tabs",
+    "Well regarded — 4.6 stars on the Chrome Web Store and Chrome's Favorite Tab Manager of 2022"
+  ],
+  "cons": [
+    "The free plan was cut from 10 spaces to 5 in late 2024, turning it into more of a trial funnel — and the retroactive change stung existing users",
+    "Requires an account with everything in Workona's cloud: no offline mode and a non-starter for local-first users",
+    "The Chrome extension hasn't shipped an update since January 2025, and 2026 reviews report crashes, hangs, and occasional failed tab recovery",
+    "Heavier and more complex than a simple tab parker, with noticeable overhead at very large tab counts",
+    "No Android app, no Safari support, and no public API"
+  ],
+  "bestFor": "People and teams who juggle several projects at once and want each one's tabs, docs, notes, and tasks kept together and synced — not just parked.",
+  "verdict": "The most complete browser workspace manager, if you'll pay the subscription and live in its cloud.",
+  "overview": "Workona is a workspace manager that organizes browser work into spaces — each bundling open tabs, saved links, cloud files, notes, and tasks for a single project. Founded in 2017 by Lucid Software alumni Quinn Morgan and Alma Madsen and launched publicly in 2018, the San Mateo company raised about $6 million in seed funding and now reports more than 200,000 Chrome extension users. Sessions save automatically with cloud backups, so a crash never loses a window, and spaces sync across devices, including native iPhone and iPad apps that can display the tabs open on your desktop. Collaboration is built in: spaces can be shared and edited with teammates in real time, with templates for repeatable setups and SSO and SCIM controls at the enterprise tier. Extensions cover Chrome, Edge, and Firefox; there is no Safari or Android support. The free plan is capped at five spaces; Pro starts at $7 a month billed annually, and Team starts at $8 per user per month with a three-user minimum.",
+  "faqs": [
+    {
+      "q": "Is Workona free?",
+      "a": "There's a free-forever plan, but it's capped at 5 spaces — cut from 10 in late 2024 — plus a space-complexity limit, so heavier users outgrow it quickly. Pro starts at $7/month billed annually (about $84/year; monthly billing runs higher), and Team starts at $8 per user per month with a three-user minimum. Nonprofits and education users get 50% off."
+    },
+    {
+      "q": "Is Workona still maintained?",
+      "a": "The company is active — the web app keeps shipping updates, support and sales respond, and the status page shows solid uptime. One caveat: the Chrome extension itself hasn't been updated since January 2025, and some 2026 reviews mention crashes and hangs. Most of Workona's logic lives in the server-side web app, which explains but doesn't fully excuse the gap."
+    },
+    {
+      "q": "What is the best Workona alternative?",
+      "a": "For team-oriented visual tab collections, Toby is the closest rival; for a free, zero-setup tab parker, OneTab wins on simplicity. If what you're really saving is research you'll need to find again, Marqly approaches it from the bookmark side — one-click save of all open tabs, then AI auto-tagging and semantic search — rather than Workona's live-workspace model."
+    },
+    {
+      "q": "Does Workona work on iPhone?",
+      "a": "Yes. Workona has a native iPhone and iPad app ('Workona - Project organizer') that syncs your spaces and saved resources and can even show tabs currently open in your desktop browser. It's a companion rather than a full client — notes and tasks aren't available in the mobile app yet — but it's a real app, which most tab managers can't claim."
+    },
+    {
+      "q": "Can I export my data from Workona?",
+      "a": "Yes, with friction. Account settings include a 'Download my data' option that exports your spaces and resources as a data file. The format isn't officially documented and isn't browser-importable bookmark HTML — community scripts exist specifically to convert Workona exports into a format browsers accept. There's no public API, so automated ongoing export isn't an option."
+    }
+  ],
+  "lastVerified": "2026-08-02"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Glasp",
+  "slug": "glasp",
+  "aka": [
+    "glasp-highlighter",
+    "glasp-extension",
+    "glasp-co",
+    "youtube-summary-with-chatgpt"
+  ],
+  "category": "highlighter",
+  "status": "active",
+  "shutdownNote": null,
+  "website": "https://glasp.co",
+  "tagline": "Social highlighter that turns your reading into a public knowledge profile",
+  "pricing": {
+    "free": true,
+    "paid": "Pro $15/month or $150/year; Unlimited $36/month or $360/year",
+    "trial": null,
+    "notes": "Free plan includes unlimited public highlights only — private highlights require Pro. Free AI caps are tight (3 YouTube summaries/day, 20 PDF chat messages/month). Prices rose ~20-25% in May 2026; subscriptions are non-refundable. Student discount on Pro yearly with an academic email."
+  },
+  "platforms": [
+    "web",
+    "chrome",
+    "edge",
+    "firefox",
+    "safari",
+    "ios",
+    "android"
+  ],
+  "features": {
+    "aiAutoTagging": true,
+    "semanticSearch": false,
+    "aiSummaries": true,
+    "youtubeAi": true,
+    "chatWithSaves": true,
+    "highlights": true,
+    "annotationNotes": true,
+    "savePdf": true,
+    "fullTextSearch": false,
+    "tabSaver": false,
+    "publicSharing": true,
+    "importPocket": true,
+    "importBrowserHtml": false,
+    "offlineReading": false,
+    "iosApp": true,
+    "androidApp": true,
+    "browserExtension": true,
+    "freeTier": true,
+    "api": true,
+    "selfHosted": false
+  },
+  "pros": [
+    "The social layer is genuinely unique — public profiles and a community feed let you learn from what others highlight",
+    "Core highlighting is free and unlimited; only privacy and AI features sit behind the paywall",
+    "Best-in-class YouTube AI — Glasp makes the hugely popular YouTube Summary extension, with transcripts and channel tracking",
+    "Broadest platform coverage in the highlighter niche: Chrome, Safari, Edge, Firefox, iOS, Android, and a mobile Safari extension",
+    "Excellent export and integrations: Markdown, CSV, HTML, and JSON, plus Notion auto-sync, an Obsidian plugin, Readwise, and a developer API with MCP connector",
+    "Dedicated Kindle highlight import and export"
+  ],
+  "cons": [
+    "Free highlights are public by default — keeping highlights private requires Pro at $150/year",
+    "Free AI limits are tight: 3 YouTube summaries a day and 20 PDF chat messages a month",
+    "Prices rose about 20-25% in May 2026, the Unlimited tier is expensive, and subscriptions are explicitly non-refundable",
+    "No full-page archiving, full-text search, or offline mode — it's a highlight layer, not an archive",
+    "Two-person team, which is a real support and longevity risk"
+  ],
+  "bestFor": "Learners who want to highlight in public — building a shareable knowledge profile and discovering what smart people underline — with strong YouTube AI on the side.",
+  "verdict": "The clear pick if the social angle appeals; think twice if your highlights need to stay private on a budget.",
+  "overview": "Glasp is a social web highlighter founded in San Francisco in 2021 by Kazuki Nakayashiki and Kei Watanabe. Its extension highlights text on web pages and PDFs, attaches notes, and — the distinctive part — publishes highlights to a public profile where a community feed lets people learn from each other's reading. The company also makes the popular YouTube Summary extension, and paid plans add advanced YouTube summaries, channel tracking, PDF chat, audio transcription, and an AI clone that answers questions from your highlights. AI-suggested tags help organize saves, and imports cover Pocket, Instapaper, Medium, Readwise, and Kindle. Exports are strong: Markdown, CSV, HTML, and JSON, plus Notion auto-sync, an Obsidian plugin, and a developer API with an MCP connector. Extensions ship for Chrome, Safari, Edge, and Firefox alongside iOS and Android apps rebuilt in 2026. Highlighting is free and unlimited but public; private highlights require Pro at $150 a year, with an Unlimited tier at $360.",
+  "faqs": [
+    {
+      "q": "Is Glasp free?",
+      "a": "Highlighting is free and unlimited — but public. The free plan also includes 3 basic YouTube summaries a day, 30 PDF uploads, and 20 PDF chat messages a month. Private highlights, advanced YouTube summaries, and Notion auto-sync require Pro at $15/month or $150/year; a heavier Unlimited tier runs $36/month or $360/year. Students get a discount on Pro yearly with an academic email."
+    },
+    {
+      "q": "Is Glasp still maintained?",
+      "a": "Yes, actively. In 2026 alone Glasp rebuilt its iOS and Android apps from the ground up, shipped AI auto-tag suggestions, and updated pricing — all documented on its official blog. The site claims over a million users. The caveat is team size: Glasp is run by its two co-founders, so support bandwidth and long-term velocity depend on a very small crew."
+    },
+    {
+      "q": "What is the best Glasp alternative?",
+      "a": "If you want private highlighting without a subscription, LINER and Weava both offer it in some form, with trade-offs. Marqly is a strong option when highlights are part of a bigger save-and-find workflow: six-color private highlights that persist on the page, plus AI auto-tagging, summaries, and semantic search across everything you save. Readwise Reader fits best for heavy read-it-later use."
+    },
+    {
+      "q": "Does Glasp work on iPhone?",
+      "a": "Yes, well. Glasp has a native iOS app — rebuilt in 2026 with a reader and widgets — plus a Safari extension that highlights inside mobile Safari, which almost no competitor offers. Everything syncs with the desktop extensions and web app. There's also an Android app, making Glasp one of the most mobile-complete highlighters available."
+    },
+    {
+      "q": "Can I export my data from Glasp?",
+      "a": "Yes — export is one of Glasp's strengths. Highlights and notes export as Markdown, CSV, HTML, or JSON, and integrations push them automatically to Notion (paid, daily sync), Obsidian via an official plugin, Readwise, Roam, and Logseq. Kindle highlights export as TXT, CSV, or Markdown. A developer API and MCP connector cover programmatic access."
+    }
+  ],
+  "lastVerified": "2026-08-02"
+}

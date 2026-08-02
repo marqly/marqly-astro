@@ -1,0 +1,80 @@
+{
+  "name": "Pinboard",
+  "slug": "pinboard",
+  "aka": ["pinboard-in"],
+  "category": "bookmark-manager",
+  "status": "active",
+  "shutdownNote": null,
+  "website": "https://pinboard.in",
+  "tagline": "Social bookmarking for introverts — fast, minimalist, paid",
+  "pricing": {
+    "free": false,
+    "paid": "$22/year, or $39/year with archiving and full-text search",
+    "trial": null,
+    "notes": "No free tier — Pinboard has been paid-only since 2009, which is how it has outlived its free competitors. The $39/year archival account stores a full copy of every page you bookmark and unlocks full-text search across those copies. Multi-year discounts available."
+  },
+  "platforms": ["web", "chrome", "firefox", "safari"],
+  "features": {
+    "aiAutoTagging": false,
+    "semanticSearch": false,
+    "aiSummaries": false,
+    "youtubeAi": false,
+    "chatWithSaves": false,
+    "highlights": false,
+    "annotationNotes": true,
+    "savePdf": false,
+    "fullTextSearch": true,
+    "tabSaver": true,
+    "publicSharing": true,
+    "importPocket": true,
+    "importBrowserHtml": true,
+    "offlineReading": false,
+    "iosApp": false,
+    "androidApp": false,
+    "browserExtension": true,
+    "freeTier": false,
+    "api": true,
+    "selfHosted": false
+  },
+  "pros": [
+    "Seventeen years of uninterrupted service — one of the web's oldest independent subscription products",
+    "Archival accounts store a full copy of every bookmarked page and flag dead links, defeating link rot",
+    "Famously solid, well-documented API with a rich ecosystem of third-party apps",
+    "Fast, text-dense interface with tags, privacy controls, and saved tab sets",
+    "Cheap at $22/year, with no ads, tracking, or investors",
+    "Easy in and out: imports browser HTML, Pocket, and Instapaper files; exports HTML, JSON, and XML anytime"
+  ],
+  "cons": [
+    "No free tier, and zero AI — no auto-tagging, summaries, or semantic search",
+    "Deliberately spartan 2009-era interface that has barely changed",
+    "No official mobile apps; iPhone and Android access relies on third-party clients",
+    "One-person operation with famously slow maintenance — official extensions date to 2021, and outages draw public complaints",
+    "Full-text search requires the pricier $39/year archival account"
+  ],
+  "bestFor": "Text-oriented power users who want fast, durable, no-frills bookmarking with an API, and who value longevity over modern features.",
+  "verdict": "Still the most dependable minimalist bookmarking service money can buy — if you can live without AI, apps, and a modern interface.",
+  "overview": "Pinboard is a deliberately minimalist bookmarking service run by one person, Maciej Ceglowski, since 2009 — \"social bookmarking for introverts.\" For $22 a year you get fast, text-dense bookmarking with tags, descriptions, privacy controls, and saved tab sets; a $39-a-year archival account additionally crawls and stores a full copy of every page you save, enables full-text search across those copies, and flags dead links. There are no AI features, no highlighting, and no official mobile apps — a stable, well-documented API fills that gap, powering third-party clients like Pins and Pinkt. Imports cover browser bookmark HTML exports plus legacy Pocket, Instapaper, and Delicious files, and exports are always available in HTML, JSON, or XML. The service still runs and accepts signups, but development is famously slow: the official browser extensions date to 2021 and the blog can go years between posts. It remains one of the web's oldest independent subscription products.",
+  "faqs": [
+    {
+      "q": "Is Pinboard free?",
+      "a": "No. Pinboard has been paid-only since launch in 2009: a standard account costs $22 per year, and an archival account — which stores full copies of every page you bookmark and enables full-text search — costs $39 per year. The paid-only model is deliberate, and it is why Pinboard outlived free rivals like Delicious."
+    },
+    {
+      "q": "Is Pinboard still maintained?",
+      "a": "It is running and accepting signups as of 2026, but maintenance is minimal. It is a one-person operation with a documented pattern of slow upkeep: the official browser extensions were last updated in 2021, the blog went over four years between posts, and periodic outages draw public complaints. The core service, API, and exports keep working."
+    },
+    {
+      "q": "What is the best Pinboard alternative?",
+      "a": "Raindrop.io is the mainstream pick — modern interface, free tier, apps everywhere. Karakeep suits self-hosters who want Pinboard-style ownership plus AI. Marqly is a strong option if Pinboard's manual tagging is the pain point: AI tags and summarizes every save automatically, and semantic search finds bookmarks by describing them — no tag discipline required."
+    },
+    {
+      "q": "Does Pinboard work on iPhone?",
+      "a": "Not officially — Pinboard has never shipped its own mobile apps, by the owner's stated choice. On iPhone you use the mobile-optimized website or third-party clients built on the API, such as Pins or Pushpin, which handle saving, tagging, and browsing well. Android users have equivalents like Pinkt and PinDroid."
+    },
+    {
+      "q": "Can I export my data from Pinboard?",
+      "a": "Yes, anytime — in standard Netscape HTML (importable by nearly every bookmark manager), JSON, or XML, from the settings backup page or the API. Pinboard explicitly promises you can always export your data even if your account expires. Note that archival page copies are not part of the export; only your bookmarks and metadata are."
+    }
+  ],
+  "lastVerified": "2026-08-02"
+}

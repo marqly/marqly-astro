@@ -1,0 +1,80 @@
+{
+  "name": "Instapaper",
+  "slug": "instapaper",
+  "aka": ["instapaper-premium"],
+  "category": "read-it-later",
+  "status": "active",
+  "shutdownNote": null,
+  "website": "https://www.instapaper.com",
+  "tagline": "The original read-it-later app, saving articles since 2008",
+  "pricing": {
+    "free": true,
+    "paid": "$5.99/month or $59.99/year (Premium)",
+    "trial": null,
+    "notes": "Premium doubled in price in late 2023 (from $3/month, $30/year). The free tier covers unlimited saving and offline reading; Premium adds full-text search, a permanent archive, unlimited notes, text-to-speech playlists, speed reading, and send-to-Kindle."
+  },
+  "platforms": ["web", "ios", "android", "chrome", "firefox", "safari", "kindle"],
+  "features": {
+    "aiAutoTagging": false,
+    "semanticSearch": false,
+    "aiSummaries": false,
+    "youtubeAi": false,
+    "chatWithSaves": false,
+    "highlights": true,
+    "annotationNotes": true,
+    "savePdf": false,
+    "fullTextSearch": true,
+    "tabSaver": false,
+    "publicSharing": false,
+    "importPocket": true,
+    "importBrowserHtml": false,
+    "offlineReading": true,
+    "iosApp": true,
+    "androidApp": true,
+    "browserExtension": true,
+    "freeTier": true,
+    "api": true,
+    "selfHosted": false
+  },
+  "pros": [
+    "The cleanest, most typography-focused reading view in the category, refined since 2008",
+    "Reliable offline reading on iPhone, iPad, and Android",
+    "Send-to-Kindle delivery and a PDF reader for Premium subscribers",
+    "Speed reading mode and AI-powered text-to-speech playlists on mobile",
+    "Free tier covers unlimited saving with no card required",
+    "Imports Pocket exports directly — a natural landing spot for former Pocket users"
+  ],
+  "cons": [
+    "Search is paywalled: free accounts cannot full-text search their own saves",
+    "Free plan caps notes at 5 per month; unlimited notes require Premium",
+    "No AI features — no auto-tagging, summaries, or semantic search; organization is manual folders",
+    "Premium doubled in price to $59.99/year in late 2023 without major new features at the time",
+    "Parsing occasionally mangles complex or paywalled pages"
+  ],
+  "bestFor": "Long-form readers who want a quiet, beautifully typeset queue of articles — especially Kindle owners and anyone migrating a Pocket export.",
+  "verdict": "Still the purest reading experience in the category; choose it for distraction-free reading, not for organizing or resurfacing a large library.",
+  "overview": "Instapaper is the original read-it-later service, created by Marco Arment in 2008 and now run independently as Instant Paper, Inc. It saves articles from any browser or app into a clean, typography-first reading queue that syncs to iPhone, iPad, Android, Kindle, and the web, with dependable offline reading. The free tier includes unlimited saves, folders, and basic highlighting; Premium at $5.99/month or $59.99/year unlocks full-text search across your account, a permanent archive of saved articles, unlimited notes, a PDF reader, speed reading, AI-powered text-to-speech playlists, and send-to-Kindle delivery. Highlights and notes can sync to services like Readwise, and a documented developer API supports third-party clients. Instapaper deliberately stays minimal: there is no AI tagging, summarization, or recommendation layer, and organization is limited to folders. After Pocket shut down in July 2025, Instapaper added a direct Pocket import and became one of the main destinations for former Pocket users.",
+  "faqs": [
+    {
+      "q": "Is Instapaper free?",
+      "a": "Yes, the core service is free: unlimited article saving, folders, offline reading on mobile, and basic highlights. Instapaper Premium costs $5.99/month or $59.99/year and adds full-text search, a permanent article archive, unlimited notes, a PDF reader, speed reading, text-to-speech playlists, and send-to-Kindle. Free accounts are limited to 5 notes per month."
+    },
+    {
+      "q": "Is Instapaper still being developed?",
+      "a": "Yes. Instapaper has run continuously since 2008 and is actively maintained by Instant Paper, Inc., which took the service independent in 2018. Recent years brought a permanent archive, text-to-speech playlists, a Pocket import tool after Pocket's 2025 shutdown, and a Premium price increase — signs of an ongoing, sustainable business rather than an abandoned app."
+    },
+    {
+      "q": "What is the best Instapaper alternative?",
+      "a": "Readwise Reader is the closest power-user upgrade, with RSS, newsletters, and AI built in, while Matter offers the most polished listening experience on iOS. Marqly is a strong option if your problem is finding saves again — it auto-tags everything with AI and supports semantic search by meaning, plus highlights and YouTube summaries. Raindrop.io fits bookmark-style collectors better."
+    },
+    {
+      "q": "Does Instapaper work on iPhone?",
+      "a": "Yes. Instapaper's iPhone and iPad app is one of the oldest and most refined reading apps on iOS, with offline reading, tilt scrolling, highlights, and share-sheet saving from Safari or any app. Premium subscribers also get text-to-speech playlists and speed reading on mobile. The app is free to download with an optional Premium subscription."
+    },
+    {
+      "q": "Can I export my data from Instapaper?",
+      "a": "Yes. Instapaper lets you export your saved articles as an HTML file or CSV from account settings on the web, and exports are available on the free plan. The HTML export is a standard bookmarks format that most read-it-later and bookmarking apps, including Marqly and Raindrop.io, can import directly."
+    }
+  ],
+  "lastVerified": "2026-08-02"
+}

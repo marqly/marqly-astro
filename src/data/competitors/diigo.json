@@ -1,0 +1,80 @@
+{
+  "name": "Diigo",
+  "slug": "diigo",
+  "aka": ["diigo-web-collector"],
+  "category": "bookmark-manager",
+  "status": "active",
+  "shutdownNote": null,
+  "website": "https://www.diigo.com",
+  "tagline": "Bookmark, highlight, and annotate the web for research",
+  "pricing": {
+    "free": true,
+    "paid": "Standard $40/year; Professional $59/year; Business $10/user/month",
+    "trial": null,
+    "notes": "The free plan is ad-supported and caps lifetime bookmarks and highlights — Diigo's own pages state the limit inconsistently (500–1,000 bookmarks, 100–200 highlights). Cached pages, PDF annotation, and full-text search are paid features. A free Teacher plan exists for verified educators."
+  },
+  "platforms": ["web", "chrome", "firefox", "ios"],
+  "features": {
+    "aiAutoTagging": false,
+    "semanticSearch": false,
+    "aiSummaries": false,
+    "youtubeAi": false,
+    "chatWithSaves": false,
+    "highlights": true,
+    "annotationNotes": true,
+    "savePdf": true,
+    "fullTextSearch": true,
+    "tabSaver": false,
+    "publicSharing": true,
+    "importPocket": true,
+    "importBrowserHtml": true,
+    "offlineReading": false,
+    "iosApp": true,
+    "androidApp": false,
+    "browserExtension": true,
+    "freeTier": true,
+    "api": true,
+    "selfHosted": false
+  },
+  "pros": [
+    "Multi-color highlighting and sticky notes directly on live web pages — still its core strength",
+    "Groups enable shared libraries and collaborative annotation, popular in education",
+    "Free Teacher plan with a class console for verified educators",
+    "Outliners let you structure highlights and links into research documents",
+    "Cheap paid plans: $40/year adds unlimited highlights, cached pages, full-text search, and PDF annotation",
+    "Data stays portable via CSV, HTML, and RSS export plus a web API"
+  ],
+  "cons": [
+    "Visibly neglected: the Chrome extension last updated in 2024, the Android app left Google Play, and the official blog domain is dead",
+    "No AI of any kind — no auto-tagging, summaries, or semantic search",
+    "Dated interface that predates modern design conventions",
+    "Full-text search and cached pages are paywalled, and the free tier shows ads",
+    "Its own pricing pages contradict each other on free-plan limits"
+  ],
+  "bestFor": "Students, teachers, and researchers who need to highlight and annotate web pages collaboratively on a small budget.",
+  "verdict": "Still a capable research annotator for the price, but the product is coasting — choose it for what it does today, not where it is going.",
+  "overview": "Diigo is a veteran bookmarking and web-annotation service aimed at research: its extension highlights text in multiple colors directly on live pages, attaches sticky notes, and files everything into a searchable library with tags and Outliners for structuring findings. Groups add shared libraries and collaborative annotation, and a free Teacher console made it a staple in classrooms. Paid plans are cheap — Standard at $40 a year adds unlimited highlights, server-side cached copies of saved pages, full-text search, and PDF annotation, with Professional at $59 a year lifting the remaining caps. The free tier is ad-supported and caps total bookmarks and highlights. Diigo still works, but shows its age: the interface predates modern design trends, the Chrome extension last updated in 2024, the Android app left Google Play the same year, and the official blog is offline. A web API and CSV, HTML, and RSS exports keep data portable.",
+  "faqs": [
+    {
+      "q": "Is Diigo free?",
+      "a": "There is a free plan, but it is ad-supported and caps your lifetime totals — Diigo's own pages quote the limit inconsistently at 500–1,000 bookmarks and 100–200 highlights. Cached pages, PDF annotation, and full-text search require Standard ($40/year) or Professional ($59/year). Verified educators get a free Teacher plan with class features."
+    },
+    {
+      "q": "Is Diigo still maintained?",
+      "a": "The service runs, but development has largely stalled. The Chrome extension was last updated in mid-2024, the Android app was delisted from Google Play in 2024, the official blog domain no longer resolves, and the pricing pages still carry decade-old copy. The web app, iOS browser app, API, and exports continue to function."
+    },
+    {
+      "q": "What is the best Diigo alternative?",
+      "a": "For highlighting specifically, Glasp and Weava are modern web highlighters, and Readwise Reader adds highlight review. Marqly is a strong all-round option: six-color highlights that persist on the page like Diigo's, plus AI auto-tagging, summaries, and semantic search that Diigo never added — and it is actively developed. Raindrop.io fits if bookmarking matters more than annotation."
+    },
+    {
+      "q": "Does Diigo work on iPhone?",
+      "a": "Partially. There is no modern extension for iPhone Safari; iOS access comes through the legacy \"Diigo Browser\" app, a standalone browser with save and annotation features that receives only minimal bug-fix updates, plus the mobile website. The Android app is gone from Google Play entirely. Diigo is best treated as a desktop-first tool."
+    },
+    {
+      "q": "Can I export my data from Diigo?",
+      "a": "Yes. The Tools section exports your library as CSV (including URLs, titles, tags, comments, and sticky notes), Netscape HTML for importing into browsers and other bookmark managers, and RSS. Highlights and notes are included in the CSV. Given the product's slow maintenance, exporting a periodic backup is a sensible precaution."
+    }
+  ],
+  "lastVerified": "2026-08-02"
+}

@@ -62,6 +62,16 @@ artifacts and diff scores). The root stays clean.
 - Pending: trailing-slash fix, blog (template + 17 MDX posts, dedupe 3 junk slugs), vs/raindrop build-out, pixel-polish iteration, SEO/redirects finalize, DNS cutover.
 - `/T&C` → `/terms` 301 (ampersand URL normalized); other URLs preserved 1:1.
 
+## SEO engines (2026-08-02, PhotoAI-playbook build-out — NOT yet deployed)
+
+- Plan: `docs/superpowers/plans/2026-08-02-photoai-seo-aso-replication.md`. Product truth for ALL marketing claims: `docs/superpowers/specs/2026-08-02-marqly-product-facts.md`.
+- Data layer: `src/data/competitors/*.json` (24 tools + marqly, verified pricing, 20-boolean feature matrix, `lastVerified`). ALL compare/alternatives pages + LinkHub render from it — edit the JSON, never page copy. Helpers: `src/lib/competitors.ts`, `features.ts`, `compare-content.ts`, `schema.ts`.
+- Engines: `/faq/*` (60, QAPage), `/compare/marqly-vs-*` (24) + `/compare/x-vs-y` (105 from `src/content/verdicts/`), `/alternatives/*` (24), 40 root-level use-case landers (`src/content/usecases/` via `src/pages/[usecase].astro`), `/tools/*` (8; YouTube transcript/summarize + dead-link checker use `prerender=false` API routes in `src/pages/api/` — summarize needs the Workers AI binding in wrangler.json).
+- `LinkHub.astro` = sitewide pre-footer link hub (photoai pattern), fully collection-driven — links appear only when target pages exist.
+- "X vs Marqly" blog posts were 301'd into `/compare/` (see `public/_redirects`); don't recreate them as posts.
+- OG cards: `node active/scripts/gen-og-cards.mjs` (blog) + `gen-og-seo.mjs` (all SEO namespaces) after adding content. Link integrity: `node active/scripts/check-links.mjs` after build.
+- ASO copy + specs (CWS/App Store/AlternativeTo/review-prompt/Discover-UGC): `docs/aso/`.
+
 ## Lab Notes: What Not To Do
 
 - 2026-05-25: Astro 5.18 + npm 11 throw EBADENGINE on Node 20.10 (need ≥20.19) → build still works locally but is unsupported → `.nvmrc=22` for Cloudflare; recommend bumping local Node to 22 LTS.
@@ -71,4 +81,5 @@ artifacts and diff scores). The root stays clean.
 - 2026-05-25: the deploy-connected repo is `marqly/marqly-astro` (NOT `marketing_site`, which is just `origin`) → push to `marqly-astro main` to deploy.
 - 2026-06-10: `git push marqly-astro` returned 403 ("denied to amrogrey") → gh keyring has two accounts and the active one lacks repo access → `gh auth switch -u marqly`, push, then `gh auth switch -u amrogrey`.
 - 2026-06-10: DNS cutover already happened — www.marqly.com serves the Worker; "staging" pushes are PROD. Legal pages rebuilt as Astro (`/terms`, `/privacypolicy`); GA4 typo (`googletemanager`) fixed in LandingLayout; favicon.ico shipped.
+- 2026-08-02: `npx astro check` crashes node (OOM) with the enlarged content graph (250+ content files) → run with `NODE_OPTIONS=--max-old-space-size=8192 npx astro check`; `astro build` is the real gate and doesn't need the bump.
 - 2026-06-21: `npm run preview` (astro preview) fails — "@astrojs/cloudflare adapter does not support the preview command" → use `npm run dev` (astro dev, http://localhost:4321) for local browser verification, or `wrangler dev` against `dist/`. Note Pricing/Extension use Framer Navbar/Footer mounted `client:only="react"`, so their markup is NOT in the built HTML — grep the `dist/_astro/Responsive*.js` bundles (or render in a browser) to verify, not `dist/**/*.html`.

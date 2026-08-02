@@ -1,0 +1,94 @@
+{
+  "name": "LINER",
+  "slug": "liner",
+  "aka": [
+    "getliner",
+    "liner-ai",
+    "liner-highlighter",
+    "liner-scholar",
+    "liner-search"
+  ],
+  "category": "highlighter",
+  "status": "active",
+  "shutdownNote": null,
+  "website": "https://liner.com",
+  "tagline": "Citation-backed AI search suite that grew out of a web highlighter",
+  "pricing": {
+    "free": true,
+    "paid": "Pro $17.99/month or $14.99/month billed annually; Max $35.99/month or $29.99/month billed annually; Team $26.99/seat/month (annual)",
+    "trial": null,
+    "notes": "Free tier includes unlimited highlighting and unlimited AI search, but shows ads inside answers and grants 0 agent credits. A card-required trial exists but its length isn't published. Agent credits don't roll over month to month."
+  },
+  "platforms": [
+    "web",
+    "chrome",
+    "edge",
+    "ios",
+    "android",
+    "mac",
+    "windows"
+  ],
+  "features": {
+    "aiAutoTagging": false,
+    "semanticSearch": false,
+    "aiSummaries": true,
+    "youtubeAi": true,
+    "chatWithSaves": false,
+    "highlights": true,
+    "annotationNotes": true,
+    "savePdf": true,
+    "fullTextSearch": false,
+    "tabSaver": false,
+    "publicSharing": false,
+    "importPocket": false,
+    "importBrowserHtml": false,
+    "offlineReading": false,
+    "iosApp": true,
+    "androidApp": true,
+    "browserExtension": true,
+    "freeTier": true,
+    "api": true,
+    "selfHosted": false
+  },
+  "pros": [
+    "Accuracy-focused AI search with line-by-line citations — every claim in an answer links to its source",
+    "Unlimited AI search even on the free plan; the core search isn't credit-gated",
+    "Serious academic tooling in Liner Scholar: literature review, citation recommendation, and hypothesis agents",
+    "One subscription covers multiple premium models from OpenAI, Google, and Anthropic",
+    "Wide device coverage: web, Chrome and Edge extensions, iOS, Android, plus Mac and Windows desktop apps",
+    "Public developer API and MCP server — unusual in this category"
+  ],
+  "cons": [
+    "The highlighter is no longer the product — LINER pivoted to AI search agents, and highlighting is now a side feature",
+    "The free tier shows ads inside AI answers and includes zero agent credits",
+    "A verified pattern of Trustpilot complaints about trials auto-converting to roughly $400 annual charges and refused refunds",
+    "Agent credits burn fast — Deep Research costs 40 per request — and unused credits don't roll over",
+    "Safari and Firefox extensions were quietly dropped, and the current product advertises no export for saved highlights"
+  ],
+  "bestFor": "Researchers and students who want AI search answers they can verify line by line, with academic agents on tap — more than they want a highlighting library.",
+  "verdict": "Compelling as a citation-first AI research assistant; hard to recommend as a highlighter, which is now an afterthought.",
+  "overview": "LINER started in 2015 as a web highlighter from Seoul-based Aurum Planet, founded by Luke Jinu Kim, and grew past ten million users before pivoting into an AI search company. Today liner.com offers three products — Liner for citation-backed AI search, Liner Scholar for academic research agents, and Liner Write for drafting — while the original highlighter lives on as a supporting feature that clips web pages, PDFs, and YouTube moments into a private My Space with notes and folders. Answers cite sources line by line, and paid tiers unlock agent credits, larger file uploads, and premium models from OpenAI, Google, and Anthropic under one subscription. The platform spans the web app, Chrome and Edge extensions, iOS and Android apps, and Mac and Windows desktop apps; the Safari and Firefox extensions of the highlighter era are no longer offered. The free plan includes unlimited highlighting and unlimited AI search with ads in answers; Pro is $14.99 a month billed annually and Max is $29.99.",
+  "faqs": [
+    {
+      "q": "Is LINER free?",
+      "a": "There's a real free tier: unlimited highlighting and unlimited citation-backed AI search, plus 10 research-assistant uses a day. The catch is ads inside AI answers, zero agent credits, and one small file upload per day. Pro runs $17.99/month, or $14.99/month billed annually; Max is $29.99/month annual. Watch the card-required trial — complaints about surprise annual charges are common."
+    },
+    {
+      "q": "Is LINER still maintained?",
+      "a": "Yes, but it's a different product than most people remember. The old getliner.com domain is gone — it returns a 410 error pointing to liner.com — and the company now builds AI search and research agents, with the highlighter kept on as a side feature. The Chrome extension was updated as recently as May 2026, so development is active; it's the focus that moved."
+    },
+    {
+      "q": "What is the best LINER alternative?",
+      "a": "It depends on which LINER you used. For social highlighting with generous free limits, Glasp is the closest active highlighter. If you want highlights that live inside a searchable library, Marqly pairs a six-color private highlighter with AI auto-tagging, summaries, and semantic search across all your saves. For citation-backed AI answers specifically, Perplexity is the mainstream rival."
+    },
+    {
+      "q": "Does LINER work on iPhone?",
+      "a": "Yes — there's a native iOS app with an active App Store listing, alongside an Android app. Know what you're getting, though: the current app is an AI search assistant, not the Safari-highlighting tool of LINER's early years, and the mobile Safari extension is no longer offered. Third-party reviews also report occasional lag and crashes in the mobile apps."
+    },
+    {
+      "q": "Can I export my data from LINER?",
+      "a": "Not really, anymore. The legacy highlighter could export highlights to Evernote and Word, but the current liner.com product advertises no export function for saved highlights in My Space, and no import tools either. The developer API exists but targets search integrations rather than personal data portability. If your highlights matter long-term, treat LINER's library as a dead end and copy important passages out manually."
+    }
+  ],
+  "lastVerified": "2026-08-02"
+}

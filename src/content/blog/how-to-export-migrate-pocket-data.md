@@ -45,7 +45,7 @@ The exported HTML is a standard bookmarks file — the same format browsers use 
 
 Your export is portable, so the real question is *where* it should live. The three most common destinations for Pocket refugees in 2026:
 
-- **Marqly** — if you want your library to become searchable by meaning (AI search), with auto-tagging and summaries. Imports your Pocket file with tags intact. (See exactly how it stacks up in [Pocket vs Marqly](/blog/pocket-vs-marqly).)
+- **Marqly** — if you want your library to become searchable by meaning (AI search), with auto-tagging and summaries. Imports your Pocket file with tags intact. (See exactly how it stacks up in [Pocket vs Marqly](/compare/marqly-vs-pocket).)
 - **Raindrop.io** — if you want a free, general-purpose bookmark manager.
 - **Instapaper** — if you simply want [a read-it-later app](/blog/best-read-it-later-apps-2026) with minimalist, no-frills reading.
 

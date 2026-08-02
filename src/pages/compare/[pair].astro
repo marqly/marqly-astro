@@ -1,0 +1,306 @@
+---
+import { getCollection, render } from 'astro:content';
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import Breadcrumbs from '../../components/seo/Breadcrumbs.astro';
+import ComparisonTable from '../../components/seo/ComparisonTable.astro';
+import FaqAccordion from '../../components/seo/FaqAccordion.astro';
+import CtaBox from '../../components/seo/CtaBox.astro';
+import { competitors, marqly, getCompetitor } from '../../lib/competitors';
+import { marqlyPairFaqs, marqlyEdges, otherEdges, pricingSentence } from '../../lib/compare-content';
+import { breadcrumbList, faqPage, organization, softwareApplication, webSite } from '../../lib/schema';
+
+export async function getStaticPaths() {
+  const verdictEntries = await getCollection('verdicts', ({ data }) => !data.draft);
+
+  const marqlyPairs = competitors.map((c) => ({
+    params: { pair: `marqly-vs-${c.slug}` },
+    props: { bSlug: c.slug, verdictId: null as string | null },
+  }));
+
+  const thirdParty = verdictEntries
+    .filter((v) => getCompetitor(v.data.a) && getCompetitor(v.data.b))
+    .map((v) => ({
+      params: { pair: v.id },
+      props: { bSlug: null as string | null, verdictId: v.id },
+    }));
+
+  return [...marqlyPairs, ...thirdParty];
+}
+
+const { bSlug, verdictId } = Astro.props;
+const verdictEntries = await getCollection('verdicts', ({ data }) => !data.draft);
+const verdictEntry = verdictId ? verdictEntries.find((v) => v.id === verdictId) ?? null : null;
+
+const isMarqlyPair = !verdictEntry;
+const a = isMarqlyPair ? marqly : getCompetitor(verdictEntry!.data.a)!;
+const b = isMarqlyPair ? getCompetitor(bSlug!)! : getCompetitor(verdictEntry!.data.b)!;
+
+const VerdictContent = verdictEntry ? (await render(verdictEntry)).Content : null;
+
+const pairSlug = isMarqlyPair ? `marqly-vs-${b.slug}` : verdictEntry!.id;
+const path = `/compare/${pairSlug}`;
+const h1 = `${a.name} vs ${b.name}: Which is better? (2026)`;
+const title = `${a.name} vs ${b.name}: Which Is Better? (2026)`;
+const description = isMarqlyPair
+  ? `Detailed ${a.name} vs ${b.name} comparison: AI tagging, semantic search, highlights, YouTube AI, pricing, and imports — which fits your workflow in 2026.`
+  : `${a.name} vs ${b.name} compared feature by feature — pricing, platforms, search, highlights — plus the AI-first option both sides overlook.`;
+
+const faqs = isMarqlyPair ? marqlyPairFaqs(marqly, b) : verdictEntry!.data.faqs;
+
+// Cross-link blocks
+const otherMarqlyPairs = competitors.filter((c) => c.slug !== b.slug);
+const pairsInvolving = (slug: string) =>
+  verdictEntries
+    .filter((v) => v.id !== pairSlug && (v.data.a === slug || v.data.b === slug))
+    .map((v) => {
+      const other = v.data.a === slug ? getCompetitor(v.data.b) : getCompetitor(v.data.a);
+      return other ? { slug: v.id, name: other.name } : null;
+    })
+    .filter((x): x is NonNullable<typeof x> => Boolean(x));
+const bRelated = pairsInvolving(b.slug);
+const aRelated = isMarqlyPair ? [] : pairsInvolving(a.slug);
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Compare', path: '/compare' },
+  { name: `${a.name} vs ${b.name}`, path },
+];
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  softwareApplication(),
+  breadcrumbList(crumbs),
+  ...(faqs.length ? [faqPage(faqs)] : []),
+];
+
+const aEdgesList = isMarqlyPair ? marqlyEdges(marqly, b, 4) : [];
+const bEdgesList = isMarqlyPair ? otherEdges(marqly, b, 4) : [];
+const tableTools = isMarqlyPair ? [marqly, b] : [a, b, marqly];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  ogImage={`https://www.marqly.com/og/seo/compare-${pairSlug}.png`}
+>
+  <article class="section">
+    <div class="container cmp-page">
+      <Breadcrumbs items={crumbs} />
+      <h1>{h1}</h1>
+
+      <div class="verdict-box">
+        <p class="verdict-label">The short answer</p>
+        {isMarqlyPair ? (
+          <>
+            {b.status === 'shutdown' && (
+              <p class="shutdown-note"><strong>Heads up:</strong> {b.shutdownNote}</p>
+            )}
+            <ul class="verdict-points">
+              <li><strong>Choose Marqly</strong> — {marqly.bestFor} {aEdgesList.length > 0 && `It adds ${aEdgesList.join(', ')} that ${b.name} doesn't offer.`}</li>
+              <li><strong>Choose {b.name}</strong> — {b.bestFor} {bEdgesList.length > 0 && `It offers ${bEdgesList.join(', ')}, which Marqly doesn't.`}</li>
+            </ul>
+          </>
+        ) : (
+          <p class="verdict-prose">{verdictEntry!.data.verdict}</p>
+        )}
+      </div>
+
+      <h2>Feature comparison</h2>
+      <ComparisonTable tools={tableTools} variant="full" caption={`${a.name} vs ${b.name}${isMarqlyPair ? '' : ' vs Marqly'} — feature by feature`} />
+
+      <h2>Pricing</h2>
+      <ul class="pricing-list">
+        <li><strong>{a.name}:</strong> {pricingSentence(a)}</li>
+        <li><strong>{b.name}:</strong> {pricingSentence(b)}</li>
+        {!isMarqlyPair && <li><strong>Marqly:</strong> {pricingSentence(marqly)}</li>}
+      </ul>
+
+      {isMarqlyPair ? (
+        <>
+          <h2>About {b.name}</h2>
+          <p class="prose-p">{b.overview}</p>
+          <div class="two-col">
+            <div>
+              <h3>Where {b.name} wins</h3>
+              <ul>{b.pros.map((p) => <li>{p}</li>)}</ul>
+            </div>
+            <div>
+              <h3>Where {b.name} falls short</h3>
+              <ul>{b.cons.map((c) => <li>{c}</li>)}</ul>
+            </div>
+          </div>
+
+          <h2>About Marqly</h2>
+          <p class="prose-p">{marqly.overview}</p>
+          <div class="two-col">
+            <div>
+              <h3>Where Marqly wins</h3>
+              <ul>{marqly.pros.map((p) => <li>{p}</li>)}</ul>
+            </div>
+            <div>
+              <h3>Where Marqly falls short</h3>
+              <ul>{marqly.cons.map((c) => <li>{c}</li>)}</ul>
+            </div>
+          </div>
+        </>
+      ) : (
+        <>
+          <h2>About {a.name}</h2>
+          <p class="prose-p">{a.overview}</p>
+          <h2>About {b.name}</h2>
+          <p class="prose-p">{b.overview}</p>
+          <h2>Which should you choose?</h2>
+          <div class="prose">
+            {VerdictContent && <VerdictContent />}
+          </div>
+          <div class="third-option">
+            <h2>The option both sides overlook</h2>
+            <p class="prose-p">
+              If the real problem is finding things again, neither {a.name} nor {b.name} fully
+              solves it. Marqly auto-tags and summarizes every save with AI and lets you retrieve
+              any of them by describing what you remember — plus a highlighter, YouTube summaries
+              with transcripts, and save-as-PDF. There's a free tier with no card required.
+            </p>
+          </div>
+        </>
+      )}
+
+      {faqs.length > 0 && (
+        <div class="faq-wrap">
+          <FaqAccordion faqs={faqs} heading={`${a.name} vs ${b.name} FAQ`} />
+        </div>
+      )}
+
+      <CtaBox />
+
+      <nav class="xlinks" aria-label="More comparisons">
+        <div>
+          <h3>Compare Marqly with other tools</h3>
+          <ul>
+            {otherMarqlyPairs.map((c) => (
+              <li><a href={`/compare/marqly-vs-${c.slug}`}>Marqly vs {c.name}</a></li>
+            ))}
+          </ul>
+        </div>
+        {(bRelated.length > 0 || aRelated.length > 0 || !isMarqlyPair) && (
+          <div>
+            <h3>More {b.name} comparisons</h3>
+            <ul>
+              {!isMarqlyPair && <li><a href={`/compare/marqly-vs-${b.slug}`}>Marqly vs {b.name}</a></li>}
+              {bRelated.map((r) => (
+                <li><a href={`/compare/${r.slug}`}>{r.slug.split('-vs-').join(' vs ').replace(/-/g, ' ')}</a></li>
+              ))}
+              {aRelated.length > 0 && <li><a href={`/compare/marqly-vs-${a.slug}`}>Marqly vs {a.name}</a></li>}
+            </ul>
+          </div>
+        )}
+        <div>
+          <h3>Alternatives</h3>
+          <ul>
+            {!isMarqlyPair && <li><a href={`/alternatives/${a.slug}`}>Best {a.name} alternatives</a></li>}
+            <li><a href={`/alternatives/${b.slug}`}>Best {b.name} alternatives</a></li>
+            <li><a href="/alternatives">All alternatives →</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </article>
+</LandingLayout>
+
+<style>
+  .cmp-page { max-width: 900px; }
+  h1 {
+    font-size: var(--fs-3xl);
+    font-weight: 600;
+    letter-spacing: var(--tracking-tight);
+    color: var(--ink-1);
+    line-height: var(--lh-tight);
+  }
+  h2 {
+    font-size: var(--fs-xl);
+    font-weight: 600;
+    color: var(--ink-1);
+    margin-top: var(--space-12);
+    margin-bottom: var(--space-4);
+    letter-spacing: var(--tracking-tight);
+  }
+  h3 { font-size: var(--fs-md); font-weight: 600; color: var(--ink-1); margin-bottom: var(--space-3); }
+
+  .verdict-box {
+    margin-top: var(--space-6);
+    background: var(--surface-2);
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-md);
+    padding: var(--space-6);
+  }
+  .verdict-label {
+    font-size: var(--fs-xs);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-3);
+    margin-bottom: var(--space-3);
+  }
+  .verdict-points { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: var(--space-3); }
+  .verdict-points li, .verdict-prose { font-size: var(--fs-md); line-height: var(--lh-base); color: var(--ink-2); }
+  .verdict-points strong, .verdict-prose strong { color: var(--ink-1); }
+  .shutdown-note {
+    margin-bottom: var(--space-4);
+    font-size: var(--fs-sm);
+    color: var(--ink-1);
+    background: var(--surface-1);
+    border: 1px solid var(--border-2);
+    border-radius: var(--radius-sm, 8px);
+    padding: var(--space-3) var(--space-4);
+  }
+
+  .pricing-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: var(--space-3); }
+  .pricing-list li { font-size: var(--fs-md); color: var(--ink-2); line-height: var(--lh-base); }
+  .pricing-list strong { color: var(--ink-1); }
+
+  .prose-p, .prose :global(p) {
+    font-size: var(--fs-md);
+    line-height: var(--lh-loose);
+    color: var(--ink-2);
+    margin-bottom: var(--space-4);
+  }
+  .prose :global(h3) { font-size: var(--fs-lg); font-weight: 600; color: var(--ink-1); margin-top: var(--space-6); margin-bottom: var(--space-2); }
+  .prose :global(ul) { padding-left: 1.4rem; margin-bottom: var(--space-4); color: var(--ink-2); line-height: var(--lh-loose); }
+  .prose :global(a) { color: var(--ink-1); font-weight: 500; text-decoration: underline; }
+
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-8);
+    margin-top: var(--space-4);
+  }
+  .two-col ul { padding-left: 1.2rem; color: var(--ink-2); line-height: var(--lh-base); display: flex; flex-direction: column; gap: var(--space-2); font-size: var(--fs-sm); }
+  @media (max-width: 700px) { .two-col { grid-template-columns: 1fr; } }
+
+  .third-option {
+    margin-top: var(--space-8);
+    border: 1px solid var(--border-2);
+    border-radius: var(--radius-md);
+    padding: var(--space-6);
+    background: var(--surface-1);
+  }
+  .third-option h2 { margin-top: 0; }
+
+  .faq-wrap { margin-top: var(--space-12); }
+
+  .xlinks {
+    margin-top: var(--space-12);
+    padding-top: var(--space-8);
+    border-top: 1px solid var(--border-1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-8);
+  }
+  .xlinks ul { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: var(--space-2); }
+  .xlinks a { font-size: var(--fs-sm); color: var(--ink-3); }
+  .xlinks a:hover { color: var(--ink-1); }
+  @media (max-width: 800px) { .xlinks { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 540px) { .xlinks { grid-template-columns: 1fr; } }
+</style>

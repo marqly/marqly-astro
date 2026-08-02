@@ -1,0 +1,79 @@
+{
+  "name": "Omnivore",
+  "slug": "omnivore",
+  "aka": ["omnivore-app"],
+  "category": "read-it-later",
+  "status": "shutdown",
+  "shutdownNote": "Omnivore shut down in November 2024 after its team was acqui-hired by ElevenLabs. Users had until November 30, 2024 to export their data before it was deleted. The open-source code remains on GitHub, and community forks offer self-hosted deployments.",
+  "website": "https://omnivore.app",
+  "tagline": "The open-source read-it-later app that shut down in 2024",
+  "pricing": {
+    "free": true,
+    "paid": null,
+    "trial": null,
+    "notes": "Omnivore was completely free while it operated — there was never a paid plan. The hosted service is gone; running a community fork on your own server is free software-wise but carries normal infrastructure costs."
+  },
+  "platforms": ["web", "ios", "android", "chrome", "firefox", "safari", "edge"],
+  "features": {
+    "aiAutoTagging": false,
+    "semanticSearch": false,
+    "aiSummaries": false,
+    "youtubeAi": false,
+    "chatWithSaves": false,
+    "highlights": true,
+    "annotationNotes": true,
+    "savePdf": false,
+    "fullTextSearch": true,
+    "tabSaver": false,
+    "publicSharing": false,
+    "importPocket": true,
+    "importBrowserHtml": false,
+    "offlineReading": true,
+    "iosApp": true,
+    "androidApp": true,
+    "browserExtension": true,
+    "freeTier": true,
+    "api": true,
+    "selfHosted": true
+  },
+  "pros": [
+    "Was completely free and open-source (AGPL) with no paid tier at all",
+    "Clean reader with labels, filters, and a powerful search syntax",
+    "Handled newsletters, PDFs, and RSS alongside saved articles",
+    "Native iOS and Android apps with offline reading and text-to-speech",
+    "Highlights and notes synced to Obsidian and Logseq via plugins",
+    "The codebase survives on GitHub, so determined users can still self-host a fork"
+  ],
+  "cons": [
+    "Shut down in November 2024 — hosted accounts and any unexported data are gone",
+    "Self-hosting the original stack is genuinely hard: PostgreSQL, Elasticsearch, and multiple microservices",
+    "Community forks are volunteer-maintained with no guarantees about their future",
+    "Its free-with-no-revenue model is exactly what made the shutdown possible"
+  ],
+  "bestFor": "Historically, open-source fans who wanted a free Pocket alternative; today only self-hosters comfortable running a community fork.",
+  "verdict": "A well-loved open-source project whose shutdown is a cautionary tale — most former users are better served by an actively maintained alternative.",
+  "overview": "Omnivore was an open-source read-it-later app that launched in 2022 and quickly became a favorite alternative to Pocket and Instapaper. It was completely free: saved articles, newsletters, PDFs, and RSS feeds landed in a clean library with labels, filters, and a notably powerful search syntax, backed by native iOS and Android apps, browser extensions for all major browsers, text-to-speech, and plugins that synced highlights to Obsidian and Logseq. In late October 2024, the team announced they had joined ElevenLabs to work on its Reader app, and the hosted service shut down the following month — users had until November 30, 2024 to export their data before it was permanently deleted. Because Omnivore was AGPL-licensed, the code remains on GitHub with well over a thousand forks, and community projects offer self-hosted deployments, though the stack (PostgreSQL, Elasticsearch, multiple microservices) is demanding to run. No official successor exists.",
+  "faqs": [
+    {
+      "q": "What happened to Omnivore?",
+      "a": "Omnivore shut down in November 2024. Its founders announced on October 29, 2024 that the team was joining ElevenLabs to work on the ElevenReader text-to-speech app, and the hosted service closed shortly after. Users had until November 30, 2024 to export their libraries; unexported data was permanently deleted. The open-source code remains available on GitHub."
+    },
+    {
+      "q": "Was Omnivore free?",
+      "a": "Yes, entirely. Omnivore never charged anything — the hosted service, apps, and all features were free, funded by the founders rather than revenue. That model is also why it could disappear so abruptly: with no subscription income, the service ended the moment the team moved on. Today the only free way to use it is self-hosting a community fork."
+    },
+    {
+      "q": "What is the best Omnivore alternative?",
+      "a": "For a like-for-like open-source, self-hosted replacement, Wallabag is the most established choice, and Linkwarden adds archiving and collaboration. If you would rather not run a server, Readwise Reader covers the power-user feature set, and Marqly is a strong option for AI-first organization — automatic tagging, semantic search, highlights, and YouTube summaries — with a free tier and active development."
+    },
+    {
+      "q": "Does Omnivore work on iPhone?",
+      "a": "Not anymore. Omnivore's iOS app stopped working when the hosted service shut down in November 2024 and was removed from the App Store. While it was alive, the iPhone app was well regarded, with offline reading and text-to-speech. Community forks focus on the web experience, so there is no reliable Omnivore-based iPhone option today."
+    },
+    {
+      "q": "Can I still export my data from Omnivore?",
+      "a": "No. The export window closed on November 30, 2024, and all remaining hosted data was deleted — there is no archive or read-only mode. If you exported in time, you have a ZIP of your saves and highlights that many current apps can import. If you self-host a fork, your data lives in your own database and remains fully exportable."
+    }
+  ],
+  "lastVerified": "2026-08-02"
+}

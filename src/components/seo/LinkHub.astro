@@ -1,0 +1,193 @@
+---
+/**
+ * Site-wide pre-footer link hub (the PhotoAI pattern): every page links to
+ * every SEO surface, keeping crawl depth ≤2 and spreading internal PageRank.
+ * All columns are data-driven from collections/data files, so links only
+ * appear once the target page actually builds — never a dead link.
+ */
+import { getCollection } from 'astro:content';
+import { competitors } from '../../lib/competitors';
+
+const faqs = (await getCollection('faq', ({ data }) => !data.draft)).sort((a, b) =>
+  a.data.question.localeCompare(b.data.question),
+);
+const usecases = await getCollection('usecases', ({ data }) => !data.draft);
+const personas = usecases
+  .filter((u) => u.data.kind === 'persona')
+  .sort((a, b) => a.id.localeCompare(b.id));
+const jobs = usecases
+  .filter((u) => u.data.kind !== 'persona')
+  .sort((a, b) => a.id.localeCompare(b.id));
+
+// Curated FAQ shortlist for the hub (the rest live behind /faq).
+const FAQ_SHORTLIST = [
+  'is-marqly-free',
+  'how-much-does-marqly-cost',
+  'what-is-an-ai-bookmark-manager',
+  'what-is-semantic-search',
+  'how-does-ai-auto-tagging-work',
+  'how-do-i-summarize-a-youtube-video',
+  'how-do-i-get-a-youtube-transcript',
+  'how-do-i-highlight-text-on-a-website',
+  'how-do-i-save-a-page-as-pdf',
+  'how-do-i-import-from-pocket',
+  'how-do-i-import-chrome-bookmarks',
+  'is-marqly-a-pocket-replacement',
+  'does-marqly-work-on-edge',
+  'is-there-an-ios-app',
+  'can-i-sync-across-devices',
+  'how-do-i-cancel-my-subscription',
+  'is-marqly-safe',
+  'how-do-i-share-a-board-publicly',
+];
+const faqTop = FAQ_SHORTLIST.map((slug) => faqs.find((f) => f.id === slug)).filter(
+  (f): f is NonNullable<typeof f> => Boolean(f),
+);
+
+const TOOLS = [
+  { label: 'YouTube transcript viewer', href: '/tools/youtube-transcript' },
+  { label: 'Bookmark file viewer', href: '/tools/bookmark-file-viewer' },
+  { label: 'Duplicate bookmark finder', href: '/tools/duplicate-bookmark-finder' },
+  { label: 'Pocket export converter', href: '/tools/pocket-export-converter' },
+  { label: 'URL cleaner', href: '/tools/url-cleaner' },
+  { label: 'Reading time calculator', href: '/tools/reading-time' },
+];
+
+const BLOG_PICKS = [
+  { label: 'Best AI bookmark manager 2026', href: '/blog/best-ai-bookmark-manager-2026' },
+  { label: 'Best Pocket alternatives', href: '/blog/best-pocket-alternatives-2026' },
+  { label: 'How to search bookmarks with AI', href: '/blog/how-to-search-bookmarks-with-ai' },
+  { label: 'Summarize YouTube videos with AI', href: '/blog/summarize-youtube-videos-with-ai' },
+  { label: 'How to build a second brain', href: '/blog/how-to-build-a-second-brain' },
+  { label: 'Best read-it-later apps 2026', href: '/blog/best-read-it-later-apps-2026' },
+];
+
+const hasCompare = competitors.length > 0;
+---
+
+<section class="linkhub" aria-label="Explore Marqly">
+  <div class="container">
+    <div class="lh-grid">
+      {personas.length > 0 && (
+        <nav class="lh-col" aria-label="Who Marqly is for">
+          <h4>Who it's for</h4>
+          <ul>
+            {personas.map((u) => (
+              <li><a href={`/${u.id}`}>{u.data.navLabel ?? u.data.title}</a></li>
+            ))}
+          </ul>
+        </nav>
+      )}
+
+      {jobs.length > 0 && (
+        <nav class="lh-col" aria-label="What Marqly does">
+          <h4>What it does</h4>
+          <ul>
+            {jobs.map((u) => (
+              <li><a href={`/${u.id}`}>{u.data.navLabel ?? u.data.title}</a></li>
+            ))}
+          </ul>
+        </nav>
+      )}
+
+      {hasCompare && (
+        <nav class="lh-col" aria-label="Compare Marqly">
+          <h4>Compare</h4>
+          <ul>
+            {competitors.map((c) => (
+              <li><a href={`/compare/marqly-vs-${c.slug}`}>Marqly vs {c.name}</a></li>
+            ))}
+            <li><a href="/compare" class="lh-more">All comparisons →</a></li>
+          </ul>
+        </nav>
+      )}
+
+      {hasCompare && (
+        <nav class="lh-col" aria-label="Alternatives">
+          <h4>Alternatives</h4>
+          <ul>
+            {competitors.map((c) => (
+              <li><a href={`/alternatives/${c.slug}`}>{c.name} alternatives</a></li>
+            ))}
+            <li><a href="/alternatives" class="lh-more">All alternatives →</a></li>
+          </ul>
+        </nav>
+      )}
+
+      {faqTop.length > 0 && (
+        <nav class="lh-col" aria-label="Common questions">
+          <h4>Common questions</h4>
+          <ul>
+            {faqTop.map((f) => (
+              <li><a href={`/faq/${f.id}`}>{f.data.question}</a></li>
+            ))}
+            <li><a href="/faq" class="lh-more">All questions →</a></li>
+          </ul>
+        </nav>
+      )}
+
+      <nav class="lh-col" aria-label="Free tools and resources">
+        <h4>Free tools</h4>
+        <ul>
+          {TOOLS.map((t) => (
+            <li><a href={t.href}>{t.label}</a></li>
+          ))}
+          <li><a href="/tools" class="lh-more">All tools →</a></li>
+        </ul>
+        <h4 class="lh-h4-gap">From the blog</h4>
+        <ul>
+          {BLOG_PICKS.map((b) => (
+            <li><a href={b.href}>{b.label}</a></li>
+          ))}
+          <li><a href="/blog" class="lh-more">All posts →</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</section>
+
+<style>
+  .linkhub {
+    background: var(--surface-1);
+    border-top: 1px solid var(--border-1);
+    padding-block: var(--space-16);
+  }
+  .lh-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: var(--space-10) var(--space-8);
+  }
+  .lh-col h4 {
+    font-size: var(--fs-xs);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-1);
+    margin-bottom: var(--space-4);
+  }
+  .lh-h4-gap { margin-top: var(--space-8); }
+  .lh-col ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+  .lh-col a {
+    font-size: var(--fs-xs);
+    line-height: var(--lh-base);
+    color: var(--ink-3);
+    transition: color var(--dur-base) var(--ease-out);
+  }
+  .lh-col a:hover { color: var(--ink-1); }
+  .lh-more { font-weight: 500; color: var(--ink-2); }
+
+  @media (max-width: 1100px) {
+    .lh-grid { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (max-width: 640px) {
+    .lh-grid { grid-template-columns: repeat(2, 1fr); gap: var(--space-8) var(--space-6); }
+    .linkhub { padding-block: var(--space-12); }
+  }
+</style>

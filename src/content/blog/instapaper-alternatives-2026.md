@@ -47,7 +47,7 @@ Keeps the clean reader you like, then adds the layer Instapaper never built: **s
 Generous free tier, saves all media types, great manual collections. Keyword search rather than semantic, no AI layer — but excellent if you want free and tidy.
 
 ### Readwise Reader — for highlighters
-Premium ($12/mo), best-in-class highlighting and spaced repetition. Overkill if you just want to read, ideal if you study what you read. If you're torn between the two, [Readwise Reader vs Marqly](/blog/readwise-reader-vs-marqly) breaks down where each one wins.
+Premium ($12/mo), best-in-class highlighting and spaced repetition. Overkill if you just want to read, ideal if you study what you read. If you're torn between the two, [Readwise Reader vs Marqly](/compare/marqly-vs-readwise-reader) breaks down where each one wins.
 
 ### Matter — for listening
 A clean reader plus high-quality text-to-speech, so you can listen to articles. Nice if audio fits your routine.

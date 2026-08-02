@@ -1,0 +1,283 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import ToolShell from '../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, organization, webSite } from '../../lib/schema';
+
+const title = 'Bookmark File Viewer — Open & Search Any Bookmarks HTML Export';
+const description =
+  'View any browser bookmarks HTML export in your browser — search titles, URLs, and folders, then export to CSV or JSON. Free, private, nothing uploaded.';
+
+const faqs = [
+  {
+    q: 'Is my bookmarks file uploaded anywhere?',
+    a: 'No. The file is parsed entirely in your browser with the DOM parser built into it — nothing is sent to a server, and closing the tab discards everything. That is also why the tool works offline once the page has loaded. If you want a second opinion, open your network inspector while you use it.',
+  },
+  {
+    q: 'Which browsers’ exports does this work with?',
+    a: 'Chrome, Firefox, Edge, Safari, Brave, Opera, and Vivaldi all export the same Netscape bookmark HTML format, so any of their export files work here. Files from other bookmark managers work too, as long as they export standard bookmarks HTML — most do, because every browser imports it.',
+  },
+  {
+    q: 'Why do some bookmarks show an empty folder?',
+    a: 'Bookmarks saved directly to the top level — the bookmarks bar root or the “Other bookmarks” root in some exports — have no named folder above them in the file, so the folder column is blank. That is faithful to the export, not a parsing error.',
+  },
+  {
+    q: 'Can I import this same file somewhere better organized?',
+    a: 'Yes. Marqly imports standard bookmarks HTML exports directly, and its AI tags and summarizes every link automatically on import — no manual re-foldering. Semantic search then finds saves by describing them, so the folder hierarchy you spent years maintaining stops mattering. Free to try, no card required.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: 'Free tools', path: '/tools' },
+    { name: 'Bookmark file viewer', path: '/tools/bookmark-file-viewer' },
+  ]),
+  faqPage(faqs),
+];
+---
+
+<LandingLayout title={title} description={description} jsonLd={jsonLd} ogImage="https://www.marqly.com/og/seo/tool-bookmark-file-viewer.png">
+  <ToolShell
+    name="Bookmark file viewer"
+    heading="View and search your bookmarks export"
+    sub="Open a browser bookmarks HTML file, search everything in it, and export to CSV or JSON. All in your browser — nothing is uploaded."
+    faqs={faqs}
+    ctaHeading="Want those bookmarks organized for you?"
+    ctaSub="Import the same HTML file into Marqly and AI tags and summarizes every link automatically — then find anything by describing it."
+  >
+    <div class="tool-row">
+      <div class="grow">
+        <label for="bv-file">Bookmarks HTML file</label>
+        <input id="bv-file" type="file" accept=".html,.htm" />
+      </div>
+    </div>
+    <div class="tool-row hidden" id="bv-search-row" style="margin-top: var(--space-4);">
+      <div class="grow">
+        <label for="bv-search">Search</label>
+        <input id="bv-search" type="text" placeholder="Filter by title, URL, or folder…" />
+      </div>
+    </div>
+    <p class="tool-status" id="bv-status" role="status"></p>
+    <div class="tool-actions hidden" id="bv-actions">
+      <button class="btn btn--outline btn--sm" id="bv-csv" type="button">Export CSV</button>
+      <button class="btn btn--outline btn--sm" id="bv-json" type="button">Export JSON</button>
+    </div>
+    <div class="hidden" id="bv-table-wrap" style="overflow-x: auto;">
+      <table class="tool-table">
+        <thead>
+          <tr><th>Title</th><th>URL</th><th>Folder</th><th>Added</th></tr>
+        </thead>
+        <tbody id="bv-tbody"></tbody>
+      </table>
+    </div>
+
+    <Fragment slot="content">
+      <h2>How to export bookmarks from your browser</h2>
+      <ul>
+        <li>
+          <strong>Chrome</strong>: open <code>chrome://bookmarks</code> (or ⋮ → Bookmarks and lists →
+          Bookmark manager), click the ⋮ menu inside the manager, then <strong>Export bookmarks</strong>.
+        </li>
+        <li>
+          <strong>Firefox</strong>: press <code>Ctrl/Cmd+Shift+O</code> to open the Library, then
+          Import and Backup → <strong>Export Bookmarks to HTML…</strong>
+        </li>
+        <li>
+          <strong>Edge</strong>: Settings → Profiles → Import browser data, or open the Favorites
+          menu (<code>Ctrl+Shift+O</code>), click ⋯, then <strong>Export favorites</strong>.
+        </li>
+        <li>
+          <strong>Safari</strong>: File → Export → <strong>Bookmarks…</strong> (older versions:
+          File → Export Bookmarks…).
+        </li>
+      </ul>
+      <p>
+        All four produce the same kind of file. Drop it into the tool above and you get a searchable
+        table of every link, with its folder path and the date you saved it. Full steps for the
+        Chrome flow are in <a href="/faq/how-do-i-import-chrome-bookmarks">how do I import Chrome
+        bookmarks</a>.
+      </p>
+
+      <h2>What the bookmarks HTML file actually is</h2>
+      <p>
+        The export is a <em>Netscape bookmark file</em> — a format from the 1990s that every browser
+        still reads and writes because it is the lingua franca of bookmark migration. Inside it is
+        plain HTML: folders are <code>&lt;H3&gt;</code> headings, links are <code>&lt;A&gt;</code>
+        tags, and each link carries an <code>ADD_DATE</code> attribute as a Unix timestamp. It is
+        human-readable in a text editor, but painful to actually browse — which is why opening it
+        directly just renders a wall of links. This tool parses that structure and turns it back
+        into something you can search and filter.
+      </p>
+
+      <h2>What to do with the table</h2>
+      <p>
+        The search box filters across titles, URLs, and folder paths as you type — useful for
+        answering "do I already have this saved?" or finding every link from one domain. The CSV
+        export opens in any spreadsheet for sorting by date; the JSON export is the practical
+        choice if you want to script against your bookmarks. If the table reveals duplicates
+        (it usually does), the <a href="/tools/duplicate-bookmark-finder">duplicate bookmark
+        finder</a> takes the same file and removes them.
+      </p>
+
+      <h2>Viewing is the easy part — organizing is the problem</h2>
+      <p>
+        A ten-year-old export typically holds a few thousand links in folders whose logic you no
+        longer remember. Re-foldering them by hand is the chore everyone skips. The alternative:
+        import the same HTML file into <a href="https://app.marqly.com">Marqly</a> and let AI tag
+        and summarize every link automatically, then find any save by describing what you remember —
+        no folders required. The walkthrough is in
+        <a href="/blog/how-to-import-chrome-bookmarks-to-ai">how to import Chrome bookmarks into an
+        AI bookmark manager</a>.
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  type Bookmark = { title: string; url: string; addDate: number | null; folder: string };
+
+  const fileInput = document.getElementById('bv-file') as HTMLInputElement;
+  const searchRow = document.getElementById('bv-search-row')!;
+  const searchInput = document.getElementById('bv-search') as HTMLInputElement;
+  const status = document.getElementById('bv-status')!;
+  const actions = document.getElementById('bv-actions')!;
+  const tableWrap = document.getElementById('bv-table-wrap')!;
+  const tbody = document.getElementById('bv-tbody')!;
+
+  const MAX_ROWS = 1000;
+  let bookmarks: Bookmark[] = [];
+
+  function folderPath(a: Element): string {
+    const parts: string[] = [];
+    let el: Element | null = a.parentElement;
+    while (el) {
+      if (el.tagName === 'DL') {
+        let h3: Element | null = null;
+        const parent: Element | null = el.parentElement;
+        if (parent && parent.tagName === 'DT') {
+          h3 = parent.querySelector(':scope > h3');
+        }
+        if (!h3) {
+          let sib: Element | null = el.previousElementSibling;
+          while (sib && !h3) {
+            if (sib.tagName === 'H3') h3 = sib;
+            else if (sib.tagName === 'DT') h3 = sib.querySelector(':scope > h3');
+            sib = sib.previousElementSibling;
+          }
+        }
+        const label = h3?.textContent?.trim();
+        if (label) parts.unshift(label);
+      }
+      el = el.parentElement;
+    }
+    return parts.join(' / ');
+  }
+
+  function parseBookmarks(html: string): Bookmark[] {
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+    const anchors = Array.from(doc.querySelectorAll('a[href]'));
+    return anchors
+      .map((a) => {
+        const raw = a.getAttribute('add_date');
+        const parsed = raw ? Number.parseInt(raw, 10) : NaN;
+        return {
+          title: a.textContent?.trim() || '(untitled)',
+          url: a.getAttribute('href') ?? '',
+          addDate: Number.isFinite(parsed) ? parsed : null,
+          folder: folderPath(a),
+        };
+      })
+      .filter((b) => /^https?:/i.test(b.url));
+  }
+
+  const fmtDate = (unix: number | null) => {
+    if (unix === null) return '';
+    const d = new Date(unix * 1000);
+    return Number.isNaN(d.getTime()) ? '' : d.toISOString().slice(0, 10);
+  };
+
+  function render() {
+    const q = searchInput.value.trim().toLowerCase();
+    const matches = q
+      ? bookmarks.filter(
+          (b) =>
+            b.title.toLowerCase().includes(q) ||
+            b.url.toLowerCase().includes(q) ||
+            b.folder.toLowerCase().includes(q)
+        )
+      : bookmarks;
+
+    tbody.textContent = '';
+    for (const b of matches.slice(0, MAX_ROWS)) {
+      const tr = document.createElement('tr');
+      const tdTitle = document.createElement('td');
+      tdTitle.textContent = b.title;
+      const tdUrl = document.createElement('td');
+      const link = document.createElement('a');
+      link.href = b.url;
+      link.textContent = b.url.length > 80 ? `${b.url.slice(0, 77)}…` : b.url;
+      link.rel = 'nofollow noopener';
+      link.target = '_blank';
+      tdUrl.appendChild(link);
+      const tdFolder = document.createElement('td');
+      tdFolder.textContent = b.folder;
+      const tdDate = document.createElement('td');
+      tdDate.textContent = fmtDate(b.addDate);
+      tr.append(tdTitle, tdUrl, tdFolder, tdDate);
+      tbody.appendChild(tr);
+    }
+
+    const capped = matches.length > MAX_ROWS ? ` (showing first ${MAX_ROWS} — refine your search)` : '';
+    status.textContent = q
+      ? `${matches.length} of ${bookmarks.length} bookmarks match${capped}`
+      : `${bookmarks.length} bookmarks${capped}`;
+  }
+
+  fileInput.addEventListener('change', async () => {
+    const file = fileInput.files?.[0];
+    if (!file) return;
+    status.classList.remove('is-error');
+    try {
+      bookmarks = parseBookmarks(await file.text());
+      if (bookmarks.length === 0) {
+        status.textContent = 'No bookmarks found in that file — is it a browser bookmarks HTML export?';
+        status.classList.add('is-error');
+        return;
+      }
+      searchRow.classList.remove('hidden');
+      actions.classList.remove('hidden');
+      tableWrap.classList.remove('hidden');
+      searchInput.value = '';
+      render();
+    } catch {
+      status.textContent = 'Could not read that file.';
+      status.classList.add('is-error');
+    }
+  });
+
+  searchInput.addEventListener('input', render);
+
+  function download(content: string, name: string, type: string) {
+    const blob = new Blob([content], { type });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = name;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  }
+
+  const csvCell = (s: string) => `"${s.replace(/"/g, '""')}"`;
+
+  document.getElementById('bv-csv')!.addEventListener('click', () => {
+    const rows = bookmarks.map((b) =>
+      [csvCell(b.title), csvCell(b.url), csvCell(b.folder), csvCell(fmtDate(b.addDate))].join(',')
+    );
+    download(['title,url,folder,added', ...rows].join('\n'), 'bookmarks.csv', 'text/csv');
+  });
+
+  document.getElementById('bv-json')!.addEventListener('click', () => {
+    download(JSON.stringify(bookmarks, null, 2), 'bookmarks.json', 'application/json');
+  });
+</script>

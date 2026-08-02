@@ -1,0 +1,78 @@
+{
+  "name": "Pocket",
+  "slug": "pocket",
+  "aka": ["mozilla-pocket", "getpocket", "read-it-later"],
+  "category": "read-it-later",
+  "status": "shutdown",
+  "shutdownNote": "Mozilla shut down Pocket on July 8, 2025. Saves could be exported until October 8, 2025, after which all user data was permanently deleted. Premium subscribers received prorated refunds.",
+  "website": "https://getpocket.com",
+  "tagline": "Mozilla's read-it-later service, 2007–2025",
+  "pricing": {
+    "free": false,
+    "paid": null,
+    "trial": null,
+    "notes": "No longer for sale — the service shut down in July 2025. Before the shutdown, Pocket had a free tier plus a paid Pocket Premium subscription; Mozilla automatically refunded remaining Premium time pro-rata."
+  },
+  "platforms": ["web", "ios", "android", "chrome", "firefox", "safari"],
+  "features": {
+    "aiAutoTagging": false,
+    "semanticSearch": false,
+    "aiSummaries": false,
+    "youtubeAi": false,
+    "chatWithSaves": false,
+    "highlights": true,
+    "annotationNotes": false,
+    "savePdf": false,
+    "fullTextSearch": true,
+    "tabSaver": false,
+    "publicSharing": false,
+    "importPocket": false,
+    "importBrowserHtml": true,
+    "offlineReading": true,
+    "iosApp": true,
+    "androidApp": true,
+    "browserExtension": true,
+    "freeTier": true,
+    "api": true,
+    "selfHosted": false
+  },
+  "pros": [
+    "Polished free apps on iOS, Android, and the web with a clean, distraction-free reader",
+    "Offline reading that just worked — articles synced to your phone automatically",
+    "Deep Firefox integration and one-click saving from every major browser",
+    "Listen (text-to-speech) turned an article backlog into a hands-free playlist",
+    "Discover surfaced genuinely good long-form recommendations"
+  ],
+  "cons": [
+    "Shut down on July 8, 2025 — the service no longer exists and all remaining user data was deleted after October 8, 2025",
+    "Search was title-and-URL only unless you paid for Premium full-text search",
+    "Tagging was fully manual; suggested tags were a Premium extra",
+    "Highlights were capped at 3 per article on the free plan, with no notes or annotations"
+  ],
+  "bestFor": "No one today — Pocket is gone. Former users need an alternative that can import the Pocket export file they downloaded before October 2025.",
+  "verdict": "A beloved read-it-later pioneer that no longer exists; the practical question is which alternative imports your Pocket export best.",
+  "overview": "Pocket was one of the most popular read-it-later services on the web. Launched in 2007 as Read It Later and acquired by Mozilla in 2017, it let people save articles, videos, and links from any browser or app, then read them later in a clean, distraction-free view — online or offline — on iOS, Android, and the web. A free tier covered core saving and reading, while Pocket Premium added a permanent article archive, full-text search, and suggested tags. Pocket was built into Firefox and grew a large audience around its editorial Discover recommendations. In May 2025 Mozilla announced it was discontinuing the service: Pocket stopped working on July 8, 2025, exports remained available until October 8, 2025, and remaining data was then permanently deleted. Anyone who kept a Pocket export ZIP can still import those saves into most modern bookmark managers and read-it-later apps.",
+  "faqs": [
+    {
+      "q": "What happened to Pocket?",
+      "a": "Mozilla shut Pocket down. The company announced the decision in May 2025, saying it wanted to focus on Firefox; the app and extensions stopped working on July 8, 2025. Users could export their saves until October 8, 2025, after which all remaining data was permanently deleted. Pocket Premium subscribers received automatic prorated refunds."
+    },
+    {
+      "q": "Is Pocket free?",
+      "a": "Pocket no longer exists at any price — free or paid. The service shut down on July 8, 2025 and cannot be downloaded or used. While it operated, Pocket offered a free tier for saving and reading plus a paid Premium plan that added full-text search, a permanent archive, and suggested tags."
+    },
+    {
+      "q": "What is the best Pocket alternative?",
+      "a": "It depends on what you used Pocket for. Instapaper and Matter are the closest pure read-it-later replacements, Raindrop.io suits large bookmark collections, and Marqly is a strong option if you want AI on top — automatic tagging, summaries, and semantic search that finds saves by meaning. All of these can import a Pocket export file."
+    },
+    {
+      "q": "Does Pocket work on iPhone?",
+      "a": "No. The Pocket iOS app stopped working when the service shut down on July 8, 2025, and it has been removed from the App Store. Before the shutdown, Pocket had well-regarded iPhone and iPad apps with offline reading and text-to-speech; former iPhone users now need a replacement read-it-later or bookmarking app."
+    },
+    {
+      "q": "Can I still export my data from Pocket?",
+      "a": "No. The export window closed on October 8, 2025, and Mozilla permanently deleted all remaining user data after that date. If you downloaded your export ZIP (which contains a CSV of your saves) before the deadline, most bookmark managers and read-it-later apps — including Marqly, Raindrop.io, and Instapaper — can import it."
+    }
+  ],
+  "lastVerified": "2026-08-02"
+}

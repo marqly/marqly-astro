@@ -1,0 +1,90 @@
+{
+  "name": "OneTab",
+  "slug": "onetab",
+  "aka": [
+    "one-tab",
+    "onetab-extension",
+    "onetab-chrome",
+    "one-tab-chrome-extension"
+  ],
+  "category": "tab-manager",
+  "status": "active",
+  "shutdownNote": null,
+  "website": "https://www.one-tab.com",
+  "tagline": "One click collapses every open tab into a list — free, no account",
+  "pricing": {
+    "free": true,
+    "paid": null,
+    "trial": null,
+    "notes": "Entirely free: no paid tier, no limits, no account required. The announced end-to-end-encrypted cross-device sync is 'coming soon' with no pricing stated, so whether sync stays free is unknown."
+  },
+  "platforms": [
+    "chrome",
+    "edge",
+    "firefox",
+    "safari"
+  ],
+  "features": {
+    "aiAutoTagging": false,
+    "semanticSearch": false,
+    "aiSummaries": false,
+    "youtubeAi": false,
+    "chatWithSaves": false,
+    "highlights": false,
+    "annotationNotes": true,
+    "savePdf": false,
+    "fullTextSearch": false,
+    "tabSaver": true,
+    "publicSharing": true,
+    "importPocket": false,
+    "importBrowserHtml": false,
+    "offlineReading": false,
+    "iosApp": false,
+    "androidApp": false,
+    "browserExtension": true,
+    "freeTier": true,
+    "api": false,
+    "selfHosted": false
+  },
+  "pros": [
+    "Completely free with no account, no limits, and no upsell — rare in this category",
+    "One-click tab collapse that the developer says cuts browser memory use by up to 95%",
+    "Strong privacy stance: tab URLs are never transmitted to the developers or anyone else unless you deliberately share a list",
+    "Actively developed again — a 2026 v2 rewrite added folders, search, stars, tasks, and dark mode",
+    "Share-as-web-page turns any tab list into an instant public URL for another person or device",
+    "Plain-text export and a 2M+ Chrome install base mean lock-in is close to zero"
+  ],
+  "cons": [
+    "No sync yet — your list lives in one browser profile, and the promised encrypted sync is still 'coming soon'",
+    "Real data-loss risk: uninstalling the extension deletes your stored tabs, and clearing browser data can wipe them too",
+    "Saves URLs and titles only — no page content, snapshots, or full-text search, so a dead link means the content is gone",
+    "No mobile story at all: no iOS or Android app and no web app to view your list from a phone",
+    "The Mac-only Safari app is a minimal port stuck well behind the Chrome version"
+  ],
+  "bestFor": "Anyone drowning in open tabs who wants a free, private, zero-setup way to park them — and doesn't need sync, mobile access, or saved page content.",
+  "verdict": "The best free tab parker ever made; just don't mistake a local URL list for a permanent library.",
+  "overview": "OneTab is a free browser extension from UK-based OneTab Ltd that collapses every open tab into a single list with one click, cutting browser memory use by up to 95% by the developer's estimate. Tabs restore individually or all at once, and any list can be shared as a hosted web page. First released in 2013, it spent years nearly unchanged before a full v2 rewrite in 2026 added folders, in-list search, stars and tasks, and dark mode, with end-to-end-encrypted sync announced as coming soon. It stores only URLs and titles, locally in the browser profile — nothing is transmitted to the developers — and there is no account to create. Extensions exist for Chrome, Edge, and Firefox, plus a Mac-only Safari app that lags well behind. Export is a plain-text URL list. The whole product is free, with more than two million Chrome users, no limits, and no paid tier.",
+  "faqs": [
+    {
+      "q": "Is OneTab free?",
+      "a": "Yes, completely. OneTab has no paid tier, no limits, and doesn't even require an account — you install the extension and it works. The developer has announced encrypted cross-device sync as 'coming soon' without stating whether it will cost anything, but the core tab-collapsing product has been free since 2013 and remains so today."
+    },
+    {
+      "q": "Is OneTab still maintained?",
+      "a": "Yes — and more actively than its reputation suggests. After years of near-silence that earned it an 'abandoned' label, OneTab shipped a full v2 rewrite in 2026 with folders, search, stars, tasks, and dark mode; the Chrome and Firefox extensions were both updated in July 2026. The weak spot is the Mac Safari app, which hasn't been updated since late 2024."
+    },
+    {
+      "q": "What is the best OneTab alternative?",
+      "a": "For richer tab management, Workona adds synced project workspaces and Toby adds visual, shareable collections — both with free tiers. If the tabs you're parking are really things you mean to read or reference later, a bookmark manager fits better: Marqly saves all open tabs in one click, then auto-tags them and makes them findable by semantic search, which a plain URL list can't do."
+    },
+    {
+      "q": "Does OneTab work on iPhone?",
+      "a": "No. There's no iOS app — the App Store listing is a Mac-only Safari app — no Android app, and no web app to log into, since OneTab has no accounts. Your tab list lives inside one desktop browser profile. The only way to see a list on a phone is to share it as a web page first and open that URL."
+    },
+    {
+      "q": "Can I export my data from OneTab?",
+      "a": "Yes, easily. OneTab exports your saved tabs as a plain-text list of URLs with page titles, one per line, which you can copy anywhere and re-import into OneTab on another machine. You can also share any list as a hosted web page. There's no HTML, JSON, or CSV format, but a text list of URLs is about as portable as data gets."
+    }
+  ],
+  "lastVerified": "2026-08-02"
+}

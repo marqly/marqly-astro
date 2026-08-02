@@ -99,4 +99,4 @@ Marqly's bet is that the future of saving links is **retrieval, not storage** 鈥
 
 ---
 
-*Related: [Best AI Bookmark Manager 2026](/blog/best-ai-bookmark-manager-2026) 路 [Pocket vs Marqly](/blog/pocket-vs-marqly) 路 [Raindrop vs Marqly](/blog/raindrop-vs-marqly)*
+*Related: [Best AI Bookmark Manager 2026](/blog/best-ai-bookmark-manager-2026) 路 [Pocket vs Marqly](/compare/marqly-vs-pocket) 路 [Raindrop vs Marqly](/compare/marqly-vs-raindrop)*

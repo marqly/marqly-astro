@@ -1,0 +1,89 @@
+{
+  "name": "Weava",
+  "slug": "weava",
+  "aka": [
+    "weava-highlighter",
+    "weavatools",
+    "weava-highlighter-pdf-web",
+    "weava-chrome-extension"
+  ],
+  "category": "highlighter",
+  "status": "active",
+  "shutdownNote": null,
+  "website": "https://www.weavatools.com",
+  "tagline": "Web and PDF highlighter built for student research",
+  "pricing": {
+    "free": true,
+    "paid": "$3.99/month billed annually or $7.99/month billed monthly",
+    "trial": null,
+    "notes": "Free tier includes unlimited highlights and notes but caps storage at 100 MB, blocks sub-folders, and shows ads. Students get 70% off Premium via an education email. No trial advertised. Pricing page appears untouched since ~2022, so verify billing before subscribing."
+  },
+  "platforms": [
+    "web",
+    "chrome",
+    "edge"
+  ],
+  "features": {
+    "aiAutoTagging": false,
+    "semanticSearch": false,
+    "aiSummaries": false,
+    "youtubeAi": false,
+    "chatWithSaves": false,
+    "highlights": true,
+    "annotationNotes": true,
+    "savePdf": true,
+    "fullTextSearch": false,
+    "tabSaver": false,
+    "publicSharing": false,
+    "importPocket": false,
+    "importBrowserHtml": false,
+    "offlineReading": false,
+    "iosApp": false,
+    "androidApp": false,
+    "browserExtension": true,
+    "freeTier": true,
+    "api": false,
+    "selfHosted": false
+  },
+  "pros": [
+    "Highlights both web pages and PDFs in one tool — still rare among highlighters",
+    "Automatic citation generation in APA, MLA, Chicago, and Harvard formats, built for essay and paper workflows",
+    "Folder and sub-folder organization with color-coded filtering suits structured literature reviews",
+    "Genuinely usable free tier: unlimited highlights and notes, with only storage, sub-folders, and colors gated",
+    "Real 70% student discount, and adoption across 200+ universities",
+    "Exports to Word, Excel, TXT, and CSV even on the free plan"
+  ],
+  "cons": [
+    "Clear maintenance-risk signals: the Chrome extension hasn't been updated since February 2024, the site's copyright still reads 2022, and the former iOS app is delisted",
+    "Recent reviews report disappearing highlights and folders — the last 100 Chrome reviews average around 2.9 stars",
+    "Intrusive ads in the free tier and a dated interface",
+    "Chrome-only ecosystem: no Firefox or Safari extensions, no working mobile apps, no API",
+    "Highlights are tied to exact URLs, so they vanish if a page's address changes"
+  ],
+  "bestFor": "Students on a budget who need to highlight PDFs and web pages side by side and generate citations — and can tolerate an aging, minimally maintained tool.",
+  "verdict": "Still the most student-shaped free highlighter, but the stalled development makes it hard to recommend for anything you can't afford to lose.",
+  "overview": "Weava is a research highlighter made by Weavatools Limited, founded in Hong Kong in 2016 and backed by the Cyberport incubator. Its Chrome extension highlights both web pages and uploaded PDFs in multiple colors, attaches notes to each highlight, and organizes everything into folders and sub-folders in a web dashboard. A citation generator produces APA, MLA, Chicago, and Harvard references, which made it a staple for student essays — the company claims over two million lifetime users across more than 200 universities. Highlights and notes export to Word, Excel, TXT, and CSV on the free plan, which also includes unlimited highlighting with 100 MB of PDF storage. Premium at $3.99 a month billed annually adds unlimited storage, sub-folders, custom colors, and invite-based collaboration, with a 70% student discount. Development has slowed markedly: the extension was last updated in early 2024, there are no Firefox or Safari versions, and the former iOS app is no longer listed.",
+  "faqs": [
+    {
+      "q": "Is Weava free?",
+      "a": "Yes, and the free tier is genuinely usable: unlimited highlights and notes, folder organization, citations, and export to Word, Excel, TXT, and CSV. It caps PDF storage at 100 MB, blocks sub-folders, and shows ads. Premium costs $3.99/month billed annually or $7.99 month-to-month, and students get 70% off by emailing from an education address."
+    },
+    {
+      "q": "Is Weava still maintained?",
+      "a": "Barely, based on public signals. The Chrome extension's last update was February 2024, the website's copyright notice still says 2022, and the former iOS app returns a 404 on the App Store. The service still works, but recent reviews report disappearing highlights and slow support. Treat it as maintenance-mode software and keep exports of anything important."
+    },
+    {
+      "q": "What is the best Weava alternative?",
+      "a": "For students who mainly need free web and PDF highlighting, Glasp and LINER are the closest actively developed highlighters. If the bigger problem is finding your research again, Marqly pairs a six-color highlighter with AI auto-tagging, summaries, and semantic search across everything you save, and it's actively maintained across Chrome, Edge, Firefox, and Safari. Zotero remains the pick for serious citation management."
+    },
+    {
+      "q": "Does Weava work on iPhone?",
+      "a": "Effectively no. Weava's former iOS app has disappeared from the App Store — its listings return 404 errors as of mid-2026 — and there was never an Android app. You can open the web dashboard in mobile Safari to read existing highlights, but capturing new highlights requires the Chrome extension on a desktop browser."
+    },
+    {
+      "q": "Can I export my data from Weava?",
+      "a": "Yes. Highlights and notes export to Word (.docx), Excel, TXT, and CSV, plus formatted citations in APA, MLA, Chicago, and Harvard styles — all available on the free plan. There's no bookmark-HTML or JSON export, but several competing highlighters publish Weava import guides, so migrating your research off the platform is feasible."
+    }
+  ],
+  "lastVerified": "2026-08-02"
+}

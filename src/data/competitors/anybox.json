@@ -1,0 +1,91 @@
+{
+  "name": "Anybox",
+  "slug": "anybox",
+  "aka": [
+    "anybox-app",
+    "any-box",
+    "anybox-for-mac",
+    "anybox-bookmark-manager"
+  ],
+  "category": "bookmark-manager",
+  "status": "active",
+  "shutdownNote": null,
+  "website": "https://anybox.app",
+  "tagline": "Native, privacy-first bookmark manager for Mac, iPhone, and iPad",
+  "pricing": {
+    "free": true,
+    "paid": "$14.99/year, $1.99/month, or $39.99 lifetime",
+    "trial": null,
+    "notes": "Free tier caps at 50 saved links and 12 Anydock slots; no time-limited trial, the free tier serves that role. One universal purchase covers Mac, iPhone, iPad, and Vision Pro."
+  },
+  "platforms": [
+    "mac",
+    "ios",
+    "safari",
+    "chrome",
+    "edge",
+    "firefox"
+  ],
+  "features": {
+    "aiAutoTagging": false,
+    "semanticSearch": false,
+    "aiSummaries": false,
+    "youtubeAi": false,
+    "chatWithSaves": false,
+    "highlights": false,
+    "annotationNotes": true,
+    "savePdf": true,
+    "fullTextSearch": false,
+    "tabSaver": false,
+    "publicSharing": false,
+    "importPocket": true,
+    "importBrowserHtml": true,
+    "offlineReading": true,
+    "iosApp": true,
+    "androidApp": false,
+    "browserExtension": true,
+    "freeTier": true,
+    "api": false,
+    "selfHosted": false
+  },
+  "pros": [
+    "Fast, genuinely native Apple app — 4.7 stars on the App Store, praised for speed and reliable iCloud sync",
+    "Deep macOS integration: Spotlight, widgets, Siri Shortcuts, AppleScript, plus Raycast, Alfred, and PopClip companions",
+    "Archives any bookmark as PDF, web archive, or screenshot — automatically or on demand — for offline access",
+    "Anydock floating quick-access dock, nested tags, and rule-based Smart Lists for power organization",
+    "Privacy-strong by design: no account required, no data collection, sync runs entirely through iCloud",
+    "Exceptional value — $14.99/year or a $39.99 lifetime license undercuts nearly every competitor"
+  ],
+  "cons": [
+    "Apple-only: no Windows, Android, or web app, and Chrome/Edge/Firefox extensions require the Mac app running",
+    "No AI features at all — no auto-tagging, summaries, or semantic search",
+    "No web-page highlighting and no full-text search inside archived pages",
+    "Solo-developer project with no team or collaboration features"
+  ],
+  "bestFor": "All-in Apple users who want a fast, private, native bookmark app with archiving — and don't need AI, collaboration, or cross-platform access.",
+  "verdict": "The best native bookmark manager on Apple platforms, as long as you organize by hand and never need it outside the Apple ecosystem.",
+  "overview": "Anybox is a native bookmark manager for Apple platforms, built by an independent developer and sold as one universal purchase covering Mac, iPhone, iPad, and Vision Pro. Links live in a local-first library organized with nested tags, folders, and rule-based Smart Lists, and each bookmark can be archived as a PDF, web archive, or screenshot for offline access. Sync runs entirely through iCloud, with no account and no data collection. Deep system integration is the signature: Spotlight search, widgets, Siri Shortcuts, AppleScript, x-callback-url, and companions for Raycast, Alfred, and PopClip. A floating dock called Anydock keeps frequent links one click away. Safari gets a first-class extension, while the Chrome, Edge, and Firefox extensions relay saves through the Mac app. Imports cover browser bookmark HTML files and Pocket exports, and the whole library exports to JSON or HTML. The free tier holds 50 links; Pro costs $1.99 a month, $14.99 a year, or $39.99 lifetime.",
+  "faqs": [
+    {
+      "q": "Is Anybox free?",
+      "a": "Anybox has a free tier capped at 50 saved links and 12 Anydock slots. Pro removes the limits and costs $1.99/month, $14.99/year, or $39.99 as a one-time lifetime purchase. It's a universal purchase, so paying once unlocks the Mac, iPhone, iPad, and Vision Pro apps together. There's no time-limited trial — the free tier serves that role."
+    },
+    {
+      "q": "Is Anybox still maintained?",
+      "a": "Yes. Anybox shipped version 2.13 in May 2026 and its public release notes show a steady multi-year update cadence since launching in early 2022. It holds a 4.7-star rating on the App Store. It is an indie project by a solo developer, which cuts both ways: responsive development, but a single point of failure."
+    },
+    {
+      "q": "What is the best Anybox alternative?",
+      "a": "It depends on why you're leaving. If you need Windows, Android, or a real web app, Raindrop.io is the closest cross-platform equivalent. If manual tagging is the pain point, Marqly adds AI auto-tagging, summaries, and semantic search on top of a browser extension and iOS app. For team use, Toby or Workona fit better than any personal bookmark app."
+    },
+    {
+      "q": "Does Anybox work on iPhone?",
+      "a": "Yes. Anybox has a full native iOS app (iOS 17+) with share-sheet saving, home-screen widgets, and a custom keyboard for quick access to links. It syncs with the Mac app through iCloud and is included in the same universal purchase. There is no Android app and no web version, so access outside Apple devices isn't possible."
+    },
+    {
+      "q": "Can I export my data from Anybox?",
+      "a": "Yes. The Mac app exports your entire library as JSON or standard HTML, which any other bookmark manager can import. Saved articles can also be exported to Markdown, and Apple Shortcuts can automate exports. Because data is stored locally and synced via iCloud rather than a proprietary cloud, your bookmarks stay under your control."
+    }
+  ],
+  "lastVerified": "2026-08-02"
+}

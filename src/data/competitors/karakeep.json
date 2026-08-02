@@ -1,0 +1,79 @@
+{
+  "name": "Karakeep",
+  "slug": "karakeep",
+  "aka": ["hoarder", "hoarder-app"],
+  "category": "bookmark-manager",
+  "status": "active",
+  "shutdownNote": null,
+  "website": "https://karakeep.app",
+  "tagline": "The open-source, self-hosted bookmark-everything app with AI tagging",
+  "pricing": {
+    "free": true,
+    "paid": "Self-hosted: free. Karakeep Cloud Pro: $4/month",
+    "trial": null,
+    "notes": "The self-hosted app is fully free and open source; AI features need your own OpenAI-compatible API key or a local Ollama model. Karakeep Cloud (public beta) has a $0 tier capped at 10 bookmarks and a Pro tier at $4/month — the exact annual price is not published."
+  },
+  "platforms": ["web", "chrome", "firefox", "safari", "ios", "android"],
+  "features": {
+    "aiAutoTagging": true,
+    "semanticSearch": true,
+    "aiSummaries": true,
+    "youtubeAi": false,
+    "chatWithSaves": false,
+    "highlights": true,
+    "annotationNotes": true,
+    "savePdf": true,
+    "fullTextSearch": true,
+    "tabSaver": false,
+    "publicSharing": true,
+    "importPocket": true,
+    "importBrowserHtml": true,
+    "offlineReading": true,
+    "iosApp": true,
+    "androidApp": true,
+    "browserExtension": true,
+    "freeTier": true,
+    "api": true,
+    "selfHosted": true
+  },
+  "pros": [
+    "Free, open source, and self-hosted — your bookmarks live on your own server",
+    "AI auto-tagging and summaries via any OpenAI-compatible API or fully local Ollama",
+    "Meilisearch full-text search, with semantic and hybrid modes added in 2026",
+    "Full-page archiving (page copy, screenshot, PDF, even yt-dlp video downloads) fights link rot",
+    "iOS and Android apps plus Chrome, Firefox, and Safari extensions — rare for a self-hosted tool",
+    "REST API, webhooks, CLI, and an MCP server for wiring in AI agents"
+  ],
+  "cons": [
+    "Self-hosting requires Docker and bring-your-own AI keys — real setup work",
+    "The hosted Cloud option is still in public beta, and its free tier caps at 10 bookmarks",
+    "No built-in chat with your saves and no YouTube-specific AI features",
+    "No one-click save-all-tabs from the extension"
+  ],
+  "bestFor": "Self-hosters and privacy-focused tinkerers who want AI tagging, summaries, and full-text search on their own hardware without a subscription.",
+  "verdict": "The best open-source bookmark manager if you're comfortable running Docker — free forever, with real AI features.",
+  "overview": "Karakeep is an open-source \"bookmark everything\" app, launched as Hoarder and renamed in early 2025. It is built for self-hosting: a Docker install stores links, notes, images, videos, and PDFs on your own server, with full-page archiving to guard against link rot. AI does the filing — automatic tagging and summaries run through any OpenAI-compatible API or a local Ollama model, so nothing has to leave your machine. Search is Meilisearch-backed full text, with semantic and hybrid modes added in 2026. Around the core are browser extensions for Chrome, Firefox, and Safari, iOS and Android apps with offline reading, highlights, shareable public lists with RSS feeds, a REST API, and an MCP server for AI agents. Imports cover Pocket, browser bookmark HTML, Omnivore, Instapaper, Linkwarden, and mymind exports. A hosted Karakeep Cloud is in public beta, with a Pro tier at $4 per month.",
+  "faqs": [
+    {
+      "q": "Is Karakeep free?",
+      "a": "Yes — the self-hosted app is completely free, fully featured, and open source. You supply your own server (Docker) and, for AI tagging and summaries, your own OpenAI-compatible API key or a local Ollama model. The hosted Karakeep Cloud has a free tier limited to 10 bookmarks and a Pro tier at $4 per month."
+    },
+    {
+      "q": "Is Karakeep the same as Hoarder?",
+      "a": "Yes. The project launched as Hoarder and was renamed Karakeep in early 2025 after a trademark dispute — same codebase, same maintainers. It is actively developed: version 0.33 shipped in August 2026 with semantic search, following a steady release cadence, and the project has grown past 28,000 GitHub stars."
+    },
+    {
+      "q": "What is the best Karakeep alternative?",
+      "a": "For another self-hosted option, Linkwarden is the closest match. If you would rather skip running a server, Raindrop.io is the polished hosted standard, and Marqly is a strong pick for the AI side — automatic tagging, semantic search, YouTube summaries, and chat with your saves, with no Docker or API keys to manage."
+    },
+    {
+      "q": "Does Karakeep work on iPhone?",
+      "a": "Yes. Karakeep has a native iOS app for browsing, searching, and saving to your library, with offline reading added in 2026, plus a Safari extension for saving from the browser. Both connect to your own server or to Karakeep Cloud. An Android app and Chrome and Firefox extensions are also available."
+    },
+    {
+      "q": "Can I export my data from Karakeep?",
+      "a": "Yes. Settings include a full export in either Karakeep's JSON format or standard Netscape HTML — the format every bookmark manager can import — and exports include your lists. Automated backups are supported too. Since the app is open source and self-hosted, your data also simply lives in your own database."
+    }
+  ],
+  "lastVerified": "2026-08-02"
+}

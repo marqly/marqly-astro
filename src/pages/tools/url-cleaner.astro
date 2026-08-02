@@ -1,0 +1,206 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import ToolShell from '../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, organization, webSite } from '../../lib/schema';
+
+const title = 'URL Cleaner — Strip UTM & Tracking Parameters from Links';
+const description =
+  'Paste URLs and strip utm_*, fbclid, gclid, and 20+ other tracking parameters in one click — free, in your browser. Clean links for sharing and saving.';
+
+const faqs = [
+  {
+    q: 'Will removing these parameters break the link?',
+    a: 'No. Tracking parameters exist for the analytics software on the other end, not for the page — utm_source tells Google Analytics where the click came from, fbclid identifies the Facebook click. The page renders identically without them. Functional parameters (search queries, product IDs, video IDs) are never touched, and #fragments are kept so anchor links still jump to the right section.',
+  },
+  {
+    q: 'Which parameters does it strip?',
+    a: 'Everything starting with utm_, plus fbclid, gclid, gbraid, wbraid, msclkid, twclid, ttclid, yclid, igshid, igsh, si, spm, ref_src, ref_url, li_fat_id, mc_eid, mc_cid, _hsenc, _hsmi, vero_id, oly_enc_id, oly_anon_id, and s_kwcid — the trackers from Google, Meta, Microsoft, TikTok, X, LinkedIn, Mailchimp, HubSpot, and friends. It is a known-bad list, so an obscure tracker could slip through.',
+  },
+  {
+    q: 'What is that si parameter on YouTube links?',
+    a: 'Since 2023, YouTube’s Share button appends ?si= — a source identifier tied to your share action. The video plays fine without it, so this tool removes it. Same story for Instagram’s igsh and Spotify’s si: share-button fingerprints, not functional parts of the link.',
+  },
+  {
+    q: 'Are my URLs sent to a server?',
+    a: 'No. The cleaning happens entirely in your browser with the standard URL API — nothing you paste leaves the page, and nothing is logged. The same privacy posture applies to Marqly itself; see is Marqly safe for how we handle saved data.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: 'Free tools', path: '/tools' },
+    { name: 'URL cleaner', path: '/tools/url-cleaner' },
+  ]),
+  faqPage(faqs),
+];
+---
+
+<LandingLayout title={title} description={description} jsonLd={jsonLd} ogImage="https://www.marqly.com/og/seo/tool-url-cleaner.png">
+  <ToolShell
+    name="URL cleaner"
+    heading="Strip tracking parameters from URLs"
+    sub="Paste links, one per line, and get them back without utm_*, fbclid, gclid, and the rest. Runs entirely in your browser."
+    faqs={faqs}
+    ctaHeading="Save clean links automatically"
+    ctaSub="Marqly saves any page in one click and finds it again by meaning — no tracking-parameter duplicates cluttering your library."
+  >
+    <label for="uc-in">URLs — one per line</label>
+    <textarea id="uc-in" placeholder="https://example.com/article?utm_source=newsletter&utm_medium=email&#10;https://youtu.be/abc123?si=xYz…"></textarea>
+    <div class="tool-actions">
+      <button class="btn btn--primary btn--sm" id="uc-clean" type="button">Clean URLs</button>
+      <button class="btn btn--outline btn--sm hidden" id="uc-copy" type="button">Copy cleaned URLs</button>
+    </div>
+    <p class="tool-status" id="uc-status" role="status"></p>
+    <div class="hidden" id="uc-out-wrap" style="margin-top: var(--space-4);">
+      <label for="uc-out">Cleaned</label>
+      <textarea id="uc-out" readonly></textarea>
+    </div>
+
+    <Fragment slot="content">
+      <h2>What tracking parameters are</h2>
+      <p>
+        Most of the junk after a <code>?</code> in modern links exists to answer one question:
+        <em>where did this click come from?</em> The <code>utm_*</code> family (source, medium,
+        campaign, term, content) is the marketing-attribution standard read by Google Analytics.
+        Click identifiers like <code>fbclid</code> (Facebook), <code>gclid</code> and
+        <code>gbraid</code>/<code>wbraid</code> (Google Ads), <code>msclkid</code> (Microsoft),
+        <code>ttclid</code> (TikTok), and <code>twclid</code> (X) tie the visit to the specific ad
+        or share that produced it. Email platforms add their own — Mailchimp's
+        <code>mc_eid</code> can identify <em>you personally</em> as the newsletter recipient who
+        clicked. None of it changes what the page shows.
+      </p>
+
+      <h2>Why cleaned links are better</h2>
+      <ul>
+        <li>
+          <strong>Sharing</strong> — forwarding a link with <code>mc_eid</code> or
+          <code>si</code> intact forwards a little fingerprint of you and where you found it.
+          A clean link is just the page.
+        </li>
+        <li>
+          <strong>Saving</strong> — the same article bookmarked from a newsletter and from
+          the address bar becomes two "different" URLs. Tracking parameters are the number one
+          source of duplicate bookmarks.
+        </li>
+        <li>
+          <strong>Readability</strong> — a 60-character link beats a 300-character one in a
+          document, a commit message, or a chat.
+        </li>
+      </ul>
+
+      <h2>How this tool decides what to strip</h2>
+      <p>
+        It uses a conservative known-bad list: anything starting with <code>utm_</code> plus a
+        couple dozen named click identifiers from the major ad and email platforms. Parameters not
+        on the list survive, because a query string is often load-bearing —
+        <code>?q=search+terms</code>, <code>?v=videoid</code>, <code>?page=3</code> all change the
+        content. <code>#fragments</code> are kept too, so links that jump to a heading keep
+        working. The trade-off is honest: an exotic tracker we haven't listed will pass through,
+        but the tool will never break a working link.
+      </p>
+
+      <h2>Check the links, then keep them findable</h2>
+      <p>
+        Cleaning URLs pairs well with pruning them — the
+        <a href="/tools/dead-link-checker">dead link checker</a> tests up to 25 links at a time and
+        tells you which ones still resolve. And if the links you're cleaning are headed for a
+        bookmarks library, <a href="https://app.marqly.com">Marqly</a> saves any page in one click
+        and lets you find it later by describing it. On the privacy side, see
+        <a href="/faq/is-marqly-safe">is Marqly safe</a>.
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const input = document.getElementById('uc-in') as HTMLTextAreaElement;
+  const output = document.getElementById('uc-out') as HTMLTextAreaElement;
+  const outWrap = document.getElementById('uc-out-wrap')!;
+  const status = document.getElementById('uc-status')!;
+  const copyBtn = document.getElementById('uc-copy')!;
+
+  const TRACKING = new Set([
+    'si',
+    'fbclid',
+    'gclid',
+    'gbraid',
+    'wbraid',
+    'msclkid',
+    'mc_eid',
+    'mc_cid',
+    'igshid',
+    'igsh',
+    'spm',
+    'ref_src',
+    'ref_url',
+    'twclid',
+    'ttclid',
+    'li_fat_id',
+    'yclid',
+    '_hsenc',
+    '_hsmi',
+    'vero_id',
+    'oly_enc_id',
+    'oly_anon_id',
+    's_kwcid',
+  ]);
+
+  const isTracking = (key: string) => {
+    const k = key.toLowerCase();
+    return k.startsWith('utm_') || TRACKING.has(k);
+  };
+
+  /** Returns the cleaned URL and how many parameters were removed. */
+  function cleanUrl(raw: string): { cleaned: string; removed: number } {
+    let u: URL;
+    try {
+      u = new URL(raw);
+    } catch {
+      return { cleaned: raw, removed: 0 };
+    }
+    const drop: string[] = [];
+    u.searchParams.forEach((_value, key) => {
+      if (isTracking(key)) drop.push(key);
+    });
+    for (const key of drop) u.searchParams.delete(key);
+    return { cleaned: u.toString(), removed: drop.length };
+  }
+
+  document.getElementById('uc-clean')!.addEventListener('click', () => {
+    const lines = input.value
+      .split('\n')
+      .map((l) => l.trim())
+      .filter(Boolean);
+    status.classList.remove('is-error');
+    if (lines.length === 0) {
+      status.textContent = 'Paste at least one URL first.';
+      status.classList.add('is-error');
+      return;
+    }
+    let removed = 0;
+    let unparsed = 0;
+    const cleaned = lines.map((line) => {
+      const r = cleanUrl(line);
+      removed += r.removed;
+      if (r.removed === 0 && !/^https?:\/\//i.test(line)) unparsed++;
+      return r.cleaned;
+    });
+    output.value = cleaned.join('\n');
+    outWrap.classList.remove('hidden');
+    copyBtn.classList.remove('hidden');
+    const parts = [
+      `${cleaned.length} URL${cleaned.length === 1 ? '' : 's'} cleaned`,
+      `${removed} tracking parameter${removed === 1 ? '' : 's'} removed`,
+    ];
+    if (unparsed > 0) parts.push(`${unparsed} line${unparsed === 1 ? '' : 's'} left as-is (not a full URL)`);
+    status.textContent = `${parts.join(' — ')}.`;
+  });
+
+  copyBtn.addEventListener('click', async () => {
+    await navigator.clipboard.writeText(output.value);
+    status.textContent = 'Copied to clipboard.';
+  });
+</script>

@@ -17,13 +17,26 @@
 /Extension  /           301
 /Extension/ /           301
 
-# Thin /vs/ stubs → full comparison articles (301 consolidates SEO, kills cannibalization).
-/vs/raindrop    /blog/raindrop-vs-marqly   301
-/vs/raindrop/   /blog/raindrop-vs-marqly   301
-/vs/pocket      /blog/pocket-vs-marqly     301
-/vs/pocket/     /blog/pocket-vs-marqly     301
-/vs/pinterest   /blog/pinterest-vs-marqly  301
-/vs/pinterest/  /blog/pinterest-vs-marqly  301
+# Thin /vs/ stubs → dedicated /compare/ pages (301 consolidates SEO, kills cannibalization).
+/vs/raindrop    /compare/marqly-vs-raindrop   301
+/vs/raindrop/   /compare/marqly-vs-raindrop   301
+/vs/pocket      /compare/marqly-vs-pocket     301
+/vs/pocket/     /compare/marqly-vs-pocket     301
+/vs/pinterest   /compare/marqly-vs-pinterest  301
+/vs/pinterest/  /compare/marqly-vs-pinterest  301
+
+# 2026-08: "X vs Marqly" blog posts migrated into the dedicated /compare/ engine
+# (one canonical URL per matchup; templates render verified competitor data).
+/blog/pocket-vs-marqly           /compare/marqly-vs-pocket                301
+/blog/pocket-vs-marqly/          /compare/marqly-vs-pocket                301
+/blog/raindrop-vs-marqly         /compare/marqly-vs-raindrop              301
+/blog/raindrop-vs-marqly/        /compare/marqly-vs-raindrop              301
+/blog/obsidian-vs-marqly         /compare/marqly-vs-obsidian-web-clipper  301
+/blog/obsidian-vs-marqly/        /compare/marqly-vs-obsidian-web-clipper  301
+/blog/pinterest-vs-marqly        /compare/marqly-vs-pinterest             301
+/blog/pinterest-vs-marqly/       /compare/marqly-vs-pinterest             301
+/blog/readwise-reader-vs-marqly  /compare/marqly-vs-readwise-reader       301
+/blog/readwise-reader-vs-marqly/ /compare/marqly-vs-readwise-reader       301
 
 # Old Framer blog posts → new AEO posts (301 preserves SEO equity, kills cannibalization).
 /blog/marqly-vs-raindrop.io-the-complete-comparison-guide-(2026)  /blog/raindrop-vs-marqly  301

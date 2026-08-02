@@ -1,0 +1,79 @@
+{
+  "name": "Raindrop.io",
+  "slug": "raindrop",
+  "aka": ["raindrop-io", "raindropio"],
+  "category": "bookmark-manager",
+  "status": "active",
+  "shutdownNote": null,
+  "website": "https://raindrop.io",
+  "tagline": "The all-in-one bookmark manager",
+  "pricing": {
+    "free": true,
+    "paid": "$28/year or $3/month (Pro; App Store pricing $27.99/year, $2.99/month)",
+    "trial": null,
+    "notes": "The free plan is unusually generous — unlimited bookmarks, collections, highlights, and devices. Pro adds full-text search, AI suggestions, permanent page copies, reminders, annotations, and daily backups. Yearly billing is about 20% cheaper than monthly."
+  },
+  "platforms": ["web", "chrome", "edge", "firefox", "safari", "ios", "android", "macos"],
+  "features": {
+    "aiAutoTagging": true,
+    "semanticSearch": false,
+    "aiSummaries": false,
+    "youtubeAi": false,
+    "chatWithSaves": false,
+    "highlights": true,
+    "annotationNotes": true,
+    "savePdf": false,
+    "fullTextSearch": true,
+    "tabSaver": true,
+    "publicSharing": true,
+    "importPocket": true,
+    "importBrowserHtml": true,
+    "offlineReading": false,
+    "iosApp": true,
+    "androidApp": true,
+    "browserExtension": true,
+    "freeTier": true,
+    "api": true,
+    "selfHosted": false
+  },
+  "pros": [
+    "One of the most generous free plans anywhere: unlimited bookmarks, collections, and highlights",
+    "Polished apps on every platform — web, Mac, iOS, Android, and all major browser extensions",
+    "Strong visual organization with covers, nested collections, and multiple view modes",
+    "Public collections make sharing a curated list as easy as sending a link",
+    "Pro is cheap at $28/year and adds permanent copies of saved pages plus daily backups",
+    "Open API and 2,600+ integrations via services like Zapier and IFTTT"
+  ],
+  "cons": [
+    "Search is keyword-based — no semantic search, so you need to remember titles, tags, or exact words",
+    "AI is limited to tag and collection suggestions on Pro; no summaries, no chat, no YouTube features",
+    "Full-text search and annotations are paywalled behind Pro",
+    "Reading experience is basic compared to dedicated read-it-later apps, with no true offline mode"
+  ],
+  "bestFor": "Collectors and visual organizers who file thousands of bookmarks into structured collections and want polished apps everywhere without paying.",
+  "verdict": "The best traditional bookmark filing cabinet — organization is world-class, but finding things still depends on your own tags and keywords.",
+  "overview": "Raindrop.io is a bookmark manager that has been in continuous development since 2013 and is widely treated as the benchmark for organizing links at scale. Bookmarks live in nested collections with cover art, tags, and several view modes, and the free plan is unusually generous: unlimited bookmarks, collections, highlights, and devices, plus import and export. Apps cover the web, Mac, iOS, and Android, with extensions for Chrome, Safari, Firefox, and Edge. The Pro plan — about $28 a year — adds full-text search across saved pages, an AI assistant that suggests tags and collections, permanent archived copies of pages, annotations, reminders, a duplicate finder, and daily backups. Collections can be shared publicly or used collaboratively, and a documented API plus thousands of integrations make it easy to wire into other tools. Raindrop imports from Pocket, browser bookmark HTML files, and most competing services.",
+  "faqs": [
+    {
+      "q": "Is Raindrop.io free?",
+      "a": "Yes — Raindrop.io has one of the most generous free plans in the category: unlimited bookmarks, collections, highlights, and devices, plus import and export. The paid Pro plan costs about $28/year (or $3/month) and adds full-text search, AI tag suggestions, permanent copies of saved pages, annotations, reminders, and daily backups."
+    },
+    {
+      "q": "Is Raindrop.io still active in 2026?",
+      "a": "Yes. Raindrop.io is actively maintained and remains one of the most popular bookmark managers, especially after Pocket shut down in July 2025. It has been developed continuously since 2013, ships apps for web, Mac, iOS, and Android plus all major browser extensions, and continues to receive regular feature updates."
+    },
+    {
+      "q": "What is the best Raindrop.io alternative?",
+      "a": "It depends on what you're missing. Marqly is a strong option if Raindrop's keyword search frustrates you — it auto-tags every save with AI and finds bookmarks semantically, by describing what you remember. Linkwarden suits self-hosters who want full-page archiving, while Instapaper or Readwise Reader fit people who mainly want a reading queue rather than a filing system."
+    },
+    {
+      "q": "Does Raindrop.io work on iPhone?",
+      "a": "Yes. Raindrop.io has a native iOS app with share-sheet saving, collections, tags, and highlights, and it syncs with the web app and browser extensions. Pro pricing through the App Store is $2.99/month or $27.99/year. Saved pages are cached, but there is no dedicated offline reading mode like a read-it-later app."
+    },
+    {
+      "q": "Can I export my data from Raindrop.io?",
+      "a": "Yes, and export is available on the free plan. Raindrop.io exports your bookmarks as HTML or CSV files, which nearly every bookmark manager can import — Marqly, for example, has a dedicated Raindrop import. Pro subscribers additionally get automatic daily backups of their library. There is no lock-in; a full export takes about a minute."
+    }
+  ],
+  "lastVerified": "2026-08-02"
+}

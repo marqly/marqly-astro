@@ -1,0 +1,206 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import ToolShell from '../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, organization, webSite } from '../../lib/schema';
+
+const title = 'Dead Link Checker — Test Up to 25 URLs for Link Rot Free';
+const description =
+  'Paste up to 25 URLs and check which are dead, redirected, or fine — HTTP status for each, free with no signup. Find link rot before your bookmarks decay.';
+
+const faqs = [
+  {
+    q: 'Why is it limited to 25 URLs per run?',
+    a: 'Each URL means a real request from our server, and unbounded batches invite abuse that would slow the tool down for everyone. 25 keeps results fast — a batch usually finishes in a few seconds. For a bigger list, run it in chunks; extra URLs beyond 25 are skipped and reported, never silently dropped.',
+  },
+  {
+    q: 'What does “unreachable” mean?',
+    a: 'The request never got an HTTP response: the domain no longer resolves, the server is down or timing out, or it refused the connection. That is the deepest form of dead — a 404 at least proves a server is alive. Occasionally a site blocks our checker outright, which also reads as unreachable, so spot-check surprises in your own browser.',
+  },
+  {
+    q: 'Does a 403 or 999 status mean the link is dead?',
+    a: 'Not necessarily. Some sites answer automated checkers with 403 (or LinkedIn’s famous 999) while serving the page fine to a human in a browser — bot protection, not link rot. Treat 404 and 410 as reliably dead, unreachable as almost certainly dead, and 403-style rejections as “verify by hand.”',
+  },
+  {
+    q: 'Why does the check run on your server instead of in my browser?',
+    a: 'Browsers enforce CORS: JavaScript on this page is not allowed to read response statuses from other domains, so a purely client-side checker would report mostly false failures. Our server makes the requests and returns each URL’s real status. Only the URLs you submit are sent — nothing else.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: 'Free tools', path: '/tools' },
+    { name: 'Dead link checker', path: '/tools/dead-link-checker' },
+  ]),
+  faqPage(faqs),
+];
+---
+
+<LandingLayout title={title} description={description} jsonLd={jsonLd} ogImage="https://www.marqly.com/og/seo/tool-dead-link-checker.png">
+  <ToolShell
+    name="Dead link checker"
+    heading="Check links for rot"
+    sub="Paste up to 25 URLs, one per line. We request each one and report its status — dead, redirected, or fine."
+    faqs={faqs}
+    ctaHeading="Your bookmarks are rotting quietly"
+    ctaSub="Marqly keeps every save summarized and searchable — so even when a page dies, you still know what it said and why you saved it."
+  >
+    <form id="dl-form">
+      <label for="dl-in">URLs — one per line, up to 25 per run</label>
+      <textarea id="dl-in" placeholder="https://example.com/article&#10;https://old-blog.com/post-from-2014&#10;…"></textarea>
+      <div class="tool-actions">
+        <button class="btn btn--primary btn--sm" type="submit" id="dl-submit">Check links</button>
+      </div>
+      <p class="tool-status" id="dl-status" role="status"></p>
+    </form>
+    <div class="hidden" id="dl-table-wrap" style="overflow-x: auto;">
+      <table class="tool-table">
+        <thead>
+          <tr><th>URL</th><th>Status</th><th>OK</th><th>Redirects to</th></tr>
+        </thead>
+        <tbody id="dl-tbody"></tbody>
+      </table>
+    </div>
+
+    <Fragment slot="content">
+      <h2>What causes link rot</h2>
+      <p>
+        Links die for mundane reasons: sites shut down when hosting bills stop being paid,
+        companies get acquired and fold their blogs, CMS migrations rename every URL without
+        redirects, articles get paywalled or quietly unpublished, and whole domains lapse and get
+        bought by squatters. The scale is bigger than intuition suggests — studies of link rot
+        repeatedly find that roughly a quarter or more of links from a decade ago no longer lead
+        anywhere. Any bookmark collection older than a few years contains dead links; the only
+        question is how many.
+      </p>
+
+      <h2>How to read the results</h2>
+      <ul>
+        <li><strong>200-range</strong> — alive. A ✓ means the server answered successfully.</li>
+        <li>
+          <strong>Redirects</strong> — the page moved; the "redirects to" column shows where it
+          landed. Usually harmless (http→https, www changes), but a redirect to a homepage often
+          means the article itself is gone.
+        </li>
+        <li>
+          <strong>404 / 410</strong> — reliably dead. The server is alive and says the page is not.
+        </li>
+        <li>
+          <strong>403, 429, 999</strong> — ambiguous. Many sites reject automated checkers while
+          serving humans fine. Verify these in your browser before deleting anything.
+        </li>
+        <li>
+          <strong>Unreachable</strong> — no HTTP response at all: dead domain, downed server, or a
+          timeout. Almost always genuinely gone.
+        </li>
+      </ul>
+
+      <h2>Honest limits</h2>
+      <p>
+        This tool checks <strong>up to 25 URLs per run</strong> — paste more and the extras are
+        skipped and counted, not silently ignored. It reports what the server said at this moment,
+        which is not always the truth about content: a page can return 200 while its text has been
+        replaced by a domain-parking ad ("soft 404s" are undetectable from status codes alone).
+        For auditing a whole bookmarks export, pull the URLs out first with the
+        <a href="/tools/bookmark-file-viewer">bookmark file viewer</a> and feed them through in
+        batches.
+      </p>
+
+      <h2>The deeper fix for rotting bookmarks</h2>
+      <p>
+        A link checker tells you a page died; it can't tell you what the page said. That's the
+        argument for saving more than the URL: Marqly attaches an AI summary to every save, so a
+        dead link in your library still carries its content's gist — and
+        <a href="https://app.marqly.com">semantic search</a> still finds it by meaning. Your data
+        stays yours either way; see <a href="/faq/can-i-export-my-data">can I export my data</a>.
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  type CheckResult = {
+    url: string;
+    status: number;
+    ok: boolean;
+    finalUrl?: string;
+    error?: string;
+  };
+  type CheckResponse = { results: CheckResult[]; checked: number; dropped: number };
+
+  const form = document.getElementById('dl-form') as HTMLFormElement;
+  const input = document.getElementById('dl-in') as HTMLTextAreaElement;
+  const submit = document.getElementById('dl-submit') as HTMLButtonElement;
+  const status = document.getElementById('dl-status')!;
+  const tableWrap = document.getElementById('dl-table-wrap')!;
+  const tbody = document.getElementById('dl-tbody')!;
+
+  const MAX = 25;
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const urls = input.value
+      .split('\n')
+      .map((l) => l.trim())
+      .filter(Boolean);
+    status.classList.remove('is-error');
+    tableWrap.classList.add('hidden');
+    if (urls.length === 0) {
+      status.textContent = 'Paste at least one URL first.';
+      status.classList.add('is-error');
+      return;
+    }
+    status.textContent = `Checking ${Math.min(urls.length, MAX)} link${urls.length === 1 ? '' : 's'}…`;
+    submit.disabled = true;
+    try {
+      const res = await fetch('/api/check-links', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ urls }),
+      });
+      const data: unknown = await res.json();
+      if (!res.ok || (typeof data === 'object' && data !== null && 'error' in data)) {
+        const msg =
+          typeof data === 'object' && data !== null && 'error' in data
+            ? String((data as { error: string }).error)
+            : 'Something went wrong.';
+        throw new Error(msg);
+      }
+      const { results, checked, dropped } = data as CheckResponse;
+
+      tbody.textContent = '';
+      let dead = 0;
+      for (const r of results) {
+        if (!r.ok) dead++;
+        const tr = document.createElement('tr');
+        const tdUrl = document.createElement('td');
+        tdUrl.textContent = r.url.length > 70 ? `${r.url.slice(0, 67)}…` : r.url;
+        const tdStatus = document.createElement('td');
+        tdStatus.textContent = r.status === 0 ? 'unreachable' : String(r.status);
+        if (r.error) tdStatus.textContent += ` (${r.error})`;
+        const tdOk = document.createElement('td');
+        tdOk.textContent = r.ok ? '✓' : '✗';
+        tdOk.style.color = r.ok ? 'inherit' : '#b42318';
+        const tdFinal = document.createElement('td');
+        tdFinal.textContent = r.finalUrl && r.finalUrl !== r.url
+          ? r.finalUrl.length > 60
+            ? `${r.finalUrl.slice(0, 57)}…`
+            : r.finalUrl
+          : '';
+        tr.append(tdUrl, tdStatus, tdOk, tdFinal);
+        tbody.appendChild(tr);
+      }
+      tableWrap.classList.remove('hidden');
+      const parts = [`${checked} checked`, `${dead} not OK`];
+      if (dropped > 0) parts.push(`${dropped} over the ${MAX}-URL limit skipped — run them in the next batch`);
+      status.textContent = `${parts.join(' — ')}.`;
+    } catch (err) {
+      status.textContent = err instanceof Error ? err.message : 'Something went wrong.';
+      status.classList.add('is-error');
+    } finally {
+      submit.disabled = false;
+    }
+  });
+</script>

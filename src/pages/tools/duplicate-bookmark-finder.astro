@@ -1,0 +1,263 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import ToolShell from '../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, organization, webSite } from '../../lib/schema';
+
+const title = 'Duplicate Bookmark Finder — Find & Remove Duplicate Bookmarks';
+const description =
+  'Upload your bookmarks HTML export and find duplicate bookmarks instantly — grouped by normalized URL, with a one-click deduplicated file. Free and private.';
+
+const faqs = [
+  {
+    q: 'How does it decide two bookmarks are duplicates?',
+    a: 'URLs are normalized before comparing: the host is lowercased, a trailing slash is stripped, tracking parameters (utm_*, fbclid, gclid) are removed, and #fragments are ignored. So the same article saved from a newsletter link and from the address bar counts as one page. Different query strings that actually change the page are kept apart.',
+  },
+  {
+    q: 'Does the deduplicated file keep my folders?',
+    a: 'No — the download is a flat list, one entry per unique URL, keeping the first occurrence with its title and saved date. Rebuilding a folder tree while merging entries that lived in different folders has no right answer, so we do the honest simple thing. Every browser imports the flat file fine.',
+  },
+  {
+    q: 'Is my bookmarks file uploaded to a server?',
+    a: 'No. Parsing, normalizing, grouping, and generating the deduplicated file all happen in your browser — the file never leaves your machine. There is no account, no quota, and nothing retained after you close the tab. Watch the network inspector if you want proof.',
+  },
+  {
+    q: 'What do I do with the deduplicated file?',
+    a: 'Import it back into your browser (after removing the old bookmarks, or into a fresh folder), or import it into Marqly, which reads standard bookmarks HTML directly and has AI tag and summarize every link so the cleaned pile actually becomes findable. Marqly is free to try, no card required.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: 'Free tools', path: '/tools' },
+    { name: 'Duplicate bookmark finder', path: '/tools/duplicate-bookmark-finder' },
+  ]),
+  faqPage(faqs),
+];
+---
+
+<LandingLayout title={title} description={description} jsonLd={jsonLd} ogImage="https://www.marqly.com/og/seo/tool-duplicate-bookmark-finder.png">
+  <ToolShell
+    name="Duplicate bookmark finder"
+    heading="Find duplicate bookmarks in your export"
+    sub="Upload a bookmarks HTML file, see every duplicate grouped by URL, and download a deduplicated copy. Runs entirely in your browser."
+    faqs={faqs}
+    ctaHeading="Deduplicated — now make it searchable"
+    ctaSub="Import the cleaned file into Marqly and AI tags every link automatically. Find any save by describing it, not by remembering the folder."
+  >
+    <div class="tool-row">
+      <div class="grow">
+        <label for="db-file">Bookmarks HTML file</label>
+        <input id="db-file" type="file" accept=".html,.htm" />
+      </div>
+    </div>
+    <p class="tool-status" id="db-status" role="status"></p>
+    <div class="tool-actions hidden" id="db-actions">
+      <button class="btn btn--primary btn--sm" id="db-download" type="button">
+        Download deduplicated HTML
+      </button>
+    </div>
+    <div class="hidden" id="db-table-wrap" style="overflow-x: auto;">
+      <table class="tool-table">
+        <thead>
+          <tr><th>URL</th><th>Saved as</th><th>Copies</th></tr>
+        </thead>
+        <tbody id="db-tbody"></tbody>
+      </table>
+    </div>
+
+    <Fragment slot="content">
+      <h2>Why duplicate bookmarks pile up</h2>
+      <p>
+        Nobody saves the same page twice on purpose. Duplicates come from the mechanics of saving:
+        you bookmark an article from a newsletter link (with <code>utm_source</code> bolted on),
+        then again months later from the address bar. Sync merges the bookmarks from an old laptop
+        into your current profile. You import an export "just to be safe" on a new machine without
+        deleting anything first. Each of those events looks harmless; ten years of them means an
+        export where a meaningful slice of the file is the same pages under slightly different URLs.
+      </p>
+
+      <h2>How the dedup logic works</h2>
+      <p>
+        Exact string comparison would miss most real duplicates, so each URL is normalized first:
+      </p>
+      <ul>
+        <li>Host lowercased — <code>Example.com</code> and <code>example.com</code> are one site.</li>
+        <li>Trailing slash stripped — <code>/article/</code> equals <code>/article</code>.</li>
+        <li>
+          Tracking parameters removed — <code>utm_*</code>, <code>fbclid</code>, and
+          <code>gclid</code> identify the click, not the page.
+        </li>
+        <li><code>#fragments</code> ignored — they scroll the page, they don't change it.</li>
+      </ul>
+      <p>
+        Bookmarks whose normalized URLs match are grouped, and every group with more than one entry
+        shows in the table with the titles it was saved under. Normalization is deliberately
+        conservative: meaningful query strings (a search, a product ID, a video ID) are kept, so
+        two genuinely different pages on the same domain never merge.
+      </p>
+
+      <h2>What the deduplicated download contains</h2>
+      <p>
+        A standard Netscape bookmarks HTML file — the same format browsers export — with one entry
+        per unique URL, keeping the first occurrence's title and saved date. It is a flat list:
+        folders are flattened, because merging "same URL, three different folders" into a tree has
+        no correct answer. Chrome, Firefox, Edge, and Safari all import it; the import steps are in
+        <a href="/faq/how-do-i-import-chrome-bookmarks">how do I import Chrome bookmarks</a>. To
+        inspect the file before or after, the
+        <a href="/tools/bookmark-file-viewer">bookmark file viewer</a> opens it as a searchable
+        table.
+      </p>
+
+      <h2>After the cleanup</h2>
+      <p>
+        Deduplication fixes the redundancy, not the findability — a flat list of two thousand
+        unique links is still two thousand links. Importing the cleaned file into
+        <a href="https://app.marqly.com">Marqly</a> gets each one tagged and summarized by AI
+        automatically, and semantic search finds "that piece about negotiating a raise" without you
+        remembering its title or where you filed it.
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  type Bookmark = { title: string; url: string; addDate: string | null };
+  type Group = { key: string; entries: Bookmark[] };
+
+  const fileInput = document.getElementById('db-file') as HTMLInputElement;
+  const status = document.getElementById('db-status')!;
+  const actions = document.getElementById('db-actions')!;
+  const tableWrap = document.getElementById('db-table-wrap')!;
+  const tbody = document.getElementById('db-tbody')!;
+
+  let allBookmarks: Bookmark[] = [];
+  let uniqueOrder: Bookmark[] = [];
+
+  const TRACKING = new Set(['fbclid', 'gclid']);
+
+  function normalizeUrl(raw: string): string {
+    try {
+      const u = new URL(raw);
+      u.hash = '';
+      u.hostname = u.hostname.toLowerCase();
+      const drop: string[] = [];
+      u.searchParams.forEach((_value, key) => {
+        const k = key.toLowerCase();
+        if (k.startsWith('utm_') || TRACKING.has(k)) drop.push(key);
+      });
+      for (const key of drop) u.searchParams.delete(key);
+      if (u.pathname !== '/') u.pathname = u.pathname.replace(/\/+$/, '');
+      let s = u.toString();
+      if (u.pathname === '/' && !u.search) s = s.replace(/\/$/, '');
+      return s;
+    } catch {
+      return raw.trim();
+    }
+  }
+
+  function parseBookmarks(html: string): Bookmark[] {
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+    return Array.from(doc.querySelectorAll('a[href]'))
+      .map((a) => ({
+        title: a.textContent?.trim() || '(untitled)',
+        url: a.getAttribute('href') ?? '',
+        addDate: a.getAttribute('add_date'),
+      }))
+      .filter((b) => /^https?:/i.test(b.url));
+  }
+
+  fileInput.addEventListener('change', async () => {
+    const file = fileInput.files?.[0];
+    if (!file) return;
+    status.classList.remove('is-error');
+    try {
+      allBookmarks = parseBookmarks(await file.text());
+    } catch {
+      status.textContent = 'Could not read that file.';
+      status.classList.add('is-error');
+      return;
+    }
+    if (allBookmarks.length === 0) {
+      status.textContent = 'No bookmarks found in that file — is it a browser bookmarks HTML export?';
+      status.classList.add('is-error');
+      tableWrap.classList.add('hidden');
+      actions.classList.add('hidden');
+      return;
+    }
+
+    const byKey = new Map<string, Bookmark[]>();
+    uniqueOrder = [];
+    for (const b of allBookmarks) {
+      const key = normalizeUrl(b.url);
+      const existing = byKey.get(key);
+      if (existing) {
+        existing.push(b);
+      } else {
+        byKey.set(key, [b]);
+        uniqueOrder.push(b);
+      }
+    }
+
+    const dupGroups: Group[] = [];
+    byKey.forEach((entries, key) => {
+      if (entries.length > 1) dupGroups.push({ key, entries });
+    });
+    dupGroups.sort((a, b) => b.entries.length - a.entries.length);
+
+    tbody.textContent = '';
+    for (const g of dupGroups) {
+      const tr = document.createElement('tr');
+      const tdUrl = document.createElement('td');
+      tdUrl.textContent = g.key.length > 90 ? `${g.key.slice(0, 87)}…` : g.key;
+      const tdTitles = document.createElement('td');
+      const titles = Array.from(new Set(g.entries.map((e) => e.title)));
+      tdTitles.textContent =
+        titles.length > 2 ? `${titles.slice(0, 2).join(' · ')} (+${titles.length - 2} more)` : titles.join(' · ');
+      const tdCount = document.createElement('td');
+      tdCount.textContent = String(g.entries.length);
+      tr.append(tdUrl, tdTitles, tdCount);
+      tbody.appendChild(tr);
+    }
+
+    const removable = allBookmarks.length - uniqueOrder.length;
+    if (dupGroups.length === 0) {
+      status.textContent = `${allBookmarks.length} bookmarks checked — no duplicates found. Nice.`;
+      tableWrap.classList.add('hidden');
+      actions.classList.add('hidden');
+    } else {
+      status.textContent = `${allBookmarks.length} bookmarks — ${dupGroups.length} duplicated URLs, ${removable} removable ${removable === 1 ? 'copy' : 'copies'}.`;
+      tableWrap.classList.remove('hidden');
+      actions.classList.remove('hidden');
+    }
+  });
+
+  const esc = (s: string) =>
+    s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+  document.getElementById('db-download')!.addEventListener('click', () => {
+    const lines = uniqueOrder.map((b) => {
+      const date = b.addDate ? ` ADD_DATE="${esc(b.addDate)}"` : '';
+      return `    <DT><A HREF="${esc(b.url)}"${date}>${esc(b.title)}</A>`;
+    });
+    const html = [
+      '<!DOCTYPE NETSCAPE-Bookmark-file-1>',
+      '<!-- Deduplicated by marqly.com/tools/duplicate-bookmark-finder. Folders are flattened. -->',
+      '<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">',
+      '<TITLE>Bookmarks</TITLE>',
+      '<H1>Bookmarks</H1>',
+      '<DL><p>',
+      ...lines,
+      '</DL><p>',
+      '',
+    ].join('\n');
+    const blob = new Blob([html], { type: 'text/html' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'bookmarks-deduplicated.html';
+    a.click();
+    URL.revokeObjectURL(a.href);
+  });
+</script>

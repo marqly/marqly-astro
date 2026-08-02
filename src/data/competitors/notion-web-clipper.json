@@ -1,0 +1,80 @@
+{
+  "name": "Notion Web Clipper",
+  "slug": "notion-web-clipper",
+  "aka": ["notion", "notion-clipper"],
+  "category": "notes",
+  "status": "active",
+  "shutdownNote": null,
+  "website": "https://www.notion.com/web-clipper",
+  "tagline": "Save any page into a Notion database with one click",
+  "pricing": {
+    "free": true,
+    "paid": "Clipper: free. Notion Plus $10/member/mo, Business $20/member/mo (billed annually)",
+    "trial": null,
+    "notes": "The clipper works with any Notion account, including the generous free plan. Full Notion AI — chat, summaries, AI search — is bundled only with Business and above; Free and Plus get a trial. Monthly billing costs more than the annual rates shown."
+  },
+  "platforms": ["web", "chrome", "safari", "ios", "android", "windows", "mac"],
+  "features": {
+    "aiAutoTagging": false,
+    "semanticSearch": true,
+    "aiSummaries": true,
+    "youtubeAi": false,
+    "chatWithSaves": true,
+    "highlights": false,
+    "annotationNotes": true,
+    "savePdf": false,
+    "fullTextSearch": true,
+    "tabSaver": false,
+    "publicSharing": true,
+    "importPocket": false,
+    "importBrowserHtml": true,
+    "offlineReading": true,
+    "iosApp": true,
+    "androidApp": true,
+    "browserExtension": true,
+    "freeTier": true,
+    "api": true,
+    "selfHosted": false
+  },
+  "pros": [
+    "Completely free — the clipper costs nothing and Notion's free plan is generous for personal use",
+    "Clips land in databases, so saved links get Notion's tags, properties, views, and filters",
+    "Reading list lives beside your notes, projects, and tasks in one workspace",
+    "Notion AI (Business plan) can chat over and summarize clipped content",
+    "Official API plus mobile share-sheet saving on iOS and Android",
+    "Offline mode arrived in 2025 on all plans"
+  ],
+  "cons": [
+    "The clipper is bare-bones: no tags, notes, highlights, or screenshots at clip time — just a destination picker",
+    "Clip fidelity varies; Notion's own docs warn formatting and content can go missing",
+    "Official browser support has narrowed to Chrome and Safari",
+    "Meaningful AI search and chat require the $20/member/month Business plan",
+    "Saving to large databases can be slow"
+  ],
+  "bestFor": "Notion users who want a reading list inside the workspace they already use, and are happy to organize clips with database properties themselves.",
+  "verdict": "The obvious choice if your life is already in Notion — but as a dedicated bookmarking tool, it is thin at capture time and drops formatting too often.",
+  "overview": "Notion Web Clipper is the free browser extension for saving web pages into Notion, officially supported on Chrome and Safari, with the Notion mobile apps handling saves through the iOS and Android share sheets. Clips land as pages in whatever database you choose, which is the draw: saved links inherit Notion's tables, tags, views, and filters, so a reading list can live beside project notes and tasks. The clipper itself is minimal — it grabs the page and lets you pick a destination, with tags, properties, and comments added afterward inside Notion. Formatting fidelity varies, and PDFs and screenshots are out of scope. The backend has grown: offline mode arrived in 2025 on all plans, and Notion AI — chat, summaries, and AI search across your workspace — is bundled into the Business plan at $20 per member per month. The Free plan is generous for personal use; Plus is $10 per member per month billed annually.",
+  "faqs": [
+    {
+      "q": "Is Notion Web Clipper free?",
+      "a": "Yes. The extension is free and works with any Notion account, including the free plan, which is generous enough for a personal reading list. Paid plans — Plus at $10 per member per month and Business at $20 (billed annually) — matter mainly if you need collaboration features or full Notion AI, which is bundled with Business."
+    },
+    {
+      "q": "Is Notion Web Clipper still maintained?",
+      "a": "Yes, though it stays deliberately minimal. Notion maintains the clipper for Chrome and Safari — Firefox support has been dropped from the official lineup — while investing heavily in the backend: offline mode shipped in 2025, and Notion AI and agents are under rapid development. Expect the clipper to keep working, but not to gain capture features quickly."
+    },
+    {
+      "q": "What is the best Notion Web Clipper alternative?",
+      "a": "For richer capture into a note system, Evernote Web Clipper (five browsers, screenshots, clip-time tags) and Obsidian Web Clipper (free, local Markdown) both beat it at the moment of saving. If the goal is saving links you can actually find again, Marqly is a strong option — AI auto-tags and summarizes every save and semantic search finds it by meaning."
+    },
+    {
+      "q": "Does Notion Web Clipper work on iPhone?",
+      "a": "Not as a browser extension, but the equivalent is built into the Notion iOS app: share any page from Safari or another app to Notion via the share sheet and it saves to the database you choose, just like the desktop clipper. The same works on Android. Clipped pages then sync across all your devices."
+    },
+    {
+      "q": "Can I export my data from Notion?",
+      "a": "Yes. Notion exports content as Markdown, HTML, CSV (for databases, including a clippings database), and PDF on every plan, and you can export an entire workspace at once. Clipped articles export with their converted text. Since clips are stored as regular Notion pages, they are as portable as the rest of your workspace."
+    }
+  ],
+  "lastVerified": "2026-08-02"
+}

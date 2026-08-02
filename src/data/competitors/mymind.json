@@ -1,0 +1,80 @@
+{
+  "name": "mymind",
+  "slug": "mymind",
+  "aka": ["my-mind", "mymind-app"],
+  "category": "visual",
+  "status": "active",
+  "shutdownNote": null,
+  "website": "https://mymind.com",
+  "tagline": "The extension of your mind — a private, visual home for everything you save",
+  "pricing": {
+    "free": true,
+    "paid": "The Bookmarker $4.99/mo; Student of Life $7.99/mo or $79/yr; Mastermind $12.99/mo or $129/yr",
+    "trial": null,
+    "notes": "Every account starts on a free \"guest plan\" capped at 100 cards — free forever, not a timed trial. AI tagging starts on Student of Life; AI summaries, reading mode, article backup, and the PDF analyzer require Mastermind. The Bookmarker tier has no AI features."
+  },
+  "platforms": ["web", "chrome", "edge", "safari", "ios", "android", "mac"],
+  "features": {
+    "aiAutoTagging": true,
+    "semanticSearch": true,
+    "aiSummaries": true,
+    "youtubeAi": false,
+    "chatWithSaves": false,
+    "highlights": false,
+    "annotationNotes": true,
+    "savePdf": true,
+    "fullTextSearch": true,
+    "tabSaver": false,
+    "publicSharing": false,
+    "importPocket": false,
+    "importBrowserHtml": false,
+    "offlineReading": false,
+    "iosApp": true,
+    "androidApp": true,
+    "browserExtension": true,
+    "freeTier": true,
+    "api": true,
+    "selfHosted": false
+  },
+  "pros": [
+    "Gorgeous visual canvas — the best-looking way to save images, links, and ideas",
+    "AI recognizes objects, colors, brands, and text inside images, so visual saves are searchable",
+    "Zero-filing philosophy: no folders, no manual organizing, AI tags everything",
+    "Hard privacy stance — no ads, no tracking, no social features, funded only by memberships",
+    "Apps on web, Mac, iOS, and Android plus Chrome, Edge, and Safari extensions",
+    "A read/write API entered beta in mid-2026, opening up automation"
+  ],
+  "cons": [
+    "No bulk import by design — you cannot bring in Pocket, Raindrop, or browser bookmarks",
+    "Nothing can be shared — no public boards, no collaboration of any kind",
+    "AI features are gated to the $7.99+/month plans, with summaries at $12.99/month",
+    "Export is a one-way CSV plus files, and only works from desktop Chrome or Edge",
+    "Free guest plan caps at 100 cards"
+  ],
+  "bestFor": "Designers and visual thinkers who save more images and inspiration than articles, and who value privacy and aesthetics over organization features.",
+  "verdict": "The most beautiful private saving tool there is — as long as you never need to import, share, or collaborate.",
+  "overview": "mymind is a private, visual saving tool that calls itself \"the extension of your mind.\" Everything you save — bookmarks, images, quotes, notes, PDFs — lands as a card on one searchable visual canvas. There are no folders and no manual filing: AI tags each card automatically and recognizes objects, colors, brands, and text inside images, so you retrieve things by describing what you remember. The product is deliberately single-player: nothing is shareable, there are no social features or ads, and the company is funded only by memberships. Apps cover the web, Mac, iOS, and Android, with extensions for Chrome, Edge, and Safari. Every account starts on a free 100-card guest plan; paid plans run from $4.99 to $12.99 per month, with AI summaries, reading mode, and a PDF analyzer reserved for the top Mastermind tier. A read/write API entered beta in mid-2026. Bulk import is deliberately unsupported.",
+  "faqs": [
+    {
+      "q": "Is mymind free?",
+      "a": "Partly. Every account starts on a free \"guest plan\" capped at 100 cards — free forever, not a timed trial, but without reading mode or advanced AI. Paid plans run from The Bookmarker at $4.99/month (no AI) through Student of Life at $7.99/month or $79/year to Mastermind at $12.99/month or $129/year."
+    },
+    {
+      "q": "Can I import bookmarks into mymind?",
+      "a": "No. mymind deliberately supports no mass-import — not from Pocket, Raindrop, browser bookmarks, or anywhere else. The company argues a fresh start beats migrating clutter. The API that entered beta in July 2026 makes scripted imports technically possible, but there is no official import tool, so switching means starting over or writing code."
+    },
+    {
+      "q": "What is the best mymind alternative?",
+      "a": "For visual saving with sharing, Raindrop.io offers card-style boards plus collaboration. Karakeep suits self-hosters. Marqly is a strong option if you like mymind's AI-does-the-filing idea but want more: automatic tagging and summaries plus semantic search, with Pocket and browser-bookmark imports and shareable boards that mymind deliberately omits."
+    },
+    {
+      "q": "Does mymind work on iPhone?",
+      "a": "Yes. mymind has a native iOS app for saving and browsing your cards, alongside an Android app, a Mac app, the web app, and browser extensions for Chrome, Edge, and Safari. Firefox is only supported through a manually installed extension file after the add-on was pulled from Mozilla's store."
+    },
+    {
+      "q": "Can I export my data from mymind?",
+      "a": "Yes, with limits. From your account page you can download all your files — images and PDFs — plus a cards.csv containing your notes, quotes, bookmark links, and text highlights. Export only works from desktop Chrome or Edge, and there is no re-import format, so treat it as a one-way backup rather than a migration path."
+    }
+  ],
+  "lastVerified": "2026-08-02"
+}

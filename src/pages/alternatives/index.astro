@@ -1,0 +1,102 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import Breadcrumbs from '../../components/seo/Breadcrumbs.astro';
+import CtaBox from '../../components/seo/CtaBox.astro';
+import { competitors } from '../../lib/competitors';
+import { breadcrumbList, itemList, organization, webSite } from '../../lib/schema';
+
+const shutdown = competitors.filter((c) => c.status === 'shutdown');
+const active = competitors.filter((c) => c.status === 'active');
+
+const title = 'Alternatives to Every Bookmark Manager & Read-It-Later App (2026)';
+const description =
+  'Honest, ranked alternatives to Pocket, Raindrop, Instapaper, Readwise Reader, and every other bookmarking tool — compared on features, pricing, and imports.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Alternatives', path: '/alternatives' },
+];
+const jsonLd = [
+  organization(),
+  webSite(),
+  breadcrumbList(crumbs),
+  itemList(competitors.map((c) => `${c.name} alternatives`), '/alternatives'),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  ogImage="https://www.marqly.com/og/seo/hub-alternatives.png"
+>
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs items={crumbs} />
+      <header class="head">
+        <h1>Find your next tool.</h1>
+        <p>
+          Ranked alternatives for every major bookmarking, read-it-later, and highlighting tool
+          — including the ones that shut down. Each guide compares real features and pricing,
+          and tells you honestly which alternative fits which job.
+        </p>
+      </header>
+
+      {shutdown.length > 0 && (
+        <>
+          <h2>Tools that shut down</h2>
+          <p class="note">These tools are gone — their users need a new home first.</p>
+          <ul class="grid">
+            {shutdown.map((c) => (
+              <li>
+                <a class="card" href={`/alternatives/${c.slug}`}>
+                  <h3>{c.name} alternatives</h3>
+                  <p>{c.shutdownNote}</p>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+
+      <h2>All alternatives guides</h2>
+      <ul class="grid">
+        {active.map((c) => (
+          <li>
+            <a class="card" href={`/alternatives/${c.slug}`}>
+              <h3>{c.name} alternatives</h3>
+              <p>{c.tagline}</p>
+            </a>
+          </li>
+        ))}
+      </ul>
+
+      <CtaBox />
+    </div>
+  </section>
+</LandingLayout>
+
+<style>
+  .head { max-width: 60ch; margin-bottom: var(--space-12); }
+  .head h1 { font-size: var(--fs-3xl); font-weight: 600; letter-spacing: var(--tracking-tight); color: var(--ink-1); }
+  .head p { margin-top: var(--space-4); font-size: var(--fs-md); color: var(--ink-2); }
+  h2 { font-size: var(--fs-xl); font-weight: 600; color: var(--ink-1); margin: var(--space-10) 0 var(--space-3); }
+  .note { font-size: var(--fs-sm); color: var(--ink-3); margin-bottom: var(--space-5); }
+  .grid {
+    list-style: none; margin: 0; padding: 0;
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-4);
+  }
+  .card {
+    display: block; height: 100%;
+    background: var(--surface-1);
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-md);
+    padding: var(--space-5);
+    transition: border-color var(--dur-base) var(--ease-out), transform var(--dur-fast) var(--ease-out);
+  }
+  .card:hover { border-color: var(--border-2); transform: translateY(-2px); }
+  .card h3 { font-size: var(--fs-md); font-weight: 600; color: var(--ink-1); }
+  .card p { margin-top: var(--space-2); font-size: var(--fs-sm); color: var(--ink-3); line-height: var(--lh-base); }
+  @media (max-width: 1000px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 620px) { .grid { grid-template-columns: 1fr; } }
+</style>

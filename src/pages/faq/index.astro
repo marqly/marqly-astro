@@ -1,0 +1,134 @@
+---
+import { getCollection } from 'astro:content';
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import Breadcrumbs from '../../components/seo/Breadcrumbs.astro';
+import CtaBox from '../../components/seo/CtaBox.astro';
+import { breadcrumbList, faqPage, organization, webSite } from '../../lib/schema';
+
+const entries = await getCollection('faq', ({ data }) => !data.draft);
+
+const CATEGORY_ORDER = ['basics', 'features', 'getting-started', 'pricing', 'trust', 'company'] as const;
+const CATEGORY_LABELS: Record<string, string> = {
+  basics: 'Bookmarking basics',
+  features: 'Features',
+  'getting-started': 'Getting started',
+  pricing: 'Pricing & billing',
+  trust: 'Privacy & trust',
+  company: 'Company & support',
+};
+
+const groups = CATEGORY_ORDER.map((cat) => ({
+  cat,
+  label: CATEGORY_LABELS[cat],
+  items: entries
+    .filter((e) => e.data.category === cat)
+    .sort((a, b) => a.data.question.localeCompare(b.data.question)),
+})).filter((g) => g.items.length > 0);
+
+const title = 'Marqly FAQ — Every Question, Answered';
+const description =
+  'Everything about Marqly: pricing, the free tier, imports from Pocket and Chrome, semantic search, YouTube summaries, highlights, privacy, and more.';
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: 'FAQ', path: '/faq' },
+  ]),
+  faqPage(entries.map((e) => ({ q: e.data.question, a: e.data.description }))),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  ogImage="https://www.marqly.com/og/seo/hub-faq.png"
+>
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs items={[{ name: 'Home', path: '/' }, { name: 'FAQ', path: '/faq' }]} />
+      <header class="faq-head">
+        <h1>Questions, answered.</h1>
+        <p>
+          Everything about how Marqly works, what it costs, and how to switch from the tool
+          you're using now. Every answer here is a full page you can share.
+        </p>
+      </header>
+
+      {groups.map((g) => (
+        <section class="faq-group" aria-labelledby={`cat-${g.cat}`}>
+          <h2 id={`cat-${g.cat}`}>{g.label}</h2>
+          <ul class="faq-cards">
+            {g.items.map((e) => (
+              <li>
+                <a href={`/faq/${e.id}`} class="faq-card">
+                  <h3>{e.data.question}</h3>
+                  <p>{e.data.description}</p>
+                  <span class="more">Read the full answer →</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+
+      <CtaBox />
+    </div>
+  </section>
+</LandingLayout>
+
+<style>
+  .faq-head { max-width: 60ch; margin-bottom: var(--space-12); }
+  .faq-head h1 {
+    font-size: var(--fs-3xl);
+    font-weight: 600;
+    letter-spacing: var(--tracking-tight);
+    color: var(--ink-1);
+  }
+  .faq-head p { margin-top: var(--space-4); font-size: var(--fs-md); color: var(--ink-2); }
+
+  .faq-group { margin-bottom: var(--space-14); }
+  .faq-group h2 {
+    font-size: var(--fs-xl);
+    font-weight: 600;
+    color: var(--ink-1);
+    margin-bottom: var(--space-6);
+  }
+  .faq-cards {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-4);
+  }
+  .faq-card {
+    display: block;
+    height: 100%;
+    background: var(--surface-1);
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-md);
+    padding: var(--space-5);
+    transition: border-color var(--dur-base) var(--ease-out), transform var(--dur-fast) var(--ease-out);
+  }
+  .faq-card:hover { border-color: var(--border-2); transform: translateY(-2px); }
+  .faq-card h3 { font-size: var(--fs-md); font-weight: 600; color: var(--ink-1); }
+  .faq-card p {
+    margin-top: var(--space-2);
+    font-size: var(--fs-sm);
+    color: var(--ink-3);
+    line-height: var(--lh-base);
+  }
+  .faq-card .more {
+    display: inline-block;
+    margin-top: var(--space-3);
+    font-size: var(--fs-xs);
+    font-weight: 500;
+    color: var(--ink-2);
+  }
+
+  @media (max-width: 1000px) { .faq-cards { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 620px) { .faq-cards { grid-template-columns: 1fr; } }
+</style>

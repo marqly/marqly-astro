@@ -1,0 +1,58 @@
+{
+  "name": "Marqly",
+  "slug": "marqly",
+  "aka": [],
+  "category": "bookmark-manager",
+  "status": "active",
+  "shutdownNote": null,
+  "website": "https://www.marqly.com",
+  "tagline": "The AI bookmark manager — save once, find it instantly",
+  "pricing": {
+    "free": true,
+    "paid": "$48/year (≈$4/mo) or $8/month",
+    "trial": "7-day free trial of Pro",
+    "notes": "Free tier needs no card; Pro unlocks chat with saves and video chat."
+  },
+  "platforms": ["web", "chrome", "edge", "firefox", "safari", "ios"],
+  "features": {
+    "aiAutoTagging": true,
+    "semanticSearch": true,
+    "aiSummaries": true,
+    "youtubeAi": true,
+    "chatWithSaves": true,
+    "highlights": true,
+    "annotationNotes": true,
+    "savePdf": true,
+    "fullTextSearch": true,
+    "tabSaver": true,
+    "publicSharing": true,
+    "importPocket": true,
+    "importBrowserHtml": true,
+    "offlineReading": false,
+    "iosApp": true,
+    "androidApp": false,
+    "browserExtension": true,
+    "freeTier": true,
+    "api": false,
+    "selfHosted": false
+  },
+  "pros": [
+    "Semantic search finds saves by meaning — describe what you remember, no exact titles needed",
+    "AI tags and summarizes every save automatically, so nothing needs manual filing",
+    "YouTube AI card puts summaries, transcript, and Q&A right on the watch page",
+    "Highlights in 6 colors persist on the page itself and sync to your library",
+    "Screen-faithful save-as-PDF handled locally in the browser",
+    "One-click imports from Pocket, Raindrop, and browser bookmark files"
+  ],
+  "cons": [
+    "No Android app yet (the web app works in Android browsers)",
+    "No offline reading mode",
+    "No public API or self-hosting option",
+    "Chat with saves and video chat require Pro"
+  ],
+  "bestFor": "Anyone who saves more than they can organize — researchers, students, and heavy readers who want to find things again by describing them.",
+  "verdict": "The strongest pick when finding saves again matters more than filing them.",
+  "overview": "Marqly is an AI bookmark manager built around a browser extension for Chrome, Edge, Firefox, and Safari, plus a web app and an iOS app. Every save is tagged and summarized automatically, and semantic search lets you retrieve any bookmark by describing what you remember instead of matching exact keywords. On YouTube, an AI card next to the player adds a streaming summary, a playback-synced transcript, and transcript-grounded chat. A built-in highlighter marks up any website in six colors with notes that persist across visits, boards collect links and highlights into shareable public pages, and any page can be captured as a clean PDF locally in the browser. Imports from Pocket, Raindrop, and standard browser bookmark exports make switching quick. A free tier requires no card; Pro is $48/year or $8/month with a 7-day trial.",
+  "faqs": [],
+  "lastVerified": "2026-08-02"
+}

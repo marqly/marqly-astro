@@ -1,0 +1,169 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import ToolShell from '../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, organization, webSite } from '../../lib/schema';
+
+const title = 'Free YouTube Transcript Viewer — Copy Any Video Transcript';
+const description =
+  'Paste a YouTube link and get the full transcript free — no signup. Copy it, download it, or get transcripts automatically on every video with Marqly.';
+
+const faqs = [
+  {
+    q: 'How do I get the transcript of a YouTube video?',
+    a: 'Paste the video URL into the tool above and it fetches the caption track YouTube already has for the video. You can copy the whole transcript or download it as a text file. For transcripts on every video without leaving YouTube, the Marqly extension adds a playback-synced transcript tab right on the watch page.',
+  },
+  {
+    q: 'Why does it say no captions were found?',
+    a: 'Some videos have captions disabled by the uploader, and very new uploads may not have auto-captions yet. If the video shows captions on YouTube but the tool fails, YouTube may be rate-limiting our server — the Marqly extension reads captions directly in your browser, which avoids that entirely.',
+  },
+  {
+    q: 'Does this work with auto-generated captions?',
+    a: 'Yes. If the uploader added manual captions we prefer those; otherwise the tool falls back to YouTube’s auto-generated track. Auto-captions occasionally mis-hear words, so double-check names and technical terms against the video.',
+  },
+  {
+    q: 'Is this really free?',
+    a: 'Yes — no signup, no watermark, no daily paywall. It exists because Marqly’s extension does this (plus AI summaries and transcript-grounded chat) on every YouTube page, and we’d rather show you than tell you.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: 'Free tools', path: '/tools' },
+    { name: 'YouTube transcript viewer', path: '/tools/youtube-transcript' },
+  ]),
+  faqPage(faqs),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  ogImage="https://www.marqly.com/og/seo/tool-youtube-transcript.png"
+>
+  <ToolShell
+    name="YouTube transcript viewer"
+    heading="Get any YouTube video's transcript"
+    sub="Paste a link, get the full transcript. Free, no signup. Copy it or download it as text."
+    faqs={faqs}
+    ctaHeading="Want the transcript on every video, automatically?"
+    ctaSub="The Marqly extension adds a transcript tab — plus an AI summary and chat — right on the YouTube watch page. Free to install."
+  >
+    <form id="yt-form">
+      <div class="tool-row">
+        <div class="grow">
+          <label for="yt-url">YouTube video URL</label>
+          <input id="yt-url" type="url" placeholder="https://www.youtube.com/watch?v=…" required />
+        </div>
+        <button class="btn btn--primary" type="submit">Get transcript</button>
+      </div>
+      <p class="tool-status" id="yt-status" role="status"></p>
+    </form>
+    <div class="tool-actions hidden" id="yt-actions">
+      <button class="btn btn--outline btn--sm" id="yt-copy" type="button">Copy transcript</button>
+      <button class="btn btn--outline btn--sm" id="yt-download" type="button">Download .txt</button>
+      <label style="display:inline-flex;align-items:center;gap:.4rem;margin:0;font-weight:400;">
+        <input type="checkbox" id="yt-stamps" checked style="width:auto;" /> timestamps
+      </label>
+    </div>
+    <div class="tool-output hidden" id="yt-out" aria-live="polite"></div>
+
+    <Fragment slot="content">
+      <h2>How to get a YouTube transcript</h2>
+      <ol>
+        <li>Copy the video's URL from the address bar or the Share button.</li>
+        <li>Paste it above and press <strong>Get transcript</strong>.</li>
+        <li>Copy the text, or download it as a <code>.txt</code> file with or without timestamps.</li>
+      </ol>
+      <p>
+        The tool reads the caption track YouTube already generated for the video — the same data
+        behind the "Show transcript" panel on YouTube, without the clicking, scrolling, and
+        one-line-at-a-time copying. It works with manual captions and auto-generated ones, in
+        whatever language the uploader provided.
+      </p>
+
+      <h2>What people use transcripts for</h2>
+      <ul>
+        <li><strong>Skimming before watching</strong> — a 40-minute talk is a 4-minute read.</li>
+        <li><strong>Quoting accurately</strong> — pull exact wording for notes, essays, or articles.</li>
+        <li><strong>Studying</strong> — search lecture videos for the term you need instead of scrubbing.</li>
+        <li><strong>Feeding AI</strong> — paste a transcript into a chatbot to ask questions about the video. (Marqly's <a href="/faq/how-do-i-chat-with-a-youtube-video">chat tab</a> does this in place, grounded in the transcript.)</li>
+      </ul>
+
+      <h2>The faster way: transcripts on the watch page</h2>
+      <p>
+        If you do this more than occasionally, the copy-paste loop gets old. The
+        <a href="/youtube-summarizer">Marqly extension</a> adds an AI card next to every YouTube
+        video with a playback-synced transcript tab (one-click copy), a streaming AI summary,
+        and a chat tab that answers questions from the transcript. Saving the video keeps the
+        transcript attached, so <a href="/blog/how-to-search-bookmarks-with-ai">semantic search</a>
+        can find "that video where he explains index funds with the buckets" months later. See
+        also: <a href="/blog/how-to-get-youtube-video-transcript">every way to get a YouTube
+        transcript</a>.
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const form = document.getElementById('yt-form') as HTMLFormElement;
+  const input = document.getElementById('yt-url') as HTMLInputElement;
+  const status = document.getElementById('yt-status')!;
+  const out = document.getElementById('yt-out')!;
+  const actions = document.getElementById('yt-actions')!;
+  const stamps = document.getElementById('yt-stamps') as HTMLInputElement;
+
+  let segments: { start: number; text: string }[] = [];
+  let videoTitle = 'transcript';
+
+  const fmt = (s: number) =>
+    `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
+
+  const renderText = (withStamps: boolean) =>
+    segments.map((s) => (withStamps ? `[${fmt(s.start)}] ${s.text}` : s.text)).join('\n');
+
+  const render = () => {
+    out.textContent = renderText(stamps.checked);
+  };
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    status.textContent = 'Fetching transcript…';
+    status.classList.remove('is-error');
+    out.classList.add('hidden');
+    actions.classList.add('hidden');
+    try {
+      const res = await fetch(`/api/youtube-transcript?v=${encodeURIComponent(input.value)}`);
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error ?? 'Something went wrong.');
+      segments = data.segments;
+      videoTitle = data.title ?? 'transcript';
+      status.textContent = `${data.title}${data.auto ? ' (auto-generated captions)' : ''} — ${segments.length} lines`;
+      render();
+      out.classList.remove('hidden');
+      actions.classList.remove('hidden');
+    } catch (err) {
+      status.textContent = err instanceof Error ? err.message : 'Something went wrong.';
+      status.classList.add('is-error');
+    }
+  });
+
+  stamps.addEventListener('change', render);
+
+  document.getElementById('yt-copy')!.addEventListener('click', async () => {
+    await navigator.clipboard.writeText(renderText(stamps.checked));
+    status.textContent = 'Copied to clipboard.';
+  });
+
+  document.getElementById('yt-download')!.addEventListener('click', () => {
+    const blob = new Blob([renderText(stamps.checked)], { type: 'text/plain' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = `${videoTitle.replace(/[^\w\s-]/g, '').slice(0, 60) || 'transcript'}.txt`;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  });
+</script>

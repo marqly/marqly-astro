@@ -1,0 +1,153 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import ToolShell from '../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, organization, webSite } from '../../lib/schema';
+
+const title = 'Reading Time Calculator — Word Count & Time to Read';
+const description =
+  'Paste any text to get its word count, character count, reading time at 238 words per minute, and speaking time at 150 wpm. Free, instant, no signup needed.';
+
+const faqs = [
+  {
+    q: 'How is reading time calculated?',
+    a: 'Word count divided by reading speed. This tool counts words by splitting on whitespace, then divides by 238 words per minute — the average adult silent-reading rate for non-fiction English found in a large 2019 meta-analysis of reading research. Speaking time uses 150 wpm, a comfortable presentation pace. Both are rounded to the nearest few seconds, not up to whole minutes.',
+  },
+  {
+    q: 'Is 238 words per minute right for everyone?',
+    a: 'No — it is an average, and the spread around it is wide. Skimming runs far faster; studying dense technical material runs slower; reading in a second language slower still. Treat the number as a planning estimate for typical prose, not a stopwatch. Fiction averages slightly higher, around 260 wpm.',
+  },
+  {
+    q: 'Why do reading-time estimates differ between sites?',
+    a: 'Three reasons: different assumed speeds (tools use anywhere from 180 to 300 wpm), different word counting (code blocks, captions, and headings may or may not count), and adjustments some sites make for images — Medium famously adds 12 seconds for the first image. Same article, honestly different answers.',
+  },
+  {
+    q: 'Is my text stored anywhere?',
+    a: 'No. Counting happens in your browser as you type — the text never leaves the page, there is no server call, and nothing persists after you close the tab. Paste unpublished drafts freely.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: 'Free tools', path: '/tools' },
+    { name: 'Reading time calculator', path: '/tools/reading-time' },
+  ]),
+  faqPage(faqs),
+];
+---
+
+<LandingLayout title={title} description={description} jsonLd={jsonLd} ogImage="https://www.marqly.com/og/seo/tool-reading-time.png">
+  <ToolShell
+    name="Reading time calculator"
+    heading="How long will it take to read?"
+    sub="Paste text and get word count, character count, reading time, and speaking time — live, as you type. Nothing leaves your browser."
+    faqs={faqs}
+    ctaHeading="Reading list longer than your reading time?"
+    ctaSub="Save articles to Marqly and AI summarizes them — triage a backlog in minutes, then read only what earns the time."
+  >
+    <label for="rt-in">Your text</label>
+    <textarea id="rt-in" placeholder="Paste an article, essay, script, or chapter…"></textarea>
+    <div
+      style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: var(--space-4); margin-top: var(--space-5);"
+    >
+      <div>
+        <div id="rt-read" style="font-size: var(--fs-2xl); font-weight: 600; color: var(--ink-1);">0 sec</div>
+        <div style="font-size: var(--fs-sm); color: var(--ink-3);">Reading time (238 wpm)</div>
+      </div>
+      <div>
+        <div id="rt-speak" style="font-size: var(--fs-2xl); font-weight: 600; color: var(--ink-1);">0 sec</div>
+        <div style="font-size: var(--fs-sm); color: var(--ink-3);">Speaking time (150 wpm)</div>
+      </div>
+      <div>
+        <div id="rt-words" style="font-size: var(--fs-2xl); font-weight: 600; color: var(--ink-1);">0</div>
+        <div style="font-size: var(--fs-sm); color: var(--ink-3);">Words</div>
+      </div>
+      <div>
+        <div id="rt-chars" style="font-size: var(--fs-2xl); font-weight: 600; color: var(--ink-1);">0</div>
+        <div style="font-size: var(--fs-sm); color: var(--ink-3);">Characters</div>
+      </div>
+    </div>
+
+    <Fragment slot="content">
+      <h2>How reading time is calculated</h2>
+      <p>
+        The formula is unglamorous: <em>words ÷ reading speed</em>. The interesting part is which
+        speed you divide by. This tool uses <strong>238 words per minute</strong>, the average
+        adult silent-reading rate for non-fiction English established by Marc Brysbaert's 2019
+        meta-analysis, which pooled measurements from nearly 200 reading studies. It is the most
+        defensible single number available — most "average person reads 200–250 wpm" claims trace
+        back to far thinner evidence. Speaking time uses 150 wpm, a comfortable pace for
+        presentations and voiceover; conversational speech runs faster, but scripts read aloud
+        shouldn't.
+      </p>
+
+      <h2>Why the average hides a wide range</h2>
+      <p>
+        238 wpm describes typical adults reading typical prose for comprehension. Real reading
+        speed swings with purpose and material: skimming for the gist can triple the rate, while
+        working through a dense methods section or legal clause can halve it. Fiction reads a bit
+        faster than non-fiction (around 260 wpm in the same meta-analysis) because narrative
+        vocabulary is more predictable. Second-language readers, and anyone reading on a cramped
+        phone screen in a moving train, come in below average. So a "12 min read" label is a
+        planning estimate, not a promise.
+      </p>
+
+      <h2>Why article estimates vary between sites</h2>
+      <p>
+        Paste the same article here and into three publishing platforms and you may get four
+        answers. Platforms disagree on the assumed speed (anywhere from 180 to 300 wpm), on what
+        counts as a word (headings, captions, code blocks), and on adjustments for non-text
+        content — Medium adds 12 seconds for the first image and scales down from there. None of
+        them are wrong; they are just measuring slightly different things. This tool stays simple
+        on purpose: whitespace-separated words, one well-sourced speed, no image fudge factors.
+      </p>
+
+      <h2>When the reading pile outgrows the reading time</h2>
+      <p>
+        Knowing an article is an 18-minute read is useful; having forty of them queued is the real
+        problem. That's the case for a read-it-later workflow — covered in our roundup of the
+        <a href="/blog/best-read-it-later-apps-2026">best read-it-later apps</a> and on the
+        <a href="/read-it-later">read-it-later</a> page. Marqly's angle: AI summarizes every saved
+        article, so you can triage the pile in minutes and spend your actual reading time on the
+        pieces that deserve it.
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const input = document.getElementById('rt-in') as HTMLTextAreaElement;
+  const readEl = document.getElementById('rt-read')!;
+  const speakEl = document.getElementById('rt-speak')!;
+  const wordsEl = document.getElementById('rt-words')!;
+  const charsEl = document.getElementById('rt-chars')!;
+
+  const READ_WPM = 238;
+  const SPEAK_WPM = 150;
+
+  function fmtDuration(minutes: number): string {
+    const totalSec = Math.round(minutes * 60);
+    if (totalSec < 60) return `${totalSec} sec`;
+    const m = Math.floor(totalSec / 60);
+    const s = totalSec % 60;
+    if (m >= 60) {
+      const h = Math.floor(m / 60);
+      return `${h} hr ${m % 60} min`;
+    }
+    return s > 0 ? `${m} min ${s} sec` : `${m} min`;
+  }
+
+  function update() {
+    const text = input.value;
+    const words = text.trim() === '' ? 0 : text.trim().split(/\s+/).length;
+    wordsEl.textContent = words.toLocaleString();
+    charsEl.textContent = text.length.toLocaleString();
+    readEl.textContent = fmtDuration(words / READ_WPM);
+    speakEl.textContent = fmtDuration(words / SPEAK_WPM);
+  }
+
+  input.addEventListener('input', update);
+  update();
+</script>

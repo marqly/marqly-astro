@@ -1,0 +1,56 @@
+---
+import { CHROME_STORE_URL } from '../../lib/schema';
+
+interface Props {
+  heading?: string;
+  sub?: string;
+  ctaUrl?: string;
+  ctaLabel?: string;
+}
+const {
+  heading = 'Save once. Find it instantly.',
+  sub = 'Marqly tags and summarizes everything you save, then finds it again when you describe it. Free to start — no card required.',
+  ctaUrl = 'https://app.marqly.com',
+  ctaLabel = 'Try Marqly free',
+} = Astro.props;
+---
+
+<aside class="cta-box">
+  <h2>{heading}</h2>
+  <p>{sub}</p>
+  <div class="cta-actions">
+    <a class="btn btn--primary btn--lg" href={ctaUrl}>{ctaLabel} <span class="arrow">→</span></a>
+    <a class="btn btn--outline btn--lg" href={CHROME_STORE_URL} target="_blank" rel="noopener">Add to Chrome</a>
+  </div>
+</aside>
+
+<style>
+  .cta-box {
+    background: var(--surface-2);
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-lg);
+    padding: var(--space-10);
+    text-align: center;
+    margin-block: var(--space-12);
+  }
+  .cta-box h2 {
+    font-size: var(--fs-2xl);
+    font-weight: 600;
+    letter-spacing: var(--tracking-tight);
+    color: var(--ink-1);
+  }
+  .cta-box p {
+    margin-top: var(--space-3);
+    font-size: var(--fs-md);
+    color: var(--ink-2);
+    max-width: 52ch;
+    margin-inline: auto;
+  }
+  .cta-actions {
+    margin-top: var(--space-6);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+  }
+</style>

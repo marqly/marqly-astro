@@ -1,0 +1,132 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import ToolShell from '../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, organization, webSite } from '../../lib/schema';
+
+const title = 'Free YouTube Video Summarizer — TL;DR Any Video';
+const description =
+  'Paste a YouTube link and get an AI summary with key points, free. For summaries on the watch page itself — plus transcript and chat — get the Marqly extension.';
+
+const faqs = [
+  {
+    q: 'How does the YouTube summarizer work?',
+    a: 'It fetches the video’s caption track, then an AI model condenses it into a short TL;DR plus key points. The summary is grounded in the transcript — it summarizes what was actually said, not what the title promises.',
+  },
+  {
+    q: 'Does it work on videos without captions?',
+    a: 'No. If a video has captions disabled there is no transcript to summarize. Most YouTube videos have at least auto-generated captions, which work fine here.',
+  },
+  {
+    q: 'Is there a length limit?',
+    a: 'Very long videos are summarized from roughly the first hour of the transcript. The Marqly extension handles full-length videos and adds section-by-section breakdowns, books mentioned, and a chat tab that answers questions from the whole transcript.',
+  },
+  {
+    q: 'Is this free?',
+    a: 'Yes — no signup required. It’s a taste of what the Marqly extension does automatically on every YouTube watch page: streaming summary, key sections, playback-synced transcript, and transcript-grounded chat.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: 'Free tools', path: '/tools' },
+    { name: 'YouTube summarizer', path: '/tools/youtube-summarize' },
+  ]),
+  faqPage(faqs),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  ogImage="https://www.marqly.com/og/seo/tool-youtube-summarize.png"
+>
+  <ToolShell
+    name="YouTube summarizer"
+    heading="Summarize any YouTube video"
+    sub="Paste a link, get a TL;DR with key points. Free, no signup — powered by the video's own transcript."
+    faqs={faqs}
+    ctaHeading="Summaries on every video, without the copy-paste"
+    ctaSub="Marqly puts a streaming AI summary, key sections, transcript, and chat right next to the player on every YouTube page."
+  >
+    <form id="ys-form">
+      <div class="tool-row">
+        <div class="grow">
+          <label for="ys-url">YouTube video URL</label>
+          <input id="ys-url" type="url" placeholder="https://www.youtube.com/watch?v=…" required />
+        </div>
+        <button class="btn btn--primary" type="submit">Summarize</button>
+      </div>
+      <p class="tool-status" id="ys-status" role="status"></p>
+    </form>
+    <div class="tool-output hidden" id="ys-out" aria-live="polite"></div>
+
+    <Fragment slot="content">
+      <h2>How to summarize a YouTube video</h2>
+      <ol>
+        <li>Paste the video URL above and press <strong>Summarize</strong>.</li>
+        <li>The tool pulls the video's transcript and condenses it with AI.</li>
+        <li>Read the TL;DR and key points — usually under 30 seconds for any video.</li>
+      </ol>
+      <p>
+        Summaries are generated from the caption track, so they reflect what the speaker actually
+        said. That's the difference between a real summary and a guess from the title and
+        thumbnail — and it's why videos with captions disabled can't be summarized.
+      </p>
+
+      <h2>When a summary beats watching</h2>
+      <ul>
+        <li><strong>Triaging a watch-later queue</strong> — decide in seconds which videos deserve full attention.</li>
+        <li><strong>Long-form podcasts and talks</strong> — get the argument without the 90 minutes.</li>
+        <li><strong>Tutorials</strong> — check whether the video actually covers your problem before committing.</li>
+      </ul>
+      <p>
+        If you triage videos every day, do it where the videos live: the
+        <a href="/youtube-summarizer">Marqly extension</a> streams the summary next to the player
+        the moment you open a watch page — with key sections, books mentioned, a
+        <a href="/faq/how-do-i-get-a-youtube-transcript">synced transcript</a>, and
+        <a href="/blog/chat-with-youtube-videos">chat grounded in the transcript</a>. Saved videos
+        keep their transcripts, so you can find and quote them months later.
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const form = document.getElementById('ys-form') as HTMLFormElement;
+  const input = document.getElementById('ys-url') as HTMLInputElement;
+  const status = document.getElementById('ys-status')!;
+  const out = document.getElementById('ys-out')!;
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    out.classList.add('hidden');
+    status.classList.remove('is-error');
+    try {
+      status.textContent = 'Fetching transcript…';
+      const tRes = await fetch(`/api/youtube-transcript?v=${encodeURIComponent(input.value)}`);
+      const tData = await tRes.json();
+      if (!tRes.ok) throw new Error(tData.error ?? 'Could not fetch the transcript.');
+
+      status.textContent = `Summarizing "${tData.title}"…`;
+      const text = tData.segments.map((s: { text: string }) => s.text).join(' ');
+      const sRes = await fetch('/api/summarize', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ text, title: tData.title }),
+      });
+      const sData = await sRes.json();
+      if (!sRes.ok) throw new Error(sData.error ?? 'Summarization failed.');
+
+      status.textContent = tData.title;
+      out.textContent = sData.summary + (sData.truncated ? '\n\n(Long video — summarized from the first portion of the transcript.)' : '');
+      out.classList.remove('hidden');
+    } catch (err) {
+      status.textContent = err instanceof Error ? err.message : 'Something went wrong.';
+      status.classList.add('is-error');
+    }
+  });
+</script>

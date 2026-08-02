@@ -1,0 +1,93 @@
+{
+  "name": "Toby",
+  "slug": "toby",
+  "aka": [
+    "toby-for-tabs",
+    "toby-tabs",
+    "gettoby",
+    "toby-tab-manager",
+    "toby-ai"
+  ],
+  "category": "tab-manager",
+  "status": "active",
+  "shutdownNote": null,
+  "website": "https://www.gettoby.com",
+  "tagline": "Visual tab manager that turns your new-tab page into team workspaces",
+  "pricing": {
+    "free": true,
+    "paid": "Productivity $4.50/member/month billed yearly ($54/yr) or $6/month; Team $8/member/month billed yearly ($96/yr) or $10/month",
+    "trial": null,
+    "notes": "Free Starter plan caps at 60 saved tabs total — over the limit you keep read access but can't add more. No published trial length. Legacy free accounts were force-migrated to Starter in November 2024."
+  },
+  "platforms": [
+    "web",
+    "chrome",
+    "edge",
+    "firefox",
+    "ios",
+    "android"
+  ],
+  "features": {
+    "aiAutoTagging": true,
+    "semanticSearch": false,
+    "aiSummaries": false,
+    "youtubeAi": false,
+    "chatWithSaves": false,
+    "highlights": false,
+    "annotationNotes": true,
+    "savePdf": false,
+    "fullTextSearch": false,
+    "tabSaver": true,
+    "publicSharing": true,
+    "importPocket": false,
+    "importBrowserHtml": true,
+    "offlineReading": false,
+    "iosApp": true,
+    "androidApp": true,
+    "browserExtension": true,
+    "freeTier": true,
+    "api": false,
+    "selfHosted": false
+  },
+  "pros": [
+    "Best-in-class session workflow: save all open tabs into visual collections in one click, then restore them later",
+    "Real team features rare in this category — shared spaces, member invites, org-wide collections, and SSO on the Team plan",
+    "Public sharing works without friction: anyone can view a shared collection link, no Toby account needed",
+    "Broad reach for a tab manager: Chrome, Edge, and Firefox extensions, a web app, plus iOS and Android companion apps",
+    "Toby AI names, sorts, and groups your open tabs into collections automatically",
+    "Long track record — around since 2016, once a Google-and-Product-Hunt extension of the year, still updated as of June 2026"
+  ],
+  "cons": [
+    "The free plan caps at 60 saved tabs total, and the 2024 forced migration of legacy free users left lasting resentment (4.2 stars on Chrome Web Store)",
+    "Stores links only — no page archiving, highlights, or full-text search, so nothing survives link rot",
+    "Per-member subscription pricing gets steep for solo users compared with one-time-purchase alternatives",
+    "No Safari extension and no offline mode; the mobile apps are thin companions, not full clients",
+    "No public API, and only Toby's own JSON export preserves notes and tags"
+  ],
+  "bestFor": "Teams and tab hoarders who work out of dozens of open tabs and want to save, restore, and share whole sessions — not archive page content.",
+  "verdict": "The strongest tab manager for teams; less compelling solo, where the 60-tab free cap and per-member pricing bite.",
+  "overview": "Toby is a visual tab manager built around the browser's new-tab page. Open tabs save into drag-and-drop collections, whole sessions can be stashed and restored in one click, and collections group into spaces that can be shared with teammates or published as public links that require no Toby account. It began inside Vancouver venture studio Axiom Zen in 2016, was once named a top Chrome extension of the year by Google and Product Hunt, and now claims more than 500,000 users under operator Launch Labs. Extensions cover Chrome, Edge, and Firefox, a web app works anywhere, and companion apps bring collections to iOS and Android. Toby AI can name, sort, and group open tabs automatically. Toby stores links rather than page content, so there is no archiving, highlighting, or full-text search. The free Starter plan caps at 60 saved tabs; Productivity costs $4.50 per member per month billed yearly, and Team runs $8 with SSO and centralized billing.",
+  "faqs": [
+    {
+      "q": "Is Toby free?",
+      "a": "Toby's free Starter plan exists but caps you at 60 saved tabs total — hit the limit and you keep read access but can't add more. Paid plans are per member: Productivity at $4.50/month billed yearly ($54/yr) or $6 monthly, and Team at $8/month billed yearly ($96/yr) with SSO. Toby moved to this freemium model in July 2023."
+    },
+    {
+      "q": "Is Toby still maintained?",
+      "a": "Yes. The Chrome extension was updated in June 2026 and the Firefox add-on the same month, so development is clearly active. Toby launched in 2016 out of Axiom Zen and is now run by Launch Labs, claiming over 500,000 users. The 4.2-star Chrome rating reflects pricing-change backlash more than abandonment."
+    },
+    {
+      "q": "What is the best Toby alternative?",
+      "a": "For team workspaces, Workona is the closest match with deeper app integrations. If you just want free tab collapsing with no account, OneTab is the minimal option. If your real problem is finding saved things again later, an AI bookmark manager like Marqly — with auto-tagging and semantic search — covers the save-for-later half that Toby's link-only collections don't."
+    },
+    {
+      "q": "Does Toby work on iPhone?",
+      "a": "Yes, partially. There's a native companion app, Toby for Tabs, on the App Store (iOS 13+) for browsing and saving to your collections, and the web app works in mobile Safari. But Toby's core experience — saving and restoring whole tab sessions — lives in the desktop browser extension, so the iPhone app is a viewer more than a workspace."
+    },
+    {
+      "q": "Can I export my data from Toby?",
+      "a": "Yes. From Settings, the Data section exports your collections in three formats: JSON (a full backup in Toby's own format, including notes and tags), HTML (the standard browser-bookmark format other managers can import), and TXT (a plain list of URLs). Note that only the JSON export preserves notes and tags, and there's no public API."
+    }
+  ],
+  "lastVerified": "2026-08-02"
+}

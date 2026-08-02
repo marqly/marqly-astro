@@ -1,0 +1,80 @@
+{
+  "name": "Matter",
+  "slug": "matter",
+  "aka": ["getmatter", "matter-app"],
+  "category": "read-it-later",
+  "status": "active",
+  "shutdownNote": null,
+  "website": "https://getmatter.com",
+  "tagline": "The modern read-later app for iPhone, iPad, and web",
+  "pricing": {
+    "free": true,
+    "paid": "$8/month or $60/year on the web; $7.99/month or $79.99/year via the iOS App Store (Premium)",
+    "trial": null,
+    "notes": "Subscribing on the web avoids the App Store markup on the annual plan. A higher Matter Pro tier ($12.99/month) also appears in the App Store. Premium unlocks HD text-to-speech, unlimited highlighting and notes, full-text search, and integrations."
+  },
+  "platforms": ["web", "ios", "macos", "chrome"],
+  "features": {
+    "aiAutoTagging": false,
+    "semanticSearch": false,
+    "aiSummaries": false,
+    "youtubeAi": true,
+    "chatWithSaves": false,
+    "highlights": true,
+    "annotationNotes": true,
+    "savePdf": false,
+    "fullTextSearch": true,
+    "tabSaver": false,
+    "publicSharing": false,
+    "importPocket": true,
+    "importBrowserHtml": false,
+    "offlineReading": true,
+    "iosApp": true,
+    "androidApp": false,
+    "browserExtension": true,
+    "freeTier": true,
+    "api": false,
+    "selfHosted": false
+  },
+  "pros": [
+    "The best listening experience in the category — human-like text-to-speech that makes articles feel narrated",
+    "Beautiful, focused reading design on iPhone and iPad, with Apple Pencil highlighting",
+    "Newsletters flow straight into the app via Gmail integration or a dedicated Matter email address",
+    "Transcribes YouTube videos and podcasts with time-synced text you can highlight",
+    "Solid free tier: unlimited library, excellent article parsing, and unlimited tags",
+    "Highlights sync out to Notion, Obsidian, and Readwise"
+  ],
+  "cons": [
+    "No Android app — Matter is built for iPhone, iPad, Mac, and the web",
+    "Annual Premium costs $79.99 through the App Store versus $60 on the web, an easy trap to fall into",
+    "No public API and no public sharing of collections",
+    "Unlimited highlighting, HD voices, and full-text search all sit behind Premium",
+    "No AI summaries, chat, or automatic tagging — organization is manual"
+  ],
+  "bestFor": "Apple-ecosystem readers who listen as much as they read — commuters and audio-first users who want articles, newsletters, and podcasts in one queue.",
+  "verdict": "The most polished read-later app on iOS and the clear pick for audio; less compelling if you need Android, an API, or AI-powered organization.",
+  "overview": "Matter is a design-forward read-it-later app for iPhone, iPad, Mac, and the web, built by a small San Francisco team and known for the strongest text-to-speech in the category. Articles, newsletters, and PDFs collect into a clean queue with excellent parsing, and Matter's human-like voices turn any of it into listenable audio with word-by-word tracking, so you can switch between reading and listening mid-article. Newsletters arrive via Gmail integration or a dedicated Matter email address, and YouTube videos and podcasts are transcribed with time-synced text you can highlight. The free tier includes an unlimited library, saving from the share sheet and a Chrome extension, and unlimited tags; Premium — $8/month or $60/year on the web, $7.99/month or $79.99/year through the App Store — adds HD voices, unlimited highlighting and notes, offline full-text search, and integrations with Notion, Obsidian, and Readwise. There is no Android app or public API.",
+  "faqs": [
+    {
+      "q": "Is Matter free?",
+      "a": "Yes, the core app is free: unlimited saves, strong article parsing, newsletter delivery, unlimited tags, and basic reading and listening. Matter Premium costs $8/month or $60/year when purchased on the web ($7.99/month or $79.99/year via the App Store) and unlocks HD text-to-speech voices, unlimited highlighting and notes, full-text search, and integrations."
+    },
+    {
+      "q": "Is Matter still available in 2026?",
+      "a": "Yes. Matter is actively developed — the iOS app receives regular updates (including recent improvements to multi-device syncing and offline support) and picked up many former Pocket users after Pocket shut down in July 2025. It remains a small, subscription-funded team focused on iPhone, iPad, Mac, and the web."
+    },
+    {
+      "q": "What is the best Matter alternative?",
+      "a": "Readwise Reader is the closest feature superset, adding RSS, ePubs, and AI at a higher price. Instapaper is the simpler, cheaper reading queue. Marqly is a strong option if you want AI organization rather than audio — automatic tagging, semantic search, YouTube summaries with chat, and a web app that works on any platform, including Android. Android users specifically should look at Marqly's web app, Raindrop.io, or Wallabag."
+    },
+    {
+      "q": "Does Matter work on iPhone?",
+      "a": "Yes — iPhone is Matter's home platform. The iOS app offers the app's signature reading design, human-like text-to-speech with word tracking, share-sheet saving, offline reading, and Apple Pencil highlighting on iPad. There is also a Mac app and a web app, but no Android version; Matter is a deliberately Apple-first product."
+    },
+    {
+      "q": "Can I export my data from Matter?",
+      "a": "Partially. Matter syncs highlights and notes out to Notion, Obsidian, and Readwise via official integrations, which covers annotations well. However, there is no public API, and exporting your full saved-article library is more limited than with tools like Raindrop.io or Readwise Reader — worth checking your workflow before committing a large archive to it."
+    }
+  ],
+  "lastVerified": "2026-08-02"
+}

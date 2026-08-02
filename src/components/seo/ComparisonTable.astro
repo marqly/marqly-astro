@@ -1,0 +1,93 @@
+---
+import type { Competitor } from '../../lib/competitors';
+import { FEATURE_LABELS, HEADLINE_FEATURES, type FeatureKey } from '../../lib/features';
+
+interface Props {
+  /** Columns, left to right (usually [marqly, competitor] or [a, b, marqly]). */
+  tools: Competitor[];
+  /** 'full' = all 20 rows; 'headline' = the short set. */
+  variant?: 'full' | 'headline';
+  caption?: string;
+}
+const { tools, variant = 'full', caption } = Astro.props;
+const keys: FeatureKey[] =
+  variant === 'full' ? (Object.keys(FEATURE_LABELS) as FeatureKey[]) : HEADLINE_FEATURES;
+---
+
+<div class="cmp-wrap">
+  <table class="cmp">
+    {caption && <caption>{caption}</caption>}
+    <thead>
+      <tr>
+        <th scope="col">Feature</th>
+        {tools.map((t) => (
+          <th scope="col" class={t.slug === 'marqly' ? 'is-marqly' : ''}>{t.name}</th>
+        ))}
+      </tr>
+    </thead>
+    <tbody>
+      {keys.map((k) => (
+        <tr>
+          <th scope="row">{FEATURE_LABELS[k]}</th>
+          {tools.map((t) => (
+            <td class={t.slug === 'marqly' ? 'is-marqly' : ''}>
+              {t.features[k] ? (
+                <span class="yes" aria-label="Yes">✓</span>
+              ) : (
+                <span class="no" aria-label="No">—</span>
+              )}
+            </td>
+          ))}
+        </tr>
+      ))}
+      <tr>
+        <th scope="row">Price</th>
+        {tools.map((t) => (
+          <td class={t.slug === 'marqly' ? 'is-marqly' : ''}>
+            <span class="price">
+              {t.pricing.free ? 'Free' : ''}
+              {t.pricing.free && t.pricing.paid ? ' · ' : ''}
+              {t.pricing.paid ?? ''}
+              {!t.pricing.free && !t.pricing.paid ? 'See site' : ''}
+            </span>
+          </td>
+        ))}
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<style>
+  .cmp-wrap { overflow-x: auto; border: 1px solid var(--border-1); border-radius: var(--radius-md); }
+  .cmp {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: var(--fs-sm);
+    background: var(--surface-1);
+  }
+  .cmp caption {
+    text-align: left;
+    padding: var(--space-4) var(--space-5);
+    font-weight: 500;
+    color: var(--ink-2);
+  }
+  .cmp th, .cmp td {
+    padding: var(--space-3) var(--space-5);
+    border-top: 1px solid var(--border-1);
+    text-align: left;
+    vertical-align: top;
+  }
+  .cmp thead th {
+    border-top: none;
+    background: var(--surface-2);
+    font-weight: 600;
+    color: var(--ink-1);
+    white-space: nowrap;
+  }
+  .cmp tbody th { font-weight: 400; color: var(--ink-2); }
+  .cmp .is-marqly { background: var(--surface-2); }
+  .cmp thead th.is-marqly { color: var(--ink-1); }
+  .yes { color: var(--ink-1); font-weight: 600; }
+  .no { color: var(--ink-4); }
+  .price { color: var(--ink-2); white-space: nowrap; }
+</style>

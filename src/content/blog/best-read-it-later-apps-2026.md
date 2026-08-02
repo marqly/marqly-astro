@@ -42,7 +42,7 @@ Three things now define the best tools:
 Marqly pairs the basics (one-click save, clean reader, cross-device) with the thing most apps lack: **semantic AI search**. Describe what you remember and it finds the article — even without the title. It also auto-tags and summarizes. The result is a read-it-later app where your backlog stays usable instead of becoming a graveyard. Imports Pocket/Raindrop/browser bookmarks. Free tier; Pro ~$4/mo. [Try free →](https://app.marqly.com/lp/replace-pocket)
 
 ### 2. Readwise Reader — best for highlighters & power readers
-Premium ($12/mo) with the best highlighting + spaced-repetition system in the category. Handles PDFs, newsletters, ebooks. The choice if studying what you read is central to your work. If it's on your shortlist, see [Readwise Reader vs Marqly](/blog/readwise-reader-vs-marqly) for a closer look.
+Premium ($12/mo) with the best highlighting + spaced-repetition system in the category. Handles PDFs, newsletters, ebooks. The choice if studying what you read is central to your work. If it's on your shortlist, see [Readwise Reader vs Marqly](/compare/marqly-vs-readwise-reader) for a closer look.
 
 ### 3. Raindrop.io — best free option
 Generous free tier, saves every media type, polished. Keyword search rather than semantic, but excellent if you want free and don't mind organizing manually.
@@ -92,4 +92,4 @@ Don't ask "which app saves articles best" — they all do. Ask "which app lets m
 
 ---
 
-*Related: [8 Best Pocket Alternatives](/blog/best-pocket-alternatives-2026) · [Best AI Bookmark Manager 2026](/blog/best-ai-bookmark-manager-2026) · [Pinterest vs Marqly](/blog/pinterest-vs-marqly)*
+*Related: [8 Best Pocket Alternatives](/blog/best-pocket-alternatives-2026) · [Best AI Bookmark Manager 2026](/blog/best-ai-bookmark-manager-2026) · [Pinterest vs Marqly](/compare/marqly-vs-pinterest)*

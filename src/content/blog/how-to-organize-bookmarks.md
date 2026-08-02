@@ -74,7 +74,7 @@ In all four, your bookmarks export to a single HTML file from the same manager w
 
 ## Option 2: Tags instead of folders
 
-Tags are a real upgrade over folders because they solve the "one link, many topics" problem: a single link can be tagged `work`, `productivity`, and `reading` at once, so it shows up wherever you look for it instead of being trapped in one branch. A dedicated bookmark manager like [Raindrop](/blog/raindrop-vs-marqly) lets you tag freely. The catch: you still have to apply the tags yourself, every time, which is the same friction that killed folders.
+Tags are a real upgrade over folders because they solve the "one link, many topics" problem: a single link can be tagged `work`, `productivity`, and `reading` at once, so it shows up wherever you look for it instead of being trapped in one branch. A dedicated bookmark manager like [Raindrop](/compare/marqly-vs-raindrop) lets you tag freely. The catch: you still have to apply the tags yourself, every time, which is the same friction that killed folders.
 
 In practice, manual tagging fails in a specific way. The first week you're enthusiastic and tag everything. Then you get busy, save five links without tagging them, and now your collection is half-tagged — which is worse than untagged, because you can't trust that searching a tag returns *everything* on that topic. A tag system is only as good as your consistency, and consistency is exactly the thing that erodes. Tags beat folders on the data model and tie them on the human-discipline problem. To actually win, you have to remove the human from the tagging loop.
 
@@ -139,7 +139,7 @@ The corollary is that you should be suspicious of any organization method that s
 
 If you're tired of cleaning up bookmarks every month, [Marqly](https://app.marqly.com/lp/ai-search) does the organizing for you — it auto-tags everything you save, writes a quick AI summary so you remember why you saved it, and lets you find any of it by meaning. The same system can [organize saved YouTube videos too](/blog/save-youtube-videos-watch-later), not just articles. Import your browser bookmarks (or a Pocket/Raindrop export) and search your existing pile in minutes. It runs on the web, iOS, and as a Chrome extension, so saving and searching follow you across devices. The free tier covers everyday saving; Pro is $48/year (about $8/month, currently 50% off) if you want the full power-user kit.
 
-Still deciding between a tool that captures the web and a place to write things up? Our take on [saving the web vs. note-taking](/blog/obsidian-vs-marqly) breaks down where each one fits — the short version is that a capture-and-search tool and a writing tool solve different problems, and most people need the capture side handled before the writing side matters.
+Still deciding between a tool that captures the web and a place to write things up? Our take on [saving the web vs. note-taking](/compare/marqly-vs-obsidian-web-clipper) breaks down where each one fits — the short version is that a capture-and-search tool and a writing tool solve different problems, and most people need the capture side handled before the writing side matters.
 
 ---
 
