@@ -1,0 +1,30 @@
+# Cloudflare static-asset headers.
+#
+# NOTE: do NOT put `Content-Type` under `/*`. The asset server already sends a
+# correct type per file (text/css, image/png, application/xml...), and a glob
+# rule would relabel every one of them. Only exact, known-text paths set it here.
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+
+# Fingerprinted build output never changes under the same name, but was being
+# served `max-age=0, must-revalidate` — every visit re-validated every asset.
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Exact text paths, where appending the charset is unambiguous.
+/robots.txt
+  Content-Type: text/plain; charset=utf-8
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+/sitemap-index.xml
+  Content-Type: application/xml; charset=utf-8
+/sitemap-0.xml
+  Content-Type: application/xml; charset=utf-8
+/rss.xml
+  Content-Type: application/rss+xml; charset=utf-8

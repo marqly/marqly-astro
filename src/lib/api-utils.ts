@@ -58,23 +58,70 @@ function isPublicHostname(rawHostname: string): boolean {
   if (!hostname || hostname === 'localhost' || BLOCKED_HOST_SUFFIXES.some((suffix) => hostname.endsWith(suffix))) {
     return false;
   }
-  if (hostname.includes(':')) {
-    const mapped = hostname.match(/::ffff:(\d+\.\d+\.\d+\.\d+)$/)?.[1];
-    if (mapped) return !isPrivateIpv4(mapped);
-    // Publicly routable IPv6 addresses live in 2000::/3. Blocking every other
-    // literal keeps this free URL fetcher away from loopback/link-local ranges.
-    return /^[23][0-9a-f]{0,3}:/.test(hostname);
-  }
+  if (hostname.includes(':')) return !isPrivateIpv6(hostname);
   if (isPrivateIpv4(hostname)) return false;
   return hostname.includes('.');
 }
 
+/** Expand an IPv6 literal to its 8 hextets, or null if it isn't one. */
+function parseIpv6(raw: string): number[] | null {
+  let text = raw.replace(/^\[|\]$/g, '').toLowerCase().replace(/%.*$/, '');
+  if (!text.includes(':')) return null;
+
+  // A trailing dotted quad (::ffff:1.2.3.4, 64:ff9b::1.2.3.4) is the low 32 bits.
+  let tail: number[] = [];
+  const dotted = text.match(/:(\d{1,3}(?:\.\d{1,3}){3})$/);
+  if (dotted) {
+    const octets = dotted[1].split('.').map(Number);
+    if (octets.some((o) => !Number.isInteger(o) || o < 0 || o > 255)) return null;
+    tail = [(octets[0]! << 8) | octets[1]!, (octets[2]! << 8) | octets[3]!];
+    text = text.slice(0, dotted.index! + 1).replace(/:$/, '');
+    if (!text) text = '::';
+  }
+
+  const halves = text.split('::');
+  if (halves.length > 2) return null;
+  const toHextet = (h: string) => (/^[0-9a-f]{1,4}$/.test(h) ? parseInt(h, 16) : NaN);
+  const head = halves[0] ? halves[0]!.split(':').map(toHextet) : [];
+  const back = halves.length === 2 && halves[1] ? halves[1]!.split(':').map(toHextet) : [];
+  if ([...head, ...back].some(Number.isNaN)) return null;
+
+  const fixed = head.length + back.length + tail.length;
+  if (halves.length === 2) {
+    if (fixed > 8) return null;
+    return [...head, ...new Array(8 - fixed).fill(0), ...back, ...tail];
+  }
+  const all = [...head, ...tail];
+  return all.length === 8 ? all : null;
+}
+
+/**
+ * Several IPv6 ranges tunnel an IPv4 address inside an otherwise "public
+ * looking" 2000::/3 address — 6to4 (2002::/16) and Teredo (2001:0::/32) both
+ * do, so `2002:7f00:1::` is really 127.0.0.1. Decode those before deciding.
+ */
 function isPrivateIpv6(raw: string): boolean {
-  const hostname = raw.replace(/^\[|\]$/g, '').toLowerCase();
-  const mapped = hostname.match(/::ffff:(\d+\.\d+\.\d+\.\d+)$/)?.[1];
-  if (mapped) return isPrivateIpv4(mapped);
-  // Only 2000::/3 is globally routable; treat everything else as private.
-  return !/^[23][0-9a-f]{0,3}:/.test(hostname);
+  const h = parseIpv6(raw);
+  if (!h) return true; // unparseable -> fail closed
+  const v4 = (hi: number, lo: number) => `${hi >> 8}.${hi & 255}.${lo >> 8}.${lo & 255}`;
+
+  if (h.every((x) => x === 0)) return true; // ::
+  if (h.slice(0, 7).every((x) => x === 0) && h[7] === 1) return true; // ::1
+  // IPv4-mapped ::ffff:0:0/96 and the deprecated IPv4-compatible ::/96.
+  if (h.slice(0, 5).every((x) => x === 0) && (h[5] === 0xffff || h[5] === 0)) {
+    return isPrivateIpv4(v4(h[6]!, h[7]!));
+  }
+  // NAT64 well-known prefix 64:ff9b::/96.
+  if (h[0] === 0x64 && h[1] === 0xff9b && h.slice(2, 6).every((x) => x === 0)) {
+    return isPrivateIpv4(v4(h[6]!, h[7]!));
+  }
+  if (h[0] === 0x2002) return isPrivateIpv4(v4(h[1]!, h[2]!)); // 6to4
+  if (h[0] === 0x2001 && h[1] === 0) {
+    return isPrivateIpv4(v4(h[6]! ^ 0xffff, h[7]! ^ 0xffff)); // Teredo (obfuscated)
+  }
+  // Everything outside 2000::/3 (ULA fc00::/7, link-local fe80::/10, multicast
+  // ff00::/8, ...) is not globally routable.
+  return (h[0]! & 0xe000) !== 0x2000;
 }
 
 function isIpLiteral(hostname: string): boolean {
@@ -92,6 +139,13 @@ interface DohAnswer {
  * `localtest.me` (A record 127.0.0.1) sails straight through them. Resolve over
  * DoH and reject if ANY answer lands in private space. Fails closed: an
  * unresolvable name, or a resolver we can't reach, is treated as blocked.
+ *
+ * Residual risk: this is resolve-then-fetch, so a rebinding attacker could
+ * return a public IP to us and a private one to the subsequent fetch. Closing
+ * that needs pinning the fetch to the resolved IP, which the Workers runtime
+ * can't express. It stays acceptable because Worker fetch egresses through
+ * Cloudflare and has no route to loopback/RFC1918 in the first place — this
+ * check is defence in depth, and the real guarantee is the platform's.
  */
 async function hostResolvesPublic(hostname: string, signal: AbortSignal): Promise<boolean> {
   const lookups = (['A', 'AAAA'] as const).map(async (type) => {

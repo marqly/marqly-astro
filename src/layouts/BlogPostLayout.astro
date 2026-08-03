@@ -1,6 +1,7 @@
 ---
 import LandingLayout from './LandingLayout.astro';
 import { Image } from 'astro:assets';
+import { organization } from '../lib/schema';
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 
@@ -97,16 +98,7 @@ const softwareApp = {
   offers: { '@type': 'AggregateOffer', priceCurrency: 'USD', lowPrice: '0', offerCount: 2 },
 };
 
-const organization = {
-  '@context': 'https://schema.org',
-  '@type': 'Organization',
-  name: 'Marqly',
-  url: 'https://www.marqly.com',
-  logo: 'https://www.marqly.com/favicon.png',
-  sameAs: ['https://twitter.com/getmarqly', 'https://x.com/getmarqly'],
-};
-
-const jsonLd = [blogPosting, breadcrumb, softwareApp, organization, ...(faqPage ? [faqPage] : [])];
+const jsonLd = [blogPosting, breadcrumb, softwareApp, organization(), ...(faqPage ? [faqPage] : [])];
 ---
 
 <LandingLayout

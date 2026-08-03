@@ -18,6 +18,8 @@ export function organization() {
     logo: `${SITE}/favicon.png`,
     sameAs: [
       'https://twitter.com/getmarqly',
+      'https://x.com/getmarqly',
+      'https://www.facebook.com/profile.php?id=100088234261663',
       'https://www.linkedin.com/company/marqly',
       'https://www.producthunt.com/products/marqly',
     ],

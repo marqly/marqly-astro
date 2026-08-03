@@ -10,6 +10,10 @@
 /privacy        /privacypolicy  301
 /privacy-policy /privacypolicy  301
 
+# @astrojs/sitemap emits sitemap-index.xml, but most audit tools and older
+# parsers probe /sitemap.xml first and were getting a 404.
+/sitemap.xml    /sitemap-index.xml  301
+
 # Removed standalone pages — pricing now lives on the homepage; Extension page retired.
 # 301 to preserve SEO equity from old inbound links (both with/without trailing slash).
 /Pricing    /#pricing   301

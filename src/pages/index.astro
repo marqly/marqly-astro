@@ -1,6 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import LandingLayout from '../layouts/LandingLayout.astro';
+import { organization } from '../lib/schema';
 import heroApp from '../assets/images/home/hero-app.png';
 import browsers from '../assets/images/home/browsers.avif';
 import avatarAdrian from '../assets/images/home/avatar-adrian.avif';
@@ -110,14 +111,7 @@ const jsonLd = [
     name: 'Marqly',
     url: 'https://www.marqly.com/',
   },
-  {
-    '@context': 'https://schema.org',
-    '@type': 'Organization',
-    name: 'Marqly',
-    url: 'https://www.marqly.com',
-    logo: 'https://www.marqly.com/favicon.png',
-    sameAs: ['https://twitter.com/getmarqly', 'https://x.com/getmarqly'],
-  },
+  organization(),
   {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
@@ -1003,7 +997,13 @@ const testimonials = [
               <div class="review-stars" aria-label="5 out of 5">★★★★★</div>
               <blockquote class="review-quote">"{t.quote}"</blockquote>
               <figcaption class="review-meta">
-                <Image src={t.avatar} alt="" width={40} height={40} class="review-avatar" />
+                <Image
+                  src={t.avatar}
+                  alt={`${t.name}, ${t.role}`}
+                  width={40}
+                  height={40}
+                  class="review-avatar"
+                />
                 <div>
                   <strong>{t.name}</strong>
                   <span>{t.role}</span>
