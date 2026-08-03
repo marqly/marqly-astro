@@ -4,6 +4,7 @@ import Breadcrumbs from '../../components/seo/Breadcrumbs.astro';
 import ComparisonTable from '../../components/seo/ComparisonTable.astro';
 import FaqAccordion from '../../components/seo/FaqAccordion.astro';
 import CtaBox from '../../components/seo/CtaBox.astro';
+import SourceNote from '../../components/seo/SourceNote.astro';
 import { competitors, marqly } from '../../lib/competitors';
 import { marqlyEdges, pricingSentence, rankAlternatives } from '../../lib/compare-content';
 import { breadcrumbList, faqPage, itemList, organization, softwareApplication, webSite } from '../../lib/schema';
@@ -57,6 +58,7 @@ const others = competitors.filter((c) => c.slug !== subject.slug);
     <div class="container alt-page">
       <Breadcrumbs items={crumbs} />
       <h1>{h1}</h1>
+      <SourceNote tools={[subject, ...ranked]} />
 
       <p class="intro">
         {subject.status === 'shutdown' ? (

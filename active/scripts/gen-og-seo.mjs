@@ -9,7 +9,8 @@ import satori from 'satori';
 import { Resvg } from '@resvg/resvg-js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
-const OUT = path.join(ROOT, 'public/og/seo');
+const PUBLIC = path.join(ROOT, 'public');
+const OUT = path.join(PUBLIC, 'og/seo');
 
 const regular = await readFile('/System/Library/Fonts/Supplemental/Arial.ttf');
 const bold = await readFile('/System/Library/Fonts/Supplemental/Arial Bold.ttf');
@@ -67,7 +68,7 @@ function card(title, chip, footer) {
   );
 }
 
-async function png(name, title, chip, footer) {
+async function png(name, title, chip, footer, outputDir = OUT) {
   const svg = await satori(card(title, chip, footer), {
     width: 1200, height: 630,
     fonts: [
@@ -76,7 +77,8 @@ async function png(name, title, chip, footer) {
     ],
   });
   const data = new Resvg(svg, { fitTo: { mode: 'width', value: 1200 } }).render().asPng();
-  await writeFile(path.join(OUT, `${name}.png`), data);
+  await mkdir(outputDir, { recursive: true });
+  await writeFile(path.join(outputDir, `${name}.png`), data);
 }
 
 await mkdir(OUT, { recursive: true });
@@ -145,5 +147,16 @@ await png('hub-compare', 'Compare bookmark managers, honestly', 'Compare', 'marq
 await png('hub-alternatives', 'Alternatives to every bookmarking tool', 'Alternatives', 'marqly.com/alternatives');
 await png('hub-tools', 'Free tools — no signup', 'Free tools', 'marqly.com/tools');
 n += 4;
+
+// Default social card used by the homepage and any page without a more
+// specific preview. Keep this at /og-default.png because both layouts use it.
+await png(
+  'og-default',
+  'Your bookmarks, finally searchable by meaning',
+  'AI bookmark manager',
+  'marqly.com',
+  PUBLIC,
+);
+n++;
 
 console.log(`SEO OG cards generated: ${n}`);
