@@ -1,6 +1,7 @@
 ---
 import LandingLayout from './LandingLayout.astro';
 import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 
 interface Props {
@@ -10,6 +11,21 @@ interface Props {
 const { post } = Astro.props;
 const { data } = post;
 const slug = post.id;
+
+// Related posts: same category first, then tag overlap — keeps every post
+// linked into its cluster (crawl depth + dwell time).
+const allPosts = await getCollection('blog', (p) => !p.data.draft && p.id !== post.id);
+const tagSet = new Set(data.tags);
+const related = allPosts
+  .map((p) => ({
+    p,
+    score:
+      (p.data.category === data.category ? 2 : 0) +
+      p.data.tags.filter((t) => tagSet.has(t)).length,
+  }))
+  .sort((x, y) => y.score - x.score || y.p.data.pubDate.valueOf() - x.p.data.pubDate.valueOf())
+  .slice(0, 4)
+  .map((x) => x.p);
 const url = `https://www.marqly.com/blog/${slug}`;
 
 const fmtDate = (d: Date) =>
@@ -151,6 +167,22 @@ const jsonLd = [blogPosting, breadcrumb, softwareApp, organization, ...(faqPage 
       <p>Marqly turns everything you bookmark into a searchable, AI-powered second brain. Ask it anything — find saves by meaning, not keywords.</p>
       <a class="cta-btn" href={data.ctaUrl}>{data.ctaLabel} →</a>
     </aside>
+
+    {related.length > 0 && (
+      <nav class="related-posts" aria-label="Related articles">
+        <h2>Keep reading</h2>
+        <ul>
+          {related.map((r) => (
+            <li>
+              <a href={`/blog/${r.id}`}>
+                <span class="rp-cat">{r.data.category}</span>
+                <span class="rp-title">{r.data.title}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    )}
   </article>
 </LandingLayout>
 
@@ -160,6 +192,46 @@ const jsonLd = [blogPosting, breadcrumb, softwareApp, organization, ...(faqPage 
     margin: 0 auto;
     padding: var(--space-16) var(--space-6) var(--space-24);
   }
+
+  .related-posts {
+    margin-top: var(--space-12);
+    padding-top: var(--space-8);
+    border-top: 1px solid var(--border-1);
+  }
+  .related-posts h2 {
+    font-size: var(--fs-h4);
+    font-weight: 600;
+    margin-bottom: var(--space-5);
+  }
+  .related-posts ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-4);
+  }
+  .related-posts a {
+    display: block;
+    height: 100%;
+    background: var(--surface-1);
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-card);
+    padding: var(--space-4) var(--space-5);
+    transition: border-color var(--dur-base) var(--ease-out);
+  }
+  .related-posts a:hover { border-color: var(--border-2); }
+  .rp-cat {
+    display: block;
+    font-size: var(--fs-xs);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-3);
+    margin-bottom: var(--space-1);
+  }
+  .rp-title { font-size: var(--fs-sm); font-weight: 500; color: var(--ink-1); line-height: var(--lh-snug); }
+  @media (max-width: 620px) { .related-posts ul { grid-template-columns: 1fr; } }
 
   .crumbs {
     display: flex;
@@ -227,9 +299,12 @@ const jsonLd = [blogPosting, breadcrumb, softwareApp, organization, ...(faqPage 
     margin: var(--space-8) 0 var(--space-3);
   }
   .post-body :global(p) { margin: var(--space-4) 0; }
+  .post-body :global(ul) { list-style: disc; }
+  .post-body :global(ol) { list-style: decimal; }
   .post-body :global(ul),
   .post-body :global(ol) { margin: var(--space-4) 0; padding-left: var(--space-6); }
   .post-body :global(li) { margin: var(--space-2) 0; }
+  .post-body :global(li::marker) { color: var(--ink-4); }
   .post-body :global(a) {
     color: var(--color-primary);
     text-decoration: underline;

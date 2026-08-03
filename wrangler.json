@@ -1,5 +1,6 @@
 {
   "name": "marqly-astro",
+  "account_id": "2fa95a5b576a96bc48924ab9cfa8ffd3",
   "compatibility_date": "2025-10-08",
   "compatibility_flags": ["nodejs_compat"],
   "main": "./dist/_worker.js/index.js",

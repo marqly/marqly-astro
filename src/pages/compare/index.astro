@@ -91,9 +91,9 @@ const jsonLd = [
 
 <style>
   .head { max-width: 60ch; margin-bottom: var(--space-12); }
-  .head h1 { font-size: var(--fs-3xl); font-weight: 600; letter-spacing: var(--tracking-tight); color: var(--ink-1); }
-  .head p { margin-top: var(--space-4); font-size: var(--fs-md); color: var(--ink-2); }
-  h2 { font-size: var(--fs-xl); font-weight: 600; color: var(--ink-1); margin: var(--space-10) 0 var(--space-5); }
+  .head h1 { font-size: var(--fs-h2); font-weight: 600; letter-spacing: var(--tracking-tight); color: var(--ink-1); }
+  .head p { margin-top: var(--space-4); font-size: var(--fs-base); color: var(--ink-2); }
+  h2 { font-size: var(--fs-h3); font-weight: 600; color: var(--ink-1); margin: var(--space-10) 0 var(--space-5); }
   .grid {
     list-style: none;
     margin: 0;
@@ -107,12 +107,12 @@ const jsonLd = [
     height: 100%;
     background: var(--surface-1);
     border: 1px solid var(--border-1);
-    border-radius: var(--radius-md);
+    border-radius: var(--radius-card);
     padding: var(--space-5);
     transition: border-color var(--dur-base) var(--ease-out), transform var(--dur-fast) var(--ease-out);
   }
   .card:hover { border-color: var(--border-2); transform: translateY(-2px); }
-  .card h3 { font-size: var(--fs-md); font-weight: 600; color: var(--ink-1); }
+  .card h3 { font-size: var(--fs-base); font-weight: 600; color: var(--ink-1); }
   .card p { margin-top: var(--space-2); font-size: var(--fs-sm); color: var(--ink-3); }
   @media (max-width: 1000px) { .grid { grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 620px) { .grid { grid-template-columns: 1fr; } }

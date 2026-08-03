@@ -211,3 +211,56 @@ input:focus-visible,
   box-shadow: 0 0 0 3px var(--accent-ring);
   border-radius: 6px;
 }
+
+/* --- Rich-text (.prose) — restores everything the reset strips.
+   Used by faq/compare/alternatives/usecase/tool templates; the blog's
+   .post-body carries its own equivalents. --- */
+.prose ul { list-style: disc; }
+.prose ol { list-style: decimal; }
+.prose ul ul, .prose ol ul { list-style: circle; margin-top: var(--space-2); }
+.prose ul, .prose ol { padding-left: 1.4rem; }
+.prose li::marker { color: var(--ink-4); }
+.prose code {
+  font-family: var(--font-mono);
+  font-size: 0.875em;
+  color: var(--ink-1);
+  background: var(--surface-2);
+  border: 1px solid var(--border-1);
+  border-radius: 6px;
+  padding: 0.1em 0.4em;
+}
+.prose pre {
+  background: var(--surface-2);
+  border: 1px solid var(--border-1);
+  border-left: 3px solid var(--border-2);
+  border-radius: var(--radius-inner);
+  padding: var(--space-4) var(--space-5);
+  overflow-x: auto;
+  margin: var(--space-5) 0;
+  font-size: var(--fs-sm);
+  line-height: var(--lh-base);
+}
+.prose pre code { background: none; border: 0; padding: 0; font-size: 1em; }
+.prose blockquote {
+  border-left: 3px solid var(--border-2);
+  padding: var(--space-2) 0 var(--space-2) var(--space-5);
+  color: var(--ink-3);
+  margin: var(--space-5) 0;
+}
+.prose blockquote p { color: inherit; }
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--fs-sm);
+  margin: var(--space-5) 0;
+  display: block;
+  overflow-x: auto;
+}
+.prose th, .prose td {
+  border: 1px solid var(--border-1);
+  padding: var(--space-2) var(--space-3);
+  text-align: left;
+  vertical-align: top;
+}
+.prose th { background: var(--surface-2); color: var(--ink-1); font-weight: 600; }
+.prose hr { border: 0; border-top: 1px solid var(--border-1); margin: var(--space-8) 0; }

@@ -2,12 +2,19 @@ import type { Competitor } from './competitors';
 import { FEATURE_LABELS, type FeatureKey } from './features';
 import { PAIR_TIER } from './competitors';
 
+/** Mid-sentence form of a feature label: lowercase the lead word unless it's a proper noun/acronym. */
+function naturalize(label: string): string {
+  return /^(AI|YouTube|iOS|Pocket|Android|API)\b/.test(label)
+    ? label
+    : label.charAt(0).toLowerCase() + label.slice(1);
+}
+
 /** Feature labels Marqly has that `other` lacks — the honest differentiator list. */
 export function marqlyEdges(marqly: Competitor, other: Competitor, limit = 3): string[] {
   return (Object.keys(FEATURE_LABELS) as FeatureKey[])
     .filter((k) => marqly.features[k] && !other.features[k])
     .slice(0, limit)
-    .map((k) => FEATURE_LABELS[k].toLowerCase());
+    .map((k) => naturalize(FEATURE_LABELS[k]));
 }
 
 /** Feature labels `other` has that Marqly lacks — shown just as honestly. */
@@ -15,7 +22,7 @@ export function otherEdges(marqly: Competitor, other: Competitor, limit = 3): st
   return (Object.keys(FEATURE_LABELS) as FeatureKey[])
     .filter((k) => !marqly.features[k] && other.features[k])
     .slice(0, limit)
-    .map((k) => FEATURE_LABELS[k].toLowerCase());
+    .map((k) => naturalize(FEATURE_LABELS[k]));
 }
 
 export function pricingSentence(c: Competitor): string {

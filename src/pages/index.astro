@@ -205,6 +205,9 @@ const tiers = [
     ],
   },
 ];
+// Non-null aliases (satisfies noUncheckedIndexedAccess — the array is a fixed 2-tuple).
+const tierFree = tiers[0]!;
+const tierPro = tiers[1]!;
 
 const testimonials = [
   {
@@ -896,18 +899,18 @@ const testimonials = [
 
       <div class="tiers tiers--two" data-billing="yearly" data-reveal data-reveal-delay="2">
         <article class="tier">
-          <h3 class="tier-name">{tiers[0].name}</h3>
+          <h3 class="tier-name">{tierFree.name}</h3>
           <div class="tier-price">
-            <span class="tier-amount">{tiers[0].price}</span>
-            <span class="tier-period">{tiers[0].period}</span>
+            <span class="tier-amount">{tierFree.price}</span>
+            <span class="tier-period">{tierFree.period}</span>
           </div>
-          <p class="tier-blurb">{tiers[0].blurb}</p>
-          <a href={tiers[0].href} class="btn btn--outline btn--lg tier-cta">
-            {tiers[0].cta}
+          <p class="tier-blurb">{tierFree.blurb}</p>
+          <a href={tierFree.href} class="btn btn--outline btn--lg tier-cta">
+            {tierFree.cta}
             <span class="arrow" aria-hidden="true">→</span>
           </a>
           <ul class="tier-perks">
-            {tiers[0].perks.map((p) => (
+            {tierFree.perks.map((p) => (
               <li>
                 <span class="check" aria-hidden="true">
                   <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
@@ -920,22 +923,22 @@ const testimonials = [
 
         <article class="tier tier--featured">
           <span class="tier-flag">7-day free trial</span>
-          <h3 class="tier-name">{tiers[1].name}</h3>
+          <h3 class="tier-name">{tierPro.name}</h3>
           <div class="tier-price" data-show="monthly" hidden>
-            <span class="tier-amount">{tiers[1].monthly.amount}</span>
-            <span class="tier-period">{tiers[1].monthly.period}</span>
+            <span class="tier-amount">{tierPro.monthly.amount}</span>
+            <span class="tier-period">{tierPro.monthly.period}</span>
           </div>
           <div class="tier-price" data-show="yearly">
-            <span class="tier-amount">{tiers[1].yearly.amount}</span>
-            <span class="tier-period">{tiers[1].yearly.period}</span>
+            <span class="tier-amount">{tierPro.yearly.amount}</span>
+            <span class="tier-period">{tierPro.yearly.period}</span>
           </div>
-          <p class="tier-blurb">{tiers[1].blurb}</p>
-          <a href={tiers[1].href} class="btn btn--primary btn--lg tier-cta">
-            {tiers[1].cta}
+          <p class="tier-blurb">{tierPro.blurb}</p>
+          <a href={tierPro.href} class="btn btn--primary btn--lg tier-cta">
+            {tierPro.cta}
             <span class="arrow" aria-hidden="true">→</span>
           </a>
           <ul class="tier-perks">
-            {tiers[1].perks.map((p) => (
+            {tierPro.perks.map((p) => (
               <li>
                 <span class="check" aria-hidden="true">
                   <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12" /></svg>

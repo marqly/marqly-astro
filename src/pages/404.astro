@@ -1,8 +1,63 @@
 ---
+import LandingLayout from '../layouts/LandingLayout.astro';
+
+const title = 'Page not found — Marqly';
+const description =
+  'That page doesn’t exist (or moved). Here’s the fastest way back to what you were looking for.';
 ---
-<!doctype html>
-<html lang="en"><head><meta charset="utf-8" /><title>404 — Marqly</title>
-<meta name="robots" content="noindex" /></head>
-<body style="font-family:sans-serif;display:grid;place-items:center;height:100vh;margin:0">
-<div style="text-align:center"><h1>404</h1><p><a href="/">← Back to Marqly</a></p></div>
-</body></html>
+
+<LandingLayout title={title} description={description}>
+  <section class="section">
+    <div class="container nf">
+      <p class="code">404</p>
+      <h1>That page isn’t here.</h1>
+      <p class="sub">
+        It may have moved — we recently reorganized comparisons and guides. The links below
+        cover almost everything, and the full map is in the footer.
+      </p>
+      <div class="nf-actions">
+        <a class="btn btn--primary btn--lg" href="/">Back to the homepage</a>
+        <a class="btn btn--outline btn--lg" href="https://app.marqly.com">Open the app</a>
+      </div>
+      <ul class="nf-links">
+        <li><a href="/blog">Blog — guides &amp; reviews</a></li>
+        <li><a href="/compare">Comparisons</a></li>
+        <li><a href="/alternatives">Alternatives guides</a></li>
+        <li><a href="/faq">FAQ</a></li>
+        <li><a href="/tools">Free tools</a></li>
+        <li><a href="/#pricing">Pricing</a></li>
+      </ul>
+    </div>
+  </section>
+</LandingLayout>
+
+<style>
+  .nf { max-width: 640px; text-align: center; padding-block: var(--space-16); }
+  .code {
+    font-size: var(--fs-xs);
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: var(--ink-4);
+    margin-bottom: var(--space-3);
+  }
+  h1 { font-size: var(--fs-h2); font-weight: 600; letter-spacing: var(--tracking-tight); }
+  .sub { margin-top: var(--space-4); font-size: var(--fs-base); color: var(--ink-2); }
+  .nf-actions {
+    margin-top: var(--space-8);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+  }
+  .nf-links {
+    margin-top: var(--space-10);
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-2) var(--space-6);
+  }
+  .nf-links a { font-size: var(--fs-sm); color: var(--ink-3); text-decoration: underline; }
+  .nf-links a:hover { color: var(--ink-1); }
+</style>

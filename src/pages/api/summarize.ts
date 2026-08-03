@@ -31,7 +31,7 @@ export const POST: APIRoute = async ({ request, locals }) => {
   }
 
   try {
-    const result = await env.AI.run('@cf/meta/llama-3.1-8b-instruct', {
+    const result = await env.AI.run('@cf/meta/llama-3.3-70b-instruct-fp8-fast', {
       messages: [
         {
           role: 'system',
@@ -48,7 +48,8 @@ export const POST: APIRoute = async ({ request, locals }) => {
     const summary = (result as { response?: string }).response?.trim();
     if (!summary) return json({ error: 'The model returned an empty summary.' }, 502);
     return json({ summary, truncated: text.length > MAX_INPUT_CHARS });
-  } catch {
+  } catch (err) {
+    console.error('summarize failed:', err instanceof Error ? err.message : err);
     return json({ error: 'Summarization failed. Please try again shortly.' }, 502);
   }
 };

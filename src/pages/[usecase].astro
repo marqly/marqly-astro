@@ -14,6 +14,12 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 
+const KIND_LABELS: Record<string, string> = {
+  persona: 'Who it’s for',
+  jtbd: 'What it does',
+  platform: 'Platforms',
+};
+
 const path = `/${entry.id}`;
 const crumbs = [
   { name: 'Home', path: '/' },
@@ -38,12 +44,14 @@ const jsonLd = [
   <section class="hero-lite">
     <div class="container">
       <Breadcrumbs items={crumbs} />
+      <span class="eyebrow">{KIND_LABELS[entry.data.kind]} · {entry.data.navLabel ?? entry.data.title}</span>
       <h1>{entry.data.hero.heading}</h1>
       <p class="sub">{entry.data.hero.subheading}</p>
       <div class="hero-actions">
         <a class="btn btn--primary btn--lg" href={entry.data.ctaUrl}>{entry.data.ctaLabel} <span class="arrow">→</span></a>
         <a class="btn btn--outline btn--lg" href={CHROME_STORE_URL} target="_blank" rel="noopener">Add to Chrome — it's free</a>
       </div>
+      <p class="hero-trust">★ 4.8 on the Chrome Web Store · Free plan, no card required · Works on Chrome, Edge, Firefox, Safari &amp; iOS</p>
     </div>
   </section>
 
@@ -66,40 +74,50 @@ const jsonLd = [
 
 <style>
   .hero-lite {
-    padding-block: var(--space-16) var(--space-8);
-    background: var(--surface-1);
+    padding-block: var(--space-16) var(--space-12);
+    background: var(--surface-2);
+    border-bottom: 1px solid var(--border-1);
   }
+  .hero-lite .eyebrow { margin-bottom: var(--space-5); }
   .hero-lite h1 {
-    font-size: var(--fs-3xl);
+    font-size: var(--fs-h1);
     font-weight: 600;
     letter-spacing: var(--tracking-tight);
     color: var(--ink-1);
     line-height: var(--lh-tight);
-    max-width: 24ch;
+    max-width: 20ch;
   }
   .hero-lite .sub {
-    margin-top: var(--space-4);
+    margin-top: var(--space-5);
     font-size: var(--fs-lg);
     color: var(--ink-2);
     max-width: 58ch;
     line-height: var(--lh-base);
   }
   .hero-actions {
-    margin-top: var(--space-7);
+    margin-top: var(--space-8);
     display: flex;
     flex-wrap: wrap;
     gap: var(--space-3);
   }
+  .hero-trust {
+    margin-top: var(--space-5);
+    font-size: var(--fs-xs);
+    color: var(--ink-3);
+  }
+  @media (max-width: 700px) {
+    .hero-lite { padding-block: var(--space-12) var(--space-10); }
+  }
 
   .narrow { max-width: 760px; }
   .prose :global(p) {
-    font-size: var(--fs-md);
-    line-height: var(--lh-loose);
+    font-size: var(--fs-base);
+    line-height: var(--lh-base);
     color: var(--ink-2);
     margin-bottom: var(--space-4);
   }
   .prose :global(h2) {
-    font-size: var(--fs-xl);
+    font-size: var(--fs-h3);
     font-weight: 600;
     color: var(--ink-1);
     margin-top: var(--space-10);
@@ -117,7 +135,7 @@ const jsonLd = [
     padding-left: 1.4rem;
     margin-bottom: var(--space-4);
     color: var(--ink-2);
-    line-height: var(--lh-loose);
+    line-height: var(--lh-base);
   }
   .prose :global(li) { margin-bottom: var(--space-2); }
   .prose :global(a) { color: var(--ink-1); font-weight: 500; text-decoration: underline; }

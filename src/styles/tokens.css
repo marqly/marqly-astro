@@ -114,4 +114,30 @@
   --container-pad: clamp(1rem, 4vw, 1.5rem);
   --section-pad-y: clamp(4rem, 9vw, 7rem);
   --header-h: 68px;
+
+  /* --- Compat aliases ---------------------------------------------------
+     BlogPostLayout (and older templates) were written against a `--color-*`
+     naming scheme that never landed in this file, so every declaration
+     using them was silently dropped (no blockquote borders, transparent
+     code chips, borderless tables). Aliased to the canonical tokens above —
+     keep new code on the canonical names. */
+  --color-primary: var(--accent);
+  --color-primary-hover: var(--accent-hover);
+  --color-heading: var(--ink-1);
+  --color-heading-soft: var(--ink-2);
+  --color-text-soft: var(--ink-2);
+  --color-text-muted: var(--ink-3);
+  --color-link-hover: var(--ink-1);
+  --color-border: var(--border-1);
+  --color-bg-alt: var(--surface-2);
+  --font-display: var(--font-sans);
+  --radius-sm: 8px;
+  --radius-md: var(--radius-inner);
+  --color-border-strong: var(--border-2);
+  --color-text: var(--ink-2);
+
+  /* Elevation scale (previously referenced but undefined) */
+  --shadow-sm: 0 1px 2px rgba(10, 10, 15, 0.05);
+  --shadow-md: 0 6px 16px rgba(10, 10, 15, 0.06);
+  --shadow-lg: 0 12px 32px rgba(10, 10, 15, 0.08);
 }

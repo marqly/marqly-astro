@@ -58,7 +58,7 @@ const keys: FeatureKey[] =
 </div>
 
 <style>
-  .cmp-wrap { overflow-x: auto; border: 1px solid var(--border-1); border-radius: var(--radius-md); }
+  .cmp-wrap { overflow-x: auto; border: 1px solid var(--border-1); border-radius: var(--radius-card); }
   .cmp {
     width: 100%;
     border-collapse: collapse;
@@ -76,6 +76,12 @@ const keys: FeatureKey[] =
     border-top: 1px solid var(--border-1);
     text-align: left;
     vertical-align: top;
+  }
+  /* Tool columns (headers, ticks, prices) center; feature-name column stays left. */
+  .cmp thead th:not(:first-child),
+  .cmp tbody td {
+    text-align: center;
+    vertical-align: middle;
   }
   .cmp thead th {
     border-top: none;

@@ -8,12 +8,24 @@ interface Segment {
   text: string;
 }
 
+const ANDROID_UA = 'com.google.android.youtube/20.10.38 (Linux; U; Android 11) gzip';
+
+function decodeEntities(s: string): string {
+  return s
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, "'");
+}
+
 /**
- * Free-tool endpoint: fetches a YouTube video's caption track server-side
- * (the watch page embeds the caption track URLs in ytInitialPlayerResponse).
- * Best-effort — YouTube occasionally blocks datacenter IPs; the tool page
- * degrades gracefully and points at the extension, which reads captions
- * in-browser and is not subject to this limitation.
+ * Free-tool endpoint: fetches a video's caption track via the InnerTube
+ * player API (ANDROID client). The classic watch-page caption URLs return
+ * empty bodies since YouTube's proof-of-origin lockdown; the ANDROID client
+ * track URLs still serve timedtext XML (format 3), which we parse here.
  */
 export const GET: APIRoute = async ({ request, url }) => {
   if (!originAllowed(request)) return json({ error: 'Forbidden' }, 403);
@@ -22,34 +34,33 @@ export const GET: APIRoute = async ({ request, url }) => {
   if (!id) return json({ error: 'Provide a valid YouTube URL or video ID (?v=…).' }, 400);
 
   try {
-    const watch = await fetch(`https://www.youtube.com/watch?v=${id}&hl=en`, {
-      headers: {
-        'user-agent':
-          'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36',
-        'accept-language': 'en-US,en;q=0.9',
-      },
+    const player = await fetch('https://www.youtube.com/youtubei/v1/player', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json', 'user-agent': ANDROID_UA },
+      body: JSON.stringify({
+        context: {
+          client: { clientName: 'ANDROID', clientVersion: '20.10.38', androidSdkVersion: 30, hl: 'en' },
+        },
+        videoId: id,
+      }),
     });
-    if (!watch.ok) return json({ error: `YouTube returned ${watch.status}.` }, 502);
-    const html = await watch.text();
+    if (!player.ok) return json({ error: `YouTube returned ${player.status}.` }, 502);
+    const data = (await player.json()) as {
+      videoDetails?: { title?: string };
+      captions?: {
+        playerCaptionsTracklistRenderer?: {
+          captionTracks?: { baseUrl: string; languageCode: string; kind?: string }[];
+        };
+      };
+    };
 
-    const titleMatch = html.match(/<title>(.*?)<\/title>/s);
-    const title = titleMatch
-      ? titleMatch[1].replace(/ - YouTube\s*$/, '').trim()
-      : `YouTube video ${id}`;
-
-    const tracksMatch = html.match(/"captionTracks":(\[.*?\])(?=,")/s);
-    if (!tracksMatch) {
+    const tracks = data.captions?.playerCaptionsTracklistRenderer?.captionTracks ?? [];
+    if (!tracks.length) {
       return json(
         { error: 'No captions found for this video (it may have captions disabled).' },
         404,
       );
     }
-    const tracks = JSON.parse(tracksMatch[1]) as {
-      baseUrl: string;
-      languageCode: string;
-      kind?: string;
-    }[];
-    if (!tracks.length) return json({ error: 'No caption tracks available.' }, 404);
 
     // Prefer manual English, then any English, then the first track.
     const track =
@@ -57,31 +68,28 @@ export const GET: APIRoute = async ({ request, url }) => {
       tracks.find((t) => t.languageCode.startsWith('en')) ??
       tracks[0];
 
-    const capUrl = `${track.baseUrl.replace(/\\u0026/g, '&')}&fmt=json3`;
-    const capRes = await fetch(capUrl);
+    const capRes = await fetch(track.baseUrl, { headers: { 'user-agent': ANDROID_UA } });
     if (!capRes.ok) return json({ error: 'Could not fetch the caption track.' }, 502);
-    const cap = (await capRes.json()) as {
-      events?: { tStartMs: number; segs?: { utf8: string }[] }[];
-    };
+    const xml = await capRes.text();
+    if (!xml.includes('<timedtext')) {
+      return json({ error: 'The caption track came back in an unexpected format.' }, 502);
+    }
 
-    const segments: Segment[] = (cap.events ?? [])
-      .filter((e) => e.segs?.length)
-      .map((e) => ({
-        start: Math.round(e.tStartMs / 1000),
-        text: e.segs!.map((s) => s.utf8).join('').replace(/\n/g, ' ').trim(),
-      }))
-      .filter((s) => s.text.length > 0);
-
+    const segments: Segment[] = [];
+    for (const m of xml.matchAll(/<p\b[^>]*\bt="(\d+)"[^>]*>([\s\S]*?)<\/p>/g)) {
+      const text = decodeEntities(m[2].replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
+      if (text) segments.push({ start: Math.round(Number(m[1]) / 1000), text });
+    }
     if (!segments.length) return json({ error: 'The caption track was empty.' }, 404);
 
     return json({
       id,
-      title,
+      title: data.videoDetails?.title ?? `YouTube video ${id}`,
       language: track.languageCode,
       auto: track.kind === 'asr',
       segments,
     });
-  } catch (err) {
+  } catch {
     return json(
       { error: 'Could not read captions for this video right now. Please try again shortly.' },
       502,
