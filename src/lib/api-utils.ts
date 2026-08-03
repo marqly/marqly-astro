@@ -69,6 +69,50 @@ function isPublicHostname(rawHostname: string): boolean {
   return hostname.includes('.');
 }
 
+function isPrivateIpv6(raw: string): boolean {
+  const hostname = raw.replace(/^\[|\]$/g, '').toLowerCase();
+  const mapped = hostname.match(/::ffff:(\d+\.\d+\.\d+\.\d+)$/)?.[1];
+  if (mapped) return isPrivateIpv4(mapped);
+  // Only 2000::/3 is globally routable; treat everything else as private.
+  return !/^[23][0-9a-f]{0,3}:/.test(hostname);
+}
+
+function isIpLiteral(hostname: string): boolean {
+  const bare = hostname.replace(/^\[|\]$/g, '');
+  return /^\d{1,3}(\.\d{1,3}){3}$/.test(bare) || bare.includes(':');
+}
+
+interface DohAnswer {
+  type: number;
+  data: string;
+}
+
+/**
+ * The string checks above only see the literal hostname, so a name like
+ * `localtest.me` (A record 127.0.0.1) sails straight through them. Resolve over
+ * DoH and reject if ANY answer lands in private space. Fails closed: an
+ * unresolvable name, or a resolver we can't reach, is treated as blocked.
+ */
+async function hostResolvesPublic(hostname: string, signal: AbortSignal): Promise<boolean> {
+  const lookups = (['A', 'AAAA'] as const).map(async (type) => {
+    const endpoint = `https://cloudflare-dns.com/dns-query?name=${encodeURIComponent(hostname)}&type=${type}`;
+    const res = await fetch(endpoint, { headers: { accept: 'application/dns-json' }, signal });
+    if (!res.ok) throw new Error(`DNS lookup failed (${res.status}).`);
+    const body = (await res.json()) as { Answer?: DohAnswer[] };
+    // Types 1 (A) and 28 (AAAA); anything else in the chain (e.g. CNAME) is noise.
+    return (body.Answer ?? []).filter((a) => a.type === 1 || a.type === 28).map((a) => String(a.data));
+  });
+
+  let addresses: string[];
+  try {
+    addresses = (await Promise.all(lookups)).flat();
+  } catch {
+    return false;
+  }
+  if (!addresses.length) return false;
+  return addresses.every((addr) => (addr.includes(':') ? !isPrivateIpv6(addr) : !isPrivateIpv4(addr)));
+}
+
 export function publicHttpUrl(input: string): URL | null {
   try {
     const url = new URL(input.trim());
@@ -112,7 +156,16 @@ export async function fetchPublicUrl(
   const chain: RedirectHop[] = [];
   const maxRedirects = options.maxRedirects ?? 8;
 
+  /** Literals were already range-checked; names still need resolving. */
+  const assertPublicHost = async (url: URL) => {
+    if (isIpLiteral(url.hostname)) return;
+    if (!(await hostResolvesPublic(url.hostname, controller.signal))) {
+      throw new Error('That hostname resolves to a private or unreachable address.');
+    }
+  };
+
   try {
+    await assertPublicHost(current);
     for (let index = 0; index <= maxRedirects; index++) {
       const response = await fetch(current, {
         method: options.method ?? 'GET',
@@ -133,6 +186,7 @@ export async function fetchPublicUrl(
 
       const validated = publicHttpUrl(nextUrl!);
       if (!validated) throw new Error('A redirect pointed to a blocked or non-public URL.');
+      await assertPublicHost(validated);
       current = validated;
     }
     throw new Error('Redirect limit reached.');
