@@ -7,6 +7,7 @@
  */
 import { getCollection } from 'astro:content';
 import { competitors } from '../../lib/competitors';
+import { freeTools } from '../../lib/free-tools';
 
 const faqs = (await getCollection('faq', ({ data }) => !data.draft)).sort((a, b) =>
   a.data.question.localeCompare(b.data.question),
@@ -30,6 +31,10 @@ const FAQ_SHORTLIST = [
   'how-do-i-get-a-youtube-transcript',
   'how-do-i-highlight-text-on-a-website',
   'how-do-i-save-a-page-as-pdf',
+  'what-is-marqly-home-new-tab',
+  'does-marqly-have-clipboard-history',
+  'can-i-save-chatgpt-claude-gemini-conversations',
+  'how-do-i-save-all-my-open-tabs',
   'how-do-i-import-from-pocket',
   'how-do-i-import-chrome-bookmarks',
   'is-marqly-a-pocket-replacement',
@@ -43,17 +48,6 @@ const FAQ_SHORTLIST = [
 const faqTop = FAQ_SHORTLIST.map((slug) => faqs.find((f) => f.id === slug)).filter(
   (f): f is NonNullable<typeof f> => Boolean(f),
 );
-
-const TOOLS = [
-  { label: 'YouTube transcript viewer', href: '/tools/youtube-transcript' },
-  { label: 'YouTube summarizer', href: '/tools/youtube-summarize' },
-  { label: 'Bookmark file viewer', href: '/tools/bookmark-file-viewer' },
-  { label: 'Duplicate bookmark finder', href: '/tools/duplicate-bookmark-finder' },
-  { label: 'Pocket export converter', href: '/tools/pocket-export-converter' },
-  { label: 'URL cleaner', href: '/tools/url-cleaner' },
-  { label: 'Reading time calculator', href: '/tools/reading-time' },
-  { label: 'Dead link checker', href: '/tools/dead-link-checker' },
-];
 
 const BLOG_PICKS = [
   { label: 'Best AI bookmark manager 2026', href: '/blog/best-ai-bookmark-manager-2026' },
@@ -131,8 +125,8 @@ const hasCompare = competitors.length > 0;
       <nav class="lh-col" aria-label="Free tools and resources">
         <h4>Free tools</h4>
         <ul>
-          {TOOLS.map((t) => (
-            <li><a href={t.href}>{t.label}</a></li>
+          {freeTools.map((tool) => (
+            <li><a href={tool.path}>{tool.shortName}</a></li>
           ))}
           <li><a href="/tools" class="lh-more">All tools →</a></li>
         </ul>

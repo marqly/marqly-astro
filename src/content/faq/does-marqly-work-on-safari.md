@@ -1,8 +1,8 @@
 ---
 question: "Does Marqly work on Safari?"
-description: "Yes — Marqly offers a Safari extension, and the Marqly iOS app covers iPhone and iPad. Saves sync with the web app and all of your other browser extensions."
+description: "Yes. Safari supports Marqly's core saving, organizing, highlights, YouTube tools, tab saving, and print-to-PDF workflow, with account sync."
 category: getting-started
-updatedDate: 2026-08-02
+updatedDate: 2026-08-03
 related:
   - is-there-an-ios-app
   - does-marqly-work-on-edge
@@ -16,6 +16,8 @@ Yes. Marqly has a Safari extension, so Mac users don't need to switch browsers t
 The Safari extension brings Marqly's core workflow to Apple's browser: save the page you're on, add tags if you want (AI tags it automatically either way), and search your library later by describing what you remember — no folder archaeology. For install steps and setup help, see the [Marqly help center](https://help.marqly.com).
 
 Safari is one of four browsers Marqly supports, alongside Chrome, Edge, and Firefox. If you run a mixed setup — Safari for personal browsing, Chrome for work — install Marqly in both and the saves land in one shared library.
+
+Safari supports core saving and organization, webpage highlights, YouTube tools, tab saving, and the browser's print-to-PDF flow. Marqly Home on the New Tab page, Clipboard History, the Chrome-style side panel, and ChatGPT/Claude/Gemini conversation capture are not currently available in Safari. See the [browser-by-browser extension table](/extension#availability) for the complete breakdown.
 
 ## iPhone and iPad
 

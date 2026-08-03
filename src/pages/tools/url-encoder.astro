@@ -1,0 +1,57 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import ToolShell from '../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../lib/schema';
+
+const title = 'URL Encoder & Decoder — Free Percent-Encoding Tool';
+const description = 'Encode text for a URL or decode percent-encoded URL values instantly. Free, private, and processed entirely in your browser.';
+const path = '/tools/url-encoder';
+const faqs = [
+  { q: 'What does URL encoding do?', a: 'It replaces characters that are unsafe or meaningful inside a URL with percent-encoded UTF-8 bytes. A space becomes %20, for example.' },
+  { q: 'Does this encode a complete URL?', a: 'The Encode button uses encodeURIComponent, which is intended for an individual query value, path segment, or arbitrary text. Encoding an entire URL also encodes its slashes and colon, so normally encode only the part you are inserting.' },
+  { q: 'Why can a plus sign mean a space?', a: 'HTML form encoding commonly represents spaces as plus signs, while standard percent encoding uses %20. Enable the plus-as-space option when decoding form query values.' },
+  { q: 'Is my text uploaded?', a: 'No. Both operations use built-in JavaScript functions locally in your browser.' },
+];
+const jsonLd = [organization(), webSite(), breadcrumbList([{ name: 'Home', path: '/' }, { name: 'Free tools', path: '/tools' }, { name: 'URL encoder and decoder', path }]), faqPage(faqs), freeWebApplication('URL Encoder and Decoder', description, path)];
+---
+
+<LandingLayout title={title} description={description} jsonLd={jsonLd} ogImage="https://www.marqly.com/og/seo/tool-url-encoder.png">
+  <ToolShell name="URL encoder and decoder" heading="Encode or decode a URL value" sub="Convert text to percent-encoded UTF-8, or turn encoded values back into readable text. Nothing leaves your browser." faqs={faqs}>
+    <label for="url-code-input">Input</label>
+    <textarea id="url-code-input" class="mono" placeholder="A title with spaces & symbols — or hello%20world"></textarea>
+    <label class="check-row"><input id="url-plus-space" type="checkbox" /> Treat + as a space when decoding</label>
+    <div class="tool-actions"><button class="btn btn--primary btn--sm" id="url-encode" type="button">Encode</button><button class="btn btn--outline btn--sm" id="url-decode" type="button">Decode</button><button class="btn btn--outline btn--sm hidden" id="url-code-copy" type="button">Copy result</button></div>
+    <p class="tool-status" id="url-code-status" role="status"></p>
+    <div class="field hidden" id="url-code-output-wrap"><label for="url-code-output">Result</label><textarea id="url-code-output" class="mono" readonly></textarea></div>
+    <Fragment slot="content">
+      <h2>Percent encoding without guessing</h2>
+      <p>URLs reserve characters such as <code>?</code>, <code>&amp;</code>, <code>=</code>, <code>#</code>, and <code>/</code> for structure. Encoding a value prevents its contents from being mistaken for that structure and safely represents Unicode text as UTF-8 bytes.</p>
+      <h2>Related URL tools</h2>
+      <p>Create complete campaign links with the <a href="/tools/utm-builder">UTM builder</a>, remove tracking with the <a href="/tools/url-cleaner">URL cleaner</a>, or inspect where a URL leads with the <a href="/tools/redirect-checker">redirect checker</a>.</p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const input = document.getElementById('url-code-input') as HTMLTextAreaElement;
+  const output = document.getElementById('url-code-output') as HTMLTextAreaElement;
+  const wrap = document.getElementById('url-code-output-wrap')!;
+  const status = document.getElementById('url-code-status')!;
+  const copy = document.getElementById('url-code-copy')!;
+  function run(mode: 'encode' | 'decode') {
+    status.classList.remove('is-error');
+    if (!input.value) { status.textContent = 'Enter something first.'; status.classList.add('is-error'); return; }
+    try {
+      const value = mode === 'encode'
+        ? encodeURIComponent(input.value)
+        : decodeURIComponent((document.getElementById('url-plus-space') as HTMLInputElement).checked ? input.value.replace(/\+/g, ' ') : input.value);
+      output.value = value;
+      wrap.classList.remove('hidden');
+      copy.classList.remove('hidden');
+      status.textContent = mode === 'encode' ? 'Encoded.' : 'Decoded.';
+    } catch { status.textContent = 'That value contains an incomplete or invalid percent-encoded sequence.'; status.classList.add('is-error'); }
+  }
+  document.getElementById('url-encode')!.addEventListener('click', () => run('encode'));
+  document.getElementById('url-decode')!.addEventListener('click', () => run('decode'));
+  copy.addEventListener('click', async () => { await navigator.clipboard.writeText(output.value); status.textContent = 'Copied.'; });
+</script>

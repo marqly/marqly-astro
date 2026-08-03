@@ -1,0 +1,81 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import ToolShell from '../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../lib/schema';
+
+const title = 'HTML to Markdown Converter — Free, Private & GFM Ready';
+const description = 'Convert pasted HTML or an HTML file into clean GitHub-flavored Markdown with tables, task lists, links, and code blocks. Runs locally.';
+const path = '/tools/html-to-markdown';
+const faqs = [
+  { q: 'Does the converter support GitHub-flavored Markdown?', a: 'Yes. Tables, strikethrough, and task-list items are handled in addition to standard headings, links, images, lists, quotes, and code blocks.' },
+  { q: 'Can I convert an HTML file?', a: 'Yes. Choose a local .html or .htm file up to 5 MB, or paste HTML directly. The file is read locally by your browser.' },
+  { q: 'Can I paste a webpage URL?', a: 'This zero-cost version accepts HTML text or a file. Fetching arbitrary webpages requires a server because browser CORS blocks most sites, and many pages need JavaScript rendering.' },
+  { q: 'Is my content uploaded?', a: 'No. Conversion happens entirely in your browser using the open-source Turndown converter and its GitHub-flavored Markdown plugin.' },
+];
+const jsonLd = [organization(), webSite(), breadcrumbList([{ name: 'Home', path: '/' }, { name: 'Free tools', path: '/tools' }, { name: 'HTML to Markdown converter', path }]), faqPage(faqs), freeWebApplication('HTML to Markdown Converter', description, path)];
+---
+
+<LandingLayout title={title} description={description} jsonLd={jsonLd} ogImage="https://www.marqly.com/og/seo/tool-html-to-markdown.png">
+  <ToolShell name="HTML to Markdown converter" heading="Convert HTML to clean Markdown" sub="Paste HTML or open a local .html file. Get GitHub-flavored Markdown without uploading your content anywhere." faqs={faqs}>
+    <label for="html-md-input">HTML input</label>
+    <textarea id="html-md-input" class="mono" placeholder="<article><h1>Title</h1><p>A paragraph with <strong>important text</strong>.</p></article>"></textarea>
+    <div class="tool-row field">
+      <div class="grow"><label for="html-md-file">Or open an HTML file</label><input id="html-md-file" type="file" accept=".html,.htm,text/html" /></div>
+    </div>
+    <div class="tool-actions"><button class="btn btn--primary btn--sm" id="html-md-convert" type="button">Convert to Markdown</button><button class="btn btn--outline btn--sm" id="html-md-sample" type="button">Load sample</button><button class="btn btn--outline btn--sm hidden" id="html-md-copy" type="button">Copy Markdown</button><button class="btn btn--outline btn--sm hidden" id="html-md-download" type="button">Download .md</button></div>
+    <p class="tool-status" id="html-md-status" role="status"></p>
+    <div class="field hidden" id="html-md-output-wrap"><label for="html-md-output">Markdown output</label><textarea id="html-md-output" class="mono" readonly></textarea><p class="muted" id="html-md-stats"></p></div>
+    <Fragment slot="content">
+      <h2>Cleaner text for documentation and AI workflows</h2>
+      <p>Markdown keeps headings, links, lists, tables, quotations, and code while discarding layout markup and inline styling. That makes it easier to edit, version, move into a knowledge base, or provide to an AI system without paying for thousands of irrelevant HTML tokens.</p>
+      <h2>Private by design</h2>
+      <p>The converter is bundled into this page and works offline after loading. Your pasted text and files stay on your device. For a quick size check before conversion, the <a href="/tools/reading-time">reading-time calculator</a> also reports words and characters locally.</p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  import TurndownService from 'turndown';
+  import { gfm } from 'turndown-plugin-gfm';
+
+  const input = document.getElementById('html-md-input') as HTMLTextAreaElement;
+  const output = document.getElementById('html-md-output') as HTMLTextAreaElement;
+  const wrap = document.getElementById('html-md-output-wrap')!;
+  const status = document.getElementById('html-md-status')!;
+  const stats = document.getElementById('html-md-stats')!;
+  const copy = document.getElementById('html-md-copy')!;
+  const download = document.getElementById('html-md-download')!;
+  const service = new TurndownService({ headingStyle: 'atx', codeBlockStyle: 'fenced', bulletListMarker: '-' });
+  service.use(gfm);
+  service.remove(['script', 'style', 'noscript', 'template']);
+
+  function convert() {
+    status.classList.remove('is-error');
+    if (!input.value.trim()) { status.textContent = 'Paste HTML or choose a file first.'; status.classList.add('is-error'); return; }
+    try {
+      output.value = service.turndown(input.value).trim();
+      const words = output.value.match(/\S+/g)?.length ?? 0;
+      stats.textContent = `${words.toLocaleString()} words · ${output.value.length.toLocaleString()} characters`;
+      wrap.classList.remove('hidden'); copy.classList.remove('hidden'); download.classList.remove('hidden');
+      status.textContent = 'Converted locally.';
+    } catch { status.textContent = 'That HTML could not be converted.'; status.classList.add('is-error'); }
+  }
+  document.getElementById('html-md-convert')!.addEventListener('click', convert);
+  document.getElementById('html-md-sample')!.addEventListener('click', () => {
+    input.value = '<article><h1>Research notes</h1><p>This is a <strong>useful</strong> source with <a href="https://example.com">one reference</a>.</p><h2>Key points</h2><ul><li>First finding</li><li>Second finding</li></ul><table><thead><tr><th>Tool</th><th>Result</th></tr></thead><tbody><tr><td>Marqly</td><td>Saved</td></tr></tbody></table></article>';
+    convert();
+  });
+  (document.getElementById('html-md-file') as HTMLInputElement).addEventListener('change', async (event) => {
+    const file = (event.currentTarget as HTMLInputElement).files?.[0];
+    if (!file) return;
+    if (file.size > 5_000_000) { status.textContent = 'Choose an HTML file smaller than 5 MB.'; status.classList.add('is-error'); return; }
+    input.value = await file.text();
+    convert();
+  });
+  copy.addEventListener('click', async () => { await navigator.clipboard.writeText(output.value); status.textContent = 'Markdown copied.'; });
+  download.addEventListener('click', () => {
+    const href = URL.createObjectURL(new Blob([output.value], { type: 'text/markdown;charset=utf-8' }));
+    const anchor = document.createElement('a'); anchor.href = href; anchor.download = 'converted.md'; anchor.click();
+    setTimeout(() => URL.revokeObjectURL(href), 1000);
+  });
+</script>

@@ -1,0 +1,85 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import ToolShell from '../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../lib/schema';
+
+const title = 'UTM Builder — Free Campaign URL Generator';
+const description =
+  'Build correctly encoded UTM campaign URLs for Google Analytics, email, social, and paid ads. Free, private, and entirely browser-based.';
+const path = '/tools/utm-builder';
+const faqs = [
+  { q: 'Which UTM fields are required?', a: 'A destination URL plus utm_source, utm_medium, and utm_campaign are the useful minimum. Term and content are optional differentiators, while utm_id and the newer platform/creative fields are useful for more structured analytics setups.' },
+  { q: 'Should UTM values be lowercase?', a: 'Usually yes. Analytics treats Newsletter, newsletter, and NEWSLETTER as different values. The lowercase option is enabled by default to prevent accidental fragmentation.' },
+  { q: 'Are campaign URLs sent to Marqly?', a: 'No. The URL is built with your browser’s native URL API and never leaves the page.' },
+  { q: 'Can I remove UTMs later?', a: 'Yes. The URL cleaner removes UTM and click-tracking parameters when you need a clean link for sharing or bookmarking.' },
+];
+const jsonLd = [organization(), webSite(), breadcrumbList([{ name: 'Home', path: '/' }, { name: 'Free tools', path: '/tools' }, { name: 'UTM builder', path }]), faqPage(faqs), freeWebApplication('UTM Builder', description, path)];
+---
+
+<LandingLayout title={title} description={description} jsonLd={jsonLd} ogImage="https://www.marqly.com/og/seo/tool-utm-builder.png">
+  <ToolShell name="UTM builder" heading="Build a campaign URL" sub="Create a clean, correctly encoded tracking URL for analytics, email, paid ads, or social campaigns. Everything stays in your browser." faqs={faqs}>
+    <form id="utm-form">
+      <label for="utm-url">Destination URL</label>
+      <input id="utm-url" type="url" placeholder="https://example.com/landing-page" required />
+      <div class="tool-grid">
+        <div><label for="utm-source">Campaign source *</label><input id="utm-source" type="text" placeholder="newsletter" required /></div>
+        <div><label for="utm-medium">Campaign medium *</label><input id="utm-medium" type="text" placeholder="email" required /></div>
+        <div><label for="utm-campaign">Campaign name *</label><input id="utm-campaign" type="text" placeholder="summer-launch" required /></div>
+        <div><label for="utm-id">Campaign ID</label><input id="utm-id" type="text" placeholder="launch-2026" /></div>
+        <div><label for="utm-term">Campaign term</label><input id="utm-term" type="text" placeholder="bookmark-manager" /></div>
+        <div><label for="utm-content">Campaign content</label><input id="utm-content" type="text" placeholder="hero-button" /></div>
+        <div><label for="utm-platform">Source platform</label><input id="utm-platform" type="text" placeholder="meta" /></div>
+        <div><label for="utm-creative">Creative format</label><input id="utm-creative" type="text" placeholder="video" /></div>
+      </div>
+      <label class="check-row"><input id="utm-lower" type="checkbox" checked /> Normalize UTM values to lowercase</label>
+      <div class="tool-actions"><button class="btn btn--primary btn--sm" type="submit">Build URL</button><button class="btn btn--outline btn--sm hidden" id="utm-copy" type="button">Copy URL</button></div>
+      <p class="tool-status" id="utm-status" role="status"></p>
+      <div class="field hidden" id="utm-output-wrap"><label for="utm-output">Campaign URL</label><textarea id="utm-output" class="mono" readonly></textarea></div>
+    </form>
+    <Fragment slot="content">
+      <h2>Consistent campaign naming beats clever campaign naming</h2>
+      <p>UTM parameters tell analytics where a visit came from. The values are case-sensitive, so a small inconsistency can split one campaign across several rows. Use a predictable source, medium, and campaign convention, then keep term and content for variants you genuinely need to compare.</p>
+      <h2>Build, encode, and clean URLs</h2>
+      <p>This builder automatically percent-encodes every value. For manual encoding use the <a href="/tools/url-encoder">URL encoder and decoder</a>. When a tracked link needs to become shareable, remove the attribution with the <a href="/tools/url-cleaner">URL cleaner</a>.</p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const form = document.getElementById('utm-form') as HTMLFormElement;
+  const output = document.getElementById('utm-output') as HTMLTextAreaElement;
+  const outputWrap = document.getElementById('utm-output-wrap')!;
+  const copy = document.getElementById('utm-copy')!;
+  const status = document.getElementById('utm-status')!;
+  const fields: [string, string][] = [
+    ['utm_source', 'utm-source'], ['utm_medium', 'utm-medium'], ['utm_campaign', 'utm-campaign'],
+    ['utm_id', 'utm-id'], ['utm_term', 'utm-term'], ['utm_content', 'utm-content'],
+    ['utm_source_platform', 'utm-platform'], ['utm_creative_format', 'utm-creative'],
+  ];
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    status.classList.remove('is-error');
+    try {
+      const url = new URL((document.getElementById('utm-url') as HTMLInputElement).value.trim());
+      if (!/^https?:$/.test(url.protocol)) throw new Error('Use an http or https destination URL.');
+      const lower = (document.getElementById('utm-lower') as HTMLInputElement).checked;
+      for (const [parameter, id] of fields) {
+        let value = (document.getElementById(id) as HTMLInputElement).value.trim();
+        if (lower) value = value.toLowerCase();
+        if (value) url.searchParams.set(parameter, value);
+        else url.searchParams.delete(parameter);
+      }
+      output.value = url.toString();
+      outputWrap.classList.remove('hidden');
+      copy.classList.remove('hidden');
+      status.textContent = 'Campaign URL ready.';
+    } catch (error) {
+      status.textContent = error instanceof Error ? error.message : 'Enter a valid destination URL.';
+      status.classList.add('is-error');
+    }
+  });
+  copy.addEventListener('click', async () => {
+    await navigator.clipboard.writeText(output.value);
+    status.textContent = 'Copied.';
+  });
+</script>

@@ -49,6 +49,17 @@ export function softwareApplication() {
     installUrl: CHROME_STORE_URL,
     description:
       'AI bookmark manager with semantic search — save articles, videos, and links, then find any of them by describing what you remember instead of the exact title.',
+    featureList: [
+      'One-click bookmark saving and automatic AI tagging',
+      'Semantic search across bookmarks, highlights, and transcripts',
+      'New Tab workspace with quick links, notes, to-dos, weather, and saved sessions',
+      'Clipboard History in Chrome and Edge',
+      'Save conversations from ChatGPT, Claude, and Gemini in Chrome, Edge, and Firefox',
+      'Persistent webpage highlights in six colors with notes',
+      'AI YouTube summaries, chat, and playback-synced transcripts',
+      'Save all open tabs and restore browsing sessions',
+      'Save webpages as PDF locally in the browser',
+    ],
     offers: {
       '@type': 'AggregateOffer',
       lowPrice: '0',
@@ -114,5 +125,29 @@ export function itemList(names: string[], path: string) {
       position: i + 1,
       name,
     })),
+  };
+}
+
+export function freeWebApplication(name: string, description: string, path: string) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    name,
+    description,
+    url: `${SITE}${path}`,
+    applicationCategory: 'UtilitiesApplication',
+    operatingSystem: 'Any',
+    browserRequirements: 'Requires JavaScript and a modern web browser',
+    isAccessibleForFree: true,
+    offers: {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: 'USD',
+    },
+    provider: {
+      '@type': 'Organization',
+      name: 'Marqly',
+      url: SITE,
+    },
   };
 }

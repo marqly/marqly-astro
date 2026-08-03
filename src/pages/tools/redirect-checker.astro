@@ -1,0 +1,62 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import ToolShell from '../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../lib/schema';
+
+const title = 'Redirect Checker — Trace 301, 302 & Complete URL Chains';
+const description = 'Follow every redirect in a URL chain and see each HTTP status, location, final URL, loop, or excessive hop. Free with no signup.';
+const path = '/tools/redirect-checker';
+const faqs = [
+  { q: 'Which redirect status codes does it show?', a: 'The checker records every 300-range response that supplies a Location header, including 301, 302, 303, 307, and 308, followed by the final response.' },
+  { q: 'How many redirects are too many?', a: 'One intentional redirect is common. Several hops add latency and create more places for a chain to break. This tool stops after 10 redirects and reports the limit.' },
+  { q: 'Why does this need a server request?', a: 'Browser CORS rules prevent a page from reliably reading cross-site response statuses and Location headers. Marqly’s server performs the limited check and returns only the chain.' },
+  { q: 'Can it check private or local network URLs?', a: 'No. Localhost, private IP ranges, credentials, custom ports, and redirects toward blocked addresses are rejected for safety.' },
+];
+const jsonLd = [organization(), webSite(), breadcrumbList([{ name: 'Home', path: '/' }, { name: 'Free tools', path: '/tools' }, { name: 'Redirect checker', path }]), faqPage(faqs), freeWebApplication('Redirect Chain Checker', description, path)];
+---
+
+<LandingLayout title={title} description={description} jsonLd={jsonLd} ogImage="https://www.marqly.com/og/seo/tool-redirect-checker.png">
+  <ToolShell name="Redirect checker" heading="Trace a complete redirect chain" sub="Enter a public URL to see every 301, 302, 307, or 308 hop and the final HTTP response." faqs={faqs}>
+    <form id="redirect-form">
+      <label for="redirect-url">Public URL</label><div class="tool-row"><div class="grow"><input id="redirect-url" type="url" placeholder="https://example.com/old-page" required /></div><button class="btn btn--primary btn--sm" id="redirect-submit" type="submit">Check redirects</button></div>
+      <p class="tool-status" id="redirect-status" role="status"></p>
+    </form>
+    <div class="hidden" id="redirect-results" style="overflow-x:auto;"><table class="tool-table"><thead><tr><th>Hop</th><th>Status</th><th>URL</th><th>Location</th></tr></thead><tbody id="redirect-body"></tbody></table></div>
+    <Fragment slot="content">
+      <h2>Why redirect chains matter</h2>
+      <p>A redirect is normal when a page moves or HTTP becomes HTTPS. A chain such as old URL → intermediate URL → another domain → final page adds latency and makes analytics, crawling, and link maintenance harder. The cleanest link points directly to the final destination.</p>
+      <h2>Check health after the chain</h2>
+      <p>Use the <a href="/tools/dead-link-checker">dead link checker</a> for a batch of URLs, or inspect the final page’s social and SEO metadata with the <a href="/tools/open-graph-checker">Open Graph checker</a>.</p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  type Hop = { url: string; status: number; location?: string };
+  type Result = { chain: Hop[]; finalUrl?: string; status: number; ok: boolean; redirects: number; error?: string };
+  const form = document.getElementById('redirect-form') as HTMLFormElement;
+  const input = document.getElementById('redirect-url') as HTMLInputElement;
+  const submit = document.getElementById('redirect-submit') as HTMLButtonElement;
+  const status = document.getElementById('redirect-status')!;
+  const results = document.getElementById('redirect-results')!;
+  const body = document.getElementById('redirect-body')!;
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault(); status.classList.remove('is-error'); results.classList.add('hidden'); body.textContent = '';
+    status.textContent = 'Following redirects…'; submit.disabled = true;
+    try {
+      const response = await fetch('/api/redirect-check', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ url: input.value.trim() }) });
+      const data = await response.json() as Result;
+      if (!response.ok || data.error) throw new Error(data.error || 'The redirect check failed.');
+      data.chain.forEach((hop, index) => {
+        const row = document.createElement('tr');
+        for (const value of [String(index + 1), String(hop.status), hop.url, hop.location || 'Final response']) {
+          const cell = document.createElement('td'); cell.textContent = value; row.appendChild(cell);
+        }
+        body.appendChild(row);
+      });
+      results.classList.remove('hidden');
+      status.textContent = `${data.redirects} redirect${data.redirects === 1 ? '' : 's'} · final status ${data.status}${data.ok ? ' ✓' : ''}.`;
+    } catch (error) { status.textContent = error instanceof Error ? error.message : 'The redirect check failed.'; status.classList.add('is-error'); }
+    finally { submit.disabled = false; }
+  });
+</script>

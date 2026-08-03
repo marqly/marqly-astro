@@ -1,0 +1,62 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import ToolShell from '../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../lib/schema';
+
+const title = 'Bookmarklet Maker — Convert JavaScript to a Browser Bookmark';
+const description = 'Turn a small JavaScript snippet into a draggable bookmarklet. Free, private, and generated entirely in your browser.';
+const path = '/tools/bookmarklet-maker';
+const faqs = [
+  { q: 'What is a bookmarklet?', a: 'A bookmarklet is a browser bookmark whose URL starts with javascript:. Clicking it runs a small script on the page you are viewing instead of opening another website.' },
+  { q: 'How do I install the generated bookmarklet?', a: 'Drag the generated button to your bookmarks bar. If drag-and-drop is unavailable, copy the bookmarklet URL and paste it into the URL field of a manually created bookmark.' },
+  { q: 'Is the code executed by this generator?', a: 'No. This page only packages and displays the code. The generated button is prevented from running here; it executes only when you save it as a bookmark and click it on another page.' },
+  { q: 'Are bookmarklets safe?', a: 'A bookmarklet can read and change the current page, so only use code you understand and trust. Some websites block bookmarklets with strict security policies.' },
+];
+const jsonLd = [organization(), webSite(), breadcrumbList([{ name: 'Home', path: '/' }, { name: 'Free tools', path: '/tools' }, { name: 'Bookmarklet maker', path }]), faqPage(faqs), freeWebApplication('Bookmarklet Maker', description, path)];
+---
+
+<LandingLayout title={title} description={description} jsonLd={jsonLd} ogImage="https://www.marqly.com/og/seo/tool-bookmarklet-maker.png">
+  <ToolShell name="Bookmarklet maker" heading="Turn JavaScript into a bookmarklet" sub="Paste a small script, generate the bookmark URL, then drag the result to your bookmarks bar. Your code stays local." faqs={faqs}>
+    <label for="bm-name">Bookmark name</label><input id="bm-name" type="text" value="My bookmarklet" maxlength="80" />
+    <div class="field"><label for="bm-code">JavaScript</label><textarea id="bm-code" class="mono" placeholder="alert(document.title);"></textarea></div>
+    <div class="tool-actions"><button class="btn btn--primary btn--sm" id="bm-build" type="button">Create bookmarklet</button><button class="btn btn--outline btn--sm" id="bm-sample" type="button">Load page-title sample</button><button class="btn btn--outline btn--sm hidden" id="bm-copy" type="button">Copy bookmark URL</button></div>
+    <p class="tool-status" id="bm-status" role="status"></p>
+    <div class="field hidden" id="bm-result">
+      <label>Drag this button to your bookmarks bar</label>
+      <a class="btn btn--dark btn--sm" id="bm-drag" draggable="true" href="#">My bookmarklet</a>
+      <label for="bm-output" style="margin-top: var(--space-4);">Generated bookmark URL</label>
+      <textarea id="bm-output" class="mono" readonly></textarea>
+    </div>
+    <Fragment slot="content">
+      <h2>A tiny tool that lives in the bookmarks bar</h2>
+      <p>Bookmarklets are useful for page-specific actions: copying a formatted citation, toggling a reading view, extracting selected text, or opening the current URL in another service. They require no extension installation and keep the script inside a normal browser bookmark.</p>
+      <h2>Security matters</h2>
+      <p>Bookmarklets run with access to the current page. Review code before installing it, avoid snippets that load remote scripts, and never run an unknown bookmarklet on a page containing sensitive information.</p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const name = document.getElementById('bm-name') as HTMLInputElement;
+  const code = document.getElementById('bm-code') as HTMLTextAreaElement;
+  const output = document.getElementById('bm-output') as HTMLTextAreaElement;
+  const result = document.getElementById('bm-result')!;
+  const drag = document.getElementById('bm-drag') as HTMLAnchorElement;
+  const status = document.getElementById('bm-status')!;
+  const copy = document.getElementById('bm-copy')!;
+  function build() {
+    status.classList.remove('is-error');
+    const source = code.value.trim().replace(/^javascript:\s*/i, '');
+    if (!source) { status.textContent = 'Paste a JavaScript snippet first.'; status.classList.add('is-error'); return; }
+    const bookmarklet = `javascript:${encodeURIComponent(`(()=>{\n${source}\n})()` )}`;
+    output.value = bookmarklet;
+    drag.href = bookmarklet;
+    drag.textContent = name.value.trim() || 'My bookmarklet';
+    result.classList.remove('hidden'); copy.classList.remove('hidden');
+    status.textContent = 'Bookmarklet ready. Drag the dark button to your bookmarks bar.';
+  }
+  document.getElementById('bm-build')!.addEventListener('click', build);
+  document.getElementById('bm-sample')!.addEventListener('click', () => { name.value = 'Copy page title'; code.value = "navigator.clipboard.writeText(document.title);"; build(); });
+  drag.addEventListener('click', (event) => { event.preventDefault(); status.textContent = 'Drag this button to your bookmarks bar instead of clicking it here.'; });
+  copy.addEventListener('click', async () => { await navigator.clipboard.writeText(output.value); status.textContent = 'Bookmark URL copied.'; });
+</script>

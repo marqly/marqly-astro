@@ -1,5 +1,5 @@
 import type { APIRoute } from 'astro';
-import { json, originAllowed } from '../../lib/api-utils';
+import { fetchPublicUrl, json, originAllowed, publicHttpUrl } from '../../lib/api-utils';
 
 export const prerender = false;
 
@@ -19,34 +19,40 @@ export const POST: APIRoute = async ({ request }) => {
 
   const urls = (body.urls ?? [])
     .map((u) => u.trim())
-    .filter((u) => /^https?:\/\//i.test(u))
+    .filter((u) => Boolean(publicHttpUrl(u)))
     .slice(0, MAX_URLS);
   if (!urls.length) return json({ error: 'Provide up to 25 http(s) URLs.' }, 400);
 
   const check = async (url: string) => {
-    const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
+    let cleanup = () => {};
     try {
-      let res = await fetch(url, {
+      let result = await fetchPublicUrl(url, {
         method: 'HEAD',
-        redirect: 'follow',
-        signal: controller.signal,
-        headers: { 'user-agent': 'MarqlyLinkChecker/1.0 (+https://www.marqly.com/tools/dead-link-checker)' },
+        timeoutMs: TIMEOUT_MS,
+        userAgent: 'MarqlyLinkChecker/1.0 (+https://www.marqly.com/tools/dead-link-checker)',
       });
+      cleanup = result.cleanup;
       // Some servers reject HEAD — retry those with GET.
-      if (res.status === 405 || res.status === 501) {
-        res = await fetch(url, {
+      if (result.response.status === 405 || result.response.status === 501) {
+        cleanup();
+        result = await fetchPublicUrl(url, {
           method: 'GET',
-          redirect: 'follow',
-          signal: controller.signal,
-          headers: { 'user-agent': 'MarqlyLinkChecker/1.0 (+https://www.marqly.com/tools/dead-link-checker)' },
+          timeoutMs: TIMEOUT_MS,
+          userAgent: 'MarqlyLinkChecker/1.0 (+https://www.marqly.com/tools/dead-link-checker)',
         });
+        cleanup = result.cleanup;
       }
-      return { url, status: res.status, ok: res.ok, finalUrl: res.url !== url ? res.url : undefined };
+      const final = result.chain.at(-1)!;
+      return {
+        url,
+        status: result.response.status,
+        ok: result.response.ok,
+        finalUrl: final.url !== url ? final.url : undefined,
+      };
     } catch {
       return { url, status: 0, ok: false, error: 'unreachable or timed out' };
     } finally {
-      clearTimeout(timer);
+      cleanup();
     }
   };
 

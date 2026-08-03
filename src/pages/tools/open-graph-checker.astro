@@ -1,0 +1,81 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import ToolShell from '../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../lib/schema';
+
+const title = 'Open Graph Checker — Preview OG, Twitter & SEO Meta Tags';
+const description = 'Inspect a webpage’s title, description, canonical, robots, Open Graph, and Twitter card tags, with a visual social-share preview.';
+const path = '/tools/open-graph-checker';
+const faqs = [
+  { q: 'Which tags does the checker inspect?', a: 'It reads the HTML title, meta description, canonical link, robots directive, Open Graph title/description/image/url/type/site name, and Twitter card/title/description/image.' },
+  { q: 'Why can the preview differ from a social network?', a: 'Platforms cache metadata and apply their own layouts, image crops, and fallbacks. This preview shows what the current HTML declares, not an individual network’s cached copy.' },
+  { q: 'Does this render JavaScript?', a: 'No. It inspects the initial HTML response. Metadata generated only after client-side JavaScript runs may not appear, which is also a warning sign for many crawlers and link unfurlers.' },
+  { q: 'Can it inspect private URLs?', a: 'No. The checker only requests public HTTP or HTTPS pages on standard ports and blocks local/private addresses and unsafe redirect targets.' },
+];
+const jsonLd = [organization(), webSite(), breadcrumbList([{ name: 'Home', path: '/' }, { name: 'Free tools', path: '/tools' }, { name: 'Open Graph checker', path }]), faqPage(faqs), freeWebApplication('Open Graph and Meta Tag Checker', description, path)];
+---
+
+<LandingLayout title={title} description={description} jsonLd={jsonLd} ogImage="https://www.marqly.com/og/seo/tool-open-graph-checker.png">
+  <ToolShell name="Open Graph checker" heading="Check Open Graph and meta tags" sub="Inspect the HTML metadata a search engine or social preview can see — including canonical, robots, OG, and Twitter card fields." faqs={faqs}>
+    <form id="meta-form"><label for="meta-url">Public webpage URL</label><div class="tool-row"><div class="grow"><input id="meta-url" type="url" placeholder="https://example.com/article" required /></div><button class="btn btn--primary btn--sm" id="meta-submit" type="submit">Check metadata</button></div><p class="tool-status" id="meta-status" role="status"></p></form>
+    <div class="hidden" id="meta-results">
+      <div class="result-card" id="meta-preview" style="margin-top:var(--space-5);overflow:hidden;padding:0;"><img id="meta-image" alt="" class="hidden" style="width:100%;aspect-ratio:1.91/1;object-fit:cover;background:#eee;" /><div style="padding:var(--space-4);"><p class="muted" id="meta-host"></p><h3 id="meta-preview-title"></h3><p id="meta-preview-description"></p></div></div>
+      <div style="overflow-x:auto;"><table class="tool-table"><thead><tr><th>Field</th><th>Value</th></tr></thead><tbody id="meta-body"></tbody></table></div>
+    </div>
+    <Fragment slot="content">
+      <h2>The metadata behind every shared link</h2>
+      <p>Open Graph tags control how a page appears in many messaging and social apps. A strong card needs a specific title, a useful description, an absolute image URL, and a canonical destination. Twitter card tags can override the same fields for X.</p>
+      <h2>Metadata and redirects belong together</h2>
+      <p>If the checked URL moved, inspect the full path with the <a href="/tools/redirect-checker">redirect chain checker</a>. When sharing the final URL, the <a href="/tools/url-cleaner">URL cleaner</a> removes unnecessary attribution parameters.</p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  type MetaResult = {
+    error?: string; finalUrl?: string; status: number; redirects: number; title?: string; description?: string; canonical?: string; robots?: string;
+    openGraph: Record<string, string | undefined>; twitter: Record<string, string | undefined>;
+  };
+  const form = document.getElementById('meta-form') as HTMLFormElement;
+  const input = document.getElementById('meta-url') as HTMLInputElement;
+  const submit = document.getElementById('meta-submit') as HTMLButtonElement;
+  const status = document.getElementById('meta-status')!;
+  const results = document.getElementById('meta-results')!;
+  const tbody = document.getElementById('meta-body')!;
+  function safeImage(value: string | undefined, base: string | undefined): string | null {
+    if (!value) return null;
+    try { const url = new URL(value, base); return /^https?:$/.test(url.protocol) ? url.toString() : null; } catch { return null; }
+  }
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault(); status.classList.remove('is-error'); results.classList.add('hidden'); tbody.textContent = '';
+    status.textContent = 'Reading page metadata…'; submit.disabled = true;
+    try {
+      const response = await fetch('/api/meta-check', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ url: input.value.trim() }) });
+      const data = await response.json() as MetaResult;
+      if (!response.ok || data.error) throw new Error(data.error || 'The metadata check failed.');
+      const fields: [string, string | number | undefined][] = [
+        ['HTTP status', data.status], ['Final URL', data.finalUrl], ['Redirects', data.redirects], ['Title', data.title], ['Meta description', data.description],
+        ['Canonical', data.canonical], ['Robots', data.robots], ['og:title', data.openGraph.title], ['og:description', data.openGraph.description], ['og:image', data.openGraph.image],
+        ['og:url', data.openGraph.url], ['og:type', data.openGraph.type], ['og:site_name', data.openGraph.siteName], ['twitter:card', data.twitter.card],
+        ['twitter:title', data.twitter.title], ['twitter:description', data.twitter.description], ['twitter:image', data.twitter.image],
+      ];
+      for (const [label, value] of fields) {
+        const row = document.createElement('tr'); const key = document.createElement('td'); const val = document.createElement('td');
+        key.textContent = label; val.textContent = value === undefined || value === '' ? 'Missing' : String(value); if (val.textContent === 'Missing') val.style.color = '#b42318';
+        row.append(key, val); tbody.appendChild(row);
+      }
+      const previewTitle = data.openGraph.title || data.twitter.title || data.title || 'No title found';
+      const previewDescription = data.openGraph.description || data.twitter.description || data.description || 'No description found.';
+      document.getElementById('meta-preview-title')!.textContent = previewTitle;
+      document.getElementById('meta-preview-description')!.textContent = previewDescription;
+      try { document.getElementById('meta-host')!.textContent = new URL(data.finalUrl || input.value).hostname; } catch { document.getElementById('meta-host')!.textContent = ''; }
+      const imageUrl = safeImage(data.openGraph.image || data.twitter.image, data.finalUrl);
+      const image = document.getElementById('meta-image') as HTMLImageElement;
+      image.classList.toggle('hidden', !imageUrl); if (imageUrl) image.src = imageUrl; else image.removeAttribute('src');
+      results.classList.remove('hidden');
+      const missing = fields.slice(3).filter(([, value]) => value === undefined || value === '').length;
+      status.textContent = `Metadata loaded · ${missing} listed field${missing === 1 ? '' : 's'} missing.`;
+    } catch (error) { status.textContent = error instanceof Error ? error.message : 'The metadata check failed.'; status.classList.add('is-error'); }
+    finally { submit.disabled = false; }
+  });
+</script>

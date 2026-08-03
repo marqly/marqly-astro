@@ -14,19 +14,8 @@ const CHROME =
 
 const title = 'Marqly — AI Bookmark Manager | Organize Smarter, Find Faster';
 const description =
-  'Marqly is the AI bookmark manager that auto-organizes your links, summarizes YouTube videos, and highlights any page. Start free — no card required.';
+  'Marqly is the AI bookmark manager with a smart New Tab, Clipboard History, saved AI chats, YouTube summaries, and webpage highlights. Start free.';
 const canonical = 'https://www.marqly.com/';
-
-const features = [
-  { key: 'ai', ai: true, title: 'AI Auto-Organize', body: 'Links land where they belong with accurate tags applied instantly by AI.' },
-  { key: 'search', title: 'Instant Search', body: 'Find any bookmark instantly by text, tag, date, or URL.' },
-  { key: 'reader', title: 'Reader View & AI Summaries', body: 'Get the context without reopening pages. Distraction-free reading built in.' },
-  { key: 'offline', title: 'Offline Mode & Link Health', body: 'Full access without a connection. Know when saved links break or go stale.' },
-  { key: 'sync', title: 'Cross-Platform Sync', body: 'Pocket, mobile, desktop — in lockstep. Your library, everywhere you read.' },
-  { key: 'youtube', title: 'YouTube AI Summaries & Chat', body: 'A TL;DR, a transcript, and answers about any video — right on the watch page.' },
-  { key: 'highlights', title: 'Highlights & Notes', body: 'Highlight any website in 6 colors. Your highlights survive reloads and sync everywhere.' },
-  { key: 'pdf', title: 'Save Pages as PDF', body: 'Freeze any page exactly as it looks on screen — free, local, one click.' },
-];
 
 // Visible FAQ + matching FAQPage JSON-LD (identical text — Google's requirement).
 const homeFaqs = [
@@ -37,7 +26,23 @@ const homeFaqs = [
   },
   {
     q: 'Which browsers does the Marqly extension support?',
-    a: 'The Marqly extension runs on Chrome, Edge, Firefox, and Safari. Your library also syncs to the Marqly web app and the iOS app, so everything you save is available on desktop, tablet, and phone.',
+    a: 'The Marqly extension runs on Chrome, Edge, Firefox, and Safari. Core bookmarking, highlights, YouTube tools, and tab saving work across supported browsers. New Tab is available in Chrome, Edge, and Firefox; Clipboard History and the side panel are currently available in Chrome and Edge.',
+    href: '/extension',
+  },
+  {
+    q: 'Does Marqly include a New Tab page?',
+    a: 'Yes. Marqly Home replaces the New Tab page in Chrome, Edge, and Firefox with library search, quick links and folders, backgrounds, weather, notes, to-dos, desktop stickies, and saved browsing sessions. It is not currently available in Safari.',
+    href: '/faq/what-is-marqly-home-new-tab',
+  },
+  {
+    q: 'Does Marqly save clipboard history?',
+    a: 'Yes, in Chrome and Edge. Marqly keeps text copied from webpages in Clipboard History, where you can search, filter, favorite, pin, and tag it. Pro members can sync clipboard items through their Marqly account.',
+    href: '/faq/does-marqly-have-clipboard-history',
+  },
+  {
+    q: 'Can Marqly save ChatGPT, Claude, and Gemini conversations?',
+    a: 'Yes. In Chrome, Edge, and Firefox, Marqly can capture conversations from ChatGPT, Claude, and Gemini and keep them in a dedicated AI Chats workspace. AI chat capture is not currently available in Safari.',
+    href: '/faq/can-i-save-chatgpt-claude-gemini-conversations',
   },
   {
     q: 'Can Marqly summarize YouTube videos?',
@@ -130,6 +135,11 @@ const jsonLd = [
       'Automatic AI tagging',
       'AI article summaries',
       'AI YouTube summaries, chat, and playback-synced transcript on the watch page',
+      'Marqly Home New Tab workspace with quick links, notes, to-dos, weather, and saved sessions',
+      'Clipboard History with search, favorites, pinning, and tags in Chrome and Edge',
+      'Capture conversations from ChatGPT, Claude, and Gemini in Chrome, Edge, and Firefox',
+      'Save, close, and restore open tab sessions',
+      'Chrome and Edge side panel for bookmarks, clipboard items, highlights, and AI chats',
       'Web highlighter — 6 colors and notes that persist on any page',
       'Save any webpage as a clean, screen-faithful PDF',
       'Public board sharing — links and highlights, no signup to view',
@@ -148,24 +158,6 @@ const jsonLd = [
   },
 ];
 
-const steps = [
-  {
-    n: '01',
-    title: 'Install the extension',
-    body: 'One click from the Chrome, Edge, Firefox, or Safari store. Marqly sits quietly in your toolbar until you need it.',
-  },
-  {
-    n: '02',
-    title: 'Save anything, anywhere',
-    body: 'Click the Marqly icon — or hit ⌘+Shift+S. We capture the page and tag it for you.',
-  },
-  {
-    n: '03',
-    title: 'Find it the moment you need it',
-    body: 'Search by what it was about, not by what it was called. The page finds itself.',
-  },
-];
-
 const tiers = [
   {
     name: 'Free',
@@ -176,7 +168,7 @@ const tiers = [
     href: APP,
     featured: false,
     perks: [
-      'Up to 50 bookmarks',
+      'One-click bookmark saving',
       'Basic search',
       'Bookmark preview',
       'Bookmark tags',
@@ -204,7 +196,7 @@ const tiers = [
       'Priority support by email',
     ],
   },
-];
+ ] as const;
 // Non-null aliases (satisfies noUncheckedIndexedAccess — the array is a fixed 2-tuple).
 const tierFree = tiers[0]!;
 const tierPro = tiers[1]!;
@@ -512,19 +504,18 @@ const testimonials = [
           </div>
         </article>
 
-        <!-- Offline Mode & Link Health (cell) -->
+        <!-- Saved tab sessions (cell) -->
         <article class="bento-card bento-card--cell" data-reveal data-reveal-delay="1">
           <div class="bento-text">
-            <h3 class="bento-title">Offline Mode & Link Health</h3>
-            <p class="bento-body">Full access without a connection. Know when saved links break or go stale.</p>
+            <h3 class="bento-title">Saved Tab Sessions</h3>
+            <p class="bento-body">Save and close every open tab, then restore the whole session when you need it.</p>
           </div>
           <div class="bento-shot">
-            <div class="ui-panel ui-offline" aria-hidden="true">
+            <div class="ui-panel ui-session" aria-hidden="true">
               <div class="ui-panel-head">
-                <div class="ui-panel-title">Saved · 12</div>
-                <div class="ui-offline-pill">
-                  <span class="ui-offline-dot" aria-hidden="true"></span>
-                  Offline
+                <div class="ui-panel-title">Research session · 12</div>
+                <div class="ui-session-pill">
+                  <span class="ui-session-dot" aria-hidden="true"></span> Saved
                 </div>
               </div>
               <ul class="ui-list ui-list--rows">
@@ -535,7 +526,7 @@ const testimonials = [
                     <span class="ui-row-sub">nytimes.com</span>
                   </div>
                   <span class="ui-status ui-status--ok">
-                    <span class="ui-status-dot" aria-hidden="true"></span> Cached
+                    <span class="ui-status-dot" aria-hidden="true"></span> Saved
                   </span>
                 </li>
                 <li class="ui-row">
@@ -545,7 +536,7 @@ const testimonials = [
                     <span class="ui-row-sub">medium.com</span>
                   </div>
                   <span class="ui-status ui-status--ok">
-                    <span class="ui-status-dot" aria-hidden="true"></span> Cached
+                    <span class="ui-status-dot" aria-hidden="true"></span> Saved
                   </span>
                 </li>
                 <li class="ui-row">
@@ -555,25 +546,25 @@ const testimonials = [
                     <span class="ui-row-sub">stripe.com</span>
                   </div>
                   <span class="ui-status ui-status--ok">
-                    <span class="ui-status-dot" aria-hidden="true"></span> Cached
+                    <span class="ui-status-dot" aria-hidden="true"></span> Saved
                   </span>
                 </li>
                 <li class="ui-row">
-                  <span class="ui-favicon" style="--c:#9b9b9b">D</span>
+                  <span class="ui-favicon" style="--c:#9b9b9b">G</span>
                   <div class="ui-row-main">
-                    <span class="ui-row-title">Old Link Archive 2019</span>
-                    <span class="ui-row-sub">deadlink.com</span>
+                    <span class="ui-row-title">AI Research Notes</span>
+                    <span class="ui-row-sub">github.com</span>
                   </div>
-                  <span class="ui-status ui-status--bad">
-                    <span class="ui-status-dot" aria-hidden="true"></span> 404
+                  <span class="ui-status ui-status--ok">
+                    <span class="ui-status-dot" aria-hidden="true"></span> Saved
                   </span>
                 </li>
               </ul>
-              <div class="ui-offline-bar">
-                <span class="ui-offline-icon" aria-hidden="true">
+              <div class="ui-session-bar">
+                <span class="ui-session-icon" aria-hidden="true">
                   <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12.55a11 11 0 0 1 14 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><circle cx="12" cy="20" r="1"/></svg>
                 </span>
-                11 of 12 available offline · last synced 2m ago
+                12 tabs saved · ready to close
               </div>
             </div>
           </div>
@@ -583,7 +574,7 @@ const testimonials = [
         <article class="bento-card bento-card--cell" data-reveal data-reveal-delay="2">
           <div class="bento-text">
             <h3 class="bento-title">Cross-Platform Sync</h3>
-            <p class="bento-body">Pocket, mobile, desktop — in lockstep. Your library, everywhere you read.</p>
+            <p class="bento-body">Extension, web app, and iOS — your saved library stays with you.</p>
           </div>
           <div class="bento-shot">
             <div class="ui-panel ui-sync" aria-hidden="true">
@@ -743,6 +734,46 @@ const testimonials = [
   </section>
 
   <!-- ============================================================ -->
+  <!-- EXTENSION WORKSPACES                                         -->
+  <!-- ============================================================ -->
+  <section class="extension-strip section" aria-labelledby="extension-strip-h2">
+    <div class="container">
+      <header class="section-head" data-reveal>
+        <span class="eyebrow"><span class="dot"></span> Inside the extension</span>
+        <h2 id="extension-strip-h2" class="section-title">A lot more than a bookmark button.</h2>
+        <p class="section-sub">Marqly keeps the browser context that normally disappears: copied text, New Tab notes, useful AI chats, and entire tab sessions.</p>
+      </header>
+      <div class="extension-strip-grid">
+        <a class="extension-strip-card" href="/faq/what-is-marqly-home-new-tab" data-reveal data-reveal-delay="1">
+          <span class="extension-chip">Chrome · Edge · Firefox</span>
+          <h3>Marqly Home</h3>
+          <p>A customizable New Tab with search, quick links, weather, notes, to-dos, and saved sessions.</p>
+          <span class="extension-more">Explore New Tab →</span>
+        </a>
+        <a class="extension-strip-card" href="/faq/does-marqly-have-clipboard-history" data-reveal data-reveal-delay="2">
+          <span class="extension-chip">Chrome · Edge</span>
+          <h3>Clipboard History</h3>
+          <p>Search, filter, pin, favorite, and tag useful text you copy from webpages.</p>
+          <span class="extension-more">Explore Clipboard →</span>
+        </a>
+        <a class="extension-strip-card" href="/faq/can-i-save-chatgpt-claude-gemini-conversations" data-reveal data-reveal-delay="3">
+          <span class="extension-chip">ChatGPT · Claude · Gemini</span>
+          <h3>Saved AI Chats</h3>
+          <p>Capture valuable AI conversations and find them together in a dedicated workspace.</p>
+          <span class="extension-more">Explore AI Chats →</span>
+        </a>
+        <a class="extension-strip-card" href="/faq/how-do-i-save-all-my-open-tabs" data-reveal data-reveal-delay="4">
+          <span class="extension-chip">Sessions</span>
+          <h3>Save every open tab</h3>
+          <p>Capture, close, restore, and undo whole browsing sessions without losing your place.</p>
+          <span class="extension-more">Explore tab sessions →</span>
+        </a>
+      </div>
+      <p class="extension-strip-cta" data-reveal><a class="btn btn--dark btn--lg" href="/extension">See every extension feature <span class="arrow" aria-hidden="true">→</span></a></p>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
   <!-- HOW IT WORKS — 3 steps with custom UI illustrations          -->
   <!-- ============================================================ -->
   <section class="how" aria-labelledby="how-h2">
@@ -779,8 +810,8 @@ const testimonials = [
               <div class="step-install-title">Add to Chrome</div>
               <div class="step-install-sub">Marqly — All-in-one Bookmark Manager</div>
               <div class="step-install-row">
-                <span class="step-install-stars" aria-hidden="true">★★★★★ <span>4.9</span></span>
-                <span class="step-install-users">200k+ users</span>
+                <span class="step-install-stars" aria-hidden="true">★★★★★ <span>4.8</span></span>
+                <span class="step-install-users">Free to install</span>
               </div>
               <button class="step-install-btn" type="button" tabindex="-1">
                 + Add to Chrome
@@ -1466,7 +1497,7 @@ const testimonials = [
     align-items: stretch;
   }
   .bento-card--cell .bento-shot > .ui-panel.ui-reader,
-  .bento-card--cell .bento-shot > .ui-panel.ui-offline,
+  .bento-card--cell .bento-shot > .ui-panel.ui-session,
   .bento-card--cell .bento-shot > .ui-panel.ui-sync {
     flex: 1;
     display: flex;
@@ -1807,18 +1838,18 @@ const testimonials = [
     background: var(--ai);
   }
 
-  /* ----- Offline card ----- */
-  .ui-offline {
+  /* ----- Saved session card ----- */
+  .ui-session {
     display: flex;
     flex-direction: column;
   }
-  .ui-offline .ui-list {
+  .ui-session .ui-list {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
   }
-  .ui-offline-pill {
+  .ui-session-pill {
     margin-left: auto;
     display: inline-flex;
     align-items: center;
@@ -1831,7 +1862,7 @@ const testimonials = [
     padding: 0.18rem 0.5rem;
     border-radius: var(--radius-pill);
   }
-  .ui-offline-dot {
+  .ui-session-dot {
     width: 6px; height: 6px;
     border-radius: 50%;
     background: #ff9f0a;
@@ -1856,7 +1887,7 @@ const testimonials = [
   .ui-status--ok .ui-status-dot { background: #1f9d55; }
   .ui-status--bad { color: #d64545; background: rgba(214, 69, 69, 0.1); }
   .ui-status--bad .ui-status-dot { background: #d64545; }
-  .ui-offline-bar {
+  .ui-session-bar {
     display: flex;
     align-items: center;
     gap: 0.4rem;
@@ -1865,7 +1896,7 @@ const testimonials = [
     font-size: 0.6rem;
     color: var(--ink-4);
   }
-  .ui-offline-icon { color: var(--ink-4); display: inline-flex; }
+  .ui-session-icon { color: var(--ink-4); display: inline-flex; }
 
   /* ----- Sync card ----- */
   .ui-sync {
@@ -1956,6 +1987,76 @@ const testimonials = [
     font-size: 0.6rem;
     color: var(--ink-4);
     text-align: center;
+  }
+
+  /* ============================================================ */
+  /* EXTENSION WORKSPACES                                         */
+  /* ============================================================ */
+  .extension-strip {
+    background: #10131b;
+    color: white;
+  }
+  .extension-strip .eyebrow {
+    color: white;
+    background: rgba(255,255,255,.08);
+    border-color: rgba(255,255,255,.14);
+  }
+  .extension-strip .section-title { color: white; }
+  .extension-strip .section-sub { color: #abb2c2; }
+  .extension-strip-grid {
+    margin-top: var(--space-12);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-4);
+  }
+  .extension-strip-card {
+    min-height: 270px;
+    padding: var(--space-6);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255,255,255,.12);
+    border-radius: var(--radius-card);
+    background: rgba(255,255,255,.045);
+    transition: transform var(--dur-base) var(--ease-out), border-color var(--dur-base) var(--ease-out), background var(--dur-base) var(--ease-out);
+  }
+  .extension-strip-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(119,167,255,.5);
+    background: rgba(255,255,255,.075);
+  }
+  .extension-chip {
+    align-self: flex-start;
+    color: #a8c8ff;
+    font-size: .68rem;
+    font-weight: 600;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+  .extension-strip-card h3 {
+    margin-top: var(--space-8);
+    color: white;
+    font-size: var(--fs-h4);
+  }
+  .extension-strip-card p {
+    margin-top: var(--space-3);
+    color: #abb2c2;
+    font-size: var(--fs-sm);
+  }
+  .extension-more {
+    margin-top: auto;
+    padding-top: var(--space-6);
+    color: #dbe8ff;
+    font-size: var(--fs-xs);
+    font-weight: 600;
+  }
+  .extension-strip-cta { margin-top: var(--space-8); }
+  .extension-strip-cta .btn { --btn-bg: #fff; --btn-fg: #10131b; }
+  @media (max-width: 980px) {
+    .extension-strip-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 580px) {
+    .extension-strip-grid { grid-template-columns: 1fr; }
+    .extension-strip-card { min-height: 220px; }
   }
 
   /* ============================================================ */

@@ -2,7 +2,7 @@
 question: "How do I install the Marqly Chrome extension?"
 description: "Install Marqly from the Chrome Web Store in one click, pin it to your toolbar, and save any page instantly. Free to start — no credit card required to sign up."
 category: getting-started
-updatedDate: 2026-08-02
+updatedDate: 2026-08-03
 related:
   - does-marqly-work-on-edge
   - does-marqly-work-on-firefox
@@ -28,8 +28,14 @@ The extension is the core of Marqly, and it does more than save the current tab:
 - **One-click save** from the toolbar, with optional tags at save time
 - **AI auto-tagging** on every save — no folders, no manual filing
 - **Tab saver** — capture all open tabs at once when a research session sprawls
-- **Side panel** — browse and search your library without leaving the page
+- **Marqly Home** — a New Tab workspace with quick links, search, notes, to-dos, weather, backgrounds, and saved sessions
+- **Clipboard History** — search, filter, pin, favorite, and tag text copied from webpages
+- **Side panel** — open Bookmarks, Clipboard, Highlights, and AI Chats without leaving the page
+- **AI chat capture** — save useful ChatGPT, Claude, and Gemini conversations
+- **Highlights and notes** — mark text in six colors and find it again later
 - **YouTube AI card** on every watch page, with AI summary, chat, and transcript tabs
+
+The [complete Marqly extension guide](/extension) covers every feature and explains which ones differ in Edge, Firefox, and Safari.
 
 Everything you save lands in your account, so it's also available in the web app and the iOS app.
 

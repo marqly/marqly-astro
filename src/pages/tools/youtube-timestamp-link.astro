@@ -1,0 +1,78 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import ToolShell from '../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../lib/schema';
+
+const title = 'YouTube Timestamp Link Generator — Share an Exact Time';
+const description = 'Create a YouTube link that starts at an exact hour, minute, and second. Supports videos, Shorts, live, embed, and youtu.be URLs.';
+const path = '/tools/youtube-timestamp-link';
+const faqs = [
+  { q: 'What time formats can I enter?', a: 'Use seconds, M:SS, H:MM:SS, or a compact value such as 1h2m3s. The generated link stores the final time in seconds.' },
+  { q: 'Does the link work on mobile?', a: 'Yes. Standard YouTube apps and browsers understand the t parameter and open the video near that playback position.' },
+  { q: 'Does this upload or open the video?', a: 'No. The tool only extracts the public video ID and builds a new URL locally.' },
+];
+const jsonLd = [organization(), webSite(), breadcrumbList([{ name: 'Home', path: '/' }, { name: 'Free tools', path: '/tools' }, { name: 'YouTube timestamp link generator', path }]), faqPage(faqs), freeWebApplication('YouTube Timestamp Link Generator', description, path)];
+---
+
+<LandingLayout title={title} description={description} jsonLd={jsonLd} ogImage="https://www.marqly.com/og/seo/tool-youtube-timestamp-link.png">
+  <ToolShell name="YouTube timestamp link generator" heading="Link to an exact moment on YouTube" sub="Paste a YouTube URL and enter a time such as 2:35 or 1h2m3s. The result starts playback at that moment." faqs={faqs}>
+    <form id="yt-time-form">
+      <label for="yt-time-url">YouTube URL or video ID</label><input id="yt-time-url" type="text" placeholder="https://youtu.be/dQw4w9WgXcQ" />
+      <div class="field"><label for="yt-time-value">Start time</label><input id="yt-time-value" type="text" placeholder="2:35" autocomplete="off" /></div>
+      <div class="tool-actions"><button class="btn btn--primary btn--sm" type="submit">Create timestamp link</button><button class="btn btn--outline btn--sm hidden" id="yt-time-copy" type="button">Copy link</button><a class="btn btn--outline btn--sm hidden" id="yt-time-open" target="_blank" rel="noopener">Open video</a></div>
+      <p class="tool-status" id="yt-time-status" role="status"></p>
+      <div class="field hidden" id="yt-time-output-wrap"><label for="yt-time-output">Timestamped URL</label><input id="yt-time-output" class="mono" type="text" readonly /></div>
+    </form>
+    <Fragment slot="content">
+      <h2>Share the useful moment, not the whole runtime</h2>
+      <p>A timestamped link removes the “skip to 18 minutes” instruction from a message. It is useful for citing a source, sending a tutorial step, referencing a quote, or bookmarking the exact moment you want to revisit.</p>
+      <h2>Keep the surrounding context</h2>
+      <p>Pair the timestamp with the <a href="/tools/youtube-transcript">YouTube transcript viewer</a> when you need searchable text, or download the video’s cover with the <a href="/tools/youtube-thumbnail-downloader">thumbnail downloader</a>.</p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const form = document.getElementById('yt-time-form') as HTMLFormElement;
+  const output = document.getElementById('yt-time-output') as HTMLInputElement;
+  const wrap = document.getElementById('yt-time-output-wrap')!;
+  const status = document.getElementById('yt-time-status')!;
+  const copy = document.getElementById('yt-time-copy')!;
+  const open = document.getElementById('yt-time-open') as HTMLAnchorElement;
+  function videoId(value: string): string | null {
+    const raw = value.trim();
+    if (/^[\w-]{11}$/.test(raw)) return raw;
+    try {
+      const url = new URL(raw);
+      if (url.hostname === 'youtu.be') return url.pathname.split('/').filter(Boolean)[0]?.slice(0, 11) ?? null;
+      if (url.hostname === 'youtube.com' || url.hostname.endsWith('.youtube.com')) return url.pathname === '/watch' ? url.searchParams.get('v') : url.pathname.match(/^\/(?:shorts|embed|live)\/([\w-]{11})/)?.[1] ?? null;
+    } catch {}
+    return null;
+  }
+  function seconds(value: string): number | null {
+    const raw = value.trim().toLowerCase();
+    if (/^\d+$/.test(raw)) return Number(raw);
+    if (/^\d{1,3}:\d{1,2}(?::\d{1,2})?$/.test(raw)) {
+      const parts = raw.split(':').map(Number);
+      if (parts.length === 2 && parts[1]! >= 60) return null;
+      if (parts.length === 3 && (parts[1]! >= 60 || parts[2]! >= 60)) return null;
+      return parts.reduce((total, part) => total * 60 + part, 0);
+    }
+    const match = raw.match(/^(?:(\d+)h)?(?:(\d+)m)?(?:(\d+)s)?$/);
+    if (match && match[0] && (match[1] || match[2] || match[3])) return Number(match[1] || 0) * 3600 + Number(match[2] || 0) * 60 + Number(match[3] || 0);
+    return null;
+  }
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const id = videoId((document.getElementById('yt-time-url') as HTMLInputElement).value);
+    const time = seconds((document.getElementById('yt-time-value') as HTMLInputElement).value);
+    status.classList.remove('is-error');
+    if (!id || !/^[\w-]{11}$/.test(id)) { status.textContent = 'Enter a valid YouTube URL or video ID.'; status.classList.add('is-error'); return; }
+    if (time === null || !Number.isSafeInteger(time) || time < 0) { status.textContent = 'Enter seconds, M:SS, H:MM:SS, or a value like 1h2m3s.'; status.classList.add('is-error'); return; }
+    output.value = `https://youtu.be/${id}?t=${time}s`;
+    open.href = output.value;
+    wrap.classList.remove('hidden'); copy.classList.remove('hidden'); open.classList.remove('hidden');
+    status.textContent = `Link starts at ${time.toLocaleString()} second${time === 1 ? '' : 's'}.`;
+  });
+  copy.addEventListener('click', async () => { await navigator.clipboard.writeText(output.value); status.textContent = 'Copied.'; });
+</script>

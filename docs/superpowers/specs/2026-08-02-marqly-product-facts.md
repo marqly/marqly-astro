@@ -1,7 +1,7 @@
 # Marqly Product Facts — single source of truth for content writers
 
 Every claim in marketing/SEO content MUST come from this sheet. If a fact isn't
-here, don't invent it — write around it. Last updated: 2026-08-02.
+here, don't invent it — write around it. Last updated: 2026-08-03.
 
 ## What Marqly is
 
@@ -39,6 +39,21 @@ No offline reading mode — don't claim offline support.
 - **One-click save** from the toolbar; save with tags; **tab saver** (save all
   open tabs at once); side-panel library (browse/search saves without leaving
   the page).
+- **Side panel workspaces (Chrome/Edge)**: Bookmarks, Clipboard, Highlights,
+  and AI Chats beside the page currently open. Firefox uses the extension
+  popup; Safari does not have the Chrome-style side panel.
+- **Clipboard History (Chrome/Edge)**: automatically keeps text copied from
+  webpages; search, filters, favorites, pinning, and tags. Pro adds account
+  sync for clipboard items. Not available in Firefox or Safari.
+- **Marqly Home / New Tab (Chrome/Edge/Firefox)**: library search, draggable
+  quick links and folders, backgrounds, weather, notes, to-dos, draggable and
+  resizable desktop-style windows, stickies, a dock, and saved sessions. Not
+  available in Safari.
+- **AI conversation capture (Chrome/Edge/Firefox)**: save conversations from
+  ChatGPT, Claude, and Gemini to the dedicated AI Chats workspace. Not
+  available in Safari.
+- **Tab sessions**: save and close the current set of tabs, reopen saved
+  sessions, and undo a session close.
 - **AI auto-tagging**: every save is tagged automatically — no manual filing.
 - **AI summaries** of saved articles; triage a backlog fast.
 - **Semantic search**: "that video about sourdough starters" finds the right
@@ -54,7 +69,14 @@ No offline reading mode — don't claim offline support.
 - **Boards**: group links + highlights; **share a board as a public page** (no
   signup needed to view).
 - **Save as PDF**: capture any page as a clean PDF matching the on-screen layout
-  (lazy-loaded images included), processed locally in the browser.
+  (lazy-loaded images included), processed locally in Chrome and Edge. Firefox
+  and Safari use the browser print-to-PDF flow as a fallback.
+- **Detected page media tools (Chrome/Edge)**: when a page exposes downloadable
+  video or audio, Marqly can offer it alongside the PDF action. Availability
+  depends on the site and media source.
+- **Power-user access**: the `my` address-bar keyword, shortcuts for common
+  actions, side-panel search/board/tag navigation, and browser bookmark import.
+- **X/Twitter bookmark capture** is available from the extension.
 - **Imports**: Pocket exports, Raindrop.io collections, standard browser
   bookmark HTML exports (Chrome/Firefox/Edge/Safari all export this format).
 

@@ -1,8 +1,8 @@
 ---
 question: "Does Marqly work on Firefox?"
-description: "Yes — Marqly has a native Firefox add-on on addons.mozilla.org. Install it for one-click saving, AI auto-tagging, and semantic search right inside Firefox."
+description: "Yes. Firefox supports Marqly's core saving, New Tab, highlights, AI chat capture, YouTube AI, tab sessions, imports, and print-to-PDF tools."
 category: getting-started
-updatedDate: 2026-08-02
+updatedDate: 2026-08-03
 related:
   - does-marqly-work-on-edge
   - does-marqly-work-on-safari
@@ -19,6 +19,12 @@ Yes. Marqly ships a native Firefox add-on, distributed through Mozilla's officia
 4. Sign in or create a free account at [app.marqly.com](https://app.marqly.com) — no credit card required.
 
 Because the add-on comes from Mozilla's own store, it updates automatically like any other Firefox extension.
+
+## What works in Firefox
+
+Firefox supports Marqly's core saving and search workflow, Marqly Home on the New Tab page, webpage highlights and notes, ChatGPT/Claude/Gemini conversation capture, YouTube AI, tab sessions, bookmark imports, and the browser's print-to-PDF flow. Firefox uses the extension interface instead of the Chrome side-panel API, and Clipboard History is not currently available.
+
+See the [complete extension feature table](/extension#availability) if you use more than one browser.
 
 ## Firefox is a first-class citizen
 

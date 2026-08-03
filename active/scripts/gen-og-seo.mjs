@@ -137,6 +137,14 @@ const tools = {
   'dead-link-checker': 'Dead Link Checker',
   'url-cleaner': 'URL Cleaner',
   'reading-time': 'Reading Time Calculator',
+  'youtube-thumbnail-downloader': 'Free YouTube Thumbnail Downloader',
+  'youtube-timestamp-link': 'YouTube Timestamp Link Generator',
+  'utm-builder': 'Free UTM Builder',
+  'url-encoder': 'URL Encoder & Decoder',
+  'html-to-markdown': 'HTML to Markdown Converter',
+  'redirect-checker': 'Redirect Chain Checker',
+  'bookmarklet-maker': 'Bookmarklet Maker',
+  'open-graph-checker': 'Open Graph & Meta Tag Checker',
 };
 for (const [slug, title] of Object.entries(tools)) {
   await png(`tool-${slug}`, title, 'Free tool', `marqly.com/tools/${slug}`);
@@ -146,7 +154,8 @@ await png('hub-faq', 'Marqly FAQ — every question, answered', 'FAQ', 'marqly.c
 await png('hub-compare', 'Compare bookmark managers, honestly', 'Compare', 'marqly.com/compare');
 await png('hub-alternatives', 'Alternatives to every bookmarking tool', 'Alternatives', 'marqly.com/alternatives');
 await png('hub-tools', 'Free tools — no signup', 'Free tools', 'marqly.com/tools');
-n += 4;
+await png('extension', 'One extension. Your browser workspace.', 'Browser extension', 'marqly.com/extension');
+n += 5;
 
 // Default social card used by the homepage and any page without a more
 // specific preview. Keep this at /og-default.png because both layouts use it.

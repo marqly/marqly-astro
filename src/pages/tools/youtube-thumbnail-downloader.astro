@@ -1,0 +1,173 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import ToolShell from '../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../lib/schema';
+
+const title = 'YouTube Thumbnail Downloader — Free HD Thumbnail Grabber';
+const description =
+  'Download available YouTube video and Shorts thumbnails in HD and standard sizes. Free, no signup, no watermark, and no server upload.';
+const path = '/tools/youtube-thumbnail-downloader';
+const faqs = [
+  {
+    q: 'Does this download the original uploaded thumbnail?',
+    a: 'It requests the thumbnail sizes YouTube publishes for the video. When maxresdefault is available, that is normally the highest-resolution public thumbnail. Older or low-resolution videos may only provide smaller versions.',
+  },
+  {
+    q: 'Does it work with YouTube Shorts and live links?',
+    a: 'Yes. Standard watch URLs, youtu.be links, Shorts URLs, live URLs, embed URLs, and bare 11-character video IDs are supported.',
+  },
+  {
+    q: 'Is the video or thumbnail uploaded to Marqly?',
+    a: 'No. The page extracts the public video ID locally, and your browser loads the thumbnail directly from YouTube’s image CDN.',
+  },
+  {
+    q: 'Can I reuse someone else’s thumbnail?',
+    a: 'A public image is not automatically free to reuse. Download thumbnails you own, have permission to use, or are otherwise legally allowed to use.',
+  },
+];
+const jsonLd = [
+  organization(),
+  webSite(),
+  breadcrumbList([{ name: 'Home', path: '/' }, { name: 'Free tools', path: '/tools' }, { name: 'YouTube thumbnail downloader', path }]),
+  faqPage(faqs),
+  freeWebApplication('YouTube Thumbnail Downloader', description, path),
+];
+---
+
+<LandingLayout title={title} description={description} jsonLd={jsonLd} ogImage="https://www.marqly.com/og/seo/tool-youtube-thumbnail-downloader.png">
+  <ToolShell
+    name="YouTube thumbnail downloader"
+    heading="Download a YouTube thumbnail"
+    sub="Paste a video, Short, live, or youtu.be link. We show every thumbnail size YouTube actually has — no signup or watermark."
+    faqs={faqs}
+    ctaHeading="Save the video behind the thumbnail"
+    ctaSub="Marqly saves YouTube videos with their transcript, AI summary, and searchable context — not just the cover image."
+  >
+    <form id="yt-thumb-form">
+      <label for="yt-thumb-url">YouTube URL or video ID</label>
+      <div class="tool-row">
+        <div class="grow"><input id="yt-thumb-url" type="text" placeholder="https://www.youtube.com/watch?v=dQw4w9WgXcQ" autocomplete="off" /></div>
+        <button class="btn btn--primary btn--sm" type="submit">Get thumbnails</button>
+      </div>
+      <p class="tool-status" id="yt-thumb-status" role="status"></p>
+    </form>
+    <div class="tool-grid hidden" id="yt-thumb-results" aria-live="polite"></div>
+
+    <Fragment slot="content">
+      <h2>Every public YouTube thumbnail size</h2>
+      <p>
+        YouTube stores several still images for each video. This tool checks the common maximum,
+        standard, high, medium, and default resolutions and only shows the images that exist.
+        Nothing is recompressed, resized, or watermarked by Marqly.
+      </p>
+      <h2>Useful with transcripts and timestamps</h2>
+      <p>
+        Need more than the cover? Open the <a href="/tools/youtube-transcript">YouTube transcript viewer</a>
+        to copy the spoken text, or create an exact share point with the
+        <a href="/tools/youtube-timestamp-link">YouTube timestamp link generator</a>.
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const form = document.getElementById('yt-thumb-form') as HTMLFormElement;
+  const input = document.getElementById('yt-thumb-url') as HTMLInputElement;
+  const status = document.getElementById('yt-thumb-status')!;
+  const results = document.getElementById('yt-thumb-results')!;
+
+  function videoId(value: string): string | null {
+    const raw = value.trim();
+    if (/^[\w-]{11}$/.test(raw)) return raw;
+    try {
+      const url = new URL(raw);
+      if (url.hostname === 'youtu.be') return url.pathname.split('/').filter(Boolean)[0]?.slice(0, 11) ?? null;
+      if (url.hostname === 'youtube.com' || url.hostname.endsWith('.youtube.com')) {
+        if (url.pathname === '/watch') return url.searchParams.get('v');
+        return url.pathname.match(/^\/(?:shorts|embed|live)\/([\w-]{11})/)?.[1] ?? null;
+      }
+    } catch {}
+    return null;
+  }
+
+  const sizes = [
+    ['Maximum resolution', 'maxresdefault', '1280 × 720 when available'],
+    ['Standard definition', 'sddefault', '640 × 480'],
+    ['High quality', 'hqdefault', '480 × 360'],
+    ['Medium quality', 'mqdefault', '320 × 180'],
+    ['Default', 'default', '120 × 90'],
+  ] as const;
+
+  function available(url: string, key: string): Promise<boolean> {
+    return new Promise((resolve) => {
+      const image = new Image();
+      image.onload = () => resolve(key === 'default' || image.naturalWidth > 120 || image.naturalHeight > 90);
+      image.onerror = () => resolve(false);
+      image.src = url;
+    });
+  }
+
+  async function download(url: string, filename: string) {
+    try {
+      const response = await fetch(url);
+      if (!response.ok) throw new Error('Image unavailable');
+      const href = URL.createObjectURL(await response.blob());
+      const anchor = document.createElement('a');
+      anchor.href = href;
+      anchor.download = filename;
+      anchor.click();
+      setTimeout(() => URL.revokeObjectURL(href), 1000);
+    } catch {
+      window.open(url, '_blank', 'noopener');
+    }
+  }
+
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const id = videoId(input.value);
+    status.classList.remove('is-error');
+    results.classList.add('hidden');
+    results.textContent = '';
+    if (!id || !/^[\w-]{11}$/.test(id)) {
+      status.textContent = 'Enter a valid YouTube video, Short, live URL, or 11-character video ID.';
+      status.classList.add('is-error');
+      return;
+    }
+    status.textContent = 'Checking available thumbnail sizes…';
+    let count = 0;
+    for (const [label, key, dimensions] of sizes) {
+      const url = `https://i.ytimg.com/vi/${id}/${key}.jpg`;
+      if (!(await available(url, key))) continue;
+      count++;
+      const card = document.createElement('article');
+      card.className = 'result-card';
+      const image = document.createElement('img');
+      image.src = url;
+      image.alt = `${label} YouTube thumbnail`;
+      image.loading = 'lazy';
+      image.style.cssText = 'display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px;margin-bottom:12px;background:#eee;';
+      const heading = document.createElement('h3');
+      heading.textContent = label;
+      const meta = document.createElement('p');
+      meta.textContent = dimensions;
+      const actions = document.createElement('div');
+      actions.className = 'tool-actions';
+      const save = document.createElement('button');
+      save.type = 'button';
+      save.className = 'btn btn--primary btn--sm';
+      save.textContent = 'Download JPG';
+      save.addEventListener('click', () => download(url, `youtube-${id}-${key}.jpg`));
+      const open = document.createElement('a');
+      open.className = 'btn btn--outline btn--sm';
+      open.href = url;
+      open.target = '_blank';
+      open.rel = 'noopener';
+      open.textContent = 'Open image';
+      actions.append(save, open);
+      card.append(image, heading, meta, actions);
+      results.appendChild(card);
+    }
+    results.classList.toggle('hidden', count === 0);
+    status.textContent = count ? `${count} thumbnail size${count === 1 ? '' : 's'} found.` : 'No public thumbnails were found for that video.';
+  });
+</script>

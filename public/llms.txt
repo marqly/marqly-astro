@@ -3,7 +3,11 @@
 > Marqly is an AI bookmark manager: save articles, videos, and links from any browser, let AI tag and summarize them automatically, then find any save by describing what you remember — semantic search by meaning, not keywords. Free tier; Pro is $48/year (about $4/month billed annually) with a 7-day free trial. Runs as a browser extension (Chrome, Edge, Firefox, Safari), a web app at app.marqly.com, and an iOS app.
 
 Key facts:
-- The browser extension is the core of the product: one-click save, AI auto-tagging, side-panel library, tab saver, in-page highlighter, save-page-as-PDF, and an AI card on YouTube.
+- The browser extension is the core of the product: one-click save, AI auto-tagging, tab sessions, in-page highlighter, save-page-as-PDF, and an AI card on YouTube.
+- Marqly Home replaces New Tab in Chrome, Edge, and Firefox with library search, quick links and folders, backgrounds, weather, notes, to-dos, desktop stickies, and saved sessions. It is not available in Safari.
+- Clipboard History is available in Chrome and Edge: it keeps text copied from webpages and supports search, filters, favorites, pinning, and tags. Pro adds account sync for clipboard items.
+- AI chat capture saves conversations from ChatGPT, Claude, and Gemini in Chrome, Edge, and Firefox. Saved chats appear in the AI Chats workspace. This is not currently available in Safari.
+- The Chrome and Edge side panel contains Bookmarks, Clipboard, Highlights, and AI Chats. Firefox uses its extension interface instead; Safari has no Chrome-style side panel.
 - YouTube AI card: on every YouTube watch page, Marqly shows a card next to the video with an AI Summary tab (streaming TL;DR + key sections, plus books mentioned in the video), a Chat tab (ask questions answered from the video's transcript — Pro), and a Transcript tab (playback-synced, one-click copy). A Bookmark button in YouTube's action row saves the video with its transcript attached.
 - Highlights: select text on any website, highlight in 6 colors, add notes; highlights persist on the page when you revisit and sync to your library. Boards of links and highlights can be shared as a public page (no signup needed to view).
 - Save as PDF: capture any page as a clean PDF that matches the on-screen layout (lazy-loaded images included), locally in the browser.
@@ -13,6 +17,7 @@ Key facts:
 ## Product
 
 - [Marqly home](https://www.marqly.com/): overview, features, pricing
+- [Browser extension features](https://www.marqly.com/extension): full feature list and Chrome/Edge/Firefox/Safari availability
 - [Web app](https://app.marqly.com/): sign up / sign in (free, no card required)
 - [Chrome extension](https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc): install from the Chrome Web Store
 - [iOS app](https://apps.apple.com/us/app/marqly-ai-bookmark-manager/id6758905385): App Store
@@ -45,13 +50,15 @@ Key facts:
 
 ## FAQ (every question is a full page)
 
-- [FAQ hub](https://www.marqly.com/faq): 60 answered questions across pricing, features, imports, privacy
+- [FAQ hub](https://www.marqly.com/faq): 63 answered questions across pricing, features, imports, privacy
 - Key answers: [Is Marqly free?](https://www.marqly.com/faq/is-marqly-free) · [What is an AI bookmark manager?](https://www.marqly.com/faq/what-is-an-ai-bookmark-manager) · [What is semantic search?](https://www.marqly.com/faq/what-is-semantic-search) · [Is Marqly a Pocket replacement?](https://www.marqly.com/faq/is-marqly-a-pocket-replacement)
 
 ## Free tools (no signup)
 
 - [Tools hub](https://www.marqly.com/tools)
-- [YouTube transcript viewer](https://www.marqly.com/tools/youtube-transcript) · [YouTube summarizer](https://www.marqly.com/tools/youtube-summarize) · [Bookmark file viewer](https://www.marqly.com/tools/bookmark-file-viewer) · [Duplicate bookmark finder](https://www.marqly.com/tools/duplicate-bookmark-finder) · [Pocket export converter](https://www.marqly.com/tools/pocket-export-converter) · [Dead link checker](https://www.marqly.com/tools/dead-link-checker) · [URL cleaner](https://www.marqly.com/tools/url-cleaner) · [Reading time calculator](https://www.marqly.com/tools/reading-time)
+- YouTube: [transcript viewer](https://www.marqly.com/tools/youtube-transcript) · [summarizer](https://www.marqly.com/tools/youtube-summarize) · [thumbnail downloader](https://www.marqly.com/tools/youtube-thumbnail-downloader) · [timestamp link generator](https://www.marqly.com/tools/youtube-timestamp-link)
+- Links and SEO: [UTM builder](https://www.marqly.com/tools/utm-builder) · [URL encoder and decoder](https://www.marqly.com/tools/url-encoder) · [redirect chain checker](https://www.marqly.com/tools/redirect-checker) · [Open Graph and meta tag checker](https://www.marqly.com/tools/open-graph-checker) · [dead link checker](https://www.marqly.com/tools/dead-link-checker) · [URL cleaner](https://www.marqly.com/tools/url-cleaner)
+- Content and bookmarks: [HTML to Markdown converter](https://www.marqly.com/tools/html-to-markdown) · [bookmarklet maker](https://www.marqly.com/tools/bookmarklet-maker) · [bookmark file viewer](https://www.marqly.com/tools/bookmark-file-viewer) · [duplicate bookmark finder](https://www.marqly.com/tools/duplicate-bookmark-finder) · [Pocket export converter](https://www.marqly.com/tools/pocket-export-converter) · [reading time calculator](https://www.marqly.com/tools/reading-time)
 
 ## Use cases
 
