@@ -12,11 +12,22 @@ interface Props {
 const { tools, variant = 'full', caption } = Astro.props;
 const keys: FeatureKey[] =
   variant === 'full' ? (Object.keys(FEATURE_LABELS) as FeatureKey[]) : HEADLINE_FEATURES;
+
+/** Verified pricing, verbatim — never abbreviate it, only re-lay it out. */
+function priceText(t: Competitor): string {
+  const { free, paid } = t.pricing;
+  if (!free && !paid) return 'See site';
+  return [free ? 'Free' : '', paid ?? ''].filter(Boolean).join(' · ');
+}
 ---
 
-<div class="cmp-wrap">
+<div class="cmp-wrap" style={`--cmp-feature-col:${tools.length >= 3 ? '30%' : '38%'}`}>
   <table class="cmp">
     {caption && <caption>{caption}</caption>}
+    <colgroup>
+      <col class="col-feature" />
+      {tools.map(() => <col />)}
+    </colgroup>
     <thead>
       <tr>
         <th scope="col">Feature</th>
@@ -40,31 +51,41 @@ const keys: FeatureKey[] =
           ))}
         </tr>
       ))}
-      <tr>
+      <tr class="row-price">
         <th scope="row">Price</th>
         {tools.map((t) => (
           <td class={t.slug === 'marqly' ? 'is-marqly' : ''}>
-            <span class="price">
-              {t.pricing.free ? 'Free' : ''}
-              {t.pricing.free && t.pricing.paid ? ' · ' : ''}
-              {t.pricing.paid ?? ''}
-              {!t.pricing.free && !t.pricing.paid ? 'See site' : ''}
-            </span>
+            <span class="price">{priceText(t)}</span>
           </td>
         ))}
       </tr>
     </tbody>
   </table>
+
+  {/* Same prices, full width. Swaps in below 40rem, where a tick-width column
+      is too narrow for pricing prose and hard-breaks it mid-token. */}
+  <dl class="price-stack">
+    {tools.map((t) => (
+      <>
+        <dt>{t.name}</dt>
+        <dd>{priceText(t)}</dd>
+      </>
+    ))}
+  </dl>
 </div>
 
 <style>
   .cmp-wrap { overflow-x: auto; border: 1px solid var(--border-1); border-radius: var(--radius-card); }
   .cmp {
     width: 100%;
+    /* Fixed layout: long price strings can't blow a tool column out to 1000px+.
+       Only the feature column is sized; tool columns split the rest evenly. */
+    table-layout: fixed;
     border-collapse: collapse;
     font-size: var(--fs-sm);
     background: var(--surface-1);
   }
+  .cmp .col-feature { width: var(--cmp-feature-col, 38%); }
   .cmp caption {
     text-align: left;
     padding: var(--space-4) var(--space-5);
@@ -76,6 +97,8 @@ const keys: FeatureKey[] =
     border-top: 1px solid var(--border-1);
     text-align: left;
     vertical-align: top;
+    /* Fixed layout won't widen a column, so anything unbreakable must wrap in place. */
+    overflow-wrap: break-word;
   }
   /* Tool columns (headers, ticks, prices) center; feature-name column stays left. */
   .cmp thead th:not(:first-child),
@@ -88,12 +111,46 @@ const keys: FeatureKey[] =
     background: var(--surface-2);
     font-weight: 600;
     color: var(--ink-1);
-    white-space: nowrap;
   }
   .cmp tbody th { font-weight: 400; color: var(--ink-2); }
   .cmp .is-marqly { background: var(--surface-2); }
   .cmp thead th.is-marqly { color: var(--ink-1); }
   .yes { color: var(--ink-1); font-weight: 600; }
   .no { color: var(--ink-4); }
-  .price { color: var(--ink-2); white-space: nowrap; }
+  .price {
+    display: block;
+    color: var(--ink-2);
+    font-size: var(--fs-xs);
+    line-height: var(--lh-snug);
+    text-wrap: pretty;
+  }
+  .price-stack { display: none; }
+
+  @media (max-width: 40rem) {
+    .cmp { font-size: var(--fs-xs); }
+    .cmp th, .cmp td { padding: var(--space-2) var(--space-3); }
+    .cmp caption { padding: var(--space-3) var(--space-3); }
+    /* Tick columns only need room for a glyph, so give the labels more width —
+       enough that they wrap on spaces instead of breaking mid-word. */
+    .cmp .col-feature { width: 44%; }
+
+    /* Hand the prices to the full-width list; display:none keeps the hidden
+       copy out of the accessibility tree, so neither is announced twice. */
+    .cmp .row-price { display: none; }
+    .price-stack {
+      display: block;
+      margin: 0;
+      padding: var(--space-3) var(--space-3) var(--space-4);
+      border-top: 1px solid var(--border-1);
+      font-size: var(--fs-xs);
+      line-height: var(--lh-snug);
+    }
+    .price-stack dt { font-weight: 600; color: var(--ink-1); }
+    .price-stack dd {
+      margin: 0 0 var(--space-3);
+      color: var(--ink-2);
+      text-wrap: pretty;
+    }
+    .price-stack dd:last-child { margin-bottom: 0; }
+  }
 </style>
