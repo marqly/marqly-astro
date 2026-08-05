@@ -14,12 +14,20 @@
 # parsers probe /sitemap.xml first and were getting a 404.
 /sitemap.xml    /sitemap-index.xml  301
 
-# Removed standalone pages — pricing now lives on the homepage; Extension page retired.
-# 301 to preserve SEO equity from old inbound links (both with/without trailing slash).
+# Pricing now lives on the homepage. Lowercase variants included because that is
+# what people type and what most external sites link to; without them /pricing 404'd.
 /Pricing    /#pricing   301
 /Pricing/   /#pricing   301
-/Extension  /           301
-/Extension/ /           301
+/pricing    /#pricing   301
+/pricing/   /#pricing   301
+
+# The Extension page was retired and pointed at `/`, but a NEW extension page
+# shipped 2026-08-03 at the lowercase URL. /Extension is the original Framer URL
+# and carries the inbound links, so send it to the real page rather than the
+# homepage — a 301 to `/` threw that equity away and dropped users somewhere
+# that does not answer the query they clicked on.
+/Extension  /extension   301
+/Extension/ /extension   301
 
 # Thin /vs/ stubs → dedicated /compare/ pages (301 consolidates SEO, kills cannibalization).
 /vs/raindrop    /compare/marqly-vs-raindrop   301
@@ -64,3 +72,13 @@
 # Cannibalization fix: duplicate AI-search post consolidated into the canonical survivor.
 /blog/search-bookmarks-by-meaning   /blog/how-to-search-bookmarks-with-ai   301
 /blog/search-bookmarks-by-meaning/  /blog/how-to-search-bookmarks-with-ai   301
+
+# --- Trailing-slash normalisation. MUST STAY LAST: _redirects is first-match-wins,
+# and every explicit slashed rule above needs to win over this catch-all.
+#
+# build.format:'file' means canonical URLs carry NO trailing slash. Workers Assets
+# already normalises /path/ -> /path, but with a 307 (temporary), which Google
+# consolidates link signals through far less reliably than a 301. The status is not
+# configurable on that automatic redirect, so pre-empt it here with a real 301.
+# `/` itself has only one slash and cannot match `/*/`, so the homepage is untouched.
+/*/  /:splat  301
