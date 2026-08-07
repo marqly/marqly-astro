@@ -6,19 +6,6 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '../..');
 const OUT_DIR = join(ROOT, 'src/content/prompts');
 
-const CATEGORY_ICONS = {
-  'Image & Photo': '/prompts/icons/image-photo.svg',
-  'Writing & Content': '/prompts/icons/writing-content.svg',
-  'SEO & Marketing': '/prompts/icons/seo-marketing.svg',
-  'Research & Learning': '/prompts/icons/research-learning.svg',
-  'Work & Productivity': '/prompts/icons/work-productivity.svg',
-  'Coding & Development': '/prompts/icons/coding-development.svg',
-  'Social Media': '/prompts/icons/social-media.svg',
-  'Personal & Creative': '/prompts/icons/personal-creative.svg',
-  'Analysis & Data': '/prompts/icons/analysis-data.svg',
-  'Prompt Engineering': '/prompts/icons/prompt-engineering.svg',
-};
-
 const CATEGORY_TOOLS = {
   'Image & Photo': ['midjourney', 'dalle', 'stable-diffusion', 'leonardo', 'ideogram', 'bing-image-creator', 'canva', 'firefly'],
   'Writing & Content': ['chatgpt', 'claude', 'gemini', 'deepseek', 'kimi', 'qwen', 'copy-ai', 'jasper'],
@@ -123,11 +110,6 @@ function generateBody(item) {
     'Prompt Engineering': 'It builds in technique, context, examples, and output format, making the resulting prompt reusable and reliable.',
   };
   lines.push(reasons[item.category] || reasons['Writing & Content']);
-  if (item.referenceImage) {
-    lines.push('');
-    lines.push('## Image credit');
-    lines.push('Reference visual: original SVG illustration created for the Marqly Prompt Gallery. © Marqly. Free to use with attribution.');
-  }
   return lines.join('\n');
 }
 
@@ -155,8 +137,6 @@ export async function generatePrompts(items, { force = false, verbose = true } =
     const tools = item.tools || CATEGORY_TOOLS[category] || [];
     const tags = item.tags || CATEGORY_TAGS[category] || [];
     const targetKeyword = item.targetKeyword || item.title.toLowerCase();
-    const referenceImage = item.referenceImage ?? CATEGORY_ICONS[category];
-    const imageAlt = item.imageAlt || `Illustration for ${category.toLowerCase()} prompts`;
     const description = generateDescription({ ...item, tools });
     const promptText = generatePromptText({ ...item, category });
     const faqs = generateFaqs({ ...item, tools });
@@ -171,15 +151,13 @@ targetKeyword: "${escapeYaml(targetKeyword)}"
 prompt: |
 ${promptText.split('\n').map((l) => '  ' + l).join('\n')}
 previewLength: 180
-referenceImage: "${referenceImage}"
-imageAlt: "${escapeYaml(imageAlt)}"
 faqs:
 ${faqs.map((f) => `  - q: "${escapeYaml(f.q)}"\n    a: "${escapeYaml(f.a)}"`).join('\n')}
 updatedDate: ${item.updatedDate || today()}
 draft: false
 ---
 
-${generateBody({ ...item, category, referenceImage })}
+${generateBody({ ...item, category })}
 `;
     await writeFile(file, frontmatter, 'utf8');
     created++;

@@ -19,19 +19,6 @@ const CATEGORY_ORDER = [
   'Prompt Engineering',
 ];
 
-const CATEGORY_ICONS: Record<string, string> = {
-  'Image & Photo': '/prompts/icons/image-photo.svg',
-  'Writing & Content': '/prompts/icons/writing-content.svg',
-  'SEO & Marketing': '/prompts/icons/seo-marketing.svg',
-  'Research & Learning': '/prompts/icons/research-learning.svg',
-  'Work & Productivity': '/prompts/icons/work-productivity.svg',
-  'Coding & Development': '/prompts/icons/coding-development.svg',
-  'Social Media': '/prompts/icons/social-media.svg',
-  'Personal & Creative': '/prompts/icons/personal-creative.svg',
-  'Analysis & Data': '/prompts/icons/analysis-data.svg',
-  'Prompt Engineering': '/prompts/icons/prompt-engineering.svg',
-};
-
 function slugify(text: string) {
   return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
@@ -85,7 +72,6 @@ function preview(text: string) {
       <Breadcrumbs items={[{ name: 'Home', path: '/' }, { name: 'Prompt Gallery', path: '/prompt-gallery' }, { name: category, path }]} />
 
       <header class="hub-head" data-reveal>
-        <img src={CATEGORY_ICONS[category]} alt="" class="cat-hero-icon" width="80" height="80" />
         <h1>{category} Prompts</h1>
         <p class="lead">
           {entries.length} copy-pasteable {category.toLowerCase()} prompts for ChatGPT, Claude, Gemini, DeepSeek, Kimi, and more.
@@ -97,9 +83,6 @@ function preview(text: string) {
           const data = entry.data;
           return (
             <a href={`/prompt-gallery/${entry.id}`} class="prompt-card card">
-              <div class="card-thumb">
-                <img src={data.referenceImage} alt={data.imageAlt ?? data.title} loading="lazy" width="400" height="300" />
-              </div>
               <div class="card-body">
                 <span class="card-cat">{data.category}</span>
                 <h2>{data.title}</h2>
@@ -123,7 +106,6 @@ function preview(text: string) {
   <style>
     .prompt-hub { padding-block: var(--section-pad-y); }
     .hub-head { max-width: 720px; margin-bottom: var(--space-10); }
-    .cat-hero-icon { display: block; margin-bottom: var(--space-5); border-radius: var(--radius-lg); }
     .hub-head h1 {
       font-size: var(--fs-display);
       font-weight: 600;
@@ -154,15 +136,6 @@ function preview(text: string) {
       transition: border-color var(--dur-base) var(--ease-out), transform var(--dur-fast) var(--ease-out);
     }
     .prompt-card:hover { border-color: var(--border-2); transform: translateY(-2px); }
-    .card-thumb {
-      aspect-ratio: 4 / 3;
-      background: var(--surface-2);
-      overflow: hidden;
-      display: grid;
-      place-items: center;
-      padding: var(--space-6);
-    }
-    .card-thumb img { width: 100%; height: 100%; object-fit: contain; display: block; }
     .card-body {
       padding: var(--space-5);
       display: flex;

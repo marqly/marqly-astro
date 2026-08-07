@@ -45,8 +45,6 @@ function catSlug(text: string) {
   return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 const categoryPath = `/prompt-gallery/category/${catSlug(data.category)}`;
-const isExampleImage = data.referenceImage?.includes('/examples/');
-
 const promptPreview = data.prompt.slice(0, data.previewLength).trim();
 ---
 
@@ -118,20 +116,6 @@ const promptPreview = data.prompt.slice(0, data.previewLength).trim();
           )}
         </div>
 
-        {data.referenceImage && (
-          <aside class="prompt-aside" aria-label="Reference image">
-            <figure class="ref-image">
-              <img
-                src={data.referenceImage}
-                alt={data.imageAlt ?? data.title}
-                width="800"
-                height="600"
-                loading="eager"
-              />
-              <figcaption>{isExampleImage ? 'Reference style for this image prompt' : `Illustration for ${data.category.toLowerCase()} prompts`}</figcaption>
-            </figure>
-          </aside>
-        )}
       </div>
 
       {data.faqs.length > 0 && (
@@ -341,29 +325,6 @@ const promptPreview = data.prompt.slice(0, data.previewLength).trim();
     }
     .prose :global(li) { margin-bottom: var(--space-2); }
 
-    .prompt-aside { position: sticky; top: calc(var(--header-h) + var(--space-6)); }
-    .ref-image {
-      margin: 0;
-      background: var(--surface-1);
-      border: 1px solid var(--border-1);
-      border-radius: var(--radius-lg);
-      overflow: hidden;
-    }
-    .ref-image img {
-      display: block;
-      width: 100%;
-      height: auto;
-      background: var(--surface-2);
-      padding: var(--space-6);
-      box-sizing: border-box;
-    }
-    .ref-image figcaption {
-      padding: var(--space-3) var(--space-4);
-      font-size: var(--fs-xs);
-      color: var(--ink-3);
-      text-align: center;
-    }
-
     .related { margin-top: var(--space-12); padding-top: var(--space-8); border-top: 1px solid var(--border-1); margin-bottom: var(--space-10); }
     .faq-block { margin-top: var(--space-14); }
     .related h2 { font-size: var(--fs-h3); font-weight: 600; color: var(--ink-1); margin-bottom: var(--space-6); }
@@ -390,7 +351,6 @@ const promptPreview = data.prompt.slice(0, data.previewLength).trim();
 
     @media (max-width: 980px) {
       .prompt-layout { grid-template-columns: 1fr; }
-      .prompt-aside { position: static; max-width: 420px; }
     }
     @media (max-width: 620px) {
       .related-grid { grid-template-columns: 1fr; }
