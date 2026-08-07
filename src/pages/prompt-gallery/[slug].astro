@@ -41,17 +41,23 @@ const toolLinks = data.tools
   .map((slug) => aiToolsBySlug[slug])
   .filter((t): t is NonNullable<typeof t> => Boolean(t));
 
+function catSlug(text: string) {
+  return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+const categoryPath = `/prompt-gallery/category/${catSlug(data.category)}`;
+const isExampleImage = data.referenceImage?.includes('/examples/');
+
 const promptPreview = data.prompt.slice(0, data.previewLength).trim();
 ---
 
-<LandingLayout title={title} description={data.description} jsonLd={jsonLd} ogImage={ogImage}>
+<LandingLayout title={title} description={data.description} jsonLd={jsonLd} ogImage={ogImage} ogType="article">
   <article class="section prompt-page">
     <div class="container">
       <Breadcrumbs items={crumbs} />
 
       <header class="prompt-head" data-reveal>
         <div class="prompt-meta">
-          <span class="cat-badge">{data.category}</span>
+          <a class="cat-badge" href={categoryPath}>{data.category}</a>
           {data.tags.map((tag) => <span class="tag">#{tag}</span>)}
         </div>
         <h1>{data.title}</h1>
@@ -61,7 +67,7 @@ const promptPreview = data.prompt.slice(0, data.previewLength).trim();
           <div class="tool-row">
             <span class="tool-label">Works with:</span>
             {toolLinks.map((t) => (
-              <a class="tool-chip" href={t.url} target="_blank" rel="noopener">
+              <a class="tool-chip" href={t.url} target="_blank" rel="noopener noreferrer">
                 {t.name}
               </a>
             ))}
@@ -119,10 +125,10 @@ const promptPreview = data.prompt.slice(0, data.previewLength).trim();
                 src={data.referenceImage}
                 alt={data.imageAlt ?? data.title}
                 width="800"
-                height="1000"
+                height="600"
                 loading="eager"
               />
-              <figcaption>Reference style for this image prompt</figcaption>
+              <figcaption>{isExampleImage ? 'Reference style for this image prompt' : `Illustration for ${data.category.toLowerCase()} prompts`}</figcaption>
             </figure>
           </aside>
         )}
@@ -192,6 +198,7 @@ const promptPreview = data.prompt.slice(0, data.previewLength).trim();
       margin-bottom: var(--space-4);
     }
     .cat-badge {
+      display: inline-block;
       font-size: var(--fs-xs);
       font-weight: 600;
       text-transform: uppercase;
@@ -200,7 +207,10 @@ const promptPreview = data.prompt.slice(0, data.previewLength).trim();
       background: var(--accent-soft);
       padding: 0.35rem 0.7rem;
       border-radius: var(--radius-pill);
+      text-decoration: none;
+      transition: background var(--dur-fast) var(--ease-out);
     }
+    .cat-badge:hover { background: var(--accent-ring); }
     .tag {
       font-size: var(--fs-xs);
       color: var(--ink-3);
@@ -343,6 +353,9 @@ const promptPreview = data.prompt.slice(0, data.previewLength).trim();
       display: block;
       width: 100%;
       height: auto;
+      background: var(--surface-2);
+      padding: var(--space-6);
+      box-sizing: border-box;
     }
     .ref-image figcaption {
       padding: var(--space-3) var(--space-4);
@@ -351,7 +364,8 @@ const promptPreview = data.prompt.slice(0, data.previewLength).trim();
       text-align: center;
     }
 
-    .related { margin-top: var(--space-12); padding-top: var(--space-8); border-top: 1px solid var(--border-1); }
+    .related { margin-top: var(--space-12); padding-top: var(--space-8); border-top: 1px solid var(--border-1); margin-bottom: var(--space-10); }
+    .faq-block { margin-top: var(--space-14); }
     .related h2 { font-size: var(--fs-h3); font-weight: 600; color: var(--ink-1); margin-bottom: var(--space-6); }
     .related-grid {
       list-style: none;

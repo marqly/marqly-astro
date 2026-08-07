@@ -95,3 +95,56 @@ Added `src/lib/ai-tools.ts` as the single source of truth for tool names/URLs re
 - `npm run build` completed successfully
 - `node active/scripts/check-links.mjs` reported 0 broken internal links
 - Sitemap includes 71 new `/prompt-gallery*` URLs
+
+
+## Follow-up — Prompt Gallery expansion & fixes
+
+### Problems addressed
+- Category filter chips on `/prompt-gallery` did not filter anything because the selector matched both chips and cards.
+- Prompt count felt small (70) compared to search demand.
+- Pages were text-heavy and lacked visual interest.
+- Detail pages had no spacing above the "Frequently asked questions" heading.
+- SEO schema ItemList lacked item URLs; detail pages used `og:type=website`.
+- Tool registry did not include top Chinese LLMs.
+
+### Fixes & improvements
+
+**1. Filtering & UX**
+- Fixed chip selector to target `.chip[data-category]` only.
+- Added `aria-pressed` states and proper active class toggling.
+- Added margin-top to `.faq-block` on detail pages.
+- Added `rel="noopener noreferrer"` to external tool links.
+
+**2. Prompt volume**
+- Added 150 new prompts (220 total) across all ten categories, targeting high-intent queries:
+  - Image & Photo, Writing & Content, SEO & Marketing, Research & Learning
+  - Work & Productivity, Coding & Development, Social Media, Personal & Creative
+  - Analysis & Data, Prompt Engineering
+- Each new prompt includes target keyword, tags, tool links, category-specific prompt template, description, and FAQs.
+
+**3. Chinese & global AI tools**
+- Expanded `src/lib/ai-tools.ts` with DeepSeek, Kimi (Moonshot), Qwen, GLM (Zhipu), Doubao, Hunyuan, Wenxin Yiyan, Tongyi Qianwen, Stepfun, Copy.ai, Jasper, Runway, Sora, ElevenLabs, and Suno.
+
+**4. Visuals & images**
+- Created 10 colorful SVG category icons in `public/prompts/icons/`.
+- Assigned a category icon to every prompt as a `referenceImage` so every card has a visual.
+- Existing image-generation prompts keep their example SVGs; new image prompts use category icons.
+- Added an "Image credit" note to prompt bodies: original SVG illustration for Marqly Prompt Gallery, free to use with attribution.
+
+**5. Category landing pages & internal linking**
+- Added `/prompt-gallery/category/` index and `/prompt-gallery/category/<slug>/` pages for each category.
+- Hub now shows a visual category browse grid above the filter bar.
+- Detail-page category badge links to its category page.
+- `llms.txt` updated with category links and representative DeepSeek/Kimi prompts.
+
+**6. SEO schema**
+- `itemList` builder now supports per-item URLs.
+- Hub and category pages emit `ItemList` schema with prompt URLs.
+- Detail pages use `og:type=article`.
+
+**7. OG cards**
+- Regenerated all 510 SEO OG cards (220 prompt cards + 11 category cards + existing surfaces).
+
+### Verification
+- `npm run build` completed successfully
+- `node active/scripts/check-links.mjs` reported 557 pages, 114,412 internal hrefs, 0 broken targets

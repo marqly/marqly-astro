@@ -117,7 +117,11 @@ export function qaPage(question: string, answerText: string, path: string) {
   };
 }
 
-export function itemList(names: string[], path: string) {
+export function itemList(
+  names: string[],
+  path: string,
+  itemUrls?: string[],
+) {
   return {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
@@ -126,6 +130,7 @@ export function itemList(names: string[], path: string) {
       '@type': 'ListItem',
       position: i + 1,
       name,
+      ...(itemUrls?.[i] ? { item: `${SITE}${itemUrls[i]}` } : {}),
     })),
   };
 }

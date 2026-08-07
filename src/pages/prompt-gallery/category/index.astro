@@ -1,0 +1,106 @@
+---
+import { getCollection } from 'astro:content';
+import LandingLayout from '../../../layouts/LandingLayout.astro';
+import Breadcrumbs from '../../../components/seo/Breadcrumbs.astro';
+import CtaBox from '../../../components/seo/CtaBox.astro';
+import { breadcrumbList, itemList, organization, webSite } from '../../../lib/schema';
+
+const CATEGORY_ICONS: Record<string, string> = {
+  'Image & Photo': '/prompts/icons/image-photo.svg',
+  'Writing & Content': '/prompts/icons/writing-content.svg',
+  'SEO & Marketing': '/prompts/icons/seo-marketing.svg',
+  'Research & Learning': '/prompts/icons/research-learning.svg',
+  'Work & Productivity': '/prompts/icons/work-productivity.svg',
+  'Coding & Development': '/prompts/icons/coding-development.svg',
+  'Social Media': '/prompts/icons/social-media.svg',
+  'Personal & Creative': '/prompts/icons/personal-creative.svg',
+  'Analysis & Data': '/prompts/icons/analysis-data.svg',
+  'Prompt Engineering': '/prompts/icons/prompt-engineering.svg',
+};
+
+const CATEGORY_ORDER = [
+  'Image & Photo',
+  'Writing & Content',
+  'SEO & Marketing',
+  'Research & Learning',
+  'Work & Productivity',
+  'Coding & Development',
+  'Social Media',
+  'Personal & Creative',
+  'Analysis & Data',
+  'Prompt Engineering',
+];
+
+function slugify(text: string) {
+  return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
+const entries = await getCollection('prompts', ({ data }) => !data.draft);
+const counts: Record<string, number> = {};
+for (const e of entries) counts[e.data.category] = (counts[e.data.category] || 0) + 1;
+const categories = CATEGORY_ORDER.filter((c) => counts[c]);
+
+const title = 'AI Prompt Categories — Browse by Use Case | Marqly Prompt Gallery';
+const description = 'Browse AI prompt categories: image generation, writing, SEO, coding, productivity, social media, research, and prompt engineering.';
+const jsonLd = [
+  organization(),
+  webSite(),
+  breadcrumbList([{ name: 'Home', path: '/' }, { name: 'Prompt Gallery', path: '/prompt-gallery' }, { name: 'Categories', path: '/prompt-gallery/category' }]),
+  itemList(categories, '/prompt-gallery/category', categories.map((c) => `/prompt-gallery/category/${slugify(c)}`)),
+];
+---
+
+<LandingLayout title={title} description={description} jsonLd={jsonLd} ogImage="https://www.marqly.com/og/seo/hub-prompt-gallery.png">
+  <section class="section prompt-hub">
+    <div class="container">
+      <Breadcrumbs items={[{ name: 'Home', path: '/' }, { name: 'Prompt Gallery', path: '/prompt-gallery' }, { name: 'Categories', path: '/prompt-gallery/category' }]} />
+
+      <header class="hub-head" data-reveal>
+        <h1>Browse Prompt Categories</h1>
+        <p class="lead">Jump to the kind of prompt you need. Each category has copy-pasteable templates for ChatGPT, Claude, Gemini, DeepSeek, Kimi, and more.</p>
+      </header>
+
+      <div class="category-grid" data-reveal>
+        {categories.map((cat) => (
+          <a href={`/prompt-gallery/category/${slugify(cat)}`} class="category-card card">
+            <img src={CATEGORY_ICONS[cat]} alt="" width="64" height="64" />
+            <h2>{cat}</h2>
+            <p>{counts[cat]} prompts</p>
+          </a>
+        ))}
+      </div>
+
+      <CtaBox />
+    </div>
+  </section>
+
+  <style>
+    .prompt-hub { padding-block: var(--section-pad-y); }
+    .hub-head { max-width: 720px; margin-bottom: var(--space-10); }
+    .hub-head h1 { font-size: var(--fs-display); font-weight: 600; letter-spacing: var(--tracking-tight); color: var(--ink-1); line-height: var(--lh-display); }
+    .lead { margin-top: var(--space-4); font-size: var(--fs-lg); color: var(--ink-2); line-height: var(--lh-base); }
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--space-5);
+      margin-bottom: var(--space-12);
+    }
+    .category-card {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: var(--space-3);
+      padding: var(--space-6);
+      background: var(--surface-1);
+      border: 1px solid var(--border-1);
+      border-radius: var(--radius-card);
+      transition: border-color var(--dur-base) var(--ease-out), transform var(--dur-fast) var(--ease-out);
+    }
+    .category-card:hover { border-color: var(--border-2); transform: translateY(-2px); }
+    .category-card img { border-radius: var(--radius-lg); }
+    .category-card h2 { font-size: var(--fs-lg); font-weight: 600; color: var(--ink-1); }
+    .category-card p { font-size: var(--fs-sm); color: var(--ink-3); }
+    @media (max-width: 1000px) { .category-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 620px) { .category-grid { grid-template-columns: 1fr; } }
+  </style>
+</LandingLayout>

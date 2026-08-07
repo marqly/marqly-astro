@@ -1,0 +1,217 @@
+---
+import { getCollection } from 'astro:content';
+import LandingLayout from '../../../layouts/LandingLayout.astro';
+import Breadcrumbs from '../../../components/seo/Breadcrumbs.astro';
+import CtaBox from '../../../components/seo/CtaBox.astro';
+import { breadcrumbList, itemList, organization, webSite } from '../../../lib/schema';
+import { aiToolsBySlug } from '../../../lib/ai-tools';
+
+const CATEGORY_ORDER = [
+  'Image & Photo',
+  'Writing & Content',
+  'SEO & Marketing',
+  'Research & Learning',
+  'Work & Productivity',
+  'Coding & Development',
+  'Social Media',
+  'Personal & Creative',
+  'Analysis & Data',
+  'Prompt Engineering',
+];
+
+const CATEGORY_ICONS: Record<string, string> = {
+  'Image & Photo': '/prompts/icons/image-photo.svg',
+  'Writing & Content': '/prompts/icons/writing-content.svg',
+  'SEO & Marketing': '/prompts/icons/seo-marketing.svg',
+  'Research & Learning': '/prompts/icons/research-learning.svg',
+  'Work & Productivity': '/prompts/icons/work-productivity.svg',
+  'Coding & Development': '/prompts/icons/coding-development.svg',
+  'Social Media': '/prompts/icons/social-media.svg',
+  'Personal & Creative': '/prompts/icons/personal-creative.svg',
+  'Analysis & Data': '/prompts/icons/analysis-data.svg',
+  'Prompt Engineering': '/prompts/icons/prompt-engineering.svg',
+};
+
+function slugify(text: string) {
+  return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
+export async function getStaticPaths() {
+  const entries = await getCollection('prompts', ({ data }) => !data.draft);
+  const cats = [...new Set(entries.map((e) => e.data.category))];
+  return cats.map((cat) => ({
+    params: {
+      slug: cat.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''),
+    },
+  }));
+}
+
+const { slug } = Astro.params;
+const category = CATEGORY_ORDER.find((c) => slugify(c) === slug) || slug.replace(/-/g, ' ');
+const all = await getCollection('prompts', ({ data }) => !data.draft);
+const entries = all
+  .filter((e) => e.data.category === category)
+  .sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+const title = `${category} AI Prompts — Copy-Paste for ChatGPT, Gemini, DeepSeek & More | Marqly`;
+const description = `Browse ${entries.length} copy-pasteable ${category.toLowerCase()} prompts. Works with ChatGPT, Claude, Gemini, DeepSeek, Kimi, and more.`;
+const path = `/prompt-gallery/category/${slug}`;
+const jsonLd = [
+  organization(),
+  webSite(),
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: 'Prompt Gallery', path: '/prompt-gallery' },
+    { name: category, path },
+  ]),
+  itemList(
+    entries.map((e) => e.data.title),
+    path,
+    entries.map((e) => `/prompt-gallery/${e.id}`),
+  ),
+];
+
+function toolNames(slugs: string[]) {
+  return slugs.map((s) => aiToolsBySlug[s]?.name).filter((n): n is string => Boolean(n));
+}
+function preview(text: string) {
+  return text.slice(0, 110).trim() + '…';
+}
+---
+
+<LandingLayout title={title} description={description} jsonLd={jsonLd} ogImage={`https://www.marqly.com/og/seo/hub-prompt-gallery.png`}>
+  <section class="section prompt-hub">
+    <div class="container">
+      <Breadcrumbs items={[{ name: 'Home', path: '/' }, { name: 'Prompt Gallery', path: '/prompt-gallery' }, { name: category, path }]} />
+
+      <header class="hub-head" data-reveal>
+        <img src={CATEGORY_ICONS[category]} alt="" class="cat-hero-icon" width="80" height="80" />
+        <h1>{category} Prompts</h1>
+        <p class="lead">
+          {entries.length} copy-pasteable {category.toLowerCase()} prompts for ChatGPT, Claude, Gemini, DeepSeek, Kimi, and more.
+        </p>
+      </header>
+
+      <div class="prompt-grid" data-reveal>
+        {entries.map((entry) => {
+          const data = entry.data;
+          return (
+            <a href={`/prompt-gallery/${entry.id}`} class="prompt-card card">
+              <div class="card-thumb">
+                <img src={data.referenceImage} alt={data.imageAlt ?? data.title} loading="lazy" width="400" height="300" />
+              </div>
+              <div class="card-body">
+                <span class="card-cat">{data.category}</span>
+                <h2>{data.title}</h2>
+                <p>{data.description}</p>
+                <span class="card-preview">{preview(data.prompt)}</span>
+                <div class="card-tools">
+                  {toolNames(data.tools).slice(0, 4).map((name) => (
+                    <span class="tool-pill">{name}</span>
+                  ))}
+                </div>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+
+      <CtaBox />
+    </div>
+  </section>
+
+  <style>
+    .prompt-hub { padding-block: var(--section-pad-y); }
+    .hub-head { max-width: 720px; margin-bottom: var(--space-10); }
+    .cat-hero-icon { display: block; margin-bottom: var(--space-5); border-radius: var(--radius-lg); }
+    .hub-head h1 {
+      font-size: var(--fs-display);
+      font-weight: 600;
+      letter-spacing: var(--tracking-tight);
+      color: var(--ink-1);
+      line-height: var(--lh-display);
+    }
+    .lead {
+      margin-top: var(--space-4);
+      font-size: var(--fs-lg);
+      color: var(--ink-2);
+      line-height: var(--lh-base);
+    }
+    .prompt-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--space-5);
+      margin-bottom: var(--space-12);
+    }
+    .prompt-card {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      background: var(--surface-1);
+      border: 1px solid var(--border-1);
+      border-radius: var(--radius-card);
+      overflow: hidden;
+      transition: border-color var(--dur-base) var(--ease-out), transform var(--dur-fast) var(--ease-out);
+    }
+    .prompt-card:hover { border-color: var(--border-2); transform: translateY(-2px); }
+    .card-thumb {
+      aspect-ratio: 4 / 3;
+      background: var(--surface-2);
+      overflow: hidden;
+      display: grid;
+      place-items: center;
+      padding: var(--space-6);
+    }
+    .card-thumb img { width: 100%; height: 100%; object-fit: contain; display: block; }
+    .card-body {
+      padding: var(--space-5);
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+    .card-cat {
+      font-size: var(--fs-xs);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      margin-bottom: var(--space-2);
+    }
+    .card-body h2 {
+      font-size: var(--fs-base);
+      font-weight: 600;
+      color: var(--ink-1);
+      line-height: var(--lh-snug);
+      margin-bottom: var(--space-2);
+    }
+    .card-body > p {
+      font-size: var(--fs-sm);
+      color: var(--ink-3);
+      line-height: var(--lh-base);
+      margin-bottom: var(--space-3);
+    }
+    .card-preview {
+      display: block;
+      font-family: var(--font-mono);
+      font-size: var(--fs-xs);
+      color: var(--ink-4);
+      line-height: 1.5;
+      margin-bottom: var(--space-4);
+      flex: 1;
+    }
+    .card-tools {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+    }
+    .tool-pill {
+      font-size: var(--fs-xs);
+      color: var(--ink-3);
+      background: var(--surface-2);
+      padding: 0.25rem 0.5rem;
+      border-radius: var(--radius-pill);
+    }
+    @media (max-width: 1000px) { .prompt-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 620px) { .prompt-grid { grid-template-columns: 1fr; } }
+  </style>
+</LandingLayout>

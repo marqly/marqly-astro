@@ -177,12 +177,25 @@ for (const [slug, title] of Object.entries(tools)) {
 }
 // Prompts
 const promptDir = path.join(ROOT, 'src/content/prompts');
+const categories = new Set();
 for (const f of (await readdir(promptDir).catch(() => [])).filter((f) => /\.mdx?$/.test(f))) {
   const slug = f.replace(/\.mdx?$/, '');
-  const t = fmField(await readFile(path.join(promptDir, f), 'utf8'), 'title') || slug.replace(/-/g, ' ');
-  await png(`prompt-${slug}`, t, 'Prompt', 'marqly.com/prompt-gallery');
+  const src = await readFile(path.join(promptDir, f), 'utf8');
+  const t = fmField(src, 'title') || slug.replace(/-/g, ' ');
+  const cat = fmField(src, 'category') || 'Prompt';
+  categories.add(cat);
+  await png(`prompt-${slug}`, t, cat, 'marqly.com/prompt-gallery');
   n++;
 }
+
+// Prompt category pages
+for (const cat of categories) {
+  const slug = cat.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  await png(`category-prompt-${slug}`, `${cat} AI Prompts`, 'Prompts', `marqly.com/prompt-gallery/category/${slug}`);
+  n++;
+}
+await png('hub-prompt-categories', 'Browse AI Prompt Categories', 'Prompts', 'marqly.com/prompt-gallery/category');
+n++;
 
 await png('hub-faq', 'Marqly FAQ — every question, answered', 'FAQ', 'marqly.com/faq');
 await png('hub-compare', 'Compare bookmark managers, honestly', 'Compare', 'marqly.com/compare');

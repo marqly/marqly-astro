@@ -23,10 +23,27 @@ const CATEGORY_ORDER = [
 ];
 
 const categories = CATEGORY_ORDER.filter((cat) => entries.some((e) => e.data.category === cat));
+const counts: Record<string, number> = {};
+for (const e of entries) counts[e.data.category] = (counts[e.data.category] || 0) + 1;
+function catSlug(text: string) {
+  return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+const CATEGORY_ICONS: Record<string, string> = {
+  'Image & Photo': '/prompts/icons/image-photo.svg',
+  'Writing & Content': '/prompts/icons/writing-content.svg',
+  'SEO & Marketing': '/prompts/icons/seo-marketing.svg',
+  'Research & Learning': '/prompts/icons/research-learning.svg',
+  'Work & Productivity': '/prompts/icons/work-productivity.svg',
+  'Coding & Development': '/prompts/icons/coding-development.svg',
+  'Social Media': '/prompts/icons/social-media.svg',
+  'Personal & Creative': '/prompts/icons/personal-creative.svg',
+  'Analysis & Data': '/prompts/icons/analysis-data.svg',
+  'Prompt Engineering': '/prompts/icons/prompt-engineering.svg',
+};
 
 const title = 'AI Prompt Gallery — Copy-Paste Prompts for ChatGPT, Gemini, Midjourney & More';
 const description =
-  'Browse 70+ copy-pasteable AI prompts organized by category: image generation, writing, SEO, coding, productivity, social media, and prompt engineering. Each prompt includes tool links and a reference image where relevant.';
+  `Browse ${entries.length}+ copy-pasteable AI prompts organized by category: image generation, writing, SEO, coding, productivity, social media, and prompt engineering. Each prompt includes tool links and a reference image where relevant.`;
 
 const faqs = [
   {
@@ -47,7 +64,11 @@ const jsonLd = [
   organization(),
   webSite(),
   breadcrumbList([{ name: 'Home', path: '/' }, { name: 'Prompt Gallery', path: '/prompt-gallery' }]),
-  itemList(entries.map((e) => e.data.title), '/prompt-gallery'),
+  itemList(
+    entries.map((e) => e.data.title),
+    '/prompt-gallery',
+    entries.map((e) => `/prompt-gallery/${e.id}`),
+  ),
   faqPage(faqs),
 ];
 
@@ -72,10 +93,23 @@ function preview(text: string) {
       <header class="hub-head" data-reveal>
         <h1>AI Prompt Gallery</h1>
         <p class="lead">
-          70+ copy-pasteable prompts for image generation, writing, SEO, coding, productivity,
-          social media, and prompt engineering. Click any card to reveal the full prompt.
+          {entries.length}+ copy-pasteable prompts for ChatGPT, Claude, Gemini, DeepSeek, Kimi, Midjourney,
+          DALL-E, and more. Click any card to reveal the full prompt.
         </p>
       </header>
+
+      <nav class="category-grid" aria-labelledby="cat-heading" data-reveal>
+        <h2 id="cat-heading" class="sr-only">Browse by category</h2>
+        {categories.map((cat) => (
+          <a href={`/prompt-gallery/category/${catSlug(cat)}`} class="category-card card">
+            <img src={CATEGORY_ICONS[cat]} alt="" width="48" height="48" />
+            <div>
+              <span class="category-name">{cat}</span>
+              <span class="category-count">{counts[cat]} prompts</span>
+            </div>
+          </a>
+        ))}
+      </nav>
 
       <div class="filter-bar" data-reveal>
         <div class="search-wrap">
@@ -91,7 +125,7 @@ function preview(text: string) {
         <div class="chip-row" role="group" aria-label="Filter by category">
           <button type="button" class="chip is-active" data-category="all">All</button>
           {categories.map((cat) => (
-            <button type="button" class="chip" data-category={cat}>{cat}</button>
+            <button type="button" class="chip" data-category={cat} aria-pressed="false">{cat}</button>
           ))}
         </div>
       </div>
@@ -109,11 +143,9 @@ function preview(text: string) {
               data-category={data.category}
               data-search={searchTokens}
             >
-              {data.referenceImage && (
-                <div class="card-thumb">
-                  <img src={data.referenceImage} alt={data.imageAlt ?? data.title} loading="lazy" width="400" height="500" />
-                </div>
-              )}
+              <div class="card-thumb">
+                <img src={data.referenceImage} alt={data.imageAlt ?? data.title} loading="lazy" width="400" height="300" />
+              </div>
               <div class="card-body">
                 <span class="card-cat">{data.category}</span>
                 <h2>{data.title}</h2>
@@ -145,7 +177,7 @@ function preview(text: string) {
   <script is:inline>
     (function () {
       const input = document.querySelector('[data-search-input]');
-      const chips = document.querySelectorAll('[data-category]');
+      const chips = document.querySelectorAll('.chip[data-category]');
       const cards = document.querySelectorAll('[data-search]');
       const empty = document.querySelector('[data-empty-state]');
       if (!input || !cards.length) return;
@@ -175,8 +207,12 @@ function preview(text: string) {
 
       chips.forEach((chip) => {
         chip.addEventListener('click', () => {
-          chips.forEach((c) => c.classList.remove('is-active'));
+          chips.forEach((c) => {
+            c.classList.remove('is-active');
+            c.setAttribute('aria-pressed', 'false');
+          });
           chip.classList.add('is-active');
+          chip.setAttribute('aria-pressed', 'true');
           activeCategory = chip.getAttribute('data-category') || 'all';
           filter();
         });
@@ -284,13 +320,39 @@ function preview(text: string) {
       aspect-ratio: 4 / 3;
       background: var(--surface-2);
       overflow: hidden;
+      display: grid;
+      place-items: center;
+      padding: var(--space-5);
     }
     .card-thumb img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
       display: block;
     }
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: var(--space-3);
+      margin-bottom: var(--space-10);
+    }
+    .category-card {
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+      padding: var(--space-4);
+      background: var(--surface-1);
+      border: 1px solid var(--border-1);
+      border-radius: var(--radius-card);
+      text-decoration: none;
+      transition: border-color var(--dur-fast) var(--ease-out), transform var(--dur-fast) var(--ease-out);
+    }
+    .category-card:hover { border-color: var(--border-2); transform: translateY(-1px); }
+    .category-card img { flex-shrink: 0; border-radius: var(--radius-lg); }
+    .category-card div { display: flex; flex-direction: column; }
+    .category-name { font-size: var(--fs-sm); font-weight: 600; color: var(--ink-1); }
+    .category-count { font-size: var(--fs-xs); color: var(--ink-3); }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
     .card-body {
       padding: var(--space-5);
       display: flex;
