@@ -45,7 +45,7 @@ function catSlug(text: string) {
   return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 const categoryPath = `/prompt-gallery/category/${catSlug(data.category)}`;
-const promptPreview = data.prompt.slice(0, data.previewLength).trim();
+
 ---
 
 <LandingLayout title={title} description={data.description} jsonLd={jsonLd} ogImage={ogImage} ogType="article">
@@ -76,22 +76,14 @@ const promptPreview = data.prompt.slice(0, data.previewLength).trim();
       <div class="prompt-layout" data-reveal>
         <div class="prompt-body">
           <div class="prompt-card">
-            <div class="prompt-preview" aria-live="polite">
-              <span class="preview-text">{promptPreview}…</span>
-              <button type="button" class="btn btn--dark reveal-btn" data-reveal-btn>
-                Reveal full prompt
+            <div class="prompt-toolbar">
+              <span class="toolbar-label">Full prompt</span>
+              <button type="button" class="copy-btn" data-copy-btn>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                <span class="copy-label">Copy</span>
               </button>
             </div>
-            <div class="prompt-full" data-full-prompt hidden>
-              <div class="prompt-toolbar">
-                <span class="toolbar-label">Full prompt</span>
-                <button type="button" class="copy-btn" data-copy-btn>
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
-                  <span class="copy-label">Copy</span>
-                </button>
-              </div>
-              <pre>{data.prompt}</pre>
-            </div>
+            <pre data-copy-target>{data.prompt}</pre>
           </div>
 
           <div class="prose">
@@ -130,21 +122,8 @@ const promptPreview = data.prompt.slice(0, data.previewLength).trim();
 
   <script is:inline>
     (function () {
-      const revealBtn = document.querySelector('[data-reveal-btn]');
-      const fullPrompt = document.querySelector('[data-full-prompt]');
-      if (revealBtn && fullPrompt) {
-        revealBtn.addEventListener('click', () => {
-          const isHidden = fullPrompt.hasAttribute('hidden');
-          fullPrompt.toggleAttribute('hidden', !isHidden);
-          revealBtn.textContent = isHidden ? 'Hide full prompt' : 'Reveal full prompt';
-          if (isHidden) {
-            fullPrompt.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-          }
-        });
-      }
-
       const copyBtn = document.querySelector('[data-copy-btn]');
-      const pre = document.querySelector('[data-full-prompt] pre');
+      const pre = document.querySelector('[data-copy-target]');
       if (copyBtn && pre) {
         copyBtn.addEventListener('click', async () => {
           const text = pre.textContent || '';
@@ -250,20 +229,6 @@ const promptPreview = data.prompt.slice(0, data.previewLength).trim();
       padding: var(--space-6);
       margin-bottom: var(--space-10);
     }
-    .prompt-preview {
-      display: flex;
-      flex-direction: column;
-      gap: var(--space-5);
-    }
-    .preview-text {
-      font-family: var(--font-mono);
-      font-size: var(--fs-base);
-      color: var(--ink-2);
-      line-height: var(--lh-base);
-      white-space: pre-wrap;
-    }
-    .reveal-btn { align-self: flex-start; }
-    .prompt-full { margin-top: var(--space-5); }
     .prompt-toolbar {
       display: flex;
       align-items: center;
@@ -293,7 +258,7 @@ const promptPreview = data.prompt.slice(0, data.previewLength).trim();
     }
     .copy-btn:hover { background: var(--surface-3); border-color: var(--border-2); }
     .copy-btn.is-copied { color: var(--success); border-color: var(--success); }
-    .prompt-full pre {
+    .prompt-card pre {
       margin: 0;
       padding: var(--space-5);
       background: var(--surface-dark);
