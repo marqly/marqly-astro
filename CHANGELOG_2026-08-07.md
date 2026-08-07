@@ -54,3 +54,16 @@ Commit `3bce7e5`, deployed to production (`marqly-astro.trymarqly.workers.dev`).
 - Updated `generate-prompts.mjs` so future batches never emit image fields or image-credit sections.
 - Deleted `public/prompts/icons/` and `public/prompts/examples/` asset directories.
 - `npm run build` succeeded; `check-links.mjs`: 737 pages, 150,052 internal hrefs, 0 broken targets.
+
+
+## Show full prompt by default on prompt detail pages
+
+Commit `78c8fb9`, deployed to production (`marqly-astro.trymarqly.workers.dev`).
+
+**File(s)**: `src/pages/prompt-gallery/[slug].astro`
+
+- Removed the "Reveal full prompt" preview/hide flow.
+- The full prompt now renders immediately on page load, with the Copy button kept in place.
+- Updated the copy-button selector to target the visible `<pre>` element.
+- Removed now-unused preview/reveal CSS.
+- `npm run build` succeeded; `check-links.mjs`: 737 pages, 150,052 internal hrefs, 0 broken targets.
