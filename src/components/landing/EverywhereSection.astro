@@ -1,0 +1,60 @@
+---
+import { NewTabDemo } from './demos';
+import { IOS_URL } from './data';
+---
+
+<section class="py-20 md:py-28">
+  <div class="mx-auto max-w-[1120px] px-5 md:px-8">
+    <div class="max-w-[600px]" data-reveal>
+      <p class="text-[11px] font-semibold tracking-[0.14em] text-muted uppercase">Everywhere</p>
+      <h2
+        class="font-display mt-3 text-[clamp(1.9rem,4vw,2.9rem)] leading-[1.1] font-medium text-foreground"
+      >
+        On every screen<br />you read on.
+      </h2>
+      <p class="mt-4 max-w-[520px] text-[16px] leading-relaxed text-muted">
+        One library, synced. The extension in your browser, the web app anywhere, the iOS app in
+        your pocket, and a new tab page that starts your day inside it.
+      </p>
+    </div>
+
+    <div class="mt-10 grid items-stretch gap-5 sm:grid-cols-2 md:gap-6">
+      <figure class="flex flex-col" data-reveal>
+        <div class="aspect-[5/4] w-full">
+          <NewTabDemo />
+        </div>
+        <figcaption class="mt-4 text-sm leading-relaxed text-muted">
+          <b class="font-semibold text-foreground">Marqly Home.</b>
+          New Tab becomes library search, quick links, notes, and saved sessions, in Chrome,
+          Edge, and Firefox.
+        </figcaption>
+      </figure>
+
+      <figure class="flex flex-col" data-reveal style="--reveal-delay: 80ms">
+        <a
+          href={IOS_URL}
+          target="_blank"
+          rel="noopener"
+          class="flex aspect-[5/4] w-full items-end justify-center overflow-hidden rounded-3xl bg-gradient-to-b from-background to-default pt-8 shadow-frame transition-shadow hover:shadow-overlay"
+        >
+          <img
+            src="/landing/ios-library.png"
+            alt="The Marqly iOS app showing a synced bookmark list on an iPhone"
+            width="421"
+            height="588"
+            loading="lazy"
+            class="block w-[62%] max-w-[300px]"
+          />
+        </a>
+        <figcaption class="mt-4 text-sm leading-relaxed text-muted">
+          <b class="font-semibold text-foreground">iPhone and iPad.</b>
+          The whole library, saves, tags, and highlights, on the App Store.
+        </figcaption>
+      </figure>
+    </div>
+
+    <p class="mt-8 text-[13px] text-muted/80" data-reveal>
+      Chrome · Edge · Firefox · Safari · iOS · Web
+    </p>
+  </div>
+</section>

@@ -1,0 +1,66 @@
+---
+import Hero from './Hero';
+import { CHROME_URL, APP_URL } from './data';
+---
+
+<section class="relative overflow-hidden">
+  <!-- Atmospheric backdrop: real cloudscape (Unsplash), washed toward Paper
+       so ink text keeps AA contrast, fading out before the demo frame. -->
+  <div aria-hidden class="pointer-events-none absolute inset-x-0 top-0 h-[540px] md:h-[640px]">
+    <img
+      src="/landing/hero-sky.jpg"
+      alt=""
+      fetchpriority="high"
+      class="h-full w-full object-cover object-[50%_30%]"
+    />
+    <div
+      class="absolute inset-0"
+      style="background: linear-gradient(180deg, rgba(247,247,247,0.34) 0%, rgba(247,247,247,0.62) 48%, var(--background) 97%)"
+    >
+    </div>
+  </div>
+
+  <div class="relative mx-auto max-w-[1120px] px-5 pt-12 pb-20 md:px-8 md:pt-16 md:pb-28">
+  <div class="mx-auto max-w-[720px] text-center">
+    <p class="text-[11px] font-semibold tracking-[0.16em] text-foreground/70 uppercase">
+      AI bookmark manager
+    </p>
+    <h1
+      class="font-display mt-4 text-[clamp(2.6rem,6.5vw,4.4rem)] leading-[1.04] font-medium tracking-[-0.015em] text-foreground"
+    >
+      You'll actually<br />
+      <em class="mark-stroke">find it again.</em>
+    </h1>
+    <p class="mx-auto mt-6 max-w-[540px] text-[17px] leading-relaxed text-[#4b4b53]">
+      Marqly saves, tags, and files every link with AI. Months later, it digs the right one back
+      up from a half-remembered description.
+    </p>
+    <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
+      <a
+        href={CHROME_URL}
+        target="_blank"
+        rel="noopener"
+        class="flex h-11 items-center rounded-3xl bg-accent px-6 text-[15px] font-medium text-accent-foreground shadow-custom transition-transform active:scale-[0.97]"
+      >
+        Add to Chrome, it's free
+      </a>
+      <a
+        href={APP_URL}
+        class="flex h-11 items-center gap-1.5 rounded-3xl bg-default px-5 text-[15px] font-medium text-foreground transition-colors hover:bg-default/70"
+      >
+        Open the web app
+      </a>
+    </div>
+    <p class="mt-5 text-[12px] text-foreground/70">
+      Free plan · Chrome · Edge · Firefox · Safari · iOS · Web
+    </p>
+  </div>
+
+  <div class="mx-auto mt-12 max-w-[860px] md:mt-16">
+    <Hero client:idle />
+    <p class="mt-4 text-center text-[12px] text-muted/90">
+      The save dialog, doing the filing for you. Remember this recipe: it comes back later.
+    </p>
+  </div>
+  </div>
+</section>

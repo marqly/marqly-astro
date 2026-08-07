@@ -1,0 +1,30 @@
+---
+import SearchDemo from './SearchDemo';
+---
+
+<section class="py-20 md:py-28">
+  <div
+    class="mx-auto grid max-w-[1120px] items-center gap-10 px-5 md:grid-cols-[0.85fr_1.15fr] md:gap-14 md:px-8"
+  >
+    <div data-reveal>
+      <p class="text-[11px] font-semibold tracking-[0.16em] text-muted uppercase">Retrieval</p>
+      <h2
+        class="font-display mt-3 text-[clamp(1.9rem,4vw,2.9rem)] leading-[1.1] font-medium tracking-[-0.01em] text-foreground"
+      >
+        Describe it like you<br />
+        <em class="mark-stroke">remember it.</em>
+      </h2>
+      <p class="mt-4 text-[16px] leading-relaxed text-muted">
+        Search runs on meaning, not keywords. That article from the hero? The query here shares
+        no words with its title, and it still comes back first, with the exact sentence that
+        matched.
+      </p>
+      <p class="mt-5 text-[12px] leading-relaxed text-muted/80">
+        semantic + full-text, across titles, content,<br />highlights, and transcripts
+      </p>
+    </div>
+    <div data-reveal style="--reveal-delay: 80ms">
+      <SearchDemo client:visible />
+    </div>
+  </div>
+</section>

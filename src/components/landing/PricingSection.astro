@@ -1,0 +1,94 @@
+---
+import { APP_URL } from './data';
+import { CheckIcon } from './icons';
+
+const freePerks = [
+  'One-click bookmark saving',
+  'Basic search',
+  'Bookmark preview',
+  'Bookmark tags',
+  'Access on mobile, tablet',
+  'Unlimited devices',
+];
+
+const proPerks = [
+  'Unlimited bookmarks',
+  'Semantic AI search',
+  'AI tagging and auto-filing',
+  'YouTube AI summaries and chat',
+  'Highlights and notes',
+  'Boards and collections',
+  'Read mode',
+  'Smart sorting',
+  'Priority support by email',
+];
+---
+
+<section id="pricing" class="bg-surface py-20 md:py-28">
+  <div class="mx-auto max-w-[1120px] px-5 md:px-8">
+    <div class="max-w-[600px]" data-reveal>
+      <p class="text-[11px] font-semibold tracking-[0.16em] text-muted uppercase">Pricing</p>
+      <h2
+        class="font-display mt-3 text-[clamp(1.9rem,4vw,2.9rem)] leading-[1.1] font-medium tracking-[-0.01em] text-foreground"
+      >
+        Free to start.<br />One price for everything.
+      </h2>
+    </div>
+
+    <div class="mt-10 grid gap-5 sm:grid-cols-2 md:gap-6">
+      <div class="flex flex-col rounded-3xl bg-background p-7" data-reveal>
+        <h3 class="text-sm font-semibold tracking-wide text-muted uppercase">Free</h3>
+        <p class="font-display mt-3 text-4xl font-medium text-foreground">$0</p>
+        <p class="mt-1 text-[11px] text-muted">forever · no card required</p>
+        <ul class="mt-6 flex-1 space-y-2.5">
+          {
+            freePerks.map((p) => (
+              <li class="flex items-start gap-2.5 text-sm text-foreground/80">
+                <CheckIcon size={14} className="mt-1 shrink-0 text-muted" />
+                {p}
+              </li>
+            ))
+          }
+        </ul>
+        <a
+          href={APP_URL}
+          class="mt-7 flex h-11 items-center justify-center rounded-3xl bg-default text-[15px] font-medium text-foreground transition-colors hover:bg-default/70"
+        >
+          Get Marqly free
+        </a>
+      </div>
+
+      <div class="relative flex flex-col rounded-3xl bg-ink p-7 text-white" data-reveal style="--reveal-delay: 70ms">
+        <div class="flex items-center justify-between">
+          <h3 class="text-sm font-semibold tracking-wide text-white/70 uppercase">Pro</h3>
+          <span class="rounded-2xl bg-pro px-2 py-0.5 text-[10px] font-semibold tracking-wide text-white">
+            7-DAY FREE TRIAL
+          </span>
+        </div>
+        <p class="font-display mt-3 text-4xl font-medium">
+          $4<span class="text-lg text-white/60">/month</span>
+        </p>
+        <p class="mt-1 text-[11px] text-white/60">
+          billed annually at $48 · or $8 monthly
+        </p>
+        <ul class="mt-6 flex-1 space-y-2.5">
+          {
+            proPerks.map((p) => (
+              <li class="flex items-start gap-2.5 text-sm text-white/85">
+                <CheckIcon size={14} className="mt-1 shrink-0 text-white/50" />
+                {p}
+              </li>
+            ))
+          }
+        </ul>
+        <p class="mt-6 mb-2.5 text-center text-[12px] text-white/55">Cancel anytime.</p>
+        <a
+          href={APP_URL}
+          class="flex h-11 items-center justify-center rounded-3xl bg-white text-[15px] font-medium text-ink transition-transform active:scale-[0.97]"
+        >
+          Start the free trial
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

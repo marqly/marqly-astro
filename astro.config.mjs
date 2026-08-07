@@ -4,6 +4,7 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import react from '@astrojs/react';
 import cloudflare from '@astrojs/cloudflare';
+import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 // Deployed as a Cloudflare Worker (Workers Static Assets). All pages are
@@ -19,6 +20,11 @@ export default defineConfig({
   // ~54k internal link hops. Old /path/ URLs now 308 back to /path.
   build: { format: 'file' },
   integrations: [react(), mdx(), sitemap()],
+  vite: {
+    // Tailwind v4 (scoped: landing.css uses `source(none)` + explicit @source
+    // globs, so utilities are generated only for the redesigned landing).
+    plugins: [tailwindcss()],
+  },
   adapter: cloudflare({
     platformProxy: { enabled: true },
   }),

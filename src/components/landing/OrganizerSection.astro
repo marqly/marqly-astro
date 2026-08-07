@@ -1,0 +1,29 @@
+---
+import OrganizerDemo from './OrganizerDemo';
+---
+
+<section class="py-20 md:py-28">
+  <div
+    class="mx-auto grid max-w-[1120px] items-center gap-10 px-5 md:grid-cols-[0.85fr_1.15fr] md:gap-14 md:px-8"
+  >
+    <div data-reveal>
+      <p class="text-[11px] font-semibold tracking-[0.16em] text-muted uppercase">The backlog</p>
+      <h2
+        class="font-display mt-3 text-[clamp(1.9rem,4vw,2.9rem)] leading-[1.1] font-medium tracking-[-0.01em] text-foreground"
+      >
+        Bring the mess<br />you already have.
+      </h2>
+      <p class="mt-4 text-[16px] leading-relaxed text-muted">
+        Import from Pocket, Raindrop, or plain browser bookmarks. The AI Organizer reads the whole
+        pile, proposes a board structure, and files everything after you approve it. Every import
+        is auto-tagged on the way in, so the backlog becomes searchable immediately.
+      </p>
+      <p class="mt-5 text-[13px] text-muted/80">
+        Pocket exports · Raindrop collections · bookmarks.html
+      </p>
+    </div>
+    <div data-reveal style="--reveal-delay: 80ms">
+      <OrganizerDemo client:visible />
+    </div>
+  </div>
+</section>

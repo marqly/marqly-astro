@@ -1,0 +1,414 @@
+/* ------------------------------------------------------------------------- *
+ *  Marqly landing — design system
+ *
+ *  Tokens are ported 1:1 from the product (apps/web/app/globals.css in the
+ *  marqly_2026_prod repo) so the site and the app read as one thing:
+ *  monochrome accent (black), borderless elevation-separated surfaces,
+ *  8px-base radius scale, the AI shimmer, and the 22ms card-entry stagger.
+ *
+ *  Tailwind v4, scoped: `source(none)` + explicit @source globs mean
+ *  utilities are generated ONLY for the redesigned landing surface. The rest
+ *  of the site (Framer-clone pages) never loads this file.
+ * ------------------------------------------------------------------------- */
+
+@import "tailwindcss" source(none);
+
+@source "../components/landing";
+@source "../layouts/LandingV2.astro";
+@source "../pages/index.astro";
+
+/* -------------------------------------------------------------- fonts --- */
+/* Google Sans — the product's font, self-hosted from Google Fonts (v70,
+   variable 400-700 + italic). The ONLY font on this page: no serif, no mono
+   (founder direction 2026-08-08). */
+
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/landing/fonts/google-sans.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/landing/fonts/google-sans-italic.woff2') format('woff2');
+}
+
+/* ----------------------------------------------------------- app tokens -- */
+
+:root {
+  /* Primitives (product) */
+  --white: #ffffff;
+  --black: #000000;
+  --snow: oklch(0.9911 0 0);
+  --eclipse: oklch(0.2103 0.0059 285.89);
+
+  /* Light mode (product) */
+  --background: oklch(0.9702 0 0);
+  --foreground: var(--eclipse);
+  --surface: var(--white);
+  --overlay: var(--white);
+  --accent: var(--black);
+  --accent-foreground: var(--white);
+  --success: oklch(0.7329 0.1935 150.81);
+  --warning: oklch(0.7819 0.1585 72.33);
+  --danger: lab(45.5382% 69.8881 46.2994);
+  /* Slightly darker than the app's 0.5517 so 11-13px copy passes WCAG AA on
+     Paper and Default surfaces (the app uses it mostly at 14px+). */
+  --muted: oklch(0.48 0.0138 285.94);
+  --default: oklch(94% 0.001 286.375);
+  --separator: oklch(92% 0.004 286.32);
+  --field-background: var(--white);
+
+  /* Landing-only accents, still from the product:
+     marker = the extension highlighter's yellow swatch (src/config.ts),
+     pro    = the app's Pro badge violet,
+     success-solid = the app/extension #17C964 green. */
+  --marker: #f0ec68;
+  --marker-soft: #f7f4a9;
+  --pro: #7c3aed;
+  --success-solid: #17c964;
+  --ai-indigo: #5f66ee;
+  --ai-magenta: #cc0096;
+
+  /* Highlighter palette (extension src/config.ts) */
+  --hl-yellow: #f0ec68;
+  --hl-pink: #f3abff;
+  --hl-coral: #feb7ae;
+  --hl-blue: #b4edf4;
+  --hl-mint: #b4f0c4;
+  --hl-purple: #d6bcfa;
+
+  /* Avatar identity tints (product) — used for favicon letter-tiles */
+  --avatar-1: oklch(0.52 0.16 15);
+  --avatar-2: oklch(0.55 0.14 50);
+  --avatar-3: oklch(0.53 0.12 80);
+  --avatar-4: oklch(0.53 0.13 145);
+  --avatar-5: oklch(0.53 0.1 190);
+  --avatar-6: oklch(0.52 0.14 245);
+  --avatar-7: oklch(0.52 0.16 290);
+  --avatar-8: oklch(0.53 0.15 335);
+
+  /* Elevation (product) */
+  --shadow-surface-v: 0 3px 4px 0 rgba(0, 0, 0, 0.04), 0 1px 2px 0 rgba(0, 0, 0, 0.06),
+    0 0 1px 0 rgba(0, 0, 0, 0.06);
+  --shadow-overlay-v: 0 3px 16px 0 rgba(24, 24, 27, 0.08), 0 8px 24px 0 rgba(24, 24, 27, 0.09);
+  --shadow-custom-v: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+
+  /* Motion (product) */
+  --ease-smooth: cubic-bezier(0.32, 0.72, 0, 1);
+  --ease-fluid-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration-smooth: 250ms;
+
+  /* Type — one family for everything (product parity). The editorial/mono
+     slots deliberately resolve to the same stack so no second font can leak
+     in through a leftover utility. */
+  --font-app: "Google Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  --font-editorial: var(--font-app);
+  --font-mono-v: var(--font-app);
+}
+
+/* ------------------------------------------------- tailwind theme bridge -- */
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-overlay: var(--overlay);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-success: var(--success);
+  --color-success-solid: var(--success-solid);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+  --color-muted: var(--muted);
+  --color-default: var(--default);
+  --color-separator: var(--separator);
+  --color-field: var(--field-background);
+  --color-marker: var(--marker);
+  --color-marker-soft: var(--marker-soft);
+  --color-pro: var(--pro);
+  --color-ink: var(--eclipse);
+
+  --radius: 0.5rem;
+  --radius-xs: 0.125rem;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.25rem;
+  --radius-3xl: 1.5rem;
+  --radius-4xl: 2rem;
+
+  --shadow-surface: var(--shadow-surface-v);
+  --shadow-overlay: var(--shadow-overlay-v);
+  --shadow-custom: var(--shadow-custom-v);
+
+  --ease-smooth: cubic-bezier(0.32, 0.72, 0, 1);
+  --ease-fluid-out: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --font-sans: var(--font-app);
+  --font-display: var(--font-editorial);
+  --font-mono: var(--font-mono-v);
+}
+
+/* ------------------------------------------------------------ base layer -- */
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-app);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background-color: #cfe3ff;
+    color: #0f172a;
+  }
+
+  /* Product scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+}
+
+/* ------------------------------------------------------------- utilities -- */
+
+@utility font-display {
+  font-family: var(--font-app);
+  letter-spacing: -0.02em;
+}
+
+/* The signature typographic accent: a real highlighter stroke on one word.
+   A partial-height band (like an actual marker swipe over the lower two
+   thirds of the letterforms), in the product's own yellow. */
+@utility mark-stroke {
+  background-image: linear-gradient(
+    100deg,
+    transparent 0%,
+    transparent 1%,
+    var(--marker) 3.5%,
+    color-mix(in oklab, var(--marker) 90%, transparent) 96.5%,
+    transparent 99%
+  );
+  background-size: 100% 0.58em;
+  background-position: 0 76%;
+  background-repeat: no-repeat;
+  padding: 0 0.16em;
+  margin: 0 -0.08em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  color: inherit;
+}
+
+/* Downward-biased frame shadow for the large showcase surfaces — subtle,
+   modern, one soft contact line + one long drop. */
+@utility shadow-frame {
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.04),
+    0 16px 40px -12px rgba(24, 24, 27, 0.13);
+}
+
+/* AI working state — ported verbatim from the product (.ai-shimmer-bg) */
+@utility ai-shimmer {
+  background: linear-gradient(
+    90deg,
+    rgba(95, 102, 238, 0.1) 0.74%,
+    rgba(204, 0, 150, 0.1) 98.72%
+  );
+  background-size: 200% 100%;
+  animation: ai-shimmer 2s linear infinite;
+  will-change: background-position;
+}
+
+@keyframes ai-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Card entry — the product's own stagger (22ms per card) */
+@utility card-in {
+  animation: bookmark-card-in 0.26s var(--ease-smooth) both;
+  animation-delay: calc(var(--card-i, 0) * 22ms);
+  transform: translateZ(0);
+}
+
+@keyframes bookmark-card-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Chip / badge entry — the product's badgeFadeIn */
+@utility badge-enter {
+  animation: badge-fade-in 0.2s ease-out both;
+}
+
+@keyframes badge-fade-in {
+  from {
+    opacity: 0;
+    transform: scale(0.9) translateY(-2px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Just-added pop — the product's .bookmark-just-added */
+@utility just-added {
+  animation: just-added-pop 0.8s var(--ease-fluid-out) both;
+  transform-origin: center center;
+}
+
+@keyframes just-added-pop {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0);
+  }
+  35% {
+    transform: scale(1.035);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.16);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0);
+  }
+}
+
+/* ---------------------------------------------------------- scroll reveal -- */
+
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(10px);
+  transition:
+    opacity 0.55s var(--ease-smooth),
+    transform 0.55s var(--ease-smooth);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+[data-reveal].is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Organizer scanning sweep (the app's organizer-progress-indeterminate) */
+@keyframes organizer-sweep {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(350%);
+  }
+}
+
+.organizer-sweep {
+  animation: organizer-sweep 1.3s ease-in-out infinite;
+}
+
+/* ------------------------------------------------------ LinkHub compat -- */
+/* The shared SEO pre-footer (components/seo/LinkHub.astro) reads the OLD
+   site's token names. Shim only those vars, scoped, mapped to this system. */
+
+.linkhub-compat {
+  --surface-1: var(--surface);
+  --border-1: color-mix(in oklab, var(--foreground) 8%, transparent);
+  --ink-1: var(--foreground);
+  --ink-2: color-mix(in oklab, var(--foreground) 82%, var(--background));
+  --ink-3: var(--muted);
+  --fs-xs: 0.8125rem;
+  --lh-base: 1.55;
+  --space-2: 0.5rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --dur-base: 180ms;
+  --ease-out: var(--ease-smooth);
+}
+
+/* The old site's `.container` class (used inside LinkHub) is styled by the
+   legacy global.css, which this page does not load — align it to the new
+   footer grid instead. */
+.linkhub-compat .container {
+  max-width: 1120px;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .linkhub-compat .container {
+    padding-inline: 2rem;
+  }
+}
+
+/* ------------------------------------------------------- reduced motion -- */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  [data-reveal] {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .ai-shimmer,
+  .card-in,
+  .badge-enter,
+  .just-added,
+  .organizer-sweep {
+    animation: none !important;
+    opacity: 1;
+    transform: none;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

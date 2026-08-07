@@ -1,0 +1,50 @@
+---
+import { homeFaqs } from './faqs';
+import { PlusIcon } from './icons';
+
+const mid = Math.ceil(homeFaqs.length / 2);
+const columns = [homeFaqs.slice(0, mid), homeFaqs.slice(mid)];
+---
+
+<section class="py-20 md:py-28">
+  <div class="mx-auto max-w-[1120px] px-5 md:px-8">
+    <div class="max-w-[600px]" data-reveal>
+      <p class="text-[11px] font-semibold tracking-[0.16em] text-muted uppercase">FAQ</p>
+      <h2
+        class="font-display mt-3 text-[clamp(1.9rem,4vw,2.9rem)] leading-[1.1] font-medium tracking-[-0.01em] text-foreground"
+      >
+        Questions, answered.
+      </h2>
+    </div>
+
+    <div class="mt-10 grid gap-x-12 md:grid-cols-2">
+      {
+        columns.map((col) => (
+          <div>
+            {col.map((f) => (
+              <details class="group border-b border-separator">
+                <summary class="flex cursor-pointer list-none items-center justify-between gap-4 py-4 text-[15px] font-medium text-foreground [&::-webkit-details-marker]:hidden">
+                  {f.q}
+                  <span class="shrink-0 text-muted transition-transform duration-200 group-open:rotate-45">
+                    <PlusIcon size={15} />
+                  </span>
+                </summary>
+                <div class="pb-5 text-sm leading-relaxed text-muted">
+                  {f.a}
+                  {f.href && (
+                    <>
+                      {' '}
+                      <a href={f.href} class="font-medium text-foreground underline underline-offset-2">
+                        More
+                      </a>
+                    </>
+                  )}
+                </div>
+              </details>
+            ))}
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>

@@ -1,0 +1,33 @@
+---
+import { CHROME_URL, APP_URL } from './data';
+---
+
+<section class="px-5 pb-20 md:px-8 md:pb-28">
+  <div
+    class="mx-auto flex max-w-[1120px] flex-col items-center rounded-[2rem] bg-ink px-6 py-16 text-center md:py-24"
+    data-reveal
+  >
+    <h2
+      class="font-display max-w-[640px] text-[clamp(2rem,4.6vw,3.2rem)] leading-[1.08] font-medium text-white"
+    >
+      Start the library your future self will search.
+    </h2>
+    <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
+      <a
+        href={CHROME_URL}
+        target="_blank"
+        rel="noopener"
+        class="flex h-11 items-center rounded-3xl bg-white px-6 text-[15px] font-medium text-ink transition-transform active:scale-[0.97]"
+      >
+        Add to Chrome, it's free
+      </a>
+      <a
+        href={APP_URL}
+        class="flex h-11 items-center rounded-3xl bg-white/10 px-5 text-[15px] font-medium text-white transition-colors hover:bg-white/15"
+      >
+        Open the web app
+      </a>
+    </div>
+    <p class="mt-5 text-[12px] text-white/50">Free plan. Two clicks. No card.</p>
+  </div>
+</section>

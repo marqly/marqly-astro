@@ -1,0 +1,23 @@
+---
+import { LibraryShell } from './LibraryShell';
+---
+
+<section id="features" class="bg-surface py-20 md:py-28">
+  <div class="mx-auto max-w-[1180px] px-5 md:px-8">
+    <div class="max-w-[600px]" data-reveal>
+      <p class="text-[11px] font-semibold tracking-[0.16em] text-muted uppercase">The library</p>
+      <h2
+        class="font-display mt-3 text-[clamp(1.9rem,4vw,2.9rem)] leading-[1.1] font-medium tracking-[-0.01em] text-foreground"
+      >
+        You have 1,412 bookmarks.<br />You can see about twelve.
+      </h2>
+      <p class="mt-4 max-w-[520px] text-[16px] leading-relaxed text-muted">
+        Marqly turns the pile into a library. Boards, tags, and covers, kept in order without you
+        doing the filing. Grid, list, or compact, sorted your way.
+      </p>
+    </div>
+    <div class="mt-10" data-reveal style="--reveal-delay: 80ms">
+      <LibraryShell />
+    </div>
+  </div>
+</section>

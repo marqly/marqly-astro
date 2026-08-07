@@ -1,0 +1,143 @@
+---
+/**
+ * LandingV2 — layout for the redesigned homepage only.
+ *
+ * Head parity with LandingLayout.astro (SEO is critical: title/desc/canonical/
+ * OG/JSON-LD must not drift), but the body loads the NEW design system
+ * (landing.css, app-token port) instead of the Framer-clone global.css, and
+ * carries no legacy Header/Footer/AnnouncementBar. LinkHub (SEO pre-footer)
+ * stays, inside a token-compat wrapper.
+ */
+import '../styles/landing.css';
+import LinkHub from '../components/seo/LinkHub.astro';
+
+export interface Props {
+  title: string;
+  description: string;
+  canonical?: string;
+  ogImage?: string;
+  jsonLd?: unknown[];
+}
+
+const {
+  title,
+  description,
+  canonical,
+  ogImage = 'https://www.marqly.com/og-default.png',
+  jsonLd = [],
+} = Astro.props;
+
+const cleanPath = Astro.url.pathname.replace(/\.html$/, '').replace(/\/index$/, '/');
+const canonicalURL = canonical ?? new URL(cleanPath, Astro.site).href;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
+    <meta name="robots" content="max-image-preview:large" />
+    <meta name="theme-color" content="#f7f7f7" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@getmarqly" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+    <link
+      rel="preload"
+      href="/landing/fonts/google-sans.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="preload" href="/landing/hero-sky.jpg" as="image" fetchpriority="high" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/favicon.png" type="image/png" sizes="64x64" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Marqly Blog" href="/rss.xml" />
+
+    {jsonLd.map((obj) => <script type="application/ld+json" set:html={JSON.stringify(obj)} />)}
+
+    <!-- GA4 — same property as marqly.com, gated to the marqly.com host -->
+    <script is:inline define:vars={{ gaId: 'G-M6QHXLGPG7' }}>
+      if (location.hostname === 'marqly.com' || location.hostname.endsWith('.marqly.com')) {
+        const s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=' + gaId;
+        document.head.appendChild(s);
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', gaId);
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <slot name="nav" />
+    <main id="main">
+      <slot />
+    </main>
+    <div class="linkhub-compat">
+      <h2 class="sr-only">Explore Marqly</h2>
+      <h3 class="sr-only">Guides, comparisons, tools, and questions</h3>
+      <LinkHub />
+    </div>
+    <slot name="footer" />
+
+    <!-- Scroll reveal observer (same contract as the rest of the site) -->
+    <script is:inline>
+      (function () {
+        if (typeof window === 'undefined') return;
+        const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const els = document.querySelectorAll('[data-reveal]');
+        if (!els.length) return;
+        if (reduce || !('IntersectionObserver' in window)) {
+          els.forEach((el) => el.classList.add('is-visible'));
+          return;
+        }
+        const io = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((e) => {
+              if (e.isIntersecting) {
+                e.target.classList.add('is-visible');
+                io.unobserve(e.target);
+              }
+            });
+          },
+          { rootMargin: '0px 0px -8% 0px', threshold: 0.08 }
+        );
+        els.forEach((el) => io.observe(el));
+        setTimeout(() => els.forEach((el) => el.classList.add('is-visible')), 2500);
+      })();
+    </script>
+
+    <style is:global>
+      .skip-link {
+        position: absolute;
+        top: -100px;
+        left: 12px;
+        z-index: 100;
+        padding: 8px 14px;
+        background: var(--accent);
+        color: var(--accent-foreground);
+        border-radius: 10px;
+        font-size: 14px;
+        transition: top 0.15s ease-out;
+      }
+      .skip-link:focus {
+        top: 12px;
+      }
+    </style>
+  </body>
+</html>
