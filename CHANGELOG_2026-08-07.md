@@ -40,3 +40,17 @@ Commit `0701694`, deployed to production (`marqly-astro.trymarqly.workers.dev`).
 - `npm run build` succeeded.
 - `node active/scripts/check-links.mjs`: 737 pages, 150,052 internal hrefs, 0 broken targets.
 - Deployed to `https://marqly-astro.trymarqly.workers.dev`.
+
+
+## Removed all fake/AI-slop images and captions from Prompt Gallery
+
+Commit `3bce7e5`, deployed to production (`marqly-astro.trymarqly.workers.dev`).
+
+**File(s)**: `src/pages/prompt-gallery/*.astro`, `src/pages/prompt-gallery/category/*.astro`, `src/content/prompts/*.mdx`, `active/scripts/generate-prompts.mjs`, `active/scripts/strip-prompt-images.mjs`, `public/prompts/`
+
+- Removed card thumbnails from the hub, category, and category-index pages.
+- Removed the reference-image aside and "Illustration for ..." captions from prompt detail pages.
+- Stripped `referenceImage`, `imageAlt`, and `imageCredit` frontmatter fields and removed `## Image credit` body sections from all 400 prompt MDX files.
+- Updated `generate-prompts.mjs` so future batches never emit image fields or image-credit sections.
+- Deleted `public/prompts/icons/` and `public/prompts/examples/` asset directories.
+- `npm run build` succeeded; `check-links.mjs`: 737 pages, 150,052 internal hrefs, 0 broken targets.
