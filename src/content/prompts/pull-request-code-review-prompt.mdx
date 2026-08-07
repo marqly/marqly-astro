@@ -1,0 +1,44 @@
+---
+title: "Pull Request Code Review Prompt"
+description: "Review a PR diff for bugs, style issues, missing tests, and security concerns."
+category: "Coding & Development"
+tags: ["code review", "pull request", "debugging", "security", "chatgpt"]
+tools: ["chatgpt", "claude", "gemini", "copilot"]
+targetKeyword: "code review prompt"
+prompt: |
+  Review the following pull request diff as a senior engineer.
+  Context: [what this PR does]
+  Tech stack: [language/framework]
+  Diff:
+  [paste diff]
+  Provide:
+  1. Summary of changes
+  2. Potential bugs or logic errors
+  3. Style and maintainability issues
+  4. Missing tests or edge cases
+  5. Security concerns (input validation, auth, secrets)
+  6. Performance observations
+  7. Actionable suggestions prioritized by severity
+  Be constructive and specific; cite line numbers where possible.
+previewLength: 160
+faqs:
+  - q: "Should I paste the entire diff?"
+    a: "For large PRs, split into logical chunks to keep the review focused."
+  - q: "Can this replace human review?"
+    a: "No. Use it as a first pass to catch issues before asking teammates."
+updatedDate: 2026-08-07
+draft: false
+---
+
+## How to use this prompt
+
+Paste the smallest relevant code block. Review, test, and lint any generated code before merging; models can hallucinate APIs.
+
+1. Copy the full prompt above.
+2. Replace the bracketed placeholders with your own details.
+3. Paste it into chatgpt, claude, gemini (or your preferred AI tool).
+4. Iterate on the output: add constraints, ask follow-ups, or combine multiple results.
+
+## Why this prompt works
+
+It gives the AI a clear role, specific inputs, and an output format. That structure reduces vague responses and gives you a draft you can refine in minutes instead of hours.

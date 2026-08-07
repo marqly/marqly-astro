@@ -1,0 +1,43 @@
+---
+title: "Constraint-Based Output Prompt"
+description: "Specify hard limits on length, format, tone, and content to control output."
+category: "Prompt Engineering"
+tags: ["constraints", "output format", "prompt control", "prompt engineering", "chatgpt"]
+tools: ["chatgpt", "claude", "gemini"]
+targetKeyword: "constraint-based prompt"
+prompt: |
+  Answer the following question under these strict constraints:
+  
+  Question: [your question]
+  
+  Constraints:
+  - Maximum length: [X words / sentences / bullet points]
+  - Format: [paragraph / bullet list / table / JSON]
+  - Tone: [neutral / formal / playful]
+  - Include at least [number] examples
+  - Exclude [topics, assumptions, or language]
+  - Cite only [provided sources / well-known facts]
+  
+  If you cannot satisfy all constraints, say which one conflicts and why.
+previewLength: 160
+faqs:
+  - q: "Why are constraints useful?"
+    a: "They reduce ambiguity and shape output so it fits your intended use case."
+  - q: "What if constraints conflict?"
+    a: "Ask the model to flag conflicts rather than silently ignoring a constraint."
+updatedDate: 2026-08-07
+draft: false
+---
+
+## How to use this prompt
+
+Study the structure, then adapt it to your own task. The key is giving the model a clear role, format, and evaluation criteria.
+
+1. Copy the full prompt above.
+2. Replace the bracketed placeholders with your own details.
+3. Paste it into chatgpt, claude, gemini (or your preferred AI tool).
+4. Iterate on the output: add constraints, ask follow-ups, or combine multiple results.
+
+## Why this prompt works
+
+It gives the AI a clear role, specific inputs, and an output format. That structure reduces vague responses and gives you a draft you can refine in minutes instead of hours.

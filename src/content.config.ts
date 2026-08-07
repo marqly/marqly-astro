@@ -93,4 +93,49 @@ const verdicts = defineCollection({
   }),
 });
 
-export const collections = { blog, faq, usecases, verdicts };
+/**
+ * Prompt gallery — categorized, copy-pasteable AI prompts for image generation,
+ * writing, SEO, coding, productivity, social media, and more. Each entry is a
+ * standalone /prompt-gallery/<slug> page optimized for long-tail search.
+ */
+const prompts = defineCollection({
+  loader: glob({ pattern: '*.{md,mdx}', base: './src/content/prompts' }),
+  schema: z.object({
+    title: z.string(),
+    /** 150–160 char meta description / card snippet. */
+    description: z.string(),
+    category: z.enum([
+      'Image & Photo',
+      'Writing & Content',
+      'SEO & Marketing',
+      'Research & Learning',
+      'Work & Productivity',
+      'Coding & Development',
+      'Social Media',
+      'Personal & Creative',
+      'Analysis & Data',
+      'Prompt Engineering',
+    ]),
+    tags: z.array(z.string()).default([]),
+    /** AI tool slugs that work well with this prompt (see src/lib/ai-tools.ts). */
+    tools: z.array(z.string()).default([]),
+    targetKeyword: z.string().optional(),
+    /** The full copy-pasteable prompt. */
+    prompt: z.string(),
+    /** Number of characters to show before the "reveal" button. */
+    previewLength: z.number().int().default(160),
+    /** Optional reference image for image-generation prompts. */
+    referenceImage: z.string().optional(),
+    imageAlt: z.string().optional(),
+    /** Visible FAQ section + FAQPage JSON-LD on the detail page. */
+    faqs: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
+    updatedDate: z.coerce.date(),
+    ctaUrl: z.string().url().default('https://app.marqly.com'),
+    ctaLabel: z.string().default('Try Marqly free'),
+    /** Absolute URL of the social/OG card image. */
+    ogImage: z.string().optional(),
+    draft: z.boolean().default(false),
+  }),
+});
+
+export const collections = { blog, faq, usecases, verdicts, prompts };

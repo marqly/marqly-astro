@@ -1,0 +1,40 @@
+---
+title: "Customer Review Sentiment Analysis Prompt"
+description: "Classify reviews by sentiment, extract themes, and surface actionable insights."
+category: "Analysis & Data"
+tags: ["sentiment analysis", "customer reviews", "NLP", "feedback", "chatgpt"]
+tools: ["chatgpt", "claude", "gemini"]
+targetKeyword: "sentiment analysis prompt"
+prompt: |
+  Analyze the sentiment of the following [number] customer reviews for [product/service].
+  Reviews:
+  [paste reviews]
+  Return:
+  1. Sentiment distribution (% positive, neutral, negative)
+  2. Top 10 positive themes and keywords
+  3. Top 10 negative themes and keywords
+  4. Most mentioned features
+  5. 3-5 actionable recommendations for product or marketing
+  Use a scale of -5 (very negative) to +5 (very positive) where relevant.
+previewLength: 160
+faqs:
+  - q: "How many reviews do I need?"
+    a: "Even 20-30 reviews can reveal themes; larger samples improve confidence."
+  - q: "Can AI detect sarcasm?"
+    a: "Sometimes. Cross-check flagged examples manually, especially for short reviews."
+updatedDate: 2026-08-07
+draft: false
+---
+
+## How to use this prompt
+
+Paste anonymized data samples and clearly state the decisions the analysis should inform. Always validate numeric outputs.
+
+1. Copy the full prompt above.
+2. Replace the bracketed placeholders with your own details.
+3. Paste it into chatgpt, claude, gemini (or your preferred AI tool).
+4. Iterate on the output: add constraints, ask follow-ups, or combine multiple results.
+
+## Why this prompt works
+
+It gives the AI a clear role, specific inputs, and an output format. That structure reduces vague responses and gives you a draft you can refine in minutes instead of hours.

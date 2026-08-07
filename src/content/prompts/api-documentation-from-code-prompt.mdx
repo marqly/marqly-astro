@@ -1,0 +1,43 @@
+---
+title: "API Documentation from Code Prompt"
+description: "Generate endpoint docs with method, auth, request/response schemas, and examples."
+category: "Coding & Development"
+tags: ["API docs", "documentation", "endpoint", "developer", "chatgpt"]
+tools: ["chatgpt", "claude", "gemini", "copilot"]
+targetKeyword: "API docs prompt"
+prompt: |
+  Generate API documentation in markdown for the following endpoint code.
+  ```[language]
+  [paste handler / function]
+  ```
+  Include:
+  - Endpoint URL and HTTP method
+  - Authentication requirements
+  - Request schema with field types and example
+  - Response schema with success and error examples
+  - Error codes and their meanings
+  - Rate limits or idempotency notes
+  - A short description of business logic
+  Format with H3 sections and code blocks.
+previewLength: 160
+faqs:
+  - q: "What if the code doesn't show auth logic?"
+    a: "State the assumption and flag the missing auth detail for verification."
+  - q: "Can I generate docs for a whole API?"
+    a: "Yes, but process endpoints one at a time or in small groups for better accuracy."
+updatedDate: 2026-08-07
+draft: false
+---
+
+## How to use this prompt
+
+Paste the smallest relevant code block. Review, test, and lint any generated code before merging; models can hallucinate APIs.
+
+1. Copy the full prompt above.
+2. Replace the bracketed placeholders with your own details.
+3. Paste it into chatgpt, claude, gemini (or your preferred AI tool).
+4. Iterate on the output: add constraints, ask follow-ups, or combine multiple results.
+
+## Why this prompt works
+
+It gives the AI a clear role, specific inputs, and an output format. That structure reduces vague responses and gives you a draft you can refine in minutes instead of hours.

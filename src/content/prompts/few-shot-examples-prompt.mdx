@@ -1,0 +1,49 @@
+---
+title: "Few-Shot Examples Prompt"
+description: "Teach the model a pattern by showing 2-5 input-output examples first."
+category: "Prompt Engineering"
+tags: ["few shot", "in context learning", "examples", "prompt engineering", "chatgpt"]
+tools: ["chatgpt", "claude", "gemini"]
+targetKeyword: "few-shot prompt"
+prompt: |
+  Follow the pattern shown in the examples below.
+  
+  Example 1:
+  Input: [input 1]
+  Output: [output 1]
+  
+  Example 2:
+  Input: [input 2]
+  Output: [output 2]
+  
+  Example 3:
+  Input: [input 3]
+  Output: [output 3]
+  
+  Now, your turn:
+  Input: [new input]
+  Output:
+  
+  Make sure your output matches the exact format and style of the examples.
+previewLength: 160
+faqs:
+  - q: "How many examples should I include?"
+    a: "2-5 diverse examples usually work best; more can waste context."
+  - q: "What if examples are too similar?"
+    a: "Diverse examples reduce bias and help the model generalize the pattern."
+updatedDate: 2026-08-07
+draft: false
+---
+
+## How to use this prompt
+
+Study the structure, then adapt it to your own task. The key is giving the model a clear role, format, and evaluation criteria.
+
+1. Copy the full prompt above.
+2. Replace the bracketed placeholders with your own details.
+3. Paste it into chatgpt, claude, gemini (or your preferred AI tool).
+4. Iterate on the output: add constraints, ask follow-ups, or combine multiple results.
+
+## Why this prompt works
+
+It gives the AI a clear role, specific inputs, and an output format. That structure reduces vague responses and gives you a draft you can refine in minutes instead of hours.

@@ -1,0 +1,40 @@
+---
+title: "Generate a Code Snippet Prompt"
+description: "Generate a focused, well-named function with inputs, outputs, and error handling."
+category: "Coding & Development"
+tags: ["code generation", "snippet", "function", "developer", "chatgpt"]
+tools: ["chatgpt", "claude", "gemini", "copilot"]
+targetKeyword: "code snippet prompt"
+prompt: |
+  Write a [language] function that [does X].
+  Inputs: [list parameters and types]
+  Output: [expected return value]
+  Requirements:
+  - Handle [edge cases]
+  - Use [specific library/pattern] if idiomatic
+  - Include brief inline comments for non-obvious logic
+  - Keep it under [X] lines
+  - Add a small usage example
+  Return only the code and the example, no extra explanation.
+previewLength: 160
+faqs:
+  - q: "Should I always add a usage example?"
+    a: "Yes. Examples make the intent clear and help verify the function works."
+  - q: "What if the code uses a library I'm unsure about?"
+    a: "Paste the relevant library docs into the chat and ask it to use only documented methods."
+updatedDate: 2026-08-07
+draft: false
+---
+
+## How to use this prompt
+
+Paste the smallest relevant code block. Review, test, and lint any generated code before merging; models can hallucinate APIs.
+
+1. Copy the full prompt above.
+2. Replace the bracketed placeholders with your own details.
+3. Paste it into chatgpt, claude, gemini (or your preferred AI tool).
+4. Iterate on the output: add constraints, ask follow-ups, or combine multiple results.
+
+## Why this prompt works
+
+It gives the AI a clear role, specific inputs, and an output format. That structure reduces vague responses and gives you a draft you can refine in minutes instead of hours.

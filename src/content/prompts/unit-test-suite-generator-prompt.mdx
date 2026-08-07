@@ -1,0 +1,40 @@
+---
+title: "Unit Test Suite Generator Prompt"
+description: "Generate comprehensive unit tests covering happy path, edge cases, and errors."
+category: "Coding & Development"
+tags: ["unit tests", "testing", "TDD", "developer", "chatgpt"]
+tools: ["chatgpt", "claude", "gemini", "copilot"]
+targetKeyword: "write tests prompt"
+prompt: |
+  Write unit tests for the following function using [pytest / Jest / JUnit / etc.].
+  ```[language]
+  [paste function]
+  ```
+  Cover:
+  1. Happy path with typical inputs
+  2. Edge cases: empty input, null/undefined, boundary values
+  3. Error cases: invalid types, missing fields, out-of-range values
+  4. Any side effects (mock external API/database calls)
+  Use descriptive test names in the format "it should [expected behavior] when [condition]". Aim for >90% branch coverage. Include setup/teardown if needed.
+previewLength: 160
+faqs:
+  - q: "Should I mock all external dependencies?"
+    a: "Mock dependencies outside the unit under test, but avoid over-mocking internal logic."
+  - q: "How much coverage is enough?"
+    a: "Coverage is a guide, not a goal. Focus on meaningful assertions for all paths."
+updatedDate: 2026-08-07
+draft: false
+---
+
+## How to use this prompt
+
+Paste the smallest relevant code block. Review, test, and lint any generated code before merging; models can hallucinate APIs.
+
+1. Copy the full prompt above.
+2. Replace the bracketed placeholders with your own details.
+3. Paste it into chatgpt, claude, gemini (or your preferred AI tool).
+4. Iterate on the output: add constraints, ask follow-ups, or combine multiple results.
+
+## Why this prompt works
+
+It gives the AI a clear role, specific inputs, and an output format. That structure reduces vague responses and gives you a draft you can refine in minutes instead of hours.

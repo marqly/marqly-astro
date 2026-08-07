@@ -1,0 +1,40 @@
+---
+title: "Prompt Chaining Workflow Prompt"
+description: "Break a complex task into a sequence of smaller prompts with outputs feeding the next step."
+category: "Prompt Engineering"
+tags: ["prompt chaining", "workflow", "multi step", "prompt engineering", "chatgpt"]
+tools: ["chatgpt", "claude", "gemini"]
+targetKeyword: "prompt chaining prompt"
+prompt: |
+  I need to complete this complex task: [describe end goal].
+  
+  Break it into a prompt chain of 3-5 smaller steps. For each step, provide:
+  - Step name
+  - Input needed (including what comes from the previous step)
+  - Exact prompt to run
+  - Expected output format
+  - Verification checkpoint before moving on
+  
+  Design the chain so errors are caught early and each output is clean enough to feed into the next prompt.
+previewLength: 160
+faqs:
+  - q: "When is prompt chaining better than one big prompt?"
+    a: "Use chaining when the task has distinct stages and errors in one stage could ruin later output."
+  - q: "Can I automate a prompt chain?"
+    a: "Yes. Tools like LangChain, n8n, or custom scripts can pass outputs between prompts."
+updatedDate: 2026-08-07
+draft: false
+---
+
+## How to use this prompt
+
+Study the structure, then adapt it to your own task. The key is giving the model a clear role, format, and evaluation criteria.
+
+1. Copy the full prompt above.
+2. Replace the bracketed placeholders with your own details.
+3. Paste it into chatgpt, claude, gemini (or your preferred AI tool).
+4. Iterate on the output: add constraints, ask follow-ups, or combine multiple results.
+
+## Why this prompt works
+
+It gives the AI a clear role, specific inputs, and an output format. That structure reduces vague responses and gives you a draft you can refine in minutes instead of hours.

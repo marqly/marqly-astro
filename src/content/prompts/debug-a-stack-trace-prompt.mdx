@@ -1,0 +1,46 @@
+---
+title: "Debug a Stack Trace Prompt"
+description: "Diagnose the root cause of an error using the stack trace, code, and context."
+category: "Coding & Development"
+tags: ["debugging", "stack trace", "error handling", "developer", "chatgpt"]
+tools: ["chatgpt", "claude", "gemini", "copilot"]
+targetKeyword: "debug prompt"
+prompt: |
+  I'm getting the following error:
+  ```
+  [paste error message / stack trace]
+  ```
+  Here is the relevant code:
+  ```[language]
+  [paste code]
+  ```
+  What I was trying to do: [describe context]
+  Please:
+  1. Identify the most likely root cause
+  2. Explain why it happened
+  3. Provide a minimal fix with code
+  4. Suggest how to prevent similar issues
+  5. List any assumptions you made
+  If you need more context, ask specific questions.
+previewLength: 160
+faqs:
+  - q: "Why include the full stack trace?"
+    a: "It pinpoints the failing line and call sequence, reducing guesswork."
+  - q: "What if the fix doesn't work?"
+    a: "Run it, capture the new error, and feed it back in a follow-up message."
+updatedDate: 2026-08-07
+draft: false
+---
+
+## How to use this prompt
+
+Paste the smallest relevant code block. Review, test, and lint any generated code before merging; models can hallucinate APIs.
+
+1. Copy the full prompt above.
+2. Replace the bracketed placeholders with your own details.
+3. Paste it into chatgpt, claude, gemini (or your preferred AI tool).
+4. Iterate on the output: add constraints, ask follow-ups, or combine multiple results.
+
+## Why this prompt works
+
+It gives the AI a clear role, specific inputs, and an output format. That structure reduces vague responses and gives you a draft you can refine in minutes instead of hours.

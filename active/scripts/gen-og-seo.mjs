@@ -2,11 +2,15 @@
 // alternatives / use-case landers / tools + hub indexes), matching the blog
 // card design in gen-og-cards.mjs. Output: public/og/seo/<ns>-<slug>.png
 // Run: node active/scripts/gen-og-seo.mjs
-import { readFile, readdir, writeFile, mkdir } from 'node:fs/promises';
+import { readFile, readdir, writeFile, mkdir, mkdtemp, unlink } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { execFile } from 'node:child_process';
+import { promisify } from 'node:util';
+import os from 'node:os';
 import satori from 'satori';
-import { Resvg } from '@resvg/resvg-js';
+
+const execFileAsync = promisify(execFile);
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const PUBLIC = path.join(ROOT, 'public');
@@ -76,9 +80,30 @@ async function png(name, title, chip, footer, outputDir = OUT) {
       { name: 'Arial', data: bold, weight: 700, style: 'normal' },
     ],
   });
-  const data = new Resvg(svg, { fitTo: { mode: 'width', value: 1200 } }).render().asPng();
   await mkdir(outputDir, { recursive: true });
-  await writeFile(path.join(outputDir, `${name}.png`), data);
+  const outPath = path.join(outputDir, `${name}.png`);
+
+  try {
+    const { Resvg } = await import('@resvg/resvg-js');
+    const data = new Resvg(svg, { fitTo: { mode: 'width', value: 1200 } }).render().asPng();
+    await writeFile(outPath, data);
+  } catch (err) {
+    // Fallback to ImageMagick when the platform-specific Resvg binary is missing
+    // (common on x64 macOS when node_modules were installed for arm64).
+    const tmpDir = await mkdtemp(path.join(os.tmpdir(), 'marqly-og-'));
+    const tmpSvg = path.join(tmpDir, `${name}.svg`);
+    // ImageMagick's SVG renderer does not handle satori's gradient patterns well,
+    // so fall back to a clean white background for the card canvas.
+    const fallbackSvg = svg.replace(/fill="url\(#satori_pattern_id_\d+\)"/g, 'fill="#ffffff"');
+    await writeFile(tmpSvg, fallbackSvg);
+    try {
+      await execFileAsync('magick', ['convert', tmpSvg, outPath]);
+    } catch (imErr) {
+      await unlink(tmpSvg);
+      throw imErr;
+    }
+    await unlink(tmpSvg);
+  }
 }
 
 await mkdir(OUT, { recursive: true });
@@ -150,12 +175,22 @@ for (const [slug, title] of Object.entries(tools)) {
   await png(`tool-${slug}`, title, 'Free tool', `marqly.com/tools/${slug}`);
   n++;
 }
+// Prompts
+const promptDir = path.join(ROOT, 'src/content/prompts');
+for (const f of (await readdir(promptDir).catch(() => [])).filter((f) => /\.mdx?$/.test(f))) {
+  const slug = f.replace(/\.mdx?$/, '');
+  const t = fmField(await readFile(path.join(promptDir, f), 'utf8'), 'title') || slug.replace(/-/g, ' ');
+  await png(`prompt-${slug}`, t, 'Prompt', 'marqly.com/prompt-gallery');
+  n++;
+}
+
 await png('hub-faq', 'Marqly FAQ — every question, answered', 'FAQ', 'marqly.com/faq');
 await png('hub-compare', 'Compare bookmark managers, honestly', 'Compare', 'marqly.com/compare');
 await png('hub-alternatives', 'Alternatives to every bookmarking tool', 'Alternatives', 'marqly.com/alternatives');
 await png('hub-tools', 'Free tools — no signup', 'Free tools', 'marqly.com/tools');
+await png('hub-prompt-gallery', 'AI Prompt Gallery — copy-paste prompts', 'Prompts', 'marqly.com/prompt-gallery');
 await png('extension', 'One extension. Your browser workspace.', 'Browser extension', 'marqly.com/extension');
-n += 5;
+n += 6;
 
 // Default social card used by the homepage and any page without a more
 // specific preview. Keep this at /og-default.png because both layouts use it.

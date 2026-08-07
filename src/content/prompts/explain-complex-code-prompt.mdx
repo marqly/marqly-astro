@@ -1,0 +1,41 @@
+---
+title: "Explain Complex Code Prompt"
+description: "Get a plain-English explanation of unfamiliar code with potential bug flags."
+category: "Coding & Development"
+tags: ["explain code", "legacy code", "code comprehension", "developer", "chatgpt"]
+tools: ["chatgpt", "claude", "gemini", "copilot"]
+targetKeyword: "explain code prompt"
+prompt: |
+  Explain what the following code does in plain English, assuming I am familiar with [language] but not this specific logic.
+  ```[language]
+  [paste code]
+  ```
+  Return:
+  1. A high-level summary (2-3 sentences)
+  2. A line-by-line or block-by-block breakdown
+  3. The purpose of each function and key variable
+  4. Potential bugs or edge cases that could fail
+  5. Suggested improvements for clarity
+  Avoid excessive jargon; define domain-specific terms.
+previewLength: 160
+faqs:
+  - q: "Can this help with onboarding?"
+    a: "Yes. It's useful for explaining legacy code or unfamiliar parts of a codebase to new team members."
+  - q: "Should I trust the bug flags?"
+    a: "Treat them as leads; verify each one by reasoning through the code or running tests."
+updatedDate: 2026-08-07
+draft: false
+---
+
+## How to use this prompt
+
+Paste the smallest relevant code block. Review, test, and lint any generated code before merging; models can hallucinate APIs.
+
+1. Copy the full prompt above.
+2. Replace the bracketed placeholders with your own details.
+3. Paste it into chatgpt, claude, gemini (or your preferred AI tool).
+4. Iterate on the output: add constraints, ask follow-ups, or combine multiple results.
+
+## Why this prompt works
+
+It gives the AI a clear role, specific inputs, and an output format. That structure reduces vague responses and gives you a draft you can refine in minutes instead of hours.

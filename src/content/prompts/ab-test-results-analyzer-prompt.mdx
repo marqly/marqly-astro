@@ -1,0 +1,45 @@
+---
+title: "A/B Test Results Analyzer Prompt"
+description: "Evaluate experiment results for statistical significance, winner, and rollout plan."
+category: "Analysis & Data"
+tags: ["AB test", "experiment analysis", "statistics", "conversion", "chatgpt"]
+tools: ["chatgpt", "claude", "gemini"]
+targetKeyword: "A/B test analysis prompt"
+prompt: |
+  Analyze the following A/B test results:
+  Test: [what was tested]
+  Variant A (control): [results]
+  Variant B (treatment): [results]
+  Sample size: [number]
+  Duration: [time period]
+  Confidence level: [e.g., 95%]
+  Provide:
+  1. Statistical significance assessment
+  2. Clear winner or "inconclusive"
+  3. Confidence interval if calculable
+  4. Key learnings
+  5. Segmented observations (device, traffic source if available)
+  6. Recommendation: roll out, iterate, or run another test
+  7. Next test ideas
+previewLength: 160
+faqs:
+  - q: "How long should an A/B test run?"
+    a: "Run until you reach your required sample size and at least one full business cycle."
+  - q: "What if results are inconclusive?"
+    a: "Look at segments, run a follow-up test with a larger change, or test a different variable."
+updatedDate: 2026-08-07
+draft: false
+---
+
+## How to use this prompt
+
+Paste anonymized data samples and clearly state the decisions the analysis should inform. Always validate numeric outputs.
+
+1. Copy the full prompt above.
+2. Replace the bracketed placeholders with your own details.
+3. Paste it into chatgpt, claude, gemini (or your preferred AI tool).
+4. Iterate on the output: add constraints, ask follow-ups, or combine multiple results.
+
+## Why this prompt works
+
+It gives the AI a clear role, specific inputs, and an output format. That structure reduces vague responses and gives you a draft you can refine in minutes instead of hours.

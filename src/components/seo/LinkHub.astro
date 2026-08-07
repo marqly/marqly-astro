@@ -9,6 +9,10 @@ import { getCollection } from 'astro:content';
 import { competitors } from '../../lib/competitors';
 import { freeTools } from '../../lib/free-tools';
 
+const prompts = (await getCollection('prompts', ({ data }) => !data.draft))
+  .sort((a, b) => a.data.title.localeCompare(b.data.title))
+  .slice(0, 6);
+
 const faqs = (await getCollection('faq', ({ data }) => !data.draft)).sort((a, b) =>
   a.data.question.localeCompare(b.data.question),
 );
@@ -129,6 +133,13 @@ const hasCompare = competitors.length > 0;
             <li><a href={tool.path}>{tool.shortName}</a></li>
           ))}
           <li><a href="/tools" class="lh-more">All tools →</a></li>
+        </ul>
+        <h4 class="lh-h4-gap">Prompt Gallery</h4>
+        <ul>
+          {prompts.map((p) => (
+            <li><a href={`/prompt-gallery/${p.id}`}>{p.data.title}</a></li>
+          ))}
+          <li><a href="/prompt-gallery" class="lh-more">All prompts →</a></li>
         </ul>
         <h4 class="lh-h4-gap">From the blog</h4>
         <ul>

@@ -1,0 +1,42 @@
+---
+title: "Refactor for Readability Prompt"
+description: "Refactor messy code to improve clarity while preserving behavior and tests."
+category: "Coding & Development"
+tags: ["refactoring", "readability", "clean code", "developer", "chatgpt"]
+tools: ["chatgpt", "claude", "gemini", "copilot"]
+targetKeyword: "refactor prompt"
+prompt: |
+  Refactor the following code to improve readability and maintainability without changing its behavior.
+  Current code:
+  ```[language]
+  [paste code]
+  ```
+  Focus on:
+  - Meaningful variable and function names
+  - Reducing nesting and duplication
+  - Extracting helper functions where useful
+  - Adding early returns
+  - Improving error handling
+  Return the refactored code plus a short explanation of the main changes.
+previewLength: 160
+faqs:
+  - q: "How do I ensure behavior is preserved?"
+    a: "Run existing tests before and after, and add tests for edge cases if they don't exist."
+  - q: "Should I refactor and add features at the same time?"
+    a: "No. Refactor first, then add features to keep changes easy to review."
+updatedDate: 2026-08-07
+draft: false
+---
+
+## How to use this prompt
+
+Paste the smallest relevant code block. Review, test, and lint any generated code before merging; models can hallucinate APIs.
+
+1. Copy the full prompt above.
+2. Replace the bracketed placeholders with your own details.
+3. Paste it into chatgpt, claude, gemini (or your preferred AI tool).
+4. Iterate on the output: add constraints, ask follow-ups, or combine multiple results.
+
+## Why this prompt works
+
+It gives the AI a clear role, specific inputs, and an output format. That structure reduces vague responses and gives you a draft you can refine in minutes instead of hours.

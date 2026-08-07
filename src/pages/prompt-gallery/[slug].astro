@@ -1,0 +1,385 @@
+---
+import { getCollection, render } from 'astro:content';
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import Breadcrumbs from '../../components/seo/Breadcrumbs.astro';
+import CtaBox from '../../components/seo/CtaBox.astro';
+import FaqAccordion from '../../components/seo/FaqAccordion.astro';
+import { breadcrumbList, faqPage, organization, webSite } from '../../lib/schema';
+import { aiToolsBySlug } from '../../lib/ai-tools';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('prompts', ({ data }) => !data.draft);
+  return entries.map((entry) => ({ params: { slug: entry.id }, props: { entry, all: entries } }));
+}
+
+const { entry, all } = Astro.props;
+const { Content } = await render(entry);
+const data = entry.data;
+
+const path = `/prompt-gallery/${entry.id}`;
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Prompt Gallery', path: '/prompt-gallery' },
+  { name: data.title, path },
+];
+
+const related = all
+  .filter((e) => e.id !== entry.id && e.data.category === data.category)
+  .slice(0, 6);
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  breadcrumbList(crumbs),
+  ...(data.faqs.length ? [faqPage(data.faqs)] : []),
+];
+
+const title = `${data.title} | Marqly Prompt Gallery`;
+const ogImage = data.ogImage ?? `https://www.marqly.com/og/seo/prompt-${entry.id}.png`;
+
+const toolLinks = data.tools
+  .map((slug) => aiToolsBySlug[slug])
+  .filter((t): t is NonNullable<typeof t> => Boolean(t));
+
+const promptPreview = data.prompt.slice(0, data.previewLength).trim();
+---
+
+<LandingLayout title={title} description={data.description} jsonLd={jsonLd} ogImage={ogImage}>
+  <article class="section prompt-page">
+    <div class="container">
+      <Breadcrumbs items={crumbs} />
+
+      <header class="prompt-head" data-reveal>
+        <div class="prompt-meta">
+          <span class="cat-badge">{data.category}</span>
+          {data.tags.map((tag) => <span class="tag">#{tag}</span>)}
+        </div>
+        <h1>{data.title}</h1>
+        <p class="lead">{data.description}</p>
+
+        {toolLinks.length > 0 && (
+          <div class="tool-row">
+            <span class="tool-label">Works with:</span>
+            {toolLinks.map((t) => (
+              <a class="tool-chip" href={t.url} target="_blank" rel="noopener">
+                {t.name}
+              </a>
+            ))}
+          </div>
+        )}
+      </header>
+
+      <div class="prompt-layout" data-reveal>
+        <div class="prompt-body">
+          <div class="prompt-card">
+            <div class="prompt-preview" aria-live="polite">
+              <span class="preview-text">{promptPreview}…</span>
+              <button type="button" class="btn btn--dark reveal-btn" data-reveal-btn>
+                Reveal full prompt
+              </button>
+            </div>
+            <div class="prompt-full" data-full-prompt hidden>
+              <div class="prompt-toolbar">
+                <span class="toolbar-label">Full prompt</span>
+                <button type="button" class="copy-btn" data-copy-btn>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                  <span class="copy-label">Copy</span>
+                </button>
+              </div>
+              <pre>{data.prompt}</pre>
+            </div>
+          </div>
+
+          <div class="prose">
+            <Content />
+          </div>
+
+          {related.length > 0 && (
+            <nav class="related" aria-labelledby="related-heading">
+              <h2 id="related-heading">More {data.category.toLowerCase()} prompts</h2>
+              <ul class="related-grid">
+                {related.map((r) => (
+                  <li>
+                    <a href={`/prompt-gallery/${r.id}`} class="card">
+                      <span class="related-cat">{r.data.category}</span>
+                      <h3>{r.data.title}</h3>
+                      <p>{r.data.description}</p>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          )}
+        </div>
+
+        {data.referenceImage && (
+          <aside class="prompt-aside" aria-label="Reference image">
+            <figure class="ref-image">
+              <img
+                src={data.referenceImage}
+                alt={data.imageAlt ?? data.title}
+                width="800"
+                height="1000"
+                loading="eager"
+              />
+              <figcaption>Reference style for this image prompt</figcaption>
+            </figure>
+          </aside>
+        )}
+      </div>
+
+      {data.faqs.length > 0 && (
+        <div data-reveal>
+          <FaqAccordion faqs={data.faqs} heading="Frequently asked questions" />
+        </div>
+      )}
+
+      <CtaBox />
+    </div>
+  </article>
+
+  <script is:inline>
+    (function () {
+      const revealBtn = document.querySelector('[data-reveal-btn]');
+      const fullPrompt = document.querySelector('[data-full-prompt]');
+      if (revealBtn && fullPrompt) {
+        revealBtn.addEventListener('click', () => {
+          const isHidden = fullPrompt.hasAttribute('hidden');
+          fullPrompt.toggleAttribute('hidden', !isHidden);
+          revealBtn.textContent = isHidden ? 'Hide full prompt' : 'Reveal full prompt';
+          if (isHidden) {
+            fullPrompt.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }
+        });
+      }
+
+      const copyBtn = document.querySelector('[data-copy-btn]');
+      const pre = document.querySelector('[data-full-prompt] pre');
+      if (copyBtn && pre) {
+        copyBtn.addEventListener('click', async () => {
+          const text = pre.textContent || '';
+          try {
+            await navigator.clipboard.writeText(text);
+            const label = copyBtn.querySelector('.copy-label');
+            const original = label ? label.textContent : 'Copy';
+            copyBtn.classList.add('is-copied');
+            if (label) label.textContent = 'Copied!';
+            setTimeout(() => {
+              copyBtn.classList.remove('is-copied');
+              if (label) label.textContent = original;
+            }, 1800);
+          } catch (err) {
+            // Fallback: select text
+            const selection = window.getSelection();
+            const range = document.createRange();
+            range.selectNodeContents(pre);
+            selection.removeAllRanges();
+            selection.addRange(range);
+          }
+        });
+      }
+    })();
+  </script>
+
+  <style>
+    .prompt-page { padding-block: var(--section-pad-y); }
+    .prompt-head { max-width: 760px; margin-bottom: var(--space-10); }
+    .prompt-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: var(--space-2);
+      margin-bottom: var(--space-4);
+    }
+    .cat-badge {
+      font-size: var(--fs-xs);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      background: var(--accent-soft);
+      padding: 0.35rem 0.7rem;
+      border-radius: var(--radius-pill);
+    }
+    .tag {
+      font-size: var(--fs-xs);
+      color: var(--ink-3);
+    }
+    .prompt-head h1 {
+      font-size: var(--fs-h1);
+      font-weight: 600;
+      letter-spacing: var(--tracking-tight);
+      color: var(--ink-1);
+      line-height: var(--lh-tight);
+    }
+    .lead {
+      margin-top: var(--space-4);
+      font-size: var(--fs-lg);
+      color: var(--ink-2);
+      line-height: var(--lh-base);
+    }
+    .tool-row {
+      margin-top: var(--space-5);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: var(--space-2);
+    }
+    .tool-label {
+      font-size: var(--fs-sm);
+      color: var(--ink-3);
+      margin-right: var(--space-1);
+    }
+    .tool-chip {
+      font-size: var(--fs-xs);
+      font-weight: 500;
+      color: var(--ink-2);
+      background: var(--surface-2);
+      border: 1px solid var(--border-1);
+      padding: 0.35rem 0.75rem;
+      border-radius: var(--radius-pill);
+      transition: background var(--dur-fast) var(--ease-out), border-color var(--dur-fast) var(--ease-out);
+    }
+    .tool-chip:hover { background: var(--surface-3); border-color: var(--border-2); }
+
+    .prompt-layout {
+      display: grid;
+      grid-template-columns: 1fr 360px;
+      gap: var(--space-10);
+      align-items: start;
+    }
+    .prompt-body { min-width: 0; }
+    .prompt-card {
+      background: var(--surface-2);
+      border: 1px solid var(--border-1);
+      border-radius: var(--radius-lg);
+      padding: var(--space-6);
+      margin-bottom: var(--space-10);
+    }
+    .prompt-preview {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-5);
+    }
+    .preview-text {
+      font-family: var(--font-mono);
+      font-size: var(--fs-base);
+      color: var(--ink-2);
+      line-height: var(--lh-base);
+      white-space: pre-wrap;
+    }
+    .reveal-btn { align-self: flex-start; }
+    .prompt-full { margin-top: var(--space-5); }
+    .prompt-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: var(--space-3);
+    }
+    .toolbar-label {
+      font-size: var(--fs-xs);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--ink-3);
+    }
+    .copy-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      font-size: var(--fs-xs);
+      font-weight: 600;
+      color: var(--ink-1);
+      background: var(--surface-1);
+      border: 1px solid var(--border-1);
+      padding: 0.45rem 0.85rem;
+      border-radius: var(--radius-pill);
+      cursor: pointer;
+      transition: background var(--dur-fast) var(--ease-out), border-color var(--dur-fast) var(--ease-out);
+    }
+    .copy-btn:hover { background: var(--surface-3); border-color: var(--border-2); }
+    .copy-btn.is-copied { color: var(--success); border-color: var(--success); }
+    .prompt-full pre {
+      margin: 0;
+      padding: var(--space-5);
+      background: var(--surface-dark);
+      color: #fff;
+      border-radius: var(--radius-card);
+      font-family: var(--font-mono);
+      font-size: var(--fs-sm);
+      line-height: var(--lh-base);
+      white-space: pre-wrap;
+      overflow-x: auto;
+    }
+
+    .prose { margin-bottom: var(--space-10); }
+    .prose :global(h2) {
+      font-size: var(--fs-h3);
+      font-weight: 600;
+      color: var(--ink-1);
+      margin-bottom: var(--space-3);
+      letter-spacing: var(--tracking-tight);
+    }
+    .prose :global(p), .prose :global(li) {
+      font-size: var(--fs-base);
+      line-height: var(--lh-base);
+      color: var(--ink-2);
+    }
+    .prose :global(ol), .prose :global(ul) {
+      padding-left: 1.4rem;
+      margin-bottom: var(--space-4);
+    }
+    .prose :global(li) { margin-bottom: var(--space-2); }
+
+    .prompt-aside { position: sticky; top: calc(var(--header-h) + var(--space-6)); }
+    .ref-image {
+      margin: 0;
+      background: var(--surface-1);
+      border: 1px solid var(--border-1);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+    }
+    .ref-image img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .ref-image figcaption {
+      padding: var(--space-3) var(--space-4);
+      font-size: var(--fs-xs);
+      color: var(--ink-3);
+      text-align: center;
+    }
+
+    .related { margin-top: var(--space-12); padding-top: var(--space-8); border-top: 1px solid var(--border-1); }
+    .related h2 { font-size: var(--fs-h3); font-weight: 600; color: var(--ink-1); margin-bottom: var(--space-6); }
+    .related-grid {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: var(--space-4);
+    }
+    .related-grid .card { height: 100%; }
+    .related-grid h3 { font-size: var(--fs-base); font-weight: 600; color: var(--ink-1); margin-bottom: var(--space-2); }
+    .related-grid p { font-size: var(--fs-sm); color: var(--ink-3); line-height: var(--lh-base); }
+    .related-cat {
+      display: inline-block;
+      font-size: var(--fs-xs);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      margin-bottom: var(--space-2);
+    }
+
+    @media (max-width: 980px) {
+      .prompt-layout { grid-template-columns: 1fr; }
+      .prompt-aside { position: static; max-width: 420px; }
+    }
+    @media (max-width: 620px) {
+      .related-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</LandingLayout>

@@ -56,6 +56,13 @@ Key facts:
 ## Free tools (no signup)
 
 - [Tools hub](https://www.marqly.com/tools)
+
+## AI Prompt Gallery
+
+- [Prompt Gallery hub](https://www.marqly.com/prompt-gallery): 70+ copy-pasteable prompts for ChatGPT, Gemini, Midjourney, and more
+- Image prompts: [LinkedIn headshot prompt](https://www.marqly.com/prompt-gallery/linkedin-headshot-prompt-for-corporate-executives) · [cinematic portrait prompt](https://www.marqly.com/prompt-gallery/cinematic-portrait-prompt-with-rim-lighting)
+- Writing prompts: [SEO blog outline prompt](https://www.marqly.com/prompt-gallery/seo-blog-post-outline-generator-prompt) · [email newsletter prompt](https://www.marqly.com/prompt-gallery/persuasive-email-newsletter-prompt)
+- SEO prompts: [keyword clustering prompt](https://www.marqly.com/prompt-gallery/keyword-clustering-topic-map-prompt) · [meta title prompt](https://www.marqly.com/prompt-gallery/meta-title-description-generator-prompt)
 - YouTube: [transcript viewer](https://www.marqly.com/tools/youtube-transcript) · [summarizer](https://www.marqly.com/tools/youtube-summarize) · [thumbnail downloader](https://www.marqly.com/tools/youtube-thumbnail-downloader) · [timestamp link generator](https://www.marqly.com/tools/youtube-timestamp-link)
 - Links and SEO: [UTM builder](https://www.marqly.com/tools/utm-builder) · [URL encoder and decoder](https://www.marqly.com/tools/url-encoder) · [redirect chain checker](https://www.marqly.com/tools/redirect-checker) · [Open Graph and meta tag checker](https://www.marqly.com/tools/open-graph-checker) · [dead link checker](https://www.marqly.com/tools/dead-link-checker) · [URL cleaner](https://www.marqly.com/tools/url-cleaner)
 - Content and bookmarks: [HTML to Markdown converter](https://www.marqly.com/tools/html-to-markdown) · [bookmarklet maker](https://www.marqly.com/tools/bookmarklet-maker) · [bookmark file viewer](https://www.marqly.com/tools/bookmark-file-viewer) · [duplicate bookmark finder](https://www.marqly.com/tools/duplicate-bookmark-finder) · [Pocket export converter](https://www.marqly.com/tools/pocket-export-converter) · [reading time calculator](https://www.marqly.com/tools/reading-time)

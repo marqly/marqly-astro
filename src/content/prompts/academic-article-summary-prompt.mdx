@@ -1,0 +1,42 @@
+---
+title: "Academic Article Summary Prompt"
+description: "Extract key findings, methods, and limitations from a research article without invented details."
+category: "Research & Learning"
+tags: ["summarize article", "academic research", "study summary", "chatgpt", "claude"]
+tools: ["chatgpt", "claude", "gemini", "perplexity"]
+targetKeyword: "summarize article prompt"
+prompt: |
+  Summarize the following research article using only the text provided. Do not invent methods, results, or citations.
+  Title: [title]
+  Abstract: [paste abstract]
+  Key sections: [paste introduction/methods/results/conclusion or full text]
+  Return:
+  1. Research question and hypothesis
+  2. Methodology in 1-2 sentences
+  3. Top 3 findings
+  4. Key limitations
+  5. Practical implications
+  6. One critical question for further reading
+  If the text is insufficient, say what is missing.
+previewLength: 160
+faqs:
+  - q: "Can I paste a full PDF?"
+    a: "Yes if the model's context window supports it; otherwise paste the abstract and key sections."
+  - q: "Should I cite the AI summary?"
+    a: "No. Use the summary as a reading aid, then cite the original source in your own writing."
+updatedDate: 2026-08-07
+draft: false
+---
+
+## How to use this prompt
+
+Use this prompt with source material pasted directly into the chat. Always fact-check claims, citations, and dates against the original sources.
+
+1. Copy the full prompt above.
+2. Replace the bracketed placeholders with your own details.
+3. Paste it into chatgpt, claude, gemini (or your preferred AI tool).
+4. Iterate on the output: add constraints, ask follow-ups, or combine multiple results.
+
+## Why this prompt works
+
+It gives the AI a clear role, specific inputs, and an output format. That structure reduces vague responses and gives you a draft you can refine in minutes instead of hours.

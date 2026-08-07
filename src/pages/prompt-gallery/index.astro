@@ -1,0 +1,357 @@
+---
+import { getCollection } from 'astro:content';
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import Breadcrumbs from '../../components/seo/Breadcrumbs.astro';
+import CtaBox from '../../components/seo/CtaBox.astro';
+import FaqAccordion from '../../components/seo/FaqAccordion.astro';
+import { breadcrumbList, faqPage, itemList, organization, webSite } from '../../lib/schema';
+import { aiToolsBySlug } from '../../lib/ai-tools';
+
+const entries = await getCollection('prompts', ({ data }) => !data.draft);
+
+const CATEGORY_ORDER = [
+  'Image & Photo',
+  'Writing & Content',
+  'SEO & Marketing',
+  'Research & Learning',
+  'Work & Productivity',
+  'Coding & Development',
+  'Social Media',
+  'Personal & Creative',
+  'Analysis & Data',
+  'Prompt Engineering',
+];
+
+const categories = CATEGORY_ORDER.filter((cat) => entries.some((e) => e.data.category === cat));
+
+const title = 'AI Prompt Gallery — Copy-Paste Prompts for ChatGPT, Gemini, Midjourney & More';
+const description =
+  'Browse 70+ copy-pasteable AI prompts organized by category: image generation, writing, SEO, coding, productivity, social media, and prompt engineering. Each prompt includes tool links and a reference image where relevant.';
+
+const faqs = [
+  {
+    q: 'What is a prompt gallery?',
+    a: 'A prompt gallery is a curated collection of ready-to-use AI prompts. You can copy any prompt, paste it into ChatGPT, Gemini, Midjourney, or another AI tool, and customize the placeholders.',
+  },
+  {
+    q: 'Can I use these prompts for commercial work?',
+    a: 'Yes. The prompts themselves are general frameworks. Always check the output and your AI tool\'s terms of service before using generated content commercially.',
+  },
+  {
+    q: 'Which AI tools are covered?',
+    a: 'We link to ChatGPT, Claude, Gemini, Perplexity, Microsoft Copilot, Midjourney, DALL-E, Stable Diffusion, Ideogram, Leonardo.Ai, Bing Image Creator, Canva, and Adobe Firefly.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  breadcrumbList([{ name: 'Home', path: '/' }, { name: 'Prompt Gallery', path: '/prompt-gallery' }]),
+  itemList(entries.map((e) => e.data.title), '/prompt-gallery'),
+  faqPage(faqs),
+];
+
+const ogImage = 'https://www.marqly.com/og/seo/hub-prompt-gallery.png';
+
+function toolNames(slugs: string[]) {
+  return slugs
+    .map((s) => aiToolsBySlug[s]?.name)
+    .filter((n): n is string => Boolean(n));
+}
+
+function preview(text: string) {
+  return text.slice(0, 110).trim() + '…';
+}
+---
+
+<LandingLayout title={title} description={description} jsonLd={jsonLd} ogImage={ogImage}>
+  <section class="section prompt-hub">
+    <div class="container">
+      <Breadcrumbs items={[{ name: 'Home', path: '/' }, { name: 'Prompt Gallery', path: '/prompt-gallery' }]} />
+
+      <header class="hub-head" data-reveal>
+        <h1>AI Prompt Gallery</h1>
+        <p class="lead">
+          70+ copy-pasteable prompts for image generation, writing, SEO, coding, productivity,
+          social media, and prompt engineering. Click any card to reveal the full prompt.
+        </p>
+      </header>
+
+      <div class="filter-bar" data-reveal>
+        <div class="search-wrap">
+          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input
+            type="search"
+            class="search-input"
+            placeholder="Search prompts, tools, or tags…"
+            aria-label="Search prompts"
+            data-search-input
+          />
+        </div>
+        <div class="chip-row" role="group" aria-label="Filter by category">
+          <button type="button" class="chip is-active" data-category="all">All</button>
+          {categories.map((cat) => (
+            <button type="button" class="chip" data-category={cat}>{cat}</button>
+          ))}
+        </div>
+      </div>
+
+      <div class="prompt-grid" data-reveal>
+        {entries.map((entry) => {
+          const data = entry.data;
+          const searchTokens = [data.title, data.description, data.category, ...data.tags, ...toolNames(data.tools)]
+            .join(' ')
+            .toLowerCase();
+          return (
+            <a
+              href={`/prompt-gallery/${entry.id}`}
+              class="prompt-card card"
+              data-category={data.category}
+              data-search={searchTokens}
+            >
+              {data.referenceImage && (
+                <div class="card-thumb">
+                  <img src={data.referenceImage} alt={data.imageAlt ?? data.title} loading="lazy" width="400" height="500" />
+                </div>
+              )}
+              <div class="card-body">
+                <span class="card-cat">{data.category}</span>
+                <h2>{data.title}</h2>
+                <p>{data.description}</p>
+                <span class="card-preview">{preview(data.prompt)}</span>
+                <div class="card-tools">
+                  {toolNames(data.tools).slice(0, 4).map((name) => (
+                    <span class="tool-pill">{name}</span>
+                  ))}
+                </div>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+
+      <div class="empty-state" data-empty-state hidden>
+        <p>No prompts match your search. Try a different keyword or category.</p>
+      </div>
+
+      <div data-reveal>
+        <FaqAccordion faqs={faqs} heading="Frequently asked questions" />
+      </div>
+
+      <CtaBox />
+    </div>
+  </section>
+
+  <script is:inline>
+    (function () {
+      const input = document.querySelector('[data-search-input]');
+      const chips = document.querySelectorAll('[data-category]');
+      const cards = document.querySelectorAll('[data-search]');
+      const empty = document.querySelector('[data-empty-state]');
+      if (!input || !cards.length) return;
+
+      let activeCategory = 'all';
+      let query = '';
+
+      function filter() {
+        let visible = 0;
+        const q = query.trim().toLowerCase();
+        cards.forEach((card) => {
+          const cat = card.getAttribute('data-category');
+          const tokens = card.getAttribute('data-search') || '';
+          const catMatch = activeCategory === 'all' || cat === activeCategory;
+          const queryMatch = !q || tokens.includes(q);
+          const show = catMatch && queryMatch;
+          card.toggleAttribute('hidden', !show);
+          if (show) visible++;
+        });
+        if (empty) empty.toggleAttribute('hidden', visible > 0);
+      }
+
+      input.addEventListener('input', (e) => {
+        query = e.target.value;
+        filter();
+      });
+
+      chips.forEach((chip) => {
+        chip.addEventListener('click', () => {
+          chips.forEach((c) => c.classList.remove('is-active'));
+          chip.classList.add('is-active');
+          activeCategory = chip.getAttribute('data-category') || 'all';
+          filter();
+        });
+      });
+    })();
+  </script>
+
+  <style>
+    .prompt-hub { padding-block: var(--section-pad-y); }
+    .hub-head { max-width: 720px; margin-bottom: var(--space-10); }
+    .hub-head h1 {
+      font-size: var(--fs-display);
+      font-weight: 600;
+      letter-spacing: var(--tracking-tight);
+      color: var(--ink-1);
+      line-height: var(--lh-display);
+    }
+    .lead {
+      margin-top: var(--space-4);
+      font-size: var(--fs-lg);
+      color: var(--ink-2);
+      line-height: var(--lh-base);
+    }
+
+    .filter-bar {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-4);
+      margin-bottom: var(--space-10);
+      position: sticky;
+      top: var(--header-h);
+      z-index: 10;
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(10px);
+      padding-block: var(--space-4);
+      border-bottom: 1px solid var(--border-1);
+    }
+    .search-wrap {
+      position: relative;
+    }
+    .search-icon {
+      position: absolute;
+      left: var(--space-4);
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--ink-4);
+      pointer-events: none;
+    }
+    .search-input {
+      width: 100%;
+      padding: 0.85rem 1rem 0.85rem 2.75rem;
+      font-size: var(--fs-base);
+      color: var(--ink-1);
+      background: var(--surface-1);
+      border: 1px solid var(--border-1);
+      border-radius: var(--radius-pill);
+      outline: none;
+      transition: border-color var(--dur-fast) var(--ease-out), box-shadow var(--dur-fast) var(--ease-out);
+    }
+    .search-input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-ring);
+    }
+    .chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+    }
+    .chip {
+      font-size: var(--fs-xs);
+      font-weight: 600;
+      color: var(--ink-2);
+      background: var(--surface-2);
+      border: 1px solid var(--border-1);
+      padding: 0.5rem 0.9rem;
+      border-radius: var(--radius-pill);
+      cursor: pointer;
+      transition: background var(--dur-fast) var(--ease-out), border-color var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out);
+    }
+    .chip:hover { background: var(--surface-3); border-color: var(--border-2); }
+    .chip.is-active {
+      color: #fff;
+      background: var(--ink-1);
+      border-color: var(--ink-1);
+    }
+
+    .prompt-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--space-5);
+      margin-bottom: var(--space-12);
+    }
+    .prompt-card {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      background: var(--surface-1);
+      border: 1px solid var(--border-1);
+      border-radius: var(--radius-card);
+      overflow: hidden;
+      transition: border-color var(--dur-base) var(--ease-out), transform var(--dur-fast) var(--ease-out);
+    }
+    .prompt-card:hover { border-color: var(--border-2); transform: translateY(-2px); }
+    .card-thumb {
+      aspect-ratio: 4 / 3;
+      background: var(--surface-2);
+      overflow: hidden;
+    }
+    .card-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .card-body {
+      padding: var(--space-5);
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+    .card-cat {
+      font-size: var(--fs-xs);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      margin-bottom: var(--space-2);
+    }
+    .card-body h2 {
+      font-size: var(--fs-base);
+      font-weight: 600;
+      color: var(--ink-1);
+      line-height: var(--lh-snug);
+      margin-bottom: var(--space-2);
+    }
+    .card-body > p {
+      font-size: var(--fs-sm);
+      color: var(--ink-3);
+      line-height: var(--lh-base);
+      margin-bottom: var(--space-3);
+    }
+    .card-preview {
+      display: block;
+      font-family: var(--font-mono);
+      font-size: var(--fs-xs);
+      color: var(--ink-4);
+      line-height: 1.5;
+      margin-bottom: var(--space-4);
+      flex: 1;
+    }
+    .card-tools {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+    }
+    .tool-pill {
+      font-size: var(--fs-xs);
+      color: var(--ink-3);
+      background: var(--surface-2);
+      padding: 0.25rem 0.5rem;
+      border-radius: var(--radius-pill);
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: var(--space-12) 0;
+      color: var(--ink-3);
+    }
+
+    @media (max-width: 1000px) {
+      .prompt-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 620px) {
+      .prompt-grid { grid-template-columns: 1fr; }
+      .filter-bar { position: static; }
+    }
+  </style>
+</LandingLayout>
