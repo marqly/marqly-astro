@@ -59,7 +59,7 @@ Key facts:
 
 ## AI Prompt Gallery
 
-- [Prompt Gallery hub](https://www.marqly.com/prompt-gallery): 200+ copy-pasteable prompts for ChatGPT, Claude, Gemini, DeepSeek, Kimi, Midjourney, DALL-E, and more
+- [Prompt Gallery hub](https://www.marqly.com/prompt-gallery): 400+ copy-pasteable prompts for ChatGPT, Claude, Gemini, DeepSeek, Kimi, Midjourney, DALL-E, and more
 - [Browse all categories](https://www.marqly.com/prompt-gallery/category)
 - Categories: [Image & Photo](https://www.marqly.com/prompt-gallery/category/image-photo) · [Writing & Content](https://www.marqly.com/prompt-gallery/category/writing-content) · [SEO & Marketing](https://www.marqly.com/prompt-gallery/category/seo-marketing) · [Research & Learning](https://www.marqly.com/prompt-gallery/category/research-learning) · [Work & Productivity](https://www.marqly.com/prompt-gallery/category/work-productivity) · [Coding & Development](https://www.marqly.com/prompt-gallery/category/coding-development) · [Social Media](https://www.marqly.com/prompt-gallery/category/social-media) · [Personal & Creative](https://www.marqly.com/prompt-gallery/category/personal-creative) · [Analysis & Data](https://www.marqly.com/prompt-gallery/category/analysis-data) · [Prompt Engineering](https://www.marqly.com/prompt-gallery/category/prompt-engineering)
 - Featured prompts: [LinkedIn headshot prompt](https://www.marqly.com/prompt-gallery/linkedin-headshot-prompt-for-corporate-executives) · [cinematic portrait prompt](https://www.marqly.com/prompt-gallery/cinematic-portrait-prompt-with-rim-lighting) · [DeepSeek coding prompt](https://www.marqly.com/prompt-gallery/build-a-crud-app-prompt) · [Kimi research prompt](https://www.marqly.com/prompt-gallery/research-gap-finder-prompt)
