@@ -69,16 +69,26 @@ const canonicalURL = canonical ?? new URL(cleanPath, Astro.site).href;
 
     <!-- GA4 — same property as marqly.com, gated to the marqly.com host -->
     <script is:inline define:vars={{ gaId: 'G-M6QHXLGPG7' }}>
+      // GA4, deferred past the load event so gtag's parse/exec never competes
+      // with first paint (it was adding ~4s of LCP render delay on 4x-throttled
+      // mobile). page_view still fires within a few seconds of arrival.
       if (location.hostname === 'marqly.com' || location.hostname.endsWith('.marqly.com')) {
-        const s = document.createElement('script');
-        s.async = true;
-        s.src = 'https://www.googletagmanager.com/gtag/js?id=' + gaId;
-        document.head.appendChild(s);
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        window.gtag = gtag;
-        gtag('js', new Date());
-        gtag('config', gaId);
+        const inject = () => {
+          const s = document.createElement('script');
+          s.async = true;
+          s.src = 'https://www.googletagmanager.com/gtag/js?id=' + gaId;
+          document.head.appendChild(s);
+          window.dataLayer = window.dataLayer || [];
+          function gtag() { dataLayer.push(arguments); }
+          window.gtag = gtag;
+          gtag('js', new Date());
+          gtag('config', gaId);
+        };
+        if (document.readyState === 'complete') {
+          setTimeout(inject, 1500);
+        } else {
+          addEventListener('load', () => setTimeout(inject, 1500), { once: true });
+        }
       }
     </script>
   </head>
