@@ -1,0 +1,390 @@
+---
+/**
+ * YouCal early-access cross-promo.
+ *
+ * Desktop (>=768px): quiet bottom-right corner card with an auto-advancing
+ * 6-slide screenshot carousel (mirrors the app.marqly.com card).
+ * Mobile (<768px): slim bottom banner — app icon + one line + CTA, no screenshots.
+ *
+ * Hidden forever (localStorage) once the visitor clicks the CTA or the X.
+ * Tracks youcal_promo_viewed / clicked / dismissed to Mixpanel (same project
+ * as the web app; anonymous device id, viewed fired once per session).
+ */
+const APP_STORE_URL =
+  "https://apps.apple.com/us/app/youcal-ai-calorie-tracker/id6753720597";
+const SLIDES = [1, 2, 3, 4, 5, 6].map((n) => `/images/promos/youcal/${n}.jpg`);
+---
+
+<div id="youcal-promo" class="yc-root" role="dialog" aria-label="YouCal" hidden>
+  <!-- Desktop corner card -->
+  <div class="yc-card">
+    <button type="button" class="yc-close" aria-label="Dismiss" data-yc-close>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+    <a class="yc-media" href={APP_STORE_URL} target="_blank" rel="noopener noreferrer" data-yc-cta data-yc-cta-kind="image" aria-label="YouCal app screenshots">
+      {SLIDES.map((src, i) => (
+        <img src={src} alt={i === 0 ? "YouCal app screenshots" : ""} class={i === 0 ? "yc-slide is-active" : "yc-slide"} loading="lazy" width="355" height="768" />
+      ))}
+    </a>
+    <div class="yc-dots" aria-hidden="true">
+      {SLIDES.map((_, i) => (
+        <button type="button" class={i === 0 ? "yc-dot is-active" : "yc-dot"} data-yc-dot={i} tabindex="-1"></button>
+      ))}
+    </div>
+    <div class="yc-body">
+      <p class="yc-badge">Early access</p>
+      <p class="yc-title">YouCal</p>
+      <p class="yc-copy">Something we've been cooking — snap your food, AI does the calories.</p>
+      <a class="yc-cta" href={APP_STORE_URL} target="_blank" rel="noopener noreferrer" data-yc-cta data-yc-cta-kind="button">Take a look</a>
+    </div>
+  </div>
+
+  <!-- Mobile slim banner -->
+  <div class="yc-banner">
+    <img class="yc-icon" src="/images/promos/youcal/icon.png" alt="" width="36" height="36" />
+    <div class="yc-banner-text">
+      <p class="yc-banner-title">YouCal <span class="yc-banner-badge">Early access</span></p>
+      <p class="yc-banner-sub">Snap your food — AI does the calories.</p>
+    </div>
+    <a class="yc-banner-cta" href={APP_STORE_URL} target="_blank" rel="noopener noreferrer" data-yc-cta data-yc-cta-kind="button">View</a>
+    <button type="button" class="yc-banner-close" aria-label="Dismiss" data-yc-close>
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+</div>
+
+<style>
+  .yc-root {
+    /* The two live layouts load disjoint token sets (tokens.css vs landing.css),
+       so every token resolves tokens.css → landing.css → literal. A bare var()
+       that misses is silently dropped (see Lab Notes 2026-08-03). */
+    --yc-surface: var(--surface-1, var(--surface, #ffffff));
+    --yc-surface-soft: var(--surface-2, var(--default, #f2f2f3));
+    --yc-surface-softer: var(--surface-3, var(--separator, #e8e8ea));
+    --yc-border: var(--color-border, var(--separator, rgba(0, 0, 0, 0.08)));
+    --yc-heading: var(--color-heading, var(--foreground, #1c1a1d));
+    --yc-muted: var(--color-text-muted, var(--muted, #6f6f76));
+    --yc-shadow: var(--shadow-float, var(--shadow-overlay-v, 0 3px 16px 0 rgba(24, 24, 27, 0.08), 0 8px 24px 0 rgba(24, 24, 27, 0.09)));
+    --yc-ease: var(--ease-out, cubic-bezier(0.22, 0.61, 0.36, 1));
+    --yc-radius-card: var(--radius-xl, 24px);
+    --yc-radius-banner: var(--radius-lg, 20px);
+
+    position: fixed;
+    z-index: 80;
+    right: 16px;
+    bottom: 16px;
+    opacity: 0;
+    transform: translateY(12px);
+    transition: opacity 0.3s var(--yc-ease), transform 0.3s var(--yc-ease);
+    pointer-events: none;
+  }
+  .yc-root.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .yc-root { transition: none; transform: none; }
+  }
+
+  /* ── Desktop corner card ─────────────────────────────── */
+  .yc-card {
+    width: 320px;
+    overflow: hidden;
+    border: 1px solid var(--yc-border);
+    border-radius: var(--yc-radius-card);
+    background: var(--yc-surface);
+    box-shadow: var(--yc-shadow);
+  }
+  .yc-close,
+  .yc-banner-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    cursor: pointer;
+    border-radius: 999px;
+    transition: background 0.15s var(--yc-ease), color 0.15s var(--yc-ease);
+  }
+  .yc-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 2;
+    width: 30px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(4px);
+  }
+  .yc-close:hover { background: rgba(0, 0, 0, 0.62); color: #fff; }
+  .yc-media {
+    position: relative;
+    display: block;
+    height: 240px;
+    background: #000;
+  }
+  .yc-slide {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: auto;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.5s var(--yc-ease);
+  }
+  .yc-slide.is-active { opacity: 1; }
+  .yc-dots {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    padding: 0 0 10px;
+    background: #000;
+  }
+  .yc-dot {
+    width: 6px;
+    height: 6px;
+    padding: 0;
+    border: 0;
+    border-radius: 999px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.3);
+    transition: background 0.15s var(--yc-ease);
+  }
+  .yc-dot:hover { background: rgba(255, 255, 255, 0.5); }
+  .yc-dot.is-active { background: rgba(255, 255, 255, 0.9); }
+  .yc-body { padding: 16px; }
+  .yc-badge {
+    margin: 0;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--yc-muted);
+  }
+  .yc-title {
+    margin: 4px 0 0;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--yc-heading);
+  }
+  .yc-copy {
+    margin: 4px 0 0;
+    font-size: 0.8125rem;
+    line-height: 1.55;
+    color: var(--yc-muted);
+  }
+  .yc-cta {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 12px;
+    padding: 6px 14px;
+    border: 1px solid var(--yc-border);
+    border-radius: 999px;
+    background: var(--yc-surface-soft);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--yc-heading);
+    text-decoration: none;
+    transition: background 0.15s var(--yc-ease);
+  }
+  .yc-cta:hover { background: var(--yc-surface-softer); }
+
+  /* ── Mobile slim banner ──────────────────────────────── */
+  .yc-banner { display: none; }
+  @media (max-width: 767px) {
+    .yc-root {
+      left: 12px;
+      right: 12px;
+      bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+    }
+    .yc-card { display: none; }
+    .yc-banner {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 10px;
+      border: 1px solid var(--yc-border);
+      border-radius: var(--yc-radius-banner);
+      background: var(--yc-surface);
+      box-shadow: var(--yc-shadow);
+    }
+    .yc-icon {
+      width: 36px;
+      height: 36px;
+      flex-shrink: 0;
+      border-radius: 9px;
+    }
+    .yc-banner-text { min-width: 0; flex: 1; }
+    .yc-banner-title {
+      margin: 0;
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 1.3;
+      color: var(--yc-heading);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .yc-banner-badge {
+      margin-left: 6px;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--yc-muted);
+    }
+    .yc-banner-sub {
+      margin: 1px 0 0;
+      font-size: 12px;
+      line-height: 1.3;
+      color: var(--yc-muted);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .yc-banner-cta {
+      flex-shrink: 0;
+      padding: 6px 12px;
+      border: 1px solid var(--yc-border);
+      border-radius: 999px;
+      background: var(--yc-surface-soft);
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--yc-heading);
+      text-decoration: none;
+    }
+    .yc-banner-close {
+      flex-shrink: 0;
+      width: 26px;
+      height: 26px;
+      background: transparent;
+      color: var(--yc-muted);
+    }
+    .yc-banner-close:active { background: var(--yc-surface-soft); }
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    var HIDDEN_KEY = "marqly_youcal_promo_hidden_v1";
+    var VIEWED_SS_KEY = "marqly_youcal_promo_viewed";
+    var DEVICE_KEY = "marqly_mp_device_id";
+    var MP_TOKEN = "b74a14d94f9b1c1385487c39cdf87b51";
+    var SHOW_DELAY_MS = 2500;
+    var SLIDE_INTERVAL_MS = 3200;
+
+    var root = document.getElementById("youcal-promo");
+    if (!root) return;
+
+    function lsGet(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+    function lsSet(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+
+    if (lsGet(HIDDEN_KEY) === "true") { root.remove(); return; }
+
+    function deviceId() {
+      var id = lsGet(DEVICE_KEY);
+      if (!id) {
+        id = "$device:" + (self.crypto && crypto.randomUUID ? crypto.randomUUID() : String(Math.random()).slice(2) + Date.now());
+        lsSet(DEVICE_KEY, id);
+      }
+      return id;
+    }
+
+    function placement() {
+      return window.matchMedia("(min-width: 768px)").matches ? "corner_card" : "mobile_banner";
+    }
+
+    function track(event, props) {
+      try {
+        var payload = {
+          event: event,
+          properties: Object.assign(
+            {
+              token: MP_TOKEN,
+              distinct_id: deviceId(),
+              source: "marketing_site",
+              campaign: "youcal_early_access",
+              placement: placement(),
+              path: location.pathname,
+            },
+            props || {}
+          ),
+        };
+        fetch("https://api-js.mixpanel.com/track/?ip=1", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: "data=" + encodeURIComponent(btoa(unescape(encodeURIComponent(JSON.stringify(payload))))),
+          keepalive: true,
+        }).catch(function () {});
+      } catch (e) {}
+    }
+
+    // ── Carousel (desktop card only; runs harmlessly while hidden on mobile) ──
+    var slides = root.querySelectorAll(".yc-slide");
+    var dots = root.querySelectorAll(".yc-dot");
+    var current = 0;
+    var timer = null;
+    function goTo(i) {
+      slides[current].classList.remove("is-active");
+      dots[current].classList.remove("is-active");
+      current = i;
+      slides[current].classList.add("is-active");
+      dots[current].classList.add("is-active");
+    }
+    function startTimer() {
+      if (timer) clearInterval(timer);
+      timer = setInterval(function () { goTo((current + 1) % slides.length); }, SLIDE_INTERVAL_MS);
+    }
+    dots.forEach(function (d, i) {
+      d.addEventListener("click", function () { goTo(i); startTimer(); });
+    });
+    var media = root.querySelector(".yc-media");
+    media.addEventListener("mouseenter", function () { if (timer) clearInterval(timer); timer = null; });
+    media.addEventListener("mouseleave", startTimer);
+
+    // ── Show / hide ──
+    function hideForever() {
+      lsSet(HIDDEN_KEY, "true");
+      if (timer) clearInterval(timer);
+      root.classList.remove("is-visible");
+      setTimeout(function () { root.remove(); }, 350);
+    }
+
+    root.querySelectorAll("[data-yc-close]").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        track("youcal_promo_dismissed", { slide_index: current });
+        hideForever();
+      });
+    });
+
+    root.querySelectorAll("[data-yc-cta]").forEach(function (a) {
+      a.addEventListener("click", function () {
+        track("youcal_promo_clicked", {
+          slide_index: current,
+          cta: a.getAttribute("data-yc-cta-kind"),
+          destination: "app_store",
+        });
+        hideForever(); // navigation opens in a new tab; this page hides the promo
+      });
+    });
+
+    setTimeout(function () {
+      root.hidden = false;
+      // next frame so the transition runs
+      requestAnimationFrame(function () {
+        requestAnimationFrame(function () { root.classList.add("is-visible"); });
+      });
+      startTimer();
+      try {
+        if (!sessionStorage.getItem(VIEWED_SS_KEY)) {
+          sessionStorage.setItem(VIEWED_SS_KEY, "1");
+          track("youcal_promo_viewed", {});
+        }
+      } catch (e) {
+        track("youcal_promo_viewed", {});
+      }
+    }, SHOW_DELAY_MS);
+  })();
+</script>

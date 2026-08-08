@@ -8,6 +8,7 @@ import Nav from '../components/landing/Nav.astro';
 import FooterV2 from '../components/landing/FooterV2.astro';
 import LinkHub from '../components/seo/LinkHub.astro';
 import GoogleOneTap from '../components/landing/GoogleOneTap.astro';
+import YouCalPromo from '../components/YouCalPromo.astro';
 
 export interface Props {
   title: string;
@@ -102,6 +103,7 @@ const canonicalURL = canonical ?? new URL(cleanPath, Astro.site).href;
     <FooterV2 />
 
     <GoogleOneTap />
+    <YouCalPromo />
 
     <!-- Scroll reveal observer — single tiny script for the whole site -->
     <script is:inline>
