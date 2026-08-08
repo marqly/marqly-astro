@@ -299,16 +299,23 @@ export const GOOGLE_CLIENT_ID =
 /**
  * Kill switch for the One Tap prompt.
  *
- * MUST stay false until `https://www.marqly.com` is registered under
- * "Authorized JavaScript origins" for GOOGLE_CLIENT_ID. Without it the prompt
- * does not merely fail quietly — Google serves a full-page
- * "Access blocked: Authorization Error / Error 400: origin_mismatch" to real
- * visitors on every page of the site.
+ * Keep this false whenever `https://www.marqly.com` is not registered under
+ * "Authorized JavaScript origins" for GOOGLE_CLIENT_ID. An unregistered origin
+ * does NOT fail quietly the way the FedCM docs imply — the library falls back
+ * to GeneralOAuthFlow and Google serves real visitors a full-page
+ * "Access blocked: Authorization Error / Error 400: origin_mismatch".
  *
- * Flip to true only after verifying the origin is live (a signed-in browser on
- * www.marqly.com gets HTTP 200, not 403, from accounts.google.com/gsi/status).
+ * Origin registered and verified 2026-08-08. The check that actually proves it,
+ * run from a browser console ON www.marqly.com (curl can't — the endpoint needs
+ * a Google session cookie and 403s for everyone without one):
+ *
+ *   await fetch('https://accounts.google.com/gsi/status?client_id=' + CLIENT_ID,
+ *               { credentials: 'include' })   // 200 = origin accepted, 403 = not
+ *
+ * Compare against a bogus client id in the same breath, so you can tell
+ * "origin accepted" apart from "endpoint is just refusing everything".
  */
-export const ONE_TAP_ENABLED = false;
+export const ONE_TAP_ENABLED = true;
 
 /**
  * Cookie app.marqly.com sets on `.marqly.com` while a session is alive. One Tap
