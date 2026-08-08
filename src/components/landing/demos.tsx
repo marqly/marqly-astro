@@ -8,60 +8,7 @@
 import { conversationCards, newtabLinks } from './data';
 import { BookmarkCard } from './BookmarkCard';
 import { ProviderTile, Kbd, FaviconTile } from './bits';
-import { SearchIcon, HighlighterIcon, PlayIcon } from './icons';
-
-/* ------------------------------------------------------ youtube card ---- */
-
-export function YouTubeCard() {
-  return (
-    <div
-      className="flex-1 rounded-2xl bg-surface p-4 shadow-surface"
-      role="img"
-      aria-label="Marqly's AI card on a YouTube watch page: summary, chat, and transcript tabs with a TLDR and real chapter timestamps"
-    >
-      <div className="flex items-center gap-2 pb-3">
-        <FaviconTile domain="youtube.com" size={15} />
-        <span className="line-clamp-1 min-w-0 flex-1 text-xs font-medium text-foreground">
-          But what is a neural network?
-        </span>
-        <span className="flex shrink-0 items-center gap-1 font-mono text-[10px] text-muted">
-          <PlayIcon size={10} />
-          18:40
-        </span>
-      </div>
-      <div className="flex items-center gap-1.5">
-        {['Summary', 'Chat', 'Transcript'].map((t, i) => (
-          <span
-            key={t}
-            className={`rounded-3xl px-3 py-1 text-xs font-medium ${
-              i === 0 ? 'bg-accent text-accent-foreground' : 'bg-default text-foreground/70'
-            }`}
-          >
-            {t}
-          </span>
-        ))}
-      </div>
-      <p className="mt-3 text-[13px] leading-relaxed text-foreground/85">
-        <b className="font-semibold">TL;DR</b> A network is layers of neurons joined by weights;
-        learning means nudging those weights until the cost function stops complaining.
-      </p>
-      <ul className="mt-3 space-y-1.5">
-        {[
-          ['3:35', 'Introducing layers'],
-          ['8:38', 'Edge detection example'],
-          ['11:34', 'Counting weights and biases'],
-        ].map(([ts, label]) => (
-          <li key={ts} className="flex items-baseline gap-2.5 text-xs text-muted">
-            <span className="w-9 shrink-0 text-right font-mono text-[10px] text-foreground/60">
-              {ts}
-            </span>
-            {label}
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-}
+import { SearchIcon, HighlighterIcon } from './icons';
 
 /* -------------------------------------------------------- chat vault ---- */
 

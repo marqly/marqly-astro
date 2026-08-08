@@ -72,7 +72,7 @@ export default function Hero() {
 
   return (
     <div ref={rootRef} className="relative">
-      <BrowserFrame url="bonappetit.com/recipe/cacio-e-pepe">
+      <BrowserFrame url="feelgoodfoodie.net/recipe/best-hummus">
         <div className="relative h-[430px] overflow-hidden bg-background sm:h-[460px]">
           <AnimatePresence mode="wait" initial={false}>
             {step !== 'saved' ? (
@@ -101,11 +101,11 @@ export default function Hero() {
                       >
                         <SaveModal
                           phase={step === 'thinking' ? 'thinking' : 'suggested'}
-                          url="bonappetit.com/recipe/cacio-e-pepe"
-                          title="Cacio e Pepe"
+                          url="feelgoodfoodie.net/recipe/best-hummus"
+                          title="This is the hummus I make for dipping, spreading, and snacking"
                           boardEmoji="🍳"
                           boardName="Cooking"
-                          tags={['pasta', 'technique', 'food-science']}
+                          tags={['hummus', 'lebanese', 'meze']}
                         />
                       </motion.div>
                     </motion.div>
@@ -139,22 +139,22 @@ function ArticlePage({ dimmed }: { dimmed: boolean }) {
       aria-hidden
     >
       <div className="mx-auto max-w-[560px]">
-        <span className="font-mono text-[11px] text-muted">bonappetit.com · Recipes</span>
+        <span className="text-[11px] text-muted">feelgoodfoodie.net · Recipes</span>
         <p className="font-display mt-3 text-[28px] leading-tight font-medium text-foreground sm:text-3xl">
-          Cacio e Pepe
+          The Hummus I Make Every Week
         </p>
-        <p className="mt-2 font-mono text-[11px] text-muted/80">4 ingredients · 25 minutes</p>
+        <p className="mt-2 text-[11px] text-muted/80">5 ingredients · 10 minutes</p>
         <div className="mt-5 space-y-2.5 text-[13px] leading-relaxed text-muted/90">
           <p>
-            Pecorino, black pepper, pasta, and the starchy water it cooked in. The whole dish is
-            one emulsion, held together in a narrow band of heat.
+            Chickpeas, tahini, lemon, garlic, and ice-cold water. Authentic Lebanese hummus needs
+            nothing else, and the blender does most of the work.
           </p>
           <p>
-            Too hot and the cheese seizes into a fist. Too cool and it never comes together. The
-            method below stays inside the window.
+            The cold water is the trick: streamed in while blending, it whips the tahini and turns
+            the whole bowl pale, light, and impossibly smooth.
           </p>
           <p className="text-muted/50">
-            Toss faster, the old advice goes. Tossing faster does not change thermodynamics.
+            Serve it swirled, with olive oil pooling in the middle. Warm pita is not optional.
           </p>
         </div>
       </div>

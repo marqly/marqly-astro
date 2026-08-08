@@ -1,7 +1,7 @@
 ---
 import { SaveModal } from './SaveModal';
 import HighlighterDemo from './HighlighterDemo';
-import { YouTubeCard } from './demos';
+import YouTubeShowcase from './YouTubeShowcase';
 ---
 
 <section class="bg-surface py-20 md:py-28">
@@ -19,11 +19,11 @@ import { YouTubeCard } from './demos';
       </p>
     </div>
 
-    <div class="mt-10 grid items-stretch gap-5 md:grid-cols-5 md:gap-6">
-      <!-- Wide: the save modal with AI assist, on a highlighter-blue canvas -->
-      <figure class="flex flex-col md:col-span-3" data-reveal>
+    <!-- Twin cards: the save dialog and the highlighter, identical framing -->
+    <div class="mt-10 grid items-stretch gap-5 md:grid-cols-2 md:gap-6">
+      <figure class="flex flex-col" data-reveal>
         <div
-          class="flex flex-1 items-center justify-center rounded-3xl p-5 py-10 sm:p-10"
+          class="flex flex-1 items-center justify-center rounded-3xl p-5 py-10 sm:p-8 sm:py-12"
           style="background: color-mix(in oklab, var(--hl-blue) 30%, white)"
         >
           <SaveModal
@@ -35,29 +35,35 @@ import { YouTubeCard } from './demos';
             tags={['design', 'people', 'inspiration']}
           />
         </div>
-        <figcaption class="mt-4 max-w-[520px] text-sm leading-relaxed text-muted">
+        <figcaption class="mt-4 text-sm leading-relaxed text-muted">
           <b class="font-semibold text-foreground">One click, zero filing.</b>
-          Marqly picks the board and suggests tags before the dialog closes. Leave it alone and
-          it saves itself.
+          Marqly picks the board and suggests tags before the dialog closes. Leave it alone and it
+          saves itself.
         </figcaption>
       </figure>
 
-      <div class="flex flex-col gap-5 md:col-span-2 md:gap-6">
-        <figure class="flex flex-1 flex-col" data-reveal style="--reveal-delay: 70ms">
+      <figure class="flex flex-col" data-reveal style="--reveal-delay: 70ms">
+        <div
+          class="flex flex-1 items-center justify-center rounded-3xl p-5 py-10 sm:p-8 sm:py-12"
+          style="background: color-mix(in oklab, var(--hl-mint) 30%, white)"
+        >
           <HighlighterDemo client:visible />
-          <figcaption class="mt-4 text-sm leading-relaxed text-muted">
-            <b class="font-semibold text-foreground">Highlight what mattered.</b>
-            Six markers, restored on every revisit, searchable from your library.
-          </figcaption>
-        </figure>
-        <figure class="flex flex-1 flex-col" data-reveal style="--reveal-delay: 140ms">
-          <YouTubeCard />
-          <figcaption class="mt-4 text-sm leading-relaxed text-muted">
-            <b class="font-semibold text-foreground">YouTube, summarized in place.</b>
-            A card next to the player: TL;DR, chat over the transcript, synced timestamps.
-          </figcaption>
-        </figure>
-      </div>
+        </div>
+        <figcaption class="mt-4 text-sm leading-relaxed text-muted">
+          <b class="font-semibold text-foreground">Highlight what mattered.</b>
+          Six markers, restored on every revisit, searchable from your library. Go on, recolor it.
+        </figcaption>
+      </figure>
     </div>
+
+    <!-- Full-width: the AI card on a real watch page -->
+    <figure class="mt-10" data-reveal>
+      <YouTubeShowcase client:visible />
+      <figcaption class="mt-4 max-w-[640px] text-sm leading-relaxed text-muted">
+        <b class="font-semibold text-foreground">YouTube, summarized in place.</b>
+        A card next to the player with a streaming summary, chat over the transcript, and
+        playback-synced timestamps. Save the video and all of it stays searchable.
+      </figcaption>
+    </figure>
   </div>
 </section>

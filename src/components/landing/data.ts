@@ -5,8 +5,9 @@
  * where the site provides one), and its real og/preview image stored under
  * /public/landing/covers. Favicons are the real ones, stored locally.
  *
- * Through-line: Bon Appétit's Cacio e Pepe gets saved in the hero's looping
- * sequence and lands in the Cooking board next to two more real recipes.
+ * Through-line: Feel Good Foodie's Lebanese hummus gets saved in the hero's
+ * looping sequence and lands in the Cooking board next to two more real
+ * recipes (sea bass, Lebanese rice).
  */
 
 export type ContentKind = 'article' | 'paper' | 'repo' | 'video' | 'conversation';
@@ -37,6 +38,8 @@ export const FAVICONS: Record<string, string> = {
   'figma.com': '/landing/favicons/figma.com.png',
   'stripe.com': '/landing/favicons/stripe.com.png',
   'asana.com': '/landing/favicons/asana.com.png',
+  'feelgoodfoodie.net': '/landing/favicons/feelgoodfoodie.net.png',
+  'themediterraneandish.com': '/landing/favicons/themediterraneandish.com.png',
   'haraldurthorleifsson.com': '/landing/favicons/haraldurthorleifsson.com.png',
   'vcstack.io': '/landing/favicons/vcstack.io.png',
   'laracasts.com': '/landing/favicons/laracasts.com.png',
@@ -48,39 +51,39 @@ export const FAVICONS: Record<string, string> = {
 /* ------------------------------------------------------ hero (Cooking) --- */
 
 export const protagonist: DemoBookmark = {
-  id: 'cacio',
-  title: 'Cacio e Pepe',
-  domain: 'bonappetit.com',
+  id: 'hummus',
+  title: 'This is the hummus I make for dipping, spreading, and snacking',
+  domain: 'feelgoodfoodie.net',
   description:
-    'Four ingredients and one glossy, emulsified pecorino sauce. The classic Roman technique, without the clumps.',
-  tags: ['pasta', 'technique', 'food-science'],
+    'An easy authentic Lebanese hummus: five ingredients, ice-cold water, and a long blend for the creamiest texture.',
+  tags: ['hummus', 'lebanese', 'meze'],
   date: '12 May',
   kind: 'article',
-  cover: '/landing/covers/cacio-ba.jpg',
+  cover: '/landing/covers/hummus.jpg',
 };
 
 export const cookingNeighbors: DemoBookmark[] = [
   {
-    id: 'carbonara',
-    title: 'Simple Spaghetti Carbonara',
-    domain: 'bonappetit.com',
+    id: 'seabass',
+    title: '15-Minute Mediterranean Sea Bass Recipe',
+    domain: 'themediterraneandish.com',
     description:
-      'Eggs, guanciale, and starchy pasta water. Silky, never scrambled, in about half an hour.',
-    tags: ['pasta', 'eggs'],
+      'Bold Mediterranean seasoning and a colorful pepper medley over flaky, pan-seared sea bass.',
+    tags: ['fish', 'weeknight'],
     date: '2 Feb',
     kind: 'article',
-    cover: '/landing/covers/carbonara-ba.jpg',
+    cover: '/landing/covers/seabass.jpg',
   },
   {
-    id: 'risotto',
-    title: "BA's Best Risotto",
-    domain: 'bonappetit.com',
+    id: 'lebanese-rice',
+    title: 'Lebanese Rice',
+    domain: 'feelgoodfoodie.net',
     description:
-      'Toasted rice, hot stock in stages, constant stirring. Creamy without a drop of cream.',
-    tags: ['rice', 'technique'],
+      'The staple Middle Eastern side: vermicelli toasted in olive oil, folded into fluffy rice.',
+    tags: ['rice', 'sides'],
     date: '19 Jan',
     kind: 'article',
-    cover: '/landing/covers/risotto-ba.jpg',
+    cover: '/landing/covers/lebanese-rice.jpg',
   },
 ];
 
