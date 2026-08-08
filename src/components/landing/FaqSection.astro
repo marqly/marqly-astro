@@ -22,7 +22,7 @@ const columns = [homeFaqs.slice(0, mid), homeFaqs.slice(mid)];
         columns.map((col) => (
           <div>
             {col.map((f) => (
-              <details class="group border-b border-separator">
+              <details class="faq-item group border-b border-separator">
                 <summary class="flex cursor-pointer list-none items-center justify-between gap-4 py-4 text-[15px] font-medium text-foreground [&::-webkit-details-marker]:hidden">
                   {f.q}
                   <span class="shrink-0 text-muted transition-transform duration-200 group-open:rotate-45">

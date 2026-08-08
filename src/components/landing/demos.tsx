@@ -10,54 +10,6 @@ import { BookmarkCard } from './BookmarkCard';
 import { ProviderTile, Kbd, FaviconTile } from './bits';
 import { SearchIcon, HighlighterIcon, PlayIcon } from './icons';
 
-/* ------------------------------------------------------- highlighter ---- */
-
-const SWATCHES = ['#F0EC68', '#F3ABFF', '#FEB7AE', '#B4EDF4', '#B4F0C4', '#D6BCFA'];
-
-export function HighlighterDemo() {
-  return (
-    <div
-      className="relative flex-1 rounded-2xl bg-surface p-6 pt-11 shadow-surface sm:p-7 sm:pt-12"
-      role="img"
-      aria-label="Marqly's highlighter: a pill toolbar with six marker colors floating over a highlighted passage from fs.blog"
-    >
-      {/* Selection toolbar (src/ui/toolbar.svelte): full pill, swatch circles
-          with hairline inset ring; selected gets a two-tone ring. */}
-      <div className="absolute top-3 left-1/2 flex -translate-x-1/2 items-center gap-1 rounded-full bg-white p-1 shadow-[0_0_0_0.5px_rgba(0,0,0,0.2),0_5px_10px_rgba(0,0,0,0.05),0_15px_40px_rgba(0,0,0,0.1)]">
-        {SWATCHES.map((c, i) => (
-          <span key={c} className="flex size-7 items-center justify-center">
-            <span
-              className="size-5 rounded-full"
-              style={{
-                background: c,
-                boxShadow:
-                  i === 0
-                    ? `0 0 0 2px #fff, 0 0 0 3.5px ${c}`
-                    : 'inset 0 0 0 1px rgba(0,0,0,0.10)',
-              }}
-            />
-          </span>
-        ))}
-      </div>
-      <blockquote className="text-[15px] leading-relaxed text-foreground/85">
-        Quality matters more than quantity.{' '}
-        <mark className="rounded-sm px-0.5" style={{ background: '#F0EC68' }}>
-          If you read one book a month but fully appreciate and absorb it,
-        </mark>{' '}
-        you’ll be better off than{' '}
-        <mark className="rounded-sm px-0.5" style={{ background: '#B4F0C4' }}>
-          someone who skims half the library
-        </mark>{' '}
-        without paying attention.
-      </blockquote>
-      <p className="mt-4 flex items-center gap-1.5 text-[11px] text-muted">
-        <FaviconTile domain="fs.blog" size={13} />
-        fs.blog · How to Remember What You Read
-      </p>
-    </div>
-  );
-}
-
 /* ------------------------------------------------------ youtube card ---- */
 
 export function YouTubeCard() {
@@ -135,7 +87,7 @@ export function NewTabDemo() {
       aria-label="Marqly Home new tab: greeting, library search, and quick links as glass cards over a beach photo"
     >
       <img
-        src="/landing/newtab-beach.jpg"
+        src="/landing/newtab-maldives.jpg"
         alt=""
         loading="lazy"
         className="absolute inset-0 h-full w-full object-cover"

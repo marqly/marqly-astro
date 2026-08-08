@@ -1,6 +1,7 @@
 ---
 import { SaveModal } from './SaveModal';
-import { HighlighterDemo, YouTubeCard } from './demos';
+import HighlighterDemo from './HighlighterDemo';
+import { YouTubeCard } from './demos';
 ---
 
 <section class="bg-surface py-20 md:py-28">
@@ -43,7 +44,7 @@ import { HighlighterDemo, YouTubeCard } from './demos';
 
       <div class="flex flex-col gap-5 md:col-span-2 md:gap-6">
         <figure class="flex flex-1 flex-col" data-reveal style="--reveal-delay: 70ms">
-          <HighlighterDemo />
+          <HighlighterDemo client:visible />
           <figcaption class="mt-4 text-sm leading-relaxed text-muted">
             <b class="font-semibold text-foreground">Highlight what mattered.</b>
             Six markers, restored on every revisit, searchable from your library.
