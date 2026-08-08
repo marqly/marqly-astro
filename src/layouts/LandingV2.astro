@@ -11,6 +11,7 @@
 import '../styles/landing.css';
 import LinkHub from '../components/seo/LinkHub.astro';
 import GoogleOneTap from '../components/landing/GoogleOneTap.astro';
+import MixpanelReplay from '../components/landing/MixpanelReplay.astro';
 import YouCalPromo from '../components/YouCalPromo.astro';
 
 export interface Props {
@@ -93,6 +94,9 @@ const canonicalURL = canonical ?? new URL(cleanPath, Astro.site).href;
         }
       }
     </script>
+
+    <!-- Mixpanel autocapture + Session Replay — must stay last in <head> -->
+    <MixpanelReplay />
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
