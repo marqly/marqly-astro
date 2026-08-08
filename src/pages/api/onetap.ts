@@ -77,6 +77,8 @@ interface Attribution {
 
 interface OneTapBody {
   credential?: string;
+  /** Raw nonce handed to google.accounts.id.initialize(); echoed in the token. */
+  nonce?: string;
   timezone?: string;
   locale?: string;
   attribution?: Attribution;
@@ -140,6 +142,7 @@ export const POST: APIRoute = async ({ request, locals }) => {
       },
       body: JSON.stringify({
         idToken: credential,
+        nonce: typeof body.nonce === 'string' ? body.nonce.slice(0, 128) : undefined,
         timezone: typeof body.timezone === 'string' ? body.timezone.slice(0, 64) : undefined,
         locale: typeof body.locale === 'string' ? body.locale.slice(0, 32) : undefined,
         attribution: pickAttribution(body.attribution),

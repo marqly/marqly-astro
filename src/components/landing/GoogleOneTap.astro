@@ -44,6 +44,21 @@ import { AUTH_HINT_COOKIE, GOOGLE_CLIENT_ID, ONE_TAP_ENABLED } from './data';
 
     var started = false;
 
+    // Under FedCM the credential ALWAYS carries a `nonce` claim — the browser
+    // mints one even when the site doesn't ask — and the API rejects any token
+    // whose nonce it cannot match. So generate one, hand it to initialize(),
+    // and send the same raw value with the credential for verification.
+    var nonce = (function () {
+      try {
+        if (crypto && crypto.randomUUID) return crypto.randomUUID().replace(/-/g, '');
+        var a = new Uint8Array(16);
+        crypto.getRandomValues(a);
+        return Array.from(a).map(function (b) { return b.toString(16).padStart(2, '0'); }).join('');
+      } catch (_) {
+        return '';
+      }
+    })();
+
     function readAttribution() {
       // Attribution for One Tap signups, matching the app's fields. This reads
       // the CURRENT page's query string, so it only captures campaign params
@@ -77,6 +92,7 @@ import { AUTH_HINT_COOKIE, GOOGLE_CLIENT_ID, ONE_TAP_ENABLED } from './data';
           headers: { 'content-type': 'application/json' },
           body: JSON.stringify({
             credential: response.credential,
+            nonce: nonce,
             timezone: (Intl.DateTimeFormat().resolvedOptions() || {}).timeZone,
             locale: navigator.language,
             attribution: readAttribution(),
@@ -111,6 +127,7 @@ import { AUTH_HINT_COOKIE, GOOGLE_CLIENT_ID, ONE_TAP_ENABLED } from './data';
           window.google.accounts.id.initialize({
             client_id: clientId,
             callback: handleCredentialResponse,
+            nonce: nonce,
             context: 'signup',
             // Never auto-submit an identity the visitor didn't pick on a
             // marketing page — the tap is the consent.
