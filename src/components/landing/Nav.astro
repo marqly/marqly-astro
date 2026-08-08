@@ -21,14 +21,14 @@ const help = { label: 'Help', href: 'https://help.marqly.com/' };
 ---
 
 <header class="sticky top-0 z-50 bg-background/85 backdrop-blur-md">
-  <nav aria-label="Main" class="mx-auto flex h-14 max-w-[1120px] items-center gap-5 px-5 md:px-8">
+  <nav aria-label="Main" class="mx-auto flex h-14 max-w-[1120px] items-center gap-[22px] px-5 md:px-8">
     <a href="/" class="flex items-center gap-2" aria-label="Marqly home">
       <img src="/landing/logo.svg" alt="" width="26" height="26" />
       <span class="text-[15px] font-semibold text-foreground">Marqly</span>
     </a>
 
     <!-- Desktop links -->
-    <div class="ml-3 flex items-center gap-5 max-lg:hidden">
+    <div class="ml-3 flex items-center gap-[22px] max-lg:hidden">
       {
         primary.map((l) => (
           <a
@@ -89,7 +89,7 @@ const help = { label: 'Help', href: 'https://help.marqly.com/' };
       </div>
     </div>
 
-    <div class="ml-auto flex items-center gap-2">
+    <div class="ml-auto flex items-center gap-2.5">
       <a
         href={APP_URL}
         class="flex h-9 items-center rounded-3xl px-3.5 text-sm font-medium text-foreground transition-colors hover:bg-default max-sm:hidden"
