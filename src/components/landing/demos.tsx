@@ -29,7 +29,7 @@ export function ChatVaultDemo() {
 export function NewTabDemo() {
   return (
     <div
-      className="relative flex h-full flex-col justify-center overflow-hidden rounded-3xl p-6 shadow-frame sm:p-8"
+      className="relative flex h-full flex-col justify-center overflow-hidden rounded-3xl p-6 sm:p-8"
       role="img"
       aria-label="Marqly Home new tab: greeting, library search, and quick links as glass cards over a beach photo"
     >

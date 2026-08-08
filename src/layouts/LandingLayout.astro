@@ -1,9 +1,11 @@
 ---
 import '@fontsource-variable/geist';
 import '../styles/global.css';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import AnnouncementBar from '../components/AnnouncementBar.astro';
+/* New design system LAST so its font + base tokens win site-wide; page
+   content keeps its scoped styles, only the shell + typography unify. */
+import '../styles/landing.css';
+import Nav from '../components/landing/Nav.astro';
+import FooterV2 from '../components/landing/FooterV2.astro';
 import LinkHub from '../components/seo/LinkHub.astro';
 
 export interface Props {
@@ -79,13 +81,14 @@ const canonicalURL = canonical ?? new URL(cleanPath, Astro.site).href;
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <AnnouncementBar />
-    <Header />
+    <Nav />
     <main id="main">
       <slot />
     </main>
-    <LinkHub />
-    <Footer />
+    <div class="linkhub-compat">
+      <LinkHub />
+    </div>
+    <FooterV2 />
 
     <!-- Scroll reveal observer — single tiny script for the whole site -->
     <script is:inline>

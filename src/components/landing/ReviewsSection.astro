@@ -1,0 +1,83 @@
+---
+/**
+ * Reviews — the four testimonials carried over from the previous site,
+ * verbatim, with their real avatars. id="reviews" is a site-wide anchor
+ * (the header links to /#reviews from every page).
+ */
+import { Image } from 'astro:assets';
+import avatarChenten from '../../assets/images/home/avatar-chenten.avif';
+import avatarAdrian from '../../assets/images/home/avatar-adrian.avif';
+import avatarMichael from '../../assets/images/home/avatar-michael.avif';
+import avatarTina from '../../assets/images/home/avatar-tina.avif';
+
+const testimonials = [
+  {
+    name: 'Chenten',
+    role: 'Product Designer, Berlin',
+    avatar: avatarChenten,
+    quote:
+      'Great bookmarking tool with a user-friendly interface. Absolutely a great way to save your bookmarks.',
+  },
+  {
+    name: 'Adrian',
+    role: 'Indie founder, Lisbon',
+    avatar: avatarAdrian,
+    quote:
+      'I love the simplicity of Marqly. It allows me to manage all of my bookmarks in a single place.',
+  },
+  {
+    name: 'Michael',
+    role: 'Researcher, Toronto',
+    avatar: avatarMichael,
+    quote: 'Fantastic way to organize bookmarks. Highly recommended!',
+  },
+  {
+    name: 'Tina',
+    role: 'Editor, New York',
+    avatar: avatarTina,
+    quote: 'The reader mode plus AI summaries save me hours every week. Worth every cent of Pro.',
+  },
+];
+---
+
+<section id="reviews" class="bg-surface py-20 md:py-28">
+  <div class="mx-auto max-w-[1120px] px-5 md:px-8">
+    <div class="max-w-[600px]" data-reveal>
+      <p class="text-[11px] font-semibold tracking-[0.16em] text-muted uppercase">Reviews</p>
+      <h2
+        class="font-display mt-3 text-[clamp(1.9rem,4vw,2.9rem)] leading-[1.1] font-medium tracking-[-0.01em] text-foreground"
+      >
+        People who used to lose links.
+      </h2>
+    </div>
+
+    <div class="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+      {
+        testimonials.map((t, i) => (
+          <figure
+            class="flex flex-col rounded-3xl bg-background p-6"
+            data-reveal
+            style={`--reveal-delay: ${i * 60}ms`}
+          >
+            <blockquote class="flex-1 text-[15px] leading-relaxed text-foreground/85">
+              “{t.quote}”
+            </blockquote>
+            <figcaption class="mt-5 flex items-center gap-3">
+              <Image
+                src={t.avatar}
+                alt={`${t.name}'s avatar`}
+                width={72}
+                height={72}
+                class="size-9 rounded-full object-cover"
+              />
+              <span>
+                <span class="block text-sm font-medium text-foreground">{t.name}</span>
+                <span class="block text-xs text-muted">{t.role}</span>
+              </span>
+            </figcaption>
+          </figure>
+        ))
+      }
+    </div>
+  </div>
+</section>

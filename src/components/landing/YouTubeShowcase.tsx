@@ -52,7 +52,7 @@ export default function YouTubeShowcase() {
       <div className="grid items-stretch gap-4 md:grid-cols-[1.1fr_1fr] md:gap-5">
         {/* The real video, as the watch page shows it */}
         <div className="flex flex-col overflow-hidden rounded-2xl bg-black">
-          <div className="relative flex-1">
+          <div className="relative aspect-video md:aspect-auto md:flex-1">
             <img
               src="/landing/covers/lex-fravor.webp"
               alt="Lex Fridman Podcast #122 with David Fravor"

@@ -1,0 +1,140 @@
+---
+/**
+ * "A lot more than a bookmark button." — the extension powers that are not
+ * bookmark cards: Clipboard History and saved tab sessions, reconstructed
+ * with real favicons.
+ */
+import { FaviconTile } from './bits';
+import { SearchIcon, PlusIcon } from './icons';
+---
+
+<section class="bg-surface py-20 md:py-28">
+  <div class="mx-auto max-w-[1120px] px-5 md:px-8">
+    <div class="max-w-[600px]" data-reveal>
+      <p class="text-[11px] font-semibold tracking-[0.16em] text-muted uppercase">
+        And the rest of the browser
+      </p>
+      <h2
+        class="font-display mt-3 text-[clamp(1.9rem,4vw,2.9rem)] leading-[1.1] font-medium tracking-[-0.01em] text-foreground"
+      >
+        A lot more than<br />a bookmark button.
+      </h2>
+    </div>
+
+    <div class="mt-10 grid items-stretch gap-5 md:grid-cols-2 md:gap-6">
+      <!-- Clipboard History -->
+      <figure class="flex flex-col" data-reveal>
+        <div class="flex-1 rounded-3xl bg-background p-5 sm:p-6">
+          <div class="flex items-center gap-3">
+            <p class="text-sm font-medium text-foreground">Clipboard</p>
+            <span
+              class="ml-auto flex h-8 w-44 items-center gap-2 rounded-lg bg-surface px-2.5 shadow-surface"
+            >
+              <SearchIcon size={13} className="text-muted" />
+              <span class="text-xs text-muted">Search copies</span>
+            </span>
+          </div>
+          <div class="mt-3 space-y-2">
+            <div class="flex items-center gap-2.5 rounded-xl bg-surface p-3 shadow-surface">
+              <FaviconTile domain="fs.blog" size={16} />
+              <p class="min-w-0 flex-1 truncate text-[13px] text-foreground/85">
+                Quality matters more than quantity. If you read one book a month…
+              </p>
+              <span
+                class="shrink-0 rounded-2xl bg-default px-1.5 py-0.5 text-[10px] font-medium text-foreground/70"
+                >pinned</span
+              >
+            </div>
+            <div class="flex items-center gap-2.5 rounded-xl bg-surface p-3 shadow-surface">
+              <FaviconTile domain="stripe.com" size={16} />
+              <p
+                class="min-w-0 flex-1 truncate text-[13px] text-foreground/85"
+                style="font-feature-settings: 'tnum'"
+              >
+                4242 4242 4242 4242 · test card
+              </p>
+              <span class="shrink-0 text-[10px] text-muted">2m</span>
+            </div>
+            <div class="flex items-center gap-2.5 rounded-xl bg-surface p-3 shadow-surface">
+              <FaviconTile domain="figma.com" size={16} />
+              <p class="min-w-0 flex-1 truncate text-[13px] text-foreground/85">#17C964</p>
+              <span class="shrink-0 text-[10px] text-muted">1h</span>
+            </div>
+            <div class="flex items-center gap-2.5 rounded-xl bg-surface p-3 shadow-surface">
+              <FaviconTile domain="github.com" size={16} />
+              <p class="min-w-0 flex-1 truncate text-[13px] text-foreground/85">
+                npm i sharp --save-dev
+              </p>
+              <span class="shrink-0 text-[10px] text-muted">3h</span>
+            </div>
+          </div>
+        </div>
+        <figcaption class="mt-4 text-sm leading-relaxed text-muted">
+          <b class="font-semibold text-foreground">Clipboard History.</b>
+          Everything you copy from the web: searchable, pinnable, taggable. Chrome and Edge; Pro
+          syncs it across devices.
+        </figcaption>
+      </figure>
+
+      <!-- Saved tab sessions -->
+      <figure class="flex flex-col" data-reveal style="--reveal-delay: 70ms">
+        <div class="flex flex-1 flex-col gap-2.5 rounded-3xl bg-background p-5 sm:p-6">
+          <div class="flex items-center">
+            <p class="text-sm font-medium text-foreground">Saved sessions</p>
+            <span class="ml-auto flex items-center gap-1 text-[11px] text-muted">
+              <PlusIcon size={11} />
+              Save & close tabs · Alt+T
+            </span>
+          </div>
+          <div class="rounded-xl bg-surface p-3.5 shadow-surface">
+            <div class="flex items-center gap-3">
+              <span class="min-w-0 flex-1">
+                <span class="block truncate text-[13px] font-medium text-foreground"
+                  >Deep-work Monday</span
+                >
+                <span class="block text-[11px] text-muted">14 tabs · saved 9:12</span>
+              </span>
+              <span class="flex -space-x-2">
+                {['github.com', 'figma.com', 'arxiv.org', 'stripe.com'].map((d) => (
+                  <span class="flex size-6 items-center justify-center rounded-full bg-white shadow-[0_1px_2px_rgba(0,0,0,0.1),0_0_0_1px_rgba(0,0,0,0.05)]">
+                    <FaviconTile domain={d} size={14} />
+                  </span>
+                ))}
+              </span>
+              <span
+                class="flex h-8 shrink-0 items-center rounded-3xl bg-accent px-3 text-xs font-medium text-accent-foreground"
+                >Restore all</span
+              >
+            </div>
+          </div>
+          <div class="rounded-xl bg-surface p-3.5 shadow-surface">
+            <div class="flex items-center gap-3">
+              <span class="min-w-0 flex-1">
+                <span class="block truncate text-[13px] font-medium text-foreground"
+                  >Trip research</span
+                >
+                <span class="block text-[11px] text-muted">8 tabs · saved yesterday</span>
+              </span>
+              <span class="flex -space-x-2">
+                {['gemini.google.com', 'youtube.com', 'feelgoodfoodie.net'].map((d) => (
+                  <span class="flex size-6 items-center justify-center rounded-full bg-white shadow-[0_1px_2px_rgba(0,0,0,0.1),0_0_0_1px_rgba(0,0,0,0.05)]">
+                    <FaviconTile domain={d} size={14} />
+                  </span>
+                ))}
+              </span>
+              <span
+                class="flex h-8 shrink-0 items-center rounded-3xl bg-default px-3 text-xs font-medium text-foreground"
+                >Restore all</span
+              >
+            </div>
+          </div>
+        </div>
+        <figcaption class="mt-4 text-sm leading-relaxed text-muted">
+          <b class="font-semibold text-foreground">Save and close every tab.</b>
+          One shortcut parks the whole window as a named session. Reopen it tomorrow, or next
+          month, exactly as it was.
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>

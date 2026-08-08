@@ -1,26 +1,36 @@
 ---
 import { APP_URL, CHROME_URL } from './data';
 
-const links = [
+const primary = [
+  { label: 'Extension', href: '/extension' },
   { label: 'Features', href: '/#features' },
   { label: 'Pricing', href: '/#pricing' },
-  { label: 'Blog', href: '/blog' },
-  { label: 'FAQ', href: '/faq' },
+  { label: 'Reviews', href: '/#reviews' },
 ];
+
+const resources = [
+  { label: 'Compare', href: '/compare', desc: 'Side-by-side tool comparisons' },
+  { label: 'Alternatives', href: '/alternatives', desc: 'Find the right replacement' },
+  { label: 'Free tools', href: '/tools', desc: 'Useful tools, no signup' },
+  { label: 'Prompt Gallery', href: '/prompt-gallery', desc: 'Copy-paste AI prompts' },
+  { label: 'FAQ', href: '/faq', desc: 'Answers about Marqly' },
+  { label: 'Blog', href: '/blog', desc: 'Guides and research' },
+];
+
+const help = { label: 'Help', href: 'https://help.marqly.com/' };
 ---
 
 <header class="sticky top-0 z-50 bg-background/85 backdrop-blur-md">
-  <nav
-    aria-label="Main"
-    class="mx-auto flex h-14 max-w-[1120px] items-center gap-6 px-5 md:px-8"
-  >
+  <nav aria-label="Main" class="mx-auto flex h-14 max-w-[1120px] items-center gap-5 px-5 md:px-8">
     <a href="/" class="flex items-center gap-2" aria-label="Marqly home">
       <img src="/landing/logo.svg" alt="" width="26" height="26" />
       <span class="text-[15px] font-semibold text-foreground">Marqly</span>
     </a>
-    <div class="ml-4 flex items-center gap-5 max-md:hidden">
+
+    <!-- Desktop links -->
+    <div class="ml-3 flex items-center gap-5 max-lg:hidden">
       {
-        links.map((l) => (
+        primary.map((l) => (
           <a
             href={l.href}
             class="text-sm font-medium text-muted transition-colors hover:text-foreground"
@@ -29,7 +39,56 @@ const links = [
           </a>
         ))
       }
+
+      <!-- Resources dropdown: opens on hover and on keyboard focus -->
+      <div class="group relative">
+        <button
+          type="button"
+          class="flex cursor-pointer items-center gap-1 text-sm font-medium text-muted transition-colors group-focus-within:text-foreground hover:text-foreground"
+        >
+          Resources
+          <svg
+            width="12"
+            height="12"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="transition-transform duration-200 group-focus-within:rotate-180 group-hover:rotate-180"
+            aria-hidden="true"><path d="m6 9.5 6 6 6-6"></path></svg
+          >
+        </button>
+        <div
+          class="pointer-events-none invisible absolute top-full left-1/2 w-[300px] -translate-x-1/2 pt-3 opacity-0 transition-all duration-150 group-focus-within:pointer-events-auto group-focus-within:visible group-focus-within:opacity-100 group-hover:pointer-events-auto group-hover:visible group-hover:opacity-100"
+        >
+          <div class="rounded-2xl bg-overlay p-2 shadow-overlay">
+            {
+              resources.map((r) => (
+                <a
+                  href={r.href}
+                  class="block rounded-xl px-3.5 py-2.5 transition-colors hover:bg-default/70"
+                >
+                  <span class="block text-sm font-medium text-foreground">{r.label}</span>
+                  <span class="block text-xs text-muted">{r.desc}</span>
+                </a>
+              ))
+            }
+            <div class="mx-3.5 my-1 border-t border-separator"></div>
+            <a
+              href={help.href}
+              target="_blank"
+              rel="noopener"
+              class="block rounded-xl px-3.5 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-default/70"
+            >
+              {help.label} ↗
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
+
     <div class="ml-auto flex items-center gap-2">
       <a
         href={APP_URL}
@@ -45,6 +104,68 @@ const links = [
       >
         Add to Chrome
       </a>
+
+      <!-- Mobile menu -->
+      <details class="mobile-menu relative lg:hidden">
+        <summary
+          class="flex size-9 cursor-pointer list-none items-center justify-center rounded-3xl text-foreground transition-colors hover:bg-default [&::-webkit-details-marker]:hidden"
+          aria-label="Menu"
+        >
+          <svg
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linecap="round"
+            aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg
+          >
+        </summary>
+        <div
+          class="absolute top-12 right-0 z-50 max-h-[calc(100vh-5rem)] w-[280px] overflow-y-auto rounded-2xl bg-overlay p-2 shadow-overlay"
+        >
+          {
+            primary.map((l) => (
+              <a
+                href={l.href}
+                class="block rounded-xl px-3.5 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-default/70"
+              >
+                {l.label}
+              </a>
+            ))
+          }
+          <div class="mx-3.5 my-1 border-t border-separator"></div>
+          <p class="px-3.5 pt-2 pb-1 text-[10px] font-semibold tracking-wider text-muted uppercase">
+            Resources
+          </p>
+          {
+            resources.map((r) => (
+              <a
+                href={r.href}
+                class="block rounded-xl px-3.5 py-2 text-sm font-medium text-foreground transition-colors hover:bg-default/70"
+              >
+                {r.label}
+              </a>
+            ))
+          }
+          <div class="mx-3.5 my-1 border-t border-separator"></div>
+          <a
+            href={help.href}
+            target="_blank"
+            rel="noopener"
+            class="block rounded-xl px-3.5 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-default/70"
+          >
+            Help ↗
+          </a>
+          <a
+            href={APP_URL}
+            class="block rounded-xl px-3.5 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-default/70 sm:hidden"
+          >
+            Sign in
+          </a>
+        </div>
+      </details>
     </div>
   </nav>
 </header>
