@@ -73,6 +73,16 @@
 /blog/search-bookmarks-by-meaning   /blog/how-to-search-bookmarks-with-ai   301
 /blog/search-bookmarks-by-meaning/  /blog/how-to-search-bookmarks-with-ai   301
 
+# 2026-08-08 Search Console 404 cleanup (real inbound URLs from the old
+# WordPress/Framer eras that currently dead-end):
+# /download carried extension-install intent; /sitemap_index.xml is the old
+# WordPress sitemap path probed by crawlers; /year is an old Framer one-off.
+/download          /extension          301
+/download/         /extension          301
+/sitemap_index.xml /sitemap-index.xml  301
+/year              /                   301
+/year/             /                   301
+
 # --- Trailing-slash normalisation. MUST STAY LAST: _redirects is first-match-wins,
 # and every explicit slashed rule above needs to win over this catch-all.
 #
