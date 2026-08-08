@@ -1,14 +1,26 @@
 ---
-import LandingLayout from '../layouts/LandingLayout.astro';
-import Breadcrumbs from '../components/seo/Breadcrumbs.astro';
-import CtaBox from '../components/seo/CtaBox.astro';
+/**
+ * /extension — redesigned end to end in the homepage's design system.
+ * SEO payload (title, description, canonical, og image, JSON-LD incl.
+ * breadcrumbs and the 4-question FAQPage) carried over unchanged.
+ * Every visual is a DOM reconstruction of real extension UI.
+ */
+import LandingV2 from '../layouts/LandingV2.astro';
 import { breadcrumbList, faqPage, organization, softwareApplication } from '../lib/schema';
 
-const CHROME =
-  'https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc';
-const EDGE =
-  'https://microsoftedge.microsoft.com/addons/detail/marqly-%E2%80%93-the-ultimate-boo/gojjglmdginjjpgajdnobmnkmcogngok';
-const FIREFOX = 'https://addons.mozilla.org/en-US/firefox/addon/marqly/';
+import Nav from '../components/landing/Nav.astro';
+import FooterV2 from '../components/landing/FooterV2.astro';
+import CloseSection from '../components/landing/CloseSection.astro';
+import MoreSection from '../components/landing/MoreSection.astro';
+import { BrowserFrame } from '../components/landing/BrowserFrame';
+import { PopupDemo } from '../components/landing/PopupDemo';
+import { SidePanelDemo } from '../components/landing/SidePanelDemo';
+import { SaveModal } from '../components/landing/SaveModal';
+import HighlighterDemo from '../components/landing/HighlighterDemo';
+import YouTubeShowcase from '../components/landing/YouTubeShowcase';
+import { NewTabDemo } from '../components/landing/demos';
+import { CheckIcon } from '../components/landing/icons';
+import { CHROME_URL, EDGE_URL, FIREFOX_URL } from '../components/landing/data';
 
 const title = 'Marqly Browser Extension — Every Feature';
 const description =
@@ -42,284 +54,401 @@ const jsonLd = [
   ]),
   faqPage(faqs),
 ];
+
+const browsers = [
+  {
+    name: 'Chrome',
+    tier: 'Full workspace',
+    features: [
+      'Everything: saving, search, boards',
+      'Marqly Home New Tab',
+      'Side panel + Clipboard History',
+      'AI chat capture, YouTube AI',
+      'Tab sessions, PDF, media tools',
+    ],
+    href: CHROME_URL,
+    cta: 'Install for Chrome',
+    primary: true,
+  },
+  {
+    name: 'Microsoft Edge',
+    tier: 'Full workspace',
+    features: [
+      'Everything: saving, search, boards',
+      'Marqly Home New Tab',
+      'Side panel + Clipboard History',
+      'AI chat capture, YouTube AI',
+      'Tab sessions, PDF, media tools',
+    ],
+    href: EDGE_URL,
+    cta: 'Install for Edge',
+    primary: false,
+  },
+  {
+    name: 'Firefox',
+    tier: 'Most features',
+    features: [
+      'Saving, search, boards, highlights',
+      'Marqly Home New Tab',
+      'AI chat capture, YouTube AI',
+      'Tab sessions',
+      'PDF via the browser print flow',
+    ],
+    href: FIREFOX_URL,
+    cta: 'Install for Firefox',
+    primary: false,
+  },
+  {
+    name: 'Safari',
+    tier: 'Core features',
+    features: [
+      'Saving, organizing, and search',
+      'Highlights and notes',
+      'YouTube tools, tab saving',
+      'PDF via the browser print flow',
+      'Syncs with the iOS app',
+    ],
+    href: null,
+    cta: null,
+    primary: false,
+  },
+];
 ---
 
-<LandingLayout
+<LandingV2
   title={title}
   description={description}
   canonical="https://www.marqly.com/extension"
   ogImage="https://www.marqly.com/og/seo/extension.png"
   jsonLd={jsonLd}
 >
-  <section class="extension-hero section">
-    <div class="container">
-      <Breadcrumbs items={[{ name: 'Home', path: '/' }, { name: 'Browser extension', path: '/extension' }]} />
-      <div class="hero-grid">
-        <div>
-          <span class="eyebrow"><span class="dot"></span> Browser extension</span>
-          <h1>One extension.<br />Your browser workspace.</h1>
-          <p class="hero-copy">
-            Marqly is more than a save button. It turns your New Tab page, copied text,
-            highlights, AI conversations, videos, and open tabs into one organized workspace.
-          </p>
-          <div class="hero-actions">
-            <a class="btn btn--primary btn--lg" href={CHROME} target="_blank" rel="noopener">Add to Chrome <span aria-hidden="true">→</span></a>
-            <a class="btn btn--outline btn--lg" href="#availability">Check browser support</a>
-          </div>
-          <p class="hero-note">Free to install · Chrome, Edge, Firefox, and Safari</p>
+  <Nav slot="nav" />
+
+  <!-- Hero: the popup, where it actually lives — dropped from the toolbar -->
+  <section class="relative overflow-hidden">
+    <div aria-hidden class="pointer-events-none absolute inset-0">
+      <img
+        src="/landing/hero-clouds.jpg"
+        alt=""
+        class="h-full w-full object-cover object-[50%_20%]"
+      />
+      <div
+        class="absolute inset-0"
+        style="background: linear-gradient(180deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.25) 45%, rgba(255,255,255,0.9) 100%)"
+      >
+      </div>
+    </div>
+
+    <div class="relative mx-auto max-w-[1120px] px-5 pt-10 pb-20 md:px-8 md:pt-12 md:pb-28">
+      <nav aria-label="Breadcrumb" class="text-[12px] text-foreground/60">
+        <a href="/" class="hover:text-foreground">Home</a>
+        <span aria-hidden> / </span>
+        <span class="text-foreground/80">Browser extension</span>
+      </nav>
+
+      <div class="mx-auto mt-8 max-w-[720px] text-center">
+        <p class="text-[11px] font-semibold tracking-[0.16em] text-foreground/70 uppercase">
+          Browser extension
+        </p>
+        <h1
+          class="font-display mt-4 text-[clamp(2.4rem,6vw,4rem)] leading-[1.05] font-medium tracking-[-0.015em] text-foreground"
+        >
+          One extension.<br />
+          Your browser <em class="mark-stroke">workspace.</em>
+        </h1>
+        <p class="mx-auto mt-6 max-w-[560px] text-[17px] leading-relaxed text-[#4b4b53]">
+          Marqly is more than a save button. It turns your New Tab page, copied text, highlights,
+          AI conversations, videos, and open tabs into one organized workspace.
+        </p>
+        <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
+          <a
+            href={CHROME_URL}
+            target="_blank"
+            rel="noopener"
+            class="flex h-11 items-center rounded-3xl bg-accent px-6 text-[15px] font-medium text-accent-foreground shadow-custom transition-transform active:scale-[0.97]"
+          >
+            Add to Chrome, it's free
+          </a>
+          <a
+            href="#availability"
+            class="flex h-11 items-center rounded-3xl bg-white px-5 text-[15px] font-medium text-foreground shadow-surface transition-colors hover:bg-white/80"
+          >
+            Check browser support
+          </a>
         </div>
-        <div class="workspace-demo" aria-label="Illustration of Marqly's extension workspaces">
-          <div class="demo-nav">
-            <span class="demo-dot is-active"></span><span class="demo-dot"></span><span class="demo-dot"></span><span class="demo-dot"></span>
-          </div>
-          <div class="demo-main">
-            <span class="demo-kicker">MARQLY HOME</span>
-            <strong>Good morning.</strong>
-            <div class="demo-search">Search everything <kbd>⌘ K</kbd></div>
-            <div class="demo-widgets">
-              <span>Quick links</span><span>Notes</span><span>To-dos</span>
+        <p class="mt-5 text-[12px] text-foreground/70">
+          Free to install · Chrome · Edge · Firefox · Safari
+        </p>
+      </div>
+
+      <!-- The popup, over the page you're reading -->
+      <div class="mx-auto mt-12 max-w-[860px] md:mt-16">
+        <BrowserFrame url="feelgoodfoodie.net/recipe/best-hummus">
+          <div class="relative h-[430px] overflow-hidden bg-background">
+            <div aria-hidden class="h-full px-8 pt-8 opacity-60 sm:px-14">
+              <div class="mx-auto max-w-[560px]">
+                <span class="text-[11px] text-muted">feelgoodfoodie.net · Recipes</span>
+                <p
+                  class="font-display mt-3 text-[28px] leading-tight font-medium text-foreground sm:text-3xl"
+                >
+                  The Hummus I Make Every Week
+                </p>
+                <p class="mt-2 text-[11px] text-muted/80">5 ingredients · 10 minutes</p>
+                <div class="mt-5 space-y-2.5 text-[13px] leading-relaxed text-muted/90">
+                  <p>
+                    Chickpeas, tahini, lemon, garlic, and ice-cold water. Authentic Lebanese hummus
+                    needs nothing else, and the blender does most of the work.
+                  </p>
+                  <p>
+                    The cold water is the trick: streamed in while blending, it whips the tahini
+                    and turns the whole bowl pale, light, and impossibly smooth.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="absolute top-4 right-4 sm:right-10">
+              <PopupDemo />
             </div>
           </div>
-          <div class="demo-side">
-            <strong>Clipboard</strong>
-            <p>Ideas worth keeping…</p>
-            <p>Research notes…</p>
+        </BrowserFrame>
+        <p class="mt-4 text-center text-[12px] text-muted/90">
+          One click on the toolbar. Everything the extension does starts here.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Save dialog + side panel -->
+  <section class="bg-surface py-20 md:py-28">
+    <div class="mx-auto max-w-[1120px] px-5 md:px-8">
+      <div class="max-w-[600px]" data-reveal>
+        <p class="text-[11px] font-semibold tracking-[0.16em] text-muted uppercase">
+          Save and browse
+        </p>
+        <h2
+          class="font-display mt-3 text-[clamp(1.9rem,4vw,2.9rem)] leading-[1.1] font-medium tracking-[-0.01em] text-foreground"
+        >
+          The AI files it.<br />The panel keeps it close.
+        </h2>
+        <p class="mt-4 max-w-[520px] text-[16px] leading-relaxed text-muted">
+          Saving picks the board and tags for you. The side panel keeps your whole library one
+          click from the page you're reading.
+        </p>
+      </div>
+
+      <div class="mt-10 grid items-stretch gap-5 md:grid-cols-2 md:gap-6">
+        <figure class="flex flex-col" data-reveal>
+          <div
+            class="flex flex-1 items-center justify-center rounded-3xl p-5 py-10 sm:p-8 sm:py-12"
+            style="background: color-mix(in oklab, var(--hl-blue) 30%, white)"
+          >
+            <SaveModal
+              phase="suggested"
+              url="asana.com"
+              title="Asana: The OS for human-agent teams"
+              boardEmoji="🚀"
+              boardName="Side projects"
+              tags={['productivity', 'work', 'saas']}
+            />
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
+          <figcaption class="mt-4 text-sm leading-relaxed text-muted">
+            <b class="font-semibold text-foreground">One click, zero filing.</b>
+            Board picked, tags suggested, before the dialog closes.
+          </figcaption>
+        </figure>
 
-  <section class="section feature-section" aria-labelledby="daily-h2">
-    <div class="container">
-      <header class="section-head">
-        <span class="eyebrow"><span class="dot"></span> Everyday workspace</span>
-        <h2 id="daily-h2">The useful parts of your browser, finally connected</h2>
-        <p>Each feature solves a small daily problem. Together, they keep useful context from disappearing.</p>
-      </header>
-
-      <div class="feature-grid">
-        <article class="feature-card feature-card--wide">
-          <span class="feature-number">01</span>
-          <div>
-            <p class="feature-label">Chrome · Edge · Firefox</p>
-            <h3>Marqly Home for every New Tab</h3>
-            <p>Search your library, launch quick links, create folders, and arrange shortcuts with drag and drop. Add backgrounds, weather, notes, to-dos, desktop stickies, and saved browsing sessions without opening another app.</p>
+        <figure class="flex flex-col" data-reveal style="--reveal-delay: 70ms">
+          <div
+            class="flex flex-1 items-center justify-center rounded-3xl p-5 py-10 sm:p-8 sm:py-12"
+            style="background: color-mix(in oklab, var(--hl-purple) 26%, white)"
+          >
+            <SidePanelDemo />
           </div>
-          <div class="mini-ui newtab-ui" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
-        </article>
-
-        <article class="feature-card">
-          <span class="feature-number">02</span>
-          <p class="feature-label">Chrome · Edge</p>
-          <h3>Clipboard History</h3>
-          <p>Keep text copied from webpages, then search, filter, favorite, pin, and tag it. Pro adds account sync for clipboard items.</p>
-          <a href="/faq/does-marqly-have-clipboard-history">How Clipboard History works →</a>
-        </article>
-
-        <article class="feature-card">
-          <span class="feature-number">03</span>
-          <p class="feature-label">Chrome · Edge · Firefox</p>
-          <h3>Save AI conversations</h3>
-          <p>Capture useful chats from ChatGPT, Claude, and Gemini. Your saved conversations stay together in the extension's AI Chats workspace.</p>
-          <a href="/faq/can-i-save-chatgpt-claude-gemini-conversations">See supported AI chats →</a>
-        </article>
-
-        <article class="feature-card">
-          <span class="feature-number">04</span>
-          <p class="feature-label">All supported browsers</p>
-          <h3>Highlights and notes</h3>
-          <p>Select text on any webpage, choose one of six colors, and add a note. Marqly restores the highlight when you return and keeps it with your library.</p>
-          <a href="/web-highlighter">Explore the web highlighter →</a>
-        </article>
-
-        <article class="feature-card">
-          <span class="feature-number">05</span>
-          <p class="feature-label">Chrome · Edge</p>
-          <h3>Side panel library</h3>
-          <p>Browse bookmarks, clipboard items, highlights, and AI chats next to the page you're viewing—without breaking your flow.</p>
-        </article>
+          <figcaption class="mt-4 text-sm leading-relaxed text-muted">
+            <b class="font-semibold text-foreground">Side panel library.</b>
+            Bookmarks, clipboard, highlights, and AI chats next to the page. Chrome and Edge.
+          </figcaption>
+        </figure>
       </div>
     </div>
   </section>
 
-  <section class="section depth-section" aria-labelledby="depth-h2">
-    <div class="container">
-      <header class="section-head">
-        <span class="eyebrow"><span class="dot"></span> Capture more than links</span>
-        <h2 id="depth-h2">Keep the context, not just the URL</h2>
-      </header>
-      <div class="detail-grid">
-        <article>
-          <span class="detail-icon">▶</span>
-          <h3>YouTube AI, on the watch page</h3>
-          <p>Read a streaming summary, open key sections, see books mentioned, chat with the transcript, or copy the playback-synced transcript. Save the video with its transcript attached.</p>
-          <a href="/youtube-summarizer">Explore YouTube AI →</a>
-        </article>
-        <article>
-          <span class="detail-icon">↗</span>
-          <h3>Save, close, and restore tab sessions</h3>
-          <p>Save all open tabs in one action, close the window to reclaim memory, and reopen a session when you need it. Undo is there if you change your mind.</p>
-          <a href="/faq/how-do-i-save-all-my-open-tabs">How tab saving works →</a>
-        </article>
-        <article>
-          <span class="detail-icon">PDF</span>
-          <h3>Export a webpage as PDF</h3>
-          <p>Chrome and Edge create a screen-faithful PDF locally in the browser. Firefox and Safari use the browser's print-to-PDF flow as a fallback.</p>
-          <a href="/faq/how-do-i-save-a-page-as-pdf">Save pages as PDF →</a>
-        </article>
-        <article>
-          <span class="detail-icon">⌕</span>
-          <h3>Search and organize from anywhere</h3>
-          <p>Search by text or meaning, browse boards and tags, use the <code>my</code> address-bar keyword, and open common actions with keyboard shortcuts.</p>
-          <a href="/faq/what-is-semantic-search">About semantic search →</a>
-        </article>
-        <article>
-          <span class="detail-icon">⇣</span>
-          <h3>Bring your existing library</h3>
-          <p>Import standard browser bookmark files, Pocket exports, and Raindrop collections. Marqly can also capture saved X/Twitter bookmarks.</p>
-          <a href="/faq/how-do-i-import-chrome-bookmarks">See import options →</a>
-        </article>
-        <article>
-          <span class="detail-icon">♪</span>
-          <h3>Page media tools</h3>
-          <p>On Chrome and Edge, Marqly can detect downloadable video or audio exposed by the page and offer it alongside the PDF action when the site supports it.</p>
-        </article>
+  <!-- YouTube AI, full width -->
+  <section class="py-20 md:py-28">
+    <div class="mx-auto max-w-[1120px] px-5 md:px-8">
+      <div class="max-w-[600px]" data-reveal>
+        <p class="text-[11px] font-semibold tracking-[0.16em] text-muted uppercase">
+          On the watch page
+        </p>
+        <h2
+          class="font-display mt-3 text-[clamp(1.9rem,4vw,2.9rem)] leading-[1.1] font-medium tracking-[-0.01em] text-foreground"
+        >
+          YouTube, summarized<br />where you watch it.
+        </h2>
+      </div>
+      <figure class="mt-10" data-reveal>
+        <YouTubeShowcase client:visible />
+        <figcaption class="mt-4 max-w-[640px] text-sm leading-relaxed text-muted">
+          <b class="font-semibold text-foreground">The AI card sits beside the player.</b>
+          Streaming summary, chat over the transcript, playback-synced timestamps. Save the video
+          and all of it stays searchable. <a
+            href="/youtube-summarizer"
+            class="font-medium text-foreground underline underline-offset-2">More on YouTube AI</a
+          >
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Highlighter + Marqly Home -->
+  <section class="bg-surface py-20 md:py-28">
+    <div class="mx-auto max-w-[1120px] px-5 md:px-8">
+      <div class="max-w-[600px]" data-reveal>
+        <p class="text-[11px] font-semibold tracking-[0.16em] text-muted uppercase">
+          Read and return
+        </p>
+        <h2
+          class="font-display mt-3 text-[clamp(1.9rem,4vw,2.9rem)] leading-[1.1] font-medium tracking-[-0.01em] text-foreground"
+        >
+          Mark the page.<br />Own the new tab.
+        </h2>
+      </div>
+
+      <div class="mt-10 grid items-stretch gap-5 md:grid-cols-2 md:gap-6">
+        <figure class="flex flex-col" data-reveal>
+          <div
+            class="flex flex-1 items-center justify-center rounded-3xl p-5 py-10 sm:p-8 sm:py-12"
+            style="background: color-mix(in oklab, var(--hl-mint) 30%, white)"
+          >
+            <HighlighterDemo client:visible />
+          </div>
+          <figcaption class="mt-4 text-sm leading-relaxed text-muted">
+            <b class="font-semibold text-foreground">Highlights that survive.</b>
+            Six markers with notes, restored on every revisit, synced to your library.
+            <a href="/web-highlighter" class="font-medium text-foreground underline underline-offset-2"
+              >About the highlighter</a
+            >
+          </figcaption>
+        </figure>
+
+        <figure class="flex flex-col" data-reveal style="--reveal-delay: 70ms">
+          <div class="aspect-auto flex-1">
+            <NewTabDemo />
+          </div>
+          <figcaption class="mt-4 text-sm leading-relaxed text-muted">
+            <b class="font-semibold text-foreground">Marqly Home.</b>
+            New Tab becomes library search, quick links, notes, to-dos, and saved sessions.
+            Chrome, Edge, and Firefox.
+          </figcaption>
+        </figure>
       </div>
     </div>
   </section>
 
-  <section class="section availability-section" id="availability" aria-labelledby="availability-h2">
-    <div class="container">
-      <header class="section-head">
-        <span class="eyebrow"><span class="dot"></span> Browser availability</span>
-        <h2 id="availability-h2">Choose your browser</h2>
-        <p>The essentials work everywhere. Browser-specific APIs make a few workspace features different.</p>
-      </header>
-      <div class="browser-grid">
-        <article class="browser-card browser-card--primary">
-          <span class="browser-status">Full workspace</span>
-          <h3>Chrome</h3>
-          <p>Core saving, New Tab, side panel, Clipboard History, AI chat capture, highlights, YouTube AI, tab sessions, PDF, and supported media tools.</p>
-          <a class="btn btn--dark btn--sm" href={CHROME} target="_blank" rel="noopener">Install for Chrome</a>
-        </article>
-        <article class="browser-card browser-card--primary">
-          <span class="browser-status">Full workspace</span>
-          <h3>Microsoft Edge</h3>
-          <p>Core saving, New Tab, side panel, Clipboard History, AI chat capture, highlights, YouTube AI, tab sessions, PDF, and supported media tools.</p>
-          <a class="btn btn--outline btn--sm" href={EDGE} target="_blank" rel="noopener">Install for Edge</a>
-        </article>
-        <article class="browser-card">
-          <span class="browser-status">Most features</span>
-          <h3>Firefox</h3>
-          <p>Core saving, New Tab, AI chat capture, highlights, YouTube AI, tab sessions, imports, and print-to-PDF. Uses the toolbar popup instead of the Chrome side panel.</p>
-          <a class="btn btn--outline btn--sm" href={FIREFOX} target="_blank" rel="noopener">Install for Firefox</a>
-        </article>
-        <article class="browser-card">
-          <span class="browser-status">Core features</span>
-          <h3>Safari</h3>
-          <p>Core saving, organization, highlights, YouTube tools, tab saving, and print-to-PDF. New Tab, Clipboard History, side panel, and AI chat capture are not currently available.</p>
-        </article>
+  <!-- Clipboard History + tab sessions (shared with home) -->
+  <MoreSection />
+
+  <!-- Browser availability -->
+  <section id="availability" class="py-20 md:py-28">
+    <div class="mx-auto max-w-[1120px] px-5 md:px-8">
+      <div class="max-w-[600px]" data-reveal>
+        <p class="text-[11px] font-semibold tracking-[0.16em] text-muted uppercase">
+          Browser availability
+        </p>
+        <h2
+          class="font-display mt-3 text-[clamp(1.9rem,4vw,2.9rem)] leading-[1.1] font-medium tracking-[-0.01em] text-foreground"
+        >
+          Choose your browser.
+        </h2>
+        <p class="mt-4 max-w-[520px] text-[16px] leading-relaxed text-muted">
+          The essentials work everywhere. Browser-specific APIs make a few workspace features
+          different.
+        </p>
+      </div>
+
+      <div class="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        {
+          browsers.map((b, i) => (
+            <div
+              class="flex flex-col rounded-3xl bg-surface p-6 shadow-surface"
+              data-reveal
+              style={`--reveal-delay: ${i * 60}ms`}
+            >
+              <p class="text-[10px] font-semibold tracking-wider text-muted uppercase">{b.tier}</p>
+              <h3 class="mt-1 text-lg font-semibold text-foreground">{b.name}</h3>
+              <ul class="mt-4 flex-1 space-y-2">
+                {b.features.map((f) => (
+                  <li class="flex items-start gap-2 text-[13px] leading-snug text-foreground/80">
+                    <CheckIcon size={13} className="mt-0.5 shrink-0 text-muted" />
+                    {f}
+                  </li>
+                ))}
+              </ul>
+              {b.href ? (
+                <a
+                  href={b.href}
+                  target="_blank"
+                  rel="noopener"
+                  class={`mt-5 flex h-10 items-center justify-center rounded-3xl text-sm font-medium transition-transform active:scale-[0.97] ${
+                    b.primary
+                      ? 'bg-accent text-accent-foreground'
+                      : 'bg-default text-foreground hover:bg-default/70'
+                  }`}
+                >
+                  {b.cta}
+                </a>
+              ) : (
+                <span class="mt-5 flex h-10 items-center justify-center rounded-3xl bg-default/50 text-sm font-medium text-muted">
+                  Ships with the iOS app
+                </span>
+              )}
+            </div>
+          ))
+        }
       </div>
     </div>
   </section>
 
-  <section class="section faq-section" aria-labelledby="extension-faq-h2">
-    <div class="container narrow">
-      <header class="section-head"><h2 id="extension-faq-h2">Extension questions</h2></header>
-      <div class="faq-list">
-        {faqs.map((faq) => (
-          <details>
-            <summary>{faq.q}<span aria-hidden="true">+</span></summary>
-            <p>{faq.a}</p>
-          </details>
-        ))}
+  <!-- Extension FAQ -->
+  <section class="bg-surface py-20 md:py-28">
+    <div class="mx-auto max-w-[1120px] px-5 md:px-8">
+      <div class="max-w-[600px]" data-reveal>
+        <p class="text-[11px] font-semibold tracking-[0.16em] text-muted uppercase">FAQ</p>
+        <h2
+          class="font-display mt-3 text-[clamp(1.9rem,4vw,2.9rem)] leading-[1.1] font-medium tracking-[-0.01em] text-foreground"
+        >
+          Extension questions.
+        </h2>
       </div>
-      <CtaBox heading="Make your browser remember more" sub="Install Marqly free and keep the useful parts of every browsing session." />
+      <div class="mt-10 max-w-[760px]">
+        {
+          faqs.map((f) => (
+            <details class="faq-item group border-b border-separator">
+              <summary class="flex cursor-pointer list-none items-center justify-between gap-4 py-4 text-[15px] font-medium text-foreground [&::-webkit-details-marker]:hidden">
+                {f.q}
+                <span class="shrink-0 text-muted transition-transform duration-200 group-open:rotate-45">
+                  <svg
+                    width="15"
+                    height="15"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 5.5v13M5.5 12h13" />
+                  </svg>
+                </span>
+              </summary>
+              <div class="pb-5 text-sm leading-relaxed text-muted">{f.a}</div>
+            </details>
+          ))
+        }
+      </div>
     </div>
   </section>
-</LandingLayout>
 
-<style>
-  .extension-hero { overflow: hidden; background: radial-gradient(circle at 82% 20%, rgba(0,122,255,.12), transparent 34%), var(--surface-1); }
-  .hero-grid { display: grid; grid-template-columns: 1.02fr .98fr; align-items: center; gap: clamp(3rem, 7vw, 7rem); padding-block: clamp(3rem, 8vw, 7rem); }
-  h1 { margin-top: var(--space-5); max-width: 760px; font-size: clamp(3rem, 6.6vw, 6rem); line-height: .96; letter-spacing: -.06em; }
-  .hero-copy { max-width: 650px; margin-top: var(--space-6); font-size: clamp(1.05rem, 1.5vw, 1.25rem); }
-  .hero-actions { display: flex; flex-wrap: wrap; gap: var(--space-3); margin-top: var(--space-7); }
-  .hero-note { margin-top: var(--space-3); font-size: var(--fs-xs); color: var(--ink-4); }
-  .workspace-demo { position: relative; min-height: 440px; border: 1px solid rgba(13,24,45,.12); border-radius: 28px; background: #f8faff; box-shadow: 0 32px 80px rgba(29,58,112,.18); overflow: hidden; transform: rotate(1.5deg); }
-  .demo-nav { position: absolute; inset: 0 auto 0 0; width: 64px; display: flex; flex-direction: column; align-items: center; gap: 17px; padding-top: 30px; background: #111827; }
-  .demo-dot { width: 18px; height: 18px; border-radius: 6px; background: rgba(255,255,255,.25); }
-  .demo-dot.is-active { background: #77a7ff; box-shadow: 0 0 0 5px rgba(119,167,255,.14); }
-  .demo-main { margin-left: 64px; padding: 70px 38px; }
-  .demo-kicker { display: block; font-size: 10px; font-weight: 700; letter-spacing: .12em; color: var(--accent); }
-  .demo-main strong { display: block; margin-top: 9px; color: var(--ink-1); font-size: 34px; letter-spacing: -.04em; }
-  .demo-search { display: flex; justify-content: space-between; margin-top: 28px; padding: 15px 17px; border: 1px solid var(--border-1); border-radius: 14px; background: white; color: var(--ink-4); }
-  .demo-search kbd { font: inherit; font-size: 11px; color: var(--ink-3); }
-  .demo-widgets { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 16px; }
-  .demo-widgets span { min-height: 80px; padding: 14px; border-radius: 14px; background: #eaf1ff; color: var(--ink-2); font-size: 12px; }
-  .demo-side { position: absolute; right: 20px; bottom: 20px; width: 54%; padding: 18px; border: 1px solid var(--border-1); border-radius: 16px; background: rgba(255,255,255,.94); box-shadow: 0 15px 45px rgba(28,43,73,.16); }
-  .demo-side strong { color: var(--ink-1); }
-  .demo-side p { margin-top: 8px; padding: 8px 10px; border-radius: 8px; background: var(--surface-2); font-size: 11px; }
-
-  .feature-section { background: var(--surface-2); }
-  .section-head { max-width: 760px; margin-bottom: var(--space-10); }
-  .section-head h2 { margin-top: var(--space-4); font-size: clamp(2.2rem, 4vw, 4rem); }
-  .section-head > p { margin-top: var(--space-4); max-width: 640px; font-size: 1.05rem; }
-  .feature-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-4); }
-  .feature-card { position: relative; min-height: 270px; padding: clamp(1.5rem, 3vw, 2.5rem); border: 1px solid var(--border-1); border-radius: 24px; background: var(--surface-1); overflow: hidden; }
-  .feature-card--wide { grid-column: 1 / -1; display: grid; grid-template-columns: 1.2fr .8fr; gap: var(--space-8); min-height: 330px; }
-  .feature-number { position: absolute; top: 22px; right: 24px; color: var(--ink-4); font-size: var(--fs-xs); }
-  .feature-label { color: var(--accent); font-size: var(--fs-xs); font-weight: 600; text-transform: uppercase; letter-spacing: .08em; }
-  .feature-card h3 { margin-top: var(--space-3); max-width: 520px; font-size: clamp(1.45rem, 2.3vw, 2.25rem); }
-  .feature-card p:not(.feature-label) { max-width: 620px; margin-top: var(--space-4); }
-  .feature-card a, .detail-grid a { display: inline-block; margin-top: var(--space-5); color: var(--ink-1); font-size: var(--fs-sm); font-weight: 600; }
-  .mini-ui { align-self: end; min-height: 210px; padding: 22px; border-radius: 18px 18px 0 0; background: linear-gradient(145deg,#eef4ff,#fff); box-shadow: 0 16px 40px rgba(30,67,128,.13); }
-  .mini-ui span { display: block; height: 22px; margin-bottom: 12px; border-radius: 7px; background: white; box-shadow: 0 2px 12px rgba(30,67,128,.08); }
-  .mini-ui span:first-child { width: 72%; height: 42px; background: #dce8ff; }
-  .mini-ui span:nth-child(3) { width: 84%; }
-
-  .depth-section { background: #10131b; }
-  .depth-section .eyebrow { color: white; background: rgba(255,255,255,.08); border-color: rgba(255,255,255,.15); }
-  .depth-section h2 { color: white; }
-  .detail-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; overflow: hidden; border: 1px solid rgba(255,255,255,.13); border-radius: 24px; background: rgba(255,255,255,.13); }
-  .detail-grid article { min-height: 300px; padding: clamp(1.4rem, 3vw, 2.3rem); background: #151923; }
-  .detail-icon { display: inline-flex; min-width: 42px; height: 42px; align-items: center; justify-content: center; padding-inline: 9px; border-radius: 11px; background: rgba(119,167,255,.14); color: #9bc0ff; font-size: 13px; font-weight: 700; }
-  .detail-grid h3 { margin-top: var(--space-7); color: white; font-size: 1.35rem; }
-  .detail-grid p { margin-top: var(--space-3); color: #aeb5c4; font-size: var(--fs-sm); }
-  .detail-grid a { color: #bad2ff; }
-  .detail-grid code { font-family: var(--font-mono); color: #dbe8ff; }
-
-  .availability-section { background: var(--surface-2); }
-  .browser-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--space-4); }
-  .browser-card { padding: var(--space-6); border: 1px solid var(--border-1); border-radius: 20px; background: var(--surface-1); }
-  .browser-card--primary { border-color: rgba(0,122,255,.25); box-shadow: inset 0 3px 0 var(--accent); }
-  .browser-status { color: var(--accent); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
-  .browser-card h3 { margin-top: var(--space-3); font-size: 1.5rem; }
-  .browser-card p { min-height: 170px; margin-top: var(--space-3); font-size: var(--fs-sm); }
-
-  .narrow { max-width: 900px; }
-  .faq-list { border-top: 1px solid var(--border-1); margin-bottom: var(--space-12); }
-  .faq-list details { border-bottom: 1px solid var(--border-1); }
-  .faq-list summary { display: flex; justify-content: space-between; gap: var(--space-4); padding: var(--space-5) 0; color: var(--ink-1); font-weight: 600; cursor: pointer; list-style: none; }
-  .faq-list summary::-webkit-details-marker { display: none; }
-  .faq-list details p { padding: 0 0 var(--space-5); max-width: 760px; }
-
-  @media (max-width: 1000px) {
-    .hero-grid { grid-template-columns: 1fr; }
-    .workspace-demo { width: min(100%, 680px); }
-    .detail-grid { grid-template-columns: repeat(2, 1fr); }
-    .browser-grid { grid-template-columns: repeat(2, 1fr); }
-    .browser-card p { min-height: 120px; }
-  }
-  @media (max-width: 660px) {
-    .workspace-demo { min-height: 350px; }
-    .demo-main { padding: 52px 20px; }
-    .demo-main strong { font-size: 26px; }
-    .demo-widgets span:nth-child(3) { display: none; }
-    .demo-widgets { grid-template-columns: repeat(2, 1fr); }
-    .feature-grid, .detail-grid, .browser-grid { grid-template-columns: 1fr; }
-    .feature-card--wide { grid-column: auto; grid-template-columns: 1fr; }
-    .browser-card p { min-height: 0; }
-  }
-</style>
+  <CloseSection />
+  <FooterV2 slot="footer" />
+</LandingV2>

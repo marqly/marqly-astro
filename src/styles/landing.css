@@ -16,6 +16,7 @@
 @source "../components/landing";
 @source "../layouts/LandingV2.astro";
 @source "../pages/index.astro";
+@source "../pages/extension.astro";
 
 /* -------------------------------------------------------------- fonts --- */
 /* Google Sans — the product's font, self-hosted from Google Fonts (v70,
