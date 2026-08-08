@@ -15,7 +15,7 @@ type Tab = (typeof TABS)[number];
 
 const EASE = [0.32, 0.72, 0, 1] as const;
 
-export default function YouTubeShowcase() {
+export default function YouTubeShowcase({ bare = false }: { bare?: boolean }) {
   const [tab, setTab] = useState<Tab>('Summary');
   const [pinned, setPinned] = useState(false);
   const reduce = useReducedMotion();
@@ -46,8 +46,8 @@ export default function YouTubeShowcase() {
   return (
     <div
       ref={rootRef}
-      className="rounded-3xl p-4 sm:p-6"
-      style={{ background: 'color-mix(in oklab, var(--hl-coral) 24%, white)' }}
+      className={bare ? '' : 'rounded-3xl p-4 sm:p-6'}
+      style={bare ? undefined : { background: 'color-mix(in oklab, var(--hl-coral) 24%, white)' }}
     >
       <div className="grid items-stretch gap-4 md:grid-cols-[1.1fr_1fr] md:gap-5">
         {/* The real video, as the watch page shows it */}

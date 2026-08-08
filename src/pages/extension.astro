@@ -20,7 +20,7 @@ import HighlighterDemo from '../components/landing/HighlighterDemo';
 import YouTubeShowcase from '../components/landing/YouTubeShowcase';
 import { NewTabDemo } from '../components/landing/demos';
 import { CheckIcon } from '../components/landing/icons';
-import { CHROME_URL, EDGE_URL, FIREFOX_URL } from '../components/landing/data';
+import { APP_URL, CHROME_URL, EDGE_URL, FIREFOX_URL } from '../components/landing/data';
 
 const title = 'Marqly Browser Extension — Every Feature';
 const description =
@@ -58,6 +58,7 @@ const jsonLd = [
 const browsers = [
   {
     name: 'Chrome',
+    logo: '/landing/browsers/chrome.png',
     tier: 'Full workspace',
     features: [
       'Everything: saving, search, boards',
@@ -72,6 +73,7 @@ const browsers = [
   },
   {
     name: 'Microsoft Edge',
+    logo: '/landing/browsers/edge.png',
     tier: 'Full workspace',
     features: [
       'Everything: saving, search, boards',
@@ -86,6 +88,7 @@ const browsers = [
   },
   {
     name: 'Firefox',
+    logo: '/landing/browsers/firefox.png',
     tier: 'Most features',
     features: [
       'Saving, search, boards, highlights',
@@ -100,6 +103,7 @@ const browsers = [
   },
   {
     name: 'Safari',
+    logo: '/landing/browsers/safari.png',
     tier: 'Core features',
     features: [
       'Saving, organizing, and search',
@@ -126,17 +130,15 @@ const browsers = [
 
   <!-- Hero: the popup, where it actually lives — dropped from the toolbar -->
   <section class="relative overflow-hidden">
-    <div aria-hidden class="pointer-events-none absolute inset-0">
-      <img
-        src="/landing/hero-clouds.jpg"
-        alt=""
-        class="h-full w-full object-cover object-[50%_20%]"
-      />
-      <div
-        class="absolute inset-0"
-        style="background: linear-gradient(180deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.25) 45%, rgba(255,255,255,0.9) 100%)"
-      >
-      </div>
+    <div
+      aria-hidden
+      class="pointer-events-none absolute inset-0"
+      style="background:
+        radial-gradient(58% 42% at 16% 4%, color-mix(in oklab, var(--hl-blue) 52%, transparent) 0%, transparent 62%),
+        radial-gradient(52% 38% at 84% 2%, color-mix(in oklab, var(--hl-purple) 40%, transparent) 0%, transparent 60%),
+        radial-gradient(64% 44% at 55% 26%, color-mix(in oklab, var(--hl-mint) 26%, transparent) 0%, transparent 66%),
+        linear-gradient(180deg, var(--background) 0%, #ffffff 100%)"
+    >
     </div>
 
     <div class="relative mx-auto max-w-[1120px] px-5 pt-10 pb-20 md:px-8 md:pt-12 md:pb-28">
@@ -170,10 +172,10 @@ const browsers = [
             Add to Chrome, it's free
           </a>
           <a
-            href="#availability"
+            href={APP_URL}
             class="flex h-11 items-center rounded-3xl bg-white px-5 text-[15px] font-medium text-foreground shadow-surface transition-colors hover:bg-white/80"
           >
-            Check browser support
+            Sign up to Marqly
           </a>
         </div>
         <p class="mt-5 text-[12px] text-foreground/70">
@@ -240,20 +242,21 @@ const browsers = [
         <figure class="flex flex-col" data-reveal>
           <div
             class="flex flex-1 items-center justify-center rounded-3xl p-5 py-10 sm:p-8 sm:py-12"
-            style="background: color-mix(in oklab, var(--hl-blue) 30%, white)"
+            style="background: color-mix(in oklab, var(--hl-yellow) 34%, white)"
           >
             <SaveModal
-              phase="suggested"
+              phase="thinking"
               url="asana.com"
               title="Asana: The OS for human-agent teams"
               boardEmoji="🚀"
               boardName="Side projects"
               tags={['productivity', 'work', 'saas']}
+              className="min-h-[430px]"
             />
           </div>
           <figcaption class="mt-4 text-sm leading-relaxed text-muted">
-            <b class="font-semibold text-foreground">One click, zero filing.</b>
-            Board picked, tags suggested, before the dialog closes.
+            <b class="font-semibold text-foreground">Caught mid-thought.</b>
+            The AI is finding the board and writing the tags while the dialog is still open.
           </figcaption>
         </figure>
 
@@ -262,7 +265,7 @@ const browsers = [
             class="flex flex-1 items-center justify-center rounded-3xl p-5 py-10 sm:p-8 sm:py-12"
             style="background: color-mix(in oklab, var(--hl-purple) 26%, white)"
           >
-            <SidePanelDemo />
+            <SidePanelDemo className="min-h-[430px]" />
           </div>
           <figcaption class="mt-4 text-sm leading-relaxed text-muted">
             <b class="font-semibold text-foreground">Side panel library.</b>
@@ -273,8 +276,11 @@ const browsers = [
     </div>
   </section>
 
-  <!-- YouTube AI, full width -->
-  <section class="py-20 md:py-28">
+  <!-- YouTube AI, full width on a soft coral band -->
+  <section
+    class="py-20 md:py-28"
+    style="background: color-mix(in oklab, var(--hl-coral) 16%, white)"
+  >
     <div class="mx-auto max-w-[1120px] px-5 md:px-8">
       <div class="max-w-[600px]" data-reveal>
         <p class="text-[11px] font-semibold tracking-[0.16em] text-muted uppercase">
@@ -287,7 +293,7 @@ const browsers = [
         </h2>
       </div>
       <figure class="mt-10" data-reveal>
-        <YouTubeShowcase client:visible />
+        <YouTubeShowcase bare client:visible />
         <figcaption class="mt-4 max-w-[640px] text-sm leading-relaxed text-muted">
           <b class="font-semibold text-foreground">The AI card sits beside the player.</b>
           Streaming summary, chat over the transcript, playback-synced timestamps. Save the video
@@ -374,8 +380,11 @@ const browsers = [
               data-reveal
               style={`--reveal-delay: ${i * 60}ms`}
             >
-              <p class="text-[10px] font-semibold tracking-wider text-muted uppercase">{b.tier}</p>
-              <h3 class="mt-1 text-lg font-semibold text-foreground">{b.name}</h3>
+              <div class="flex items-center justify-between">
+                <img src={b.logo} alt="" width="36" height="36" class="size-9 object-contain" loading="lazy" />
+                <p class="text-[10px] font-semibold tracking-wider text-muted uppercase">{b.tier}</p>
+              </div>
+              <h3 class="mt-3 text-lg font-semibold text-foreground">{b.name}</h3>
               <ul class="mt-4 flex-1 space-y-2">
                 {b.features.map((f) => (
                   <li class="flex items-start gap-2 text-[13px] leading-snug text-foreground/80">
@@ -449,6 +458,6 @@ const browsers = [
     </div>
   </section>
 
-  <CloseSection />
+  <CloseSection padTop />
   <FooterV2 slot="footer" />
 </LandingV2>

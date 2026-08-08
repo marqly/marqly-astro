@@ -1,8 +1,9 @@
 ---
 import { CHROME_URL, APP_URL } from './data';
+const { padTop = false } = Astro.props;
 ---
 
-<section class="px-5 pb-20 md:px-8 md:pb-28">
+<section class={`px-5 pb-20 md:px-8 md:pb-28 ${padTop ? "pt-20 md:pt-28" : ""}`}>
   <div
     class="mx-auto flex max-w-[1120px] flex-col items-center rounded-[2rem] bg-ink px-6 py-16 text-center md:py-24"
     style="background:

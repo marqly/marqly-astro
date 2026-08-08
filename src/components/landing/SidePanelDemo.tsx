@@ -24,7 +24,7 @@ const RAIL = [
 export function SidePanelDemo({ className = '' }: { className?: string }) {
   return (
     <div
-      className={`flex w-full max-w-[360px] overflow-hidden rounded-3xl bg-white shadow-overlay ${className}`}
+      className={`flex w-full max-w-[440px] overflow-hidden rounded-3xl bg-white shadow-overlay ${className}`}
       role="img"
       aria-label="The Marqly side panel: workspace rail, board list, and recent bookmarks next to the page you are reading"
     >

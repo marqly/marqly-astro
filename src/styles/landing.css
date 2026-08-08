@@ -413,6 +413,12 @@
   }
 }
 
+/* Legacy global.css declares `button { font: inherit }` unlayered, which
+   beats the layered text-sm utility on legacy pages — pin the nav size. */
+header nav button {
+  font-size: 0.875rem;
+}
+
 /* ------------------------------------------------------- reduced motion -- */
 
 @media (prefers-reduced-motion: reduce) {
