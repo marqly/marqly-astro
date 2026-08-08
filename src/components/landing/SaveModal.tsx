@@ -75,13 +75,7 @@ export function SaveModal({
               <span className="text-muted">Finding a board…</span>
             ) : (
               <span className="flex min-w-0 items-center gap-2">
-                <img
-                  src="/landing/icons/boards/food_bowl.png"
-                  alt=""
-                  width={15}
-                  height={15}
-                  className="size-[15px] shrink-0 object-contain"
-                />
+                <span aria-hidden className="text-[14px] leading-none">🍳</span>
                 <span className="truncate">Cooking</span>
               </span>
             )}

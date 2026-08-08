@@ -132,7 +132,7 @@ export function NewTabDemo() {
     <div
       className="relative flex h-full flex-col justify-center overflow-hidden rounded-3xl p-6 shadow-frame sm:p-8"
       role="img"
-      aria-label="Marqly Home new tab: greeting, library search, and quick links as glass cards over a night-sky photo"
+      aria-label="Marqly Home new tab: greeting, library search, and quick links as glass cards over a beach photo"
     >
       <img
         src="/landing/newtab-bg.jpg"
@@ -140,10 +140,10 @@ export function NewTabDemo() {
         loading="lazy"
         className="absolute inset-0 h-full w-full object-cover"
       />
-      <div aria-hidden className="absolute inset-0 bg-black/25" />
+      <div aria-hidden className="absolute inset-0 bg-black/20" />
       <div className="relative">
-        <p className="text-xl font-semibold text-white">Good evening</p>
-        <p className="mt-0.5 text-[11px] text-white/70">Friday, August 8 · 21:41</p>
+        <p className="text-xl font-semibold text-white">Good morning</p>
+        <p className="mt-0.5 text-[11px] text-white/80">Friday, August 8 · 9:41</p>
         <div className="mt-4 flex h-11 items-center gap-2.5 rounded-full bg-[rgba(18,18,20,0.55)] px-4 backdrop-blur-md">
           <SearchIcon size={15} className="text-white/70" />
           <span className="flex-1 text-[13px] text-white/70">Search your library or the web</span>

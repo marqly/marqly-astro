@@ -1,14 +1,12 @@
 /**
  * Demo data for the product reconstructions.
  *
- * Every bookmark with a cover is a REAL page: real URL, real og:title, and
- * its real og:image downloaded to /public/landing/covers (see
- * active/tmp/og_harvest.mjs). Favicons are the real ones, stored locally.
- * Descriptions are short neutral summaries of the real content.
+ * Every bookmark shown is a REAL page: real domain, real title (og:title
+ * where the site provides one), and its real og/preview image stored under
+ * /public/landing/covers. Favicons are the real ones, stored locally.
  *
- * The "protagonist" bookmark is the page's through-line: Bon Appétit's
- * Cacio e Pepe recipe gets saved in the hero and found again in the search
- * section from a keyword-free query.
+ * Through-line: Bon Appétit's Cacio e Pepe gets saved in the hero's looping
+ * sequence and lands in the Cooking board next to two more real recipes.
  */
 
 export type ContentKind = 'article' | 'paper' | 'repo' | 'video' | 'conversation';
@@ -32,16 +30,22 @@ export const FAVICONS: Record<string, string> = {
   'arxiv.org': '/landing/favicons/arxiv.org.png',
   'github.com': '/landing/favicons/github.com.png',
   'chatgpt.com': '/landing/favicons/chatgpt.com.png',
-  'overreacted.io': '/landing/favicons/overreacted.io.png',
   'youtube.com': '/landing/favicons/youtube.com.png',
   'fs.blog': '/landing/favicons/fs.blog.png',
-  'web.dev': '/landing/favicons/web.dev.png',
-  'paulgraham.com': '/landing/favicons/paulgraham.com.png',
   'claude.ai': '/landing/favicons/claude.ai.png',
   'gemini.google.com': '/landing/favicons/gemini.google.com.png',
   'figma.com': '/landing/favicons/figma.com.png',
   'stripe.com': '/landing/favicons/stripe.com.png',
+  'asana.com': '/landing/favicons/asana.com.png',
+  'haraldurthorleifsson.com': '/landing/favicons/haraldurthorleifsson.com.png',
+  'vcstack.io': '/landing/favicons/vcstack.io.png',
+  'laracasts.com': '/landing/favicons/laracasts.com.png',
+  'overreacted.io': '/landing/favicons/overreacted.io.png',
+  'web.dev': '/landing/favicons/web.dev.png',
+  'paulgraham.com': '/landing/favicons/paulgraham.com.png',
 };
+
+/* ------------------------------------------------------ hero (Cooking) --- */
 
 export const protagonist: DemoBookmark = {
   id: 'cacio',
@@ -55,127 +59,104 @@ export const protagonist: DemoBookmark = {
   cover: '/landing/covers/cacio-ba.jpg',
 };
 
-export const carbonara: DemoBookmark = {
-  id: 'carbonara',
-  title: 'Simple Spaghetti Carbonara',
-  domain: 'bonappetit.com',
-  description:
-    'Eggs, guanciale, and starchy pasta water. Silky, never scrambled, in about half an hour.',
-  tags: ['pasta', 'eggs'],
-  date: '2 Feb',
-  kind: 'article',
-  cover: '/landing/covers/carbonara-ba.jpg',
-};
-
-export const risotto: DemoBookmark = {
-  id: 'risotto',
-  title: "BA's Best Risotto",
-  domain: 'bonappetit.com',
-  description:
-    'Toasted rice, hot stock in stages, constant stirring. Creamy without a drop of cream.',
-  tags: ['rice', 'technique'],
-  date: '19 Jan',
-  kind: 'article',
-  cover: '/landing/covers/risotto-ba.jpg',
-};
-
-/** The hero's Cooking board: protagonist + two real neighbors. */
-export const cookingNeighbors: DemoBookmark[] = [carbonara, risotto];
-
-/** The library grid: real pages a researcher-reader would plausibly keep. */
-export const libraryBookmarks: DemoBookmark[] = [
-  protagonist,
+export const cookingNeighbors: DemoBookmark[] = [
   {
-    id: 'attention',
-    title: 'Attention Is All You Need',
-    domain: 'arxiv.org',
+    id: 'carbonara',
+    title: 'Simple Spaghetti Carbonara',
+    domain: 'bonappetit.com',
     description:
-      'The transformer paper. Self-attention replaces recurrence entirely; everything since is a footnote to figure 1.',
-    tags: ['transformers', 'foundational'],
-    date: '28 Jul',
-    kind: 'paper',
-    cover: '/landing/covers/attention.jpg',
-  },
-  {
-    id: 'shadcn',
-    title: 'shadcn-ui/ui',
-    domain: 'github.com',
-    description:
-      'Beautifully-designed, accessible components you copy into your own codebase instead of installing.',
-    tags: ['react', 'components'],
-    date: '2 Aug',
-    kind: 'repo',
-    cover: '/landing/covers/shadcn.jpg',
-  },
-  {
-    id: 'pgvector-chat',
-    title: 'pgvector vs Pinecone for a weekend project',
-    domain: 'chatgpt.com',
-    description:
-      'Costs, latency, and when a managed vector DB is overkill. Verdict: pgvector until you pass ~5M embeddings.',
-    tags: ['embeddings', 'postgres'],
-    date: '5 Aug',
-    kind: 'conversation',
-    provider: 'chatgpt',
-  },
-  {
-    id: 'useeffect',
-    title: 'A Complete Guide to useEffect',
-    domain: 'overreacted.io',
-    description:
-      'Effects run after render. Dependencies, stale closures, and why the exhaustive-deps linter is right.',
-    tags: ['react', 'hooks'],
-    date: '30 Jul',
+      'Eggs, guanciale, and starchy pasta water. Silky, never scrambled, in about half an hour.',
+    tags: ['pasta', 'eggs'],
+    date: '2 Feb',
     kind: 'article',
-    cover: '/landing/covers/useeffect.jpg',
+    cover: '/landing/covers/carbonara-ba.jpg',
   },
   {
-    id: 'neural',
-    title: 'But what is a neural network?',
-    domain: 'youtube.com',
+    id: 'risotto',
+    title: "BA's Best Risotto",
+    domain: 'bonappetit.com',
     description:
-      "3Blue1Brown's visual introduction: neurons, layers, weights, and what the network actually learns.",
-    tags: ['neural-nets', 'math'],
-    date: '22 Jul',
-    kind: 'video',
-    cover: '/landing/covers/neural.jpg',
-    duration: '18:40',
-  },
-  {
-    id: 'great-work',
-    title: 'How to Do Great Work',
-    domain: 'paulgraham.com',
-    description:
-      'Pick something you have a natural aptitude for and a deep curiosity about. Then work on it hard, for a long time.',
-    tags: ['essays', 'career'],
-    date: '9 Apr',
+      'Toasted rice, hot stock in stages, constant stirring. Creamy without a drop of cream.',
+    tags: ['rice', 'technique'],
+    date: '19 Jan',
     kind: 'article',
-  },
-  {
-    id: 'fsblog',
-    title: 'How to Remember What You Read',
-    domain: 'fs.blog',
-    description:
-      'Active reading over passive skimming: notes, mental links, and choosing books worth absorbing.',
-    tags: ['reading', 'memory'],
-    date: '3 Jun',
-    kind: 'article',
-    cover: '/landing/covers/fsblog.jpg',
-  },
-  {
-    id: 'webvitals',
-    title: 'Web Vitals',
-    domain: 'web.dev',
-    description:
-      'Google’s user-centric performance metrics for load, interactivity, and visual stability.',
-    tags: ['performance', 'metrics'],
-    date: '17 Jun',
-    kind: 'article',
-    cover: '/landing/covers/webvitals.jpg',
+    cover: '/landing/covers/risotto-ba.jpg',
   },
 ];
 
-/** Sidebar: fixed filters + user boards with the app's real 2D board icons. */
+/* ------------------------------------------------------- library grid ---- */
+
+export const gridBookmarks: DemoBookmark[] = [
+  {
+    id: 'lex-fravor',
+    title: 'David Fravor: UFOs, Aliens, Fighter Jets, and Aerospace Engineering | Lex Fridman Podcast #122',
+    domain: 'youtube.com',
+    description:
+      'The Nimitz encounter, firsthand: the pilot who chased the tic-tac, on flying and aerospace.',
+    tags: ['podcasts', 'aerospace'],
+    date: '6 Aug',
+    kind: 'video',
+    cover: '/landing/covers/lex-fravor.webp',
+  },
+  {
+    id: 'asana',
+    title: 'Asana: The OS for human-agent teams',
+    domain: 'asana.com',
+    description:
+      'Work management for teams: projects, tasks, goals, and reporting in one shared place.',
+    tags: ['productivity', 'work'],
+    date: '31 Jul',
+    kind: 'article',
+    cover: '/landing/covers/asana.webp',
+  },
+  {
+    id: 'halli',
+    title: 'Halli — Haraldur Thorleifsson',
+    domain: 'haraldurthorleifsson.com',
+    description:
+      'Designer, founder of Ueno, and the person behind Ramp Up Iceland. Personal site and writing.',
+    tags: ['design', 'people'],
+    date: '25 Jul',
+    kind: 'article',
+    cover: '/landing/covers/halli.webp',
+  },
+  {
+    id: 'laracasts',
+    title: 'Learn Laravel | Laracasts',
+    domain: 'laracasts.com',
+    description:
+      'Want to learn Laravel and PHP from the coding wizards who know it best? It is dangerous to code alone.',
+    tags: ['laravel', 'learning'],
+    date: '18 Jul',
+    kind: 'article',
+    cover: '/landing/covers/laracasts.webp',
+  },
+  {
+    id: 'vcstack',
+    title: 'Visible: investor reporting and portfolio monitoring',
+    domain: 'vcstack.io',
+    description:
+      'Monitor portfolio companies, analyze data, and streamline reporting, all from one place.',
+    tags: ['venture', 'tools'],
+    date: '9 Jul',
+    kind: 'article',
+    cover: '/landing/covers/vcstack.webp',
+  },
+  {
+    id: 'meta-pm',
+    title: 'Meta Product Manager Interview',
+    domain: 'youtube.com',
+    description:
+      'A full mock PM loop: product sense, execution, and how the interviewers grade both.',
+    tags: ['product', 'careers'],
+    date: '21 Jun',
+    kind: 'video',
+    cover: '/landing/covers/meta-pm.webp',
+  },
+];
+
+/* ---------------------------------------------------------- sidebar ------ */
+
 export const fixedFilters = [
   { name: 'All bookmarks', count: 1412, icon: 'bookmark' as const },
   { name: 'Articles', count: 486, icon: 'article' as const },
@@ -184,42 +165,56 @@ export const fixedFilters = [
   { name: 'Videos', count: 129, icon: 'play' as const },
 ];
 
+/** Boards use emoji icons here — boards in the app take emojis natively. */
 export const userBoards = [
-  { name: 'Cooking', count: 89, depth: 0, icon: '/landing/icons/boards/food_bowl.png' },
-  { name: 'Design systems', count: 134, depth: 0, icon: '/landing/icons/boards/color_palette.png' },
-  { name: 'Type & color', count: 41, depth: 1, icon: '/landing/icons/boards/paintbrush.png' },
-  { name: 'Reading list', count: 312, depth: 0, icon: '/landing/icons/boards/open_book.png' },
-  { name: 'Side projects', count: 57, depth: 0, icon: '/landing/icons/boards/rocket.png' },
+  { name: 'Cooking', count: 89, depth: 0, emoji: '🍳' },
+  { name: 'Design systems', count: 134, depth: 0, emoji: '🎨' },
+  { name: 'Type & color', count: 41, depth: 1, emoji: '🖍️' },
+  { name: 'Reading list', count: 312, depth: 0, emoji: '📚' },
+  { name: 'Side projects', count: 57, depth: 0, emoji: '🚀' },
 ];
 
 export const tagCarousel = [
   'all',
-  'pasta',
-  'react',
-  'transformers',
-  'reading',
-  'design-systems',
-  'food-science',
-  'essays',
-  'performance',
-  'memory',
+  'podcasts',
+  'productivity',
+  'design',
+  'laravel',
+  'venture',
+  'product',
+  'aerospace',
+  'careers',
+  'learning',
 ];
 
-/** The search demo: a query that shares no keywords with the title it finds. */
-export const searchQuery = 'that pasta article about emulsions';
+/* ------------------------------------------------------------ search ----- */
+
+export const searchQuery = 'that podcast with the navy pilot who saw a ufo';
+
+const neuralNetworkVideo: DemoBookmark = {
+  id: 'neural',
+  title: 'But what is a neural network?',
+  domain: 'youtube.com',
+  description: "3Blue1Brown's visual introduction to deep learning.",
+  tags: ['neural-nets', 'math'],
+  date: '22 Jul',
+  kind: 'video',
+  duration: '18:40',
+};
 
 export const searchResults = [
   {
-    bookmark: protagonist,
+    bookmark: gridBookmarks[0]!,
     context:
-      '…the starchy water binds cheese and fat into a stable emulsion; too much heat and it seizes…',
+      '…a white tic-tac shaped object, no wings, no rotors, moving in ways nothing we had could match…',
     top: true,
   },
-  { bookmark: carbonara, context: null, top: false },
-  { bookmark: risotto, context: null, top: false },
+  { bookmark: gridBookmarks[5]!, context: null, top: false },
+  { bookmark: neuralNetworkVideo, context: null, top: false },
 ];
 
-/** AI Organizer proposal (S5) — real board icons + colored sub-board chips. */
+/* ------------------------------------------------------- AI organizer ---- */
+
 export const organizerProposal = [
   {
     name: 'Machine learning',
@@ -243,9 +238,20 @@ export const organizerProposal = [
   { name: 'Long reads', count: 168, icon: '/landing/icons/boards/open_book.png', chips: [] },
 ];
 
-/** ChatVault cards (S6). */
+/* ----------------------------------------------------------- AI chats ---- */
+
 export const conversationCards: DemoBookmark[] = [
-  libraryBookmarks[3]!,
+  {
+    id: 'pgvector-chat',
+    title: 'pgvector vs Pinecone for a weekend project',
+    domain: 'chatgpt.com',
+    description:
+      'Costs, latency, and when a managed vector DB is overkill. Verdict: pgvector until you pass ~5M embeddings.',
+    tags: ['embeddings', 'postgres'],
+    date: '5 Aug',
+    kind: 'conversation',
+    provider: 'chatgpt',
+  },
   {
     id: 'claude-migration',
     title: 'Plan a zero-downtime Postgres 15 → 17 migration',
@@ -264,8 +270,8 @@ export const conversationCards: DemoBookmark[] = [
     description:
       'Slower itinerary, konbini strategy, and which shinkansen cars have the stroller space.',
     tags: ['travel'],
-    date: '14 Jun',
     kind: 'conversation',
+    date: '14 Jun',
     provider: 'gemini',
   },
 ];

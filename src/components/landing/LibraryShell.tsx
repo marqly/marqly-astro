@@ -3,7 +3,7 @@
  * bookmark grid. Filter glyphs are the app's real sidebar SVGs; board icons
  * are the app's real marqly2d set; covers are real og images.
  */
-import { libraryBookmarks, fixedFilters, userBoards, tagCarousel } from './data';
+import { gridBookmarks, fixedFilters, userBoards, tagCarousel } from './data';
 import { BookmarkCard } from './BookmarkCard';
 import { BrowserFrame } from './BrowserFrame';
 import {
@@ -63,12 +63,12 @@ function FilterRow({
 }
 
 function BoardRow({
-  icon,
+  emoji,
   name,
   count,
   depth = 0,
 }: {
-  icon: string;
+  emoji: string;
   name: string;
   count: number;
   depth?: number;
@@ -78,7 +78,9 @@ function BoardRow({
       className="flex min-h-8 items-center gap-2 rounded-lg px-2.5 py-1"
       style={depth ? { paddingLeft: `${10 + depth * 18}px` } : undefined}
     >
-      <img src={icon} alt="" width={16} height={16} loading="lazy" className="size-4 shrink-0 object-contain" />
+      <span aria-hidden className="w-4 shrink-0 text-center text-[13px] leading-none">
+        {emoji}
+      </span>
       <span className="flex-1 truncate text-[13px] leading-5 font-medium text-foreground">
         {name}
       </span>
@@ -90,7 +92,7 @@ function BoardRow({
 }
 
 export function LibraryShell() {
-  const gridCards = libraryBookmarks.slice(0, 6);
+  const gridCards = gridBookmarks;
   return (
     <BrowserFrame url="app.marqly.com">
       <div className="flex bg-background">
@@ -120,7 +122,7 @@ export function LibraryShell() {
           </p>
           <nav aria-label="Boards" className="flex flex-col gap-0.5">
             {userBoards.map((b) => (
-              <BoardRow key={b.name} icon={b.icon} name={b.name} count={b.count} depth={b.depth} />
+              <BoardRow key={b.name} emoji={b.emoji} name={b.name} count={b.count} depth={b.depth} />
             ))}
           </nav>
         </aside>

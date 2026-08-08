@@ -157,16 +157,10 @@ function ArticlePage({ dimmed }: { dimmed: boolean }) {
 
 function LibraryLanding({ reduce }: { reduce: boolean }) {
   return (
-    <div className="flex h-full flex-col px-6 pt-5 sm:px-8">
-      <div className="flex items-center justify-between pb-4">
+    <div className="flex h-full flex-col justify-center gap-5 px-6 sm:px-8">
+      <div className="flex items-center justify-between">
         <span className="flex items-center gap-2 text-sm font-medium text-foreground">
-          <img
-            src="/landing/icons/boards/food_bowl.png"
-            alt=""
-            width={16}
-            height={16}
-            className="size-4 object-contain"
-          />
+          <span aria-hidden className="text-[15px] leading-none">🍳</span>
           Cooking
           <span className="font-mono text-[11px] text-muted">90</span>
         </span>
@@ -182,7 +176,7 @@ function LibraryLanding({ reduce }: { reduce: boolean }) {
           Saved to Cooking
         </motion.span>
       </div>
-      <div className="grid flex-1 grid-cols-2 items-start gap-4 sm:grid-cols-3">
+      <div className="grid grid-cols-2 items-start gap-4 sm:grid-cols-3">
         <div className={reduce ? '' : 'just-added'}>
           <BookmarkCard bookmark={protagonist} highlight />
         </div>
