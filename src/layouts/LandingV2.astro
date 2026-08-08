@@ -10,6 +10,7 @@
  */
 import '../styles/landing.css';
 import LinkHub from '../components/seo/LinkHub.astro';
+import GoogleOneTap from '../components/landing/GoogleOneTap.astro';
 
 export interface Props {
   title: string;
@@ -104,6 +105,8 @@ const canonicalURL = canonical ?? new URL(cleanPath, Astro.site).href;
       <LinkHub />
     </div>
     <slot name="footer" />
+
+    <GoogleOneTap />
 
     <!-- Scroll reveal observer (same contract as the rest of the site) -->
     <script is:inline>

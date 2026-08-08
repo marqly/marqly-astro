@@ -282,6 +282,26 @@ export const conversationCards: DemoBookmark[] = [
 export const newtabLinks = ['github.com', 'figma.com', 'arxiv.org', 'stripe.com', 'bonappetit.com'];
 
 export const APP_URL = 'https://app.marqly.com';
+
+/**
+ * Google OAuth **web** client id — the same one app.marqly.com signs in with,
+ * so a One Tap credential minted here is already in the API's audience
+ * allowlist (GOOGLE_OAUTH_AUDIENCES). Client ids are public by design.
+ *
+ * One Tap only renders on origins listed under "Authorized JavaScript origins"
+ * for this client in the Google Cloud console — `https://www.marqly.com` must
+ * be there or the prompt silently never appears (under FedCM there is no
+ * runtime signal for an unregistered origin; the only tell is a console log).
+ */
+export const GOOGLE_CLIENT_ID =
+  '556080199051-5p7o7ag35a8d92l8hrd11ns1nomef94m.apps.googleusercontent.com';
+
+/**
+ * Cookie app.marqly.com sets on `.marqly.com` while a session is alive. One Tap
+ * reads it via `skip_prompt_cookie` so already-signed-in visitors are never
+ * prompted here. Carries no identity — it is a boolean presence flag.
+ */
+export const AUTH_HINT_COOKIE = 'marqly_auth';
 export const CHROME_URL =
   'https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc';
 export const IOS_URL = 'https://apps.apple.com/us/app/marqly-ai-bookmark-manager/id6758905385';

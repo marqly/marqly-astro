@@ -1,0 +1,142 @@
+---
+/**
+ * Google One Tap — the "Sign in to marqly.com with google.com" prompt.
+ *
+ * Shows returning Google users a one-click sign-in without them ever clicking
+ * "Sign in" first. The credential is exchanged server-side (/api/onetap) for a
+ * handoff token, then the browser is sent to app.marqly.com to land the session.
+ *
+ * Deliberate choices:
+ *  - Loaded after `load` + idle, mirroring the GA4 block, so it never competes
+ *    with first paint. One Tap is a bonus path; the "Sign in" link is the real
+ *    control and always works.
+ *  - `skip_prompt_cookie` suppresses the prompt for visitors who already have an
+ *    app.marqly.com session (the app sets a `.marqly.com` presence cookie).
+ *  - `state_cookie_domain` shares only Google's `g_state` suppression cookie
+ *    across subdomains, so signing out in the app doesn't re-prompt here.
+ *  - No `nonce`: a per-request nonce needs SSR, and these pages are prerendered.
+ *    A build-time constant would look like replay protection while providing
+ *    none. The credential is instead verified server-side and is single-use via
+ *    a 3-minute handoff, which is where the real protection lives.
+ *  - No moment/notification callbacks: under FedCM those no longer fire, so any
+ *    "One Tap didn't show" fallback keyed on them would be dead code.
+ *
+ * REQUIRED CONFIG: `https://www.marqly.com` must be listed under "Authorized
+ * JavaScript origins" for this OAuth client. Without it One Tap silently never
+ * renders — under FedCM there is no runtime error, only a console log.
+ */
+import { AUTH_HINT_COOKIE, GOOGLE_CLIENT_ID } from './data';
+---
+
+<script
+  is:inline
+  define:vars={{ clientId: GOOGLE_CLIENT_ID, hintCookie: AUTH_HINT_COOKIE }}
+>
+  (function () {
+    // Only on the real site: localhost and preview hosts are not registered
+    // JavaScript origins, so the prompt could not render there anyway.
+    if (location.hostname !== 'marqly.com' && !location.hostname.endsWith('.marqly.com')) return;
+
+    // Already signed in? `skip_prompt_cookie` also covers this, but checking
+    // first avoids loading ~90KB of Google script for no reason.
+    if (document.cookie.split('; ').some((c) => c.startsWith(hintCookie + '=') && c.split('=')[1])) return;
+
+    var started = false;
+
+    function readAttribution() {
+      // Attribution for One Tap signups, matching the app's fields. This reads
+      // the CURRENT page's query string, so it only captures campaign params
+      // when the tap happens on the landing page itself — One Tap can fire
+      // several pages deep, and those params are gone by then. The API only
+      // persists these on user CREATE, so a miss means a blank, never a wrong
+      // overwrite.
+      try {
+        var params = new URLSearchParams(location.search);
+        var attribution = {
+          landing_page: location.origin + location.pathname,
+          first_referrer: document.referrer || undefined,
+        };
+        ['gclid', 'gbraid', 'wbraid', 'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'].forEach(
+          function (key) {
+            var value = params.get(key);
+            if (value) attribution[key] = value;
+          }
+        );
+        return attribution;
+      } catch (_) {
+        return {};
+      }
+    }
+
+    async function handleCredentialResponse(response) {
+      if (!response || !response.credential) return;
+      try {
+        var res = await fetch('/api/onetap', {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({
+            credential: response.credential,
+            timezone: (Intl.DateTimeFormat().resolvedOptions() || {}).timeZone,
+            locale: navigator.language,
+            attribution: readAttribution(),
+          }),
+        });
+        var data = await res.json().catch(function () {
+          return {};
+        });
+        if (!res.ok || !data.redirectUrl) {
+          console.warn('[onetap] sign-in could not be completed');
+          return;
+        }
+        if (typeof window.gtag === 'function') {
+          window.gtag('event', 'login', { method: 'google_one_tap' });
+        }
+        location.assign(data.redirectUrl);
+      } catch (err) {
+        console.warn('[onetap] sign-in failed', err);
+      }
+    }
+
+    function start() {
+      if (started) return;
+      started = true;
+
+      var script = document.createElement('script');
+      script.src = 'https://accounts.google.com/gsi/client';
+      script.async = true;
+      script.onload = function () {
+        if (!window.google || !window.google.accounts || !window.google.accounts.id) return;
+        try {
+          window.google.accounts.id.initialize({
+            client_id: clientId,
+            callback: handleCredentialResponse,
+            context: 'signup',
+            // Never auto-submit an identity the visitor didn't pick on a
+            // marketing page — the tap is the consent.
+            auto_select: false,
+            cancel_on_tap_outside: true,
+            // Upgraded prompt on Safari/Firefox, which have no FedCM.
+            itp_support: true,
+            state_cookie_domain: 'marqly.com',
+            skip_prompt_cookie: hintCookie,
+          });
+          window.google.accounts.id.prompt();
+        } catch (err) {
+          console.warn('[onetap] init failed', err);
+        }
+      };
+      document.head.appendChild(script);
+    }
+
+    // Same deferral contract as GA4: never before the load event.
+    function schedule() {
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(start, { timeout: 3000 });
+      } else {
+        setTimeout(start, 1500);
+      }
+    }
+    if (document.readyState === 'complete') schedule();
+    else addEventListener('load', schedule, { once: true });
+  })();
+</script>
