@@ -94,7 +94,7 @@ function BoardRow({
 export function LibraryShell() {
   const gridCards = gridBookmarks;
   return (
-    <BrowserFrame url="app.marqly.com">
+    <BrowserFrame url="app.marqly.com" className="border border-black/5">
       <div className="flex bg-background">
         {/* Sidebar (Sidebar.tsx, scaled) */}
         <aside
