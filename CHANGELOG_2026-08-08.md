@@ -67,3 +67,30 @@ push to the `marqly-astro` deploy remote.
   cannot parse — computed contrast is ≥6.5:1.
 - Reduced motion: every sequence SSRs its finished frame; all animation killed
   by media query.
+
+
+## Founder review rounds (same day, branch `landing-redesign`)
+
+- Hero: pastel-cloud sky (provided), full-section backdrop fading to white;
+  Lebanese Cooking story (Feel Good Foodie hummus + Mediterranean sea bass +
+  Lebanese Rice, all real pages/og images); loops continuously; saved scene
+  vertically centered; solid-white secondary CTA.
+- Library: the six provided real bookmarks as covers (Lex #122, Asana, Halli,
+  Laracasts, Visible/vcstack.io, Meta PM interview); emoji board icons; 5%
+  hairline on the browser frame.
+- Search: non-pasta through-line (navy-pilot query finds the Fravor episode);
+  jump-free dropdown (fixed-height, rows always mounted); loops 3x then rests.
+- Capture: twin save-dialog/highlighter cards on matching canvases;
+  interactive highlighter (self-demos two random recolors, swatches clickable);
+  full-width YouTube showcase with real chapters auto-cycling
+  Summary/Chat/Transcript; smooth native FAQ expansion.
+- AI Organizer: four-beat story (favicon pile -> scan -> cascade -> approve),
+  fixed geometry, loops 3x.
+- Full-site: complete header with Resources dropdown + mobile menu on every
+  page; legacy pages adopt the new shell + Google Sans (layered legacy margin
+  reset so utilities win); Reviews restored (id=reviews); Clipboard History +
+  saved sessions section; new iPhone mockup on #E0EFFE; Maldives Marqly Home;
+  dark dotted close panel; mobile pass across all sections.
+- SEO: 301s for /download, /sitemap_index.xml, /year; two unindexed posts
+  added to LinkHub. App-side items (signin canonical, /signup redirect,
+  token-URL noindex) handed off - they live in the app repo.
