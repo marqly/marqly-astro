@@ -413,10 +413,37 @@
   }
 }
 
-/* Legacy global.css declares `button { font: inherit }` unlayered, which
-   beats the layered text-sm utility on legacy pages — pin the nav size. */
+/* Legacy global.css declares `button { font: inherit }` and `a { color:
+   inherit }` unlayered, which beat the layered utilities on legacy pages —
+   pin the shared shell's sizes and colors explicitly. */
 header nav button {
   font-size: 0.875rem;
+}
+
+header nav a {
+  color: var(--muted);
+}
+
+header nav a:hover,
+header nav a:focus-visible {
+  color: var(--foreground);
+}
+
+header nav .text-foreground {
+  color: var(--foreground);
+}
+
+header nav a.bg-accent,
+header nav a.bg-accent:hover {
+  color: var(--accent-foreground);
+}
+
+footer a {
+  color: color-mix(in oklab, var(--foreground) 78%, transparent);
+}
+
+footer a:hover {
+  color: var(--foreground);
 }
 
 /* ------------------------------------------------------- reduced motion -- */
