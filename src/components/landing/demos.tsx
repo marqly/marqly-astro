@@ -14,7 +14,7 @@ import { SearchIcon, HighlighterIcon } from './icons';
 
 export function ChatVaultDemo() {
   return (
-    <div className="grid gap-4 sm:grid-cols-3">
+    <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
       {conversationCards.map((c, i) => (
         <div key={c.id} data-reveal style={{ ['--reveal-delay' as string]: `${i * 70}ms` }}>
           <BookmarkCard bookmark={c} />

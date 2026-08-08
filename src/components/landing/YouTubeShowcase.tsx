@@ -49,7 +49,7 @@ export default function YouTubeShowcase({ bare = false }: { bare?: boolean }) {
       className={bare ? '' : 'rounded-3xl p-4 sm:p-6'}
       style={bare ? undefined : { background: 'color-mix(in oklab, var(--hl-coral) 24%, white)' }}
     >
-      <div className="grid items-stretch gap-4 md:grid-cols-[1.1fr_1fr] md:gap-5">
+      <div className="grid grid-cols-1 items-stretch gap-4 md:grid-cols-[1.1fr_1fr] md:gap-5">
         {/* The real video, as the watch page shows it */}
         <div className="flex flex-col overflow-hidden rounded-2xl bg-black">
           <div className="relative aspect-video md:aspect-auto md:flex-1">
