@@ -297,6 +297,20 @@ export const GOOGLE_CLIENT_ID =
   '556080199051-5p7o7ag35a8d92l8hrd11ns1nomef94m.apps.googleusercontent.com';
 
 /**
+ * Kill switch for the One Tap prompt.
+ *
+ * MUST stay false until `https://www.marqly.com` is registered under
+ * "Authorized JavaScript origins" for GOOGLE_CLIENT_ID. Without it the prompt
+ * does not merely fail quietly — Google serves a full-page
+ * "Access blocked: Authorization Error / Error 400: origin_mismatch" to real
+ * visitors on every page of the site.
+ *
+ * Flip to true only after verifying the origin is live (a signed-in browser on
+ * www.marqly.com gets HTTP 200, not 403, from accounts.google.com/gsi/status).
+ */
+export const ONE_TAP_ENABLED = false;
+
+/**
  * Cookie app.marqly.com sets on `.marqly.com` while a session is alive. One Tap
  * reads it via `skip_prompt_cookie` so already-signed-in visitors are never
  * prompted here. Carries no identity — it is a boolean presence flag.

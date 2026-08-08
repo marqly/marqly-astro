@@ -25,9 +25,10 @@
  * JavaScript origins" for this OAuth client. Without it One Tap silently never
  * renders — under FedCM there is no runtime error, only a console log.
  */
-import { AUTH_HINT_COOKIE, GOOGLE_CLIENT_ID } from './data';
+import { AUTH_HINT_COOKIE, GOOGLE_CLIENT_ID, ONE_TAP_ENABLED } from './data';
 ---
 
+{ONE_TAP_ENABLED && (
 <script
   is:inline
   define:vars={{ clientId: GOOGLE_CLIENT_ID, hintCookie: AUTH_HINT_COOKIE }}
@@ -140,3 +141,4 @@ import { AUTH_HINT_COOKIE, GOOGLE_CLIENT_ID } from './data';
     else addEventListener('load', schedule, { once: true });
   })();
 </script>
+)}
