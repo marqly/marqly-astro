@@ -26,10 +26,20 @@ function Row({ label, children }: { label: string; children: ReactNode }) {
 
 export function SaveModal({
   phase,
+  url,
+  title,
+  boardEmoji,
+  boardName,
+  tags,
   autoSaving = false,
   className = '',
 }: {
   phase: SaveModalPhase;
+  url: string;
+  title: string;
+  boardEmoji: string;
+  boardName: string;
+  tags: string[];
   autoSaving?: boolean;
   className?: string;
 }) {
@@ -41,7 +51,7 @@ export function SaveModal({
       aria-label={
         thinking
           ? 'Marqly save dialog: AI is picking a board and suggesting tags for the page'
-          : 'Marqly save dialog: AI filed the page under Cooking and suggested the tags pasta, technique, and food-science'
+          : `Marqly save dialog: AI filed the page under ${boardName} and suggested the tags ${tags.join(', ')}`
       }
     >
       <div className="mb-1 flex items-center justify-between">
@@ -59,13 +69,13 @@ export function SaveModal({
       <div className="flex flex-col gap-3.5 py-4">
         <Row label="URL">
           <div className={FIELD}>
-            <span className="truncate text-foreground/80">bonappetit.com/recipe/cacio-e-pepe</span>
+            <span className="truncate text-foreground/80">{url}</span>
           </div>
         </Row>
 
         <Row label="Title">
           <div className={FIELD}>
-            <span className="truncate">Cacio e Pepe</span>
+            <span className="truncate">{title}</span>
           </div>
         </Row>
 
@@ -75,8 +85,8 @@ export function SaveModal({
               <span className="text-muted">Finding a board…</span>
             ) : (
               <span className="flex min-w-0 items-center gap-2">
-                <span aria-hidden className="text-[14px] leading-none">🍳</span>
-                <span className="truncate">Cooking</span>
+                <span aria-hidden className="text-[14px] leading-none">{boardEmoji}</span>
+                <span className="truncate">{boardName}</span>
               </span>
             )}
             <ChevronDownIcon size={15} className="shrink-0 text-muted" />
@@ -93,7 +103,7 @@ export function SaveModal({
               <span className="text-sm text-muted">Suggesting tags…</span>
             ) : (
               <>
-                {['pasta', 'technique', 'food-science'].map((t, i) => (
+                {tags.map((t, i) => (
                   <span key={t} style={{ animationDelay: `${i * 120}ms` }} className="badge-enter">
                     <TagChip label={t} ai />
                   </span>

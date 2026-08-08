@@ -99,7 +99,14 @@ export default function Hero() {
                         transition={{ duration: 0.25, ease: EASE }}
                         className="w-full max-w-[440px]"
                       >
-                        <SaveModal phase={step === 'thinking' ? 'thinking' : 'suggested'} />
+                        <SaveModal
+                          phase={step === 'thinking' ? 'thinking' : 'suggested'}
+                          url="bonappetit.com/recipe/cacio-e-pepe"
+                          title="Cacio e Pepe"
+                          boardEmoji="🍳"
+                          boardName="Cooking"
+                          tags={['pasta', 'technique', 'food-science']}
+                        />
                       </motion.div>
                     </motion.div>
                   )}
