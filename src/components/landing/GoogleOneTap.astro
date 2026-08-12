@@ -60,28 +60,22 @@ import { AUTH_HINT_COOKIE, GOOGLE_CLIENT_ID, ONE_TAP_ENABLED } from './data';
     })();
 
     function readAttribution() {
-      // Attribution for One Tap signups, matching the app's fields. This reads
-      // the CURRENT page's query string, so it only captures campaign params
-      // when the tap happens on the landing page itself — One Tap can fire
-      // several pages deep, and those params are gone by then. The API only
-      // persists these on user CREATE, so a miss means a blank, never a wrong
-      // overwrite.
+      // AttributionCapture writes first touch synchronously in <head> and keeps
+      // it on the parent domain for 90 days, so One Tap still has the original
+      // campaign after the visitor browses several pages before signing up.
       try {
-        var params = new URLSearchParams(location.search);
-        var attribution = {
-          landing_page: location.origin + location.pathname,
-          first_referrer: document.referrer || undefined,
-        };
-        ['gclid', 'gbraid', 'wbraid', 'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'].forEach(
-          function (key) {
-            var value = params.get(key);
-            if (value) attribution[key] = value;
-          }
-        );
-        return attribution;
+        var cookieName = 'marqly_attr_v2';
+        var row = document.cookie.split('; ').find(function (part) {
+          return part.indexOf(cookieName + '=') === 0;
+        });
+        if (row) return JSON.parse(decodeURIComponent(row.slice(cookieName.length + 1)));
       } catch (_) {
-        return {};
+        // Fall through to a minimal organic payload.
       }
+      return {
+        landing_page: location.pathname,
+        first_referrer: document.referrer || undefined,
+      };
     }
 
     async function handleCredentialResponse(response) {

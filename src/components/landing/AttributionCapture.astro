@@ -1,0 +1,75 @@
+---
+/**
+ * First-touch campaign attribution shared with app.marqly.com.
+ *
+ * This runs synchronously in <head> so a One Tap prompt or sign-in link can
+ * never outrun capture. The parent-domain cookie is the bridge from the Astro
+ * marketing site to the Next.js app; origin-scoped storage cannot do that job.
+ */
+---
+
+<script is:inline>
+  (function () {
+    if (location.hostname !== 'marqly.com' && !location.hostname.endsWith('.marqly.com')) return;
+
+    var COOKIE = 'marqly_attr_v2';
+    var MAX_AGE = 90 * 24 * 60 * 60;
+    var KEYS = [
+      'utm_source',
+      'utm_medium',
+      'utm_campaign',
+      'utm_term',
+      'utm_content',
+      'gclid',
+      'gbraid',
+      'wbraid',
+    ];
+
+    function readCookie() {
+      try {
+        var row = document.cookie.split('; ').find(function (part) {
+          return part.indexOf(COOKIE + '=') === 0;
+        });
+        return row ? JSON.parse(decodeURIComponent(row.slice(COOKIE.length + 1))) : null;
+      } catch (_) {
+        return null;
+      }
+    }
+
+    try {
+      var existing = readCookie();
+      var params = new URLSearchParams(location.search);
+      var fromUrl = {};
+      KEYS.forEach(function (key) {
+        var value = params.get(key);
+        if (value) fromUrl[key] = value.slice(0, 512);
+      });
+
+      var currentHasClickId = Boolean(fromUrl.gclid || fromUrl.gbraid || fromUrl.wbraid);
+      var existingHasClickId = Boolean(existing && (existing.gclid || existing.gbraid || existing.wbraid));
+      var hasUrlSignal = Object.keys(fromUrl).length > 0;
+      var payload = existing;
+
+      if (hasUrlSignal && (!existing || (currentHasClickId && !existingHasClickId))) {
+        payload = Object.assign({}, existing || {}, fromUrl, {
+          first_referrer: (existing && existing.first_referrer) || document.referrer || undefined,
+          landing_page: (existing && existing.landing_page) || location.pathname,
+          captured_at: (existing && existing.captured_at) || new Date().toISOString(),
+        });
+      } else if (!existing) {
+        payload = {
+          first_referrer: document.referrer || undefined,
+          landing_page: location.pathname,
+          captured_at: new Date().toISOString(),
+        };
+      }
+
+      if (payload) {
+        document.cookie = COOKIE + '=' + encodeURIComponent(JSON.stringify(payload)) +
+          '; Domain=.marqly.com; Path=/; Max-Age=' + MAX_AGE + '; Secure; SameSite=Lax';
+      }
+    } catch (_) {
+      // Analytics must never make the page unusable.
+    }
+  })();
+</script>

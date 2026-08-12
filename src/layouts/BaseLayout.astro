@@ -5,6 +5,7 @@ import Navbar from '../components/ResponsiveNavbar.jsx';
 import Footer from '../components/ResponsiveFooter.jsx';
 import AnnouncementBar from '../components/AnnouncementBar.astro';
 import LinkHub from '../components/seo/LinkHub.astro';
+import AttributionCapture from '../components/landing/AttributionCapture.astro';
 
 export interface Props {
   title: string;
@@ -68,6 +69,8 @@ const canonicalURL = canonical ?? new URL(cleanPath, Astro.site).href;
         <script type="application/ld+json" set:html={JSON.stringify(obj)} />
       ))
     }
+
+    <AttributionCapture />
 
     <!-- Google Analytics 4 — same property as the rest of marqly.com.
          Guarded to the marqly.com host so staging/localhost don't pollute analytics. -->
