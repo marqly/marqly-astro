@@ -25,6 +25,6 @@ The [AI Summary tab](/faq/how-do-i-summarize-a-youtube-video) tells you what the
 
 ## What you need
 
-Chat requires Marqly Pro: $79/year (about $6.58/month billed annually) or $9/month, with a 7-day free trial. See [what's in Marqly free vs Pro](/faq/whats-in-marqly-free-vs-pro) for the full breakdown.
+Chat requires Marqly Pro: $72/year (about $6/month billed annually) or $9/month, with a 3-day free trial. See [what's in Marqly free vs Pro](/faq/whats-in-marqly-free-vs-pro) for the full breakdown.
 
 For a longer walkthrough with example conversations, read [chat with YouTube videos](/blog/chat-with-youtube-videos).

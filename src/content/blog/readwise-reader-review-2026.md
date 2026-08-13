@@ -21,7 +21,7 @@ faqs:
   - q: "Is Readwise Reader free?"
     a: "No. There's a 30-day free trial (card required, auto-charges unless you cancel), but no permanent free tier. Reader is only sold as part of the full Readwise subscription: $9.99/month billed annually ($119.88/year) or $12.99/month billed monthly. Students and academics can get 50% off by contacting Readwise before subscribing."
   - q: "What are the best Readwise Reader alternatives?"
-    a: "Marqly if you want AI-first retrieval (semantic search, auto-tagging, summaries) at $79/year instead of $119.88. Instapaper if you just want a calm reading queue for less. Raindrop.io for a free all-purpose bookmark library. Karakeep or Linkwarden if you want an open-source, self-hosted option."
+    a: "Marqly if you want AI-first retrieval (semantic search, auto-tagging, summaries) at $72/year instead of $119.88. Instapaper if you just want a calm reading queue for less. Raindrop.io for a free all-purpose bookmark library. Karakeep or Linkwarden if you want an open-source, self-hosted option."
   - q: "Can you get Reader without a Readwise subscription?"
     a: "No. Reader isn't sold standalone — it's bundled into the full Readwise plan at $9.99/month billed annually. The cheaper Lite plan ($5.59/month billed annually) covers only the original Readwise highlight-review service and does not include the Reader app."
 ---
@@ -95,7 +95,7 @@ Two footnotes that matter. First, Reader is not sold separately — if you want 
 
 | | Readwise Reader | Marqly |
 | --- | --- | --- |
-| Price | $119.88/yr (annual) or $12.99/mo | **$79/yr (≈$6.58/mo) or $9/mo** |
+| Price | $119.88/yr (annual) or $12.99/mo | **$72/yr (≈$6/mo) or $9/mo** |
 | Free tier | 30-day trial only | **Yes, no card required** |
 | Highlighting & review | **Best in class + spaced repetition** | 6-color highlighter, persists on live pages |
 | RSS + newsletter inbox | **Yes** | No |

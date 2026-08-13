@@ -31,7 +31,7 @@ The real difference between these tools isn't summary quality — everyone calls
 
 | Tool | Where the summary lives | Transcript | Chat with the video | Free tier | Price (verified Aug 2026) |
 | --- | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ On the watch page | ✅ Synced to playback, one-click copy | ✅ Yes (Pro) | ✅ Yes | $79/yr (~$6.58/mo) or $9/mo |
+| **Marqly** | ✅ On the watch page | ✅ Synced to playback, one-click copy | ✅ Yes (Pro) | ✅ Yes | $72/yr (~$6/mo) or $9/mo |
 | **NoteGPT** | ❌ Separate workspace | ✅ Yes | ✅ Yes | ⚠️ Small quota | Pro $9/mo |
 | **Recall** | ❌ Separate app/library | ✅ Yes | ❌ Summary-first | ✅ 10 summaries/mo | Plus $10/mo (annual) |
 | **Eightify** | ✅ On the watch page | ⚠️ Insights, not full workflow | ❌ No | ✅ 3 videos/week (≤30 min) | $4.95/mo, $3.95/mo annual |
@@ -51,7 +51,7 @@ That last part is the structural difference. Every other tool here summarizes an
 - Summary, chat, and transcript in one card, on the watch page — no app-switching
 - Saved videos keep their transcripts, so your library is searchable by what videos say
 - Part of a full AI bookmark manager (highlights, auto-tagging, boards) at no extra cost
-- Free tier, no card; Pro is $79/year — cheaper annually than every paid rival here except Eightify
+- Free tier, no card; Pro is $72/year — cheaper annually than every paid rival here except Eightify
 
 **Cons:**
 

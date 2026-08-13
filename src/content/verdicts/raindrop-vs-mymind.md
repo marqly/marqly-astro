@@ -5,7 +5,7 @@ verdict: "Raindrop.io wins for anyone who organizes, shares, or migrates a large
 updatedDate: 2026-08-02
 faqs:
   - q: "Which is cheaper, Raindrop.io or mymind?"
-    a: "Raindrop.io, by a wide margin. Its free plan includes unlimited bookmarks, collections, and highlights, and Pro costs about $28/year. mymind's free guest plan caps at 100 cards, and the tiers with AI features run $79/year (Student of Life) to $129/year (Mastermind) — roughly three to four times Raindrop's Pro price."
+    a: "Raindrop.io, by a wide margin. Its free plan includes unlimited bookmarks, collections, and highlights, and Pro costs about $28/year. mymind's free guest plan caps at 100 cards, and the tiers with AI features run $72/year (Student of Life) to $129/year (Mastermind) — roughly three to four times Raindrop's Pro price."
   - q: "Can I import my Raindrop.io bookmarks into mymind?"
     a: "Not through any official tool. mymind deliberately supports no bulk import — not from Raindrop, Pocket, or browser bookmarks — arguing a fresh start beats migrating clutter. Its API, in beta since mid-2026, makes scripted imports technically possible, but switching from Raindrop means starting over or writing code. Going the other way, Raindrop imports HTML and CSV easily."
   - q: "Does mymind have better search than Raindrop.io?"
@@ -18,7 +18,7 @@ These two tools embody opposite philosophies of saving. Raindrop.io is a filing 
 
 - You have an existing library to bring — it imports from Pocket, browser HTML, and most competitors, while mymind supports no bulk import at all
 - You share curated lists; Raindrop's public collections work with a link, whereas mymind has zero sharing or collaboration by design
-- Budget matters: unlimited free bookmarks versus a 100-card cap, and $28/year Pro versus $79–129/year for mymind's AI tiers
+- Budget matters: unlimited free bookmarks versus a 100-card cap, and $28/year Pro versus $72–129/year for mymind's AI tiers
 
 **Choose mymind if:**
 

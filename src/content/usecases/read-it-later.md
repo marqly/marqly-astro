@@ -15,7 +15,7 @@ faqs:
   - q: "Does Marqly work offline?"
     a: "No. Marqly has no offline reading mode — you need a connection to read your saves. If your main reading time is on flights or a subway with no signal, a dedicated offline reader is honestly a better fit for that specific situation. Marqly's strengths are on the other side of the job: AI triage, highlighting, and finding saves again by meaning."
   - q: "What does Marqly cost?"
-    a: "The free tier requires no card — sign up at app.marqly.com and start saving. Pro is $79 per year (about $6.58 a month billed annually) or $9 billed monthly, with a 7-day free trial. Pro adds features like chatting with your saved content, where you ask questions and get answers drawn from articles you've saved."
+    a: "The free tier requires no card — sign up at app.marqly.com and start saving. Pro is $72 per year (about $6 a month billed annually) or $9 billed monthly, with a 3-day free trial. Pro adds features like chatting with your saved content, where you ask questions and get answers drawn from articles you've saved."
 ---
 
 "Read it later" is a simple job with a famous failure mode: the saving works, the reading never happens, and the app becomes a guilt pile with a search box. When Pocket — the app that defined the category — shut down, it left a real gap, and a lot of people rethinking what they actually want from this kind of tool.
@@ -57,7 +57,7 @@ Videos fit the same workflow, by the way — if your "later" queue is half YouTu
 3. Import your old backlog: Pocket exports, Raindrop collections, or a browser bookmark HTML file all work.
 4. Tomorrow, when you hit something good mid-task: save, close the tab, keep working. That's the whole habit.
 
-Pro is $79/year (about $6.58/month billed annually) or $9/month, with a 7-day trial. There's also an iOS app for reading your library on the phone.
+Pro is $72/year (about $6/month billed annually) or $9/month, with a 3-day trial. There's also an iOS app for reading your library on the phone.
 
 ## Is Marqly the right fit?
 

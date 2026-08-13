@@ -111,7 +111,7 @@ Read it top to bottom and the trend is clear: every row improves once a tool is 
 
 ## Bring your Chrome bookmarks into Marqly
 
-If you want a tool to import into, [Marqly](https://app.marqly.com) takes your Chrome HTML export (or a Pocket or Raindrop export), reads each saved page to auto-tag it, writes a quick AI summary so you remember why you saved it, and lets you find any of it by meaning. It runs on the web, iOS, and as a Chrome extension, so saving and searching follow you across devices. The free tier covers everyday saving; Pro is $79/year — about $9/month, currently 27% off — if you want the full power-user kit.
+If you want a tool to import into, [Marqly](https://app.marqly.com) takes your Chrome HTML export (or a Pocket or Raindrop export), reads each saved page to auto-tag it, writes a quick AI summary so you remember why you saved it, and lets you find any of it by meaning. It runs on the web, iOS, and as a Chrome extension, so saving and searching follow you across devices. The free tier covers everyday saving; Pro is $72/year — about $6/month billed annually, or $9/month — if you want the full power-user kit.
 
 Export your bookmarks from Chrome, import the HTML file, and search your whole pile in minutes. The links you'd written off as lost become findable the moment the AI finishes reading them.
 

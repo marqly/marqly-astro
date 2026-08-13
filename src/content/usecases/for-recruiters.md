@@ -15,7 +15,7 @@ faqs:
   - q: "How do I find a candidate profile I saved weeks ago?"
     a: "Describe the person. Marqly's semantic search matches meaning rather than exact keywords across titles, page content, and your highlights — so \"the backend engineer who wrote about migrating off Kubernetes\" surfaces the right profile even if none of those words appear in the page title. It's built for exactly the way recruiters remember candidates: by a detail, not a name."
   - q: "What does Marqly cost for a recruiter?"
-    a: "The free tier requires no card — sign up and start saving profiles immediately. Pro is $79/year, which works out to about $6.58/month billed annually, or $9/month if you prefer monthly billing, and it comes with a 7-day free trial. Pro adds chat with your saved content, which is useful for querying a stack of salary surveys and market reports in plain language."
+    a: "The free tier requires no card — sign up and start saving profiles immediately. Pro is $72/year, which works out to about $6/month billed annually, or $9/month if you prefer monthly billing, and it comes with a 3-day free trial. Pro adds chat with your saved content, which is useful for querying a stack of salary surveys and market reports in plain language."
 ---
 
 Sourcing is a volume game played in browser tabs: forty profiles open by lunch, a salary survey somewhere in the pile, three role benchmarks you meant to bookmark, and by Friday you can picture the perfect candidate but can't find the tab you saw them in. Marqly is the organizer for that stage of recruiting — it saves everything in one click, tags it without your involvement, and retrieves any profile from the fragment you actually remember about the person.

@@ -9,7 +9,7 @@
   "tagline": "The extension of your mind — a private, visual home for everything you save",
   "pricing": {
     "free": true,
-    "paid": "The Bookmarker $4.99/mo; Student of Life $7.99/mo or $79/yr; Mastermind $12.99/mo or $129/yr",
+    "paid": "The Bookmarker $4.99/mo; Student of Life $7.99/mo or $72/yr; Mastermind $12.99/mo or $129/yr",
     "trial": null,
     "notes": "Every account starts on a free \"guest plan\" capped at 100 cards — free forever, not a timed trial. AI tagging starts on Student of Life; AI summaries, reading mode, article backup, and the PDF analyzer require Mastermind. The Bookmarker tier has no AI features."
   },
@@ -57,7 +57,7 @@
   "faqs": [
     {
       "q": "Is mymind free?",
-      "a": "Partly. Every account starts on a free \"guest plan\" capped at 100 cards — free forever, not a timed trial, but without reading mode or advanced AI. Paid plans run from The Bookmarker at $4.99/month (no AI) through Student of Life at $7.99/month or $79/year to Mastermind at $12.99/month or $129/year."
+      "a": "Partly. Every account starts on a free \"guest plan\" capped at 100 cards — free forever, not a timed trial, but without reading mode or advanced AI. Paid plans run from The Bookmarker at $4.99/month (no AI) through Student of Life at $7.99/month or $72/year to Mastermind at $12.99/month or $129/year."
     },
     {
       "q": "Can I import bookmarks into mymind?",

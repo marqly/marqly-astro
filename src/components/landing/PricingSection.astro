@@ -22,6 +22,16 @@ const proPerks = [
   'Smart sorting',
   'Priority support by email',
 ];
+
+// Single source of truth for this section. Must match apps/api
+// STRIPE_PRICE_PRO_*_AMOUNT_CENTS, which is what app.marqly.com/checkout charges.
+//   Annual: $72/year → $6/mo, 33% off the $108/year monthly-equivalent
+//   Monthly: $9/mo
+const PRICE = {
+  annual: { amount: '$6', period: '/month', note: 'billed annually at $72 · or $9 monthly' },
+  monthly: { amount: '$9', period: '/month', note: 'billed monthly · switch to annual to save 33%' },
+};
+const SAVE_LABEL = 'Save 33%';
 ---
 
 <section id="pricing" class="py-20 md:py-28">
@@ -35,7 +45,35 @@ const proPerks = [
       </h2>
     </div>
 
-    <div class="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 md:gap-6">
+    <div
+      class="mt-8 inline-flex items-center gap-1 rounded-3xl bg-default p-1"
+      role="group"
+      aria-label="Billing period"
+      data-billing-toggle
+      data-reveal
+    >
+      <button
+        type="button"
+        data-billing-btn="annual"
+        aria-pressed="true"
+        class="flex items-center gap-2 rounded-3xl px-4 py-2 text-[13px] font-medium transition-colors bg-surface text-foreground shadow-surface"
+      >
+        Annually
+        <span class="rounded-2xl bg-pro px-1.5 py-0.5 text-[10px] font-semibold tracking-wide text-white">
+          {SAVE_LABEL}
+        </span>
+      </button>
+      <button
+        type="button"
+        data-billing-btn="monthly"
+        aria-pressed="false"
+        class="rounded-3xl px-4 py-2 text-[13px] font-medium transition-colors text-muted"
+      >
+        Monthly
+      </button>
+    </div>
+
+    <div class="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 md:gap-6">
       <div class="flex flex-col rounded-3xl bg-surface p-7 shadow-surface" data-reveal>
         <h3 class="text-sm font-semibold tracking-wide text-muted uppercase">Free</h3>
         <p class="font-display mt-3 text-4xl font-medium text-foreground">$0</p>
@@ -62,20 +100,23 @@ const proPerks = [
         <div class="flex items-center justify-between">
           <h3 class="text-sm font-semibold tracking-wide text-white/70 uppercase">Pro</h3>
           <span class="rounded-2xl bg-pro px-2 py-0.5 text-[10px] font-semibold tracking-wide text-white">
-            7-DAY FREE TRIAL
+            3-DAY FREE TRIAL
           </span>
         </div>
         <p class="font-display mt-3 text-4xl font-medium">
-          $6.58<span class="text-lg text-white/60">/month</span>
+          <span data-price-amount>{PRICE.annual.amount}</span><span
+            class="text-lg text-white/60"
+            data-price-period>{PRICE.annual.period}</span
+          >
         </p>
-        <p class="mt-1 text-[11px] text-white/60">
-          billed annually at $79 · or $9 monthly
+        <p class="mt-1 text-[11px] text-white/60" data-price-note>
+          {PRICE.annual.note}
         </p>
         <ul class="mt-6 flex-1 space-y-2.5">
           {
             proPerks.map((p) => (
               <li class="flex items-start gap-2.5 text-sm text-white/85">
-                <CheckIcon size={14} className="mt-1 shrink-0 text-white/50" />
+                <CheckIcon size={14} className="mt-1 shrink-0 text-pro-bright" />
                 {p}
               </li>
             ))
@@ -92,3 +133,34 @@ const proPerks = [
     </div>
   </div>
 </section>
+
+<script define:vars={{ PRICE }}>
+  // Vanilla, no hydration — matches the rest of this landing page.
+  const toggle = document.querySelector('[data-billing-toggle]');
+  const section = document.querySelector('#pricing');
+  if (toggle && section) {
+    const amountEl = section.querySelector('[data-price-amount]');
+    const periodEl = section.querySelector('[data-price-period]');
+    const noteEl = section.querySelector('[data-price-note]');
+    const buttons = toggle.querySelectorAll('[data-billing-btn]');
+    const ACTIVE = ['bg-surface', 'text-foreground', 'shadow-surface'];
+
+    const apply = (key) => {
+      const price = PRICE[key];
+      if (!price) return;
+      amountEl.textContent = price.amount;
+      periodEl.textContent = price.period;
+      noteEl.textContent = price.note;
+      buttons.forEach((button) => {
+        const isActive = button.dataset.billingBtn === key;
+        button.setAttribute('aria-pressed', String(isActive));
+        button.classList.toggle('text-muted', !isActive);
+        ACTIVE.forEach((cls) => button.classList.toggle(cls, isActive));
+      });
+    };
+
+    buttons.forEach((button) => {
+      button.addEventListener('click', () => apply(button.dataset.billingBtn));
+    });
+  }
+</script>

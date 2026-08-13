@@ -65,7 +65,7 @@ export function softwareApplication() {
     offers: {
       '@type': 'AggregateOffer',
       lowPrice: '0',
-      highPrice: '48',
+      highPrice: '79',
       priceCurrency: 'USD',
       offerCount: 2,
     },

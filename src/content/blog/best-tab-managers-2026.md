@@ -33,7 +33,7 @@ faqs:
 | **OneTab** | Collapse-to-list | Instant declutter, zero cost | ✅ Everything (it's free) | — |
 | **Toby** | Visual collections | Visual thinkers, team boards | ⚠️ Capped (~60 saved tabs) | From $4.50/mo (annual) |
 | **Session Buddy** | Session snapshots | Crash recovery | ✅ Free | — |
-| **Marqly** | Save-to-library | Tabs you mean to come back to | ✅ Yes | $79/yr (~$6.58/mo) or $9/mo |
+| **Marqly** | Save-to-library | Tabs you mean to come back to | ✅ Yes | $72/yr (~$6/mo) or $9/mo |
 
 ## Workona — best workspace switcher
 
@@ -107,14 +107,14 @@ Session Buddy snapshots your browser sessions so a crash, restart, or accidental
 
 Honesty first: **Marqly will not switch your workspaces.** If you need per-project tab sets swapped in and out all day, use Workona — that's its job, and Marqly doesn't do it.
 
-What Marqly does instead is solve the *other* tab problem — the 30 tabs that are open because closing them feels like losing them. Its extension has a **tab saver that saves all open tabs at once** into your library, where AI **auto-tags every one** and a **side panel** lets you browse and search your saves without leaving the page you're on. Retrieval is the differentiator: **semantic search** finds a saved tab weeks later from a vague description — "that pricing-psychology article" — no folder, board, or exact title required. Free tier to start; Pro is $79/year.
+What Marqly does instead is solve the *other* tab problem — the 30 tabs that are open because closing them feels like losing them. Its extension has a **tab saver that saves all open tabs at once** into your library, where AI **auto-tags every one** and a **side panel** lets you browse and search your saves without leaving the page you're on. Retrieval is the differentiator: **semantic search** finds a saved tab weeks later from a vague description — "that pricing-psychology article" — no folder, board, or exact title required. Free tier to start; Pro is $72/year.
 
 **Pros:**
 
 - One click saves the whole window; AI tags everything — zero manual filing
 - Semantic search means saved tabs are actually findable later, by meaning
 - Side-panel library, plus web app and iOS — your saves aren't trapped in one browser
-- Free tier; Pro at $79/year undercuts Workona Pro and Toby's annual cost
+- Free tier; Pro at $72/year undercuts Workona Pro and Toby's annual cost
 
 **Cons:**
 

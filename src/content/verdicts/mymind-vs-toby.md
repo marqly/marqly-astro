@@ -7,7 +7,7 @@ faqs:
   - q: "Which works for teams, mymind or Toby?"
     a: "Only Toby. It was built around collaboration: shared spaces, member invites, org-wide collections, SSO on the $8/member/month Team plan, and public collection links anyone can open without an account. mymind sits at the opposite extreme — nothing can be shared, ever. No public boards, no collaborators, no links. It is marketed as a private extension of your own mind."
   - q: "How do mymind and Toby compare on price?"
-    a: "Both start free with hard caps: Toby's Starter plan stops at 60 saved tabs, mymind's guest plan at 100 cards. Toby then costs $4.50/member/month billed yearly ($54/yr) or $8/member/month for Team. mymind runs $4.99/month without AI, $7.99/month ($79/yr) for AI tagging, and $12.99/month ($129/yr) for the full Mastermind tier with summaries."
+    a: "Both start free with hard caps: Toby's Starter plan stops at 60 saved tabs, mymind's guest plan at 100 cards. Toby then costs $4.50/member/month billed yearly ($54/yr) or $8/member/month for Team. mymind runs $4.99/month without AI, $7.99/month ($72/yr) for AI tagging, and $12.99/month ($129/yr) for the full Mastermind tier with summaries."
   - q: "Do both use AI?"
     a: "Yes, for different jobs. Toby AI names, sorts, and groups your open tabs into collections automatically — organization of the working set. mymind's AI goes deeper on the saved object itself: auto-tagging every card, recognizing objects, colors, brands, and text inside images, powering semantic search, and (on Mastermind) generating summaries. Toby has no full-text or semantic search at all."
 ---

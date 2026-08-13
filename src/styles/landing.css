@@ -72,6 +72,9 @@
   --marker: #f0ec68;
   --marker-soft: #f7f4a9;
   --pro: #7c3aed;
+  /* Lighter violet for Pro accents that sit on the dark ink card — #7c3aed is
+     too dark there to read as purple rather than near-black. */
+  --pro-bright: #a78bfa;
   --success-solid: #17c964;
   --ai-indigo: #5f66ee;
   --ai-magenta: #cc0096;
@@ -134,6 +137,7 @@
   --color-marker: var(--marker);
   --color-marker-soft: var(--marker-soft);
   --color-pro: var(--pro);
+  --color-pro-bright: var(--pro-bright);
   --color-ink: var(--eclipse);
 
   --radius: 0.5rem;

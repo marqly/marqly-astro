@@ -22,7 +22,7 @@ faqs:
   - q: "Can I share my highlights with other people?"
     a: "Yes, through a shared board. Make any Marqly board public — with explicit consent, nothing is shared by default — and Marqly generates a public page of that board's links and highlights. Anyone with the link can view it without signing up, which makes it a simple way to hand research to a team, a client, or your readers."
   - q: "Is the Marqly web highlighter free?"
-    a: "The extension is free to install and includes bookmarking and tab saving. Highlights and notes are part of Marqly Pro, which comes with a 7-day free trial and costs $79 per year — about $6.58 a month billed annually. So you can try persistent highlighting on real pages for a week before paying anything."
+    a: "The extension is free to install and includes bookmarking and tab saving. Highlights and notes are part of Marqly Pro, which comes with a 3-day free trial and costs $72 per year — about $6 a month billed annually. So you can try persistent highlighting on real pages for a week before paying anything."
 heroImage: ../../assets/blog/how-to-highlight-text-on-any-website.png
 heroAlt: "How to Highlight Text on Any Website (and Actually Keep It) — illustration"
 ogImage: "https://www.marqly.com/og/how-to-highlight-text-on-any-website.png"
@@ -79,7 +79,7 @@ There's a quick way to test any highlighter against this list: highlight a passa
 5. **Open the side panel to review.** The browser side panel lists every highlight on the current page and across your whole library. Click any highlight and the page scrolls to it.
 6. **Find everything later in the web app.** Highlights sync to your Marqly account and appear alongside your bookmarks — one searchable library of links and passages instead of two disconnected piles.
 
-On pricing, plainly: highlights and notes are part of Marqly Pro, which is $79/year — about $6.58 a month, billed annually — with a 7-day free trial. The extension itself is free to install, and the free features (bookmarking, tab saving) stand on their own. Try the highlighter on a real research session during the trial; a week is enough to know whether persistent highlights change how you read.
+On pricing, plainly: highlights and notes are part of Marqly Pro, which is $72/year — about $6 a month, billed annually — with a 3-day free trial. The extension itself is free to install, and the free features (bookmarking, tab saving) stand on their own. Try the highlighter on a real research session during the trial; a week is enough to know whether persistent highlights change how you read.
 
 ## How do highlights become a research workflow?
 
@@ -95,7 +95,7 @@ On pricing, plainly: highlights and notes are part of Marqly Pro, which is $79/y
 
 ## Keep what you read, not just where you read it
 
-Bookmarks answer "where was that page?" Highlights answer the question you actually ask: "where was that *line*?" The setup takes two minutes — [install the Marqly extension](https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc) (free, on Chrome, Edge, Firefox, and Safari), highlight a passage on the next article you read, then reload the page and watch it come back. Highlights and notes come with a 7-day Pro trial — no commitment, and the bookmarking stays free either way.
+Bookmarks answer "where was that page?" Highlights answer the question you actually ask: "where was that *line*?" The setup takes two minutes — [install the Marqly extension](https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc) (free, on Chrome, Edge, Firefox, and Safari), highlight a passage on the next article you read, then reload the page and watch it come back. Highlights and notes come with a 3-day Pro trial — no commitment, and the bookmarking stays free either way.
 
 ---
 

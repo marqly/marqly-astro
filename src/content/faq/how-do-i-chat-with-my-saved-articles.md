@@ -22,6 +22,6 @@ The point of chatting with your saves is grounding: answers are based on the con
 
 ## What you need
 
-Chat with your saves requires Marqly Pro: $79/year (about $6.58/month billed annually) or $9/month, with a 7-day free trial. See [what's in Marqly free vs Pro](/faq/whats-in-marqly-free-vs-pro) for the split.
+Chat with your saves requires Marqly Pro: $72/year (about $6/month billed annually) or $9/month, with a 3-day free trial. See [what's in Marqly free vs Pro](/faq/whats-in-marqly-free-vs-pro) for the split.
 
 For example questions and a full workflow, read [how to chat with your saved articles](/blog/how-to-chat-with-your-saved-articles).

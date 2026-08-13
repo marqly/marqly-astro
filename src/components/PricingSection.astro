@@ -7,10 +7,10 @@ const APP = 'https://app.marqly.com/';
 
 // Pricing facts — must match apps/api STRIPE_PRICE_PRO_*_AMOUNT_CENTS, which is what
 // app.marqly.com/checkout actually charges (it reads GET /billing/plans).
-//   Annual:  $79/year  → $6.58/mo, 27% off the $108/year list price
+//   Annual:  $72/year  → $6/mo, 33% off the $108/year list price
 //   Monthly: $9/mo
 const PRICE = {
-  annual: { amount: '$79', period: '/year', wasAmount: '$108', note: 'Just $6.58/mo, billed annually' },
+  annual: { amount: '$72', period: '/year', wasAmount: '$108', note: 'Just $6/mo, billed annually' },
   monthly: { amount: '$9', period: '/month', wasAmount: null, note: 'Billed monthly' },
 };
 

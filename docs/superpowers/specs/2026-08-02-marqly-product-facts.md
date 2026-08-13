@@ -24,7 +24,7 @@ remember — **semantic search by meaning, not keywords**.
 
 - **Free tier**: exists; no card required to sign up.
 - **Pro**: $48/year (≈ $4/month billed annually) or $8/month billed monthly.
-- **7-day free trial** of Pro.
+- **3-day free trial** of Pro.
 - NO lifetime deal. NO published student discount. Don't invent quota numbers
   for the free tier (saves/summaries limits are NOT published — never state one).
 

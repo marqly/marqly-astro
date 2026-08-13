@@ -134,7 +134,7 @@ Most apps marketed as "second brains" are heavy, and heavy systems rot from main
 
 For that, the easiest second brain is the web you already save, made searchable by AI. [Marqly](https://app.marqly.com) does exactly that path end to end: import your existing bookmarks from Pocket, Raindrop, or a browser export, save new things in one click from the web, iOS, or Chrome, and then ask your library for anything you've read — by meaning, not keywords. AI tags and summarizes every save, so you never touch a folder.
 
-There's a free tier to start with no credit card, and Pro is $79/yr (about $9/mo — 27% off) when you want the full library. If "a second brain without the maintenance" is what you're after, that's the whole pitch.
+There's a free tier to start with no credit card, and Pro is $72/yr (about $6/mo billed annually) or $9/mo when you want the full library. If "a second brain without the maintenance" is what you're after, that's the whole pitch.
 
 ---
 

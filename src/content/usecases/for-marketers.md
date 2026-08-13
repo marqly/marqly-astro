@@ -15,7 +15,7 @@ faqs:
   - q: "How does Marqly keep competitor research organized?"
     a: "Automatically. Every save gets AI auto-tags the moment you capture it, so competitor pricing pages, launch announcements, and ad landing pages sort themselves without a folder system. The tab saver captures an entire research session's tabs at once, and semantic search later retrieves any of it from a description like 'the rebrand announcement that leaned on customer stories.'"
   - q: "What does Marqly cost for a marketer testing it out?"
-    a: "Nothing to start — the free tier requires no card at signup. Pro runs $79/year (about $6.58/month billed annually) or $9/month billed monthly, and adds chat with your saves and chat with YouTube video transcripts. Every new account includes a 7-day free trial of Pro, so you can evaluate the full feature set against a real campaign cycle before paying."
+    a: "Nothing to start — the free tier requires no card at signup. Pro runs $72/year (about $6/month billed annually) or $9/month billed monthly, and adds chat with your saves and chat with YouTube video transcripts. Every new account includes a 3-day free trial of Pro, so you can evaluate the full feature set against a real campaign cycle before paying."
 ---
 
 Marketers consume more of their competitors' output than anyone: landing pages, launch emails, ad creative, pricing experiments, LinkedIn posts that inexplicably worked. All of it is reference material — until you need it. The pricing page you screenshotted got redesigned before the teardown meeting. The subject line you meant to steal is in a newsletter you can't find. The "inspiration" Slack channel is a landfill nobody searches. Curation without retrieval is just hoarding with extra steps.

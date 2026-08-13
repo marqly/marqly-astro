@@ -97,7 +97,7 @@ export function marqlyPairFaqs(marqly: Competitor, b: Competitor): { q: string; 
   faqs.push({ q: `Does ${b.name} have AI search?`, a: aiFeaturesSentence(b) });
   faqs.push({
     q: 'Is Marqly free?',
-    a: 'Yes — Marqly has a free tier with no card required. Pro is $79/year (about $6.58/month billed annually) or $9/month, with a 7-day free trial. Pro unlocks chat with your saves and chat with YouTube videos.',
+    a: 'Yes — Marqly has a free tier with no card required. Pro is $72/year (about $6/month billed annually) or $9/month, with a 3-day free trial. Pro unlocks chat with your saves and chat with YouTube videos.',
   });
 
   return faqs;

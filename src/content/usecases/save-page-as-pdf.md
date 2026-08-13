@@ -15,7 +15,7 @@ faqs:
   - q: "Is the page uploaded to a server to create the PDF?"
     a: "No. The capture is processed locally in your browser — the extension does the work on your machine rather than shipping the page off to a conversion service. That keeps the capture fast, and it means you are not waiting on an upload before you get your PDF."
   - q: "Do I need a paid plan to use Marqly?"
-    a: "Marqly has a free tier with no card required, plus a Pro plan at $79 per year or $9 per month with a 7-day free trial. Start free at app.marqly.com and you'll see exactly what your account includes; the details are covered in the free-plan FAQ."
+    a: "Marqly has a free tier with no card required, plus a Pro plan at $72 per year or $9 per month with a 3-day free trial. Start free at app.marqly.com and you'll see exactly what your account includes; the details are covered in the free-plan FAQ."
 ---
 
 You need a copy of a webpage that won't change or disappear: a confirmation page, an article you plan to cite, a job posting that could be taken down tomorrow, a landing page you want to reference long after the next redesign. The browser's built-in print-to-PDF was never built for that job. It runs the page through print stylesheets, drops images that haven't loaded yet, and breaks layouts in odd places.

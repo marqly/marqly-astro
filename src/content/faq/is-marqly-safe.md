@@ -13,7 +13,7 @@ Yes. Marqly stores your bookmarks, highlights, and notes in your private account
 
 ## The business model is the safety argument
 
-The most reliable way to judge a free-tier product is to ask how it makes money. Ad-funded tools profit from profiling you; Marqly profits when users pay $79/yr for Pro features. That alignment means the product gets better by being more useful, not by extracting more data. More on this in [does Marqly sell my data](/faq/does-marqly-sell-my-data).
+The most reliable way to judge a free-tier product is to ask how it makes money. Ad-funded tools profit from profiling you; Marqly profits when users pay $72/yr for Pro features. That alignment means the product gets better by being more useful, not by extracting more data. More on this in [does Marqly sell my data](/faq/does-marqly-sell-my-data).
 
 ## What's private by default
 

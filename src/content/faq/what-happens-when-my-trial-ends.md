@@ -1,6 +1,6 @@
 ---
 question: "What happens when my Marqly trial ends?"
-description: "When the 7-day Pro trial ends you drop to the free tier — your saves, tags, and library stay intact. Nothing is deleted; only the Pro chat features pause."
+description: "When the 3-day Pro trial ends you drop to the free tier — your saves, tags, and library stay intact. Nothing is deleted; only the Pro chat features pause."
 category: pricing
 updatedDate: 2026-08-02
 related:
@@ -9,7 +9,7 @@ related:
   - what-happens-to-my-bookmarks-if-i-cancel
 ---
 
-When your 7-day Pro trial ends and you haven't subscribed, your account moves to the free tier. Nothing is deleted — every save, tag, and highlight stays in your library exactly as you left it. What changes is access to the Pro features: chat with your saves and chat with YouTube videos pause until you subscribe. The core save, auto-tag, and search experience keeps working.
+When your 3-day Pro trial ends and you haven't subscribed, your account moves to the free tier. Nothing is deleted — every save, tag, and highlight stays in your library exactly as you left it. What changes is access to the Pro features: chat with your saves and chat with YouTube videos pause until you subscribe. The core save, auto-tag, and search experience keeps working.
 
 ## What you keep on the free tier
 
@@ -27,7 +27,7 @@ The two Pro capabilities stop: asking questions answered from your saved content
 
 ## If you decide Pro is worth it
 
-Subscribe from your account at [app.marqly.com](https://app.marqly.com). Annual billing at $79/yr is about 27% less than paying $9 monthly, and the homepage pricing section always has current numbers.
+Subscribe from your account at [app.marqly.com](https://app.marqly.com). Annual billing at $72/yr is about 33% less than paying $9 monthly, and the homepage pricing section always has current numbers.
 
 ## No dark patterns
 

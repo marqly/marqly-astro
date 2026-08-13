@@ -42,7 +42,7 @@ SWITCHING IS EASY
 Import your Pocket export, Raindrop.io collections, or the bookmarks HTML file from Chrome, Edge, Firefox, or Safari. Everything gets AI-tagged on the way in. Pocket shut down — Marqly is where its users land. 
 
 FREE TO START
-Free plan, no card required. Pro ($79/year ≈ $6.58/month, or $9/month) adds chat with your saves and YouTube video chat. 7-day free trial.
+Free plan, no card required. Pro ($72/year ≈ $6/month, or $9/month) adds chat with your saves and YouTube video chat. 3-day free trial.
 
 Also available: Edge add-on, Firefox add-on, Safari extension, iOS app, and the web app at app.marqly.com — your library syncs everywhere.
 

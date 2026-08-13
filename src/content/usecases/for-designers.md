@@ -15,7 +15,7 @@ faqs:
   - q: "Can clients or teammates see my inspiration boards?"
     a: "You can share any board as a public page, viewable by anyone with the link — no signup required on their end. That makes a board a lightweight moodboard deliverable: collect references for a project, share one URL in the kickoff thread, and stakeholders browse it in their own browser. Note it's view-only sharing; Marqly doesn't have collaborative editing."
   - q: "Is Marqly free to use for collecting references?"
-    a: "There's a free tier — signup at app.marqly.com takes no card. Saving, boards, highlighting, and semantic search are the everyday reference-collecting toolkit, and Pro ($79/year, about $6.58/month billed annually, or $9/month) adds chat with your saves. Every account begins with a 7-day free trial of Pro, so you can judge the paid layer before deciding."
+    a: "There's a free tier — signup at app.marqly.com takes no card. Saving, boards, highlighting, and semantic search are the everyday reference-collecting toolkit, and Pro ($72/year, about $6/month billed annually, or $9/month) adds chat with your saves. Every account begins with a 3-day free trial of Pro, so you can judge the paid layer before deciding."
 ---
 
 Design inspiration has a shelf life measured in scroll-lengths. You pass a landing page with a navigation treatment worth stealing, a case study that explains a rebrand honestly, a portfolio whose typography does something you've never seen — and by the time a project actually needs that reference, it's a ghost. "It had a dark hero and the serifs were doing something weird" is all you've got, and browser bookmarks can't answer a query like that. Screenshots-in-camera-roll can't either.

@@ -15,7 +15,7 @@ faqs:
   - q: "Does Marqly integrate with my CRM?"
     a: "No. Marqly has no public API, so there's no Salesforce or HubSpot integration. It works alongside your CRM rather than inside it: keep the raw research — articles, pricing pages, conference talks, highlights — in Marqly, and copy the facts that matter into your CRM notes when you log activity. The two jobs stay separate."
   - q: "Is Marqly free for sales research?"
-    a: "There's a free tier with no card required — sign up at app.marqly.com and start saving immediately. Pro costs $79 per year (about $6.58 a month billed annually) or $9 billed monthly, and comes with a 7-day free trial. Pro adds features like chatting with your saved content, which is useful for querying a big account's research pile."
+    a: "There's a free tier with no card required — sign up at app.marqly.com and start saving immediately. Pro costs $72 per year (about $6 a month billed annually) or $9 billed monthly, and comes with a 3-day free trial. Pro adds features like chatting with your saved content, which is useful for querying a big account's research pile."
 ---
 
 Sales research is the same job on repeat: before every discovery call you're digging through funding announcements, pricing pages, product changelogs, analyst reports, and whatever the champion posted last week. The links pile up across browser tabs, notes apps, and a bookmarks bar you stopped trusting months ago. When the deal finally moves, the article you need is somewhere — you just can't say where.
@@ -60,7 +60,7 @@ Two features make retrieval sharper for sales work:
 3. Import your existing browser bookmarks (standard HTML export) so the old pile gets AI tags too.
 4. Start a board for your top three accounts and save into them for a week.
 
-The free tier is enough to test the workflow. Pro is $79/year (about $6.58/month billed annually) or $9/month, with a 7-day trial, and adds things like chat with your saves — asking questions answered from your own research pile.
+The free tier is enough to test the workflow. Pro is $72/year (about $6/month billed annually) or $9/month, with a 3-day trial, and adds things like chat with your saves — asking questions answered from your own research pile.
 
 ## Is Marqly the right fit?
 

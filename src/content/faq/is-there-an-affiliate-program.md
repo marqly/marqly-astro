@@ -17,7 +17,7 @@ Keep it short and concrete: who your audience is, where you publish and roughly 
 
 ## Writing about Marqly without a program
 
-You don't need a partnership to cover Marqly, and accurate coverage is genuinely welcome. The facts worth getting right: there's a [free tier with no card required](/faq/is-marqly-free), Pro costs $79/year or $9/month with a 7-day free trial ([full pricing details](/faq/how-much-does-marqly-cost)), and the current ratings are 4.8 stars on the Chrome Web Store and 4.7 on Product Hunt. Send readers to [app.marqly.com](https://app.marqly.com) — the free signup means your audience can verify your take themselves.
+You don't need a partnership to cover Marqly, and accurate coverage is genuinely welcome. The facts worth getting right: there's a [free tier with no card required](/faq/is-marqly-free), Pro costs $72/year or $9/month with a 3-day free trial ([full pricing details](/faq/how-much-does-marqly-cost)), and the current ratings are 4.8 stars on the Chrome Web Store and 4.7 on Product Hunt. Send readers to [app.marqly.com](https://app.marqly.com) — the free signup means your audience can verify your take themselves.
 
 ## If a program launches later
 

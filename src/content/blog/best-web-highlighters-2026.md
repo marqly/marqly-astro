@@ -16,13 +16,13 @@ ctaUrl: "https://app.marqly.com"
 ctaLabel: "Try Marqly free"
 faqs:
   - q: "What is the best web highlighter in 2026?"
-    a: "Marqly is the best all-round web highlighter in 2026: six colors plus notes, highlights that persist on the page when you revisit, sync to a searchable library, a free tier, and Pro at $79/year. Readwise Reader is the pick for export-heavy power readers, and Hypothesis is the best fully free option for academic annotation."
+    a: "Marqly is the best all-round web highlighter in 2026: six colors plus notes, highlights that persist on the page when you revisit, sync to a searchable library, a free tier, and Pro at $72/year. Readwise Reader is the pick for export-heavy power readers, and Hypothesis is the best fully free option for academic annotation."
   - q: "Do web highlighter extensions keep highlights when you revisit a page?"
     a: "Only some do. Marqly, Weava, LINER, and Hypothesis re-paint your highlights on the live page when you return (with the extension active). Glasp does too, but free-plan highlights are public by default. Persistence is the first thing to test — a highlighter that forgets the page is just a colored screenshot."
   - q: "What's the best free web highlighter?"
     a: "Hypothesis is the best completely free option — open source, nonprofit-backed, with unlimited annotations, though only one highlight color. Weava's free plan is generous for students (unlimited highlights, ~100MB storage). Marqly's free tier adds AI on top: auto-tagging and search by meaning across your highlights."
   - q: "Is LINER still good for highlighting in 2026?"
-    a: "LINER still highlights, but the product has pivoted into an AI search assistant, and pricing reflects that: Pro is $17.99/month ($14.99/month billed annually) — the most expensive tool in this roundup. If you only want highlighting, Weava at $3.99/month or Marqly at $79/year deliver more highlighting per dollar."
+    a: "LINER still highlights, but the product has pivoted into an AI search assistant, and pricing reflects that: Pro is $17.99/month ($14.99/month billed annually) — the most expensive tool in this roundup. If you only want highlighting, Weava at $3.99/month or Marqly at $72/year deliver more highlighting per dollar."
 ---
 
 **The short answer:** for most people the best web highlighter in 2026 is **Marqly** — six colors plus notes, highlights that are still on the page when you come back, and a library you can search by meaning, from free. **Readwise Reader** wins if your highlights need to flow into Notion, Obsidian, or Anki. **Hypothesis** wins if you want completely free, open-source annotation. **Weava** is the budget research pick, **Glasp** the social one, and **LINER** has drifted away from highlighting entirely.
@@ -31,7 +31,7 @@ We judged all six on the four things that actually matter in daily use: does the
 
 | Tool | Persists on the page? | Colors & notes | Export | Free tier | Paid price (verified Aug 2026) |
 | --- | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Yes, on revisit | 6 colors + notes | In-app library (no file export yet) | ✅ Yes | $79/yr (~$6.58/mo) or $9/mo |
+| **Marqly** | ✅ Yes, on revisit | 6 colors + notes | In-app library (no file export yet) | ✅ Yes | $72/yr (~$6/mo) or $9/mo |
 | **Readwise Reader** | ✅ Yes, via extension | Highlights + notes & tags | ✅ Best in class (Notion, Obsidian, more) | ❌ 30-day trial | $9.99/mo annual, $12.99 monthly |
 | **Weava** | ✅ Yes | 5 default colors; custom on Premium | Citations & docs | ✅ Yes (~100MB) | $3.99/mo (reg. $7.99) |
 | **Hypothesis** | ✅ Yes, with extension | 1 color + notes/replies | API/JSON | ✅ Fully free | Free (paid LMS plans for schools) |
@@ -49,7 +49,7 @@ Marqly's highlighter does the fundamentals right: select text on any website, pi
 - 6 highlight colors + notes; highlights persist on the page when you return
 - Highlights sync into a library with AI auto-tagging and semantic search
 - Boards let you group highlights and links, and share a board as a public page
-- Free tier, no card; Pro is $79/year (~$6.58/month) — the cheapest annual paid plan here after Weava
+- Free tier, no card; Pro is $72/year (~$6/month) — the cheapest annual paid plan here after Weava
 - Chrome, Edge, Firefox, and Safari extensions (★4.8 on the Chrome Web Store)
 
 **Cons:**

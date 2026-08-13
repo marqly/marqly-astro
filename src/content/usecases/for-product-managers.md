@@ -13,7 +13,7 @@ faqs:
   - q: "Can Marqly replace my product spec or roadmap tool?"
     a: "No, and it doesn't try to. Marqly handles the research layer: the competitor pages, user research links, and articles that feed your PRDs. You still write specs in your docs tool and plan in your roadmap tool. Marqly's job is making sure that when you sit down to write, the source material is already tagged, summarized, and findable in seconds."
   - q: "Is Marqly free for product managers?"
-    a: "There's a free tier with no card required — sign up at app.marqly.com and start saving immediately. Pro costs $79/year (about $6.58/month billed annually) or $9/month billed monthly, and unlocks chat with your saves and chat with YouTube videos. Every Pro plan starts with a 7-day free trial, so you can test the chat workflow on a real PRD before paying."
+    a: "There's a free tier with no card required — sign up at app.marqly.com and start saving immediately. Pro costs $72/year (about $6/month billed annually) or $9/month billed monthly, and unlocks chat with your saves and chat with YouTube videos. Every Pro plan starts with a 3-day free trial, so you can test the chat workflow on a real PRD before paying."
   - q: "How does semantic search help with competitive research?"
     a: "Competitor research ages badly in a folder system because you file by company but recall by topic. Semantic search matches meaning across titles, page content, highlights, and video transcripts. Searching \"how competitors price per-seat\" surfaces the relevant saves even when none of them contain those exact words — which is how you actually remember research months later."
 ---

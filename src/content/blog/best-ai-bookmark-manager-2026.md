@@ -21,7 +21,7 @@ faqs:
   - q: "How do I tell if a bookmark tool's AI is real?"
     a: "Run a two-minute test: save three articles, wait a day, then try to find one by paraphrasing it without using any word from the title. If the tool surfaces it, the semantic search is real. If it returns nothing, the 'AI' is marketing."
   - q: "Which AI bookmark manager is best for searching by meaning?"
-    a: "Marqly is built around semantic search first, so you can find saves by meaning across your whole library, plus auto-tagging and AI summaries. It runs on web, iOS, and Chrome with a free tier and Pro at $79/yr (about $9/mo, currently 27% off)."
+    a: "Marqly is built around semantic search first, so you can find saves by meaning across your whole library, plus auto-tagging and AI summaries. It runs on web, iOS, and Chrome with a free tier and Pro at $72/yr (about $6/mo billed annually) or $9/mo."
   - q: "Is Raindrop.io an AI bookmark manager?"
     a: "Raindrop.io is an excellent bookmark manager with a generous free tier, but its search is keyword-based, not semantic. It can't find a save when you paraphrase it. If you want true AI retrieval — finding links by meaning — pair Raindrop with a semantic tool or switch to one built around meaning search."
   - q: "Do AI bookmark managers work with my existing bookmarks?"
@@ -87,7 +87,7 @@ The five below cover the real spread of the market: one built around semantic se
 
 | Tool | Best for | Real semantic search? | Auto-tagging | Imports | Free tier | Price |
 | --- | --- | --- | --- | --- | --- | --- |
-| **Marqly** | Searching by meaning | ✅ Yes (built around it) | ✅ Yes | Pocket, Raindrop, browser exports | ✅ Yes | $79/yr (~$9/mo, 27% off) |
+| **Marqly** | Searching by meaning | ✅ Yes (built around it) | ✅ Yes | Pocket, Raindrop, browser exports | ✅ Yes | $72/yr (~$6/mo) or $9/mo |
 | **mymind** | Visual auto-organization | ⚠️ Partial | ✅ Yes | Limited | ❌ No | ~$8/mo |
 | **Readwise Reader** | Reading & highlighting | ⚠️ Partial (chat/AI add-ons) | ⚠️ Limited | Pocket, Instapaper, RSS | ❌ Trial only | ~$12/mo |
 | **Raindrop.io** | Free, all-media library | ❌ No (keyword) | ⚠️ Basic | Browser exports, others | ✅ Generous | Free / ~$3/mo Pro |
@@ -96,7 +96,7 @@ The five below cover the real spread of the market: one built around semantic se
 A few honest caveats on the table. "Partial" means the tool has *some* AI-flavored retrieval — usually a chat feature or a related-items panel — but it isn't a meaning-first search box you can rely on across your whole library the way Marqly's is. Prices move; check each tool's site before you commit. And Raindrop scoring "No" on semantic search isn't a knock on the product — it's a genuinely great keyword bookmark manager, it just isn't an *AI* one in the sense this guide cares about.
 
 ### Marqly — best for searching by meaning
-Marqly is built around the query layer first. Save anything from web, iOS, or Chrome, and find it later by describing what you remember — across your entire library — plus auto-tagging and AI summaries on the way in. It imports your Pocket export, Raindrop collections, and browser bookmarks, so you're not starting from zero — here's how to [import your Chrome bookmarks](/blog/how-to-import-chrome-bookmarks-to-ai) in a couple of minutes. Free tier; Pro is $79/yr (about $9/mo, currently 27% off). If "search what you remember" is the experience you're after, this is the most focused option — read [our full Marqly review](/blog/marqly-review-2026) for the deep dive, or [try it free](https://app.marqly.com/lp/ai-search).
+Marqly is built around the query layer first. Save anything from web, iOS, or Chrome, and find it later by describing what you remember — across your entire library — plus auto-tagging and AI summaries on the way in. It imports your Pocket export, Raindrop collections, and browser bookmarks, so you're not starting from zero — here's how to [import your Chrome bookmarks](/blog/how-to-import-chrome-bookmarks-to-ai) in a couple of minutes. Free tier; Pro is $72/yr (about $6/mo billed annually) or $9/mo. If "search what you remember" is the experience you're after, this is the most focused option — read [our full Marqly review](/blog/marqly-review-2026) for the deep dive, or [try it free](https://app.marqly.com/lp/ai-search).
 
 ### mymind — best for visual thinkers
 "No organizing, ever." mymind auto-tags and surfaces everything in a beautiful, calm, visual canvas — closer to a moodboard than a reading queue. Its retrieval leans on tags and visual recall more than true paraphrase search, and there's no free tier (~$8/mo). Excellent for designers and visual thinkers collecting images and inspiration; less suited to people whose saves are mostly long-form articles they need to find by argument.

@@ -18,11 +18,11 @@ faqs:
   - q: "Is mymind worth it in 2026?"
     a: "mymind is worth it if you're a visual thinker who saves images, quotes, and inspiration and values a private, ad-free space — it's the most beautiful tool in the category. It's a weaker fit if you mostly save long articles you need to find again by topic, or if you want a free tier: there isn't a permanent free plan."
   - q: "How much does mymind cost?"
-    a: "mymind has three live plans: The Bookmarker at $4.99/month (no AI), Student of Life at $7.99/month or $79/year (AI tagging, smart spaces), and Mastermind at $12.99/month or $129/year (AI summaries, reading mode, article backup, PDF analysis). A $299/year Newton plan is listed as coming soon. Verified August 2026."
+    a: "mymind has three live plans: The Bookmarker at $4.99/month (no AI), Student of Life at $7.99/month or $72/year (AI tagging, smart spaces), and Mastermind at $12.99/month or $129/year (AI summaries, reading mode, article backup, PDF analysis). A $299/year Newton plan is listed as coming soon. Verified August 2026."
   - q: "Does mymind have a free plan?"
     a: "No permanent free plan. mymind offers a free trial and a limited guest experience capped by storage rather than time, but the full product requires a subscription — the AI features that make it interesting start at $7.99/month. If a real free tier matters, look at Raindrop or Marqly instead."
   - q: "What's the difference between mymind and Marqly?"
-    a: "mymind is a private visual canvas: it auto-tags what you save and resurfaces it as cards, ideal for images and inspiration. Marqly is retrieval-first: semantic search finds saves by meaning, plus highlights, YouTube summaries, and boards. Marqly has a free tier and Pro costs $79/year; mymind's AI plans run $79–$129/year."
+    a: "mymind is a private visual canvas: it auto-tags what you save and resurfaces it as cards, ideal for images and inspiration. Marqly is retrieval-first: semantic search finds saves by meaning, plus highlights, YouTube summaries, and boards. Marqly has a free tier and Pro costs $72/year; mymind's AI plans run $72–$129/year."
 ---
 
 **The short answer: mymind earns a 3.8 out of 5.** It's the most beautiful, most opinionated save-everything app on the market — a private visual canvas with genuinely good AI tagging and zero organizing required. It loses points for having no permanent free plan, gating its best AI behind the $12.99/month Mastermind tier, and being noticeably weaker at the thing most bookmark hoarders actually need: finding a specific long-form article again by describing what it said. If you save images, quotes, and inspiration, it's a joy. If you save articles you need to retrieve by topic, there are better fits.
@@ -34,7 +34,7 @@ Here's the scorecard up front:
 | **Our rating** | 3.8 / 5 |
 | **Best for** | Visual thinkers, designers, private collectors |
 | **Free plan** | No — trial + storage-capped guest mode only |
-| **AI plans** | $7.99/mo ($79/yr) or $12.99/mo ($129/yr) |
+| **AI plans** | $7.99/mo ($72/yr) or $12.99/mo ($129/yr) |
 | **Standout** | Zero-organizing visual canvas, strong privacy stance |
 | **Weakest spot** | Retrieval of long-form articles; no collaboration; price |
 
@@ -64,7 +64,7 @@ What's *not* here matters too: no in-page highlighter (saving a quote means clip
 | Plan | Monthly | Yearly | What you get |
 | --- | --- | --- | --- |
 | The Bookmarker | $4.99 | — | Visual bookmarking, **no AI features** |
-| Student of Life | $7.99 | $79 | Unlimited cards, AI tagging, image text recognition, smart spaces |
+| Student of Life | $7.99 | $72 | Unlimited cards, AI tagging, image text recognition, smart spaces |
 | Mastermind | $12.99 | $129 | Everything above + AI summaries, reading mode, article backup, PDF analysis, Same Vibe |
 | Newton | — | $299 | Listed as "coming soon" |
 
@@ -103,7 +103,7 @@ We make Marqly, so read this section knowing that — but the two tools genuinel
 | YouTube tools | No | Summary, transcript, and chat on the watch page |
 | Sharing | None, by design | Public boards, no signup needed to view |
 | Free tier | No (trial/guest mode) | Yes, no card required |
-| Paid price | $79–$129/yr | $79/yr (or $9/mo) |
+| Paid price | $72–$129/yr | $72/yr (or $9/mo) |
 
 Where **mymind wins**: visual material, ambience, and the strictest privacy posture. If your saves are moodboards, products, and screenshots, mymind is the nicer home for them, and Marqly won't match its canvas.
 

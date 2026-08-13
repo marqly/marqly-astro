@@ -1,6 +1,6 @@
 ---
 question: "Are there Marqly coupons or discount codes?"
-description: "Marqly has no public coupon codes. The real discount is annual billing: $79/yr versus $9/mo — about 27% off. Ignore third-party coupon sites; codes are fake."
+description: "Marqly has no public coupon codes. The real discount is annual billing: $72/yr versus $9/mo — about 33% off. Ignore third-party coupon sites; codes are fake."
 category: pricing
 updatedDate: 2026-08-02
 related:
@@ -9,14 +9,14 @@ related:
   - is-there-a-lifetime-deal
 ---
 
-There are no public Marqly coupon codes. The built-in discount is annual billing: Pro costs $79 per year versus $9 per month, so paying annually saves you about 27% compared to twelve monthly payments. Any third-party "coupon" site claiming to have working Marqly promo codes is guessing at best — those codes don't exist, and some of those sites exist mainly to harvest clicks.
+There are no public Marqly coupon codes. The built-in discount is annual billing: Pro costs $72 per year versus $9 per month, so paying annually saves you about 33% compared to twelve monthly payments. Any third-party "coupon" site claiming to have working Marqly promo codes is guessing at best — those codes don't exist, and some of those sites exist mainly to harvest clicks.
 
 ## The annual plan is the discount
 
 Run the numbers:
 
 - Monthly: $9 × 12 = $108 per year
-- Annual: $79 per year, about $6.58 per month
+- Annual: $72 per year, about $6 per month
 
 That's the deepest discount available, it's permanent, and it requires no code. Full details in [how much does Marqly cost](/faq/how-much-does-marqly-cost) and on the [pricing section](/#pricing) of the homepage.
 
@@ -26,8 +26,8 @@ If you search "Marqly promo code," you'll find aggregator sites listing codes li
 
 ## Ways to pay less that actually work
 
-- **Bill annually.** $79/yr instead of $108/yr — the 27% saving mentioned above.
-- **Use the 7-day free trial** before paying anything, so you never pay for a product you won't use.
+- **Bill annually.** $72/yr instead of $108/yr — the 33% saving mentioned above.
+- **Use the 3-day free trial** before paying anything, so you never pay for a product you won't use.
 - **Stay on the free tier** if the core save, auto-tag, and search experience covers your needs — it has no time limit and needs no card.
 
 ## Student pricing?

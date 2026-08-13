@@ -9,7 +9,7 @@ faqs:
   - q: "How is mymind different from what Pocket was?"
     a: "Pocket was an article queue: save, read offline in a clean view, archive. mymind is a private visual canvas where every save — image, quote, note, link, PDF — becomes a card that AI tags automatically, with search that recognizes objects, colors, brands, and text inside images. There's no offline reading, no highlights, and nothing shareable."
   - q: "Is mymind free like Pocket was?"
-    a: "Only up to a point. Every account starts on a free guest plan capped at 100 cards — permanent, not a trial. Paid plans run from The Bookmarker at $4.99/month (no AI) through Student of Life at $7.99/month or $79/year to Mastermind at $12.99/month or $129/year, which unlocks AI summaries, reading mode, and the PDF analyzer."
+    a: "Only up to a point. Every account starts on a free guest plan capped at 100 cards — permanent, not a trial. Paid plans run from The Bookmarker at $4.99/month (no AI) through Student of Life at $7.99/month or $72/year to Mastermind at $12.99/month or $129/year, which unlocks AI summaries, reading mode, and the PDF analyzer."
 ---
 
 On paper this is a walkover — Pocket ceased operating in July 2025 and mymind is alive and thriving — but it's the rare case where the living tool is a poor fit for the dead tool's refugees. mymind is a private visual canvas: everything you save becomes a card, AI tags it automatically (recognizing objects, colors, brands, and text inside images), and you retrieve things by describing what you remember. It's gorgeous, private, and philosophically opposed to the one thing most Pocket survivors need: bringing an archive with them.
