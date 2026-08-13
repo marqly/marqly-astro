@@ -81,7 +81,7 @@ export function PopupDemo({ className = '' }: { className?: string }) {
 
       {/* Footer */}
       <div className="flex items-center justify-between pt-3">
-        <span className="text-[10px] text-muted/70">v9.70</span>
+        <span className="text-[10px] text-muted">v9.70</span>
         <span className="text-[11px] font-medium text-foreground/80">Open dashboard →</span>
       </div>
     </div>

@@ -153,7 +153,7 @@ function SummaryPane() {
           </li>
         ))}
       </ul>
-      <p className="mt-3 text-[10px] text-muted/80">chapters pulled from the video</p>
+      <p className="mt-3 text-[10px] text-muted">chapters pulled from the video</p>
     </div>
   );
 }
@@ -169,7 +169,7 @@ function ChatPane() {
         When he cut across the circle to close in, it accelerated and was gone in under a second.
         The Princeton then reacquired it at the group's CAP point, about 60 miles away.
       </p>
-      <p className="mt-auto text-[10px] text-muted/80">answers come from this video's transcript</p>
+      <p className="mt-auto text-[10px] text-muted">answers come from this video's transcript</p>
     </div>
   );
 }
@@ -191,7 +191,7 @@ function TranscriptPane() {
           </li>
         ))}
       </ul>
-      <p className="mt-3 flex items-center gap-1.5 text-[10px] text-muted/80">
+      <p className="mt-3 flex items-center gap-1.5 text-[10px] text-muted">
         <HighlighterIcon size={11} />
         playback-synced · one-click copy · saved with the bookmark
       </p>

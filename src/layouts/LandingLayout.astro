@@ -88,9 +88,9 @@ const canonicalURL = canonical ?? new URL(cleanPath, Astro.site).href;
           gtag('config', gaId);
         };
         if (document.readyState === 'complete') {
-          setTimeout(inject, 1500);
+          setTimeout(inject, 3000);
         } else {
-          addEventListener('load', () => setTimeout(inject, 1500), { once: true });
+          addEventListener('load', () => setTimeout(inject, 3000), { once: true });
         }
       }
     </script>

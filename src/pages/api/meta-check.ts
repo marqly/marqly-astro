@@ -1,5 +1,6 @@
 import type { APIRoute } from 'astro';
-import { fetchPublicUrl, json, originAllowed } from '../../lib/api-utils';
+import { env } from 'cloudflare:workers';
+import { fetchPublicUrl, json, originAllowed, rateLimit } from '../../lib/api-utils';
 
 export const prerender = false;
 
@@ -51,6 +52,8 @@ async function readLimitedHtml(response: Response): Promise<string> {
 
 export const POST: APIRoute = async ({ request }) => {
   if (!originAllowed(request)) return json({ error: 'Forbidden' }, 403);
+  const limited = await rateLimit(request, env, 'API_RATE_LIMITER', 'meta-check');
+  if (limited) return limited;
 
   let body: { url?: string };
   try {

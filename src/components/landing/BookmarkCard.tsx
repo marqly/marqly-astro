@@ -47,7 +47,7 @@ export function BookmarkCard({
       <div className="flex min-h-[104px] flex-1 flex-col gap-2 px-4 py-3">
         <div className="flex items-baseline justify-between gap-3">
           <span className="truncate text-xs leading-4 font-medium text-muted">{bookmark.domain}</span>
-          <span className="shrink-0 font-mono text-[11px] leading-4 text-muted/80">{bookmark.date}</span>
+          <span className="shrink-0 font-mono text-[11px] leading-4 text-muted">{bookmark.date}</span>
         </div>
         <p className="line-clamp-1 text-sm leading-5 font-medium text-foreground">
           {bookmark.title}
@@ -81,7 +81,7 @@ export function BookmarkRow({ bookmark }: { bookmark: DemoBookmark }) {
       <span className="line-clamp-1 flex-1 truncate text-sm font-medium text-foreground">
         {bookmark.title}
       </span>
-      <span className="shrink-0 font-mono text-[11px] text-muted/80">{bookmark.date}</span>
+      <span className="shrink-0 font-mono text-[11px] text-muted">{bookmark.date}</span>
     </div>
   );
 }

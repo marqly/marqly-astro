@@ -2,14 +2,9 @@
 /**
  * Mixpanel autocapture + Session Replay (100% of sessions).
  *
- * Placed immediately before </head> as Mixpanel's install docs require: replay
- * has to start as early as possible or the opening seconds of the session —
- * usually the most interesting part — are missing. Unlike the GA4 block below
- * it, this one is deliberately NOT deferred past `load`.
- *
- * It is still not render-blocking: the snippet only installs a stub and queues
- * calls, then injects the real library with `async`, so nothing here competes
- * with first paint.
+ * Kept at 100% sampling, but loaded after the critical rendering window. The
+ * recorder is a large third-party bundle; starting it after `load` preserves
+ * useful sessions without making it compete with the homepage LCP.
  *
  * Host-gated to marqly.com the same way GA4 is, so local dev and preview
  * deploys never burn replay quota or pollute the project with sessions nobody
@@ -23,6 +18,10 @@ const MIXPANEL_TOKEN = '47624f6de4f0c18b32a5bab6eaf1bde1';
 
 <script is:inline define:vars={{ mpToken: MIXPANEL_TOKEN }}>
   if (location.hostname === 'marqly.com' || location.hostname.endsWith('.marqly.com')) {
+    var mixpanelStarted = false;
+    function loadMixpanel() {
+      if (mixpanelStarted) return;
+      mixpanelStarted = true;
     (function (e, c) {
       if (!c.__SV) {
         var l, h;
@@ -89,5 +88,12 @@ const MIXPANEL_TOKEN = '47624f6de4f0c18b32a5bab6eaf1bde1';
       autocapture: true,
       record_sessions_percent: 100,
     });
+    }
+
+    function scheduleMixpanel() {
+      setTimeout(loadMixpanel, 4000);
+    }
+    if (document.readyState === 'complete') scheduleMixpanel();
+    else addEventListener('load', scheduleMixpanel, { once: true });
   }
 </script>

@@ -55,7 +55,7 @@ function FilterRow({
           PRO
         </span>
       )}
-      <span className="min-w-5 text-right font-mono text-[11px] font-medium text-muted/70">
+      <span className="min-w-5 text-right font-mono text-[11px] font-medium text-muted">
         {count.toLocaleString()}
       </span>
     </div>
@@ -84,7 +84,7 @@ function BoardRow({
       <span className="flex-1 truncate text-[13px] leading-5 font-medium text-foreground">
         {name}
       </span>
-      <span className="min-w-5 text-right font-mono text-[11px] font-medium text-muted/70">
+      <span className="min-w-5 text-right font-mono text-[11px] font-medium text-muted">
         {count}
       </span>
     </div>
@@ -117,7 +117,7 @@ export function LibraryShell() {
               />
             ))}
           </nav>
-          <p className="mt-5 mb-1.5 px-2.5 font-mono text-[10px] tracking-wider text-muted/70 uppercase">
+          <p className="mt-5 mb-1.5 px-2.5 font-mono text-[10px] tracking-wider text-muted uppercase">
             Boards
           </p>
           <nav aria-label="Boards" className="flex flex-col gap-0.5">

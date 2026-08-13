@@ -137,7 +137,12 @@ const jsonLd = [
     actions.classList.add('hidden');
     try {
       const res = await fetch(`/api/youtube-transcript?v=${encodeURIComponent(input.value)}`);
-      const data = await res.json();
+      const data = await res.json() as {
+        error?: string;
+        title: string;
+        auto?: boolean;
+        segments: { start: number; text: string }[];
+      };
       if (!res.ok) throw new Error(data.error ?? 'Something went wrong.');
       segments = data.segments;
       videoTitle = data.title ?? 'transcript';

@@ -189,7 +189,7 @@ const jsonLd = [
             ? `${r.finalUrl.slice(0, 57)}…`
             : r.finalUrl
           : '';
-        tr.append(tdUrl, tdStatus, tdOk, tdFinal);
+        tr.replaceChildren(tdUrl, tdStatus, tdOk, tdFinal);
         tbody.appendChild(tr);
       }
       tableWrap.classList.remove('hidden');

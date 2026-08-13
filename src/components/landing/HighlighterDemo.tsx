@@ -108,7 +108,7 @@ export default function HighlighterDemo() {
       <p className="mt-4 flex items-center gap-1.5 border-t border-separator pt-3.5 text-[11px] text-muted">
         <FaviconTile domain="fs.blog" size={13} />
         fs.blog · How to Remember What You Read
-        <span className="ml-auto text-muted/70">try the swatches</span>
+        <span className="ml-auto text-muted">try the swatches</span>
       </p>
     </div>
   );

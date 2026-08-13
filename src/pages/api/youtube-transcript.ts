@@ -1,5 +1,6 @@
 import type { APIRoute } from 'astro';
-import { extractYouTubeId, json, originAllowed } from '../../lib/api-utils';
+import { env } from 'cloudflare:workers';
+import { extractYouTubeId, json, originAllowed, rateLimit } from '../../lib/api-utils';
 
 export const prerender = false;
 
@@ -29,6 +30,8 @@ function decodeEntities(s: string): string {
  */
 export const GET: APIRoute = async ({ request, url }) => {
   if (!originAllowed(request)) return json({ error: 'Forbidden' }, 403);
+  const limited = await rateLimit(request, env, 'API_RATE_LIMITER', 'youtube-transcript');
+  if (limited) return limited;
 
   const id = extractYouTubeId(url.searchParams.get('v') ?? '');
   if (!id) return json({ error: 'Provide a valid YouTube URL or video ID (?v=…).' }, 400);

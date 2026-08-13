@@ -34,7 +34,7 @@ export function NewTabDemo() {
       aria-label="Marqly Home new tab: greeting, library search, and quick links as glass cards over a beach photo"
     >
       <img
-        src="/landing/newtab-maldives.jpg"
+        src="/landing/newtab-maldives.webp"
         alt=""
         loading="lazy"
         className="absolute inset-0 h-full w-full object-cover"

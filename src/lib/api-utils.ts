@@ -3,7 +3,6 @@
 const ALLOWED_ORIGINS = [
   'https://www.marqly.com',
   'https://marqly.com',
-  'https://marqly-astro.trymarqly.workers.dev',
   'http://localhost:4321',
   'http://localhost:8787',
   'http://localhost:8788',
@@ -21,15 +20,51 @@ export function originAllowed(request: Request): boolean {
   }
 }
 
-export function json(data: unknown, status = 200): Response {
+export function json(data: unknown, status = 200, extraHeaders?: HeadersInit): Response {
   return new Response(JSON.stringify(data), {
     status,
     headers: {
       'content-type': 'application/json; charset=utf-8',
       'cache-control': 'no-store',
       'x-content-type-options': 'nosniff',
+      ...Object.fromEntries(new Headers(extraHeaders)),
     },
   });
+}
+
+interface RateLimitBinding {
+  limit(input: { key: string }): Promise<{ success: boolean }>;
+}
+
+interface RateLimitEnv {
+  API_RATE_LIMITER?: RateLimitBinding;
+  AI_RATE_LIMITER?: RateLimitBinding;
+}
+
+/**
+ * Protect anonymous, server-side tools from scripted cost and fan-out abuse.
+ * Cloudflare's counters stay at the edge; no visitor identifier is persisted
+ * by the application. Development remains usable when the binding is absent.
+ */
+export async function rateLimit(
+  request: Request,
+  env: RateLimitEnv | undefined,
+  bindingName: 'API_RATE_LIMITER' | 'AI_RATE_LIMITER',
+  scope: string,
+): Promise<Response | undefined> {
+  const binding =
+    bindingName === 'API_RATE_LIMITER' ? env?.API_RATE_LIMITER : env?.AI_RATE_LIMITER;
+  if (!binding?.limit) return undefined;
+
+  const actor = request.headers.get('cf-connecting-ip') || 'unknown';
+  const { success } = await binding.limit({ key: `${scope}:${actor}` });
+  if (success) return undefined;
+
+  return json(
+    { error: 'Too many requests. Please wait a minute and try again.' },
+    429,
+    { 'retry-after': '60' },
+  );
 }
 
 const BLOCKED_HOST_SUFFIXES = ['.localhost', '.local', '.internal', '.home', '.lan'];

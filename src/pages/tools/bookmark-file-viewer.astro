@@ -225,7 +225,7 @@ const jsonLd = [
       tdFolder.textContent = b.folder;
       const tdDate = document.createElement('td');
       tdDate.textContent = fmtDate(b.addDate);
-      tr.append(tdTitle, tdUrl, tdFolder, tdDate);
+      tr.replaceChildren(tdTitle, tdUrl, tdFolder, tdDate);
       tbody.appendChild(tr);
     }
 

@@ -26,6 +26,7 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   adapter: cloudflare({
-    platformProxy: { enabled: true },
+    imageService: 'compile',
+    prerenderEnvironment: 'node',
   }),
 });

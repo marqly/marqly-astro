@@ -163,8 +163,8 @@ const jsonLd = [
       open.target = '_blank';
       open.rel = 'noopener';
       open.textContent = 'Open image';
-      actions.append(save, open);
-      card.append(image, heading, meta, actions);
+      actions.replaceChildren(save, open);
+      card.replaceChildren(image, heading, meta, actions);
       results.appendChild(card);
     }
     results.classList.toggle('hidden', count === 0);

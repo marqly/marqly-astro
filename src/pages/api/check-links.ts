@@ -1,5 +1,6 @@
 import type { APIRoute } from 'astro';
-import { fetchPublicUrl, json, originAllowed, publicHttpUrl } from '../../lib/api-utils';
+import { env } from 'cloudflare:workers';
+import { fetchPublicUrl, json, originAllowed, publicHttpUrl, rateLimit } from '../../lib/api-utils';
 
 export const prerender = false;
 
@@ -9,6 +10,8 @@ const TIMEOUT_MS = 6000;
 /** Free-tool endpoint: checks a small batch of URLs and reports their status. */
 export const POST: APIRoute = async ({ request }) => {
   if (!originAllowed(request)) return json({ error: 'Forbidden' }, 403);
+  const limited = await rateLimit(request, env, 'API_RATE_LIMITER', 'check-links');
+  if (limited) return limited;
 
   let body: { urls?: string[] };
   try {

@@ -108,7 +108,11 @@ const jsonLd = [
     try {
       status.textContent = 'Fetching transcript…';
       const tRes = await fetch(`/api/youtube-transcript?v=${encodeURIComponent(input.value)}`);
-      const tData = await tRes.json();
+      const tData = await tRes.json() as {
+        error?: string;
+        title: string;
+        segments: { text: string }[];
+      };
       if (!tRes.ok) throw new Error(tData.error ?? 'Could not fetch the transcript.');
 
       status.textContent = `Summarizing "${tData.title}"…`;
@@ -118,7 +122,11 @@ const jsonLd = [
         headers: { 'content-type': 'application/json' },
         body: JSON.stringify({ text, title: tData.title }),
       });
-      const sData = await sRes.json();
+      const sData = await sRes.json() as {
+        error?: string;
+        summary: string;
+        truncated?: boolean;
+      };
       if (!sRes.ok) throw new Error(sData.error ?? 'Summarization failed.');
 
       status.textContent = tData.title;

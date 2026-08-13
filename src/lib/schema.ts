@@ -65,15 +65,9 @@ export function softwareApplication() {
     offers: {
       '@type': 'AggregateOffer',
       lowPrice: '0',
-      highPrice: '79',
+      highPrice: '72',
       priceCurrency: 'USD',
       offerCount: 2,
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.8',
-      bestRating: '5',
-      ratingCount: 32,
     },
   };
 }
@@ -103,15 +97,14 @@ export function faqPage(faqs: { q: string; a: string }[]) {
   };
 }
 
-/** One question per page — the standalone /faq/<slug> pattern. */
+/** Publisher-authored, single-question FAQ page. */
 export function qaPage(question: string, answerText: string, path: string) {
   return {
     '@context': 'https://schema.org',
-    '@type': 'QAPage',
+    '@type': 'FAQPage',
     mainEntity: {
       '@type': 'Question',
       name: question,
-      answerCount: 1,
       acceptedAnswer: { '@type': 'Answer', text: answerText, url: `${SITE}${path}` },
     },
   };

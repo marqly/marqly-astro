@@ -55,7 +55,7 @@ export function SidePanelDemo({ className = '' }: { className?: string }) {
           </span>
         </div>
 
-        <p className="mt-3 mb-1 px-1 text-[9px] font-semibold tracking-wider text-muted/70 uppercase">
+        <p className="mt-3 mb-1 px-1 text-[9px] font-semibold tracking-wider text-muted uppercase">
           Boards
         </p>
         <div className="space-y-0.5">
@@ -67,12 +67,12 @@ export function SidePanelDemo({ className = '' }: { className?: string }) {
               <span className="flex-1 truncate text-[12px] font-medium text-foreground">
                 {b.name}
               </span>
-              <span className="text-[10px] font-medium text-muted/70">{b.count}</span>
+              <span className="text-[10px] font-medium text-muted">{b.count}</span>
             </div>
           ))}
         </div>
 
-        <p className="mt-3 mb-1 px-1 text-[9px] font-semibold tracking-wider text-muted/70 uppercase">
+        <p className="mt-3 mb-1 px-1 text-[9px] font-semibold tracking-wider text-muted uppercase">
           Recent
         </p>
         <div className="space-y-1.5">
@@ -88,7 +88,7 @@ export function SidePanelDemo({ className = '' }: { className?: string }) {
                 </span>
                 <span className="block truncate text-[10px] text-muted">{b.domain}</span>
               </span>
-              <span className="shrink-0 text-[10px] text-muted/70">{b.date}</span>
+              <span className="shrink-0 text-[10px] text-muted">{b.date}</span>
             </div>
           ))}
         </div>

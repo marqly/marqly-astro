@@ -51,7 +51,6 @@ const jsonLd = [
     url: 'https://www.marqly.com',
     installUrl:
       'https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc',
-    aggregateRating: { '@type': 'AggregateRating', ratingValue: '4.8', bestRating: '5', ratingCount: 32 },
     description:
       'AI bookmark manager with semantic search — save articles, videos, and links, then find any of them by describing what you remember instead of the exact title.',
     featureList: [
@@ -69,7 +68,13 @@ const jsonLd = [
       'Public board sharing — links and highlights, no signup to view',
       'Import from Pocket, Raindrop, and browser bookmarks',
     ],
-    offers: { '@type': 'AggregateOffer', priceCurrency: 'USD', lowPrice: '0', offerCount: 2 },
+    offers: {
+      '@type': 'AggregateOffer',
+      priceCurrency: 'USD',
+      lowPrice: '0',
+      highPrice: '72',
+      offerCount: 2,
+    },
   },
   {
     '@context': 'https://schema.org',

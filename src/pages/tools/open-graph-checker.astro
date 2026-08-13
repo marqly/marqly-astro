@@ -62,7 +62,7 @@ const jsonLd = [organization(), webSite(), breadcrumbList([{ name: 'Home', path:
       for (const [label, value] of fields) {
         const row = document.createElement('tr'); const key = document.createElement('td'); const val = document.createElement('td');
         key.textContent = label; val.textContent = value === undefined || value === '' ? 'Missing' : String(value); if (val.textContent === 'Missing') val.style.color = '#b42318';
-        row.append(key, val); tbody.appendChild(row);
+        row.replaceChildren(key, val); tbody.appendChild(row);
       }
       const previewTitle = data.openGraph.title || data.twitter.title || data.title || 'No title found';
       const previewDescription = data.openGraph.description || data.twitter.description || data.description || 'No description found.';

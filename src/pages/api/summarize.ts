@@ -1,5 +1,6 @@
 import type { APIRoute } from 'astro';
-import { json, originAllowed } from '../../lib/api-utils';
+import { env } from 'cloudflare:workers';
+import { json, originAllowed, rateLimit } from '../../lib/api-utils';
 
 export const prerender = false;
 
@@ -10,8 +11,11 @@ const MAX_INPUT_CHARS = 24_000;
  * Deliberately modest: capped input, one summary shape, no streaming. The
  * product's real summarizer (extension) is the upgrade path.
  */
-export const POST: APIRoute = async ({ request, locals }) => {
+export const POST: APIRoute = async ({ request }) => {
   if (!originAllowed(request)) return json({ error: 'Forbidden' }, 403);
+
+  const limited = await rateLimit(request, env, 'AI_RATE_LIMITER', 'summarize');
+  if (limited) return limited;
 
   let body: { text?: string; title?: string };
   try {
@@ -25,7 +29,6 @@ export const POST: APIRoute = async ({ request, locals }) => {
 
   const input = text.slice(0, MAX_INPUT_CHARS);
 
-  const env = (locals as any)?.runtime?.env;
   if (!env?.AI) {
     return json({ error: 'Summarization is temporarily unavailable.' }, 503);
   }

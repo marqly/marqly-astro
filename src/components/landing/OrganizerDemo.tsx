@@ -136,7 +136,7 @@ export default function OrganizerDemo() {
           <p className="text-sm font-medium text-foreground">AI Organizer</p>
           <p className="truncate text-xs text-muted">{SUBTITLES[phase]}</p>
         </div>
-        <span className="shrink-0 text-[11px] text-muted/80">happens once</span>
+        <span className="shrink-0 text-[11px] text-muted">happens once</span>
       </div>
 
       {/* Progress — same bar, four meanings */}
@@ -200,7 +200,7 @@ export default function OrganizerDemo() {
                   );
                 })}
               </span>
-              <span className="w-9 shrink-0 text-right text-[11px] font-medium text-muted/80">
+              <span className="w-9 shrink-0 text-right text-[11px] font-medium text-muted">
                 {b.count}
               </span>
             </motion.div>

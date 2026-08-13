@@ -59,7 +59,7 @@ export const protagonist: DemoBookmark = {
   tags: ['hummus', 'lebanese', 'meze'],
   date: '12 May',
   kind: 'article',
-  cover: '/landing/covers/hummus.jpg',
+  cover: '/landing/covers/hummus.webp',
 };
 
 export const cookingNeighbors: DemoBookmark[] = [
@@ -72,7 +72,7 @@ export const cookingNeighbors: DemoBookmark[] = [
     tags: ['fish', 'weeknight'],
     date: '2 Feb',
     kind: 'article',
-    cover: '/landing/covers/seabass.jpg',
+    cover: '/landing/covers/seabass.webp',
   },
   {
     id: 'lebanese-rice',
@@ -83,7 +83,7 @@ export const cookingNeighbors: DemoBookmark[] = [
     tags: ['rice', 'sides'],
     date: '19 Jan',
     kind: 'article',
-    cover: '/landing/covers/lebanese-rice.jpg',
+    cover: '/landing/covers/lebanese-rice.webp',
   },
 ];
 

@@ -1,5 +1,6 @@
-import { defineCollection, z } from 'astro:content';
+import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
+import { z } from 'astro/zod';
 
 /**
  * Blog content collection (Astro 5 Content Layer).
@@ -36,7 +37,7 @@ const blog = defineCollection({
 
 /**
  * FAQ engine — every entry becomes a standalone indexable /faq/<slug> page
- * with QAPage JSON-LD (the PhotoAI pattern: FAQs as pages, not just accordions).
+ * with publisher-authored FAQPage JSON-LD matching the visible answer.
  */
 const faq = defineCollection({
   loader: glob({ pattern: '*.{md,mdx}', base: './src/content/faq' }),

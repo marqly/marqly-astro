@@ -3,7 +3,9 @@
   "account_id": "2fa95a5b576a96bc48924ab9cfa8ffd3",
   "compatibility_date": "2025-10-08",
   "compatibility_flags": ["nodejs_compat"],
-  "main": "./dist/_worker.js/index.js",
+  "workers_dev": false,
+  "preview_urls": false,
+  "main": "@astrojs/cloudflare/entrypoints/server",
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS"
@@ -14,5 +16,17 @@
   "ai": {
     "binding": "AI"
   },
+  "ratelimits": [
+    {
+      "name": "API_RATE_LIMITER",
+      "namespace_id": "7301",
+      "simple": { "limit": 20, "period": 60 }
+    },
+    {
+      "name": "AI_RATE_LIMITER",
+      "namespace_id": "7302",
+      "simple": { "limit": 5, "period": 60 }
+    }
+  ],
   "upload_source_maps": true
 }

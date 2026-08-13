@@ -247,7 +247,7 @@ const jsonLd = [
       tdTags.textContent = it.tags.join(', ');
       const tdStatus = document.createElement('td');
       tdStatus.textContent = it.status;
-      tr.append(tdTitle, tdUrl, tdAdded, tdTags, tdStatus);
+      tr.replaceChildren(tdTitle, tdUrl, tdAdded, tdTags, tdStatus);
       tbody.appendChild(tr);
     }
     status.textContent =

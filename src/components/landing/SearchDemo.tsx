@@ -161,7 +161,7 @@ export default function SearchDemo() {
                     <span className="truncate text-sm font-medium text-foreground">
                       {r.bookmark.title}
                     </span>
-                    <span className="shrink-0 text-[11px] text-muted/80">{r.bookmark.date}</span>
+                    <span className="shrink-0 text-[11px] text-muted">{r.bookmark.date}</span>
                   </span>
                   <span className="mt-0.5 block truncate text-xs text-muted">
                     {r.bookmark.domain}

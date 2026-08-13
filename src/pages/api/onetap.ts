@@ -1,5 +1,6 @@
 import type { APIRoute } from 'astro';
-import { json, originAllowed } from '../../lib/api-utils';
+import { env } from 'cloudflare:workers';
+import { json, originAllowed, rateLimit } from '../../lib/api-utils';
 import { APP_URL } from '../../components/landing/data';
 
 export const prerender = false;
@@ -96,8 +97,11 @@ function pickAttribution(input: unknown): Record<string, string> | undefined {
   return Object.keys(out).length ? out : undefined;
 }
 
-export const POST: APIRoute = async ({ request, locals }) => {
+export const POST: APIRoute = async ({ request }) => {
   if (!originAllowed(request)) return json({ error: 'Forbidden' }, 403);
+
+  const limited = await rateLimit(request, env, 'API_RATE_LIMITER', 'onetap');
+  if (limited) return limited;
 
   // Cap the body before parsing: everything here is small and fixed-shape, and
   // this request is relayed onward carrying the shared secret.
@@ -119,7 +123,6 @@ export const POST: APIRoute = async ({ request, locals }) => {
     return json({ error: 'Missing or malformed Google credential.' }, 400);
   }
 
-  const env = (locals as any)?.runtime?.env;
   const secret = env?.ONETAP_EXCHANGE_SECRET;
   const apiBase = (env?.MARQLY_API_URL || DEFAULT_API_BASE).replace(/\/$/, '');
 

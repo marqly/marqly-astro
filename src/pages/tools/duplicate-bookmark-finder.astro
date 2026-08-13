@@ -218,7 +218,7 @@ const jsonLd = [
         titles.length > 2 ? `${titles.slice(0, 2).join(' · ')} (+${titles.length - 2} more)` : titles.join(' · ');
       const tdCount = document.createElement('td');
       tdCount.textContent = String(g.entries.length);
-      tr.append(tdUrl, tdTitles, tdCount);
+      tr.replaceChildren(tdUrl, tdTitles, tdCount);
       tbody.appendChild(tr);
     }
 

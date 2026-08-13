@@ -143,7 +143,7 @@ function ArticlePage({ dimmed }: { dimmed: boolean }) {
         <p className="font-display mt-3 text-[28px] leading-tight font-medium text-foreground sm:text-3xl">
           The Hummus I Make Every Week
         </p>
-        <p className="mt-2 text-[11px] text-muted/80">5 ingredients · 10 minutes</p>
+        <p className="mt-2 text-[11px] text-muted">5 ingredients · 10 minutes</p>
         <div className="mt-5 space-y-2.5 text-[13px] leading-relaxed text-muted/90">
           <p>
             Chickpeas, tahini, lemon, garlic, and ice-cold water. Authentic Lebanese hummus needs
