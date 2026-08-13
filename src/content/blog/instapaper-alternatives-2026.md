@@ -61,7 +61,7 @@ A clean reader plus high-quality text-to-speech, so you can listen to articles. 
 | Auto-tagging | ❌ | ✅ | Limited | Partial |
 | AI summaries | ❌ | ✅ | ❌ | ✅ |
 | Free tier | ✅ | ✅ | ✅ | ❌ |
-| Price (Pro) | $3/mo | ~$4/mo | $3/mo | $12/mo |
+| Price (Pro) | $3/mo | ~$6/mo | $3/mo | $12/mo |
 
 ## The one upgrade worth making
 

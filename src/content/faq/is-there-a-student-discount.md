@@ -19,7 +19,7 @@ Rather than waiting for a discount that doesn't exist yet, here's what actually 
 - **Annual billing.** $72/yr versus $108/yr paid monthly — the built-in ~33% saving covered in [coupons and discounts](/faq/marqly-coupons-and-discounts).
 - **The 3-day Pro trial.** Test chat with your saves and YouTube video chat on your real coursework before spending anything.
 
-## Why $4/month is already student-friendly
+## Why $6/month is already student-friendly
 
 At the annual rate, Marqly costs about the same per month as a coffee. The features that matter for studying — AI summaries to triage a reading list, semantic search to find "that paper about spaced repetition" without remembering the title, and chatting with long lecture videos on YouTube — are the kind of thing that saves hours during exam season. The [pricing section](/#pricing) has the current numbers.
 
