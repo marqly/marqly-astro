@@ -15,7 +15,7 @@ faqs:
   - q: "What can I put on a board?"
     a: "Links and highlights. A board can hold the articles, videos, and pages you've saved on a topic, plus the specific passages you highlighted on those pages. That combination lets a curated board carry your editorial judgment — not just what to read, but which part matters."
   - q: "Is Marqly free to use for curation?"
-    a: "There's a free tier with no card required, so you can build and share boards without paying. Pro — $48 per year or $8 per month, with a 7-day free trial — adds AI chat features on top. Sign up at app.marqly.com and start with the free plan."
+    a: "There's a free tier with no card required, so you can build and share boards without paying. Pro — $79 per year or $9 per month, with a 7-day free trial — adds AI chat features on top. Sign up at app.marqly.com and start with the free plan."
 ---
 
 Curation is a judgment job: out of everything published on a topic, you pick the pieces worth someone's time and present them so the selection itself carries value. The tooling problem is that most of what you'd use for it is either a private bookmark pile nobody else can see, or a publishing platform that demands your audience create yet another account.

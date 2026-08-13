@@ -43,7 +43,7 @@ From then on, saves stop being browser property. Your library lives in your Marq
 ## Getting started
 
 1. Open the [Marqly add-on on Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/marqly-%E2%80%93-the-ultimate-boo/gojjglmdginjjpgajdnobmnkmcogngok) and click Get. (More detail: [does Marqly work on Edge?](/faq/does-marqly-work-on-edge))
-2. Sign up free at [app.marqly.com](https://app.marqly.com) — no card required. Pro, when you want it, runs $48 a year (about $4 a month billed annually) or $8 monthly, with a 7-day free trial; it unlocks features like chatting with your saves.
+2. Sign up free at [app.marqly.com](https://app.marqly.com) — no card required. Pro, when you want it, runs $79 a year (about $6.58 a month billed annually) or $9 monthly, with a 7-day free trial; it unlocks features like chatting with your saves.
 3. Export your Edge favorites to HTML and import them, so the AI can organize the backlog.
 4. Save your next interesting page with one click and try describing it to search a day later.
 

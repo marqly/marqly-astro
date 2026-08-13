@@ -11,7 +11,7 @@ hero:
 updatedDate: 2026-08-02
 faqs:
   - q: "Is Marqly free for students?"
-    a: "Marqly has a free tier that anyone can use — sign up at app.marqly.com with no card required. There is no separate student discount, but Pro costs $48/year (about $4/month billed annually) or $8/month, and every plan starts with a 7-day free trial of Pro. Most students can start on the free tier and upgrade only if they need Pro features like chat."
+    a: "Marqly has a free tier that anyone can use — sign up at app.marqly.com with no card required. There is no separate student discount, but Pro costs $79/year (about $6.58/month billed annually) or $9/month, and every plan starts with a 7-day free trial of Pro. Most students can start on the free tier and upgrade only if they need Pro features like chat."
   - q: "Can Marqly save YouTube lectures with the transcript?"
     a: "Yes. Marqly adds an AI card to every YouTube watch page with a playback-synced transcript you can copy in one click, plus an AI summary with key sections. A bookmark button in YouTube's action row saves the video to your library with its transcript attached, so semantic search can later find the lecture by what was said in it."
   - q: "Do my highlights stay on the page when I come back to a reading?"

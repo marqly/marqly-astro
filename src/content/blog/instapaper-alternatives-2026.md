@@ -14,7 +14,7 @@ ctaUrl: "https://app.marqly.com/lp/replace-pocket"
 ctaLabel: "Try Marqly free"
 faqs:
   - q: "What is the best Instapaper alternative in 2026?"
-    a: "Marqly is the best Instapaper alternative for people who like the clean reader but are frustrated by retrieval. It keeps the distraction-free reading view and adds semantic AI search, auto-tagging, and summaries. It imports your existing library, has a free tier, and Pro is about $4/mo."
+    a: "Marqly is the best Instapaper alternative for people who like the clean reader but are frustrated by retrieval. It keeps the distraction-free reading view and adds semantic AI search, auto-tagging, and summaries. It imports your existing library, has a free tier, and Pro is about $6.58/mo."
   - q: "Should I leave Instapaper or stay?"
     a: "Stay if all you ever want is to save an article and read it cleanly — Instapaper still does that beautifully. Leave if you save things and never find them again, wish you could search by what you remember, or want summaries and a searchable knowledge base."
   - q: "Why is semantic search the most important upgrade over Instapaper?"
@@ -41,7 +41,7 @@ Instapaper has always been the minimalist's read-it-later app: save an article, 
 ## The best alternatives
 
 ### Marqly — for "Instapaper, but searchable"
-Keeps the clean reader you like, then adds the layer Instapaper never built: **semantic AI search** (find by meaning), auto-tagging, and summaries. Imports your existing library. Free tier; Pro ~$4/mo. Best fit if you like Instapaper's reading experience but are frustrated by retrieval. [Try it free →](https://app.marqly.com/lp/replace-pocket)
+Keeps the clean reader you like, then adds the layer Instapaper never built: **semantic AI search** (find by meaning), auto-tagging, and summaries. Imports your existing library. Free tier; Pro ~$6.58/mo. Best fit if you like Instapaper's reading experience but are frustrated by retrieval. [Try it free →](https://app.marqly.com/lp/replace-pocket)
 
 ### Raindrop.io — for free, visual organization
 Generous free tier, saves all media types, great manual collections. Keyword search rather than semantic, no AI layer — but excellent if you want free and tidy.

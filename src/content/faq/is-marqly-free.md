@@ -1,6 +1,6 @@
 ---
 question: "Is Marqly free?"
-description: "Yes. Marqly has a free tier with no card required — save, auto-tag, and search your bookmarks at no cost. Pro adds AI chat features for $48/yr or $8/mo."
+description: "Yes. Marqly has a free tier with no card required — save, auto-tag, and search your bookmarks at no cost. Pro adds AI chat features for $79/yr or $9/mo."
 category: pricing
 updatedDate: 2026-08-02
 related:
@@ -9,7 +9,7 @@ related:
   - what-happens-when-my-trial-ends
 ---
 
-Yes. Marqly has a free tier, and you don't need a credit card to sign up. The free plan covers the core experience: save articles, videos, and links from your browser, let AI tag them automatically, and find any save with semantic search. Pro, which unlocks the AI chat features, costs $48 per year or $8 per month, and comes with a 7-day free trial.
+Yes. Marqly has a free tier, and you don't need a credit card to sign up. The free plan covers the core experience: save articles, videos, and links from your browser, let AI tag them automatically, and find any save with semantic search. Pro, which unlocks the AI chat features, costs $79 per year or $9 per month, and comes with a 7-day free trial.
 
 ## What you get without paying
 

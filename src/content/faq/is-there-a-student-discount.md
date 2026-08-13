@@ -1,6 +1,6 @@
 ---
 question: "Does Marqly have a student discount?"
-description: "Marqly has no published student discount today. The cheapest path is the $48/yr annual plan (about $4/mo), or the free tier. Email support if you want to ask."
+description: "Marqly has no published student discount today. The cheapest path is the $79/yr annual plan (about $6.58/mo), or the free tier. Email support if you want to ask."
 category: pricing
 updatedDate: 2026-08-02
 related:
@@ -9,14 +9,14 @@ related:
   - is-marqly-free
 ---
 
-No — Marqly doesn't have a published student discount today. The cheapest way to get Pro is the annual plan at $48 per year, which works out to about $4 a month, roughly half the cost of paying $8 monthly. If a student rate matters to you, email **support@marqly.com** and ask; pricing policies can change, and hearing from students is how that happens.
+No — Marqly doesn't have a published student discount today. The cheapest way to get Pro is the annual plan at $79 per year, which works out to about $6.58 a month, about 27% less than paying $9 monthly. If a student rate matters to you, email **support@marqly.com** and ask; pricing policies can change, and hearing from students is how that happens.
 
 ## The cheapest real options
 
 Rather than waiting for a discount that doesn't exist yet, here's what actually works right now:
 
 - **The free tier.** Save, auto-tag, and search with no card and no time limit. For a student collecting research links and lecture resources, the core experience may be all you need. See [is Marqly free](/faq/is-marqly-free).
-- **Annual billing.** $48/yr versus $96/yr paid monthly — the built-in ~50% saving covered in [coupons and discounts](/faq/marqly-coupons-and-discounts).
+- **Annual billing.** $79/yr versus $108/yr paid monthly — the built-in ~27% saving covered in [coupons and discounts](/faq/marqly-coupons-and-discounts).
 - **The 7-day Pro trial.** Test chat with your saves and YouTube video chat on your real coursework before spending anything.
 
 ## Why $4/month is already student-friendly

@@ -20,7 +20,7 @@ faqs:
   - q: "Is Instapaper free?"
     a: "Yes, with limits. The free plan includes unlimited article saves, folders, offline reading, and sync across devices, but caps notes at 5 per month, shows ads on the website, and locks search and the permanent archive behind Premium. Premium costs $5.99/month or $59.99/year."
   - q: "What are the best Instapaper alternatives?"
-    a: "Readwise Reader is the power-user upgrade (RSS, newsletters, best-in-class highlighting at a higher price). Marqly adds what Instapaper lacks — AI search by meaning, auto-tagging, and summaries — at $48/year. Raindrop.io is the best free all-purpose library. Since Pocket shut down in 2025, these three plus Instapaper cover most switchers."
+    a: "Readwise Reader is the power-user upgrade (RSS, newsletters, best-in-class highlighting at a higher price). Marqly adds what Instapaper lacks — AI search by meaning, auto-tagging, and summaries — at $79/year. Raindrop.io is the best free all-purpose library. Since Pocket shut down in 2025, these three plus Instapaper cover most switchers."
   - q: "Is Instapaper a good Pocket replacement?"
     a: "It's the most direct one — Instapaper imports Pocket exports, works the same way (save now, read later, offline), and has outlived every rival since 2008. Ex-Pocket users who mainly want a clean reading queue will feel at home. Those who left Pocket because they could never find old saves again should note Instapaper has the same weakness: search is Premium-only and keyword-based."
 ---
@@ -88,7 +88,7 @@ Context that matters: in 2025 Instapaper raised Premium from $2.99 to $5.99 a mo
 
 ## Where Instapaper falls short
 
-- **The price doubled; the product didn't.** $59.99/year now overlaps with tools that do dramatically more — Marqly's Pro is $48/year, and Readwise Reader's far deeper feature set starts at $9.99/month.
+- **The price doubled; the product didn't.** $59.99/year now overlaps with tools that do dramatically more — Marqly's Pro is $79/year, and Readwise Reader's far deeper feature set starts at $9.99/month.
 - **Organization is folders, full stop.** No tags, no auto-organization, nothing done for you. Every article you save lands in a pile unless you file it by hand — the exact pattern that turns read-it-later apps into [read-it-never graveyards](/blog/best-pocket-alternatives-2026).
 - **Search is paywalled and literal.** Free users can't search article text at all. Premium search is keyword matching — if you can't remember the words, you can't find the article.
 - **No AI layer to speak of.** No summaries to triage a backlog, no auto-tagging, no semantic retrieval. The 2025-26 additions (AI voices, speed reading) polish consumption, not organization or recall — the two problems that actually kill saved-article habits, as we break down in our [AI bookmark manager guide](/blog/best-ai-bookmark-manager-2026).
@@ -102,7 +102,7 @@ Context that matters: in 2025 Instapaper raised Premium from $2.99 to $5.99 a mo
 | Offline reading | **Yes** | No |
 | Kindle | **Yes (Premium)** | No |
 | Speed reading / TTS | **Yes (Premium)** | No |
-| Price (paid) | $59.99/yr or $5.99/mo | **$48/yr (≈$4/mo) or $8/mo** |
+| Price (paid) | $59.99/yr or $5.99/mo | **$79/yr (≈$6.58/mo) or $9/mo** |
 | Search | Keyword, Premium-only | **Semantic, by meaning** |
 | Auto-tagging | None (manual folders) | **Automatic on every save** |
 | AI summaries | No | **Yes** |
@@ -111,7 +111,7 @@ Context that matters: in 2025 Instapaper raised Premium from $2.99 to $5.99 a mo
 | Highlighting | Yes, notes capped on free | 6 colors, persists on the live page |
 | Pocket import | Yes | Yes |
 
-Fair reading of that table: if your saved-articles life is *reading* — long sessions, offline, maybe on a Kindle — Instapaper wins the rows that matter to you, and this review's score understates it. If your saved-articles life is *saving more than you read and then losing it*, every row Marqly wins targets exactly that. They're almost complementary products; the overlap is the $48-60/year you'd rather pay only once. [Try Marqly's free tier](https://app.marqly.com) alongside Instapaper's and see which half of the problem is actually yours.
+Fair reading of that table: if your saved-articles life is *reading* — long sessions, offline, maybe on a Kindle — Instapaper wins the rows that matter to you, and this review's score understates it. If your saved-articles life is *saving more than you read and then losing it*, every row Marqly wins targets exactly that. They're almost complementary products; the overlap is the $79-60/year you'd rather pay only once. [Try Marqly's free tier](https://app.marqly.com) alongside Instapaper's and see which half of the problem is actually yours.
 
 ## Who should use Instapaper?
 

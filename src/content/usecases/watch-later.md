@@ -15,7 +15,7 @@ faqs:
   - q: "Which browsers do the YouTube features work in?"
     a: "The Marqly extension is available for Chrome, Edge, Firefox, and Safari, and the YouTube AI card — summary, transcript, and chat tabs, plus the bookmark button in the action row — comes with it on YouTube watch pages. There's also a web app and an iOS app for browsing your library. There's no Android app, though the web app works in Android browsers."
   - q: "Is any of this free?"
-    a: "Marqly has a free tier and signup needs no card, so you can try the save-with-transcript workflow immediately at app.marqly.com. Pro is $48 per year (about $4 a month billed annually) or $8 billed monthly, with a 7-day free trial. The chat tab — asking questions answered from a video's transcript — is a Pro feature."
+    a: "Marqly has a free tier and signup needs no card, so you can try the save-with-transcript workflow immediately at app.marqly.com. Pro is $79 per year (about $6.58 a month billed annually) or $9 billed monthly, with a 7-day free trial. The chat tab — asking questions answered from a video's transcript — is a Pro feature."
 ---
 
 YouTube's own Watch Later has a well-earned reputation: videos go in, nothing comes out. The list grows into hundreds of thumbnails, there's no way to remember why you saved anything, and search only matches titles — useless when what you remember is something the person *said*.
@@ -55,7 +55,7 @@ Boards can be shared as public pages, viewable without signup — handy when som
 3. Open any YouTube video and use the bookmark button in the action row.
 4. Next time you're about to save a video, read the AI summary first — half the time it answers the question and saves the 40 minutes.
 
-The free tier covers the core save-and-triage workflow; Pro ($48/year, about $4/month billed annually, or $8/month, 7-day trial) adds the chat tab and chatting with your saves generally.
+The free tier covers the core save-and-triage workflow; Pro ($79/year, about $6.58/month billed annually, or $9/month, 7-day trial) adds the chat tab and chatting with your saves generally.
 
 ## Is Marqly the right fit?
 

@@ -133,7 +133,7 @@ A tool that hits all six gets out of your way. One that misses on capture or ret
 
 If "a second brain without the maintenance" is what you want, [Marqly](https://app.marqly.com/lp/knowledge-base) is built for exactly this path. It does the lightweight, save-the-web version of a second brain end to end: import your existing bookmarks from Pocket, Raindrop, or a browser export, save new things with one click from the web, iOS, or Chrome, and then *ask your library* for anything you've read — by meaning, not keywords. AI tags and summarizes each save automatically, so it does the organizing and you never touch a folder.
 
-There's a free tier to start with no credit card, and Pro is $48/yr (about $8/mo — 50% off) when you want the full library. Turn the reading you're already doing into a brain you can actually search.
+There's a free tier to start with no credit card, and Pro is $79/yr (about $9/mo — 27% off) when you want the full library. Turn the reading you're already doing into a brain you can actually search.
 
 ---
 

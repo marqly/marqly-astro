@@ -88,7 +88,7 @@ The bottom row is the one that settles it: with folders, *you* are the system, a
 
 If you're tired of filing links you'll never find again, [Marqly](https://app.marqly.com) does the organizing for you — it auto-tags everything you save, writes a quick AI summary so you remember why you saved it, and lets you find any of it by describing what you remember. No folders to build, no filing decisions, no monthly cleanup. Import your browser bookmarks (or a Pocket/Raindrop export) and search your entire existing pile in minutes. It runs on the web, iOS, and as a Chrome extension, so saving and searching follow you everywhere.
 
-The free tier covers everyday saving; Pro is $48/year (about $8/month, currently 50% off) if you want the full power-user kit. Stop organizing bookmarks. Start saving them, and let the machine remember where everything is.
+The free tier covers everyday saving; Pro is $79/year (about $9/month, currently 27% off) if you want the full power-user kit. Stop organizing bookmarks. Start saving them, and let the machine remember where everything is.
 
 ---
 

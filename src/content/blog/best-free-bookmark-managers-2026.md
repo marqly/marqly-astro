@@ -32,7 +32,7 @@ Worth saying out loud: the era of "just use Pocket" is over — Mozilla shut Poc
 | Tool | Free tier | AI (tagging/search) | Self-host | Platforms | Paid upgrade (verified Aug 2026) |
 | --- | --- | --- | --- | --- | --- |
 | **Raindrop.io** | ✅ Unlimited bookmarks & collections | ❌ Keyword search on free | ❌ | Web, mobile, extensions | Pro $28/yr |
-| **Marqly** | ✅ Free tier, no card | ✅ Auto-tagging + semantic search | ❌ | Web, iOS, Chrome/Edge/Firefox/Safari | Pro $48/yr (~$4/mo) |
+| **Marqly** | ✅ Free tier, no card | ✅ Auto-tagging + semantic search | ❌ | Web, iOS, Chrome/Edge/Firefox/Safari | Pro $79/yr (~$6.58/mo) |
 | **Linkwarden** | ✅ Free if self-hosted | ⚠️ Optional AI tagging | ✅ Open source (AGPL) | Web, iOS, Android, extensions | Cloud $3/user/mo |
 | **Karakeep** | ✅ Free if self-hosted | ✅ LLM tagging + semantic search (bring your own key) | ✅ Open source | Web, iOS, Android, extensions | Server costs only |
 | **Browser bookmarks** | ✅ Built in | ❌ | — | Their own ecosystem | — |
@@ -61,14 +61,14 @@ The honest caveat is what's *not* in the free tier: **full-text search, permanen
 
 Marqly's free tier includes the parts other tools charge for or don't have: **AI auto-tagging** on every save and **semantic search** — find a bookmark by describing what you remember ("the article about pricing psychology for indie apps") rather than recalling its title. The extension adds one-click saving, a save-all-tabs button, a 6-color highlighter, and a YouTube summary card; sign-up requires no card. We build Marqly, so weigh this section accordingly — but those free-tier facts are checkable in two minutes.
 
-Where Raindrop free beats Marqly free: raw collecting at unlimited scale with a mature app on every platform, including Android (Marqly has no Android app; the web app covers Android browsers). Where Marqly free beats Raindrop free: everything AI. Pro is $48/year (~$4/month) or $8/month with a 7-day trial.
+Where Raindrop free beats Marqly free: raw collecting at unlimited scale with a mature app on every platform, including Android (Marqly has no Android app; the web app covers Android browsers). Where Marqly free beats Raindrop free: everything AI. Pro is $79/year (~$6.58/month) or $9/month with a 7-day trial.
 
 **Pros:**
 
 - Auto-tagging and search-by-meaning on the free tier — unique in this table
 - Extension bundles highlighter, tab saver, and YouTube summaries
 - Imports Pocket exports, Raindrop collections, and browser bookmark HTML
-- Free signup, no card; Pro at $48/year stays cheap if you upgrade
+- Free signup, no card; Pro at $79/year stays cheap if you upgrade
 
 **Cons:**
 

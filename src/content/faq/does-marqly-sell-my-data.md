@@ -9,7 +9,7 @@ related:
   - how-do-i-delete-my-account
 ---
 
-No. Marqly does not sell your data — not your bookmarks, not your highlights, not your reading habits. The business model makes this simple to verify: revenue comes from Pro subscriptions at $48/yr or $8/mo, not from advertising or data brokers. When users pay for the product directly, there's no economic reason to monetize their data on the side. The [privacy policy](/privacypolicy) is the binding version of this commitment.
+No. Marqly does not sell your data — not your bookmarks, not your highlights, not your reading habits. The business model makes this simple to verify: revenue comes from Pro subscriptions at $79/yr or $9/mo, not from advertising or data brokers. When users pay for the product directly, there's no economic reason to monetize their data on the side. The [privacy policy](/privacypolicy) is the binding version of this commitment.
 
 ## Follow the money
 

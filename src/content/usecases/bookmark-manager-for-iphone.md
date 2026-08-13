@@ -11,7 +11,7 @@ hero:
 updatedDate: 2026-08-02
 faqs:
   - q: "Is the Marqly iOS app free?"
-    a: "Yes — the app is a free download on the App Store, and Marqly's free tier requires no card to sign up. Pro, which unlocks features like chatting with your saves, is $48 per year (about $4 a month billed annually) or $8 billed monthly, with a 7-day free trial. One account covers the iOS app, the web app, and all four browser extensions."
+    a: "Yes — the app is a free download on the App Store, and Marqly's free tier requires no card to sign up. Pro, which unlocks features like chatting with your saves, is $79 per year (about $6.58 a month billed annually) or $9 billed monthly, with a 7-day free trial. One account covers the iOS app, the web app, and all four browser extensions."
   - q: "Is there an Android version?"
     a: "No — there's no Android app. Android users aren't locked out entirely, though: the web app at app.marqly.com works in Android browsers, so the same library, search, and boards are reachable from an Android phone. But the native mobile app today is iOS only. If Android support matters to you, the web app is the honest current answer."
   - q: "Do bookmarks saved on my computer show up on my iPhone?"
@@ -45,7 +45,7 @@ Worth stating plainly, because Apple users often share households with Android u
 ## Getting started
 
 1. Download [Marqly from the App Store](https://apps.apple.com/us/app/marqly-ai-bookmark-manager/id6758905385) — more in [our iOS app FAQ](/faq/is-there-an-ios-app).
-2. Sign up free (no card) or sign in with your existing account; your library appears immediately. The free tier covers the core save-and-search loop; Pro — $48 a year (about $4 a month billed annually) or $8 monthly, with a 7-day free trial — adds features like chatting with your saves.
+2. Sign up free (no card) or sign in with your existing account; your library appears immediately. The free tier covers the core save-and-search loop; Pro — $79 a year (about $6.58 a month billed annually) or $9 monthly, with a 7-day free trial — adds features like chatting with your saves.
 3. Install the browser extension on your computer — Chrome, Edge, Firefox, or Safari — so desktop finds flow to your phone.
 4. Test the loop: save an article at your desk, then find it on your phone by describing it.
 

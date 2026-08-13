@@ -24,7 +24,7 @@ faqs:
   - q: "Is auto-tagging the same as AI search?"
     a: "No, and conflating them is how most apps earn the 'AI' label. Auto-tagging reads a save and applies labels so you don't file by hand. AI search understands what a save is about and matches it to a query's meaning. A tool can auto-tag flawlessly and still fail every paraphrase search you throw at it."
   - q: "What does it cost to get real semantic bookmark search?"
-    a: "Less than you'd expect. Marqly has a free tier, with Pro at $48/yr (about $8/mo, currently 50% off), and it's built around meaning-based search rather than charging extra for a chat add-on. Several reading apps gate AI features behind ~$10–13/mo premium tiers, so check what 'AI' actually buys before paying."
+    a: "Less than you'd expect. Marqly has a free tier, with Pro at $79/yr (about $9/mo, currently 27% off), and it's built around meaning-based search rather than charging extra for a chat add-on. Several reading apps gate AI features behind ~$10–13/mo premium tiers, so check what 'AI' actually buys before paying."
 heroImage: ../../assets/blog/ai-bookmark-managers-semantic-search-compared.png
 heroAlt: "Which AI Bookmark Managers Actually Search by Meaning — illustration"
 ogImage: "https://www.marqly.com/og/ai-bookmark-managers-semantic-search-compared.png"
@@ -75,7 +75,7 @@ A few honest caveats. **"Partial"** means the tool has *some* meaning-aware retr
 
 ## What's each tool actually best for?
 
-- **Marqly — best for searching by meaning.** Built around the query layer first: save from web, iOS, or Chrome and find anything later by describing it, across your whole library. Auto-tags and summaries come along on the way in. It's the only tool here where paraphrase search is the headline feature rather than a bolt-on. Free tier; Pro is $48/yr (about $8/mo, currently 50% off). See [our full Marqly review](/blog/marqly-review-2026) for the deep dive.
+- **Marqly — best for searching by meaning.** Built around the query layer first: save from web, iOS, or Chrome and find anything later by describing it, across your whole library. Auto-tags and summaries come along on the way in. It's the only tool here where paraphrase search is the headline feature rather than a bolt-on. Free tier; Pro is $79/yr (about $9/mo, currently 27% off). See [our full Marqly review](/blog/marqly-review-2026) for the deep dive.
 - **mymind — best for visual collectors.** A calm, image-led canvas with strong auto-tagging. Retrieval leans on visual recall and tags more than paraphrase search, so it shines for designers gathering inspiration, less for people hunting long-form articles by argument.
 - **Recall — best for summarizing and connecting saves.** Strong at auto-summaries and building a knowledge graph you can chat with. Treat it as a synthesis-and-browse tool; its retrieval is more "ask the graph" than "search by meaning."
 - **Readwise Reader — best for heavy highlighters.** A best-in-class reading and highlighting stack with AI chat layered on. The AI is an add-on to a keyword core, and the price targets power users — see [Readwise Reader vs Marqly](/compare/marqly-vs-readwise-reader) for where each wins.

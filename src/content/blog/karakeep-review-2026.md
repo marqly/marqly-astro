@@ -93,7 +93,7 @@ Paid cloud plans carry a 7-day money-back guarantee, and export is available any
 | | Karakeep | Marqly |
 | --- | --- | --- |
 | Self-hosting / data ownership | **Yes — its whole reason to exist** | No |
-| Price (all-in) | **Free self-hosted; $4/mo cloud** | Free tier; $48/yr (≈$4/mo) Pro |
+| Price (all-in) | **Free self-hosted; $6.58/mo cloud** | Free tier; $79/yr (≈$6.58/mo) Pro |
 | Setup required | Docker, config, maintenance | **None — sign up and save** |
 | Android app | **Yes** | No (web app in browser) |
 | Local/private AI | **Yes, via Ollama** | No — hosted service |
@@ -105,7 +105,7 @@ Paid cloud plans carry a 7-day money-back guarantee, and export is available any
 | Page capture | Monolith archive | Save as PDF, matching on-screen layout |
 | Who maintains it | **You** | Marqly |
 
-This one's honestly simple: the deciding row is the last one. Karakeep gives you everything Marqly charges for, free, plus ownership Marqly can't offer — in exchange for your evenings and your uptime. Marqly gives you the AI bookmark experience — semantic search, auto-tags, summaries, [YouTube tools](/blog/best-ai-bookmark-manager-2026) — working identically well on minute one and minute one million, with nobody to maintain. Self-hosters don't need us to tell them which they are. If you're only *self-hosting-curious*, run the math on what an always-on machine plus your time actually costs versus [$4/month](https://app.marqly.com).
+This one's honestly simple: the deciding row is the last one. Karakeep gives you everything Marqly charges for, free, plus ownership Marqly can't offer — in exchange for your evenings and your uptime. Marqly gives you the AI bookmark experience — semantic search, auto-tags, summaries, [YouTube tools](/blog/best-ai-bookmark-manager-2026) — working identically well on minute one and minute one million, with nobody to maintain. Self-hosters don't need us to tell them which they are. If you're only *self-hosting-curious*, run the math on what an always-on machine plus your time actually costs versus [$6.58/month](https://app.marqly.com).
 
 ## Who should use Karakeep?
 

@@ -42,7 +42,7 @@ The account model is the escape hatch from iCloud's boundary. Everything you sav
 
 Migration is one file: Safari exports bookmarks to standard HTML (File → Export → Bookmarks), and Marqly imports that format directly, then AI-tags the whole backlog — years of Safari folders become findable by description in one sitting. Pocket exports and Raindrop.io collections import as well, if your links are scattered further afield.
 
-The cost of trying all this is zero: the free tier requires no card. Pro — $48 a year (about $4 a month billed annually) or $8 month to month, with a 7-day free trial — unlocks features like chatting with your saves: ask a question, get an answer drawn from your own saved content.
+The cost of trying all this is zero: the free tier requires no card. Pro — $79 a year (about $6.58 a month billed annually) or $9 month to month, with a 7-day free trial — unlocks features like chatting with your saves: ask a question, get an answer drawn from your own saved content.
 
 ## Getting started
 

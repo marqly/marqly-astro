@@ -27,7 +27,7 @@ The two Pro capabilities stop: asking questions answered from your saved content
 
 ## If you decide Pro is worth it
 
-Subscribe from your account at [app.marqly.com](https://app.marqly.com). Annual billing at $48/yr is about half the cost of paying $8 monthly, and the homepage pricing section always has current numbers.
+Subscribe from your account at [app.marqly.com](https://app.marqly.com). Annual billing at $79/yr is about 27% less than paying $9 monthly, and the homepage pricing section always has current numbers.
 
 ## No dark patterns
 

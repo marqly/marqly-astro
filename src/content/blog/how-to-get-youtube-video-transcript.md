@@ -93,7 +93,7 @@ No second tab, no URL pasting, no chunk-by-chunk selection. The transcript is ju
 
 It also solves the problem that shows up a week later: finding the transcript again. Marqly adds a **Bookmark** button to YouTube's action row, next to Like and Share. Save the video and the transcript is attached to that save in your library — so the talk you half-remember is [searchable by what it said](/blog/how-to-search-bookmarks-with-ai), not just by its title. It's the difference between copying a transcript and actually [keeping YouTube videos somewhere you'll find them](/blog/save-youtube-videos-watch-later).
 
-The same card has two more tabs. **Summary** streams a TL;DR plus section breakdown on the free tier — here's [how AI summaries of YouTube videos work](/blog/summarize-youtube-videos-with-ai). **Chat** lets you ask the video questions and get answers grounded in the transcript; that one's Pro, with a 7-day free trial, at $48/year — about $4/month billed annually. Here's what [chatting with a YouTube video](/blog/chat-with-youtube-videos) looks like in practice.
+The same card has two more tabs. **Summary** streams a TL;DR plus section breakdown on the free tier — here's [how AI summaries of YouTube videos work](/blog/summarize-youtube-videos-with-ai). **Chat** lets you ask the video questions and get answers grounded in the transcript; that one's Pro, with a 7-day free trial, at $79/year — about $6.58/month billed annually. Here's what [chatting with a YouTube video](/blog/chat-with-youtube-videos) looks like in practice.
 
 One honest caveat: Marqly reads the video's captions like everything else does. If a video has no captions at all, no tool can hand you a transcript for it.
 

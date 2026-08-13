@@ -1,6 +1,6 @@
 ---
 question: "What's the difference between Marqly Free and Pro?"
-description: "Marqly Free covers saving, AI auto-tagging, and semantic search. Pro adds chat with your saves and chat with YouTube videos — $48/yr or $8/mo, 7-day trial."
+description: "Marqly Free covers saving, AI auto-tagging, and semantic search. Pro adds chat with your saves and chat with YouTube videos — $79/yr or $9/mo, 7-day trial."
 category: pricing
 updatedDate: 2026-08-02
 related:
@@ -9,7 +9,7 @@ related:
   - what-happens-when-my-trial-ends
 ---
 
-Marqly Free is the core bookmark manager: save links from your browser, get AI auto-tagging on every save, and find anything with semantic search. Pro unlocks the chat features — asking questions answered from your saved content, and chatting with YouTube videos through their transcripts. Pro costs $48 per year or $8 per month, with a 7-day free trial to test it first.
+Marqly Free is the core bookmark manager: save links from your browser, get AI auto-tagging on every save, and find anything with semantic search. Pro unlocks the chat features — asking questions answered from your saved content, and chatting with YouTube videos through their transcripts. Pro costs $79 per year or $9 per month, with a 7-day free trial to test it first.
 
 ## What Free includes
 

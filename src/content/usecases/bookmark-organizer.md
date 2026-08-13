@@ -15,7 +15,7 @@ faqs:
   - q: "Can I import my existing browser bookmarks?"
     a: "Yes. Marqly imports the standard bookmark HTML export that Chrome, Firefox, Edge, and Safari all produce, plus Pocket exports and Raindrop.io collections. Your existing pile gets AI tags on the way in, so years of unfiled bookmarks become searchable by meaning without you sorting anything. The import is usually the moment old bookmarks become useful again."
   - q: "Is Marqly free to use as a bookmark organizer?"
-    a: "There's a free tier and signup requires no card — go to app.marqly.com and start saving. Pro is $48 per year (about $4 a month billed annually) or $8 billed monthly, with a 7-day free trial. Pro adds features like chatting with your saved content; the fundamentals — saving, AI tagging, search — are available from the free tier."
+    a: "There's a free tier and signup requires no card — go to app.marqly.com and start saving. Pro is $79 per year (about $6.58 a month billed annually) or $9 billed monthly, with a 7-day free trial. Pro adds features like chatting with your saved content; the fundamentals — saving, AI tagging, search — are available from the free tier."
 ---
 
 If you're looking for a bookmark organizer, the actual job is usually this: you have hundreds of saved links you can't find anything in, and you want that to stop. The fix is not better folders. Marqly organizes bookmarks by doing the filing for you — AI tags every save automatically — and by making retrieval work from whatever you remember: search by meaning, not by the exact words in a title.
@@ -62,7 +62,7 @@ Imports get AI tags on the way in. That's the moment a decade of dead folders tu
 3. Export your browser bookmarks to HTML and import them.
 4. Save normally for a week and retrieve by search instead of browsing folders. This is the habit change — and it's a removal of habit, not an addition.
 
-Pro is $48/year (about $4/month billed annually) or $8/month, with a 7-day trial.
+Pro is $79/year (about $6.58/month billed annually) or $9/month, with a 7-day trial.
 
 ## Is Marqly the right fit?
 

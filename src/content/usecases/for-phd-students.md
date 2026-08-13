@@ -15,7 +15,7 @@ faqs:
   - q: "Does Marqly replace Zotero or Mendeley for a PhD?"
     a: "No, and it doesn't try to. Reference managers handle citation metadata and bibliography formatting, which you'll still need for the thesis. Marqly handles the layer they neglect: remembering what each source actually said. It keeps your highlights, auto-tags everything, and retrieves sources from a vague description. Run both — they touch different stages of the same review."
   - q: "How much does Marqly cost on a PhD budget?"
-    a: "There's a free tier with no card required, so you can build the habit before paying anything. Pro — which adds chat with your saves and chat with YouTube transcripts — is $48/year, which works out to about $4/month billed annually, or $8/month on the monthly plan. Every account starts with a 7-day free trial of Pro."
+    a: "There's a free tier with no card required, so you can build the habit before paying anything. Pro — which adds chat with your saves and chat with YouTube transcripts — is $79/year, which works out to about $6.58/month billed annually, or $9/month on the monthly plan. Every account starts with a 7-day free trial of Pro."
 ---
 
 Somewhere between year one and the confirmation milestone, every PhD student's literature review stops fitting in their head. Two hundred sources in, you no longer have a reading problem — you have a memory problem. Was it Kaplan or Kap-something who found the effect reversed in longitudinal data? Which of the four papers on your "definitely cite" list actually addressed the measurement critique? The review chapter isn't hard because reading is hard; it's hard because retrieval degrades exactly as the corpus grows.

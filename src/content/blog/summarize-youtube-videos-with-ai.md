@@ -18,7 +18,7 @@ faqs:
   - q: "Can ChatGPT summarize a YouTube video?"
     a: "Yes, but you have to feed it the transcript yourself. ChatGPT can't reliably watch a video from a link, so the working method is: open the transcript on YouTube, copy it, paste it into ChatGPT with a prompt, and wait. It works, but it's about six manual steps per video, and the summary lives in a chat thread, not with the video."
   - q: "Is the Marqly YouTube AI summary free?"
-    a: "Yes to start. The extension is free to install on Chrome, Edge, Firefox, and Safari, and includes free AI summaries so you can try it on real videos. Marqly Pro unlocks chat with videos and heavier use — it comes with a 7-day free trial and costs $48 per year, which works out to about $4 per month billed annually."
+    a: "Yes to start. The extension is free to install on Chrome, Edge, Firefox, and Safari, and includes free AI summaries so you can try it on real videos. Marqly Pro unlocks chat with videos and heavier use — it comes with a 7-day free trial and costs $79 per year, which works out to about $6.58 per month billed annually."
   - q: "Can I ask an AI follow-up questions about a YouTube video?"
     a: "Yes. The Marqly card has a Chat tab where you ask questions about the video and get answers grounded in the actual transcript, with starter question chips to get you going. Because answers come from what was actually said, you get citations of the content rather than guesses. Chat is a Marqly Pro feature; summaries are included free to start."
   - q: "What should a good AI summary of a YouTube video look like?"
@@ -110,7 +110,7 @@ One more mark of a good system: the summary shouldn't evaporate. If you triage a
 
 The fastest way to summarize YouTube videos with AI is to stop moving the transcript to the AI and start putting the AI where the video is. The [Marqly extension](https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc) adds the summary card to every YouTube watch page — streaming summaries with a TL;DR and key points, a synced transcript, and one-click saving to a searchable library.
 
-It's free to install on Chrome, Edge, Firefox, and Safari, with free AI summaries to start. Marqly Pro unlocks chat with videos and heavier use — 7-day free trial, then $48/year (about $4/month billed annually).
+It's free to install on Chrome, Edge, Firefox, and Safari, with free AI summaries to start. Marqly Pro unlocks chat with videos and heavier use — 7-day free trial, then $79/year (about $6.58/month billed annually).
 
 Open the next long video on your list and read the summary before you commit the 40 minutes.
 

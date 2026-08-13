@@ -5,12 +5,13 @@
 // vanilla-JS toggle — no React hydration, works identically on every breakpoint.
 const APP = 'https://app.marqly.com/';
 
-// Pricing facts (derived from the existing design):
-//   Annual:  $48/year  → $4/mo, 50% off the $96/year list price
-//   Monthly: $8/mo
+// Pricing facts — must match apps/api STRIPE_PRICE_PRO_*_AMOUNT_CENTS, which is what
+// app.marqly.com/checkout actually charges (it reads GET /billing/plans).
+//   Annual:  $79/year  → $6.58/mo, 27% off the $108/year list price
+//   Monthly: $9/mo
 const PRICE = {
-  annual: { amount: '$48', period: '/year', wasAmount: '$96', note: 'Just $4/mo, billed annually' },
-  monthly: { amount: '$8', period: '/month', wasAmount: null, note: 'Billed monthly' },
+  annual: { amount: '$79', period: '/year', wasAmount: '$108', note: 'Just $6.58/mo, billed annually' },
+  monthly: { amount: '$9', period: '/month', wasAmount: null, note: 'Billed monthly' },
 };
 
 const freeFeatures = [

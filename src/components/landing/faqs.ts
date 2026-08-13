@@ -12,7 +12,7 @@ export interface HomeFaq {
 export const homeFaqs: HomeFaq[] = [
   {
     q: 'Is Marqly free?',
-    a: 'Yes. The free plan includes one-click saving, tags, search, and access on every device — no credit card required. Marqly Pro adds unlimited bookmarks, AI features like semantic search and YouTube chat, highlights, and smart sorting for $48/year (about $4/month billed annually) after a 7-day free trial.',
+    a: 'Yes. The free plan includes one-click saving, tags, search, and access on every device — no credit card required. Marqly Pro adds unlimited bookmarks, AI features like semantic search and YouTube chat, highlights, and smart sorting for $79/year (about $6.58/month billed annually) after a 7-day free trial.',
     href: '/faq/is-marqly-free',
   },
   {

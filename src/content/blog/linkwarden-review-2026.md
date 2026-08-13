@@ -94,7 +94,7 @@ The cloud plan is among the cheapest hosted options in the entire category, and 
 | Preservation | **HTML + screenshot + PDF + readable + Wayback, automatic** | Save as PDF on demand |
 | Open source / self-host | **Yes (AGPL-3.0)** | No |
 | Team collaboration | **Shared collections, permissions** | No teams (public board sharing only) |
-| Price | **Free self-hosted; $3/mo cloud** | Free tier; $48/yr (≈$4/mo) Pro |
+| Price | **Free self-hosted; $3/mo cloud** | Free tier; $79/yr (≈$6.58/mo) Pro |
 | API | **Yes** | No public API |
 | Android | **Yes (new official app)** | No (web app in browser) |
 | Search | Keyword + operators | **Semantic — find saves by describing them** |

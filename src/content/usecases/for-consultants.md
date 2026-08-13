@@ -15,7 +15,7 @@ faqs:
   - q: "Can I share research with a client who won't sign up for anything?"
     a: "Yes — that constraint is exactly what public boards handle. Share a board and it becomes a public web page; your client opens the link in any browser with no account, no invitation, and no software to install. It's view-only, so the curation stays intact. Because anyone with the link can see it, share market reading and references this way, not confidential deliverables."
   - q: "What does Marqly cost, and is there a trial?"
-    a: "Free tier first: no card, sign up and use it. Pro runs $48/year — about $4/month billed annually — or $8/month billed monthly, with a 7-day free trial. Pro's chat features are the draw for consultants: asking questions answered from your own saved research is a fast way to prep for a client call from material you've already vetted."
+    a: "Free tier first: no card, sign up and use it. Pro runs $79/year — about $6.58/month billed annually — or $9/month billed monthly, with a 7-day free trial. Pro's chat features are the draw for consultants: asking questions answered from your own saved research is a fast way to prep for a client call from material you've already vetted."
 ---
 
 Consulting means holding three clients' worth of context in your head and swapping between them on the hour. The research backing each engagement — industry reports, competitor pages, regulatory updates, the article that shaped your recommendation — tends to live wherever it landed: tabs, email, a deck appendix. Marqly gives that material a home that respects how consultants work: a board per client, automatic tagging so filing never eats billable time, and search that finds a source from whatever fragment of it you remember on a call.

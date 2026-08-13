@@ -97,7 +97,7 @@ Honest table — Raindrop wins several rows outright:
 
 | | Raindrop.io | Marqly |
 | --- | --- | --- |
-| Paid price | **$27.99/yr — cheaper** | $48/yr (≈$4/mo) or $8/mo monthly |
+| Paid price | **$27.99/yr — cheaper** | $79/yr (≈$6.58/mo) or $9/mo monthly |
 | Free plan | **Unlimited bookmarks, forever** | Free tier, no card required |
 | Android app | **Yes** | No (web app works in Android browsers) |
 | Media types / file uploads | **Widest in category** | Articles, videos, links, PDFs |
