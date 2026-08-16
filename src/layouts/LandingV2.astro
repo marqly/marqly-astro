@@ -21,7 +21,15 @@ export interface Props {
   canonical?: string;
   ogImage?: string;
   jsonLd?: unknown[];
+  /** Page language — sets <html lang> and og:locale. */
+  lang?: string;
+  /** hreflang cluster from src/i18n/routes.ts (empty = no alternate links). */
+  alternates?: { hreflang: string; href: string }[];
 }
+
+const OG_LOCALES: Record<string, string> = {
+  en: 'en_US', es: 'es_LA', pt: 'pt_BR', de: 'de_DE', fr: 'fr_FR', it: 'it_IT',
+};
 
 const {
   title,
@@ -29,23 +37,30 @@ const {
   canonical,
   ogImage = 'https://www.marqly.com/og-default.png',
   jsonLd = [],
+  lang = 'en',
+  alternates = [],
 } = Astro.props;
+const ogLocale = OG_LOCALES[lang] ?? 'en_US';
 
 const cleanPath = Astro.url.pathname.replace(/\.html$/, '').replace(/\/index$/, '/');
 const canonicalURL = canonical ?? new URL(cleanPath, Astro.site).href;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={lang}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalURL} />
+    {alternates.map((a) => (
+      <link rel="alternate" hreflang={a.hreflang} href={a.href} />
+    ))}
     <meta name="robots" content="max-image-preview:large" />
     <meta name="theme-color" content="#f7f7f7" />
     <meta property="og:type" content="website" />
+    <meta property="og:locale" content={ogLocale} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalURL} />

@@ -19,7 +19,7 @@ Marqly Labs works on Marqly and nothing else. That focus shows up in the product
 
 You don't have to take the team's word for the product quality:
 
-- ★ 4.8 rating on the Chrome Web Store
+- A #1 Product of the Day launch on Product Hunt
 - ★ 4.7 rating on Product Hunt
 
 Those are current ratings from real users of the extension and the app, not launch-day snapshots.

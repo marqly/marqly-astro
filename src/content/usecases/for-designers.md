@@ -46,7 +46,7 @@ Video belongs in the reference library too. Design talks, process breakdowns, an
 
 ## Getting started
 
-1. **Install the extension** — available for Chrome, Edge, Firefox, and Safari; rated 4.8 on the Chrome Web Store. Free signup at [app.marqly.com](https://app.marqly.com), no card required ([details on the free tier](/faq/is-marqly-free)).
+1. **Install the extension** — available for Chrome, Edge, Firefox, and Safari. Free signup at [app.marqly.com](https://app.marqly.com), no card required ([details on the free tier](/faq/is-marqly-free)).
 2. **Import the collection you already have.** Browser bookmark HTML exports import directly, as do Pocket archives and Raindrop.io collections — wherever your references currently hibernate.
 3. **Let AI tag everything.** The backlog gets auto-tagged on import, and each new save is tagged the moment you make it. Curation becomes purely additive: save what strikes you, and structure takes care of itself.
 

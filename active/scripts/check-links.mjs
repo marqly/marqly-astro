@@ -7,7 +7,12 @@ import { fileURLToPath } from 'node:url';
 import { existsSync } from 'node:fs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
-const DIST = path.join(ROOT, 'dist');
+// The Cloudflare adapter emits static output under dist/client/ (dist/ itself
+// holds the worker). Resolve link targets against whichever actually exists.
+const DIST_ROOT = path.join(ROOT, 'dist');
+const DIST = existsSync(path.join(DIST_ROOT, 'client'))
+  ? path.join(DIST_ROOT, 'client')
+  : DIST_ROOT;
 
 async function* walk(dir) {
   for (const e of await readdir(dir, { withFileTypes: true })) {

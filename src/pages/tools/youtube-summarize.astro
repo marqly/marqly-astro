@@ -1,7 +1,8 @@
 ---
 import LandingLayout from '../../layouts/LandingLayout.astro';
 import ToolShell from '../../components/seo/ToolShell.astro';
-import { breadcrumbList, faqPage, organization, webSite } from '../../lib/schema';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../lib/schema';
+import { alternatesForPath } from '../../i18n/routes';
 
 const title = 'Free YouTube Video Summarizer — TL;DR Any Video';
 const description =
@@ -35,6 +36,11 @@ const jsonLd = [
     { name: 'YouTube summarizer', path: '/tools/youtube-summarize' },
   ]),
   faqPage(faqs),
+  freeWebApplication(
+    'YouTube video summarizer',
+    'Summarize any YouTube video with AI: paste a link, get a TL;DR with key points — free, no signup.',
+    '/tools/youtube-summarize',
+  ),
 ];
 ---
 
@@ -42,6 +48,7 @@ const jsonLd = [
   title={title}
   description={description}
   jsonLd={jsonLd}
+  alternates={alternatesForPath('/tools/youtube-summarize')}
   ogImage="https://www.marqly.com/og/seo/tool-youtube-summarize.png"
 >
   <ToolShell

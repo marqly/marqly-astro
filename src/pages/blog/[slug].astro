@@ -3,7 +3,8 @@ import { getCollection, render } from 'astro:content';
 import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  // English posts only — locale posts render under /<lang>/blog/ routes.
+  const posts = await getCollection('blog', ({ data }) => !data.draft && data.lang === 'en');
   return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
 }
 

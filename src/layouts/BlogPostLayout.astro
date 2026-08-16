@@ -4,6 +4,8 @@ import { Image } from 'astro:assets';
 import { organization } from '../lib/schema';
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
+import { alternatesForPath } from '../i18n/routes';
+import { BLOG_UI, postPath } from '../i18n/ui';
 
 interface Props {
   post: CollectionEntry<'blog'>;
@@ -11,11 +13,15 @@ interface Props {
 
 const { post } = Astro.props;
 const { data } = post;
-const slug = post.id;
+const lang = data.lang;
+const ui = BLOG_UI[lang as keyof typeof BLOG_UI] ?? BLOG_UI.en;
 
-// Related posts: same category first, then tag overlap — keeps every post
-// linked into its cluster (crawl depth + dwell time).
-const allPosts = await getCollection('blog', (p) => !p.data.draft && p.id !== post.id);
+// Related posts: same language only, same category first, then tag overlap —
+// keeps every post linked into its own locale's cluster (crawl depth + dwell time).
+const allPosts = await getCollection(
+  'blog',
+  (p) => !p.data.draft && p.id !== post.id && p.data.lang === lang,
+);
 const tagSet = new Set(data.tags);
 const related = allPosts
   .map((p) => ({
@@ -27,16 +33,19 @@ const related = allPosts
   .sort((x, y) => y.score - x.score || y.p.data.pubDate.valueOf() - x.p.data.pubDate.valueOf())
   .slice(0, 4)
   .map((x) => x.p);
-const url = `https://www.marqly.com/blog/${slug}`;
+const path = postPath(post.id, lang);
+const url = `https://www.marqly.com${path}`;
+const alternates = alternatesForPath(path);
 
 const fmtDate = (d: Date) =>
-  d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+  d.toLocaleDateString(ui.dateLocale, { year: 'numeric', month: 'long', day: 'numeric' });
 
 const blogPosting = {
   '@context': 'https://schema.org',
   '@type': 'BlogPosting',
   headline: data.title,
   description: data.description,
+  inLanguage: lang,
   datePublished: data.pubDate.toISOString(),
   dateModified: (data.updatedDate ?? data.pubDate).toISOString(),
   author: { '@type': 'Organization', name: 'Marqly', url: 'https://www.marqly.com' },
@@ -108,23 +117,26 @@ const jsonLd = [blogPosting, breadcrumb, softwareApp, organization(), ...(faqPag
   ogImage={data.ogImage}
   ogType="article"
   jsonLd={jsonLd}
+  lang={lang}
+  alternates={alternates}
+  showLinkHub={lang === 'en'}
 >
   <article class="post">
     <header class="post-header">
       <nav class="crumbs" aria-label="Breadcrumb">
-        <a href="/">Home</a><span>/</span><a href="/blog">Blog</a>
+        <a href="/">{ui.home}</a><span>/</span><a href="/blog">{ui.blog}</a>
       </nav>
       <p class="kicker">{data.category}</p>
       <h1>{data.title}</h1>
       <p class="dek">{data.description}</p>
       <div class="byline">
-        <span>Marqly Team</span>
+        <span>{ui.byline}</span>
         <span class="dot">·</span>
         <time datetime={data.pubDate.toISOString()}>{fmtDate(data.pubDate)}</time>
         {data.updatedDate && (
           <>
             <span class="dot">·</span>
-            <span>Updated {fmtDate(data.updatedDate)}</span>
+            <span>{ui.updated} {fmtDate(data.updatedDate)}</span>
           </>
         )}
       </div>
@@ -142,7 +154,7 @@ const jsonLd = [blogPosting, breadcrumb, softwareApp, organization(), ...(faqPag
 
     {data.faqs.length > 0 && (
       <section class="faq" aria-labelledby="faq-heading">
-        <h2 id="faq-heading">Frequently asked questions</h2>
+        <h2 id="faq-heading">{ui.faqHeading}</h2>
         <dl>
           {data.faqs.map((f) => (
             <div class="faq-item">
@@ -155,18 +167,18 @@ const jsonLd = [blogPosting, breadcrumb, softwareApp, organization(), ...(faqPag
     )}
 
     <aside class="post-cta">
-      <h2>Stop losing what you save.</h2>
-      <p>Marqly turns everything you bookmark into a searchable, AI-powered second brain. Ask it anything — find saves by meaning, not keywords.</p>
+      <h2>{ui.ctaHeading}</h2>
+      <p>{ui.ctaSub}</p>
       <a class="cta-btn" href={data.ctaUrl}>{data.ctaLabel} →</a>
     </aside>
 
     {related.length > 0 && (
-      <nav class="related-posts" aria-label="Related articles">
-        <h2>Keep reading</h2>
+      <nav class="related-posts" aria-label={ui.keepReading}>
+        <h2>{ui.keepReading}</h2>
         <ul>
           {related.map((r) => (
             <li>
-              <a href={`/blog/${r.id}`}>
+              <a href={postPath(r.id, r.data.lang)}>
                 <span class="rp-cat">{r.data.category}</span>
                 <span class="rp-title">{r.data.title}</span>
               </a>

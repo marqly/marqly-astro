@@ -1,0 +1,160 @@
+---
+import LandingLayout from '../../../layouts/LandingLayout.astro';
+import ToolShell from '../../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../../lib/schema';
+import { alternatesForPath } from '../../../i18n/routes';
+
+const path = '/de/tools/youtube-zusammenfassung';
+const title = 'YouTube-Video zusammenfassen mit KI – kostenlos, ohne Anmeldung | Marqly';
+const description =
+  'Link einfügen, KI-Zusammenfassung bekommen: TL;DR und Kernpunkte als Text, kostenlos und ohne Anmeldung. Basiert auf dem echten Transkript des Videos.';
+
+const faqs = [
+  {
+    q: 'Wie funktioniert die YouTube-Zusammenfassung?',
+    a: 'Das Tool holt das Transkript des Videos (die Untertitel, die YouTube bereits hat) und ein KI-Modell verdichtet es zu einer kurzen Zusammenfassung mit Kernpunkten. Die Zusammenfassung basiert auf dem, was im Video wirklich gesagt wurde – nicht auf dem, was der Titel verspricht.',
+  },
+  {
+    q: 'Funktioniert das bei Videos ohne Untertitel?',
+    a: 'Nein. Wenn der Uploader die Untertitel deaktiviert hat, gibt es kein Transkript, das sich zusammenfassen lässt. Die meisten YouTube-Videos haben aber mindestens automatisch erzeugte Untertitel – damit funktioniert es problemlos.',
+  },
+  {
+    q: 'Ist das besser, als das Transkript in ChatGPT oder Gemini einzufügen?',
+    a: 'Es ist dasselbe Ergebnis ohne die Handarbeit: kein Transkript öffnen, kein zeilenweises Kopieren, kein Prompt bauen. Link einfügen, Zusammenfassung lesen. Mit der Marqly-Erweiterung erscheint die Zusammenfassung sogar automatisch neben dem Player – bei jedem Video, das du öffnest.',
+  },
+  {
+    q: 'Ist das wirklich kostenlos?',
+    a: 'Ja – ohne Anmeldung, ohne Konto, ohne versteckte Grenzen. Es ist ein Vorgeschmack auf das, was die Marqly-Erweiterung auf jeder YouTube-Watch-Seite automatisch macht: Zusammenfassung, Kernabschnitte, synchronisiertes Transkript und Chat mit dem Video.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite('de'),
+  breadcrumbList([
+    { name: 'Startseite', path: '/' },
+    { name: 'YouTube-Zusammenfassung', path },
+  ]),
+  faqPage(faqs, 'de'),
+  freeWebApplication(
+    'YouTube-Zusammenfassung',
+    'Fasse jedes YouTube-Video mit KI zusammen: Link einfügen und ein TL;DR mit Kernpunkten bekommen – kostenlos, ohne Anmeldung.',
+    path,
+    'de',
+  ),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  lang="de"
+  alternates={alternatesForPath(path)}
+  showLinkHub={false}
+>
+  <ToolShell
+    name="YouTube-Zusammenfassung"
+    heading="YouTube-Videos in Sekunden zusammenfassen"
+    sub="Link einfügen, TL;DR mit Kernpunkten bekommen. Kostenlos, ohne Anmeldung – auf Basis des echten Video-Transkripts."
+    faqs={faqs}
+    faqHeading="Häufige Fragen"
+    crumbs={[
+      { name: 'Startseite', path: '/' },
+      { name: 'YouTube-Zusammenfassung', path },
+    ]}
+    ctaHeading="Zusammenfassungen bei jedem Video – ohne Copy-Paste"
+    ctaSub="Die Marqly-Erweiterung zeigt KI-Zusammenfassung, Kernabschnitte, Transkript und Chat direkt neben dem Player – auf jeder YouTube-Seite."
+    ctaLabel="Marqly kostenlos testen"
+    ctaSecondaryLabel="Zu Chrome hinzufügen"
+    backHref={null}
+  >
+    <form id="ys-form">
+      <div class="tool-row">
+        <div class="grow">
+          <label for="ys-url">YouTube-Video-URL</label>
+          <input id="ys-url" type="url" placeholder="https://www.youtube.com/watch?v=…" required />
+        </div>
+        <button class="btn btn--primary" type="submit">Zusammenfassen</button>
+      </div>
+      <p class="tool-status" id="ys-status" role="status"></p>
+    </form>
+    <div class="tool-output hidden" id="ys-out" aria-live="polite"></div>
+
+    <Fragment slot="content">
+      <h2>So fasst du ein YouTube-Video zusammen</h2>
+      <ol>
+        <li>Füge die Video-URL oben ein und klicke auf <strong>Zusammenfassen</strong>.</li>
+        <li>Das Tool holt das Transkript des Videos und verdichtet es mit KI.</li>
+        <li>Lies TL;DR und Kernpunkte – meist in unter 30 Sekunden.</li>
+      </ol>
+      <p>
+        Die Zusammenfassung entsteht aus der Untertitelspur des Videos und gibt damit wieder,
+        was tatsächlich gesagt wurde. Das ist der Unterschied zwischen einer echten
+        Zusammenfassung und einer Vermutung aus Titel und Thumbnail – und der Grund, warum
+        Videos mit deaktivierten Untertiteln nicht zusammengefasst werden können.
+      </p>
+
+      <h2>Wann die Zusammenfassung das Video schlägt</h2>
+      <ul>
+        <li><strong>Beim Lernen</strong> – aus einer einstündigen Vorlesung werden Notizen, die du vor der Prüfung wiederholen kannst.</li>
+        <li><strong>Podcasts und lange Talks</strong> – das Argument mitnehmen, ohne die 90 Minuten zu investieren.</li>
+        <li><strong>Tutorials</strong> – erst prüfen, ob das Video dein Problem wirklich behandelt.</li>
+        <li><strong>„Später ansehen“-Listen</strong> – in Sekunden entscheiden, welche Videos deine Zeit verdienen.</li>
+      </ul>
+      <p>
+        Du brauchst den kompletten Text statt der Zusammenfassung? Dann nimm das
+        <a href="/de/tools/youtube-transkript">YouTube-Transkript-Tool</a> – ebenfalls kostenlos.
+        Und wenn du täglich Videos triagierst, mach es dort, wo die Videos sind: Die
+        Marqly-Erweiterung streamt die Zusammenfassung neben dem Player, sobald du ein Video
+        öffnest – mit Kernabschnitten, synchronisiertem Transkript und einem Chat, der Fragen
+        aus dem ganzen Transkript beantwortet. Gespeicherte Videos behalten ihr Transkript,
+        sodass du sie Monate später wiederfindest und zitieren kannst.
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const form = document.getElementById('ys-form') as HTMLFormElement;
+  const input = document.getElementById('ys-url') as HTMLInputElement;
+  const status = document.getElementById('ys-status')!;
+  const out = document.getElementById('ys-out')!;
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    out.classList.add('hidden');
+    status.classList.remove('is-error');
+    try {
+      status.textContent = 'Transkript wird geladen…';
+      const tRes = await fetch(`/api/youtube-transcript?v=${encodeURIComponent(input.value)}`);
+      const tData = await tRes.json() as {
+        error?: string;
+        title: string;
+        segments: { text: string }[];
+      };
+      if (!tRes.ok) throw new Error(tData.error ?? 'Transkript konnte nicht geladen werden.');
+
+      status.textContent = `„${tData.title}“ wird zusammengefasst…`;
+      const text = tData.segments.map((s: { text: string }) => s.text).join(' ');
+      const sRes = await fetch('/api/summarize', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ text, title: tData.title, lang: 'de' }),
+      });
+      const sData = await sRes.json() as {
+        error?: string;
+        summary: string;
+        truncated?: boolean;
+      };
+      if (!sRes.ok) throw new Error(sData.error ?? 'Zusammenfassung fehlgeschlagen.');
+
+      status.textContent = tData.title;
+      out.textContent = sData.summary + (sData.truncated ? '\n\n(Langes Video – zusammengefasst wurde der erste Teil des Transkripts.)' : '');
+      out.classList.remove('hidden');
+    } catch (err) {
+      status.textContent = err instanceof Error ? err.message : 'Etwas ist schiefgelaufen.';
+      status.classList.add('is-error');
+    }
+  });
+</script>

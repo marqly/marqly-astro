@@ -44,7 +44,7 @@ Boards keep active projects separate from the archive: one board per video or se
 
 ## Getting started
 
-Install the extension — Chrome, Edge, Firefox, or Safari; it holds a 4.8 rating on the Chrome Web Store. Import your existing mess: browser bookmark HTML exports, Pocket exports, and Raindrop.io collections all come in, so the "Watch later" era of your research isn't lost. Let the AI tag the backlog and it becomes a searchable swipe file in one pass. Then the ongoing habit is one click per reference and a highlight on whatever earned the save.
+Install the extension — Chrome, Edge, Firefox, or Safari. Import your existing mess: browser bookmark HTML exports, Pocket exports, and Raindrop.io collections all come in, so the "Watch later" era of your research isn't lost. Let the AI tag the backlog and it becomes a searchable swipe file in one pass. Then the ongoing habit is one click per reference and a highlight on whatever earned the save.
 
 Start [free at app.marqly.com](https://app.marqly.com) — no card required.
 

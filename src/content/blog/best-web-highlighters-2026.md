@@ -50,7 +50,7 @@ Marqly's highlighter does the fundamentals right: select text on any website, pi
 - Highlights sync into a library with AI auto-tagging and semantic search
 - Boards let you group highlights and links, and share a board as a public page
 - Free tier, no card; Pro is $72/year (~$6/month) — the cheapest annual paid plan here after Weava
-- Chrome, Edge, Firefox, and Safari extensions (★4.8 on the Chrome Web Store)
+- Chrome, Edge, Firefox, and Safari extensions
 
 **Cons:**
 

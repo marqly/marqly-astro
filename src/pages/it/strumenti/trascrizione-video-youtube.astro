@@ -1,0 +1,188 @@
+---
+import LandingLayout from '../../../layouts/LandingLayout.astro';
+import ToolShell from '../../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../../lib/schema';
+import { alternatesForPath } from '../../../i18n/routes';
+
+const path = '/it/strumenti/trascrizione-video-youtube';
+const title = 'Trascrizione Video YouTube Gratis — Il Testo di Qualsiasi Video | Marqly';
+const description =
+  'Incolla il link di un video di YouTube e ottieni la trascrizione completa in testo, gratis e senza registrazione. Copiala o scaricala, con o senza i tempi.';
+
+const faqs = [
+  {
+    q: 'Come si ottiene la trascrizione di un video di YouTube?',
+    a: 'Incolla l’URL del video nello strumento qui sopra: recupera la traccia dei sottotitoli che YouTube ha già per quel video. Puoi copiare l’intera trascrizione o scaricarla come file di testo. Per avere la trascrizione su ogni video senza uscire da YouTube, l’estensione Marqly aggiunge una scheda con la trascrizione sincronizzata direttamente sulla pagina del video.',
+  },
+  {
+    q: 'Perché dice che non ci sono sottotitoli?',
+    a: 'Alcuni video hanno i sottotitoli disattivati dal creator, e i caricamenti molto recenti possono non avere ancora i sottotitoli automatici. Se il video mostra i sottotitoli su YouTube ma lo strumento fallisce, YouTube potrebbe star limitando il nostro server — l’estensione Marqly legge i sottotitoli direttamente nel tuo browser, evitando del tutto il problema.',
+  },
+  {
+    q: 'Funziona con i sottotitoli automatici?',
+    a: 'Sì. Se il creator ha caricato sottotitoli manuali usiamo quelli; altrimenti lo strumento usa la traccia automatica di YouTube. I sottotitoli automatici a volte sbagliano una parola — controlla nomi e termini tecnici con il video.',
+  },
+  {
+    q: 'Posso convertire un video di YouTube in testo gratis?',
+    a: 'Sì — è esattamente quello che fa questo strumento: il video diventa un testo completo, pronto da copiare o scaricare, senza registrazione, senza watermark e senza limiti giornalieri a pagamento.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite('it'),
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: 'Trascrizione video YouTube', path },
+  ]),
+  faqPage(faqs, 'it'),
+  freeWebApplication(
+    'Trascrizione video YouTube',
+    'Ottieni la trascrizione completa di qualsiasi video di YouTube in testo: gratis, online e senza registrazione.',
+    path,
+    'it',
+  ),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  lang="it"
+  alternates={alternatesForPath(path)}
+  showLinkHub={false}
+>
+  <ToolShell
+    name="Trascrizione video YouTube"
+    heading="Trascrivi un video di YouTube in un clic"
+    sub="Incolla il link e ottieni il testo completo del video. Gratis, senza registrazione. Copialo o scaricalo come file di testo."
+    faqs={faqs}
+    faqHeading="Domande frequenti"
+    crumbs={[
+      { name: 'Home', path: '/' },
+      { name: 'Trascrizione video YouTube', path },
+    ]}
+    ctaHeading="Vuoi la trascrizione su ogni video, in automatico?"
+    ctaSub="L'estensione Marqly aggiunge una scheda trascrizione — più riassunto AI e chat — direttamente sulla pagina del video. Gratis da installare."
+    ctaLabel="Prova Marqly gratis"
+    ctaSecondaryLabel="Aggiungi a Chrome"
+    backHref={null}
+  >
+    <form id="yt-form">
+      <div class="tool-row">
+        <div class="grow">
+          <label for="yt-url">URL del video di YouTube</label>
+          <input id="yt-url" type="url" placeholder="https://www.youtube.com/watch?v=…" required />
+        </div>
+        <button class="btn btn--primary" type="submit">Ottieni la trascrizione</button>
+      </div>
+      <p class="tool-status" id="yt-status" role="status"></p>
+    </form>
+    <div class="tool-actions hidden" id="yt-actions">
+      <button class="btn btn--outline btn--sm" id="yt-copy" type="button">Copia la trascrizione</button>
+      <button class="btn btn--outline btn--sm" id="yt-download" type="button">Scarica .txt</button>
+      <label style="display:inline-flex;align-items:center;gap:.4rem;margin:0;font-weight:400;">
+        <input type="checkbox" id="yt-stamps" checked style="width:auto;" /> tempi
+      </label>
+    </div>
+    <div class="tool-output hidden" id="yt-out" aria-live="polite"></div>
+
+    <Fragment slot="content">
+      <h2>Come ottenere la trascrizione di un video di YouTube</h2>
+      <ol>
+        <li>Copia l'URL del video dalla barra degli indirizzi o dal pulsante Condividi.</li>
+        <li>Incollala qui sopra e premi <strong>Ottieni la trascrizione</strong>.</li>
+        <li>Copia il testo, oppure scaricalo come <code>.txt</code> con o senza i tempi.</li>
+      </ol>
+      <p>
+        Lo strumento legge la traccia dei sottotitoli che YouTube ha già generato per il video —
+        gli stessi dati del pannello "Mostra trascrizione" di YouTube, senza i clic, lo scroll
+        e il copia riga per riga. Funziona con i sottotitoli manuali e automatici, nella lingua
+        caricata dal creator.
+      </p>
+
+      <h2>A cosa serve una trascrizione</h2>
+      <ul>
+        <li><strong>Leggere prima di guardare</strong> — una conferenza di 40 minuti si legge in 4.</li>
+        <li><strong>Citare con precisione</strong> — riprendi le parole esatte per appunti, tesi o articoli.</li>
+        <li><strong>Studiare</strong> — cerca il termine che ti serve nella videolezione invece di trascinare il video a caso. Per l'università e la maturità, la trascrizione è mezzo riassunto già fatto.</li>
+        <li><strong>Usarla con l'AI</strong> — incolla la trascrizione in un chatbot per fare domande al video, oppure passala nel nostro <a href="/it/strumenti/riassunto-video-youtube">riassunto video YouTube</a> e tieni solo i punti chiave.</li>
+      </ul>
+
+      <h2>La strada più veloce: la trascrizione sulla pagina del video</h2>
+      <p>
+        Se lo fai spesso, il giro di copia e incolla stanca in fretta. L'estensione Marqly
+        aggiunge a ogni video di YouTube una scheda AI con la trascrizione sincronizzata con la
+        riproduzione (copia in un clic), un riassunto AI e una chat che risponde alle domande
+        usando la trascrizione. Salvando il video, la trascrizione resta allegata — così ritrovi
+        "quel video dove spiega gli ETF con i secchielli" anche mesi dopo.
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const form = document.getElementById('yt-form') as HTMLFormElement;
+  const input = document.getElementById('yt-url') as HTMLInputElement;
+  const status = document.getElementById('yt-status')!;
+  const out = document.getElementById('yt-out')!;
+  const actions = document.getElementById('yt-actions')!;
+  const stamps = document.getElementById('yt-stamps') as HTMLInputElement;
+
+  let segments: { start: number; text: string }[] = [];
+  let videoTitle = 'trascrizione';
+
+  const fmt = (s: number) =>
+    `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
+
+  const renderText = (withStamps: boolean) =>
+    segments.map((s) => (withStamps ? `[${fmt(s.start)}] ${s.text}` : s.text)).join('\n');
+
+  const render = () => {
+    out.textContent = renderText(stamps.checked);
+  };
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    status.textContent = 'Recupero della trascrizione…';
+    status.classList.remove('is-error');
+    out.classList.add('hidden');
+    actions.classList.add('hidden');
+    try {
+      const res = await fetch(`/api/youtube-transcript?v=${encodeURIComponent(input.value)}`);
+      const data = await res.json() as {
+        error?: string;
+        title: string;
+        auto?: boolean;
+        segments: { start: number; text: string }[];
+      };
+      if (!res.ok) throw new Error(data.error ?? 'Qualcosa è andato storto.');
+      segments = data.segments;
+      videoTitle = data.title ?? 'trascrizione';
+      status.textContent = `${data.title}${data.auto ? ' (sottotitoli automatici)' : ''} — ${segments.length} righe`;
+      render();
+      out.classList.remove('hidden');
+      actions.classList.remove('hidden');
+    } catch (err) {
+      status.textContent = err instanceof Error ? err.message : 'Qualcosa è andato storto.';
+      status.classList.add('is-error');
+    }
+  });
+
+  stamps.addEventListener('change', render);
+
+  document.getElementById('yt-copy')!.addEventListener('click', async () => {
+    await navigator.clipboard.writeText(renderText(stamps.checked));
+    status.textContent = 'Copiato negli appunti.';
+  });
+
+  document.getElementById('yt-download')!.addEventListener('click', () => {
+    const blob = new Blob([renderText(stamps.checked)], { type: 'text/plain' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = `${videoTitle.replace(/[^\w\s-]/g, '').slice(0, 60) || 'trascrizione'}.txt`;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  });
+</script>

@@ -46,7 +46,7 @@ For the pieces you do read, the highlighter makes the reading stick. Select any 
 
 ## Getting started
 
-1. [Install the Chrome extension](/faq/how-do-i-install-the-chrome-extension) from the [Chrome Web Store](https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc) (rated 4.8) — Edge, Firefox, and Safari extensions exist too.
+1. [Install the Chrome extension](/faq/how-do-i-install-the-chrome-extension) from the [Chrome Web Store](https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc) — Edge, Firefox, and Safari extensions exist too.
 2. Sign up free at [app.marqly.com](https://app.marqly.com); no card required. The free tier covers the core save-summarize-search loop; Pro — $72 a year (about $6 a month billed annually) or $9 monthly, with a 3-day free trial — adds features like chatting with your saves.
 3. Import your existing list — Pocket exports, Raindrop.io collections, and browser bookmark HTML files all work — and let the AI tag the backlog.
 4. On the go, the [iOS app](/faq/is-there-an-ios-app) keeps the same library in your pocket, [synced through your account](/faq/can-i-sync-across-devices).

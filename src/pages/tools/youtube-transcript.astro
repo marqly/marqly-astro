@@ -1,7 +1,8 @@
 ---
 import LandingLayout from '../../layouts/LandingLayout.astro';
 import ToolShell from '../../components/seo/ToolShell.astro';
-import { breadcrumbList, faqPage, organization, webSite } from '../../lib/schema';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../lib/schema';
+import { alternatesForPath } from '../../i18n/routes';
 
 const title = 'Free YouTube Transcript Viewer — Copy Any Video Transcript';
 const description =
@@ -35,6 +36,11 @@ const jsonLd = [
     { name: 'YouTube transcript viewer', path: '/tools/youtube-transcript' },
   ]),
   faqPage(faqs),
+  freeWebApplication(
+    'YouTube transcript viewer',
+    'Get the full transcript of any YouTube video: paste a link, copy or download the text — free, no signup.',
+    '/tools/youtube-transcript',
+  ),
 ];
 ---
 
@@ -42,6 +48,7 @@ const jsonLd = [
   title={title}
   description={description}
   jsonLd={jsonLd}
+  alternates={alternatesForPath('/tools/youtube-transcript')}
   ogImage="https://www.marqly.com/og/seo/tool-youtube-transcript.png"
 >
   <ToolShell

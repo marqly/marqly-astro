@@ -19,7 +19,19 @@ export interface Props {
   ogImage?: string;
   ogType?: 'website' | 'article';
   jsonLd?: unknown[];
+  /** Page language — sets <html lang> and og:locale. */
+  lang?: string;
+  /** hreflang cluster from src/i18n/routes.ts (empty = no alternate links). */
+  alternates?: { hreflang: string; href: string }[];
+  /** og:locale override; defaults from `lang`. */
+  ogLocale?: string;
+  /** LinkHub is English-only today — localized pages hide it until it speaks their language. */
+  showLinkHub?: boolean;
 }
+
+const OG_LOCALES: Record<string, string> = {
+  en: 'en_US', es: 'es_LA', pt: 'pt_BR', de: 'de_DE', fr: 'fr_FR', it: 'it_IT',
+};
 
 const {
   title,
@@ -28,6 +40,10 @@ const {
   ogImage = 'https://www.marqly.com/og-default.png',
   ogType = 'website',
   jsonLd = [],
+  lang = 'en',
+  alternates = [],
+  ogLocale = OG_LOCALES[lang] ?? 'en_US',
+  showLinkHub = true,
 } = Astro.props;
 
 // build.format:'file' leaks ".html" into pathname during prerender — normalize
@@ -37,16 +53,20 @@ const canonicalURL = canonical ?? new URL(cleanPath, Astro.site).href;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={lang}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalURL} />
+    {alternates.map((a) => (
+      <link rel="alternate" hreflang={a.hreflang} href={a.href} />
+    ))}
     <meta name="robots" content="max-image-preview:large" />
     <meta name="theme-color" content="#ffffff" />
     <meta property="og:type" content={ogType} />
+    <meta property="og:locale" content={ogLocale} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalURL} />
@@ -104,9 +124,11 @@ const canonicalURL = canonical ?? new URL(cleanPath, Astro.site).href;
     <main id="main">
       <slot />
     </main>
-    <div class="linkhub-compat">
-      <LinkHub />
-    </div>
+    {showLinkHub && (
+      <div class="linkhub-compat">
+        <LinkHub />
+      </div>
+    )}
     <FooterV2 />
 
     <GoogleOneTap />

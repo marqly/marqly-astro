@@ -48,7 +48,7 @@ Boards let you group links and highlights, so "ECON 201," "Dissertation," and "I
 
 ## Getting started
 
-1. **Install the extension.** Marqly runs in Chrome, Edge, Firefox, and Safari, and the Chrome extension is rated 4.8 on the Web Store. There's also an iOS app for saving from your phone.
+1. **Install the extension.** Marqly runs in Chrome, Edge, Firefox, and Safari. There's also an iOS app for saving from your phone.
 2. **Import what you already have.** Every browser exports bookmarks as an HTML file, and Marqly imports that format directly — along with Pocket exports and Raindrop.io collections if you used those.
 3. **Let AI tag the backlog.** Every import and every new save gets tagged automatically. The pile of bookmarks from three semesters becomes an organized, searchable library without an afternoon of manual filing.
 

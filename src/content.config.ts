@@ -9,7 +9,9 @@ import { z } from 'astro/zod';
  * keeping structured data identical to on-page content (Google's requirement).
  */
 const blog = defineCollection({
-  loader: glob({ pattern: '*.{md,mdx}', base: './src/content/blog' }),
+  // Recursive: locale posts live in subfolders (src/content/blog/de/…) and get
+  // ids like `de/<slug>`. English stays flat. Every consumer filters by `lang`.
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/blog' }),
   schema: ({ image }) =>
     z.object({
       title: z.string(),

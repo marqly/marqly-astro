@@ -22,7 +22,7 @@ faqs:
     a: "Pocket war eine „Später lesen“-App: Sie speicherte Artikel in einen sauberen, ablenkungsfreien Lesemodus statt nur Links abzulegen. Die besten Alternativen 2026 behalten dieses Leseerlebnis und ergänzen es um KI-Zusammenfassungen und semantische Suche."
   - q: "Worauf kommt es bei einer Pocket-Alternative 2026 wirklich an?"
     a: "Das Speichern war nie das Problem – das Wiederfinden ist es. Die meisten haben hunderte gespeicherte Links, die sie nie wieder ansehen, weil Stichwortsuche und Ordner nicht skalieren. Deshalb gewinnen 2026 Tools mit KI-Suche: Du erinnerst dich an ein Konzept, und das Tool findet die Speicherung."
-heroImage: ../../assets/blog/pocket-alternativen-2026.png
+heroImage: ../../../assets/blog/pocket-alternativen-2026.png
 heroAlt: "Die 8 besten Pocket-Alternativen 2026 (nachdem Mozilla es eingestellt hat) — illustration"
 ogImage: "https://www.marqly.com/og/pocket-alternativen-2026.png"
 ---

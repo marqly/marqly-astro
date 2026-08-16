@@ -6,12 +6,14 @@ interface Props {
   sub?: string;
   ctaUrl?: string;
   ctaLabel?: string;
+  secondaryLabel?: string;
 }
 const {
   heading = 'Save once. Find it instantly.',
   sub = 'Marqly tags and summarizes everything you save, then finds it again when you describe it. Free to start — no card required.',
   ctaUrl = 'https://app.marqly.com',
   ctaLabel = 'Try Marqly free',
+  secondaryLabel = 'Add to Chrome',
 } = Astro.props;
 ---
 
@@ -20,7 +22,7 @@ const {
   <p>{sub}</p>
   <div class="cta-actions">
     <a class="btn btn--primary btn--lg" href={ctaUrl}>{ctaLabel} <span class="arrow">→</span></a>
-    <a class="btn btn--outline btn--lg" href={CHROME_STORE_URL} target="_blank" rel="noopener">Add to Chrome</a>
+    <a class="btn btn--outline btn--lg" href={CHROME_STORE_URL} target="_blank" rel="noopener">{secondaryLabel}</a>
   </div>
 </aside>
 

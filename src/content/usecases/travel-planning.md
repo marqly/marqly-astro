@@ -43,7 +43,7 @@ Transcripts matter more for travel than you'd expect, because so much destinatio
 ## Getting started
 
 1. Sign up free at [app.marqly.com](https://app.marqly.com) — no card required.
-2. Install the browser extension. The [Chrome extension](https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc) is rated 4.8 on the Chrome Web Store, and Edge, Firefox, and Safari are supported too.
+2. Install the browser extension. The [Chrome extension](https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc) installs in one click, and Edge, Firefox, and Safari are supported too.
 3. Create a board for your next trip and start saving as you research.
 4. For planning on the go, grab the [iOS app](/faq/is-there-an-ios-app) — everything [syncs across your devices](/faq/can-i-sync-across-devices) through your account. There's no Android app, but the web app [works in Android browsers](/faq/is-there-an-android-app).
 

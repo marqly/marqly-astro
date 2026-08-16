@@ -1,0 +1,189 @@
+---
+import LandingLayout from '../../../layouts/LandingLayout.astro';
+import ToolShell from '../../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../../lib/schema';
+import { alternatesForPath } from '../../../i18n/routes';
+
+const path = '/de/tools/youtube-transkript';
+const title = 'YouTube-Transkript erstellen – Untertitel als Text kopieren | Marqly';
+const description =
+  'YouTube-Link einfügen und das komplette Transkript als Text bekommen – kostenlos, ohne Anmeldung. Kopieren oder als .txt herunterladen, mit oder ohne Zeitstempel.';
+
+const faqs = [
+  {
+    q: 'Wie erstelle ich ein Transkript von einem YouTube-Video?',
+    a: 'Füge die Video-URL oben ein: Das Tool holt die Untertitelspur, die YouTube für das Video bereits hat. Du kannst das komplette Transkript kopieren oder als Textdatei herunterladen. Wer das Transkript bei jedem Video will, ohne YouTube zu verlassen: Die Marqly-Erweiterung blendet einen synchronisierten Transkript-Tab direkt auf der Watch-Seite ein.',
+  },
+  {
+    q: 'Warum werden keine Untertitel gefunden?',
+    a: 'Manche Uploader deaktivieren Untertitel, und sehr neue Videos haben manchmal noch keine automatischen Untertitel. Zeigt YouTube Untertitel an, aber das Tool schlägt fehl, drosselt YouTube womöglich gerade unseren Server – die Marqly-Erweiterung liest Untertitel direkt in deinem Browser und umgeht das komplett.',
+  },
+  {
+    q: 'Funktioniert das mit automatisch erzeugten Untertiteln?',
+    a: 'Ja. Hat der Uploader manuelle Untertitel hochgeladen, bevorzugen wir diese; sonst nimmt das Tool die automatische Spur von YouTube. Automatische Untertitel verhören sich gelegentlich – prüfe Namen und Fachbegriffe gegen das Video.',
+  },
+  {
+    q: 'Kann ich YouTube-Untertitel herunterladen?',
+    a: 'Ja – genau das macht der „.txt herunterladen“-Button: die komplette Untertitelspur als Textdatei, wahlweise mit Zeitstempeln. YouTube selbst bietet keinen Transkript-Download an; dieses Tool erledigt es in einem Klick, kostenlos.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite('de'),
+  breadcrumbList([
+    { name: 'Startseite', path: '/' },
+    { name: 'YouTube-Transkript', path },
+  ]),
+  faqPage(faqs, 'de'),
+  freeWebApplication(
+    'YouTube-Transkript',
+    'Erstelle das komplette Transkript jedes YouTube-Videos als Text – kostenlos, online, ohne Anmeldung.',
+    path,
+    'de',
+  ),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  lang="de"
+  alternates={alternatesForPath(path)}
+  showLinkHub={false}
+>
+  <ToolShell
+    name="YouTube-Transkript"
+    heading="YouTube-Transkript in einem Klick"
+    sub="Link einfügen, kompletten Text des Videos bekommen. Kostenlos, ohne Anmeldung. Kopieren oder als Textdatei herunterladen."
+    faqs={faqs}
+    faqHeading="Häufige Fragen"
+    crumbs={[
+      { name: 'Startseite', path: '/' },
+      { name: 'YouTube-Transkript', path },
+    ]}
+    ctaHeading="Das Transkript bei jedem Video – automatisch?"
+    ctaSub="Die Marqly-Erweiterung ergänzt jeden YouTube-Player um einen Transkript-Tab – plus KI-Zusammenfassung und Chat. Kostenlos installieren."
+    ctaLabel="Marqly kostenlos testen"
+    ctaSecondaryLabel="Zu Chrome hinzufügen"
+    backHref={null}
+  >
+    <form id="yt-form">
+      <div class="tool-row">
+        <div class="grow">
+          <label for="yt-url">YouTube-Video-URL</label>
+          <input id="yt-url" type="url" placeholder="https://www.youtube.com/watch?v=…" required />
+        </div>
+        <button class="btn btn--primary" type="submit">Transkript erstellen</button>
+      </div>
+      <p class="tool-status" id="yt-status" role="status"></p>
+    </form>
+    <div class="tool-actions hidden" id="yt-actions">
+      <button class="btn btn--outline btn--sm" id="yt-copy" type="button">Transkript kopieren</button>
+      <button class="btn btn--outline btn--sm" id="yt-download" type="button">.txt herunterladen</button>
+      <label style="display:inline-flex;align-items:center;gap:.4rem;margin:0;font-weight:400;">
+        <input type="checkbox" id="yt-stamps" checked style="width:auto;" /> Zeitstempel
+      </label>
+    </div>
+    <div class="tool-output hidden" id="yt-out" aria-live="polite"></div>
+
+    <Fragment slot="content">
+      <h2>So kommst du an das Transkript eines YouTube-Videos</h2>
+      <ol>
+        <li>Kopiere die Video-URL aus der Adressleiste oder über den Teilen-Button.</li>
+        <li>Füge sie oben ein und klicke auf <strong>Transkript erstellen</strong>.</li>
+        <li>Kopiere den Text oder lade ihn als <code>.txt</code> herunter – mit oder ohne Zeitstempel.</li>
+      </ol>
+      <p>
+        Das Tool liest die Untertitelspur, die YouTube für das Video bereits erzeugt hat –
+        dieselben Daten wie im „Transkript anzeigen“-Panel von YouTube, nur ohne Klicken,
+        Scrollen und zeilenweises Kopieren. Es funktioniert mit manuellen und automatischen
+        Untertiteln, in der Sprache, die der Uploader bereitgestellt hat.
+      </p>
+
+      <h2>Wofür Leute Transkripte nutzen</h2>
+      <ul>
+        <li><strong>Querlesen statt anschauen</strong> – ein 40-Minuten-Talk ist in 4 Minuten gelesen.</li>
+        <li><strong>Exakt zitieren</strong> – den genauen Wortlaut für Notizen, Hausarbeiten oder Artikel übernehmen.</li>
+        <li><strong>Lernen</strong> – in der Vorlesungsaufzeichnung nach dem Begriff suchen statt blind zu spulen.</li>
+        <li><strong>Mit KI weiterverarbeiten</strong> – das Transkript in einen Chatbot einfügen und dem Video Fragen stellen, oder es direkt durch unsere <a href="/de/tools/youtube-zusammenfassung">YouTube-Zusammenfassung</a> jagen und nur die Kernpunkte behalten.</li>
+      </ul>
+
+      <h2>Der schnellere Weg: das Transkript direkt auf der Watch-Seite</h2>
+      <p>
+        Wer das öfter als gelegentlich macht, hat das Copy-Paste-Ritual schnell satt. Die
+        Marqly-Erweiterung ergänzt jedes YouTube-Video um eine KI-Karte mit
+        wiedergabesynchronisiertem Transkript (Kopieren mit einem Klick), einer streamenden
+        KI-Zusammenfassung und einem Chat, der Fragen aus dem Transkript beantwortet. Beim
+        Speichern bleibt das Transkript am Video – so findest du „das Video, in dem er
+        ETF-Sparpläne mit den Eimern erklärt“ auch Monate später wieder.
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const form = document.getElementById('yt-form') as HTMLFormElement;
+  const input = document.getElementById('yt-url') as HTMLInputElement;
+  const status = document.getElementById('yt-status')!;
+  const out = document.getElementById('yt-out')!;
+  const actions = document.getElementById('yt-actions')!;
+  const stamps = document.getElementById('yt-stamps') as HTMLInputElement;
+
+  let segments: { start: number; text: string }[] = [];
+  let videoTitle = 'transkript';
+
+  const fmt = (s: number) =>
+    `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
+
+  const renderText = (withStamps: boolean) =>
+    segments.map((s) => (withStamps ? `[${fmt(s.start)}] ${s.text}` : s.text)).join('\n');
+
+  const render = () => {
+    out.textContent = renderText(stamps.checked);
+  };
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    status.textContent = 'Transkript wird geladen…';
+    status.classList.remove('is-error');
+    out.classList.add('hidden');
+    actions.classList.add('hidden');
+    try {
+      const res = await fetch(`/api/youtube-transcript?v=${encodeURIComponent(input.value)}`);
+      const data = await res.json() as {
+        error?: string;
+        title: string;
+        auto?: boolean;
+        segments: { start: number; text: string }[];
+      };
+      if (!res.ok) throw new Error(data.error ?? 'Etwas ist schiefgelaufen.');
+      segments = data.segments;
+      videoTitle = data.title ?? 'transkript';
+      status.textContent = `${data.title}${data.auto ? ' (automatische Untertitel)' : ''} — ${segments.length} Zeilen`;
+      render();
+      out.classList.remove('hidden');
+      actions.classList.remove('hidden');
+    } catch (err) {
+      status.textContent = err instanceof Error ? err.message : 'Etwas ist schiefgelaufen.';
+      status.classList.add('is-error');
+    }
+  });
+
+  stamps.addEventListener('change', render);
+
+  document.getElementById('yt-copy')!.addEventListener('click', async () => {
+    await navigator.clipboard.writeText(renderText(stamps.checked));
+    status.textContent = 'In die Zwischenablage kopiert.';
+  });
+
+  document.getElementById('yt-download')!.addEventListener('click', () => {
+    const blob = new Blob([renderText(stamps.checked)], { type: 'text/plain' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = `${videoTitle.replace(/[^\w\s-]/g, '').slice(0, 60) || 'transkript'}.txt`;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  });
+</script>

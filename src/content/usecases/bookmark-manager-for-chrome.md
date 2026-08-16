@@ -7,7 +7,7 @@ targetKeyword: "bookmark manager for chrome"
 navLabel: "Chrome"
 hero:
   heading: "Chrome bookmarks that find themselves"
-  subheading: "Marqly is an AI bookmark manager built as a Chrome extension: one-click save, automatic tagging and summaries, and search that works by meaning — rated 4.8 on the Chrome Web Store."
+  subheading: "Marqly is an AI bookmark manager built as a Chrome extension: one-click save, automatic tagging and summaries, and search that works by meaning — free to install from the Chrome Web Store."
 updatedDate: 2026-08-02
 faqs:
   - q: "Is Marqly free on the Chrome Web Store?"
@@ -18,7 +18,7 @@ faqs:
     a: "It runs alongside it — Chrome's star button and bookmarks bar keep working exactly as before. The difference is where saves live: Marqly saves go to your Marqly account, so they get AI tags, summaries, and semantic search, and they're reachable from Edge, Firefox, Safari, the web app, and the iOS app rather than being locked to your Chrome profile."
 ---
 
-Chrome's built-in bookmark manager has barely changed in a decade: a star, a folder tree, and a search box that only matches titles and URLs. That's fine for 20 links. It fails completely at 2,000, which is roughly where every long-time Chrome user ends up. Marqly is an AI bookmark manager delivered as a Chrome extension — rated 4.8 on the [Chrome Web Store](https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc) — that replaces filing with automatic AI tagging and replaces title search with semantic search that finds saves by what you remember about them.
+Chrome's built-in bookmark manager has barely changed in a decade: a star, a folder tree, and a search box that only matches titles and URLs. That's fine for 20 links. It fails completely at 2,000, which is roughly where every long-time Chrome user ends up. Marqly is an AI bookmark manager delivered as a Chrome extension — free to install from the [Chrome Web Store](https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc) — that replaces filing with automatic AI tagging and replaces title search with semantic search that finds saves by what you remember about them.
 
 ## Where Chrome's built-in bookmarks stop
 

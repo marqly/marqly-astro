@@ -15,9 +15,30 @@ interface Props {
   faqs?: { q: string; a: string }[];
   ctaHeading?: string;
   ctaSub?: string;
+  ctaLabel?: string;
+  ctaSecondaryLabel?: string;
+  /** Localized pages override the default English chrome. */
+  crumbs?: { name: string; path: string }[];
+  faqHeading?: string;
+  /** null hides the back link (locale trees without a tools hub yet). */
+  backHref?: string | null;
+  backLabel?: string;
 }
-const { name, heading, sub, faqs = [], ctaHeading, ctaSub } = Astro.props;
-const crumbs = [
+const {
+  name,
+  heading,
+  sub,
+  faqs = [],
+  ctaHeading,
+  ctaSub,
+  ctaLabel,
+  ctaSecondaryLabel,
+  crumbs: crumbsProp,
+  faqHeading = 'Frequently asked questions',
+  backHref = '/tools',
+  backLabel = '← All free tools',
+} = Astro.props;
+const crumbs = crumbsProp ?? [
   { name: 'Home', path: '/' },
   { name: 'Free tools', path: '/tools' },
   { name, path: Astro.url.pathname.replace(/\.html$/, '').replace(/\/$/, '') },
@@ -44,13 +65,15 @@ const crumbs = [
 
     {faqs.length > 0 && (
       <div class="faq-wrap">
-        <FaqAccordion faqs={faqs} heading="Frequently asked questions" />
+        <FaqAccordion faqs={faqs} heading={faqHeading} />
       </div>
     )}
 
-    <CtaBox heading={ctaHeading} sub={ctaSub} />
+    <CtaBox heading={ctaHeading} sub={ctaSub} ctaLabel={ctaLabel} secondaryLabel={ctaSecondaryLabel} />
 
-    <p class="all-tools"><a href="/tools">← All free tools</a></p>
+    {backHref && (
+      <p class="all-tools"><a href={backHref}>{backLabel}</a></p>
+    )}
   </div>
 </section>
 

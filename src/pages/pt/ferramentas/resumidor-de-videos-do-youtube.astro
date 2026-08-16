@@ -1,0 +1,160 @@
+---
+import LandingLayout from '../../../layouts/LandingLayout.astro';
+import ToolShell from '../../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../../lib/schema';
+import { alternatesForPath } from '../../../i18n/routes';
+
+const path = '/pt/ferramentas/resumidor-de-videos-do-youtube';
+const title = 'Resumidor de Vídeos do YouTube com IA — Grátis e em Português | Marqly';
+const description =
+  'Cole o link de um vídeo do YouTube e receba um resumo com IA em texto: TL;DR e pontos principais, grátis e sem cadastro. Baseado na transcrição real do vídeo.';
+
+const faqs = [
+  {
+    q: 'Como funciona o resumidor de vídeos do YouTube?',
+    a: 'A ferramenta busca a transcrição do vídeo (as legendas que o YouTube já tem) e um modelo de IA condensa tudo em um resumo curto com os pontos principais. O resumo vem do que foi realmente dito no vídeo, não do que o título promete.',
+  },
+  {
+    q: 'Funciona com vídeo sem legenda?',
+    a: 'Não. Se o vídeo está com as legendas desativadas, não existe transcrição para resumir. A maioria dos vídeos do YouTube tem pelo menos legendas automáticas, e com elas funciona normalmente.',
+  },
+  {
+    q: 'É melhor do que colar a transcrição no ChatGPT ou no Gemini?',
+    a: 'É o mesmo resultado sem o trabalho: aqui você não precisa abrir a transcrição, copiar linha por linha e montar o prompt. Cola o link, recebe o resumo. E na extensão do Marqly o resumo aparece sozinho, do lado do player, em todo vídeo que você abrir.',
+  },
+  {
+    q: 'É grátis mesmo?',
+    a: 'Sim — sem cadastro e sem pegadinha. É uma amostra do que a extensão do Marqly faz automaticamente em cada vídeo do YouTube: resumo na hora, seções principais, transcrição sincronizada e chat com o vídeo.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite('pt'),
+  breadcrumbList([
+    { name: 'Início', path: '/' },
+    { name: 'Resumidor de vídeos do YouTube', path },
+  ]),
+  faqPage(faqs, 'pt'),
+  freeWebApplication(
+    'Resumidor de vídeos do YouTube',
+    'Resuma qualquer vídeo do YouTube com IA: cole o link e receba um TL;DR com os pontos principais, grátis e sem cadastro.',
+    path,
+    'pt',
+  ),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  lang="pt"
+  alternates={alternatesForPath(path)}
+  showLinkHub={false}
+>
+  <ToolShell
+    name="Resumidor de vídeos do YouTube"
+    heading="Resuma qualquer vídeo do YouTube com IA em segundos"
+    sub="Cole o link e receba um resumo em texto com os pontos principais. Grátis, sem cadastro — direto da transcrição real do vídeo."
+    faqs={faqs}
+    faqHeading="Perguntas frequentes"
+    crumbs={[
+      { name: 'Início', path: '/' },
+      { name: 'Resumidor de vídeos do YouTube', path },
+    ]}
+    ctaHeading="Resumo em todo vídeo, sem copiar e colar"
+    ctaSub="A extensão do Marqly coloca um resumo com IA, seções principais, transcrição e chat do lado do player em todo vídeo do YouTube."
+    ctaLabel="Teste o Marqly grátis"
+    ctaSecondaryLabel="Adicionar ao Chrome"
+    backHref={null}
+  >
+    <form id="ys-form">
+      <div class="tool-row">
+        <div class="grow">
+          <label for="ys-url">URL do vídeo do YouTube</label>
+          <input id="ys-url" type="url" placeholder="https://www.youtube.com/watch?v=…" required />
+        </div>
+        <button class="btn btn--primary" type="submit">Resumir</button>
+      </div>
+      <p class="tool-status" id="ys-status" role="status"></p>
+    </form>
+    <div class="tool-output hidden" id="ys-out" aria-live="polite"></div>
+
+    <Fragment slot="content">
+      <h2>Como resumir um vídeo do YouTube</h2>
+      <ol>
+        <li>Cole a URL do vídeo acima e clique em <strong>Resumir</strong>.</li>
+        <li>A ferramenta busca a transcrição do vídeo e condensa com IA.</li>
+        <li>Leia o TL;DR e os pontos principais — normalmente em menos de 30 segundos.</li>
+      </ol>
+      <p>
+        O resumo é gerado a partir das legendas do vídeo, então ele reflete o que o criador
+        realmente falou. Essa é a diferença entre um resumo de verdade e um chute baseado no
+        título e na thumbnail — e é por isso que vídeos com legendas desativadas não podem ser
+        resumidos.
+      </p>
+
+      <h2>Quando o resumo vale mais que o vídeo inteiro</h2>
+      <ul>
+        <li><strong>Para estudar</strong> — transforme uma videoaula de uma hora em anotações para revisar antes da prova ou do concurso.</li>
+        <li><strong>Podcasts e palestras longas</strong> — fique com o argumento sem investir os 90 minutos.</li>
+        <li><strong>Tutoriais</strong> — confirme que o vídeo cobre o seu problema antes de assistir.</li>
+        <li><strong>Sua lista de "assistir mais tarde"</strong> — decida em segundos quais vídeos merecem sua atenção.</li>
+      </ul>
+      <p>
+        Precisa do texto completo em vez do resumo? Use a
+        <a href="/pt/ferramentas/transcricao-de-video-do-youtube">transcrição de vídeo do YouTube</a>,
+        também grátis. E se você resume vídeos todo dia, faça isso onde os vídeos estão: a
+        extensão do Marqly mostra o resumo do lado do player assim que você abre um vídeo, com
+        seções principais, transcrição sincronizada e um chat que responde perguntas usando a
+        transcrição inteira. Os vídeos que você salva ficam com a transcrição anexada — dá para
+        achar e citar meses depois.
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const form = document.getElementById('ys-form') as HTMLFormElement;
+  const input = document.getElementById('ys-url') as HTMLInputElement;
+  const status = document.getElementById('ys-status')!;
+  const out = document.getElementById('ys-out')!;
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    out.classList.add('hidden');
+    status.classList.remove('is-error');
+    try {
+      status.textContent = 'Buscando a transcrição…';
+      const tRes = await fetch(`/api/youtube-transcript?v=${encodeURIComponent(input.value)}`);
+      const tData = await tRes.json() as {
+        error?: string;
+        title: string;
+        segments: { text: string }[];
+      };
+      if (!tRes.ok) throw new Error(tData.error ?? 'Não foi possível obter a transcrição.');
+
+      status.textContent = `Resumindo "${tData.title}"…`;
+      const text = tData.segments.map((s: { text: string }) => s.text).join(' ');
+      const sRes = await fetch('/api/summarize', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ text, title: tData.title, lang: 'pt' }),
+      });
+      const sData = await sRes.json() as {
+        error?: string;
+        summary: string;
+        truncated?: boolean;
+      };
+      if (!sRes.ok) throw new Error(sData.error ?? 'O resumo falhou.');
+
+      status.textContent = tData.title;
+      out.textContent = sData.summary + (sData.truncated ? '\n\n(Vídeo longo — o resumo cobre a primeira parte da transcrição.)' : '');
+      out.classList.remove('hidden');
+    } catch (err) {
+      status.textContent = err instanceof Error ? err.message : 'Algo deu errado.';
+      status.classList.add('is-error');
+    }
+  });
+</script>

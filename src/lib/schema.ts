@@ -31,12 +31,13 @@ export function organization() {
   };
 }
 
-export function webSite() {
+export function webSite(lang = 'en') {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Marqly',
     url: SITE,
+    inLanguage: lang,
   };
 }
 
@@ -85,10 +86,11 @@ export function breadcrumbList(items: { name: string; path: string }[]) {
   };
 }
 
-export function faqPage(faqs: { q: string; a: string }[]) {
+export function faqPage(faqs: { q: string; a: string }[], lang = 'en') {
   return {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
+    inLanguage: lang,
     mainEntity: faqs.map((f) => ({
       '@type': 'Question',
       name: f.q,
@@ -128,13 +130,14 @@ export function itemList(
   };
 }
 
-export function freeWebApplication(name: string, description: string, path: string) {
+export function freeWebApplication(name: string, description: string, path: string, lang = 'en') {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebApplication',
     name,
     description,
     url: `${SITE}${path}`,
+    inLanguage: lang,
     applicationCategory: 'UtilitiesApplication',
     operatingSystem: 'Any',
     browserRequirements: 'Requires JavaScript and a modern web browser',

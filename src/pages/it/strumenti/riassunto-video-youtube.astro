@@ -1,0 +1,160 @@
+---
+import LandingLayout from '../../../layouts/LandingLayout.astro';
+import ToolShell from '../../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../../lib/schema';
+import { alternatesForPath } from '../../../i18n/routes';
+
+const path = '/it/strumenti/riassunto-video-youtube';
+const title = 'Riassunto Video YouTube con AI — Gratis e Senza Registrazione | Marqly';
+const description =
+  'Incolla il link di un video di YouTube e ricevi un riassunto con AI in testo: sintesi e punti chiave, gratis e senza registrazione. Basato sulla vera trascrizione del video.';
+
+const faqs = [
+  {
+    q: 'Come funziona il riassunto dei video di YouTube?',
+    a: 'Lo strumento recupera la trascrizione del video (i sottotitoli che YouTube ha già) e un modello di intelligenza artificiale la condensa in un riassunto breve con i punti chiave. Il riassunto si basa su quello che è stato davvero detto nel video, non su quello che promette il titolo.',
+  },
+  {
+    q: 'Funziona con i video senza sottotitoli?',
+    a: 'No. Se il video ha i sottotitoli disattivati, non c’è una trascrizione da riassumere. La maggior parte dei video di YouTube ha almeno i sottotitoli automatici, e con quelli funziona senza problemi.',
+  },
+  {
+    q: 'È meglio che incollare la trascrizione in ChatGPT?',
+    a: 'È lo stesso risultato senza la fatica: qui non devi aprire la trascrizione, copiarla riga per riga e scrivere il prompt. Incolli il link, leggi il riassunto. E con l’estensione Marqly il riassunto compare da solo, accanto al player, su ogni video che apri.',
+  },
+  {
+    q: 'È davvero gratis?',
+    a: 'Sì — senza registrazione e senza limiti nascosti. È un assaggio di quello che l’estensione Marqly fa in automatico su ogni video di YouTube: riassunto istantaneo, sezioni chiave, trascrizione sincronizzata e chat con il video.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite('it'),
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: 'Riassunto video YouTube', path },
+  ]),
+  faqPage(faqs, 'it'),
+  freeWebApplication(
+    'Riassunto video YouTube',
+    'Riassumi qualsiasi video di YouTube con AI: incolla il link e ricevi una sintesi con i punti chiave, gratis e senza registrazione.',
+    path,
+    'it',
+  ),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  lang="it"
+  alternates={alternatesForPath(path)}
+  showLinkHub={false}
+>
+  <ToolShell
+    name="Riassunto video YouTube"
+    heading="Riassumi qualsiasi video di YouTube in pochi secondi"
+    sub="Incolla il link e ricevi un riassunto in testo con i punti chiave. Gratis, senza registrazione — dalla vera trascrizione del video."
+    faqs={faqs}
+    faqHeading="Domande frequenti"
+    crumbs={[
+      { name: 'Home', path: '/' },
+      { name: 'Riassunto video YouTube', path },
+    ]}
+    ctaHeading="Il riassunto su ogni video, senza copia e incolla"
+    ctaSub="L'estensione Marqly mostra riassunto AI, sezioni chiave, trascrizione e chat accanto al player, su ogni video di YouTube."
+    ctaLabel="Prova Marqly gratis"
+    ctaSecondaryLabel="Aggiungi a Chrome"
+    backHref={null}
+  >
+    <form id="ys-form">
+      <div class="tool-row">
+        <div class="grow">
+          <label for="ys-url">URL del video di YouTube</label>
+          <input id="ys-url" type="url" placeholder="https://www.youtube.com/watch?v=…" required />
+        </div>
+        <button class="btn btn--primary" type="submit">Riassumi</button>
+      </div>
+      <p class="tool-status" id="ys-status" role="status"></p>
+    </form>
+    <div class="tool-output hidden" id="ys-out" aria-live="polite"></div>
+
+    <Fragment slot="content">
+      <h2>Come riassumere un video di YouTube</h2>
+      <ol>
+        <li>Incolla l'URL del video qui sopra e premi <strong>Riassumi</strong>.</li>
+        <li>Lo strumento recupera la trascrizione del video e la condensa con l'AI.</li>
+        <li>Leggi la sintesi e i punti chiave — di solito in meno di 30 secondi.</li>
+      </ol>
+      <p>
+        Il riassunto viene generato dai sottotitoli del video, quindi riflette quello che il
+        creator ha detto davvero. È la differenza tra un riassunto vero e una supposizione
+        basata su titolo e miniatura — ed è il motivo per cui i video con i sottotitoli
+        disattivati non si possono riassumere.
+      </p>
+
+      <h2>Quando il riassunto batte il video intero</h2>
+      <ul>
+        <li><strong>Per studiare</strong> — trasforma una videolezione di un'ora in appunti da ripassare prima dell'esame o della maturità.</li>
+        <li><strong>Podcast e conferenze lunghe</strong> — prendi l'argomento senza investire i 90 minuti.</li>
+        <li><strong>Tutorial</strong> — verifica che il video copra davvero il tuo problema prima di guardarlo.</li>
+        <li><strong>La lista "guarda più tardi"</strong> — decidi in pochi secondi quali video meritano la tua attenzione.</li>
+      </ul>
+      <p>
+        Ti serve il testo completo invece del riassunto? Usa la
+        <a href="/it/strumenti/trascrizione-video-youtube">trascrizione dei video di YouTube</a>,
+        anche quella gratis. E se riassumi video tutti i giorni, fallo dove stanno i video:
+        l'estensione Marqly mostra il riassunto accanto al player appena apri un video, con le
+        sezioni chiave, la trascrizione sincronizzata e una chat che risponde alle domande
+        usando l'intera trascrizione. I video che salvi conservano la trascrizione — così li
+        ritrovi e li citi anche mesi dopo.
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const form = document.getElementById('ys-form') as HTMLFormElement;
+  const input = document.getElementById('ys-url') as HTMLInputElement;
+  const status = document.getElementById('ys-status')!;
+  const out = document.getElementById('ys-out')!;
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    out.classList.add('hidden');
+    status.classList.remove('is-error');
+    try {
+      status.textContent = 'Recupero della trascrizione…';
+      const tRes = await fetch(`/api/youtube-transcript?v=${encodeURIComponent(input.value)}`);
+      const tData = await tRes.json() as {
+        error?: string;
+        title: string;
+        segments: { text: string }[];
+      };
+      if (!tRes.ok) throw new Error(tData.error ?? 'Impossibile recuperare la trascrizione.');
+
+      status.textContent = `Sto riassumendo "${tData.title}"…`;
+      const text = tData.segments.map((s: { text: string }) => s.text).join(' ');
+      const sRes = await fetch('/api/summarize', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ text, title: tData.title, lang: 'it' }),
+      });
+      const sData = await sRes.json() as {
+        error?: string;
+        summary: string;
+        truncated?: boolean;
+      };
+      if (!sRes.ok) throw new Error(sData.error ?? 'Riassunto non riuscito.');
+
+      status.textContent = tData.title;
+      out.textContent = sData.summary + (sData.truncated ? '\n\n(Video lungo — il riassunto copre la prima parte della trascrizione.)' : '');
+      out.classList.remove('hidden');
+    } catch (err) {
+      status.textContent = err instanceof Error ? err.message : 'Qualcosa è andato storto.';
+      status.classList.add('is-error');
+    }
+  });
+</script>

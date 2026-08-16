@@ -27,4 +27,4 @@ Everything you save is private by default. The one deliberate exception: if you 
 
 ## Judge the track record
 
-Marqly holds a 4.8-star rating on the Chrome Web Store, where reviews are public and unfiltered — a decent proxy for whether an extension behaves well. For an outside perspective on the product as a whole, the [Marqly review for 2026](/blog/marqly-review-2026) covers strengths and weaknesses candidly.
+Marqly's reviews on the Chrome Web Store are public and unfiltered — a decent proxy for whether an extension behaves well. For an outside perspective on the product as a whole, the [Marqly review for 2026](/blog/marqly-review-2026) covers strengths and weaknesses candidly.

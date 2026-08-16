@@ -38,7 +38,7 @@ The practical rhythm most people settle into: bulk capture and highlighting on t
 
 ## One library across iPhone, Mac, and any browser
 
-The iOS app is one door into an account-wide library, not a silo. Sign in once, and everything [syncs across your devices](/faq/can-i-sync-across-devices): saves made in Chrome, Edge, or Firefox at work appear on your iPhone; on your Mac, the Safari extension covers Apple's own browser; on any machine, the web app fills the gaps. The rating history backs the desktop half of the pairing up — the extension holds a 4.8 on the Chrome Web Store — and the same account spans all of it, so there's never a "which app has my stuff" question.
+The iOS app is one door into an account-wide library, not a silo. Sign in once, and everything [syncs across your devices](/faq/can-i-sync-across-devices): saves made in Chrome, Edge, or Firefox at work appear on your iPhone; on your Mac, the Safari extension covers Apple's own browser; on any machine, the web app fills the gaps. The same account spans all of it, so there's never a "which app has my stuff" question.
 
 Worth stating plainly, because Apple users often share households with Android users: there is [no Android app](/faq/is-there-an-android-app). The web app works in Android browsers, so an Android phone can reach the same library — but the native mobile experience is iOS only today.
 

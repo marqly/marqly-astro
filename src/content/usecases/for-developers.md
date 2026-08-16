@@ -46,7 +46,7 @@ On Pro, chat extends to your whole library: "which of my saves covered zero-down
 
 ## Getting started
 
-1. **Install the extension.** Chrome, Edge, Firefox, and Safari are covered; the Chrome extension holds a 4.8 rating on the Web Store. Signup at [app.marqly.com](https://app.marqly.com) is free, no card.
+1. **Install the extension.** Chrome, Edge, Firefox, and Safari are covered. Signup at [app.marqly.com](https://app.marqly.com) is free, no card.
 2. **Import your existing bookmarks.** Export the browser's bookmark HTML file (all four major browsers produce the same format) and feed it in — Pocket and Raindrop.io imports work too.
 3. **Let auto-tagging chew through the backlog.** Years of accumulated links come out the other side tagged and semantically searchable. From then on, saving is one click and organization is nobody's job.
 

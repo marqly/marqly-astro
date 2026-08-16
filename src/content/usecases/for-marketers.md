@@ -44,7 +44,7 @@ Video research fits the same pipeline. Competitor product demos, conference talk
 
 ## Getting started
 
-1. **Install the extension** for Chrome, Edge, Firefox, or Safari — the Chrome listing sits at 4.8 stars — and create a free account at [app.marqly.com](https://app.marqly.com); no card required.
+1. **Install the extension** for Chrome, Edge, Firefox, or Safari, and create a free account at [app.marqly.com](https://app.marqly.com); no card required.
 2. **Import the material you've been stockpiling.** Browser bookmark HTML exports, Pocket archives, and Raindrop.io collections all import directly, including that 400-link "inspo" folder.
 3. **Let AI tag the lot.** Auto-tagging processes the import and every save thereafter, so the swipe file arrives organized and stays that way through launch weeks.
 

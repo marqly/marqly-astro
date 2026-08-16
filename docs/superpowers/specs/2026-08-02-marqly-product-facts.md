@@ -20,13 +20,14 @@ remember — **semantic search by meaning, not keywords**.
 - Support: support@marqly.com
 - Company line: "© Marqly Labs"
 
-## Pricing (verified 2026-06-19)
+## Pricing (updated 2026-08-16 from the shipped site; Stripe parity still unverified)
 
 - **Free tier**: exists; no card required to sign up.
-- **Pro**: $48/year (≈ $4/month billed annually) or $8/month billed monthly.
+- **Pro**: $72/year (≈ $6/month billed annually) or $9/month billed monthly.
 - **3-day free trial** of Pro.
-- NO lifetime deal. NO published student discount. Don't invent quota numbers
-  for the free tier (saves/summaries limits are NOT published — never state one).
+- **Student discount**: $48 for the first year, for verified students.
+- NO lifetime deal. Don't invent quota numbers for the free tier
+  (saves/summaries limits are NOT published — never state one).
 
 ## Platforms
 
@@ -80,9 +81,14 @@ No offline reading mode — don't claim offline support.
 - **Imports**: Pocket exports, Raindrop.io collections, standard browser
   bookmark HTML exports (Chrome/Firefox/Edge/Safari all export this format).
 
-## Social proof (current, do not inflate)
+## Social proof (verified 2026-08-16 — DO NOT cite star ratings in content)
 
-- ★ 4.8 on Chrome Web Store · ★ 4.7 on Product Hunt
+- ⚠ Live reality: Chrome Web Store ★3.6 (40 ratings, 924 users) · Product Hunt ★1.0
+  (1 review) · Firefox AMO ★1 (1 review). The old "★4.8 CWS / ★4.7 PH" numbers are
+  FALSE today and were swept out of all site copy on 2026-08-16. Never reintroduce a
+  numeric rating claim; if ratings recover, update THIS file first with a dated check.
+- Safe verified claims: Product Hunt **#1 Product of the Day** (Marqly 1.0, Sep 3, 2022);
+  Marqly 5.0 was #5 of the day (May 31, 2026).
 - X/Twitter: @getmarqly · LinkedIn: /company/marqly · Product Hunt: /products/marqly
 
 ## Voice & style

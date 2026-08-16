@@ -48,7 +48,7 @@ Marqly boards group links and highlights around a theme, and an initiative is a 
 
 ## Getting started
 
-Install the Marqly extension — it's available for Chrome, Edge, Firefox, and Safari, and rated 4.8 on the Chrome Web Store. If you've accumulated research in your browser's bookmarks bar, export it as a bookmark HTML file and import it; Pocket exports and Raindrop.io collections import too. Then let the AI tag everything. That last step is the point: your existing pile of unfiled competitor links becomes a tagged, semantically searchable research base without you sorting a single item. From there, save as you browse and the system maintains itself.
+Install the Marqly extension — it's available for Chrome, Edge, Firefox, and Safari. If you've accumulated research in your browser's bookmarks bar, export it as a bookmark HTML file and import it; Pocket exports and Raindrop.io collections import too. Then let the AI tag everything. That last step is the point: your existing pile of unfiled competitor links becomes a tagged, semantically searchable research base without you sorting a single item. From there, save as you browse and the system maintains itself.
 
 Sign up free at [app.marqly.com](https://app.marqly.com) — no card required.
 

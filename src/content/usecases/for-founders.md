@@ -44,7 +44,7 @@ The same applies to text. AI summaries triage the reading queue, and Pro's chat 
 
 ## Getting started
 
-Install the extension for Chrome, Edge, Firefox, or Safari — it's rated 4.8 on the Chrome Web Store. Import the research you've already scattered: standard browser bookmark HTML exports, Pocket exports, and Raindrop.io collections all import cleanly. Let the AI tag the backlog once, and the graveyard of "competitors???" folders becomes a searchable market memory. From there the system runs on reflex saves, with boards for anything deserving structure — one per competitor, one for the fundraise reading, one for positioning references.
+Install the extension for Chrome, Edge, Firefox, or Safari. Import the research you've already scattered: standard browser bookmark HTML exports, Pocket exports, and Raindrop.io collections all import cleanly. Let the AI tag the backlog once, and the graveyard of "competitors???" folders becomes a searchable market memory. From there the system runs on reflex saves, with boards for anything deserving structure — one per competitor, one for the fundraise reading, one for positioning references.
 
 Start [free at app.marqly.com](https://app.marqly.com); no card is required, and the full capture-and-search loop works on the free tier.
 

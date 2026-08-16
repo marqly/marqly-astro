@@ -17,12 +17,24 @@ export const POST: APIRoute = async ({ request }) => {
   const limited = await rateLimit(request, env, 'AI_RATE_LIMITER', 'summarize');
   if (limited) return limited;
 
-  let body: { text?: string; title?: string };
+  let body: { text?: string; title?: string; lang?: string };
   try {
     body = await request.json();
   } catch {
     return json({ error: 'Send JSON: {"text": "..."}' }, 400);
   }
+
+  // Localized tool pages request the summary in their own language, whatever
+  // language the source transcript is in. Whitelisted — never user-freeform.
+  const OUTPUT_LANG: Record<string, string> = {
+    en: 'English',
+    es: 'Spanish (Latin American — "videos" without accent, tú form)',
+    pt: 'Brazilian Portuguese',
+    de: 'German',
+    fr: 'French',
+    it: 'Italian',
+  };
+  const outputLang = OUTPUT_LANG[body.lang ?? 'en'] ?? 'English';
 
   const text = (body.text ?? '').trim();
   if (text.length < 200) return json({ error: 'Provide at least 200 characters to summarize.' }, 400);
@@ -39,7 +51,7 @@ export const POST: APIRoute = async ({ request }) => {
         {
           role: 'system',
           content:
-            'You summarize content faithfully. Output exactly: a one-paragraph TL;DR (2-3 sentences), then a "Key points" list of 4-7 bullets. Plain text with "- " bullets, no markdown headers. Never invent facts not present in the input.',
+            `You summarize content faithfully. Write the entire summary in ${outputLang}, regardless of the input language. Output exactly: a one-paragraph TL;DR (2-3 sentences), then a short heading meaning "Key points" in ${outputLang} followed by 4-7 bullets. Plain text with "- " bullets, no markdown headers. Never invent facts not present in the input.`,
         },
         {
           role: 'user',

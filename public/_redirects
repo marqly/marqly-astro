@@ -83,6 +83,10 @@
 /year              /                   301
 /year/             /                   301
 
+# German post moved into the /de/ locale tree (i18n foundation, 2026-08).
+/blog/pocket-alternativen-2026  /de/blog/pocket-alternativen-2026  301
+/blog/pocket-alternativen-2026/ /de/blog/pocket-alternativen-2026  301
+
 # --- Trailing-slash normalisation. MUST STAY LAST: _redirects is first-match-wins,
 # and every explicit slashed rule above needs to win over this catch-all.
 #
