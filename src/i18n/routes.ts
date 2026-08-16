@@ -111,78 +111,103 @@ export const TRANSLATIONS: Record<string, Partial<Record<Locale, string>>> = {
   },
   '/compare/marqly-vs-pocket': {
     es: '/es/comparar/marqly-vs-pocket',
+    pt: '/pt/comparar/marqly-vs-pocket',
   },
   '/compare/marqly-vs-instapaper': {
     es: '/es/comparar/marqly-vs-instapaper',
+    pt: '/pt/comparar/marqly-vs-instapaper',
   },
   '/compare/marqly-vs-evernote-web-clipper': {
     es: '/es/comparar/marqly-vs-evernote',
+    pt: '/pt/comparar/marqly-vs-evernote',
   },
   '/compare/marqly-vs-notion-web-clipper': {
     es: '/es/comparar/marqly-vs-notion',
+    pt: '/pt/comparar/marqly-vs-notion',
   },
   '/compare/marqly-vs-obsidian-web-clipper': {
     es: '/es/comparar/marqly-vs-obsidian',
+    pt: '/pt/comparar/marqly-vs-obsidian',
   },
   '/compare/marqly-vs-readwise-reader': {
     es: '/es/comparar/marqly-vs-readwise',
+    pt: '/pt/comparar/marqly-vs-readwise',
   },
   '/compare/marqly-vs-matter': {
     es: '/es/comparar/marqly-vs-matter',
+    pt: '/pt/comparar/marqly-vs-matter',
   },
   '/alternatives/pocket': {
     es: '/es/alternativas/pocket',
+    pt: '/pt/alternativas/pocket',
   },
   '/alternatives/raindrop': {
     es: '/es/alternativas/raindrop',
+    pt: '/pt/alternativas/raindrop',
   },
   '/for-researchers': {
     es: '/es/usos/investigadores',
+    pt: '/pt/para-pesquisadores',
   },
   '/for-teachers': {
     es: '/es/usos/profesores',
+    pt: '/pt/para-professores',
   },
   '/for-developers': {
     es: '/es/usos/desarrolladores',
+    pt: '/pt/para-desenvolvedores',
   },
   '/for-content-creators': {
     es: '/es/usos/creadores-de-contenido',
+    pt: '/pt/para-criadores-de-conteudo',
   },
   '/for-marketers': {
     es: '/es/usos/marketing',
+    pt: '/pt/para-marketing',
   },
   '/for-journalists': {
     es: '/es/usos/periodistas',
+    pt: '/pt/para-jornalistas',
   },
   '/second-brain': {
     es: '/es/usos/segundo-cerebro',
+    pt: '/pt/segundo-cerebro',
   },
   '/for-writers': {
     es: '/es/usos/escritores',
+    pt: '/pt/para-escritores',
   },
   '/reading-list': {
     es: '/es/usos/lista-de-lectura',
+    pt: '/pt/lista-de-leitura',
   },
   '/recipe-organizer': {
     es: '/es/usos/organizar-recetas',
+    pt: '/pt/organizar-receitas',
   },
   '/travel-planning': {
     es: '/es/usos/planificar-viajes',
+    pt: '/pt/planejar-viagens',
   },
   '/alternatives/instapaper': {
     es: '/es/alternativas/instapaper',
+    pt: '/pt/alternativas/instapaper',
   },
   '/alternatives/evernote-web-clipper': {
     es: '/es/alternativas/evernote',
+    pt: '/pt/alternativas/evernote',
   },
   '/alternatives/notion-web-clipper': {
     es: '/es/alternativas/notion',
+    pt: '/pt/alternativas/notion',
   },
   '/research-organizer': {
     es: '/es/usos/organizar-investigacion',
+    pt: '/pt/organizar-pesquisa',
   },
   '/watch-later': {
     es: '/es/usos/guardar-videos-youtube',
+    pt: '/pt/salvar-videos-youtube',
   },
 };
 
