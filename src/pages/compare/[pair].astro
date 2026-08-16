@@ -9,6 +9,7 @@ import SourceNote from '../../components/seo/SourceNote.astro';
 import { competitors, marqly, getCompetitor } from '../../lib/competitors';
 import { marqlyPairFaqs, marqlyEdges, otherEdges, pricingSentence } from '../../lib/compare-content';
 import { breadcrumbList, faqPage, organization, softwareApplication, webSite } from '../../lib/schema';
+import { alternatesForPath } from '../../i18n/routes';
 
 export async function getStaticPaths() {
   const verdictEntries = await getCollection('verdicts', ({ data }) => !data.draft);
@@ -84,6 +85,7 @@ const tableTools = isMarqlyPair ? [marqly, b] : [a, b, marqly];
   title={title}
   description={description}
   jsonLd={jsonLd}
+  alternates={alternatesForPath(`/compare/${pairSlug}`)}
   ogImage={`https://www.marqly.com/og/seo/compare-${pairSlug}.png`}
 >
   <article class="section">

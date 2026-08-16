@@ -1,0 +1,93 @@
+{
+  "name": "Session Buddy",
+  "slug": "session-buddy",
+  "aka": [
+    "sessionbuddy",
+    "session-buddy-extension",
+    "session-buddy-chrome",
+    "session-manager-chrome"
+  ],
+  "category": "tab-manager",
+  "status": "active",
+  "shutdownNote": null,
+  "website": "https://sessionbuddy.com",
+  "tagline": "Free session manager that snapshots your open windows and reopens them intact",
+  "pricing": {
+    "free": true,
+    "paid": null,
+    "trial": null,
+    "notes": "Free with no paid tier and no limits. Local use needs no account; the optional cloud sync introduced in v4 requires signing in, and no paid plan has been announced for it."
+  },
+  "platforms": [
+    "chrome",
+    "edge"
+  ],
+  "features": {
+    "aiAutoTagging": false,
+    "semanticSearch": false,
+    "aiSummaries": false,
+    "youtubeAi": false,
+    "chatWithSaves": false,
+    "highlights": false,
+    "annotationNotes": false,
+    "savePdf": false,
+    "fullTextSearch": false,
+    "tabSaver": true,
+    "publicSharing": false,
+    "importPocket": false,
+    "importBrowserHtml": false,
+    "offlineReading": false,
+    "iosApp": false,
+    "androidApp": false,
+    "browserExtension": true,
+    "freeTier": true,
+    "api": false,
+    "selfHosted": false
+  },
+  "pros": [
+    "Completely free with no paid tier, no saved-session limits, and no account required for local use",
+    "Best-in-class session restore: save every open window as a named session and reopen the whole arrangement later, not just a flat list of links",
+    "Automatic recovery — it keeps a record of your current windows and tabs, so a crash or an accidentally closed window is recoverable",
+    "Local-first by default: sessions are stored in your browser profile and nothing leaves the machine unless you switch on the optional cloud sync",
+    "Still actively maintained, with 2026 updates and roughly 900,000 users",
+    "Exports sessions to JSON, HTML, CSV, and plain text, so there is almost no lock-in"
+  ],
+  "cons": [
+    "The 2024 v4 redesign produced sustained reports of sessions going missing or not carrying over from v3 — export a backup before you update",
+    "v4 is heavier and slower than the old version, and many long-time users say it added complexity to a tool they chose for being minimal",
+    "Local-first also means fragile: uninstalling the extension or clearing browser data can take your sessions with it unless cloud sync is on",
+    "Chromium-only — Chrome, Edge, and Chromium-based browsers; there is no Firefox add-on, no Safari extension, and no mobile app",
+    "Stores tabs, not content: no page archiving, highlights, AI, or full-text search, so when a saved link dies the content is gone",
+    "No public sharing — you can export or copy a session's links, but there's no shareable hosted page"
+  ],
+  "bestFor": "Anyone who works in bursts of many windows and wants to snapshot, name, and reopen whole browsing sessions for free — without needing page content, AI, or phone access.",
+  "verdict": "The most capable free session manager on Chromium, and better at restoring windows than any bookmark manager — just keep an export, and don't mistake a session list for a library.",
+  "overview": "Session Buddy is a free Chromium extension for saving and restoring browsing sessions. Rather than collapsing tabs into a flat list, it snapshots whole windows — you name a session, close everything, and reopen the arrangement later with tabs in place. It also keeps a running record of your open windows, which makes it a practical recovery tool after a crash or an accidental close. Sessions are stored locally in the browser profile; the v4 release added optional cloud sync for people who want them on a second machine. That v4 redesign, shipped in 2024, is also its sore point: it drew sustained complaints about missing sessions after upgrading and about a heavier, slower interface than the version it replaced. Development continues, with updates through 2026 and roughly 900,000 users. It runs on Chrome, Edge, and other Chromium browsers only — no Firefox, Safari, or mobile app — and it saves URLs and titles rather than page content, with no AI, highlighting, or full-text search. Exports cover JSON, HTML, CSV, and plain text.",
+  "faqs": [
+    {
+      "q": "Is Session Buddy free?",
+      "a": "Yes, completely. There is no paid tier, no cap on how many sessions you save, and no account needed to use it locally — you install the extension and it works. The optional cloud sync added in v4 requires signing in, but no paid plan has been announced for it, so the whole product is free today."
+    },
+    {
+      "q": "Is Session Buddy still maintained?",
+      "a": "Yes. Despite its reputation among users who preferred the older version, Session Buddy is actively developed and has shipped updates through 2026, with roughly 900,000 users on Chromium browsers. The complaints you'll find are about the direction of the v4 redesign, not about abandonment."
+    },
+    {
+      "q": "Did Session Buddy v4 lose people's sessions?",
+      "a": "Enough users reported it that it's worth taking seriously. After the 2024 v4 redesign, a steady stream of reports described sessions missing or not carrying over from the previous version. Before you update — and periodically after — use the export option to save a JSON or HTML copy of your sessions. Local-only storage means an export is your only backup."
+    },
+    {
+      "q": "Does Session Buddy work on Firefox or iPhone?",
+      "a": "No to both. Session Buddy is Chromium-only: Chrome, Edge, Brave, and similar browsers. There's no Firefox add-on, no Safari extension, no iOS or Android app, and no web app to sign into, so your sessions live on the desktop browsers where you saved them."
+    },
+    {
+      "q": "Can I export my data from Session Buddy?",
+      "a": "Yes, and easily. Sessions export to JSON (the full-fidelity format you'd re-import into Session Buddy), HTML (the standard bookmarks format any bookmark manager can read), CSV, and plain text. Because storage is local by default, exporting regularly is less of a nice-to-have and more of a backup routine."
+    },
+    {
+      "q": "What is the best Session Buddy alternative?",
+      "a": "For the same job — snapshot and restore windows — OneTab is the simplest free option and Workona adds synced project workspaces. If what you really want is to find those tabs again months later rather than reopen them all, a bookmark manager fits better: Marqly saves every open tab in one click, then auto-tags each page and makes it findable by describing what you remember, which a session list can't do."
+    }
+  ],
+  "lastVerified": "2026-08-16"
+}

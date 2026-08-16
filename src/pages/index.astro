@@ -11,6 +11,7 @@
  * JSON-LD share one source (components/landing/faqs.ts).
  */
 import LandingV2 from '../layouts/LandingV2.astro';
+import { alternatesForPath } from '../i18n/routes';
 import { organization } from '../lib/schema';
 import { homeFaqs } from '../components/landing/faqs';
 
@@ -88,7 +89,7 @@ const jsonLd = [
 ];
 ---
 
-<LandingV2 title={title} description={description} canonical={canonical} jsonLd={jsonLd}>
+<LandingV2 title={title} description={description} canonical={canonical} jsonLd={jsonLd} alternates={alternatesForPath('/')}>
   <Nav slot="nav" />
   <HeroSection />
   <LibrarySection />

@@ -1,59 +1,66 @@
 ---
-import { getCollection, render } from 'astro:content';
-import LandingLayout from '../layouts/LandingLayout.astro';
-import Breadcrumbs from '../components/seo/Breadcrumbs.astro';
-import FaqAccordion from '../components/seo/FaqAccordion.astro';
-import CtaBox from '../components/seo/CtaBox.astro';
-import { CHROME_STORE_URL, breadcrumbList, faqPage, organization, softwareApplication, webSite } from '../lib/schema';
-import { alternatesForPath } from '../i18n/routes';
+/**
+ * Shared renderer for locale landers (src/content/locale-pages/<lang>/*.md).
+ * Mirrors the English [usecase].astro lander, but every chrome string comes
+ * from the entry's own frontmatter so the page is 100% in its language.
+ */
+import { render } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import Breadcrumbs from './Breadcrumbs.astro';
+import FaqAccordion from './FaqAccordion.astro';
+import CtaBox from './CtaBox.astro';
+import {
+  CHROME_STORE_URL,
+  breadcrumbList,
+  faqPage,
+  organization,
+  softwareApplication,
+  webSite,
+} from '../../lib/schema';
+import { alternatesForPath } from '../../i18n/routes';
 
-export async function getStaticPaths() {
-  const entries = await getCollection('usecases', ({ data }) => !data.draft);
-  return entries.map((entry) => ({ params: { usecase: entry.id }, props: { entry } }));
+interface Props {
+  entry: CollectionEntry<'localePages'>;
 }
-
 const { entry } = Astro.props;
 const { Content } = await render(entry);
+const d = entry.data;
 
-const KIND_LABELS: Record<string, string> = {
-  persona: 'Who it’s for',
-  jtbd: 'What it does',
-  platform: 'Platforms',
-};
-
-const path = `/${entry.id}`;
 const crumbs = [
-  { name: 'Home', path: '/' },
-  { name: entry.data.title, path },
+  { name: d.crumbHome, path: `/${d.lang}` },
+  { name: d.title, path: d.path },
 ];
 
 const jsonLd = [
   organization(),
-  webSite(),
+  webSite(d.lang),
   softwareApplication(),
   breadcrumbList(crumbs),
-  ...(entry.data.faqs.length ? [faqPage(entry.data.faqs)] : []),
+  ...(d.faqs.length ? [faqPage(d.faqs, d.lang)] : []),
 ];
 ---
 
 <LandingLayout
-  title={entry.data.seoTitle ?? entry.data.title}
-  description={entry.data.description}
+  title={d.seoTitle ?? d.title}
+  description={d.description}
+  canonical={`https://www.marqly.com${d.path}`}
   jsonLd={jsonLd}
-  alternates={alternatesForPath(path)}
-  ogImage={`https://www.marqly.com/og/seo/usecase-${entry.id}.png`}
+  lang={d.lang}
+  alternates={alternatesForPath(d.path)}
+  showLinkHub={false}
 >
   <section class="hero-lite">
     <div class="container">
       <Breadcrumbs items={crumbs} />
-      <span class="eyebrow">{KIND_LABELS[entry.data.kind]} · {entry.data.navLabel ?? entry.data.title}</span>
-      <h1>{entry.data.hero.heading}</h1>
-      <p class="sub">{entry.data.hero.subheading}</p>
+      {d.eyebrow && <span class="eyebrow">{d.eyebrow}</span>}
+      <h1>{d.hero.heading}</h1>
+      <p class="sub">{d.hero.subheading}</p>
       <div class="hero-actions">
-        <a class="btn btn--primary btn--lg" href={entry.data.ctaUrl}>{entry.data.ctaLabel} <span class="arrow">→</span></a>
-        <a class="btn btn--outline btn--lg" href={CHROME_STORE_URL} target="_blank" rel="noopener">Add to Chrome — it's free</a>
+        <a class="btn btn--primary btn--lg" href={d.ctaUrl}>{d.ctaLabel} <span class="arrow">→</span></a>
+        <a class="btn btn--outline btn--lg" href={CHROME_STORE_URL} target="_blank" rel="noopener">{d.ctaSecondaryLabel}</a>
       </div>
-      <p class="hero-trust">Free plan, no card required · Works on Chrome, Edge, Firefox, Safari &amp; iOS</p>
+      <p class="hero-trust">{d.trustLine}</p>
     </div>
   </section>
 
@@ -63,13 +70,19 @@ const jsonLd = [
         <Content />
       </div>
 
-      {entry.data.faqs.length > 0 && (
+      {d.faqs.length > 0 && (
         <div class="faq-wrap">
-          <FaqAccordion faqs={entry.data.faqs} heading="Frequently asked questions" />
+          <FaqAccordion faqs={d.faqs} heading={d.faqHeading} />
         </div>
       )}
 
-      <CtaBox ctaUrl={entry.data.ctaUrl} ctaLabel={entry.data.ctaLabel} />
+      <CtaBox
+        ctaUrl={d.ctaUrl}
+        ctaLabel={d.ctaLabel}
+        secondaryLabel={d.ctaSecondaryLabel}
+        heading={d.hero.heading}
+        sub={d.description}
+      />
     </div>
   </article>
 </LandingLayout>
@@ -87,7 +100,7 @@ const jsonLd = [
     letter-spacing: var(--tracking-tight);
     color: var(--ink-1);
     line-height: var(--lh-tight);
-    max-width: 20ch;
+    max-width: 22ch;
   }
   .hero-lite .sub {
     margin-top: var(--space-5);
@@ -142,12 +155,21 @@ const jsonLd = [
   .prose :global(li) { margin-bottom: var(--space-2); }
   .prose :global(a) { color: var(--ink-1); font-weight: 500; text-decoration: underline; }
   .prose :global(strong) { color: var(--ink-1); }
-  .prose :global(blockquote) {
-    border-left: 3px solid var(--border-2);
-    padding-left: var(--space-5);
-    color: var(--ink-3);
-    margin-bottom: var(--space-4);
+  .prose :global(table) {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    border-collapse: collapse;
+    margin-bottom: var(--space-6);
+    font-size: var(--fs-sm);
   }
+  .prose :global(th), .prose :global(td) {
+    text-align: left;
+    padding: var(--space-2) var(--space-3);
+    border-bottom: 1px solid var(--border-1);
+    color: var(--ink-2);
+  }
+  .prose :global(th) { color: var(--ink-1); font-weight: 600; }
 
   .faq-wrap { margin-top: var(--space-12); }
 </style>

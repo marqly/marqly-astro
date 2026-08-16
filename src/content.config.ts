@@ -141,4 +141,35 @@ const prompts = defineCollection({
   }),
 });
 
-export const collections = { blog, faq, usecases, verdicts, prompts };
+/**
+ * Locale landers — non-blog pages inside the /es /pt /de /fr /it trees
+ * (localized homes, use-case landers, comparisons, market-specific pages).
+ * `path` is the full URL path; the per-locale [...slug] route derives its
+ * params from it, so slugs stay native (…/usos/estudiantes, …/para-concurseiros).
+ */
+const localePages = defineCollection({
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/locale-pages' }),
+  schema: z.object({
+    lang: z.enum(['es', 'pt', 'de', 'fr', 'it']),
+    /** Full URL path, e.g. "/es/usos/estudiantes". Must start with /<lang>/. */
+    path: z.string(),
+    title: z.string(),
+    seoTitle: z.string().optional(),
+    description: z.string(),
+    /** Small label above the H1, in the page's language. */
+    eyebrow: z.string().optional(),
+    hero: z.object({ heading: z.string(), subheading: z.string() }),
+    /** Localized chrome. */
+    crumbHome: z.string(),
+    trustLine: z.string(),
+    faqHeading: z.string().default('FAQ'),
+    faqs: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
+    ctaUrl: z.string().url().default('https://app.marqly.com'),
+    ctaLabel: z.string(),
+    ctaSecondaryLabel: z.string(),
+    updatedDate: z.coerce.date(),
+    draft: z.boolean().default(false),
+  }),
+});
+
+export const collections = { blog, faq, usecases, verdicts, prompts, localePages };

@@ -28,6 +28,22 @@ export const freeTools: FreeTool[] = [
     browserOnly: false,
   },
   {
+    name: 'YouTube chapter generator',
+    shortName: 'YouTube chapter generator',
+    desc: 'Turn any video transcript into timestamped chapters you can paste into a description.',
+    path: '/tools/youtube-chapter-generator',
+    category: 'YouTube',
+    browserOnly: false,
+  },
+  {
+    name: 'RSS feed finder',
+    shortName: 'RSS feed finder',
+    desc: 'Find the RSS or Atom feed for any site, even when the page never links to it.',
+    path: '/tools/rss-feed-finder',
+    category: 'Links & SEO',
+    browserOnly: false,
+  },
+  {
     name: 'YouTube thumbnail downloader',
     shortName: 'YouTube thumbnail downloader',
     desc: 'Get every available thumbnail size from a video, Short, or live URL.',

@@ -67,7 +67,58 @@ export const TRANSLATIONS: Record<string, Partial<Record<Locale, string>>> = {
     fr: '/fr/blog',
     it: '/it/blog',
   },
+  '/': {
+    es: '/es',
+    pt: '/pt',
+    de: '/de',
+    fr: '/fr',
+    it: '/it',
+  },
+  '/web-highlighter': {
+    es: '/es/extension',
+    pt: '/pt/marca-texto-para-sites',
+    de: '/de/webseiten-markieren',
+    fr: '/fr/surligner-page-web',
+    it: '/it/evidenziatore-web',
+  },
+  '/for-students': {
+    es: '/es/usos/estudiantes',
+    pt: '/pt/para-estudantes',
+    de: '/de/studium',
+    fr: '/fr/etudiants',
+    it: '/it/studenti',
+  },
+  '/tab-manager': {
+    es: '/es/usos/guardar-pestanas',
+    pt: '/pt/salvar-abas',
+    de: '/de/tabs-speichern',
+    fr: '/fr/sauvegarder-onglets',
+    it: '/it/salva-schede',
+  },
+  '/read-it-later': {
+    es: '/es/usos/guardar-articulos-leer-despues',
+    pt: '/pt/salvar-para-ler-depois',
+    de: '/de/spaeter-lesen',
+    fr: '/fr/lire-plus-tard',
+    it: '/it/salva-e-leggi-dopo',
+  },
+  '/compare/marqly-vs-raindrop': {
+    es: '/es/comparar/marqly-vs-raindrop',
+    pt: '/pt/comparar/marqly-vs-raindrop',
+    de: '/de/vergleich/marqly-vs-raindrop',
+    fr: '/fr/comparer/marqly-vs-raindrop',
+    it: '/it/confronto/marqly-vs-raindrop',
+  },
 };
+
+/** Locale roots, for the footer language selector. */
+export const LOCALE_HOMES: { lang: Exclude<Locale, 'en'>; label: string; href: string }[] = [
+  { lang: 'es', label: 'Español', href: '/es' },
+  { lang: 'pt', label: 'Português', href: '/pt' },
+  { lang: 'de', label: 'Deutsch', href: '/de' },
+  { lang: 'fr', label: 'Français', href: '/fr' },
+  { lang: 'it', label: 'Italiano', href: '/it' },
+];
 
 export interface Alternate {
   hreflang: string;

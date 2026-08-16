@@ -1,0 +1,144 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import ToolShell from '../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../lib/schema';
+
+const title = 'Free RSS Feed Finder — Get the Feed URL for Any Site';
+const description =
+  'Paste a site URL and get its RSS or Atom feed, even when the page never links to one. Free, no signup — checks declared feeds, then the usual feed paths.';
+
+const faqs = [
+  {
+    q: 'How do I find the RSS feed of a website?',
+    a: 'Paste the site’s URL above. The tool reads the page’s own feed declaration — the <link rel="alternate"> tag most publishing platforms emit — and if there isn’t one, it probes the paths feeds usually live at, like /feed and /rss.xml.',
+  },
+  {
+    q: 'Why does a site have no feed at all?',
+    a: 'Some platforms removed feeds, and some sites disable them deliberately. If nothing turns up, the site most likely has no feed; a newsletter or a saved-search alert is usually the next best way to follow it.',
+  },
+  {
+    q: 'Does the feed URL work in any reader?',
+    a: 'Yes. RSS and Atom are open formats, so the URL works in any feed reader. You can also paste it into tools that watch a feed and act on new items.',
+  },
+  {
+    q: 'Is RSS still worth using in 2026?',
+    a: 'For following sources without an algorithm deciding what you see, yes. RSS tells you what was published; the harder problem is what to do with the things you actually save — which is where a searchable library beats an ever-growing unread count.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: 'Free tools', path: '/tools' },
+    { name: 'RSS feed finder', path: '/tools/rss-feed-finder' },
+  ]),
+  faqPage(faqs),
+  freeWebApplication(
+    'RSS feed finder',
+    'Find the RSS or Atom feed URL for any website — free, no signup.',
+    '/tools/rss-feed-finder',
+  ),
+];
+---
+
+<LandingLayout title={title} description={description} jsonLd={jsonLd}>
+  <ToolShell
+    name="RSS feed finder"
+    heading="Find the RSS feed for any website"
+    sub="Paste a site URL and get its feed — including the ones the page never links to. Free, no signup."
+    faqs={faqs}
+    ctaHeading="Following is easy. Finding it again is the hard part."
+    ctaSub="Marqly saves what you read, tags it automatically, and finds it later when you only remember roughly what it said."
+  >
+    <form id="rf-form">
+      <div class="tool-row">
+        <div class="grow">
+          <label for="rf-url">Website URL</label>
+          <input id="rf-url" type="url" placeholder="https://example.com" required />
+        </div>
+        <button class="btn btn--primary" type="submit">Find feeds</button>
+      </div>
+      <p class="tool-status" id="rf-status" role="status"></p>
+    </form>
+    <div class="tool-output hidden" id="rf-out" aria-live="polite"></div>
+
+    <Fragment slot="content">
+      <h2>How to find a site's RSS feed</h2>
+      <ol>
+        <li>Paste the site's homepage URL above and press <strong>Find feeds</strong>.</li>
+        <li>The tool reads the page's declared feed, then checks common feed paths if none is declared.</li>
+        <li>Copy the feed URL into your reader.</li>
+      </ol>
+      <p>
+        Most publishing platforms still emit a feed even when nothing on the page mentions it —
+        WordPress, Ghost, Substack, and most static-site generators all do. That's why a site with
+        no visible RSS icon usually still has a working feed one path away.
+      </p>
+
+      <h2>Where feeds usually hide</h2>
+      <ul>
+        <li><strong>Declared in the HTML</strong> — a <code>&lt;link rel="alternate" type="application/rss+xml"&gt;</code> tag in the page head. This is the reliable one, and it's what the tool checks first.</li>
+        <li><strong>At a conventional path</strong> — <code>/feed</code>, <code>/rss</code>, <code>/rss.xml</code>, <code>/feed.xml</code>, <code>/atom.xml</code>, or <code>/index.xml</code>.</li>
+        <li><strong>Per-section</strong> — many sites publish a feed per category or tag; try the same paths under the section URL to follow only what you care about.</li>
+      </ul>
+
+      <h2>After the feed: the part readers don't solve</h2>
+      <p>
+        A feed reader is good at telling you what's new and bad at telling you what you read six
+        months ago. That's a different job: saving the handful of pieces worth keeping and being
+        able to find them later. Marqly's
+        <a href="/blog/how-to-search-bookmarks-with-ai">semantic search</a> finds a save from a
+        description rather than its title, and everything you save gets
+        <a href="/faq/does-marqly-summarize-articles-automatically">summarized and tagged
+        automatically</a>. If your reading queue is the problem, start with the
+        <a href="/read-it-later">read-it-later workflow</a>; if it's link rot in an old list, the
+        <a href="/tools/dead-link-checker">dead link checker</a> is next door.
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const form = document.getElementById('rf-form') as HTMLFormElement;
+  const input = document.getElementById('rf-url') as HTMLInputElement;
+  const status = document.getElementById('rf-status')!;
+  const out = document.getElementById('rf-out')!;
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    out.classList.add('hidden');
+    status.classList.remove('is-error');
+    status.textContent = 'Looking for feeds…';
+    try {
+      const res = await fetch('/api/rss-find', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ url: input.value }),
+      });
+      const data = await res.json() as {
+        error?: string;
+        pageUrl: string;
+        feeds: { url: string; title: string | null; source: string }[];
+      };
+      if (!res.ok) throw new Error(data.error ?? 'Something went wrong.');
+
+      if (!data.feeds.length) {
+        status.textContent = 'No feed found for that site.';
+        out.textContent = 'The page declares no feed, and the usual feed paths returned nothing. This site most likely does not publish RSS.';
+        out.classList.remove('hidden');
+        return;
+      }
+
+      status.textContent = `${data.feeds.length} feed${data.feeds.length > 1 ? 's' : ''} found for ${data.pageUrl}`;
+      out.textContent = data.feeds
+        .map((f) => `${f.title ? f.title + '\n' : ''}${f.url}${f.source === 'guessed' ? '  (found by probing, not declared on the page)' : ''}`)
+        .join('\n\n');
+      out.classList.remove('hidden');
+    } catch (err) {
+      status.textContent = err instanceof Error ? err.message : 'Something went wrong.';
+      status.classList.add('is-error');
+    }
+  });
+</script>

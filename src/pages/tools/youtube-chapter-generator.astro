@@ -1,0 +1,152 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import ToolShell from '../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../lib/schema';
+
+const title = 'Free YouTube Chapter Generator — Timestamps From Any Video';
+const description =
+  'Paste a YouTube link and get timestamped chapters you can paste straight into the description. Free, no signup — generated from the video’s own transcript.';
+
+const faqs = [
+  {
+    q: 'How does the chapter generator work?',
+    a: 'It reads the video’s caption track, then an AI model picks the natural section boundaries and names them. The timestamps come from the transcript itself, so every chapter points at a moment that actually exists in the video.',
+  },
+  {
+    q: 'Why does YouTube ignore my chapters?',
+    a: 'YouTube only turns timestamps into chapters when the first one is 00:00, there are at least three of them, and each is at least 10 seconds long. This tool always starts at 00:00, but if you edit the list afterwards, keep those three rules in mind.',
+  },
+  {
+    q: 'Does it work on videos without captions?',
+    a: 'No. If the uploader disabled captions there is no transcript to work from. Most videos have at least auto-generated captions, which work fine here.',
+  },
+  {
+    q: 'Can I use it on someone else’s video?',
+    a: 'Yes — it is useful for taking notes on long talks and podcasts, not just for publishing. For your own videos, paste the output into the description; for other people’s, keep the chapter list with the video in your library.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: 'Free tools', path: '/tools' },
+    { name: 'YouTube chapter generator', path: '/tools/youtube-chapter-generator' },
+  ]),
+  faqPage(faqs),
+  freeWebApplication(
+    'YouTube chapter generator',
+    'Generate timestamped YouTube chapters from any video transcript — free, no signup.',
+    '/tools/youtube-chapter-generator',
+  ),
+];
+---
+
+<LandingLayout title={title} description={description} jsonLd={jsonLd}>
+  <ToolShell
+    name="YouTube chapter generator"
+    heading="Generate YouTube chapters from any video"
+    sub="Paste a link, get timestamped chapters ready to paste into the description. Free, no signup — built from the video's own transcript."
+    faqs={faqs}
+    ctaHeading="Keep the videos you learn from"
+    ctaSub="Marqly saves YouTube videos with their transcript attached, adds an AI summary on the watch page, and finds them later when you only remember what they were about."
+  >
+    <form id="yc-form">
+      <div class="tool-row">
+        <div class="grow">
+          <label for="yc-url">YouTube video URL</label>
+          <input id="yc-url" type="url" placeholder="https://www.youtube.com/watch?v=…" required />
+        </div>
+        <button class="btn btn--primary" type="submit">Generate chapters</button>
+      </div>
+      <p class="tool-status" id="yc-status" role="status"></p>
+    </form>
+    <div class="tool-actions hidden" id="yc-actions">
+      <button class="btn btn--outline btn--sm" id="yc-copy" type="button">Copy chapters</button>
+    </div>
+    <div class="tool-output hidden" id="yc-out" aria-live="polite"></div>
+
+    <Fragment slot="content">
+      <h2>How to add chapters to a YouTube video</h2>
+      <ol>
+        <li>Paste the video URL above and press <strong>Generate chapters</strong>.</li>
+        <li>Review the list — edit any title that misses the point of its section.</li>
+        <li>Paste the timestamps into the video description, each on its own line.</li>
+      </ol>
+      <p>
+        YouTube turns a list of timestamps into clickable chapters automatically, but only if the
+        list follows its rules: the first entry must be <code>00:00</code>, there must be at least
+        three entries, and every section must run at least ten seconds. This tool always starts at
+        <code>00:00</code>, so the output is valid as generated.
+      </p>
+
+      <h2>Why chapters are worth the two minutes</h2>
+      <ul>
+        <li><strong>Viewers stay longer</strong> — people who can see the structure jump to the part they need instead of leaving.</li>
+        <li><strong>Search sees the sections</strong> — chapter titles describe the video in words, which helps it surface for more specific queries.</li>
+        <li><strong>They double as notes</strong> — a chapter list of someone else's talk is the fastest summary of its argument.</li>
+      </ul>
+
+      <h2>Chapters, summary, or transcript?</h2>
+      <p>
+        Chapters give you the shape of a video; a
+        <a href="/tools/youtube-summarize">summary</a> gives you its argument; the
+        <a href="/tools/youtube-transcript">full transcript</a> gives you the exact words to quote.
+        All three come from the same caption track, and all three are free here. If you find
+        yourself running videos through these tools regularly, the
+        <a href="/youtube-summarizer">Marqly extension</a> does it on the watch page itself — and
+        saving a video keeps its transcript attached, so
+        <a href="/blog/how-to-search-bookmarks-with-ai">semantic search</a> can find it months later
+        from a half-remembered detail.
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const form = document.getElementById('yc-form') as HTMLFormElement;
+  const input = document.getElementById('yc-url') as HTMLInputElement;
+  const status = document.getElementById('yc-status')!;
+  const out = document.getElementById('yc-out')!;
+  const actions = document.getElementById('yc-actions')!;
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    out.classList.add('hidden');
+    actions.classList.add('hidden');
+    status.classList.remove('is-error');
+    try {
+      status.textContent = 'Fetching transcript…';
+      const tRes = await fetch(`/api/youtube-transcript?v=${encodeURIComponent(input.value)}`);
+      const tData = await tRes.json() as {
+        error?: string;
+        title: string;
+        segments: { start: number; text: string }[];
+      };
+      if (!tRes.ok) throw new Error(tData.error ?? 'Could not fetch the transcript.');
+
+      status.textContent = `Finding sections in "${tData.title}"…`;
+      const cRes = await fetch('/api/youtube-chapters', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ segments: tData.segments, title: tData.title }),
+      });
+      const cData = await cRes.json() as { error?: string; text: string; truncated?: boolean };
+      if (!cRes.ok) throw new Error(cData.error ?? 'Chapter generation failed.');
+
+      status.textContent = tData.title;
+      out.textContent = cData.text + (cData.truncated ? '\n\n(Long video — chapters cover the first portion of the transcript.)' : '');
+      out.classList.remove('hidden');
+      actions.classList.remove('hidden');
+    } catch (err) {
+      status.textContent = err instanceof Error ? err.message : 'Something went wrong.';
+      status.classList.add('is-error');
+    }
+  });
+
+  document.getElementById('yc-copy')!.addEventListener('click', async () => {
+    await navigator.clipboard.writeText(out.textContent ?? '');
+    status.textContent = 'Copied to clipboard.';
+  });
+</script>
