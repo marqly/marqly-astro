@@ -1,0 +1,190 @@
+---
+/**
+ * Shared blog index for locale trees (/es/blog, /pt/blog, /de/blog, /fr/blog,
+ * /it/blog). Lists posts whose frontmatter `lang` matches, in that locale's
+ * own chrome. Thin per-locale pages under src/pages/<lang>/blog/index.astro
+ * just render this with their lang.
+ */
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import { alternatesForPath } from '../../i18n/routes';
+import { BLOG_UI } from '../../i18n/ui';
+
+interface Props {
+  lang: 'es' | 'pt' | 'de' | 'fr' | 'it';
+}
+const { lang } = Astro.props;
+
+const STRINGS: Record<Props['lang'], {
+  title: string; description: string; kicker: string; h1: string; sub: string;
+  enBefore: string; enLink: string; enAfter: string;
+}> = {
+  es: {
+    title: 'El Blog de Marqly en Español — Marcadores, IA y Segundo Cerebro',
+    description: 'Guías y comparativas en español: gestionar marcadores, apps para leer más tarde, búsqueda con IA y tu segundo cerebro en el navegador. Del equipo de Marqly.',
+    kicker: 'El Blog de Marqly',
+    h1: 'Guarda con criterio. Encuéntralo todo.',
+    sub: 'Guías y comparativas en español sobre marcadores con IA, apps para leer más tarde y un segundo cerebro que sí se puede buscar.',
+    enBefore: 'Hay más artículos en el ', enLink: 'blog en inglés', enAfter: ' — la edición en español está creciendo.',
+  },
+  pt: {
+    title: 'O Blog da Marqly em Português — Favoritos, IA e Segundo Cérebro',
+    description: 'Guias e comparativos em português: organizar favoritos, apps de salvar para ler depois, busca com IA e o seu segundo cérebro no navegador. Do time da Marqly.',
+    kicker: 'O Blog da Marqly',
+    h1: 'Salve com método. Encontre tudo.',
+    sub: 'Guias e comparativos em português sobre favoritos com IA, apps de ler depois e um segundo cérebro que dá para pesquisar de verdade.',
+    enBefore: 'Tem mais artigos no ', enLink: 'blog em inglês', enAfter: ' — a edição em português está crescendo.',
+  },
+  de: {
+    title: 'Der Marqly Blog auf Deutsch — Lesezeichen, KI & zweites Gehirn',
+    description: 'Ratgeber und Vergleiche auf Deutsch: Lesezeichen verwalten, Später-lesen-Apps, KI-Suche und das zweite Gehirn im Browser. Vom Team hinter Marqly.',
+    kicker: 'Der Marqly Blog',
+    h1: 'Speichern mit System. Alles wiederfinden.',
+    sub: 'Ratgeber und Vergleiche auf Deutsch: Lesezeichen verwalten, Später-lesen-Apps und ein durchsuchbares zweites Gehirn im Browser.',
+    enBefore: 'Mehr Artikel gibt es im ', enLink: 'englischen Blog', enAfter: ' — die deutschen Ausgaben wachsen gerade.',
+  },
+  fr: {
+    title: 'Le Blog Marqly en Français — Favoris, IA et Second Cerveau',
+    description: 'Guides et comparatifs en français : gérer ses favoris, applications de lecture différée, recherche par IA et second cerveau dans le navigateur. Par l’équipe Marqly.',
+    kicker: 'Le Blog Marqly',
+    h1: 'Sauvegardez avec méthode. Retrouvez tout.',
+    sub: 'Guides et comparatifs en français sur les favoris avec IA, la lecture différée et un second cerveau vraiment cherchable.',
+    enBefore: 'Retrouvez davantage d’articles sur le ', enLink: 'blog en anglais', enAfter: ' — l’édition française s’étoffe.',
+  },
+  it: {
+    title: 'Il Blog di Marqly in Italiano — Segnalibri, AI e Secondo Cervello',
+    description: 'Guide e confronti in italiano: gestire i segnalibri, app per leggere dopo, ricerca con AI e il secondo cervello nel browser. Dal team di Marqly.',
+    kicker: 'Il Blog di Marqly',
+    h1: 'Salva con metodo. Ritrova tutto.',
+    sub: 'Guide e confronti in italiano su segnalibri con AI, app per leggere dopo e un secondo cervello davvero cercabile.',
+    enBefore: 'Trovi altri articoli nel ', enLink: 'blog in inglese', enAfter: ' — l’edizione italiana sta crescendo.',
+  },
+};
+
+const s = STRINGS[lang];
+const posts = (await getCollection('blog', ({ data }) => !data.draft && data.lang === lang)).sort(
+  (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
+);
+const postHref = (id: string) => `/${lang}/blog/${id.replace(new RegExp(`^${lang}/`), '')}`;
+const fmtDate = (d: Date) =>
+  d.toLocaleDateString(BLOG_UI[lang].dateLocale, { year: 'numeric', month: 'short', day: 'numeric' });
+
+const path = `/${lang}/blog`;
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Blog',
+    name: s.kicker,
+    url: `https://www.marqly.com${path}`,
+    description: s.description,
+    inLanguage: lang,
+    blogPost: posts.slice(0, 20).map((p) => ({
+      '@type': 'BlogPosting',
+      headline: p.data.title,
+      url: `https://www.marqly.com${postHref(p.id)}`,
+      datePublished: p.data.pubDate.toISOString(),
+    })),
+  },
+];
+---
+
+<LandingLayout
+  title={s.title}
+  description={s.description}
+  canonical={`https://www.marqly.com${path}`}
+  jsonLd={jsonLd}
+  lang={lang}
+  alternates={alternatesForPath(path)}
+  showLinkHub={false}
+>
+  <div class="blog-index">
+    <header class="blog-head">
+      <p class="kicker">{s.kicker}</p>
+      <h1>{s.h1}</h1>
+      <p class="sub">{s.sub}</p>
+    </header>
+
+    <div class="grid">
+      {posts.map((post) => (
+        <a class="card" href={postHref(post.id)}>
+          {post.data.heroImage && (
+            <div class="card-img">
+              <Image
+                src={post.data.heroImage}
+                alt={post.data.heroAlt ?? post.data.title}
+                widths={[320, 480, 640]}
+                sizes="(max-width: 700px) 100vw, 360px"
+              />
+            </div>
+          )}
+          <div class="card-body">
+            <span class="chip">{post.data.category}</span>
+            <h2>{post.data.title}</h2>
+            <p>{post.data.description}</p>
+            <time datetime={post.data.pubDate.toISOString()}>{fmtDate(post.data.pubDate)}</time>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <p class="en-note">
+      {s.enBefore}<a href="/blog">{s.enLink}</a>{s.enAfter}
+    </p>
+  </div>
+</LandingLayout>
+
+<style>
+  .blog-index {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: var(--space-16) var(--space-6) var(--space-24);
+  }
+  .blog-head { max-width: 680px; margin-bottom: var(--space-16); }
+  .kicker {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: var(--fs-xs);
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-bottom: var(--space-3);
+  }
+  .blog-head h1 { font-size: var(--fs-h1); margin-bottom: var(--space-4); }
+  .blog-head .sub { font-size: var(--fs-lg); color: var(--color-text-soft); line-height: var(--lh-snug); }
+
+  .chip {
+    display: inline-block;
+    font-size: var(--fs-xs);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-primary);
+    background: rgba(0, 122, 255, 0.08);
+    padding: 4px 12px;
+    border-radius: var(--radius-pill);
+    margin-bottom: var(--space-3);
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: var(--space-8);
+  }
+  .card {
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
+  .card:hover { box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); transform: translateY(-2px); }
+  .card-img :global(img) { width: 100%; height: 100%; object-fit: cover; aspect-ratio: 16 / 10; }
+  .card-body { padding: var(--space-6); display: flex; flex-direction: column; flex: 1; }
+  .card-body h2 { font-size: var(--fs-lg); margin-bottom: var(--space-3); line-height: var(--lh-snug); }
+  .card-body p { color: var(--color-text-soft); font-size: var(--fs-sm); margin-bottom: var(--space-4); }
+  .card-body time { font-size: var(--fs-sm); color: var(--color-text-muted); margin-top: auto; }
+
+  .en-note { margin-top: var(--space-12); font-size: var(--fs-sm); color: var(--color-text-muted); }
+  .en-note a { text-decoration: underline; }
+</style>

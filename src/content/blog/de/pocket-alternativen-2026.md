@@ -37,7 +37,7 @@ Hier sind die acht besten Pocket-Alternativen 2026, verglichen nach dem, was wir
 
 | Tool | Am besten für | KI-Suche | Kostenlos | Pro-Preis |
 |---|---|---|---|---|
-| **Marqly** | KI-Suche + zweites Gehirn | ✅ Semantisch | Ja | ~7 $/Mon. |
+| **Marqly** | KI-Suche + zweites Gehirn | ✅ Semantisch | Ja | ~6 $/Mon. |
 | Raindrop.io | Kostenloses Speichern | ❌ Nur Stichwort | Großzügig | 3 $/Mon. |
 | Readwise Reader | Vielleser + Markierungen | ✅ | Nein | 12 $/Mon. |
 | Instapaper | Minimalistisches Lesen | ❌ | Ja | 3 $/Mon. |
@@ -54,7 +54,7 @@ Pockets größte Schwäche war: Speichern war einfach, aber das **Wiederfinden**
 
 - **Vorteile:** Semantische Suche, Auto-Tagging, KI-Zusammenfassungen, schneller Pocket-Import, günstig.
 - **Nachteile:** Neuer als die Platzhirsche, kleinere (aber wachsende) Community.
-- **Preis:** Kostenlose Stufe; Pro ~7 $/Mon. (jährlich). 7 Tage kostenlos testen.
+- **Preis:** Kostenlose Stufe; Pro ~6 $/Mon. (jährlich abgerechnet). 3 Tage kostenlos testen.
 
 [Marqly kostenlos testen →](https://app.marqly.com/lp/replace-pocket)
 

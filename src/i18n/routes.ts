@@ -54,10 +54,18 @@ export const TRANSLATIONS: Record<string, Partial<Record<Locale, string>>> = {
     it: '/it/strumenti/trascrizione-video-youtube',
   },
   '/blog/best-pocket-alternatives-2026': {
+    es: '/es/blog/alternativas-a-pocket-2026',
+    pt: '/pt/blog/alternativas-ao-pocket-2026',
     de: '/de/blog/pocket-alternativen-2026',
+    fr: '/fr/blog/alternatives-a-pocket-2026',
+    it: '/it/blog/alternative-a-pocket-2026',
   },
   '/blog': {
+    es: '/es/blog',
+    pt: '/pt/blog',
     de: '/de/blog',
+    fr: '/fr/blog',
+    it: '/it/blog',
   },
 };
 
