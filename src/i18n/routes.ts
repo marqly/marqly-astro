@@ -112,102 +112,127 @@ export const TRANSLATIONS: Record<string, Partial<Record<Locale, string>>> = {
   '/compare/marqly-vs-pocket': {
     es: '/es/comparar/marqly-vs-pocket',
     pt: '/pt/comparar/marqly-vs-pocket',
+    de: '/de/vergleich/marqly-vs-pocket',
   },
   '/compare/marqly-vs-instapaper': {
     es: '/es/comparar/marqly-vs-instapaper',
     pt: '/pt/comparar/marqly-vs-instapaper',
+    de: '/de/vergleich/marqly-vs-instapaper',
   },
   '/compare/marqly-vs-evernote-web-clipper': {
     es: '/es/comparar/marqly-vs-evernote',
     pt: '/pt/comparar/marqly-vs-evernote',
+    de: '/de/vergleich/marqly-vs-evernote',
   },
   '/compare/marqly-vs-notion-web-clipper': {
     es: '/es/comparar/marqly-vs-notion',
     pt: '/pt/comparar/marqly-vs-notion',
+    de: '/de/vergleich/marqly-vs-notion',
   },
   '/compare/marqly-vs-obsidian-web-clipper': {
     es: '/es/comparar/marqly-vs-obsidian',
     pt: '/pt/comparar/marqly-vs-obsidian',
+    de: '/de/vergleich/marqly-vs-obsidian',
   },
   '/compare/marqly-vs-readwise-reader': {
     es: '/es/comparar/marqly-vs-readwise',
     pt: '/pt/comparar/marqly-vs-readwise',
+    de: '/de/vergleich/marqly-vs-readwise',
   },
   '/compare/marqly-vs-matter': {
     es: '/es/comparar/marqly-vs-matter',
     pt: '/pt/comparar/marqly-vs-matter',
+    de: '/de/vergleich/marqly-vs-matter',
   },
   '/alternatives/pocket': {
     es: '/es/alternativas/pocket',
     pt: '/pt/alternativas/pocket',
+    de: '/de/alternativen/pocket',
   },
   '/alternatives/raindrop': {
     es: '/es/alternativas/raindrop',
     pt: '/pt/alternativas/raindrop',
+    de: '/de/alternativen/raindrop',
   },
   '/for-researchers': {
     es: '/es/usos/investigadores',
     pt: '/pt/para-pesquisadores',
+    de: '/de/fuer-forschende',
   },
   '/for-teachers': {
     es: '/es/usos/profesores',
     pt: '/pt/para-professores',
+    de: '/de/fuer-lehrkraefte',
   },
   '/for-developers': {
     es: '/es/usos/desarrolladores',
     pt: '/pt/para-desenvolvedores',
+    de: '/de/fuer-entwickler',
   },
   '/for-content-creators': {
     es: '/es/usos/creadores-de-contenido',
     pt: '/pt/para-criadores-de-conteudo',
+    de: '/de/fuer-content-creator',
   },
   '/for-marketers': {
     es: '/es/usos/marketing',
     pt: '/pt/para-marketing',
+    de: '/de/fuer-marketing',
   },
   '/for-journalists': {
     es: '/es/usos/periodistas',
     pt: '/pt/para-jornalistas',
+    de: '/de/fuer-journalisten',
   },
   '/second-brain': {
     es: '/es/usos/segundo-cerebro',
     pt: '/pt/segundo-cerebro',
+    de: '/de/zweites-gehirn',
   },
   '/for-writers': {
     es: '/es/usos/escritores',
     pt: '/pt/para-escritores',
+    de: '/de/fuer-autoren',
   },
   '/reading-list': {
     es: '/es/usos/lista-de-lectura',
     pt: '/pt/lista-de-leitura',
+    de: '/de/leseliste',
   },
   '/recipe-organizer': {
     es: '/es/usos/organizar-recetas',
     pt: '/pt/organizar-receitas',
+    de: '/de/rezepte-organisieren',
   },
   '/travel-planning': {
     es: '/es/usos/planificar-viajes',
     pt: '/pt/planejar-viagens',
+    de: '/de/reise-planen',
   },
   '/alternatives/instapaper': {
     es: '/es/alternativas/instapaper',
     pt: '/pt/alternativas/instapaper',
+    de: '/de/alternativen/instapaper',
   },
   '/alternatives/evernote-web-clipper': {
     es: '/es/alternativas/evernote',
     pt: '/pt/alternativas/evernote',
+    de: '/de/alternativen/evernote',
   },
   '/alternatives/notion-web-clipper': {
     es: '/es/alternativas/notion',
     pt: '/pt/alternativas/notion',
+    de: '/de/alternativen/notion',
   },
   '/research-organizer': {
     es: '/es/usos/organizar-investigacion',
     pt: '/pt/organizar-pesquisa',
+    de: '/de/recherche-organisieren',
   },
   '/watch-later': {
     es: '/es/usos/guardar-videos-youtube',
     pt: '/pt/salvar-videos-youtube',
+    de: '/de/youtube-videos-speichern',
   },
 };
 
