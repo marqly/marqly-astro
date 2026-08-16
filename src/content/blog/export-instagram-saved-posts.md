@@ -14,6 +14,7 @@ tags:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Try Marqly free"
 lang: "en"
+ogImage: "https://www.marqly.com/og/export-instagram-saved-posts.png"
 faqs:
   - q: "Can I export my Instagram saved posts directly from the app?"
     a: "No. There is no export button on the Saved screen and no way to email yourself a collection. The only official route is Meta's Download Your Information tool, reached through Settings → Accounts Center → Your information and permissions → Download your information. It produces an archive that includes a saved_posts file listing everything you've saved."
@@ -62,7 +63,7 @@ Submit, and Meta emails you a download link when the archive is ready.
 
 Meta's official line is up to 30 days. In practice, a narrow request like Saved usually lands within hours to a couple of days.
 
-The part people get burned by: **the download link expires.** It's good for a few days, and if you let it lapse you're starting the request over. When the email arrives, download the ZIP and put it somewhere you'll find it again — the same place you'd keep a tax document, not your Downloads folder.
+The part people get burned by: **the download link expires** after a few days, and letting it lapse means starting over. When the email arrives, grab the ZIP and put it where you'd keep a tax document, not in Downloads.
 
 If nothing shows up after a week, check spam for a Meta sender and check the request's status in Accounts Center — completed downloads are listed there even when the email goes missing.
 
@@ -85,10 +86,10 @@ That's the whole record. **No caption. No image. No video. No note about why you
 
 Two consequences worth absorbing now:
 
-1. **A deleted post is gone.** Your export preserves the URL of something that no longer exists. No tool fixes this, which is an argument for exporting sooner rather than later, and for saving the genuinely important things outside Instagram at the moment you save them.
+1. **A deleted post is gone.** Your export preserves the URL of something that no longer exists — an argument for exporting sooner rather than later.
 2. **A link list isn't a library.** Two thousand `instagram.com/p/...` URLs with timestamps tells you nothing about which one was the sourdough method that worked.
 
-So the export is the raw material. Step 4 is where it becomes useful.
+So the export is raw material. Step 4 is where it becomes useful.
 
 ## Step 4: Turn the link list into something searchable
 
@@ -104,7 +105,7 @@ It sounds tedious and it's the option most likely to leave you better off, becau
 
 `saved_posts.json` is structured, so a short script — or an AI assistant given the file's shape — can convert it into a **standard bookmarks HTML file**, the same `<DT><A HREF=...>` format every browser exports. That's the universal import format, and once you have one you can check it in a [bookmark file viewer](/tools/bookmark-file-viewer) before importing it anywhere.
 
-From there, importing works the same way as a [Chrome bookmarks export](/blog/how-to-import-chrome-bookmarks-to-ai): Marqly ingests standard bookmark HTML, fetches each page, and tags and indexes what it finds. Be straight about the limit, though — Marqly doesn't parse Instagram's `saved_posts.json` directly, and Instagram is hostile to automated fetching, so what you get back on public posts is thinner than a normal article import.
+From there it imports like a [Chrome bookmarks export](/blog/how-to-import-chrome-bookmarks-to-ai): Marqly ingests standard bookmark HTML, fetches each page, then tags and indexes it. One limit, stated plainly — Marqly doesn't parse Instagram's `saved_posts.json` directly, and Instagram resists automated fetching, so what comes back is thinner than a normal article import.
 
 ### Option C: rebuild the collection deliberately
 

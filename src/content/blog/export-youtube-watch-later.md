@@ -14,6 +14,7 @@ tags:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Try Marqly free"
 lang: "en"
+ogImage: "https://www.marqly.com/og/export-youtube-watch-later.png"
 faqs:
   - q: "Does Google Takeout include my Watch Later playlist?"
     a: "No. Takeout's YouTube export covers your playlists as CSV files, but Watch Later is excluded from that export — it is treated as a system playlist rather than one of yours. This surprises people every time, because every other list in the account comes out fine. There is no setting that turns it on."
