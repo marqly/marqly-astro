@@ -109,6 +109,81 @@ export const TRANSLATIONS: Record<string, Partial<Record<Locale, string>>> = {
     fr: '/fr/comparer/marqly-vs-raindrop',
     it: '/it/confronto/marqly-vs-raindrop',
   },
+  '/compare/marqly-vs-pocket': {
+    es: '/es/comparar/marqly-vs-pocket',
+  },
+  '/compare/marqly-vs-instapaper': {
+    es: '/es/comparar/marqly-vs-instapaper',
+  },
+  '/compare/marqly-vs-evernote-web-clipper': {
+    es: '/es/comparar/marqly-vs-evernote',
+  },
+  '/compare/marqly-vs-notion-web-clipper': {
+    es: '/es/comparar/marqly-vs-notion',
+  },
+  '/compare/marqly-vs-obsidian-web-clipper': {
+    es: '/es/comparar/marqly-vs-obsidian',
+  },
+  '/compare/marqly-vs-readwise-reader': {
+    es: '/es/comparar/marqly-vs-readwise',
+  },
+  '/compare/marqly-vs-matter': {
+    es: '/es/comparar/marqly-vs-matter',
+  },
+  '/alternatives/pocket': {
+    es: '/es/alternativas/pocket',
+  },
+  '/alternatives/raindrop': {
+    es: '/es/alternativas/raindrop',
+  },
+  '/for-researchers': {
+    es: '/es/usos/investigadores',
+  },
+  '/for-teachers': {
+    es: '/es/usos/profesores',
+  },
+  '/for-developers': {
+    es: '/es/usos/desarrolladores',
+  },
+  '/for-content-creators': {
+    es: '/es/usos/creadores-de-contenido',
+  },
+  '/for-marketers': {
+    es: '/es/usos/marketing',
+  },
+  '/for-journalists': {
+    es: '/es/usos/periodistas',
+  },
+  '/second-brain': {
+    es: '/es/usos/segundo-cerebro',
+  },
+  '/for-writers': {
+    es: '/es/usos/escritores',
+  },
+  '/reading-list': {
+    es: '/es/usos/lista-de-lectura',
+  },
+  '/recipe-organizer': {
+    es: '/es/usos/organizar-recetas',
+  },
+  '/travel-planning': {
+    es: '/es/usos/planificar-viajes',
+  },
+  '/alternatives/instapaper': {
+    es: '/es/alternativas/instapaper',
+  },
+  '/alternatives/evernote-web-clipper': {
+    es: '/es/alternativas/evernote',
+  },
+  '/alternatives/notion-web-clipper': {
+    es: '/es/alternativas/notion',
+  },
+  '/research-organizer': {
+    es: '/es/usos/organizar-investigacion',
+  },
+  '/watch-later': {
+    es: '/es/usos/guardar-videos-youtube',
+  },
 };
 
 /** Locale roots, for the footer language selector. */
