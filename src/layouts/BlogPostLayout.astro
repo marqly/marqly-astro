@@ -63,8 +63,13 @@ const breadcrumb = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.marqly.com/' },
-    { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.marqly.com/blog' },
+    { '@type': 'ListItem', position: 1, name: ui.home, item: 'https://www.marqly.com/' },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: ui.blog,
+      item: `https://www.marqly.com${lang === 'en' ? '/blog' : `/${lang}/blog`}`,
+    },
     { '@type': 'ListItem', position: 3, name: data.title, item: url },
   ],
 };
@@ -124,7 +129,7 @@ const jsonLd = [blogPosting, breadcrumb, softwareApp, organization(), ...(faqPag
   <article class="post">
     <header class="post-header">
       <nav class="crumbs" aria-label="Breadcrumb">
-        <a href="/">{ui.home}</a><span>/</span><a href="/blog">{ui.blog}</a>
+        <a href="/">{ui.home}</a><span>/</span><a href={lang === 'en' ? '/blog' : `/${lang}/blog`}>{ui.blog}</a>
       </nav>
       <p class="kicker">{data.category}</p>
       <h1>{data.title}</h1>

@@ -56,6 +56,9 @@ export const TRANSLATIONS: Record<string, Partial<Record<Locale, string>>> = {
   '/blog/best-pocket-alternatives-2026': {
     de: '/de/blog/pocket-alternativen-2026',
   },
+  '/blog': {
+    de: '/de/blog',
+  },
 };
 
 export interface Alternate {
