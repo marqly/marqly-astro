@@ -1,0 +1,123 @@
+---
+// Central CTA instrumentation. One capture-phase click listener covers every
+// app-bound and store-bound anchor on the site, so individual components stay
+// untouched. It does two things:
+//   1. fires `cta_clicked` / `store_clicked` into the marketing Mixpanel
+//      project (same raw-fetch transport as YouCalPromo — no dependency on
+//      the deferred mixpanel bundle, survives navigation via keepalive) and
+//      mirrors `cta_clicked` to GA4 when gtag is present;
+//   2. stamps app-bound links with `?src=www_<placement>` so the app side can
+//      attribute signups to the CTA that sent them (the app's auth events read
+//      `src` — see apps/web lib/analytics.ts authStarted).
+// Placement is the nearest `section[id]`, else nav/footer, else the pathname.
+---
+<script is:inline>
+  (function () {
+    if (!/(^|\.)marqly\.com$/.test(location.hostname)) return;
+    var MP_TOKEN = "47624f6de4f0c18b32a5bab6eaf1bde1";
+    var STORE_HOSTS = [
+      "chromewebstore.google.com",
+      "addons.mozilla.org",
+      "microsoftedge.microsoft.com",
+      "apps.apple.com",
+    ];
+
+    function deviceId() {
+      try {
+        // Prefer the autocapture library's identity when its cookie exists so
+        // these events join the same Mixpanel profile.
+        var m = document.cookie.match(new RegExp("mp_" + MP_TOKEN + "_mixpanel=([^;]+)"));
+        if (m) {
+          var j = JSON.parse(decodeURIComponent(m[1]));
+          if (j && j.distinct_id) return j.distinct_id;
+        }
+      } catch (e) {}
+      try {
+        var k = "marqly_cta_device_id";
+        var v = localStorage.getItem(k);
+        if (!v) {
+          v = window.crypto && crypto.randomUUID ? crypto.randomUUID() : String(Date.now()) + Math.random().toString(36).slice(2);
+          localStorage.setItem(k, v);
+        }
+        return v;
+      } catch (e) {
+        return "anon";
+      }
+    }
+
+    function send(event, props) {
+      try {
+        var payload = {
+          event: event,
+          properties: Object.assign(
+            {
+              token: MP_TOKEN,
+              distinct_id: deviceId(),
+              source: "marketing_site",
+              path: location.pathname,
+            },
+            props || {}
+          ),
+        };
+        fetch("https://api-js.mixpanel.com/track/?ip=1", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: "data=" + encodeURIComponent(btoa(unescape(encodeURIComponent(JSON.stringify(payload))))),
+          keepalive: true,
+        }).catch(function () {});
+      } catch (e) {}
+    }
+
+    function slug(s) {
+      return String(s || "").trim().toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, "").slice(0, 40);
+    }
+
+    function placementOf(a) {
+      var sec = a.closest("section[id]");
+      if (sec && sec.id) return slug(sec.id);
+      if (a.closest("nav")) return "nav";
+      if (a.closest("footer")) return "footer";
+      return location.pathname === "/" ? "home" : slug(location.pathname);
+    }
+
+    document.addEventListener(
+      "click",
+      function (e) {
+        var a = e.target && e.target.closest ? e.target.closest("a[href]") : null;
+        if (!a) return;
+        var url;
+        try {
+          url = new URL(a.href);
+        } catch (err) {
+          return;
+        }
+
+        var isApp = url.hostname === "app.marqly.com";
+        var isStore = STORE_HOSTS.indexOf(url.hostname) !== -1;
+        if (!isApp && !isStore) return;
+
+        var placement = placementOf(a);
+        var cta = (a.dataset && a.dataset.cta) || slug(a.textContent) || "link";
+
+        if (isApp) {
+          // Stamp src before navigation; never clobber one set upstream
+          // (e.g. the pricing toggle sets src + billing itself).
+          if (!url.searchParams.has("src")) {
+            url.searchParams.set("src", "www_" + placement);
+            a.href = url.toString();
+          }
+          send("cta_clicked", { cta_id: cta, placement: placement, target: url.origin + url.pathname });
+        } else {
+          send("store_clicked", { cta_id: cta, placement: placement, target: url.hostname });
+        }
+
+        if (typeof window.gtag === "function") {
+          try {
+            window.gtag("event", isApp ? "cta_clicked" : "store_clicked", { cta_id: cta, placement: placement });
+          } catch (err) {}
+        }
+      },
+      true
+    );
+  })();
+</script>

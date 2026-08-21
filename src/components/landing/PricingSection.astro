@@ -90,6 +90,7 @@ const SAVE_LABEL = 'Save 33%';
         </ul>
         <a
           href={APP_URL}
+          data-cta="pricing_free"
           class="mt-7 flex h-11 items-center justify-center rounded-3xl bg-default text-[15px] font-medium text-foreground transition-colors hover:bg-default/70"
         >
           Get Marqly free
@@ -125,6 +126,8 @@ const SAVE_LABEL = 'Save 33%';
         <p class="mt-6 mb-2.5 text-center text-[12px] text-white/55">Cancel anytime.</p>
         <a
           href={APP_URL}
+          data-cta="pricing_pro"
+          data-pricing-cta="pro"
           class="flex h-11 items-center justify-center rounded-3xl bg-white text-[15px] font-medium text-ink transition-transform active:scale-[0.97]"
         >
           Start the free trial
@@ -145,6 +148,19 @@ const SAVE_LABEL = 'Save 33%';
     const buttons = toggle.querySelectorAll('[data-billing-btn]');
     const ACTIVE = ['bg-surface', 'text-foreground', 'shadow-surface'];
 
+    // The toggle's choice used to be lost at the hop to the app — the CTA
+    // carries it now so checkout can preselect the billing cycle.
+    const carryBilling = (key) => {
+      const proCta = section.querySelector('[data-pricing-cta="pro"]');
+      if (!proCta) return;
+      try {
+        const url = new URL(proCta.href);
+        url.searchParams.set('billing', key);
+        url.searchParams.set('src', 'www_pricing');
+        proCta.href = url.toString();
+      } catch {}
+    };
+
     const apply = (key) => {
       const price = PRICE[key];
       if (!price) return;
@@ -157,10 +173,15 @@ const SAVE_LABEL = 'Save 33%';
         button.classList.toggle('text-muted', !isActive);
         ACTIVE.forEach((cls) => button.classList.toggle(cls, isActive));
       });
+      carryBilling(key);
     };
 
     buttons.forEach((button) => {
       button.addEventListener('click', () => apply(button.dataset.billingBtn));
     });
+
+    // Stamp the server-rendered default onto the CTA too.
+    const initial = [...buttons].find((b) => b.getAttribute('aria-pressed') === 'true');
+    if (initial) carryBilling(initial.dataset.billingBtn);
   }
 </script>
