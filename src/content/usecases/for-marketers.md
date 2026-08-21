@@ -28,7 +28,7 @@ A swipe file only compounds if adding to it costs nothing. With Marqly, the cost
 
 The highlighter adds precision for copy specifically. When one headline or one CTA microcopy line is the reason you saved a page, highlight it and note why — "urgency without a countdown timer," "objection handling in the subhead." Highlights sync to your library and are searchable on their own, so your best-copy collection is a stream of exact lines, not a pile of full pages to re-skim.
 
-Competitor pages have one more failure mode: they change. Save-as-PDF captures a page as a clean PDF matching the on-screen layout — lazy-loaded images included, processed locally in your browser — so the version of a rival's pricing page you analyzed stays on record after they've A/B-tested it away.
+Competitor pages have one more failure mode: they change. Save-as-PDF captures a page as a clean PDF matching the on-screen layout — lazy-loaded images included, processed locally in your browser — so the version of a rival's pricing page you analyzed stays on record after they've A/B-tested it away. Creator budgets benefit from the same paper trail: benchmark what a partnership should cost with a [UGC rate explorer](https://viewinsta.com/rate-explorer), then save the figure alongside the campaign brief so next quarter's negotiation isn't starting from scratch.
 
 ## Retrieval that keeps up with campaign season
 

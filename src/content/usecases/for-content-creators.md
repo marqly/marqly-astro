@@ -38,6 +38,8 @@ Trend research has a short half-life; whatever you save on Monday needs to be fi
 
 AI summaries speed up the weekly sweep — triage a batch of saved trend posts and industry pieces in minutes, then read only what earns it. And Pro's chat with your saves is effectively a research assistant scoped to your own library: ask what angles you've already collected on a topic before you pitch yourself the same video twice.
 
+Rate research deserves the same treatment. When a brand deal lands in your inbox, a [UGC rate calculator](https://viewinsta.com/ugc-rate-calculator) gives you a defensible starting number — save it next to the brief and your past quotes, and the next negotiation starts from evidence instead of a guess.
+
 Research also happens wherever the feed finds you. The iOS app and web app share one library with the extension, so the reference you save from your phone at midnight is searchable from your desktop the next morning. During writing sessions, the extension's side panel earns its keep: search the swipe file in a panel beside your draft instead of alt-tabbing between the doc and a wall of reference tabs.
 
 Boards keep active projects separate from the archive: one board per video or series, holding its references, highlights, and source links. A board can also be shared as a public page viewable without signup — a clean way to publish a "sources and further reading" link for your audience, or send a sponsor the research behind a claim.

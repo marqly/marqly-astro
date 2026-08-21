@@ -34,7 +34,7 @@ The share angle is genuinely useful for client work: any board becomes a public 
 
 Live URLs are a fragile medium for design references — sites get redesigned, and the redesign is usually why you saved them. Marqly's save-as-PDF captures any page as a clean PDF matching the on-screen layout, with lazy-loaded images included, processed locally in your browser. The version of the page that impressed you is preserved even after the site changes underneath the link.
 
-If the pattern you want to keep is interaction-heavy — a scroll-triggered animation, a stepped signup flow — save the live URL and the PDF together on the same board: the PDF holds the layout, the link holds the behavior for as long as it lasts.
+If the pattern you want to keep is interaction-heavy — a scroll-triggered animation, a stepped signup flow — save the live URL and the PDF together on the same board: the PDF holds the layout, the link holds the behavior for as long as it lasts. Spec references age the same way — platform crop and safe-zone rules shift every year, so keep a current [social media dimensions guide](https://viewinsta.com/social-media-dimensions-guide) on the board rather than trusting the numbers in a two-year-old template.
 
 For the reading side of design — process write-ups, critique, systems thinking — the highlighter earns its place. Mark the paragraph where a designer explains *why* the rebrand dropped the mascot, in one of six colors, with a note attached. Highlights persist on the page when you revisit and sync into your library, so the insight is retrievable separately from the 4,000-word essay wrapped around it.
 

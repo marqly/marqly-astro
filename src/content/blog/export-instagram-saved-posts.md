@@ -86,7 +86,7 @@ That's the whole record. **No caption. No image. No video. No note about why you
 
 Two consequences worth absorbing now:
 
-1. **A deleted post is gone.** Your export preserves the URL of something that no longer exists — an argument for exporting sooner rather than later.
+1. **A deleted post is gone.** Your export preserves the URL of something that no longer exists — an argument for exporting sooner rather than later. For saves from public accounts, [how to archive Instagram content](https://viewinsta.com/blog/how-to-archive-instagram-content) covers what's still recoverable once a link goes dead — and what genuinely isn't.
 2. **A link list isn't a library.** Two thousand `instagram.com/p/...` URLs with timestamps tells you nothing about which one was the sourdough method that worked.
 
 So the export is raw material. Step 4 is where it becomes useful.
