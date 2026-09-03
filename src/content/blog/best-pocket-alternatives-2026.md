@@ -59,7 +59,7 @@ The Pocket alternatives split into three groups: AI-native tools that search by 
 
 | Tool | Best for | Free tier | AI / semantic search | Imports Pocket | Price |
 |---|---|---|---|---|---|
-| **Marqly** | AI search + second brain | Yes | ✅ Semantic | ✅ Yes | Free; Pro $72/yr (~$6/mo) or $9/mo |
+| **Marqly** | AI search + second brain | Yes (last 100 saves) | ✅ Semantic (Pro) | ✅ Yes | Free; Pro $72/yr (~$6/mo) or $9/mo |
 | Raindrop.io | Free general-purpose saving | Generous | ❌ Keyword only | ✅ Yes | Free; Pro ~$3/mo |
 | Instapaper | Minimalist reading | Yes | ❌ Keyword only | ✅ Yes | Free; Premium ~$3/mo |
 | Readwise Reader | Power readers + highlights | No (trial) | ✅ Yes | ✅ Yes | ~$10–12/mo |

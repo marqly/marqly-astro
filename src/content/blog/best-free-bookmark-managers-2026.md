@@ -16,7 +16,7 @@ ctaUrl: "https://app.marqly.com"
 ctaLabel: "Try Marqly free"
 faqs:
   - q: "What is the best free bookmark manager in 2026?"
-    a: "Raindrop.io has the most generous classic free tier — unlimited bookmarks and collections on every platform. Marqly's free tier is the best if you want AI: auto-tagging and semantic search without paying. Linkwarden and Karakeep are the best genuinely free options if you'll self-host, and browser bookmarks remain a fine baseline."
+    a: "Raindrop.io has the most generous classic free tier — unlimited bookmarks and collections on every platform. Marqly's free tier is the best if you want AI: auto-tagging and summaries on every save without paying, though it caps you at your 100 most recent bookmarks and keeps semantic search for Pro. Linkwarden and Karakeep are the best genuinely free options if you'll self-host, and browser bookmarks remain a fine baseline."
   - q: "Is Raindrop.io really free?"
     a: "Yes. Raindrop's free plan includes unlimited bookmarks, collections, and tags across all its apps, with no time limit. Pro ($28/year) adds full-text search, permanent page copies, AI tag suggestions, and a duplicate finder — but the free tier is a complete product, which is rare in this category."
   - q: "What's the best free self-hosted bookmark manager?"
@@ -25,14 +25,14 @@ faqs:
     a: "For a few dozen links, yes — Chrome, Firefox, Safari, and Edge bookmarks are free, instant, and sync within their own ecosystem. They break down at scale: folder-only organization, title-only search, no content capture, and no way to find a page by describing it. Every tool in this roundup exists because of those four gaps."
 ---
 
-**The short answer:** the best free bookmark manager in 2026 depends on what "free" needs to include. **Raindrop.io** has the most generous classic free tier — unlimited bookmarks, collections, and apps on every platform. **Marqly** is the best free option with AI — auto-tagging and semantic search on its free tier, no card required. **Linkwarden** and **Karakeep** are free-forever if you're willing to self-host, and **your browser's built-in bookmarks** are the baseline that's fine until it isn't. None of these are trials wearing a costume; all five are genuinely usable at $0.
+**The short answer:** the best free bookmark manager in 2026 depends on what "free" needs to include. **Raindrop.io** has the most generous classic free tier — unlimited bookmarks, collections, and apps on every platform. **Marqly** is the best free option with AI — auto-tagging and AI summaries on every save, no card required, though the free tier covers only your 100 most recent bookmarks and semantic search is a Pro feature. **Linkwarden** and **Karakeep** are free-forever if you're willing to self-host, and **your browser's built-in bookmarks** are the baseline that's fine until it isn't. None of these are trials wearing a costume; all five are genuinely usable at $0.
 
 Worth saying out loud: the era of "just use Pocket" is over — Mozilla shut Pocket down in 2025, which is why the [Pocket alternatives conversation](/blog/best-pocket-alternatives-2026) got loud and why free tiers matter more than ever as landing spots.
 
 | Tool | Free tier | AI (tagging/search) | Self-host | Platforms | Paid upgrade (verified Aug 2026) |
 | --- | --- | --- | --- | --- | --- |
 | **Raindrop.io** | ✅ Unlimited bookmarks & collections | ❌ Keyword search on free | ❌ | Web, mobile, extensions | Pro $28/yr |
-| **Marqly** | ✅ Free tier, no card | ✅ Auto-tagging + semantic search | ❌ | Web, iOS, Chrome/Edge/Firefox/Safari | Pro $72/yr (~$6/mo) |
+| **Marqly** | ⚠️ Free tier, no card, last 100 saves | ✅ Auto-tagging + summaries free; semantic search is Pro | ❌ | Web, iOS, Chrome/Edge/Firefox/Safari | Pro $72/yr (~$6/mo) |
 | **Linkwarden** | ✅ Free if self-hosted | ⚠️ Optional AI tagging | ✅ Open source (AGPL) | Web, iOS, Android, extensions | Cloud $3/user/mo |
 | **Karakeep** | ✅ Free if self-hosted | ✅ LLM tagging + semantic search (bring your own key) | ✅ Open source | Web, iOS, Android, extensions | Server costs only |
 | **Browser bookmarks** | ✅ Built in | ❌ | — | Their own ecosystem | — |
@@ -59,7 +59,9 @@ The honest caveat is what's *not* in the free tier: **full-text search, permanen
 
 ## Marqly — the best free tier with real AI
 
-Marqly's free tier includes the parts other tools charge for or don't have: **AI auto-tagging** on every save and **semantic search** — find a bookmark by describing what you remember ("the article about pricing psychology for indie apps") rather than recalling its title. The extension adds one-click saving, a save-all-tabs button, a 6-color highlighter, and a YouTube summary card; sign-up requires no card. We build Marqly, so weigh this section accordingly — but those free-tier facts are checkable in two minutes.
+Marqly's free tier includes the parts other tools charge for or don't have: **AI auto-tagging** and an **AI summary** on every save, with no card and no manual filing. The extension adds one-click saving, a save-all-tabs button, a 6-color highlighter, and a YouTube summary card.
+
+Two limits belong in the same paragraph, because a roundup that hides them isn't worth reading. The free tier gives you access to your **100 most recent bookmarks** — older saves are kept, not deleted, but reading them needs Pro — and **semantic search is a Pro feature**, not a free one. If unlimited free storage is the requirement, Raindrop is the better answer and it's above for that reason. We build Marqly, so weigh this section accordingly — but those free-tier facts are checkable in two minutes.
 
 Where Raindrop free beats Marqly free: raw collecting at unlimited scale with a mature app on every platform, including Android (Marqly has no Android app; the web app covers Android browsers). Marqly's free tier also has a real cap worth knowing: it stores up to 2,000 bookmarks, but only the 100 most recent stay accessible until you upgrade. Where Marqly free beats Raindrop free: everything AI. Pro is $72/year (~$6/month) or $9/month with a 7-day trial, and lifts the 100-bookmark limit.
 

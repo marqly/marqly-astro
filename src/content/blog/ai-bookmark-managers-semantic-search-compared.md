@@ -62,7 +62,7 @@ The table below scores eight tools on the one axis that defines an *AI* bookmark
 
 | Tool | Real semantic search? | What its "AI" actually is | Free tier |
 | --- | --- | --- | --- |
-| **Marqly** | ✅ Yes — built around it | Meaning-based search across your whole library, plus auto-tags and summaries | ✅ Yes |
+| **Marqly** | ✅ Yes — built around it (Pro) | Meaning-based search across your whole library on Pro; auto-tags and summaries on every plan | ✅ Yes (last 100 saves; semantic search is Pro) |
 | **mymind** | ⚠️ Partial | Auto-tagging + visual recall + smart "spaces"; retrieval leans on tags, not paraphrase | ❌ No (~$8/mo) |
 | **Recall** | ⚠️ Partial | Summaries + a knowledge graph + chat over saves; retrieval is more browse-and-ask than search | ✅ Limited |
 | **Readwise Reader** | ⚠️ Partial | Chat/"Ghostreader" AI over documents on top of keyword search and highlighting | ❌ Trial only (~$10–13/mo) |
