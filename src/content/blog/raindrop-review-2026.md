@@ -104,7 +104,7 @@ Honest table — Raindrop wins several rows outright:
 | Search | Keyword + full-text (Pro) | **Semantic — find saves by describing them** |
 | Auto-tagging | AI suggestions at save time (Pro) | **Automatic on every save** |
 | AI summaries | No | **Yes** |
-| Chat with your saves | AI assistant (Pro) | Yes (Pro) |
+| AI Q&A over your saves | AI assistant (Pro) | Yes (Pro) |
 | YouTube | Transcript included in Pro search | **AI summary, chat, and transcript on the watch page** |
 | Highlights | On saved copies, unlimited | On the live page, 6 colors, persist on revisit |
 | Switching cost | — | **Marqly imports Raindrop collections directly** |

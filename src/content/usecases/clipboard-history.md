@@ -15,7 +15,7 @@ faqs:
   - q: "Does it capture things I copy outside the browser?"
     a: "No. Clipboard History captures text you copy from webpages while you're browsing. It's a browser extension, not a system-wide clipboard manager, so text copied in a desktop app like Word or a code editor doesn't reach it. If your snippets come from the web, that's exactly the material it keeps."
   - q: "Do my clipboard items sync between computers?"
-    a: "Capture works locally in the browser on any plan. Marqly Pro adds account sync for clipboard items, so the snippets you copied on your desktop are there on your laptop. Pro is $72/year or $9/month with a 3-day free trial."
+    a: "Capture works locally in the browser on any plan. Marqly Pro adds account sync for clipboard items, so the snippets you copied on your desktop are there on your laptop. Pro is $72/year or $9/month with a 7-day free trial."
   - q: "How is this different from highlighting a page?"
     a: "Clipboard History keeps loose text you copied, with no attachment to where it came from — snippets you're about to paste somewhere. Highlights stay bound to the page: they render in place when you revisit the article and carry any note you attached. Use the clipboard for text in transit, highlights for passages you want to find again in context."
   - q: "Can I organize the snippets I keep?"
@@ -66,7 +66,7 @@ Clipboard History is available in the **Chrome and Microsoft Edge extensions onl
 
 One more boundary worth stating up front: it captures what you copy **from webpages in the browser.** It is not a system-wide clipboard manager, so text you copy in a desktop app doesn't appear in it.
 
-On sync: capture works in the browser on any plan, and **Marqly Pro adds account sync for clipboard items**, so what you copied on one machine is available on the other. Pro is $72/year or $9/month with a 3-day trial; the split is laid out in [what's in Marqly free vs Pro](/faq/whats-in-marqly-free-vs-pro).
+On sync: capture works in the browser on any plan, and **Marqly Pro adds account sync for clipboard items**, so what you copied on one machine is available on the other. Pro is $72/year or $9/month with a 7-day trial; the split is laid out in [what's in Marqly free vs Pro](/faq/whats-in-marqly-free-vs-pro).
 
 ## Getting started
 

@@ -1,6 +1,6 @@
 # Marqly
 
-> Marqly is an AI bookmark manager: save articles, videos, and links from any browser, let AI tag and summarize them automatically, then find any save by describing what you remember — semantic search by meaning, not keywords. Free tier; Pro is $72/year (about $6/month billed annually) with a 3-day free trial. Runs as a browser extension (Chrome, Edge, Firefox, Safari), a web app at app.marqly.com, and an iOS app.
+> Marqly is an AI bookmark manager: save articles, videos, and links from any browser, let AI tag and summarize them automatically, then find any save by describing what you remember — semantic search by meaning, not keywords. Free tier (stores up to 2,000 bookmarks, with the 100 most recent accessible); Pro lifts that cap and is $72/year (about $6/month billed annually) with a 7-day free trial. Runs as a browser extension (Chrome, Edge, Firefox, Safari), a web app at app.marqly.com, and an iOS app.
 
 Key facts:
 - The browser extension is the core of the product: one-click save, AI auto-tagging, tab sessions, in-page highlighter, save-page-as-PDF, and an AI card on YouTube.

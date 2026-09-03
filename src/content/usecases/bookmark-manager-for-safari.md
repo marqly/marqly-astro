@@ -34,7 +34,7 @@ Capture is built to be effortless too: saving a page is one click, tags are opti
 
 On your iPhone, the [Marqly iOS app](https://apps.apple.com/us/app/marqly-ai-bookmark-manager/id6758905385) carries the same library natively — details in [our iOS FAQ](/faq/is-there-an-ios-app). The pairing matters because Safari usage is split across Mac and iPhone more than any other browser's; Marqly keeps both halves in one account rather than treating mobile as an afterthought.
 
-Then there's retrieval, the part Safari never attempts: semantic search finds saves by meaning — "that piece about attention and note-taking" — matching across titles, content, highlights, and transcripts. Our guide to [searching bookmarks with AI](/blog/how-to-search-bookmarks-with-ai) shows the difference against a real backlog. On Pro, chat with your saves answers questions from your own saved content.
+Then there's retrieval, the part Safari never attempts: semantic search finds saves by meaning — "that piece about attention and note-taking" — matching across titles, content, highlights, and transcripts. Our guide to [searching bookmarks with AI](/blog/how-to-search-bookmarks-with-ai) shows the difference against a real backlog. On Pro, AI Q&A over your saves answers questions from your own saved content.
 
 ## Your library, outside Safari too
 
@@ -42,7 +42,7 @@ The account model is the escape hatch from iCloud's boundary. Everything you sav
 
 Migration is one file: Safari exports bookmarks to standard HTML (File → Export → Bookmarks), and Marqly imports that format directly, then AI-tags the whole backlog — years of Safari folders become findable by description in one sitting. Pocket exports and Raindrop.io collections import as well, if your links are scattered further afield.
 
-The cost of trying all this is zero: the free tier requires no card. Pro — $72 a year (about $6 a month billed annually) or $9 month to month, with a 3-day free trial — unlocks features like chatting with your saves: ask a question, get an answer drawn from your own saved content.
+The cost of trying all this is zero: the free tier requires no card. Pro — $72 a year (about $6 a month billed annually) or $9 month to month, with a 7-day free trial — unlocks features like AI Q&A over your saves: ask a question, get an answer drawn from your own saved content.
 
 ## Getting started
 

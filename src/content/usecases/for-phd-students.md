@@ -11,11 +11,11 @@ hero:
 updatedDate: 2026-08-02
 faqs:
   - q: "Can I ask questions across my saved papers?"
-    a: "Yes, on Pro. Chat with your saves answers questions from the content of what you've stored — saved pages, highlights, and video transcripts. Ask which of your sources addressed a specific limitation, or where you saw a particular framework applied, and get an answer grounded in your own reading rather than the open web. It works on top of whatever your review corpus contains."
+    a: "Yes, on Pro. AI Q&A over your saves answers questions from the content of what you've stored — saved pages, highlights, and video transcripts. Ask which of your sources addressed a specific limitation, or where you saw a particular framework applied, and get an answer grounded in your own reading rather than the open web. It works on top of whatever your review corpus contains."
   - q: "Does Marqly replace Zotero or Mendeley for a PhD?"
     a: "No, and it doesn't try to. Reference managers handle citation metadata and bibliography formatting, which you'll still need for the thesis. Marqly handles the layer they neglect: remembering what each source actually said. It keeps your highlights, auto-tags everything, and retrieves sources from a vague description. Run both — they touch different stages of the same review."
   - q: "How much does Marqly cost on a PhD budget?"
-    a: "There's a free tier with no card required, so you can build the habit before paying anything. Pro — which adds chat with your saves and chat with YouTube transcripts — is $72/year, which works out to about $6/month billed annually, or $9/month on the monthly plan. Every account starts with a 3-day free trial of Pro."
+    a: "There's a free tier with no card required, so you can build the habit before paying anything. Pro — which adds AI Q&A over your saves and chat with YouTube transcripts — is $72/year, which works out to about $6/month billed annually, or $9/month on the monthly plan. Every account starts with a 7-day free trial of Pro."
 ---
 
 Somewhere between year one and the confirmation milestone, every PhD student's literature review stops fitting in their head. Two hundred sources in, you no longer have a reading problem — you have a memory problem. Was it Kaplan or Kap-something who found the effect reversed in longitudinal data? Which of the four papers on your "definitely cite" list actually addressed the measurement critique? The review chapter isn't hard because reading is hard; it's hard because retrieval degrades exactly as the corpus grows.
@@ -30,7 +30,7 @@ Boards give the review its macro-structure. Make one per chapter section or per 
 
 ## Chat with what you've read
 
-The distinctive Pro feature for literature-review work is chat with your saves: questions answered from your saved content. This turns the corpus from a pile into something you can query in natural language. In practice, PhD-shaped questions look like:
+The distinctive Pro feature for literature-review work is AI Q&A over your saves: questions answered from your saved content. This turns the corpus from a pile into something you can query in natural language. In practice, PhD-shaped questions look like:
 
 - "Which of my saved sources used administrative data rather than surveys?"
 - "Where did I save something criticizing the standard operationalization of burnout?"

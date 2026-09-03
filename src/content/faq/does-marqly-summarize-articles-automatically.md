@@ -21,7 +21,7 @@ On every YouTube watch page, Marqly's extension adds an AI card. The Summary tab
 
 ## Beyond summaries: ask questions
 
-A summary tells you what's in a save; sometimes you want a specific answer out of it. On the Pro plan you can [chat with your saved content](/faq/how-do-i-chat-with-my-saved-articles) — ask a question and get an answer drawn from the articles and videos you've saved, instead of re-reading them yourself.
+A summary tells you what's in a save; sometimes you want a specific answer out of it. On the Pro plan you can [ask AI about your saved content](/faq/how-do-i-chat-with-my-saved-articles) — ask a question and get an answer drawn from the articles and videos you've saved, instead of re-reading them yourself.
 
 ## How much should you trust them
 

@@ -15,7 +15,7 @@ faqs:
   - q: "How does Marqly keep competitor research organized?"
     a: "Automatically. Every save gets AI auto-tags the moment you capture it, so competitor pricing pages, launch announcements, and ad landing pages sort themselves without a folder system. The tab saver captures an entire research session's tabs at once, and semantic search later retrieves any of it from a description like 'the rebrand announcement that leaned on customer stories.'"
   - q: "What does Marqly cost for a marketer testing it out?"
-    a: "Nothing to start — the free tier requires no card at signup. Pro runs $72/year (about $6/month billed annually) or $9/month billed monthly, and adds chat with your saves and chat with YouTube video transcripts. Every new account includes a 3-day free trial of Pro, so you can evaluate the full feature set against a real campaign cycle before paying."
+    a: "Nothing to start — the free tier requires no card at signup. Pro runs $72/year (about $6/month billed annually) or $9/month billed monthly, and adds AI Q&A over your saves and chat with YouTube video transcripts. Every new account includes a 7-day free trial of Pro, so you can evaluate the full feature set against a real campaign cycle before paying."
 ---
 
 Marketers consume more of their competitors' output than anyone: landing pages, launch emails, ad creative, pricing experiments, LinkedIn posts that inexplicably worked. All of it is reference material — until you need it. The pricing page you screenshotted got redesigned before the teardown meeting. The subject line you meant to steal is in a newsletter you can't find. The "inspiration" Slack channel is a landfill nobody searches. Curation without retrieval is just hoarding with extra steps.
@@ -34,7 +34,7 @@ Competitor pages have one more failure mode: they change. Save-as-PDF captures a
 
 The payoff moment comes at planning time: "what was that B2B campaign built entirely around a calculator?" Marqly's semantic search answers questions phrased exactly like that, matching meaning across titles, page content, highlights, and video transcripts rather than keywords. The competitor comparison you half-remember from Q1 comes back in seconds; technique examples are in the wider roundup of [the best AI bookmark managers of 2026](/blog/best-ai-bookmark-manager-2026).
 
-The side-panel library keeps research inside the flow of browsing — while you're on a competitor's site, you can check what you've already captured from them without opening another tab. AI summaries compress the industry-reading treadmill — save the week's think pieces, skim the summaries, deep-read the two that matter. And on Pro, chat with your saves works like a strategist with perfect recall of your research: "what have I saved about pricing page psychology?" gets an answer sourced from your own library.
+The side-panel library keeps research inside the flow of browsing — while you're on a competitor's site, you can check what you've already captured from them without opening another tab. AI summaries compress the industry-reading treadmill — save the week's think pieces, skim the summaries, deep-read the two that matter. And on Pro, AI Q&A over your saves works like a strategist with perfect recall of your research: "what have I saved about pricing page psychology?" gets an answer sourced from your own library.
 
 ## Curate once, share as a page
 

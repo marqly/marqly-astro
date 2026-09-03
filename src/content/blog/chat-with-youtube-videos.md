@@ -20,7 +20,7 @@ faqs:
   - q: "Are the answers accurate, or does the AI make things up?"
     a: "Answers are grounded in the video's transcript, which means the AI is restricted to what was actually said instead of guessing from general knowledge. If the video never mentions your topic, a grounded chat says so rather than inventing an answer. That's the key difference between transcript-grounded chat and pasting a video link into a general chatbot."
   - q: "Is chatting with YouTube videos free in Marqly?"
-    a: "Chat is part of Marqly Pro, which costs $72 per year — about $6 per month billed annually — with a 3-day free trial, so you can test it on real videos before paying. Video summaries have a free tier, and installing the extension is free on Chrome, Edge, Firefox, and Safari."
+    a: "Chat is part of Marqly Pro, which costs $72 per year — about $6 per month billed annually — with a 7-day free trial, so you can test it on real videos before paying. Video summaries have a free tier, and installing the extension is free on Chrome, Edge, Firefox, and Safari."
   - q: "Can I save a YouTube video and chat with it later?"
     a: "Yes. Marqly adds a Bookmark button to YouTube's action row that saves the video to your library with the transcript attached. You can find it later by describing what you remember, and because chat works alongside your saved articles, your library becomes something you can question instead of just store."
 heroImage: ../../assets/blog/chat-with-youtube-videos.png
@@ -76,7 +76,7 @@ Answers are grounded in that video's transcript, so they reflect what was actual
 
 The other two tabs round out the workflow. The Summary tab streams a TL;DR plus structured sections in seconds — useful for triage before you even have a question (here's [how AI YouTube summaries work](/blog/summarize-youtube-videos-with-ai)). The Transcript tab is synced to playback, so when an answer points you at a claim, you can jump into the transcript and hear it in context.
 
-Pricing, plainly: Chat is a Marqly Pro feature — 3-day free trial, then $72/year, which works out to about $6/month billed annually. Summaries have a free tier, so the card is useful before you pay anything.
+Pricing, plainly: Chat is a Marqly Pro feature — 7-day free trial, then $72/year, which works out to about $6/month billed annually. Summaries have a free tier, so the card is useful before you pay anything.
 
 ## What questions should you ask a YouTube video?
 
@@ -117,6 +117,6 @@ And if your Watch Later list is where videos currently go to die, there's [a bet
 
 "Can I chat with a YouTube video?" has a simple answer in 2026: yes — and the chat should live next to the player, not in another tab with a pasted transcript. Install the extension, open any video, and ask the question you'd otherwise scrub for.
 
-[Install the free extension](https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc) — it works on Chrome, Edge, Firefox, and Safari. Summaries are free, and Chat comes with a 3-day free trial, so you can test it on a real video before paying a cent.
+[Install the free extension](https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc) — it works on Chrome, Edge, Firefox, and Safari. Summaries are free, and Chat comes with a 7-day free trial, so you can test it on a real video before paying a cent.
 
 *Related: [How to summarize YouTube videos with AI](/blog/summarize-youtube-videos-with-ai) · [How to get a YouTube video's transcript](/blog/how-to-get-youtube-video-transcript)*

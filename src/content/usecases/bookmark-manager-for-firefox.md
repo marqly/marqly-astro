@@ -43,7 +43,7 @@ After that, the library is browser-independent: your account [syncs across devic
 ## Getting started
 
 1. Open [Marqly on Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/marqly/) and click "Add to Firefox" — setup notes live in [our Firefox FAQ](/faq/does-marqly-work-on-firefox).
-2. Sign up free at [app.marqly.com](https://app.marqly.com); no card required. Pro — $72 a year (about $6 a month billed annually) or $9 monthly, 3-day free trial — unlocks extras like chatting with your saves.
+2. Sign up free at [app.marqly.com](https://app.marqly.com); no card required. Pro — $72 a year (about $6 a month billed annually) or $9 monthly, 7-day free trial — unlocks extras like AI Q&A over your saves.
 3. Export your Firefox bookmarks to HTML and import them so the AI can organize your backlog.
 4. Tomorrow, search for something you saved by describing it — that first successful vague search is the moment the tool proves itself.
 

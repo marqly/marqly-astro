@@ -21,7 +21,7 @@ faqs:
   - q: "Will it replace my current new tab page?"
     a: "Yes, that's how new-tab extensions work: install Marqly's extension and enable Marqly Home, and it takes over the page you get when you open a tab. Only one extension can own the new tab at a time, so you'd be swapping out whatever you use now."
   - q: "Does it cost anything?"
-    a: "No. The New Tab dashboard is part of the Marqly extension and the free plan is a working setup, not a demo. Pro — $72/year or $9/month with a 3-day free trial — adds chat with your saves and other extras, but the dashboard itself isn't what you're paying for."
+    a: "No. The New Tab dashboard is part of the Marqly extension and the free plan is a working setup, not a demo. Pro — $72/year or $9/month with a 7-day free trial — adds AI Q&A over your saves and other extras, but the dashboard itself isn't what you're paying for."
 ---
 
 The default new tab page is a search box and a grid of thumbnails you didn't choose. You open it dozens of times a day, and it gives you nothing back — which is why the whole category of new tab extensions exists, and why most of them stop at a pretty photograph.

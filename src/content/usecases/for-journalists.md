@@ -40,7 +40,7 @@ Video sources get equivalent treatment. Press conferences, hearings, and intervi
 
 Follow-ups are where retrieval earns its keep. Marqly's semantic search works by meaning, across titles, page content, your highlights, and video transcripts — so "the analyst who predicted the merger would face review" finds the piece even when you can't name the analyst, the outlet, or the month. It's the difference described in [what is semantic search](/faq/what-is-semantic-search), and the practical query technique lives in [how to search bookmarks with AI](/blog/how-to-search-bookmarks-with-ai).
 
-Boards keep concurrent stories from bleeding together: one board per investigation or beat, holding its links and highlights. And on Pro, chat with your saves answers questions from your own accumulated sourcing — "what did my saved coverage say about the 2024 audit?" — grounded in material you've already vetted, not the open web.
+Boards keep concurrent stories from bleeding together: one board per investigation or beat, holding its links and highlights. And on Pro, AI Q&A over your saves answers questions from your own accumulated sourcing — "what did my saved coverage say about the 2024 audit?" — grounded in material you've already vetted, not the open web.
 
 ## Getting started
 

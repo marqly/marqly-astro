@@ -15,7 +15,7 @@ faqs:
   - q: "What exactly is in the summary?"
     a: "Three things: a TL;DR that streams in as it's generated, the video's key sections so you can jump to the part you care about, and any books mentioned in the video — surprisingly useful for interviews and podcast-style content where recommendations fly by. It's built for a fast, honest read on whether the full video is worth your time."
   - q: "Is the chat feature included in the free tier?"
-    a: "Chat is a Pro feature. Asking questions answered from a video's transcript comes with Pro, which costs $72 per year (about $6 a month billed annually) or $9 billed monthly, with a 3-day free trial. The free tier requires no card to sign up, so you can try the AI card on real videos before deciding whether Pro is worth it."
+    a: "Chat is a Pro feature. Asking questions answered from a video's transcript comes with Pro, which costs $72 per year (about $6 a month billed annually) or $9 billed monthly, with a 7-day free trial. The free tier requires no card to sign up, so you can try the AI card on real videos before deciding whether Pro is worth it."
 ---
 
 The job: a 47-minute video might contain the exact answer you need — or three usable minutes padded with sponsor reads. You want to know which before you commit, and YouTube gives you nothing but a thumbnail and a title written to maximize clicks.
@@ -61,7 +61,7 @@ Saved videos also work with boards: group the talks for a project alongside the 
 3. Open any YouTube video. The AI card is on the watch page; read the TL;DR.
 4. For videos worth keeping, use the bookmark button in the action row — the transcript comes with the save.
 
-The free tier lets you try the card on real videos. Pro — $72/year (about $6/month billed annually) or $9/month, 3-day trial — unlocks the chat tab and chatting with your saved content generally.
+The free tier lets you try the card on real videos. Pro — $72/year (about $6/month billed annually) or $9/month, 7-day trial — unlocks the chat tab and AI Q&A over your saved content generally.
 
 ## Is Marqly the right fit?
 

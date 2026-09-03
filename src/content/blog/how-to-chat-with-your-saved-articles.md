@@ -17,7 +17,7 @@ faqs:
   - q: "Can I chat with my saved articles and bookmarks?"
     a: "Yes. AI bookmark managers let you ask questions in plain language and answer from your own saves rather than the open web. You can ask 'what did I save about pricing?' and get a synthesized response drawn from the relevant articles and notes in your library, with the sources cited."
   - q: "How is chatting with my bookmarks different from a normal AI chatbot?"
-    a: "A normal chatbot answers from its general training data and the public internet. Chatting with your bookmarks answers only from what you saved, so the response reflects your own curated sources. That makes it grounded in material you already trust instead of generic web content."
+    a: "A normal chatbot answers from its general training data and the public internet. Chatting with your bookmarks answers only from what you saved, so the response reflects your own curated sources. It's also single-shot rather than an ongoing conversation — each question gets one grounded answer, and there's no memory of earlier questions to carry a thread the way a chatbot does."
   - q: "Do I need to read an article before I can ask questions about it?"
     a: "No. That's part of the appeal — you can save long articles you never got around to reading and still ask what they say. The AI reads the content for you and answers your question, which is useful for clearing a backlog of saves you meant to read."
   - q: "Is asking my saved articles accurate?"
@@ -30,6 +30,8 @@ ogImage: "https://www.marqly.com/og/how-to-chat-with-your-saved-articles.png"
 Chatting with your saved articles means asking questions in plain language and getting AI answers drawn from your own bookmarks, notes, and saves — not the open web. You ask "what did I save about remote-work pay?" and the tool reads the relevant articles in your library, synthesizes an answer, and shows you which saves it came from.
 
 It's the difference between a search box that hands you ten links and an assistant that actually reads them and tells you the answer. Here's how it works.
+
+One thing worth setting expectations on: this is a question-and-answer tool, not an open-ended conversation. You ask one question and get one grounded answer back; there's no chat history, so a follow-up question won't have the context of what you asked before — just ask it as its own complete question. (YouTube video chat is the exception — that one does hold a running conversation about the video you're on.)
 
 ## Can I chat with my saved articles?
 

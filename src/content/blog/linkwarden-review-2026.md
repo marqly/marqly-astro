@@ -100,7 +100,7 @@ The cloud plan is among the cheapest hosted options in the entire category, and 
 | Search | Keyword + operators | **Semantic — find saves by describing them** |
 | Auto-tagging | Optional AI tagging | **Automatic on every save, zero config** |
 | AI summaries | No | **Yes** |
-| Chat with your saves | No | Yes (Pro) |
+| AI Q&A over your saves | No | Yes (Pro) |
 | YouTube | Saves the link | **AI summary, chat, transcript on the watch page** |
 | Setup | Docker or cloud signup | Sign up and save |
 

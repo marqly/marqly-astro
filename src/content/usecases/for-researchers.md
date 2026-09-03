@@ -40,7 +40,7 @@ That last part changes how annotations behave. In most workflows, marginalia die
 
 Semantic search is the core of the product and the reason it fits research work. It matches meaning rather than keywords, across titles, full content, transcripts, and your own highlights. Queries that fail in every other tool work here: "the paper arguing pre-registration doesn't reduce false positives," "that talk where the speaker walked through the survey weighting problem." The guide to [searching bookmarks with AI](/blog/how-to-search-bookmarks-with-ai) shows the query patterns that work best.
 
-Two supporting features round this out. AI summaries let you triage a backlog — twenty saved papers become twenty skimmable abstracts-of-abstracts, so you decide what deserves a deep read. And on Pro, chat with your saves answers questions from your own saved content: "which of my saved sources measured attrition directly?" is a question your library can now answer.
+Two supporting features round this out. AI summaries let you triage a backlog — twenty saved papers become twenty skimmable abstracts-of-abstracts, so you decide what deserves a deep read. And on Pro, AI Q&A over your saves answers questions from your own saved content: "which of my saved sources measured attrition directly?" is a question your library can now answer.
 
 ## Video is literature now
 

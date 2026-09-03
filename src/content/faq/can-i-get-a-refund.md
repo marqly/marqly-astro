@@ -1,6 +1,6 @@
 ---
 question: "Can I get a refund on Marqly?"
-description: "Marqly offers a 3-day free trial so you can test Pro before paying. Refund requests go to support@marqly.com and are reviewed case by case — just ask."
+description: "Marqly offers a 7-day free trial so you can test Pro before paying. Refund requests go to support@marqly.com and are reviewed case by case — just ask."
 category: pricing
 updatedDate: 2026-08-02
 related:
@@ -9,7 +9,7 @@ related:
   - how-much-does-marqly-cost
 ---
 
-Marqly handles refund requests case by case — email **support@marqly.com** with your account email and the reason, and a human will review it. There's no published automatic refund window, which is why the 3-day free trial exists: it lets you test everything Pro offers before any money changes hands, so most people never need to ask for a refund in the first place.
+Marqly handles refund requests case by case — email **support@marqly.com** with your account email and the reason, and a human will review it. There's no published automatic refund window, which is why the 7-day free trial exists: it lets you test everything Pro offers before any money changes hands, so most people never need to ask for a refund in the first place.
 
 ## Use the trial first
 

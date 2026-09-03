@@ -1,6 +1,6 @@
 ---
 question: "What happens to my bookmarks if I cancel Marqly?"
-description: "Your bookmarks stay. Canceling Marqly Pro moves you to the free tier — saves, tags, and highlights remain accessible. Canceling never deletes your data."
+description: "Your bookmarks stay — canceling never deletes data. Canceling Marqly Pro moves you to the free tier, where only your 100 most recent bookmarks are accessible; older ones are stored, not gone, and reappear if you resubscribe."
 category: pricing
 updatedDate: 2026-08-02
 related:
@@ -9,15 +9,19 @@ related:
   - can-i-export-my-data
 ---
 
-Nothing happens to your bookmarks. When you cancel Marqly Pro, your account drops to the free tier at the end of the billing period — and every save, tag, and highlight stays in your library, fully accessible. Canceling a subscription never deletes your data. You lose the Pro chat features, but the core save, auto-tag, and search experience keeps working indefinitely.
+Nothing is deleted when you cancel. When you cancel Marqly Pro, your account drops to the free tier at the end of the billing period — every save, tag, and highlight stays in your account. What can change is *access*: the free tier keeps your 100 most recent bookmarks accessible, so if you saved more than that while on Pro, the older ones are stored but hidden until you resubscribe — not deleted, just parked. Canceling a subscription never deletes your data. You lose the Pro AI features too, but the core save, auto-tag, and search experience keeps working indefinitely.
 
 ## The free tier is a real landing spot
 
-This matters because some subscription products effectively hold your data hostage: cancel, and your archive goes read-only or disappears after a grace period. Marqly's free tier isn't that. After canceling you can still save new links, get AI auto-tagging on them, and use semantic search across everything — including the saves you made while on Pro. Your library doesn't freeze; it keeps growing if you want it to.
+This matters because some subscription products effectively hold your data hostage: cancel, and your archive goes read-only or disappears after a grace period. Marqly's free tier isn't that — nothing is ever deleted for being on it. After canceling you can still save new links, get AI auto-tagging on them, and use semantic search across your accessible library. Your library doesn't freeze; it keeps growing if you want it to.
 
 ## What you actually lose
 
-Only the Pro features pause: chat with your saved content, and chat with YouTube videos through their transcripts. Summaries and answers you got from those features during your subscription don't retroactively vanish your saves — the underlying bookmarks are yours either way. The exact split is in [free vs Pro](/faq/whats-in-marqly-free-vs-pro).
+Two things change on the free tier: the Pro AI features pause — asking AI about your saved content, and chatting with YouTube videos through their transcripts — and if your library is over 100 bookmarks, only the 100 most recent stay accessible. Summaries and answers you got from those features during your subscription don't retroactively vanish your saves — the underlying bookmarks are yours either way. The exact split is in [free vs Pro](/faq/whats-in-marqly-free-vs-pro).
+
+## If you had more than 100 bookmarks
+
+This is the one place cancellation changes something concrete. The free tier stores up to 2,000 bookmarks but keeps only the 100 most recent accessible; anything beyond that stays saved on our servers, just hidden from view. It isn't a penalty for canceling — every free account works this way — and the moment you resubscribe, your whole library is accessible again, exactly as you left it.
 
 ## Timing
 

@@ -57,7 +57,7 @@ Your library travels, too: the iOS app puts your saves and boards on your phone,
 3. Create a board for your most active buyer and save this week's listings into it.
 4. Share the board as a public page and send the link instead of a wall of texts.
 
-Free tier to start; Pro is $72/year (about $6/month billed annually) or $9/month with a 3-day trial.
+Free tier to start; Pro is $72/year (about $6/month billed annually) or $9/month with a 7-day trial.
 
 ## Is Marqly the right fit?
 

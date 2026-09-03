@@ -11,7 +11,7 @@ hero:
 updatedDate: 2026-08-02
 faqs:
   - q: "Is Marqly free on the Chrome Web Store?"
-    a: "The extension is free to install, and Marqly has a free tier with no card required to sign up. Pro — which unlocks features like chatting with your saves — costs $72 per year (about $6 a month billed annually) or $9 billed monthly, with a 3-day free trial. You can run the core save-tag-search loop on the free tier before deciding."
+    a: "The extension is free to install, and Marqly has a free tier with no card required to sign up. Pro — which unlocks features like AI Q&A over your saves — costs $72 per year (about $6 a month billed annually) or $9 billed monthly, with a 7-day free trial. You can run the core save-tag-search loop on the free tier before deciding."
   - q: "Can I import my existing Chrome bookmarks?"
     a: "Yes. Chrome exports your bookmarks as a standard HTML file from its bookmark manager, and Marqly imports that file directly. Once imported, the AI tags and processes your whole backlog, so years of accumulated bookmarks become searchable by meaning instead of remaining a folder tree you never open. Marqly also imports Pocket exports and Raindrop.io collections."
   - q: "Does Marqly replace Chrome's bookmark manager?"
@@ -44,7 +44,7 @@ You don't start from zero. Chrome exports your entire bookmark tree as a standar
 
 1. Open the [Marqly listing on the Chrome Web Store](https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc) and click "Add to Chrome" — step-by-step help lives in [our install FAQ](/faq/how-do-i-install-the-chrome-extension).
 2. Pin Marqly to the toolbar so the one-click save is actually one click.
-3. Sign up free at [app.marqly.com](https://app.marqly.com); no card required. Pro — $72 a year (about $6 a month billed annually) or $9 monthly, with a 3-day free trial — unlocks features like chatting with your saves.
+3. Sign up free at [app.marqly.com](https://app.marqly.com); no card required. Pro — $72 a year (about $6 a month billed annually) or $9 monthly, with a 7-day free trial — unlocks features like AI Q&A over your saves.
 4. Import your Chrome bookmarks HTML and let the AI process the backlog. Boards are worth setting up early too — they group related links and highlights by project, and any board can be shared as a public page viewable without an account.
 
 A fit note, honestly: if your bookmarks number two dozen and a folder tree serves you fine, Chrome's native manager costs nothing and you should keep using it. Marqly earns its place at the point where the pile is too big to file by hand and title search has started failing you — which for most Chrome users happened a while ago. It also travels: your account [syncs across devices and browsers](/faq/can-i-sync-across-devices), so saves made in Chrome are waiting in Edge, Firefox, Safari, and the iOS app. For how Marqly compares to the rest of the field, our [best AI bookmark manager rundown](/blog/best-ai-bookmark-manager-2026) names where each tool wins. Try Marqly free and run it beside Chrome's stars for a week — the side panel usually settles it.

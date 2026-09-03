@@ -38,7 +38,7 @@ The sharing model is the part group trips actually need: a board can be shared a
 
 The reason trip research usually dies in a bookmarks folder is retrieval. Three weeks after saving, you remember the ramen place was "under some train tracks" but not its name, its URL, or which of nine guides mentioned it. Folder trees and title search can't answer that question. Marqly's semantic search can, because it [searches by meaning rather than keywords](/blog/how-to-search-bookmarks-with-ai) — describe what you remember and it finds the save, matching across titles, page content, your highlights, and even video transcripts.
 
-Transcripts matter more for travel than you'd expect, because so much destination research now happens on YouTube. Marqly puts a bookmark button in YouTube's action row that saves a video with its transcript attached, so "the vlog where she mentioned the night market behind the mosque" is findable later by that description. On Pro, you can go one step further and chat with your saves — ask "which of my saved Tokyo restaurants take reservations?" and get an answer drawn from your own saved content.
+Transcripts matter more for travel than you'd expect, because so much destination research now happens on YouTube. Marqly puts a bookmark button in YouTube's action row that saves a video with its transcript attached, so "the vlog where she mentioned the night market behind the mosque" is findable later by that description. On Pro, you can go one step further and ask AI about your saves — try "which of my saved Tokyo restaurants take reservations?" and get an answer drawn from your own saved content.
 
 ## Getting started
 

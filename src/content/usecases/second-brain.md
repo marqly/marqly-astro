@@ -11,7 +11,7 @@ hero:
 updatedDate: 2026-08-02
 faqs:
   - q: "What makes Marqly a second brain app?"
-    a: "It covers the full loop a second brain needs: capture (one-click save, highlights, tab saver), organization (AI tags every save automatically), and retrieval (semantic search finds saves by meaning, and Pro adds chat with your saved content). The difference from most tools is that the middle step requires no work from you."
+    a: "It covers the full loop a second brain needs: capture (one-click save, highlights, tab saver), organization (AI tags every save automatically), and retrieval (semantic search finds saves by meaning, and Pro adds AI Q&A over your saved content). The difference from most tools is that the middle step requires no work from you."
   - q: "How is this different from building a second brain in Notion or Obsidian?"
     a: "Notion and Obsidian are powerful, but their systems are hand-built: you design the structure and you maintain it, and the system decays the week you stop. Marqly automates the maintenance — tagging and filing happen on save. You trade deep customization for a system that never needs gardening."
   - q: "Do I need to set up a structure before I start?"
@@ -40,7 +40,7 @@ In Marqly, AI tags every save automatically the moment it lands. No inbox, no fi
 
 The test of a second brain is a question like: "there was an article about why switching costs beat network effects — where is it?" A folder system answers only if you filed it under the right name. Keyword search answers only if you remember the title's exact words.
 
-Marqly's semantic search answers from meaning. Describe the thing — even loosely — and it finds the save, searching across titles, content, your highlights, and video transcripts. This is the feature the whole system leans on, and it's explained properly in [how to search bookmarks with AI](/blog/how-to-search-bookmarks-with-ai). On Pro, retrieval goes a step further: chat with your saves, asking questions in plain language and getting answers drawn from your own saved content — your library starts acting like a research assistant with a very specific reading list.
+Marqly's semantic search answers from meaning. Describe the thing — even loosely — and it finds the save, searching across titles, content, your highlights, and video transcripts. This is the feature the whole system leans on, and it's explained properly in [how to search bookmarks with AI](/blog/how-to-search-bookmarks-with-ai). On Pro, retrieval goes a step further: AI Q&A over your saves, asking questions in plain language and getting answers drawn from your own saved content — your library starts acting like a research assistant with a very specific reading list.
 
 ## Getting started
 

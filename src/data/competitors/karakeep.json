@@ -47,7 +47,7 @@
   "cons": [
     "Self-hosting requires Docker and bring-your-own AI keys — real setup work",
     "The hosted Cloud option is still in public beta, and its free tier caps at 10 bookmarks",
-    "No built-in chat with your saves and no YouTube-specific AI features",
+    "No built-in AI Q&A over your saves and no YouTube-specific AI features",
     "No one-click save-all-tabs from the extension"
   ],
   "bestFor": "Self-hosters and privacy-focused tinkerers who want AI tagging, summaries, and full-text search on their own hardware without a subscription.",
@@ -64,7 +64,7 @@
     },
     {
       "q": "What is the best Karakeep alternative?",
-      "a": "For another self-hosted option, Linkwarden is the closest match. If you would rather skip running a server, Raindrop.io is the polished hosted standard, and Marqly is a strong pick for the AI side — automatic tagging, semantic search, YouTube summaries, and chat with your saves, with no Docker or API keys to manage."
+      "a": "For another self-hosted option, Linkwarden is the closest match. If you would rather skip running a server, Raindrop.io is the polished hosted standard, and Marqly is a strong pick for the AI side — automatic tagging, semantic search, YouTube summaries, and AI Q&A over your saves, with no Docker or API keys to manage."
     },
     {
       "q": "Does Karakeep work on iPhone?",

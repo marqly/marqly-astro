@@ -3,22 +3,30 @@ import { APP_URL } from './data';
 import { CheckIcon } from './icons';
 
 const freePerks = [
+  'Your 100 most recent bookmarks',
   'One-click bookmark saving',
   'Basic search',
   'Bookmark preview',
   'Bookmark tags',
+  'Highlights',
+  'Notes (up to 10)',
+  'Boards and collections',
+  'Read mode',
   'Access on mobile, tablet',
   'Unlimited devices',
 ];
 
 const proPerks = [
   'Unlimited bookmarks',
-  'Semantic AI search',
+  'Semantic + full-text search',
   'AI tagging and auto-filing',
+  'AI Organizer',
+  'Ask AI over your library',
   'YouTube AI summaries and chat',
-  'Highlights and notes',
-  'Boards and collections',
-  'Read mode',
+  'ChatVault for AI conversations',
+  'Clipboard cloud sync',
+  'Broken-link checking',
+  'Unlimited notes',
   'Smart sorting',
   'Priority support by email',
 ];
@@ -88,10 +96,13 @@ const SAVE_LABEL = 'Save 33%';
             ))
           }
         </ul>
+        <p class="mt-3 mb-2.5 text-[11px] text-muted">
+          Store up to 2,000; the 100 most recent stay accessible on Free.
+        </p>
         <a
           href={APP_URL}
           data-cta="pricing_free"
-          class="mt-7 flex h-11 items-center justify-center rounded-3xl bg-default text-[15px] font-medium text-foreground transition-colors hover:bg-default/70"
+          class="flex h-11 items-center justify-center rounded-3xl bg-default text-[15px] font-medium text-foreground transition-colors hover:bg-default/70"
         >
           Get Marqly free
         </a>
@@ -101,7 +112,7 @@ const SAVE_LABEL = 'Save 33%';
         <div class="flex items-center justify-between">
           <h3 class="text-sm font-semibold tracking-wide text-white/70 uppercase">Pro</h3>
           <span class="rounded-2xl bg-pro px-2 py-0.5 text-[10px] font-semibold tracking-wide text-white">
-            3-DAY FREE TRIAL
+            7-DAY FREE TRIAL
           </span>
         </div>
         <p class="font-display mt-3 text-4xl font-medium">

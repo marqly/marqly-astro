@@ -1,6 +1,6 @@
 ---
 question: "What happens when my Marqly trial ends?"
-description: "When the 3-day Pro trial ends you drop to the free tier — your saves, tags, and library stay intact. Nothing is deleted; only the Pro chat features pause."
+description: "When the 7-day Pro trial ends you drop to the free tier — nothing is deleted, but only your 100 most recent bookmarks stay accessible, and the Pro AI features pause."
 category: pricing
 updatedDate: 2026-08-02
 related:
@@ -9,7 +9,7 @@ related:
   - what-happens-to-my-bookmarks-if-i-cancel
 ---
 
-When your 3-day Pro trial ends and you haven't subscribed, your account moves to the free tier. Nothing is deleted — every save, tag, and highlight stays in your library exactly as you left it. What changes is access to the Pro features: chat with your saves and chat with YouTube videos pause until you subscribe. The core save, auto-tag, and search experience keeps working.
+When your 7-day Pro trial ends and you haven't subscribed, your account moves to the free tier. Nothing is deleted — every save, tag, and highlight stays in your account exactly as you left it. What changes is access: the free tier's 100-most-recent-bookmark limit applies again, and the Pro AI features — asking AI about your saves, and chatting with YouTube videos — pause until you subscribe. The core save, auto-tag, and search experience keeps working.
 
 ## What you keep on the free tier
 
@@ -19,7 +19,7 @@ The free tier is the foundation of the product, not a locked-out shell. After th
 - Get AI auto-tagging on every new save
 - Find anything with semantic search — by meaning, not just keywords
 
-Everything you saved during the trial remains searchable. See [is Marqly free](/faq/is-marqly-free) for the full picture of the free plan.
+Everything you saved during the trial remains searchable, as long as your library is under the free tier's 100-bookmark limit. If you imported a bigger library during the trial, only the 100 most recent stay accessible until you subscribe — the rest are stored, not gone. See [is Marqly free](/faq/is-marqly-free) for the full picture of the free plan.
 
 ## What pauses
 

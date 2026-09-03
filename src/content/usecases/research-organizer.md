@@ -15,7 +15,7 @@ faqs:
   - q: "How does semantic search actually help with research?"
     a: "It removes the recall tax. Instead of remembering a source's title or which folder you filed it in, you describe what it said — 'the study where remote teams shipped faster' — and semantic search finds it. It works across titles, page content, your highlights, and video transcripts."
   - q: "Can I ask questions about the sources I've saved?"
-    a: "Yes, on the Pro plan. Chat with your saves lets you ask a question and get an answer drawn from your saved content — useful when you know your sources contain the answer but not which one. Pro is $72 per year or $9 per month, with a 3-day free trial."
+    a: "Yes, on the Pro plan. AI Q&A over your saves lets you ask a question and get an answer drawn from your saved content — useful when you know your sources contain the answer but not which one. Pro is $72 per year or $9 per month, with a 7-day free trial."
 ---
 
 Research has two failure modes. Either you save everything and can't find any of it later, or you burn your reading time maintaining a filing system instead of actually thinking. Every folder taxonomy you've built has died one of those two deaths.
@@ -40,7 +40,7 @@ You don't remember titles. You remember that there was a study about remote team
 
 Marqly's semantic search runs on meaning. Describe what you remember — even vaguely — and it finds the source, searching across titles, full content, your highlights, and video transcripts. Highlighted passages make this sharper: the lines you flagged as important are precisely the ones search can match against. The full picture of how this works is in [how to search bookmarks with AI](/blog/how-to-search-bookmarks-with-ai), and why it beats folder discipline is argued in [how to organize bookmarks](/blog/how-to-organize-bookmarks).
 
-When the backlog gets deep, AI summaries triage it: each saved article gets a summary, so deciding what deserves a full read takes seconds instead of a re-skim. And on Pro, you can go one step further and chat with your saves — ask "what did my sources say about switching costs?" and get an answer drawn from your own collection.
+When the backlog gets deep, AI summaries triage it: each saved article gets a summary, so deciding what deserves a full read takes seconds instead of a re-skim. And on Pro, you can go one step further and ask AI about your saves — try "what did my sources say about switching costs?" and get an answer drawn from your own collection.
 
 ## Keep each project's sources together
 

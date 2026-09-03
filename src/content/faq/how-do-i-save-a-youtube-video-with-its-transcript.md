@@ -21,4 +21,4 @@ YouTube's own Watch Later is a graveyard — a long, unsearchable queue sorted b
 
 ## Ask questions of what you saved
 
-Because the transcript comes along with the save, your video library is content you can query. [Chat with your saves](/faq/how-do-i-chat-with-my-saved-articles) (a Pro feature) answers questions grounded in your saved content — including what was said in the videos you bookmarked. And if you just want the text itself, the [Transcript tab](/faq/how-do-i-get-a-youtube-transcript) on any watch page gives you the playback-synced transcript with one-click copy.
+Because the transcript comes along with the save, your video library is content you can query. [Ask AI about your saves](/faq/how-do-i-chat-with-my-saved-articles) (a Pro feature) answers questions grounded in your saved content — including what was said in the videos you bookmarked. And if you just want the text itself, the [Transcript tab](/faq/how-do-i-get-a-youtube-transcript) on any watch page gives you the playback-synced transcript with one-click copy.

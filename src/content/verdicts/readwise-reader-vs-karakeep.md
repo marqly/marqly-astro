@@ -7,7 +7,7 @@ faqs:
   - q: "Is Karakeep really free while Readwise Reader costs $119.88/year?"
     a: "Yes. Self-hosted Karakeep is completely free and fully featured — you supply a Docker server and your own OpenAI-compatible API key (or a local Ollama model) for AI features. Reader has no permanent free tier: $9.99/month billed annually or $12.99 monthly after a 30-day trial. Karakeep's hosted Cloud beta runs $4/month for Pro."
   - q: "Which has better AI, Readwise Reader or Karakeep?"
-    a: "Different kinds. Reader's Ghostreader summarizes documents, defines terms, and answers questions while you read, and YouTube videos get synced transcripts you can query. Karakeep uses AI for organization instead — automatic tagging and summaries, plus semantic and hybrid search added in 2026 — but has no chat with your saves and no YouTube-specific features."
+    a: "Different kinds. Reader's Ghostreader summarizes documents, defines terms, and answers questions while you read, and YouTube videos get synced transcripts you can query. Karakeep uses AI for organization instead — automatic tagging and summaries, plus semantic and hybrid search added in 2026 — but has no AI Q&A over your saves and no YouTube-specific features."
   - q: "Is Karakeep hard to set up compared to Reader?"
     a: "Meaningfully harder. Karakeep is built for self-hosting: you need Docker, a server, and your own AI keys or a local Ollama model, and its hosted Cloud is still in public beta with a 10-bookmark free tier. Reader is a polished commercial service — install the apps, start the trial, and you're reading within minutes."
 ---

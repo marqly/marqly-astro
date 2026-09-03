@@ -44,7 +44,7 @@ Group everything for each application into a [board](/faq/what-are-boards): the 
 
 Three weeks and forty saves into a search, memory gets fuzzy: which company had the four-day-week trial? Where was that thread about the take-home task? Marqly's semantic search answers from descriptions — "the startup with the unusual equity refresh policy" finds the save without the company name, searching across titles, page content, and your highlights. How that works is in [how to search bookmarks with AI](/blog/how-to-search-bookmarks-with-ai).
 
-Two more AI layers help at crunch time. AI summaries triage long saves — a 3,000-word engineering post gets a summary, so you decide fast whether it's worth full prep attention. And on Pro, chat with your saves turns the pile into answers: ask "what do I know about this company's interview process?" and get a response drawn from your own saved research.
+Two more AI layers help at crunch time. AI summaries triage long saves — a 3,000-word engineering post gets a summary, so you decide fast whether it's worth full prep attention. And on Pro, AI Q&A over your saves turns the pile into answers: ask "what do I know about this company's interview process?" and get a response drawn from your own saved research.
 
 ## Getting started
 

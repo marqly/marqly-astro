@@ -27,9 +27,10 @@ If you search "Marqly promo code," you'll find aggregator sites listing codes li
 ## Ways to pay less that actually work
 
 - **Bill annually.** $72/yr instead of $108/yr — the 33% saving mentioned above.
-- **Use the 3-day free trial** before paying anything, so you never pay for a product you won't use.
+- **Verify a student email.** Verified students get Pro for $48 in their first year instead of $72 — see below.
+- **Use the 7-day free trial** before paying anything, so you never pay for a product you won't use.
 - **Stay on the free tier** if the core save, auto-tag, and search experience covers your needs — it has no time limit and needs no card.
 
 ## Student pricing?
 
-There's no published student discount today, though it never hurts to email support and ask — see [is there a student discount](/faq/is-there-a-student-discount) for the honest answer.
+Yes — this is the one real discount. Verified students get Marqly Pro for $48 in their first year instead of $72, confirmed automatically with a university email address at checkout (no waiting on a manual review). Full details, including what to do if your university email isn't recognized automatically, are in [is there a student discount](/faq/is-there-a-student-discount).

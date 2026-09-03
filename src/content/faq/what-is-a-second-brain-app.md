@@ -17,4 +17,4 @@ For the full landscape — how second brain apps work, note-first versus save-fi
 
 ## How Marqly approaches it
 
-Marqly is a save-first second brain built as an [AI bookmark manager](/faq/what-is-an-ai-bookmark-manager): one-click capture from the browser extension, automatic AI tagging and summaries, and semantic search that finds a save from a half-remembered description. On Pro you can [chat with your saved content](/faq/how-do-i-chat-with-my-saved-articles) and get answers drawn from what you've saved.
+Marqly is a save-first second brain built as an [AI bookmark manager](/faq/what-is-an-ai-bookmark-manager): one-click capture from the browser extension, automatic AI tagging and summaries, and semantic search that finds a save from a half-remembered description. On Pro you can [ask AI about your saved content](/faq/how-do-i-chat-with-my-saved-articles) and get answers drawn from what you've saved.

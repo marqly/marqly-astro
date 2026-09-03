@@ -55,7 +55,7 @@ Boards can be shared as public pages that anyone can open without signing up. Th
 3. Open any article, select a sentence worth keeping, and highlight it. Add a one-line note.
 4. Tomorrow, reopen the page (it's there) and check your library (it's there too). That's the whole loop.
 
-The free tier gets you highlighting immediately. Pro — $72/year (about $6/month billed annually) or $9/month, with a 3-day trial — adds chat with your saves, where answers draw on your saved content, highlights included.
+The free tier gets you highlighting immediately. Pro — $72/year (about $6/month billed annually) or $9/month, with a 7-day trial — adds AI Q&A over your saves, where answers draw on your saved content, highlights included.
 
 ## Is Marqly the right fit?
 

@@ -60,7 +60,7 @@ You don't have to understand the plumbing. What you notice is that filing disapp
 
 - **Find anything by memory.** Search "the essay about a founder who burned out" and get it, even with no matching keywords.
 - **Skim before you read.** AI summaries tell you what a long save is about so you can decide whether to dive in.
-- **Ask your own library.** "What did I save about pricing strategy?" returns a synthesized answer drawn from your saves — you can effectively [chat with your saved articles](/blog/how-to-chat-with-your-saved-articles) instead of reopening them one by one.
+- **Ask your own library.** "What did I save about pricing strategy?" returns a synthesized answer drawn from your saves — you can effectively [ask AI about your saved articles](/blog/how-to-chat-with-your-saved-articles) instead of reopening them one by one.
 - **Stop organizing.** Auto-tagging means the structure builds itself as you save.
 
 ## Do you actually need one?

@@ -15,7 +15,7 @@ faqs:
   - q: "Can I search inside the YouTube videos I save?"
     a: "Yes, if you save them through Marqly's bookmark button on YouTube, which attaches the video's transcript to the save. Semantic search reads transcripts along with titles, content, and highlights, so you can find a video by something said at minute nineteen. There's also a transcript tab on every watch page — playback-synced, with one-click copy for pulling quotes into scripts."
   - q: "Do I need the paid plan for content research?"
-    a: "Not to start. Saving, AI tagging, summaries, highlighting, boards, and semantic search are available on the free tier, with no card required. Pro — $72/year (about $6/month billed annually) or $9/month, with a 3-day trial — adds the chat features: asking questions answered from your saved content and chatting with YouTube videos through their transcripts, which is where script research gets noticeably faster."
+    a: "Not to start. Saving, AI tagging, summaries, highlighting, boards, and semantic search are available on the free tier, with no card required. Pro — $72/year (about $6/month billed annually) or $9/month, with a 7-day trial — adds the chat features: asking questions answered from your saved content and chatting with YouTube videos through their transcripts, which is where script research gets noticeably faster."
 ---
 
 Creators run on references — the hook you screenshotted, the video essay you want to study, the thread that nailed a framing you've been circling for weeks. The problem is never collecting them; it's that the collection becomes a graveyard: a camera roll of screenshots, a "Watch later" list four hundred deep, bookmarks nobody has opened since saving. Marqly is a research tool built for retrieval — it tags every save automatically and finds any reference by describing it, which is the only way a swipe file survives past a hundred entries.
@@ -36,7 +36,7 @@ Hit Marqly's bookmark button in YouTube's action row and the video saves with it
 
 Trend research has a short half-life; whatever you save on Monday needs to be findable when you script on Thursday. Marqly's semantic search matches meaning across titles, content, highlights, and transcripts, so drafting-brain queries work: "that video about why faceless channels are dying" finds the save without a title. If you've only ever had keyword search, [searching bookmarks with AI](/blog/how-to-search-bookmarks-with-ai) shows the difference in practice.
 
-AI summaries speed up the weekly sweep — triage a batch of saved trend posts and industry pieces in minutes, then read only what earns it. And Pro's chat with your saves is effectively a research assistant scoped to your own library: ask what angles you've already collected on a topic before you pitch yourself the same video twice.
+AI summaries speed up the weekly sweep — triage a batch of saved trend posts and industry pieces in minutes, then read only what earns it. And Pro's AI Q&A over your saves is effectively a research assistant scoped to your own library: ask what angles you've already collected on a topic before you pitch yourself the same video twice.
 
 Rate research deserves the same treatment. When a brand deal lands in your inbox, a [UGC rate calculator](https://viewinsta.com/ugc-rate-calculator) gives you a defensible starting number — save it next to the brief and your past quotes, and the next negotiation starts from evidence instead of a guess.
 

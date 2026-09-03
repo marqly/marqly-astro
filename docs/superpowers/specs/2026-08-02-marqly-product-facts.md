@@ -1,7 +1,7 @@
 # Marqly Product Facts — single source of truth for content writers
 
 Every claim in marketing/SEO content MUST come from this sheet. If a fact isn't
-here, don't invent it — write around it. Last updated: 2026-08-03.
+here, don't invent it — write around it. Last updated: 2026-09-03.
 
 ## What Marqly is
 
@@ -20,14 +20,23 @@ remember — **semantic search by meaning, not keywords**.
 - Support: support@marqly.com
 - Company line: "© Marqly Labs"
 
-## Pricing (updated 2026-08-16 from the shipped site; Stripe parity still unverified)
+## Pricing (updated 2026-09-03, verified against apps/api source + prod DB)
 
-- **Free tier**: exists; no card required to sign up.
+- **Free tier**: exists; no card required to sign up. Stores up to **2,000
+  bookmarks**, but only the **100 most recent are accessible** — older ones
+  are kept, not deleted, and become accessible again on Pro. This IS a
+  publishable fact — state it plainly wherever the free tier is described;
+  it is a common support question and hiding it causes users to think it's
+  data loss.
 - **Pro**: $72/year (≈ $6/month billed annually) or $9/month billed monthly.
-- **3-day free trial** of Pro.
-- **Student discount**: $48 for the first year, for verified students.
-- NO lifetime deal. Don't invent quota numbers for the free tier
-  (saves/summaries limits are NOT published — never state one).
+  Lifts the 100-bookmark limit (unlimited bookmark access).
+- **7-day free trial** of Pro. (Corrected 2026-09-03 — this sheet previously
+  said 3-day, which was stale and had propagated across ~50 site pages.)
+- **Student discount**: $48 for the first year, for verified students
+  (verify a university email at checkout). This is the only discount that
+  exists — all coupons/promo codes were deleted 2026-06-20 and none are
+  offered.
+- NO lifetime deal.
 
 ## Platforms
 
@@ -59,16 +68,29 @@ No offline reading mode — don't claim offline support.
 - **AI summaries** of saved articles; triage a backlog fast.
 - **Semantic search**: "that video about sourdough starters" finds the right
   save without the title. Works across titles, content, highlights, transcripts.
-- **Chat with your saves**: ask questions answered from your saved content (Pro).
+- **Ask AI about your saves** (Pro): ask a question, get one answer grounded in
+  your saved content. This is single-shot — one question, one answer, NO
+  conversation history — do not call it "chat" or imply it's an ongoing
+  conversation. (Contrast with the YouTube Chat tab below, which IS a real
+  multi-turn conversation — that one is fine to call "chat.")
+- **AI Organizer** (Pro): AI-driven bulk organization of an existing library.
+- **Broken-link checking** (Pro).
 - **YouTube AI card** on every YouTube watch page:
   - AI Summary tab — streaming TL;DR + key sections + books mentioned in the video
-  - Chat tab — questions answered from the video's transcript (Pro)
+  - Chat tab (Pro) — a real multi-turn conversation grounded in the video's
+    transcript; unlike "Ask AI about your saves," this one does hold context
+    across questions
   - Transcript tab — playback-synced, one-click copy
   - Bookmark button in YouTube's action row saves the video **with its transcript attached**
-- **Highlighter**: select text on any website, highlight in **6 colors**, add
-  notes; highlights persist on the page when you revisit and sync to your library.
+- **Highlighter**: select text on any website, highlight in **6 colors** — free
+  on every plan, no gate. Add notes on highlights: **free tier is capped at 10
+  notes; Pro is unlimited**.
 - **Boards**: group links + highlights; **share a board as a public page** (no
-  signup needed to view).
+  signup needed to view). Free on every plan, no gate.
+- **Read mode**: the reader/clean-view endpoint is free on every plan, no gate.
+- **Duplicate handling**: exact-URL matching only (host lowercased, trailing
+  slash stripped, tracking params removed, #fragments ignored), free on every
+  plan. There is NO AI-powered duplicate detection — never claim one.
 - **Save as PDF**: capture any page as a clean PDF matching the on-screen layout
   (lazy-loaded images included), processed locally in Chrome and Edge. Firefox
   and Safari use the browser print-to-PDF flow as a fallback.
@@ -101,6 +123,15 @@ No offline reading mode — don't claim offline support.
 
 ## Never claim
 
-- Android app, offline mode, public API, self-hosting, team/collab features,
-  specific free-tier quotas, browser support beyond the four above, SOC2 or
-  other certifications, employee counts, funding.
+- Android app, offline mode (or "offline reading"/"offline copies" in any
+  form), public API, self-hosting, team/collab features, browser support
+  beyond the four above, SOC2 or other certifications, employee counts,
+  funding, AI-powered duplicate detection (dedup is exact-URL matching only).
+- Do NOT call "Ask AI about your saves" a "chat" or imply it has conversation
+  memory — it's single-shot Q&A. (YouTube's Chat tab is genuinely multi-turn;
+  that one is fine to call chat.)
+- The free-tier bookmark quota (2,000 stored / 100 accessible, above) is the
+  one quota that IS published and SHOULD be stated — this list used to tell
+  writers to never state a free-tier quota at all, which is why the site went
+  a long time without disclosing it. Don't extend that silence to other,
+  still-unpublished numbers (e.g. AI summary/organizer usage limits).

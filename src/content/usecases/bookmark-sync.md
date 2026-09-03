@@ -42,7 +42,7 @@ The import is also where the AI earns its keep: every incoming bookmark gets tag
 
 ## Getting started
 
-1. Create a free account at [app.marqly.com](https://app.marqly.com) — no card required. Pro, if you want it later, is $72 a year (about $6 a month billed annually) or $9 monthly, with a 3-day free trial.
+1. Create a free account at [app.marqly.com](https://app.marqly.com) — no card required. Pro, if you want it later, is $72 a year (about $6 a month billed annually) or $9 monthly, with a 7-day free trial.
 2. Install the extension in each browser you actually use: [Chrome](https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc), [Edge](https://microsoftedge.microsoft.com/addons/detail/marqly-%E2%80%93-the-ultimate-boo/gojjglmdginjjpgajdnobmnkmcogngok), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/marqly/), or Safari — and sign in to each.
 3. Add the [iOS app](https://apps.apple.com/us/app/marqly-ai-bookmark-manager/id6758905385) on your iPhone with the same account.
 4. Export bookmarks from each browser as HTML and import them, merging your silos into one library.

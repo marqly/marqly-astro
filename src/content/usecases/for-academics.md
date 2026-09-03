@@ -60,7 +60,7 @@ That last part matters for scholars: once the transcript is in your library, sem
 3. Import your existing browser bookmarks (standard HTML export) so years of saved links get AI tags retroactively.
 4. Pick one current project — a syllabus, a lit review — and give it a board.
 
-The free tier covers the core workflow. Pro is $72/year (about $6/month billed annually) or $9/month with a 3-day trial, and adds chat with your saves — asking questions answered from your own saved reading, which is genuinely useful across a large literature pile.
+The free tier covers the core workflow. Pro is $72/year (about $6/month billed annually) or $9/month with a 7-day trial, and adds AI Q&A over your saves — asking questions answered from your own saved reading, which is genuinely useful across a large literature pile.
 
 ## Is Marqly the right fit?
 

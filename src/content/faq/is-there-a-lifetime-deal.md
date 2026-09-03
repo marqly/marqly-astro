@@ -21,7 +21,7 @@ A subscription keeps the incentives honest: you pay while you use it, and the re
 
 - **Annual billing** is the real discount: $72/yr versus $108/yr paid monthly, about 33% off. Details in [how much does Marqly cost](/faq/how-much-does-marqly-cost).
 - **The free tier** has no expiry and no card requirement — see [is Marqly free](/faq/is-marqly-free).
-- **The 3-day Pro trial** lets you validate the paid features before committing.
+- **The 7-day Pro trial** lets you validate the paid features before committing.
 
 There are also no coupon codes floating around to stack on top — [coupons and discounts](/faq/marqly-coupons-and-discounts) explains why.
 

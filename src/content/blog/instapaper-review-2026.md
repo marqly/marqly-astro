@@ -106,7 +106,7 @@ Context that matters: in 2025 Instapaper raised Premium from $2.99 to $5.99 a mo
 | Search | Keyword, Premium-only | **Semantic, by meaning** |
 | Auto-tagging | None (manual folders) | **Automatic on every save** |
 | AI summaries | No | **Yes** |
-| Chat with your saves | No | Yes (Pro) |
+| AI Q&A over your saves | No | Yes (Pro) |
 | YouTube | No | **AI summary, chat, transcript on watch pages** |
 | Highlighting | Yes, notes capped on free | 6 colors, persists on the live page |
 | Pocket import | Yes | Yes |

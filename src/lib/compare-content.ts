@@ -61,11 +61,11 @@ export function aiFeaturesSentence(c: Competitor): string {
   if (c.features.aiAutoTagging) has.push('AI tagging');
   if (c.features.aiSummaries) has.push('AI summaries');
   if (c.features.semanticSearch) has.push('semantic search');
-  if (c.features.chatWithSaves) has.push('chat with saves');
+  if (c.features.chatWithSaves) has.push('AI Q&A over saves');
   if (has.length === 0) {
     return `${c.name} does not offer AI organization features — saving, tagging, and finding content is manual. That gap is exactly what AI-first tools like Marqly automate.`;
   }
-  return `${c.name} offers ${has.join(', ')}. Marqly covers the full AI layer — auto-tagging, summaries, semantic search, and chat with your saves — plus YouTube summaries, transcripts, and video chat on the watch page.`;
+  return `${c.name} offers ${has.join(', ')}. Marqly covers the full AI layer — auto-tagging, summaries, semantic search, and AI Q&A over your saves — plus YouTube summaries, transcripts, and video chat on the watch page.`;
 }
 
 /** Generated FAQ set for Marqly-vs-X pages (all data-derived, no hand-waving). */
@@ -97,7 +97,7 @@ export function marqlyPairFaqs(marqly: Competitor, b: Competitor): { q: string; 
   faqs.push({ q: `Does ${b.name} have AI search?`, a: aiFeaturesSentence(b) });
   faqs.push({
     q: 'Is Marqly free?',
-    a: 'Yes — Marqly has a free tier with no card required. Pro is $72/year (about $6/month billed annually) or $9/month, with a 3-day free trial. Pro unlocks chat with your saves and chat with YouTube videos.',
+    a: 'Yes — Marqly has a free tier with no card required (up to 2,000 bookmarks stored, with the 100 most recent accessible). Pro is $72/year (about $6/month billed annually) or $9/month, with a 7-day free trial. Pro unlocks unlimited bookmark access, AI Q&A over your saves, and chat with YouTube videos.',
   });
 
   return faqs;

@@ -8,7 +8,7 @@ export const FEATURE_LABELS: Record<string, string> = {
   semanticSearch: 'Semantic search (find by meaning)',
   aiSummaries: 'AI summaries',
   youtubeAi: 'YouTube AI (summary, chat, transcript)',
-  chatWithSaves: 'Chat with your saves',
+  chatWithSaves: 'AI Q&A over your saves',
   highlights: 'Web highlighter',
   annotationNotes: 'Notes on highlights',
   savePdf: 'Save page as PDF',

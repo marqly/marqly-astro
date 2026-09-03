@@ -15,7 +15,7 @@ faqs:
   - q: "Can Marqly find a quote when I only remember the gist?"
     a: "Yes — that's what semantic search is for. It matches meaning rather than exact words, and it searches your highlights along with titles, page content, and video transcripts. Typing 'the line comparing attention to a spotlight' surfaces the highlight and its source article even if neither contains those exact words. The vaguer end of writerly memory is the case it's designed for."
   - q: "Does Marqly work for long projects like books?"
-    a: "It suits them well. Boards let you group links and highlights per project — one for the book, one per chapter if you like — so years of accumulated research stays navigable. AI summaries help triage source material, and on Pro you can chat with your saves to ask what your research says about a topic. It won't replace your drafting software; it manages what feeds into it."
+    a: "It suits them well. Boards let you group links and highlights per project — one for the book, one per chapter if you like — so years of accumulated research stays navigable. AI summaries help triage source material, and on Pro you can ask AI about your saves to find what your research says about a topic. It won't replace your drafting software; it manages what feeds into it."
 ---
 
 Writing runs on borrowed material: the statistic that anchors the lede, the expert quote in paragraph four, the structural trick you noticed in someone else's essay and swore you'd try. The trouble is that writers collect this material while *reading*, and need it while *writing* — sometimes months apart. Between those two moments, the browser eats it. A quote you didn't capture precisely is a quote you can't use; a brilliant essay you can't relocate might as well not exist.
@@ -40,7 +40,7 @@ Boards then layer project structure on top — group links and highlights per as
 
 Drafting has a rhythm, and leaving the document to spelunk through browser history breaks it. Marqly's semantic search takes the query you actually have — "the piece about grief where the writer kept returning to the kitchen table" — and finds the save, because it matches meaning across titles, page content, and your highlights rather than exact keywords. Mid-draft, the side-panel library means you can pull a source without leaving the tab you're writing in.
 
-Two more tools speed up the research phase itself. AI summaries let you triage a stack of background reading before committing hours to it. And on Pro, chat with your saves answers questions from your own research — "what did my sources say about the 2019 policy change?" — which, at deadline, beats re-reading everything you clipped. Interviews and talks on YouTube slot in too: Marqly's card on every watch page includes a playback-synced transcript with one-click copy, and bookmarking the video attaches the transcript, so a subject's exact wording at minute 31 is quotable text, not a memory.
+Two more tools speed up the research phase itself. AI summaries let you triage a stack of background reading before committing hours to it. And on Pro, AI Q&A over your saves answers questions from your own research — "what did my sources say about the 2019 policy change?" — which, at deadline, beats re-reading everything you clipped. Interviews and talks on YouTube slot in too: Marqly's card on every watch page includes a playback-synced transcript with one-click copy, and bookmarking the video attaches the transcript, so a subject's exact wording at minute 31 is quotable text, not a memory.
 
 ## Getting started
 

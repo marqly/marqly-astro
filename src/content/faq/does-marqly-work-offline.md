@@ -13,7 +13,7 @@ No. Marqly needs an internet connection — there is no offline reading mode. Yo
 
 ## What needs a connection
 
-Every core Marqly feature talks to your account: one-click saving from the toolbar, AI auto-tagging, AI summaries, semantic search, and chatting with your saves. If your connection drops, you won't be able to pull up a saved article or search your library until you're back online.
+Every core Marqly feature talks to your account: one-click saving from the toolbar, AI auto-tagging, AI summaries, semantic search, and asking AI about your saves. If your connection drops, you won't be able to pull up a saved article or search your library until you're back online.
 
 We'd rather say that plainly than let you find out on a plane. If guaranteed offline reading is your top requirement, Marqly isn't built for that today — and we don't claim otherwise.
 
