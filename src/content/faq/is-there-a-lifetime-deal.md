@@ -27,7 +27,7 @@ There are also no coupon codes floating around to stack on top — [coupons and 
 
 ## If you already hold a Marqly lifetime plan
 
-It still works and it is not going away. Two limits are worth stating plainly, because they are easy to run into and we would rather you read them here: a lifetime plan covers saving and browsing without limit, but **search reaches your 100 most recent saves**, and the **AI features are not included** — auto-tagging works, while semantic search, Ask AI and the YouTube chat belong to Pro. If either of those is a surprise, mail amro@megamoon.com.
+It still works and it is not going away. Two limits are worth stating plainly, because they are easy to run into and we would rather you read them here: a lifetime plan covers saving, browsing and searching your whole library without limit, but the **AI features are not included** — auto-tagging, summaries, semantic search, Ask AI and the YouTube chat all belong to Pro. If either of those is a surprise, mail amro@megamoon.com.
 
 ## If you see a "Marqly lifetime deal" on sale somewhere today
 

@@ -20,7 +20,7 @@ faqs:
   - q: "Why is semantic search the most important upgrade over Instapaper?"
     a: "Because the reason to leave Instapaper isn't the reading — it's the finding. If you've built up years of saves you can't retrieve, semantic search lets you type what you remember and get the article back, instead of hunting by exact title like Instapaper requires."
   - q: "Is there a free Instapaper alternative with AI search?"
-    a: "Yes. Marqly has a free tier covering your 100 most recent saves, with auto-tagging and summaries included; AI search is part of Pro. Raindrop.io also offers a generous free tier, though it uses keyword search rather than semantic search and has no AI layer."
+    a: "Yes. Marqly has a free tier covering your 100 most recent saves; the AI — auto-tagging, summaries and search by meaning — is all part of Pro. Raindrop.io also offers a generous free tier, though it uses keyword search rather than semantic search and has no AI layer."
 heroImage: ../../assets/blog/instapaper-alternatives-2026.png
 heroAlt: "The Best Instapaper Alternatives in 2026 (When Minimalist Isn't Enough) — illustration"
 ogImage: "https://www.marqly.com/og/instapaper-alternatives-2026.png"

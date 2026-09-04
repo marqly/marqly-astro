@@ -15,7 +15,7 @@ faqs:
   - q: "Can Marqly help me digest long-form founder content?"
     a: "Yes, especially video. Every YouTube watch page gets an AI card with a streaming summary, key sections, and books mentioned, plus a synced transcript with one-click copy. Bookmarking a video attaches the transcript to the save, and on Pro you can chat with the video — so a two-hour founder interview yields its useful fifteen minutes without a two-hour commitment."
   - q: "What does Marqly cost a bootstrapped founder?"
-    a: "The free tier costs nothing and needs no card — saving, AI tagging, summaries, highlights and boards all work there, across your 100 most recent saves. Pro is $72/year, roughly $6/month billed annually, or $9/month billed monthly, with a 7-day free trial; it lifts that limit and unlocks semantic search, AI Q&A over your saved content and chat with YouTube videos. At either price it's a rounding error next to a founder's hourly value."
+    a: "The free tier costs nothing and needs no card — saving, highlights and boards all work there, across your 100 most recent saves. Every AI feature is Pro: $72/year, roughly $6/month billed annually, or $9/month billed monthly, with a 7-day free trial, which lifts that limit and unlocks auto-tagging, summaries, semantic search, AI Q&A over your saved content and chat with YouTube videos. At either price it's a rounding error next to a founder's hourly value."
 ---
 
 Founders do competitive research in stolen moments — a rival's launch post skimmed between standups, a pricing teardown read at midnight, a market report someone dropped in a group chat. None of it gets filed, because filing is exactly the kind of work that loses to shipping. Then a fundraise or a positioning decision arrives, and reconstructing what you knew about the market costs a full day. Marqly is built for that reality: saving takes one click, AI does all the organizing, and months of accumulated intel becomes something you can query.
@@ -46,7 +46,7 @@ The same applies to text. AI summaries triage the reading queue, and Pro's chat 
 
 Install the extension for Chrome, Edge, Firefox, or Safari. Import the research you've already scattered: standard browser bookmark HTML exports, Pocket exports, and Raindrop.io collections all import cleanly. Let the AI tag the backlog once, and the graveyard of "competitors???" folders becomes a searchable market memory. From there the system runs on reflex saves, with boards for anything deserving structure — one per competitor, one for the fundraise reading, one for positioning references.
 
-Start [free at app.marqly.com](https://app.marqly.com); no card is required. Saving, AI tagging and PDF capture all work on the free tier, across your 100 most recent saves; semantic search and unlimited access are the Pro layer, and every account starts with a 7-day trial of it.
+Start [free at app.marqly.com](https://app.marqly.com); no card is required. Saving and PDF capture work on the free tier, across your 100 most recent saves; the AI layer and unlimited access are Pro, and every account starts with a 7-day trial of it.
 
 ## Who this isn't for
 

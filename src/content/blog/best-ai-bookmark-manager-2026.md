@@ -87,7 +87,7 @@ The five below cover the real spread of the market: one built around semantic se
 
 | Tool | Best for | Real semantic search? | Auto-tagging | Imports | Free tier | Price |
 | --- | --- | --- | --- | --- | --- | --- |
-| **Marqly** | Searching by meaning | ✅ Yes (Pro) | ✅ Yes (free) | Pocket, Raindrop, browser exports | ✅ Limited (100 most recent) | $72/yr (~$6/mo) or $9/mo |
+| **Marqly** | Searching by meaning | ✅ Yes (Pro) | ✅ Yes (Pro) | Pocket, Raindrop, browser exports | ✅ Limited (100 most recent, no AI) | $72/yr (~$6/mo) or $9/mo |
 | **mymind** | Visual auto-organization | ⚠️ Partial | ✅ Yes | Limited | ❌ No | ~$8/mo |
 | **Readwise Reader** | Reading & highlighting | ⚠️ Partial (chat/AI add-ons) | ⚠️ Limited | Pocket, Instapaper, RSS | ❌ Trial only | ~$12/mo |
 | **Raindrop.io** | Free, all-media library | ❌ No (keyword) | ⚠️ Basic | Browser exports, others | ✅ Generous | Free / ~$3/mo Pro |

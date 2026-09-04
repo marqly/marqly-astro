@@ -1,6 +1,6 @@
 ---
 question: "What's the difference between Marqly Free and Pro?"
-description: "Marqly Free covers saving, AI auto-tagging, and AI summaries for your 100 most recent saves. Pro adds semantic search, chat with your saves, and unlimited access — $72/yr or $9/mo, 7-day trial."
+description: "Marqly Free covers saving, boards and highlights for your 100 most recent saves. Every AI feature is Pro — tagging, summaries, semantic search and chat — at $72/yr or $9/mo, 7-day trial."
 category: pricing
 updatedDate: 2026-09-03
 related:
@@ -9,15 +9,13 @@ related:
   - what-happens-when-my-trial-ends
 ---
 
-Marqly Free is the core bookmark manager: save links from your browser and get AI auto-tagging and an AI summary on every save. It covers your 100 most recent bookmarks. Pro removes that limit and unlocks the AI search and chat features — semantic search across your whole library, answers pulled from your saved content, and chat with YouTube videos through their transcripts. Pro costs $72 per year or $9 per month, with a 7-day free trial.
+Marqly Free is the manual bookmark manager: save links from your browser, file them into boards, highlight what matters, and search by keyword. It covers your 100 most recent bookmarks. **Every AI feature is Pro** — auto-tagging and summaries on every save, semantic search across your whole library, answers pulled from your saved content, and chat with YouTube videos through their transcripts. Pro costs $72 per year or $9 per month, with a 7-day free trial, and the trial is the way to try the AI on your own library.
 
 ## What Free includes
 
-The free tier is the everyday save-and-tag loop:
+The free tier is the everyday save-and-file loop:
 
 - **One-click saving** from Chrome, Edge, Firefox and Safari, plus the web and iOS apps.
-- **AI auto-tagging** on every save, so you never file anything by hand.
-- **AI summaries** of saved articles.
 - **Highlights, boards and sharing** — the whole organising and publishing side.
 - **Keyword search** across the bookmarks you can access.
 
