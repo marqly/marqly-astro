@@ -1,6 +1,6 @@
 ---
 question: "What's the difference between Marqly Free and Pro?"
-description: "Marqly Free covers saving, boards and highlights for your 100 most recent saves. Every AI feature is Pro — tagging, summaries, semantic search and chat — at $72/yr or $9/mo, 7-day trial."
+description: "Marqly Free covers saving, boards, highlights and keyword search across your whole library, up to 2,000 bookmarks. Every AI feature is Pro — tagging, summaries, semantic search and chat — at $72/yr or $9/mo, 7-day trial."
 category: pricing
 updatedDate: 2026-09-03
 related:
@@ -9,7 +9,7 @@ related:
   - what-happens-when-my-trial-ends
 ---
 
-Marqly Free is the manual bookmark manager: save links from your browser, file them into boards, highlight what matters, and search by keyword. It covers your 100 most recent bookmarks. **Every AI feature is Pro** — auto-tagging and summaries on every save, semantic search across your whole library, answers pulled from your saved content, and chat with YouTube videos through their transcripts. Pro costs $72 per year or $9 per month, with a 7-day free trial, and the trial is the way to try the AI on your own library.
+Marqly Free is the manual bookmark manager: save links from your browser, file them into boards, highlight what matters, and search by keyword. It covers your whole library, up to 2,000 bookmarks. **Every AI feature is Pro** — auto-tagging and summaries on every save, semantic search across your whole library, answers pulled from your saved content, and chat with YouTube videos through their transcripts. Pro costs $72 per year or $9 per month, with a 7-day free trial, and the trial is the way to try the AI on your own library.
 
 ## What Free includes
 
@@ -23,7 +23,7 @@ No card is required to sign up at [app.marqly.com](https://app.marqly.com), and 
 
 ## The two free-tier limits, stated plainly
 
-- **You can access your 100 most recent bookmarks.** Older saves stay in your account and are never deleted, but you need Pro to open, search or read them.
+- **You can open and search every bookmark you save**, up to 2,000 of them. Nothing you save is hidden from you on Free.
 - **You can store up to 2,000 bookmarks.** Beyond that, saving stops until you upgrade.
 
 These are the limits, and they are the reason Pro exists. We would rather you read them here than discover them at bookmark 101.
@@ -38,7 +38,7 @@ These are the limits, and they are the reason Pro exists. We would rather you re
 
 ## Which one do you need?
 
-If you keep a small working set and mostly want saving and tagging done for you, Free covers it. If you have more than a hundred bookmarks worth returning to, or you treat your saves as a knowledge base you want to search by meaning and question directly, that is Pro. Pricing details are on the [pricing section](/#pricing), and the [cost breakdown](/faq/how-much-does-marqly-cost) explains why annual billing is the better deal.
+If you mostly want somewhere reliable to put things and keyword search is enough to get them back, Free covers it. Pro is for when finding becomes the hard part — when your library is large enough that you remember a page by what it was about rather than what it was called, and you want to search by meaning, ask questions of your own saves, and have tagging and summaries done for you. Pricing details are on the [pricing section](/#pricing), and the [cost breakdown](/faq/how-much-does-marqly-cost) explains why annual billing is the better deal.
 
 ## Try before you pay
 

@@ -97,7 +97,7 @@ export function marqlyPairFaqs(marqly: Competitor, b: Competitor): { q: string; 
   faqs.push({ q: `Does ${b.name} have AI search?`, a: aiFeaturesSentence(b) });
   faqs.push({
     q: 'Is Marqly free?',
-    a: 'Yes — Marqly has a free tier with no card required (up to 2,000 bookmarks stored, with the 100 most recent accessible). Pro is $72/year (about $6/month billed annually) or $9/month, with a 7-day free trial. Pro unlocks unlimited bookmark access, AI Q&A over your saves, and chat with YouTube videos.',
+    a: 'Yes — Marqly has a free tier with no card required: up to 2,000 bookmarks, all of them readable and keyword-searchable. Pro is $72/year (about $6/month billed annually) or $9/month, with a 7-day free trial, and unlocks the AI layer — semantic search, auto-tagging and summaries, AI Q&A over your saves, and chat with YouTube videos.',
   });
 
   return faqs;

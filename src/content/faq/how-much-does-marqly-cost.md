@@ -13,9 +13,9 @@ Marqly Pro costs $72 per year — about $6 a month when billed annually — or $
 
 ## The two plans
 
-**Free** covers the core save, auto-tag, and search experience. You can sign up at [app.marqly.com](https://app.marqly.com) and use it indefinitely without entering a card — it stores up to 2,000 bookmarks, with your 100 most recent accessible at a time.
+**Free** covers the core save, auto-tag, and search experience. You can sign up at [app.marqly.com](https://app.marqly.com) and use it indefinitely without entering a card — it stores up to 2,000 bookmarks, and you can read and search all of them.
 
-**Pro** lifts that 100-bookmark limit and unlocks asking AI about your saved content and chatting with YouTube videos via their transcripts. See the full [free vs Pro comparison](/faq/whats-in-marqly-free-vs-pro) for what sits where.
+**Pro** removes the 2,000-bookmark ceiling and unlocks the AI layer — semantic search, auto-tagging and summaries, asking AI about your saved content, and chatting with YouTube videos via their transcripts. See the full [free vs Pro comparison](/faq/whats-in-marqly-free-vs-pro) for what sits where.
 
 ## Annual vs monthly
 

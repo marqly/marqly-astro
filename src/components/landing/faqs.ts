@@ -12,7 +12,7 @@ export interface HomeFaq {
 export const homeFaqs: HomeFaq[] = [
   {
     q: 'Is Marqly free?',
-    a: 'Yes. The free plan includes one-click saving, your own tags, keyword search, highlights, boards, and access on every device — no credit card required, though only your 100 most recent bookmarks stay accessible (up to 2,000 stored). Every AI feature is Pro: auto-tagging and summaries on every save, semantic search, AI Q&A over your saves, and YouTube chat, plus smart sorting, for $72/year (about $6/month billed annually) after a 7-day free trial.',
+    a: 'Yes. The free plan includes one-click saving, your own tags, keyword search, highlights, boards, and access on every device — no credit card required, and you can read and search every bookmark you save (up to 2,000). Every AI feature is Pro: auto-tagging and summaries on every save, semantic search, AI Q&A over your saves, and YouTube chat, plus smart sorting, for $72/year (about $6/month billed annually) after a 7-day free trial.',
     href: '/faq/is-marqly-free',
   },
   {

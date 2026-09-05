@@ -3,9 +3,13 @@ import { APP_URL } from './data';
 import { CheckIcon } from './icons';
 
 const freePerks = [
-  'Your 100 most recent bookmarks',
+  // Was 'Your 100 most recent bookmarks' until 2026-09-05, when the read wall was
+  // removed: FREE now reads and searches its whole library, capped only by the 2,000
+  // storage limit. This was the single biggest change to what free is worth, and
+  // leaving the old line would have undersold the plan rather than oversold it.
+  'Your whole library — search all of it',
+  'Up to 2,000 bookmarks',
   'One-click bookmark saving',
-  'Basic search',
   'Bookmark preview',
   'Highlights',
   'Notes (up to 10)',
@@ -34,11 +38,38 @@ const proPerks = [
 // STRIPE_PRICE_PRO_*_AMOUNT_CENTS, which is what app.marqly.com/checkout charges.
 //   Annual: $72/year → $6/mo, 33% off the $108/year monthly-equivalent
 //   Monthly: $9/mo
+//
+// PROMO is the standing first-year offer (Stripe promotion code STANDING39 → coupon
+// COMEBACK39-2026-09, $33 off, duration: once). It is NOT a fake sale: the offer has no
+// expiry, so nothing here pretends it is about to end, and the renewal price is stated
+// beside it every time it appears — the honest thing, and what card-network and EU
+// consumer rules require.
 const PRICE = {
-  annual: { amount: '$6', period: '/month', note: 'billed annually at $72 · or $9 monthly' },
-  monthly: { amount: '$9', period: '/month', note: 'billed monthly · switch to annual to save 33%' },
+  annual: {
+    amount: '$39',
+    period: '/first year',
+    was: '$72',
+    note: 'then $72/year · just $3.25/month for year one',
+    promo: true,
+  },
+  monthly: {
+    amount: '$9',
+    period: '/month',
+    was: null,
+    note: 'billed monthly · switch to annual for your first year at $39',
+    promo: false,
+  },
 };
-const SAVE_LABEL = 'Save 33%';
+
+// Two savings claims, deliberately kept apart because they compare different things and
+// merging them would overstate one:
+//   CYCLE_SAVE — annual vs paying monthly at LIST ($72 vs $108/yr). A property of the
+//                billing cycle, true with or without a promotion → belongs on the toggle.
+//   PROMO_SAVE — the standing first-year offer against annual list ($39 vs $72 = 45.8%).
+//                A property of the offer → belongs on the card.
+const CYCLE_SAVE = 'Save 33%';
+const PROMO_SAVE = 'Save 46%';
+const PROMO_CODE = 'STANDING39';
 ---
 
 <section id="pricing" class="py-20 md:py-28">
@@ -67,7 +98,7 @@ const SAVE_LABEL = 'Save 33%';
       >
         Annually
         <span class="rounded-2xl bg-pro px-1.5 py-0.5 text-[10px] font-semibold tracking-wide text-white">
-          {SAVE_LABEL}
+          {CYCLE_SAVE}
         </span>
       </button>
       <button
@@ -96,7 +127,7 @@ const SAVE_LABEL = 'Save 33%';
           }
         </ul>
         <p class="mt-3 mb-2.5 text-[11px] text-muted">
-          Store up to 2,000; the 100 most recent stay accessible on Free.
+          Store up to 2,000 bookmarks — and read and search every one of them.
         </p>
         <a
           href={APP_URL}
@@ -108,13 +139,17 @@ const SAVE_LABEL = 'Save 33%';
       </div>
 
       <div class="relative flex flex-col rounded-3xl bg-ink p-7 text-white" data-reveal style="--reveal-delay: 70ms">
-        <div class="flex items-center justify-between">
+        <div class="flex items-center justify-between gap-3">
           <h3 class="text-sm font-semibold tracking-wide text-white/70 uppercase">Pro</h3>
-          <span class="rounded-2xl bg-pro px-2 py-0.5 text-[10px] font-semibold tracking-wide text-white">
-            7-DAY FREE TRIAL
+          <span
+            class="rounded-2xl bg-pro px-2 py-0.5 text-[10px] font-semibold tracking-wide text-white"
+            data-price-save
+          >
+            {PROMO_SAVE} · FIRST YEAR
           </span>
         </div>
-        <p class="font-display mt-3 text-4xl font-medium">
+        <p class="font-display mt-3 flex items-baseline gap-2.5 text-4xl font-medium">
+          <span class="text-2xl text-white/40 line-through" data-price-was>{PRICE.annual.was}</span>
           <span data-price-amount>{PRICE.annual.amount}</span><span
             class="text-lg text-white/60"
             data-price-period>{PRICE.annual.period}</span
@@ -133,7 +168,16 @@ const SAVE_LABEL = 'Save 33%';
             ))
           }
         </ul>
-        <p class="mt-6 mb-2.5 text-center text-[12px] text-white/55">Cancel anytime.</p>
+        <div class="mt-6 mb-2.5 space-y-1.5 text-[12px] text-white/55">
+          <p class="flex items-start gap-2">
+            <CheckIcon size={12} className="mt-[3px] shrink-0 text-pro-bright" />
+            7 days free first — cancel before it ends and you are not charged
+          </p>
+          <p class="flex items-start gap-2">
+            <CheckIcon size={12} className="mt-[3px] shrink-0 text-pro-bright" />
+            Cancel any time; your bookmarks stay yours and stay readable
+          </p>
+        </div>
         <a
           href={APP_URL}
           data-cta="pricing_pro"
@@ -147,7 +191,7 @@ const SAVE_LABEL = 'Save 33%';
   </div>
 </section>
 
-<script define:vars={{ PRICE }}>
+<script define:vars={{ PRICE, PROMO_SAVE, PROMO_CODE }}>
   // Vanilla, no hydration — matches the rest of this landing page.
   const toggle = document.querySelector('[data-billing-toggle]');
   const section = document.querySelector('#pricing');
@@ -155,6 +199,8 @@ const SAVE_LABEL = 'Save 33%';
     const amountEl = section.querySelector('[data-price-amount]');
     const periodEl = section.querySelector('[data-price-period]');
     const noteEl = section.querySelector('[data-price-note]');
+    const wasEl = section.querySelector('[data-price-was]');
+    const saveEl = section.querySelector('[data-price-save]');
     const buttons = toggle.querySelectorAll('[data-billing-btn]');
     const ACTIVE = ['bg-surface', 'text-foreground', 'shadow-surface'];
 
@@ -167,6 +213,18 @@ const SAVE_LABEL = 'Save 33%';
         const url = new URL(proCta.href);
         url.searchParams.set('billing', key);
         url.searchParams.set('src', 'www_pricing');
+        // The promotion code has to travel with the click or the page lies: checkout
+        // would open at the full $72 the card just struck through. Annual only — the
+        // coupon is a flat $33 off, which is most of a $9 month, and checkout forces
+        // yearly whenever a coupon is present. Removed on monthly rather than left stale.
+        if (key === 'annual') {
+          url.searchParams.set('coupon', PROMO_CODE);
+          url.searchParams.set('utm_source', 'www');
+          url.searchParams.set('utm_medium', 'pricing');
+          url.searchParams.set('utm_campaign', 'standing_offer_2026-09');
+        } else {
+          url.searchParams.delete('coupon');
+        }
         proCta.href = url.toString();
       } catch {}
     };
@@ -177,6 +235,15 @@ const SAVE_LABEL = 'Save 33%';
       amountEl.textContent = price.amount;
       periodEl.textContent = price.period;
       noteEl.textContent = price.note;
+      // Monthly carries no discount, so the struck-through anchor and the savings badge
+      // must disappear rather than sit beside a price they do not describe.
+      if (wasEl) {
+        wasEl.textContent = price.was ?? '';
+        wasEl.hidden = !price.was;
+      }
+      if (saveEl) {
+        saveEl.textContent = price.promo ? `${PROMO_SAVE} · FIRST YEAR` : '7-DAY FREE TRIAL';
+      }
       buttons.forEach((button) => {
         const isActive = button.dataset.billingBtn === key;
         button.setAttribute('aria-pressed', String(isActive));
