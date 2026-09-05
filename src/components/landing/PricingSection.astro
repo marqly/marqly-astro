@@ -168,10 +168,20 @@ const PROMO_CODE = 'STANDING39';
             ))
           }
         </ul>
+        {/*
+          The discount and the trial are mutually exclusive, and the page must not imply
+          otherwise. `subscribeStripe` suppresses the trial whenever a promotion code is
+          applied (`cardTrialEnabled = !couponApplied && …`) — deliberately, so nobody gets
+          "free for a week, then discounted". So a single CTA reading "Start the free trial"
+          while carrying coupon=STANDING39 would charge immediately and contradict its own
+          label, which is exactly the kind of mismatch that cost real purchases in 2026-09.
+          Both offers are therefore shown as what they are, and only the primary one carries
+          the code.
+        */}
         <div class="mt-6 mb-2.5 space-y-1.5 text-[12px] text-white/55">
           <p class="flex items-start gap-2">
             <CheckIcon size={12} className="mt-[3px] shrink-0 text-pro-bright" />
-            7 days free first — cancel before it ends and you are not charged
+            <span data-price-reassure>$39 today, then $72/year — cancel before renewal and that is all you pay</span>
           </p>
           <p class="flex items-start gap-2">
             <CheckIcon size={12} className="mt-[3px] shrink-0 text-pro-bright" />
@@ -184,7 +194,15 @@ const PROMO_CODE = 'STANDING39';
           data-pricing-cta="pro"
           class="flex h-11 items-center justify-center rounded-3xl bg-white text-[15px] font-medium text-ink transition-transform active:scale-[0.97]"
         >
-          Start the free trial
+          <span data-price-cta-label>Get Pro — $39 for year one</span>
+        </a>
+        <a
+          href={`${APP_URL}/checkout?billing=yearly&src=www_pricing_trial`}
+          data-cta="pricing_pro_trial"
+          data-pricing-cta="trial"
+          class="mt-2.5 flex h-9 items-center justify-center text-[12px] text-white/60 underline-offset-4 transition-colors hover:text-white/85 hover:underline"
+        >
+          or start a 7-day free trial at $72/year
         </a>
       </div>
     </div>
@@ -244,6 +262,18 @@ const PROMO_CODE = 'STANDING39';
       if (saveEl) {
         saveEl.textContent = price.promo ? `${PROMO_SAVE} · FIRST YEAR` : '7-DAY FREE TRIAL';
       }
+      // On monthly there is no discount, so the CTA goes back to the trial and the
+      // separate trial link would be a duplicate of it.
+      const ctaLabel = section.querySelector('[data-price-cta-label]');
+      const reassure = section.querySelector('[data-price-reassure]');
+      const trialLink = section.querySelector('[data-pricing-cta="trial"]');
+      if (ctaLabel) ctaLabel.textContent = price.promo ? 'Get Pro — $39 for year one' : 'Start the free trial';
+      if (reassure) {
+        reassure.textContent = price.promo
+          ? '$39 today, then $72/year — cancel before renewal and that is all you pay'
+          : '7 days free first — cancel before it ends and you are not charged';
+      }
+      if (trialLink) trialLink.hidden = !price.promo;
       buttons.forEach((button) => {
         const isActive = button.dataset.billingBtn === key;
         button.setAttribute('aria-pressed', String(isActive));
