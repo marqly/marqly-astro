@@ -2,6 +2,12 @@
 import { APP_URL } from './data';
 import { CheckIcon } from './icons';
 
+export interface Props {
+  isPage?: boolean;
+}
+
+const { isPage = false } = Astro.props;
+
 const freePerks = [
   // Was 'Your 100 most recent bookmarks' until 2026-09-05, when the read wall was
   // removed: FREE now reads and searches its whole library, capped only by the 2,000
@@ -76,11 +82,17 @@ const PROMO_CODE = 'STANDING39';
   <div class="mx-auto max-w-[1120px] px-5 md:px-8">
     <div class="max-w-[600px]" data-reveal>
       <p class="text-[11px] font-semibold tracking-[0.16em] text-muted uppercase">Pricing</p>
-      <h2
-        class="font-display mt-3 text-[clamp(1.9rem,4vw,2.9rem)] leading-[1.1] font-medium tracking-[-0.01em] text-foreground"
-      >
-        Free to start.<br />One price for everything.
-      </h2>
+      {
+        isPage ? (
+          <h1 class="font-display mt-3 text-[clamp(2.2rem,5vw,3.2rem)] leading-[1.1] font-medium tracking-[-0.01em] text-foreground">
+            Free to start.<br />One price for everything.
+          </h1>
+        ) : (
+          <h2 class="font-display mt-3 text-[clamp(1.9rem,4vw,2.9rem)] leading-[1.1] font-medium tracking-[-0.01em] text-foreground">
+            Free to start.<br />One price for everything.
+          </h2>
+        )
+      }
     </div>
 
     <div

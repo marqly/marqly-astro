@@ -25,14 +25,14 @@ faqs:
     a: "For a few dozen links, yes — Chrome, Firefox, Safari, and Edge bookmarks are free, instant, and sync within their own ecosystem. They break down at scale: folder-only organization, title-only search, no content capture, and no way to find a page by describing it. Every tool in this roundup exists because of those four gaps."
 ---
 
-**The short answer:** the best free bookmark manager in 2026 depends on what "free" needs to include. **Raindrop.io** has the most generous classic free tier — unlimited bookmarks, collections, and apps on every platform. **Marqly** has a free tier with no card, but every AI feature — auto-tagging, summaries and semantic search — is Pro, and free covers only your 100 most recent bookmarks. **Linkwarden** and **Karakeep** are free-forever if you're willing to self-host, and **your browser's built-in bookmarks** are the baseline that's fine until it isn't. None of these are trials wearing a costume; all five are genuinely usable at $0.
+**The short answer:** the best free bookmark manager in 2026 depends on what "free" needs to include. **Raindrop.io** has the most generous classic free tier — unlimited bookmarks, collections, and apps on every platform. **Marqly** has a free tier with no card, covering up to 2,000 bookmarks with whole-library search (while AI auto-tagging, summaries, and semantic search live in Pro). **Linkwarden** and **Karakeep** are free-forever if you're willing to self-host, and **your browser's built-in bookmarks** are the baseline that's fine until it isn't. None of these are trials wearing a costume; all five are genuinely usable at $0.
 
 Worth saying out loud: the era of "just use Pocket" is over — Mozilla shut Pocket down in 2025, which is why the [Pocket alternatives conversation](/blog/best-pocket-alternatives-2026) got loud and why free tiers matter more than ever as landing spots.
 
 | Tool | Free tier | AI (tagging/search) | Self-host | Platforms | Paid upgrade (verified Aug 2026) |
 | --- | --- | --- | --- | --- | --- |
 | **Raindrop.io** | ✅ Unlimited bookmarks & collections | ❌ Keyword search on free | ❌ | Web, mobile, extensions | Pro $28/yr |
-| **Marqly** | ⚠️ Free tier, no card, last 100 saves | ❌ All AI is Pro (tagging, summaries, semantic search) | ❌ | Web, iOS, Chrome/Edge/Firefox/Safari | Pro $72/yr (~$6/mo) |
+| **Marqly** | ✅ Free tier, up to 2,000 saves (whole library search) | ❌ All AI is Pro (tagging, summaries, semantic search) | ❌ | Web, iOS, Chrome/Edge/Firefox/Safari | Pro $72/yr (~$6/mo, $39 first year) |
 | **Linkwarden** | ✅ Free if self-hosted | ⚠️ Optional AI tagging | ✅ Open source (AGPL) | Web, iOS, Android, extensions | Cloud $3/user/mo |
 | **Karakeep** | ✅ Free if self-hosted | ✅ LLM tagging + semantic search (bring your own key) | ✅ Open source | Web, iOS, Android, extensions | Server costs only |
 | **Browser bookmarks** | ✅ Built in | ❌ | — | Their own ecosystem | — |
@@ -59,22 +59,22 @@ The honest caveat is what's *not* in the free tier: **full-text search, permanen
 
 ## Marqly — the best free tier with real AI
 
-Marqly's free tier is the manual half of the product, and it is honest about it: one-click saving from the extension, a save-all-tabs button, a 6-color highlighter, boards, and keyword search. No card. **Every AI feature is Pro** — auto-tagging, summaries and semantic search alike.
+Marqly's free tier is the manual half of the product, and it is honest about it: one-click saving from the extension, a save-all-tabs button, a 6-color highlighter, boards, and keyword search across your entire library up to 2,000 bookmarks. No card required. **Every AI feature is Pro** — auto-tagging, summaries and semantic search alike.
 
-Two limits belong in the same paragraph, because a roundup that hides them isn't worth reading. The free tier gives you access to your **100 most recent bookmarks** — older saves are kept, not deleted, but reading them needs Pro — and **semantic search is a Pro feature**, not a free one. If unlimited free storage is the requirement, Raindrop is the better answer and it's above for that reason. We build Marqly, so weigh this section accordingly — but those free-tier facts are checkable in two minutes.
+The boundaries are clear: the free tier holds up to **2,000 bookmarks** with full access to search and read all of them, while **semantic search and auto-tagging are Pro features**. If unlimited free storage is your primary requirement, Raindrop is the better answer and it's above for that reason. We build Marqly, so weigh this section accordingly — but those free-tier facts are checkable in two minutes.
 
-Where Raindrop free beats Marqly free: raw collecting at unlimited scale with a mature app on every platform, including Android (Marqly has no Android app; the web app covers Android browsers). Marqly's free tier also has a real cap worth knowing: it stores up to 2,000 bookmarks, but only the 100 most recent stay accessible until you upgrade. Where Marqly free beats Raindrop free: everything AI. Pro is $72/year (~$6/month) or $9/month with a 7-day trial, and lifts the 100-bookmark limit.
+Where Raindrop free beats Marqly free: raw collecting at unlimited scale with a mature app on every platform, including Android (Marqly has no Android app; the web app covers Android browsers). Where Marqly free beats Raindrop free: a modern reading and highlight workflow, whole-library search, and an integrated AI upgrade path. Pro is $72/year (~$6/month, with a $39 first-year offer) or $9/month with a 7-day trial, and lifts storage caps while enabling full AI capabilities.
 
 **Pros:**
 
-- Save-all-tabs, a 6-color highlighter and boards at no cost; the AI is the paid tier
+- Save-all-tabs, a 6-color highlighter, boards, and whole-library search at no cost
 - Extension bundles highlighter, tab saver, and YouTube summaries
 - Imports Pocket exports, Raindrop collections, and browser bookmark HTML
-- Free signup, no card; Pro at $72/year stays cheap if you upgrade
+- Free signup, no card; Pro at $72/year ($39 first year) stays affordable
 
 **Cons:**
 
-- Free tier stores up to 2,000 bookmarks, but only the 100 most recent stay accessible
+- Free tier caps storage at 2,000 bookmarks; unlimited saves and AI require Pro
 - No Android app (web app only on Android)
 - Not self-hostable and no public API — data lives in Marqly's cloud
 - Younger product with a smaller community than Raindrop's

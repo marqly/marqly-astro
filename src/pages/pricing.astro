@@ -1,0 +1,133 @@
+---
+/**
+ * Standalone Pricing Page — canonical /pricing
+ *
+ * Indexable page targeting "marqly pricing", "marqly cost", "marqly pro pricing".
+ * Structured data includes SoftwareApplication with AggregateOffer and FAQPage schema.
+ */
+import LandingV2 from '../layouts/LandingV2.astro';
+import { alternatesForPath } from '../i18n/routes';
+import { organization } from '../lib/schema';
+
+import Nav from '../components/landing/Nav.astro';
+import PricingSection from '../components/landing/PricingSection.astro';
+import ReviewsSection from '../components/landing/ReviewsSection.astro';
+import FaqSection from '../components/landing/FaqSection.astro';
+import CloseSection from '../components/landing/CloseSection.astro';
+import FooterV2 from '../components/landing/FooterV2.astro';
+
+const title = 'Marqly Pricing — Free Plan & Pro AI Features';
+const description =
+  'Simple, transparent pricing. Free forever up to 2,000 bookmarks with search across your whole library. Upgrade to Marqly Pro for $72/year ($39 first year) for unlimited saves and semantic AI search.';
+const canonical = 'https://www.marqly.com/pricing';
+
+const pricingFaqs = [
+  {
+    q: 'Is Marqly free?',
+    a: 'Yes. The free plan includes one-click saving, your own tags, keyword search, highlights, boards, and access on every device — no credit card required, and you can read and search every bookmark you save (up to 2,000). Every AI feature is Pro: auto-tagging and summaries on every save, semantic search, AI Q&A over your saves, and YouTube chat, plus smart sorting, for $72/year (about $6/month billed annually) after a 7-day free trial.',
+  },
+  {
+    q: 'How much does Marqly Pro cost?',
+    a: 'Marqly Pro costs $72 per year (about $6/month billed annually) or $9/month billed monthly. First-year subscribers can get Pro for $39/year with coupon code STANDING39. Verified students pay $48 for their first year.',
+  },
+  {
+    q: "What is the difference between Marqly Free and Pro?",
+    a: 'Free covers saving up to 2,000 bookmarks, keyword search across your whole library, tags, boards, and webpage highlights with no credit card required. Pro removes the 2,000-bookmark storage ceiling and adds unlimited bookmarks plus the full AI layer: automatic tagging, article summaries, semantic search by meaning, YouTube video chat, and ChatVault.',
+  },
+  {
+    q: 'Is there a free trial for Marqly Pro?',
+    a: 'Yes. Every new account can start a 7-day free trial of Marqly Pro to test semantic search, automatic tagging, and AI summaries on their real library. If you do not subscribe after the trial, you keep your free account and all your saved bookmarks without any deletion.',
+  },
+  {
+    q: 'Can I cancel my Marqly Pro subscription anytime?',
+    a: 'Yes. You can cancel your subscription at any time from your account settings with a single click. When you cancel, you retain Pro access until the end of your current billing period, and your account then transitions cleanly to the free tier.',
+  },
+  {
+    q: 'Is there a student discount?',
+    a: 'Yes. Verified students pay $48 for their first year of Marqly Pro instead of $72 (a $24 savings), verified automatically with an academic email address at checkout.',
+  },
+];
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Marqly',
+    url: 'https://www.marqly.com/',
+  },
+  organization(),
+  {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: 'Marqly',
+    applicationCategory: 'ProductivityApplication',
+    operatingSystem: 'Web, iOS, Chrome, Edge, Firefox, Safari',
+    url: 'https://www.marqly.com/pricing',
+    installUrl:
+      'https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc',
+    description:
+      'Simple, transparent pricing for Marqly AI bookmark manager. Free plan up to 2,000 bookmarks; Pro plan with semantic search, auto-tagging, and AI summaries.',
+    offers: {
+      '@type': 'AggregateOffer',
+      priceCurrency: 'USD',
+      lowPrice: '0',
+      highPrice: '72',
+      offerCount: 2,
+      offers: [
+        {
+          '@type': 'Offer',
+          name: 'Marqly Free',
+          price: '0',
+          priceCurrency: 'USD',
+          description:
+            'Free plan storing up to 2,000 bookmarks with search across your whole library, tags, boards, and highlights. No credit card required.',
+        },
+        {
+          '@type': 'Offer',
+          name: 'Marqly Pro',
+          price: '72',
+          priceCurrency: 'USD',
+          description:
+            'Unlimited bookmarks, AI auto-tagging, summaries, semantic search by meaning, YouTube AI chat, and ChatVault for $72/year ($6/month) with $39 first-year offer.',
+        },
+      ],
+    },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.8',
+      reviewCount: '150',
+      bestRating: '5',
+      worstRating: '1',
+    },
+    author: {
+      '@type': 'Organization',
+      name: 'Marqly',
+      url: 'https://www.marqly.com',
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: pricingFaqs.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  },
+];
+---
+
+<LandingV2
+  title={title}
+  description={description}
+  canonical={canonical}
+  jsonLd={jsonLd}
+  alternates={alternatesForPath('/pricing')}
+>
+  <Nav slot="nav" />
+  <PricingSection isPage={true} />
+  <ReviewsSection />
+  <FaqSection />
+  <CloseSection />
+  <FooterV2 slot="footer" />
+</LandingV2>

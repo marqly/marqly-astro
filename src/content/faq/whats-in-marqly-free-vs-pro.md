@@ -26,7 +26,7 @@ No card is required to sign up at [app.marqly.com](https://app.marqly.com), and 
 - **You can open and search every bookmark you save**, up to 2,000 of them. Nothing you save is hidden from you on Free.
 - **You can store up to 2,000 bookmarks.** Beyond that, saving stops until you upgrade.
 
-These are the limits, and they are the reason Pro exists. We would rather you read them here than discover them at bookmark 101.
+These are the limits, and they are the reason Pro exists. We would rather you read them here plainly before you start.
 
 ## What Pro unlocks
 
@@ -38,7 +38,7 @@ These are the limits, and they are the reason Pro exists. We would rather you re
 
 ## Which one do you need?
 
-If you mostly want somewhere reliable to put things and keyword search is enough to get them back, Free covers it. Pro is for when finding becomes the hard part — when your library is large enough that you remember a page by what it was about rather than what it was called, and you want to search by meaning, ask questions of your own saves, and have tagging and summaries done for you. Pricing details are on the [pricing section](/#pricing), and the [cost breakdown](/faq/how-much-does-marqly-cost) explains why annual billing is the better deal.
+If you mostly want somewhere reliable to put things and keyword search is enough to get them back, Free covers it. Pro is for when finding becomes the hard part — when your library is large enough that you remember a page by what it was about rather than what it was called, and you want to search by meaning, ask questions of your own saves, and have tagging and summaries done for you. Pricing details are on the [pricing page](/pricing), and the [cost breakdown](/faq/how-much-does-marqly-cost) explains why annual billing is the better deal.
 
 ## Try before you pay
 

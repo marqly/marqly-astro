@@ -14,12 +14,21 @@
 # parsers probe /sitemap.xml first and were getting a 404.
 /sitemap.xml    /sitemap-index.xml  301
 
-# Pricing now lives on the homepage. Lowercase variants included because that is
-# what people type and what most external sites link to; without them /pricing 404'd.
-/Pricing    /#pricing   301
-/Pricing/   /#pricing   301
-/pricing    /#pricing   301
-/pricing/   /#pricing   301
+# Legacy Framer uppercase /Pricing redirects to the canonical indexable /pricing page.
+/Pricing    /pricing   301
+/Pricing/   /pricing   301
+
+# Discover / Explore entry points: redirect to live public collections on app.marqly.com/explore.
+/discover   https://app.marqly.com/explore  301
+/discover/  https://app.marqly.com/explore  301
+/explore    https://app.marqly.com/explore  301
+/explore/   https://app.marqly.com/explore  301
+
+# Trust & crawl convenience routes
+/features   /extension  301
+/features/  /extension  301
+/about      /           301
+/about/     /           301
 
 # The Extension page was retired and pointed at `/`, but a NEW extension page
 # shipped 2026-08-03 at the lowercase URL. /Extension is the original Framer URL

@@ -21,7 +21,7 @@ Signing up takes a minute at [app.marqly.com](https://app.marqly.com), and becau
 
 ## When Pro makes sense
 
-Pro removes the 100-bookmark access limit and adds the entire AI layer: auto-tagging and summaries on every save, semantic search across your whole library, answers pulled from your saved content, and chat with YouTube videos through their transcripts. If you keep a small working set and are happy filing it yourself, free covers you. If you want the filing done for you, or to find "that video about sourdough starters" without remembering the title, that's the Pro tier. The full breakdown is in [free vs Pro](/faq/whats-in-marqly-free-vs-pro).
+Pro removes the 2,000-bookmark ceiling and adds the entire AI layer: auto-tagging and summaries on every save, semantic search across your whole library, answers pulled from your saved content, and chat with YouTube videos through their transcripts. If you keep a small working set and are happy filing it yourself, free covers you. If you want the filing done for you, or to find "that video about sourdough starters" without remembering the title, that's the Pro tier. The full breakdown is in [free vs Pro](/faq/whats-in-marqly-free-vs-pro).
 
 ## Trying Pro without risk
 
@@ -29,4 +29,4 @@ Every new account can start a 7-day free trial of Pro. When the trial ends, you 
 
 ## Bottom line
 
-Free is genuinely free: no card, no time limit on the plan itself, and your saves are always yours to export. Current pricing is always on the homepage's pricing section. If you're comparing options before committing, the [best AI bookmark managers of 2026](/blog/best-ai-bookmark-manager-2026) roundup shows where Marqly's free tier stands against alternatives.
+Free is genuinely free: no card, no time limit on the plan itself, and your saves are always yours to export. Current pricing is always on the [pricing page](/pricing). If you're comparing options before committing, the [best AI bookmark managers of 2026](/blog/best-ai-bookmark-manager-2026) roundup shows where Marqly's free tier stands against alternatives.

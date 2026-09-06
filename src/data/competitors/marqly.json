@@ -11,7 +11,7 @@
     "free": true,
     "paid": "$72/year (≈$6/mo) or $9/month",
     "trial": "7-day free trial of Pro",
-    "notes": "Free tier needs no card and stores up to 2,000 bookmarks, with the 100 most recent accessible; every AI feature is Pro — auto-tagging, summaries, semantic search, AI Q&A over saves and video chat."
+    "notes": "Free tier needs no card and stores up to 2,000 bookmarks with search across your whole library; every AI feature is Pro — auto-tagging, summaries, semantic search, AI Q&A over saves and video chat."
   },
   "platforms": [
     "web",
@@ -52,7 +52,7 @@
     "One-click imports from Pocket, Raindrop, and browser bookmark files"
   ],
   "cons": [
-    "Free tier stores up to 2,000 bookmarks, but only the 100 most recent stay accessible",
+    "Free tier stores up to 2,000 bookmarks (without AI); unlimited bookmarks and all AI capabilities require Pro",
     "No AI at all on the free tier — auto-tagging, summaries, semantic search and chat are all Pro",
     "Lifetime plans (AppSumo, 2022-24) save, browse and search without limit, but include no AI",
     "No Android app yet (the web app works in Android browsers)",
@@ -61,7 +61,7 @@
   ],
   "bestFor": "Anyone who saves more than they can organize — researchers, students, and heavy readers who want to find things again by describing them.",
   "verdict": "The strongest pick when finding saves again matters more than filing them.",
-  "overview": "Marqly is an AI bookmark manager built around a browser extension for Chrome, Edge, Firefox, and Safari, plus a web app and an iOS app. On Pro, every save is tagged and summarized automatically and semantic search retrieves a bookmark by describing what you remember instead of matching exact keywords; the free tier is the manual half — saving, boards, highlights and keyword search. On YouTube, an AI card next to the player adds a streaming summary, a playback-synced transcript, and transcript-grounded chat. A built-in highlighter marks up any website in six colors with notes that persist across visits, boards collect links and highlights into shareable public pages, and any page can be captured as a clean PDF locally in the browser. Imports from Pocket, Raindrop, and standard browser bookmark exports make switching quick. A free tier requires no card and stores up to 2,000 bookmarks, with the 100 most recent accessible; Pro lifts that cap and is $72/year or $9/month with a 7-day trial.",
+  "overview": "Marqly is an AI bookmark manager built around a browser extension for Chrome, Edge, Firefox, and Safari, plus a web app and an iOS app. On Pro, every save is tagged and summarized automatically and semantic search retrieves a bookmark by describing what you remember instead of matching exact keywords; the free tier is the manual half — saving, boards, highlights and keyword search. On YouTube, an AI card next to the player adds a streaming summary, a playback-synced transcript, and transcript-grounded chat. A built-in highlighter marks up any website in six colors with notes that persist across visits, boards collect links and highlights into shareable public pages, and any page can be captured as a clean PDF locally in the browser. Imports from Pocket, Raindrop, and standard browser bookmark exports make switching quick. A free tier requires no card and stores up to 2,000 bookmarks with search across your whole library; Pro lifts that cap to unlimited and adds full AI capabilities for $72/year (with $39 first-year offer) or $9/month with a 7-day trial.",
   "faqs": [],
   "lastVerified": "2026-08-02"
 }
