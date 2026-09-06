@@ -67,13 +67,7 @@ const PRICE = {
   },
 };
 
-// Two savings claims, deliberately kept apart because they compare different things and
-// merging them would overstate one:
-//   CYCLE_SAVE — annual vs paying monthly at LIST ($72 vs $108/yr). A property of the
-//                billing cycle, true with or without a promotion → belongs on the toggle.
-//   PROMO_SAVE — the standing first-year offer against annual list ($39 vs $72 = 45.8%).
-//                A property of the offer → belongs on the card.
-const CYCLE_SAVE = 'Save 33%';
+// PROMO_SAVE is the standing first-year offer against annual list ($39 vs $72 = 45.8%).
 const PROMO_SAVE = 'Save 46%';
 const PROMO_CODE = 'STANDING39';
 ---
@@ -109,9 +103,6 @@ const PROMO_CODE = 'STANDING39';
         class="flex items-center gap-2 rounded-3xl px-4 py-2 text-[13px] font-medium transition-colors bg-surface text-foreground shadow-surface"
       >
         Annually
-        <span class="rounded-2xl bg-pro px-1.5 py-0.5 text-[10px] font-semibold tracking-wide text-white">
-          {CYCLE_SAVE}
-        </span>
       </button>
       <button
         type="button"
@@ -201,20 +192,20 @@ const PROMO_CODE = 'STANDING39';
           </p>
         </div>
         <a
+          href={`${APP_URL}/checkout?billing=yearly&src=www_pricing_trial`}
+          data-cta="pricing_pro_trial"
+          data-pricing-cta="trial"
+          class="mb-3 flex items-center justify-center text-[12px] text-white/70 underline-offset-4 transition-colors hover:text-white hover:underline"
+        >
+          or start a 7-day free trial at $72/year
+        </a>
+        <a
           href={APP_URL}
           data-cta="pricing_pro"
           data-pricing-cta="pro"
           class="flex h-11 items-center justify-center rounded-3xl bg-white text-[15px] font-medium text-ink transition-transform active:scale-[0.97]"
         >
           <span data-price-cta-label>Get Pro — $39 for year one</span>
-        </a>
-        <a
-          href={`${APP_URL}/checkout?billing=yearly&src=www_pricing_trial`}
-          data-cta="pricing_pro_trial"
-          data-pricing-cta="trial"
-          class="mt-2.5 flex h-9 items-center justify-center text-[12px] text-white/60 underline-offset-4 transition-colors hover:text-white/85 hover:underline"
-        >
-          or start a 7-day free trial at $72/year
         </a>
       </div>
     </div>
