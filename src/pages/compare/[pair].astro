@@ -7,7 +7,7 @@ import FaqAccordion from '../../components/seo/FaqAccordion.astro';
 import CtaBox from '../../components/seo/CtaBox.astro';
 import SourceNote from '../../components/seo/SourceNote.astro';
 import { competitors, marqly, getCompetitor } from '../../lib/competitors';
-import { marqlyPairFaqs, marqlyEdges, otherEdges, pricingSentence } from '../../lib/compare-content';
+import { marqlyPairFaqs, marqlyEdges, otherEdges, pricingSentence, switchSentence } from '../../lib/compare-content';
 import { breadcrumbList, faqPage, organization, softwareApplication, webSite } from '../../lib/schema';
 import { alternatesForPath } from '../../i18n/routes';
 
@@ -147,6 +147,67 @@ const tableTools = isMarqlyPair ? [marqly, b] : [a, b, marqly];
               <h3>Where Marqly falls short</h3>
               <ul>{marqly.cons.map((c) => <li>{c}</li>)}</ul>
             </div>
+          </div>
+
+          {!b.features.semanticSearch && (
+            <div class="search-contrast">
+              <h2>The core difference: Finding saves when you forgot the exact title</h2>
+              <p class="prose-p">
+                The most frequent pain point with traditional bookmark tools like {b.name} is search failure. When you save hundreds of links and later only remember the concept—not the exact title or tag—keyword matching comes up empty. Marqly indexes the actual meaning of your bookmarks, articles, highlights, and YouTube transcripts with semantic embeddings.
+              </p>
+              <div class="contrast-grid">
+                <div class="contrast-card traditional">
+                  <div class="contrast-head">
+                    <span class="contrast-tag">{b.name}</span>
+                    <h4>Keyword & Tag Matching</h4>
+                  </div>
+                  <p class="contrast-desc">Matches titles, tags, and exact strings. If you paraphrase or forget the exact wording, the save stays hidden.</p>
+                  <div class="contrast-example">
+                    <span class="query-label">Search Query:</span>
+                    <code>"study about sleep cycles and focus"</code>
+                    <div class="result-box fail">
+                      <span class="res-icon">✕</span>
+                      <span>0 results (Title was "Huberman Morning Protocols")</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="contrast-card ai">
+                  <div class="contrast-head">
+                    <span class="contrast-tag pro">Marqly</span>
+                    <h4>Semantic AI Search</h4>
+                  </div>
+                  <p class="contrast-desc">Understands natural-language concepts. Find any bookmark by describing what you remember, just like asking a human colleague.</p>
+                  <div class="contrast-example">
+                    <span class="query-label">Search Query:</span>
+                    <code>"study about sleep cycles and focus"</code>
+                    <div class="result-box success">
+                      <span class="res-icon">✓</span>
+                      <span>Found: Huberman Morning Protocols (matched by concept)</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+
+          <div class="switch-box">
+            <h3>Switching from {b.name} to Marqly</h3>
+            <p class="prose-p">{switchSentence(b)}</p>
+            <div class="switch-steps">
+              <div class="step-item">
+                <span class="step-num">1</span>
+                <span>Export your {b.name} bookmarks as HTML or CSV</span>
+              </div>
+              <div class="step-item">
+                <span class="step-num">2</span>
+                <span>Upload file in Marqly Settings → Import</span>
+              </div>
+              <div class="step-item">
+                <span class="step-num">3</span>
+                <span>AI auto-tags and indexes your library in minutes</span>
+              </div>
+            </div>
+            <a class="btn btn--primary" href="https://app.marqly.com">Import your {b.name} bookmarks free →</a>
           </div>
         </>
       ) : (
@@ -310,4 +371,150 @@ const tableTools = isMarqlyPair ? [marqly, b] : [a, b, marqly];
   .xlinks a:hover { color: var(--ink-1); }
   @media (max-width: 800px) { .xlinks { grid-template-columns: 1fr 1fr; } }
   @media (max-width: 540px) { .xlinks { grid-template-columns: 1fr; } }
+
+  /* Contrast grid */
+  .search-contrast { margin-top: var(--space-10); }
+  .contrast-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-6);
+    margin-top: var(--space-6);
+  }
+  .contrast-card {
+    background: var(--surface-1);
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-card);
+    padding: var(--space-6);
+    display: flex;
+    flex-direction: column;
+  }
+  .contrast-card.ai {
+    background: var(--surface-2);
+    border-color: var(--border-2);
+  }
+  .contrast-head {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+    margin-bottom: var(--space-3);
+  }
+  .contrast-tag {
+    font-size: var(--fs-xs);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--ink-3);
+  }
+  .contrast-tag.pro { color: var(--accent); }
+  .contrast-head h4 {
+    font-size: var(--fs-base);
+    font-weight: 600;
+    color: var(--ink-1);
+    margin: 0;
+  }
+  .contrast-desc {
+    font-size: var(--fs-sm);
+    color: var(--ink-2);
+    line-height: var(--lh-base);
+    margin-bottom: var(--space-4);
+  }
+  .contrast-example {
+    background: var(--surface-3);
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-inner);
+    padding: var(--space-4);
+    margin-top: auto;
+  }
+  .query-label {
+    display: block;
+    font-size: var(--fs-xs);
+    font-weight: 500;
+    color: var(--ink-3);
+    margin-bottom: var(--space-1);
+  }
+  .contrast-example code {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: var(--fs-xs);
+    color: var(--ink-1);
+    margin-bottom: var(--space-3);
+  }
+  .result-box {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--fs-xs);
+    padding: var(--space-2) var(--space-3);
+    border-radius: var(--radius-inner);
+  }
+  .result-box.fail {
+    background: #fdf2f2;
+    color: #b91c1c;
+    border: 1px solid #fecaca;
+  }
+  .result-box.success {
+    background: #f0fdf4;
+    color: #15803d;
+    border: 1px solid #bbf7d0;
+  }
+  .res-icon { font-weight: bold; }
+
+  /* Switch box */
+  .switch-box {
+    margin-top: var(--space-10);
+    background: var(--surface-2);
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-card);
+    padding: var(--space-6);
+  }
+  .switch-box h3 {
+    font-size: var(--fs-lg);
+    font-weight: 600;
+    color: var(--ink-1);
+    margin-top: 0;
+    margin-bottom: var(--space-2);
+  }
+  .switch-steps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-4);
+    margin: var(--space-5) 0 var(--space-6);
+  }
+  .step-item {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    font-size: var(--fs-sm);
+    color: var(--ink-2);
+    line-height: var(--lh-snug);
+  }
+  .step-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: var(--ink-1);
+    color: var(--surface-1);
+    font-size: var(--fs-xs);
+    font-weight: 600;
+  }
+  .btn--primary {
+    display: inline-block;
+    background: var(--ink-1);
+    color: var(--surface-1);
+    padding: var(--space-3) var(--space-6);
+    border-radius: var(--radius-pill);
+    font-size: var(--fs-sm);
+    font-weight: 500;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+  }
+  .btn--primary:hover { opacity: 0.9; }
+
+  @media (max-width: 700px) {
+    .contrast-grid { grid-template-columns: 1fr; }
+    .switch-steps { grid-template-columns: 1fr; }
+  }
 </style>

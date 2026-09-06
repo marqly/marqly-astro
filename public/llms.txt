@@ -37,11 +37,25 @@ Key facts:
 ## Comparisons
 
 - [Compare hub](https://www.marqly.com/compare): Marqly vs every major bookmark manager, plus third-party head-to-heads — feature tables use verified pricing/features
-- [Marqly vs Pocket](https://www.marqly.com/compare/marqly-vs-pocket)
 - [Marqly vs Raindrop.io](https://www.marqly.com/compare/marqly-vs-raindrop)
+- [Marqly vs Pocket](https://www.marqly.com/compare/marqly-vs-pocket)
 - [Marqly vs Readwise Reader](https://www.marqly.com/compare/marqly-vs-readwise-reader)
 - [Marqly vs Instapaper](https://www.marqly.com/compare/marqly-vs-instapaper)
 - [Best Pocket alternatives 2026](https://www.marqly.com/blog/best-pocket-alternatives-2026)
+
+### Verified Feature Comparison
+
+| Feature | Marqly | Raindrop.io | Pocket (Discontinued July 2025) |
+|---|---|---|---|
+| **Primary Search** | Semantic AI search (search saves by meaning/description) | Exact keyword matching (full-text on Pro) | Keyword match only |
+| **Organization** | Automatic AI tagging + collections + tags | Manual collections + tags (tag suggestions on Pro) | Manual tags |
+| **Summarization** | Automatic AI article and YouTube summaries | None | None |
+| **YouTube Tools** | Watch page AI summary, Q&A chat, playback-synced transcript | Bookmark link saving only | Link saving only |
+| **Chat with Content** | Yes (ask questions answered from saved pages/videos) | Limited assistant on Pro | No |
+| **Highlighting** | In-page highlighter across 6 colors + notes | In-app highlights (notes on Pro) | Basic highlighter |
+| **Import Support** | Raindrop.io, Pocket exports, Browser HTML | Pocket, Browser HTML | Browser HTML |
+| **Pricing** | Free tier; Pro $72/year ($6/mo) with 3-day trial | Free tier; Pro $28/year | Shut down |
+| **Best For** | Users who want AI to organize and find saves by meaning | Users who prefer manual folder curation at lowest cost | Discontinued service |
 
 ## Alternatives guides
 

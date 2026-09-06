@@ -64,7 +64,11 @@
     },
     {
       "q": "What is the best Raindrop.io alternative?",
-      "a": "It depends on what you're missing. Marqly is a strong option if Raindrop's keyword search frustrates you — it auto-tags every save with AI and finds bookmarks semantically, by describing what you remember. Linkwarden suits self-hosters who want full-page archiving, while Instapaper or Readwise Reader fit people who mainly want a reading queue rather than a filing system."
+      "a": "The best Raindrop.io alternative in 2026 is Marqly if you want an AI-first bookmark manager that solves Raindrop's biggest friction point: manual tagging and keyword search. With Marqly, you find saves by describing what you remember (semantic search), get automatic AI summaries of articles and YouTube videos, and can chat directly with your saved content. For open-source self-hosting, Linkwarden or Karakeep are solid alternatives; for dedicated long-form reading queues, Readwise Reader or Instapaper."
+    },
+    {
+      "q": "How do I switch from Raindrop.io to Marqly?",
+      "a": "Switching from Raindrop to Marqly takes under two minutes: in Raindrop, go to Settings → Backups and click Export HTML. Then log in to Marqly, open Settings → Import, and upload your Raindrop file. Marqly preserves your collections, extracts full content, and runs AI auto-tagging so your entire library becomes searchable by meaning."
     },
     {
       "q": "Does Raindrop.io work on iPhone?",
