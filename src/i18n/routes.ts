@@ -60,6 +60,20 @@ export const TRANSLATIONS: Record<string, Partial<Record<Locale, string>>> = {
     fr: '/fr/blog/alternatives-a-pocket-2026',
     it: '/it/blog/alternative-a-pocket-2026',
   },
+  '/blog/best-read-it-later-apps-2026': {
+    es: '/es/blog/mejores-apps-para-leer-despues-2026',
+    pt: '/pt/blog/melhores-apps-salvar-para-ler-depois-2026',
+    de: '/de/blog/beste-read-it-later-apps-2026',
+    fr: '/fr/blog/meilleures-applications-lecture-differee-2026',
+    it: '/it/blog/migliori-app-salva-e-leggi-dopo-2026',
+  },
+  '/blog/how-to-organize-bookmarks': {
+    es: '/es/blog/organizar-marcadores-navegador',
+    pt: '/pt/blog/organizar-favoritos-navegador',
+    de: '/de/blog/lesezeichen-organisieren',
+    fr: '/fr/blog/organiser-favoris-navigateur',
+    it: '/it/blog/organizzare-preferiti-browser',
+  },
   '/blog': {
     es: '/es/blog',
     pt: '/pt/blog',
