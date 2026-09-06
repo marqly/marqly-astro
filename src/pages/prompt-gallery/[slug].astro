@@ -78,12 +78,29 @@ const categoryPath = `/prompt-gallery/category/${catSlug(data.category)}`;
           <div class="prompt-card">
             <div class="prompt-toolbar">
               <span class="toolbar-label">Full prompt</span>
-              <button type="button" class="copy-btn" data-copy-btn>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
-                <span class="copy-label">Copy</span>
-              </button>
+              <div class="toolbar-actions">
+                <button type="button" class="save-marqly-btn" data-save-btn title="Copy prompt and save in Marqly">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/></svg>
+                  <span class="save-label">Save to Marqly</span>
+                </button>
+                <button type="button" class="copy-btn" data-copy-btn>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                  <span class="copy-label">Copy</span>
+                </button>
+              </div>
             </div>
             <pre data-copy-target>{data.prompt}</pre>
+            <div class="prompt-callout">
+              <span class="callout-icon">💡</span>
+              <div class="callout-text">
+                <strong>Organize your AI prompt library with Marqly</strong>
+                <p>
+                  Never lose high-performing prompts in chat history. Clip prompts directly from ChatGPT, Claude, and Gemini with the
+                  <a href="/extension">Marqly extension</a>, tag them by project, and find them with
+                  <a href="/faq/what-is-semantic-search">semantic search</a>.
+                </p>
+              </div>
+            </div>
           </div>
 
           <div class="prose">
@@ -108,6 +125,40 @@ const categoryPath = `/prompt-gallery/category/${catSlug(data.category)}`;
           )}
         </div>
 
+        <aside class="prompt-sidebar">
+          <div class="sidebar-card">
+            <div class="sidebar-badge">⚡ AI Prompt Organizer</div>
+            <h3>Save & Run Prompts in Marqly</h3>
+            <p>
+              Stop losing your best prompts in endless chat threads. Save custom prompts to your personal Marqly library, tag them by workflow, and clip new ones directly from ChatGPT, Claude, and Gemini with one click.
+            </p>
+            <ul class="sidebar-benefits">
+              <li>✓ One-click prompt clipping</li>
+              <li>✓ Semantic search across your library</li>
+              <li>✓ Sync across Chrome, Edge, Firefox, & Safari</li>
+              <li>✓ Free up to 2,000 saves</li>
+            </ul>
+            <a href="/extension" class="btn btn--primary btn--sm sidebar-btn">
+              Get Extension Free <span class="arrow">→</span>
+            </a>
+            <a href="https://app.marqly.com" target="_blank" rel="noopener" class="sidebar-sublink">
+              Or open web app (no card required) ↗
+            </a>
+          </div>
+
+          <div class="sidebar-card sidebar-card--secondary">
+            <h4>Curated by Marqly</h4>
+            <p>
+              Looking for more AI workflows? Explore our free tools or learn how to search your entire knowledge base by meaning.
+            </p>
+            <div class="sidebar-links">
+              <a href="/tools/youtube-transcript">YouTube Transcript Viewer →</a>
+              <a href="/tools/youtube-summarize">YouTube Summarizer →</a>
+              <a href="/embed">Embed Curated Boards →</a>
+              <a href="/blog/how-to-search-bookmarks-with-ai">AI Semantic Search Guide →</a>
+            </div>
+          </div>
+        </aside>
       </div>
 
       {data.faqs.length > 0 && (
@@ -123,7 +174,9 @@ const categoryPath = `/prompt-gallery/category/${catSlug(data.category)}`;
   <script is:inline>
     (function () {
       const copyBtn = document.querySelector('[data-copy-btn]');
+      const saveBtn = document.querySelector('[data-save-btn]');
       const pre = document.querySelector('[data-copy-target]');
+
       if (copyBtn && pre) {
         copyBtn.addEventListener('click', async () => {
           const text = pre.textContent || '';
@@ -138,12 +191,31 @@ const categoryPath = `/prompt-gallery/category/${catSlug(data.category)}`;
               if (label) label.textContent = original;
             }, 1800);
           } catch (err) {
-            // Fallback: select text
             const selection = window.getSelection();
             const range = document.createRange();
             range.selectNodeContents(pre);
             selection.removeAllRanges();
             selection.addRange(range);
+          }
+        });
+      }
+
+      if (saveBtn && pre) {
+        saveBtn.addEventListener('click', async () => {
+          const text = pre.textContent || '';
+          try {
+            await navigator.clipboard.writeText(text);
+            const label = saveBtn.querySelector('.save-label');
+            const original = label ? label.textContent : 'Save to Marqly';
+            saveBtn.classList.add('is-saved');
+            if (label) label.textContent = 'Copied! Opening Marqly…';
+            setTimeout(() => {
+              window.open('https://app.marqly.com', '_blank');
+              if (label) label.textContent = original;
+              saveBtn.classList.remove('is-saved');
+            }, 600);
+          } catch (err) {
+            window.open('https://app.marqly.com', '_blank');
           }
         });
       }
@@ -234,6 +306,8 @@ const categoryPath = `/prompt-gallery/category/${catSlug(data.category)}`;
       align-items: center;
       justify-content: space-between;
       margin-bottom: var(--space-3);
+      flex-wrap: wrap;
+      gap: var(--space-2);
     }
     .toolbar-label {
       font-size: var(--fs-xs);
@@ -242,6 +316,27 @@ const categoryPath = `/prompt-gallery/category/${catSlug(data.category)}`;
       letter-spacing: 0.06em;
       color: var(--ink-3);
     }
+    .toolbar-actions {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+    }
+    .save-marqly-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      font-size: var(--fs-xs);
+      font-weight: 600;
+      color: var(--surface-1);
+      background: var(--ink-1);
+      border: 1px solid var(--ink-1);
+      padding: 0.45rem 0.85rem;
+      border-radius: var(--radius-pill);
+      cursor: pointer;
+      transition: opacity var(--dur-fast) var(--ease-out), background var(--dur-fast) var(--ease-out);
+    }
+    .save-marqly-btn:hover { opacity: 0.9; }
+    .save-marqly-btn.is-saved { background: #10b981; border-color: #10b981; }
     .copy-btn {
       display: inline-flex;
       align-items: center;
@@ -269,6 +364,112 @@ const categoryPath = `/prompt-gallery/category/${catSlug(data.category)}`;
       line-height: var(--lh-base);
       white-space: pre-wrap;
       overflow-x: auto;
+    }
+    .prompt-callout {
+      margin-top: var(--space-4);
+      padding: var(--space-4);
+      background: var(--surface-1);
+      border: 1px solid var(--border-1);
+      border-radius: var(--radius-sm);
+      display: flex;
+      gap: var(--space-3);
+      align-items: flex-start;
+    }
+    .callout-icon { font-size: 1.2rem; line-height: 1; }
+    .callout-text strong { display: block; font-size: var(--fs-xs); font-weight: 600; color: var(--ink-1); margin-bottom: 2px; }
+    .callout-text p { font-size: var(--fs-xs); color: var(--ink-2); margin: 0; line-height: 1.4; }
+    .callout-text a { color: var(--ink-1); text-decoration: underline; font-weight: 500; }
+
+    .prompt-sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-6);
+      position: sticky;
+      top: calc(var(--nav-height) + var(--space-6));
+    }
+    .sidebar-card {
+      background: var(--surface-2);
+      border: 1px solid var(--border-1);
+      border-radius: var(--radius-lg);
+      padding: var(--space-6);
+    }
+    .sidebar-card--secondary {
+      background: var(--surface-1);
+    }
+    .sidebar-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      background: var(--surface-1);
+      color: var(--ink-2);
+      padding: 0.15rem 0.5rem;
+      border-radius: 9999px;
+      border: 1px solid var(--border-1);
+      margin-bottom: var(--space-3);
+    }
+    .sidebar-card h3 {
+      font-size: var(--fs-base);
+      font-weight: 600;
+      color: var(--ink-1);
+      margin: 0 0 var(--space-2) 0;
+    }
+    .sidebar-card h4 {
+      font-size: var(--fs-sm);
+      font-weight: 600;
+      color: var(--ink-1);
+      margin: 0 0 var(--space-2) 0;
+    }
+    .sidebar-card p {
+      font-size: var(--fs-xs);
+      color: var(--ink-2);
+      line-height: 1.5;
+      margin: 0 0 var(--space-4) 0;
+    }
+    .sidebar-benefits {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 var(--space-5) 0;
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-2);
+    }
+    .sidebar-benefits li {
+      font-size: var(--fs-xs);
+      color: var(--ink-2);
+      font-weight: 500;
+    }
+    .sidebar-btn {
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+      display: inline-flex;
+      text-decoration: none;
+    }
+    .sidebar-sublink {
+      display: block;
+      margin-top: var(--space-3);
+      text-align: center;
+      font-size: var(--fs-xs);
+      color: var(--ink-3);
+      text-decoration: underline;
+    }
+    .sidebar-sublink:hover { color: var(--ink-1); }
+    .sidebar-links {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-2);
+    }
+    .sidebar-links a {
+      font-size: var(--fs-xs);
+      color: var(--ink-2);
+      text-decoration: none;
+      transition: color var(--dur-fast) var(--ease-out);
+    }
+    .sidebar-links a:hover {
+      color: var(--ink-1);
+      text-decoration: underline;
     }
 
     .prose { margin-bottom: var(--space-10); }

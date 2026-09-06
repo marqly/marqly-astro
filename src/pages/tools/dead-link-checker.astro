@@ -1,7 +1,7 @@
 ---
 import LandingLayout from '../../layouts/LandingLayout.astro';
 import ToolShell from '../../components/seo/ToolShell.astro';
-import { breadcrumbList, faqPage, organization, webSite } from '../../lib/schema';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../lib/schema';
 
 const title = 'Dead Link Checker — Test Up to 25 URLs for Link Rot Free';
 const description =
@@ -35,6 +35,11 @@ const jsonLd = [
     { name: 'Dead link checker', path: '/tools/dead-link-checker' },
   ]),
   faqPage(faqs),
+  freeWebApplication(
+    'Dead link checker',
+    'Paste up to 25 URLs and check which are dead, redirected, or fine — HTTP status for each, free with no signup.',
+    '/tools/dead-link-checker',
+  ),
 ];
 ---
 
@@ -111,10 +116,16 @@ const jsonLd = [
       <h2>The deeper fix for rotting bookmarks</h2>
       <p>
         A link checker tells you a page died; it can't tell you what the page said. That's the
-        argument for saving more than the URL: Marqly attaches an AI summary to every save, so a
+        argument for saving more than the URL: Marqly attaches an AI summary and snapshot data to every save, so a
         dead link in your library still carries its content's gist — and
-        <a href="https://app.marqly.com">semantic search</a> still finds it by meaning. Your data
-        stays yours either way; see <a href="/faq/can-i-export-my-data">can I export my data</a>.
+        <a href="https://app.marqly.com">semantic search</a> still finds it by meaning.
+      </p>
+      <p>
+        Traditional bookmark tools only store the raw URL and title (see how we compare in our
+        <a href="/compare/marqly-vs-raindrop">Marqly vs Raindrop breakdown</a>). With the
+        <a href="/extension">Marqly browser extension</a>, pages are summarized, AI-tagged, and indexed
+        at the moment of saving so link rot never wipes out your knowledge. Your data stays yours either way; see
+        <a href="/faq/can-i-export-my-data">can I export my data</a>.
       </p>
     </Fragment>
   </ToolShell>

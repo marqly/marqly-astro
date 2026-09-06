@@ -1,7 +1,7 @@
 ---
 import LandingLayout from '../../layouts/LandingLayout.astro';
 import ToolShell from '../../components/seo/ToolShell.astro';
-import { breadcrumbList, faqPage, organization, webSite } from '../../lib/schema';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../lib/schema';
 
 const title = 'Bookmark File Viewer — Open & Search Any Bookmarks HTML Export';
 const description =
@@ -35,6 +35,11 @@ const jsonLd = [
     { name: 'Bookmark file viewer', path: '/tools/bookmark-file-viewer' },
   ]),
   faqPage(faqs),
+  freeWebApplication(
+    'Bookmark file viewer',
+    'View any browser bookmarks HTML export in your browser — search titles, URLs, and folders, then export to CSV or JSON. Free, private, nothing uploaded.',
+    '/tools/bookmark-file-viewer',
+  ),
 ];
 ---
 

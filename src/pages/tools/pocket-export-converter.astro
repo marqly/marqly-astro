@@ -1,7 +1,7 @@
 ---
 import LandingLayout from '../../layouts/LandingLayout.astro';
 import ToolShell from '../../components/seo/ToolShell.astro';
-import { breadcrumbList, faqPage, organization, webSite } from '../../lib/schema';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../lib/schema';
 
 const title = 'Pocket Export Converter — CSV to Bookmarks HTML or JSON';
 const description =
@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: 'Do I even need to convert it for Marqly?',
-    a: 'No — Marqly imports the Pocket file directly, no conversion step. Every save gets AI tags and a summary on import, and semantic search works across all of it. The converter here is for everything else: browsers, and any app that only speaks bookmarks HTML or JSON.',
+    a: 'No — Marqly imports the Pocket file directly, no conversion step needed. Follow our step-by-step <a href="/migrate/pocket">Pocket to Marqly migration guide</a>. Every save gets AI tags and a summary on import, and semantic search works across all of it.',
   },
 ];
 
@@ -35,6 +35,11 @@ const jsonLd = [
     { name: 'Pocket export converter', path: '/tools/pocket-export-converter' },
   ]),
   faqPage(faqs),
+  freeWebApplication(
+    'Pocket export converter',
+    'Convert your saved Pocket export CSV to a bookmarks HTML file or JSON — free, in your browser.',
+    '/tools/pocket-export-converter',
+  ),
 ];
 ---
 
@@ -115,9 +120,10 @@ const jsonLd = [
         Any browser will swallow the bookmarks HTML — but a browser's bookmark manager is a
         downgrade from what Pocket did. <a href="https://app.marqly.com">Marqly</a> imports the
         Pocket file directly (no conversion needed), AI-tags and summarizes every save on the way
-        in, and finds any of them later from a half-remembered description. Steps are in
-        <a href="/faq/how-do-i-import-from-pocket">how do I import from Pocket</a>, and the full
-        comparison lives at <a href="/alternatives/pocket">Pocket alternatives</a>.
+        in, and finds any of them later from a half-remembered description. Follow our
+        <a href="/migrate/pocket">step-by-step Pocket migration guide</a> (or see the
+        <a href="/faq/how-do-i-import-from-pocket">Pocket import FAQ</a>), and read the full
+        feature breakdown at <a href="/alternatives/pocket">Pocket alternatives</a>.
       </p>
     </Fragment>
   </ToolShell>

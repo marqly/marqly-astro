@@ -83,6 +83,20 @@ function preview(text: string) {
           {entries.length}+ copy-pasteable prompts for ChatGPT, Claude, Gemini, DeepSeek, Kimi, Midjourney,
           DALL-E, and more. Click any card to reveal the full prompt.
         </p>
+        <div class="prompt-hub-banner">
+          <div class="banner-badge">⚡ AI Prompt Organizer</div>
+          <div class="banner-body">
+            <strong>Save, organize, and run your prompts with Marqly</strong>
+            <p>
+              Clip prompts from ChatGPT, Claude, and Gemini using the <a href="/extension">browser extension</a>. Save them to custom boards, tag by project, and search your entire prompt library by meaning.
+            </p>
+          </div>
+          <div class="banner-cta">
+            <a href="https://app.marqly.com" target="_blank" rel="noopener" class="btn btn--primary btn--sm">
+              Open Marqly Free <span class="arrow">→</span>
+            </a>
+          </div>
+        </div>
       </header>
 
       <nav class="category-grid" aria-labelledby="cat-heading" data-reveal>
@@ -219,6 +233,35 @@ function preview(text: string) {
       color: var(--ink-2);
       line-height: var(--lh-base);
     }
+
+    .prompt-hub-banner {
+      margin-top: var(--space-6);
+      padding: var(--space-5) var(--space-6);
+      background: var(--surface-2);
+      border: 1px solid var(--border-1);
+      border-radius: var(--radius-lg);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: var(--space-4);
+    }
+    .banner-badge {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      background: var(--surface-1);
+      color: var(--ink-2);
+      padding: 0.2rem 0.6rem;
+      border-radius: 9999px;
+      border: 1px solid var(--border-1);
+      flex-shrink: 0;
+    }
+    .banner-body { flex: 1; min-width: 260px; }
+    .banner-body strong { display: block; font-size: var(--fs-base); font-weight: 600; color: var(--ink-1); margin-bottom: 2px; }
+    .banner-body p { font-size: var(--fs-sm); color: var(--ink-2); margin: 0; line-height: 1.4; }
+    .banner-body a { color: var(--ink-1); text-decoration: underline; }
+    .banner-cta { flex-shrink: 0; }
 
     .filter-bar {
       display: flex;

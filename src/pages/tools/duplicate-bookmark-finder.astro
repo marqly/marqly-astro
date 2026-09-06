@@ -1,7 +1,7 @@
 ---
 import LandingLayout from '../../layouts/LandingLayout.astro';
 import ToolShell from '../../components/seo/ToolShell.astro';
-import { breadcrumbList, faqPage, organization, webSite } from '../../lib/schema';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../lib/schema';
 
 const title = 'Duplicate Bookmark Finder — Find & Remove Duplicate Bookmarks';
 const description =
@@ -35,6 +35,11 @@ const jsonLd = [
     { name: 'Duplicate bookmark finder', path: '/tools/duplicate-bookmark-finder' },
   ]),
   faqPage(faqs),
+  freeWebApplication(
+    'Duplicate bookmark finder',
+    'Upload your bookmarks HTML export and find duplicate bookmarks instantly — grouped by normalized URL, with a one-click deduplicated file. Free and private.',
+    '/tools/duplicate-bookmark-finder',
+  ),
 ];
 ---
 
@@ -117,7 +122,9 @@ const jsonLd = [
         unique links is still two thousand links. Importing the cleaned file into
         <a href="https://app.marqly.com">Marqly</a> gets each one tagged and summarized by AI
         automatically, and semantic search finds "that piece about negotiating a raise" without you
-        remembering its title or where you filed it.
+        remembering its title or where you filed it. Marqly's <a href="/pricing">free tier</a> stores
+        up to 2,000 bookmarks with whole-library search; see our guide on
+        <a href="/faq/how-do-i-import-chrome-bookmarks">how to import Chrome bookmarks</a>.
       </p>
     </Fragment>
   </ToolShell>

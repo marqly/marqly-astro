@@ -1,7 +1,7 @@
 ---
 import LandingLayout from '../../layouts/LandingLayout.astro';
 import ToolShell from '../../components/seo/ToolShell.astro';
-import { breadcrumbList, faqPage, organization, webSite } from '../../lib/schema';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../lib/schema';
 
 const title = 'URL Cleaner — Strip UTM & Tracking Parameters from Links';
 const description =
@@ -35,6 +35,11 @@ const jsonLd = [
     { name: 'URL cleaner', path: '/tools/url-cleaner' },
   ]),
   faqPage(faqs),
+  freeWebApplication(
+    'URL cleaner',
+    'Paste URLs and strip utm_*, fbclid, gclid, and 20+ other tracking parameters in one click — free, in your browser.',
+    '/tools/url-cleaner',
+  ),
 ];
 ---
 
