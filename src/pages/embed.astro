@@ -1,0 +1,787 @@
+---
+import LandingLayout from '../layouts/LandingLayout.astro';
+import Breadcrumbs from '../components/seo/Breadcrumbs.astro';
+import CtaBox from '../components/seo/CtaBox.astro';
+import FaqAccordion from '../components/seo/FaqAccordion.astro';
+import {
+  breadcrumbList,
+  faqPage,
+  freeWebApplication,
+  howTo,
+  organization,
+  webSite,
+  type HowToStep,
+} from '../lib/schema';
+
+const title = 'Embed Curated Bookmarks & Public Boards | Marqly';
+const description =
+  'Embed your curated Marqly bookmark boards into Notion, WordPress, Ghost, Substack, or any website. Live interactive embed generator with responsive cards and clean styling.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Embed Boards', path: '/embed' },
+];
+
+const steps: HowToStep[] = [
+  {
+    name: 'Make your Marqly board public',
+    text: 'Open any board in your Marqly library, click the Share button in the top bar, and toggle Public Sharing on to get your unique shareable board link.',
+    url: 'https://app.marqly.com/explore',
+  },
+  {
+    name: 'Customize your layout and theme',
+    text: 'Paste your board link into the Embed Generator below. Select Card Grid for visual directories, Compact List for sidebars, or Minimal for documentation.',
+    url: '/embed#generator',
+  },
+  {
+    name: 'Copy your responsive embed snippet',
+    text: 'Choose HTML iframe for websites and CMSs, Notion URL for Notion pages, or Markdown for GitHub READMEs. Click Copy to grab your snippet.',
+    url: '/embed#generator',
+  },
+  {
+    name: 'Paste into your blog, doc, or website',
+    text: 'Paste the snippet into a Custom HTML block in WordPress or Ghost, an /embed block in Notion, or directly into your site template.',
+    url: '/embed#platforms',
+  },
+];
+
+const faqs = [
+  {
+    q: 'Is embedding Marqly boards free?',
+    a: 'Yes. Board embedding and public sharing are available on both Free and Pro plans. You can curate up to 2,000 bookmarks on the Free tier and embed as many public boards as you want without watermarks or paywalls.',
+  },
+  {
+    q: 'Do embedded boards update automatically when I save new bookmarks?',
+    a: 'Yes. Because the embed renders your live Marqly board via a lightweight sandboxed frame, any link you add, edit, or delete in Marqly immediately updates across all embedded instances in real time.',
+  },
+  {
+    q: 'How does Marqly board embedding compare to Raindrop.io?',
+    a: 'Raindrop offers basic collection embeds, but Marqly boards include AI-generated tags, smart summaries, semantic search previews, responsive card layouts, and zero-script lightweight sandboxing that keeps your page speed fast.',
+  },
+  {
+    q: 'Does embedding a Marqly board slow down my website?',
+    a: 'No. The embed uses standard HTML5 iframe markup with native loading="lazy". The host website’s Largest Contentful Paint (LCP) and First Input Delay are unaffected because iframe resources load asynchronously in a sandboxed context.',
+  },
+  {
+    q: 'Can viewers search and filter bookmarks inside the embed?',
+    a: 'Yes. Depending on the layout mode selected, viewers can filter bookmarks by tags or search titles and summaries directly inside the board widget without leaving your website.',
+  },
+  {
+    q: 'Can private boards be embedded?',
+    a: 'No. Privacy is strictly enforced. Only boards where you explicitly enable Public Sharing can be viewed or embedded. Private boards remain accessible only to you.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  breadcrumbList(crumbs),
+  howTo(
+    'How to Embed a Marqly Bookmark Board on Any Website',
+    'A quick step-by-step walkthrough to turn any public Marqly collection into an interactive, live-updating embed widget.',
+    steps,
+    'PT2M',
+  ),
+  faqPage(faqs),
+  freeWebApplication(
+    'Marqly Public Board Embed Generator',
+    'Turn any public Marqly bookmark collection into an interactive, live-updating embed widget for Notion, WordPress, Ghost, or any website.',
+    '/embed',
+  ),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  ogImage="https://www.marqly.com/og/seo/embed-boards.png"
+>
+  <article class="section embed-page">
+    <div class="container">
+      <Breadcrumbs items={crumbs} />
+
+      <header class="page-head">
+        <div class="badge-row">
+          <span class="pill-badge">Embed Flywheel · 2026</span>
+          <span class="live-badge">⚡ Real-time sync</span>
+        </div>
+        <h1>Embed your curated bookmarks anywhere</h1>
+        <p class="lead">
+          Turn any public Marqly board into an interactive, live-updating widget on your blog,
+          documentation, or personal website. Showcase resource directories, reading lists, and research
+          piles with one clean snippet.
+        </p>
+      </header>
+
+      <!-- Interactive Generator Section -->
+      <section id="generator" class="generator-card" data-reveal>
+        <div class="generator-head">
+          <div class="gen-title">
+            <span class="gen-icon">⚙️</span>
+            <div>
+              <h2>Interactive Embed Code Generator</h2>
+              <p class="gen-sub">Configure your board layout, customize colors, and copy your embed snippet.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="generator-grid">
+          <!-- Controls Column -->
+          <div class="gen-controls">
+            <div class="form-group">
+              <label for="board-url">Public Board URL</label>
+              <input
+                type="url"
+                id="board-url"
+                class="form-input"
+                placeholder="https://app.marqly.com/s/developer-tools"
+                value="https://app.marqly.com/s/developer-tools"
+              />
+              <span class="input-hint">Paste your public board link from <a href="https://app.marqly.com/explore" target="_blank" rel="noopener">app.marqly.com</a></span>
+            </div>
+
+            <div class="form-group">
+              <label>Layout Style</label>
+              <div class="radio-tiles">
+                <label class="radio-tile">
+                  <input type="radio" name="layout" value="cards" checked />
+                  <span class="tile-body">
+                    <strong>Grid Cards</strong>
+                    <small>Visual previews & tags</small>
+                  </span>
+                </label>
+                <label class="radio-tile">
+                  <input type="radio" name="layout" value="list" />
+                  <span class="tile-body">
+                    <strong>Compact List</strong>
+                    <small>Scannable sidebar view</small>
+                  </span>
+                </label>
+                <label class="radio-tile">
+                  <input type="radio" name="layout" value="minimal" />
+                  <span class="tile-body">
+                    <strong>Minimal</strong>
+                    <small>Clean link stream</small>
+                  </span>
+                </label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Theme</label>
+              <div class="theme-buttons">
+                <button type="button" class="theme-btn active" data-theme="system">Auto (System)</button>
+                <button type="button" class="theme-btn" data-theme="light">Light</button>
+                <button type="button" class="theme-btn" data-theme="dark">Dark</button>
+              </div>
+            </div>
+
+            <div class="form-group checkbox-group">
+              <label class="custom-check">
+                <input type="checkbox" id="show-attribution" checked />
+                <span>Include curator backlink badge</span>
+              </label>
+              <span class="input-hint">Includes canonical attribution to Marqly to power discoverability.</span>
+            </div>
+          </div>
+
+          <!-- Preview & Code Column -->
+          <div class="gen-output">
+            <div class="preview-wrap">
+              <div class="preview-header">
+                <div class="preview-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <span class="preview-title">Live Widget Preview</span>
+                <span class="preview-badge" id="preview-badge">Cards · Auto</span>
+              </div>
+
+              <!-- Live Widget Preview Box -->
+              <div class="preview-box theme-light" id="preview-box">
+                <div class="widget-head">
+                  <div class="widget-icon">⚡</div>
+                  <div class="widget-info">
+                    <h3 class="widget-title">AI & Developer Toolkit</h3>
+                    <p class="widget-meta">Curated by Sarah Lin · 16 resources · Updated today</p>
+                  </div>
+                </div>
+
+                <div class="widget-search">
+                  <input type="text" placeholder="Search these bookmarks..." readonly />
+                </div>
+
+                <div class="widget-items layout-cards" id="widget-items">
+                  <div class="widget-card">
+                    <div class="card-icon">🧠</div>
+                    <div class="card-content">
+                      <h4>Anthropic Claude 3.7 Sonnet</h4>
+                      <p>Hybrid reasoning architecture with real-time thinking tokens.</p>
+                      <div class="card-tags">
+                        <span>#ai</span><span>#llm</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="widget-card">
+                    <div class="card-icon">🚀</div>
+                    <div class="card-content">
+                      <h4>Astro v5 Content Layer</h4>
+                      <p>Ultra-fast static content loader with zero clientside JS overhead.</p>
+                      <div class="card-tags">
+                        <span>#frontend</span><span>#astro</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="widget-card">
+                    <div class="card-icon">☁️</div>
+                    <div class="card-content">
+                      <h4>Cloudflare Workers & D1</h4>
+                      <p>Edge serverless execution with instant globally distributed reads.</p>
+                      <div class="card-tags">
+                        <span>#cloud</span><span>#edge</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="widget-footer" id="widget-footer">
+                  <a href="https://www.marqly.com/?utm_source=embed&utm_medium=referral&utm_campaign=board_embed" target="_blank" rel="noopener">
+                    Curated with Marqly AI Bookmark Manager ↗
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Code Snippet Area -->
+            <div class="code-wrap">
+              <div class="code-tabs">
+                <button type="button" class="tab-btn active" data-tab="html">HTML Iframe</button>
+                <button type="button" class="tab-btn" data-tab="notion">Notion /embed</button>
+                <button type="button" class="tab-btn" data-tab="markdown">Markdown</button>
+              </div>
+
+              <div class="code-box">
+                <pre><code id="snippet-code"></code></pre>
+                <button type="button" class="copy-snippet-btn" id="copy-btn">
+                  <span id="copy-label">Copy snippet</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Platform Guides -->
+      <section id="platforms" class="platforms-section" data-reveal>
+        <h2>How to embed Marqly boards into popular platforms</h2>
+        <p class="section-sub">
+          Marqly embeds work natively in every modern blogging platform, CMS, and documentation tool.
+        </p>
+
+        <div class="platform-grid">
+          <div class="platform-card">
+            <div class="plat-icon">📝</div>
+            <h3>Notion</h3>
+            <p>
+              Type <code>/embed</code> on any Notion page, paste your public board link, and press
+              <strong>Embed link</strong>. Your board renders with responsive scrolling.
+            </p>
+            <span class="plat-badge">Zero code required</span>
+          </div>
+
+          <div class="platform-card">
+            <div class="plat-icon">🌐</div>
+            <h3>WordPress</h3>
+            <p>
+              In Gutenberg, add a <strong>Custom HTML</strong> block and paste the generated iframe
+              snippet. Preview and publish — compatible with all themes.
+            </p>
+            <span class="plat-badge">Gutenberg & Classic</span>
+          </div>
+
+          <div class="platform-card">
+            <div class="plat-icon">👻</div>
+            <h3>Ghost CMS</h3>
+            <p>
+              In the Ghost editor, click the <code>+</code> button, select <strong>HTML</strong>, and
+              paste your snippet. Ideal for weekly link roundups and resource lists.
+            </p>
+            <span class="plat-badge">Native HTML Card</span>
+          </div>
+
+          <div class="platform-card">
+            <div class="plat-icon">⚡</div>
+            <h3>Webflow & Static Sites</h3>
+            <p>
+              Paste into Webflow's Embed element, or directly inside Astro, Next.js, Hugo, or
+              Eleventy templates. Lazy loading guarantees peak performance.
+            </p>
+            <span class="plat-badge">Zero JS footprint</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Step-by-Step Walkthrough -->
+      <section class="walkthrough-section" data-reveal>
+        <h2>Step-by-step: Sharing and embedding public boards</h2>
+        <div class="steps-container">
+          {
+            steps.map((s, idx) => (
+              <div class="step-row">
+                <div class="step-badge">{idx + 1}</div>
+                <div class="step-detail">
+                  <h3>{s.name}</h3>
+                  <p>{s.text}</p>
+                </div>
+              </div>
+            ))
+          }
+        </div>
+      </section>
+
+      <!-- Benefits & Backlink Flywheel Section -->
+      <section class="benefits-section" data-reveal>
+        <h2>Why content creators and teams choose Marqly embeds</h2>
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <div class="ben-icon">🔄</div>
+            <h3>Always Up-to-Date</h3>
+            <p>
+              Never manually update blog post links again. When you clip an article with the
+              <a href="/extension">Marqly browser extension</a>, your embedded boards update instantly.
+            </p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="ben-icon">🔍</div>
+            <h3>Interactive Search</h3>
+            <p>
+              Readers don't have to endlessly scroll. Embedded boards include search and tag filtering
+              so visitors can find exact resources within seconds.
+            </p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="ben-icon">⚡</div>
+            <h3>Zero Performance Penalty</h3>
+            <p>
+              Sandboxed iframes with native <code>loading="lazy"</code> ensure zero slowdown on your host
+              domain's Core Web Vitals, LCP, or SEO scores.
+            </p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="ben-icon">🚀</div>
+            <h3>Curator Brand Equity</h3>
+            <p>
+              Showcase your expertise. Every public board and embed highlights your profile and
+              drives high-intent readers back to your curated knowledge base.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="faq-wrap" data-reveal>
+        <FaqAccordion faqs={faqs} heading="Frequently Asked Questions about Embedding" />
+      </section>
+
+      <!-- Bottom CTA -->
+      <section class="bottom-cta" data-reveal>
+        <div class="cta-inner">
+          <h2>Start curating and embedding your boards today</h2>
+          <p>
+            Join thousands of researchers, developers, and writers organizing knowledge with Marqly.
+            Free up to 2,000 bookmarks with whole-library search.
+          </p>
+          <div class="cta-actions">
+            <a class="btn btn--primary" href="https://app.marqly.com">
+              Open Marqly Free <span class="arrow">→</span>
+            </a>
+            <a class="btn btn--ghost" href="https://app.marqly.com/explore">
+              Explore Public Boards ↗
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </article>
+</LandingLayout>
+
+<script is:inline>
+  (function () {
+    const urlInput = document.getElementById('board-url');
+    const layoutRadios = document.querySelectorAll('input[name="layout"]');
+    const themeBtns = document.querySelectorAll('.theme-btn');
+    const attributionCheck = document.getElementById('show-attribution');
+    const codeElem = document.getElementById('snippet-code');
+    const copyBtn = document.getElementById('copy-btn');
+    const copyLabel = document.getElementById('copy-label');
+    const tabBtns = document.querySelectorAll('.tab-btn');
+    const previewBox = document.getElementById('preview-box');
+    const widgetItems = document.getElementById('widget-items');
+    const previewBadge = document.getElementById('preview-badge');
+    const widgetFooter = document.getElementById('widget-footer');
+
+    let currentLayout = 'cards';
+    let currentTheme = 'system';
+    let currentTab = 'html';
+
+    function getBaseSlug() {
+      const val = (urlInput?.value || '').trim();
+      if (!val) return 'https://app.marqly.com/s/developer-tools';
+      return val.replace(/\/+$/, '');
+    }
+
+    function updateSnippet() {
+      const baseUrl = getBaseSlug();
+      const embedUrl = baseUrl + '/embed?theme=' + currentTheme + '&view=' + currentLayout;
+      const includeAttr = attributionCheck?.checked;
+
+      let code = '';
+      if (currentTab === 'html') {
+        const height = currentLayout === 'minimal' ? '360' : '520';
+        code = '<iframe src="' + embedUrl + '" width="100%" height="' + height + '" frameborder="0" style="border:1px solid #e2e8f0;border-radius:12px;max-width:100%;" loading="lazy" title="Curated Bookmark Board"></iframe>';
+        if (includeAttr) {
+          code += '\n<div style="font-size:12px;color:#64748b;margin-top:6px;text-align:right;">\n  <a href="https://www.marqly.com/?utm_source=embed&utm_medium=referral&utm_campaign=board_embed" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;">Curated with Marqly AI Bookmark Manager</a>\n</div>';
+        }
+      } else if (currentTab === 'notion') {
+        code = embedUrl;
+      } else if (currentTab === 'markdown') {
+        code = '[![Curated with Marqly](https://www.marqly.com/og/embed-badge.svg)](' + baseUrl + ')';
+      }
+
+      if (codeElem) {
+        codeElem.textContent = code;
+      }
+
+      // Update Live Preview Box styling
+      if (previewBox) {
+        previewBox.className = 'preview-box theme-' + (currentTheme === 'dark' ? 'dark' : 'light');
+      }
+      if (widgetItems) {
+        widgetItems.className = 'widget-items layout-' + currentLayout;
+      }
+      if (previewBadge) {
+        const layoutText = currentLayout.charAt(0).toUpperCase() + currentLayout.slice(1);
+        const themeText = currentTheme.charAt(0).toUpperCase() + currentTheme.slice(1);
+        previewBadge.textContent = layoutText + ' · ' + themeText;
+      }
+      if (widgetFooter) {
+        widgetFooter.style.display = includeAttr ? 'block' : 'none';
+      }
+    }
+
+    urlInput?.addEventListener('input', updateSnippet);
+    attributionCheck?.addEventListener('change', updateSnippet);
+
+    layoutRadios.forEach((radio) => {
+      radio.addEventListener('change', (e) => {
+        currentLayout = e.target.value;
+        updateSnippet();
+      });
+    });
+
+    themeBtns.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        themeBtns.forEach((b) => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentTheme = btn.getAttribute('data-theme') || 'system';
+        updateSnippet();
+      });
+    });
+
+    tabBtns.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        tabBtns.forEach((b) => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentTab = btn.getAttribute('data-tab') || 'html';
+        updateSnippet();
+      });
+    });
+
+    copyBtn?.addEventListener('click', async () => {
+      const text = codeElem?.textContent || '';
+      try {
+        await navigator.clipboard.writeText(text);
+        if (copyLabel) copyLabel.textContent = 'Copied to clipboard!';
+        copyBtn.classList.add('is-copied');
+        setTimeout(() => {
+          if (copyLabel) copyLabel.textContent = 'Copy snippet';
+          copyBtn.classList.remove('is-copied');
+        }, 2000);
+      } catch (err) {
+        // Fallback selection
+        const range = document.createRange();
+        range.selectNodeContents(codeElem);
+        const sel = window.getSelection();
+        sel?.removeAllRanges();
+        sel?.addRange(range);
+      }
+    });
+
+    // Initial render
+    updateSnippet();
+  })();
+</script>
+
+<style>
+  .embed-page { max-width: 1080px; }
+  .badge-row { display: flex; gap: var(--space-3); align-items: center; margin-bottom: var(--space-3); }
+  .pill-badge {
+    display: inline-block; font-size: var(--fs-xs); font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    background: var(--surface-2); color: var(--ink-2);
+    padding: 0.2rem 0.6rem; border-radius: 9999px; border: 1px solid var(--border-1);
+  }
+  .live-badge { font-size: var(--fs-xs); color: var(--ink-2); font-weight: 500; }
+  h1 { font-size: var(--fs-h2); font-weight: 600; letter-spacing: var(--tracking-tight); color: var(--ink-1); line-height: var(--lh-tight); }
+  .lead { margin-top: var(--space-4); font-size: var(--fs-lg); line-height: var(--lh-base); color: var(--ink-2); max-width: 780px; }
+
+  /* Generator Section */
+  .generator-card {
+    margin-top: var(--space-8); margin-bottom: var(--space-12);
+    background: var(--surface-1); border: 1px solid var(--border-1);
+    border-radius: var(--radius-card); padding: var(--space-8);
+    box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+  }
+  .generator-head { margin-bottom: var(--space-8); border-bottom: 1px solid var(--border-1); padding-bottom: var(--space-5); }
+  .gen-title { display: flex; gap: var(--space-4); align-items: flex-start; }
+  .gen-icon { font-size: 2rem; line-height: 1; }
+  .gen-title h2 { font-size: var(--fs-h3); font-weight: 600; color: var(--ink-1); margin: 0; }
+  .gen-sub { margin-top: var(--space-1); font-size: var(--fs-sm); color: var(--ink-2); }
+
+  .generator-grid {
+    display: grid; grid-template-columns: 1fr 1.25fr; gap: var(--space-8);
+  }
+  @media (max-width: 900px) {
+    .generator-grid { grid-template-columns: 1fr; }
+  }
+
+  /* Controls */
+  .gen-controls { display: flex; flex-direction: column; gap: var(--space-6); }
+  .form-group { display: flex; flex-direction: column; gap: var(--space-2); }
+  .form-group label { font-size: var(--fs-sm); font-weight: 600; color: var(--ink-1); }
+  .form-input {
+    width: 100%; padding: 0.65rem 0.85rem; font-size: var(--fs-sm);
+    border: 1px solid var(--border-2); border-radius: var(--radius-sm);
+    background: var(--surface-2); color: var(--ink-1);
+  }
+  .form-input:focus { outline: none; border-color: var(--ink-1); }
+  .input-hint { font-size: var(--fs-xs); color: var(--ink-3); }
+  .input-hint a { color: var(--ink-2); text-decoration: underline; }
+
+  /* Radio Tiles */
+  .radio-tiles { display: flex; flex-direction: column; gap: var(--space-2); }
+  .radio-tile {
+    display: flex; align-items: center; gap: var(--space-3);
+    padding: var(--space-3) var(--space-4); border: 1px solid var(--border-1);
+    border-radius: var(--radius-sm); cursor: pointer; transition: all 0.15s ease;
+    background: var(--surface-2);
+  }
+  .radio-tile:hover { border-color: var(--border-2); background: var(--surface-1); }
+  .radio-tile input { accent-color: var(--ink-1); }
+  .tile-body { display: flex; flex-direction: column; }
+  .tile-body strong { font-size: var(--fs-sm); color: var(--ink-1); font-weight: 500; }
+  .tile-body small { font-size: var(--fs-xs); color: var(--ink-3); }
+
+  /* Theme Buttons */
+  .theme-buttons { display: flex; gap: var(--space-2); }
+  .theme-btn {
+    flex: 1; padding: 0.5rem 0.75rem; font-size: var(--fs-xs); font-weight: 500;
+    background: var(--surface-2); border: 1px solid var(--border-1);
+    border-radius: var(--radius-sm); color: var(--ink-2); cursor: pointer;
+    transition: all 0.15s ease;
+  }
+  .theme-btn:hover { color: var(--ink-1); border-color: var(--border-2); }
+  .theme-btn.active {
+    background: var(--ink-1); color: var(--surface-1); border-color: var(--ink-1); font-weight: 600;
+  }
+
+  .checkbox-group { margin-top: var(--space-2); }
+  .custom-check {
+    display: inline-flex; align-items: center; gap: var(--space-2);
+    font-size: var(--fs-sm); font-weight: 500; color: var(--ink-1); cursor: pointer;
+  }
+  .custom-check input { accent-color: var(--ink-1); }
+
+  /* Output Column */
+  .gen-output { display: flex; flex-direction: column; gap: var(--space-6); }
+  .preview-wrap {
+    border: 1px solid var(--border-1); border-radius: var(--radius-card);
+    background: var(--surface-2); overflow: hidden;
+  }
+  .preview-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0.6rem 0.85rem; border-bottom: 1px solid var(--border-1);
+    background: var(--surface-1);
+  }
+  .preview-dots { display: flex; gap: 6px; }
+  .preview-dots span {
+    width: 10px; height: 10px; border-radius: 50%; background: var(--border-2);
+  }
+  .preview-title { font-size: var(--fs-xs); font-weight: 500; color: var(--ink-3); }
+  .preview-badge {
+    font-size: 11px; font-weight: 600; background: var(--surface-2);
+    padding: 0.15rem 0.5rem; border-radius: 9999px; border: 1px solid var(--border-1);
+    color: var(--ink-2);
+  }
+
+  /* Live Preview Box */
+  .preview-box { padding: var(--space-5); transition: background 0.2s ease, color 0.2s ease; }
+  .preview-box.theme-light { background: #ffffff; color: #0f172a; }
+  .preview-box.theme-dark { background: #0f172a; color: #f8fafc; }
+
+  .widget-head { display: flex; gap: var(--space-3); align-items: center; margin-bottom: var(--space-4); }
+  .widget-icon { font-size: 1.5rem; }
+  .widget-title { font-size: var(--fs-base); font-weight: 600; margin: 0; color: inherit; }
+  .widget-meta { font-size: 12px; opacity: 0.7; margin: 0; }
+
+  .widget-search { margin-bottom: var(--space-4); }
+  .widget-search input {
+    width: 100%; padding: 0.45rem 0.75rem; font-size: 12px;
+    border: 1px solid rgba(148, 163, 184, 0.3); border-radius: 6px;
+    background: rgba(148, 163, 184, 0.1); color: inherit;
+  }
+
+  .widget-items { display: flex; flex-direction: column; gap: var(--space-3); }
+  .widget-card {
+    display: flex; gap: var(--space-3); padding: var(--space-3);
+    border: 1px solid rgba(148, 163, 184, 0.25); border-radius: 8px;
+    background: rgba(148, 163, 184, 0.05);
+  }
+  .card-icon { font-size: 1.25rem; flex-shrink: 0; }
+  .card-content h4 { font-size: 13px; font-weight: 600; margin: 0 0 2px 0; color: inherit; }
+  .card-content p { font-size: 12px; opacity: 0.8; margin: 0 0 6px 0; line-height: 1.4; }
+  .card-tags { display: flex; gap: 6px; }
+  .card-tags span {
+    font-size: 10px; font-weight: 500; opacity: 0.7;
+    background: rgba(148, 163, 184, 0.15); padding: 1px 5px; border-radius: 4px;
+  }
+
+  /* List & Minimal Modes */
+  .layout-list .widget-card {
+    padding: var(--space-2) var(--space-3); align-items: center;
+  }
+  .layout-list .card-content p { display: none; }
+  .layout-minimal .widget-card {
+    border: none; background: transparent; padding: 2px 0;
+  }
+  .layout-minimal .card-icon { display: none; }
+  .layout-minimal .card-content p { display: none; }
+  .layout-minimal .card-tags { display: none; }
+
+  .widget-footer {
+    margin-top: var(--space-4); text-align: right; font-size: 11px; opacity: 0.8;
+  }
+  .widget-footer a { color: inherit; text-decoration: underline; }
+
+  /* Code Wrap */
+  .code-wrap {
+    border: 1px solid var(--border-1); border-radius: var(--radius-card);
+    background: var(--surface-1); overflow: hidden;
+  }
+  .code-tabs {
+    display: flex; border-bottom: 1px solid var(--border-1); background: var(--surface-2);
+  }
+  .tab-btn {
+    padding: 0.6rem 1rem; font-size: var(--fs-xs); font-weight: 500;
+    border: none; background: transparent; color: var(--ink-2); cursor: pointer;
+    border-right: 1px solid var(--border-1); transition: all 0.15s ease;
+  }
+  .tab-btn:hover { color: var(--ink-1); }
+  .tab-btn.active {
+    background: var(--surface-1); color: var(--ink-1); font-weight: 600;
+    border-bottom: 2px solid var(--ink-1); margin-bottom: -1px;
+  }
+  .code-box { position: relative; padding: var(--space-4); }
+  .code-box pre {
+    margin: 0; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-size: 12px; line-height: 1.5; color: var(--ink-1);
+    white-space: pre-wrap; word-break: break-all; max-height: 160px; overflow-y: auto;
+  }
+  .copy-snippet-btn {
+    margin-top: var(--space-3); width: 100%; padding: 0.6rem;
+    background: var(--ink-1); color: var(--surface-1); border: none;
+    border-radius: var(--radius-sm); font-size: var(--fs-xs); font-weight: 600;
+    cursor: pointer; transition: opacity 0.15s ease;
+  }
+  .copy-snippet-btn:hover { opacity: 0.9; }
+  .copy-snippet-btn.is-copied { background: #10b981; }
+
+  /* Platform Guides */
+  .platforms-section { margin-top: var(--space-12); }
+  .platforms-section h2 { font-size: var(--fs-h3); font-weight: 600; color: var(--ink-1); }
+  .section-sub { margin-top: var(--space-2); font-size: var(--fs-base); color: var(--ink-2); }
+  .platform-grid {
+    margin-top: var(--space-6); display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: var(--space-5);
+  }
+  .platform-card {
+    background: var(--surface-1); border: 1px solid var(--border-1);
+    border-radius: var(--radius-card); padding: var(--space-6);
+    display: flex; flex-direction: column;
+  }
+  .plat-icon { font-size: 1.75rem; margin-bottom: var(--space-3); }
+  .platform-card h3 { font-size: var(--fs-base); font-weight: 600; color: var(--ink-1); margin: 0 0 var(--space-2) 0; }
+  .platform-card p { font-size: var(--fs-sm); color: var(--ink-2); line-height: 1.5; margin: 0 0 var(--space-4) 0; flex-grow: 1; }
+  .platform-card code { background: var(--surface-2); padding: 1px 4px; border-radius: 4px; font-size: 12px; }
+  .plat-badge {
+    align-self: flex-start; font-size: 11px; font-weight: 600;
+    background: var(--surface-2); border: 1px solid var(--border-1);
+    border-radius: 9999px; padding: 0.15rem 0.5rem; color: var(--ink-3);
+  }
+
+  /* Steps Walkthrough */
+  .walkthrough-section { margin-top: var(--space-12); }
+  .walkthrough-section h2 { font-size: var(--fs-h3); font-weight: 600; color: var(--ink-1); margin-bottom: var(--space-6); }
+  .steps-container { display: flex; flex-direction: column; gap: var(--space-4); }
+  .step-row {
+    display: flex; gap: var(--space-5); background: var(--surface-1);
+    border: 1px solid var(--border-1); border-radius: var(--radius-card);
+    padding: var(--space-5) var(--space-6); align-items: flex-start;
+  }
+  .step-badge {
+    width: 32px; height: 32px; border-radius: 50%; background: var(--ink-1);
+    color: var(--surface-1); display: flex; align-items: center; justify-content: center;
+    font-size: var(--fs-sm); font-weight: 600; flex-shrink: 0;
+  }
+  .step-detail h3 { font-size: var(--fs-base); font-weight: 600; color: var(--ink-1); margin: 0 0 var(--space-1) 0; }
+  .step-detail p { font-size: var(--fs-sm); color: var(--ink-2); line-height: 1.5; margin: 0; }
+
+  /* Benefits Grid */
+  .benefits-section { margin-top: var(--space-12); }
+  .benefits-section h2 { font-size: var(--fs-h3); font-weight: 600; color: var(--ink-1); margin-bottom: var(--space-6); }
+  .benefits-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: var(--space-5);
+  }
+  .benefit-card {
+    background: var(--surface-1); border: 1px solid var(--border-1);
+    border-radius: var(--radius-card); padding: var(--space-6);
+  }
+  .ben-icon { font-size: 1.5rem; margin-bottom: var(--space-3); }
+  .benefit-card h3 { font-size: var(--fs-base); font-weight: 600; color: var(--ink-1); margin: 0 0 var(--space-2) 0; }
+  .benefit-card p { font-size: var(--fs-sm); color: var(--ink-2); line-height: 1.5; margin: 0; }
+  .benefit-card a { color: var(--ink-1); text-decoration: underline; }
+
+  .faq-wrap { margin-top: var(--space-12); }
+
+  /* Bottom CTA */
+  .bottom-cta {
+    margin-top: var(--space-12); margin-bottom: var(--space-8);
+    background: var(--surface-2); border: 1px solid var(--border-2);
+    border-radius: var(--radius-card); padding: var(--space-10) var(--space-8);
+    text-align: center;
+  }
+  .cta-inner { max-width: 620px; margin: 0 auto; }
+  .bottom-cta h2 { font-size: var(--fs-h3); font-weight: 600; color: var(--ink-1); }
+  .bottom-cta p { margin-top: var(--space-3); font-size: var(--fs-base); color: var(--ink-2); line-height: 1.5; }
+  .cta-actions { margin-top: var(--space-6); display: flex; justify-content: center; gap: var(--space-4); flex-wrap: wrap; }
+  .btn--ghost {
+    background: transparent; border: 1px solid var(--border-2);
+    color: var(--ink-1); padding: 0.65rem 1.25rem; border-radius: 9999px;
+    font-size: var(--fs-sm); font-weight: 500; text-decoration: none;
+  }
+  .btn--ghost:hover { background: var(--surface-1); }
+</style>

@@ -30,6 +30,16 @@
 /about      /           301
 /about/     /           301
 
+# Embed convenience aliases
+/embed-board        /embed  301
+/embed-board/       /embed  301
+/embeds             /embed  301
+/embeds/            /embed  301
+/help/embed-board   /embed  301
+/help/embed-board/  /embed  301
+/help/embed         /embed  301
+/help/embed/        /embed  301
+
 # The Extension page was retired and pointed at `/`, but a NEW extension page
 # shipped 2026-08-03 at the lowercase URL. /Extension is the original Framer URL
 # and carries the inbound links, so send it to the real page rather than the

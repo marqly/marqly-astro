@@ -23,23 +23,22 @@ This document tracks execution of the Marqly SEO War Plan to capture organic sea
 
 ## Active & Upcoming Releases
 
-### PR 2 — Public Boards & Embed Flywheel (UGC SEO Foundation)
-**Goal:** Build the viral backlink engine that drove Raindrop's 3.1M backlinks.
-1. **Embed Documentation Page (`/embed` or `/help/embed-board`):**
-   - Developer/blogger guide explaining how to embed public Marqly boards into Ghost, WordPress, Notion, and personal blogs.
-   - Code snippet generator with canonical dofollow attribution: `<a href="https://www.marqly.com/?utm_source=embed" rel="dofollow">Curated with Marqly AI Bookmark Manager</a>`.
-2. **UGC Quality Gates & Canonical Mapping (Coordinate with app team):**
-   - Thin-content guard: index only boards with $\ge 5$ saves, human-readable slug, and description $\ge 80$ characters.
-   - Serve or proxy public boards onto `www.marqly.com/discover/[slug]` per `docs/aso/discover-ugc-spec.md`.
+### PR 2 — Public Boards & Embed Flywheel (SHIPPED & VERIFIED)
+- [x] **Embed Documentation & Snippet Generator Page (`/embed`):**
+  - Created standalone `/embed` interactive generator supporting Card Grid, Compact List, and Minimal views with Light, Dark, and Auto themes.
+  - Generates embed iframe code with canonical dofollow attribution: `<a href="https://www.marqly.com/?utm_source=embed&utm_medium=referral&utm_campaign=board_embed" rel="noopener">Curated with Marqly AI Bookmark Manager</a>`.
+  - Step-by-step platform integration guides for Notion (`/embed`), WordPress (Gutenberg Custom HTML), Ghost CMS (HTML card), Substack, and Webflow.
+  - Structured data implemented: `HowTo`, `WebApplication`, `BreadcrumbList`, `FAQPage`.
+- [x] **Redirects & Aliases:** Added 301 redirects for `/embed-board`, `/embeds`, `/help/embed`, `/help/embed-board` to `/embed`.
+- [x] **Site-wide Discovery:** Linked in `FooterV2.astro` (Product column) and `LinkHub.astro` (What it does column).
+- [x] **UGC Architecture Spec:** Created `docs/seo/public-boards-spec.md` establishing the thin-content quality gates ($\ge 5$ bookmarks, $\ge 80$ char description, human slug) for app team coordination.
 
-### PR 3 — Switching & Migration Conquest Pages
-**Goal:** Capture high-intent defecting searchers from Raindrop and Pocket.
-1. **Dedicated Migration Landers:**
-   - `/migrate/raindrop` — Step-by-step Raindrop migration guide with `HowTo` JSON-LD schema (Google rich snippet eligible).
-   - `/migrate/pocket` — Complete Pocket rescue and import walkthrough with `HowTo` schema and Pocket export converter tool cross-links.
-2. **Competitor Landers Refresh:**
-   - Deepen `/compare/marqly-vs-raindrop` and `/alternatives/raindrop` with the 2026 verified feature matrix.
-   - Cross-link comparison and alternatives pages into the new `/pricing` and `/migrate/*` pages.
+### PR 3 — Switching & Migration Conquest Pages (SHIPPED & DEPLOYED)
+- [x] **Dedicated Migration Landers:**
+  - `/migrate/raindrop` — Step-by-step Raindrop migration guide with `HowTo` JSON-LD schema (Google rich snippet eligible).
+  - `/migrate/pocket` — Complete Pocket rescue and import walkthrough with `HowTo` schema and Pocket export converter tool cross-links.
+- [x] **Internal Link Mesh & Pre-Footer LinkHub:** Cross-linked `/compare/[pair].astro` (injected migration guide links in the switch box), `/alternatives/[slug].astro` (deep link in feature table row), and `src/components/seo/LinkHub.astro` (added `Migrate from Raindrop →` and `Migrate from Pocket →` to Compare column).
+- [x] **Convenience Aliases (`public/_redirects`):** Pointed old Framer post `/blog/how-to-migrate-from-raindrop.io-to-marqly-complete-guide` to `/migrate/raindrop` (301); added `/migrate-from-raindrop`, `/migrate-from-pocket`, `/import-raindrop`, `/import-pocket`.
 
 ### PR 4 — Free Engineering-as-Marketing Tools as Link Magnets
 **Goal:** Turn top utility tools into high-converting organic search funnels.
