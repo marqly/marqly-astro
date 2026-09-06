@@ -1,0 +1,266 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import Breadcrumbs from '../../components/seo/Breadcrumbs.astro';
+import CtaBox from '../../components/seo/CtaBox.astro';
+import FaqAccordion from '../../components/seo/FaqAccordion.astro';
+import { breadcrumbList, faqPage, howTo, organization, softwareApplication, webSite } from '../../lib/schema';
+
+const path = '/migrate/pocket';
+const title = 'How to Migrate from Pocket to Marqly (2026 Guide) — Rescue Your Saves';
+const description =
+  'Mozilla shut down Pocket. Here is the step-by-step guide to import your Pocket export file or CSV into Marqly in under 2 minutes. Auto-tagging and AI search included.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Compare', path: '/compare' },
+  { name: 'Migrate from Pocket', path },
+];
+
+const steps = [
+  {
+    name: 'Locate your Pocket export file',
+    text: 'Locate the export file you downloaded from Pocket before Mozilla shut down the service (typically named ril_export.html, pocket-export.html, or a ZIP archive containing your CSV).',
+    url: path,
+  },
+  {
+    name: 'Upload the export file to Marqly',
+    text: 'Sign in to Marqly at app.marqly.com (free account, no credit card required). In Settings → Import Bookmarks, select "Pocket" and upload your export file.',
+    url: path,
+  },
+  {
+    name: 'AI auto-tags and indexes your Pocket backlog',
+    text: 'Marqly recreates your saved articles with tags intact. On Pro, AI automatically tags, generates short summaries, and enables semantic search so your saved articles become findable again.',
+    url: path,
+  },
+];
+
+const faqs = [
+  {
+    q: 'Can I still export my data from Pocket today?',
+    a: 'Mozilla permanently shut down Pocket servers on July 8, 2025, and export access closed on October 8, 2025. If you already downloaded your export file before that date, Marqly can import it directly. If you synced Pocket with browser bookmarks, you can also export your browser HTML and import that into Marqly.',
+  },
+  {
+    q: 'What if my Pocket export file is corrupted or very large?',
+    a: 'You can use our free browser utility, the Pocket Export Converter (/tools/pocket-export-converter), to inspect, clean, and convert your file before importing.',
+  },
+  {
+    q: 'Will my Pocket tags and read statuses be preserved?',
+    a: 'Yes. The Pocket export HTML includes tags and timestamps. Marqly maps your Pocket tags to Marqly tags automatically, preserving your categorization.',
+  },
+  {
+    q: 'Is Marqly free for former Pocket users?',
+    a: 'Yes. Marqly offers a free tier that stores up to 2,000 bookmarks with search across your whole library, without requiring a credit card. Pro is available for unlimited bookmarks and semantic AI search.',
+  },
+  {
+    q: 'How does Marqly compare to Pocket?',
+    a: 'Pocket was a read-it-later app with manual tagging and basic search. Marqly keeps the clean reader view and highlights, but adds an AI layer: semantic search by meaning, automatic article summaries, and YouTube video transcripts.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  softwareApplication(),
+  breadcrumbList(crumbs),
+  howTo(
+    'How to Migrate from Pocket to Marqly in 3 Steps',
+    'A quick guide for former Pocket users to import their exported bookmarks and articles into Marqly with AI semantic indexing.',
+    steps,
+    'PT2M',
+  ),
+  faqPage(faqs),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  ogImage="https://www.marqly.com/og/seo/migrate-pocket.png"
+>
+  <article class="section">
+    <div class="container migrate-page">
+      <Breadcrumbs items={crumbs} />
+
+      <header class="page-head">
+        <div class="badge-row">
+          <span class="pill-badge">Pocket Rescue Guide</span>
+          <span class="time-badge">⏱️ Takes ~2 minutes</span>
+        </div>
+        <h1>How to Migrate from Pocket to Marqly</h1>
+        <p class="lead">
+          Mozilla shut down Pocket in July 2025, leaving millions of saved articles stranded in offline export files. Here is how to restore your reading backlog into Marqly and make every save searchable by meaning.
+        </p>
+      </header>
+
+      <div class="alert-box">
+        <strong>⚠️ Pocket Status Note:</strong> Pocket's servers are no longer operational. This guide is for users who saved their <code>ril_export.html</code> or CSV backup, or who have bookmarks synced to browser profiles.
+      </div>
+
+      <div class="comparison-callout">
+        <div class="callout-head">
+          <span class="callout-tag">The Pocket Replacement</span>
+          <h3>What makes Marqly the natural home for your Pocket library?</h3>
+        </div>
+        <div class="callout-grid">
+          <div class="callout-item">
+            <strong>Clean Distraction-Free Reader</strong>
+            <p>Just like Pocket, Marqly strips ads and clutter into a clean, typography-focused reading mode across mobile, tablet, and desktop.</p>
+          </div>
+          <div class="callout-item">
+            <strong>Search by Meaning, Not Exact Titles</strong>
+            <p>Pocket search only matched exact words. Marqly uses semantic embeddings: describe the concept you remember, and Marqly finds it.</p>
+          </div>
+          <div class="callout-item">
+            <strong>AI Summaries on Every Save</strong>
+            <p>Triage your backlog in minutes. Instead of reopening hundreds of stale tabs, scan AI-generated TL;DR summaries to decide what to read.</p>
+          </div>
+          <div class="callout-item">
+            <strong>Persistent Web Highlighter</strong>
+            <p>Pocket highlights were limited and trapped in the app. Marqly lets you highlight text directly on live websites in 6 colors with sync.</p>
+          </div>
+        </div>
+        <p class="callout-footer">
+          Compare full features in the <a href="/compare/marqly-vs-pocket">Marqly vs Pocket comparison</a> or check out other <a href="/alternatives/pocket">Pocket alternatives</a>.
+        </p>
+      </div>
+
+      <h2>Step-by-Step Pocket Import Guide</h2>
+      <div class="steps-list">
+        <div class="step-card">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <h3>Find your Pocket export file</h3>
+            <p>
+              Locate the export file you downloaded from Pocket:
+            </p>
+            <ul class="sub-steps">
+              <li>Check your <strong>Downloads</strong> or <strong>Documents</strong> folder for <code>ril_export.html</code> or <code>pocket-export.html</code>.</li>
+              <li>If you downloaded a ZIP from Mozilla, unzip it to extract the HTML or CSV data file.</li>
+              <li><em>Need to preview or clean duplicates first?</em> Use our free <a href="/tools/pocket-export-converter">Pocket Export Converter Tool</a> to inspect your links in the browser before importing.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <h3>Import into Marqly with one click</h3>
+            <p>
+              Upload your file directly into Marqly:
+            </p>
+            <ol class="sub-steps">
+              <li>Sign in to <a href="https://app.marqly.com" target="_blank" rel="noopener">app.marqly.com</a> (free, no credit card required).</li>
+              <li>Go to <strong>Settings → Import Bookmarks</strong>.</li>
+              <li>Select <strong>Pocket</strong> and upload your <code>ril_export.html</code> or CSV file.</li>
+              <li>Click <strong>Import</strong>. Marqly parses your links and recreates your library in under two minutes.</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <h3>Let AI bring your backlog back to life</h3>
+            <p>
+              The biggest problem with a 500-article Pocket backlog was reading guilt. Marqly solves this:
+            </p>
+            <ul class="sub-steps">
+              <li><strong>AI Summaries:</strong> Scan instant key takeaways to decide whether an old article is still worth your time.</li>
+              <li><strong>Semantic Search:</strong> Find specific advice or quotes you remember from 2022 without knowing what the title was.</li>
+              <li><strong>Ask AI:</strong> Ask questions directly to your saved articles library to synthesize research fast.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="cta-migration">
+        <h3>Ready to bring your Pocket saves back to life?</h3>
+        <p>Free to start with up to 2,000 bookmarks. No credit card required.</p>
+        <div class="cta-btns">
+          <a class="btn btn--primary" href="https://app.marqly.com" target="_blank" rel="noopener">Import Pocket into Marqly free →</a>
+          <a class="btn btn--ghost" href="/tools/pocket-export-converter">Use Free Pocket Tool</a>
+        </div>
+      </div>
+
+      <div class="faq-wrap">
+        <FaqAccordion faqs={faqs} heading="Frequently Asked Questions about Pocket Migration" />
+      </div>
+
+      <CtaBox />
+    </div>
+  </article>
+</LandingLayout>
+
+<style>
+  .migrate-page { max-width: 860px; }
+  .badge-row { display: flex; gap: var(--space-3); align-items: center; margin-bottom: var(--space-3); }
+  .pill-badge {
+    display: inline-block; font-size: var(--fs-xs); font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    background: var(--surface-2); color: var(--ink-2);
+    padding: 0.2rem 0.6rem; border-radius: 9999px; border: 1px solid var(--border-1);
+  }
+  .time-badge { font-size: var(--fs-xs); color: var(--ink-3); font-weight: 500; }
+  h1 { font-size: var(--fs-h2); font-weight: 600; letter-spacing: var(--tracking-tight); color: var(--ink-1); line-height: var(--lh-tight); }
+  .lead { margin-top: var(--space-4); font-size: var(--fs-lg); line-height: var(--lh-base); color: var(--ink-2); }
+
+  .alert-box {
+    margin-top: var(--space-6); padding: var(--space-4) var(--space-5);
+    background: color-mix(in srgb, var(--surface-2) 90%, #eab308 10%);
+    border: 1px solid color-mix(in srgb, var(--border-2) 70%, #eab308 30%);
+    border-radius: var(--radius-card); font-size: var(--fs-sm); color: var(--ink-1); line-height: var(--lh-base);
+  }
+
+  .comparison-callout {
+    margin-top: var(--space-8); margin-bottom: var(--space-10);
+    background: var(--surface-1); border: 1px solid var(--border-1);
+    border-radius: var(--radius-card); padding: var(--space-6);
+  }
+  .callout-head { margin-bottom: var(--space-5); }
+  .callout-tag { font-size: var(--fs-xs); font-weight: 600; text-transform: uppercase; color: var(--ink-3); }
+  .callout-head h3 { font-size: var(--fs-h3); font-weight: 600; color: var(--ink-1); margin-top: var(--space-1); }
+  .callout-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-5); }
+  @media (max-width: 640px) { .callout-grid { grid-template-columns: 1fr; } }
+  .callout-item strong { display: block; font-size: var(--fs-sm); font-weight: 600; color: var(--ink-1); margin-bottom: var(--space-1); }
+  .callout-item p { font-size: var(--fs-sm); color: var(--ink-2); line-height: var(--lh-base); margin: 0; }
+  .callout-footer { margin-top: var(--space-5); padding-top: var(--space-4); border-top: 1px solid var(--border-1); font-size: var(--fs-sm); color: var(--ink-3); }
+  .callout-footer a { color: var(--ink-1); text-decoration: underline; font-weight: 500; }
+
+  h2 { font-size: var(--fs-h3); font-weight: 600; color: var(--ink-1); margin-top: var(--space-10); margin-bottom: var(--space-6); }
+
+  .steps-list { display: flex; flex-direction: column; gap: var(--space-6); }
+  .step-card {
+    display: flex; gap: var(--space-5);
+    background: var(--surface-1); border: 1px solid var(--border-1);
+    border-radius: var(--radius-card); padding: var(--space-6);
+  }
+  .step-num {
+    flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%;
+    background: var(--ink-1); color: var(--surface-1);
+    display: flex; align-items: center; justify-content: center;
+    font-size: var(--fs-base); font-weight: 600;
+  }
+  .step-content { flex: 1; }
+  .step-content h3 { font-size: var(--fs-lg); font-weight: 600; color: var(--ink-1); margin-bottom: var(--space-2); }
+  .step-content p { font-size: var(--fs-base); color: var(--ink-2); line-height: var(--lh-base); margin-bottom: var(--space-3); }
+  .sub-steps { margin: 0; padding-left: 1.2rem; font-size: var(--fs-sm); color: var(--ink-2); line-height: 1.6; }
+  .sub-steps li { margin-bottom: var(--space-1); }
+
+  .cta-migration {
+    margin-top: var(--space-10); padding: var(--space-8);
+    background: var(--surface-2); border: 1px solid var(--border-2);
+    border-radius: var(--radius-card); text-align: center;
+  }
+  .cta-migration h3 { font-size: var(--fs-h3); font-weight: 600; color: var(--ink-1); }
+  .cta-migration p { margin-top: var(--space-2); font-size: var(--fs-base); color: var(--ink-2); }
+  .cta-btns { margin-top: var(--space-6); display: flex; justify-content: center; gap: var(--space-4); flex-wrap: wrap; }
+  .btn--ghost {
+    background: transparent; border: 1px solid var(--border-2);
+    color: var(--ink-1); padding: 0.65rem 1.25rem; border-radius: 9999px;
+    font-size: var(--fs-sm); font-weight: 500; text-decoration: none;
+  }
+  .btn--ghost:hover { background: var(--surface-1); }
+
+  .faq-wrap { margin-top: var(--space-12); }
+</style>

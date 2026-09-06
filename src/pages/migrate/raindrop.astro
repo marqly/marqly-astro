@@ -1,0 +1,268 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import Breadcrumbs from '../../components/seo/Breadcrumbs.astro';
+import CtaBox from '../../components/seo/CtaBox.astro';
+import FaqAccordion from '../../components/seo/FaqAccordion.astro';
+import { breadcrumbList, faqPage, howTo, organization, softwareApplication, webSite } from '../../lib/schema';
+
+const path = '/migrate/raindrop';
+const title = 'How to Migrate from Raindrop to Marqly (2026 Guide) — 1-Click Import';
+const description =
+  'Step-by-step guide to export your Raindrop.io collections and import them into Marqly in under 2 minutes. Keep all your tags, folders, and links auto-organized with AI.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Compare', path: '/compare' },
+  { name: 'Migrate from Raindrop', path },
+];
+
+const steps = [
+  {
+    name: 'Export your collections from Raindrop.io',
+    text: 'Open the Raindrop.io web or desktop app, go to Settings (gear icon) → Backups. Under "Export", select HTML or CSV format and download the export file to your computer.',
+    url: path,
+  },
+  {
+    name: 'Upload the export file to Marqly',
+    text: 'Log in to Marqly at app.marqly.com (free account, no credit card required). Open Settings → Import, choose "Raindrop", and drag or select your downloaded export file.',
+    url: path,
+  },
+  {
+    name: 'Let Marqly AI auto-tag and index your library',
+    text: 'Marqly instantly recreates your collections and bookmarks. On Pro, AI automatically tags, summarizes, and embeds every save so you can search by meaning immediately.',
+    url: path,
+  },
+];
+
+const faqs = [
+  {
+    q: 'Will my Raindrop tags and collections be preserved?',
+    a: 'Yes. When you export an HTML or CSV file from Raindrop, your existing tag taxonomy and collection groupings are retained. Marqly imports the links directly into corresponding boards and maps your tags automatically.',
+  },
+  {
+    q: 'Do I need a credit card to import from Raindrop?',
+    a: 'No. Marqly has a free plan that requires no credit card. You can import up to 2,000 bookmarks and search your entire library without paying anything.',
+  },
+  {
+    q: 'What is the biggest advantage of switching from Raindrop to Marqly?',
+    a: 'The primary difference is search intelligence. Raindrop uses traditional keyword and tag matching, meaning you must remember exact phrases or folder locations. Marqly uses semantic AI search—you can describe what an article was about in natural language and Marqly finds it instantly.',
+  },
+  {
+    q: 'Can I keep Raindrop and Marqly running at the same time?',
+    a: 'Yes. Exporting from Raindrop does not alter or delete your Raindrop data in any way. You can import your bookmarks into Marqly to test semantic search while continuing to use Raindrop as long as you like.',
+  },
+  {
+    q: 'Does Marqly support nested collections?',
+    a: 'Marqly organizes bookmarks into flexible boards and multi-tag filters. When importing nested Raindrop collections, Marqly creates corresponding boards and applies tag hierarchies so no categorization is lost.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  softwareApplication(),
+  breadcrumbList(crumbs),
+  howTo(
+    'How to Migrate from Raindrop.io to Marqly in 3 Steps',
+    'A quick 2-minute walkthrough to export your Raindrop bookmarks and import them into Marqly AI bookmark manager.',
+    steps,
+    'PT2M',
+  ),
+  faqPage(faqs),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  ogImage="https://www.marqly.com/og/seo/migrate-raindrop.png"
+>
+  <article class="section">
+    <div class="container migrate-page">
+      <Breadcrumbs items={crumbs} />
+
+      <header class="page-head">
+        <div class="badge-row">
+          <span class="pill-badge">Migration Guide · 2026</span>
+          <span class="time-badge">⏱️ Takes ~2 minutes</span>
+        </div>
+        <h1>How to Migrate from Raindrop.io to Marqly</h1>
+        <p class="lead">
+          Love Raindrop's aesthetic but tired of manual filing and keyword search failures? Here is how to move your entire library to Marqly in three simple steps—with zero lost tags and automatic AI semantic indexing.
+        </p>
+      </header>
+
+      <div class="comparison-callout">
+        <div class="callout-head">
+          <span class="callout-tag">Why users switch</span>
+          <h3>What changes when you move to Marqly?</h3>
+        </div>
+        <div class="callout-grid">
+          <div class="callout-item">
+            <strong>Semantic Search</strong>
+            <p>Raindrop searches exact words. Marqly indexes the meaning of articles, highlights, and YouTube transcripts so you find saves by describing them.</p>
+          </div>
+          <div class="callout-item">
+            <strong>Automatic AI Filing</strong>
+            <p>Raindrop requires dragging into collections. Marqly auto-tags and generates TL;DR summaries on every save automatically.</p>
+          </div>
+          <div class="callout-item">
+            <strong>Built-In Web Highlighter</strong>
+            <p>Highlight text across the web in 6 persistent colors with notes that sync straight into your library side panel.</p>
+          </div>
+          <div class="callout-item">
+            <strong>YouTube AI Watch Card</strong>
+            <p>Stream summaries, playback-synced transcripts, and chat with video transcripts directly on YouTube watch pages.</p>
+          </div>
+        </div>
+        <p class="callout-footer">
+          Want a detailed feature-by-feature breakdown? Read the <a href="/compare/marqly-vs-raindrop">Marqly vs Raindrop comparison</a> or explore other <a href="/alternatives/raindrop">Raindrop alternatives</a>.
+        </p>
+      </div>
+
+      <h2>Step-by-Step Migration Walkthrough</h2>
+      <div class="steps-list">
+        <div class="step-card">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <h3>Export your bookmarks from Raindrop.io</h3>
+            <p>
+              Open Raindrop in your browser or desktop app:
+            </p>
+            <ol class="sub-steps">
+              <li>Click your <strong>Avatar / Settings icon</strong> (top left or bottom left).</li>
+              <li>Navigate to <strong>Settings → Backups</strong>.</li>
+              <li>Under the <strong>Export</strong> section, click <strong>HTML</strong> or <strong>CSV</strong>.</li>
+              <li>Save the exported file (usually named <code>raindrop-backup.html</code> or <code>.csv</code>) to your computer.</li>
+            </ol>
+            <div class="step-tip">
+              <strong>Tip:</strong> HTML format is recommended because it preserves your collection folder hierarchy cleanly.
+            </div>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <h3>Upload your export into Marqly</h3>
+            <p>
+              Getting your bookmarks into Marqly takes seconds:
+            </p>
+            <ol class="sub-steps">
+              <li>Sign in to <a href="https://app.marqly.com" target="_blank" rel="noopener">app.marqly.com</a> (or start free, no card required).</li>
+              <li>Go to <strong>Settings → Import Bookmarks</strong>.</li>
+              <li>Select <strong>Raindrop</strong> as your source.</li>
+              <li>Drag and drop your exported file and click <strong>Start Import</strong>.</li>
+            </ol>
+            <div class="step-tip">
+              <strong>Zero Risk:</strong> Exporting from Raindrop does not change or delete anything in your Raindrop account.
+            </div>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <h3>AI automatically indexes your library</h3>
+            <p>
+              Once uploaded, Marqly immediately populates your boards and links:
+            </p>
+            <ul class="sub-steps">
+              <li><strong>Tags & Folders:</strong> Your existing Raindrop tags and collection structures are mapped to Marqly boards.</li>
+              <li><strong>Semantic Embeddings:</strong> Marqly indexes article contents and descriptions into semantic vector space.</li>
+              <li><strong>Instant Search:</strong> Try searching for an idea or concept you saved months ago—no exact titles needed.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="cta-migration">
+        <h3>Ready to upgrade your bookmark search?</h3>
+        <p>Start free today with up to 2,000 bookmarks and experience semantic search across your whole library.</p>
+        <div class="cta-btns">
+          <a class="btn btn--primary" href="https://app.marqly.com" target="_blank" rel="noopener">Import Raindrop into Marqly free →</a>
+          <a class="btn btn--ghost" href="/pricing">View Pricing Plans</a>
+        </div>
+      </div>
+
+      <div class="faq-wrap">
+        <FaqAccordion faqs={faqs} heading="Frequently Asked Questions about Raindrop Migration" />
+      </div>
+
+      <CtaBox />
+    </div>
+  </article>
+</LandingLayout>
+
+<style>
+  .migrate-page { max-width: 860px; }
+  .badge-row { display: flex; gap: var(--space-3); align-items: center; margin-bottom: var(--space-3); }
+  .pill-badge {
+    display: inline-block; font-size: var(--fs-xs); font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    background: var(--surface-2); color: var(--ink-2);
+    padding: 0.2rem 0.6rem; border-radius: 9999px; border: 1px solid var(--border-1);
+  }
+  .time-badge { font-size: var(--fs-xs); color: var(--ink-3); font-weight: 500; }
+  h1 { font-size: var(--fs-h2); font-weight: 600; letter-spacing: var(--tracking-tight); color: var(--ink-1); line-height: var(--lh-tight); }
+  .lead { margin-top: var(--space-4); font-size: var(--fs-lg); line-height: var(--lh-base); color: var(--ink-2); }
+
+  .comparison-callout {
+    margin-top: var(--space-8); margin-bottom: var(--space-10);
+    background: var(--surface-1); border: 1px solid var(--border-1);
+    border-radius: var(--radius-card); padding: var(--space-6);
+  }
+  .callout-head { margin-bottom: var(--space-5); }
+  .callout-tag { font-size: var(--fs-xs); font-weight: 600; text-transform: uppercase; color: var(--ink-3); }
+  .callout-head h3 { font-size: var(--fs-h3); font-weight: 600; color: var(--ink-1); margin-top: var(--space-1); }
+  .callout-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-5); }
+  @media (max-width: 640px) { .callout-grid { grid-template-columns: 1fr; } }
+  .callout-item strong { display: block; font-size: var(--fs-sm); font-weight: 600; color: var(--ink-1); margin-bottom: var(--space-1); }
+  .callout-item p { font-size: var(--fs-sm); color: var(--ink-2); line-height: var(--lh-base); margin: 0; }
+  .callout-footer { margin-top: var(--space-5); padding-top: var(--space-4); border-top: 1px solid var(--border-1); font-size: var(--fs-sm); color: var(--ink-3); }
+  .callout-footer a { color: var(--ink-1); text-decoration: underline; font-weight: 500; }
+
+  h2 { font-size: var(--fs-h3); font-weight: 600; color: var(--ink-1); margin-top: var(--space-10); margin-bottom: var(--space-6); }
+
+  .steps-list { display: flex; flex-direction: column; gap: var(--space-6); }
+  .step-card {
+    display: flex; gap: var(--space-5);
+    background: var(--surface-1); border: 1px solid var(--border-1);
+    border-radius: var(--radius-card); padding: var(--space-6);
+  }
+  .step-num {
+    flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%;
+    background: var(--ink-1); color: var(--surface-1);
+    display: flex; align-items: center; justify-content: center;
+    font-size: var(--fs-base); font-weight: 600;
+  }
+  .step-content { flex: 1; }
+  .step-content h3 { font-size: var(--fs-lg); font-weight: 600; color: var(--ink-1); margin-bottom: var(--space-2); }
+  .step-content p { font-size: var(--fs-base); color: var(--ink-2); line-height: var(--lh-base); margin-bottom: var(--space-3); }
+  .sub-steps { margin: 0; padding-left: 1.2rem; font-size: var(--fs-sm); color: var(--ink-2); line-height: 1.6; }
+  .sub-steps li { margin-bottom: var(--space-1); }
+  .step-tip {
+    margin-top: var(--space-4); padding: var(--space-3) var(--space-4);
+    background: var(--surface-2); border-left: 3px solid var(--ink-1);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    font-size: var(--fs-xs); color: var(--ink-2);
+  }
+
+  .cta-migration {
+    margin-top: var(--space-10); padding: var(--space-8);
+    background: var(--surface-2); border: 1px solid var(--border-2);
+    border-radius: var(--radius-card); text-align: center;
+  }
+  .cta-migration h3 { font-size: var(--fs-h3); font-weight: 600; color: var(--ink-1); }
+  .cta-migration p { margin-top: var(--space-2); font-size: var(--fs-base); color: var(--ink-2); }
+  .cta-btns { margin-top: var(--space-6); display: flex; justify-content: center; gap: var(--space-4); flex-wrap: wrap; }
+  .btn--ghost {
+    background: transparent; border: 1px solid var(--border-2);
+    color: var(--ink-1); padding: 0.65rem 1.25rem; border-radius: 9999px;
+    font-size: var(--fs-sm); font-weight: 500; text-decoration: none;
+  }
+  .btn--ghost:hover { background: var(--surface-1); }
+
+  .faq-wrap { margin-top: var(--space-12); }
+</style>

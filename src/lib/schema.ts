@@ -166,3 +166,35 @@ export function freeWebApplication(name: string, description: string, path: stri
     },
   };
 }
+
+export interface HowToStep {
+  name: string;
+  text: string;
+  url?: string;
+  image?: string;
+}
+
+export function howTo(
+  name: string,
+  description: string,
+  steps: HowToStep[],
+  totalTime = 'PT2M',
+  lang = 'en',
+) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name,
+    description,
+    inLanguage: lang,
+    totalTime,
+    step: steps.map((s, i) => ({
+      '@type': 'HowToStep',
+      position: i + 1,
+      name: s.name,
+      text: s.text,
+      ...(s.url ? { url: s.url.startsWith('http') ? s.url : `${SITE}${s.url}` } : {}),
+      ...(s.image ? { image: s.image } : {}),
+    })),
+  };
+}

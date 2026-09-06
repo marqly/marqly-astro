@@ -62,7 +62,17 @@
 # Old Framer blog posts → consolidated directly into canonical /compare/ targets (flattened to 1 hop)
 /blog/marqly-vs-raindrop.io-the-complete-comparison-guide-(2026)  /compare/marqly-vs-raindrop  301
 /blog/best-raindrop.io-alternative-in-2026-why-users-are-switching-to-marqly  /compare/marqly-vs-raindrop  301
-/blog/how-to-migrate-from-raindrop.io-to-marqly-complete-guide  /compare/marqly-vs-raindrop  301
+/blog/how-to-migrate-from-raindrop.io-to-marqly-complete-guide  /migrate/raindrop  301
+
+# Migration aliases
+/migrate-from-raindrop           /migrate/raindrop            301
+/migrate-from-raindrop/          /migrate/raindrop            301
+/migrate-from-pocket             /migrate/pocket              301
+/migrate-from-pocket/            /migrate/pocket              301
+/import-raindrop                 /migrate/raindrop            301
+/import-raindrop/                /migrate/raindrop            301
+/import-pocket                   /migrate/pocket              301
+/import-pocket/                  /migrate/pocket              301
 /blog/marqly-vs-pocket-which-save-for-later-tool-is-better-in-2026  /compare/marqly-vs-pocket  301
 /blog/marqly-vs-notion-for-bookmarks-which-should-you-use-in-2026  /blog/notion-web-clipper-alternative  301
 /blog/what-is-an-ai-bookmark-manager-complete-guide-for-2026  /blog/best-ai-bookmark-manager-2026  301

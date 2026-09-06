@@ -100,7 +100,12 @@ const others = competitors.filter((c) => c.slug !== subject.slug);
 
       <h2>Marqly vs {subject.name}, feature by feature</h2>
       <ComparisonTable tools={[marqly, subject]} variant="full" />
-      <p class="deep-link"><a href={`/compare/marqly-vs-${subject.slug}`}>See the full Marqly vs {subject.name} comparison →</a></p>
+      <p class="deep-link">
+        <a href={`/compare/marqly-vs-${subject.slug}`}>See the full Marqly vs {subject.name} comparison →</a>
+        {(subject.slug === 'raindrop' || subject.slug === 'pocket') && (
+          <> · <a href={`/migrate/${subject.slug}`}>How to migrate from {subject.name} to Marqly →</a></>
+        )}
+      </p>
 
       {subject.faqs.length > 0 && (
         <div class="faq-wrap">

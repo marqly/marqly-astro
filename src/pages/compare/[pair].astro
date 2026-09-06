@@ -207,7 +207,14 @@ const tableTools = isMarqlyPair ? [marqly, b] : [a, b, marqly];
                 <span>AI auto-tags and indexes your library in minutes</span>
               </div>
             </div>
-            <a class="btn btn--primary" href="https://app.marqly.com">Import your {b.name} bookmarks free →</a>
+            <div class="migration-btns">
+              <a class="btn btn--primary" href="https://app.marqly.com">Import your {b.name} bookmarks free →</a>
+              {(b.slug === 'raindrop' || b.slug === 'pocket') && (
+                <a class="migration-guide-link" href={`/migrate/${b.slug}`}>
+                  Step-by-step {b.name} migration guide →
+                </a>
+              )}
+            </div>
           </div>
         </>
       ) : (
@@ -512,6 +519,8 @@ const tableTools = isMarqlyPair ? [marqly, b] : [a, b, marqly];
     transition: opacity 0.2s ease;
   }
   .btn--primary:hover { opacity: 0.9; }
+  .migration-btns { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--space-4); }
+  .migration-guide-link { font-size: var(--fs-sm); font-weight: 500; color: var(--ink-1); text-decoration: underline; }
 
   @media (max-width: 700px) {
     .contrast-grid { grid-template-columns: 1fr; }
