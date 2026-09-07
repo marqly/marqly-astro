@@ -12,7 +12,7 @@
  *  - English is always the x-default.
  */
 
-export const LOCALES = ['en', 'es', 'pt', 'de', 'fr', 'it', 'ja', 'zh', 'ko', 'nl'] as const;
+export const LOCALES = ['en', 'es', 'pt', 'de', 'fr', 'it', 'ja', 'zh', 'ko', 'nl', 'pl', 'tr'] as const;
 export type Locale = (typeof LOCALES)[number];
 
 /** hreflang attribute value per locale tree. `pt` also emits pt-BR (primary). */
@@ -27,6 +27,8 @@ const HREFLANG: Record<Locale, string[]> = {
   zh: ['zh', 'zh-Hans', 'zh-CN'],
   ko: ['ko', 'ko-KR'],
   nl: ['nl', 'nl-NL'],
+  pl: ['pl', 'pl-PL'],
+  tr: ['tr', 'tr-TR'],
 };
 
 /** Open Graph locale codes per tree. */
@@ -41,6 +43,8 @@ export const OG_LOCALE: Record<Locale, string> = {
   zh: 'zh_CN',
   ko: 'ko_KR',
   nl: 'nl_NL',
+  pl: 'pl_PL',
+  tr: 'tr_TR',
 };
 
 const SITE = 'https://www.marqly.com';
@@ -61,6 +65,19 @@ export const TRANSLATIONS: Record<string, Partial<Record<Locale, string>>> = {
     fr: '/fr/outils/transcription-youtube',
     it: '/it/strumenti/trascrizione-video-youtube',
   },
+  '/blog/best-ai-bookmark-manager-2026': {
+    es: '/es/blog/mejores-gestores-marcadores-ia-2026',
+    pt: '/pt/blog/melhores-gerenciadores-favoritos-ia-2026',
+    de: '/de/blog/beste-ai-lesezeichen-manager-2026',
+    fr: '/fr/blog/meilleurs-gestionnaires-favoris-ia-2026',
+    it: '/it/blog/migliori-gestori-segnalibri-ia-2026',
+    ja: '/ja/blog/best-ai-bookmark-manager-2026',
+    zh: '/zh/blog/best-ai-bookmark-manager-2026',
+    ko: '/ko/blog/best-ai-bookmark-manager-2026',
+    nl: '/nl/blog/beste-ai-bladwijzerbeheer-2026',
+    pl: '/pl/blog/najlepsze-menedzery-zakladek-ai-2026',
+    tr: '/tr/blog/en-iyi-yapay-zeka-yer-imi-yoneticileri-2026',
+  },
   '/blog/best-pocket-alternatives-2026': {
     es: '/es/blog/alternativas-a-pocket-2026',
     pt: '/pt/blog/alternativas-ao-pocket-2026',
@@ -71,6 +88,8 @@ export const TRANSLATIONS: Record<string, Partial<Record<Locale, string>>> = {
     zh: '/zh/blog/pocket-tidai-2026',
     ko: '/ko/blog/pocket-daeche-2026',
     nl: '/nl/blog/pocket-alternatieven-2026',
+    pl: '/pl/blog/alternatywy-pocket-2026',
+    tr: '/tr/blog/pocket-alternatifleri-2026',
   },
   '/blog/best-read-it-later-apps-2026': {
     es: '/es/blog/mejores-apps-para-leer-despues-2026',
@@ -82,6 +101,8 @@ export const TRANSLATIONS: Record<string, Partial<Record<Locale, string>>> = {
     zh: '/zh/blog/shaohou-yuedu-app-2026',
     ko: '/ko/blog/najunge-ilgi-app-2026',
     nl: '/nl/blog/beste-read-it-later-apps-2026',
+    pl: '/pl/blog/najlepsze-aplikacje-do-czytania-na-pozniej-2026',
+    tr: '/tr/blog/en-iyi-daha-sonra-oku-uygulamalari-2026',
   },
   '/blog/how-to-organize-bookmarks': {
     es: '/es/blog/organizar-marcadores-navegador',
@@ -93,6 +114,8 @@ export const TRANSLATIONS: Record<string, Partial<Record<Locale, string>>> = {
     zh: '/zh/blog/shuqian-zhengli-zhinan-2026',
     ko: '/ko/blog/bookmark-jeongri-guide-2026',
     nl: '/nl/blog/bladwijzers-organiseren-2026',
+    pl: '/pl/blog/jak-uporzadkowac-zakladki-2026',
+    tr: '/tr/blog/yer-imlerini-duzenleme-rehberi-2026',
   },
   '/blog': {
     es: '/es/blog',
@@ -104,6 +127,8 @@ export const TRANSLATIONS: Record<string, Partial<Record<Locale, string>>> = {
     zh: '/zh/blog',
     ko: '/ko/blog',
     nl: '/nl/blog',
+    pl: '/pl/blog',
+    tr: '/tr/blog',
   },
   '/': {
     es: '/es',
@@ -115,6 +140,8 @@ export const TRANSLATIONS: Record<string, Partial<Record<Locale, string>>> = {
     zh: '/zh',
     ko: '/ko',
     nl: '/nl',
+    pl: '/pl',
+    tr: '/tr',
   },
   '/web-highlighter': {
     es: '/es/extension',
@@ -150,6 +177,12 @@ export const TRANSLATIONS: Record<string, Partial<Record<Locale, string>>> = {
     de: '/de/vergleich/marqly-vs-raindrop',
     fr: '/fr/comparer/marqly-vs-raindrop',
     it: '/it/confronto/marqly-vs-raindrop',
+    ja: '/ja/compare/marqly-vs-raindrop',
+    zh: '/zh/compare/marqly-vs-raindrop',
+    ko: '/ko/compare/marqly-vs-raindrop',
+    nl: '/nl/vergelijken/marqly-vs-raindrop',
+    pl: '/pl/porownanie/marqly-vs-raindrop',
+    tr: '/tr/karsilastirma/marqly-vs-raindrop',
   },
   '/compare/marqly-vs-pocket': {
     es: '/es/comparar/marqly-vs-pocket',
@@ -339,6 +372,8 @@ export const LOCALE_HOMES: { lang: Exclude<Locale, 'en'>; label: string; href: s
   { lang: 'zh', label: '简体中文', href: '/zh' },
   { lang: 'ko', label: '한국어', href: '/ko' },
   { lang: 'nl', label: 'Nederlands', href: '/nl' },
+  { lang: 'pl', label: 'Polski', href: '/pl' },
+  { lang: 'tr', label: 'Türkçe', href: '/tr' },
 ];
 
 export interface Alternate {

@@ -12,7 +12,7 @@ import { alternatesForPath } from '../../i18n/routes';
 import { BLOG_UI } from '../../i18n/ui';
 
 interface Props {
-  lang: 'es' | 'pt' | 'de' | 'fr' | 'it' | 'ja' | 'zh' | 'ko' | 'nl';
+  lang: 'es' | 'pt' | 'de' | 'fr' | 'it' | 'ja' | 'zh' | 'ko' | 'nl' | 'pl' | 'tr';
 }
 const { lang } = Astro.props;
 
@@ -91,6 +91,22 @@ const STRINGS: Record<Props['lang'], {
     h1: 'Sla slim op. Vind alles direct terug.',
     sub: 'Gidsen en vergelijkingen in het Nederlands over AI-bladwijzers, later-lezen-apps en een doorzoekbaar tweede brein.',
     enBefore: 'Meer artikelen vind je op het ', enLink: 'Engelstalige blog', enAfter: ' — de Nederlandse editie groeit continu.',
+  },
+  pl: {
+    title: 'Blog Marqly po Polsku — Zakładki, AI i Drugi Mózg',
+    description: 'Przewodniki i porównania po polsku: zarządzanie zakładkami, aplikacje do czytania na później, wyszukiwanie semantyczne AI i cyfrowy drugi mózg w przeglądarce.',
+    kicker: 'Oficjalny Blog Marqly',
+    h1: 'Zapisuj mądrze. Znajduj natychmiast.',
+    sub: 'Przewodniki i rzetelne porównania po polsku: inteligentne zakładki z AI, czytanie na później i przeszukiwalny drugi mózg.',
+    enBefore: 'Więcej artykułów znajdziesz na ', enLink: 'blogu po angielsku', enAfter: ' — polska edycja stale się powiększa.',
+  },
+  tr: {
+    title: 'Marqly Türkçe Blog — Yer İmleri, Yapay Zeka ve İkinci Beyin',
+    description: 'Türkçe rehberler ve karşılaştırmalar: yer imi yönetimi, daha sonra oku uygulamaları, yapay zeka ile anlamsal arama ve tarayıcınızdaki ikinci beyin.',
+    kicker: 'Marqly Blog',
+    h1: 'Akıllıca kaydedin. Anında bulun.',
+    sub: 'Yapay zeka destekli yer imi yöneticisi, daha sonra oku çözümleri ve aradığınızı anında bulan ikinci beyin rehberleri.',
+    enBefore: 'Daha fazla makale için ', enLink: 'İngilizce bloğumuzu', enAfter: ' ziyaret edebilirsiniz — Türkçe içeriklerimiz genişliyor.',
   },
 };
 

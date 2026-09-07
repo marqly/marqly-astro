@@ -130,6 +130,28 @@ export const BLOG_UI: Record<Locale, BlogStrings> = {
     ctaHeading: 'Verlies nooit meer wat je opslaat.',
     ctaSub: 'Marqly verandert al je bladwijzers in een doorzoekbaar, AI-aangedreven tweede brein. Vind opgeslagen pagina’s op betekenis, niet op trefwoorden.',
   },
+  pl: {
+    dateLocale: 'pl-PL',
+    home: 'Strona główna',
+    blog: 'Blog',
+    byline: 'Zespół Marqly',
+    updated: 'Zaktualizowano',
+    faqHeading: 'Często zadawane pytania',
+    keepReading: 'Czytaj dalej',
+    ctaHeading: 'Przestań tracić to, co zapisujesz.',
+    ctaSub: 'Marqly zamienia Twoje zakładki w przeszukiwalny drugi mózg z AI. Znajduj strony po znaczeniu i opisie, a nie tylko po słowach kluczowych.',
+  },
+  tr: {
+    dateLocale: 'tr-TR',
+    home: 'Ana Sayfa',
+    blog: 'Blog',
+    byline: 'Marqly Ekibi',
+    updated: 'Güncellendi',
+    faqHeading: 'Sıkça Sorulan Sorular',
+    keepReading: 'Okumaya devam et',
+    ctaHeading: 'Kaydettiklerinizi kaybetmeye son verin.',
+    ctaSub: 'Marqly, yer imlerinizi yapay zeka destekli, aranabilir ikinci bir beyne dönüştürür. Başlığı hatırlamasanız bile hatırladığınız anlamla arayın.',
+  },
 };
 
 /** Blog URL for a post, from its collection id + lang (`de/foo` → /de/blog/foo). */
