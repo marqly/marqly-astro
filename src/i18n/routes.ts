@@ -12,7 +12,7 @@
  *  - English is always the x-default.
  */
 
-export const LOCALES = ['en', 'es', 'pt', 'de', 'fr', 'it'] as const;
+export const LOCALES = ['en', 'es', 'pt', 'de', 'fr', 'it', 'ja', 'zh', 'ko', 'nl'] as const;
 export type Locale = (typeof LOCALES)[number];
 
 /** hreflang attribute value per locale tree. `pt` also emits pt-BR (primary). */
@@ -23,6 +23,10 @@ const HREFLANG: Record<Locale, string[]> = {
   de: ['de'],
   fr: ['fr'],
   it: ['it'],
+  ja: ['ja', 'ja-JP'],
+  zh: ['zh', 'zh-Hans', 'zh-CN'],
+  ko: ['ko', 'ko-KR'],
+  nl: ['nl', 'nl-NL'],
 };
 
 /** Open Graph locale codes per tree. */
@@ -33,6 +37,10 @@ export const OG_LOCALE: Record<Locale, string> = {
   de: 'de_DE',
   fr: 'fr_FR',
   it: 'it_IT',
+  ja: 'ja_JP',
+  zh: 'zh_CN',
+  ko: 'ko_KR',
+  nl: 'nl_NL',
 };
 
 const SITE = 'https://www.marqly.com';
@@ -59,6 +67,10 @@ export const TRANSLATIONS: Record<string, Partial<Record<Locale, string>>> = {
     de: '/de/blog/pocket-alternativen-2026',
     fr: '/fr/blog/alternatives-a-pocket-2026',
     it: '/it/blog/alternative-a-pocket-2026',
+    ja: '/ja/blog/pocket-daitai-2026',
+    zh: '/zh/blog/pocket-tidai-2026',
+    ko: '/ko/blog/pocket-daeche-2026',
+    nl: '/nl/blog/pocket-alternatieven-2026',
   },
   '/blog/best-read-it-later-apps-2026': {
     es: '/es/blog/mejores-apps-para-leer-despues-2026',
@@ -66,6 +78,10 @@ export const TRANSLATIONS: Record<string, Partial<Record<Locale, string>>> = {
     de: '/de/blog/beste-read-it-later-apps-2026',
     fr: '/fr/blog/meilleures-applications-lecture-differee-2026',
     it: '/it/blog/migliori-app-salva-e-leggi-dopo-2026',
+    ja: '/ja/blog/ato-de-yomu-app-2026',
+    zh: '/zh/blog/shaohou-yuedu-app-2026',
+    ko: '/ko/blog/najunge-ilgi-app-2026',
+    nl: '/nl/blog/beste-read-it-later-apps-2026',
   },
   '/blog/how-to-organize-bookmarks': {
     es: '/es/blog/organizar-marcadores-navegador',
@@ -73,6 +89,10 @@ export const TRANSLATIONS: Record<string, Partial<Record<Locale, string>>> = {
     de: '/de/blog/lesezeichen-organisieren',
     fr: '/fr/blog/organiser-favoris-navigateur',
     it: '/it/blog/organizzare-preferiti-browser',
+    ja: '/ja/blog/bookmark-seiri-guide-2026',
+    zh: '/zh/blog/shuqian-zhengli-zhinan-2026',
+    ko: '/ko/blog/bookmark-jeongri-guide-2026',
+    nl: '/nl/blog/bladwijzers-organiseren-2026',
   },
   '/blog': {
     es: '/es/blog',
@@ -80,6 +100,10 @@ export const TRANSLATIONS: Record<string, Partial<Record<Locale, string>>> = {
     de: '/de/blog',
     fr: '/fr/blog',
     it: '/it/blog',
+    ja: '/ja/blog',
+    zh: '/zh/blog',
+    ko: '/ko/blog',
+    nl: '/nl/blog',
   },
   '/': {
     es: '/es',
@@ -87,6 +111,10 @@ export const TRANSLATIONS: Record<string, Partial<Record<Locale, string>>> = {
     de: '/de',
     fr: '/fr',
     it: '/it',
+    ja: '/ja',
+    zh: '/zh',
+    ko: '/ko',
+    nl: '/nl',
   },
   '/web-highlighter': {
     es: '/es/extension',
@@ -307,6 +335,10 @@ export const LOCALE_HOMES: { lang: Exclude<Locale, 'en'>; label: string; href: s
   { lang: 'de', label: 'Deutsch', href: '/de' },
   { lang: 'fr', label: 'Français', href: '/fr' },
   { lang: 'it', label: 'Italiano', href: '/it' },
+  { lang: 'ja', label: '日本語', href: '/ja' },
+  { lang: 'zh', label: '简体中文', href: '/zh' },
+  { lang: 'ko', label: '한국어', href: '/ko' },
+  { lang: 'nl', label: 'Nederlands', href: '/nl' },
 ];
 
 export interface Alternate {

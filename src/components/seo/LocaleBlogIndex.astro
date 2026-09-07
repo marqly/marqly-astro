@@ -12,7 +12,7 @@ import { alternatesForPath } from '../../i18n/routes';
 import { BLOG_UI } from '../../i18n/ui';
 
 interface Props {
-  lang: 'es' | 'pt' | 'de' | 'fr' | 'it';
+  lang: 'es' | 'pt' | 'de' | 'fr' | 'it' | 'ja' | 'zh' | 'ko' | 'nl';
 }
 const { lang } = Astro.props;
 
@@ -59,6 +59,38 @@ const STRINGS: Record<Props['lang'], {
     h1: 'Salva con metodo. Ritrova tutto.',
     sub: 'Guide e confronti in italiano su segnalibri con AI, app per leggere dopo e un secondo cervello davvero cercabile.',
     enBefore: 'Trovi altri articoli nel ', enLink: 'blog in inglese', enAfter: ' — l’edizione italiana sta crescendo.',
+  },
+  ja: {
+    title: 'Marqly公式ブログ（日本語）— AIブックマーク＆第二の脳ガイド',
+    description: 'ブックマーク整理、あとで読むアプリ、AI検索、ブラウザ上の第二の脳に関する日本語ガイドと徹底比較。Marqlyチームがお届けします。',
+    kicker: 'Marqly 公式ブログ',
+    h1: '賢く保存して、瞬時に見つける。',
+    sub: 'AIブックマーク管理、あとで読むアプリ、真に検索可能な第二の脳に関する日本語ガイド。',
+    enBefore: 'さらに多くの記事は', enLink: '英語版ブログ', enAfter: 'でも公開しています。日本語記事も順次拡大中です。',
+  },
+  zh: {
+    title: 'Marqly 中文博客 — AI 书签管理与第二大脑指南',
+    description: '书签整理、稍后读应用、AI 语义搜索与个人知识管理中文深度指南与对比。来自 Marqly 团队。',
+    kicker: 'Marqly 博客',
+    h1: '智能收藏，秒速找回。',
+    sub: '探索 AI 书签管理、稍后读工具以及真正可语义检索的第二大脑中文指南。',
+    enBefore: '更多前沿文章请访问', enLink: '英文博客', enAfter: ' — 中文专区正持续更新中。',
+  },
+  ko: {
+    title: 'Marqly 한국어 블로그 — AI 북마크 & 두 번째 뇌 가이드',
+    description: '북마크 정리, 나중에 읽기 앱, AI 시맨틱 검색, 브라우저 속 두 번째 뇌에 대한 한국어 가이드 및 비교. Marqly 팀 제공.',
+    kicker: 'Marqly 블로그',
+    h1: '스마트하게 저장하고, 바로 찾아보세요.',
+    sub: 'AI 북마크 관리, 나중에 읽기 도구, 실제로 검색 가능한 두 번째 뇌에 관한 한국어 심층 가이드.',
+    enBefore: '더 많은 아티클은 ', enLink: '영문 블로그', enAfter: '에서 확인하실 수 있으며, 한국어 콘텐츠도 지속 업데이트 중입니다.',
+  },
+  nl: {
+    title: 'Het Marqly Blog in het Nederlands — Bladwijzers, AI & Tweede Brein',
+    description: 'Gidsen en vergelijkingen in het Nederlands: bladwijzers beheren, later-lezen-apps, AI-zoekfunctie en een doorzoekbaar tweede brein. Van het Marqly-team.',
+    kicker: 'Het Marqly Blog',
+    h1: 'Sla slim op. Vind alles direct terug.',
+    sub: 'Gidsen en vergelijkingen in het Nederlands over AI-bladwijzers, later-lezen-apps en een doorzoekbaar tweede brein.',
+    enBefore: 'Meer artikelen vind je op het ', enLink: 'Engelstalige blog', enAfter: ' — de Nederlandse editie groeit continu.',
   },
 };
 

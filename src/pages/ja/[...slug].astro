@@ -1,0 +1,18 @@
+---
+import { getCollection } from 'astro:content';
+import LocaleLander from '../../components/seo/LocaleLander.astro';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('localePages', ({ data }) => !data.draft && data.lang === 'ja');
+  return entries.map((entry) => ({
+    params: {
+      slug: entry.data.path === '/ja' ? undefined : entry.data.path.replace(/^\/ja\//, ''),
+    },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+---
+
+<LocaleLander entry={entry} />

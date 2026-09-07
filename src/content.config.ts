@@ -150,7 +150,7 @@ const prompts = defineCollection({
 const localePages = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/locale-pages' }),
   schema: z.object({
-    lang: z.enum(['es', 'pt', 'de', 'fr', 'it']),
+    lang: z.enum(['es', 'pt', 'de', 'fr', 'it', 'ja', 'zh', 'ko', 'nl']),
     /** Full URL path, e.g. "/es/usos/estudiantes". Must start with /<lang>/. */
     path: z.string(),
     title: z.string(),
