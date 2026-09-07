@@ -1,42 +1,45 @@
 ---
-title: "Yapay Zeka ile Yer İmleri Nasıl Aranır: Semantik Arama Nedir ve Nasıl Çalışır?"
-seoTitle: "Yapay Zeka ile Yer İmi Arama (2026 Rehberi) — Marqly"
-description: "Yapay zeka ile yer imi arama, anahtar kelimeler yerine anlam ve bağlama göre arama yapmanızı sağlar. Semantik arama ile unuttuğunuz sayfaları anında bulun."
+title: "Yapay Zeka ile Yer İmleri Nasıl Aranır? (Anlamsal Arama 2026)"
+seoTitle: "Yapay Zeka ile Yer İmleri Arama (Anlama Dayalı Arama) | Marqly"
+description: "Yapay zeka ile yer imi aramak; tam başlığı hatırlamasanız bile hatırladığınız konuyu günlük konuşma diliyle tarif ederek içeriği anında bulmanızı sağlar."
 pubDate: 2026-05-18
-updatedDate: 2026-06-23
+updatedDate: 2026-09-07
 category: "Yapay Zeka Arama"
-targetKeyword: "yer imi yapay zeka arama"
+targetKeyword: "yapay zeka ile yer imi arama"
 tags:
-  - "semantik arama"
-  - "yer imi ai"
-  - "doğal dil ile arama"
-  - "yapay zeka yer imi yöneticisi"
+  - "anlamsal yer imi arama"
+  - "yapay zeka yer imi arama"
+  - "dogal dil ile yer imi bulma"
+  - "anlama gore yer imi arama"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Deneyin"
+ctaLabel: "Marqly’yi Ücretsiz Deneyin"
 lang: "tr"
 faqs:
-  - q: "Yapay zeka kullanarak yer imlerimi nasıl arayabilirim?"
-    a: "Marqly gibi semantik arama özelliğine sahip bir yapay zeka yer imi yöneticisi kullanarak. Tam başlığı veya URL'yi hatırlamak zorunda kalmadan, aklınızda kalan detayları doğal cümlelerle yazarak arama yapabilirsiniz."
-  - q: "Semantik arama ile standart kelime aramasının farkı nedir?"
-    a: "Standart arama harf ve kelime eşleşmesine bakar. Semantik arama ise kavramların anlamını inceler: 'Sabah odaklanmasını artıran yöntemler' yazdığınızda, içinde 'kortizol uyanma tepkisi' geçen bir makaleyi kolayca tespit eder."
+  - q: "Anlamsal (semantik) yer imi araması nedir?"
+    a: "Birebir kelime eşleştirmesi yerine, sorgunuzun 'anlamını' yapay zeka ile kavrayıp kütüphanenizdeki makale ve videoların özüyle eşleştirerek sonuç getiren yeni nesil bir arama yöntemidir."
+  - q: "Başlığını unuttuğum bir sayfayı bulabilir miyim?"
+    a: "Evet. Örneğin 'girişimlerde maaş pazarlığı rehberi' yazarak tarif ettiğinizde, başlığında bu kelimeler geçmese bile ilgili yazıyı en üst sırada listeler."
+  - q: "Klasik anahtar kelime aramasından neden daha iyidir?"
+    a: "Yüzlerce yer imi biriktiğinde anahtar kelime aramaları hafıza yanılgıları ve eşanlamlı kelimeler yüzünden sonuçsuz kalır. Anlamsal arama ise bulanık hatırlamalarda bile yüksek başarı oranı sunar."
 heroImage: ../../../assets/blog/how-to-search-bookmarks-with-ai.png
-heroAlt: "Yapay Zeka ile Yer İmleri Nasıl Aranır — Görsel"
+heroAlt: "Yapay zeka ile yer imi arama rehberi — illüstrasyon"
 ogImage: "https://www.marqly.com/og/how-to-search-bookmarks-with-ai.png"
 ---
 
-Yapay zeka ile yer imi aramak, **tam kelimeleri tahmin etmeye çalışmak yerine aklınızda kalanı kendi cümlelerinizle tarif etmek** anlamına gelir. Yapay zeka modeli ifadenizin anlamını kavrar ve bunu kütüphanenizdeki tüm içeriklerle kavramsal olarak eşleştirir; böylece başlığı unutsanız bile sayfaya saniyeler içinde ulaşırsınız.
+Yapay zeka ile yer imi aramak; kesin bir başlık veya bağlantı adresi hatırlamak zorunda kalmadan, **akılda kalan ipuçlarını günlük konuşma diliyle ifade ederek aradığınız içeriği anında bulabilmek** demektir. Yapay zeka sorgunuzun ana fikrini kavrar ve arşivinizdeki binlerce kaynak arasından en uygun olanları sıralar.
 
-## Geleneksel Arama Neden Yetersiz Kalır?
+Klasik tarayıcı arama çubuklarının sunduğu kısıtlı deneyimi tamamen geride bırakan bu teknolojiye yakından bakalım.
 
-Tarayıcıların yerleşik yer imi sistemleri yalnızca tam kelime eşleşmesiyle çalışır. Yazıyı kaydederken aklınızda 'yazılımcı şirket kurma rehberi' kalmış olabilir; ancak makale başlığı 'Limited Şirket Vergi İpuçları' ise arama sıfır sonuç döndürür. Yüzlerce bağlantı biriktikçe bu durum büyük bir zaman kaybına dönüşür.
+## Anlamsal Arama ile Klasik Anahtar Kelime Araması Arasındaki Fark
 
-## Semantik Arama Nasıl Çalışır?
+Geleneksel tarayıcılar yalnızca girdiğiniz harflerin başlıkta veya URL'de geçip geçmediğini kontrol eder.
 
-Semantik arama, hem arama cümlenizi hem de kaydedilen sayfaların tüm metnini yüksek boyutlu vektör gömmelerine (embeddings) dönüştürür. Harf eşleşmesi yerine kavramsal yakınlığı hesapladığı için eş anlamlı kelimeleri, farklı dillerdeki ifadeleri ve soru kalıplarını kusursuz şekilde anlar.
+Oysa **anlamsal arama (semantic search)**, hem arama cümlenizi hem de kaydettiğiniz tüm sayfaları kavramsal vektörlere dönüştürür. Örneğin "sabahları neden daha verimli çalışırız" diye arattığınızda, başlığı "Kortizol Uyanma Yanıtı" olan bilimsel bir makale ilk sırada çıkabilir; çünkü ikisi aynı konuyu açıklamaktadır.
 
-### Etkili Arama İpuçları
-1. **Tek kelime yerine cümle kullanın**: 'Verimlilik' yerine 'sabah saatlerinde dikkati dağılmadan derin çalışma taktikleri' yazın.
-2. **Hatırladığınız ayrıntıları ekleyin**: Yazarın savunduğu bir fikir, verilen bir istatistik veya örnek vaka gibi hafızanızdaki parçaları yazın.
-3. **İlk 3 sonuca odaklanın**: Anlamsal benzerliğe göre sıralandığı için aradığınız sayfa neredeyse her zaman ilk birkaç sonuç içinde yer alır.
+## Yapay Zeka ile Arama Yaparken İpuçları
 
-[Marqly](https://app.marqly.com) yalnızca web sayfalarını değil, kaydettiğiniz YouTube videolarının transkriptlerini ve aldığınız vurguları da semantik olarak arayabilir.
+1. **Anahtar kelime yerine tam cümle yazın:** "Maaş pazarlık" yerine "Erken aşama girişimlerde hisse ve maaş artırma stratejileri" şeklinde aratın.
+2. **Hatırladığınız ayrıntıları ekleyin:** Yazar adı, tonlama veya örnek vakalar gibi detaylar arama doğruluğunu artırır.
+3. **İlk sonuçlara odaklanın:** Anlamsal yakınlık algoritması sayesinde aradığınız sayfa neredeyse her zaman ilk 3 sonuç içindedir.
+
+**Marqly** sayesinde makaleleriniz, YouTube video altyazılarınız ve şahsi notlarınız tek bir arama çubuğunda doğal dille taranabilir.
