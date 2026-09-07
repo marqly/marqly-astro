@@ -1,0 +1,181 @@
+---
+import LandingLayout from '../../../layouts/LandingLayout.astro';
+import ToolShell from '../../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../../lib/schema';
+import { alternatesForPath } from '../../../i18n/routes';
+
+const path = '/pl/tools/youtube-transkrypcja';
+const title = 'Transkrypcja YouTube – Pobierz i skopiuj napisy z filmu | Marqly';
+const description =
+  'Wklej link do YouTube i natychmiast pobierz całą transkrypcję w formie tekstu. Kopiuj jednym kliknięciem lub pobierz jako .txt z sygnaturami czasowymi. Bezpłatnie.';
+
+const faqs = [
+  {
+    q: 'Jak pobrać transkrypcję z filmu na YouTube?',
+    a: 'Wklej adres URL filmu powyżej: narzędzie załaduje ścieżkę napisów, którą posiada YouTube. Możesz skopiować całą transkrypcję lub pobrać ją jako plik tekstowy. Jeśli chcesz widzieć transkrypcję przy każdym filmie bez opuszczania strony, rozszerzenie Marqly wyświetla zsynchronizowaną kartę transkrypcji tuż obok odtwarzacza.',
+  },
+  {
+    q: 'Dlaczego nie można znaleźć napisów?',
+    a: 'Autor filmu mógł wyłączyć napisy, albo wideo zostało dodane niedawno i napisy automatyczne jeszcze się nie wygenerowały. Jeśli napisy są widoczne w YouTube, rozszerzenie Marqly potrafi odczytać je bezpośrednio w przeglądarce.',
+  },
+  {
+    q: 'Czy narzędzie obsługuje automatyczne napisy?',
+    a: 'Tak. Jeśli twórca dodał napisy ręczne, wybieramy je w pierwszej kolejności; w przeciwnym razie pobieramy ścieżkę automatyczną.',
+  },
+  {
+    q: 'Czy mogę pobrać transkrypcję z sygnaturami czasowymi?',
+    a: 'Tak, wystarczy zaznaczyć lub odznaczyć opcję „Znaczniki czasu” przed skopiowaniem tekstu lub pobraniem pliku .txt.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite('pl'),
+  breadcrumbList([
+    { name: 'Strona główna', path: '/' },
+    { name: 'Transkrypcja YouTube', path },
+  ]),
+  faqPage(faqs, 'pl'),
+  freeWebApplication(
+    'Transkrypcja YouTube',
+    'Pobierz pełną transkrypcję dowolnego filmu z YouTube w formie tekstu. Za darmo, online.',
+    path,
+    'pl',
+  ),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  lang="pl"
+  alternates={alternatesForPath(path)}
+  showLinkHub={false}
+>
+  <ToolShell
+    name="Transkrypcja YouTube"
+    heading="Transkrypcja z YouTube w jednym kliknięciu"
+    sub="Wklej link, uzyskaj pełny tekst wypowiedzi z filmu. Za darmo, bez logowania. Skopiuj do schowka lub pobierz jako plik tekstowy."
+    faqs={faqs}
+    faqHeading="Często zadawane pytania"
+    crumbs={[
+      { name: 'Strona główna', path: '/' },
+      { name: 'Transkrypcja YouTube', path },
+    ]}
+    ctaHeading="Transkrypcja przy każdym filmie – automatycznie?"
+    ctaSub="Rozszerzenie Marqly dodaje do każdego odtwarzacza YouTube kartę zsynchronizowanej transkrypcji, streszczenie AI i czat z wideo."
+    ctaLabel="Wypróbuj Marqly za darmo"
+    ctaSecondaryLabel="Dodaj do Chrome"
+    backHref={null}
+  >
+    <form id="yt-form">
+      <div class="tool-row">
+        <div class="grow">
+          <label for="yt-url">Link do filmu YouTube</label>
+          <input id="yt-url" type="url" placeholder="https://www.youtube.com/watch?v=…" required />
+        </div>
+        <button class="btn btn--primary" type="submit">Pobierz transkrypcję</button>
+      </div>
+      <p class="tool-status" id="yt-status" role="status"></p>
+    </form>
+    <div class="tool-actions hidden" id="yt-actions">
+      <button class="btn btn--outline btn--sm" id="yt-copy" type="button">Skopiuj tekst</button>
+      <button class="btn btn--outline btn--sm" id="yt-download" type="button">Pobierz .txt</button>
+      <label style="display:inline-flex;align-items:center;gap:.4rem;margin:0;font-weight:400;">
+        <input type="checkbox" id="yt-stamps" checked style="width:auto;" /> Znaczniki czasu
+      </label>
+    </div>
+    <div class="tool-output hidden" id="yt-out" aria-live="polite"></div>
+
+    <Fragment slot="content">
+      <h2>Jak pobrać transkrypcję z YouTube w tekście</h2>
+      <ol>
+        <li>Skopiuj link do filmu z paska adresu lub przycisku Udostępnij.</li>
+        <li>Wklej go w polu powyżej i kliknij <strong>Pobierz transkrypcję</strong>.</li>
+        <li>Skopiuj tekst lub pobierz jako plik <code>.txt</code> z sygnaturami czasowymi lub bez nich.</li>
+      </ol>
+      <p>
+        Narzędzie pobiera te same napisy, które YouTube wyświetla w panelu „Pokaż transkrypcję”, oszczędzając Ci uciążliwego zaznaczania tekstu linijka po linijce.
+      </p>
+
+      <h2>Do czego przydaje się transkrypcja wideo</h2>
+      <ul>
+        <li><strong>Szybkie czytanie zamiast oglądania</strong> — 40-minutowy materiał przeczytasz ze zrozumieniem w 4 minuty.</li>
+        <li><strong>Precyzyjne cytowanie</strong> — Skopiuj dosłowne wypowiedzi do pracy dyplomowej, raportu lub notatek.</li>
+        <li><strong>Wygodna nauka</strong> — Użyj Ctrl+F, by od razu odnaleźć definicję, zamiast przewijać w ciemno.</li>
+        <li><strong>Wykorzystanie w modelach AI</strong> — Wklej transkrypcję do ChatGPT lub użyj naszego narzędzia <a href="/pl/tools/youtube-podsumowanie">Podsumowanie YouTube</a>, aby wyodrębnić tylko to, co najważniejsze.</li>
+      </ul>
+
+      <h2>Wygodniej: transkrypcja prosto w YouTube z Marqly</h2>
+      <p>
+        Jeśli regularnie przetwarzasz materiały wideo, ciągłe kopiowanie linków staje się uciążliwe. Rozszerzenie Marqly integruje kartę transkrypcji bezpośrednio w YouTube, podświetla bieżące zdanie w trakcie odtwarzania i pozwala zapisać wideo do Twojego cyfrowego drugiego mózgu.
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const form = document.getElementById('yt-form') as HTMLFormElement;
+  const input = document.getElementById('yt-url') as HTMLInputElement;
+  const status = document.getElementById('yt-status')!;
+  const out = document.getElementById('yt-out')!;
+  const actions = document.getElementById('yt-actions')!;
+  const stamps = document.getElementById('yt-stamps') as HTMLInputElement;
+
+  let segments: { start: number; text: string }[] = [];
+  let videoTitle = 'transkrypcja';
+
+  const fmt = (s: number) =>
+    `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
+
+  const renderText = (withStamps: boolean) =>
+    segments.map((s) => (withStamps ? `[${fmt(s.start)}] ${s.text}` : s.text)).join('\n');
+
+  const render = () => {
+    out.textContent = renderText(stamps.checked);
+  };
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    status.textContent = 'Ładowanie transkrypcji…';
+    status.classList.remove('is-error');
+    out.classList.add('hidden');
+    actions.classList.add('hidden');
+    try {
+      const res = await fetch(`/api/youtube-transcript?v=${encodeURIComponent(input.value)}`);
+      const data = await res.json() as {
+        error?: string;
+        title: string;
+        auto?: boolean;
+        segments: { start: number; text: string }[];
+      };
+      if (!res.ok) throw new Error(data.error ?? 'Wystąpił błąd.');
+      segments = data.segments;
+      videoTitle = data.title ?? 'transkrypcja';
+      status.textContent = `${data.title}${data.auto ? ' (automatyczne napisy)' : ''} — ${segments.length} linii`;
+      render();
+      out.classList.remove('hidden');
+      actions.classList.remove('hidden');
+    } catch (err) {
+      status.textContent = err instanceof Error ? err.message : 'Wystąpił problem z pobraniem transkrypcji.';
+      status.classList.add('is-error');
+    }
+  });
+
+  stamps.addEventListener('change', render);
+
+  document.getElementById('yt-copy')!.addEventListener('click', async () => {
+    await navigator.clipboard.writeText(renderText(stamps.checked));
+    status.textContent = 'Skopiowano do schowka!';
+  });
+
+  document.getElementById('yt-download')!.addEventListener('click', () => {
+    const blob = new Blob([renderText(stamps.checked)], { type: 'text/plain' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = `${videoTitle.replace(/[^\w\s-]/g, '').slice(0, 60) || 'transkrypcja'}.txt`;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  });
+</script>

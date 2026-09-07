@@ -1,0 +1,181 @@
+---
+import LandingLayout from '../../../layouts/LandingLayout.astro';
+import ToolShell from '../../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../../lib/schema';
+import { alternatesForPath } from '../../../i18n/routes';
+
+const path = '/zh/tools/youtube-transcript';
+const title = 'YouTube字幕转录提取工具 — 完整文字稿一键复制下载 | Marqly';
+const description =
+  '粘贴YouTube视频链接，一键提取完整字幕文字稿。支持包含/去除时间戳，支持一键复制到剪贴板或下载为.txt文件。完全免费，无需注册。';
+
+const faqs = [
+  {
+    q: '如何提取YouTube视频的字幕文字稿？',
+    a: '在上方输入框中粘贴YouTube视频链接，点击“提取字幕稿”即可。工具将自动读取视频包含的字幕并整理为清晰文本，可直接一键复制或下载为.txt。如需在播放页面直接同步查看字幕，可安装Marqly浏览器扩展。',
+  },
+  {
+    q: '为什么有些视频无法提取字幕？',
+    a: '因为该视频关闭了字幕功能，或者由于刚发布不久尚未生成自动字幕。只要YouTube播放器本身能够显示字幕，Marqly插件就能在浏览器端直接捕获并导出。',
+  },
+  {
+    q: '工具支持自动生成的字幕吗？',
+    a: '支持。如果创作者上传了手工精修字幕，工具会优先采用；若无，则读取YouTube自动生成的字幕轨道。',
+  },
+  {
+    q: '可以直接将字幕下载为文本文件吗？',
+    a: '可以。提取后点击“.txt下载”即可保存到本地，并可自由选择是否保留时间戳。',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite('zh'),
+  breadcrumbList([
+    { name: '首页', path: '/' },
+    { name: 'YouTube字幕提取工具', path },
+  ]),
+  faqPage(faqs, 'zh'),
+  freeWebApplication(
+    'YouTube字幕转录提取工具',
+    '免费在线提取YouTube视频字幕文字稿，支持一键复制与.txt下载。',
+    path,
+    'zh',
+  ),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  lang="zh"
+  alternates={alternatesForPath(path)}
+  showLinkHub={false}
+>
+  <ToolShell
+    name="YouTube字幕提取工具"
+    heading="一键提取YouTube视频完整字幕文字稿"
+    sub="粘贴链接即刻获取全文。免登录、完全免费。支持一键复制到剪贴板或导出为文本文件。"
+    faqs={faqs}
+    faqHeading="常见问题解答"
+    crumbs={[
+      { name: '首页', path: '/' },
+      { name: 'YouTube字幕提取工具', path },
+    ]}
+    ctaHeading="想在看视频时自动显示逐字稿和AI总结？"
+    ctaSub="Marqly扩展程序为每个YouTube视频侧边栏无缝集成同步逐字稿、实时AI摘要与智能问答功能。"
+    ctaLabel="免费试用Marqly"
+    ctaSecondaryLabel="添加至Chrome"
+    backHref={null}
+  >
+    <form id="yt-form">
+      <div class="tool-row">
+        <div class="grow">
+          <label for="yt-url">YouTube视频链接</label>
+          <input id="yt-url" type="url" placeholder="https://www.youtube.com/watch?v=…" required />
+        </div>
+        <button class="btn btn--primary" type="submit">提取字幕稿</button>
+      </div>
+      <p class="tool-status" id="yt-status" role="status"></p>
+    </form>
+    <div class="tool-actions hidden" id="yt-actions">
+      <button class="btn btn--outline btn--sm" id="yt-copy" type="button">复制全文</button>
+      <button class="btn btn--outline btn--sm" id="yt-download" type="button">.txt下载</button>
+      <label style="display:inline-flex;align-items:center;gap:.4rem;margin:0;font-weight:400;">
+        <input type="checkbox" id="yt-stamps" checked style="width:auto;" /> 包含时间戳
+      </label>
+    </div>
+    <div class="tool-output hidden" id="yt-out" aria-live="polite"></div>
+
+    <Fragment slot="content">
+      <h2>如何提取YouTube视频字幕文字稿</h2>
+      <ol>
+        <li>从浏览器地址栏或“分享”按钮复制YouTube视频链接。</li>
+        <li>粘贴到上方输入框并点击<strong>提取字幕稿</strong>。</li>
+        <li>选择是否保留时间戳，点击<strong>复制全文</strong>或<strong>.txt下载</strong>。</li>
+      </ol>
+      <p>
+        告别在YouTube自带的“显示文字稿”面板里费时费力逐段拖动选中的烦恼，一键获得干净纯文本。
+      </p>
+
+      <h2>字幕文字稿的常见用途</h2>
+      <ul>
+        <li><strong>快速浏览代替慢速观看</strong> — 40分钟的对话视频，文字阅读仅需3到4分钟。</li>
+        <li><strong>文献与观点精确引用</strong> — 提取论文、讲座中的确切原话，轻松归档到笔记中。</li>
+        <li><strong>配合AI深度处理</strong> — 将文字稿投喂给ChatGPT或Claude进行针对性分析，或直接使用我们的<a href="/zh/tools/youtube-summarize">YouTube视频AI总结工具</a>快速提炼要点。</li>
+        <li><strong>视频内快速检索</strong> — 使用Ctrl+F直接查找关键术语对应的视频位置。</li>
+      </ul>
+
+      <h2>更高效率：直接在播放页面使用Marqly</h2>
+      <p>
+        如果你经常需要整理YouTube知识，重复复制粘贴链接会浪费大量精力。Marqly浏览器插件将转录稿卡片直接嵌入YouTube页面，随视频播放实时高亮当前句，并支持一键保存到个人第二大脑知识库中。
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const form = document.getElementById('yt-form') as HTMLFormElement;
+  const input = document.getElementById('yt-url') as HTMLInputElement;
+  const status = document.getElementById('yt-status')!;
+  const out = document.getElementById('yt-out')!;
+  const actions = document.getElementById('yt-actions')!;
+  const stamps = document.getElementById('yt-stamps') as HTMLInputElement;
+
+  let segments: { start: number; text: string }[] = [];
+  let videoTitle = 'transcript';
+
+  const fmt = (s: number) =>
+    `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
+
+  const renderText = (withStamps: boolean) =>
+    segments.map((s) => (withStamps ? `[${fmt(s.start)}] ${s.text}` : s.text)).join('\n');
+
+  const render = () => {
+    out.textContent = renderText(stamps.checked);
+  };
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    status.textContent = '正在获取字幕稿…';
+    status.classList.remove('is-error');
+    out.classList.add('hidden');
+    actions.classList.add('hidden');
+    try {
+      const res = await fetch(`/api/youtube-transcript?v=${encodeURIComponent(input.value)}`);
+      const data = await res.json() as {
+        error?: string;
+        title: string;
+        auto?: boolean;
+        segments: { start: number; text: string }[];
+      };
+      if (!res.ok) throw new Error(data.error ?? '获取文字稿失败。');
+      segments = data.segments;
+      videoTitle = data.title ?? 'transcript';
+      status.textContent = `${data.title}${data.auto ? ' (自动生成字幕)' : ''} — 共 ${segments.length} 行`;
+      render();
+      out.classList.remove('hidden');
+      actions.classList.remove('hidden');
+    } catch (err) {
+      status.textContent = err instanceof Error ? err.message : '提取失败，请重试。';
+      status.classList.add('is-error');
+    }
+  });
+
+  stamps.addEventListener('change', render);
+
+  document.getElementById('yt-copy')!.addEventListener('click', async () => {
+    await navigator.clipboard.writeText(renderText(stamps.checked));
+    status.textContent = '已复制到剪贴板！';
+  });
+
+  document.getElementById('yt-download')!.addEventListener('click', () => {
+    const blob = new Blob([renderText(stamps.checked)], { type: 'text/plain' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = `${videoTitle.replace(/[^\w\s-]/g, '').slice(0, 60) || 'transcript'}.txt`;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  });
+</script>

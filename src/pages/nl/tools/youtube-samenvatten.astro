@@ -1,0 +1,152 @@
+---
+import LandingLayout from '../../../layouts/LandingLayout.astro';
+import ToolShell from '../../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../../lib/schema';
+import { alternatesForPath } from '../../../i18n/routes';
+
+const path = '/nl/tools/youtube-samenvatten';
+const title = 'YouTube Video Samenvatten met AI – Gratis & Zonder Account | Marqly';
+const description =
+  'Plak een YouTube-link en ontvang direct een beknopte AI-samenvatting met tijdstempels en kernpunten. Gratis, snel en accuraat op basis van het daadwerkelijke transcript.';
+
+const faqs = [
+  {
+    q: 'Hoe werkt deze YouTube samenvattingstool?',
+    a: 'Plak de link van de video: de tool haalt de ondertiteling op en stuurt deze naar een AI-model dat de kernboodschap, belangrijke inzichten en tijdstempels destilleert. Omdat de AI direct naar het gesproken woord kijkt, word je niet misleid door clickbait-titels of thumbnails.',
+  },
+  {
+    q: 'Werkt dit ook bij video’s zonder ondertiteling?',
+    a: 'Nee. Als een video geen ondertiteling heeft en YouTube deze ook niet automatisch genereert, kan er geen tekst worden geëxtraheerd. Automatisch gegenereerde YouTube-ondertitels werken wel gewoon.',
+  },
+  {
+    q: 'Is er een limiet aan de videolengte?',
+    a: 'De gratis webtool vat op basis van ongeveer het eerste uur van het transcript samen. Voor urenlange lezingen, volledige podcasts en interactieve Q&A direct in YouTube kun je de Marqly-browserextensie gebruiken.',
+  },
+  {
+    q: 'Is deze tool echt helemaal gratis?',
+    a: 'Ja, 100% gratis zonder registratie of creditcard.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite('nl'),
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: 'YouTube Video Samenvatten', path },
+  ]),
+  faqPage(faqs, 'nl'),
+  freeWebApplication(
+    'YouTube Video AI Samenvatten',
+    'Vat YouTube-video’s direct samen met AI. Gratis, online en zonder registratie.',
+    path,
+    'nl',
+  ),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  lang="nl"
+  alternates={alternatesForPath(path)}
+  showLinkHub={false}
+>
+  <ToolShell
+    name="YouTube Samenvatten"
+    heading="YouTube-video’s direct samenvatten met AI"
+    sub="Plak een video-link en lees binnen enkele seconden de belangrijkste inzichten en takeaways. Gratis, zonder registratie — gebaseerd op het daadwerkelijke transcript."
+    faqs={faqs}
+    faqHeading="Veelgestelde vragen"
+    crumbs={[
+      { name: 'Home', path: '/' },
+      { name: 'YouTube Samenvatten', path },
+    ]}
+    ctaHeading="Altijd een AI-samenvatting direct in YouTube?"
+    ctaSub="De Marqly-extensie voegt een slimme AI-kaart toe aan elke YouTube-videopagina: gesynchroniseerd transcript, samenvatting en chat."
+    ctaLabel="Probeer Marqly gratis"
+    ctaSecondaryLabel="Toevoegen aan Chrome"
+    backHref={null}
+  >
+    <form id="ys-form">
+      <div class="tool-row">
+        <div class="grow">
+          <label for="ys-url">YouTube video-URL</label>
+          <input id="ys-url" type="url" placeholder="https://www.youtube.com/watch?v=…" required />
+        </div>
+        <button class="btn btn--primary" type="submit">Samenvatten</button>
+      </div>
+      <p class="tool-status" id="ys-status" role="status"></p>
+    </form>
+    <div class="tool-output hidden" id="ys-out" aria-live="polite"></div>
+
+    <Fragment slot="content">
+      <h2>Hoe vat je een YouTube-video samen met AI?</h2>
+      <ol>
+        <li>Kopieer de URL van de YouTube-video en plak deze in het veld hierboven.</li>
+        <li>Klik op <strong>Samenvatten</strong>.</li>
+        <li>De tool haalt het transcript op en de AI toont binnen 30 seconden een overzichtelijke samenvatting met opsommingstekens.</li>
+      </ol>
+      <p>
+        De samenvatting is direct gebaseerd op wat er daadwerkelijk gezegd wordt, waardoor je razendsnel feiten van ruis scheidt.
+      </p>
+
+      <h2>Waarom mensen video’s samenvatten</h2>
+      <ul>
+        <li><strong>Colleges & lezingen</strong> — Een college van een uur terugbrengen tot effectieve studienotities.</li>
+        <li><strong>Lange podcasts</strong> — In 2 minuten ontdekken welke adviezen de gast deelt.</li>
+        <li><strong>Tutorials & how-to’s</strong> — Controleren of de video de oplossing bevat voordat je begint met kijken.</li>
+        <li><strong>Later bekijken-lijst opruimen</strong> — Snel bepalen of een bewaarde video de moeite waard is.</li>
+      </ul>
+      <p>
+        Heb je het volledige uitgeschreven transcript nodig in plaats van een samenvatting? Gebruik dan onze gratis
+        <a href="/nl/tools/youtube-transcriptie">YouTube Transcriptie Tool</a>.
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const form = document.getElementById('ys-form') as HTMLFormElement;
+  const input = document.getElementById('ys-url') as HTMLInputElement;
+  const status = document.getElementById('ys-status')!;
+  const out = document.getElementById('ys-out')!;
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    out.classList.add('hidden');
+    status.classList.remove('is-error');
+    try {
+      status.textContent = 'Transcript ophalen…';
+      const tRes = await fetch(`/api/youtube-transcript?v=${encodeURIComponent(input.value)}`);
+      const tData = await tRes.json() as {
+        error?: string;
+        title: string;
+        segments: { text: string }[];
+      };
+      if (!tRes.ok) throw new Error(tData.error ?? 'Kon transcript niet ophalen.');
+
+      status.textContent = `Bezig met samenvatten van "${tData.title}"…`;
+      const text = tData.segments.map((s: { text: string }) => s.text).join(' ');
+      const sRes = await fetch('/api/summarize', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ text, title: tData.title, lang: 'nl' }),
+      });
+      const sData = await sRes.json() as {
+        error?: string;
+        summary: string;
+        truncated?: boolean;
+      };
+      if (!sRes.ok) throw new Error(sData.error ?? 'Samenvatten mislukt.');
+
+      status.textContent = tData.title;
+      out.textContent = sData.summary + (sData.truncated ? '\n\n(Voor zeer lange video’s is het eerste deel samengevat.)' : '');
+      out.classList.remove('hidden');
+    } catch (err) {
+      status.textContent = err instanceof Error ? err.message : 'Er is een fout opgetreden.';
+      status.classList.add('is-error');
+    }
+  });
+</script>

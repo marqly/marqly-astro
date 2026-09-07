@@ -1,0 +1,152 @@
+---
+import LandingLayout from '../../../layouts/LandingLayout.astro';
+import ToolShell from '../../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../../lib/schema';
+import { alternatesForPath } from '../../../i18n/routes';
+
+const path = '/zh/tools/youtube-summarize';
+const title = 'YouTube视频AI总结工具 — 免费、即时、免登录 | Marqly';
+const description =
+  '粘贴YouTube视频链接，AI立即提取核心要点与时间戳摘要。免注册、完全免费，基于真实视频字幕生成高准确度总结。';
+
+const faqs = [
+  {
+    q: 'YouTube视频AI总结工具是如何工作的？',
+    a: '输入视频网址后，工具会自动提取YouTube视频的字幕与文字稿，然后由AI模型提炼出关键核心论点与分段摘要。由于直接分析说话内容，能完全避免标题党和封面的误导。',
+  },
+  {
+    q: '没有字幕的视频可以总结吗？',
+    a: '不可以。若视频上传者彻底关闭了字幕且YouTube没有自动生成字幕，则无法提取文本。但只要有YouTube自动字幕即可正常总结。',
+  },
+  {
+    q: '对视频长度有限制吗？',
+    a: '网页版工具优先基于前60分钟左右的文字稿生成精炼总结。如果您需要总结数小时的完整讲座或与长视频进行连续问答，推荐使用Marqly浏览器插件。',
+  },
+  {
+    q: '该工具真的完全免费吗？',
+    a: '是的。无需注册账号，也无需绑定信用卡，完全免费开放使用。',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite('zh'),
+  breadcrumbList([
+    { name: '首页', path: '/' },
+    { name: 'YouTube视频总结工具', path },
+  ]),
+  faqPage(faqs, 'zh'),
+  freeWebApplication(
+    'YouTube视频AI总结工具',
+    '粘贴YouTube链接，AI即刻生成视频核心要点与摘要。免注册、完全免费。',
+    path,
+    'zh',
+  ),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  lang="zh"
+  alternates={alternatesForPath(path)}
+  showLinkHub={false}
+>
+  <ToolShell
+    name="YouTube视频总结工具"
+    heading="一键AI总结YouTube长视频"
+    sub="只需粘贴视频链接，几秒内提取核心要点与关键时间线。免注册、免费使用 — 严格基于视频字幕提取。"
+    faqs={faqs}
+    faqHeading="常见问题解答"
+    crumbs={[
+      { name: '首页', path: '/' },
+      { name: 'YouTube总结工具', path },
+    ]}
+    ctaHeading="在播放页面直接查看AI总结与转录"
+    ctaSub="安装Marqly浏览器插件，打开任何YouTube视频即可在右侧边栏即时查看逐字稿、AI摘要和智能问答助手。"
+    ctaLabel="免费试用Marqly"
+    ctaSecondaryLabel="添加至Chrome"
+    backHref={null}
+  >
+    <form id="ys-form">
+      <div class="tool-row">
+        <div class="grow">
+          <label for="ys-url">YouTube视频链接</label>
+          <input id="ys-url" type="url" placeholder="https://www.youtube.com/watch?v=…" required />
+        </div>
+        <button class="btn btn--primary" type="submit">生成总结</button>
+      </div>
+      <p class="tool-status" id="ys-status" role="status"></p>
+    </form>
+    <div class="tool-output hidden" id="ys-out" aria-live="polite"></div>
+
+    <Fragment slot="content">
+      <h2>如何使用AI快速总结YouTube视频</h2>
+      <ol>
+        <li>复制YouTube视频的链接并粘贴到上方输入框中。</li>
+        <li>点击<strong>生成总结</strong>按钮。</li>
+        <li>系统自动提取字幕，AI即刻梳理出核心要点和摘要（通常在30秒内完成）。</li>
+      </ol>
+      <p>
+        AI总结直接提取视频实际字幕内容，杜绝胡编乱造，为您节省宝贵的时间。
+      </p>
+
+      <h2>常见应用场景</h2>
+      <ul>
+        <li><strong>学术讲座与课程</strong> — 将1小时的大学公开课浓缩为考试复习重点。</li>
+        <li><strong>长播客与专访</strong> — 快速了解90分钟访谈中嘉宾表达的核心观点。</li>
+        <li><strong>操作教程与技巧</strong> — 快速验证视频是否包含你所需要的解决方案。</li>
+        <li><strong>清理稍后观看列表</strong> — 几秒内判断积压的视频是否值得花时间完整观看。</li>
+      </ul>
+      <p>
+        如果您需要导出完整未总结的字幕文字稿，请使用我们免费的
+        <a href="/zh/tools/youtube-transcript">YouTube字幕转录提取工具</a>。
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const form = document.getElementById('ys-form') as HTMLFormElement;
+  const input = document.getElementById('ys-url') as HTMLInputElement;
+  const status = document.getElementById('ys-status')!;
+  const out = document.getElementById('ys-out')!;
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    out.classList.add('hidden');
+    status.classList.remove('is-error');
+    try {
+      status.textContent = '正在获取字幕稿…';
+      const tRes = await fetch(`/api/youtube-transcript?v=${encodeURIComponent(input.value)}`);
+      const tData = await tRes.json() as {
+        error?: string;
+        title: string;
+        segments: { text: string }[];
+      };
+      if (!tRes.ok) throw new Error(tData.error ?? '无法获取视频文字稿。');
+
+      status.textContent = `正在AI总结《${tData.title}》…`;
+      const text = tData.segments.map((s: { text: string }) => s.text).join(' ');
+      const sRes = await fetch('/api/summarize', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ text, title: tData.title, lang: 'zh' }),
+      });
+      const sData = await sRes.json() as {
+        error?: string;
+        summary: string;
+        truncated?: boolean;
+      };
+      if (!sRes.ok) throw new Error(sData.error ?? '生成总结失败。');
+
+      status.textContent = tData.title;
+      out.textContent = sData.summary + (sData.truncated ? '\n\n（视频较长，以上为前半部分重点总结。）' : '');
+      out.classList.remove('hidden');
+    } catch (err) {
+      status.textContent = err instanceof Error ? err.message : '发生错误，请重试。';
+      status.classList.add('is-error');
+    }
+  });
+</script>

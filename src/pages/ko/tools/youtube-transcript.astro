@@ -1,0 +1,181 @@
+---
+import LandingLayout from '../../../layouts/LandingLayout.astro';
+import ToolShell from '../../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../../lib/schema';
+import { alternatesForPath } from '../../../i18n/routes';
+
+const path = '/ko/tools/youtube-transcript';
+const title = 'YouTube 자막 추출 도구 — 영상 전체 스크립트 복사 및 다운로드 | Marqly';
+const description =
+  'YouTube 링크를 붙여넣어 전체 자막 스크립트를 즉시 텍스트로 추출하세요. 타임스탬프 유무 선택, 원클릭 클립보드 복사 및 .txt 다운로드 지원. 완전 무료.';
+
+const faqs = [
+  {
+    q: 'YouTube 영상 자막은 어떻게 추출하나요?',
+    a: '위 입력창에 YouTube 동영상 URL을 붙여넣고 "자막 추출" 버튼을 누르시면 됩니다. 영상에 존재하는 전체 자막을 읽어와 즉시 복사하거나 텍스트 파일(.txt)로 저장할 수 있습니다. 영상 시청 페이지에서 즉시 확인하고 싶다면 Marqly 브라우저 확장 프로그램을 활용할 수 있습니다.',
+  },
+  {
+    q: '자막을 찾을 수 없다는 메시지가 나오는 이유는 무엇인가요?',
+    a: '동영상 게시자가 자막을 비활성화했거나, 영상이 너무 최근에 게시되어 자동 자막 처리가 진행 중일 때 발생합니다. YouTube 공식 플레이어에서 자막이 켜지는 영상이라면 Marqly 확장 프로그램이 브라우저에서 직접 읽어올 수 있습니다.',
+  },
+  {
+    q: '자동 생성된 자막도 지원되나요?',
+    a: '네. 크리에이터가 업로드한 수동 자막을 우선하며, 없는 경우 YouTube가 자동 생성한 자막을 추출합니다.',
+  },
+  {
+    q: '자막을 텍스트 파일로 다운로드할 수 있나요?',
+    a: '네. ".txt 다운로드" 버튼을 클릭하면 타임스탬프 포함 여부를 선택하여 내 컴퓨터에 바로 저장할 수 있습니다.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite('ko'),
+  breadcrumbList([
+    { name: '홈', path: '/' },
+    { name: 'YouTube 자막 추출 도구', path },
+  ]),
+  faqPage(faqs, 'ko'),
+  freeWebApplication(
+    'YouTube 자막 추출 도구',
+    'YouTube 영상 자막 스크립트를 무료로 추출하고 텍스트로 저장하는 웹 도구.',
+    path,
+    'ko',
+  ),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  lang="ko"
+  alternates={alternatesForPath(path)}
+  showLinkHub={false}
+>
+  <ToolShell
+    name="YouTube 자막 추출 도구"
+    heading="YouTube 동영상 전체 자막을 1초 만에 추출"
+    sub="링크만 붙여넣으면 전체 스크립트를 깔끔한 텍스트로 추출합니다. 회원가입 없이 무료. 원클릭 클립보드 복사 및 텍스트 파일 다운로드 지원."
+    faqs={faqs}
+    faqHeading="자주 묻는 질문"
+    crumbs={[
+      { name: '홈', path: '/' },
+      { name: 'YouTube 자막 추출 도구', path },
+    ]}
+    ctaHeading="동영상 재생 화면에서 바로 스크립트를 보고 싶다면?"
+    ctaSub="Marqly 확장 프로그램은 모든 YouTube 영상 옆에 재생과 실시간 동기화되는 자막 패널, AI 요약, 챗봇 기능을 제공합니다."
+    ctaLabel="Marqly 무료 시작하기"
+    ctaSecondaryLabel="Chrome에 추가"
+    backHref={null}
+  >
+    <form id="yt-form">
+      <div class="tool-row">
+        <div class="grow">
+          <label for="yt-url">YouTube 영상 링크</label>
+          <input id="yt-url" type="url" placeholder="https://www.youtube.com/watch?v=…" required />
+        </div>
+        <button class="btn btn--primary" type="submit">자막 추출</button>
+      </div>
+      <p class="tool-status" id="yt-status" role="status"></p>
+    </form>
+    <div class="tool-actions hidden" id="yt-actions">
+      <button class="btn btn--outline btn--sm" id="yt-copy" type="button">전체 복사</button>
+      <button class="btn btn--outline btn--sm" id="yt-download" type="button">.txt 다운로드</button>
+      <label style="display:inline-flex;align-items:center;gap:.4rem;margin:0;font-weight:400;">
+        <input type="checkbox" id="yt-stamps" checked style="width:auto;" /> 타임스탬프 포함
+      </label>
+    </div>
+    <div class="tool-output hidden" id="yt-out" aria-live="polite"></div>
+
+    <Fragment slot="content">
+      <h2>YouTube 동영상 자막 추출 방법</h2>
+      <ol>
+        <li>주소창이나 '공유' 버튼에서 YouTube 영상 링크를 복사합니다.</li>
+        <li>위 입력창에 붙여넣고 <strong>자막 추출</strong> 버튼을 클릭합니다.</li>
+        <li>타임스탬프 옵션을 확인한 뒤 <strong>전체 복사</strong> 또는 <strong>.txt 다운로드</strong>를 누릅니다.</li>
+      </ol>
+      <p>
+        YouTube 기본 '스크립트 표시' 창에서 줄마다 드래그하여 복사하던 번거로움 없이 한 번에 전체 텍스트를 추출할 수 있습니다.
+      </p>
+
+      <h2>자막 스크립트 활용 방법</h2>
+      <ul>
+        <li><strong>시청 대신 빠른 속독</strong> — 40분짜리 강연도 텍스트로 읽으면 3~4분 만에 핵심 파악 완료.</li>
+        <li><strong>정확한 문장 인용</strong> — 강의나 인터뷰의 발언을 오차 없이 노트나 보고서에 인용.</li>
+        <li><strong>AI 프롬프트 활용</strong> — 전체 스크립트를 AI에 입력하여 질문하거나 당사 <a href="/ko/tools/youtube-summarize">YouTube 요약 도구</a>로 핵심 정리.</li>
+        <li><strong>특정 단어 검색</strong> — Ctrl+F로 원하는 키워드가 나오는 시점을 영상에서 즉시 탐색.</li>
+      </ul>
+
+      <h2>더 간편한 사용: YouTube 화면에서 바로 쓰는 Marqly</h2>
+      <p>
+        자주 자막을 추출하는 연구자나 학생이라면 매번 링크를 복사해 붙여넣는 일도 시간 낭비입니다. Marqly 확장 프로그램을 사용하면 영상 시청 중에 우측 패널에서 원클릭으로 전체 자막을 복사하고 개인 북마크에 영구 저장할 수 있습니다.
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const form = document.getElementById('yt-form') as HTMLFormElement;
+  const input = document.getElementById('yt-url') as HTMLInputElement;
+  const status = document.getElementById('yt-status')!;
+  const out = document.getElementById('yt-out')!;
+  const actions = document.getElementById('yt-actions')!;
+  const stamps = document.getElementById('yt-stamps') as HTMLInputElement;
+
+  let segments: { start: number; text: string }[] = [];
+  let videoTitle = 'transcript';
+
+  const fmt = (s: number) =>
+    `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
+
+  const renderText = (withStamps: boolean) =>
+    segments.map((s) => (withStamps ? `[${fmt(s.start)}] ${s.text}` : s.text)).join('\n');
+
+  const render = () => {
+    out.textContent = renderText(stamps.checked);
+  };
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    status.textContent = '자막을 가져오는 중…';
+    status.classList.remove('is-error');
+    out.classList.add('hidden');
+    actions.classList.add('hidden');
+    try {
+      const res = await fetch(`/api/youtube-transcript?v=${encodeURIComponent(input.value)}`);
+      const data = await res.json() as {
+        error?: string;
+        title: string;
+        auto?: boolean;
+        segments: { start: number; text: string }[];
+      };
+      if (!res.ok) throw new Error(data.error ?? '자막을 가져오지 못했습니다.');
+      segments = data.segments;
+      videoTitle = data.title ?? 'transcript';
+      status.textContent = `${data.title}${data.auto ? ' (자동 생성 자막)' : ''} — 총 ${segments.length} 줄`;
+      render();
+      out.classList.remove('hidden');
+      actions.classList.remove('hidden');
+    } catch (err) {
+      status.textContent = err instanceof Error ? err.message : '오류가 발생했습니다.';
+      status.classList.add('is-error');
+    }
+  });
+
+  stamps.addEventListener('change', render);
+
+  document.getElementById('yt-copy')!.addEventListener('click', async () => {
+    await navigator.clipboard.writeText(renderText(stamps.checked));
+    status.textContent = '클립보드에 복사되었습니다.';
+  });
+
+  document.getElementById('yt-download')!.addEventListener('click', () => {
+    const blob = new Blob([renderText(stamps.checked)], { type: 'text/plain' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = `${videoTitle.replace(/[^\w\s-]/g, '').slice(0, 60) || 'transcript'}.txt`;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  });
+</script>

@@ -1,0 +1,152 @@
+---
+import LandingLayout from '../../../layouts/LandingLayout.astro';
+import ToolShell from '../../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../../lib/schema';
+import { alternatesForPath } from '../../../i18n/routes';
+
+const path = '/ja/tools/youtube-summarize';
+const title = 'YouTube動画AI要約ツール — 無料・即時・登録不要 | Marqly';
+const description =
+  'YouTube動画のURLを貼り付けるだけでAIが瞬時に要約。TL;DR、重要ポイント、タイムスタンプ付きで要点を把握。実際の動画文字起こしに基づく高精度AI要約。';
+
+const faqs = [
+  {
+    q: 'YouTube動画要約ツールはどのように動きますか？',
+    a: '入力されたURLからYouTubeの字幕・文字起こしデータを抽出し、AIモデルが重要な要点や章立てに短縮・要約します。タイトルやサムネイルの誇張に惑わされず、実際に動画内で話された事実に基づいた要約が作成されます。',
+  },
+  {
+    q: '字幕のない動画でも要約できますか？',
+    a: 'いいえ。字幕やトランスクリプトが完全にオフになっている動画は要約できません。ただしYouTubeの自動生成字幕が存在すれば問題なく要約可能です。',
+  },
+  {
+    q: '動画の長さに制限はありますか？',
+    a: '長尺動画の場合、最初の約1時間分の文字起こしデータを基準に要約を生成します。Marqlyのブラウザ拡張機能を使えば、数時間に及ぶ動画全体の全編要約や動画内容への質問チャットも可能です。',
+  },
+  {
+    q: '本当に完全無料で使えますか？',
+    a: 'はい。会員登録やクレジットカード登録は一切不要です。Marqly拡張機能の便利さを体験していただくための無料Webツールです。',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite('ja'),
+  breadcrumbList([
+    { name: 'ホーム', path: '/' },
+    { name: 'YouTube要約ツール', path },
+  ]),
+  faqPage(faqs, 'ja'),
+  freeWebApplication(
+    'YouTube動画要約ツール',
+    'YouTube動画のURLを貼り付けるだけでAIが瞬時に要約。登録不要・完全無料。',
+    path,
+    'ja',
+  ),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  lang="ja"
+  alternates={alternatesForPath(path)}
+  showLinkHub={false}
+>
+  <ToolShell
+    name="YouTube要約ツール"
+    heading="YouTube動画をAIで瞬時に要約"
+    sub="動画のURLを貼り付けるだけで、重要ポイントを短時間で把握。登録不要・無料 — 動画内の実際の会話に基づいて生成されます。"
+    faqs={faqs}
+    faqHeading="よくある質問"
+    crumbs={[
+      { name: 'ホーム', path: '/' },
+      { name: 'YouTube要約ツール', path },
+    ]}
+    ctaHeading="コピペ不要、視聴画面ですぐに要約"
+    ctaSub="Marqlyのブラウザ拡張機能なら、YouTubeを開いた瞬間にプレイヤー横にAI要約、文字起こし、質問チャットが自動表示されます。"
+    ctaLabel="Marqlyを無料で試す"
+    ctaSecondaryLabel="Chromeに追加"
+    backHref={null}
+  >
+    <form id="ys-form">
+      <div class="tool-row">
+        <div class="grow">
+          <label for="ys-url">YouTube動画のURL</label>
+          <input id="ys-url" type="url" placeholder="https://www.youtube.com/watch?v=…" required />
+        </div>
+        <button class="btn btn--primary" type="submit">要約する</button>
+      </div>
+      <p class="tool-status" id="ys-status" role="status"></p>
+    </form>
+    <div class="tool-output hidden" id="ys-out" aria-live="polite"></div>
+
+    <Fragment slot="content">
+      <h2>YouTube動画をAI要約する手順</h2>
+      <ol>
+        <li>上の入力欄にYouTube動画のURLを貼り付け、<strong>要約する</strong>をクリックします。</li>
+        <li>ツールが字幕トランスクリプトを抽出し、AIが核心部分を抽出します。</li>
+        <li>TL;DRと箇条書きの要約が画面に表示されます（通常30秒以内）。</li>
+      </ol>
+      <p>
+        要約は動画の字幕データから生成されるため、クリエイターが実際に話した内容を正確に反映します。
+      </p>
+
+      <h2>こんな時に便利です</h2>
+      <ul>
+        <li><strong>学習・講義動画</strong> — 1時間の大学講義動画を要約し、試験前の復習ノートとして活用。</li>
+        <li><strong>長尺ポッドキャスト</strong> — 90分の対談から重要な論点だけをサクッと把握。</li>
+        <li><strong>ハウツー・チュートリアル</strong> — 動画を見る前に、知りたい解決策が含まれているか確認。</li>
+        <li><strong>「後で見る」の消化</strong> — 溜まった動画を観る価値があるか数秒で判断。</li>
+      </ul>
+      <p>
+        要約ではなく全文テキストが必要な場合は、無料の
+        <a href="/ja/tools/youtube-transcript">YouTube文字起こし抽出ツール</a>をご利用ください。
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const form = document.getElementById('ys-form') as HTMLFormElement;
+  const input = document.getElementById('ys-url') as HTMLInputElement;
+  const status = document.getElementById('ys-status')!;
+  const out = document.getElementById('ys-out')!;
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    out.classList.add('hidden');
+    status.classList.remove('is-error');
+    try {
+      status.textContent = '文字起こしを取得中…';
+      const tRes = await fetch(`/api/youtube-transcript?v=${encodeURIComponent(input.value)}`);
+      const tData = await tRes.json() as {
+        error?: string;
+        title: string;
+        segments: { text: string }[];
+      };
+      if (!tRes.ok) throw new Error(tData.error ?? '文字起こしを取得できませんでした。');
+
+      status.textContent = `「${tData.title}」をAI要約中…`;
+      const text = tData.segments.map((s: { text: string }) => s.text).join(' ');
+      const sRes = await fetch('/api/summarize', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ text, title: tData.title, lang: 'ja' }),
+      });
+      const sData = await sRes.json() as {
+        error?: string;
+        summary: string;
+        truncated?: boolean;
+      };
+      if (!sRes.ok) throw new Error(sData.error ?? '要約に失敗しました。');
+
+      status.textContent = tData.title;
+      out.textContent = sData.summary + (sData.truncated ? '\n\n(長尺動画のため、前半部分を中心に要約しました。)' : '');
+      out.classList.remove('hidden');
+    } catch (err) {
+      status.textContent = err instanceof Error ? err.message : 'エラーが発生しました。';
+      status.classList.add('is-error');
+    }
+  });
+</script>

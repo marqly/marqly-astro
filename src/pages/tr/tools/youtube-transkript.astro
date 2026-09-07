@@ -1,0 +1,181 @@
+---
+import LandingLayout from '../../../layouts/LandingLayout.astro';
+import ToolShell from '../../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../../lib/schema';
+import { alternatesForPath } from '../../../i18n/routes';
+
+const path = '/tr/tools/youtube-transkript';
+const title = 'YouTube Transkript Çıkarma – Altyazıları Metin Olarak Kopyala | Marqly';
+const description =
+  'YouTube video linkini yapıştırın, videonun tüm altyazı dökümünü metin olarak tek tıkla alın. Zaman damgalı veya sade metin olarak kopyalayın ya da .txt indirin. Ücretsiz.';
+
+const faqs = [
+  {
+    q: 'Bir YouTube videosunun transkripti nasıl çıkarılır?',
+    a: 'Yukarıdaki alana YouTube video URL’sini yapıştırın: araç YouTube’un mevcut altyazı kanalını çeker. Metnin tamamını tek tıkla kopyalayabilir veya .txt olarak indirebilirsiniz. Sayfadan ayrılmadan her videoda transkript görmek için Marqly uzantısını kullanabilirsiniz.',
+  },
+  {
+    q: 'Neden altyazı bulunamadı uyarısı alıyorum?',
+    a: 'Yükleyici altyazıları tamamen kapatmış olabilir veya video çok yeni olduğu için otomatik altyazılar henüz işlenmemiştir. YouTube oynatıcısında altyazı görünüyorsa Marqly uzantısı doğrudan tarayıcı üzerinden altyazıyı okuyabilir.',
+  },
+  {
+    q: 'Otomatik oluşturulan altyazılar destekleniyor mu?',
+    a: 'Evet. Yükleyici manuel altyazı eklediyse öncelikle o kullanılır; yoksa YouTube’un otomatik altyazı kanalı çekilir.',
+  },
+  {
+    q: 'Zaman damgaları olmadan altyazı indirebilir miyim?',
+    a: 'Evet, kopyalamadan veya indirmeden önce "Zaman Damgaları" kutucuğunun işaretini kaldırmanız yeterlidir.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite('tr'),
+  breadcrumbList([
+    { name: 'Ana Sayfa', path: '/' },
+    { name: 'YouTube Transkript Çıkarma', path },
+  ]),
+  faqPage(faqs, 'tr'),
+  freeWebApplication(
+    'YouTube Transkript Çıkarma Aracı',
+    'Herhangi bir YouTube videosunun transkriptini metin olarak indirin veya kopyalayın. Ücretsiz, çevrim içi.',
+    path,
+    'tr',
+  ),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  lang="tr"
+  alternates={alternatesForPath(path)}
+  showLinkHub={false}
+>
+  <ToolShell
+    name="YouTube Transkript Çıkarma"
+    heading="YouTube Video Transkriptini Tek Tıkla Alın"
+    sub="Video linkini yapıştırın, konuşulan tüm metni saniyeler içinde çıkarın. Ücretsiz, kayıtsız. Panoya kopyalayın veya .txt dosyası olarak indirin."
+    faqs={faqs}
+    faqHeading="Sıkça Sorulan Sorular"
+    crumbs={[
+      { name: 'Ana Sayfa', path: '/' },
+      { name: 'YouTube Transkript', path },
+    ]}
+    ctaHeading="Her videoda transkript ve özet otomatik açılsın mı?"
+    ctaSub="Marqly tarayıcı eklentisi her YouTube videosunun yanına canlı senkronize transkript sekmesi, yapay zeka özeti ve sohbet kutusu ekler."
+    ctaLabel="Marqly’yi Ücretsiz Deneyin"
+    ctaSecondaryLabel="Chrome’a Ekle"
+    backHref={null}
+  >
+    <form id="yt-form">
+      <div class="tool-row">
+        <div class="grow">
+          <label for="yt-url">YouTube Video URL’si</label>
+          <input id="yt-url" type="url" placeholder="https://www.youtube.com/watch?v=…" required />
+        </div>
+        <button class="btn btn--primary" type="submit">Transkripti Çıkar</button>
+      </div>
+      <p class="tool-status" id="yt-status" role="status"></p>
+    </form>
+    <div class="tool-actions hidden" id="yt-actions">
+      <button class="btn btn--outline btn--sm" id="yt-copy" type="button">Metni Kopyala</button>
+      <button class="btn btn--outline btn--sm" id="yt-download" type="button">.txt İndir</button>
+      <label style="display:inline-flex;align-items:center;gap:.4rem;margin:0;font-weight:400;">
+        <input type="checkbox" id="yt-stamps" checked style="width:auto;" /> Zaman Damgaları
+      </label>
+    </div>
+    <div class="tool-output hidden" id="yt-out" aria-live="polite"></div>
+
+    <Fragment slot="content">
+      <h2>YouTube Video Transkripti Nasıl Alınır?</h2>
+      <ol>
+        <li>Adres çubuğundan veya Paylaş butonundan video linkini kopyalayın.</li>
+        <li>Yukarıdaki alana yapıştırın ve <strong>Transkripti Çıkar</strong> butonuna tıklayın.</li>
+        <li>İster zaman damgalarıyla ister sade metin olarak kopyalayın veya <code>.txt</code> formatında indirin.</li>
+      </ol>
+      <p>
+        YouTube’un kendi "Transkripti göster" panelindeki gibi satır satır fareyle seçip kopyalamakla uğraşmadan tüm metni tek seferde alırsınız.
+      </p>
+
+      <h2>Video Transkriptleri Nerelerde Kullanılır?</h2>
+      <ul>
+        <li><strong>İzlemek Yerine Hızla Okuma</strong> — 40 dakikalık bir konuşmayı sadece 4 dakikada okuyup bitirin.</li>
+        <li><strong>Kusursuz Alıntı Yapma</strong> — Önemli cümleleri tezinize, raporunuza veya notlarınıza doğrudan aktarın.</li>
+        <li><strong>Ders Çalışma & İnceleme</strong> — Video üzerinde dakikalarca ileri geri sarmak yerine Ctrl+F ile aradığınız terimi anında bulun.</li>
+        <li><strong>Yapay Zeka ile Analiz</strong> — Transkripti bir yapay zekaya aktarın ya da doğrudan sitemizdeki <a href="/tr/tools/youtube-ozetleyici">YouTube Özetleyici</a> aracımızla ana fikri çıkarın.</li>
+      </ul>
+
+      <h2>Daha Pratik: YouTube Sayfasında Doğrudan Marqly</h2>
+      <p>
+        Sürekli video dökümleriyle çalışan araştırmacılar için link kopyalamak zaman kaybıdır. Marqly eklentisiyle video oynatılırken transkript anlık olarak yan panelde akar ve tek tıkla kişisel kütüphanenize kaydedilir.
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const form = document.getElementById('yt-form') as HTMLFormElement;
+  const input = document.getElementById('yt-url') as HTMLInputElement;
+  const status = document.getElementById('yt-status')!;
+  const out = document.getElementById('yt-out')!;
+  const actions = document.getElementById('yt-actions')!;
+  const stamps = document.getElementById('yt-stamps') as HTMLInputElement;
+
+  let segments: { start: number; text: string }[] = [];
+  let videoTitle = 'transkript';
+
+  const fmt = (s: number) =>
+    `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
+
+  const renderText = (withStamps: boolean) =>
+    segments.map((s) => (withStamps ? `[${fmt(s.start)}] ${s.text}` : s.text)).join('\n');
+
+  const render = () => {
+    out.textContent = renderText(stamps.checked);
+  };
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    status.textContent = 'Transkript yükleniyor…';
+    status.classList.remove('is-error');
+    out.classList.add('hidden');
+    actions.classList.add('hidden');
+    try {
+      const res = await fetch(`/api/youtube-transcript?v=${encodeURIComponent(input.value)}`);
+      const data = await res.json() as {
+        error?: string;
+        title: string;
+        auto?: boolean;
+        segments: { start: number; text: string }[];
+      };
+      if (!res.ok) throw new Error(data.error ?? 'Bir hata oluştu.');
+      segments = data.segments;
+      videoTitle = data.title ?? 'transkript';
+      status.textContent = `${data.title}${data.auto ? ' (otomatik altyazı)' : ''} — ${segments.length} satır`;
+      render();
+      out.classList.remove('hidden');
+      actions.classList.remove('hidden');
+    } catch (err) {
+      status.textContent = err instanceof Error ? err.message : 'Transkript alınırken bir sorun oluştu.';
+      status.classList.add('is-error');
+    }
+  });
+
+  stamps.addEventListener('change', render);
+
+  document.getElementById('yt-copy')!.addEventListener('click', async () => {
+    await navigator.clipboard.writeText(renderText(stamps.checked));
+    status.textContent = 'Panoya kopyalandı!';
+  });
+
+  document.getElementById('yt-download')!.addEventListener('click', () => {
+    const blob = new Blob([renderText(stamps.checked)], { type: 'text/plain' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = `${videoTitle.replace(/[^\w\s-]/g, '').slice(0, 60) || 'transkript'}.txt`;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  });
+</script>

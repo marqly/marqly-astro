@@ -1,0 +1,152 @@
+---
+import LandingLayout from '../../../layouts/LandingLayout.astro';
+import ToolShell from '../../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../../lib/schema';
+import { alternatesForPath } from '../../../i18n/routes';
+
+const path = '/ko/tools/youtube-summarize';
+const title = 'YouTube 동영상 AI 요약 도구 — 무료·즉시·로그인 불필요 | Marqly';
+const description =
+  'YouTube 링크만 붙여넣으면 AI가 핵심 요약과 타임스탬프를 즉시 생성합니다. 회원가입 없이 무료로 실제 영상 자막 기반의 정확한 요약을 확인하세요.';
+
+const faqs = [
+  {
+    q: 'YouTube 동영상 요약 도구는 어떻게 작동하나요?',
+    a: '입력된 URL에서 YouTube 자막 및 스크립트 데이터를 추출한 뒤, AI 모델이 핵심 논점과 타임라인별 요약을 생성합니다. 자막 텍스트를 직접 분석하므로 어그로성 제목이나 썸네일에 왜곡되지 않는 정확한 요약을 제공합니다.',
+  },
+  {
+    q: '자막이 없는 영상도 요약할 수 있나요?',
+    a: '아닙니다. 영상 게시자가 자막을 완전히 비활성화했거나 자동 자막이 아직 생성되지 않은 영상은 텍스트를 추출할 수 없습니다. 단, YouTube 자동 자막이 지원되는 영상은 문제없이 요약됩니다.',
+  },
+  {
+    q: '동영상 길이에 제한이 있나요?',
+    a: '웹 도구는 영상 전반부 약 60분 분량의 자막을 바탕으로 신속하게 핵심을 요약합니다. 몇 시간에 이르는 긴 강의나 전체 분량 요약 및 실시간 질의응답이 필요하시다면 Marqly 브라우저 확장 프로그램을 추천합니다.',
+  },
+  {
+    q: '정말 완전 무료인가요?',
+    a: '네. 회원가입이나 신용카드 등록 없이 누구나 무료로 이용하실 수 있습니다.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite('ko'),
+  breadcrumbList([
+    { name: '홈', path: '/' },
+    { name: 'YouTube 동영상 요약 도구', path },
+  ]),
+  faqPage(faqs, 'ko'),
+  freeWebApplication(
+    'YouTube 동영상 AI 요약 도구',
+    'YouTube 영상 링크로 AI 핵심 요약을 즉시 생성하는 무료 웹 도구.',
+    path,
+    'ko',
+  ),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  lang="ko"
+  alternates={alternatesForPath(path)}
+  showLinkHub={false}
+>
+  <ToolShell
+    name="YouTube 동영상 요약 도구"
+    heading="YouTube 영상을 AI로 1초 만에 핵심 요약"
+    sub="동영상 링크만 붙여넣으면 핵심 요점과 타임라인을 한눈에 파악할 수 있습니다. 가입 불필요·무료 — 실제 자막 기반 추출."
+    faqs={faqs}
+    faqHeading="자주 묻는 질문"
+    crumbs={[
+      { name: '홈', path: '/' },
+      { name: 'YouTube 요약 도구', path },
+    ]}
+    ctaHeading="영상 시청 화면에서 바로 요약과 자막을 확인하세요"
+    ctaSub="Marqly 확장 프로그램을 설치하면 모든 YouTube 영상 우측 패널에 실시간 재생 동기화 자막, AI 요약, 챗봇이 자동으로 표시됩니다."
+    ctaLabel="Marqly 무료 체험"
+    ctaSecondaryLabel="Chrome에 추가"
+    backHref={null}
+  >
+    <form id="ys-form">
+      <div class="tool-row">
+        <div class="grow">
+          <label for="ys-url">YouTube 영상 링크</label>
+          <input id="ys-url" type="url" placeholder="https://www.youtube.com/watch?v=…" required />
+        </div>
+        <button class="btn btn--primary" type="submit">요약하기</button>
+      </div>
+      <p class="tool-status" id="ys-status" role="status"></p>
+    </form>
+    <div class="tool-output hidden" id="ys-out" aria-live="polite"></div>
+
+    <Fragment slot="content">
+      <h2>YouTube 동영상 AI 요약 방법</h2>
+      <ol>
+        <li>YouTube 영상 링크를 복사하여 위 입력창에 붙여넣습니다.</li>
+        <li><strong>요약하기</strong> 버튼을 클릭합니다.</li>
+        <li>자막 스크립트를 추출하여 AI가 핵심 글머리 기호 요약을 출력합니다(보통 30초 이내).</li>
+      </ol>
+      <p>
+        영상 속 실제 발언 자막을 기반으로 요약하므로 썸네일 낚시 없이 실질적인 지식과 내용만 쏙 골라낼 수 있습니다.
+      </p>
+
+      <h2>이럴 때 특히 유용합니다</h2>
+      <ul>
+        <li><strong>대학 강의 및 웨비나</strong> — 1시간짜리 강의 영상을 시험 전 복습용 요약 노트로 변환.</li>
+        <li><strong>긴 팟캐스트 및 인터뷰</strong> — 90분 대담에서 핵심 논점만 2분 만에 빠르게 확인.</li>
+        <li><strong>튜토리얼 및 해결법</strong> — 영상을 다 보지 않고도 내가 찾는 해결책이 포함되어 있는지 먼저 파악.</li>
+        <li><strong>'나중에 볼 동영상' 정리</strong> — 쌓여있는 영상 목록 중 실제로 시청할 가치가 있는지 즉시 검토.</li>
+      </ul>
+      <p>
+        요약본이 아닌 전체 자막 텍스트 원본이 필요하시다면 무료
+        <a href="/ko/tools/youtube-transcript">YouTube 자막 추출 도구</a>를 이용해 보세요.
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const form = document.getElementById('ys-form') as HTMLFormElement;
+  const input = document.getElementById('ys-url') as HTMLInputElement;
+  const status = document.getElementById('ys-status')!;
+  const out = document.getElementById('ys-out')!;
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    out.classList.add('hidden');
+    status.classList.remove('is-error');
+    try {
+      status.textContent = '자막 스크립트를 불러오는 중…';
+      const tRes = await fetch(`/api/youtube-transcript?v=${encodeURIComponent(input.value)}`);
+      const tData = await tRes.json() as {
+        error?: string;
+        title: string;
+        segments: { text: string }[];
+      };
+      if (!tRes.ok) throw new Error(tData.error ?? '자막을 가져올 수 없습니다.');
+
+      status.textContent = `‘${tData.title}’ AI 요약 중…`;
+      const text = tData.segments.map((s: { text: string }) => s.text).join(' ');
+      const sRes = await fetch('/api/summarize', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ text, title: tData.title, lang: 'ko' }),
+      });
+      const sData = await sRes.json() as {
+        error?: string;
+        summary: string;
+        truncated?: boolean;
+      };
+      if (!sRes.ok) throw new Error(sData.error ?? '요약 생성에 실패했습니다.');
+
+      status.textContent = tData.title;
+      out.textContent = sData.summary + (sData.truncated ? '\n\n(긴 영상의 경우 전반부 내용을 중심으로 요약되었습니다.)' : '');
+      out.classList.remove('hidden');
+    } catch (err) {
+      status.textContent = err instanceof Error ? err.message : '오류가 발생했습니다.';
+      status.classList.add('is-error');
+    }
+  });
+</script>

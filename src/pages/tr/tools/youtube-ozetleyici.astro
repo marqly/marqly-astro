@@ -1,0 +1,152 @@
+---
+import LandingLayout from '../../../layouts/LandingLayout.astro';
+import ToolShell from '../../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../../lib/schema';
+import { alternatesForPath } from '../../../i18n/routes';
+
+const path = '/tr/tools/youtube-ozetleyici';
+const title = 'YouTube Video Özetleyici Yapay Zeka – Ücretsiz ve Hızlı | Marqly';
+const description =
+  'YouTube video bağlantısını yapıştırın; yapay zeka saniyeler içinde kilit noktaları ve zaman damgalı özetleri çıkarsın. Ücretsiz, kayıtsız ve gerçek altyazılara dayalı.';
+
+const faqs = [
+  {
+    q: 'YouTube video özetleme aracı nasıl çalışır?',
+    a: 'Bağlantıyı yapıştırdığınızda araç YouTube’daki altyazı verilerini çeker ve yapay zeka modeli videodaki temel fikirleri, çıkarımları ve zaman çizelgesini maddeler halinde özetler. Gerçek konuşma metnine dayandığı için yanıltıcı başlıklara veya küçük resimlere aldanmazsınız.',
+  },
+  {
+    q: 'Altyazısı olmayan videolar özetlenebilir mi?',
+    a: 'Hayır. Video sahibi altyazıları tamamen kapattıysa ve YouTube henüz otomatik altyazı oluşturmadıysa metin çekilemez. Ancak YouTube’un otomatik oluşturduğu altyazılar sorunsuz şekilde çalışır.',
+  },
+  {
+    q: 'Video süresinde bir sınır var mı?',
+    a: 'Web aracı, çok uzun videolarda genellikle ilk 60 dakikalık altyazı üzerinden en önemli noktaları özetler. Saatler süren konferansların tamamını özetlemek veya videoyla soru-cevap yapmak için Marqly tarayıcı uzantısını kullanabilirsiniz.',
+  },
+  {
+    q: 'Bu araç gerçekten tamamen ücretsiz mi?',
+    a: 'Evet. Hesap açma veya kredi kartı gerekmeden sınırsızca ücretsiz kullanabilirsiniz.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite('tr'),
+  breadcrumbList([
+    { name: 'Ana Sayfa', path: '/' },
+    { name: 'YouTube Video Özetleyici', path },
+  ]),
+  faqPage(faqs, 'tr'),
+  freeWebApplication(
+    'YouTube Video AI Özetleyici',
+    'YouTube videolarını yapay zeka ile anında özetleyen ücretsiz çevrim içi araç.',
+    path,
+    'tr',
+  ),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  lang="tr"
+  alternates={alternatesForPath(path)}
+  showLinkHub={false}
+>
+  <ToolShell
+    name="YouTube Özetleyici"
+    heading="YouTube Videolarını Yapay Zeka ile Anında Özetleyin"
+    sub="Video bağlantısını yapıştırın, saniyeler içinde önemli çıkarımları ve özet maddelerini görün. Kayıt yok, tamamen ücretsiz — doğrudan video altyazısından üretilir."
+    faqs={faqs}
+    faqHeading="Sıkça Sorulan Sorular"
+    crumbs={[
+      { name: 'Ana Sayfa', path: '/' },
+      { name: 'YouTube Özetleyici', path },
+    ]}
+    ctaHeading="Her videoda özet ve transkript otomatik gelsin mi?"
+    ctaSub="Marqly uzantısı her YouTube sayfasına senkronize transkript, yapay zeka özeti ve video içi soru-cevap paneli ekler."
+    ctaLabel="Marqly’yi Ücretsiz Deneyin"
+    ctaSecondaryLabel="Chrome’a Ekle"
+    backHref={null}
+  >
+    <form id="ys-form">
+      <div class="tool-row">
+        <div class="grow">
+          <label for="ys-url">YouTube Video Bağlantısı</label>
+          <input id="ys-url" type="url" placeholder="https://www.youtube.com/watch?v=…" required />
+        </div>
+        <button class="btn btn--primary" type="submit">Özetle</button>
+      </div>
+      <p class="tool-status" id="ys-status" role="status"></p>
+    </form>
+    <div class="tool-output hidden" id="ys-out" aria-live="polite"></div>
+
+    <Fragment slot="content">
+      <h2>YouTube Videosu Yapay Zeka ile Nasıl Özetlenir?</h2>
+      <ol>
+        <li>YouTube video bağlantısını kopyalayın ve yukarıdaki kutuya yapıştırın.</li>
+        <li><strong>Özetle</strong> butonuna tıklayın.</li>
+        <li>Araç altyazıları çeker ve yapay zeka 30 saniye içinde önemli noktaları listeler.</li>
+      </ol>
+      <p>
+        Özet, videoda gerçekten konuşulan kelimeler taranarak oluşturulduğu için gereksiz dolambaçlı kısımlardan arındırılmış net bilgiler sunar.
+      </p>
+
+      <h2>Video Özetlemenin En Çok İşe Yaradığı Alanlar</h2>
+      <ul>
+        <li><strong>Dersler ve Seminerler</strong> — 1 saatlik ders videosunu sınav öncesi pratik bir çalışma notuna dönüştürün.</li>
+        <li><strong>Uzun Podcastler</strong> — 90 dakikalık röportajda paylaşılan kilit ipuçlarını 2 dakikada kavrayın.</li>
+        <li><strong>Nasıl Yapılır Videoları</strong> — Videoyu izlemeden önce aradığınız çözümün videoda olup olmadığını görün.</li>
+        <li><strong>Daha Sonra İzle Listesi</strong> — Biriken videoların izlemeye değip değmeyeceğine hızla karar verin.</li>
+      </ul>
+      <p>
+        Özet yerine videonun tüm kelime dökümüne ihtiyacınız varsa ücretsiz
+        <a href="/tr/tools/youtube-transkript">YouTube Transkript Çıkarma</a> aracımızı kullanın.
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const form = document.getElementById('ys-form') as HTMLFormElement;
+  const input = document.getElementById('ys-url') as HTMLInputElement;
+  const status = document.getElementById('ys-status')!;
+  const out = document.getElementById('ys-out')!;
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    out.classList.add('hidden');
+    status.classList.remove('is-error');
+    try {
+      status.textContent = 'Transkript çekiliyor…';
+      const tRes = await fetch(`/api/youtube-transcript?v=${encodeURIComponent(input.value)}`);
+      const tData = await tRes.json() as {
+        error?: string;
+        title: string;
+        segments: { text: string }[];
+      };
+      if (!tRes.ok) throw new Error(tData.error ?? 'Transkript alınamadı.');
+
+      status.textContent = `"${tData.title}" yapay zeka ile özetleniyor…`;
+      const text = tData.segments.map((s: { text: string }) => s.text).join(' ');
+      const sRes = await fetch('/api/summarize', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ text, title: tData.title, lang: 'tr' }),
+      });
+      const sData = await sRes.json() as {
+        error?: string;
+        summary: string;
+        truncated?: boolean;
+      };
+      if (!sRes.ok) throw new Error(sData.error ?? 'Özetleme başarısız oldu.');
+
+      status.textContent = tData.title;
+      out.textContent = sData.summary + (sData.truncated ? '\n\n(Çok uzun videolarda öncelikli olarak ilk bölüm özetlenmiştir.)' : '');
+      out.classList.remove('hidden');
+    } catch (err) {
+      status.textContent = err instanceof Error ? err.message : 'Bir hata oluştu.';
+      status.classList.add('is-error');
+    }
+  });
+</script>

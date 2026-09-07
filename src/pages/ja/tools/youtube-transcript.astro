@@ -1,0 +1,181 @@
+---
+import LandingLayout from '../../../layouts/LandingLayout.astro';
+import ToolShell from '../../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../../lib/schema';
+import { alternatesForPath } from '../../../i18n/routes';
+
+const path = '/ja/tools/youtube-transcript';
+const title = 'YouTube文字起こし抽出ツール — 字幕をテキストで一括コピー | Marqly';
+const description =
+  'YouTube動画のURLを貼り付けるだけで、完全な文字起こしテキストを瞬時に抽出。タイムスタンプの有無を選択してワンクリックでコピーまたは.txt保存。登録不要・無料。';
+
+const faqs = [
+  {
+    q: 'YouTube動画の文字起こしはどうやって取得しますか？',
+    a: '上の入力欄にYouTube動画のURLを貼り付けるだけです。ツールがYouTube上に存在する字幕データを抽出し、全行を一括でコピーまたはテキストファイル（.txt）としてダウンロードできます。視聴画面から離れずに常時使いたい場合は、Marqly拡張機能で動画横にリアルタイム文字起こしタブを表示できます。',
+  },
+  {
+    q: '字幕が見つからない動画があるのはなぜですか？',
+    a: '投稿者が字幕を無効化している場合や、公開直後で自動字幕がまだ生成されていない場合があります。YouTube公式プレイヤー上で字幕が表示されているのにツールで取得できない場合は、Marqly拡張機能をお使いください。ブラウザ内で直接字幕を読み込むため確実に取得できます。',
+  },
+  {
+    q: '自動生成字幕にも対応していますか？',
+    a: 'はい。クリエイターが手動でアップロードした字幕があればそれを優先し、なければYouTubeの自動生成字幕を取得します。固有名詞や専門用語は動画内で確認することをおすすめします。',
+  },
+  {
+    q: '文字起こしテキストをダウンロードできますか？',
+    a: 'はい。「.txtダウンロード」ボタンをクリックすれば、タイムスタンプ付きまたはプレーンテキスト形式で即座に保存できます。YouTube公式画面には一括ダウンロード機能がありませんが、このツールなら1クリックで完了します。',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite('ja'),
+  breadcrumbList([
+    { name: 'ホーム', path: '/' },
+    { name: 'YouTube文字起こしツール', path },
+  ]),
+  faqPage(faqs, 'ja'),
+  freeWebApplication(
+    'YouTube文字起こし抽出ツール',
+    'YouTube動画の字幕・文字起こしをワンクリックで抽出・コピーできる無料Webツール。',
+    path,
+    'ja',
+  ),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  lang="ja"
+  alternates={alternatesForPath(path)}
+  showLinkHub={false}
+>
+  <ToolShell
+    name="YouTube文字起こし抽出ツール"
+    heading="YouTube動画の文字起こしを1クリックで取得"
+    sub="URLを貼り付けるだけで、動画の全文字起こしを抽出。登録不要・完全無料。クリップボードへのコピーや.txtダウンロードに対応。"
+    faqs={faqs}
+    faqHeading="よくある質問"
+    crumbs={[
+      { name: 'ホーム', path: '/' },
+      { name: 'YouTube文字起こしツール', path },
+    ]}
+    ctaHeading="視聴画面で自動文字起こし・AI要約を使うなら"
+    ctaSub="Marqly拡張機能をインストールすると、すべてのYouTube動画の横に同期型文字起こしタブ、AI要約、AIチャットが常時表示されます。"
+    ctaLabel="Marqlyを無料で試す"
+    ctaSecondaryLabel="Chromeに追加"
+    backHref={null}
+  >
+    <form id="yt-form">
+      <div class="tool-row">
+        <div class="grow">
+          <label for="yt-url">YouTube動画のURL</label>
+          <input id="yt-url" type="url" placeholder="https://www.youtube.com/watch?v=…" required />
+        </div>
+        <button class="btn btn--primary" type="submit">文字起こしを取得</button>
+      </div>
+      <p class="tool-status" id="yt-status" role="status"></p>
+    </form>
+    <div class="tool-actions hidden" id="yt-actions">
+      <button class="btn btn--outline btn--sm" id="yt-copy" type="button">全文コピー</button>
+      <button class="btn btn--outline btn--sm" id="yt-download" type="button">.txtダウンロード</button>
+      <label style="display:inline-flex;align-items:center;gap:.4rem;margin:0;font-weight:400;">
+        <input type="checkbox" id="yt-stamps" checked style="width:auto;" /> タイムスタンプを含める
+      </label>
+    </div>
+    <div class="tool-output hidden" id="yt-out" aria-live="polite"></div>
+
+    <Fragment slot="content">
+      <h2>YouTube動画の文字起こしを抽出する手順</h2>
+      <ol>
+        <li>アドレスバーまたは共有ボタンからYouTube動画のURLをコピーします。</li>
+        <li>上の入力欄にURLを貼り付け、<strong>文字起こしを取得</strong>をクリックします。</li>
+        <li>テキストをコピーするか、<code>.txt</code>ファイルとしてダウンロードします（タイムスタンプのオン/オフも切り替え可能）。</li>
+      </ol>
+      <p>
+        YouTube公式の「文字起こしを表示」パネルと同じ字幕データを取得しますが、細かく範囲選択して何十回もコピー＆ペーストする手間が一切ありません。
+      </p>
+
+      <h2>文字起こしテキストの便利な活用法</h2>
+      <ul>
+        <li><strong>動画を見ずに斜め読み</strong> — 40分の対談動画でもテキストなら約4分で内容を把握できます。</li>
+        <li><strong>正確な引用とメモ</strong> — 講義やインタビューの正確な発言内容をノートや記事に即座に引用。</li>
+        <li><strong>AIツールへの入力</strong> — 文字起こし全文をChatGPTやClaudeに渡して深掘り質問したり、当サイトの<a href="/ja/tools/youtube-summarize">YouTube要約ツール</a>で重要ポイントだけを抽出。</li>
+        <li><strong>動画内検索</strong> — 長い講義動画から探しているキーワードの位置をすばやく特定。</li>
+      </ul>
+
+      <h2>視聴画面ですぐ使えるMarqly拡張機能</h2>
+      <p>
+        頻繁にYouTubeの文字起こしを活用するなら、毎回URLをコピペするのは非効率です。Marqly拡張機能を導入すれば、YouTubeを開くだけで再生にリアルタイム同期する文字起こしカード、AI要約、AIチャットが自動で利用できます。
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const form = document.getElementById('yt-form') as HTMLFormElement;
+  const input = document.getElementById('yt-url') as HTMLInputElement;
+  const status = document.getElementById('yt-status')!;
+  const out = document.getElementById('yt-out')!;
+  const actions = document.getElementById('yt-actions')!;
+  const stamps = document.getElementById('yt-stamps') as HTMLInputElement;
+
+  let segments: { start: number; text: string }[] = [];
+  let videoTitle = 'transcript';
+
+  const fmt = (s: number) =>
+    `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
+
+  const renderText = (withStamps: boolean) =>
+    segments.map((s) => (withStamps ? `[${fmt(s.start)}] ${s.text}` : s.text)).join('\n');
+
+  const render = () => {
+    out.textContent = renderText(stamps.checked);
+  };
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    status.textContent = '文字起こしを取得中…';
+    status.classList.remove('is-error');
+    out.classList.add('hidden');
+    actions.classList.add('hidden');
+    try {
+      const res = await fetch(`/api/youtube-transcript?v=${encodeURIComponent(input.value)}`);
+      const data = await res.json() as {
+        error?: string;
+        title: string;
+        auto?: boolean;
+        segments: { start: number; text: string }[];
+      };
+      if (!res.ok) throw new Error(data.error ?? '文字起こしを取得できませんでした。');
+      segments = data.segments;
+      videoTitle = data.title ?? 'transcript';
+      status.textContent = `${data.title}${data.auto ? ' (自動生成字幕)' : ''} — ${segments.length} 行`;
+      render();
+      out.classList.remove('hidden');
+      actions.classList.remove('hidden');
+    } catch (err) {
+      status.textContent = err instanceof Error ? err.message : 'エラーが発生しました。';
+      status.classList.add('is-error');
+    }
+  });
+
+  stamps.addEventListener('change', render);
+
+  document.getElementById('yt-copy')!.addEventListener('click', async () => {
+    await navigator.clipboard.writeText(renderText(stamps.checked));
+    status.textContent = 'クリップボードにコピーしました。';
+  });
+
+  document.getElementById('yt-download')!.addEventListener('click', () => {
+    const blob = new Blob([renderText(stamps.checked)], { type: 'text/plain' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = `${videoTitle.replace(/[^\w\s-]/g, '').slice(0, 60) || 'transcript'}.txt`;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  });
+</script>

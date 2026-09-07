@@ -1,0 +1,181 @@
+---
+import LandingLayout from '../../../layouts/LandingLayout.astro';
+import ToolShell from '../../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../../lib/schema';
+import { alternatesForPath } from '../../../i18n/routes';
+
+const path = '/nl/tools/youtube-transcriptie';
+const title = 'YouTube Transcriptie Downloaden – Tekst Kopiëren & Opslaan | Marqly';
+const description =
+  'Haal in één klik het volledige transcript uit elke YouTube-video. Kopieer naar klembord of download als .txt, met of zonder tijdstempels. Gratis en zonder account.';
+
+const faqs = [
+  {
+    q: 'Hoe download ik een transcript van een YouTube-video?',
+    a: 'Plak de URL van de video hierboven: de tool laadt de ondertiteling die YouTube heeft opgeslagen. Je kunt vervolgens met één klik de hele tekst kopiëren of downloaden als .txt-bestand. Wil je direct tijdens het kijken een transcript zien? De Marqly-extensie toont een gesynchroniseerd transcript direct naast de video.',
+  },
+  {
+    q: 'Waarom kan er geen transcript worden gevonden?',
+    a: 'Als de maker ondertitels heeft uitgeschakeld of de video net is geüpload en nog geen automatische ondertiteling heeft, is er geen tekst beschikbaar. Als YouTube wel ondertitels toont in de browser, kan de Marqly-extensie deze direct lokaal uitlezen.',
+  },
+  {
+    q: 'Werkt dit ook met automatische ondertiteling?',
+    a: 'Ja. Als de uploader handmatige ondertitels heeft toegevoegd gebruiken we die, anders valt de tool terug op de automatische ondertiteling van YouTube.',
+  },
+  {
+    q: 'Kan ik het transcript met tijdstempels downloaden?',
+    a: 'Ja, vink simpelweg "Tijdstempels behouden" aan of uit naar wens voordat je op kopiëren of downloaden klikt.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite('nl'),
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: 'YouTube Transcriptie', path },
+  ]),
+  faqPage(faqs, 'nl'),
+  freeWebApplication(
+    'YouTube Transcriptie Tool',
+    'Haal het volledige transcript van YouTube-video’s op als tekst. Gratis, online en snel.',
+    path,
+    'nl',
+  ),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  lang="nl"
+  alternates={alternatesForPath(path)}
+  showLinkHub={false}
+>
+  <ToolShell
+    name="YouTube Transcriptie"
+    heading="YouTube-transcriptie in één klik als tekst"
+    sub="Plak de video-URL en ontvang direct het volledige transcript. Gratis, zonder registratie. Kopiëren of als .txt downloaden."
+    faqs={faqs}
+    faqHeading="Veelgestelde vragen"
+    crumbs={[
+      { name: 'Home', path: '/' },
+      { name: 'YouTube Transcriptie', path },
+    ]}
+    ctaHeading="Het transcript direct naast elke YouTube-video?"
+    ctaSub="De Marqly-browserextensie toont naast elke video een gesynchroniseerde transcript-tab, AI-samenvattingen en een vraagbaak."
+    ctaLabel="Marqly gratis proberen"
+    ctaSecondaryLabel="Toevoegen aan Chrome"
+    backHref={null}
+  >
+    <form id="yt-form">
+      <div class="tool-row">
+        <div class="grow">
+          <label for="yt-url">YouTube-video-URL</label>
+          <input id="yt-url" type="url" placeholder="https://www.youtube.com/watch?v=…" required />
+        </div>
+        <button class="btn btn--primary" type="submit">Transcript ophalen</button>
+      </div>
+      <p class="tool-status" id="yt-status" role="status"></p>
+    </form>
+    <div class="tool-actions hidden" id="yt-actions">
+      <button class="btn btn--outline btn--sm" id="yt-copy" type="button">Tekst kopiëren</button>
+      <button class="btn btn--outline btn--sm" id="yt-download" type="button">.txt downloaden</button>
+      <label style="display:inline-flex;align-items:center;gap:.4rem;margin:0;font-weight:400;">
+        <input type="checkbox" id="yt-stamps" checked style="width:auto;" /> Tijdstempels behouden
+      </label>
+    </div>
+    <div class="tool-output hidden" id="yt-out" aria-live="polite"></div>
+
+    <Fragment slot="content">
+      <h2>Hoe haal je het transcript van een YouTube-video op?</h2>
+      <ol>
+        <li>Kopieer de URL van de YouTube-video via de adresbalk of de knop Delen.</li>
+        <li>Plak de link in het invoerveld hierboven en klik op <strong>Transcript ophalen</strong>.</li>
+        <li>Kopieer de volledige tekst of download het als <code>.txt</code>-bestand.</li>
+      </ol>
+      <p>
+        Dit leest dezelfde ondertitels uit als YouTube's eigen 'Transcript weergeven'-paneel, maar zonder eindeloos te scrollen en stukje bij beetje te selecteren.
+      </p>
+
+      <h2>Waarom transcripties zo handig zijn</h2>
+      <ul>
+        <li><strong>Scannen in plaats van kijken</strong> — Een video van 40 minuten lees je in 4 minuten door.</li>
+        <li><strong>Nauwkeurig citeren</strong> — Neem exacte uitspraken over in je notities, rapporten of artikelen.</li>
+        <li><strong>Leren & studeren</strong> — Zoek met Ctrl+F naar begrippen in plaats van blindelings door de videotijdlijn te klikken.</li>
+        <li><strong>Gebruiken met AI</strong> — Plak het transcript in een AI-assistent om vragen te stellen, of gebruik onze <a href="/nl/tools/youtube-samenvatten">YouTube Samenvattingstool</a>.</li>
+      </ul>
+
+      <h2>Direct in YouTube met Marqly</h2>
+      <p>
+        Wie regelmatig video's analyseert wil niet telkens links heen en weer kopiëren. Met de Marqly-extensie verschijnt het transcript automatisch naast elke afspelende video, compleet met zoekfunctie en one-click copy.
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const form = document.getElementById('yt-form') as HTMLFormElement;
+  const input = document.getElementById('yt-url') as HTMLInputElement;
+  const status = document.getElementById('yt-status')!;
+  const out = document.getElementById('yt-out')!;
+  const actions = document.getElementById('yt-actions')!;
+  const stamps = document.getElementById('yt-stamps') as HTMLInputElement;
+
+  let segments: { start: number; text: string }[] = [];
+  let videoTitle = 'transcript';
+
+  const fmt = (s: number) =>
+    `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
+
+  const renderText = (withStamps: boolean) =>
+    segments.map((s) => (withStamps ? `[${fmt(s.start)}] ${s.text}` : s.text)).join('\n');
+
+  const render = () => {
+    out.textContent = renderText(stamps.checked);
+  };
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    status.textContent = 'Transcript wordt geladen…';
+    status.classList.remove('is-error');
+    out.classList.add('hidden');
+    actions.classList.add('hidden');
+    try {
+      const res = await fetch(`/api/youtube-transcript?v=${encodeURIComponent(input.value)}`);
+      const data = await res.json() as {
+        error?: string;
+        title: string;
+        auto?: boolean;
+        segments: { start: number; text: string }[];
+      };
+      if (!res.ok) throw new Error(data.error ?? 'Er is iets misgegaan.');
+      segments = data.segments;
+      videoTitle = data.title ?? 'transcript';
+      status.textContent = `${data.title}${data.auto ? ' (automatische ondertitels)' : ''} — ${segments.length} regels`;
+      render();
+      out.classList.remove('hidden');
+      actions.classList.remove('hidden');
+    } catch (err) {
+      status.textContent = err instanceof Error ? err.message : 'Er is een fout opgetreden.';
+      status.classList.add('is-error');
+    }
+  });
+
+  stamps.addEventListener('change', render);
+
+  document.getElementById('yt-copy')!.addEventListener('click', async () => {
+    await navigator.clipboard.writeText(renderText(stamps.checked));
+    status.textContent = 'Gekopieerd naar klembord!';
+  });
+
+  document.getElementById('yt-download')!.addEventListener('click', () => {
+    const blob = new Blob([renderText(stamps.checked)], { type: 'text/plain' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = `${videoTitle.replace(/[^\w\s-]/g, '').slice(0, 60) || 'transcript'}.txt`;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  });
+</script>

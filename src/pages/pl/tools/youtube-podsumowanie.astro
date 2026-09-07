@@ -1,0 +1,152 @@
+---
+import LandingLayout from '../../../layouts/LandingLayout.astro';
+import ToolShell from '../../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../../lib/schema';
+import { alternatesForPath } from '../../../i18n/routes';
+
+const path = '/pl/tools/youtube-podsumowanie';
+const title = 'Podsumowanie wideo YouTube AI – Darmowe streszczenie online | Marqly';
+const description =
+  'Wklej link do wideo z YouTube i uzyskaj natychmiastowe streszczenie AI z kluczowymi punktami i osiami czasu. Bez rejestracji, za darmo i na podstawie faktycznych napisów.';
+
+const faqs = [
+  {
+    q: 'Jak działa narzędzie do podsumowywania YouTube?',
+    a: 'Narzędzie pobiera ścieżkę napisów z podanego filmu na YouTube, a zaawansowany model AI wyciąga z niej kluczowe wnioski i podsumowanie w punktach. Ponieważ analiza opiera się na faktycznych słowach z filmu, nie dajesz się nabrać na clickbaitowe tytuły.',
+  },
+  {
+    q: 'Czy można streścić film bez napisów?',
+    a: 'Nie. Jeśli autor całkowicie wyłączył napisy i YouTube nie wygenerował napisów automatycznych, narzędzie nie ma skąd pobrać tekstu. Narzędzie radzi sobie jednak bez problemu z napisami automatycznymi.',
+  },
+  {
+    q: 'Czy jest limit długości filmu?',
+    a: 'Wersja online tworzy zwięzłe podsumowanie na podstawie pierwszych kilkudziesięciu minut wypowiedzi. Do wielogodzinnych wykładów i zadawania pytań filmowi zalecamy rozszerzenie przeglądarkowe Marqly.',
+  },
+  {
+    q: 'Czy korzystanie z narzędzia jest naprawdę bezpłatne?',
+    a: 'Tak, w 100% bezpłatne bez konieczności zakładania konta czy podawania karty płatniczej.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite('pl'),
+  breadcrumbList([
+    { name: 'Strona główna', path: '/' },
+    { name: 'Podsumowanie YouTube', path },
+  ]),
+  faqPage(faqs, 'pl'),
+  freeWebApplication(
+    'Podsumowanie wideo YouTube AI',
+    'Błyskawiczne streszczanie filmów z YouTube za pomocą sztucznej inteligencji. Za darmo, online.',
+    path,
+    'pl',
+  ),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  lang="pl"
+  alternates={alternatesForPath(path)}
+  showLinkHub={false}
+>
+  <ToolShell
+    name="Podsumowanie YouTube"
+    heading="Błyskawiczne podsumowanie filmów YouTube przez AI"
+    sub="Wklej link do wideo i poznaj najważniejsze wnioski w kilka sekund. Bez rejestracji, bezpłatnie — na podstawie faktycznych napisów."
+    faqs={faqs}
+    faqHeading="Często zadawane pytania"
+    crumbs={[
+      { name: 'Strona główna', path: '/' },
+      { name: 'Podsumowanie YouTube', path },
+    ]}
+    ctaHeading="Chcesz podsumowania i transkrypcji bezpośrednio na YouTube?"
+    ctaSub="Rozszerzenie Marqly dodaje do każdego odtwarzacza YouTube panel z synchronizowaną transkrypcją, podsumowaniem AI i asystentem pytań."
+    ctaLabel="Wypróbuj Marqly za darmo"
+    ctaSecondaryLabel="Dodaj do Chrome"
+    backHref={null}
+  >
+    <form id="ys-form">
+      <div class="tool-row">
+        <div class="grow">
+          <label for="ys-url">Link do filmu YouTube</label>
+          <input id="ys-url" type="url" placeholder="https://www.youtube.com/watch?v=…" required />
+        </div>
+        <button class="btn btn--primary" type="submit">Podsumuj</button>
+      </div>
+      <p class="tool-status" id="ys-status" role="status"></p>
+    </form>
+    <div class="tool-output hidden" id="ys-out" aria-live="polite"></div>
+
+    <Fragment slot="content">
+      <h2>Jak streścić wideo z YouTube za pomocą AI?</h2>
+      <ol>
+        <li>Skopiuj link do filmu na YouTube i wklej go w powyższym polu.</li>
+        <li>Kliknij <strong>Podsumuj</strong>.</li>
+        <li>Narzędzie pobierze transkrypcję, a AI w ciągu 30 sekund wygeneruje zwięzłe streszczenie z kluczowymi punktami.</li>
+      </ol>
+      <p>
+        Podsumowanie powstaje bezpośrednio z transkrypcji wypowiedzi twórcy, dzięki czemu otrzymujesz czyste fakty bez zbędnego lania wody.
+      </p>
+
+      <h2>Kiedy warto korzystać z podsumowań wideo</h2>
+      <ul>
+        <li><strong>Wykłady i webinary</strong> — Przekształć godzinny wykład w szybkie notatki do powtórki.</li>
+        <li><strong>Długie podcasty</strong> — W 2 minuty dowiedz się, jakie konkretne porady padły w 90-minutowym wywiadzie.</li>
+        <li><strong>Poradniki techniczne</strong> — Upewnij się, czy wideo odpowiada na Twój problem przed obejrzeniem.</li>
+        <li><strong>Czyszczenie listy „Do obejrzenia”</strong> — Szybko zweryfikuj, które zapisane filmy naprawdę zasługują na Twój czas.</li>
+      </ul>
+      <p>
+        Jeśli potrzebujesz pełnego, nieskróconego tekstu wypowiedzi, skorzystaj z darmowego narzędzia
+        <a href="/pl/tools/youtube-transkrypcja">Transkrypcja YouTube</a>.
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>
+
+<script>
+  const form = document.getElementById('ys-form') as HTMLFormElement;
+  const input = document.getElementById('ys-url') as HTMLInputElement;
+  const status = document.getElementById('ys-status')!;
+  const out = document.getElementById('ys-out')!;
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    out.classList.add('hidden');
+    status.classList.remove('is-error');
+    try {
+      status.textContent = 'Pobieranie transkrypcji…';
+      const tRes = await fetch(`/api/youtube-transcript?v=${encodeURIComponent(input.value)}`);
+      const tData = await tRes.json() as {
+        error?: string;
+        title: string;
+        segments: { text: string }[];
+      };
+      if (!tRes.ok) throw new Error(tData.error ?? 'Nie udało się pobrać transkrypcji.');
+
+      status.textContent = `Generowanie streszczenia AI dla „${tData.title}”…`;
+      const text = tData.segments.map((s: { text: string }) => s.text).join(' ');
+      const sRes = await fetch('/api/summarize', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ text, title: tData.title, lang: 'pl' }),
+      });
+      const sData = await sRes.json() as {
+        error?: string;
+        summary: string;
+        truncated?: boolean;
+      };
+      if (!sRes.ok) throw new Error(sData.error ?? 'Błąd podczas generowania podsumowania.');
+
+      status.textContent = tData.title;
+      out.textContent = sData.summary + (sData.truncated ? '\n\n(W przypadku bardzo długiego wideo podsumowano pierwszą część.)' : '');
+      out.classList.remove('hidden');
+    } catch (err) {
+      status.textContent = err instanceof Error ? err.message : 'Wystąpił błąd.';
+      status.classList.add('is-error');
+    }
+  });
+</script>
