@@ -128,3 +128,31 @@ single-column override to the same specificity). Re-rendered: two balanced
 columns, compact hub, no horizontal overflow at 1440px or 390px.
 
 `active/scripts/shot-hub.mjs` is kept so this stays visually verifiable.
+
+## 2026-09-12 (later) — Deployed to production
+
+Pushed `2647db0` to `marqly-astro main`; Cloudflare Worker built and served it
+~100s later.
+
+**Deploy blocker found and handled safely.** The first push was rejected
+non-fast-forward: the deploy remote carried `9427e6d feat(attribution): visitor
+id, non-Google click ids, entry touch beacon via Worker proxy, GA4 cross-domain`
+(authored the same morning, directly on the deploy remote) which local `main`
+did not have. Because production is built from that remote, **production was
+running a commit local lacked** — force-pushing would have silently removed a
+live attribution feature from the public site.
+
+Resolution: merged `marqly-astro/main` into local `main` (clean; the only
+overlapping file, `LandingLayout.astro`, differs in the gtag config block,
+disjoint from the SEO edits), rebuilt, re-ran all 16 gates + the link checker on
+the merged tree, then pushed.
+
+**Live verification after deploy:**
+- `AggregateRating` / `ratingValue`: 0 on `/`, `/pricing`, `/alternatives/raindrop`,
+  `/compare/marqly-vs-raindrop`, `/de/vergleich/marqly-vs-raindrop` (was 801 URLs).
+- Localized hub present on `/ja/bookmark-organizer`, `/de/vergleich/marqly-vs-raindrop`,
+  `/es/usos/abogados`, `/zh/blog`, `/tr/tools/youtube-transkript`, `/nl/later-bekijken`.
+- Sitemap: 1,890 URLs, 1,764 with `lastmod` (was 0).
+- Attribution intact: `/api/touch` beacon referenced and GA4 cross-domain linker
+  present — no regression from the merge.
+- `/`, `/pricing`, `/ja`, `/extension`, `/faq` all 200.
