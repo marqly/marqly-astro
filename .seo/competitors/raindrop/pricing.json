@@ -1,5 +1,6 @@
 {
-  "free_tier": {
+  "free_tier": true,
+  "free_tier_contract": {
     "price": 0,
     "bookmark_limit": "unlimited",
     "highlights_per_bookmark": 3,
@@ -21,6 +22,8 @@
       "monthly_price": 3.25,
       "annual_price_per_month": 2.33,
       "billed_annually": 28.0,
+      "annual_usd": 28.00,
+      "monthly_usd": 3.25,
       "app_store_annual": 27.99,
       "app_store_monthly": 2.99,
       "annual_eur": 28.00,
