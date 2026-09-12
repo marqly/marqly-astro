@@ -32,8 +32,8 @@ remember — **semantic search by meaning, not keywords**.
   on Free.
 - **Pro**: **$72/year** (≈ $6/month billed annually) or **$9/month** billed
   monthly. Unlimited bookmarks, AI summaries on every save, semantic +
-  full-text search, AI Organizer, Ask (the AI assistant, see below), YouTube AI
-  summaries and chat, ChatVault, clipboard cloud sync, broken-link checking,
+  full-text search, AI Organizer, Ask (the AI assistant, see below) with MCP
+  connected apps, YouTube AI summaries and chat, ChatVault, clipboard cloud sync, broken-link checking,
   unlimited notes, smart sorting, and priority email support.
 - **Standing first-year offer: $39 for year one** ("Save 46%"), then $72/year.
   Applied with coupon code **STANDING39**. The visible pricing table presents

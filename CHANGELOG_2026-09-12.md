@@ -101,6 +101,13 @@ loop, IntersectionObserver and reduced-motion behaviour as before.
 (Ask homepage + the parallel workstream's 12 uncommitted files, committed as `chore:` so they
 are distinguishable) and `c8e9343` (save loop). Live on www.marqly.com.
 
+### 8. Pricing copy — Ask + MCP under Pro
+
+`PricingSection.astro` perks (homepage + /pricing): "Ask, the AI assistant: answers with sources, fixes and
+tidies with your approval" and "Connected apps: your library in Claude, ChatGPT, Cursor and VS Code (MCP)";
+the /pricing JSON-LD offer description; the Free-vs-Pro FAQ (`src/content/faq/whats-in-marqly-free-vs-pro.md`,
+Pro list rewritten around Ask, MCP and the AI Organizer); the product-facts Pro sentence.
+
 ---
 
 ### Verification
