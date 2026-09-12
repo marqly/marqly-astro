@@ -1,7 +1,7 @@
 # Marqly Product Facts — single source of truth for content writers
 
 Every claim in marketing/SEO content MUST come from this sheet. If a fact isn't
-here, don't invent it — write around it. Last updated: 2026-09-03.
+here, don't invent it — write around it. Last updated: 2026-09-12.
 
 ## What Marqly is
 
@@ -20,23 +20,41 @@ remember — **semantic search by meaning, not keywords**.
 - Support: support@marqly.com
 - Company line: "© Marqly Labs"
 
-## Pricing (updated 2026-09-03, verified against apps/api source + prod DB)
+## Pricing (updated 2026-09-12, verified against the live /pricing page)
 
 - **Free tier**: exists; no card required to sign up. Stores up to **2,000
-  bookmarks**, but only the **100 most recent are accessible** — older ones
-  are kept, not deleted, and become accessible again on Pro. This IS a
-  publishable fact — state it plainly wherever the free tier is described;
-  it is a common support question and hiding it causes users to think it's
-  data loss.
-- **Pro**: $72/year (≈ $6/month billed annually) or $9/month billed monthly.
-  Lifts the 100-bookmark limit (unlimited bookmark access).
+  bookmarks** with **search across the whole library** — every saved bookmark
+  is readable and searchable on Free. The old "only the 100 most recent are
+  accessible" read-wall was **removed**; do not describe it, and do not
+  resurrect it from an older article. Free also includes one-click saving,
+  bookmark preview, highlights, boards and collections, read mode, mobile and
+  tablet access, and unlimited devices. Highlight **notes are capped at 10**
+  on Free.
+- **Pro**: **$72/year** (≈ $6/month billed annually) or **$9/month** billed
+  monthly. Unlimited bookmarks, AI summaries on every save, semantic +
+  full-text search, AI Organizer, Ask AI over your library, YouTube AI
+  summaries and chat, ChatVault, clipboard cloud sync, broken-link checking,
+  unlimited notes, smart sorting, and priority email support.
+- **Standing first-year offer: $39 for year one** ("Save 46%"), then $72/year.
+  Applied with coupon code **STANDING39**. The visible pricing table presents
+  it as an automatic first-year price while the FAQ names the code — both are
+  correct; prefer "a standing $39 first-year offer" in copy unless the code
+  itself is the point.
 - **7-day free trial** of Pro. (Corrected 2026-09-03 — this sheet previously
   said 3-day, which was stale and had propagated across ~50 site pages.)
 - **Student discount**: $48 for the first year, for verified students
-  (verify a university email at checkout). This is the only discount that
-  exists — all coupons/promo codes were deleted 2026-06-20 and none are
-  offered.
+  (verify a university email at checkout).
 - NO lifetime deal.
+
+> **2026-09-12 correction.** This sheet previously stated that the free tier
+> exposed only the 100 most recent bookmarks and that *no* coupons existed
+> (all deleted 2026-06-20). Both statements were stale and contradicted
+> production, where the whole library is searchable on Free and STANDING39 is
+> live. Because this sheet is the declared source of truth for every content
+> writer, the error had already propagated into `llms.txt` and the pricing
+> surface in the opposite direction — see `.seo/truth-ledger.md` for the
+> reconciliation and the automated check that now guards it.
+
 
 ## Platforms
 
@@ -61,7 +79,10 @@ No offline reading mode — don't claim offline support.
   available in Safari.
 - **AI conversation capture (Chrome/Edge/Firefox)**: save conversations from
   ChatGPT, Claude, and Gemini to the dedicated AI Chats workspace. Not
-  available in Safari.
+  available in Safari. **Marketing name: "ChatVault"** — the pricing page and
+  homepage both use it for this Pro feature, so treat ChatVault / AI Chats /
+  AI conversation capture as the same thing and don't describe them as three
+  separate features.
 - **Tab sessions**: save and close the current set of tabs, reopen saved
   sessions, and undo a session close.
 - **AI auto-tagging**: every save is tagged automatically — no manual filing.
@@ -130,8 +151,13 @@ No offline reading mode — don't claim offline support.
 - Do NOT call "Ask AI about your saves" a "chat" or imply it has conversation
   memory — it's single-shot Q&A. (YouTube's Chat tab is genuinely multi-turn;
   that one is fine to call chat.)
-- The free-tier bookmark quota (2,000 stored / 100 accessible, above) is the
-  one quota that IS published and SHOULD be stated — this list used to tell
-  writers to never state a free-tier quota at all, which is why the site went
-  a long time without disclosing it. Don't extend that silence to other,
-  still-unpublished numbers (e.g. AI summary/organizer usage limits).
+- The free-tier bookmark quota (**2,000 stored, whole library searchable**,
+  above) is the one quota that IS published and SHOULD be stated — this list
+  used to tell writers to never state a free-tier quota at all, which is why
+  the site went a long time without disclosing it. Don't extend that silence
+  to other, still-unpublished numbers (e.g. AI summary/organizer usage
+  limits).
+- Do NOT publish any numeric rating or review count for Marqly, in copy **or
+  in structured data**. See "Social proof" above; a fabricated
+  `AggregateRating` (4.8 / 150) shipped in JSON-LD on 801 URLs until
+  2026-09-12 and is now removed — do not reintroduce it.
