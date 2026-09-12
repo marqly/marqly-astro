@@ -50,6 +50,7 @@ export const FAVICONS: Record<string, string> = {
   'timeout.com': '/landing/favicons/timeout.com.png',
   'cursor.com': '/landing/favicons/cursor.com.png',
   'code.visualstudio.com': '/landing/favicons/code.visualstudio.com.png',
+  'lawsofux.com': '/landing/favicons/lawsofux.com.png',
 };
 
 /* ------------------------------------------------------ hero (Cooking) --- */
@@ -90,6 +91,18 @@ export const cookingNeighbors: DemoBookmark[] = [
     cover: '/landing/covers/lebanese-rice.webp',
   },
 ];
+
+/** The Capture section's save story: Halli's site lands in Design systems next to a real design reference. */
+export const designNeighbor: DemoBookmark = {
+  id: 'lawsofux',
+  title: 'Laws of UX',
+  domain: 'lawsofux.com',
+  description: 'A collection of best practices designers can consider when building user interfaces.',
+  tags: ['ux', 'design'],
+  date: '3 Jul',
+  kind: 'article',
+  cover: '/landing/covers/lawsofux.jpg',
+};
 
 /* ------------------------------------------------------- library grid ---- */
 

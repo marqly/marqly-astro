@@ -1,5 +1,5 @@
 ---
-import { SaveModal } from './SaveModal';
+import SaveDemo from './SaveDemo';
 import HighlighterDemo from './HighlighterDemo';
 import YouTubeShowcase from './YouTubeShowcase';
 ---
@@ -23,22 +23,13 @@ import YouTubeShowcase from './YouTubeShowcase';
     <div class="mt-10 grid grid-cols-1 items-stretch gap-5 md:grid-cols-2 md:gap-6">
       <figure class="flex flex-col" data-reveal>
         <div
-          class="flex flex-1 items-center justify-center rounded-3xl p-5 py-10 sm:p-8 sm:py-12"
+          class="flex flex-1 items-center justify-center rounded-3xl p-3 sm:p-5"
           style="background: color-mix(in oklab, var(--hl-blue) 30%, white)"
         >
-          <SaveModal
-            phase="suggested"
-            url="haraldurthorleifsson.com"
-            title="Halli — Haraldur Thorleifsson"
-            boardEmoji="🎨"
-            boardName="Design systems"
-            tags={['design', 'people', 'inspiration']}
-          />
+          <SaveDemo client:visible />
         </div>
         <figcaption class="mt-4 text-sm leading-relaxed text-muted">
-          <b class="font-semibold text-foreground">One click, zero filing.</b>
-          Marqly picks the board and suggests tags before the dialog closes. Leave it alone and it
-          saves itself.
+          <b class="font-semibold text-foreground">One click, zero filing.</b> The save dialog, doing the filing for you: Marqly picks the board and suggests tags before it closes, then the page lands in the right board.
         </figcaption>
       </figure>
 
