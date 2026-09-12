@@ -114,7 +114,9 @@ const canonicalURL = canonical ?? new URL(cleanPath, Astro.site).href;
           function gtag() { dataLayer.push(arguments); }
           window.gtag = gtag;
           gtag('js', new Date());
-          gtag('config', gaId);
+          // Cross-domain: www → app is one session to GA4, so a landing page can be
+          // connected to the signup it produced. Same list in the app's gtag config.
+          gtag('config', gaId, { linker: { domains: ['marqly.com', 'www.marqly.com', 'app.marqly.com'] } });
         };
         if (document.readyState === 'complete') {
           setTimeout(inject, 3000);

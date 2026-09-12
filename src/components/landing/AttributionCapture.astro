@@ -23,7 +23,56 @@
       'gclid',
       'gbraid',
       'wbraid',
+      // Non-Google ad networks (2026-09-12). fbclid rides on ORGANIC Meta clicks too,
+      // so it is a "came from Meta" signal, not a paid one — the API classifies it.
+      'fbclid',
+      'twclid',
+      'msclkid',
+      'ttclid',
+      'li_fat_id',
     ];
+    // Click ids only an AD click carries; these may upgrade an earlier organic first touch.
+    var AD_CLICK_IDS = ['gclid', 'gbraid', 'wbraid', 'twclid', 'msclkid', 'ttclid', 'li_fat_id'];
+    var TOUCH_SENT_KEY = 'marqly_touch_sent';
+
+    function hasAdClickId(obj) {
+      if (!obj) return false;
+      for (var i = 0; i < AD_CLICK_IDS.length; i++) if (obj[AD_CLICK_IDS[i]]) return true;
+      return false;
+    }
+
+    // Anonymous browser id: `v_` + 22 base64url chars. Identity, not attribution — the ONE
+    // field ever added to an existing first-touch cookie, so the server-side touch log can
+    // be joined to the account at signup.
+    function visitorId() {
+      var bytes = new Uint8Array(16);
+      try { crypto.getRandomValues(bytes); } catch (_) { for (var i = 0; i < 16; i++) bytes[i] = Math.floor(Math.random() * 256); }
+      var bin = '';
+      for (var j = 0; j < bytes.length; j++) bin += String.fromCharCode(bytes[j]);
+      return 'v_' + btoa(bin).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+    }
+
+    function sendTouch(payload, fromUrl) {
+      try {
+        if (!payload.visitor_id || sessionStorage.getItem(TOUCH_SENT_KEY)) return;
+        var ref = document.referrer || '';
+        var refHost = '';
+        try { refHost = ref ? new URL(ref).hostname.toLowerCase() : ''; } catch (_) {}
+        var internal = refHost === 'marqly.com' || /\.marqly\.com$/.test(refHost);
+        if (internal && Object.keys(fromUrl).length === 0) return; // internal navigation is not a touch
+        sessionStorage.setItem(TOUCH_SENT_KEY, '1');
+        var body = { visitor_id: payload.visitor_id, host: location.hostname, landing_page: location.pathname };
+        if (ref) body.referrer = ref;
+        for (var k in fromUrl) if (Object.prototype.hasOwnProperty.call(fromUrl, k)) body[k] = fromUrl[k];
+        // Same-origin Worker proxy → API. keepalive so a fast bounce still lands.
+        fetch('/api/touch', {
+          method: 'POST',
+          keepalive: true,
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify(body),
+        }).catch(function () {});
+      } catch (_) {}
+    }
 
     function readCookie() {
       try {
@@ -45,8 +94,8 @@
         if (value) fromUrl[key] = value.slice(0, 512);
       });
 
-      var currentHasClickId = Boolean(fromUrl.gclid || fromUrl.gbraid || fromUrl.wbraid);
-      var existingHasClickId = Boolean(existing && (existing.gclid || existing.gbraid || existing.wbraid));
+      var currentHasClickId = hasAdClickId(fromUrl);
+      var existingHasClickId = hasAdClickId(existing);
       var hasUrlSignal = Object.keys(fromUrl).length > 0;
       var payload = existing;
 
@@ -65,8 +114,13 @@
       }
 
       if (payload) {
+        var needsId = !payload.visitor_id || !/^v_[A-Za-z0-9_-]{22}$/.test(payload.visitor_id);
+        if (needsId) payload = Object.assign({}, payload, { visitor_id: visitorId() });
+        // Always rewritten (sliding 90-day expiry, as before). First-touch fields are never
+        // modified here; the visitor id is the only field an old cookie gains.
         document.cookie = COOKIE + '=' + encodeURIComponent(JSON.stringify(payload)) +
           '; Domain=.marqly.com; Path=/; Max-Age=' + MAX_AGE + '; Secure; SameSite=Lax';
+        sendTouch(payload, fromUrl);
       }
     } catch (_) {
       // Analytics must never make the page unusable.

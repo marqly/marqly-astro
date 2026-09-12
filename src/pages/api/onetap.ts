@@ -58,6 +58,14 @@ const ATTRIBUTION_KEYS = [
   'utm_content',
   'first_referrer',
   'landing_page',
+  // 2026-09-12: non-Google ad networks + the anonymous visitor id that links the
+  // touch log (attribution_touches) to the account at signup.
+  'fbclid',
+  'twclid',
+  'msclkid',
+  'ttclid',
+  'li_fat_id',
+  'visitor_id',
 ] as const;
 
 const MAX_BODY_BYTES = 16_384;
@@ -74,6 +82,12 @@ interface Attribution {
   utm_content?: string;
   first_referrer?: string;
   landing_page?: string;
+  fbclid?: string;
+  twclid?: string;
+  msclkid?: string;
+  ttclid?: string;
+  li_fat_id?: string;
+  visitor_id?: string;
 }
 
 interface OneTapBody {
