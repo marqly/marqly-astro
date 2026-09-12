@@ -47,14 +47,23 @@ acting blind would violate "do not rewrite successful content without evidence".
   *prioritised* correctly without it. This is the highest-leverage action
   available and it is not an engineering task.
 
-### 2. Add `width`/`height` to 11 images — 7.2 · TECHNICAL (CLS)
-- **Evidence:** crawl found exactly 11 `<img>` without intrinsic dimensions:
-  8 on `/`, 2 on `/extension`, 1 on `/tools/open-graph-checker`. Everything else
-  on the site sets dimensions.
-- **Impact:** removes avoidable layout shift on the two highest-traffic entry
-  pages; `/` is the primary organic landing surface.
-- **Effort:** very low (3 files). **Risk:** very low — verify no visual reflow.
-- **Why now:** cheapest measurable Core Web Vitals win available without lab data.
+### 2. ~~Add `width`/`height` to 11 images~~ — REJECTED on inspection, not an action
+- **Original signal:** the crawl reported 11 `<img>` without intrinsic
+  dimensions — 8 on `/`, 2 on `/extension`, 1 on `/tools/open-graph-checker`.
+  Lighthouse and Semrush both flag this shape as a CLS risk.
+- **Why it is a false alarm:** all 11 are
+  `class="absolute inset-0 h-full w-full object-cover"` inside a parent of
+  `class="relative aspect-video w-full overflow-hidden"`. The parent reserves the
+  box via `aspect-ratio`, and an absolutely positioned child is out of flow, so it
+  cannot shift surrounding content. Adding width/height would change nothing
+  measurable.
+- **Action taken:** none to the pages. `seo-crawl.py` now excludes
+  absolutely/fixed-positioned images from the CLS-risk count so this does not
+  resurface as a "finding" every run. Recorded here because §4 is explicit that
+  some tool warnings do not matter, and §97 forbids changing working markup to
+  satisfy a tool score.
+- **Lesson:** a missing width/height attribute is only a CLS signal for an
+  in-flow image with no sized ancestor. Always read the parent before acting.
 
 ### 3. Shrink `/prompt-gallery` index HTML (637KB) — 5.1 · TECHNICAL
 - **Evidence:** 637KB vs a 62KB site median and 90KB p90 — 7–10x the rest of the

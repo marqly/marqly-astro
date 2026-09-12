@@ -234,9 +234,18 @@ def crawl(url, use_cache=True):
     rec["img_alt_text"] = states["text"]
     rec["img_alt_empty"] = states["empty"]
     rec["img_missing_alt"] = states["missing"]
+    # An absolutely positioned image inside an aspect-ratio/sized parent cannot
+    # shift layout — the parent already reserves the box. Counting those as a CLS
+    # risk produces a permanent false positive (marqly's landing cover cards are
+    # `relative aspect-video w-full` + `absolute inset-0 h-full w-full`).
+    def reserves_space(tag):
+        cls = (re.search(r'class\s*=\s*"([^"]*)"', tag, flags=re.I) or [None, ""])[1]
+        return "absolute" in cls.split() or "fixed" in cls.split()
+
     rec["img_no_dimensions"] = sum(1 for i in imgs
                                    if not (re.search(r"\bwidth\s*=", i, flags=re.I)
-                                           and re.search(r"\bheight\s*=", i, flags=re.I)))
+                                           and re.search(r"\bheight\s*=", i, flags=re.I))
+                                   and not reserves_space(i))
     rec["img_eager"] = sum(1 for i in imgs if re.search(r'loading\s*=\s*["\']eager["\']', i, flags=re.I))
 
     # --- links (DOM only) ---
