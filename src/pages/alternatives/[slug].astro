@@ -104,8 +104,10 @@ const others = competitors.filter((c) => c.slug !== subject.slug);
       <ComparisonTable tools={[marqly, subject]} variant="full" />
       <p class="deep-link">
         <a href={`/compare/marqly-vs-${subject.slug}`}>See the full Marqly vs {subject.name} comparison →</a>
-        {(subject.slug === 'raindrop' || subject.slug === 'pocket') && (
+        {['raindrop', 'pocket', 'mymind', 'instapaper'].includes(subject.slug) ? (
           <> · <a href={`/migrate/${subject.slug}`}>How to migrate from {subject.name} to Marqly →</a></>
+        ) : (
+          <> · <a href="/migrate">How to migrate to Marqly with zero data loss →</a></>
         )}
       </p>
 

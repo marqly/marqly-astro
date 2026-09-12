@@ -54,8 +54,20 @@ const jsonLd = [
   >
     <div class="tool-row">
       <div class="grow">
-        <label for="bv-file">Bookmarks HTML file</label>
-        <input id="bv-file" type="file" accept=".html,.htm" />
+        <label for="bv-file">Bookmarks file (HTML export or CSV from Pocket, Raindrop, mymind, Instapaper)</label>
+        <input id="bv-file" type="file" accept=".html,.htm,.csv" />
+      </div>
+    </div>
+    <div class="hidden" id="bv-detected" style="margin-top: var(--space-4); padding: var(--space-4); border-radius: var(--radius-sm); background: var(--surface-2); border: 1px solid var(--border-2);">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-3);">
+        <div>
+          <strong id="bv-detected-type" style="color: var(--ink-1); font-size: var(--fs-base); display: block;"></strong>
+          <p id="bv-detected-desc" style="margin: var(--space-1) 0 0; font-size: var(--fs-xs); color: var(--ink-2);"></p>
+        </div>
+        <div style="display: flex; gap: var(--space-2); flex-wrap: wrap;">
+          <a class="btn btn--primary btn--sm" href="https://app.marqly.com" target="_blank" rel="noopener">Import into Marqly free →</a>
+          <a class="btn btn--outline btn--sm" id="bv-guide-link" href="/migrate">Migration guide →</a>
+        </div>
       </div>
     </div>
     <div class="tool-row hidden" id="bv-search-row" style="margin-top: var(--space-4);">
@@ -240,17 +252,128 @@ const jsonLd = [
       : `${bookmarks.length} bookmarks${capped}`;
   }
 
+  const detectedBox = document.getElementById('bv-detected')!;
+  const detectedType = document.getElementById('bv-detected-type')!;
+  const detectedDesc = document.getElementById('bv-detected-desc')!;
+  const guideLink = document.getElementById('bv-guide-link') as HTMLAnchorElement;
+
+  function parseCSV(text: string): { bookmarks: Bookmark[]; type: string; guideUrl: string } {
+    const lines = text.split(/\r?\n/).filter((l) => l.trim().length > 0);
+    if (lines.length < 2) return { bookmarks: [], type: '', guideUrl: '/migrate' };
+
+    const header = lines[0].toLowerCase();
+    let type = 'Generic CSV Bookmarks Export';
+    let guideUrl = '/migrate';
+
+    if (header.includes('time_added') && header.includes('status')) {
+      type = 'Pocket CSV Export';
+      guideUrl = '/migrate/pocket';
+    } else if (header.includes('note') && (header.includes('folder') || header.includes('collection') || header.includes('tags'))) {
+      type = 'Raindrop.io CSV Export';
+      guideUrl = '/migrate/raindrop';
+    } else if (header.includes('selection') && header.includes('folder')) {
+      type = 'Instapaper CSV Export';
+      guideUrl = '/migrate/instapaper';
+    } else if (header.includes('cards') || (header.includes('tags') && header.includes('type') && header.includes('title'))) {
+      type = 'mymind Card Export';
+      guideUrl = '/migrate/mymind';
+    }
+
+    const parseLine = (line: string): string[] => {
+      const result: string[] = [];
+      let current = '';
+      let inQuotes = false;
+      for (let i = 0; i < line.length; i++) {
+        const char = line[i];
+        if (char === '"') {
+          if (inQuotes && line[i + 1] === '"') {
+            current += '"';
+            i++;
+          } else {
+            inQuotes = !inQuotes;
+          }
+        } else if (char === ',' && !inQuotes) {
+          result.push(current.trim());
+          current = '';
+        } else {
+          current += char;
+        }
+      }
+      result.push(current.trim());
+      return result;
+    };
+
+    const headers = parseLine(lines[0]).map((h) => h.toLowerCase().trim());
+    const urlIdx = headers.findIndex((h) => h === 'url' || h === 'link' || h === 'address');
+    const titleIdx = headers.findIndex((h) => h === 'title' || h === 'name');
+    const folderIdx = headers.findIndex((h) => h === 'folder' || h === 'collection' || h === 'tags');
+    const timeIdx = headers.findIndex((h) => h === 'time_added' || h === 'created' || h === 'timestamp' || h === 'added');
+
+    if (urlIdx === -1) return { bookmarks: [], type, guideUrl };
+
+    const bms: Bookmark[] = [];
+    for (let i = 1; i < lines.length; i++) {
+      const cols = parseLine(lines[i]);
+      if (!cols[urlIdx] || !/^https?:/i.test(cols[urlIdx])) continue;
+      const rawDate = timeIdx !== -1 ? cols[timeIdx] : null;
+      let unix: number | null = null;
+      if (rawDate) {
+        const num = Number.parseInt(rawDate, 10);
+        if (!Number.isNaN(num) && num > 100000000) {
+          unix = num > 10000000000 ? Math.floor(num / 1000) : num;
+        } else {
+          const parsed = Date.parse(rawDate);
+          if (!Number.isNaN(parsed)) unix = Math.floor(parsed / 1000);
+        }
+      }
+      bms.push({
+        title: (titleIdx !== -1 ? cols[titleIdx] : '') || cols[urlIdx],
+        url: cols[urlIdx],
+        folder: folderIdx !== -1 ? cols[folderIdx] : '',
+        addDate: unix,
+      });
+    }
+
+    return { bookmarks: bms, type, guideUrl };
+  }
+
   fileInput.addEventListener('change', async () => {
     const file = fileInput.files?.[0];
     if (!file) return;
     status.classList.remove('is-error');
+    detectedBox.classList.add('hidden');
     try {
-      bookmarks = parseBookmarks(await file.text());
+      const text = await file.text();
+      let formatName = 'Browser Bookmarks HTML';
+      let targetGuide = '/migrate';
+
+      if (file.name.endsWith('.csv') || (!text.includes('<html') && !text.includes('<!DOCTYPE') && text.includes(','))) {
+        const res = parseCSV(text);
+        bookmarks = res.bookmarks;
+        formatName = res.type;
+        targetGuide = res.guideUrl;
+      } else {
+        bookmarks = parseBookmarks(text);
+        if (text.toLowerCase().includes('pocket') || file.name.includes('ril_export')) {
+          formatName = 'Pocket HTML Export (Legacy)';
+          targetGuide = '/migrate/pocket';
+        } else if (text.toLowerCase().includes('raindrop')) {
+          formatName = 'Raindrop.io HTML Export';
+          targetGuide = '/migrate/raindrop';
+        }
+      }
+
       if (bookmarks.length === 0) {
-        status.textContent = 'No bookmarks found in that file — is it a browser bookmarks HTML export?';
+        status.textContent = 'No bookmarks found in that file — please check that it is a valid HTML or CSV export.';
         status.classList.add('is-error');
         return;
       }
+
+      detectedType.textContent = `Detected: ${formatName} (${bookmarks.length.toLocaleString()} saves)`;
+      detectedDesc.textContent = 'Ready to import into Marqly with AI semantic search, auto-tagging, and zero data loss.';
+      guideLink.href = targetGuide;
+      detectedBox.classList.remove('hidden');
+
       searchRow.classList.remove('hidden');
       actions.classList.remove('hidden');
       tableWrap.classList.remove('hidden');

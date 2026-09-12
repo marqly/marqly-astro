@@ -209,9 +209,13 @@ const tableTools = isMarqlyPair ? [marqly, b] : [a, b, marqly];
             </div>
             <div class="migration-btns">
               <a class="btn btn--primary" href="https://app.marqly.com">Import your {b.name} bookmarks free →</a>
-              {(b.slug === 'raindrop' || b.slug === 'pocket') && (
+              {['raindrop', 'pocket', 'mymind', 'instapaper'].includes(b.slug) ? (
                 <a class="migration-guide-link" href={`/migrate/${b.slug}`}>
                   Step-by-step {b.name} migration guide →
+                </a>
+              ) : (
+                <a class="migration-guide-link" href="/migrate">
+                  View all migration guides →
                 </a>
               )}
             </div>
@@ -235,6 +239,10 @@ const tableTools = isMarqlyPair ? [marqly, b] : [a, b, marqly];
               any of them by describing what you remember — plus a highlighter, YouTube summaries
               with transcripts, and save-as-PDF. There's a free tier with no card required.
             </p>
+            <div class="third-option-btns" style="margin-top: var(--space-4); display: flex; gap: var(--space-3); flex-wrap: wrap;">
+              <a class="btn btn--primary" href="https://app.marqly.com">Try Marqly free →</a>
+              <a class="btn btn--outline" href="/migrate">Migration guides →</a>
+            </div>
           </div>
         </>
       )}

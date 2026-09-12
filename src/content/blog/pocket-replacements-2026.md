@@ -73,6 +73,7 @@ Instapaper keeps things deliberately simple: save an article from your browser e
 - **Where it wins:** Typography, speed reading mode, and automatic Kindle syncing.
 - **Where it falls short:** Search is keyword-only, organization is flat (no nested folders), and it does not handle non-article saves (like videos, tweets, or web applications) well.
 - **Pricing:** Free tier; Premium is $2.99/mo or $29.99/yr.
+- **Deep dive:** Read our [Marqly vs Instapaper comparison](/compare/marqly-vs-instapaper) or follow the [Instapaper to Marqly migration guide](/migrate/instapaper).
 - **Best for:** Dedicated long-form readers with Kindle devices who treat their saves as a disposable reading queue.
 
 ---
@@ -86,6 +87,7 @@ Reader is built like an email inbox with keyboard-first navigation (`E` to archi
 - **Where it wins:** Unified inbox for RSS, PDFs, and newsletters; deep two-way sync of highlights into Obsidian and Notion.
 - **Where it falls short:** Expensive ($119.88/year), no permanent free tier, and a dense, intimidating UI for casual reading.
 - **Pricing:** Bundled in Readwise Full at $9.99/mo billed annually ($12.99/mo monthly).
+- **Deep dive:** Explore [Marqly vs Readwise Reader](/compare/marqly-vs-readwise-reader) and our head-to-head analysis of [Marqly AI vs Readwise Ghostreader](/blog/marqly-ai-vs-readwise-ghostreader).
 - **Best for:** Researchers, academics, and note-takers whose reading feeds directly into PKM software.
 
 ---
@@ -97,6 +99,7 @@ Raindrop.io is the reigning category leader for general-purpose link saving. If 
 - **Where it wins:** Polished web, desktop, and mobile apps; generous free plan; nested collections and public sharing.
 - **Where it falls short:** Search is keyword-based rather than semantic; manual effort required to file links into collections.
 - **Pricing:** Free tier with unlimited links; Pro is $28/year.
+- **Deep dive:** Read our detailed [Marqly vs Raindrop comparison](/compare/marqly-vs-raindrop) or follow the [Raindrop to Marqly migration guide](/migrate/raindrop).
 - **Best for:** Users who enjoy organizing by hand into structured folders and don't need AI summaries.
 
 ---
@@ -110,6 +113,7 @@ Running as a lightweight Docker container on a home server or VPS, Karakeep prov
 - **Where it wins:** 100% data ownership, local AI inference, zero subscription fees.
 - **Where it falls short:** Requires Docker administration, server maintenance, and BYO API keys.
 - **Pricing:** 100% free and open source. Hosted beta available at $4/mo.
+- **Deep dive:** Read our [Marqly vs Karakeep comparison](/compare/marqly-vs-karakeep) or check out the [Karakeep vs Linkwarden breakdown](/compare/linkwarden-vs-karakeep).
 - **Best for:** Self-hosters and developers wanting a private, on-device AI bookmark vault.
 
 ---
@@ -119,9 +123,9 @@ Running as a lightweight Docker container on a home server or VPS, Karakeep prov
 Before choosing a replacement, check which group you belong to:
 
 1. **You already have your Pocket export file:**
-   You downloaded `ril_export.html` or `pocket-export.zip` before the October 8, 2025 deadline. You are in great shape. Follow our [Pocket to Marqly migration guide](/migrate/pocket) to import your file directly, or use our free [Pocket Export Converter](/tools/pocket-export-converter) to inspect and clean your file.
+   You downloaded `ril_export.html` or `pocket-export.zip` before the October 8, 2025 deadline. You are in great shape. Follow our [Pocket to Marqly migration guide](/migrate/pocket) to import your file directly, use our free [Pocket Export Converter](/tools/pocket-export-converter), or inspect your archive with our [Bookmark File Viewer](/tools/bookmark-file-viewer).
 2. **You never downloaded your Pocket archive:**
-   Mozilla's servers have deleted all user databases, and data recovery through Pocket is impossible. However, if you had Pocket synced with Firefox or exported bookmarks from Chrome, you can export your browser bookmarks HTML file and import that into Marqly.
+   Mozilla's servers have deleted all user databases, and data recovery through Pocket is impossible. However, if you had Pocket synced with Firefox or exported bookmarks from Chrome, you can export your browser bookmarks HTML file and import that into Marqly via our [Universal Migration Center](/migrate).
 
 ---
 
@@ -131,3 +135,4 @@ Before choosing a replacement, check which group you belong to:
 - Choose **Instapaper** if you exclusively read text articles and want Kindle delivery.
 - Choose **Readwise Reader** if you are a researcher managing PDFs and RSS feeds with heavy Obsidian sync.
 - Choose **Karakeep** if you want to self-host your bookmarks on your own server.
+- Explore all alternatives on our [Alternatives Directory](/alternatives) and compare any two tools in our [Comparison Center](/compare).

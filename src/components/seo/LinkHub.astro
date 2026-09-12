@@ -56,6 +56,8 @@ const faqTop = FAQ_SHORTLIST.map((slug) => faqs.find((f) => f.id === slug)).filt
 const BLOG_PICKS = [
   { label: 'Best AI bookmark manager 2026', href: '/blog/best-ai-bookmark-manager-2026' },
   { label: 'Best Pocket alternatives', href: '/blog/best-pocket-alternatives-2026' },
+  { label: 'Pocket replacements 2026', href: '/blog/pocket-replacements-2026' },
+  { label: 'AI bookmark retrieval benchmark', href: '/blog/ai-bookmark-retrieval-benchmark-2026' },
   { label: 'How to search bookmarks with AI', href: '/blog/how-to-search-bookmarks-with-ai' },
   { label: 'Summarize YouTube videos with AI', href: '/blog/summarize-youtube-videos-with-ai' },
   { label: 'How to build a second brain', href: '/blog/how-to-build-a-second-brain' },
@@ -103,6 +105,9 @@ const hasCompare = competitors.length > 0;
               <li><a href={`/compare/marqly-vs-${c.slug}`}>Marqly vs {c.name}</a></li>
             ))}
             <li><a href="/compare" class="lh-more">All comparisons →</a></li>
+            <li><a href="/migrate" class="lh-more">Migration Hub →</a></li>
+            <li><a href="/migrate/mymind" class="lh-more">Migrate from mymind →</a></li>
+            <li><a href="/migrate/instapaper" class="lh-more">Migrate from Instapaper →</a></li>
             <li><a href="/migrate/raindrop" class="lh-more">Migrate from Raindrop →</a></li>
             <li><a href="/migrate/pocket" class="lh-more">Migrate from Pocket →</a></li>
           </ul>

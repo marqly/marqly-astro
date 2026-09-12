@@ -112,6 +112,7 @@ As the traditional keyword control, Raindrop.io highlights the fundamental limit
 The benchmark clearly demonstrates that **semantic AI search fundamentally solves the bookmark retrieval problem.**
 
 - If your goal is **effortless zero-filing knowledge retrieval** across web articles, YouTube transcripts, and notes: **[Marqly](https://app.marqly.com)** delivers the highest retrieval accuracy at the lowest organizational overhead.
-- If your library consists primarily of **visual design, fashion, architecture, and color palettes**: **mymind** is the strongest visual choice.
-- If you are an **academic or power reader consuming technical PDFs and RSS feeds**: **Readwise Reader** offers the most complete reading triage environment.
-- If you require **strict offline self-hosting with local LLMs**: **Karakeep** is the open-source standout.
+- If your library consists primarily of **visual design, fashion, architecture, and color palettes**: **mymind** is the strongest visual choice. Read our detailed [mymind Review](/blog/mymind-review-2026) and [Marqly vs mymind comparison](/compare/marqly-vs-mymind).
+- If you are an **academic or power reader consuming technical PDFs and RSS feeds**: **Readwise Reader** offers the most complete reading triage environment. Explore our [Marqly vs Readwise Reader comparison](/compare/marqly-vs-readwise-reader) and [Marqly AI vs Ghostreader deep dive](/blog/marqly-ai-vs-readwise-ghostreader).
+- If you require **strict offline self-hosting with local LLMs**: **Karakeep** is the open-source standout. See [Marqly vs Karakeep](/compare/marqly-vs-karakeep) and [Karakeep vs Linkwarden](/compare/linkwarden-vs-karakeep).
+- If you are currently organizing in traditional folders and want to switch: visit our [Migration Center](/migrate) or read our guide on [What Replaced Pocket in 2026](/blog/pocket-replacements-2026).

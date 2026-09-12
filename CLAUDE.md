@@ -74,6 +74,7 @@ artifacts and diff scores). The root stays clean.
 
 ## Lab Notes: What Not To Do
 
+- 2026-09-12: `npm run build` died with `Cannot find module '@rolldown/binding-wasm32-wasi'` because PATH pointed at nvm's arm64 Node 22.18 → node_modules was installed under the Homebrew x64 Node (`/usr/local/opt/node@22`, `@rolldown/binding-darwin-x64`) → build with the default `node` on PATH, never an nvm arm64 binary. Also: `npm run check` prompts to install `@astrojs/check` (not in the repo) — use `node node_modules/typescript/bin/tsc --noEmit` and grep for your files; `astro dev` still cannot start (wrangler `ai` binding) — verify a build by serving `dist/client` with `python3 -m http.server`.
 - 2026-05-25: Astro 5.18 + npm 11 throw EBADENGINE on Node 20.10 (need ≥20.19) → build still works locally but is unsupported → `.nvmrc=22` for Cloudflare; recommend bumping local Node to 22 LTS.
 - 2026-05-25: `/vs/raindrop` is a near-empty stub on the LIVE site (only H1+subhead even after JS hydration) → not a capture failure, the page is unfinished in production → clone matches; ask user whether to build it out or drop it.
 - 2026-05-25: capture.mjs uses `waitUntil:'load'` which is fine for Framer's SSR'd pages → fully client-rendered pages would need `networkidle`+wait, but only vs/raindrop was JS-only and it's just a stub.
