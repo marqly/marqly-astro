@@ -1,0 +1,47 @@
+{
+  "domain": "https://www.marqly.com",
+  "apex": "https://marqly.com (301 -> www via Cloudflare Redirect Rule; preserve query string ON)",
+  "help_center": "https://help.marqly.com",
+  "app": "https://app.marqly.com",
+  "stack": {
+    "framework": "Astro (static/prerendered, build.format:'file' so URLs carry no trailing slash)",
+    "host": "Cloudflare Worker `marqly-astro` via @astrojs/cloudflare",
+    "deploy": "git push marqly-astro <branch>:main — this is PRODUCTION, there is no separate staging domain",
+    "content": "Content collections: blog, locale-pages, faq, usecases, verdicts, prompts",
+    "i18n": "12 locales; localized slugs; hreflang hand-maintained in src/i18n/routes.ts"
+  },
+  "data_sources": {
+    "AVAILABLE": [
+      "Full production crawl of all 1,868 sitemap URLs (active/scripts/seo-crawl.py)",
+      "Local build output dist/client (1,890 pages) — internal link graph, schema, metadata",
+      "Product truth ledger docs/superpowers/specs/2026-08-02-marqly-product-facts.md",
+      "Verified competitor data layer src/data/competitors/*.json (24 tools, lastVerified per file)",
+      "Live llms.txt, robots.txt, sitemap, HTTP headers, redirect behaviour",
+      "Prior SEO war-plan backlog docs/superpowers/plans/2026-09-06-seo-war-plan-backlog.md",
+      "Lab notes in CLAUDE.md (deploy, caching, CSS token and build traps)"
+    ],
+    "PARTIAL": [
+      "Semrush Feb-2026 crawl — prose summary only, no export; every claim re-tested against production",
+      "Core Web Vitals — HTML byte size and edge TTFB measured; no LCP/INP/CLS lab or field data"
+    ],
+    "UNAVAILABLE": [
+      "Google Search Console — no API access, no export in repo. Impressions/clicks/CTR/position UNKNOWN",
+      "Bing Webmaster Tools and Bing AI Performance",
+      "GA4 / Mixpanel conversion, signup, activation and revenue data",
+      "Server / CDN logs (bot crawl behaviour)",
+      "Backlink data (Ahrefs/Semrush/Majestic)",
+      "CrUX field data",
+      "First-party AI-citation reporting (Google AI Overviews / AI Mode)"
+    ]
+  },
+  "implications": [
+    "Because GSC is unavailable, striking-distance (pos 4-20), CTR and cannibalisation work CANNOT be evidence-ranked. Those lanes are blocked until access is granted.",
+    "Prioritisation therefore favours structural, verifiable defects (schema policy violations, internal link equity, indexation hygiene, truth accuracy) over query-level optimisation.",
+    "Locale demand (ja/zh/ko/nl/pl/tr) is unvalidated — do not invest further in new locale trees until GSC shows impressions for them."
+  ],
+  "gates": {
+    "command": "node active/scripts/seo-check.mjs",
+    "must_pass_before_deploy": true,
+    "negative_test": "inject a page with the banned claims into a throwaway --dist and confirm it FAILS; a gate that only ever passes is not a gate"
+  }
+}

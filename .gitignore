@@ -31,3 +31,7 @@ active/logs/capture/
 .wrangler/
 .dev.vars
 .playwright-mcp/
+
+# Python bytecode from active/scripts/*.py
+__pycache__/
+*.pyc

@@ -12,7 +12,12 @@
     "cf-typegen": "wrangler types",
     "astro": "astro",
     "capture": "node active/scripts/capture.mjs",
-    "diff": "node active/scripts/diff.mjs"
+    "diff": "node active/scripts/diff.mjs",
+    "seo:crawl": "python3 active/scripts/seo-crawl.py --workers 24 --no-cache",
+    "seo:analyze": "python3 active/scripts/seo-analyze.py",
+    "seo:orphans": "python3 active/scripts/seo-orphans.py dist/client",
+    "seo:check": "node active/scripts/seo-check.mjs",
+    "seo:baseline": "python3 active/scripts/seo-baseline.py"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^14.2.1",
