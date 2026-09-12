@@ -7,6 +7,7 @@ import '../styles/landing.css';
 import Nav from '../components/landing/Nav.astro';
 import FooterV2 from '../components/landing/FooterV2.astro';
 import LinkHub from '../components/seo/LinkHub.astro';
+import LocaleLinkHub from '../components/seo/LocaleLinkHub.astro';
 import GoogleOneTap from '../components/landing/GoogleOneTap.astro';
 import AttributionCapture from '../components/landing/AttributionCapture.astro';
 import CtaTracking from '../components/landing/CtaTracking.astro';
@@ -26,8 +27,14 @@ export interface Props {
   alternates?: { hreflang: string; href: string }[];
   /** og:locale override; defaults from `lang`. */
   ogLocale?: string;
-  /** LinkHub is English-only today — localized pages hide it until it speaks their language. */
+  /** English pre-footer link hub. Localized pages pass `localeLinkHub` instead. */
   showLinkHub?: boolean;
+  /**
+   * Locale code for the localized pre-footer link hub. Without it, localized
+   * landers/comparisons were reachable only via hreflang — no inbound `<a>`, so
+   * no internal PageRank and no crawl path from the locale root.
+   */
+  localeLinkHub?: string;
 }
 
 const OG_LOCALES: Record<string, string> = {
@@ -46,12 +53,16 @@ const {
   alternates = [],
   ogLocale = OG_LOCALES[lang] ?? 'en_US',
   showLinkHub = true,
+  localeLinkHub,
 } = Astro.props;
 
 // build.format:'file' leaks ".html" into pathname during prerender — normalize
 // so canonicals stay extensionless, matching served URLs and the sitemap.
 const cleanPath = Astro.url.pathname.replace(/\.html$/, '').replace(/\/index$/, '/');
 const canonicalURL = canonical ?? new URL(cleanPath, Astro.site).href;
+// The English hub and a localized hub are mutually exclusive: rendering both
+// would put an English-labelled block on a localized page.
+const showLocaleHub = Boolean(localeLinkHub) && localeLinkHub !== 'en';
 ---
 
 <!doctype html>
@@ -127,9 +138,14 @@ const canonicalURL = canonical ?? new URL(cleanPath, Astro.site).href;
     <main id="main">
       <slot />
     </main>
-    {showLinkHub && (
+    {showLinkHub && !showLocaleHub && (
       <div class="linkhub-compat">
         <LinkHub />
+      </div>
+    )}
+    {showLocaleHub && (
+      <div class="linkhub-compat">
+        <LocaleLinkHub lang={localeLinkHub} currentPath={cleanPath} />
       </div>
     )}
     <FooterV2 />

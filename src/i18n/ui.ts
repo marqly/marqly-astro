@@ -160,3 +160,54 @@ export function postPath(id: string, lang: string): string {
   const bare = id.startsWith(`${lang}/`) ? id.slice(lang.length + 1) : id;
   return `/${lang}/blog/${bare}`;
 }
+
+interface LinkHubStrings {
+  /** aria-label for the whole hub section. */
+  aria: string;
+  /** Column of single-segment localized landers (features + audiences + jobs). */
+  features: string;
+  compare: string;
+  alternatives: string;
+  tools: string;
+}
+
+/**
+ * Chrome for the localized pre-footer link hub (LocaleLinkHub.astro). English
+ * pages keep using the original LinkHub; this only supplies the headings a
+ * non-English hub must emit so no English leaks into a localized page. Link
+ * text itself is never taken from here — it comes from each entry's own
+ * localized frontmatter.
+ */
+export const LINKHUB_UI: Record<Locale, LinkHubStrings> = {
+  en: { aria: 'Explore Marqly', features: 'Features & use cases', compare: 'Compare', alternatives: 'Alternatives', tools: 'Free tools' },
+  es: { aria: 'Explorar Marqly', features: 'Funciones y casos de uso', compare: 'Comparar', alternatives: 'Alternativas', tools: 'Herramientas gratis' },
+  pt: { aria: 'Explorar o Marqly', features: 'Recursos e casos de uso', compare: 'Comparar', alternatives: 'Alternativas', tools: 'Ferramentas gratuitas' },
+  de: { aria: 'Marqly entdecken', features: 'Funktionen & Anwendungsfälle', compare: 'Vergleichen', alternatives: 'Alternativen', tools: 'Kostenlose Tools' },
+  fr: { aria: 'Explorer Marqly', features: 'Fonctionnalités et cas d’usage', compare: 'Comparer', alternatives: 'Alternatives', tools: 'Outils gratuits' },
+  it: { aria: 'Esplora Marqly', features: 'Funzioni e casi d’uso', compare: 'Confronta', alternatives: 'Alternative', tools: 'Strumenti gratuiti' },
+  ja: { aria: 'Marqlyを探す', features: '機能と用途', compare: '比較', alternatives: '代替ツール', tools: '無料ツール' },
+  zh: { aria: '探索 Marqly', features: '功能与使用场景', compare: '对比', alternatives: '替代方案', tools: '免费工具' },
+  ko: { aria: 'Marqly 둘러보기', features: '기능 및 사용 사례', compare: '비교', alternatives: '대안', tools: '무료 도구' },
+  nl: { aria: 'Marqly ontdekken', features: 'Functies en gebruikssituaties', compare: 'Vergelijken', alternatives: 'Alternatieven', tools: 'Gratis tools' },
+  pl: { aria: 'Poznaj Marqly', features: 'Funkcje i zastosowania', compare: 'Porównaj', alternatives: 'Alternatywy', tools: 'Darmowe narzędzia' },
+  tr: { aria: 'Marqly’ı keşfedin', features: 'Özellikler ve kullanım alanları', compare: 'Karşılaştır', alternatives: 'Alternatifler', tools: 'Ücretsiz araçlar' },
+};
+
+/**
+ * Localized URL segments that carry a compare/alternatives/tools namespace,
+ * used to label a link-hub column. Every value below was read off the live
+ * route inventory — each locale tree translates these slugs differently (and
+ * ja/ko/zh keep the English ones), so a group key can't be matched against a
+ * single English word.
+ */
+export const COMPARE_SEGMENTS = new Set([
+  'compare', 'vergleich', 'comparar', 'comparer', 'confronto',
+  'karsilastirma', 'porownanie', 'vergelijken',
+]);
+export const ALTERNATIVES_SEGMENTS = new Set([
+  'alternatives', 'alternativen', 'alternativas', 'alternative',
+  'alternatywy', 'alternatifler', 'alternatieven',
+]);
+export const TOOLS_SEGMENTS = new Set([
+  'tools', 'herramientas', 'ferramentas', 'outils', 'strumenti',
+]);

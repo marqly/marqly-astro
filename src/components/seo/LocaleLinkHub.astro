@@ -1,0 +1,201 @@
+---
+/**
+ * Localized pre-footer link hub.
+ *
+ * The English LinkHub is deliberately hidden on localized pages
+ * (`showLinkHub={false}`) because its labels are English-only, which left every
+ * localized lander, comparison and alternatives page reachable only through
+ * hreflang — 457 URLs with zero inbound `<a>` links, so no internal PageRank
+ * and no crawl path from the locale root.
+ *
+ * This is the same hub for one locale tree. Every link target and every anchor
+ * label comes from that locale's own content-collection frontmatter, so it can
+ * never emit a dead link or leak English into a localized page. Only the column
+ * headings come from LINKHUB_UI.
+ */
+import { getCollection } from 'astro:content';
+import type { Locale } from '../../i18n/routes';
+import {
+  ALTERNATIVES_SEGMENTS,
+  BLOG_UI,
+  COMPARE_SEGMENTS,
+  LINKHUB_UI,
+  TOOLS_SEGMENTS,
+  postPath,
+} from '../../i18n/ui';
+
+interface Props {
+  lang: Locale;
+  /** Path of the page rendering the hub, so it never links to itself. */
+  currentPath?: string;
+}
+
+const { lang, currentPath } = Astro.props;
+const ui = LINKHUB_UI[lang];
+const blogUi = BLOG_UI[lang];
+
+type LocalePage = Awaited<ReturnType<typeof getCollection<'localePages'>>>[number];
+
+const entries = (await getCollection(
+  'localePages',
+  ({ data }) => !data.draft && data.lang === lang,
+)) as LocalePage[];
+
+/** Localized anchor text: the entry's own title with the brand suffix removed. */
+function label(e: LocalePage): string {
+  const t = (e.data.title ?? '').replace(/\s*[|｜]\s*Marqly\s*$/u, '').trim();
+  return t || e.data.eyebrow || e.data.hero?.heading || e.data.path;
+}
+
+const isSelf = (p: string) =>
+  !!currentPath && p.replace(/\/$/, '') === currentPath.replace(/\/$/, '');
+
+// Segments after the locale prefix: `/de/vergleich/x` → ['vergleich', 'x'].
+const segments = (p: string) => p.split('/').filter(Boolean).slice(1);
+
+const landers: LocalePage[] = [];
+let home: LocalePage | undefined;
+
+const byLabel = (a: LocalePage, b: LocalePage) => label(a).localeCompare(label(b), lang);
+
+// Namespaces we can label precisely. Anything else (e.g. Spanish/Portuguese put
+// their use-case landers under a localized `/es/usos/` segment rather than at the
+// locale root) is folded into the features column, so a heading is always a real
+// UI string for that locale and never an arbitrary page's eyebrow.
+const compare: LocalePage[] = [];
+const alternatives: LocalePage[] = [];
+const tools: LocalePage[] = [];
+
+for (const e of entries) {
+  if (e.data.path === `/${lang}`) {
+    home = e;
+    continue;
+  }
+  const s = segments(e.data.path);
+  const key = s.length > 1 ? s[0] : '';
+  if (COMPARE_SEGMENTS.has(key)) compare.push(e);
+  else if (ALTERNATIVES_SEGMENTS.has(key)) alternatives.push(e);
+  else if (TOOLS_SEGMENTS.has(key)) tools.push(e);
+  else landers.push(e);
+}
+
+landers.sort(byLabel);
+compare.sort(byLabel);
+alternatives.sort(byLabel);
+tools.sort(byLabel);
+
+const columns = [
+  { heading: ui.features, items: landers, wide: true },
+  { heading: ui.compare, items: compare, wide: false },
+  { heading: ui.alternatives, items: alternatives, wide: false },
+  { heading: ui.tools, items: tools, wide: false },
+].filter((c) => c.items.length > 0);
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft && data.lang === lang))
+  .sort((a, b) => +b.data.pubDate - +a.data.pubDate)
+  .slice(0, 8);
+
+const blogIndexPath = `/${lang}/blog`;
+const hasBlog = posts.length > 0;
+---
+
+<section class="linkhub" aria-label={ui.aria}>
+  <div class="container">
+    <div class="lh-grid">
+      {columns.map((col) => (
+        <nav class:list={['lh-col', { 'lh-col--wide': col.wide }]} aria-label={col.heading}>
+          <h4>{col.heading}</h4>
+          <ul class:list={[{ 'lh-2col': col.wide }]}>
+            {col.items.filter((e) => !isSelf(e.data.path)).map((e) => (
+              <li><a href={e.data.path}>{label(e)}</a></li>
+            ))}
+          </ul>
+        </nav>
+      ))}
+
+      {hasBlog && (
+        <nav class="lh-col" aria-label={blogUi.blog}>
+          <h4>{blogUi.blog}</h4>
+          <ul>
+            {posts.filter((p) => !isSelf(postPath(p.id, lang))).map((p) => (
+              <li><a href={postPath(p.id, lang)}>{p.data.title}</a></li>
+            ))}
+            {!isSelf(blogIndexPath) && (
+              <li><a href={blogIndexPath} class="lh-more">{blogUi.keepReading} →</a></li>
+            )}
+          </ul>
+        </nav>
+      )}
+    </div>
+
+    {home && !isSelf(home.data.path) && (
+      <p class="lh-home">
+        <a href={home.data.path}>{blogUi.home} · Marqly</a>
+      </p>
+    )}
+  </div>
+</section>
+
+<style>
+  /* Mirrors LinkHub.astro (scoped there, so it cannot be inherited). */
+  .linkhub {
+    background: var(--surface-1);
+    border-top: 1px solid var(--border-1);
+    padding-block: var(--space-16);
+  }
+  .lh-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-10) var(--space-8);
+    align-items: start;
+  }
+  /* The lander column carries ~40 links; give it two columns of breathing room. */
+  .lh-col--wide { grid-column: span 2; }
+  .lh-2col {
+    columns: 2;
+    column-gap: var(--space-8);
+  }
+  .lh-2col li { break-inside: avoid; }
+  .lh-col h4 {
+    font-size: var(--fs-xs);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-1);
+    margin-bottom: var(--space-4);
+  }
+  .lh-col ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+  .lh-col a {
+    font-size: var(--fs-xs);
+    line-height: var(--lh-base);
+    color: var(--ink-3);
+    transition: color var(--dur-base) var(--ease-out);
+  }
+  .lh-col a:hover { color: var(--ink-1); }
+  .lh-more { font-weight: 500; color: var(--ink-2); }
+  .lh-home { margin-top: var(--space-10); }
+  .lh-home a {
+    font-size: var(--fs-xs);
+    font-weight: 500;
+    color: var(--ink-2);
+  }
+  .lh-home a:hover { color: var(--ink-1); }
+
+  @media (max-width: 1100px) {
+    .lh-grid { grid-template-columns: repeat(2, 1fr); }
+    .lh-col--wide { grid-column: span 2; }
+  }
+  @media (max-width: 640px) {
+    .lh-grid { grid-template-columns: 1fr; gap: var(--space-8); }
+    .lh-col--wide { grid-column: span 1; }
+    .lh-2col { columns: 1; }
+    .linkhub { padding-block: var(--space-12); }
+  }
+</style>
