@@ -1,6 +1,6 @@
 # Changelog — 2026-09-12
 
-## Homepage: Ask, the AI assistant — hero story, new section, nav link (branch `feat/ask-assistant-home`, NOT deployed)
+## Homepage: Ask, the AI assistant — hero story, new section, nav link (branch `feat/ask-assistant-home`, DEPLOYED to the Worker as `8adaee4` then `c8e9343`)
 
 The app shipped **Ask** (a chat panel beside the library that answers from the user's own
 saves with citations, finds problems, and changes the library only through approved
@@ -83,6 +83,23 @@ rewritten.
   400 px dock, a seventh library row.
 - The Find-problems and Tidy-up panes were trimmed so their cards clear the composer at
   the fixed stage height.
+
+### 6. The save-dialog loop is back (Capture section)
+
+**File(s)**: `src/components/landing/SaveDemo.tsx` (new), `SaveAnywhereSection.astro`, `data.ts`
+(`designNeighbor`), `public/landing/covers/lawsofux.jpg`, `public/landing/favicons/lawsofux.com.png`
+
+The founder asked for the former hero animation back. It now plays as the first card of
+"Saving is a reflex" (replacing the static dialog), retold as a design story: Halli's real
+personal site → the save dialog finds the board and suggests tags → saved into Design
+systems next to Laws of UX (real page, real cover, favicon fetched like the others). Same
+loop, IntersectionObserver and reduced-motion behaviour as before.
+
+### 7. Deploy
+
+`git push marqly-astro feat/ask-assistant-home:main` twice on the founder's go: `8adaee4`
+(Ask homepage + the parallel workstream's 12 uncommitted files, committed as `chore:` so they
+are distinguishable) and `c8e9343` (save loop). Live on www.marqly.com.
 
 ---
 
