@@ -1,0 +1,9 @@
+{
+  "has_ai": true,
+  "ai_name": "Linkwarden AI Tagging",
+  "auto_tagging": true,
+  "auto_summaries": false,
+  "qa_chat_over_saves": false,
+  "semantic_retrieval": false,
+  "notes": "Provides basic automated tag suggestions on Cloud or via custom OpenAI API key."
+}

@@ -1,0 +1,13 @@
+{
+  "karakeep_advantages": [
+    "Self-hosted Docker deployment",
+    "Local Ollama model support",
+    "MCP server for local agents"
+  ],
+  "marqly_differentiation": [
+    "Zero infrastructure management",
+    "Cloud AI summaries included out of the box",
+    "Interactive YouTube chat and transcripts",
+    "Clipboard history and tab saver extensions"
+  ]
+}

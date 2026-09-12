@@ -1,0 +1,10 @@
+{
+  "architecture": "Keyword search across article titles, URLs, and (on Premium) full article text.",
+  "filtering": [
+    "Folders",
+    "Liked",
+    "Archive"
+  ],
+  "syntax_support": false,
+  "semantic_capabilities": "None"
+}

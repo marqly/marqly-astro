@@ -1,0 +1,17 @@
+{
+  "entity": "Anybox",
+  "slug": "anybox",
+  "aka": [
+    "anybox-app",
+    "anybox-for-mac",
+    "anybox-bookmark-manager"
+  ],
+  "website": "https://anybox.app",
+  "category": "bookmark-manager",
+  "status": "active",
+  "value_prop": "Fast, local-first, native Apple bookmark manager with iCloud sync, Raycast integration, and offline archiving.",
+  "honest_verdict": "The best native bookmark manager on macOS and iOS, but completely unusable outside the Apple ecosystem with zero AI features.",
+  "best_for": "Apple-exclusive power users who prioritize native macOS speed, keyboard shortcuts (Raycast/Alfred), and lifetime pricing over AI.",
+  "marqly_positioning": "Anybox requires manual filing and Apple-only devices; Marqly works cross-platform with AI auto-tagging, summaries, and semantic search.",
+  "last_verified_at": "2026-09-12"
+}

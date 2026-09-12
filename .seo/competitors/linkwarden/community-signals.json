@@ -1,0 +1,12 @@
+{
+  "why_users_stay": [
+    "Immutable archival PDFs fight link rot",
+    "Clean collaborative team workspaces",
+    "Fair cloud pricing ($3/mo)"
+  ],
+  "why_users_leave": [
+    "Absence of polished native mobile apps",
+    "No semantic search across saves",
+    "Want automated summaries instead of raw archived HTML"
+  ]
+}

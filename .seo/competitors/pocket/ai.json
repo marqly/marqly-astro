@@ -1,0 +1,9 @@
+{
+  "has_ai": false,
+  "ai_name": null,
+  "auto_tagging": false,
+  "auto_summaries": false,
+  "qa_chat_over_saves": false,
+  "semantic_retrieval": false,
+  "notes": "Pocket had no generative AI or semantic search prior to its shutdown."
+}

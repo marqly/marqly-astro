@@ -1,0 +1,14 @@
+{
+  "web": false,
+  "macos": true,
+  "windows": false,
+  "linux": false,
+  "ios": true,
+  "android": false,
+  "chrome_extension": true,
+  "firefox_extension": true,
+  "safari_extension": true,
+  "edge_extension": true,
+  "visionos": true,
+  "notes": "Chrome/Edge/Firefox extensions require the Mac app running in background. No web app exists."
+}

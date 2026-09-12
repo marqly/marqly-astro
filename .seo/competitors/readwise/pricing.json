@@ -1,0 +1,22 @@
+{
+  "free_tier": false,
+  "free_tier_limits": "30-day free trial. No permanent free tier.",
+  "trial": "30-day free trial",
+  "paid_tiers": [
+    {
+      "name": "Readwise Lite",
+      "monthly_price": 5.59,
+      "annual_price_per_month": 4.49,
+      "billed_annually": 53.88
+    },
+    {
+      "name": "Readwise Full (includes Reader)",
+      "monthly_price": 12.99,
+      "annual_price_per_month": 9.99,
+      "billed_annually": 119.88
+    }
+  ],
+  "student_discount": "50% discount for verified students and educators",
+  "currency": "USD",
+  "last_verified_at": "2026-09-12"
+}

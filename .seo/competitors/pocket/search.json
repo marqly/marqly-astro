@@ -1,0 +1,10 @@
+{
+  "architecture": "Historical title/URL search on Free tier; full-text article search on Premium tier.",
+  "filtering": [
+    "Tags",
+    "Content type (articles, videos)",
+    "Read status"
+  ],
+  "syntax_support": false,
+  "semantic_capabilities": "None"
+}

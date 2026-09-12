@@ -1,0 +1,18 @@
+{
+  "web_clipper": false,
+  "browser_extension": true,
+  "mobile_share_sheet": true,
+  "manual_tagging": true,
+  "ai_auto_tagging": false,
+  "ai_summaries": false,
+  "semantic_search": false,
+  "full_text_search": true,
+  "highlights": true,
+  "read_mode": false,
+  "pdf_saving": false,
+  "tab_saver": false,
+  "public_sharing": false,
+  "spaced_repetition": true,
+  "obsidian_sync": true,
+  "notion_sync": true
+}

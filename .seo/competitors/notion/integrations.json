@@ -1,0 +1,10 @@
+{
+  "rest_api": true,
+  "webhooks": true,
+  "mcp_server": true,
+  "zapier": true,
+  "make": true,
+  "slack": true,
+  "github": true,
+  "google_drive": true
+}

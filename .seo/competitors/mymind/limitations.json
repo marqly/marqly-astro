@@ -1,0 +1,9 @@
+{
+  "key_limitations": [
+    "Zero mass-import capability (users cannot bring in Pocket, Raindrop, or Chrome bookmarks)",
+    "Zero sharing: no public boards, no collaborator permissions, no shared links",
+    "AI summaries require top $12.99/month tier",
+    "Free tier strictly limited to 100 cards",
+    "Firefox add-on pulled from store (requires manual file install)"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "architecture": "Highlight search indexed by book, author, and highlight text.",
+  "filtering": [
+    "Book",
+    "Article",
+    "Author",
+    "Tag",
+    "Date"
+  ],
+  "syntax_support": true,
+  "semantic_capabilities": "Limited"
+}

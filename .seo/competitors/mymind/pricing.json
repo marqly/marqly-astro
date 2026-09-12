@@ -1,0 +1,30 @@
+{
+  "free_tier": true,
+  "free_tier_limits": "Free Guest Plan capped at 100 cards; no AI summaries, no reading mode, limited AI tagging.",
+  "trial": "Guest plan serves as permanent trial",
+  "paid_tiers": [
+    {
+      "name": "The Bookmarker",
+      "monthly_price": 4.99,
+      "annual_price_per_month": 4.99,
+      "billed_annually": 59.88,
+      "features": "No AI"
+    },
+    {
+      "name": "Student of Life",
+      "monthly_price": 7.99,
+      "annual_price_per_month": 6.0,
+      "billed_annually": 72.0,
+      "features": "AI tagging & search"
+    },
+    {
+      "name": "Mastermind",
+      "monthly_price": 12.99,
+      "annual_price_per_month": 10.75,
+      "billed_annually": 129.0,
+      "features": "AI summaries & PDF analyzer"
+    }
+  ],
+  "currency": "USD",
+  "last_verified_at": "2026-09-12"
+}

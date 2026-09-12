@@ -1,0 +1,11 @@
+{
+  "rest_api": true,
+  "kindle": true,
+  "kobo": true,
+  "apple_books": true,
+  "obsidian": true,
+  "notion": true,
+  "evernote": true,
+  "logseq": true,
+  "roam": true
+}

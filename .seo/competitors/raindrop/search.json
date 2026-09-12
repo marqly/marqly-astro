@@ -1,0 +1,12 @@
+{
+  "architecture": "Full-text indexing on Pro tier across HTML and PDF contents.",
+  "filtering": [
+    "Collection",
+    "Tag",
+    "Type",
+    "Domain",
+    "Date"
+  ],
+  "syntax_support": true,
+  "semantic_capabilities": "Keyword only"
+}

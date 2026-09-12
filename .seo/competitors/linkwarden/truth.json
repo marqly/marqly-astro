@@ -1,0 +1,16 @@
+{
+  "entity": "Linkwarden",
+  "slug": "linkwarden",
+  "aka": [
+    "linkwarden-app",
+    "linkwarden-archive"
+  ],
+  "website": "https://linkwarden.app",
+  "category": "bookmark-manager",
+  "status": "active",
+  "value_prop": "Open-source, collaborative bookmark manager and webpage archiver preventing link rot through PDF and screenshot preservation.",
+  "honest_verdict": "Superb for archiving and team collection sharing, but lacks first-party native mobile apps and semantic AI search.",
+  "best_for": "Teams, academics, and privacy-conscious users needing verifiable permanent archives (PDF/screenshot) of every saved link.",
+  "marqly_positioning": "Linkwarden specializes in heavy archival copies; Marqly specializes in fast AI organization, semantic retrieval, and reader workflow.",
+  "last_verified_at": "2026-09-12"
+}

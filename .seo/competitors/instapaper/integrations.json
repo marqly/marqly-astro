@@ -1,0 +1,7 @@
+{
+  "rest_api": true,
+  "kindle_sync": true,
+  "readwise_sync": true,
+  "ifttt": true,
+  "zapier": true
+}

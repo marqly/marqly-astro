@@ -1,0 +1,6 @@
+{
+  "rest_api": false,
+  "webhooks": false,
+  "kobo": false,
+  "firefox_native": false
+}

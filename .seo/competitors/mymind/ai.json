@@ -1,0 +1,11 @@
+{
+  "has_ai": true,
+  "ai_name": "mymind AI",
+  "auto_tagging": true,
+  "auto_summaries": true,
+  "qa_chat_over_saves": false,
+  "semantic_retrieval": true,
+  "ocr_support": true,
+  "image_recognition": true,
+  "notes": "Industry-leading computer vision recognizes objects, colors, and fonts inside images. AI summaries gated to $12.99/mo Mastermind tier."
+}

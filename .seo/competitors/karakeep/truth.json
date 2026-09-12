@@ -1,0 +1,17 @@
+{
+  "entity": "Karakeep",
+  "slug": "karakeep",
+  "aka": [
+    "hoarder",
+    "hoarder-app",
+    "karakeep-app"
+  ],
+  "website": "https://karakeep.app",
+  "category": "bookmark-manager",
+  "status": "active",
+  "value_prop": "Open-source, self-hosted bookmark-everything app featuring AI auto-tagging, full-page archiving, and local LLM support.",
+  "honest_verdict": "The best open-source AI bookmark manager if you run Docker, but requires technical self-hosting setup and managing server infrastructure.",
+  "best_for": "Self-hosters, privacy advocates, and developers who want local AI inference (Ollama) and full control over their data.",
+  "marqly_positioning": "Karakeep is for self-hosted Docker servers; Marqly offers the same AI tagging and semantic search instantly in the cloud with zero maintenance.",
+  "last_verified_at": "2026-09-12"
+}

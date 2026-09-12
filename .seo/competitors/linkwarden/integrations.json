@@ -1,0 +1,5 @@
+{
+  "rest_api": true,
+  "webhooks": true,
+  "browser_extensions": true
+}

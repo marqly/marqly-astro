@@ -1,0 +1,9 @@
+{
+  "has_ai": true,
+  "ai_name": "Ghostreader (via Full plan / Reader)",
+  "auto_tagging": false,
+  "auto_summaries": false,
+  "qa_chat_over_saves": false,
+  "semantic_retrieval": false,
+  "notes": "Classic Readwise focuses on algorithmic spaced repetition; generative AI features live in the Reader sibling app."
+}

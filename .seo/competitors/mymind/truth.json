@@ -1,0 +1,16 @@
+{
+  "entity": "mymind",
+  "slug": "mymind",
+  "aka": [
+    "my-mind",
+    "mymind-app"
+  ],
+  "website": "https://mymind.com",
+  "category": "visual",
+  "status": "active",
+  "value_prop": "Private visual home for bookmarks, notes, images, and quotes with zero manual organization and AI computer vision.",
+  "honest_verdict": "The most aesthetically stunning personal canvas on the web, but deliberately anti-social (zero sharing) and strictly forbids bulk import.",
+  "best_for": "Designers, art directors, and visual thinkers who save more images/moodboards than articles and refuse to maintain folders.",
+  "marqly_positioning": "Marqly provides the same zero-maintenance AI tagging and semantic retrieval as mymind, but adds bulk bookmark imports, public sharing, and article reader highlights.",
+  "last_verified_at": "2026-09-12"
+}

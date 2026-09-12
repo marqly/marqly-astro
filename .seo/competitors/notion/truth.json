@@ -1,0 +1,18 @@
+{
+  "entity": "Notion",
+  "slug": "notion",
+  "aka": [
+    "notion-app",
+    "notion-web-clipper",
+    "notion-ai"
+  ],
+  "website": "https://www.notion.so",
+  "category": "workspace",
+  "slice": "bookmark-and-research-database",
+  "status": "active",
+  "value_prop": "Flexible all-in-one connected workspace where databases and pages can store clipped web content.",
+  "honest_verdict": "Unmatched for team wikis and structured relational databases, but over-complex, slow, and high-maintenance for personal web bookmarking.",
+  "best_for": "Users already living in Notion who want research and web clips directly connected to project tasks, CRM, or client documents.",
+  "marqly_positioning": "Marqly provides a purpose-built, zero-maintenance AI bookmark manager that auto-organizes and semantically searches saves without requiring database schema setup.",
+  "last_verified_at": "2026-09-12"
+}

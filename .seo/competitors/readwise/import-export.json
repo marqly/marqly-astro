@@ -1,0 +1,22 @@
+{
+  "import_formats": [
+    "Kindle sync",
+    "Apple Books",
+    "Pocket",
+    "Instapaper",
+    "Twitter/X",
+    "CSV"
+  ],
+  "export_formats": [
+    "Markdown",
+    "CSV",
+    "JSON",
+    "Direct sync to Notion/Obsidian"
+  ],
+  "field_preservation": {
+    "tags": true,
+    "notes": true,
+    "highlights": true,
+    "timestamps": true
+  }
+}

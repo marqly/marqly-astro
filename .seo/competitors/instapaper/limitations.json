@@ -1,0 +1,9 @@
+{
+  "key_limitations": [
+    "No semantic search (cannot find articles without remembering exact words)",
+    "No automatic tagging or categorizing",
+    "No video transcript or YouTube chat capabilities",
+    "Folder organization is flat (no nested subfolders)",
+    "Free plan limits highlight notes to 5 per month"
+  ]
+}

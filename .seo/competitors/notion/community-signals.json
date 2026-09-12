@@ -1,0 +1,11 @@
+{
+  "why_users_stay": [
+    "Already track their entire work and life in Notion",
+    "Relational database links to tasks and projects"
+  ],
+  "why_users_leave": [
+    "Maintenance fatigue: building schemas instead of saving",
+    "Slow web clipper on mobile",
+    "Database lags with thousands of web saves"
+  ]
+}

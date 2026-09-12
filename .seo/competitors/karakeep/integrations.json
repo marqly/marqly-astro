@@ -1,0 +1,7 @@
+{
+  "rest_api": true,
+  "webhooks": true,
+  "mcp_server": true,
+  "cli": true,
+  "rss": true
+}

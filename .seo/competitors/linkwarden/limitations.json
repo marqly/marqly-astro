@@ -1,0 +1,8 @@
+{
+  "key_limitations": [
+    "No first-party native iOS or Android apps (relies on PWA and third-party clients)",
+    "No semantic search (only exact keyword matches)",
+    "No AI article summaries or conversational Q&A",
+    "Archival storage can consume tens of gigabytes quickly"
+  ]
+}

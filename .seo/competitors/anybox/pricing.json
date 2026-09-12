@@ -1,0 +1,25 @@
+{
+  "free_tier": true,
+  "free_tier_limits": "Free tier capped at 50 saved links and 12 Anydock slots.",
+  "trial": "Free tier serves as ongoing trial",
+  "paid_tiers": [
+    {
+      "name": "Monthly",
+      "monthly_price": 1.99,
+      "annual_price_per_month": 1.99,
+      "billed_annually": 23.88
+    },
+    {
+      "name": "Annual",
+      "monthly_price": 1.25,
+      "annual_price_per_month": 1.25,
+      "billed_annually": 14.99
+    },
+    {
+      "name": "Lifetime Universal",
+      "one_time_price": 39.99
+    }
+  ],
+  "currency": "USD",
+  "last_verified_at": "2026-09-12"
+}

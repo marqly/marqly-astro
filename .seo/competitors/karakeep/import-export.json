@@ -1,0 +1,21 @@
+{
+  "import_formats": [
+    "Pocket",
+    "Instapaper",
+    "Browser HTML",
+    "Omnivore",
+    "Linkwarden",
+    "mymind"
+  ],
+  "export_formats": [
+    "JSON",
+    "HTML",
+    "Archive files"
+  ],
+  "field_preservation": {
+    "tags": true,
+    "notes": true,
+    "highlights": true,
+    "timestamps": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "entity": "Readwise",
+  "slug": "readwise",
+  "aka": [
+    "readwise-app",
+    "readwise-highlights",
+    "readwise-sync"
+  ],
+  "website": "https://readwise.io",
+  "category": "highlighter",
+  "status": "active",
+  "value_prop": "Highlight aggregator and spaced repetition resurfacing tool syncing reading notes across Kindle, iBooks, and PKM tools.",
+  "honest_verdict": "Gold standard for syncing book highlights into Obsidian/Notion, but expensive and not designed for saving web links or general bookmarking.",
+  "best_for": "Avid book readers and PKM enthusiasts who want spaced-repetition highlight review and direct sync to personal knowledge bases.",
+  "marqly_positioning": "Readwise is for book highlight review; Marqly is an AI bookmark manager for organizing, summarizing, and semantically retrieving all web content.",
+  "last_verified_at": "2026-09-12"
+}

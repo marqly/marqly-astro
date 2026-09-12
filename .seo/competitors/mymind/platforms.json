@@ -1,0 +1,12 @@
+{
+  "web": true,
+  "macos": true,
+  "windows": false,
+  "linux": false,
+  "ios": true,
+  "android": true,
+  "chrome_extension": true,
+  "firefox_extension": false,
+  "safari_extension": true,
+  "edge_extension": true
+}

@@ -1,0 +1,12 @@
+{
+  "has_ai": true,
+  "ai_name": "Notion AI",
+  "auto_tagging": false,
+  "auto_summaries": true,
+  "qa_chat_over_saves": true,
+  "semantic_retrieval": true,
+  "ocr_support": false,
+  "local_ai_support": false,
+  "requires_addon_subscription": true,
+  "notes": "Notion AI can fill database properties and answer questions across workspace pages, but web clips are not automatically summarized or tagged upon clipping unless database autofill formulas are configured."
+}

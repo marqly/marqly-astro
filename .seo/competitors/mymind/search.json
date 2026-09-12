@@ -1,0 +1,11 @@
+{
+  "architecture": "Deep multimodal indexing combining visual embeddings, OCR text, and semantic vectors.",
+  "filtering": [
+    "Colors",
+    "Card types (image, quote, note, link)",
+    "Smart Spaces",
+    "Date"
+  ],
+  "syntax_support": false,
+  "semantic_capabilities": "High — searches by natural language descriptions and colors"
+}

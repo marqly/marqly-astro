@@ -1,0 +1,9 @@
+{
+  "key_limitations": [
+    "Web Clipper often strips rich styling, complex DOM elements, or lazy-loaded images",
+    "Requires manual database structure design and property configuration",
+    "No distraction-free article reader mode",
+    "No native text highlighter on webpages",
+    "Web clipping is slow compared to lightweight bookmark extensions"
+  ]
+}

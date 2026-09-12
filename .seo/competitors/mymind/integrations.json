@@ -1,0 +1,6 @@
+{
+  "rest_api": true,
+  "webhooks": false,
+  "sharing": false,
+  "notes": "Deliberately isolated product with no social features or third-party webhooks; API entered beta in mid-2026."
+}

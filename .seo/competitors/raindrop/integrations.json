@@ -1,0 +1,8 @@
+{
+  "rest_api": true,
+  "webhooks": true,
+  "ifttt": true,
+  "zapier": true,
+  "alfred": true,
+  "raycast": true
+}

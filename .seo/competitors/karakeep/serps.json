@@ -1,0 +1,20 @@
+{
+  "target_queries": [
+    "karakeep alternative",
+    "hoarder alternative",
+    "karakeep vs linkwarden",
+    "self hosted bookmark manager"
+  ],
+  "top_competitors_in_serp": [
+    "Linkwarden",
+    "Wallabag",
+    "Raindrop.io",
+    "Marqly",
+    "Reddit r/selfhosted"
+  ],
+  "serp_features": [
+    "GitHub repository cards",
+    "Reddit threads",
+    "Self-hosted directories"
+  ]
+}

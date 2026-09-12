@@ -1,0 +1,10 @@
+{
+  "has_ai": true,
+  "ai_name": "Karakeep AI",
+  "auto_tagging": true,
+  "auto_summaries": true,
+  "qa_chat_over_saves": false,
+  "semantic_retrieval": true,
+  "local_ai_support": true,
+  "notes": "Connects to any OpenAI-compatible endpoint or local Ollama instance for 100% private, on-device AI inference."
+}

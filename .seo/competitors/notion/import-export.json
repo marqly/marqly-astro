@@ -1,0 +1,24 @@
+{
+  "import_formats": [
+    "CSV",
+    "HTML",
+    "Markdown",
+    "Word docx",
+    "Trello",
+    "Asana"
+  ],
+  "imports_pocket": false,
+  "imports_raindrop": false,
+  "imports_browser_html": true,
+  "export_formats": [
+    "Markdown & CSV",
+    "HTML",
+    "PDF"
+  ],
+  "field_preservation": {
+    "tags": true,
+    "notes": true,
+    "highlights": false,
+    "timestamps": true
+  }
+}

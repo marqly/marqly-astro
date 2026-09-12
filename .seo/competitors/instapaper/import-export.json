@@ -1,0 +1,17 @@
+{
+  "import_formats": [
+    "Pocket export HTML",
+    "Browser bookmarks HTML",
+    "Instapaper CSV"
+  ],
+  "export_formats": [
+    "HTML",
+    "CSV"
+  ],
+  "field_preservation": {
+    "tags": false,
+    "notes": true,
+    "highlights": true,
+    "timestamps": true
+  }
+}

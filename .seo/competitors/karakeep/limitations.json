@@ -1,0 +1,9 @@
+{
+  "key_limitations": [
+    "Self-hosting requires Linux/Docker server administration",
+    "Requires providing personal OpenAI API keys or hosting resource-heavy local models",
+    "Karakeep Cloud option is still in beta with 10-bookmark free limit",
+    "No multi-turn YouTube video chat or transcript interaction",
+    "No tab session manager"
+  ]
+}

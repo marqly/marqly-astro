@@ -1,0 +1,14 @@
+{
+  "import_formats": [],
+  "export_formats": [
+    "HTML (ril_export.html)",
+    "CSV (in export ZIP)"
+  ],
+  "field_preservation": {
+    "tags": true,
+    "notes": false,
+    "highlights": false,
+    "timestamps": true
+  },
+  "status_note": "Export window closed on October 8, 2025. Unexported data cannot be retrieved from Mozilla."
+}

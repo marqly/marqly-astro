@@ -1,0 +1,16 @@
+{
+  "entity": "Instapaper",
+  "slug": "instapaper",
+  "aka": [
+    "instapaper-app",
+    "instapaper-read-later"
+  ],
+  "website": "https://www.instapaper.com",
+  "category": "read-it-later",
+  "status": "active",
+  "value_prop": "Clean, distraction-free read-it-later tool emphasizing classic typography, speed reading, and Kindle delivery.",
+  "honest_verdict": "Exceptional minimalist reading environment and Kindle integration, but rudimentary organization and keyword-only search.",
+  "best_for": "Dedicated long-form article readers with Kindle devices who want a clean, quiet reading queue rather than a searchable knowledge database.",
+  "marqly_positioning": "Instapaper is a reading queue; Marqly is a permanent AI-indexed knowledge library with semantic search, auto-tagging, and YouTube transcript AI.",
+  "last_verified_at": "2026-09-12"
+}

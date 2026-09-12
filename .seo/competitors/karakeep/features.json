@@ -1,0 +1,19 @@
+{
+  "web_clipper": false,
+  "browser_extension": true,
+  "mobile_share_sheet": true,
+  "manual_tagging": true,
+  "ai_auto_tagging": true,
+  "ai_summaries": true,
+  "semantic_search": true,
+  "full_text_search": true,
+  "highlights": true,
+  "read_mode": true,
+  "pdf_saving": true,
+  "tab_saver": false,
+  "public_sharing": true,
+  "nested_folders": false,
+  "self_hosted": true,
+  "full_page_archiving": true,
+  "local_ai_support": true
+}

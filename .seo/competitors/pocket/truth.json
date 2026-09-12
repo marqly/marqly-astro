@@ -1,0 +1,19 @@
+{
+  "entity": "Pocket",
+  "slug": "pocket",
+  "aka": [
+    "mozilla-pocket",
+    "getpocket",
+    "read-it-later"
+  ],
+  "website": "https://getpocket.com",
+  "category": "read-it-later",
+  "status": "shutdown",
+  "shutdown_date": "2025-07-08",
+  "export_closed_date": "2025-10-08",
+  "value_prop": "Mozilla's beloved read-it-later pioneer (2007–2025) that let millions save articles, videos, and links to read offline.",
+  "honest_verdict": "Discontinued service. Servers decommissioned and all user data permanently deleted. Now purely a displaced-user migration market.",
+  "best_for": "Displaced users who have a saved Pocket export file (.html or .csv) and need a modern AI-powered home for their reading library.",
+  "marqly_positioning": "Marqly is the premier post-Pocket replacement in 2026: it imports old Pocket exports in minutes, restores tags, and adds the semantic AI search Pocket never had.",
+  "last_verified_at": "2026-09-12"
+}

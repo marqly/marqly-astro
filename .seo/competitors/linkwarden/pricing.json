@@ -1,0 +1,15 @@
+{
+  "free_tier": true,
+  "free_tier_limits": "Self-hosted is completely free. Cloud offers 14-day free trial.",
+  "trial": "14-day free trial on Cloud",
+  "paid_tiers": [
+    {
+      "name": "Linkwarden Cloud",
+      "monthly_price": 4.0,
+      "annual_price_per_month": 3.0,
+      "billed_annually": 36.0
+    }
+  ],
+  "currency": "USD",
+  "last_verified_at": "2026-09-12"
+}

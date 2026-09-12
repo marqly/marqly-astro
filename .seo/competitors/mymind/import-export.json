@@ -1,0 +1,17 @@
+{
+  "import_formats": [],
+  "imports_pocket": false,
+  "imports_raindrop": false,
+  "imports_browser_html": false,
+  "import_philosophy": "Strictly no bulk import by design. The company argues bringing old bookmarks creates clutter.",
+  "export_formats": [
+    "CSV (cards.csv)",
+    "ZIP of images/PDFs (desktop Chrome/Edge only)"
+  ],
+  "field_preservation": {
+    "tags": true,
+    "notes": true,
+    "highlights": false,
+    "timestamps": true
+  }
+}

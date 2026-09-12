@@ -1,0 +1,19 @@
+{
+  "web_clipper": false,
+  "browser_extension": true,
+  "mobile_share_sheet": true,
+  "manual_tagging": true,
+  "ai_auto_tagging": false,
+  "ai_summaries": false,
+  "semantic_search": false,
+  "full_text_search": false,
+  "highlights": false,
+  "read_mode": true,
+  "pdf_saving": true,
+  "tab_saver": false,
+  "public_sharing": false,
+  "nested_folders": true,
+  "anydock": true,
+  "raycast_integration": true,
+  "offline_reading": true
+}

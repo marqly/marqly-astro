@@ -1,0 +1,8 @@
+{
+  "rest_api": false,
+  "raycast": true,
+  "alfred": true,
+  "shortcuts": true,
+  "applescript": true,
+  "x_callback_url": true
+}

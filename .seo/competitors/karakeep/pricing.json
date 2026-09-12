@@ -1,0 +1,15 @@
+{
+  "free_tier": true,
+  "free_tier_limits": "Self-hosted version is 100% free forever. Karakeep Cloud free tier caps at 10 bookmarks.",
+  "trial": "Self-hosted requires no trial",
+  "paid_tiers": [
+    {
+      "name": "Karakeep Cloud Pro",
+      "monthly_price": 4.0,
+      "annual_price_per_month": 4.0,
+      "billed_annually": 48.0
+    }
+  ],
+  "currency": "USD",
+  "last_verified_at": "2026-09-12"
+}

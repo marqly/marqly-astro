@@ -1,0 +1,11 @@
+{
+  "architecture": "PostgreSQL full-text search indexing titles, descriptions, and readability text.",
+  "filtering": [
+    "Collections",
+    "Tags",
+    "Archive status",
+    "Collaborator"
+  ],
+  "syntax_support": true,
+  "semantic_capabilities": "Keyword-only"
+}

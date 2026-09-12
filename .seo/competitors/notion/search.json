@@ -1,0 +1,13 @@
+{
+  "architecture": "Full-workspace text indexing with vector search for Notion AI Q&A",
+  "filtering": [
+    "Database properties",
+    "Created date",
+    "Created by",
+    "Page type",
+    "Tags"
+  ],
+  "syntax_support": true,
+  "speed": "Moderate to slow on massive workspaces with thousands of web clips",
+  "semantic_capabilities": "Available via Notion AI Q&A prompt interface"
+}

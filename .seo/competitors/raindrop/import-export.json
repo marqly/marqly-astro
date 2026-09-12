@@ -1,0 +1,17 @@
+{
+  "import_formats": [
+    "Browser HTML",
+    "Pocket export",
+    "CSV"
+  ],
+  "export_formats": [
+    "HTML",
+    "CSV"
+  ],
+  "field_preservation": {
+    "tags": true,
+    "notes": true,
+    "highlights": true,
+    "timestamps": true
+  }
+}

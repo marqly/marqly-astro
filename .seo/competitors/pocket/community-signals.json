@@ -1,0 +1,13 @@
+{
+  "why_users_stay": [
+    "Service is dead; users were forced to leave"
+  ],
+  "why_users_leave": [
+    "Mozilla discontinued the product"
+  ],
+  "switching_triggers": [
+    "Need to view or organize exported files",
+    "Need a Firefox/Chrome one-click save replacement",
+    "Need clean distraction-free reader"
+  ]
+}

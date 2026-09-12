@@ -1,0 +1,27 @@
+{
+  "free_tier": true,
+  "free_tier_limits": "Unlimited pages and blocks for individuals; 5MB file upload limit; 10 guest collaborators.",
+  "trial": "Free tier serves as ongoing trial",
+  "paid_tiers": [
+    {
+      "name": "Plus",
+      "monthly_price": 12.0,
+      "annual_price_per_month": 10.0,
+      "billed_annually": 120.0
+    },
+    {
+      "name": "Business",
+      "monthly_price": 18.0,
+      "annual_price_per_month": 15.0,
+      "billed_annually": 180.0
+    }
+  ],
+  "ai_addon": {
+    "name": "Notion AI",
+    "price_per_member_monthly": 10.0,
+    "annual_discount_price": 8.0
+  },
+  "student_discount": "Free Plus plan for students and educators with school email",
+  "currency": "USD",
+  "last_verified_at": "2026-09-12"
+}

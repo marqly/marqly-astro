@@ -1,0 +1,29 @@
+{
+  "branded": [
+    "karakeep",
+    "hoarder app",
+    "hoarder bookmark app",
+    "karakeep app"
+  ],
+  "alternatives": [
+    "karakeep alternative",
+    "hoarder alternative",
+    "karakeep cloud alternative",
+    "hoarder app alternative"
+  ],
+  "comparisons": [
+    "karakeep vs linkwarden",
+    "karakeep vs raindrop",
+    "karakeep vs hoarder",
+    "karakeep vs marqly"
+  ],
+  "problems": [
+    "karakeep setup docker",
+    "karakeep self hosted alternative"
+  ],
+  "generics": [
+    "self hosted bookmark manager",
+    "open source ai bookmark manager",
+    "open source raindrop alternative"
+  ]
+}

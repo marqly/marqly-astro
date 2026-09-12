@@ -1,0 +1,9 @@
+{
+  "has_ai": true,
+  "ai_name": "Instapaper AI",
+  "auto_tagging": false,
+  "auto_summaries": true,
+  "qa_chat_over_saves": false,
+  "semantic_retrieval": false,
+  "notes": "Offers basic AI article summaries and text-to-speech AI voices for Premium subscribers."
+}

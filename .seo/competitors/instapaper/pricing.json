@@ -1,0 +1,15 @@
+{
+  "free_tier": true,
+  "free_tier_limits": "Unlimited articles, capped at 5 notes/highlights per month, basic search, no speed reading.",
+  "trial": "None",
+  "paid_tiers": [
+    {
+      "name": "Instapaper Premium",
+      "monthly_price": 2.99,
+      "annual_price_per_month": 2.5,
+      "billed_annually": 29.99
+    }
+  ],
+  "currency": "USD",
+  "last_verified_at": "2026-09-12"
+}

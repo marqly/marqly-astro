@@ -1,0 +1,12 @@
+{
+  "why_users_stay": [
+    "100% data ownership and self-hosting",
+    "Local Ollama AI inference",
+    "Full-page video and screenshot archiving"
+  ],
+  "why_users_leave": [
+    "Server maintenance burnout",
+    "Cloud beta is too restrictive",
+    "Want polished managed cloud sync with zero DevOps"
+  ]
+}

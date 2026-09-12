@@ -1,0 +1,17 @@
+{
+  "import_formats": [
+    "Browser HTML",
+    "Pocket export",
+    "JSON"
+  ],
+  "export_formats": [
+    "HTML",
+    "JSON"
+  ],
+  "field_preservation": {
+    "tags": true,
+    "notes": true,
+    "highlights": false,
+    "timestamps": true
+  }
+}
