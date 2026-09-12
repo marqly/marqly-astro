@@ -16,9 +16,9 @@ ctaUrl: "https://app.marqly.com"
 ctaLabel: "Try Marqly free"
 faqs:
   - q: "Is Raindrop.io worth it?"
-    a: "Yes — for most people Raindrop.io is worth it even at $0. The free plan includes unlimited bookmarks, collections, and highlights across every platform. Pro at $27.99/year is one of the cheapest paid tiers in the category and adds full-text search, permanent page copies, and AI suggestions. The only reason to look elsewhere is if you need to find saves by describing them from memory — Raindrop's search is keyword-based, not semantic."
+    a: "Yes — for most people Raindrop.io is worth it even at $0. The free plan includes unlimited bookmarks and collections with up to 3 highlights per bookmark across every platform. Pro at $27.99/year is one of the cheapest paid tiers in the category and adds full-text search, permanent page copies, annotations, and AI suggestions. The only reason to look elsewhere is if you need to find saves by describing them from memory — Raindrop's search is keyword-based, not semantic."
   - q: "Is Raindrop.io free?"
-    a: "Yes. Raindrop.io has a permanent free plan with unlimited bookmarks, unlimited collections, unlimited highlights, and apps for web, Mac, Windows, iOS, and Android, plus 100 MB/month of file uploads. It is not a trial — it never expires. Pro ($27.99/year or $2.99/month) adds full-text search, a web archive, an AI assistant, reminders, annotations, and 10 GB/month uploads."
+    a: "Yes. Raindrop.io has a permanent free plan with unlimited bookmarks, unlimited collections, up to 3 highlights per bookmark, and apps for web, Mac, Windows, Linux, iOS, and Android, plus 100 MB/month of file uploads. It is not a trial — it never expires. Pro ($27.99/year or $2.99/month) adds full-text search, a web archive, an AI assistant, reminders, annotations, and 10 GB/month uploads."
   - q: "What are the best Raindrop.io alternatives?"
     a: "The main alternatives are Marqly (AI-first, semantic search by meaning, auto-tagging, AI summaries), Karakeep or Linkwarden (open source and self-hosted), Readwise Reader (reading and highlighting power tool), and Instapaper (minimal read-it-later). Marqly imports Raindrop collections directly, so switching takes minutes."
   - q: "Does Raindrop.io have AI search?"
@@ -49,7 +49,7 @@ Articles, videos, images, PDFs, music links, and file uploads (100 MB/month free
 
 ### Highlights and annotations
 
-You can highlight text on saved pages on any plan — highlights are unlimited even on free. Pro adds notes attached to highlights (annotations). It's a capable system, though highlights live inside Raindrop's copy of the page rather than persisting on the live web page when you revisit it.
+You can highlight text on saved pages on any plan — the free tier includes up to 3 highlights per bookmark, while Pro unlocks unlimited highlights in 4 colors. Pro adds notes attached to highlights (annotations). It's a capable system, though highlights live inside Raindrop's copy of the page rather than persisting on the live web page when you revisit it.
 
 ### Permanent copies and full-text search (Pro)
 
@@ -69,7 +69,7 @@ Verified August 2026. Raindrop's site advertises a ~20% discount for yearly bill
 
 | Plan | Price | What you get |
 | --- | --- | --- |
-| **Free** | $0, forever | Unlimited bookmarks, collections, and highlights; all apps and extensions; sharing; 100 MB/month uploads |
+| **Free** | $0, forever | Unlimited bookmarks and collections, up to 3 highlights per bookmark; all apps and extensions; sharing; 100 MB/month uploads |
 | **Pro** | $27.99/year (≈$2.33/month) or $2.99/month | Everything in Free plus full-text search, permanent page copies, AI assistant + AI suggestions, annotations, reminders, duplicate and broken-link finder, daily backups, 10 GB/month uploads, priority support |
 
 There's no free trial of Pro — but there doesn't need to be, because the free plan is permanent and complete enough to evaluate the product for months. Data export is available on every plan, so there's no lock-in.
@@ -106,7 +106,7 @@ Honest table — Raindrop wins several rows outright:
 | AI summaries | No | **Yes** |
 | AI Q&A over your saves | AI assistant (Pro) | Yes (Pro) |
 | YouTube | Transcript included in Pro search | **AI summary, chat, and transcript on the watch page** |
-| Highlights | On saved copies, unlimited | On the live page, 6 colors, persist on revisit |
+| Highlights | On saved copies (3/bookmark Free, unlimited on Pro) | On the live page, 6 colors, persist on revisit |
 | Switching cost | — | **Marqly imports Raindrop collections directly** |
 
 The honest summary: Raindrop is cheaper, broader, and better on Android. Marqly's entire reason to exist is the row Raindrop can't fill — retrieval by meaning, plus the AI layer (auto-tags, summaries) applied to everything automatically rather than as a Pro-gated assistant. If you've never once failed to find an old save, keep Raindrop and keep your $20. If "I know I saved this somewhere" is a weekly experience, that's the problem [Marqly](https://app.marqly.com) was built around — and since it imports Raindrop collections, testing that claim costs you nothing.
