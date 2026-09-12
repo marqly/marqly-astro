@@ -92,13 +92,8 @@ const jsonLd = [
         },
       ],
     },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.8',
-      reviewCount: '150',
-      bestRating: '5',
-      worstRating: '1',
-    },
+    // No aggregateRating: the old 4.8/150 value was fabricated and self-serving
+    // ratings are not eligible for review stars. See src/lib/schema.ts.
     author: {
       '@type': 'Organization',
       name: 'Marqly',

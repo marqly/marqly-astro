@@ -70,13 +70,12 @@ export function softwareApplication() {
       priceCurrency: 'USD',
       offerCount: 2,
     },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.8',
-      reviewCount: '150',
-      bestRating: '5',
-      worstRating: '1',
-    },
+    // No aggregateRating. The previous value (4.8 / 150 reviews) was fabricated:
+    // live store ratings are far lower (see docs/superpowers/specs/2026-08-02-
+    // marqly-product-facts.md → "Social proof"), and Google does not grant review
+    // stars for self-serving ratings a site gives its own product. Re-adding a
+    // rating here risks a spammy-structured-data manual action on every page that
+    // renders this builder. If ratings are ever cited, update the facts sheet first.
     author: {
       '@type': 'Organization',
       name: 'Marqly',
