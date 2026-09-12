@@ -13,31 +13,30 @@ tags:
 ctaUrl: "https://app.marqly.com/lp/replace-pocket"
 ctaLabel: "Try Marqly free"
 faqs:
-  - q: "How do I export my Pocket data?"
-    a: "Go to getpocket.com/export, sign in if prompted, and Pocket generates an HTML file containing all your saved URLs, titles, and tags. Save that file somewhere safe, such as pocket-export.html in your Downloads. The exported HTML is a standard bookmarks file, so it's portable to almost any modern bookmark tool."
+  - q: "Can I still export data directly from Pocket today?"
+    a: "No. Pocket officially shut down on July 8, 2025, and Mozilla closed the export window on October 8, 2025, permanently deleting remaining server data. This guide helps users who downloaded their export file (.html or .csv) migrate their saves into Marqly, or recover saves synced to browser bookmarks."
   - q: "Will I lose my tags when I migrate from Pocket?"
     a: "No. The Pocket export includes tags, and good importers preserve them. Marqly maps them automatically, so your saves appear with titles and tags intact. The whole import typically finishes in under two minutes for a few thousand items."
   - q: "Do I need a credit card to migrate my Pocket library?"
     a: "Not with tools that offer a free tier or a no-card trial. You can import and browse your full library before deciding to pay. Marqly, for example, lets you create a free account, import your Pocket export, and explore everything before committing."
-  - q: "What if I can no longer access Pocket's export?"
-    a: "If the endpoint is down, check whether you previously synced Pocket with another service, since some browsers and tools cached copies. Failing that, any tool you connected Pocket to in the past may still hold a copy you can re-export."
+  - q: "What if I missed the Pocket export deadline?"
+    a: "If you missed the October 8, 2025 deadline, Mozilla's servers can no longer generate an export. However, if you had Pocket synced with Firefox or exported browser bookmarks previously, you can import that browser HTML file directly into Marqly."
 heroImage: ../../assets/blog/how-to-export-migrate-pocket-data.png
 heroAlt: "How to Export and Migrate Your Pocket Data in 2026 (Step-by-Step) — illustration"
 ogImage: "https://www.marqly.com/og/how-to-export-migrate-pocket-data.png"
 ---
 
-Mozilla shut down Pocket in 2025, and if you haven't already pulled your data out, your years of saved articles are at risk. The good news: exporting is quick, and importing into a modern app takes a couple of minutes. This guide walks you through both — from getting your data out of Pocket to landing it somewhere it's actually searchable again.
+Mozilla officially shut down Pocket on July 8, 2025, and closed its export window on October 8, 2025. If you downloaded your export file before the servers went offline, your saves are safe — you just need a modern home for them. This guide walks you through migrating your Pocket archive into Marqly, where your old saves become searchable by meaning.
 
-## Step 1: Export your data from Pocket
+## Step 1: Locate your Pocket export archive
 
-If Pocket's export is still accessible for your account, here's the path:
+Because Mozilla's export endpoint is closed, you will use the backup file you previously downloaded:
 
-1. Go to **getpocket.com/export** (the export endpoint Pocket provided to departing users).
-2. Sign in if prompted.
-3. Pocket generates an **HTML file** containing all your saved URLs, titles, and tags.
-4. Save that file somewhere safe (e.g. `pocket-export.html` in your Downloads).
+1. Look in your **Downloads** or **Documents** folder for `ril_export.html`, `pocket-export.html`, or a `pocket-export.zip` archive.
+2. If you have a ZIP archive, unzip it — inside you will find your Pocket saves in HTML or CSV format.
+3. If you never downloaded your Pocket archive before October 2025, check if your Pocket saves were synced to your browser bookmarks (e.g., Firefox). You can export your browser bookmarks as an HTML file and import that instead.
 
-> **Do this now if you haven't.** Once a shutdown service fully decommissions its servers, export endpoints can disappear without warning. Your export file is your insurance.
+> **Privacy note:** Your Pocket file is processed securely. You can also inspect or convert it offline using our free browser utility: the [Pocket Export Converter](/tools/pocket-export-converter).
 
 The exported HTML is a standard bookmarks file — the same format browsers use — so it's portable to almost any modern read-it-later or bookmark tool. If you're curious exactly [what's inside the Pocket export file](/blog/what-is-in-your-pocket-export-file) — and what it leaves behind — it's worth a quick read before you import.
 

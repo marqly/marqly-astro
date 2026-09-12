@@ -15,7 +15,7 @@ ctaLabel: "免费试用 Marqly"
 lang: "zh"
 faqs:
   - q: "如何导出 Pocket 中的收藏数据？"
-    a: "访问 getpocket.com/export 登录账户，下载系统生成的 HTML 或 CSV 格式备份文件。"
+    a: "Mozilla 已于 2025 年 7 月 8 日停运 Pocket，官方数据导出窗口也已于 2025 年 10 月 8 日关闭。如果您此前已下载了备份文件（.html 或 .csv），可直接导入 Marqly。"
   - q: "迁移后我的标签（Tags）会丢失吗？"
     a: "不会。像 Marqly 这样成熟的工具能完美保留所有原始标题和标签结构。"
 heroImage: ../../../assets/blog/how-to-export-migrate-pocket-data.png
@@ -28,7 +28,7 @@ heroAlt: "Pocket数据导出与迁移指南插图"
 
 ## 第 1 步：从 Pocket 导出数据备份
 
-1. 前往 **getpocket.com/export** 并登录个人账号。
+1. 找到此前已下载保存的 Pocket 导出文件（`ril_export.html`、`pocket-export.html` 或 ZIP）。
 2. 点击导出链接下载生成的 `pocket-export.html` 文件。
 3. 务必妥善保存该备份文件，建议在云盘中留存一份。
 

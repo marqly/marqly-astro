@@ -15,7 +15,7 @@ ctaLabel: "Marqlyを無料で試す"
 lang: "ja"
 faqs:
   - q: "Pocketのデータはどうやってエクスポートしますか？"
-    a: "getpocket.com/export にアクセスしてログインし、生成されるHTMLまたはCSVファイルをダウンロードします。"
+    a: "Mozillaは2025年7月8日にPocketサービスを終了し、データのエクスポート受付も2025年10月8日に完全に終了しました。既にエクスポートファイル（.htmlまたは.csv）をお持ちの方は、Marqlyに直接インポート可能です。"
   - q: "移行時にタグは引き継がれますか？"
     a: "はい。Marqlyなどのツールを使用すれば、既存のタグやタイトルを維持したままインポートできます。"
 heroImage: ../../../assets/blog/how-to-export-migrate-pocket-data.png
@@ -28,7 +28,7 @@ MozillaによるPocketの終了を受け、長年蓄積した保存記事を救�
 
 ## ステップ1：Pocketからデータを書き出す
 
-1. **getpocket.com/export** にアクセスし、ログインします。
+1. 事前にダウンロードしたPocketエクスポートファイル（`ril_export.html`、`pocket-export.html`、またはZIP）をご用意ください。
 2. エクスポートボタンをクリックして `pocket-export.html` を保存します。
 3. ダウンロードしたファイルをPCやクラウドストレージに安全に保管します。
 

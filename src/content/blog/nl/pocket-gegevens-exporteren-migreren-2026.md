@@ -15,7 +15,7 @@ ctaLabel: "Probeer Marqly gratis"
 lang: "nl"
 faqs:
   - q: "Hoe download ik mijn Pocket-archief?"
-    a: "Ga naar getpocket.com/export, log in en download het gegenereerde HTML- of CSV-bestand."
+    a: "Mozilla sloot Pocket op 8 juli 2025 en de exportperiode eindigde op 8 oktober 2025. Gebruikers met een bestaand exportbestand (.html of .csv) kunnen dit direct importeren in Marqly."
   - q: "Blijven mijn tags bewaard bij de overstap?"
     a: "Ja, Marqly behoudt al je oorspronkelijke tags en titels tijdens het importeren."
 heroImage: ../../../assets/blog/how-to-export-migrate-pocket-data.png
@@ -28,7 +28,7 @@ In deze gids ontdek je hoe je jouw gegevens veiligstelt en importeert in een mod
 
 ## Stap 1: Exporteer je gegevens uit Pocket
 
-1. Ga naar **getpocket.com/export** en meld je aan.
+1. Zoek je eerder gedownloade Pocket-exportbestand (`ril_export.html`, `pocket-export.html` of ZIP).
 2. Klik op de exportlink om je bestand `pocket-export.html` op te slaan.
 3. Bewaar dit bestand zorgvuldig als permanente reservekopie.
 

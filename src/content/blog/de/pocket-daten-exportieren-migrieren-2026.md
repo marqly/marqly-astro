@@ -15,7 +15,7 @@ ctaLabel: "Marqly kostenlos testen"
 lang: "de"
 faqs:
   - q: "Wie exportiere ich meine Daten aus Pocket?"
-    a: "Rufen Sie getpocket.com/export auf, melden Sie sich an und laden Sie die generierte HTML- oder CSV-Datei mit allen gespeicherten Links und Tags herunter."
+    a: "Mozilla hat Pocket am 8. Juli 2025 eingestellt und das Exportfenster am 8. Oktober 2025 geschlossen. Nutzer mit einer vorhandenen Exportdatei (.html oder .csv) können diese direkt in Marqly importieren."
   - q: "Gehen meine Schlagwörter (Tags) beim Wechsel verloren?"
     a: "Nein. Moderne Lesezeichen-Manager wie Marqly übernehmen sämtliche Tags und Metadaten beim Import automatisch."
   - q: "Welches Tool ist die beste Alternative zu Pocket?"
@@ -30,7 +30,7 @@ In dieser Schritt-für-Schritt-Anleitung erfahren Sie, wie Sie Ihre Daten sicher
 
 ## Schritt 1: Daten aus Pocket exportieren
 
-1. Besuchen Sie die Seite **getpocket.com/export** und loggen Sie sich ein.
+1. Suchen Sie nach Ihrer zuvor heruntergeladenen Exportdatei (`ril_export.html`, `pocket-export.html` oder ZIP).
 2. Klicken Sie auf den Export-Link, um Ihre `pocket-export.html` bzw. CSV-Datei herunterzuladen.
 3. Speichern Sie die Datei sicher auf Ihrer Festplatte oder in einem Cloud-Speicher.
 

@@ -23,7 +23,7 @@ faqs:
   - q: "What made Pocket different from a normal bookmark manager?"
     a: "Pocket was a read-it-later app: it saved articles into a clean, distraction-free reader for later, rather than just storing links. The best 2026 alternatives keep that reader experience and add AI summaries and semantic search on top."
   - q: "When did Pocket actually shut down?"
-    a: "Mozilla announced Pocket's shutdown on July 8, 2025, then opened an export window so users could download their data. Pocket data was permanently deleted on November 12, 2025. If you missed the export window, those saves are gone — but a Pocket export file you saved earlier still imports cleanly into the alternatives here."
+    a: "Mozilla shut down Pocket on July 8, 2025, and the official export window closed on October 8, 2025. Mozilla has permanently deleted all remaining cloud data. If you already have your exported file, modern tools like Marqly can import it directly."
   - q: "What does a Pocket export file actually contain?"
     a: "A Pocket export is essentially your list of saved links plus metadata — URLs, titles, tags, and timestamps — not the full article text. When you import it into a new tool, the app re-saves those links; the reading experience is rebuilt from the live page, so it's best to import while the original articles are still online."
   - q: "Why pick an AI-search tool over a like-for-like Pocket clone?"
@@ -35,7 +35,7 @@ ogImage: "https://www.marqly.com/og/best-pocket-alternatives-2026.png"
 
 **The best Pocket alternative in 2026 is Marqly for most people:** it imports your Pocket export in minutes and adds semantic AI search, so you find saves by describing them instead of guessing keywords. Pick Raindrop.io if you want the best free option, and Readwise Reader if you're a power reader who highlights everything.
 
-When Mozilla shut down Pocket on July 8, 2025, it stranded more than 20 million people who had collectively saved over 2 billion articles. If you were one of them, you've spent the months since hunting for something that does what Pocket did — and ideally does it better. (If you still need to get your saves out, here's how to [export and migrate your Pocket data](/blog/how-to-export-migrate-pocket-data) first.)
+When Mozilla shut down Pocket on July 8, 2025, it stranded more than 20 million people who had collectively saved over 2 billion articles. If you were one of them, you've spent the months since hunting for something that does what Pocket did — and ideally does it better. (If you already downloaded your Pocket export, here's how to [migrate your Pocket data to Marqly](/migrate/pocket).)
 
 The good news: the read-it-later category didn't die with Pocket. It grew up. The best tools in 2026 don't just store links — they use AI to summarize what you save, organize it automatically, and let you *search by meaning* instead of digging through folders. The "bookmark" became a searchable, intelligent knowledge base.
 
@@ -43,29 +43,27 @@ Below are the eight best Pocket alternatives in 2026, tested and compared on the
 
 ## What is the Pocket shutdown timeline?
 
-Mozilla announced Pocket's shutdown on July 8, 2025, and stopped letting users save new articles that day. It then opened an export window so people could download their libraries before the lights went out. **Pocket data was permanently deleted on November 12, 2025.** If you grabbed your export, you're fine — every tool below imports it.
+Mozilla announced Pocket's shutdown in May 2025 and officially turned off servers on July 8, 2025. It provided an export window that ran through October 8, 2025. **All remaining Pocket data was permanently deleted after October 8, 2025.**
 
-Here are the dates that matter:
+Here are the facts:
 
-1. **July 8, 2025 — shutdown announced.** Mozilla announced it was ending Pocket and turned off new saves. The apps and extensions started winding down.
-2. **The export window.** Following the announcement, Mozilla let users export their saved data as a file before the service closed. This was your one chance to get your library out.
-3. **November 12, 2025 — permanent deletion.** Pocket user data was permanently deleted on this date. Anything not exported before then is gone for good.
-
-The practical takeaway: if you have a Pocket export file saved anywhere — even buried in your Downloads folder — you can still migrate it today. If you don't, you're starting fresh, and the question shifts from "which tool imports Pocket best?" to "which tool will I actually stick with?" Either way, the list below answers it.
+1. **July 8, 2025 — shutdown.** Mozilla ended Pocket service and turned off new saves. The apps and extensions stopped syncing.
+2. **October 8, 2025 — export window closed.** The export window closed permanently, and Mozilla purged user databases.
+3. **Today — migration of existing exports.** If you already have your downloaded Pocket export file, modern tools can import it directly. If you never exported, you're starting fresh with a new tool.
 
 ## How do the best Pocket alternatives compare?
 
-The Pocket alternatives split into three groups: AI-native tools that search by meaning (Marqly, mymind), polished classic read-it-later apps that don't (Raindrop.io, Instapaper, Readwise Reader, Matter), and self-hosted or hub options for people who want control (Wallabag, Notion). Every tool below imports a Pocket export. Here's the honest side-by-side.
+The Pocket alternatives split into three groups: AI-native tools that search by meaning (Marqly, mymind), polished classic read-it-later apps that don't (Raindrop.io, Instapaper, Readwise Reader, Matter), and self-hosted or hub options for people who want control (Wallabag, Notion). Note that mymind deliberately does not support bulk import. Here's the honest side-by-side.
 
 | Tool | Best for | Free tier | AI / semantic search | Imports Pocket | Price |
 |---|---|---|---|---|---|
-| **Marqly** | AI search + second brain | Yes (last 100 saves) | ✅ Semantic (Pro) | ✅ Yes | Free; Pro $72/yr (~$6/mo) or $9/mo |
+| **Marqly** | AI search + second brain | Yes (2,000 saves, whole library searchable) | ✅ Semantic (Pro) | ✅ Yes | Free; Pro $72/yr (~$6/mo) or $9/mo |
 | Raindrop.io | Free general-purpose saving | Generous | ❌ Keyword only | ✅ Yes | Free; Pro ~$3/mo |
 | Instapaper | Minimalist reading | Yes | ❌ Keyword only | ✅ Yes | Free; Premium ~$3/mo |
 | Readwise Reader | Power readers + highlights | No (trial) | ✅ Yes | ✅ Yes | ~$10–12/mo |
 | Wallabag | Self-hosters / open source | Free (self-host) | ❌ Basic | ✅ Yes | Free self-host; low-cost hosted |
 | Matter | Reading + listening | Limited | Partial | ✅ Yes | ~$8/mo |
-| mymind | Visual, zero-organizing | No | ✅ Yes | ✅ Yes | ~$8/mo |
+| mymind | Visual, zero-organizing | Guest plan (100 cards) | ✅ Yes | ❌ No (no bulk import) | From $7.99/mo |
 | Notion Web Clipper | Existing Notion users | Yes | ❌ Keyword only | ✅ Via import | Free; paid from ~$10/mo |
 
 A note on the table: "imports Pocket" means the tool accepts a standard Pocket export file and re-saves those links into your new library. Treat the prices as ballpark — vendors change them, and most read-it-later apps are cheaper billed annually.

@@ -15,7 +15,7 @@ ctaLabel: "Probar Marqly gratis"
 lang: "es"
 faqs:
   - q: "¿Cómo descargo mi copia de seguridad de Pocket?"
-    a: "Accede a getpocket.com/export con tu cuenta. Pocket generará un archivo HTML o CSV estándar con todas tus URLs, títulos y etiquetas para descargar en tu equipo."
+    a: "Mozilla cerró Pocket el 8 de julio de 2025 y el plazo de exportación finalizó el 8 de octubre de 2025. Los usuarios que ya descargaron su archivo de exportación (.html o .csv) pueden importarlo directamente en Marqly."
   - q: "¿Perderé mis etiquetas al migrar de Pocket?"
     a: "No, siempre que uses un gestor moderno como Marqly. Marqly mapea automáticamente todas tus etiquetas y títulos originales sin pérdida de datos."
   - q: "¿Qué aplicación es la mejor alternativa tras el cierre de Pocket?"
@@ -32,7 +32,7 @@ Esta guía paso a paso te muestra cómo extraer tus datos y llevarlos a un entor
 
 Si todavía tienes acceso al panel de usuario:
 
-1. Entra en **getpocket.com/export** e inicia sesión si te lo solicita.
+1. Localiza en tu equipo tu archivo de exportación descargado (`ril_export.html`, `pocket-export.html` o ZIP).
 2. Haz clic en el botón de exportación para generar tu archivo (habitualmente `pocket-export.html` o un archivo comprimido con hojas CSV).
 3. Guarda inmediatamente este archivo en tu ordenador o servicio de almacenamiento en la nube.
 

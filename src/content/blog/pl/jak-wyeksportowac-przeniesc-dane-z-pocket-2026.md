@@ -15,7 +15,7 @@ ctaLabel: "Wypróbuj Marqly za darmo"
 lang: "pl"
 faqs:
   - q: "Jak pobrać kopię zapasową z Pocket?"
-    a: "Odwiedź getpocket.com/export, zaloguj się i pobierz wygenerowany plik HTML lub CSV."
+    a: "Mozilla zamknęła usługę Pocket 8 lipca 2025 r., a oficjalne okno eksportu zakończyło się 8 października 2025 r. Użytkownicy posiadający pobrany wcześniej plik eksportu (.html lub .csv) mogą go bezpośrednio zaimportować do Marqly."
   - q: "Czy moje tagi z Pocket zostaną zachowane?"
     a: "Tak, nowoczesne aplikacje, takie jak Marqly, bez problemu importują i przypisują oryginalne tagi."
 heroImage: ../../../assets/blog/how-to-export-migrate-pocket-data.png
@@ -28,7 +28,7 @@ Poniższy poradnik poprowadzi Cię przez proces bezpiecznego przeniesienia bazy 
 
 ## Krok 1: Pobierz plik eksportu z Pocket
 
-1. Wejdź na stronę **getpocket.com/export** i zaloguj się na swoje konto.
+1. Zlokalizuj pobrany wcześniej plik eksportu (`ril_export.html`, `pocket-export.html` lub ZIP).
 2. Pobierz plik kopii zapasowej `pocket-export.html`.
 3. Zapisz plik na dysku komputera oraz w chmurze jako trwały backup.
 

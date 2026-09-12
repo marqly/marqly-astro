@@ -15,7 +15,7 @@ ctaLabel: "Testar o Marqly grátis"
 lang: "pt"
 faqs:
   - q: "Como faço o download do meu arquivo do Pocket?"
-    a: "Acesse getpocket.com/export, faça login e clique para gerar o download do arquivo HTML ou CSV contendo seus links e tags."
+    a: "A Mozilla encerrou o Pocket em 8 de julho de 2025 e o prazo final de exportação terminou em 8 de outubro de 2025. Quem já baixou seu arquivo (.html ou .csv) pode importá-lo diretamente no Marqly."
   - q: "Vou perder minhas tags ao mudar de aplicativo?"
     a: "Não. Ferramentas modernas como o Marqly preservam integralmente a estrutura de tags e títulos durante a importação."
   - q: "Qual é a melhor alternativa ao Pocket hoje?"
@@ -30,7 +30,7 @@ Neste guia prático, você aprenderá a resgatar seu arquivo e importá-lo em um
 
 ## Passo 1: Exporte seus dados do Pocket
 
-1. Visite **getpocket.com/export** e efetue login com sua conta.
+1. Localize o arquivo de exportação baixado previamente (`ril_export.html`, `pocket-export.html` ou ZIP).
 2. O sistema gerará um arquivo de exportação (geralmente `pocket-export.html` ou uma planilha CSV).
 3. Salve o arquivo em seu computador.
 

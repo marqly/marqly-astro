@@ -15,7 +15,7 @@ ctaLabel: "Marqly 무료 체험하기"
 lang: "ko"
 faqs:
   - q: "Pocket 데이터를 어떻게 다운로드하나요?"
-    a: "getpocket.com/export 에 접속하여 로그인 후 HTML 또는 CSV 백업 파일을 다운로드받습니다."
+    a: "Mozilla는 2025년 7월 8일 Pocket 서비스를 종료했으며, 공식 내보내기 기간은 2025년 10월 8일부로 영구 마감되었습니다. 기존에 다운로드해 둔 백업 파일(.html 또는 .csv)이 있다면 Marqly로 즉시 가져올 수 있습니다."
   - q: "이전하면 태그가 유지되나요?"
     a: "네, Marqly와 같은 최신 도구는 원본 태그와 제목을 그대로 보존하며 가져옵니다."
 heroImage: ../../../assets/blog/how-to-export-migrate-pocket-data.png
@@ -28,7 +28,7 @@ Pocket 서비스 종료 소식 이후 오랫동안 보관해 온 읽기 목록�
 
 ## 1단계: Pocket 데이터 내보내기
 
-1. **getpocket.com/export** 에 접속하여 로그인합니다.
+1. 기존에 다운로드받아 둔 Pocket 내보내기 파일(`ril_export.html`, `pocket-export.html` 또는 ZIP)을 찾습니다.
 2. 내보내기 링크를 클릭하여 `pocket-export.html` 파일을 다운로드합니다.
 3. 다운로드한 파일을 안전한 위치에 백업해 둡니다.
 

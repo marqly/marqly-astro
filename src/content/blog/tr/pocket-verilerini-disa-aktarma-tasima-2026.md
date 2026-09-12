@@ -15,7 +15,7 @@ ctaLabel: "Marqly'yi ücretsiz deneyin"
 lang: "tr"
 faqs:
   - q: "Pocket verilerimi nasıl indirebilirim?"
-    a: "getpocket.com/export adresine gidip oturum açın ve oluşturulan HTML veya CSV yedek dosyasını cihazınıza indirin."
+    a: "Mozilla, Pocket hizmetini 8 Temmuz 2025'te sonlandırdı ve dışa aktarma penceresi 8 Ekim 2025'te kapandı. Önceden indirilmiş yedek dosyasına (.html veya .csv) sahip kullanıcılar verilerini doğrudan Marqly'ye aktarabilir."
   - q: "Taşıma sırasında etiketlerim kaybolur mu?"
     a: "Hayır. Marqly gibi modern araçlar tüm etiketleri ve başlıkları eksiksiz şekilde içe aktarır."
 heroImage: ../../../assets/blog/how-to-export-migrate-pocket-data.png
@@ -28,7 +28,7 @@ Bu adım adım kılavuzda verilerinizi nasıl güvenle dışa aktaracağınızı
 
 ## 1. Adım: Pocket verilerini dışa aktarın
 
-1. **getpocket.com/export** sayfasına giderek giriş yapın.
+1. Daha önce indirdiğiniz Pocket dışa aktarma dosyasını (`ril_export.html`, `pocket-export.html` veya ZIP) bulun.
 2. Dışa aktarma düğmesine tıklayarak `pocket-export.html` dosyasını indirin.
 3. Bu dosyayı bilgisayarınızda güvenli bir yere kaydedin.
 
