@@ -114,3 +114,17 @@ Changes are committed to `main` locally. Production still serves the previous
 build. Deploy is `git push marqly-astro <branch>:main`, which per CLAUDE.md is
 **production** (DNS cut over 2026-06-10) and needs `gh auth switch -u marqly`.
 Left for explicit approval — see `.seo/experiments.md` for what to watch.
+
+### Post-commit visual fix (same run)
+
+Rendered screenshots of the new hub (ja / es / de, desktop + mobile) exposed a
+layout defect the numeric checks could not see: the ~40-link features column
+rendered as a single ~2,400px-tall list, pushing the blog column far below and
+leaving the hub badly ragged. Cause: `.lh-2col { columns: 2 }` was applied to a
+`<ul>` that `.lh-col ul` styles as `display: flex` (higher specificity), and CSS
+multi-column does not apply to flex containers. Fixed by resetting
+`display: block` on `.lh-col ul.lh-2col` (and matching the mobile
+single-column override to the same specificity). Re-rendered: two balanced
+columns, compact hub, no horizontal overflow at 1440px or 390px.
+
+`active/scripts/shot-hub.mjs` is kept so this stays visually verifiable.

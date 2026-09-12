@@ -149,13 +149,20 @@ const hasBlog = posts.length > 0;
     gap: var(--space-10) var(--space-8);
     align-items: start;
   }
-  /* The lander column carries ~40 links; give it two columns of breathing room. */
+  /* The lander column carries ~40 links; give it two columns of breathing room.
+     `.lh-col ul` sets display:flex (higher specificity: class + type), and
+     multi-column does not apply to a flex container — so this must reset
+     display and beat that selector, or the column renders as one ~2,400px list. */
   .lh-col--wide { grid-column: span 2; }
-  .lh-2col {
+  .lh-col ul.lh-2col {
+    display: block;
     columns: 2;
     column-gap: var(--space-8);
   }
-  .lh-2col li { break-inside: avoid; }
+  .lh-col ul.lh-2col li {
+    break-inside: avoid;
+    margin-bottom: var(--space-2);
+  }
   .lh-col h4 {
     font-size: var(--fs-xs);
     font-weight: 600;
@@ -195,7 +202,7 @@ const hasBlog = posts.length > 0;
   @media (max-width: 640px) {
     .lh-grid { grid-template-columns: 1fr; gap: var(--space-8); }
     .lh-col--wide { grid-column: span 1; }
-    .lh-2col { columns: 1; }
+    .lh-col ul.lh-2col { columns: 1; }
     .linkhub { padding-block: var(--space-12); }
   }
 </style>
