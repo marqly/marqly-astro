@@ -1,0 +1,284 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import Breadcrumbs from '../../components/seo/Breadcrumbs.astro';
+import CtaBox from '../../components/seo/CtaBox.astro';
+import FaqAccordion from '../../components/seo/FaqAccordion.astro';
+import { breadcrumbList, faqPage, howTo, organization, softwareApplication, webSite } from '../../lib/schema';
+
+const path = '/migrate/instapaper';
+const title = 'How to Migrate from Instapaper to Marqly (2026 Guide) — Step-by-Step';
+const description =
+  'Export your reading list and highlights from Instapaper and import them into Marqly in under 2 minutes. Upgrade to AI auto-tagging, summaries, and semantic search.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Compare', path: '/compare' },
+  { name: 'Migrate from Instapaper', path },
+];
+
+const steps = [
+  {
+    name: 'Export your archive from Instapaper',
+    text: 'Sign in to your Instapaper account on the web, navigate to Settings, and scroll down to the Export section. Click to download your library as an HTML or CSV file.',
+    url: path,
+  },
+  {
+    name: 'Upload the export file to Marqly',
+    text: 'Sign in to Marqly at app.marqly.com (free account, no credit card required). Go to Settings → Import Bookmarks and upload your Instapaper file.',
+    url: path,
+  },
+  {
+    name: 'AI auto-tags and semantically indexes your saves',
+    text: 'Marqly restores your articles and highlights. On Pro, AI automatically generates summaries, tags, and semantic embeddings so you can find any article by describing its meaning.',
+    url: path,
+  },
+];
+
+const faqs = [
+  {
+    q: 'Will my Instapaper highlights and folders be preserved?',
+    a: 'Yes. Instapaper exports standard HTML or CSV files that contain your saved URLs, titles, folder groupings, and highlight snippets. Marqly maps your folders to boards and preserves your highlights.',
+  },
+  {
+    q: 'How does Marqly compare to Instapaper for reading?',
+    a: 'Instapaper is a classic read-it-later queue focused on clean article typography and Kindle delivery. Marqly provides a distraction-free clean reader view and text highlighter, but adds an active AI intelligence layer: automatic summaries, AI auto-tagging, semantic search, and interactive YouTube video transcripts.',
+  },
+  {
+    q: 'Is Marqly free to try for Instapaper users?',
+    a: 'Yes. Marqly offers a free tier that stores up to 2,000 bookmarks with search across your whole library, without requiring a credit card. Pro is available with a 7-day free trial for unlimited bookmarks and semantic AI search.',
+  },
+  {
+    q: 'Can I keep using Instapaper alongside Marqly?',
+    a: 'Yes. Exporting your data from Instapaper leaves your Instapaper library completely untouched. You can import your archive into Marqly to evaluate its AI search and organization while keeping Instapaper active.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  softwareApplication(),
+  breadcrumbList(crumbs),
+  howTo(
+    'How to Migrate from Instapaper to Marqly in 3 Steps',
+    'Step-by-step instructions for importing your Instapaper reading backlog into Marqly with AI indexing.',
+    steps,
+    'PT2M',
+  ),
+  faqPage(faqs),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  ogImage="https://www.marqly.com/og/seo/migrate-instapaper.png"
+>
+  <article class="section">
+    <div class="container migrate-page">
+      <Breadcrumbs items={crumbs} />
+
+      <header class="page-head">
+        <div class="badge-row">
+          <span class="pill-badge">Migration Guide · 2026</span>
+          <span class="time-badge">⏱️ Takes ~2 minutes</span>
+        </div>
+        <h1>How to Migrate from Instapaper to Marqly</h1>
+        <p class="lead">
+          Turn your unread Instapaper backlog into an intelligent, searchable second brain. Here is how to export your saved articles and import them into Marqly in minutes.
+        </p>
+      </header>
+
+      <div class="comparison-callout">
+        <div class="callout-head">
+          <span class="callout-tag">Why users switch</span>
+          <h3>What changes when you move to Marqly?</h3>
+        </div>
+        <div class="callout-grid">
+          <div class="callout-item">
+            <strong>Semantic Search by Meaning</strong>
+            <p>Instapaper search requires remembering exact keywords. Marqly finds articles when you only remember the concept or core argument.</p>
+          </div>
+          <div class="callout-item">
+            <strong>Instant AI Summaries</strong>
+            <p>Every article you save receives a concise streaming summary, letting you triage a multi-year backlog in minutes.</p>
+          </div>
+          <div class="callout-item">
+            <strong>YouTube Transcript Chat</strong>
+            <p>Save YouTube videos with their transcripts attached, read synchronized video text, and chat with video content directly.</p>
+          </div>
+          <div class="callout-item">
+            <strong>Side Panel & Tab Management</strong>
+            <p>Browse your library and clipboard history right beside any open webpage using Chrome and Edge side panels.</p>
+          </div>
+        </div>
+        <p class="callout-footer">
+          Want a full comparison? See our <a href="/compare/marqly-vs-instapaper">Marqly vs Instapaper comparison</a> or browse other <a href="/alternatives/instapaper">Instapaper alternatives</a>.
+        </p>
+      </div>
+
+      <h2>Step-by-Step Migration Walkthrough</h2>
+      <div class="steps-list">
+        <div class="step-card">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <h3>Export your library from Instapaper</h3>
+            <p>
+              Log in to <a href="https://www.instapaper.com" target="_blank" rel="noopener">instapaper.com</a> in your browser. Go to <strong>Settings</strong> and scroll to <strong>Export</strong>. Choose HTML or CSV format and save the file to your computer.
+            </p>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <h3>Import into Marqly</h3>
+            <p>
+              Open <a href="https://app.marqly.com">app.marqly.com</a> (sign up free without a credit card). In <strong>Settings → Import Bookmarks</strong>, upload your downloaded Instapaper export file.
+            </p>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <h3>AI tags and embeds your reading archive</h3>
+            <p>
+              Marqly recreates your reading collection with highlights preserved. On Pro, AI automatically tags and summarizes each article, making your entire backlog searchable by meaning.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <FaqAccordion items={faqs} title="Frequently asked migration questions" />
+
+      <CtaBox
+        heading="Ready to upgrade your reading library?"
+        sub="Import your Instapaper backlog in under 2 minutes. Free forever up to 2,000 bookmarks."
+        buttonText="Migrate to Marqly free"
+        buttonUrl="https://app.marqly.com"
+      />
+    </div>
+  </article>
+</LandingLayout>
+
+<style>
+  .migrate-page {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 2rem 1rem 4rem;
+  }
+  .page-head {
+    margin: 2rem 0 2.5rem;
+    text-align: left;
+  }
+  .badge-row {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+  .pill-badge {
+    background: rgba(99, 102, 241, 0.12);
+    color: #6366f1;
+    font-size: 0.825rem;
+    font-weight: 600;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+  }
+  .time-badge {
+    font-size: 0.825rem;
+    color: var(--text-muted, #64748b);
+  }
+  h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: var(--text-primary, #0f172a);
+  }
+  .lead {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    color: var(--text-secondary, #475569);
+  }
+  .comparison-callout {
+    background: var(--surface-card, #f8fafc);
+    border: 1px solid var(--border-subtle, #e2e8f0);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 3rem;
+  }
+  .callout-tag {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #6366f1;
+  }
+  .callout-head h3 {
+    margin: 0.25rem 0 1.25rem;
+    font-size: 1.35rem;
+  }
+  .callout-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+  }
+  .callout-item strong {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-size: 1rem;
+    color: var(--text-primary, #0f172a);
+  }
+  .callout-item p {
+    font-size: 0.925rem;
+    line-height: 1.5;
+    color: var(--text-secondary, #475569);
+    margin: 0;
+  }
+  .callout-footer {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-subtle, #e2e8f0);
+    font-size: 0.9rem;
+    color: var(--text-muted, #64748b);
+  }
+  .steps-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 2rem 0 3.5rem;
+  }
+  .step-card {
+    display: flex;
+    gap: 1.5rem;
+    background: var(--surface-card, #ffffff);
+    border: 1px solid var(--border-subtle, #e2e8f0);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    align-items: flex-start;
+  }
+  .step-num {
+    background: #6366f1;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.1rem;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .step-content h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.15rem;
+  }
+  .step-content p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: var(--text-secondary, #475569);
+  }
+</style>

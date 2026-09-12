@@ -1,0 +1,295 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import Breadcrumbs from '../../components/seo/Breadcrumbs.astro';
+import CtaBox from '../../components/seo/CtaBox.astro';
+import { breadcrumbList, itemList, organization, softwareApplication, webSite } from '../../lib/schema';
+
+const path = '/migrate';
+const title = 'Migrate Your Bookmarks to Marqly (2026 Guides) — Import From Anywhere';
+const description =
+  'Step-by-step migration guides to export your saves from Pocket, Raindrop, mymind, Instapaper, and all major browsers into Marqly with zero data loss.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Compare', path: '/compare' },
+  { name: 'Migrate', path },
+];
+
+const guides = [
+  {
+    name: 'Pocket Rescue Guide',
+    slug: 'pocket',
+    url: '/migrate/pocket',
+    badge: 'Discontinued Service',
+    badgeClass: 'badge-warning',
+    desc: 'How to import your downloaded Pocket export archive (.html or .csv) and restore your saved articles with AI semantic search.',
+  },
+  {
+    name: 'Raindrop.io Migration',
+    slug: 'raindrop',
+    url: '/migrate/raindrop',
+    badge: 'Popular',
+    badgeClass: 'badge-primary',
+    desc: 'Export your Raindrop collections and tags to HTML or CSV and import them directly into Marqly boards with automatic AI summaries.',
+  },
+  {
+    name: 'mymind Migration',
+    slug: 'mymind',
+    url: '/migrate/mymind',
+    badge: 'Zero-Filing Upgrade',
+    badgeClass: 'badge-accent',
+    desc: 'Export your cards.csv from desktop Chrome/Edge and unlock public board sharing and full bookmark imports in Marqly.',
+  },
+  {
+    name: 'Instapaper Migration',
+    slug: 'instapaper',
+    url: '/migrate/instapaper',
+    badge: 'Read-It-Later',
+    badgeClass: 'badge-info',
+    desc: 'Move your Instapaper reading queue and highlights into Marqly to upgrade from a passive list to a searchable AI knowledge base.',
+  },
+];
+
+const browserImports = [
+  { name: 'Google Chrome', ext: '.html', desc: 'Bookmarks Manager (Ctrl/Cmd+Shift+O) → Three dots → Export bookmarks.' },
+  { name: 'Mozilla Firefox', ext: '.html', desc: 'Library (Ctrl/Cmd+Shift+B) → Import and Backup → Export Bookmarks to HTML.' },
+  { name: 'Apple Safari', ext: '.html', desc: 'File menu → Export Bookmarks → save as Safari Bookmarks.html.' },
+  { name: 'Microsoft Edge', ext: '.html', desc: 'Favorites (Ctrl/Cmd+Shift+O) → Three dots → Export favorites.' },
+];
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  softwareApplication(),
+  breadcrumbList(crumbs),
+  itemList(guides.map((g) => g.name), path),
+];
+---
+
+<LandingLayout title={title} description={description} jsonLd={jsonLd} ogImage="https://www.marqly.com/og/seo/migrate-hub.png">
+  <article class="section">
+    <div class="container migrate-hub">
+      <Breadcrumbs items={crumbs} />
+
+      <header class="hub-head">
+        <span class="pill-badge">Migration Center</span>
+        <h1>Migrate Your Bookmarks to Marqly</h1>
+        <p class="lead">
+          Your saved knowledge shouldn't be trapped in a discontinued app or a closed silo. Move your entire library into Marqly in minutes with zero lost tags, automatic AI summaries, and semantic search across your whole library.
+        </p>
+      </header>
+
+      <section class="guides-grid">
+        {guides.map((g) => (
+          <a href={g.url} class="guide-card">
+            <div class="card-header">
+              <span class={`card-badge ${g.badgeClass}`}>{g.badge}</span>
+              <h3>{g.name}</h3>
+            </div>
+            <p>{g.desc}</p>
+            <span class="card-link">View migration guide →</span>
+          </a>
+        ))}
+      </section>
+
+      <section class="browser-section">
+        <h2>Import from any web browser</h2>
+        <p class="section-sub">
+          Marqly directly accepts standard Netscape bookmarks HTML files exported from any desktop or mobile browser.
+        </p>
+        <div class="browser-grid">
+          {browserImports.map((b) => (
+            <div class="browser-card">
+              <h4>{b.name}</h4>
+              <p>{b.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section class="tools-callout">
+        <h3>Free browser migration utilities</h3>
+        <p>
+          Inspect, search, or convert your bookmark exports offline before importing into any tool:
+        </p>
+        <div class="tool-links">
+          <a href="/tools/pocket-export-converter" class="tool-btn">
+            <strong>Pocket Export Converter</strong>
+            <span>Convert Pocket CSV to browser HTML or JSON</span>
+          </a>
+          <a href="/tools/bookmark-file-viewer" class="tool-btn">
+            <strong>Bookmark File Viewer</strong>
+            <span>Search, inspect, and export any bookmark HTML file</span>
+          </a>
+        </div>
+      </section>
+
+      <CtaBox
+        heading="Start with your bookmarks in order"
+        sub="Create a free account in 30 seconds. Up to 2,000 bookmarks free forever, no credit card required."
+        buttonText="Try Marqly free"
+        buttonUrl="https://app.marqly.com"
+      />
+    </div>
+  </article>
+</LandingLayout>
+
+<style>
+  .migrate-hub {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem 1rem 4rem;
+  }
+  .hub-head {
+    margin: 2rem 0 3rem;
+  }
+  .pill-badge {
+    background: rgba(99, 102, 241, 0.12);
+    color: #6366f1;
+    font-size: 0.825rem;
+    font-weight: 600;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+  h1 {
+    font-size: 2.75rem;
+    line-height: 1.15;
+    margin-bottom: 1rem;
+    color: var(--text-primary, #0f172a);
+  }
+  .lead {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: var(--text-secondary, #475569);
+  }
+  .guides-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3.5rem;
+  }
+  .guide-card {
+    background: var(--surface-card, #ffffff);
+    border: 1px solid var(--border-subtle, #e2e8f0);
+    border-radius: 1rem;
+    padding: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .guide-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08);
+    border-color: #6366f1;
+  }
+  .card-badge {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 0.2rem 0.6rem;
+    border-radius: 0.375rem;
+    display: inline-block;
+    margin-bottom: 0.75rem;
+  }
+  .badge-warning { background: #fef3c7; color: #b45309; }
+  .badge-primary { background: #e0e7ff; color: #4338ca; }
+  .badge-accent { background: #fce7f3; color: #be185d; }
+  .badge-info { background: #e0f2fe; color: #0369a1; }
+  .card-header h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.25rem;
+    color: var(--text-primary, #0f172a);
+  }
+  .guide-card p {
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: var(--text-secondary, #475569);
+    margin-bottom: 1.25rem;
+  }
+  .card-link {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #6366f1;
+  }
+  .browser-section {
+    margin-bottom: 3.5rem;
+  }
+  .browser-section h2 {
+    font-size: 1.85rem;
+    margin-bottom: 0.5rem;
+  }
+  .section-sub {
+    font-size: 1.05rem;
+    color: var(--text-secondary, #475569);
+    margin-bottom: 1.5rem;
+  }
+  .browser-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.25rem;
+  }
+  .browser-card {
+    background: var(--surface-card, #f8fafc);
+    border: 1px solid var(--border-subtle, #e2e8f0);
+    border-radius: 0.75rem;
+    padding: 1.25rem;
+  }
+  .browser-card h4 {
+    margin: 0 0 0.5rem;
+    font-size: 1.05rem;
+    color: var(--text-primary, #0f172a);
+  }
+  .browser-card p {
+    margin: 0;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: var(--text-secondary, #475569);
+  }
+  .tools-callout {
+    background: var(--surface-card, #f8fafc);
+    border: 1px dashed var(--border-subtle, #cbd5e1);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 3.5rem;
+  }
+  .tools-callout h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.35rem;
+  }
+  .tools-callout p {
+    margin: 0 0 1.25rem;
+    color: var(--text-secondary, #475569);
+  }
+  .tool-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1rem;
+  }
+  .tool-btn {
+    background: #ffffff;
+    border: 1px solid var(--border-subtle, #e2e8f0);
+    border-radius: 0.75rem;
+    padding: 1rem 1.25rem;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    transition: border-color 0.2s ease;
+  }
+  .tool-btn:hover {
+    border-color: #6366f1;
+  }
+  .tool-btn strong {
+    color: #6366f1;
+    font-size: 0.95rem;
+  }
+  .tool-btn span {
+    color: var(--text-muted, #64748b);
+    font-size: 0.85rem;
+  }
+</style>

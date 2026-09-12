@@ -1,0 +1,288 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import Breadcrumbs from '../../components/seo/Breadcrumbs.astro';
+import CtaBox from '../../components/seo/CtaBox.astro';
+import FaqAccordion from '../../components/seo/FaqAccordion.astro';
+import { breadcrumbList, faqPage, howTo, organization, softwareApplication, webSite } from '../../lib/schema';
+
+const path = '/migrate/mymind';
+const title = 'How to Migrate from mymind to Marqly (2026 Guide) — Move Your Saves';
+const description =
+  'Export your saves from mymind and import them into Marqly in minutes. Keep AI auto-tagging and semantic search, plus gain bookmark imports and shareable public boards.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Compare', path: '/compare' },
+  { name: 'Migrate from mymind', path },
+];
+
+const steps = [
+  {
+    name: 'Export your cards from mymind',
+    text: 'Open mymind in desktop Chrome or Edge, go to your Account Settings, and find the Export section. Download your cards.csv archive (along with your media files ZIP).',
+    url: path,
+  },
+  {
+    name: 'Upload your export file to Marqly',
+    text: 'Sign in to Marqly at app.marqly.com (free account, no credit card required). In Settings → Import, upload your cards.csv or bookmark archive.',
+    url: path,
+  },
+  {
+    name: 'Enjoy zero-filing AI organization with sharing',
+    text: 'Marqly restores your saved links and notes. On Pro, AI automatically tags, generates short summaries, and enables semantic search, while unlocking public boards and web highlighting.',
+    url: path,
+  },
+];
+
+const faqs = [
+  {
+    q: 'Can I export my data from mymind?',
+    a: 'Yes. From your account settings in desktop Chrome or Edge, mymind provides a data export containing a cards.csv file (holding your saved links, notes, quotes, and highlights) plus a ZIP of uploaded images and PDFs.',
+  },
+  {
+    q: 'Will my saved links and tags transfer into Marqly?',
+    a: 'Yes. Marqly imports the URLs, titles, and text notes from your mymind export. Once imported, Marqly automatically applies AI tags and short summaries to each link so your zero-effort organization is preserved.',
+  },
+  {
+    q: 'Why do users switch from mymind to Marqly?',
+    a: 'While mymind is visually beautiful, it is strictly single-player: you cannot share any link, list, or board with anyone, and it deliberately blocks importing existing browser bookmarks. Marqly delivers the same zero-filing AI auto-tagging and semantic search, but adds shareable public boards, browser bookmark imports, YouTube transcript chat, and a 2,000-save free tier.',
+  },
+  {
+    q: 'Do I need a credit card to try Marqly?',
+    a: 'No. Marqly provides a free tier storing up to 2,000 bookmarks with search across your whole library. You can import your saves, explore the interface, and test semantic search without entering payment details.',
+  },
+  {
+    q: 'Does Marqly support visual cards like mymind?',
+    a: 'Yes. Marqly provides rich visual preview cards, grid layouts, and side-panel views alongside reader mode and text highlighting, giving you visual inspiration without locking your content into a closed silo.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  softwareApplication(),
+  breadcrumbList(crumbs),
+  howTo(
+    'How to Migrate from mymind to Marqly in 3 Steps',
+    'A quick guide for mymind users to export their saved cards and import them into Marqly with AI semantic indexing and shareable boards.',
+    steps,
+    'PT2M',
+  ),
+  faqPage(faqs),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  ogImage="https://www.marqly.com/og/seo/migrate-mymind.png"
+>
+  <article class="section">
+    <div class="container migrate-page">
+      <Breadcrumbs items={crumbs} />
+
+      <header class="page-head">
+        <div class="badge-row">
+          <span class="pill-badge">Migration Guide · 2026</span>
+          <span class="time-badge">⏱️ Takes ~2 minutes</span>
+        </div>
+        <h1>How to Migrate from mymind to Marqly</h1>
+        <p class="lead">
+          Love mymind's "zero manual organization" promise but frustrated by zero sharing, no mass imports, and high subscription fees? Here is how to move your saves to Marqly in three simple steps.
+        </p>
+      </header>
+
+      <div class="comparison-callout">
+        <div class="callout-head">
+          <span class="callout-tag">Why users switch</span>
+          <h3>What changes when you move to Marqly?</h3>
+        </div>
+        <div class="callout-grid">
+          <div class="callout-item">
+            <strong>Public Boards & Sharing</strong>
+            <p>mymind is strictly anti-social with zero sharing. Marqly lets you share curated boards publicly with clients, friends, or teammates via simple links.</p>
+          </div>
+          <div class="callout-item">
+            <strong>True Semantic Paraphrase Search</strong>
+            <p>Describe what you remember in plain language ("that article explaining sleep and cortisol") and find saves instantly without exact keywords.</p>
+          </div>
+          <div class="callout-item">
+            <strong>Full Import Freedom</strong>
+            <p>mymind forbids bulk import. Marqly welcomes your past saves: import from Pocket, Raindrop, or any browser HTML export anytime.</p>
+          </div>
+          <div class="callout-item">
+            <strong>Affordable AI Summaries</strong>
+            <p>mymind gates AI summaries to its $12.99/mo Mastermind tier. Marqly includes AI summaries, semantic search, and YouTube transcript chat at half the price.</p>
+          </div>
+        </div>
+        <p class="callout-footer">
+          Want a detailed comparison? Read our full <a href="/compare/marqly-vs-mymind">Marqly vs mymind comparison</a> or explore <a href="/alternatives/mymind">mymind alternatives</a>.
+        </p>
+      </div>
+
+      <h2>Step-by-Step Migration Walkthrough</h2>
+      <div class="steps-list">
+        <div class="step-card">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <h3>Export your cards from mymind</h3>
+            <p>
+              Open mymind in desktop Chrome or Edge (export is only enabled on desktop Chromium browsers). Go to your <strong>Account Settings</strong> and scroll to <strong>Export Data</strong>. Download your <code>cards.csv</code> file.
+            </p>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <h3>Upload to Marqly</h3>
+            <p>
+              Sign up for free at <a href="https://app.marqly.com">app.marqly.com</a> (no credit card required). In <strong>Settings → Import Bookmarks</strong>, select CSV / HTML and upload your file.
+            </p>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <h3>AI automatically organizes your library</h3>
+            <p>
+              Marqly parses your links, notes, and tags. AI automatically creates summaries and embeds every item for semantic search. You can also organize links into public shareable boards or pin them to your new tab workspace.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <FaqAccordion items={faqs} title="Frequently asked migration questions" />
+
+      <CtaBox
+        heading="Ready for zero-filing bookmarks with sharing?"
+        sub="Import your mymind export and test semantic search across your saves in under 2 minutes. Free forever up to 2,000 bookmarks."
+        buttonText="Migrate to Marqly free"
+        buttonUrl="https://app.marqly.com"
+      />
+    </div>
+  </article>
+</LandingLayout>
+
+<style>
+  .migrate-page {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 2rem 1rem 4rem;
+  }
+  .page-head {
+    margin: 2rem 0 2.5rem;
+    text-align: left;
+  }
+  .badge-row {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+  .pill-badge {
+    background: rgba(99, 102, 241, 0.12);
+    color: #6366f1;
+    font-size: 0.825rem;
+    font-weight: 600;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+  }
+  .time-badge {
+    font-size: 0.825rem;
+    color: var(--text-muted, #64748b);
+  }
+  h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: var(--text-primary, #0f172a);
+  }
+  .lead {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    color: var(--text-secondary, #475569);
+  }
+  .comparison-callout {
+    background: var(--surface-card, #f8fafc);
+    border: 1px solid var(--border-subtle, #e2e8f0);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 3rem;
+  }
+  .callout-tag {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #6366f1;
+  }
+  .callout-head h3 {
+    margin: 0.25rem 0 1.25rem;
+    font-size: 1.35rem;
+  }
+  .callout-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+  }
+  .callout-item strong {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-size: 1rem;
+    color: var(--text-primary, #0f172a);
+  }
+  .callout-item p {
+    font-size: 0.925rem;
+    line-height: 1.5;
+    color: var(--text-secondary, #475569);
+    margin: 0;
+  }
+  .callout-footer {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-subtle, #e2e8f0);
+    font-size: 0.9rem;
+    color: var(--text-muted, #64748b);
+  }
+  .steps-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 2rem 0 3.5rem;
+  }
+  .step-card {
+    display: flex;
+    gap: 1.5rem;
+    background: var(--surface-card, #ffffff);
+    border: 1px solid var(--border-subtle, #e2e8f0);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    align-items: flex-start;
+  }
+  .step-num {
+    background: #6366f1;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.1rem;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .step-content h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.15rem;
+  }
+  .step-content p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: var(--text-secondary, #475569);
+  }
+</style>
