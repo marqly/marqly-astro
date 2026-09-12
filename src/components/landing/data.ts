@@ -5,9 +5,9 @@
  * where the site provides one), and its real og/preview image stored under
  * /public/landing/covers. Favicons are the real ones, stored locally.
  *
- * Through-line: Feel Good Foodie's Lebanese hummus gets saved in the hero's
- * looping sequence and lands in the Cooking board next to two more real
- * recipes (sea bass, Lebanese rice).
+ * Through-line: the hero's Ask panel answers "what did I save about Japan?"
+ * from three real pages (japan-guide, Time Out Tokyo), cites them, and tags
+ * them after approval. The Cooking bookmarks below stay in use elsewhere.
  */
 
 export type ContentKind = 'article' | 'paper' | 'repo' | 'video' | 'conversation';
@@ -46,6 +46,10 @@ export const FAVICONS: Record<string, string> = {
   'overreacted.io': '/landing/favicons/overreacted.io.png',
   'web.dev': '/landing/favicons/web.dev.png',
   'paulgraham.com': '/landing/favicons/paulgraham.com.png',
+  'japan-guide.com': '/landing/favicons/japan-guide.com.png',
+  'timeout.com': '/landing/favicons/timeout.com.png',
+  'cursor.com': '/landing/favicons/cursor.com.png',
+  'code.visualstudio.com': '/landing/favicons/code.visualstudio.com.png',
 };
 
 /* ------------------------------------------------------ hero (Cooking) --- */
@@ -329,3 +333,127 @@ export const IOS_URL = 'https://apps.apple.com/us/app/marqly-ai-bookmark-manager
 export const FIREFOX_URL = 'https://addons.mozilla.org/en-US/firefox/addon/marqly/';
 export const EDGE_URL =
   'https://microsoftedge.microsoft.com/addons/detail/marqly-%E2%80%93-the-ultimate-boo/gojjglmdginjjpgajdnobmnkmcogngok';
+
+/* ---------------------------------------------------------------- Ask ---- */
+/* The assistant panel's stories. Every page is real (title = the page's own
+   <title>); the numbers are the demo library's. */
+
+export type AnswerSeg = string | { cite: number };
+
+export const japanBookmarks: DemoBookmark[] = [
+  {
+    id: 'kyoto',
+    title: 'Kyoto Travel Guide - What to do in Kyoto City',
+    domain: 'japan-guide.com',
+    description: 'Temples, gardens, the geisha districts and day trips: the complete Kyoto guide.',
+    tags: [],
+    date: '14 Mar',
+    kind: 'article',
+  },
+  {
+    id: 'tokyo',
+    title: 'Restaurants & Cafés in Tokyo | Time Out Tokyo',
+    domain: 'timeout.com',
+    description: "Where to eat in Tokyo right now, from Time Out's local editors.",
+    tags: [],
+    date: '2 Apr',
+    kind: 'article',
+  },
+  {
+    id: 'jr-pass',
+    title: 'Japan Rail Pass (JR Pass)',
+    domain: 'japan-guide.com',
+    description: 'What the JR Pass covers, what it costs, and when it pays off.',
+    tags: [],
+    date: '9 May',
+    kind: 'article',
+  },
+];
+
+export type AskBoxKind = 'broken' | 'dups' | 'forgotten' | 'overlap';
+export type AskTintName = 'sky' | 'mint' | 'peach' | 'lilac' | 'rose' | 'amber';
+
+/** The empty state's proactive findings (the product's library check). */
+export const askEmptyBoxes: { kind: AskBoxKind; tint: AskTintName; label: string }[] = [
+  { kind: 'broken', tint: 'rose', label: '288 saved links are dead' },
+  { kind: 'dups', tint: 'lilac', label: '116 URLs are saved more than once' },
+  { kind: 'forgotten', tint: 'peach', label: '57 saves about investing, nothing in months' },
+  { kind: 'overlap', tint: 'mint', label: 'Design and Design systems overlap' },
+];
+
+/** Hero: ask → cited answer → proposal → applied. */
+export const askHero = {
+  question: 'what did I save about Japan?',
+  tool: { label: 'Searched “Japan”', results: 7 },
+  answer: [
+    'You saved 7 things about Japan between March and May: three Kyoto guides',
+    { cite: 1 },
+    ', a Tokyo restaurant guide',
+    { cite: 2 },
+    ' and a JR Pass explainer',
+    { cite: 3 },
+    '. Three of them have no tags yet.',
+  ] as AnswerSeg[],
+  sources: { domains: ['japan-guide.com', 'timeout.com', 'gemini.google.com'], count: 7 },
+  proposal: {
+    title: 'Add tags to 3 bookmarks',
+    items: [
+      { id: 'kyoto', chips: ['japan', 'kyoto'] },
+      { id: 'tokyo', chips: ['japan', 'food'] },
+      { id: 'jr-pass', chips: ['japan', 'trains'] },
+    ],
+  },
+};
+
+/** Section showcase panes. */
+export const askPanes = {
+  ask: {
+    question: 'what did the navy pilot say the object looked like?',
+    search: { label: 'Searched “navy pilot”', results: 2 },
+    read: 'Lex Fridman #122 transcript',
+    answer: [
+      'A white Tic Tac about the size of his F/A-18, with no wings, no rotors and no exhaust plume',
+      { cite: 1 },
+      '. When he dropped toward it, it mirrored him, then accelerated out of sight in under a second',
+      { cite: 1 },
+      '.',
+    ] as AnswerSeg[],
+    sources: { domains: ['youtube.com'], count: 1 },
+  },
+  problems: {
+    question: 'Which of my saved links are dead?',
+    tool: { label: 'Checked for dead links', results: 288 },
+    answer: ['288 of your 1,412 links no longer load, mostly news from 2021–2022. Move them to Trash?'] as AnswerSeg[],
+    proposal: {
+      title: 'Move 288 dead links to Trash',
+      count: 288,
+      warn: 'Bookmarks go to Trash; you can restore them there or undo here.',
+      items: [
+        { title: 'The 2021 guide to remote work stipends', domain: 'remotive.io' },
+        { title: 'Launch day: the Pixel 6 review roundup', domain: 'theverge.com' },
+      ],
+      more: '…and 286 more',
+    },
+  },
+  tidy: {
+    question: 'tag whatever I saved this week that has no tags',
+    tool: { label: 'Searched your library', results: 3 },
+    answer: ["Three saves from this week have no tags. Here's what I'd add:"] as AnswerSeg[],
+    rows: [
+      { id: 'asana', tags: ['productivity', 'work'] },
+      { id: 'halli', tags: ['design', 'people'] },
+      { id: 'laracasts', tags: ['laravel', 'learning'] },
+    ],
+    applied: { title: 'Tagged 3 bookmarks', count: 6 },
+  },
+};
+
+/** Settings → Connected apps (MCP). */
+export const MCP_SERVER_URL = 'https://mcp.marqly.com/ai/mcp';
+export const connectedApps = [
+  { name: 'Claude', domain: 'claude.ai' },
+  { name: 'ChatGPT', domain: 'chatgpt.com' },
+  { name: 'Cursor', domain: 'cursor.com' },
+  { name: 'VS Code', domain: 'code.visualstudio.com' },
+];
+

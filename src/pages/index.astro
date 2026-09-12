@@ -16,6 +16,7 @@ import { organization } from '../lib/schema';
 import { homeFaqs } from '../components/landing/faqs';
 
 import Nav from '../components/landing/Nav.astro';
+import AiAssistantSection from '../components/landing/AiAssistantSection.astro';
 import HeroSection from '../components/landing/HeroSection.astro';
 import LibrarySection from '../components/landing/LibrarySection.astro';
 import SearchSection from '../components/landing/SearchSection.astro';
@@ -56,6 +57,9 @@ const jsonLd = [
       'AI bookmark manager with semantic search — save articles, videos, and links, then find any of them by describing what you remember instead of the exact title.',
     featureList: [
       'Semantic AI search (find saves by meaning, not keywords)',
+      'Ask AI assistant: chat over your own bookmarks, highlights, notes, and transcripts with cited sources',
+      'Ask can tag, move, and tidy bookmarks with per-change approval and 30-day undo',
+      'MCP server for Claude, ChatGPT, Cursor, and VS Code (read-only by default)',
       'Automatic AI tagging',
       'AI article summaries',
       'AI YouTube summaries, chat, and playback-synced transcript on the watch page',
@@ -99,6 +103,7 @@ const jsonLd = [
 <LandingV2 title={title} description={description} canonical={canonical} jsonLd={jsonLd} alternates={alternatesForPath('/')}>
   <Nav slot="nav" />
   <HeroSection />
+  <AiAssistantSection />
   <LibrarySection />
   <SearchSection />
   <SaveAnywhereSection />

@@ -32,7 +32,7 @@ remember — **semantic search by meaning, not keywords**.
   on Free.
 - **Pro**: **$72/year** (≈ $6/month billed annually) or **$9/month** billed
   monthly. Unlimited bookmarks, AI summaries on every save, semantic +
-  full-text search, AI Organizer, Ask AI over your library, YouTube AI
+  full-text search, AI Organizer, Ask (the AI assistant, see below), YouTube AI
   summaries and chat, ChatVault, clipboard cloud sync, broken-link checking,
   unlimited notes, smart sorting, and priority email support.
 - **Standing first-year offer: $39 for year one** ("Save 46%"), then $72/year.
@@ -54,6 +54,11 @@ remember — **semantic search by meaning, not keywords**.
 > writer, the error had already propagated into `llms.txt` and the pricing
 > surface in the opposite direction — see `.seo/truth-ledger.md` for the
 > reconciliation and the automated check that now guards it.
+
+> **2026-09-12 correction (Ask).** The "Ask AI about your saves is single-shot"
+> paragraph and its never-claim bullet described the pre-Ask feature. Rewritten
+> above; the homepage hero, the AI Assistant section, the pricing perk and the
+> JSON-LD featureList were updated in the same change.
 
 
 ## Platforms
@@ -89,18 +94,37 @@ No offline reading mode — don't claim offline support.
 - **AI summaries** of saved articles; triage a backlog fast.
 - **Semantic search**: "that video about sourdough starters" finds the right
   save without the title. Works across titles, content, highlights, transcripts.
-- **Ask AI about your saves** (Pro): ask a question, get one answer grounded in
-  your saved content. This is single-shot — one question, one answer, NO
-  conversation history — do not call it "chat" or imply it's an ongoing
-  conversation. (Contrast with the YouTube Chat tab below, which IS a real
-  multi-turn conversation — that one is fine to call "chat.")
+- **Ask — the AI assistant** (Pro; the 7-day free trial applies): a right-hand
+  panel in the web app (⌘J / Ctrl+J, the chat-bubble button in the header,
+  "Ask about this board" from a board's menu, "Ask about this" on a bookmark).
+  It is a real multi-turn chat with threads. Marketing name: "Ask" / "the AI
+  assistant". The old "Ask AI about your saves is single-shot" description is
+  obsolete as of 2026-09-12.
+  - Answers from the user's OWN library — bookmarks, highlights, notes, YouTube
+    transcripts — streaming, with numbered citations that open the source and
+    a folded "Sources" row. While working it shows tool lines ("Searched your
+    library · 7 results", "Read a page").
+  - Proactive findings on the empty state: dead links, duplicate URLs
+    (exact-URL, see Duplicate handling), forgotten topics, overlapping boards.
+  - Can CHANGE the library (tags, boards, rename, trash, merge). Every change
+    is a proposal card applied after approval — instant in the library,
+    undoable for 30 days. Write modes: Off (read-only) · Ask me first
+    (default) · Small changes automatically (small reversible edits;
+    deletions still ask).
+  - Memory = a few small remembered preferences ("What Ask remembers"),
+    visible and clearable. It does NOT remember everything.
+  - Connected apps (MCP): the same tools from Claude, ChatGPT, Cursor, VS Code
+    via Settings → Connected apps, server https://mcp.marqly.com/ai/mcp; each
+    app is read-only by default with an "Allow this app to change my library"
+    toggle and Revoke access.
+  - Runs on monthly credits — never publish credit numbers or limits.
+  - The Ask mark is a chat bubble. Never "sparkles" / a sparkle icon.
 - **AI Organizer** (Pro): AI-driven bulk organization of an existing library.
-- **Broken-link checking** (Pro).
+- **Broken-link checking** (Pro); Ask surfaces the same dead links as a finding.
 - **YouTube AI card** on every YouTube watch page:
   - AI Summary tab — streaming TL;DR + key sections + books mentioned in the video
-  - Chat tab (Pro) — a real multi-turn conversation grounded in the video's
-    transcript; unlike "Ask AI about your saves," this one does hold context
-    across questions
+  - Chat tab (Pro) — a multi-turn conversation grounded in that video's
+    transcript (Ask, above, covers the whole library)
   - Transcript tab — playback-synced, one-click copy
   - Bookmark button in YouTube's action row saves the video **with its transcript attached**
 - **Highlighter**: select text on any website, highlight in **6 colors** — free
@@ -111,7 +135,9 @@ No offline reading mode — don't claim offline support.
 - **Read mode**: the reader/clean-view endpoint is free on every plan, no gate.
 - **Duplicate handling**: exact-URL matching only (host lowercased, trailing
   slash stripped, tracking params removed, #fragments ignored), free on every
-  plan. There is NO AI-powered duplicate detection — never claim one.
+  plan. There is NO AI-powered duplicate detection — never claim one. Ask can
+  list exact-URL duplicates as a finding ("116 URLs are saved more than once");
+  that is still exact matching, not fuzzy/AI dedup.
 - **Save as PDF**: capture any page as a clean PDF matching the on-screen layout
   (lazy-loaded images included), processed locally in Chrome and Edge. Firefox
   and Safari use the browser print-to-PDF flow as a fallback.
@@ -148,9 +174,10 @@ No offline reading mode — don't claim offline support.
   form), public API, self-hosting, team/collab features, browser support
   beyond the four above, SOC2 or other certifications, employee counts,
   funding, AI-powered duplicate detection (dedup is exact-URL matching only).
-- Do NOT call "Ask AI about your saves" a "chat" or imply it has conversation
-  memory — it's single-shot Q&A. (YouTube's Chat tab is genuinely multi-turn;
-  that one is fine to call chat.)
+- Do NOT publish Ask credit numbers or limits; do NOT say Ask "remembers
+  everything" or "has memory of your whole library" (memory = a few clearable
+  preferences); do NOT call the Ask icon "sparkles". (The old "single-shot, do
+  not call it chat" rule is retired — Ask IS a multi-turn chat.)
 - The free-tier bookmark quota (**2,000 stored, whole library searchable**,
   above) is the one quota that IS published and SHOULD be stated — this list
   used to tell writers to never state a free-tier quota at all, which is why

@@ -17,7 +17,7 @@ faqs:
   - q: "Can I chat with my saved articles and bookmarks?"
     a: "Yes. AI bookmark managers let you ask questions in plain language and answer from your own saves rather than the open web. You can ask 'what did I save about pricing?' and get a synthesized response drawn from the relevant articles and notes in your library, with the sources cited."
   - q: "How is chatting with my bookmarks different from a normal AI chatbot?"
-    a: "A normal chatbot answers from its general training data and the public internet. Chatting with your bookmarks answers only from what you saved, so the response reflects your own curated sources. It's also single-shot rather than an ongoing conversation — each question gets one grounded answer, and there's no memory of earlier questions to carry a thread the way a chatbot does."
+    a: "A normal chatbot answers from its general training data and the public internet. Ask answers only from what you saved, so the response reflects your own curated sources, and every claim carries a numbered citation back to the bookmark it came from. It is a real conversation with threads, though between chats it keeps only a few small preferences rather than everything you've said."
   - q: "Do I need to read an article before I can ask questions about it?"
     a: "No. That's part of the appeal — you can save long articles you never got around to reading and still ask what they say. The AI reads the content for you and answers your question, which is useful for clearing a backlog of saves you meant to read."
   - q: "Is asking my saved articles accurate?"

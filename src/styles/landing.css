@@ -70,6 +70,8 @@
      pro    = the app's Pro badge violet,
      success-solid = the app/extension #17C964 green. */
   --marker: #f0ec68;
+  /* Launch badge violet (founder-specified) */
+  --brand-new: #9534eb;
   --marker-soft: #f7f4a9;
   --pro: #7c3aed;
   /* Lighter violet for Pro accents that sit on the dark ink card — #7c3aed is
@@ -86,6 +88,21 @@
   --hl-blue: #b4edf4;
   --hl-mint: #b4f0c4;
   --hl-purple: #d6bcfa;
+
+  /* Ask (assistant) pastel tints — ported from the product's assistant.css
+     (six light values + their foregrounds) for the empty-state suggestion boxes. */
+  --ask-sky: oklch(0.94 0.035 240);
+  --ask-sky-fg: oklch(0.5 0.13 245);
+  --ask-mint: oklch(0.94 0.04 160);
+  --ask-mint-fg: oklch(0.48 0.11 160);
+  --ask-peach: oklch(0.94 0.04 45);
+  --ask-peach-fg: oklch(0.55 0.14 40);
+  --ask-lilac: oklch(0.94 0.04 300);
+  --ask-lilac-fg: oklch(0.5 0.14 300);
+  --ask-rose: oklch(0.94 0.035 10);
+  --ask-rose-fg: oklch(0.55 0.16 15);
+  --ask-amber: oklch(0.95 0.05 85);
+  --ask-amber-fg: oklch(0.55 0.13 75);
 
   /* Avatar identity tints (product) — used for favicon letter-tiles */
   --avatar-1: oklch(0.52 0.16 15);
@@ -379,6 +396,42 @@
   animation: organizer-sweep 1.3s ease-in-out infinite;
 }
 
+/* Ask thinking dots — the product's .assistant-dot keyframe, verbatim */
+.ask-dots {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.ask-dots > span {
+  width: 4px;
+  height: 4px;
+  border-radius: 999px;
+  background: currentColor;
+  animation: ask-dot 1.2s ease-in-out infinite;
+}
+
+.ask-dots > span:nth-child(2) {
+  animation-delay: 150ms;
+}
+
+.ask-dots > span:nth-child(3) {
+  animation-delay: 300ms;
+}
+
+@keyframes ask-dot {
+  0%,
+  60%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.45;
+  }
+  30% {
+    transform: translateY(-3px);
+    opacity: 1;
+  }
+}
+
 /* ------------------------------------------------------ LinkHub compat -- */
 /* The shared SEO pre-footer (components/seo/LinkHub.astro) reads the OLD
    site's token names. Shim only those vars, scoped, mapped to this system. */
@@ -467,7 +520,8 @@ footer a:hover {
   .card-in,
   .badge-enter,
   .just-added,
-  .organizer-sweep {
+  .organizer-sweep,
+  .ask-dots > span {
     animation: none !important;
     opacity: 1;
     transform: none;

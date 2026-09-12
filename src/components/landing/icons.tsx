@@ -22,6 +22,51 @@ function base(size: number, props: SVGProps<SVGSVGElement>) {
   };
 }
 
+/* Ask (assistant) glyphs — same grid, same stroke. */
+export const ArrowUpIcon = ({ size = 16, ...p }: IconProps) => (
+  <svg {...base(size, p)}>
+    <path d="M12 19.5v-15" />
+    <path d="m5.5 11 6.5-6.5L18.5 11" />
+  </svg>
+);
+
+export const UndoIcon = ({ size = 16, ...p }: IconProps) => (
+  <svg {...base(size, p)}>
+    <path d="M9 14 4 9l5-5" />
+    <path d="M4 9h10.5a5.5 5.5 0 0 1 0 11H11" />
+  </svg>
+);
+
+export const CheckCircleIcon = ({ size = 16, ...p }: IconProps) => (
+  <svg {...base(size, p)}>
+    <circle cx="12" cy="12" r="8.5" />
+    <path d="m8.5 12.3 2.4 2.4L15.5 10" />
+  </svg>
+);
+
+export const UnlinkIcon = ({ size = 16, ...p }: IconProps) => (
+  <svg {...base(size, p)}>
+    <path d="M15 7h1.5a4.5 4.5 0 0 1 0 9H15" />
+    <path d="M9 17H7.5a4.5 4.5 0 0 1 0-9H9" />
+    <path d="M6 3v2M3 6h2M18 21v-2M21 18h-2" />
+  </svg>
+);
+
+export const CopyIcon = ({ size = 16, ...p }: IconProps) => (
+  <svg {...base(size, p)}>
+    <rect x="9" y="9" width="11" height="11" rx="2" />
+    <path d="M5 15V6a2 2 0 0 1 2-2h9" />
+  </svg>
+);
+
+export const HistoryIcon = ({ size = 16, ...p }: IconProps) => (
+  <svg {...base(size, p)}>
+    <path d="M3.5 12a8.5 8.5 0 1 0 2.5-6L3.5 8.5" />
+    <path d="M3.5 4v4.5H8" />
+    <path d="M12 7.5V12l3 2" />
+  </svg>
+);
+
 export const BookmarkIcon = ({ size = 16, ...p }: IconProps) => (
   <svg {...base(size, p)}>
     <path d="M17 3.5H7a2 2 0 0 0-2 2v15l7-4.2 7 4.2v-15a2 2 0 0 0-2-2z" />

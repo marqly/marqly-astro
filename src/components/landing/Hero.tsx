@@ -1,28 +1,66 @@
 /**
- * Hero demo — the page's one orchestrated moment, and the start of its
- * through-line: Bon Appétit's real Cacio e Pepe recipe gets saved with the
- * real save modal (AI picks the board, suggests tags), then lands in the
- * Cooking board next to two more real recipes. The search section later
- * finds this exact bookmark again.
+ * Hero demo — the page's one orchestrated moment: Ask, the assistant panel,
+ * next to the library. A question gets typed, Ask searches the user's own
+ * saves, streams an answer with numbered citations, proposes tags for the
+ * three untagged bookmarks, and — once approved — the library updates.
  *
  * The sequence LOOPS while the demo is on screen (paused off-screen).
- * SSR frame: the "suggested" modal state, so the story reads with JS off.
- * Reduced motion: a single static "suggested" frame, no loop.
+ * Jump-free by construction: the dock is a fixed-size stage, every element
+ * of the conversation is in the DOM from the first frame and only ever
+ * changes opacity/transform; the library rows reserve a chip slot.
+ * SSR frame: the "proposal" state with the full answer, so the story reads
+ * with JS off. Reduced motion: that single static frame, no loop.
  */
 import { useEffect, useRef, useState } from 'react';
-import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
+import { useReducedMotion } from 'framer-motion';
 import { BrowserFrame } from './BrowserFrame';
-import { SaveModal } from './SaveModal';
-import { BookmarkCard } from './BookmarkCard';
-import { protagonist, cookingNeighbors } from './data';
-import { CheckIcon } from './icons';
+import { FaviconTile, Kbd } from './bits';
+import { askEmptyBoxes, askHero, gridBookmarks, japanBookmarks, type AskBoxKind, type DemoBookmark } from './data';
+import {
+  AskActionCard,
+  AskAnswer,
+  AskComposer,
+  AskDock,
+  AskEmptyState,
+  AskSourcesRow,
+  AskThinking,
+  AskToolPill,
+  AskUserBubble,
+  ColorTagChip,
+  answerLength,
+  type AskBox,
+} from './AskDock';
+import { ChevronDownIcon, CopyIcon, GridIcon, HistoryIcon, RowsIcon, SearchIcon, UnlinkIcon } from './icons';
 
-type Step = 'article' | 'thinking' | 'suggested' | 'saved';
+type Step = 'empty' | 'typing' | 'searching' | 'writing' | 'answer' | 'proposal' | 'applied';
 
-const EASE = [0.32, 0.72, 0, 1] as const;
+const TYPE_MS = 32;
+const WORD_MS = 45;
+
+export const BOX_ICONS: Record<AskBoxKind, AskBox['icon']> = {
+  broken: UnlinkIcon,
+  dups: CopyIcon,
+  forgotten: HistoryIcon,
+  overlap: GridIcon,
+};
+
+export const emptyBoxes: AskBox[] = askEmptyBoxes.map((b) => ({ label: b.label, tint: b.tint, icon: BOX_ICONS[b.kind] }));
+
+const BOOKMARK_BY_ID = new Map<string, DemoBookmark>([...japanBookmarks, ...gridBookmarks].map((b) => [b.id, b]));
+
+const answerWords = answerLength(askHero.answer);
+
+const proposalItems = askHero.proposal.items.map((it) => ({
+  title: BOOKMARK_BY_ID.get(it.id)!.title,
+  domain: BOOKMARK_BY_ID.get(it.id)!.domain,
+  chips: it.chips,
+}));
 
 export default function Hero() {
-  const [step, setStep] = useState<Step>('suggested');
+  const [step, setStep] = useState<Step>('proposal');
+  const [chars, setChars] = useState(askHero.question.length);
+  const [words, setWords] = useState<number>(answerWords);
+  const [pulse, setPulse] = useState(false);
   const reduce = useReducedMotion();
   const rootRef = useRef<HTMLDivElement>(null);
   const timers = useRef<ReturnType<typeof setTimeout>[]>([]);
@@ -43,11 +81,23 @@ export default function Hero() {
         timers.current.push(setTimeout(cycle, 1200));
         return;
       }
-      setStep('article');
-      at(500, () => setStep('thinking'));
-      at(2100, () => setStep('suggested'));
-      at(3700, () => setStep('saved'));
-      at(7600, cycle); // hold the library, then loop
+      setStep('empty');
+      setChars(0);
+      setWords(0);
+      setPulse(false);
+      at(700, () => setStep('typing'));
+      for (let i = 1; i <= askHero.question.length; i++) at(700 + i * TYPE_MS, () => setChars(i));
+      const typed = 700 + askHero.question.length * TYPE_MS; // ≈ 1600
+      at(typed + 300, () => setStep('searching'));
+      at(typed + 1100, () => setStep('writing'));
+      const answerAt = typed + 1500;
+      at(answerAt, () => setStep('answer'));
+      for (let i = 1; i <= answerWords; i++) at(answerAt + i * WORD_MS, () => setWords(i));
+      const answered = answerAt + answerWords * WORD_MS; // ≈ 4500
+      at(answered + 600, () => setStep('proposal'));
+      at(answered + 2000, () => setPulse(true));
+      at(answered + 2600, () => setStep('applied'));
+      at(answered + 6900, cycle); // hold the finished library, then loop
     };
 
     let io: IntersectionObserver | undefined;
@@ -68,131 +118,190 @@ export default function Hero() {
     };
   }, [reduce]);
 
-  const showModal = step === 'thinking' || step === 'suggested';
+  const conversation = step !== 'empty' && step !== 'typing';
+  const thinking = step === 'searching' || step === 'writing';
+  const answering = step === 'answer' || step === 'proposal' || step === 'applied';
+  const proposed = step === 'proposal' || step === 'applied';
+  const applied = step === 'applied';
+  const answerDone = words >= answerWords;
 
   return (
     <div ref={rootRef} className="relative">
-      <BrowserFrame url="feelgoodfoodie.net/recipe/best-hummus">
-        <div className="relative h-[430px] overflow-hidden bg-background sm:h-[460px]">
-          <AnimatePresence mode="wait" initial={false}>
-            {step !== 'saved' ? (
-              <motion.div
-                key="article"
-                className="absolute inset-0"
-                exit={{ opacity: 0, scale: 0.985 }}
-                transition={{ duration: 0.3, ease: EASE }}
+      <BrowserFrame url="app.marqly.com">
+        <div className="relative h-[430px] overflow-hidden bg-background sm:h-[470px] lg:h-[540px]" aria-hidden>
+          {/* The library, list view — hidden below sm where the app shows Ask as a full sheet */}
+          <div className="absolute inset-y-0 right-0 left-0 max-sm:hidden sm:right-[320px] md:right-[340px] lg:right-[400px]">
+            <LibraryRows added={applied} reduce={!!reduce} />
+          </div>
+
+          {/* Ask, docked on the right */}
+          <div className="absolute inset-y-0 right-0 w-full sm:w-[320px] md:w-[340px] lg:w-[400px]">
+            <AskDock
+              composer={
+                <AskComposer
+                  value={conversation ? '' : askHero.question.slice(0, chars)}
+                  typing={step === 'typing'}
+                  streaming={thinking || (step === 'answer' && !answerDone)}
+                />
+              }
+            >
+              {/* Empty state layer */}
+              <div
+                className="absolute inset-x-3 top-3 transition-opacity duration-300"
+                style={{ opacity: conversation ? 0 : 1 }}
               >
-                <ArticlePage dimmed={showModal} />
-                <AnimatePresence>
-                  {showModal && (
-                    <motion.div
-                      key="modal"
-                      className="absolute inset-0 z-10 flex items-center justify-center bg-black/30 p-4"
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                      exit={{ opacity: 0 }}
-                      transition={{ duration: 0.25 }}
-                    >
-                      <motion.div
-                        initial={{ opacity: 0, scale: 0.95, y: 6 }}
-                        animate={{ opacity: 1, scale: 1, y: 0 }}
-                        transition={{ duration: 0.25, ease: EASE }}
-                        className="w-full max-w-[440px]"
-                      >
-                        <SaveModal
-                          phase={step === 'thinking' ? 'thinking' : 'suggested'}
-                          url="feelgoodfoodie.net/recipe/best-hummus"
-                          title="This is the hummus I make for dipping, spreading, and snacking"
-                          boardEmoji="🍳"
-                          boardName="Cooking"
-                          tags={['hummus', 'lebanese', 'meze']}
-                        />
-                      </motion.div>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </motion.div>
-            ) : (
-              <motion.div
-                key="library"
-                className="absolute inset-0 flex flex-col"
-                initial={reduce ? false : { opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 0.3, ease: EASE }}
+                <AskEmptyState boxes={emptyBoxes} reduce={!!reduce} visible={!conversation} />
+              </div>
+
+              {/* Conversation layer — every element mounted from frame one */}
+              <div
+                className="absolute inset-x-3 top-3 bottom-0 flex flex-col gap-2 transition-opacity duration-300"
+                style={{ opacity: conversation ? 1 : 0 }}
               >
-                <LibraryLanding reduce={!!reduce} />
-              </motion.div>
-            )}
-          </AnimatePresence>
+                <AskUserBubble>{askHero.question}</AskUserBubble>
+                <div>
+                  <AskToolPill
+                    label={askHero.tool.label}
+                    tail={`${askHero.tool.results} results`}
+                    state={step === 'searching' ? 'start' : 'ok'}
+                  />
+                </div>
+                {/* Thinking row and answer share one slot: the answer sizes it */}
+                <div className="relative">
+                  <div
+                    className="absolute inset-x-0 top-0 transition-opacity duration-200"
+                    style={{ opacity: thinking ? 1 : 0 }}
+                  >
+                    <AskThinking label={step === 'writing' ? 'Writing…' : 'Searching your library…'} />
+                  </div>
+                  <AskAnswer segments={askHero.answer} revealed={answering ? words : 0} />
+                </div>
+                <Fade show={answering && answerDone}>
+                  <AskSourcesRow domains={askHero.sources.domains} count={askHero.sources.count} />
+                </Fade>
+                {/* The proposal card: preview sizes the slot, applied overlays it */}
+                <div
+                  className="relative mt-1 transition-[opacity,transform] duration-300 ease-[var(--ease-smooth)]"
+                  style={{ opacity: proposed ? 1 : 0, transform: proposed ? 'none' : 'translateY(6px)' }}
+                >
+                  <div className="transition-opacity duration-200" style={{ opacity: applied ? 0 : 1 }}>
+                    <AskActionCard
+                      kind="preview"
+                      title={askHero.proposal.title}
+                      count={proposalItems.length}
+                      items={proposalItems}
+                      pulse={pulse && !applied}
+                      reduce={!!reduce}
+                    />
+                  </div>
+                  <div className="absolute inset-0 transition-opacity duration-200" style={{ opacity: applied ? 1 : 0 }}>
+                    <AskActionCard kind="applied" title={askHero.proposal.title} count={proposalItems.length} items={proposalItems} />
+                  </div>
+                </div>
+              </div>
+            </AskDock>
+          </div>
         </div>
       </BrowserFrame>
+      <p className="sr-only">
+        Marqly's Ask panel answering "what did I save about Japan?" from the user's own bookmarks, citing three
+        sources, then proposing tags for three bookmarks that apply after approval.
+      </p>
     </div>
   );
 }
 
-/* --------------------------------------------------------------- scenes -- */
-
-function ArticlePage({ dimmed }: { dimmed: boolean }) {
+function Fade({ show, children }: { show: boolean; children: React.ReactNode }) {
   return (
-    <div
-      className={`h-full px-8 pt-8 transition-opacity duration-300 sm:px-14 ${dimmed ? 'opacity-90' : ''}`}
-      aria-hidden
-    >
-      <div className="mx-auto max-w-[560px]">
-        <span className="text-[11px] text-muted">feelgoodfoodie.net · Recipes</span>
-        <p className="font-display mt-3 text-[28px] leading-tight font-medium text-foreground sm:text-3xl">
-          The Hummus I Make Every Week
-        </p>
-        <p className="mt-2 text-[11px] text-muted">5 ingredients · 10 minutes</p>
-        <div className="mt-5 space-y-2.5 text-[13px] leading-relaxed text-muted/90">
-          <p>
-            Chickpeas, tahini, lemon, garlic, and ice-cold water. Authentic Lebanese hummus needs
-            nothing else, and the blender does most of the work.
-          </p>
-          <p>
-            The cold water is the trick: streamed in while blending, it whips the tahini and turns
-            the whole bowl pale, light, and impossibly smooth.
-          </p>
-          <p className="text-muted/50">
-            Serve it swirled, with olive oil pooling in the middle. Warm pita is not optional.
-          </p>
-        </div>
-      </div>
+    <div className="transition-opacity duration-300" style={{ opacity: show ? 1 : 0 }}>
+      {children}
     </div>
   );
 }
 
-function LibraryLanding({ reduce }: { reduce: boolean }) {
+/* --------------------------------------------------------- the library -- */
+
+const HERO_ROWS: { bookmark: DemoBookmark; chips: string[]; fresh: boolean }[] = [
+  ...japanBookmarks.map((b) => ({
+    bookmark: b,
+    chips: askHero.proposal.items.find((it) => it.id === b.id)?.chips ?? [],
+    fresh: true,
+  })),
+  ...gridBookmarks.slice(1, 5).map((b) => ({ bookmark: b, chips: b.tags, fresh: false })),
+];
+
+/**
+ * The app's list view (BookmarkCondensedCard rows): favicon, title, domain,
+ * a tag slot that is always reserved, and the date. `added` fills the slot
+ * of the three Japan rows with the tags Ask just applied.
+ */
+export function LibraryRows({
+  added = false,
+  reduce = false,
+  dimmed = false,
+}: {
+  added?: boolean;
+  reduce?: boolean;
+  dimmed?: boolean;
+}) {
   return (
-    <div className="flex h-full flex-col justify-center gap-5 px-6 sm:px-8">
-      <div className="flex items-center justify-between">
-        <span className="flex items-center gap-2 text-sm font-medium text-foreground">
-          <span aria-hidden className="text-[15px] leading-none">🍳</span>
-          Cooking
-          <span className="font-mono text-[11px] text-muted">90</span>
-        </span>
-        <motion.span
-          initial={reduce ? false : { opacity: 0, y: -4 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.35, duration: 0.25, ease: EASE }}
-          className="flex items-center gap-1.5 rounded-3xl bg-surface py-1.5 pr-3 pl-2 text-xs font-medium shadow-surface"
-        >
-          <span className="flex size-4 items-center justify-center rounded-full bg-[color:var(--success-solid)] text-white">
-            <CheckIcon size={10} />
+    <div className={`flex h-full flex-col px-4 pt-4 sm:px-5 ${dimmed ? 'opacity-60' : ''}`}>
+      <div className="flex items-center gap-2.5">
+        <div className="flex h-9 min-w-0 flex-1 items-center gap-2.5 rounded-lg bg-field px-3 shadow-surface">
+          <SearchIcon size={15} className="shrink-0 text-muted" />
+          <span className="truncate text-[13px] text-muted">Search your bookmarks</span>
+          <span className="ml-auto">
+            <Kbd>⌘K</Kbd>
           </span>
-          Saved to Cooking
-        </motion.span>
-      </div>
-      <div className="grid grid-cols-2 items-start gap-4 sm:grid-cols-3">
-        <div className={reduce ? '' : 'just-added'}>
-          <BookmarkCard bookmark={protagonist} highlight />
         </div>
-        {cookingNeighbors.map((b, i) => (
-          <div key={b.id} className={i === 1 ? 'max-sm:hidden' : ''}>
-            <BookmarkCard bookmark={b} />
-          </div>
-        ))}
+        <span className="flex h-9 items-center gap-0.5 rounded-lg bg-default p-1 text-muted">
+          <span className="flex size-7 items-center justify-center rounded-md">
+            <GridIcon size={14} />
+          </span>
+          <span className="flex size-7 items-center justify-center rounded-md bg-surface text-foreground shadow-surface">
+            <RowsIcon size={14} />
+          </span>
+        </span>
+        <span className="flex h-9 items-center gap-1 rounded-lg px-2 text-[12px] font-medium text-muted max-md:hidden">
+          Recent
+          <ChevronDownIcon size={13} />
+        </span>
       </div>
+      <p className="mt-4 mb-2 flex items-baseline gap-2 text-[13px] font-medium text-foreground">
+        All bookmarks
+        <span className="font-mono text-[11px] font-medium text-muted">1,412</span>
+      </p>
+      <ul className="flex flex-col gap-1.5 lg:gap-2">
+        {HERO_ROWS.map(({ bookmark, chips, fresh }, i) => {
+          const show = !fresh || added;
+          return (
+            <li
+              key={bookmark.id}
+              className={`flex min-h-[44px] items-center gap-3 rounded-lg bg-surface px-3 py-2 shadow-surface ${
+                i === 6 ? 'max-lg:hidden' : ''
+              } ${fresh && added && !reduce ? 'just-added' : ''}`}
+            >
+              <FaviconTile domain={bookmark.domain} size={18} />
+              <span className="flex min-w-0 flex-1 flex-col">
+                <span className="truncate text-[13px] leading-5 font-medium text-foreground">{bookmark.title}</span>
+                <span className="truncate text-[11px] leading-4 text-muted">{bookmark.domain}</span>
+              </span>
+              <span className="flex w-[132px] shrink-0 items-center justify-end gap-1 max-lg:hidden">
+                {chips.slice(0, 2).map((c, j) => (
+                  <span
+                    key={c}
+                    className={`transition-opacity duration-200 ${show && fresh && !reduce ? 'badge-enter' : ''}`}
+                    style={{ opacity: show ? 1 : 0, animationDelay: `${i * 120 + j * 60}ms` }}
+                  >
+                    <ColorTagChip label={c} />
+                  </span>
+                ))}
+              </span>
+              <span className="shrink-0 font-mono text-[11px] text-muted">{bookmark.date}</span>
+            </li>
+          );
+        })}
+      </ul>
     </div>
   );
 }

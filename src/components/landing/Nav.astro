@@ -1,8 +1,10 @@
 ---
 import { APP_URL, CHROME_URL } from './data';
 
-const primary = [
+const primary: { label: string; href: string; badge?: string }[] = [
   { label: 'Extension', href: '/extension' },
+  // "New" pill for the launch — remove around 2026-10-15.
+  { label: 'AI Assistant', href: '/#ai-assistant', badge: 'New' },
   { label: 'Features', href: '/#features' },
   { label: 'Pricing', href: '/#pricing' },
   { label: 'Reviews', href: '/#reviews' },
@@ -11,6 +13,7 @@ const primary = [
 const resources = [
   { label: 'Compare', href: '/compare', desc: 'Side-by-side tool comparisons' },
   { label: 'Alternatives', href: '/alternatives', desc: 'Find the right replacement' },
+  { label: 'Migration', href: '/migrate', desc: 'Switch with zero data loss' },
   { label: 'Free tools', href: '/tools', desc: 'Useful tools, no signup' },
   { label: 'Prompt Gallery', href: '/prompt-gallery', desc: 'Copy-paste AI prompts' },
   { label: 'FAQ', href: '/faq', desc: 'Answers about Marqly' },
@@ -36,6 +39,11 @@ const help = { label: 'Help', href: 'https://help.marqly.com/' };
             class="text-sm font-medium text-muted transition-colors hover:text-foreground"
           >
             {l.label}
+            {l.badge && (
+              <span class="ml-1.5 rounded-2xl px-1.5 py-px align-middle text-[9px] font-semibold tracking-wide uppercase" style="background: color-mix(in oklab, var(--brand-new) 12%, transparent); color: var(--brand-new)">
+                {l.badge}
+              </span>
+            )}
           </a>
         ))
       }
@@ -132,6 +140,11 @@ const help = { label: 'Help', href: 'https://help.marqly.com/' };
                 class="block rounded-xl px-3.5 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-default/70"
               >
                 {l.label}
+                {l.badge && (
+                  <span class="ml-1.5 rounded-2xl px-1.5 py-px align-middle text-[9px] font-semibold tracking-wide uppercase" style="background: color-mix(in oklab, var(--brand-new) 12%, transparent); color: var(--brand-new)">
+                    {l.badge}
+                  </span>
+                )}
               </a>
             ))
           }
