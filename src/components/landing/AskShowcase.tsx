@@ -4,7 +4,7 @@
  * the same tools from Claude / ChatGPT / Cursor (Connected apps). Clicking a
  * tab pins it; ← → move between tabs. Fixed stage height = zero layout jump.
  * Each pane owns a short timeline (cleared on unmount) and rests on a final
- * frame. Reduced motion: the final frames, static; no cycling.
+ * frame. Reduced motion: the final frames, static; no cycling. Opens on Connected apps.
  */
 import { useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
@@ -28,7 +28,8 @@ import { ConnectedAppsDemo } from './ConnectedAppsDemo';
 import { LibraryRows, emptyBoxes } from './Hero';
 import { ArticleIcon, UnlinkIcon } from './icons';
 
-const TABS = ['Ask', 'Find problems', 'Tidy up', 'From Claude & ChatGPT'] as const;
+// Connected apps leads (founder call): the MCP story opens the showcase, then the panel's own jobs.
+const TABS = ['From Claude & ChatGPT', 'Ask', 'Find problems', 'Tidy up'] as const;
 type Tab = (typeof TABS)[number];
 
 const EASE = [0.32, 0.72, 0, 1] as const;
@@ -36,7 +37,7 @@ const CYCLE_MS = 6200;
 const WORD_MS = 45;
 
 export default function AskShowcase() {
-  const [tab, setTab] = useState<Tab>('Ask');
+  const [tab, setTab] = useState<Tab>(TABS[0]);
   const [pinned, setPinned] = useState(false);
   const reduce = useReducedMotion();
   const rootRef = useRef<HTMLDivElement>(null);
