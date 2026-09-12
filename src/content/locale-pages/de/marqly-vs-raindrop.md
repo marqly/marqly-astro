@@ -38,7 +38,7 @@ Kurz vorweg, damit du nicht bis zum Ende scrollen musst: **Raindrop.io ist der a
 | --- | --- | --- |
 | Preis Pro | 72 $/Jahr (rund 66 €) oder 9 $/Monat (rund 8 €) | rund 28 $/Jahr (rund 26 €) oder 3 $/Monat |
 | Kostenlose Stufe | ja, ohne Karte | ja, sehr großzügig |
-| Test | 3 Tage kostenlos | kein Test nötig, Gratis-Stufe reicht weit |
+| Test | 7 Tage kostenlos | kein Test nötig, Gratis-Stufe reicht weit |
 | Suche | semantisch: beschreiben statt benennen | Stichwortsuche; Volltext in Pro |
 | Automatisches Tagging | ja, KI vergibt Tags | KI schlägt Tags und Sammlungen vor (Pro) |
 | Zusammenfassungen | ja, zu jeder Speicherung | nein |
@@ -87,4 +87,4 @@ Und der Preis: rund **28 $/Jahr (rund 26 €)** gegen **72 $/Jahr (rund 66 €)*
 
 Ein Wechsel ist in beide Richtungen unkompliziert: Raindrop exportiert schon in der kostenlosen Stufe, Marqly hat einen Raindrop-Import und liest jede Lesezeichen-HTML-Datei. Wenn du gerade generell umziehst, hilft der Überblick zu den [Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2026); Fragen zu Daten und Export beantworten die [Datenschutz-Fragen](/de/datenschutz-fragen).
 
-Am ehrlichsten entscheidest du mit den eigenen Lesezeichen: importieren, drei Tage lang nur über Beschreibungen suchen und schauen, was hängen bleibt. [Marqly kostenlos testen](https://app.marqly.com).
+Am ehrlichsten entscheidest du mit den eigenen Lesezeichen: importieren, sieben Tage lang nur über Beschreibungen suchen und schauen, was hängen bleibt. [Marqly kostenlos testen](https://app.marqly.com).

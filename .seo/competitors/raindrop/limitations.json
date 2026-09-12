@@ -1,8 +1,11 @@
 {
   "key_limitations": [
     "Manual organization required: users must choose folders and tags for every link",
-    "No semantic search by meaning",
-    "No AI article summaries or YouTube transcript extraction",
+    "Free tier highlights capped at 3 per bookmark (unlimited on Pro)",
+    "Free tier uploads capped at 100 MB per month (10 GB/month on Pro)",
+    "No semantic search by meaning (keyword and Pro full-text search only)",
+    "No automatic AI article summaries or YouTube transcript extraction",
+    "No centralized team workspace or consolidated organization billing",
     "Solo developer project"
   ]
 }

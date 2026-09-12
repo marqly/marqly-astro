@@ -1,17 +1,20 @@
 {
   "import_formats": [
-    "Browser HTML",
+    "Browser HTML (Netscape format)",
     "Pocket export",
     "CSV"
   ],
   "export_formats": [
-    "HTML",
-    "CSV"
+    "HTML (Netscape format)",
+    "CSV",
+    "JSON",
+    "Daily cloud backup ZIP"
   ],
   "field_preservation": {
     "tags": true,
     "notes": true,
     "highlights": true,
-    "timestamps": true
+    "timestamps": true,
+    "collections": true
   }
 }

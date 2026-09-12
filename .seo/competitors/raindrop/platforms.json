@@ -8,5 +8,15 @@
   "chrome_extension": true,
   "firefox_extension": true,
   "safari_extension": true,
-  "edge_extension": true
+  "edge_extension": true,
+  "extensions": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge",
+    "opera",
+    "brave",
+    "vivaldi",
+    "arc"
+  ]
 }

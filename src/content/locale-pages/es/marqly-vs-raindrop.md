@@ -15,7 +15,7 @@ faqs:
   - q: "¿Cuál es mejor, Marqly o Raindrop?"
     a: "Depende de dónde te duela. Si te gusta organizar en colecciones y quieres un plan gratis muy generoso con apps en todas las plataformas, Raindrop es difícil de superar. Si guardas mucho, no ordenas nada y sufres cuando toca reencontrar, Marqly gana por búsqueda semántica, etiquetado automático y resúmenes."
   - q: "¿Cuánto cuesta cada uno?"
-    a: "Raindrop Pro cuesta unos 28 USD al año o 3 USD al mes, sobre un plan gratis muy amplio. Marqly Pro cuesta 72 USD al año o 9 USD al mes, con prueba gratis de 3 días y plan gratis sin tarjeta; los estudiantes verificados pagan 48 USD el primer año."
+    a: "Raindrop Pro cuesta unos 28 USD al año o 3 USD al mes, sobre un plan gratis muy amplio. Marqly Pro cuesta 72 USD al año o 9 USD al mes, con prueba gratis de 7 días y plan gratis sin tarjeta; los estudiantes verificados pagan 48 USD el primer año."
   - q: "¿Raindrop tiene búsqueda semántica?"
     a: "No. Raindrop busca por palabras clave, y la búsqueda de texto completo dentro de las páginas guardadas está en el plan Pro. Marqly busca por significado: describes de qué trataba la página y aparece, aunque no uses ninguna palabra de su título."
   - q: "¿Marqly tiene app de Android o API?"
@@ -38,7 +38,7 @@ Resumen corto: **Raindrop.io** es el mejor archivador de enlaces del mercado —
 | --- | --- | --- |
 | Precio Pro | 72 USD/año · 9 USD/mes | ~28 USD/año · ~3 USD/mes |
 | Plan gratis | Sí, sin tarjeta | Sí, muy generoso |
-| Prueba | 3 días gratis de Pro | — |
+| Prueba | 7 días gratis de Pro | — |
 | Descuento estudiante | 48 USD el primer año | — |
 | Búsqueda semántica | Sí | No (palabras clave) |
 | Búsqueda de texto completo | Sí | Sí, en Pro |
@@ -111,4 +111,4 @@ Raindrop exporta en HTML o CSV desde el plan gratis, y Marqly tiene importación
 
 Si además estás evaluando otras opciones, el repaso de [alternativas a Pocket en 2026](/es/blog/alternativas-a-pocket-2026) cubre el resto de la categoría, y en [la página principal en español](/es) está todo lo que hace Marqly.
 
-La forma honesta de decidir es probar. Marqly tiene plan gratis sin tarjeta y 3 días de prueba de Pro: importa tu biblioteca de Raindrop, busca cinco cosas describiéndolas con tus palabras y mira qué pasa. [Empieza gratis en app.marqly.com](https://app.marqly.com).
+La forma honesta de decidir es probar. Marqly tiene plan gratis sin tarjeta y 7 días de prueba de Pro: importa tu biblioteca de Raindrop, busca cinco cosas describiéndolas con tus palabras y mira qué pasa. [Empieza gratis en app.marqly.com](https://app.marqly.com).

@@ -23,7 +23,7 @@ faqs:
   - q: "Posso passare da Raindrop a Marqly senza perdere niente?"
     a: "Sì. Raindrop esporta in HTML e CSV anche dal piano gratuito, e Marqly ha un'importazione dedicata da Raindrop, oltre a quella da Pocket e dai file HTML dei preferiti del browser."
   - q: "Quanto costano i due?"
-    a: "Raindrop Pro costa circa 28 $/anno o 3 $/mese. Marqly Pro costa 72 $/anno (circa 69 €) oppure 9 $/mese (circa 8 €), con 3 giorni di prova e 48 $ il primo anno (circa 46 €) per gli studenti verificati."
+    a: "Raindrop Pro costa circa 28 $/anno o 3 $/mese. Marqly Pro costa 72 $/anno (circa 69 €) oppure 9 $/mese (circa 8 €), con 7 giorni di prova e 48 $ il primo anno (circa 46 €) per gli studenti verificati."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — è gratis"

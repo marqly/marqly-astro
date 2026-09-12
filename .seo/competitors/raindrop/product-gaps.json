@@ -1,13 +1,16 @@
 {
   "raindrop_advantages": [
-    "Nested folder hierarchy",
+    "Nested folder hierarchy and multiple view modes (Moodboard, Cards, Headlines, List)",
     "Automatic cloud backup to Dropbox/Google Drive",
-    "Native Linux app"
+    "Native Linux and Windows apps, Android app",
+    "Open REST API with 120 req/min and 2,600+ integrations"
   ],
   "marqly_differentiation": [
-    "Semantic search by meaning",
-    "Automatic AI auto-tagging",
-    "AI summaries of articles & YouTube videos",
-    "ChatVault & clipboard history"
+    "Semantic search by meaning (retrieve saves by describing concepts)",
+    "Automatic AI auto-tagging on every save without clicking suggestions",
+    "AI streaming summaries of articles & YouTube videos",
+    "Interactive YouTube Watch Card with synced transcript and Q&A",
+    "Live on-page highlighter persisting directly on external web pages",
+    "ChatVault AI conversation capture & clipboard history"
   ]
 }

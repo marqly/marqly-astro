@@ -15,7 +15,7 @@ faqs:
   - q: "O Raindrop é melhor que o Marqly?"
     a: "Depende do seu problema. Se você gosta de organizar em coleções, quer app para Android e o plano grátis mais generoso da categoria, o Raindrop é melhor. Se você salva muito e depois não acha nada, a busca semântica e os resumos de IA do Marqly resolvem melhor."
   - q: "Quanto custa cada um?"
-    a: "O Raindrop Pro custa cerca de US$ 28 por ano ou US$ 3 por mês, e o plano grátis é bem completo. O Marqly Pro custa US$ 72 por ano ou US$ 9 por mês, com 3 dias de teste grátis e plano grátis sem cartão; estudante verificado paga US$ 48 no primeiro ano."
+    a: "O Raindrop Pro custa cerca de US$ 28 por ano ou US$ 3 por mês, e o plano grátis é bem completo. O Marqly Pro custa US$ 72 por ano ou US$ 9 por mês, com 7 dias de teste grátis e plano grátis sem cartão; estudante verificado paga US$ 48 no primeiro ano."
   - q: "Dá para migrar do Raindrop para o Marqly?"
     a: "Dá. O Marqly tem importação do Raindrop, e o Raindrop exporta em HTML e CSV mesmo no plano grátis. Também dá para importar do Pocket e arquivos HTML de favoritos do navegador."
   - q: "O Raindrop tem IA?"
@@ -64,7 +64,7 @@ O Marqly foi construído em volta desse problema:
 | --- | --- | --- |
 | Plano grátis | Sim, sem cartão | Sim, e bem generoso |
 | Preço do plano pago | US$ 72/ano ou US$ 9/mês | Cerca de US$ 28/ano ou US$ 3/mês |
-| Teste grátis | 3 dias | Não |
+| Teste grátis | 7 dias | Não |
 | Desconto de estudante | US$ 48 no primeiro ano | Não divulgado |
 | Busca semântica | Sim | Não (palavra-chave) |
 | Busca no texto completo | Sim | Sim, no plano pago |

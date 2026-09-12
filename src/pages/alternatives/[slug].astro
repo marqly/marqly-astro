@@ -8,6 +8,7 @@ import SourceNote from '../../components/seo/SourceNote.astro';
 import { competitors, marqly } from '../../lib/competitors';
 import { marqlyEdges, pricingSentence, rankAlternatives } from '../../lib/compare-content';
 import { breadcrumbList, faqPage, itemList, organization, softwareApplication, webSite } from '../../lib/schema';
+import { alternatesForPath } from '../../i18n/routes';
 
 export function getStaticPaths() {
   return competitors.map((c) => ({ params: { slug: c.slug }, props: { slug: c.slug } }));
@@ -53,6 +54,7 @@ const others = competitors.filter((c) => c.slug !== subject.slug);
   description={description}
   jsonLd={jsonLd}
   ogImage={`https://www.marqly.com/og/seo/alternatives-${subject.slug}.png`}
+  alternates={alternatesForPath(path)}
 >
   <article class="section">
     <div class="container alt-page">

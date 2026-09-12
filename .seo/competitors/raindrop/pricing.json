@@ -1,13 +1,30 @@
 {
-  "free_tier": true,
-  "free_tier_limits": "Unlimited bookmarks, collections, and devices. Search is title/URL only on Free; highlights capped.",
+  "free_tier": {
+    "price": 0,
+    "bookmark_limit": "unlimited",
+    "highlights_per_bookmark": 3,
+    "upload_mb_month": 100
+  },
+  "pro_tier": {
+    "annual_usd": 28.00,
+    "monthly_usd": 3.25,
+    "annual_eur": 28.00,
+    "monthly_eur": 3.25,
+    "app_store_annual": 27.99,
+    "app_store_monthly": 2.99
+  },
+  "free_tier_limits": "Unlimited bookmarks, collections, and devices. Search is title/URL only on Free; highlights capped at 3 per bookmark; 100MB/mo uploads.",
   "trial": "Free tier serves as ongoing trial",
   "paid_tiers": [
     {
       "name": "Raindrop Pro",
       "monthly_price": 3.25,
       "annual_price_per_month": 2.33,
-      "billed_annually": 28.0
+      "billed_annually": 28.0,
+      "app_store_annual": 27.99,
+      "app_store_monthly": 2.99,
+      "annual_eur": 28.00,
+      "monthly_eur": 3.25
     }
   ],
   "currency": "USD",

@@ -1,9 +1,17 @@
 {
-  "has_ai": false,
-  "ai_name": null,
+  "has_ai": true,
+  "ai_name": "Stella",
+  "model_name": "Stella",
+  "save_time_tag_suggestions": true,
+  "collection_recommendations": true,
+  "single_item_qa": true,
+  "qa_chat_over_saves": false,
   "auto_tagging": false,
   "auto_summaries": false,
-  "qa_chat_over_saves": false,
+  "auto_summaries_on_save": false,
   "semantic_retrieval": false,
-  "notes": "Testing experimental tag suggestions in 2026; no generative summaries or natural-language semantic vector search."
+  "semantic_vector_search": false,
+  "youtube_ai_card": false,
+  "chat_vault": false,
+  "notes": "Raindrop Pro includes Stella assistant for save-time tag and collection suggestions and single-item Q&A; no autonomous auto-tagging across all saves, no generative summaries on save, no semantic vector search, no YouTube on-page cards, and no AI chat capture."
 }

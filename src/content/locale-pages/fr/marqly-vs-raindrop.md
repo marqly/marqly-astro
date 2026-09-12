@@ -60,7 +60,7 @@ Si votre bibliothèque est déjà bien rangée et que vous retrouvez sans peine 
 | --- | --- | --- |
 | Offre gratuite | Oui, sans carte | Oui, très généreuse |
 | Prix payant | 72 $/an (environ 69 €) ou 9 $/mois | environ 28 $/an ou 3 $/mois |
-| Essai | 3 jours | Pas d'essai (offre gratuite illimitée) |
+| Essai | 7 jours | Pas d'essai (offre gratuite illimitée) |
 | Tarif étudiant | 48 $ la première année | Non annoncé |
 | Recherche sémantique | Oui | Non, recherche par mots-clés |
 | Recherche plein texte | Oui | Oui, réservée à Pro |
