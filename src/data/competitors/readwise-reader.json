@@ -1,7 +1,7 @@
 {
   "name": "Readwise Reader",
   "slug": "readwise-reader",
-  "aka": ["readwise", "reader"],
+  "aka": ["reader", "readwise-reader-app", "reader-by-readwise"],
   "category": "read-it-later",
   "status": "active",
   "shutdownNote": null,

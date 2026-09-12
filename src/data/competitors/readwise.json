@@ -1,0 +1,74 @@
+{
+  "name": "Readwise",
+  "slug": "readwise",
+  "aka": ["readwise-app", "readwise-highlights"],
+  "category": "highlighter",
+  "status": "active",
+  "shutdownNote": null,
+  "website": "https://readwise.io",
+  "tagline": "The highlight aggregator that syncs your reading notes and resurfaces them via spaced repetition",
+  "pricing": {
+    "free": false,
+    "paid": "Readwise Lite $4.49/mo billed annually ($53.88/yr) or $5.59/mo; Readwise Full $9.99/mo billed annually ($119.88/yr) or $12.99/mo",
+    "trial": "30-day free trial",
+    "notes": "No permanent free tier — after 30 days you must subscribe. Readwise Lite syncs highlights; Readwise Full adds the Reader reading app. 50% student discount available."
+  },
+  "platforms": ["web", "ios", "android", "chrome", "firefox", "safari", "edge"],
+  "features": {
+    "aiAutoTagging": false,
+    "semanticSearch": false,
+    "aiSummaries": false,
+    "youtubeAi": false,
+    "chatWithSaves": false,
+    "highlights": true,
+    "annotationNotes": true,
+    "savePdf": false,
+    "fullTextSearch": true,
+    "tabSaver": false,
+    "publicSharing": false,
+    "importPocket": true,
+    "importBrowserHtml": false,
+    "offlineReading": false,
+    "iosApp": true,
+    "androidApp": true,
+    "browserExtension": true,
+    "freeTier": false,
+    "api": true,
+    "selfHosted": false
+  },
+  "pros": [
+    "Syncs highlights automatically from Kindle, Apple Books, Pocket, Instapaper, and Twitter/X",
+    "Exports formatted markdown directly to Obsidian, Notion, Logseq, and Roam Research",
+    "Daily review email and mobile app use proven spaced repetition to resurface key ideas",
+    "Supports custom tags, inline notes, and flashcards generated from reading quotes",
+    "Well-maintained official API and active developer community"
+  ],
+  "cons": [
+    "No permanent free tier — $54 to $120 per year is a high price if you only need link saving",
+    "Not a bookmark manager: cannot save web pages, links, videos, or full articles for later",
+    "No semantic search across web content",
+    "Overkill if you do not actively take and review book highlights"
+  ],
+  "bestFor": "Avid book readers and PKM enthusiasts who want spaced-repetition highlight review and automatic sync to Notion or Obsidian.",
+  "verdict": "The gold standard for book highlight syncing and spaced repetition — but expensive and not a tool for saving or organizing web bookmarks.",
+  "overview": "Readwise is a highlight aggregator and spaced repetition resurfacing tool launched in 2017. It automatically collects highlights and reading notes from Kindle, Apple Books, Instapaper, Pocket, and Twitter, and organizes them in one searchable library. Its signature feature is the Daily Review — a daily spaced-repetition email and mobile session that brings past highlights back into memory. Readwise connects directly with Notion, Obsidian, Roam Research, Logseq, and Evernote, keeping markdown notes in sync as you read. Readwise offers a 30-day free trial but no permanent free tier; the Lite plan costs $4.49/month billed annually ($53.88/year) or $5.59/month, while the Full plan costs $9.99/month billed annually ($119.88/year) or $12.99/month and bundles the Readwise Reader reading app. Readwise is not a bookmark manager and cannot store full web pages or links.",
+  "faqs": [
+    {
+      "q": "Is Readwise free?",
+      "a": "No. Readwise offers a 30-day free trial, but no permanent free tier. After the trial, the Lite plan costs $4.49/month billed annually ($53.88/year) or $5.59/month. The Full plan, which includes Reader, costs $9.99/month billed annually ($119.88/year) or $12.99/month. Verified students and educators receive a 50% discount."
+    },
+    {
+      "q": "Can Readwise replace a bookmark manager?",
+      "a": "No. Readwise is built specifically for highlight management, spaced repetition, and PKM note syncing. It does not save general web links, bookmarks, videos, or tab sessions. For personal bookmarking with AI organization, a dedicated tool like Marqly is purpose-built for that job."
+    },
+    {
+      "q": "What is the difference between Readwise and Readwise Reader?",
+      "a": "Readwise is the highlight-syncing and spaced-repetition platform that feeds into tools like Notion and Obsidian. Readwise Reader is a separate read-it-later app for reading articles, PDFs, newsletters, and RSS feeds. Reader is included in the Readwise Full plan."
+    },
+    {
+      "q": "What is the best Readwise alternative?",
+      "a": "For highlight syncing to Obsidian, community plugins or Raindrop.io's highlight export work well. For bookmarking and saving web articles with AI summaries and semantic search, Marqly is a purpose-built alternative."
+    }
+  ],
+  "lastVerified": "2026-09-12"
+}
