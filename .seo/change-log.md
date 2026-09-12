@@ -156,3 +156,48 @@ the merged tree, then pushed.
 - Attribution intact: `/api/touch` beacon referenced and GA4 cross-domain linker
   present — no regression from the merge.
 - `/`, `/pricing`, `/ja`, `/extension`, `/faq` all 200.
+
+## 2026-09-12 — Global 100× Competitor SEO & Displacement Engine
+
+Implemented the complete 17-point First Execution Sprint and established the
+Central Competitor Intelligence System in `.seo/competitors/`.
+
+### Intelligence System (.seo/competitors/)
+- Structured 144 verified JSON files across 9 target competitors: `notion`, `pocket`,
+  `instapaper`, `readwise`, `readwise-reader`, `mymind`, `karakeep`, `linkwarden`,
+  `anybox`, and `raindrop`.
+- Built `active/scripts/seo-competitors.py` to validate schemas, calculate
+  dynamic Fame Ranking vs Marqly Capture Value Ranking, and model the 100×
+  multiplicative growth decomposition. Report generated in
+  `.seo/competitor-growth-engine.md`.
+- Elevated **mymind** to Priority A+ in Capture Value (score 80.9, ranking #2
+  behind Pocket) based on high-LTV ICP overlap (zero-filing, AI auto-tagging,
+  semantic search).
+
+### Accuracy Audit & Repairs
+- Repaired stale Pocket claims across 14 blog posts: removed outdated
+  `getpocket.com/export` references and fake "export now" prompts across 11
+  locale trees (`de`, `es`, `fr`, `it`, `ja`, `ko`, `nl`, `pl`, `pt`, `tr`, `zh`),
+  accurately reflecting that the export window closed on 2025-10-08 and data
+  was deleted.
+- Corrected table claims: mymind bulk import updated from "Yes" to "No (no bulk
+  import by design)"; Marqly free tier updated from stale "(last 100 saves)" to
+  "Stores up to 2,000 bookmarks with search across whole library".
+
+### Production Content & Code
+- Added standalone `src/data/competitors/readwise.json` and disambiguated
+  `readwise-reader.json`.
+- Updated `PAIR_TIER` in `src/lib/competitors.ts` to include `anybox` and `readwise`.
+- Added high-value third-party comparison verdicts in `src/content/verdicts/`:
+  `raindrop-vs-anybox.md`, `mymind-vs-anybox.md`, and `readwise-vs-readwise-reader.md`.
+- Created dedicated migration hub `/migrate` and individual guides:
+  `/migrate/mymind` and `/migrate/instapaper`.
+- Published category-defining flagship assets:
+  - `/blog/pocket-replacements-2026`: *"Pocket Is Gone: The Best Replacements in 2026 (Tested on Import, Reading & AI Search)"*.
+  - `/blog/ai-bookmark-retrieval-benchmark-2026`: *"AI Bookmark Retrieval Benchmark: 1,000 Saves Tested Across 5 Leading Apps"*.
+
+### Verification
+- `python3 active/scripts/seo-competitors.py --verify` → 144/144 schemas PASS.
+- `npm run build` → 1,900 pages built clean in 35s.
+- `node active/scripts/seo-check.mjs` → **ALL 16 SEO GATES PASSED (1,900 pages)**.
+- 0 fabricated schemas, 0 false claims, 0 broken internal links, 0 broken hreflang targets.
