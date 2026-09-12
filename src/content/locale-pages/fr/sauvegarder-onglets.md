@@ -23,7 +23,7 @@ faqs:
   - q: "Que deviennent les onglets sauvegardés ?"
     a: "Ils rejoignent votre bibliothèque, où l'IA leur pose des étiquettes et rédige un résumé. Vous pouvez ensuite les retrouver par la recherche sémantique, en décrivant le contenu plutôt qu'en cherchant le titre exact."
   - q: "Faut-il payer pour sauvegarder ses onglets ?"
-    a: "Non, l'offre gratuite suffit et ne demande aucune carte bancaire. L'offre Pro coûte 72 $/an (environ 69 €) ou 9 $/mois (environ 8 €), avec un essai gratuit de 3 jours, et ajoute notamment le chat avec vos sauvegardes."
+    a: "Non, l'offre gratuite suffit et ne demande aucune carte bancaire. L'offre Pro coûte 72 $/an (environ 69 €) ou 9 $/mois (environ 8 €), avec un essai gratuit de 7 jours, et ajoute notamment le chat avec vos sauvegardes."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — c'est gratuit"

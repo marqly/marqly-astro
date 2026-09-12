@@ -23,7 +23,7 @@ faqs:
   - q: "Zählen Videos zur Leseliste?"
     a: "Ja, und sie sind oft die Hälfte des Problems. Beim Speichern eines YouTube-Videos bekommst du Zusammenfassung und angehängtes Transkript, kannst also ohne Ansehen sichten."
   - q: "Was kostet es?"
-    a: "Kostenlose Stufe ohne Karte. Pro kostet 9 $ (rund 8 €) im Monat oder 72 $ (rund 66 €) im Jahr, mit 3 Tagen Testphase."
+    a: "Kostenlose Stufe ohne Karte. Pro kostet 9 $ (rund 8 €) im Monat oder 72 $ (rund 66 €) im Jahr, mit 7 Tagen Testphase."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"

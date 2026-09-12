@@ -23,7 +23,7 @@ faqs:
   - q: "¿La extensión sirve sin conexión?"
     a: "No. La extensión necesita conexión para guardar y sincronizar tus resaltados, notas y páginas."
   - q: "¿Cuánto cuesta?"
-    a: "Hay plan gratis y no pide tarjeta. Pro cuesta 72 USD al año o 9 USD al mes, con prueba gratis de 3 días, y los estudiantes verificados pagan 48 USD el primer año."
+    a: "Hay plan gratis y no pide tarjeta. Pro cuesta 72 USD al año o 9 USD al mes, con prueba gratis de 7 días, y los estudiantes verificados pagan 48 USD el primer año."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"

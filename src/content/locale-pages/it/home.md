@@ -15,7 +15,7 @@ faqs:
   - q: "Che cos'è un gestore di segnalibri con AI?"
     a: "È uno strumento che salva i tuoi link e in più li elabora: assegna i tag da solo, scrive un riassunto della pagina e ti permette di cercarla per significato. Invece di ricordare il titolo esatto, descrivi di cosa parlava e la ritrovi."
   - q: "Marqly è gratis?"
-    a: "Sì, c'è un piano gratuito e per iniziare non ti chiede la carta. Il piano Pro costa 72 $/anno (circa 69 €) oppure 9 $/mese (circa 8 €), con 3 giorni di prova gratuita. Se sei uno studente verificato, il primo anno costa 48 $ (circa 46 €)."
+    a: "Sì, c'è un piano gratuito e per iniziare non ti chiede la carta. Il piano Pro costa 72 $/anno (circa 69 €) oppure 9 $/mese (circa 8 €), con 7 giorni di prova gratuita. Se sei uno studente verificato, il primo anno costa 48 $ (circa 46 €)."
   - q: "Su quali browser funziona?"
     a: "L'estensione c'è per Chrome, Edge, Firefox e Safari. In più hai l'app web, che apri da qualsiasi computer, e l'app per iPhone e iPad. Per ora non esiste un'app Android."
   - q: "Posso importare i segnalibri che ho già?"
@@ -98,8 +98,8 @@ Non si riparte da zero. Marqly importa da **Pocket**, da **Raindrop** e da quals
 | Piano | Prezzo | Dettaglio |
 | --- | --- | --- |
 | Gratuito | 0 $ | Nessuna carta per iniziare |
-| Pro annuale | 72 $/anno (circa 69 €) | 3 giorni di prova gratuita |
-| Pro mensile | 9 $/mese (circa 8 €) | 3 giorni di prova gratuita |
+| Pro annuale | 72 $/anno (circa 69 €) | 7 giorni di prova gratuita |
+| Pro mensile | 9 $/mese (circa 8 €) | 7 giorni di prova gratuita |
 | Studenti | 48 $ il primo anno (circa 46 €) | Con verifica dello status di studente |
 
 Pro è quello che sblocca la chat con i tuoi salvataggi. Il resto dell'idea — salvare in fretta e ritrovare dopo — lo provi senza tirare fuori un euro.

@@ -19,7 +19,7 @@ faqs:
   - q: "¿Alguna alternativa tiene lectura sin conexión como Pocket?"
     a: "Instapaper y Matter sí ofrecen lectura sin conexión. Marqly no tiene modo sin conexión, así que si eso era imprescindible para ti, empieza por esas dos."
   - q: "¿Hay alguna alternativa gratis?"
-    a: "Sí. Raindrop.io y Marqly tienen plan gratis. En Marqly puedes registrarte sin tarjeta y el plan Pro cuesta 72 USD al año o 9 USD al mes, con 3 días de prueba."
+    a: "Sí. Raindrop.io y Marqly tienen plan gratis. En Marqly puedes registrarte sin tarjeta y el plan Pro cuesta 72 USD al año o 9 USD al mes, con 7 días de prueba."
   - q: "¿Qué alternativa importa mejor el archivo de Pocket?"
     a: "El export de Pocket es un CSV dentro de un ZIP, y es un formato sencillo, así que la mayoría lo lee. La diferencia real aparece después: en Marqly la IA etiqueta toda la biblioteca importada, que es justo lo que un archivo de Pocket de años nunca tuvo."
 ctaUrl: "https://app.marqly.com"

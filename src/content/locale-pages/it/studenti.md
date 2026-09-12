@@ -79,8 +79,8 @@ Ricerca di gruppo vuol dire quaranta schede aperte e paura di chiudere il browse
 | --- | --- | --- |
 | Gratuito | 0 $ | Senza carta, per provare |
 | Studenti | 48 $ il primo anno (circa 46 €) | Con verifica dello status di studente |
-| Pro annuale | 72 $/anno (circa 69 €) | 3 giorni di prova gratuita |
-| Pro mensile | 9 $/mese (circa 8 €) | 3 giorni di prova gratuita |
+| Pro annuale | 72 $/anno (circa 69 €) | 7 giorni di prova gratuita |
+| Pro mensile | 9 $/mese (circa 8 €) | 7 giorni di prova gratuita |
 
 Sono circa quattro euro al mese per il primo anno, meno di un libro usato. Pro è quello che sblocca la chat con i tuoi salvataggi; salvare, riassumere e ritrovare li provi già dal piano gratuito.
 

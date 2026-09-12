@@ -23,7 +23,7 @@ faqs:
   - q: "Taugt es für den Wocheneinkauf?"
     a: "Du kannst die Rezepte der Woche in einem Board bündeln und es am Handy über die iPhone-App oder den Browser öffnen."
   - q: "Was kostet es?"
-    a: "Kostenlose Stufe ohne Karte. Pro kostet 9 $ (rund 8 €) im Monat oder 72 $ (rund 66 €) im Jahr, mit 3 Tagen Testphase."
+    a: "Kostenlose Stufe ohne Karte. Pro kostet 9 $ (rund 8 €) im Monat oder 72 $ (rund 66 €) im Jahr, mit 7 Tagen Testphase."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"

@@ -23,7 +23,7 @@ faqs:
   - q: "Serve per la spesa settimanale?"
     a: "Puoi raggruppare le ricette della settimana in una bacheca e aprirla dal telefono con l'app iPhone o dal browser."
   - q: "Quanto costa?"
-    a: "Piano gratuito senza carta. Pro costa 9 $/mese (circa 8 €) o 72 $/anno (circa 69 €), con 3 giorni di prova."
+    a: "Piano gratuito senza carta. Pro costa 9 $/mese (circa 8 €) o 72 $/anno (circa 69 €), con 7 giorni di prova."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"

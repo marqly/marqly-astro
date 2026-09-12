@@ -86,6 +86,6 @@ Wie sich das gegen einen klassischen Bookmark-Manager schlägt, steht im Verglei
 
 ## Kosten und Grenzen
 
-Die kostenlose Stufe braucht keine Kreditkarte. Pro liegt bei **72 $/Jahr (rund 66 €)** oder **9 $/Monat (rund 8 €)** mit 3 Tagen Test, für Studierende bei **48 $ (rund 44 €) im ersten Jahr**. Ehrlich dazugesagt: Markieren funktioniert nur mit Verbindung, es gibt keinen Offline-Modus und keine Android-App.
+Die kostenlose Stufe braucht keine Kreditkarte. Pro liegt bei **72 $/Jahr (rund 66 €)** oder **9 $/Monat (rund 8 €)** mit 7 Tagen Test, für Studierende bei **48 $ (rund 44 €) im ersten Jahr**. Ehrlich dazugesagt: Markieren funktioniert nur mit Verbindung, es gibt keinen Offline-Modus und keine Android-App.
 
 Installier die Erweiterung, markier die nächste Seite, die du liest – und schau in zwei Wochen nach, ob die Stelle noch da ist. [Marqly kostenlos testen](https://app.marqly.com) – mehr Lesestoff im [Blog](/de/blog).

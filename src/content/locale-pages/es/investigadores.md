@@ -23,7 +23,7 @@ faqs:
   - q: "¿Y las conferencias grabadas?"
     a: "Al guardar un video de YouTube, la transcripción queda adjunta y entra en la búsqueda. Después puedes buscar una frase que se dijo en la charla, no solo el título del video."
   - q: "¿Cuánto cuesta?"
-    a: "Hay plan gratis sin tarjeta. Pro cuesta 9 USD al mes o 72 USD al año, con 3 días de prueba. Los estudiantes verificados pagan 48 USD el primer año."
+    a: "Hay plan gratis sin tarjeta. Pro cuesta 9 USD al mes o 72 USD al año, con 7 días de prueba. Los estudiantes verificados pagan 48 USD el primer año."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"

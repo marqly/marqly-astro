@@ -23,7 +23,7 @@ faqs:
   - q: "Cela fonctionne-t-il avec les webinaires et vidéos longues ?"
     a: "Oui. Sur YouTube, vous avez résumé, transcription synchronisée et chat, et à l'enregistrement la transcription est jointe et devient consultable."
   - q: "Combien cela coûte-t-il ?"
-    a: "Offre gratuite sans carte. Pro coûte 9 $ (environ 8 €) par mois ou 72 $ (environ 69 €) par an, avec 3 jours d'essai."
+    a: "Offre gratuite sans carte. Pro coûte 9 $ (environ 8 €) par mois ou 72 $ (environ 69 €) par an, avec 7 jours d'essai."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"

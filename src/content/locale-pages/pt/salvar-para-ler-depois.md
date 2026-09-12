@@ -23,7 +23,7 @@ faqs:
   - q: "E quando eu não lembro onde salvei?"
     a: "É para isso que existe a busca semântica: você descreve o que lembra do conteúdo e o Marqly traz o texto, mesmo que nenhuma dessas palavras esteja no título."
   - q: "Preciso pagar?"
-    a: "Não para começar: o plano grátis não pede cartão de crédito. O Pro custa US$ 9 por mês ou US$ 72 por ano, com 3 dias de teste grátis, e inclui o chat com o que você já salvou. Estudante verificado paga US$ 48 no primeiro ano."
+    a: "Não para começar: o plano grátis não pede cartão de crédito. O Pro custa US$ 9 por mês ou US$ 72 por ano, com 7 dias de teste grátis, e inclui o chat com o que você já salvou. Estudante verificado paga US$ 48 no primeiro ano."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
@@ -95,7 +95,7 @@ Para não te enganar: não existe modo offline, não existe aplicativo para Andr
 
 ## Preço
 
-Plano grátis, sem cartão de crédito. Pro por US$ 9 ao mês ou US$ 72 ao ano, com 3 dias de teste grátis. Estudante verificado paga US$ 48 no primeiro ano — mais detalhes em [Marqly para estudantes](/pt/para-estudantes).
+Plano grátis, sem cartão de crédito. Pro por US$ 9 ao mês ou US$ 72 ao ano, com 7 dias de teste grátis. Estudante verificado paga US$ 48 no primeiro ano — mais detalhes em [Marqly para estudantes](/pt/para-estudantes).
 
 ## Comece com a sua fila atual
 

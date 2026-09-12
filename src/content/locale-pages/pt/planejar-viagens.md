@@ -23,7 +23,7 @@ faqs:
   - q: "Tem app para celular?"
     a: "Há app de iPhone e iPad, e o app web funciona em qualquer navegador, inclusive no Android. Não existe app nativo de Android."
   - q: "Quanto custa?"
-    a: "Plano grátis sem cartão. O Pro custa 9 USD/mês ou 72 USD/ano, com 3 dias de teste."
+    a: "Plano grátis sem cartão. O Pro custa 9 USD/mês ou 72 USD/ano, com 7 dias de teste."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"

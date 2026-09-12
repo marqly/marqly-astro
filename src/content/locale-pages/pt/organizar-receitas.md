@@ -23,7 +23,7 @@ faqs:
   - q: "Serve para a compra da semana?"
     a: "Dá para juntar num quadro as receitas da semana e abri-lo no celular pelo app de iPhone ou pelo navegador."
   - q: "Quanto custa?"
-    a: "Plano grátis sem cartão. O Pro custa 9 USD/mês ou 72 USD/ano, com 3 dias de teste."
+    a: "Plano grátis sem cartão. O Pro custa 9 USD/mês ou 72 USD/ano, com 7 dias de teste."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"

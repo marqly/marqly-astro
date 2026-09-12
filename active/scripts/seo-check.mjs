@@ -83,7 +83,7 @@ check('no fabricated AggregateRating in JSON-LD', rated.map((p) => p.url),
 //       AFFIRMATIVE claim that Marqly has the capability.
 const ALWAYS_WRONG = [
   [/100 most recent/i, 'free-tier read-wall was removed; whole library is searchable'],
-  [/3-(?:day|tage|jours|giorni|días|dias)|3-day (?:free )?trial/i, 'trial is 7 days'],
+  [/\b3\s*[-–\s]?(?:days?|tage?n?|jours?|giorni|d[ií]as?)\b[^.<>]{0,35}\b(?:trial|test|testversion|testphase|prova|prueba|teste|essai|kostenlos|gratis|grátis)\b|\b(?:trial|test|testversion|testphase|prova|prueba|teste|essai)\b[^.<>]{0,35}\b3\s*[-–\s]?(?:days?|tage?n?|jours?|giorni|d[ií]as?)\b/i, 'trial is 7 days'],
 ];
 /**
  * Capabilities Marqly does NOT have. Only fires when the claim is attributed to

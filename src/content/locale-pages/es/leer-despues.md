@@ -23,7 +23,7 @@ faqs:
   - q: "¿Cómo evito acumular 800 artículos sin leer?"
     a: "Usa los resúmenes para hacer triaje: en 20 segundos sabes si un texto merece los 12 minutos completos. Lo que no los merece se queda guardado y buscable, sin ocupar tu cola mental."
   - q: "¿Cuánto cuesta?"
-    a: "Hay plan gratis sin tarjeta. Pro cuesta 72 USD al año o 9 USD al mes, con prueba gratis de 3 días, y los estudiantes verificados pagan 48 USD el primer año."
+    a: "Hay plan gratis sin tarjeta. Pro cuesta 72 USD al año o 9 USD al mes, con prueba gratis de 7 días, y los estudiantes verificados pagan 48 USD el primer año."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"

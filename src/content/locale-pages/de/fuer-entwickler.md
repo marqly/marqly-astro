@@ -23,7 +23,7 @@ faqs:
   - q: "Kann ich viele Tabs einer Debug-Sitzung speichern?"
     a: "Ja, alle offenen Tabs auf einmal, und ganze Sitzungen zum späteren Wiederöffnen."
   - q: "Was kostet es?"
-    a: "Kostenlose Stufe ohne Karte. Pro kostet 9 $ (rund 8 €) im Monat oder 72 $ (rund 66 €) im Jahr, mit 3 Tagen Testphase."
+    a: "Kostenlose Stufe ohne Karte. Pro kostet 9 $ (rund 8 €) im Monat oder 72 $ (rund 66 €) im Jahr, mit 7 Tagen Testphase."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"

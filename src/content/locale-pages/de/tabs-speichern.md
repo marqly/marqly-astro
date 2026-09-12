@@ -23,7 +23,7 @@ faqs:
   - q: "Kann ich einzelne Tabs aus einer Sitzung wiederfinden?"
     a: "Ja. Jeder Tab ist eine eigene Speicherung mit Tags und Zusammenfassung und taucht in der Suche auf – auch dann, wenn du dich nicht an die Sitzung erinnerst, sondern nur an den Inhalt."
   - q: "Was kostet das?"
-    a: "Die kostenlose Stufe startet ohne Kreditkarte. Pro kostet 72 $/Jahr (rund 66 €) oder 9 $/Monat (rund 8 €) mit 3 Tagen Test; Studierende zahlen im ersten Jahr 48 $ (rund 44 €)."
+    a: "Die kostenlose Stufe startet ohne Kreditkarte. Pro kostet 72 $/Jahr (rund 66 €) oder 9 $/Monat (rund 8 €) mit 7 Tagen Test; Studierende zahlen im ersten Jahr 48 $ (rund 44 €)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
@@ -91,6 +91,6 @@ Wenn du deine Tabs bisher in Pocket oder Raindrop geparkt hast: Marqly importier
 
 Ehrlich dazu: Es gibt **keine Android-App**, **keinen Offline-Modus** und **keine Team-Funktionen**. Wiederherstellen setzt eine Verbindung voraus. Was an Daten entsteht, steht in den [Datenschutz-Fragen](/de/datenschutz-fragen).
 
-Die kostenlose Stufe braucht keine Kreditkarte. Pro kostet **72 $/Jahr (rund 66 €)** oder **9 $/Monat (rund 8 €)** mit 3 Tagen Test, für Studierende **48 $ (rund 44 €) im ersten Jahr**.
+Die kostenlose Stufe braucht keine Kreditkarte. Pro kostet **72 $/Jahr (rund 66 €)** oder **9 $/Monat (rund 8 €)** mit 7 Tagen Test, für Studierende **48 $ (rund 44 €) im ersten Jahr**.
 
 Speicher heute Abend dein volles Fenster, schließ es und schau morgen, wie schnell du die eine Seite wiederfindest. [Marqly kostenlos testen](https://app.marqly.com).

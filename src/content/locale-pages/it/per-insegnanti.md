@@ -23,7 +23,7 @@ faqs:
   - q: "Funziona sul computer della scuola?"
     a: "L'estensione funziona su Chrome, Edge, Firefox e Safari, e puoi sempre aprire l'app web da qualsiasi browser senza installare nulla."
   - q: "Quanto costa?"
-    a: "Piano gratuito senza carta. Pro costa 9 $/mese (circa 8 €) o 72 $/anno (circa 69 €), con 3 giorni di prova."
+    a: "Piano gratuito senza carta. Pro costa 9 $/mese (circa 8 €) o 72 $/anno (circa 69 €), con 7 giorni di prova."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"

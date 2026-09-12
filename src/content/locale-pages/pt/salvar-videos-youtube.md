@@ -23,7 +23,7 @@ faqs:
   - q: "Serve para cursos e palestras?"
     a: "É um dos melhores casos. Uma palestra de uma hora costuma ter cinco minutos úteis, e a transcrição sincronizada leva direto a eles."
   - q: "Quanto custa?"
-    a: "Plano grátis sem cartão. O Pro custa 9 USD/mês ou 72 USD/ano, com 3 dias de teste. O chat sobre o vídeo é do Pro."
+    a: "Plano grátis sem cartão. O Pro custa 9 USD/mês ou 72 USD/ano, com 7 dias de teste. O chat sobre o vídeo é do Pro."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"

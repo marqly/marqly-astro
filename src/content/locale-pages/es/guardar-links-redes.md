@@ -23,7 +23,7 @@ faqs:
   - q: "¿Puedo guardar mis marcadores de X (Twitter)?"
     a: "Sí. Marqly permite traer tus marcadores de X, que suelen ser la carpeta más grande y más olvidada que tiene cualquiera."
   - q: "¿Cuánto cuesta?"
-    a: "Hay plan gratis y no pide tarjeta. Pro cuesta 72 USD al año o 9 USD al mes, con prueba gratis de 3 días. Los estudiantes verificados pagan 48 USD el primer año."
+    a: "Hay plan gratis y no pide tarjeta. Pro cuesta 72 USD al año o 9 USD al mes, con prueba gratis de 7 días. Los estudiantes verificados pagan 48 USD el primer año."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"

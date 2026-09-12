@@ -23,7 +23,7 @@ faqs:
   - q: "Kann ich meine Pocket-Liste übernehmen?"
     a: "Ja. Marqly importiert aus Pocket, aus Raindrop und aus jeder Lesezeichen-HTML-Datei, die dein Browser exportiert. Auch X/Twitter-Lesezeichen lassen sich sichern."
   - q: "Was kostet das?"
-    a: "Die kostenlose Stufe braucht keine Kreditkarte. Pro kostet 72 $/Jahr (rund 66 €) oder 9 $/Monat (rund 8 €), mit 3 Tagen kostenlosem Test. Studierende zahlen im ersten Jahr 48 $ (rund 44 €)."
+    a: "Die kostenlose Stufe braucht keine Kreditkarte. Pro kostet 72 $/Jahr (rund 66 €) oder 9 $/Monat (rund 8 €), mit 7 Tagen kostenlosem Test. Studierende zahlen im ersten Jahr 48 $ (rund 44 €)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
@@ -88,6 +88,6 @@ Seit dem Ende von Pocket suchen viele Ersatz. Marqly importiert aus **Pocket**, 
 
 Zwei Dinge vorweg, damit du nicht enttäuscht wirst: Es gibt **keinen Offline-Modus** – im Zug ohne Empfang ist Marqly das falsche Werkzeug – und **keine Android-App**. Was an Daten entsteht und wie du sie exportierst, steht in den [Datenschutz-Fragen](/de/datenschutz-fragen).
 
-Die kostenlose Stufe verlangt keine Kreditkarte. Pro kostet **72 $/Jahr (rund 66 €)** oder **9 $/Monat (rund 8 €)** mit 3 Tagen Test, für Studierende **48 $ (rund 44 €) im ersten Jahr**.
+Die kostenlose Stufe verlangt keine Kreditkarte. Pro kostet **72 $/Jahr (rund 66 €)** oder **9 $/Monat (rund 8 €)** mit 7 Tagen Test, für Studierende **48 $ (rund 44 €) im ersten Jahr**.
 
 Speicher die nächsten fünf Artikel, lies am Wochenende nur die Zusammenfassungen und behalte zwei davon. [Marqly kostenlos testen](https://app.marqly.com).

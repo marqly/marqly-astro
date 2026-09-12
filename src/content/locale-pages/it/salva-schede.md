@@ -23,7 +23,7 @@ faqs:
   - q: "Funziona su Firefox e Safari?"
     a: "Sì, l'estensione c'è per Chrome, Edge, Firefox e Safari. Alcune funzioni extra, come la cronologia degli appunti, sono solo su Chrome ed Edge."
   - q: "Quanto costa?"
-    a: "Il piano gratuito è senza carta e basta per salvare schede e sessioni. Pro costa 72 $/anno (circa 69 €) oppure 9 $/mese (circa 8 €), con 3 giorni di prova, e serve soprattutto per la chat con i tuoi salvataggi."
+    a: "Il piano gratuito è senza carta e basta per salvare schede e sessioni. Pro costa 72 $/anno (circa 69 €) oppure 9 $/mese (circa 8 €), con 7 giorni di prova, e serve soprattutto per la chat con i tuoi salvataggi."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — è gratis"

@@ -70,7 +70,7 @@ Details dazu: [YouTube-Zusammenfassung](/de/tools/youtube-zusammenfassung) und [
 
 ## Preis für Studierende
 
-Die kostenlose Stufe verlangt keine Kreditkarte – zum Ausprobieren über eine Hausarbeit hinweg reicht das. Pro kostet regulär **72 $/Jahr (rund 66 €)** oder **9 $/Monat (rund 8 €)** mit 3 Tagen kostenlosem Test. **Verifizierte Studierende zahlen im ersten Jahr 48 $ (rund 44 €)** und bekommen darüber den Chat mit den eigenen Speicherungen.
+Die kostenlose Stufe verlangt keine Kreditkarte – zum Ausprobieren über eine Hausarbeit hinweg reicht das. Pro kostet regulär **72 $/Jahr (rund 66 €)** oder **9 $/Monat (rund 8 €)** mit 7 Tagen kostenlosem Test. **Verifizierte Studierende zahlen im ersten Jahr 48 $ (rund 44 €)** und bekommen darüber den Chat mit den eigenen Speicherungen.
 
 Fair vorab: keine Android-App, kein Offline-Modus, keine Team-Funktionen. Was an Daten entsteht und wie du alles wieder herausbekommst, steht in den [Datenschutz-Fragen](/de/datenschutz-fragen); wie sich Marqly gegen einen klassischen Sammler schlägt, im Vergleich [Marqly vs. Raindrop](/de/vergleich/marqly-vs-raindrop).
 

@@ -23,7 +23,7 @@ faqs:
   - q: "Funziona con webinar e video lunghi?"
     a: "Sì. Su YouTube hai riassunto, trascrizione sincronizzata e chat, e al salvataggio la trascrizione viene allegata e diventa ricercabile."
   - q: "Quanto costa?"
-    a: "Piano gratuito senza carta. Pro costa 9 $/mese (circa 8 €) o 72 $/anno (circa 69 €), con 3 giorni di prova."
+    a: "Piano gratuito senza carta. Pro costa 9 $/mese (circa 8 €) o 72 $/anno (circa 69 €), con 7 giorni di prova."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"

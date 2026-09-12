@@ -23,7 +23,7 @@ faqs:
   - q: "C'è un'app Android?"
     a: "No. Marqly ha un'app per iPhone e iPad, e l'app web funziona in qualsiasi browser Android. Pocket aveva un'app Android nativa, quindi anche qui perdi qualcosa."
   - q: "Quanto costa Marqly?"
-    a: "Piano gratuito senza carta, e Pro a 9 $/mese (circa 8 €) o 72 $/anno (circa 69 €), con 3 giorni di prova. Gli studenti verificati pagano 48 $ il primo anno (circa 46 €)."
+    a: "Piano gratuito senza carta, e Pro a 9 $/mese (circa 8 €) o 72 $/anno (circa 69 €), con 7 giorni di prova. Gli studenti verificati pagano 48 $ il primo anno (circa 46 €)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"

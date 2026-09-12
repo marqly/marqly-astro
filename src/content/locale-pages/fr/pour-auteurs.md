@@ -23,7 +23,7 @@ faqs:
   - q: "Est-ce utile pour les documentaires ou entretiens en vidéo ?"
     a: "Oui. En enregistrant une vidéo YouTube, la transcription est jointe et devient consultable : vous localisez la phrase exacte des mois plus tard."
   - q: "Combien cela coûte-t-il ?"
-    a: "Offre gratuite sans carte. Pro coûte 9 $ (environ 8 €) par mois ou 72 $ (environ 69 €) par an, avec 3 jours d'essai."
+    a: "Offre gratuite sans carte. Pro coûte 9 $ (environ 8 €) par mois ou 72 $ (environ 69 €) par an, avec 7 jours d'essai."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"

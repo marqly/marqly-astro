@@ -23,7 +23,7 @@ faqs:
   - q: "¿Puedo compartir la documentación de un reportaje?"
     a: "Sí, publicando un tablero como página pública que se abre con el enlace. No hay funciones de equipo ni edición colaborativa."
   - q: "¿Cuánto cuesta?"
-    a: "Plan gratis sin tarjeta. Pro cuesta 9 USD al mes o 72 USD al año, con 3 días de prueba."
+    a: "Plan gratis sin tarjeta. Pro cuesta 9 USD al mes o 72 USD al año, con 7 días de prueba."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"

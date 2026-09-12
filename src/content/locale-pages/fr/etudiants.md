@@ -15,7 +15,7 @@ faqs:
   - q: "Existe-t-il un tarif étudiant ?"
     a: "Oui. Les étudiants vérifiés paient 48 $ la première année, soit environ 46 €, au lieu de 72 $/an (environ 69 €). La vérification du statut étudiant se fait au moment de l'abonnement."
   - q: "Puis-je utiliser Marqly gratuitement pendant mes études ?"
-    a: "Oui. Il existe une offre gratuite et aucune carte bancaire n'est demandée pour commencer. L'offre Pro, qui ajoute notamment le chat avec vos sauvegardes, propose un essai gratuit de 3 jours avant tout paiement."
+    a: "Oui. Il existe une offre gratuite et aucune carte bancaire n'est demandée pour commencer. L'offre Pro, qui ajoute notamment le chat avec vos sauvegardes, propose un essai gratuit de 7 jours avant tout paiement."
   - q: "Marqly remplace-t-il Zotero ou un gestionnaire bibliographique ?"
     a: "Non, et ce n'est pas son rôle. Marqly intervient en amont : il sert à collecter, comprendre et retrouver des sources pendant la phase de recherche. Zotero intervient ensuite, quand il faut structurer la bibliographie et générer les citations au bon format."
   - q: "Puis-je résumer un cours filmé ou une conférence ?"
@@ -81,8 +81,8 @@ Et quand la session de recherche s'éternise, [sauvegardez tous vos onglets](/fr
 | --- | --- | --- |
 | Gratuite | 0 $ | Aucune carte bancaire demandée |
 | Étudiants | 48 $ la première année (environ 46 €) | Sur vérification du statut étudiant |
-| Pro annuel | 72 $/an (environ 69 €) | Essai gratuit de 3 jours |
-| Pro mensuel | 9 $/mois (environ 8 €) | Essai gratuit de 3 jours |
+| Pro annuel | 72 $/an (environ 69 €) | Essai gratuit de 7 jours |
+| Pro mensuel | 9 $/mois (environ 8 €) | Essai gratuit de 7 jours |
 
 Commencez par l'offre gratuite pendant un dossier entier. Si les résumés et la recherche sémantique vous font gagner une soirée, le tarif étudiant est là.
 

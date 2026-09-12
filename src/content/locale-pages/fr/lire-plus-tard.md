@@ -89,7 +89,7 @@ Vous ne repartez pas de zéro&nbsp;: import depuis Pocket, depuis Raindrop et de
 
 ## Le prix
 
-L'offre gratuite ne demande aucune carte bancaire. Pro coûte 72 $/an (environ 69 €) ou 9 $/mois (environ 8 €), avec un essai gratuit de 3 jours, et 48 $ la première année (environ 46 €) pour les étudiants vérifiés — voyez [Marqly pour les étudiants](/fr/etudiants).
+L'offre gratuite ne demande aucune carte bancaire. Pro coûte 72 $/an (environ 69 €) ou 9 $/mois (environ 8 €), avec un essai gratuit de 7 jours, et 48 $ la première année (environ 46 €) pour les étudiants vérifiés — voyez [Marqly pour les étudiants](/fr/etudiants).
 
 ## Videz votre pile cette semaine
 

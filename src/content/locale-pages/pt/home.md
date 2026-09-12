@@ -13,7 +13,7 @@ trustLine: "Plano grátis, sem cartão · Chrome, Edge, Firefox, Safari e iOS"
 faqHeading: "Perguntas frequentes"
 faqs:
   - q: "O Marqly é grátis?"
-    a: "Sim, existe um plano grátis e ele não pede cartão de crédito para começar. O plano Pro custa US$ 9 por mês ou US$ 72 por ano, com 3 dias de teste grátis. Quem é estudante verificado paga US$ 48 no primeiro ano."
+    a: "Sim, existe um plano grátis e ele não pede cartão de crédito para começar. O plano Pro custa US$ 9 por mês ou US$ 72 por ano, com 7 dias de teste grátis. Quem é estudante verificado paga US$ 48 no primeiro ano."
   - q: "Dá para importar meus favoritos que já existem?"
     a: "Dá. O Marqly importa do Pocket, do Raindrop e de arquivos HTML de favoritos exportados do navegador. Também dá para trazer os favoritos que você salvou no X/Twitter. Depois de importar, a IA vai colocando tags no que estava solto."
   - q: "Tem aplicativo para Android?"
@@ -91,7 +91,7 @@ O marca-texto do Marqly tem 6 cores e as notas continuam ancoradas na página: v
 ## Preço
 
 - **Grátis** — comece sem cartão de crédito.
-- **Pro** — US$ 9 por mês ou US$ 72 por ano, com teste grátis de 3 dias.
+- **Pro** — US$ 9 por mês ou US$ 72 por ano, com teste grátis de 7 dias.
 - **Estudante** — US$ 48 no primeiro ano, para quem tem matrícula verificada.
 
 ## Para quem é

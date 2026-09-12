@@ -19,7 +19,7 @@ faqs:
   - q: "Consigo estudar sem internet?"
     a: "Não. O Marqly precisa de conexão para salvar, sincronizar e usar a IA — não existe modo offline. O que dá para fazer é converter páginas em PDF, no Chrome e no Edge, e ficar com o arquivo por sua conta."
   - q: "Quanto custa?"
-    a: "Tem plano grátis, sem cartão de crédito. O Pro custa US$ 9 por mês ou US$ 72 por ano, com 3 dias de teste grátis. Se você também está matriculado em uma instituição de ensino, o preço de estudante verificado é US$ 48 no primeiro ano."
+    a: "Tem plano grátis, sem cartão de crédito. O Pro custa US$ 9 por mês ou US$ 72 por ano, com 7 dias de teste grátis. Se você também está matriculado em uma instituição de ensino, o preço de estudante verificado é US$ 48 no primeiro ano."
   - q: "Tem app para Android?"
     a: "Ainda não. Existe aplicativo para iPhone e iPad, extensão para Chrome, Edge, Firefox e Safari, e o app web, que abre no navegador de qualquer celular."
   - q: "E o material que já está espalhado nos meus favoritos?"
@@ -94,7 +94,7 @@ Para ser justo com o seu planejamento, o que o Marqly **não** faz: não tem apl
 
 ## Preço
 
-Plano grátis, sem cartão de crédito. Pro por US$ 9 ao mês ou US$ 72 ao ano, com 3 dias de teste grátis. Quem também é estudante verificado paga US$ 48 no primeiro ano — veja [Marqly para estudantes](/pt/para-estudantes).
+Plano grátis, sem cartão de crédito. Pro por US$ 9 ao mês ou US$ 72 ao ano, com 7 dias de teste grátis. Quem também é estudante verificado paga US$ 48 no primeiro ano — veja [Marqly para estudantes](/pt/para-estudantes).
 
 ## Comece pelo próximo ciclo
 

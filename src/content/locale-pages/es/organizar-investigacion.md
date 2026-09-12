@@ -23,7 +23,7 @@ faqs:
   - q: "¿Puedo conservar una página antes de que cambie?"
     a: "En Chrome y Edge puedes archivarla como PDF con el diseño real. En Firefox y Safari se usa la impresión a PDF del navegador."
   - q: "¿Cuánto cuesta?"
-    a: "Plan gratis sin tarjeta. Pro cuesta 9 USD al mes o 72 USD al año, con 3 días de prueba."
+    a: "Plan gratis sin tarjeta. Pro cuesta 9 USD al mes o 72 USD al año, con 7 días de prueba."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"

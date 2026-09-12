@@ -23,7 +23,7 @@ faqs:
   - q: "Les vidéos comptent-elles dans la liste de lecture ?"
     a: "Oui, et elles représentent souvent la moitié du problème. En enregistrant une vidéo YouTube, vous obtenez un résumé et la transcription jointe : vous pouvez trier sans regarder."
   - q: "Combien cela coûte-t-il ?"
-    a: "Offre gratuite sans carte. Pro coûte 9 $ (environ 8 €) par mois ou 72 $ (environ 69 €) par an, avec 3 jours d'essai."
+    a: "Offre gratuite sans carte. Pro coûte 9 $ (environ 8 €) par mois ou 72 $ (environ 69 €) par an, avec 7 jours d'essai."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"

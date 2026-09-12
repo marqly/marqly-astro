@@ -23,7 +23,7 @@ faqs:
   - q: "Salvar as abas consome memória do computador?"
     a: "O ganho é o contrário: como as páginas salvas ficam na sua conta, você pode fechar as abas e liberar a memória que elas ocupavam, sabendo que consegue voltar a qualquer uma delas depois."
   - q: "É grátis?"
-    a: "Salvar abas e sessões faz parte do uso normal do Marqly, e o plano grátis não pede cartão de crédito. O Pro, com chat sobre o que você salvou, custa US$ 9 por mês ou US$ 72 por ano, com 3 dias de teste."
+    a: "Salvar abas e sessões faz parte do uso normal do Marqly, e o plano grátis não pede cartão de crédito. O Pro, com chat sobre o que você salvou, custa US$ 9 por mês ou US$ 72 por ano, com 7 dias de teste."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"

@@ -23,7 +23,7 @@ faqs:
   - q: "I video contano nella lista di lettura?"
     a: "Sì, e spesso sono metà del problema. Salvando un video di YouTube hai riassunto e trascrizione allegata, quindi puoi smistare senza guardare."
   - q: "Quanto costa?"
-    a: "Piano gratuito senza carta. Pro costa 9 $/mese (circa 8 €) o 72 $/anno (circa 69 €), con 3 giorni di prova."
+    a: "Piano gratuito senza carta. Pro costa 9 $/mese (circa 8 €) o 72 $/anno (circa 69 €), con 7 giorni di prova."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"

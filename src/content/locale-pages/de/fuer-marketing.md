@@ -23,7 +23,7 @@ faqs:
   - q: "Funktioniert es mit Webinaren und langen Videos?"
     a: "Ja. Auf YouTube gibt es Zusammenfassung, synchronisiertes Transkript und Chat, und beim Speichern wird das Transkript angehängt und durchsuchbar."
   - q: "Was kostet es?"
-    a: "Kostenlose Stufe ohne Karte. Pro kostet 9 $ (rund 8 €) im Monat oder 72 $ (rund 66 €) im Jahr, mit 3 Tagen Testphase."
+    a: "Kostenlose Stufe ohne Karte. Pro kostet 9 $ (rund 8 €) im Monat oder 72 $ (rund 66 €) im Jahr, mit 7 Tagen Testphase."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"

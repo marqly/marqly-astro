@@ -15,7 +15,7 @@ faqs:
   - q: "¿Qué es un gestor de marcadores con IA?"
     a: "Es una herramienta que guarda tus enlaces y además los procesa: les pone etiquetas sola, genera un resumen del contenido y permite buscarlos por significado. En lugar de recordar el título exacto de una página, describes de qué trataba y la encuentras."
   - q: "¿Marqly es gratis?"
-    a: "Sí, hay un plan gratis y no te pide tarjeta para empezar. El plan Pro cuesta 72 USD al año o 9 USD al mes, con una prueba gratis de 3 días. Si eres estudiante verificado, el primer año te sale en 48 USD."
+    a: "Sí, hay un plan gratis y no te pide tarjeta para empezar. El plan Pro cuesta 72 USD al año o 9 USD al mes, con una prueba gratis de 7 días. Si eres estudiante verificado, el primer año te sale en 48 USD."
   - q: "¿En qué navegadores funciona?"
     a: "La extensión está disponible para Chrome, Edge, Firefox y Safari. Además tienes la app web para entrar desde cualquier computadora y una app para iPhone y iPad. Por ahora no hay app para Android."
   - q: "¿Puedo traer mis marcadores de otro lado?"
@@ -98,8 +98,8 @@ No empiezas de cero. Marqly importa desde **Pocket**, desde **Raindrop** y desde
 | Plan | Precio | Detalle |
 | --- | --- | --- |
 | Gratis | 0 USD | Sin tarjeta para empezar |
-| Pro anual | 72 USD/año | Prueba gratis de 3 días |
-| Pro mensual | 9 USD/mes | Prueba gratis de 3 días |
+| Pro anual | 72 USD/año | Prueba gratis de 7 días |
+| Pro mensual | 9 USD/mes | Prueba gratis de 7 días |
 | Estudiante | 48 USD el primer año | Con verificación de estudiante |
 
 Pro es lo que desbloquea el chat con tus guardados. El resto de la idea —guardar rápido y volver a encontrar— la puedes probar sin poner un peso.

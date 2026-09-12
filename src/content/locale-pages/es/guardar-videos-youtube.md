@@ -23,7 +23,7 @@ faqs:
   - q: "¿Sirve para cursos y conferencias?"
     a: "Es uno de los mejores casos. Una conferencia de una hora suele tener cinco minutos útiles, y la transcripción sincronizada te lleva directo a ellos."
   - q: "¿Cuánto cuesta?"
-    a: "Plan gratis sin tarjeta. Pro cuesta 9 USD al mes o 72 USD al año, con 3 días de prueba. El chat sobre el video es de Pro."
+    a: "Plan gratis sin tarjeta. Pro cuesta 9 USD al mes o 72 USD al año, con 7 días de prueba. El chat sobre el video es de Pro."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"

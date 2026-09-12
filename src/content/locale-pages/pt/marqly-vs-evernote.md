@@ -15,7 +15,7 @@ faqs:
   - q: "Qual é a diferença real entre Marqly e Evernote?"
     a: "O Evernote é uma suíte de notas: você escreve, anexa, digitaliza e ainda recorta páginas web. O Marqly faz uma coisa só, salvar e reencontrar o que você vê na internet, com IA que marca e resume por você."
   - q: "Quanto custa cada um?"
-    a: "O Evernote Starter custa 14,99 USD/mês ou 99 USD/ano, e o Advanced 24,99 USD/mês ou 249,99 USD/ano. O Marqly Pro custa 9 USD/mês ou 72 USD/ano, com plano grátis sem cartão e 3 dias de teste."
+    a: "O Evernote Starter custa 14,99 USD/mês ou 99 USD/ano, e o Advanced 24,99 USD/mês ou 249,99 USD/ano. O Marqly Pro custa 9 USD/mês ou 72 USD/ano, com plano grátis sem cartão e 7 dias de teste."
   - q: "O Evernote tem IA?"
     a: "Sim. Ele inclui busca com IA, resumos e chat sobre o seu conteúdo. Não é um caso de 'um tem IA e o outro não'; a diferença está no escopo e no preço."
   - q: "O Evernote salva páginas melhor que o Marqly?"

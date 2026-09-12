@@ -23,7 +23,7 @@ faqs:
   - q: "¿Sirve para documentales o entrevistas en video?"
     a: "Sí. Al guardar un video de YouTube la transcripción queda adjunta y es buscable, así que localizas la frase exacta meses después."
   - q: "¿Cuánto cuesta?"
-    a: "Plan gratis sin tarjeta. Pro cuesta 9 USD al mes o 72 USD al año, con 3 días de prueba."
+    a: "Plan gratis sin tarjeta. Pro cuesta 9 USD al mes o 72 USD al año, con 7 días de prueba."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"

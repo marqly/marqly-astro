@@ -23,7 +23,7 @@ faqs:
   - q: "Cela fonctionne-t-il sur mobile ?"
     a: "Il existe une application iPhone et iPad, et l'application web fonctionne dans n'importe quel navigateur, y compris sous Android. Il n'existe pas d'application Android native."
   - q: "Combien cela coûte-t-il ?"
-    a: "Offre gratuite sans carte. Pro coûte 9 $ (environ 8 €) par mois ou 72 $ (environ 69 €) par an, avec 3 jours d'essai."
+    a: "Offre gratuite sans carte. Pro coûte 9 $ (environ 8 €) par mois ou 72 $ (environ 69 €) par an, avec 7 jours d'essai."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"

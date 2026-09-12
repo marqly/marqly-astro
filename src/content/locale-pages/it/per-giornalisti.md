@@ -23,7 +23,7 @@ faqs:
   - q: "Posso condividere la documentazione di un servizio?"
     a: "Sì, pubblicando una bacheca come pagina pubblica che si apre dal link. Non ci sono funzioni di team né modifica collaborativa."
   - q: "Quanto costa?"
-    a: "Piano gratuito senza carta. Pro costa 9 $/mese (circa 8 €) o 72 $/anno (circa 69 €), con 3 giorni di prova."
+    a: "Piano gratuito senza carta. Pro costa 9 $/mese (circa 8 €) o 72 $/anno (circa 69 €), con 7 giorni di prova."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"

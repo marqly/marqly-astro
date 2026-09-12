@@ -15,7 +15,7 @@ faqs:
   - q: "Como funciona o desconto de estudante?"
     a: "Estudante com matrícula verificada paga US$ 48 no primeiro ano de Pro, em vez de US$ 72. É o mesmo plano, com todos os recursos de IA — inclusive o chat com o que você salvou."
   - q: "Dá para usar sem pagar nada?"
-    a: "Dá. O plano grátis não pede cartão de crédito e já serve para salvar, organizar com tags automáticas e buscar. O Pro tem 3 dias de teste grátis se você quiser experimentar o chat com a sua biblioteca antes de decidir."
+    a: "Dá. O plano grátis não pede cartão de crédito e já serve para salvar, organizar com tags automáticas e buscar. O Pro tem 7 dias de teste grátis se você quiser experimentar o chat com a sua biblioteca antes de decidir."
   - q: "O Marqly resume videoaula do YouTube?"
     a: "Sim. Ao abrir um vídeo aparece um cartão de IA com resumo, chat e transcrição sincronizada — clicou na frase, o vídeo pula para aquele trecho. Quando você salva o vídeo, a transcrição vai junto para a sua biblioteca."
   - q: "Isso não é colar?"
@@ -93,7 +93,7 @@ Se o seu foco é prova de concurso, a rotina é um pouco diferente — veja [Mar
 ## Quanto custa para estudante
 
 - **Grátis**: salvar, tags automáticas e busca, sem cartão de crédito.
-- **Pro**: US$ 9 por mês ou US$ 72 por ano, com 3 dias de teste grátis.
+- **Pro**: US$ 9 por mês ou US$ 72 por ano, com 7 dias de teste grátis.
 - **Estudante verificado**: **US$ 48 no primeiro ano**, com os mesmos recursos do Pro.
 
 Vale lembrar do que o Marqly **não** faz, para você não se planejar errado: não tem aplicativo para Android, não funciona sem internet e não tem recursos de equipe. No iPhone e no iPad existe app; em qualquer outro celular, o app web resolve pelo navegador.

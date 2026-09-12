@@ -23,7 +23,7 @@ faqs:
   - q: "Puis-je partager la documentation d'un sujet ?"
     a: "Oui, en publiant un tableau en page publique ouverte par lien. Il n'y a ni fonctions d'équipe ni édition collaborative."
   - q: "Combien cela coûte-t-il ?"
-    a: "Offre gratuite sans carte. Pro coûte 9 $ (environ 8 €) par mois ou 72 $ (environ 69 €) par an, avec 3 jours d'essai."
+    a: "Offre gratuite sans carte. Pro coûte 9 $ (environ 8 €) par mois ou 72 $ (environ 69 €) par an, avec 7 jours d'essai."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"

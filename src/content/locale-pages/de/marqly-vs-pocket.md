@@ -23,7 +23,7 @@ faqs:
   - q: "Gibt es eine Android-App?"
     a: "Nein. Marqly hat eine App für iPhone und iPad, und die Web-App läuft in jedem Android-Browser. Pocket hatte eine native Android-App — auch hier verlierst du also etwas."
   - q: "Was kostet Marqly?"
-    a: "Kostenlose Stufe ohne Karte, Pro kostet 9 $ (rund 8 €) im Monat oder 72 $ (rund 66 €) im Jahr, mit 3 Tagen Testphase. Verifizierte Studierende zahlen im ersten Jahr 48 $ (rund 44 €)."
+    a: "Kostenlose Stufe ohne Karte, Pro kostet 9 $ (rund 8 €) im Monat oder 72 $ (rund 66 €) im Jahr, mit 7 Tagen Testphase. Verifizierte Studierende zahlen im ersten Jahr 48 $ (rund 44 €)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"

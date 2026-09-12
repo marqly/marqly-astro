@@ -15,7 +15,7 @@ faqs:
   - q: "Qu'est-ce qu'un gestionnaire de favoris avec IA ?"
     a: "C'est un outil qui ne se contente pas de stocker vos liens : il les traite. Marqly pose les étiquettes tout seul, rédige un résumé de la page et permet de chercher par le sens. Au lieu de vous souvenir du titre exact, vous décrivez le sujet et la page remonte."
   - q: "Marqly est-il gratuit ?"
-    a: "Oui, il existe une offre gratuite et aucune carte bancaire n'est demandée pour commencer. L'offre Pro coûte 72 $/an (environ 69 €) ou 9 $/mois (environ 8 €), avec un essai gratuit de 3 jours. Les étudiants vérifiés paient 48 $ la première année (environ 46 €)."
+    a: "Oui, il existe une offre gratuite et aucune carte bancaire n'est demandée pour commencer. L'offre Pro coûte 72 $/an (environ 69 €) ou 9 $/mois (environ 8 €), avec un essai gratuit de 7 jours. Les étudiants vérifiés paient 48 $ la première année (environ 46 €)."
   - q: "Sur quels navigateurs Marqly fonctionne-t-il ?"
     a: "L'extension existe pour Chrome, Edge, Firefox et Safari. S'y ajoutent l'application web, accessible depuis n'importe quel ordinateur, et l'application iOS pour iPhone et iPad. Il n'y a pas d'application Android pour le moment."
   - q: "Puis-je importer mes favoris existants ?"
@@ -99,8 +99,8 @@ Vous ne repartez pas de zéro. Marqly importe depuis **Pocket**, depuis **Raindr
 | Offre | Prix | Détail |
 | --- | --- | --- |
 | Gratuite | 0 $ | Aucune carte bancaire demandée |
-| Pro annuel | 72 $/an (environ 69 €) | Essai gratuit de 3 jours |
-| Pro mensuel | 9 $/mois (environ 8 €) | Essai gratuit de 3 jours |
+| Pro annuel | 72 $/an (environ 69 €) | Essai gratuit de 7 jours |
+| Pro mensuel | 9 $/mois (environ 8 €) | Essai gratuit de 7 jours |
 | Étudiants | 48 $ la première année (environ 46 €) | Sur vérification du statut étudiant |
 
 Pro débloque notamment le chat avec vos sauvegardes. Le cœur de l'idée — sauvegarder vite, retrouver vraiment — se teste sans sortir la carte bleue.

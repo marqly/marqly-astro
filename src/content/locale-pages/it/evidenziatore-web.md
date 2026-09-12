@@ -23,7 +23,7 @@ faqs:
   - q: "Funziona anche sul telefono?"
     a: "Marqly ha l'app per iPhone e iPad e l'app web, ma l'evidenziatore vive dentro l'estensione del browser, quindi si usa da computer. Non esiste un'app Android."
   - q: "Serve il piano a pagamento?"
-    a: "No, puoi iniziare con il piano gratuito e senza carta. Il piano Pro costa 72 $/anno (circa 69 €) oppure 9 $/mese (circa 8 €), con 3 giorni di prova, e serve soprattutto per la chat con i tuoi salvataggi."
+    a: "No, puoi iniziare con il piano gratuito e senza carta. Il piano Pro costa 72 $/anno (circa 69 €) oppure 9 $/mese (circa 8 €), con 7 giorni di prova, e serve soprattutto per la chat con i tuoi salvataggi."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — è gratis"

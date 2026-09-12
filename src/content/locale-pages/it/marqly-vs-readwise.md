@@ -23,7 +23,7 @@ faqs:
   - q: "Readwise Reader funziona offline?"
     a: "Sì, e ha anche un'app Android. Marqly non ha nessuna delle due."
   - q: "Quanto costa Marqly?"
-    a: "Piano gratuito senza carta, e Pro a 9 $/mese (circa 8 €) o 72 $/anno (circa 69 €), con 3 giorni di prova."
+    a: "Piano gratuito senza carta, e Pro a 9 $/mese (circa 8 €) o 72 $/anno (circa 69 €), con 7 giorni di prova."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"

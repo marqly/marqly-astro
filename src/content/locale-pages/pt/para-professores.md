@@ -23,7 +23,7 @@ faqs:
   - q: "Funciona no computador da escola?"
     a: "A extensão funciona no Chrome, Edge, Firefox e Safari, e você sempre pode entrar no app web por qualquer navegador sem instalar nada."
   - q: "Quanto custa?"
-    a: "Plano grátis sem cartão. O Pro custa 9 USD/mês ou 72 USD/ano, com 3 dias de teste."
+    a: "Plano grátis sem cartão. O Pro custa 9 USD/mês ou 72 USD/ano, com 7 dias de teste."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"

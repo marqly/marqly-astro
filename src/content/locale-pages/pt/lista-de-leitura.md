@@ -23,7 +23,7 @@ faqs:
   - q: "Os vídeos contam como lista de leitura?"
     a: "Sim, e costumam ser metade do problema. Ao salvar um vídeo do YouTube você tem resumo e a transcrição anexada, então dá para triar sem assistir."
   - q: "Quanto custa?"
-    a: "Plano grátis sem cartão. O Pro custa 9 USD/mês ou 72 USD/ano, com 3 dias de teste."
+    a: "Plano grátis sem cartão. O Pro custa 9 USD/mês ou 72 USD/ano, com 7 dias de teste."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"

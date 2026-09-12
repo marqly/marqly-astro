@@ -23,7 +23,7 @@ faqs:
   - q: "Les données sont-elles locales ?"
     a: "Non. Marqly est un service cloud. Si vous voulez des fichiers sur votre disque, le clipper d'Obsidian enregistre du Markdown local et est gratuit."
   - q: "Combien cela coûte-t-il ?"
-    a: "Offre gratuite sans carte. Pro coûte 9 $ (environ 8 €) par mois ou 72 $ (environ 69 €) par an, avec 3 jours d'essai."
+    a: "Offre gratuite sans carte. Pro coûte 9 $ (environ 8 €) par mois ou 72 $ (environ 69 €) par an, avec 7 jours d'essai."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"

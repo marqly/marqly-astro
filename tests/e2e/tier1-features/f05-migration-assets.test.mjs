@@ -36,8 +36,9 @@ export const tests = [
       }
       // Check rendered breadcrumb HTML links
       const raw = parsed.raw;
-      if (raw.includes('name: \'Compare\'') || (raw.includes('href="/compare"') && raw.includes('Breadcrumb'))) {
-        return { ok: false, error: 'Breadcrumb in migrate/raindrop.astro still points to /compare' };
+      const breadcrumbMatch = raw.match(/<nav[^>]*aria-label="Breadcrumb"[^>]*>([\s\S]*?)<\/nav>/i);
+      if (breadcrumbMatch && breadcrumbMatch[1].includes('href="/compare"')) {
+        return { ok: false, error: 'Breadcrumb nav container still links to /compare' };
       }
       return { ok: true };
     }

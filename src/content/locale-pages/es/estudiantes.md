@@ -90,8 +90,8 @@ Marqly importa desde Pocket, desde Raindrop y desde archivos HTML de marcadores 
 | --- | --- | --- |
 | Gratis | 0 USD | Sin tarjeta para empezar |
 | **Estudiante** | **48 USD el primer año** | Con verificación de estudiante |
-| Pro anual | 72 USD/año | Prueba gratis de 3 días |
-| Pro mensual | 9 USD/mes | Prueba gratis de 3 días |
+| Pro anual | 72 USD/año | Prueba gratis de 7 días |
+| Pro mensual | 9 USD/mes | Prueba gratis de 7 días |
 
 48 USD el primer año son 4 USD al mes: menos que el café de la biblioteca de una semana. Y antes de pagar nada puedes usar el plan gratis, que no pide tarjeta.
 

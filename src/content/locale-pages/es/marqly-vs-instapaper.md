@@ -17,7 +17,7 @@ faqs:
   - q: "¿Instapaper tiene lectura sin conexión y Marqly no?"
     a: "Correcto. Instapaper descarga tus artículos para leerlos sin señal, y además se integra con Kindle. Marqly no tiene modo sin conexión y no vamos a decir que sí."
   - q: "¿Cuánto cuesta cada uno?"
-    a: "Instapaper tiene plan gratis y Premium por 5,99 USD al mes o 59,99 USD al año. Marqly tiene plan gratis sin tarjeta, y Pro por 9 USD al mes o 72 USD al año, con 3 días de prueba y 48 USD el primer año para estudiantes verificados."
+    a: "Instapaper tiene plan gratis y Premium por 5,99 USD al mes o 59,99 USD al año. Marqly tiene plan gratis sin tarjeta, y Pro por 9 USD al mes o 72 USD al año, con 7 días de prueba y 48 USD el primer año para estudiantes verificados."
   - q: "¿Instapaper tiene IA?"
     a: "No. Instapaper no tiene etiquetado automático, ni resúmenes, ni búsqueda semántica. Su apuesta es la lectura, no la organización automática."
   - q: "¿Puedo usar los dos?"

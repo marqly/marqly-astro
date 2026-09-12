@@ -23,7 +23,7 @@ faqs:
   - q: "Funciona com webinars e vídeos longos?"
     a: "Sim. No YouTube você tem resumo, transcrição sincronizada e chat, e ao salvar o vídeo a transcrição fica anexada e pesquisável."
   - q: "Quanto custa?"
-    a: "Plano grátis sem cartão. O Pro custa 9 USD/mês ou 72 USD/ano, com 3 dias de teste."
+    a: "Plano grátis sem cartão. O Pro custa 9 USD/mês ou 72 USD/ano, com 7 dias de teste."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"

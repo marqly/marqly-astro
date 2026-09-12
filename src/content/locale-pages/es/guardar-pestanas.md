@@ -23,7 +23,7 @@ faqs:
   - q: "¿Y si guardo 300 pestañas? ¿Cómo encuentro una después?"
     a: "La IA etiqueta y resume cada página al guardarla, y la búsqueda semántica te deja encontrarla describiendo de qué trataba. No dependes de recordar el título ni el sitio."
   - q: "¿Cuánto cuesta?"
-    a: "Hay plan gratis y no pide tarjeta. Pro cuesta 72 USD al año o 9 USD al mes, con prueba gratis de 3 días. Estudiantes verificados: 48 USD el primer año."
+    a: "Hay plan gratis y no pide tarjeta. Pro cuesta 72 USD al año o 9 USD al mes, con prueba gratis de 7 días. Estudiantes verificados: 48 USD el primer año."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"

@@ -23,7 +23,7 @@ faqs:
   - q: "¿Notion funciona sin conexión?"
     a: "Sí, Notion tiene acceso sin conexión y app de Android. Marqly no tiene ninguna de las dos."
   - q: "¿Cuánto cuesta Marqly?"
-    a: "Plan gratis sin tarjeta. Pro cuesta 9 USD al mes o 72 USD al año, con 3 días de prueba. Los estudiantes verificados pagan 48 USD el primer año."
+    a: "Plan gratis sin tarjeta. Pro cuesta 9 USD al mes o 72 USD al año, con 7 días de prueba. Los estudiantes verificados pagan 48 USD el primer año."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"

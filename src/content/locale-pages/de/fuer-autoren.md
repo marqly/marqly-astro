@@ -23,7 +23,7 @@ faqs:
   - q: "Taugt es für Dokumentationen oder Interviews als Video?"
     a: "Ja. Beim Speichern eines YouTube-Videos wird das Transkript angehängt und durchsuchbar, du findest den exakten Satz Monate später."
   - q: "Was kostet es?"
-    a: "Kostenlose Stufe ohne Karte. Pro kostet 9 $ (rund 8 €) im Monat oder 72 $ (rund 66 €) im Jahr, mit 3 Tagen Testphase."
+    a: "Kostenlose Stufe ohne Karte. Pro kostet 9 $ (rund 8 €) im Monat oder 72 $ (rund 66 €) im Jahr, mit 7 Tagen Testphase."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"

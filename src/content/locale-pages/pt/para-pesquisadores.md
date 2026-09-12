@@ -23,7 +23,7 @@ faqs:
   - q: "E as palestras gravadas?"
     a: "Ao salvar um vídeo do YouTube, a transcrição fica anexada e entra na busca. Depois dá para procurar uma frase que foi dita, não só o título do vídeo."
   - q: "Quanto custa?"
-    a: "Plano grátis sem cartão. O Pro custa 9 USD/mês ou 72 USD/ano, com 3 dias de teste. Estudantes verificados pagam 48 USD no primeiro ano."
+    a: "Plano grátis sem cartão. O Pro custa 9 USD/mês ou 72 USD/ano, com 7 dias de teste. Estudantes verificados pagam 48 USD no primeiro ano."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"

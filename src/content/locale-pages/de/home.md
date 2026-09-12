@@ -15,7 +15,7 @@ faqs:
   - q: "Was ist Marqly genau?"
     a: "Ein Bookmark-Manager mit KI. Du speicherst Webseiten, Videos und Artikel mit einem Klick, Marqly vergibt automatisch Tags und Zusammenfassungen und macht alles über eine semantische Suche wiederauffindbar. Es gibt eine Erweiterung für Chrome, Edge, Firefox und Safari, eine Web-App und eine iOS-App."
   - q: "Ist Marqly kostenlos?"
-    a: "Es gibt eine kostenlose Stufe, für die du keine Kreditkarte hinterlegen musst. Pro kostet 72 $/Jahr (rund 66 €) oder 9 $/Monat (rund 8 €), mit 3 Tagen kostenlosem Test. Studierende zahlen im ersten Jahr 48 $ (rund 44 €)."
+    a: "Es gibt eine kostenlose Stufe, für die du keine Kreditkarte hinterlegen musst. Pro kostet 72 $/Jahr (rund 66 €) oder 9 $/Monat (rund 8 €), mit 7 Tagen kostenlosem Test. Studierende zahlen im ersten Jahr 48 $ (rund 44 €)."
   - q: "Kann ich meine bestehenden Lesezeichen importieren?"
     a: "Ja. Marqly importiert aus Pocket, aus Raindrop und aus der Lesezeichen-HTML-Datei, die jeder Browser exportieren kann. Damit kommst du aus Chrome, Edge, Firefox und Safari ohne Abtippen rüber. Auch deine X/Twitter-Lesezeichen lassen sich sichern."
   - q: "Gibt es eine Android-App?"
@@ -85,7 +85,7 @@ Wer schon länger sammelt, hat seine Sachen selten an einem Ort. Marqly importie
 
 ## Was Marqly kostet
 
-Die kostenlose Stufe verlangt keine Kreditkarte. **Pro kostet 72 $/Jahr (rund 66 €) oder 9 $/Monat (rund 8 €)**, mit 3 Tagen kostenlosem Test. **Studierende zahlen im ersten Jahr 48 $ (rund 44 €)** – Details dazu auf der Seite [fürs Studium](/de/studium).
+Die kostenlose Stufe verlangt keine Kreditkarte. **Pro kostet 72 $/Jahr (rund 66 €) oder 9 $/Monat (rund 8 €)**, mit 7 Tagen kostenlosem Test. **Studierende zahlen im ersten Jahr 48 $ (rund 44 €)** – Details dazu auf der Seite [fürs Studium](/de/studium).
 
 ## Was Marqly nicht kann
 

@@ -23,7 +23,7 @@ faqs:
   - q: "Est-ce utile pour les courses de la semaine ?"
     a: "Vous pouvez regrouper les recettes de la semaine dans un tableau et l'ouvrir sur le téléphone via l'application iPhone ou le navigateur."
   - q: "Combien cela coûte-t-il ?"
-    a: "Offre gratuite sans carte. Pro coûte 9 $ (environ 8 €) par mois ou 72 $ (environ 69 €) par an, avec 3 jours d'essai."
+    a: "Offre gratuite sans carte. Pro coûte 9 $ (environ 8 €) par mois ou 72 $ (environ 69 €) par an, avec 7 jours d'essai."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"

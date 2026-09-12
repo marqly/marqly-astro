@@ -23,7 +23,7 @@ faqs:
   - q: "Dá para compartilhar a apuração de uma pauta?"
     a: "Sim, publicando um quadro como página pública que abre pelo link. Não há recursos de equipe nem edição colaborativa."
   - q: "Quanto custa?"
-    a: "Plano grátis sem cartão. O Pro custa 9 USD/mês ou 72 USD/ano, com 3 dias de teste."
+    a: "Plano grátis sem cartão. O Pro custa 9 USD/mês ou 72 USD/ano, com 7 dias de teste."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"

@@ -23,7 +23,7 @@ faqs:
   - q: "C'è un'app per il telefono?"
     a: "C'è un'app per iPhone e iPad, e l'app web funziona in qualsiasi browser, anche su Android. Non esiste un'app Android nativa."
   - q: "Quanto costa?"
-    a: "Piano gratuito senza carta. Pro costa 9 $/mese (circa 8 €) o 72 $/anno (circa 69 €), con 3 giorni di prova."
+    a: "Piano gratuito senza carta. Pro costa 9 $/mese (circa 8 €) o 72 $/anno (circa 69 €), con 7 giorni di prova."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"

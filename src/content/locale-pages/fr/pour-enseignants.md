@@ -23,7 +23,7 @@ faqs:
   - q: "Cela fonctionne-t-il sur l'ordinateur de la classe ?"
     a: "L'extension fonctionne sur Chrome, Edge, Firefox et Safari, et vous pouvez toujours ouvrir l'application web depuis n'importe quel navigateur sans rien installer."
   - q: "Combien cela coûte-t-il ?"
-    a: "Offre gratuite sans carte. Pro coûte 9 $ (environ 8 €) par mois ou 72 $ (environ 69 €) par an, avec 3 jours d'essai."
+    a: "Offre gratuite sans carte. Pro coûte 9 $ (environ 8 €) par mois ou 72 $ (environ 69 €) par an, avec 7 jours d'essai."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
