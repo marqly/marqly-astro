@@ -1,0 +1,7 @@
+folder,title,url,tags,created,note,excerpt
+"Complex / Nested ""Subfolder""",Special & Escaped: <Article & Title>,"https://example.com/item?id=123&track=utm_source%3Dtest","c++, #dev/react, ai/stella, 2026",2020-01-01T12:00:00.000Z,"Multiline note
+with line breaks and ""quotes""
+and commas, semicolons;",Short excerpt
+"Umlauts & Accents (München, Genève, São Paulo)",International Guide,https://europa.eu/de/,"deutsch, français, português",2022-06-15T08:30:00.000Z,Unterstützung für Sonderzeichen und Umlaute.,Eurozone
+"Empty Fields",,,,"",,
+"Zero Tags",Untagged Link,https://untagged.org,"",2023-01-01T00:00:00.000Z,,
