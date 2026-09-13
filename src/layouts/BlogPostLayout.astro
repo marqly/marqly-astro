@@ -5,6 +5,7 @@ import { organization } from '../lib/schema';
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import { alternatesForPath } from '../i18n/routes';
+import type { Locale } from '../i18n/routes';
 import { BLOG_UI, postPath } from '../i18n/ui';
 
 interface Props {
@@ -13,7 +14,7 @@ interface Props {
 
 const { post } = Astro.props;
 const { data } = post;
-const lang = data.lang;
+const lang = data.lang as Locale;
 const ui = BLOG_UI[lang as keyof typeof BLOG_UI] ?? BLOG_UI.en;
 
 // Related posts: same language only, same category first, then tag overlap —

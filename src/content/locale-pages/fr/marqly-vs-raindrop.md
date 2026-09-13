@@ -96,3 +96,4 @@ Pour aller plus loin&nbsp;: la [page d'accueil de Marqly](/fr) détaille le fonc
 ## Essayez, puis tranchez
 
 Les deux outils sont bons&nbsp;; ils ne résolvent simplement pas le même problème. La seule question qui compte&nbsp;: quand vous cherchez une page lue il y a trois mois, la retrouvez-vous&nbsp;? [Créez votre compte gratuit sur app.marqly.com](https://app.marqly.com) et testez la réponse sur votre propre bibliothèque.
+Pour préparer le changement sans perdre vos collections, suivez notre [guide de migration de Raindrop vers Marqly](/fr/migration/raindrop).

@@ -85,6 +85,6 @@ Und der Preis: rund **28 $/Jahr (rund 26 €)** gegen **72 $/Jahr (rund 66 €)*
 
 **Nimm Marqly, wenn** deine Sammlung schneller wächst, als du sie pflegen kannst, du viel mit Videos und KI-Chats arbeitest, gern [markierst](/de/webseiten-markieren) und dein Problem eher „wiederfinden" als „ablegen" heißt – auch beim [Auflösen von Tab-Bergen](/de/tabs-speichern).
 
-Ein Wechsel ist in beide Richtungen unkompliziert: Raindrop exportiert schon in der kostenlosen Stufe, Marqly hat einen Raindrop-Import und liest jede Lesezeichen-HTML-Datei. Wenn du gerade generell umziehst, hilft der Überblick zu den [Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2026); Fragen zu Daten und Export beantworten die [Datenschutz-Fragen](/de/datenschutz-fragen).
+Ein Wechsel ist in beide Richtungen unkompliziert: Raindrop exportiert schon in der kostenlosen Stufe, Marqly hat einen Raindrop-Import und liest jede Lesezeichen-HTML-Datei. Die einzelnen Schritte erklärt die [deutsche Raindrop-Migrationsanleitung](/de/migration/raindrop). Wenn du gerade generell umziehst, hilft der Überblick zu den [Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2026); Fragen zu Daten und Export beantworten die [Datenschutz-Fragen](/de/datenschutz-fragen).
 
 Am ehrlichsten entscheidest du mit den eigenen Lesezeichen: importieren, sieben Tage lang nur über Beschreibungen suchen und schauen, was hängen bleibt. [Marqly kostenlos testen](https://app.marqly.com).

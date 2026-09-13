@@ -86,4 +86,4 @@ Wechsle nur, wenn du dich in Grund 1 oder 2 wiedererkennst: der wachsende „Uns
 4. Lass die KI darüber taggen. Wichtig ist: Ab hier sortierst du nicht mehr.
 5. Such nach etwas, an das du dich halb erinnerst. Da zeigt sich, ob sich der Wechsel für dich lohnt.
 
-Alle Details in [Marqly vs Raindrop](/de/vergleich/marqly-vs-raindrop). Wenn du von Pocket statt Raindrop kommst: [Pocket-Alternativen](/de/alternativen/pocket).
+Die vollständige Anleitung findest du unter [Raindrop-Lesezeichen zu Marqly migrieren](/de/migration/raindrop). Für den Produktvergleich lies [Marqly vs Raindrop](/de/vergleich/marqly-vs-raindrop). Wenn du von Pocket statt Raindrop kommst: [Pocket-Alternativen](/de/alternativen/pocket).

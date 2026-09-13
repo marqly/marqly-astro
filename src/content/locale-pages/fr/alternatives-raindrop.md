@@ -86,4 +86,4 @@ Ne changez que si vous vous reconnaissez dans la raison 1 ou 2 : la pile « non 
 4. Laissez l'IA étiqueter par-dessus. L'essentiel : à partir de là, vous ne classez plus.
 5. Cherchez en décrivant quelque chose dont vous vous souvenez à moitié. C'est là que vous verrez si le changement vaut le coup.
 
-Le détail complet est dans [Marqly vs Raindrop](/fr/comparer/marqly-vs-raindrop). Si vous venez de Pocket plutôt que de Raindrop : [alternatives à Pocket](/fr/alternatives/pocket).
+Suivez le [guide complet de migration de Raindrop vers Marqly](/fr/migration/raindrop), puis consultez [Marqly vs Raindrop](/fr/comparer/marqly-vs-raindrop) pour comparer les produits. Si vous venez de Pocket plutôt que de Raindrop : [alternatives à Pocket](/fr/alternatives/pocket).

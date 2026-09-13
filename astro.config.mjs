@@ -12,11 +12,13 @@ import { fileURLToPath } from 'node:url';
 const ROOT = fileURLToPath(new URL('.', import.meta.url));
 
 /** Minimal frontmatter reader — top-level `key: value` scalars only. */
+/** @param {string} file @returns {Record<string, string>} */
 function frontmatter(file) {
   const src = readFileSync(file, 'utf8');
   if (!src.startsWith('---')) return {};
   const end = src.indexOf('\n---', 3);
   if (end === -1) return {};
+  /** @type {Record<string, string>} */
   const out = {};
   for (const line of src.slice(3, end).split('\n')) {
     const m = /^([A-Za-z_][\w-]*):\s*(.+)$/.exec(line);
@@ -25,7 +27,9 @@ function frontmatter(file) {
   return out;
 }
 
+/** @param {string} dir @returns {string[]} */
 function walk(dir) {
+  /** @type {string[]} */
   let files = [];
   for (const name of readdirSync(dir)) {
     const p = join(dir, name);
@@ -44,7 +48,9 @@ function walk(dir) {
  * not reflect real edits. URLs with no mappable source date get no lastmod.
  */
 function buildLastmod() {
+  /** @type {Map<string, string>} */
   const map = new Map();
+  /** @param {string | undefined} url @param {string | undefined} dateStr */
   const put = (url, dateStr) => {
     if (!url || !dateStr) return;
     const d = new Date(dateStr);
@@ -61,12 +67,13 @@ function buildLastmod() {
   // (mirrors src/pages/blog/[slug].astro + postPath()).
   for (const f of walk(join(content, 'blog'))) {
     const rel = relative(join(content, 'blog'), f).split(/[\\/]/);
-    const file = rel.pop().replace(/\.(md|mdx)$/, '');
+    const file = (rel.pop() ?? '').replace(/\.(md|mdx)$/, '');
     const lang = rel[0];
     const fm = frontmatter(f);
     put(lang ? `/${lang}/blog/${file}` : `/blog/${file}`, fm.updatedDate || fm.pubDate);
   }
   // Single-segment collections keyed by filename (matches their getStaticPaths).
+  /** @type {Record<string, (id: string) => string>} */
   const byFilename = {
     faq: (id) => `/faq/${id}`,
     usecases: (id) => `/${id}`,
@@ -75,6 +82,7 @@ function buildLastmod() {
   };
   for (const [coll, toUrl] of Object.entries(byFilename)) {
     const dir = join(content, coll);
+    /** @type {string[]} */
     let files;
     try {
       files = walk(dir);
@@ -82,7 +90,7 @@ function buildLastmod() {
       continue;
     }
     for (const f of files) {
-      const id = f.split(/[\\/]/).pop().replace(/\.(md|mdx)$/, '');
+      const id = (f.split(/[\\/]/).pop() ?? '').replace(/\.(md|mdx)$/, '');
       const fm = frontmatter(f);
       put(toUrl(id), fm.updatedDate || fm.pubDate);
     }

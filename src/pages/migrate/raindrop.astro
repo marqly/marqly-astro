@@ -5,11 +5,12 @@ import CtaBox from '../../components/seo/CtaBox.astro';
 import FaqAccordion from '../../components/seo/FaqAccordion.astro';
 import RaindropExportAnalyzer from '../../components/tools/RaindropExportAnalyzer.astro';
 import { breadcrumbList, faqPage, howTo, organization, softwareApplication, webSite } from '../../lib/schema';
+import { alternatesForPath } from '../../i18n/routes';
 
 const path = '/migrate/raindrop';
 const title = 'How to Migrate from Raindrop to Marqly (2026 Guide) — 1-Click Import';
 const description =
-  'Step-by-step guide to export your Raindrop.io collections and import them into Marqly in under 2 minutes. Keep all your tags, folders, and links auto-organized with AI.';
+  'Step-by-step guide to export Raindrop.io collections as HTML or CSV, inspect the backup, import it into Marqly, and verify tags, folders, and links.';
 
 const crumbs = [
   { name: 'Home', path: '/' },
@@ -76,6 +77,8 @@ const jsonLd = [
 <LandingLayout
   title={title}
   description={description}
+  canonical="https://www.marqly.com/migrate/raindrop"
+  alternates={alternatesForPath(path)}
   jsonLd={jsonLd}
   ogImage="https://www.marqly.com/og/seo/migrate-raindrop.png"
 >

@@ -740,6 +740,10 @@ export const TRANSLATIONS: Record<string, Partial<Record<Locale, string>>> = {
     pl: '/pl/porownanie/marqly-vs-raindrop',
     tr: '/tr/karsilastirma/marqly-vs-raindrop',
   },
+  '/migrate/raindrop': {
+    de: '/de/migration/raindrop',
+    fr: '/fr/migration/raindrop',
+  },
   '/compare/marqly-vs-pocket': {
     es: '/es/comparar/marqly-vs-pocket',
     pt: '/pt/comparar/marqly-vs-pocket',
