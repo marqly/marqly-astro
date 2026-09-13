@@ -283,7 +283,11 @@ export const tests = [
     run: async () => {
       const modelsDir = resolve(ROOT, '.seo/models');
       if (!existsSync(modelsDir)) return { ok: false, error: '.seo/models missing' };
-      const raw = readFileSync(resolve(modelsDir, 'query-opportunity-matrix.md'), 'utf8');
+      const matrixPath = existsSync(resolve(modelsDir, 'opportunity-tracking-matrix.md'))
+        ? resolve(modelsDir, 'opportunity-tracking-matrix.md')
+        : resolve(modelsDir, 'query-opportunity-matrix.md');
+      if (!existsSync(matrixPath)) return { ok: false, error: 'Matrix file missing in .seo/models' };
+      const raw = readFileSync(matrixPath, 'utf8');
       const targetUrls = [...raw.matchAll(/`(\/[a-z0-9_\/-]+)`/g)].map(m => m[1]);
       const validPrefixes = ['/alternatives', '/compare', '/migrate', '/tools', '/best-bookmark-manager', '/de', '/fr'];
       for (const url of targetUrls) {

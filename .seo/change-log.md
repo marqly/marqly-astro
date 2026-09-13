@@ -70,7 +70,7 @@ locale roots being linked sitewide from the footer language switcher.
 Every target and every anchor label comes from the locale's own collection
 frontmatter, so the hub cannot emit a dead link or leak English; only column
 headings come from `LINKHUB_UI`. Unknown namespaces (e.g. Spanish/Portuguese
-put landers under `/es/usos/`) fold into the features column rather than being
+put landers under `/es/usos`) fold into the features column rather than being
 labelled with an arbitrary page's eyebrow. Self-links are suppressed.
 *Lane: INTERNAL-LINK. Priority 6.8.*
 Verified: 0 localized pages missing a hub, 0 English headings in localized hubs,
