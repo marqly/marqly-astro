@@ -11,6 +11,19 @@ copy. Full build passed; all 16 SEO gates passed across 1,909 pages, with 0
 broken links across 347,505 hrefs. The strict E2E suite also passed 184/184
 tests (Tier 1 80/80, Tier 2 80/80, Tier 3 16/16, Tier 4 8/8; 0 pending).
 
+Finalization commits: `7e104a0` (content, migration, analyzer, metadata and type
+fixes), `f44e83f` (BCP 47 hreflang test coverage), and `89a98df`
+(certification documentation). `main` was fast-forwarded to `89a98df` and
+pushed to both configured remotes; all obsolete local branches and all 11
+obsolete branches on `origin` were removed after verifying that their commits
+were already contained in `main`.
+
+Production was rebuilt successfully and deployed to Cloudflare as Worker
+version 203 (`de9ba8b4-ed61-4b35-a4c7-62ded75cc6e5`) at 100% traffic. Live
+smoke tests returned HTTP 200 for the homepage, `/best-bookmark-manager`,
+`/tools/raindrop-export-analyzer`, `/de/migration/raindrop`, and
+`/fr/migration/raindrop`.
+
 ## 2026-09-12 — Run 1: truth repair, structured-data policy violation, internal link equity
 
 **Measured first.** Full production crawl of all 1,868 sitemap URLs
