@@ -1,0 +1,555 @@
+---
+import LandingLayout from '../layouts/LandingLayout.astro';
+
+const title = "We're sorry to see you go — Marqly";
+const description = 'Help us improve Marqly by sharing why you uninstalled the extension.';
+
+const REASONS = [
+  { id: 'replaced_newtab', label: 'It changed my New Tab page unexpectedly' },
+  { id: 'slow_or_heavy', label: 'It slowed down my browser or took too much memory' },
+  { id: 'too_complicated', label: 'Too complicated / I only wanted simple bookmarks' },
+  { id: 'switched_to_competitor', label: 'I switched to another tool or service' },
+  { id: 'login_auth_trouble', label: 'Login or authentication kept logging me out' },
+  { id: 'highlighter_issues', label: 'Web highlighter didn’t work on the pages I visit' },
+  { id: 'tab_session_loss', label: 'I had issues saving or restoring tab sessions' },
+  { id: 'not_using_enough', label: 'I didn’t end up using it enough' },
+  { id: 'missing_feature', label: 'Missing a specific feature I need' },
+  { id: 'privacy_permissions_concern', label: 'Concerned about permissions or privacy' },
+  { id: 'temporary_use', label: 'I only needed it temporarily for a specific project' },
+  { id: 'other_reason', label: 'Other reason' },
+];
+
+const COMPETITORS = [
+  'Raindrop.io',
+  'OneTab',
+  'Session Buddy',
+  'mymind',
+  'Readwise / Reader',
+  'Notion Web Clipper',
+  'Pocket',
+  'Karakeep / Hoarder',
+  'Chrome Native Bookmarks',
+  'Other',
+];
+---
+
+<LandingLayout title={title} description={description} showLinkHub={false}>
+  <main class="uninstall-page">
+    <div class="container uninstall-container">
+      <!-- Header -->
+      <header class="uninstall-header">
+        <span class="badge">Extension Feedback</span>
+        <h1>We’re sorry to see you go</h1>
+        <p class="subtitle">
+          Thank you for trying Marqly. Help our team build a better product by sharing what didn’t work for you.
+        </p>
+      </header>
+
+      <!-- Feedback Form Card -->
+      <div class="card feedback-card">
+        <form id="uninstall-form" class="survey-form">
+          <input type="hidden" id="field-src" name="src" value="ext" />
+          <input type="hidden" id="field-v" name="v" value="" />
+          <input type="hidden" id="field-b" name="b" value="" />
+          <input type="hidden" id="field-d" name="d" value="" />
+          <input type="hidden" id="field-s" name="s" value="" />
+          <input type="hidden" id="field-bk" name="bk" value="" />
+
+          <fieldset class="reasons-group">
+            <legend class="section-label">What was the primary reason for uninstalling?</legend>
+            <div class="reasons-grid">
+              {REASONS.map((r) => (
+                <label class="reason-option" for={`reason-${r.id}`}>
+                  <input
+                    type="radio"
+                    id={`reason-${r.id}`}
+                    name="reason"
+                    value={r.id}
+                    required
+                  />
+                  <span class="radio-custom"></span>
+                  <span class="reason-text">{r.label}</span>
+                </label>
+              ))}
+            </div>
+          </fieldset>
+
+          <!-- Conditional Follow-up: Competitor dropdown -->
+          <div id="competitor-followup" class="followup-row hidden">
+            <label for="field-competitor" class="field-label">Which tool did you switch to?</label>
+            <select id="field-competitor" name="competitorSwitched" class="select-input">
+              <option value="">Select an alternative…</option>
+              {COMPETITORS.map((c) => (
+                <option value={c}>{c}</option>
+              ))}
+            </select>
+          </div>
+
+          <!-- Conditional Follow-up: Missing feature text -->
+          <div id="feature-followup" class="followup-row hidden">
+            <label for="field-missing-feature" class="field-label">Which feature were you hoping to find?</label>
+            <input
+              type="text"
+              id="field-missing-feature"
+              name="missingFeatureDetails"
+              placeholder="e.g. PDF full-text search, auto-categorization…"
+              class="text-input"
+            />
+          </div>
+
+          <!-- Qualitative Feedback -->
+          <div class="feedback-textarea-row">
+            <label for="field-feedback" class="field-label">
+              What could we have done better? <span class="optional">(Optional)</span>
+            </label>
+            <textarea
+              id="field-feedback"
+              name="feedback"
+              rows="3"
+              placeholder="Any details, bugs encountered, or thoughts you’d like to share…"
+              class="textarea-input"
+            ></textarea>
+          </div>
+
+          <!-- Submit Button & Disclaimer -->
+          <div class="form-actions">
+            <button type="submit" id="submit-btn" class="btn btn--primary btn--lg submit-btn">
+              Submit Feedback
+            </button>
+            <p class="privacy-note">
+              Feedback is anonymous and used solely to guide improvements to Marqly.
+            </p>
+          </div>
+        </form>
+
+        <!-- Success Confirmation View (Hidden by default) -->
+        <div id="success-state" class="success-view hidden">
+          <div class="success-icon" aria-hidden="true">✓</div>
+          <h2>Thank you for your feedback!</h2>
+          <p class="success-message">
+            We review every submission carefully. Your insights help shape upcoming updates and fixes.
+          </p>
+          <div class="success-actions">
+            <a href="https://app.marqly.com" class="btn btn--primary">Go to Marqly Web App</a>
+            <a href="/" class="btn btn--outline">Homepage</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Helpful Alternatives & Support -->
+      <section class="alternatives-section">
+        <h3>Still need help or looking for alternatives?</h3>
+        <div class="alternatives-grid">
+          <div class="alt-card">
+            <h4>Access Web Dashboard</h4>
+            <p>Your saved bookmarks and boards remain secure in the cloud. Access your full library anytime.</p>
+            <a href="https://app.marqly.com" class="alt-link">Open app.marqly.com →</a>
+          </div>
+          <div class="alt-card">
+            <h4>Export Your Data</h4>
+            <p>You can export your bookmarks to standard HTML or CSV anytime with zero lock-in.</p>
+            <a href="https://app.marqly.com/settings" class="alt-link">Export Bookmarks →</a>
+          </div>
+          <div class="alt-card">
+            <h4>Need Support?</h4>
+            <p>Encountered a bug or have questions? Our engineering team is happy to assist you directly.</p>
+            <a href="mailto:support@marqly.com" class="alt-link">Contact Support →</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+</LandingLayout>
+
+<script>
+  // Parse attribution query parameters and pre-populate hidden form inputs
+  const params = new URLSearchParams(window.location.search);
+  const src = params.get('src') || 'ext';
+  const v = params.get('v') || '';
+  const b = params.get('b') || '';
+  const d = params.get('d') || '';
+  const s = params.get('s') || '';
+  const bk = params.get('bk') || '';
+
+  const setVal = (id: string, val: string) => {
+    const el = document.getElementById(id) as HTMLInputElement | null;
+    if (el && val) el.value = val;
+  };
+
+  setVal('field-src', src);
+  setVal('field-v', v);
+  setVal('field-b', b);
+  setVal('field-d', d);
+  setVal('field-s', s);
+  setVal('field-bk', bk);
+
+  // Dynamic follow-up reveals
+  const competitorFollowup = document.getElementById('competitor-followup');
+  const featureFollowup = document.getElementById('feature-followup');
+  const radios = document.querySelectorAll<HTMLInputElement>('input[name="reason"]');
+
+  radios.forEach((radio) => {
+    radio.addEventListener('change', () => {
+      const val = radio.value;
+      if (competitorFollowup) {
+        competitorFollowup.classList.toggle('hidden', val !== 'switched_to_competitor');
+      }
+      if (featureFollowup) {
+        featureFollowup.classList.toggle('hidden', val !== 'missing_feature');
+      }
+    });
+  });
+
+  // Asynchronous Form Submission
+  const form = document.getElementById('uninstall-form') as HTMLFormElement | null;
+  const submitBtn = document.getElementById('submit-btn') as HTMLButtonElement | null;
+  const successState = document.getElementById('success-state');
+
+  if (form && submitBtn && successState) {
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Submitting…';
+
+      const formData = new FormData(form);
+      const selectedReason = formData.get('reason')?.toString() || 'other_reason';
+      const competitor = formData.get('competitorSwitched')?.toString() || undefined;
+      const missingFeature = formData.get('missingFeatureDetails')?.toString() || undefined;
+      const userFeedback = formData.get('feedback')?.toString() || undefined;
+
+      const combinedFeedback = [
+        missingFeature ? `Missing feature: ${missingFeature}` : null,
+        userFeedback ? userFeedback : null,
+      ]
+        .filter(Boolean)
+        .join(' | ');
+
+      const payload = {
+        source: formData.get('src')?.toString() || 'ext',
+        version: formData.get('v')?.toString() || 'unknown',
+        browser: formData.get('b')?.toString() || 'unknown',
+        daysActive: Number(formData.get('d')) || undefined,
+        sessionsSaved: Number(formData.get('s')) || undefined,
+        bookmarksSaved: Number(formData.get('bk')) || undefined,
+        reason: selectedReason,
+        competitorSwitched: competitor,
+        feedback: combinedFeedback,
+        timestamp: new Date().toISOString(),
+      };
+
+      try {
+        await fetch('/api/uninstall-feedback', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(payload),
+        });
+      } catch (err) {
+        console.warn('Could not record feedback:', err);
+      } finally {
+        form.classList.add('hidden');
+        successState.classList.remove('hidden');
+        successState.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    });
+  }
+</script>
+
+<style>
+  .uninstall-page {
+    padding-block: var(--space-12) var(--space-20);
+  }
+
+  .uninstall-container {
+    max-width: 760px;
+    margin-inline: auto;
+    padding-inline: var(--space-4);
+  }
+
+  .uninstall-header {
+    text-align: center;
+    margin-bottom: var(--space-8);
+  }
+
+  .badge {
+    display: inline-block;
+    padding: var(--space-1) var(--space-3);
+    font-size: var(--fs-xs);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-3);
+    border: 1px solid var(--line-subtle);
+    border-radius: 9999px;
+    margin-bottom: var(--space-3);
+  }
+
+  h1 {
+    font-size: var(--fs-h2);
+    font-weight: 700;
+    letter-spacing: var(--tracking-tight);
+    color: var(--ink-1);
+    margin-bottom: var(--space-2);
+  }
+
+  .subtitle {
+    font-size: var(--fs-base);
+    color: var(--ink-2);
+    max-width: 580px;
+    margin-inline: auto;
+    line-height: 1.5;
+  }
+
+  .feedback-card {
+    background: var(--surface-card, #ffffff);
+    border: 1px solid var(--line-subtle, rgba(0, 0, 0, 0.08));
+    border-radius: var(--radius-xl, 16px);
+    padding: var(--space-8);
+    box-shadow: 0 4px 20px -4px rgba(0, 0, 0, 0.05);
+  }
+
+  .section-label {
+    font-size: var(--fs-base);
+    font-weight: 600;
+    color: var(--ink-1);
+    margin-bottom: var(--space-4);
+  }
+
+  .reasons-group {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .reasons-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-2);
+  }
+
+  @media (min-width: 640px) {
+    .reasons-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .reason-option {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-3);
+    padding: var(--space-3) var(--space-4);
+    border: 1px solid var(--line-subtle, rgba(0, 0, 0, 0.08));
+    border-radius: var(--radius-md, 8px);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    background: var(--surface-subtle, #fafafa);
+  }
+
+  .reason-option:hover {
+    border-color: var(--brand-primary, #6366f1);
+    background: #ffffff;
+  }
+
+  .reason-option input[type='radio'] {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .radio-custom {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid var(--ink-4, #cbd5e1);
+    display: inline-block;
+    flex-shrink: 0;
+    margin-top: 2px;
+    transition: all 0.15s ease;
+    position: relative;
+  }
+
+  .reason-option input[type='radio']:checked + .radio-custom {
+    border-color: var(--brand-primary, #6366f1);
+    background: var(--brand-primary, #6366f1);
+    box-shadow: inset 0 0 0 3px #ffffff;
+  }
+
+  .reason-option:has(input[type='radio']:checked) {
+    border-color: var(--brand-primary, #6366f1);
+    background: rgba(99, 102, 241, 0.04);
+  }
+
+  .reason-text {
+    font-size: var(--fs-sm);
+    color: var(--ink-2);
+    line-height: 1.4;
+  }
+
+  .followup-row {
+    margin-top: var(--space-5);
+  }
+
+  .field-label {
+    display: block;
+    font-size: var(--fs-sm);
+    font-weight: 500;
+    color: var(--ink-1);
+    margin-bottom: var(--space-2);
+  }
+
+  .optional {
+    font-size: var(--fs-xs);
+    font-weight: normal;
+    color: var(--ink-4);
+  }
+
+  .select-input,
+  .text-input,
+  .textarea-input {
+    width: 100%;
+    padding: var(--space-3) var(--space-4);
+    border: 1px solid var(--line-subtle, rgba(0, 0, 0, 0.15));
+    border-radius: var(--radius-md, 8px);
+    font-size: var(--fs-sm);
+    color: var(--ink-1);
+    background: #ffffff;
+    transition: border-color 0.15s ease;
+  }
+
+  .select-input:focus,
+  .text-input:focus,
+  .textarea-input:focus {
+    outline: none;
+    border-color: var(--brand-primary, #6366f1);
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+  }
+
+  .feedback-textarea-row {
+    margin-top: var(--space-6);
+  }
+
+  .form-actions {
+    margin-top: var(--space-6);
+    text-align: center;
+  }
+
+  .submit-btn {
+    width: 100%;
+    max-width: 320px;
+    margin-inline: auto;
+  }
+
+  .privacy-note {
+    font-size: var(--fs-xs);
+    color: var(--ink-4);
+    margin-top: var(--space-3);
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  /* Success View */
+  .success-view {
+    text-align: center;
+    padding-block: var(--space-8);
+  }
+
+  .success-icon {
+    width: 56px;
+    height: 56px;
+    background: #10b981;
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0 auto var(--space-4);
+  }
+
+  .success-view h2 {
+    font-size: var(--fs-h3);
+    font-weight: 700;
+    color: var(--ink-1);
+    margin-bottom: var(--space-2);
+  }
+
+  .success-message {
+    font-size: var(--fs-base);
+    color: var(--ink-2);
+    max-width: 500px;
+    margin: 0 auto var(--space-6);
+    line-height: 1.5;
+  }
+
+  .success-actions {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-4);
+    flex-wrap: wrap;
+  }
+
+  /* Alternatives Section */
+  .alternatives-section {
+    margin-top: var(--space-12);
+    text-align: center;
+  }
+
+  .alternatives-section h3 {
+    font-size: var(--fs-h4);
+    font-weight: 600;
+    color: var(--ink-2);
+    margin-bottom: var(--space-6);
+  }
+
+  .alternatives-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+    text-align: left;
+  }
+
+  @media (min-width: 640px) {
+    .alternatives-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .alt-card {
+    background: var(--surface-card, #ffffff);
+    border: 1px solid var(--line-subtle, rgba(0, 0, 0, 0.08));
+    border-radius: var(--radius-lg, 12px);
+    padding: var(--space-5);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .alt-card h4 {
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    color: var(--ink-1);
+    margin-bottom: var(--space-2);
+  }
+
+  .alt-card p {
+    font-size: var(--fs-xs);
+    color: var(--ink-3);
+    line-height: 1.5;
+    flex-grow: 1;
+    margin-bottom: var(--space-4);
+  }
+
+  .alt-link {
+    font-size: var(--fs-xs);
+    font-weight: 600;
+    color: var(--brand-primary, #6366f1);
+    text-decoration: none;
+  }
+
+  .alt-link:hover {
+    text-decoration: underline;
+  }
+</style>
