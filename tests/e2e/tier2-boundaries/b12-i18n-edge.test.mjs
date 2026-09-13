@@ -49,7 +49,12 @@ export const tests = [
       const { alternatesForPath } = await import(pathToFileURL(ROUTES_TS).href);
       const list = alternatesForPath('/compare/marqly-vs-raindrop');
       for (const item of list) {
-        if (!/^[a-z]{2}(-[A-Z]{2})?$/i.test(item.hreflang) && item.hreflang !== 'x-default') {
+        if (item.hreflang === 'x-default') continue;
+        try {
+          // Intl.Locale validates language, optional script (zh-Hans), region
+          // (pt-BR), and other well-formed BCP 47 subtags.
+          new Intl.Locale(item.hreflang);
+        } catch {
           return { ok: false, error: `Invalid BCP 47 hreflang tag: "${item.hreflang}"` };
         }
       }
