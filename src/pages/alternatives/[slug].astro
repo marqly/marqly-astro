@@ -141,9 +141,9 @@ const others = competitors.filter((c) => c.slug !== subject.slug);
       <p class="deep-link">
         <a href={`/compare/marqly-vs-${subject.slug}`}>See the full Marqly vs {subject.name} comparison →</a>
         {['raindrop', 'pocket', 'mymind', 'instapaper'].includes(subject.slug) ? (
-          <> · <a href={`/migrate/${subject.slug}`}>How to migrate from {subject.name} to Marqly →</a> · <a href="/migrate">All migration guides →</a></>
+          <> · <a href={`/migrate/${subject.slug}`}>How to migrate from {subject.name} to Marqly →</a> · <a href="/best-bookmark-manager">2026 Bookmark Manager Index →</a> · <a href="/migrate">All migration guides →</a></>
         ) : (
-          <> · <a href="/migrate">How to migrate to Marqly with zero data loss →</a></>
+          <> · <a href="/best-bookmark-manager">2026 Bookmark Manager Index →</a> · <a href="/migrate">How to migrate to Marqly with zero data loss →</a></>
         )}
       </p>
 
@@ -176,6 +176,12 @@ const others = competitors.filter((c) => c.slug !== subject.slug);
             {others.map((c) => (
               <li><a href={`/alternatives/${c.slug}`}>{c.name} alternatives</a></li>
             ))}
+          </ul>
+        </div>
+        <div class="xlinks-section" style="margin-top: var(--space-8);">
+          <h3>Category Benchmarks</h3>
+          <ul>
+            <li><a href="/best-bookmark-manager" style="font-weight: 600;">The 2026 Bookmark Manager Index →</a></li>
           </ul>
         </div>
       </nav>
