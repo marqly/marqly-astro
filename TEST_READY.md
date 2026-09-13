@@ -8,11 +8,12 @@
 The comprehensive, requirement-driven, opaque-box E2E test suite for the **Marqly × Raindrop.io Global 100× Search Capture Program** has been designed, implemented, and verified.
 
 - **Total Automated Test Cases**: **184 tests** (exceeds the minimum threshold of 180).
-- **Execution Speed**: **<600 milliseconds** end-to-end.
+- **Execution Speed**: **<5 seconds** end-to-end in the latest strict run.
 - **Coverage**: **100% of all 16 features** from `PROJECT.md § Feature Inventory` across **4 testing tiers**.
 - **Current Baseline**:
-  * **Passing Baseline**: **119 / 184 tests (65%)**
-  * **Pending Implementation Signals**: **65 / 184 tests (35%)**
+  * **Strict Result**: **184 / 184 tests passing (100%)**
+  * **Pending Tests**: **0 / 184 (0%)**
+- **Tier Result**: **Tier 1: 80/80 · Tier 2: 80/80 · Tier 3: 16/16 · Tier 4: 8/8**
 - **Test Architecture**: Pure Node.js ES Modules with zero heavy browser overhead; operates directly on build artifacts in `dist/client`, competitor truth JSONs in `.seo/`, runtime models, and parsing contracts.
 
 ---
@@ -48,11 +49,11 @@ node active/scripts/test-e2e-raindrop.mjs --json --baseline
 
 | Tier | Category | Test Count | Passing Baseline | Pending Signals | Pass Rate | Focus Area |
 |:---|:---|:---:|:---:|:---:|:---:|:---|
-| **Tier 1** | Feature Coverage (Isolation) | 80 | 48 | 32 | 60% | Happy-path specification compliance (5 tests × 16 features) |
-| **Tier 2** | Boundary & Corner Cases | 80 | 57 | 23 | 71% | Stress, encoding, empty/malformed files, boundary limits |
-| **Tier 3** | Cross-Feature Combinations | 16 | 10 | 6 | 63% | Pairwise contract symmetry, reciprocal hreflang, link funnels |
-| **Tier 4** | Real-World Application Scenarios | 8 | 4 | 4 | 50% | End-to-end user journeys from search discovery to signup |
-| **Total** | **All Tiers Combined** | **184** | **119** | **65** | **65%** | Complete program verification surface |
+| **Tier 1** | Feature Coverage (Isolation) | 80 | 80 | 0 | 100% | Happy-path specification compliance (5 tests × 16 features) |
+| **Tier 2** | Boundary & Corner Cases | 80 | 80 | 0 | 100% | Stress, encoding, empty/malformed files, boundary limits |
+| **Tier 3** | Cross-Feature Combinations | 16 | 16 | 0 | 100% | Pairwise contract symmetry, reciprocal hreflang, link funnels |
+| **Tier 4** | Real-World Application Scenarios | 8 | 8 | 0 | 100% | End-to-end user journeys from search discovery to signup |
+| **Total** | **All Tiers Combined** | **184** | **184** | **0** | **100%** | Complete program verification surface |
 
 ---
 
@@ -60,24 +61,24 @@ node active/scripts/test-e2e-raindrop.mjs --json --baseline
 
 Every feature defined in `PROJECT.md § Feature Inventory` is mapped to at least 5 Tier 1 isolation tests, 5 Tier 2 boundary tests, plus dedicated Tier 3 pairwise combination tests and Tier 4 real-world user scenarios.
 
-| Feature ID | Feature Name | Tier 1 | Tier 2 | Tier 3/4 | Total Tests | Baseline Status | Key Pending Signal / Next Milestone |
+| Feature ID | Feature Name | Tier 1 | Tier 2 | Tier 3/4 | Total Tests | Verified Status | Verification |
 |:---|:---|:---:|:---:|:---:|:---:|:---:|:---|
-| **F01** | Authoritative Raindrop Truth Files | 5 | 5 | 3 | 13 | IN PROGRESS | M1: Verify all 16 JSON specs in `.seo/competitors/raindrop/` |
-| **F02** | Reconcile `raindrop.json` | 5 | 5 | 3 | 13 | VERIFIED | M1: Platforms (windows, linux), Pro pricing ($28), tag suggestions |
-| **F03** | Fix Alternatives Hreflang Bug | 5 | 5 | 2 | 12 | VERIFIED | M2: Reciprocal hreflang tags emitted on `/alternatives/raindrop` |
-| **F04** | Remediate Stale Commercial Claims | 5 | 5 | 2 | 12 | VERIFIED | M2: Stale 3-day trial removed across DE, FR, IT, ES, PT |
-| **F05** | Fix Migration Asset & Breadcrumb | 5 | 5 | 2 | 12 | IN PROGRESS | M2: Generate `public/og/seo/migrate-raindrop.png`, fix breadcrumb |
-| **F06** | Category-Segmented Alternatives | 5 | 5 | 2 | 12 | IN PROGRESS | M3: Add categorized quick-picks and matrix to `/alternatives/raindrop` |
-| **F07** | Benchmark-Driven Comparison | 5 | 5 | 3 | 13 | IN PROGRESS | M3: 5 workflow benchmarks on `/compare/marqly-vs-raindrop` |
-| **F08** | Transactional Migration Guide | 5 | 5 | 3 | 13 | IN PROGRESS | M3: Troubleshooting guide and field mapping on `/migrate/raindrop` |
-| **F09** | Client-Side Export Analyzer Core | 5 | 5 | 2 | 12 | VERIFIED | M4: Netscape HTML & CSV parser engine specification contracts |
-| **F10** | Standalone & Embedded Tool Page | 5 | 5 | 2 | 12 | IN PROGRESS | M4: Deploy `/tools/raindrop-export-analyzer` & embed in migration |
-| **F11** | German & French Migration Landers | 5 | 5 | 3 | 13 | IN PROGRESS | M5: Deploy `/de/migration/raindrop` & `/fr/migration/raindrop` |
-| **F12** | Complete i18n Route Clustering | 5 | 5 | 2 | 12 | IN PROGRESS | M5: Register `/migrate/raindrop` translations in `src/i18n/routes.ts` |
-| **F13** | Generic Category Authority Hub | 5 | 5 | 2 | 12 | PENDING | M6: Deploy `/best-bookmark-manager` Benchmark Index |
-| **F14** | 100× Search Traffic Growth Model | 5 | 5 | 1 | 11 | PENDING | M7: Commit 6-pillar mathematical model to `.seo/models/` |
-| **F15** | Query Opportunity & Tracking Matrix | 5 | 5 | 1 | 11 | IN PROGRESS | M7: 30+ tracked queries & SERP position matrix in `.seo/models/` |
-| **F16** | E2E Test Suite Health & Runner | 5 | 5 | — | 10 | VERIFIED | M8: Standalone CLI runner, <600ms execution, complete tiering |
+| **F01** | Authoritative Raindrop Truth Files | 5 | 5 | 3 | 13 | VERIFIED | All strict E2E checks pass |
+| **F02** | Reconcile `raindrop.json` | 5 | 5 | 3 | 13 | VERIFIED | All strict E2E checks pass |
+| **F03** | Fix Alternatives Hreflang Bug | 5 | 5 | 2 | 12 | VERIFIED | All strict E2E checks pass |
+| **F04** | Remediate Stale Commercial Claims | 5 | 5 | 2 | 12 | VERIFIED | All strict E2E checks pass |
+| **F05** | Fix Migration Asset & Breadcrumb | 5 | 5 | 2 | 12 | VERIFIED | All strict E2E checks pass |
+| **F06** | Category-Segmented Alternatives | 5 | 5 | 2 | 12 | VERIFIED | All strict E2E checks pass |
+| **F07** | Benchmark-Driven Comparison | 5 | 5 | 3 | 13 | VERIFIED | All strict E2E checks pass |
+| **F08** | Transactional Migration Guide | 5 | 5 | 3 | 13 | VERIFIED | All strict E2E checks pass |
+| **F09** | Client-Side Export Analyzer Core | 5 | 5 | 2 | 12 | VERIFIED | All strict E2E checks pass |
+| **F10** | Standalone & Embedded Tool Page | 5 | 5 | 2 | 12 | VERIFIED | All strict E2E checks pass |
+| **F11** | German & French Migration Landers | 5 | 5 | 3 | 13 | VERIFIED | All strict E2E checks pass |
+| **F12** | Complete i18n Route Clustering | 5 | 5 | 2 | 12 | VERIFIED | All strict E2E checks pass |
+| **F13** | Generic Category Authority Hub | 5 | 5 | 2 | 12 | VERIFIED | All strict E2E checks pass |
+| **F14** | 100× Search Traffic Growth Model | 5 | 5 | 1 | 11 | VERIFIED | All strict E2E checks pass |
+| **F15** | Query Opportunity & Tracking Matrix | 5 | 5 | 1 | 11 | VERIFIED | All strict E2E checks pass |
+| **F16** | E2E Test Suite Health & Runner | 5 | 5 | — | 10 | VERIFIED | M8: Standalone CLI runner, strict 184/184 result, complete tiering |
 
 ---
 
@@ -155,4 +156,4 @@ Downstream milestone implementation agents should use the test suite iteratively
 5. **M5 (DE/FR Expansion & i18n Routes)**: Run `node active/scripts/test-e2e-raindrop.mjs --feature f11` and `--feature f12`.
 6. **M6 (Generic Category Hub)**: Run `node active/scripts/test-e2e-raindrop.mjs --feature f13`.
 7. **M7 (100× Growth Model & Opportunity Matrix)**: Run `node active/scripts/test-e2e-raindrop.mjs --feature f14` and `--feature f15`.
-8. **M8 (Final E2E Sign-Off)**: Run `node active/scripts/test-e2e-raindrop.mjs` without `--baseline` — target 100% pass (184/184 tests, exit code 0).
+8. **M8 (Final E2E Sign-Off)**: Final strict verification is complete: `node active/scripts/test-e2e-raindrop.mjs` reports 184/184 passing (0 pending) with exit code 0. Re-run this command in CI or before future SEO releases.

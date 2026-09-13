@@ -4,6 +4,13 @@ Every SEO action, why it won its slot, and how it was verified. Newest first.
 
 ---
 
+## 2026-09-13 — SEO completion and strict certification
+
+Completed the DE/FR migration routes and hardened benchmark claims and pricing
+copy. Full build passed; all 16 SEO gates passed across 1,909 pages, with 0
+broken links across 347,505 hrefs. The strict E2E suite also passed 184/184
+tests (Tier 1 80/80, Tier 2 80/80, Tier 3 16/16, Tier 4 8/8; 0 pending).
+
 ## 2026-09-12 — Run 1: truth repair, structured-data policy violation, internal link equity
 
 **Measured first.** Full production crawl of all 1,868 sitemap URLs
