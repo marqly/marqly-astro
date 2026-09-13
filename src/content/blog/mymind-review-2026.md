@@ -121,7 +121,7 @@ mymind is a genuinely original product with the courage of its convictions — n
 
 If you read this and thought "I mostly save articles and can never find them again," that's the retrieval problem — and it's the one [Marqly](https://app.marqly.com) was built around. Free to start, no card, and your Pocket or Raindrop history imports in minutes.
 
-For deeper analysis, explore our direct [Marqly vs mymind feature comparison](/compare/marqly-vs-mymind), see our [mymind vs Anybox breakdown](/compare/mymind-vs-anybox), read our [AI Bookmark Retrieval Benchmark](/blog/ai-bookmark-retrieval-benchmark-2026), browse the best [mymind alternatives in 2026](/alternatives/mymind), or follow our step-by-step [mymind migration guide](/migrate/mymind).
+For deeper analysis, explore our direct [Marqly vs mymind feature comparison](/compare/marqly-vs-mymind), see our [mymind vs Anybox breakdown](/compare/mymind-vs-anybox), read our [AI Bookmark Retrieval Benchmark](/blog/ai-bookmark-retrieval-benchmark-2026), browse the best [mymind alternatives in 2026](/alternatives/mymind), or follow our step-by-step [mymind migration guide](/migrate/mymind). You can also inspect or deduplicate your export archives offline with our [Bookmark File Viewer](/tools/bookmark-file-viewer) and [Duplicate Bookmark Finder](/tools/duplicate-bookmark-finder) from our [free tools directory](/tools).
 
 ---
 

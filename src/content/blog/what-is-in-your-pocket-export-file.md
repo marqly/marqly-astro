@@ -78,8 +78,8 @@ The honest summary: a Pocket export is a clean, well-structured file, but it's a
 The right move is to **import the file into a read-it-later or bookmark tool that re-saves each link and rebuilds the reading view from the live page — and to do it while the articles are still online.** Because the export carries URLs rather than cached content, the value you recover depends on those URLs still resolving. Every month you wait, more of them rot. So the practical sequence is short:
 
 1. **Locate every file.** Check your Downloads folder and old emails for the export. If it's a ZIP, unzip it; if it's split into numbered CSVs, gather all of them. Pocket's data was permanently deleted on November 12, 2025, so this file is the only copy that exists — back it up before you do anything else.
-2. **Peek inside (optional).** Open one CSV in a spreadsheet to confirm the columns and see roughly how many rows you're dealing with. Close it without saving.
-3. **Pick a destination and import.** Open your new tool's import screen and add the file — every part, if it's split. The tool reads your list of links and re-saves them; it then fetches each page from the live web to rebuild a readable view. This is also the step that turns delimited tags and Unix timestamps into something usable, depending on the tool.
+2. **Peek inside (optional).** Use our free [Pocket Export Converter](/tools/pocket-export-converter) or [Bookmark File Viewer](/tools/bookmark-file-viewer) from our [free tools directory](/tools) to inspect, search, or convert your CSV archive into browser HTML.
+3. **Pick a destination and import.** Follow our step-by-step [Pocket to Marqly Migration Guide](/migrate/pocket) or visit our universal [Migration Center](/migrate). Open your new tool's import screen and add the file — every part, if it's split. The tool reads your list of links and re-saves them; it then fetches each page from the live web to rebuild a readable view. This is also the step that turns delimited tags and Unix timestamps into something usable, depending on the tool.
 4. **Spot-check and re-save the survivors.** Confirm a sample of saves came across. Any link that 404s is gone from the live web, not just your library — if it mattered, hunt down an archived copy and re-save it now.
 
 The full step-by-step, including choosing where to land and rebuilding your saving habit, lives in [how to export and migrate your Pocket data](/blog/how-to-export-migrate-pocket-data). If you're still deciding between destinations, it's worth weighing [the best read-it-later apps overall](/blog/best-read-it-later-apps-2026) and, if Instapaper is on your shortlist, the [Instapaper alternatives](/blog/instapaper-alternatives-2026) roundup.
@@ -106,4 +106,4 @@ That's the angle [Marqly](https://app.marqly.com) is built on. Import your saved
 
 A realistic expectation, since this whole guide is about setting them: no tool can resurrect the article text that was never in your export, and how cleanly tags and dates land depends on the file and the importer. What you're recovering is the *list* of what you saved — and with semantic search on top, that list finally becomes something you can actually use.
 
-[Try Marqly free →](https://app.marqly.com)
+[Try Marqly free →](https://app.marqly.com) · [Pocket Migration Guide](/migrate/pocket) · [Free Bookmark Tools](/tools)

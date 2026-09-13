@@ -52,7 +52,9 @@ Your export is portable, so the real question is *where* it should live. The thr
 
 ## Step 3: Import your library
 
-Most modern tools accept the Pocket HTML export directly. In **Marqly**, for example:
+Most modern tools accept the Pocket HTML export directly. For a detailed walkthrough with screenshots and troubleshooting, follow our [Pocket to Marqly Migration Guide](/migrate/pocket) or visit our [Migration Center](/migrate). If you downloaded a CSV file instead of HTML, convert or inspect it first using our free [Pocket Export Converter](/tools/pocket-export-converter) and [Bookmark File Viewer](/tools/bookmark-file-viewer).
+
+In **Marqly**, for example:
 
 1. Create a free account.
 2. During onboarding (or in Settings → Import), choose **Import bookmarks**.
@@ -75,7 +77,7 @@ Within a day, saving feels exactly like it did with Pocket — except now everyt
 
 Migrating is a chance to fix the thing Pocket never solved: **most of us save far more than we ever find again.** Folders and keyword search don't scale past a few hundred items.
 
-When you move your library, consider landing it somewhere with **semantic search** — where you can type what you *remember* ("the piece about remote work and trust") and get the article back even if you've forgotten its title. That's the core of what [Marqly](https://app.marqly.com/lp/replace-pocket) does: import your Pocket history, then actually find any of it again. Free to try.
+When you move your library, consider landing it somewhere with **semantic search** — where you can type what you *remember* ("the piece about remote work and trust") and get the article back even if you've forgotten its title. That's the core of what [Marqly](https://app.marqly.com/lp/replace-pocket) does: import your Pocket history, then actually find any of it again. See our full [Pocket vs Marqly comparison](/compare/marqly-vs-pocket) for the side-by-side details. Free to try.
 
 ---
 

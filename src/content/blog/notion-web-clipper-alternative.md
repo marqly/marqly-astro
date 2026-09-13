@@ -44,7 +44,7 @@ Notion is the wrong shape for "save the web and find it later." It's a blank-pag
 The cleanest setup most people land on: **keep Notion for your writing and projects, and use a purpose-built tool for capturing and searching what you read.** That keeps your Notion workspace clean and gives your reading a home designed for it.
 
 ### Marqly — the dedicated reading + AI search layer
-Marqly is built for exactly the job Notion's clipper isn't: one-click save, a clean reader, **AI auto-tagging**, **summaries**, and **semantic search** so you can find any save by meaning. As an [AI bookmark manager](/blog/best-ai-bookmark-manager-2026), your reading becomes a searchable knowledge base — effectively a [second brain app](/blog/what-is-a-second-brain-app) for what you read — without bloating Notion. Web, iOS, desktop. Free tier; Pro ~$6/mo. [Try it free →](https://app.marqly.com/lp/knowledge-base)
+Marqly is built for exactly the job Notion's clipper isn't: one-click save, a clean reader, **AI auto-tagging**, **summaries**, and **semantic search** so you can find any save by meaning. See our feature breakdown in [Marqly vs Notion Web Clipper](/compare/marqly-vs-notion-web-clipper) and our guide to the top [Notion Web Clipper alternatives](/alternatives/notion-web-clipper). As an [AI bookmark manager](/blog/best-ai-bookmark-manager-2026), your reading becomes a searchable knowledge base — effectively a [second brain app](/blog/what-is-a-second-brain-app) for what you read — without bloating Notion. Web, iOS, desktop. Free tier; Pro ~$6/mo. [Try it free →](https://app.marqly.com/lp/knowledge-base)
 
 ### Other options
 - **Raindrop.io** — free, visual, manual organization; keyword search.
@@ -67,8 +67,8 @@ Understandable — single-source-of-truth is appealing. Just know the trade-off:
 
 ## Try the dedicated approach
 
-[Marqly](https://app.marqly.com/lp/knowledge-base) gives your reading the home Notion's clipper can't. Import what you've already saved, capture new articles with one click, and search everything by meaning. Free, no credit card.
+[Marqly](https://app.marqly.com/lp/knowledge-base) gives your reading the home Notion's clipper can't. Import what you've already saved via our [Migration Center](/migrate), capture new articles with one click, and search everything by meaning. If you need to convert web content or inspect bookmark files, try our [HTML to Markdown converter](/tools/html-to-markdown) and [Bookmark File Viewer](/tools/bookmark-file-viewer) in our [free tools directory](/tools). Free, no credit card.
 
 ---
 
-*Related: [Obsidian vs Marqly](/compare/marqly-vs-obsidian-web-clipper)*
+*Related: [Marqly vs Notion Web Clipper](/compare/marqly-vs-notion-web-clipper) · [Notion Web Clipper Alternatives](/alternatives/notion-web-clipper) · [Obsidian vs Marqly](/compare/marqly-vs-obsidian-web-clipper) · [Migration Center](/migrate)*

@@ -96,7 +96,7 @@ The five below cover the real spread of the market: one built around semantic se
 A few honest caveats on the table. "Partial" means the tool has *some* AI-flavored retrieval — usually a chat feature or a related-items panel — but it isn't a meaning-first search box you can rely on across your whole library the way Marqly's is. Prices move; check each tool's site before you commit. And Raindrop scoring "No" on semantic search isn't a knock on the product — it's a genuinely great keyword bookmark manager, it just isn't an *AI* one in the sense this guide cares about.
 
 ### Marqly — best for searching by meaning
-Marqly is built around the query layer first. Save anything from web, iOS, or Chrome, and find it later by describing what you remember — across your entire library — plus auto-tagging and AI summaries on the way in. It imports your Pocket export, Raindrop collections, and browser bookmarks, so you're not starting from zero — here's how to [import your Chrome bookmarks](/blog/how-to-import-chrome-bookmarks-to-ai) in a couple of minutes. Free tier (stores up to 2,000 bookmarks with search across your whole library); Pro lifts that cap to unlimited and is $72/yr (about $6/mo billed annually, with a $39 first-year offer) or $9/mo. If "search what you remember" is the experience you're after, this is the most focused option — read [our full Marqly review](/blog/marqly-review-2026) for the deep dive, check our [pricing page](/pricing), or [try it free](https://app.marqly.com/lp/ai-search).
+Marqly is built around the query layer first. Save anything from web, iOS, or Chrome, and find it later by describing what you remember — across your entire library — plus auto-tagging and AI summaries on the way in. It imports your Pocket export, Raindrop collections, and browser bookmarks, so you're not starting from zero — check our [Migration Center](/migrate) for step-by-step guides (including [Pocket](/migrate/pocket) and [Raindrop](/migrate/raindrop)), or follow our guide on how to [import your Chrome bookmarks](/blog/how-to-import-chrome-bookmarks-to-ai) in a couple of minutes. Free tier (stores up to 2,000 bookmarks with search across your whole library); Pro lifts that cap to unlimited and is $72/yr (about $6/mo billed annually, with a $39 first-year offer) or $9/mo. If "search what you remember" is the experience you're after, this is the most focused option — read [our full Marqly review](/blog/marqly-review-2026) for the deep dive, check our [pricing page](/pricing), or [try it free](https://app.marqly.com/lp/ai-search).
 
 ### mymind — best for visual thinkers
 "No organizing, ever." mymind auto-tags and surfaces everything in a beautiful, calm, visual canvas — closer to a moodboard than a reading queue. Its retrieval leans on tags and visual recall more than true paraphrase search, and there's no free tier (~$8/mo). Excellent for designers and visual thinkers collecting images and inspiration; less suited to people whose saves are mostly long-form articles they need to find by argument.
@@ -108,7 +108,7 @@ Reader layers AI features (including chat over your documents) onto a best-in-cl
 Raindrop is polished, saves every media type, and has one of the most generous free plans in the category. But its search is keyword-based, not semantic — so it's a superb *bookmark manager* and not yet a true *AI* one. If you've outgrown its search but love its library, our [Raindrop vs Marqly](/compare/marqly-vs-raindrop) breakdown covers exactly where each one wins, and Marqly imports your Raindrop collections directly.
 
 ### Matter — best for listening to your saves
-Matter pairs a clean reader with high-quality text-to-speech and some AI features, so you can listen to your backlog on a walk or commute. If audio is how you get through long reads, it's the standout. Its meaning-search is partial, so treat it as a listening-first reader rather than a retrieval-first knowledge base.
+Matter pairs a clean reader with high-quality text-to-speech, so you can listen to your backlog on a walk or commute. If audio is how you get through long reads, it's the standout. Its meaning-search is partial, so treat it as a listening-first reader rather than a retrieval-first knowledge base.
 
 ## How do you choose the right one?
 
@@ -122,7 +122,7 @@ Match the tool to the job, not the marketing. Pick by your **primary** use — w
 6. **You'd rather listen than read** → Matter, for its text-to-speech.
 7. **You're leaving Pocket and want a soft landing** → start with our [best Pocket alternatives](/blog/best-pocket-alternatives-2026) roundup; Marqly imports Pocket exports directly and adds the meaning search Pocket never had.
 
-If two tools tie on paper, the tiebreaker is the two-minute test above. Run it on each and keep the one that finds your paraphrased save.
+If two tools tie on paper, check our empirical [1,000-save AI Bookmark Retrieval Benchmark](/blog/ai-bookmark-retrieval-benchmark-2026) to see how they perform under controlled testing, or run the two-minute test above.
 
 ## How do you evaluate any "AI" bookmark tool fast?
 
@@ -131,6 +131,8 @@ Run the same two-minute test on whatever you're considering: save a few articles
 ## Bottom line
 
 In 2026, the bookmark managers worth using are the ones that solve retrieval, not just storage. The organization and summary layers are nice; the **query layer** is what changes how you actually use your saved knowledge. And if you're leaving Pocket, our roundup of the [best Pocket alternatives](/blog/best-pocket-alternatives-2026) covers where to land — while our guide to [organizing the bookmarks you already have](/blog/how-to-organize-bookmarks) helps you tame the pile you're bringing with you.
+
+Before migrating, you can inspect or deduplicate your export files using our [Bookmark File Viewer](/tools/bookmark-file-viewer) and [Duplicate Bookmark Finder](/tools/duplicate-bookmark-finder) in our [free tools directory](/tools). For full side-by-side breakdowns across 20+ competitors, visit our [Compare directory](/compare).
 
 If you want to feel that difference immediately, [import your library into Marqly](https://app.marqly.com/lp/ai-search) and try searching for something you saved months ago — by meaning. Free, no credit card.
 

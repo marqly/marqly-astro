@@ -88,8 +88,8 @@ Saves pages into Notion databases. No reader mode or semantic search, but keeps 
 
 Don't ask "which app saves articles best" — they all do. Ask "which app lets me *find* the article I saved three months ago when I only half-remember it?" That's where most fall down and where AI search wins.
 
-[Try Marqly free](https://app.marqly.com/lp/replace-pocket), import your reading backlog, and search it by meaning. No credit card — and it's the fastest way to feel which side of that line a tool is on.
+[Try Marqly free](https://app.marqly.com/lp/replace-pocket), import your reading backlog via our [Migration Center](/migrate) (with dedicated guides for [Pocket](/migrate/pocket) and [Instapaper](/migrate/instapaper)), and search it by meaning. You can also estimate article lengths and convert pages with our [Reading Time Calculator](/tools/reading-time) and [HTML to Markdown tool](/tools/html-to-markdown) in our [free tools directory](/tools). No credit card — and it's the fastest way to feel which side of that line a tool is on.
 
 ---
 
-*Related: [8 Best Pocket Alternatives](/blog/best-pocket-alternatives-2026) · [Best AI Bookmark Manager 2026](/blog/best-ai-bookmark-manager-2026) · [Pinterest vs Marqly](/compare/marqly-vs-pinterest)*
+*Related: [Side-by-Side Comparison Directory](/compare) · [Marqly vs Pocket](/compare/marqly-vs-pocket) · [Marqly vs Instapaper](/compare/marqly-vs-instapaper) · [Migration Center](/migrate) · [8 Best Pocket Alternatives](/blog/best-pocket-alternatives-2026)*

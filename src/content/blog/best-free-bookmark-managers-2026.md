@@ -131,17 +131,19 @@ They collapse at scale, for four reasons: **folder-only organization** (every sa
 
 ## Moving between them (you're never stuck)
 
-The quiet good news about this category in 2026: the exits are unlocked. Every browser exports bookmarks as a standard HTML file, and that file imports into Raindrop, Linkwarden, Karakeep, and Marqly alike. Raindrop collections export cleanly and import directly into Marqly; Pocket's final export files still import too. The self-hosted pair goes further — with Linkwarden and Karakeep your data literally sits in a database you own.
+The quiet good news about this category in 2026: the exits are unlocked. Every browser exports bookmarks as a standard HTML file, and that file imports into Raindrop, Linkwarden, Karakeep, and Marqly alike. Raindrop collections export cleanly and import directly into Marqly (see our [Raindrop to Marqly migration guide](/migrate/raindrop)); Pocket's final export files still import too (follow our [Pocket migration guide](/migrate/pocket)), and our universal [Migration Center](/migrate) supports all major browsers. Before importing, you can inspect or deduplicate your files using our free [Bookmark File Viewer](/tools/bookmark-file-viewer) and [Duplicate Bookmark Finder](/tools/duplicate-bookmark-finder) from our [free tools directory](/tools). The self-hosted pair goes further — with Linkwarden and Karakeep your data literally sits in a database you own.
 
 Practically, that means the cost of choosing "wrong" today is an afternoon, not a lock-in. Start with the free tier that matches your biggest pain, use it for a month at real volume, and switch if it doesn't hold. The only expensive mistake is staying with a system you've stopped trusting — that's how you end up with 2,000 saves in four places and confidence in none of them.
 
 ## How to choose
 
-1. **You want unlimited free collecting with great apps** → Raindrop.io.
+1. **You want unlimited free collecting with great apps** → Raindrop.io. (See our [Marqly vs Raindrop comparison](/compare/marqly-vs-raindrop)).
 2. **You want to find saves by describing them, without paying** → Marqly.
-3. **You want your archive to outlive every startup on this page** → Linkwarden, self-hosted.
-4. **You want AI features and full data ownership** → Karakeep, self-hosted.
+3. **You want your archive to outlive every startup on this page** → Linkwarden, self-hosted. (See [Marqly vs Linkwarden](/compare/marqly-vs-linkwarden)).
+4. **You want AI features and full data ownership** → Karakeep, self-hosted. (See [Marqly vs Karakeep](/compare/marqly-vs-karakeep)).
 5. **You have 40 bookmarks and no pain** → your browser is fine. Bookmark this page for later.
+
+For full side-by-side feature tables, explore our complete [Compare directory](/compare), or read our [1,000-save AI Bookmark Retrieval Benchmark](/blog/ai-bookmark-retrieval-benchmark-2026) to see how retrieval speed compares.
 
 A last honest note: "free" always has a shape. Raindrop's free is limited by features, Marqly's by tier, Linkwarden's and Karakeep's by your ops time, the browser's by scale. Pick the shape you can live with. If retrieval is the pain — you save plenty and find nothing — start with the free tier built around search-by-meaning: [try Marqly free](https://app.marqly.com), import your existing bookmarks, and search for something you saved months ago by describing it.
 

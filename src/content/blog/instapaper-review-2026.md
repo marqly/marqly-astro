@@ -111,7 +111,7 @@ Context that matters: in 2025 Instapaper raised Premium from $2.99 to $5.99 a mo
 | Highlighting | Yes, notes capped on free | 6 colors, persists on the live page |
 | Pocket import | Yes | Yes |
 
-Fair reading of that table: if your saved-articles life is *reading* — long sessions, offline, maybe on a Kindle — Instapaper wins the rows that matter to you, and this review's score understates it. If your saved-articles life is *saving more than you read and then losing it*, every row Marqly wins targets exactly that. They're almost complementary products; the overlap is the $72-60/year you'd rather pay only once. [Try Marqly's free tier](https://app.marqly.com) alongside Instapaper's and see which half of the problem is actually yours.
+Fair reading of that table: if your saved-articles life is *reading* — long sessions, offline, maybe on a Kindle — Instapaper wins the rows that matter to you, and this review's score understates it. If your saved-articles life is *saving more than you read and then losing it*, every row Marqly wins targets exactly that. Explore our head-to-head [Marqly vs Instapaper comparison](/compare/marqly-vs-instapaper) or follow our step-by-step [Instapaper to Marqly migration guide](/migrate/instapaper). They're almost complementary products; the overlap is the $72-60/year you'd rather pay only once. [Try Marqly's free tier](https://app.marqly.com) alongside Instapaper's and see which half of the problem is actually yours.
 
 ## Who should use Instapaper?
 
@@ -124,4 +124,4 @@ Who shouldn't: anyone whose backlog is the problem. If you save 30 articles a we
 
 ## Verdict
 
-**★ 3.5/5.** Instapaper in 2026 is a lovely, trustworthy, single-purpose tool at a price that now assumes it's more than that. The reading experience earns four and a half stars on its own; the doubled price, static feature set, paywalled keyword search, and complete absence of an intelligence layer pull the overall score down. Keep it if you read more than you save. If you save more than you read, fix the retrieval side first — [Marqly is free to try](https://app.marqly.com), imports your existing library, and searches it by meaning.
+**★ 3.5/5.** Instapaper in 2026 is a lovely, trustworthy, single-purpose tool at a price that now assumes it's more than that. The reading experience earns four and a half stars on its own; the doubled price, static feature set, paywalled keyword search, and complete absence of an intelligence layer pull the overall score down. (For managing reading content, you can also explore our [Reading Time Calculator](/tools/reading-time) and [HTML to Markdown tool](/tools/html-to-markdown) in our [free tools directory](/tools).) Keep it if you read more than you save. If you save more than you read, fix the retrieval side first — [Marqly is free to try](https://app.marqly.com), imports your existing library via our [Migration Center](/migrate), and searches it by meaning.

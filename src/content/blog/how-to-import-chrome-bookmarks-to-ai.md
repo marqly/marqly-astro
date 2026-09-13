@@ -68,7 +68,7 @@ The general flow looks like this in nearly every tool:
 3. **Let it process the pile.** This is the part that would have taken you days by hand: the AI reads each saved page and attaches tags automatically. Give it a few minutes for a large collection, then come back.
 4. **Test retrieval before you trust it.** Pick three links you remember saving and search for them by *describing* what they were about — not by their titles. If they surface, the import worked and you can rely on it.
 
-If your links currently live in a read-later app instead of (or in addition to) Chrome, the same idea applies — most AI managers accept those exports too. Migrating off Pocket specifically? Follow [how to export and migrate your Pocket data](/blog/how-to-export-migrate-pocket-data) so nothing gets dropped, and if you're shopping for where to land, the [best Pocket alternatives for 2026](/blog/best-pocket-alternatives-2026) covers the options.
+If your links currently live in a read-later app instead of (or in addition to) Chrome, check our dedicated [Migration Center](/migrate) with step-by-step guides for [Pocket](/migrate/pocket), [Raindrop](/migrate/raindrop), [mymind](/migrate/mymind), and [Instapaper](/migrate/instapaper). Before importing, you can inspect or clean up your HTML file using our free [Bookmark File Viewer](/tools/bookmark-file-viewer) and [Duplicate Bookmark Finder](/tools/duplicate-bookmark-finder) from our [free tools directory](/tools). Migrating off Pocket specifically? Follow [how to export and migrate your Pocket data](/blog/how-to-export-migrate-pocket-data), and if you're shopping for where to land, the [best Pocket alternatives for 2026](/blog/best-pocket-alternatives-2026) covers the options.
 
 ## What actually carries over when you import?
 
@@ -111,10 +111,10 @@ Read it top to bottom and the trend is clear: every row improves once a tool is 
 
 ## Bring your Chrome bookmarks into Marqly
 
-If you want a tool to import into, [Marqly](https://app.marqly.com) takes your Chrome HTML export (or a Pocket or Raindrop export), reads each saved page to auto-tag it, writes a quick AI summary so you remember why you saved it, and lets you find any of it by meaning. It runs on the web, iOS, and as a Chrome extension, so saving and searching follow you across devices. The free tier covers everyday saving; Pro is $72/year — about $6/month billed annually, or $9/month — if you want the full power-user kit.
+If you want a tool to import into, [Marqly](https://app.marqly.com) takes your Chrome HTML export (or a Pocket or Raindrop export via our [Migration Center](/migrate)), reads each saved page to auto-tag it, writes a quick AI summary so you remember why you saved it, and lets you find any of it by meaning. It runs on the web, iOS, and as a Chrome extension, so saving and searching follow you across devices. The free tier covers everyday saving; Pro is $72/year — about $6/month billed annually, or $9/month — if you want the full power-user kit.
 
 Export your bookmarks from Chrome, import the HTML file, and search your whole pile in minutes. The links you'd written off as lost become findable the moment the AI finishes reading them.
 
 ---
 
-*Related: [Best AI Bookmark Manager 2026](/blog/best-ai-bookmark-manager-2026) · [How to Organize Bookmarks](/blog/how-to-organize-bookmarks) · [Search Bookmarks With AI](/blog/how-to-search-bookmarks-with-ai)*
+*Related: [Side-by-Side Comparison Directory](/compare) · [Best AI Bookmark Manager 2026](/blog/best-ai-bookmark-manager-2026) · [Migration Center](/migrate) · [Free Bookmark Tools](/tools)*

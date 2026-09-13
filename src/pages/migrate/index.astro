@@ -67,8 +67,8 @@ const jsonLd = [
 ---
 
 <LandingLayout title={title} description={description} jsonLd={jsonLd} ogImage="https://www.marqly.com/og/seo/migrate-hub.png">
-  <article class="section">
-    <div class="container migrate-hub">
+  <section class="section">
+    <div class="container">
       <Breadcrumbs items={crumbs} />
 
       <header class="hub-head">
@@ -125,6 +125,14 @@ const jsonLd = [
             <strong>Duplicate Bookmark Finder</strong>
             <span>Find and remove duplicate saves before importing</span>
           </a>
+          <a href="/tools/dead-link-checker" class="tool-btn">
+            <strong>Dead Link Checker</strong>
+            <span>Find dead links and redirect chains in your saved URLs</span>
+          </a>
+          <a href="/tools" class="tool-btn">
+            <strong>All Free Tools Directory →</strong>
+            <span>18 free browser utilities for bookmarks, links, and content</span>
+          </a>
         </div>
       </section>
 
@@ -142,175 +150,192 @@ const jsonLd = [
             <strong>AI Bookmark Retrieval Benchmark</strong>
             <span>1,000 saves tested across Marqly, mymind, and Readwise Reader</span>
           </a>
+          <a href="/blog/ai-bookmark-managers-semantic-search-compared" class="tool-btn">
+            <strong>AI Semantic Search Comparison (8 Apps)</strong>
+            <span>Which tools actually search by meaning vs keyword matching</span>
+          </a>
+          <a href="/compare" class="tool-btn">
+            <strong>Side-by-Side Comparisons →</strong>
+            <span>Feature-by-feature comparison directory for 20+ bookmark managers</span>
+          </a>
         </div>
       </section>
 
       <CtaBox
         heading="Start with your bookmarks in order"
         sub="Create a free account in 30 seconds. Up to 2,000 bookmarks free forever, no credit card required."
-        buttonText="Try Marqly free"
-        buttonUrl="https://app.marqly.com"
+        ctaLabel="Try Marqly free"
+        ctaUrl="https://app.marqly.com"
       />
     </div>
-  </article>
+  </section>
 </LandingLayout>
 
 <style>
-  .migrate-hub {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 2rem 1rem 4rem;
-  }
   .hub-head {
-    margin: 2rem 0 3rem;
+    max-width: 68ch;
+    margin-bottom: var(--space-12);
   }
   .pill-badge {
-    background: rgba(99, 102, 241, 0.12);
-    color: #6366f1;
-    font-size: 0.825rem;
-    font-weight: 600;
-    padding: 0.25rem 0.75rem;
-    border-radius: 9999px;
     display: inline-block;
-    margin-bottom: 1rem;
+    font-size: var(--fs-xs);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    background: var(--surface-2);
+    color: var(--ink-2);
+    padding: 0.2rem 0.6rem;
+    border-radius: var(--radius-pill);
+    border: 1px solid var(--border-1);
+    margin-bottom: var(--space-3);
   }
   h1 {
-    font-size: 2.75rem;
-    line-height: 1.15;
-    margin-bottom: 1rem;
-    color: var(--text-primary, #0f172a);
+    font-size: var(--fs-h2);
+    font-weight: 600;
+    letter-spacing: var(--tracking-tight);
+    color: var(--ink-1);
+    line-height: var(--lh-tight);
   }
   .lead {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    color: var(--text-secondary, #475569);
+    margin-top: var(--space-4);
+    font-size: var(--fs-base);
+    line-height: var(--lh-base);
+    color: var(--ink-2);
   }
   .guides-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
-    margin-bottom: 3.5rem;
+    gap: var(--space-4);
+    margin-bottom: var(--space-12);
   }
   .guide-card {
-    background: var(--surface-card, #ffffff);
-    border: 1px solid var(--border-subtle, #e2e8f0);
-    border-radius: 1rem;
-    padding: 1.75rem;
+    background: var(--surface-1);
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-card);
+    padding: var(--space-6);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-decoration: none;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: border-color var(--dur-base) var(--ease-out), transform var(--dur-fast) var(--ease-out);
   }
   .guide-card:hover {
+    border-color: var(--border-2);
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08);
-    border-color: #6366f1;
   }
   .card-badge {
-    font-size: 0.75rem;
-    font-weight: 700;
+    font-size: 11px;
+    font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.04em;
-    padding: 0.2rem 0.6rem;
-    border-radius: 0.375rem;
+    letter-spacing: 0.06em;
+    padding: 0.2rem 0.55rem;
+    border-radius: var(--radius-pill);
     display: inline-block;
-    margin-bottom: 0.75rem;
+    margin-bottom: var(--space-3);
   }
-  .badge-warning { background: #fef3c7; color: #b45309; }
-  .badge-primary { background: #e0e7ff; color: #4338ca; }
-  .badge-accent { background: #fce7f3; color: #be185d; }
-  .badge-info { background: #e0f2fe; color: #0369a1; }
+  .badge-warning { background: color-mix(in srgb, var(--surface-2) 80%, #eab308 20%); color: #b45309; }
+  .badge-primary { background: var(--accent-soft); color: var(--accent); }
+  .badge-accent { background: var(--ai-soft); color: var(--ai); }
+  .badge-info { background: var(--surface-3); color: var(--ink-2); }
   .card-header h3 {
-    margin: 0 0 0.5rem;
-    font-size: 1.25rem;
-    color: var(--text-primary, #0f172a);
+    margin: 0 0 var(--space-2);
+    font-size: var(--fs-base);
+    font-weight: 600;
+    color: var(--ink-1);
   }
   .guide-card p {
-    font-size: 0.95rem;
-    line-height: 1.55;
-    color: var(--text-secondary, #475569);
-    margin-bottom: 1.25rem;
+    font-size: var(--fs-sm);
+    line-height: var(--lh-base);
+    color: var(--ink-3);
+    margin-bottom: var(--space-4);
   }
   .card-link {
-    font-weight: 600;
-    font-size: 0.9rem;
-    color: #6366f1;
+    font-weight: 500;
+    font-size: var(--fs-xs);
+    color: var(--ink-2);
   }
   .browser-section {
-    margin-bottom: 3.5rem;
+    margin-bottom: var(--space-12);
   }
   .browser-section h2 {
-    font-size: 1.85rem;
-    margin-bottom: 0.5rem;
+    font-size: var(--fs-h3);
+    font-weight: 600;
+    color: var(--ink-1);
+    margin-bottom: var(--space-2);
   }
   .section-sub {
-    font-size: 1.05rem;
-    color: var(--text-secondary, #475569);
-    margin-bottom: 1.5rem;
+    font-size: var(--fs-base);
+    color: var(--ink-2);
+    margin-bottom: var(--space-6);
   }
   .browser-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 1.25rem;
+    gap: var(--space-4);
   }
   .browser-card {
-    background: var(--surface-card, #f8fafc);
-    border: 1px solid var(--border-subtle, #e2e8f0);
-    border-radius: 0.75rem;
-    padding: 1.25rem;
+    background: var(--surface-1);
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-card);
+    padding: var(--space-5);
   }
   .browser-card h4 {
-    margin: 0 0 0.5rem;
-    font-size: 1.05rem;
-    color: var(--text-primary, #0f172a);
+    margin: 0 0 var(--space-2);
+    font-size: var(--fs-base);
+    font-weight: 600;
+    color: var(--ink-1);
   }
   .browser-card p {
     margin: 0;
-    font-size: 0.875rem;
-    line-height: 1.5;
-    color: var(--text-secondary, #475569);
+    font-size: var(--fs-sm);
+    line-height: var(--lh-base);
+    color: var(--ink-3);
   }
   .tools-callout {
-    background: var(--surface-card, #f8fafc);
-    border: 1px dashed var(--border-subtle, #cbd5e1);
-    border-radius: 1rem;
-    padding: 2rem;
-    margin-bottom: 3.5rem;
+    background: var(--surface-2);
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-card);
+    padding: var(--space-6);
+    margin-bottom: var(--space-12);
   }
   .tools-callout h3 {
-    margin: 0 0 0.5rem;
-    font-size: 1.35rem;
+    margin: 0 0 var(--space-2);
+    font-size: var(--fs-h3);
+    font-weight: 600;
+    color: var(--ink-1);
   }
   .tools-callout p {
-    margin: 0 0 1.25rem;
-    color: var(--text-secondary, #475569);
+    margin: 0 0 var(--space-5);
+    font-size: var(--fs-sm);
+    color: var(--ink-2);
   }
   .tool-links {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 1rem;
+    gap: var(--space-3);
   }
   .tool-btn {
-    background: #ffffff;
-    border: 1px solid var(--border-subtle, #e2e8f0);
-    border-radius: 0.75rem;
-    padding: 1rem 1.25rem;
+    background: var(--surface-1);
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-card);
+    padding: var(--space-4) var(--space-5);
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    gap: 0.25rem;
-    transition: border-color 0.2s ease;
+    gap: var(--space-1);
+    transition: border-color var(--dur-base) var(--ease-out), transform var(--dur-fast) var(--ease-out);
   }
   .tool-btn:hover {
-    border-color: #6366f1;
+    border-color: var(--border-2);
+    transform: translateY(-1px);
   }
   .tool-btn strong {
-    color: #6366f1;
-    font-size: 0.95rem;
+    color: var(--ink-1);
+    font-size: var(--fs-sm);
+    font-weight: 600;
   }
   .tool-btn span {
-    color: var(--text-muted, #64748b);
-    font-size: 0.85rem;
+    color: var(--ink-3);
+    font-size: var(--fs-xs);
   }
 </style>
