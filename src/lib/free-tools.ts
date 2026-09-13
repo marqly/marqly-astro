@@ -155,6 +155,14 @@ export const freeTools: FreeTool[] = [
     category: 'Bookmarks',
     browserOnly: true,
   },
+  {
+    name: 'Raindrop export analyzer',
+    shortName: 'Raindrop export analyzer',
+    desc: 'Inspect Raindrop.io HTML or CSV backups: bookmark volume, folders, tags, top domains, and link-rot vulnerability.',
+    path: '/tools/raindrop-export-analyzer',
+    category: 'Bookmarks',
+    browserOnly: true,
+  },
 ];
 
 export const freeToolCategories: FreeToolCategory[] = ['YouTube', 'Links & SEO', 'Content', 'Bookmarks'];

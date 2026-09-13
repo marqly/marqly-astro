@@ -1,0 +1,734 @@
+---
+/**
+ * RaindropExportAnalyzer.astro
+ *
+ * Interactive, 100% client-side Raindrop Export Analyzer.
+ * Parses Netscape HTML (.html) and Raindrop CSV (.csv) exports locally in browser.
+ * Zero server uploads; displays collection counts, tags, top domains, and link-rot vulnerability.
+ */
+interface Props {
+  embedded?: boolean;
+}
+
+const { embedded = false } = Astro.props;
+---
+
+<div class={`raindrop-analyzer ${embedded ? 'is-embedded' : ''}`}>
+  <!-- Privacy Guarantee Banner -->
+  <div class="privacy-banner">
+    <div class="privacy-icon" aria-hidden="true">🔒</div>
+    <div class="privacy-text">
+      <strong>100% Client-Side Privacy:</strong> Files processed entirely in your browser. Zero data leaves your machine. Your bookmarks never touch our servers.
+    </div>
+  </div>
+
+  <!-- Upload / Drop Zone -->
+  <div
+    class="drop-zone"
+    id="rda-dropzone"
+    role="region"
+    aria-label="Upload Raindrop HTML or CSV export file"
+    tabindex="0"
+  >
+    <label for="rda-file" class="drop-label">
+      <span class="drop-icon" aria-hidden="true">📁</span>
+      <span class="drop-title">Select or drop Raindrop export file</span>
+      <span class="drop-hint">Supports Netscape HTML (<code>.html</code>) and Raindrop CSV (<code>.csv</code>) backups</span>
+    </label>
+    <input
+      type="file"
+      id="rda-file"
+      accept=".html,.htm,.csv"
+      class="sr-only"
+      aria-label="Upload Raindrop HTML or CSV export file"
+    />
+    <div class="drop-actions">
+      <button type="button" class="btn btn--outline btn--sm" id="rda-browse-btn">
+        Browse File
+      </button>
+      <span class="divider-text">or</span>
+      <button type="button" class="btn btn--ghost btn--sm" id="rda-demo-btn">
+        Try with sample Raindrop export
+      </button>
+    </div>
+  </div>
+
+  <!-- Status / Error Area -->
+  <p class="tool-status hidden" id="rda-status" role="status" aria-live="polite"></p>
+
+  <!-- Real-Time Analysis Results -->
+  <div class="rda-results hidden" id="rda-results">
+    <div class="results-header">
+      <div>
+        <h3 class="results-title">Raindrop Export Breakdown</h3>
+        <p class="results-file" id="rda-filename">sample-export.html</p>
+      </div>
+      <div class="compat-badge" id="rda-compat-badge">
+        <span class="compat-dot"></span>
+        <span id="rda-compat-text">100% Compatible with Marqly Instant Import</span>
+      </div>
+    </div>
+
+    <!-- Metrics Grid -->
+    <div class="metrics-grid">
+      <div class="metric-card">
+        <span class="metric-label">Total Bookmarks</span>
+        <span class="metric-num" id="rda-stat-total">0</span>
+        <span class="metric-sub" id="rda-stat-active">Ready to import</span>
+      </div>
+      <div class="metric-card">
+        <span class="metric-label">Collections / Folders</span>
+        <span class="metric-num" id="rda-stat-collections">0</span>
+        <span class="metric-sub">Mapped to Marqly Boards</span>
+      </div>
+      <div class="metric-card">
+        <span class="metric-label">Unique Tags</span>
+        <span class="metric-num" id="rda-stat-tags">0</span>
+        <span class="metric-sub">Retained taxonomy</span>
+      </div>
+      <div class="metric-card alert-card">
+        <span class="metric-label">Est. Link-Rot Risk</span>
+        <span class="metric-num" id="rda-stat-rot">0%</span>
+        <span class="metric-sub" id="rda-stat-rot-sub">Vulnerable dead links</span>
+      </div>
+    </div>
+
+    <!-- Date Range & Domain Breakdown -->
+    <div class="breakdown-columns">
+      <div class="domains-panel">
+        <h4 class="section-title">Top 10 Domains in Your Library</h4>
+        <div class="table-wrap">
+          <table class="tool-table">
+            <thead>
+              <tr>
+                <th scope="col">Domain</th>
+                <th scope="col" style="text-align: right;">Saves</th>
+                <th scope="col" style="text-align: right;">Share</th>
+              </tr>
+            </thead>
+            <tbody id="rda-domains-tbody">
+              <!-- Rendered via JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="audit-panel">
+        <h4 class="section-title">Library Health & Timeline</h4>
+        <div class="health-item">
+          <span class="health-title">Bookmark Timeline Span:</span>
+          <span class="health-val" id="rda-stat-dates">N/A</span>
+        </div>
+        <div class="health-item">
+          <span class="health-title">Format Detected:</span>
+          <span class="health-val" id="rda-stat-format">Netscape HTML</span>
+        </div>
+        <div class="health-item">
+          <span class="health-title">AI Semantic Readiness:</span>
+          <span class="health-val success">100% Vector Indexable</span>
+        </div>
+
+        <div class="rot-callout">
+          <strong>Why link rot matters:</strong> On average, 20-35% of web links break within 3-5 years. When you import into Marqly Pro, full article text, snapshots, and AI embeddings are captured permanently so dead links never lose their knowledge.
+        </div>
+      </div>
+    </div>
+
+    <!-- Conversion Funnel CTA Box -->
+    <div class="conversion-box">
+      <div class="conversion-content">
+        <h4>Ready to import your library into Marqly?</h4>
+        <p>
+          Recreate your Raindrop collections in seconds. Marqly AI auto-tags your saves, generates instant summaries, and lets you search your entire archive by meaning.
+        </p>
+      </div>
+      <div class="conversion-actions">
+        <a
+          class="btn btn--primary"
+          id="rda-signup-cta"
+          href="https://app.marqly.com/signup?source=migration_tool"
+          target="_blank"
+          rel="noopener"
+        >
+          Import directly into Marqly →
+        </a>
+        <a class="btn btn--outline" href="/migrate/raindrop">
+          Read Raindrop Migration Guide
+        </a>
+        <button type="button" class="btn btn--ghost btn--sm" id="rda-reset-btn">
+          Analyze another export
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  import { parseRaindropExport } from '../../lib/raindrop-parser';
+
+  const SAMPLE_HTML_DATA = `<!DOCTYPE NETSCAPE-Bookmark-file-1>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<TITLE>Raindrop.io Bookmarks</TITLE>
+<H1>Raindrop.io Bookmarks</H1>
+<DL><p>
+    <DT><H3 ADD_DATE="1609459200" LAST_MODIFIED="1609459200">Design</H3>
+    <DL><p>
+        <DT><A HREF="https://figma.com" ADD_DATE="1609459200" TAGS="design,tools,vector">Figma: The Collaborative Interface Design Tool</A>
+        <DD>Leading cloud-based UI design platform.</DD>
+        <DT><A HREF="https://dribbble.com" ADD_DATE="1612137600" TAGS="inspiration,design">Dribbble - Discover the World's Top Designers</A>
+        <DD>Showcase and discover creative work.</DD>
+    </DL><p>
+    <DT><H3 ADD_DATE="1614556800" LAST_MODIFIED="1614556800">Engineering</H3>
+    <DL><p>
+        <DT><A HREF="https://github.com" ADD_DATE="1614556800" TAGS="dev,code,git">GitHub: Where the world builds software</A>
+        <DD>Code hosting and version control repository.</DD>
+        <DT><A HREF="https://developer.mozilla.org/en-US/" ADD_DATE="1617235200" TAGS="dev,docs,web">MDN Web Docs</A>
+        <DD>Authoritative web standards and API reference.</DD>
+        <DT><A HREF="https://news.ycombinator.com" ADD_DATE="1619827200" TAGS="tech,news">Hacker News</A>
+        <DD>Social news website focusing on computer science.</DD>
+    </DL><p>
+    <DT><A HREF="https://www.marqly.com" ADD_DATE="1672531199" TAGS="bookmarks,ai,search">Marqly - Next-Gen AI Bookmark Manager</A>
+    <DD>Save, organize, and retrieve anything with semantic search.</DD>
+</DL><p>`;
+
+  const dropZone = document.getElementById('rda-dropzone') as HTMLElement | null;
+  const fileInput = document.getElementById('rda-file') as HTMLInputElement | null;
+  const browseBtn = document.getElementById('rda-browse-btn') as HTMLButtonElement | null;
+  const demoBtn = document.getElementById('rda-demo-btn') as HTMLButtonElement | null;
+  const resetBtn = document.getElementById('rda-reset-btn') as HTMLButtonElement | null;
+  const statusEl = document.getElementById('rda-status') as HTMLParagraphElement | null;
+  const resultsEl = document.getElementById('rda-results') as HTMLElement | null;
+
+  // Metric displays
+  const statTotal = document.getElementById('rda-stat-total');
+  const statCollections = document.getElementById('rda-stat-collections');
+  const statTags = document.getElementById('rda-stat-tags');
+  const statRot = document.getElementById('rda-stat-rot');
+  const statRotSub = document.getElementById('rda-stat-rot-sub');
+  const statDates = document.getElementById('rda-stat-dates');
+  const statFormat = document.getElementById('rda-stat-format');
+  const domainsTbody = document.getElementById('rda-domains-tbody');
+  const filenameEl = document.getElementById('rda-filename');
+  const signupCta = document.getElementById('rda-signup-cta') as HTMLAnchorElement | null;
+
+  function showStatus(msg: string, isError = false) {
+    if (!statusEl) return;
+    statusEl.textContent = msg;
+    statusEl.classList.remove('hidden');
+    if (isError) {
+      statusEl.classList.add('is-error');
+    } else {
+      statusEl.classList.remove('is-error');
+    }
+  }
+
+  function clearStatus() {
+    if (!statusEl) return;
+    statusEl.textContent = '';
+    statusEl.classList.add('hidden');
+    statusEl.classList.remove('is-error');
+  }
+
+  function displayAnalysis(analysis: ReturnType<typeof parseRaindropExport>, filename: string) {
+    clearStatus();
+    if (!resultsEl) return;
+
+    if (filenameEl) filenameEl.textContent = filename;
+    if (statTotal) statTotal.textContent = analysis.totalBookmarks.toLocaleString();
+    if (statCollections) statCollections.textContent = analysis.collectionsCount.toLocaleString();
+    if (statTags) statTags.textContent = analysis.tagsCount.toLocaleString();
+    if (statRot) statRot.textContent = `${analysis.estimatedDeadLinkPercentage}%`;
+    if (statRotSub) {
+      const estimatedDeadCount = Math.round((analysis.totalBookmarks * analysis.estimatedDeadLinkPercentage) / 100);
+      statRotSub.textContent = `~${estimatedDeadCount} links at risk of decay`;
+    }
+
+    if (statDates) {
+      if (analysis.dateRange.earliest !== 'N/A' && analysis.dateRange.latest !== 'N/A') {
+        statDates.textContent = `${analysis.dateRange.earliest} to ${analysis.dateRange.latest}`;
+      } else {
+        statDates.textContent = 'Undated archive';
+      }
+    }
+
+    if (statFormat) {
+      statFormat.textContent = filename.endsWith('.csv') ? 'Raindrop CSV' : 'Netscape HTML';
+    }
+
+    // Top Domains Table
+    if (domainsTbody) {
+      domainsTbody.innerHTML = '';
+      if (analysis.domainBreakdown.length === 0) {
+        domainsTbody.innerHTML = '<tr><td colspan="3" class="muted">No domains detected</td></tr>';
+      } else {
+        const total = analysis.totalBookmarks || 1;
+        for (const item of analysis.domainBreakdown) {
+          const tr = document.createElement('tr');
+          const share = Math.round((item.count / total) * 100);
+          tr.innerHTML = `
+            <td><strong>${escapeHtml(item.domain)}</strong></td>
+            <td style="text-align: right;">${item.count.toLocaleString()}</td>
+            <td style="text-align: right; color: var(--ink-3);">${share}%</td>
+          `;
+          domainsTbody.appendChild(tr);
+        }
+      }
+    }
+
+    // Update CTA link with item count param for onboarding funnel
+    if (signupCta) {
+      signupCta.href = `https://app.marqly.com/signup?source=migration_tool&items=${analysis.totalBookmarks}`;
+    }
+
+    resultsEl.classList.remove('hidden');
+    resultsEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function escapeHtml(str: string): string {
+    return str
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
+  }
+
+  function processText(content: string, filename: string) {
+    try {
+      const analysis = parseRaindropExport(content, filename);
+      displayAnalysis(analysis, filename);
+    } catch (err: any) {
+      showStatus(`Error analyzing file: ${err.message || 'Unable to parse export'}`, true);
+      if (resultsEl) resultsEl.classList.add('hidden');
+    }
+  }
+
+  function handleFile(file: File) {
+    if (!file) return;
+    const name = file.name.toLowerCase();
+    if (!name.endsWith('.html') && !name.endsWith('.htm') && !name.endsWith('.csv')) {
+      showStatus('Please select a valid Raindrop Netscape HTML (.html) or CSV (.csv) export file.', true);
+      return;
+    }
+
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      const content = e.target?.result;
+      if (typeof content === 'string') {
+        processText(content, file.name);
+      }
+    };
+    reader.onerror = () => {
+      showStatus('Failed to read local file. Please try again.', true);
+    };
+    reader.readAsText(file);
+  }
+
+  // Event Listeners
+  if (browseBtn && fileInput) {
+    browseBtn.addEventListener('click', () => fileInput.click());
+  }
+
+  if (fileInput) {
+    fileInput.addEventListener('change', () => {
+      if (fileInput.files && fileInput.files[0]) {
+        handleFile(fileInput.files[0]);
+      }
+    });
+  }
+
+  if (demoBtn) {
+    demoBtn.addEventListener('click', () => {
+      processText(SAMPLE_HTML_DATA, 'raindrop-sample-export.html');
+    });
+  }
+
+  if (resetBtn) {
+    resetBtn.addEventListener('click', () => {
+      if (resultsEl) resultsEl.classList.add('hidden');
+      if (fileInput) fileInput.value = '';
+      clearStatus();
+      if (dropZone) dropZone.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+  }
+
+  // Drag & drop handlers
+  if (dropZone) {
+    ['dragenter', 'dragover'].forEach((eventName) => {
+      dropZone.addEventListener(eventName, (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        dropZone.classList.add('is-dragover');
+      });
+    });
+
+    ['dragleave', 'drop'].forEach((eventName) => {
+      dropZone.addEventListener(eventName, (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        dropZone.classList.remove('is-dragover');
+      });
+    });
+
+    dropZone.addEventListener('drop', (e) => {
+      const dt = e.dataTransfer;
+      if (dt && dt.files && dt.files[0]) {
+        handleFile(dt.files[0]);
+      }
+    });
+
+    dropZone.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        fileInput?.click();
+      }
+    });
+  }
+</script>
+
+<style>
+  .raindrop-analyzer {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-6);
+  }
+
+  .privacy-banner {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    padding: var(--space-3) var(--space-4);
+    background: var(--surface-2);
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-inner);
+    font-size: var(--fs-xs);
+    color: var(--ink-2);
+    line-height: var(--lh-snug);
+  }
+
+  .privacy-icon {
+    font-size: 1.1rem;
+    flex-shrink: 0;
+  }
+
+  .drop-zone {
+    border: 2px dashed var(--border-2);
+    border-radius: var(--radius-card);
+    padding: var(--space-8) var(--space-6);
+    text-align: center;
+    background: var(--surface-2);
+    transition: border-color 0.2s ease, background 0.2s ease;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .drop-zone:hover,
+  .drop-zone:focus-visible,
+  .drop-zone.is-dragover {
+    border-color: var(--accent);
+    background: var(--accent-mute);
+    box-shadow: 0 0 0 3px var(--accent-ring);
+  }
+
+  .drop-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-2);
+    cursor: pointer;
+  }
+
+  .drop-icon {
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: var(--space-1);
+  }
+
+  .drop-title {
+    font-size: var(--fs-lg);
+    font-weight: 600;
+    color: var(--ink-1);
+  }
+
+  .drop-hint {
+    font-size: var(--fs-sm);
+    color: var(--ink-3);
+  }
+
+  .drop-actions {
+    margin-top: var(--space-5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+  }
+
+  .divider-text {
+    font-size: var(--fs-xs);
+    color: var(--ink-4);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .tool-status {
+    padding: var(--space-3) var(--space-4);
+    border-radius: var(--radius-inner);
+    font-size: var(--fs-sm);
+    background: var(--surface-2);
+    color: var(--ink-2);
+  }
+
+  .tool-status.is-error {
+    background: #fef3f2;
+    color: #b42318;
+    border: 1px solid #fecdca;
+  }
+
+  .rda-results {
+    margin-top: var(--space-4);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-6);
+  }
+
+  .results-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--space-4);
+    padding-bottom: var(--space-4);
+    border-bottom: 1px solid var(--border-1);
+  }
+
+  .results-title {
+    font-size: var(--fs-h3);
+    font-weight: 600;
+    color: var(--ink-1);
+    margin: 0;
+  }
+
+  .results-file {
+    font-size: var(--fs-xs);
+    color: var(--ink-3);
+    margin: var(--space-1) 0 0 0;
+    font-family: var(--font-mono);
+  }
+
+  .compat-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-1) var(--space-3);
+    background: #ecfdf3;
+    border: 1px solid #d1fadf;
+    border-radius: var(--radius-pill);
+    font-size: var(--fs-xs);
+    font-weight: 500;
+    color: #027a48;
+  }
+
+  .compat-dot {
+    width: 8px;
+    height: 8px;
+    background: #12b76a;
+    border-radius: 50%;
+  }
+
+  .metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-4);
+  }
+
+  @media (max-width: 768px) {
+    .metrics-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .metric-card {
+    background: var(--surface-2);
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-card);
+    padding: var(--space-4);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+  }
+
+  .metric-card.alert-card {
+    background: #fffbfa;
+    border-color: #fee4e2;
+  }
+
+  .metric-card.alert-card .metric-num {
+    color: #b42318;
+  }
+
+  .metric-label {
+    font-size: var(--fs-xs);
+    color: var(--ink-3);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+  }
+
+  .metric-num {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--ink-1);
+    line-height: 1.1;
+  }
+
+  .metric-sub {
+    font-size: var(--fs-xs);
+    color: var(--ink-4);
+  }
+
+  .breakdown-columns {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: var(--space-6);
+  }
+
+  @media (max-width: 720px) {
+    .breakdown-columns {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .section-title {
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    color: var(--ink-1);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: var(--space-3);
+  }
+
+  .table-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-inner);
+    background: var(--surface-1);
+  }
+
+  .tool-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: var(--fs-sm);
+  }
+
+  .tool-table th,
+  .tool-table td {
+    padding: var(--space-2) var(--space-3);
+    border-bottom: 1px solid var(--border-1);
+    text-align: left;
+  }
+
+  .tool-table th {
+    background: var(--surface-2);
+    font-weight: 600;
+    color: var(--ink-1);
+  }
+
+  .tool-table tr:last-child td {
+    border-bottom: none;
+  }
+
+  .audit-panel {
+    background: var(--surface-2);
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-card);
+    padding: var(--space-4);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+
+  .health-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--fs-xs);
+    border-bottom: 1px solid var(--border-1);
+    padding-bottom: var(--space-2);
+  }
+
+  .health-item:last-of-type {
+    border-bottom: none;
+  }
+
+  .health-title {
+    color: var(--ink-3);
+  }
+
+  .health-val {
+    font-weight: 600;
+    color: var(--ink-1);
+  }
+
+  .health-val.success {
+    color: #027a48;
+  }
+
+  .rot-callout {
+    margin-top: var(--space-2);
+    padding: var(--space-3);
+    background: var(--surface-1);
+    border-radius: var(--radius-inner);
+    border-left: 3px solid var(--accent);
+    font-size: var(--fs-xs);
+    line-height: var(--lh-snug);
+    color: var(--ink-2);
+  }
+
+  .conversion-box {
+    background: var(--surface-2);
+    border: 1px solid var(--border-2);
+    border-radius: var(--radius-card);
+    padding: var(--space-6);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+  }
+
+  .conversion-content h4 {
+    font-size: var(--fs-lg);
+    font-weight: 600;
+    color: var(--ink-1);
+    margin: 0 0 var(--space-2) 0;
+  }
+
+  .conversion-content p {
+    font-size: var(--fs-sm);
+    color: var(--ink-2);
+    margin: 0;
+    line-height: var(--lh-base);
+  }
+
+  .conversion-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+</style>

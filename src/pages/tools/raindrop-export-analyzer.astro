@@ -1,0 +1,141 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import ToolShell from '../../components/seo/ToolShell.astro';
+import RaindropExportAnalyzer from '../../components/tools/RaindropExportAnalyzer.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../lib/schema';
+
+const title = 'Raindrop Export Analyzer — Free HTML & CSV Bookmark Inspector';
+const description =
+  'Analyze your Raindrop.io export file (HTML or CSV) in your browser with 100% client-side privacy. Inspect bookmark volume, collections, tags, top domains, and link-rot vulnerability before migrating.';
+
+const faqs = [
+  {
+    q: 'What format should I export from Raindrop: HTML or CSV?',
+    a: 'Both formats are supported, but HTML (Netscape Bookmark format) is recommended because it preserves your collection folder hierarchy natively. Raindrop CSV exports are flat spreadsheets with folder names in a column, which Marqly also imports cleanly.',
+  },
+  {
+    q: 'Does this analyzer upload my bookmarks to any server?',
+    a: 'No. This tool runs 100% client-side in your web browser. Zero data leaves your machine. Your URLs, notes, and tags are never transmitted over the internet or stored on any server.',
+  },
+  {
+    q: 'How does the link-rot vulnerability estimate work?',
+    a: 'Web studies show that between 20% and 38% of links break within 3-5 years due to domain expirations, moved pages, or paywalls. Our analyzer inspects your bookmark timestamps and calculates an estimated decay rate based on library age.',
+  },
+  {
+    q: 'Will my Raindrop tags and collections transfer to Marqly?',
+    a: 'Yes. When you import into Marqly, your collections become boards and all tags are preserved. Marqly also generates automatic AI summaries and semantic vector embeddings for every saved link.',
+  },
+  {
+    q: 'How do I export my data from Raindrop.io?',
+    a: 'In Raindrop.io, click your Avatar/Settings gear → Backups → Export HTML or CSV. Follow our step-by-step <a href="/migrate/raindrop">Raindrop migration guide</a> for a complete walkthrough.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: 'Free tools', path: '/tools' },
+    { name: 'Raindrop export analyzer', path: '/tools/raindrop-export-analyzer' },
+  ]),
+  faqPage(faqs),
+  freeWebApplication(
+    'Raindrop Export Analyzer',
+    'Free client-side Raindrop.io export analyzer. Inspect total bookmarks, folders, tags, top domains, and estimated link-rot vulnerability before migrating.',
+    '/tools/raindrop-export-analyzer',
+  ),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  ogImage="https://www.marqly.com/og/seo/tool-raindrop-export-analyzer.png"
+>
+  <ToolShell
+    name="Raindrop export analyzer"
+    heading="Raindrop Export Analyzer"
+    sub="Inspect your Raindrop.io backup before migrating. See your total bookmarks, collection hierarchy, tag taxonomy, top domains, and estimated link rot — 100% client-side with zero data uploaded."
+    faqs={faqs}
+    ctaHeading="Ready to upgrade your bookmark search?"
+    ctaSub="Marqly imports your Raindrop HTML or CSV export directly. AI auto-tags your saves, generates instant TL;DR summaries, and lets you search your library by meaning."
+    ctaLabel="Import into Marqly free →"
+    ctaSecondaryLabel="Raindrop migration guide"
+  >
+    <RaindropExportAnalyzer />
+
+    <Fragment slot="content">
+      <h2>Why analyze your Raindrop export before migrating?</h2>
+      <p>
+        Over years of saving research, design inspiration, code snippets, and reading lists, bookmark libraries accumulate thousands of entries. Before importing an unvetted file into a new bookmark manager, inspecting the file structure helps you understand what you are bringing over:
+      </p>
+      <ul>
+        <li>
+          <strong>Volume & Folder Structure:</strong> Verify that all nested collections were included in your export rather than just your "Unsorted" folder.
+        </li>
+        <li>
+          <strong>Tag Taxonomy:</strong> Confirm your tags are preserved and check how many unique tags you actively use.
+        </li>
+        <li>
+          <strong>Domain Concentration:</strong> See which domains (e.g., GitHub, Medium, YouTube, Substack) represent the bulk of your knowledge base.
+        </li>
+        <li>
+          <strong>Link-Rot Vulnerability:</strong> Estimate how many historical bookmarks might be pointing to 404 dead links or parked domains.
+        </li>
+      </ul>
+
+      <h2>Raindrop HTML vs CSV: Which export should you choose?</h2>
+      <p>
+        Raindrop.io provides two standard export formats in <strong>Settings → Backups</strong>:
+      </p>
+      <ul>
+        <li>
+          <strong>Netscape HTML (<code>.html</code>):</strong> The universal bookmark format supported by browsers since 1995. Collections are represented as nested <code>&lt;H3&gt;</code> folders, and tags are stored in the <code>TAGS</code> attribute. This is the optimal format if preserving hierarchical folders is your priority.
+        </li>
+        <li>
+          <strong>Raindrop CSV (<code>.csv</code>):</strong> A flat spreadsheet containing columns for <code>folder</code>, <code>title</code>, <code>url</code>, <code>tags</code>, <code>created</code>, and <code>excerpt</code>. CSV is ideal if you plan to inspect your data in Excel or run automated Python scripts.
+        </li>
+      </ul>
+      <p>
+        Both formats are 100% compatible with Marqly's automated import pipeline. For complete step-by-step instructions, visit our <a href="/migrate/raindrop">Raindrop to Marqly migration guide</a>.
+      </p>
+
+      <h2>Understanding bookmark link rot</h2>
+      <p>
+        The web is ephemeral. Academic research indicates that <strong>over 30% of web links become unreachable within 5 years</strong>. Content gets moved behind paywalls, websites get redesigned without redirects, and personal blogs go offline.
+      </p>
+      <p>
+        When you migrate your Raindrop library into <a href="https://app.marqly.com/signup?source=migration_tool">Marqly Pro</a>, Marqly doesn't just save bare URLs—it captures full readable text, takes permanent snapshots, and generates vector embeddings. Even if the original website disappears tomorrow, your knowledge remains searchable and readable in Marqly.
+      </p>
+
+      <h2>100% Client-side local privacy guarantee</h2>
+      <p>
+        Your bookmarks contain private browsing habits, work research, reading lists, and confidential project resources. We believe that an export analyzer should never require you to upload your personal files to a remote server.
+      </p>
+      <p>
+        This tool executes entirely in your local browser runtime via the HTML5 File API. No bytes are sent across the internet, no server logs are created, and zero personal data ever leaves your device. You can even disconnect your Wi-Fi or load this page offline, and the parser will run smoothly.
+      </p>
+
+      <h2>Next steps: Upgrade to AI-native bookmarking</h2>
+      <p>
+        Once you have evaluated your export file, moving to Marqly takes under two minutes:
+      </p>
+      <ol>
+        <li>
+          Create a free account at <a href="https://app.marqly.com/signup?source=migration_tool">app.marqly.com</a> (no credit card required, free up to 2,000 bookmarks).
+        </li>
+        <li>
+          Go to <strong>Settings → Import Bookmarks</strong>, choose <strong>Raindrop</strong>, and select your file.
+        </li>
+        <li>
+          Watch Marqly automatically recreate your collections, index article contents, and enable semantic natural-language search across your entire library.
+        </li>
+      </ol>
+      <p>
+        Evaluating other options as well? Read our in-depth category breakdown of the <a href="/best-bookmark-manager">best bookmark managers in 2026</a> or compare <a href="/alternatives/raindrop">Raindrop alternatives</a>.
+      </p>
+    </Fragment>
+  </ToolShell>
+</LandingLayout>

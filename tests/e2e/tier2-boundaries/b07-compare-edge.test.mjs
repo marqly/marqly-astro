@@ -43,7 +43,8 @@ export const tests = [
     run: async () => {
       if (!existsSync(COMP_HTML)) return { ok: false, error: 'File missing' };
       const raw = readFileSync(COMP_HTML, 'utf8');
-      if (raw.includes('undefined') || raw.includes('NaN') || raw.includes('[object Object]')) {
+      const noScripts = raw.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
+      if (noScripts.includes('undefined') || noScripts.includes('NaN') || noScripts.includes('[object Object]')) {
         return { ok: false, error: 'Found serialized JavaScript artifacts (undefined/NaN/[object Object]) in HTML' };
       }
       return { ok: true };

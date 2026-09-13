@@ -95,16 +95,19 @@ const tableTools = isMarqlyPair ? [marqly, b] : [a, b, marqly];
       <SourceNote tools={tableTools} />
 
       <div class="verdict-box">
-        <p class="verdict-label">The short answer</p>
+        <p class="verdict-label">Executive verdict &amp; bottom line</p>
         {isMarqlyPair ? (
           <>
             {b.status === 'shutdown' && (
               <p class="shutdown-note"><strong>Heads up:</strong> {b.shutdownNote}</p>
             )}
             <ul class="verdict-points">
-              <li><strong>Choose Marqly</strong> — {marqly.bestFor} {aEdgesList.length > 0 && `It adds ${aEdgesList.join(', ')} that ${b.name} doesn't offer.`}</li>
-              <li><strong>Choose {b.name}</strong> — {b.bestFor} {bEdgesList.length > 0 && `It offers ${bEdgesList.join(', ')}, which Marqly doesn't.`}</li>
+              <li><strong>Choose Marqly if</strong> — {marqly.bestFor} {aEdgesList.length > 0 && `It adds ${aEdgesList.join(', ')} that ${b.name} doesn't offer.`}</li>
+              <li><strong>Choose {b.name} if</strong> — {b.bestFor} {bEdgesList.length > 0 && `It offers ${bEdgesList.join(', ')}, which Marqly doesn't.`}</li>
             </ul>
+            <p class="verdict-subnote" style="margin-top: var(--space-3); font-size: var(--fs-xs); color: var(--ink-3);">
+              Looking at the broader market? See our comprehensive benchmark of the <a href="/best-bookmark-manager" style="color: var(--ink-1); text-decoration: underline;">best bookmark managers in 2026</a>.
+            </p>
           </>
         ) : (
           <p class="verdict-prose">{verdictEntry!.data.verdict}</p>
@@ -210,15 +213,25 @@ const tableTools = isMarqlyPair ? [marqly, b] : [a, b, marqly];
             <div class="migration-btns">
               <a class="btn btn--primary" href="https://app.marqly.com">Import your {b.name} bookmarks free →</a>
               {['raindrop', 'pocket', 'mymind', 'instapaper'].includes(b.slug) ? (
-                <a class="migration-guide-link" href={`/migrate/${b.slug}`}>
-                  Step-by-step {b.name} migration guide →
-                </a>
+                <>
+                  <a class="migration-guide-link" href={`/migrate/${b.slug}`}>
+                    Step-by-step {b.name} migration guide →
+                  </a>
+                  <a class="migration-guide-link" href="/migrate">
+                    All migration guides →
+                  </a>
+                </>
               ) : (
                 <a class="migration-guide-link" href="/migrate">
-                  View all migration guides →
+                  Step-by-step migration guides & browser imports →
                 </a>
               )}
             </div>
+            {b.slug === 'raindrop' && (
+              <p class="tool-recommendation" style="margin-top: var(--space-4); font-size: var(--fs-xs); color: var(--ink-3);">
+                💡 <strong>Tip:</strong> Want to audit your file first? Test your backup with our free <a href="/tools/raindrop-export-analyzer" style="color: var(--ink-1); text-decoration: underline;">Raindrop Export Analyzer</a> before importing.
+              </p>
+            )}
           </div>
         </>
       ) : (
@@ -242,6 +255,12 @@ const tableTools = isMarqlyPair ? [marqly, b] : [a, b, marqly];
             <div class="third-option-btns" style="margin-top: var(--space-4); display: flex; gap: var(--space-3); flex-wrap: wrap;">
               <a class="btn btn--primary" href="https://app.marqly.com">Try Marqly free →</a>
               <a class="btn btn--outline" href="/migrate">Migration guides →</a>
+              {['raindrop', 'pocket', 'mymind', 'instapaper'].includes(a.slug) && (
+                <a class="btn btn--outline" href={`/migrate/${a.slug}`}>Migrate from {a.name} →</a>
+              )}
+              {['raindrop', 'pocket', 'mymind', 'instapaper'].includes(b.slug) && (
+                <a class="btn btn--outline" href={`/migrate/${b.slug}`}>Migrate from {b.name} →</a>
+              )}
             </div>
           </div>
         </>
@@ -255,7 +274,7 @@ const tableTools = isMarqlyPair ? [marqly, b] : [a, b, marqly];
 
       <CtaBox />
 
-      <nav class="xlinks" aria-label="More comparisons">
+      <nav class="xlinks" aria-label="More comparisons and migration guides">
         <div>
           <h3>Compare Marqly with other tools</h3>
           <ul>
@@ -282,6 +301,23 @@ const tableTools = isMarqlyPair ? [marqly, b] : [a, b, marqly];
             {!isMarqlyPair && <li><a href={`/alternatives/${a.slug}`}>Best {a.name} alternatives</a></li>}
             <li><a href={`/alternatives/${b.slug}`}>Best {b.name} alternatives</a></li>
             <li><a href="/alternatives">All alternatives →</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Migration</h3>
+          <ul>
+            {['raindrop', 'pocket', 'mymind', 'instapaper'].includes(b.slug) && (
+              <li><a href={`/migrate/${b.slug}`} style="font-weight: 600;">Migrate from {b.name} →</a></li>
+            )}
+            {!isMarqlyPair && ['raindrop', 'pocket', 'mymind', 'instapaper'].includes(a.slug) && (
+              <li><a href={`/migrate/${a.slug}`} style="font-weight: 600;">Migrate from {a.name} →</a></li>
+            )}
+            <li><a href="/migrate">Migration Hub</a></li>
+            <li><a href="/migrate/pocket">Migrate from Pocket</a></li>
+            <li><a href="/migrate/raindrop">Migrate from Raindrop</a></li>
+            <li><a href="/migrate/mymind">Migrate from mymind</a></li>
+            <li><a href="/migrate/instapaper">Migrate from Instapaper</a></li>
+            <li><a href="/tools">Free migration tools →</a></li>
           </ul>
         </div>
       </nav>
