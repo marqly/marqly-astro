@@ -32,6 +32,13 @@ active/logs/capture/
 .dev.vars
 .playwright-mcp/
 
+# Agent scratch space and temporary prompt dumps
+.agents/
+.qwen/
+ORIGINAL_PROMPT*
+ORIGINAL_REQUEST.md
+
 # Python bytecode from active/scripts/*.py
 __pycache__/
 *.pyc
+
