@@ -13,7 +13,7 @@ faqs:
   - q: "Is the Marqly iOS app free?"
     a: "Yes — the app is a free download on the App Store, and Marqly's free tier requires no card to sign up. Pro, which unlocks features like AI Q&A over your saves, is $72 per year (about $6 a month billed annually) or $9 billed monthly, with a 7-day free trial. One account covers the iOS app, the web app, and all four browser extensions."
   - q: "Is there an Android version?"
-    a: "No — there's no Android app. Android users aren't locked out entirely, though: the web app at app.marqly.com works in Android browsers, so the same library, search, and boards are reachable from an Android phone. But the native mobile app today is iOS only. If Android support matters to you, the web app is the honest current answer."
+    a: "Yes — native apps for both. iPhone and iPad use the [iOS app](/faq/is-there-an-ios-app) on the App Store; Android phones use the [Android app](/faq/is-there-an-android-app) on Google Play. Both sync with the same account as the browser extensions and the web app."
   - q: "Do bookmarks saved on my computer show up on my iPhone?"
     a: "Yes, automatically. Your library lives in your Marqly account, so anything saved through the Chrome, Edge, Firefox, or Safari extensions — or the web app — appears in the iOS app when you sign in with the same account. That includes the AI tags, summaries, and highlights attached to each save. Save at your desk during the day, find it from the couch that night."
 ---
@@ -40,7 +40,7 @@ The practical rhythm most people settle into: bulk capture and highlighting on t
 
 The iOS app is one door into an account-wide library, not a silo. Sign in once, and everything [syncs across your devices](/faq/can-i-sync-across-devices): saves made in Chrome, Edge, or Firefox at work appear on your iPhone; on your Mac, the Safari extension covers Apple's own browser; on any machine, the web app fills the gaps. The same account spans all of it, so there's never a "which app has my stuff" question.
 
-Worth stating plainly, because Apple users often share households with Android users: there is [no Android app](/faq/is-there-an-android-app). The web app works in Android browsers, so an Android phone can reach the same library — but the native mobile experience is iOS only today.
+Worth stating plainly, because Apple users often share households with Android users: there is also an [Android app](/faq/is-there-an-android-app) on Google Play. Mixed-platform households stay in one library.
 
 ## Getting started
 

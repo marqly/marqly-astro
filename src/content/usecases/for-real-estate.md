@@ -61,6 +61,6 @@ Free tier to start; Pro is $72/year (about $6/month billed annually) or $9/month
 
 ## Is Marqly the right fit?
 
-Straight answer: Marqly organizes web research — it is not real-estate software. No MLS integration, no CRM sync (there's no public API), no transaction management, and no Android app (the web app works fine in Android browsers). Board sharing is view-only, so clients browse what you curate; they don't collaborate on it.
+Straight answer: Marqly organizes web research — it is not real-estate software. No MLS integration, no CRM sync (there's no public API), and no transaction management. Board sharing is view-only, so clients browse what you curate; they don't collaborate on it.
 
 If your problem is portal tabs, dead listings, and market reports you can never find again, that's exactly the job Marqly does. Try it free at [app.marqly.com](https://app.marqly.com).

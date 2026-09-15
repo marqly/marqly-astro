@@ -79,7 +79,7 @@ export const homeFaqs: HomeFaq[] = [
   },
   {
     q: 'Does Marqly work on Android?',
-    a: 'There’s no Android app yet, but the Marqly web app at app.marqly.com works in any Android browser, so your saves are always reachable. On desktop, the extension covers Chrome, Edge, Firefox, and Safari.',
+    a: 'Yes. The Marqly Android app is on Google Play. It puts your whole library — saves, tags, highlights — on your phone, synced with the extension, web app, and iOS app. Download it from Google Play and sign in with the same account.',
     href: '/faq/is-there-an-android-app',
   },
   {

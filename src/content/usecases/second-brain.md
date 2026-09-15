@@ -54,6 +54,6 @@ The habit is the entire setup. If you want a fuller method for building the prac
 
 If your second brain is primarily a *writing* system — long original notes, backlinks, graph views, daily journals — Obsidian or Notion is the right tool, and Marqly won't replace it. Marqly holds what you save from the web, not essays you compose from scratch. Plenty of people run both: Marqly as the capture-and-retrieval layer for web content, a notes app for their own thinking. The honest comparison across the category, including where the heavyweight tools win, is in [the best second brain apps of 2026](/blog/best-second-brain-apps-2026).
 
-Also worth knowing: there's no Android app (the web app works in Android browsers), no offline mode, and no team features — this is a single-player tool.
+Also worth knowing: there's no offline mode and no team features — this is a single-player tool.
 
 The fit: most of what you want to remember starts as something you read or watched online, and the system you'll actually stick with is the one that demands nothing after the save. That's the exact shape of Marqly.

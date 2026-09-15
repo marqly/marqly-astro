@@ -1,6 +1,6 @@
 ---
 import Hero from './Hero';
-import { CHROME_URL, APP_URL } from './data';
+import { CHROME_URL, APP_URL, IOS_URL, ANDROID_URL } from './data';
 ---
 
 <section class="relative overflow-hidden">
@@ -61,23 +61,26 @@ import { CHROME_URL, APP_URL } from './data';
       </a>
     </div>
     <p class="mt-5 text-[12px] text-foreground/70">
-      Free plan · Chrome · Edge · Firefox · Safari · iOS · Web
+      Free plan · Chrome · Edge · Firefox · Safari · iOS · Android · Web
     </p>
-    <a
-      href="https://www.producthunt.com/products/marqly?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-marqly-6-0"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="View Marqly 6.0 on Product Hunt (opens in a new tab)"
-      class="mx-auto mt-6 mb-[-20px] block w-fit max-w-full rounded-md focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-foreground"
-    >
-      <img
-        alt="Marqly 6.0 — Ask your bookmarks. Bring them to your AI. — featured on Product Hunt"
-        width="250"
-        height="54"
-        src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1249142&amp;theme=light&amp;t=1789291172868"
-        class="h-auto max-w-full"
-      />
-    </a>
+    <div class="mt-4 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-[13px]">
+      <a
+        href={IOS_URL}
+        target="_blank"
+        rel="noopener"
+        class="font-medium text-foreground/80 underline-offset-4 transition-colors hover:text-foreground hover:underline"
+      >
+        Download for iPhone
+      </a>
+      <a
+        href={ANDROID_URL}
+        target="_blank"
+        rel="noopener"
+        class="font-medium text-foreground/80 underline-offset-4 transition-colors hover:text-foreground hover:underline"
+      >
+        Download for Android
+      </a>
+    </div>
   </div>
 
   <div class="mx-auto mt-12 max-w-[860px] md:mt-16 lg:max-w-[1040px]">

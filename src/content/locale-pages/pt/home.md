@@ -9,7 +9,7 @@ hero:
   heading: "O gerenciador de favoritos que lembra por você"
   subheading: "Salve qualquer página com um clique e ache ela de novo depois só descrevendo o que você lembra. Sem pasta, sem tag na mão."
 crumbHome: "Início"
-trustLine: "Plano grátis, sem cartão · Chrome, Edge, Firefox, Safari e iOS"
+trustLine: "Plano grátis, sem cartão · Chrome, Edge, Firefox, Safari, iOS e Android"
 faqHeading: "Perguntas frequentes"
 faqs:
   - q: "O Marqly é grátis?"
@@ -17,7 +17,7 @@ faqs:
   - q: "Dá para importar meus favoritos que já existem?"
     a: "Dá. O Marqly importa do Pocket, do Raindrop e de arquivos HTML de favoritos exportados do navegador. Também dá para trazer os favoritos que você salvou no X/Twitter. Depois de importar, a IA vai colocando tags no que estava solto."
   - q: "Tem aplicativo para Android?"
-    a: "Ainda não. Hoje o Marqly tem extensão para Chrome, Edge, Firefox e Safari, app web (que abre em qualquer celular pelo navegador) e aplicativo para iPhone e iPad."
+    a: "Sim. O app Android está no Google Play: https://play.google.com/store/apps/details?id=com.marqly.android. É a mesma conta da extensão, do app web e do app iOS."
   - q: "Como funciona a busca semântica?"
     a: "Você escreve o que lembra em vez do título exato — algo como aquele texto sobre juros compostos com um gráfico no começo. O Marqly entende o sentido da frase e traz as páginas que combinam, mesmo que nenhuma dessas palavras esteja no título."
   - q: "O Marqly funciona sem internet?"

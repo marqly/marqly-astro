@@ -9,7 +9,7 @@ hero:
   heading: "收藏谁都会。Marqly 让你真正找得到。"
   subheading: "集成 AI 的书签管理平台：自动分类打标、全文摘要提取，以及真正理解你意图而非死板匹配关键词的语义搜索。"
 crumbHome: "首页"
-trustLine: "永久免费版，无需信用卡 · 支持 Chrome、Edge、Firefox、Safari 与 iOS"
+trustLine: "永久免费版，无需信用卡 · 支持 Chrome、Edge、Firefox、Safari、iOS 与 Android"
 faqHeading: "常见问题"
 faqs:
   - q: "Marqly 究竟是什么？"
@@ -19,7 +19,7 @@ faqs:
   - q: "我可以导入以前在其他浏览器或工具中的书签吗？"
     a: "完全可以。Marqly 支持导入 Pocket 导出文件、Raindrop 数据以及 Chrome、Edge、Firefox、Safari 导出的标准 HTML 书签文件，自动保留标签与层级。"
   - q: "有安卓（Android）原生客户端吗？"
-    a: "目前尚未推出原生 Android 应用。Android 用户可通过移动浏览器访问体验极佳的 Web 应用（PWA），我们在功能说明上始终保持透明。"
+    a: "有。Android 应用已上架 Google Play：https://play.google.com/store/apps/details?id=com.marqly.android。与浏览器扩展、网页应用和 iOS 应用共用同一账号。"
   - q: "相比浏览器自带书签，Marqly 强在哪里？"
     a: "传统浏览器书签只记录 URL 和标题，容易沦为无法检索的链接坟场。Marqly 会提取正文摘要、自动打标、索引划线高亮与个人批注，并支持自然语言搜索，即便完全遗忘标题也能按内容含义瞬间定位。"
 ctaUrl: "https://app.marqly.com"

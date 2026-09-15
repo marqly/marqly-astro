@@ -17,7 +17,7 @@ faqs:
   - q: "PCで保存したブックマークはiPhoneにも表示されますか？"
     a: "はい、自動同期されます。Chrome、Edge、Firefox、Safariなどで保存した内容がAIタグやハイライトと共にiOSアプリに反映されます。"
   - q: "Android版アプリはありますか？"
-    a: "現在はiOSネイティブアプリのみ提供しています。Androidをご利用の方はモバイルブラウザからapp.marqly.comへアクセスしてご利用いただけます。"
+    a: "はい。AndroidアプリはGoogle Playにあります: https://play.google.com/store/apps/details?id=com.marqly.android。iOSアプリと同じアカウントで使えます。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "無料でMarqlyを試す"
 ctaSecondaryLabel: "Chromeに追加 — 無料"

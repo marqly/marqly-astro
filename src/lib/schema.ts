@@ -22,6 +22,7 @@ export function organization() {
       'https://www.facebook.com/profile.php?id=100088234261663',
       'https://www.linkedin.com/company/marqly',
       'https://www.producthunt.com/products/marqly',
+      'https://play.google.com/store/apps/details?id=com.marqly.android',
     ],
     contactPoint: {
       '@type': 'ContactPoint',
@@ -47,7 +48,7 @@ export function softwareApplication() {
     '@type': 'SoftwareApplication',
     name: 'Marqly',
     applicationCategory: 'ProductivityApplication',
-    operatingSystem: 'Web, iOS, Chrome, Edge, Firefox, Safari',
+    operatingSystem: 'Web, iOS, Android, Chrome, Edge, Firefox, Safari',
     url: SITE,
     installUrl: CHROME_STORE_URL,
     description:

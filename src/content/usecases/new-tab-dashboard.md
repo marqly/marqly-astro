@@ -70,7 +70,7 @@ That's the argument for a new tab page attached to a library instead of a widget
 
 Marqly Home is available in **Chrome, Microsoft Edge, and Firefox.** It is **not** available in Safari today — [Safari](/faq/does-marqly-work-on-safari) gets one-click saving, the highlighter, AI tagging, and semantic search, but not the New Tab dashboard.
 
-There's no Android app, and the new tab dashboard is a desktop-browser feature by nature; on iOS, the [Marqly app](/faq/is-there-an-ios-app) covers your library rather than your browser's new tab.
+There's also an [Android app](/faq/is-there-an-android-app) on Google Play; the new tab dashboard is a desktop-browser feature by nature, while the phone apps cover your library rather than your browser's new tab.
 
 ## Getting started
 

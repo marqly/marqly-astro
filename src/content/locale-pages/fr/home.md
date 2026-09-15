@@ -9,7 +9,7 @@ hero:
   heading: "Sauvegardez un lien aujourd'hui, retrouvez-le dans six mois"
   subheading: "Marqly étiquette et résume automatiquement tout ce que vous sauvegardez, puis vous le rend quand vous le cherchez avec vos propres mots."
 crumbHome: "Accueil"
-trustLine: "Offre gratuite, sans carte · Chrome, Edge, Firefox, Safari et iOS"
+trustLine: "Offre gratuite, sans carte · Chrome, Edge, Firefox, Safari, iOS et Android"
 faqHeading: "Questions fréquentes"
 faqs:
   - q: "Qu'est-ce qu'un gestionnaire de favoris avec IA ?"
@@ -17,7 +17,7 @@ faqs:
   - q: "Marqly est-il gratuit ?"
     a: "Oui, il existe une offre gratuite et aucune carte bancaire n'est demandée pour commencer. L'offre Pro coûte 72 $/an (environ 69 €) ou 9 $/mois (environ 8 €), avec un essai gratuit de 7 jours. Les étudiants vérifiés paient 48 $ la première année (environ 46 €)."
   - q: "Sur quels navigateurs Marqly fonctionne-t-il ?"
-    a: "L'extension existe pour Chrome, Edge, Firefox et Safari. S'y ajoutent l'application web, accessible depuis n'importe quel ordinateur, et l'application iOS pour iPhone et iPad. Il n'y a pas d'application Android pour le moment."
+    a: "L'extension existe pour Chrome, Edge, Firefox et Safari. S'y ajoutent l'application web, l'application iOS pour iPhone et iPad, et l'application Android sur Google Play : https://play.google.com/store/apps/details?id=com.marqly.android"
   - q: "Puis-je importer mes favoris existants ?"
     a: "Oui. Marqly importe depuis Pocket, depuis Raindrop et depuis les fichiers HTML de favoris exportés par n'importe quel navigateur. Vous pouvez aussi récupérer vos favoris X (Twitter) sans les recopier un par un."
   - q: "Qu'est-ce que la recherche sémantique ?"
@@ -107,7 +107,7 @@ Pro débloque notamment le chat avec vos sauvegardes. Le cœur de l'idée — sa
 
 ## Ce que Marqly ne fait pas
 
-Autant le dire tout de suite&nbsp;: il n'y a pas d'application Android, pas de mode hors ligne, pas d'API publique, pas d'auto-hébergement et pas de fonctions d'équipe. Marqly est un outil personnel, pensé pour une personne et ses navigateurs.
+Autant le dire tout de suite&nbsp;: pas de mode hors ligne, pas d'API publique, pas d'auto-hébergement et pas de fonctions d'équipe. Marqly est un outil personnel, pensé pour une personne et ses navigateurs.
 
 ## Commencez en deux minutes
 

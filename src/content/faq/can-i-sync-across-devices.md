@@ -1,6 +1,6 @@
 ---
 question: "Can I sync Marqly across devices?"
-description: "Yes — Marqly syncs through your account. Save from the browser extension, web app, or iOS app, and your library stays identical on every signed-in device."
+description: "Yes — Marqly syncs through your account. Save from the browser extension, web app, iOS app, or Android app, and your library stays identical on every signed-in device."
 category: getting-started
 updatedDate: 2026-08-02
 related:
@@ -9,11 +9,11 @@ related:
   - is-there-an-android-app
 ---
 
-Yes. Sync is built into how Marqly works: your library lives in your account, not in any one browser or device. Save a page from the Chrome extension at work, and it's already in the web app, in Firefox at home, and in the iOS app on your phone — same saves, same tags, same highlights. There's no sync button, no pairing step, and nothing to configure.
+Yes. Sync is built into how Marqly works: your library lives in your account, not in any one browser or device. Save a page from the Chrome extension at work, and it's already in the web app, in Firefox at home, and in the iOS or Android app on your phone — same saves, same tags, same highlights. There's no sync button, no pairing step, and nothing to configure.
 
 ## How it works
 
-Every Marqly surface — the extensions for Chrome, Edge, Firefox, and Safari, the web app at [app.marqly.com](https://app.marqly.com), and the iOS app — signs in to the same account. Anything you save from one shows up in all the others, because they're all windows onto the same library. That's also why there's no "sync conflict" to resolve: there's one source of truth, your account.
+Every Marqly surface — the extensions for Chrome, Edge, Firefox, and Safari, the web app at [app.marqly.com](https://app.marqly.com), the iOS app, and the Android app — signs in to the same account. Anything you save from one shows up in all the others, because they're all windows onto the same library. That's also why there's no "sync conflict" to resolve: there's one source of truth, your account.
 
 ## What follows you across devices
 
@@ -24,7 +24,7 @@ Every Marqly surface — the extensions for Chrome, Edge, Firefox, and Safari, t
 
 ## Typical multi-device setups
 
-The common pattern: save at a desk, retrieve everywhere. Heavy saving happens in a desktop browser — the extension's one-click save, the side panel, the YouTube card — while the phone is where you look things up. The [iOS app](/faq/is-there-an-ios-app) covers iPhone and iPad natively; on Android, the web app in a mobile browser does the job, as covered in [is there an Android app](/faq/is-there-an-android-app).
+The common pattern: save at a desk, retrieve everywhere. Heavy saving happens in a desktop browser — the extension's one-click save, the side panel, the YouTube card — while the phone is where you look things up. The [iOS app](/faq/is-there-an-ios-app) covers iPhone and iPad; the [Android app](/faq/is-there-an-android-app) is on Google Play.
 
 ## The one requirement: a connection
 

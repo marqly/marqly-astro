@@ -13,7 +13,7 @@ faqs:
   - q: "Does Marqly download the video?"
     a: "No. Marqly saves the video's link with its transcript attached — it doesn't download the video file, and there's no offline mode, so watching still happens on YouTube with a connection. What you gain is everything around the watching: the transcript in your library, AI summaries for triage, semantic search across what's said, and boards to keep the queue organized."
   - q: "Which browsers do the YouTube features work in?"
-    a: "The Marqly extension is available for Chrome, Edge, Firefox, and Safari, and the YouTube AI card — summary, transcript, and chat tabs, plus the bookmark button in the action row — comes with it on YouTube watch pages. There's also a web app and an iOS app for browsing your library. There's no Android app, though the web app works in Android browsers."
+    a: "The Marqly extension is available for Chrome, Edge, Firefox, and Safari, and the YouTube AI card — summary, transcript, and chat tabs, plus the bookmark button in the action row — comes with it on YouTube watch pages. There's also a web app, an iOS app, and an [Android app on Google Play](https://play.google.com/store/apps/details?id=com.marqly.android)."
   - q: "Is any of this free?"
     a: "Marqly has a free tier and signup needs no card, so you can try the save-with-transcript workflow immediately at app.marqly.com. Pro is $72 per year (about $6 a month billed annually) or $9 billed monthly, with a 7-day free trial. The chat tab — asking questions answered from a video's transcript — is a Pro feature."
 ---

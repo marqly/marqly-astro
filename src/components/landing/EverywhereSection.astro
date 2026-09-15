@@ -1,6 +1,6 @@
 ---
 import { NewTabDemo } from './demos';
-import { IOS_URL } from './data';
+import { IOS_URL, ANDROID_URL } from './data';
 ---
 
 <section class="py-20 md:py-28">
@@ -13,8 +13,8 @@ import { IOS_URL } from './data';
         On every screen<br />you read on.
       </h2>
       <p class="mt-4 max-w-[520px] text-[16px] leading-relaxed text-muted">
-        One library, synced. The extension in your browser, the web app anywhere, the iOS app in
-        your pocket, and a new tab page that starts your day inside it.
+        One library, synced. The extension in your browser, the web app anywhere, iOS and Android
+        apps in your pocket, and a new tab page that starts your day inside it.
       </p>
     </div>
 
@@ -47,14 +47,17 @@ import { IOS_URL } from './data';
           />
         </a>
         <figcaption class="mt-4 text-sm leading-relaxed text-muted">
-          <b class="font-semibold text-foreground">iPhone and iPad.</b>
-          The whole library, saves, tags, and highlights, on the App Store.
+          <b class="font-semibold text-foreground">iPhone, iPad, and Android.</b>
+          The whole library — saves, tags, and highlights — on the
+          <a href={IOS_URL} target="_blank" rel="noopener" class="font-medium text-foreground underline-offset-4 hover:underline">App Store</a>
+          and
+          <a href={ANDROID_URL} target="_blank" rel="noopener" class="font-medium text-foreground underline-offset-4 hover:underline">Google Play</a>.
         </figcaption>
       </figure>
     </div>
 
     <p class="mt-8 text-[13px] text-muted" data-reveal>
-      Chrome · Edge · Firefox · Safari · iOS · Web
+      Chrome · Edge · Firefox · Safari · iOS · Android · Web
     </p>
   </div>
 </section>

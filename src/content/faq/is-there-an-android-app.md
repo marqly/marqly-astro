@@ -1,32 +1,26 @@
 ---
 question: "Is there a Marqly Android app?"
-description: "There's no Marqly Android app yet. The web app at app.marqly.com works in Android browsers, so you can search and browse your full library from any phone."
+description: "Yes — the Marqly Android app is on Google Play. Save links on the go and search your whole library; everything syncs with your account."
 category: getting-started
-updatedDate: 2026-08-02
+updatedDate: 2026-09-15
 related:
   - is-there-an-ios-app
   - can-i-sync-across-devices
-  - whats-on-the-roadmap
+  - does-marqly-work-offline
 ---
 
-No — there is no Marqly Android app today, and we'd rather tell you that directly than bury it. What Android users do have is the web app: open app.marqly.com in Chrome or any Android browser, sign in, and your full library is there — every save, tag, and highlight, with the same semantic search you get on desktop.
+Yes. Marqly has an Android app, available on Google Play. It connects to the same account as the browser extensions, the web app, and the iOS app, so the article you saved from Chrome this morning is already on your phone — searchable by meaning, not just title. Download it from Google Play and sign in with your existing Marqly account, or create one free.
 
-## What works on Android right now
+## Get the app
 
-The [Marqly web app](https://app.marqly.com) is a full client, not a stripped-down mobile page. From an Android browser you can:
+Install [Marqly from Google Play](https://play.google.com/store/apps/details?id=com.marqly.android). If you don't have a Marqly account yet, signup is free and requires no credit card — the same account then works across the Android app, the iOS app, the web app at [app.marqly.com](https://app.marqly.com), and the browser extensions.
 
-- Browse and search your entire library, including semantic search by meaning
-- See the tags AI applied to every save
-- Open saved articles and your highlights
+## Your desktop library, in your pocket
 
-Everything you've saved from Chrome, Edge, Firefox, or Safari on desktop is already there, because your library lives in your account rather than on a device. That's the same mechanism described in [can I sync across devices](/faq/can-i-sync-across-devices).
+The point of the Android app is continuity. Most saving happens at a desk — the extension's one-click save, the tab saver, the YouTube AI card — but most *remembering* happens elsewhere: in a conversation, on a commute, in a store. The app puts your full library on your phone, so "what was that article about sleep and caffeine timing?" gets answered with Marqly's semantic search instead of twenty minutes of scrolling.
 
-For quicker access, use your Android browser's "Add to home screen" option on app.marqly.com — it puts a Marqly shortcut on your home screen so the web app opens like an app.
+Saves, tags, and highlights all follow your account, and anything you save from your phone is waiting in your desktop browser later. How that works is covered in [can I sync across devices](/faq/can-i-sync-across-devices).
 
-## The honest comparison with iOS
+## iPhone and iPad too
 
-iPhone and iPad get a native app — see [is there an iOS app](/faq/is-there-an-ios-app) — and Android currently doesn't. If a native Android app is a hard requirement for you, Marqly may not fit yet, and we won't pretend otherwise. If you mostly save on desktop and need mobile access for reading and looking things up, the web app covers that today.
-
-## Will there be one?
-
-We don't announce dates we can't stand behind, so this page won't promise an Android app. You can see what the team is working on in [what's on the roadmap](/faq/whats-on-the-roadmap), and if Android support matters to you, tell us at support@marqly.com — a small team genuinely weighs those emails when deciding what to build next.
+There's also a native [iOS app](/faq/is-there-an-ios-app) for iPhone and iPad. Mixed-platform households stay in one library: save from Chrome on a laptop, find it on an Android phone, share it from an iPad.

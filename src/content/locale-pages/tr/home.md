@@ -9,7 +9,7 @@ hero:
   heading: "Kaydetmeyi herkes yapar. Marqly, her zaman geri bulmanızı sağlar."
   subheading: "Otomatik etiketleme, yapay zeka özetleri ve tam kelimeleri değil, aradığınız anlamı kavrayan anlamsal arama motoru ile modern bir yer imi deneyimi."
 crumbHome: "Ana Sayfa"
-trustLine: "Kredi kartsız ücretsiz plan · Chrome, Edge, Firefox, Safari ve iOS"
+trustLine: "Kredi kartsız ücretsiz plan · Chrome, Edge, Firefox, Safari, iOS ve Android"
 faqHeading: "Sıkça Sorulan Sorular"
 faqs:
   - q: "Marqly tam olarak nedir?"
@@ -19,7 +19,7 @@ faqs:
   - q: "Eski yer imlerimi içe aktarabilir miyim?"
     a: "Elbette. Marqly; Pocket, Raindrop dışa aktarma dosyalarını ve Chrome, Edge, Firefox ve Safari'nin standart HTML yer imi dosyalarını saniyeler içinde içe aktarır."
   - q: "Android uygulaması var mı?"
-    a: "Şu anda yerel bir Android uygulamamız bulunmamaktadır. Android kullanıcılarımız mobil tarayıcılarında web uygulamamızı (PWA) rahatlıkla kullanabilir."
+    a: "Evet. Android uygulaması Google Play'de: https://play.google.com/store/apps/details?id=com.marqly.android. Uzantı, web uygulaması ve iOS uygulamasıyla aynı hesabı kullanır."
   - q: "Marqly standart tarayıcı yer imlerinden neden daha iyidir?"
     a: "Tarayıcı yer imleri sadece bir başlık ve URL kaydeder, bu da zamanla binlerce kaybolmuş linke dönüşür. Marqly ise sayfa özetini, yapay zeka etiketlerini, vurguları ve notları kaydeder; hatırladığınız detayları yazarak istediğiniz içeriği anında bulmanızı sağlar."
 ctaUrl: "https://app.marqly.com"

@@ -64,6 +64,6 @@ The free tier covers the core workflow. Pro is $72/year (about $6/month billed a
 
 ## Is Marqly the right fit?
 
-The honest boundaries: Marqly is not a reference manager — it won't format citations or export a bibliography, so it complements Zotero-style tools rather than replacing them. There's no offline reading mode, no Android app (the web app runs in Android browsers), and board sharing is view-only rather than collaborative.
+The honest boundaries: Marqly is not a reference manager — it won't format citations or export a bibliography, so it complements Zotero-style tools rather than replacing them. There's no offline reading mode, and board sharing is view-only rather than collaborative.
 
 What it does is the layer most academic stacks are missing: one searchable place for everything you read, highlight, and half-remember on the web. Try it free at [app.marqly.com](https://app.marqly.com).

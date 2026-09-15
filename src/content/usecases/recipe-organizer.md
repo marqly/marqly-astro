@@ -26,7 +26,7 @@ Marqly is built around exactly that. Save recipes from any site with one click, 
 
 Recipe apps that import "supported sites" quietly fail on the long tail — and the long tail is where the good recipes live: the personal blog with the family recipe, the newsletter archive, the newspaper column. Marqly saves web pages, full stop. If it opens in a browser, it saves, from a one-click button in the toolbar on Chrome, Edge, Firefox, or Safari.
 
-On your phone — where most recipe discovery actually happens — the iOS app catches saves there. And after a Sunday planning session leaves you with nine recipe tabs open, the tab saver takes all of them in one click instead of nine. (There's no Android app, but the web app works in Android browsers.)
+On your phone — where most recipe discovery actually happens — the iOS and Android apps catch saves there. And after a Sunday planning session leaves you with nine recipe tabs open, the tab saver takes all of them in one click instead of nine.
 
 ## Search by the dish you remember, not the title you don't
 

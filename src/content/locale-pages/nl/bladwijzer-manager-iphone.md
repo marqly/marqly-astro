@@ -17,7 +17,7 @@ faqs:
   - q: "Verschijnen saves van mijn computer ook op de iPhone?"
     a: "Ja, volledig automatisch. Alles wat je opslaat via Chrome, Edge, Firefox of Safari verschijnt direct in de iOS-app."
   - q: "Is er een Android-versie?"
-    a: "Momenteel is de native app alleen voor iOS beschikbaar. Android-gebruikers kunnen de web-app via app.marqly.com in elke mobiele browser gebruiken."
+    a: "Ja. De Android-app staat op Google Play: https://play.google.com/store/apps/details?id=com.marqly.android. Het is hetzelfde account als de iOS-app."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly gratis proberen"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

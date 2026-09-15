@@ -9,7 +9,7 @@ hero:
   heading: "Zapisywać potrafi każdy. Marqly dba o to, byś zawsze wszystko odnalazł."
   subheading: "Menedżer zakładek z AI: automatyczne tagowanie, podsumowania i wyszukiwanie semantyczne, które rozumie sens — a nie tylko dokładne słowa kluczowe."
 crumbHome: "Strona główna"
-trustLine: "Darmowy plan bez karty kredytowej · Chrome, Edge, Firefox, Safari i iOS"
+trustLine: "Darmowy plan bez karty kredytowej · Chrome, Edge, Firefox, Safari, iOS i Android"
 faqHeading: "Często zadawane pytania"
 faqs:
   - q: "Czym dokładnie jest Marqly?"
@@ -19,7 +19,7 @@ faqs:
   - q: "Czy mogę zaimportować moje stare zakładki?"
     a: "Oczywiście. Marqly bez trudu importuje archiwa z Pocket, Raindrop oraz standardowe pliki zakładek HTML z Chrome, Edge, Firefox i Safari."
   - q: "Czy dostępna jest aplikacja na Androida?"
-    a: "Nie posiadamy natywnej aplikacji na Androida. Na urządzeniach z Androidem możesz wygodnie korzystać z aplikacji webowej (PWA) w przeglądarce mobilnej."
+    a: "Tak. Aplikacja na Androida jest w Google Play: https://play.google.com/store/apps/details?id=com.marqly.android. To to samo konto co w rozszerzeniu, aplikacji webowej i aplikacji iOS."
   - q: "W czym Marqly przewyższa tradycyjne zakładki w przeglądarce?"
     a: "Przeglądarka zapisuje jedynie tytuł i adres URL, co szybko prowadzi do chaosu w folderach. Marqly zapisuje treść, streszczenia, tagi i notatki, umożliwiając intuicyjne wyszukiwanie według tego, co pamiętasz z danego artykułu."
 ctaUrl: "https://app.marqly.com"

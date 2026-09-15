@@ -21,7 +21,7 @@ Email support@marqly.com with your use case. Not a feature name — the actual w
 
 ## What's true today
 
-Rather than promise futures, here are the current honest answers to the most-asked "when will you…" questions: there's [no public API](/faq/does-marqly-have-an-api), [no Android app](/faq/is-there-an-android-app) (the web app works in Android browsers), and [no offline reading mode](/faq/does-marqly-work-offline). None of that is a "never" — it's a "not today, and we won't pretend otherwise." If any of those change, @getmarqly is where the announcement lands first.
+Rather than promise futures, here are the current honest answers to the most-asked "when will you…" questions: there's [no public API](/faq/does-marqly-have-an-api) and [no offline reading mode](/faq/does-marqly-work-offline). The [Android app](/faq/is-there-an-android-app) is now on Google Play. None of the remaining gaps is a "never" — it's a "not today, and we won't pretend otherwise." If any of those change, @getmarqly is where the announcement lands first.
 
 ## The pattern to expect
 

@@ -63,7 +63,7 @@ Marqly's free tier is the manual half of the product, and it is honest about it:
 
 The boundaries are clear: the free tier holds up to **2,000 bookmarks** with full access to search and read all of them, while **semantic search and auto-tagging are Pro features**. If unlimited free storage is your primary requirement, Raindrop is the better answer and it's above for that reason. We build Marqly, so weigh this section accordingly — but those free-tier facts are checkable in two minutes.
 
-Where Raindrop free beats Marqly free: raw collecting at unlimited scale with a mature app on every platform, including Android (Marqly has no Android app; the web app covers Android browsers). Where Marqly free beats Raindrop free: a modern reading and highlight workflow, whole-library search, and an integrated AI upgrade path. Pro is $72/year (~$6/month, with a $39 first-year offer) or $9/month with a 7-day trial, and lifts storage caps while enabling full AI capabilities.
+Where Raindrop free beats Marqly free: raw collecting at unlimited scale with a mature app on every platform. Where Marqly free beats Raindrop free: a modern reading and highlight workflow, whole-library search, and an integrated AI upgrade path. Pro is $72/year (~$6/month, with a $39 first-year offer) or $9/month with a 7-day trial, and lifts storage caps while enabling full AI capabilities.
 
 **Pros:**
 
@@ -74,8 +74,6 @@ Where Raindrop free beats Marqly free: raw collecting at unlimited scale with a 
 
 **Cons:**
 
-- Free tier caps storage at 2,000 bookmarks; unlimited saves and AI require Pro
-- No Android app (web app only on Android)
 - Not self-hostable and no public API — data lives in Marqly's cloud
 - Younger product with a smaller community than Raindrop's
 

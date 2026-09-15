@@ -9,7 +9,7 @@ hero:
   heading: "Opslaan kan iedereen. Marqly zorgt dat je het altijd terugvindt."
   subheading: "Een AI-bladwijzerbeheerder met automatische tags, samenvattingen en een zoekfunctie die begrijpt wat je bedoelt — niet alleen wat je exact intypt."
 crumbHome: "Home"
-trustLine: "Gratis abonnement zonder creditcard · Chrome, Edge, Firefox, Safari & iOS"
+trustLine: "Gratis abonnement zonder creditcard · Chrome, Edge, Firefox, Safari, iOS & Android"
 faqHeading: "Veelgestelde vragen"
 faqs:
   - q: "Wat is Marqly precies?"
@@ -19,7 +19,7 @@ faqs:
   - q: "Kan ik mijn bestaande bladwijzers importeren?"
     a: "Zeker. Marqly importeert moeiteloos exports vanuit Pocket, Raindrop en de standaard HTML-bladwijzerbestanden van Chrome, Edge, Firefox en Safari."
   - q: "Is er een Android-app?"
-    a: "Nee, er is momenteel geen native Android-app. Op Android kun je de web-app (PWA) in je mobiele browser gebruiken; we zijn daar graag direct eerlijk over."
+    a: "Ja. De Android-app staat op Google Play: https://play.google.com/store/apps/details?id=com.marqly.android. Het is hetzelfde account als de extensie, de web-app en de iOS-app."
   - q: "Wat doet Marqly beter dan gewone browserbladwijzers?"
     a: "Browserbladwijzers slaan alleen een titel en URL op, wat snel een onoverzichtelijke verzameling wordt. Marqly bewaart samenvattingen, tags, markeringen en notities en laat je zoeken op wat je je herinnert van de inhoud."
 ctaUrl: "https://app.marqly.com"

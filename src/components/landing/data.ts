@@ -343,6 +343,7 @@ export const AUTH_HINT_COOKIE = 'marqly_auth';
 export const CHROME_URL =
   'https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc';
 export const IOS_URL = 'https://apps.apple.com/us/app/marqly-ai-bookmark-manager/id6758905385';
+export const ANDROID_URL = 'https://play.google.com/store/apps/details?id=com.marqly.android';
 export const FIREFOX_URL = 'https://addons.mozilla.org/en-US/firefox/addon/marqly/';
 export const EDGE_URL =
   'https://microsoftedge.microsoft.com/addons/detail/marqly-%E2%80%93-the-ultimate-boo/gojjglmdginjjpgajdnobmnkmcogngok';

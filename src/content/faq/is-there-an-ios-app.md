@@ -2,7 +2,7 @@
 question: "Is there a Marqly iOS app?"
 description: "Yes — the Marqly iOS app is on the App Store for iPhone and iPad. Save links on the go and search your whole library; everything syncs with your account."
 category: getting-started
-updatedDate: 2026-08-02
+updatedDate: 2026-09-15
 related:
   - is-there-an-android-app
   - does-marqly-work-on-safari
@@ -13,7 +13,7 @@ Yes. Marqly has an iOS app, available on the App Store for iPhone and iPad. It c
 
 ## Get the app
 
-Install [Marqly — AI bookmark manager from the App Store](https://apps.apple.com/us/app/marqly-ai-bookmark-manager/id6758905385). If you don't have a Marqly account yet, signup is free and requires no credit card — the same account then works across the iOS app, the web app at [app.marqly.com](https://app.marqly.com), and the browser extensions.
+Install [Marqly — AI bookmark manager from the App Store](https://apps.apple.com/us/app/marqly-ai-bookmark-manager/id6758905385). If you don't have a Marqly account yet, signup is free and requires no credit card — the same account then works across the iOS app, the Android app, the web app at [app.marqly.com](https://app.marqly.com), and the browser extensions.
 
 ## Your desktop library, in your pocket
 
@@ -27,4 +27,4 @@ The app runs on iPad as well as iPhone — useful if your iPad is your reading d
 
 ## What about Safari and Android?
 
-On the Mac, Marqly also ships a Safari extension, so Apple-only households are fully covered — see [does Marqly work on Safari](/faq/does-marqly-work-on-safari). There's no Android app; Android users can use the web app in their browser, as explained in [is there an Android app](/faq/is-there-an-android-app).
+On the Mac, Marqly also ships a Safari extension, so Apple-only households are fully covered — see [does Marqly work on Safari](/faq/does-marqly-work-on-safari). Android users get a native app on Google Play, covered in [is there an Android app](/faq/is-there-an-android-app).

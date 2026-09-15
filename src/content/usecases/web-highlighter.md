@@ -15,7 +15,7 @@ faqs:
   - q: "Can I add notes to my highlights?"
     a: "Yes. Every highlight can carry a note — the 'why this mattered' that a bare highlight loses within a week. Select text, pick one of the six colors, and write the note in place. Notes travel with the highlight: they show on the page when you revisit and appear alongside the highlight in your library, where they're searchable."
   - q: "Which browsers does the highlighter work in?"
-    a: "The Marqly extension is available for Chrome, Edge, Firefox, and Safari — the highlighter comes with it on all four. Your highlights sync to your library in the web app, and there's an iOS app as well. There's no Android app; on Android, the web app works in the browser for reviewing your library and highlights."
+    a: "The Marqly extension is available for Chrome, Edge, Firefox, and Safari — the highlighter comes with it on all four. Your highlights sync to your library in the web app, and there are native iOS and Android apps as well. On a phone, the apps are for reviewing your library and highlights rather than highlighting in a mobile browser."
 ---
 
 The job sounds almost too simple to be unsolved: mark up a web page the way you'd mark up a printed page — and have the marks *stay*. Browsers don't do it at all. Copy-pasting quotes into a notes app captures text but strips the context, and you never look at the notes file again anyway.
@@ -59,6 +59,6 @@ The free tier gets you highlighting immediately. Pro — $72/year (about $6/mont
 
 ## Is Marqly the right fit?
 
-Boundaries, honestly drawn: the highlighter lives in the browser extension, so it works in Chrome, Edge, Firefox, and Safari — highlighting isn't something you do from the iOS app, and there's no Android app (the web app runs in Android browsers for reviewing your library). There's no offline mode either.
+Boundaries, honestly drawn: the highlighter lives in the browser extension, so it works in Chrome, Edge, Firefox, and Safari — highlighting isn't something you do from the iOS or Android app (those are for reviewing your library). There's no offline mode either.
 
 If what you want is a pen for the web — marks that survive, notes attached, everything collected somewhere searchable — this is exactly the job Marqly's highlighter does. Try it free at [app.marqly.com](https://app.marqly.com).

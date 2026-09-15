@@ -9,7 +9,7 @@ hero:
   heading: "Guarda un enlace hoy y encuéntralo en tres meses"
   subheading: "Marqly es un gestor de marcadores con IA: etiqueta solo lo que guardas, lo resume y te lo devuelve cuando lo buscas con tus propias palabras."
 crumbHome: "Inicio"
-trustLine: "Plan gratis, sin tarjeta · Chrome, Edge, Firefox, Safari e iOS"
+trustLine: "Plan gratis, sin tarjeta · Chrome, Edge, Firefox, Safari, iOS y Android"
 faqHeading: "Preguntas frecuentes"
 faqs:
   - q: "¿Qué es un gestor de marcadores con IA?"
@@ -17,7 +17,7 @@ faqs:
   - q: "¿Marqly es gratis?"
     a: "Sí, hay un plan gratis y no te pide tarjeta para empezar. El plan Pro cuesta 72 USD al año o 9 USD al mes, con una prueba gratis de 7 días. Si eres estudiante verificado, el primer año te sale en 48 USD."
   - q: "¿En qué navegadores funciona?"
-    a: "La extensión está disponible para Chrome, Edge, Firefox y Safari. Además tienes la app web para entrar desde cualquier computadora y una app para iPhone y iPad. Por ahora no hay app para Android."
+    a: "La extensión está disponible para Chrome, Edge, Firefox y Safari. Además tienes la app web, una app para iPhone y iPad, y una app de Android en Google Play: https://play.google.com/store/apps/details?id=com.marqly.android"
   - q: "¿Puedo traer mis marcadores de otro lado?"
     a: "Sí. Marqly importa desde Pocket, desde Raindrop y desde archivos HTML de marcadores exportados de cualquier navegador. También puedes guardar tus marcadores de X (Twitter)."
   - q: "¿Qué es la búsqueda semántica?"

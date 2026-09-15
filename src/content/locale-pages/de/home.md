@@ -9,17 +9,17 @@ hero:
   heading: "Speichern kann jeder. Marqly sorgt dafür, dass du es wiederfindest."
   subheading: "Ein Bookmark-Manager mit KI: automatische Tags, Zusammenfassungen und eine Suche, die versteht, was du meinst – nicht nur, was du getippt hast."
 crumbHome: "Startseite"
-trustLine: "Kostenlose Stufe, ohne Karte · Chrome, Edge, Firefox, Safari & iOS"
+trustLine: "Kostenlose Stufe, ohne Karte · Chrome, Edge, Firefox, Safari, iOS & Android"
 faqHeading: "Häufige Fragen"
 faqs:
   - q: "Was ist Marqly genau?"
-    a: "Ein Bookmark-Manager mit KI. Du speicherst Webseiten, Videos und Artikel mit einem Klick, Marqly vergibt automatisch Tags und Zusammenfassungen und macht alles über eine semantische Suche wiederauffindbar. Es gibt eine Erweiterung für Chrome, Edge, Firefox und Safari, eine Web-App und eine iOS-App."
+    a: "Ein Bookmark-Manager mit KI. Du speicherst Webseiten, Videos und Artikel mit einem Klick, Marqly vergibt automatisch Tags und Zusammenfassungen und macht alles über eine semantische Suche wiederauffindbar. Es gibt eine Erweiterung für Chrome, Edge, Firefox und Safari, eine Web-App, eine iOS-App und eine Android-App."
   - q: "Ist Marqly kostenlos?"
     a: "Es gibt eine kostenlose Stufe, für die du keine Kreditkarte hinterlegen musst. Pro kostet 72 $/Jahr (rund 66 €) oder 9 $/Monat (rund 8 €), mit 7 Tagen kostenlosem Test. Studierende zahlen im ersten Jahr 48 $ (rund 44 €)."
   - q: "Kann ich meine bestehenden Lesezeichen importieren?"
     a: "Ja. Marqly importiert aus Pocket, aus Raindrop und aus der Lesezeichen-HTML-Datei, die jeder Browser exportieren kann. Damit kommst du aus Chrome, Edge, Firefox und Safari ohne Abtippen rüber. Auch deine X/Twitter-Lesezeichen lassen sich sichern."
   - q: "Gibt es eine Android-App?"
-    a: "Nein. Aktuell gibt es die Browser-Erweiterung, die Web-App und eine iOS-App. Unter Android kannst du die Web-App im mobilen Browser nutzen, aber es gibt keine native Android-App – wir sagen das lieber vorher als hinterher."
+    a: "Ja. Die Android-App ist bei Google Play: https://play.google.com/store/apps/details?id=com.marqly.android. Dieselbe Kontoanmeldung wie bei der Erweiterung, der Web-App und der iOS-App."
   - q: "Funktioniert Marqly offline?"
     a: "Nein. Marqly braucht eine Verbindung, weil Suche, Tagging und Zusammenfassungen serverseitig laufen. Wenn ein Offline-Modus für dich Bedingung ist, ist Marqly nicht das richtige Werkzeug."
   - q: "Was kann Marqly, das die Lesezeichen im Browser nicht können?"
@@ -89,6 +89,6 @@ Die kostenlose Stufe verlangt keine Kreditkarte. **Pro kostet 72 $/Jahr (rund 66
 
 ## Was Marqly nicht kann
 
-Damit du es vor der Installation weißt und nicht danach: Es gibt **keine Android-App**, **keinen Offline-Modus**, **keine öffentliche API**, **keine Team-Funktionen** und **kein Self-Hosting**. Wenn einer dieser Punkte für dich Bedingung ist, spar dir die Einrichtung. Was mit deinen Daten passiert – und was du exportieren kannst – steht in den [Datenschutz-Fragen](/de/datenschutz-fragen).
+Damit du es vor der Installation weißt und nicht danach: Es gibt **keinen Offline-Modus**, **keine öffentliche API**, **keine Team-Funktionen** und **kein Self-Hosting**. Wenn einer dieser Punkte für dich Bedingung ist, spar dir die Einrichtung. Was mit deinen Daten passiert – und was du exportieren kannst – steht in den [Datenschutz-Fragen](/de/datenschutz-fragen).
 
 Wenn dein Ordner „Lesen (wirklich)" gerade beim Lesen zuschaut: Leg ein Konto an, importiere deine Lesezeichen und such beim nächsten Mal einfach nach dem, woran du dich erinnerst. [Marqly kostenlos testen](https://app.marqly.com).

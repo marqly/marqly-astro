@@ -9,7 +9,7 @@ hero:
   heading: "保存は誰でもできる。Marqlyは、いつでも見つけ出せるようにします。"
   subheading: "AI搭載ブックマーク管理：自動タグ付け、AI要約、そして「入力した言葉」だけでなく「言いたい意味」を理解するセマンティック検索。"
 crumbHome: "ホーム"
-trustLine: "クレジットカード不要の無料プラン · Chrome、Edge、Firefox、Safari、iOS対応"
+trustLine: "クレジットカード不要の無料プラン · Chrome、Edge、Firefox、Safari、iOS、Android対応"
 faqHeading: "よくある質問"
 faqs:
   - q: "Marqlyとはどのようなサービスですか？"
@@ -19,7 +19,7 @@ faqs:
   - q: "既存のブックマークをインポートできますか？"
     a: "はい。PocketやRaindropのデータ、各ブラウザ（Chrome、Edge、Safari、Firefox）からエクスポートしたHTMLファイルをそのままインポート可能です。タグや階層情報も自動で整理されます。"
   - q: "Androidアプリはありますか？"
-    a: "現在ネイティブのAndroidアプリはありません。Android端末ではモバイルブラウザからWebアプリ（PWA）をご利用いただけます。"
+    a: "はい。AndroidアプリはGoogle Playにあります: https://play.google.com/store/apps/details?id=com.marqly.android。拡張機能、Webアプリ、iOSアプリと同じアカウントで使えます。"
   - q: "ブラウザ標準のブックマークと何が違うのですか？"
     a: "通常のブックマークはURLとタイトルを保存するだけですが、Marqlyは記事本文の要約、自動タグ、ハイライト、メモも保存します。タイトルを忘れても「睡眠と運動に関する記事」といった記憶の内容で即座に検索できます。"
 ctaUrl: "https://app.marqly.com"

@@ -9,7 +9,7 @@ hero:
   heading: "Salva un link oggi, ritrovalo fra sei mesi"
   subheading: "Marqly è un gestore di segnalibri con AI: mette i tag da solo, riassume quello che salvi e te lo ritrova quando lo cerchi con parole tue."
 crumbHome: "Home"
-trustLine: "Piano gratuito, senza carta · Chrome, Edge, Firefox, Safari e iOS"
+trustLine: "Piano gratuito, senza carta · Chrome, Edge, Firefox, Safari, iOS e Android"
 faqHeading: "Domande frequenti"
 faqs:
   - q: "Che cos'è un gestore di segnalibri con AI?"
@@ -17,7 +17,7 @@ faqs:
   - q: "Marqly è gratis?"
     a: "Sì, c'è un piano gratuito e per iniziare non ti chiede la carta. Il piano Pro costa 72 $/anno (circa 69 €) oppure 9 $/mese (circa 8 €), con 7 giorni di prova gratuita. Se sei uno studente verificato, il primo anno costa 48 $ (circa 46 €)."
   - q: "Su quali browser funziona?"
-    a: "L'estensione c'è per Chrome, Edge, Firefox e Safari. In più hai l'app web, che apri da qualsiasi computer, e l'app per iPhone e iPad. Per ora non esiste un'app Android."
+    a: "L'estensione c'è per Chrome, Edge, Firefox e Safari. In più hai l'app web, l'app per iPhone e iPad, e l'app Android su Google Play: https://play.google.com/store/apps/details?id=com.marqly.android"
   - q: "Posso importare i segnalibri che ho già?"
     a: "Sì. Marqly importa da Pocket, da Raindrop e dai file HTML dei preferiti esportati da qualsiasi browser. Puoi anche salvare i tuoi preferiti di X (Twitter)."
   - q: "Che cos'è la ricerca semantica?"

@@ -1,7 +1,7 @@
 # Marqly Product Facts — single source of truth for content writers
 
 Every claim in marketing/SEO content MUST come from this sheet. If a fact isn't
-here, don't invent it — write around it. Last updated: 2026-09-12.
+here, don't invent it — write around it. Last updated: 2026-09-15.
 
 ## What Marqly is
 
@@ -16,6 +16,7 @@ remember — **semantic search by meaning, not keywords**.
 - Edge add-on: https://microsoftedge.microsoft.com/addons/detail/marqly-%E2%80%93-the-ultimate-boo/gojjglmdginjjpgajdnobmnkmcogngok
 - Firefox add-on: https://addons.mozilla.org/en-US/firefox/addon/marqly/
 - iOS app: https://apps.apple.com/us/app/marqly-ai-bookmark-manager/id6758905385
+- Android app: https://play.google.com/store/apps/details?id=com.marqly.android
 - Public boards directory: https://app.marqly.com/discover
 - Support: support@marqly.com
 - Company line: "© Marqly Labs"
@@ -63,9 +64,9 @@ remember — **semantic search by meaning, not keywords**.
 
 ## Platforms
 
-Chrome, Edge, Firefox, Safari (extensions) · web app · iOS app. **No Android
-app** (web app works on Android browsers). No public API. Not self-hostable.
-No offline reading mode — don't claim offline support.
+Chrome, Edge, Firefox, Safari (extensions) · web app · iOS app · Android app.
+No public API. Not self-hostable. No offline reading mode — don't claim offline
+support.
 
 ## Features (the extension is the core of the product)
 
@@ -170,10 +171,10 @@ No offline reading mode — don't claim offline support.
 
 ## Never claim
 
-- Android app, offline mode (or "offline reading"/"offline copies" in any
-  form), public API, self-hosting, team/collab features, browser support
-  beyond the four above, SOC2 or other certifications, employee counts,
-  funding, AI-powered duplicate detection (dedup is exact-URL matching only).
+- Offline mode (or "offline reading"/"offline copies" in any form), public API,
+  self-hosting, team/collab features, browser support beyond the four above,
+  SOC2 or other certifications, employee counts, funding, AI-powered duplicate
+  detection (dedup is exact-URL matching only).
 - Do NOT publish Ask credit numbers or limits; do NOT say Ask "remembers
   everything" or "has memory of your whole library" (memory = a few clearable
   preferences); do NOT call the Ask icon "sparkles". (The old "single-shot, do
