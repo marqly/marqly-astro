@@ -81,12 +81,12 @@ Removed from all three sources. Verified `0 / 1,891` built pages contain
 | No numeric rating or review count attributed to Marqly in copy | `seo-check.mjs` gate 2 |
 | No "100 most recent" read-wall claim | `seo-check.mjs` gate 2 |
 | No "3-day trial" (it is 7 days) | `seo-check.mjs` gate 2 |
-| No affirmative claim of an Android app, offline mode, public API or self-hosting | `seo-check.mjs` gate 2 |
+| No affirmative claim of offline mode, a public API or self-hosting | `seo-check.mjs` gate 2 |
 | No lifetime-deal offer | `seo-check.mjs` gate 2 |
 | Pricing/feature copy matches `src/data/competitors/marqly.json` | manual — that file is the render source for compare/alternatives |
 
 Gate 2 is deliberately **attribution-aware**. A bare substring ban would flag
-378 pages of *correct* copy: comparison tables must show "Android app: —",
+378 pages of *correct* copy: comparison tables must show "offline reading: —",
 `/for-developers` must say "there's no public API and no self-hosted
 deployment", the FAQ must answer "Is there a Marqly lifetime deal?", and
 competitor rows legitimately cite e.g. "Anybox — 4.7 stars on the App Store".

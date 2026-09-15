@@ -78,7 +78,7 @@ check('no fabricated AggregateRating in JSON-LD', rated.map((p) => p.url),
 //   (a) phrases that are wrong in ANY context (stale limits, stale trial length,
 //       fabricated ratings);
 //   (b) capabilities Marqly does not have. For (b) a bare substring match is
-//       useless — the comparison tables MUST say "Android app: —" and the FAQ
+//       useless — the comparison tables MUST say "offline reading: —" and the FAQ
 //       MUST answer "Is there a Marqly lifetime deal?". So (b) only fires on an
 //       AFFIRMATIVE claim that Marqly has the capability.
 const ALWAYS_WRONG = [
@@ -87,12 +87,12 @@ const ALWAYS_WRONG = [
 ];
 /**
  * Capabilities Marqly does NOT have. Only fires when the claim is attributed to
- * Marqly: the comparison pages legitimately state "Android app: —", the FAQ
+ * Marqly: the comparison pages legitimately state "offline reading: —", the FAQ
  * legitimately answers "Is there a Marqly lifetime deal?", and competitor rows
  * legitimately cite e.g. "Anybox — 4.7 stars on the App Store". A window that
  * mentions another product, or that negates the capability, is correct copy.
  */
-const MARQLY_CLAIM = /\bmarqly\b[^.]{0,140}?\b(?:has|have|offers?|includes?|supports?|provides?|comes with|ships with)\b[^.]{0,140}?\b(?:android app|offline (?:reading|mode|copies|access)|public api|self-host)/i;
+const MARQLY_CLAIM = /\bmarqly\b[^.]{0,140}?\b(?:has|have|offers?|includes?|supports?|provides?|comes with|ships with)\b[^.]{0,140}?\b(?:offline (?:reading|mode|copies|access)|public api|self-host)/i;
 // Deliberately narrow: it must be an explicit rating construction attributed to
 // Marqly. Loose patterns match CSS ("/5)"), the word "started" (via /stars?/),
 // and competitor review scores that merely sit near a "Marqly Team" byline.
