@@ -21,7 +21,7 @@ faqs:
   - q: "Werkt het ook zonder browser-extensie?"
     a: "Via het webdashboard kun je links plakken en samenvatten, maar de extensie toont de AI-kaart rechtstreeks in YouTube voor ultiem gemak."
   - q: "Wat kost Marqly?"
-    a: "Er is een royale gratis versie tot 2.000 saves. Marqly Pro kost $72 per jaar ($39 eerste jaar met code STANDING39) of $9 per maand, inclusief 7 dagen gratis proefperiode."
+    a: "Er is een royale gratis versie tot 2.000 saves. Marqly Pro kost $72 per jaar ($39 eerste jaar met code STANDING39) of $9 per maand."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

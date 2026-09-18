@@ -17,7 +17,7 @@ faqs:
   - q: "¿Puedo compartir referencias con un cliente sin que tenga que registrarse?"
     a: "Sí, cualquier tablero puede compartirse como página web pública visible en el navegador sin crear cuenta ni instalar nada."
   - q: "¿Cuánto cuesta Marqly y qué incluye Pro?"
-    a: "Hay un plan gratis de hasta 2.000 elementos. Pro cuesta 72 $/año (39 $ el primer año con STANDING39) y añade preguntas con IA sobre tus notas y resúmenes de YouTube con 7 días de prueba."
+    a: "Hay un plan gratis de hasta 2.000 elementos. Pro cuesta 72 $/año (39 $ el primer año con STANDING39) y añade preguntas con IA sobre tus notas y resúmenes de YouTube."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probar Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"

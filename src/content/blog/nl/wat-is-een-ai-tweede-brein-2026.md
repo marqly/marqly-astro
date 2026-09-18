@@ -40,4 +40,4 @@ Het grote voordeel ten opzichte van een klassieke notitie-app is de **intelligen
 
 Veel mensen haken af bij methodes zoals PARA in Notion of Obsidian omdat het handmatig ordenen te veel tijd kost. Met [Marqly](https://app.marqly.com) neemt de software die taak over, zodat je systeem ook in drukke weken actueel en bruikbaar blijft.
 
-Marqly biedt een gratis account tot 2.000 items en een Pro-abonnement voor 72 $/jaar met een gratis proefperiode van 7 dagen.
+Marqly biedt een gratis account tot 2.000 items en een Pro-abonnement voor 72 $/jaar.

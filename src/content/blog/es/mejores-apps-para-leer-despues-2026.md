@@ -90,7 +90,7 @@ Envía páginas web directamente a tus bases de datos en Notion. Sin lector tipo
 
 No te preguntes «¿qué app guarda páginas más rápido?»: todas lo hacen en un segundo. La pregunta clave es: **«¿qué aplicación me permitirá encontrar dentro de cuatro meses aquel artículo del que solo recuerdo una idea general?»**. Ahí es donde la mayoría fracasa y donde la búsqueda con IA marca una diferencia abrumadora.
 
-[Prueba Marqly gratis](https://app.marqly.com/lp/replace-pocket), importa tu historial de lectura y empieza a buscar por significado. Sin tarjeta de crédito, 7 días de prueba Pro y hasta 2.000 marcadores gratis.
+[Prueba Marqly gratis](https://app.marqly.com/lp/replace-pocket), importa tu historial de lectura y empieza a buscar por significado. Sin tarjeta de crédito y hasta 2.000 marcadores gratis.
 
 ---
 

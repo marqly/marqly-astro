@@ -42,4 +42,4 @@ Het onderhouden van ingewikkelde systemen in tools als Notion of Obsidian kost t
 
 Met [Marqly](https://app.marqly.com) importeer je je links en laat je de AI het werk doen: automatische samenvattingen, labels en zoeken op betekenis.
 
-Marqly biedt tot 2.000 opgeslagen links gratis en een Pro-plan voor 72 $/jaar met een gratis proefperiode van 7 dagen.
+Marqly biedt tot 2.000 opgeslagen links gratis en een Pro-plan voor 72 $/jaar.

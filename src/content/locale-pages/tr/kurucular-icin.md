@@ -17,7 +17,7 @@ faqs:
   - q: "Marqly uzun kurucu mülakatlarını özetlemeye yardımcı olur mu?"
     a: "Evet, YouTube videoları için akış özetleri ve tam transkript sunar, Pro ile video içeriğiyle doğrudan sohbet edebilirsiniz."
   - q: "Bootstrapped bir kurucu için Marqly'nin maliyeti nedir?"
-    a: "2.000 yer imine kadar ücretsiz plan mevcuttur. Pro plan yıllık 72 $'dır (STANDING39 kuponuyla ilk yıl 39 $) ve 7 günlük ücretsiz deneme içerir."
+    a: "2.000 yer imine kadar ücretsiz plan mevcuttur. Pro plan yıllık 72 $'dır (STANDING39 kuponuyla ilk yıl 39 $)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi ücretsiz deneyin"
 ctaSecondaryLabel: "Chrome'a ekle — ücretsiz"

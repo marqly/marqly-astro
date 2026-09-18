@@ -60,7 +60,7 @@ Przetestuj dowolne narzędzie przed zakupem subskrypcji:
 
 ## Werdykt
 
-- **Marqly:** Najlepsze narzędzie do wyszukiwania po znaczeniu. Plan bezpłatny do 2000 zapisów; Pro w cenie 72 $/rok (6 $/mies. przy rozliczeniu rocznym lub 9 $/mies.) z 7-dniowym okresem próbnym i kodem STANDING39 (39 $ za pierwszy rok).
+- **Marqly:** Najlepsze narzędzie do wyszukiwania po znaczeniu. Plan bezpłatny do 2000 zapisów; Pro w cenie 72 $/rok (6 $/mies. przy rozliczeniu rocznym lub 9 $/mies.) z kodem STANDING39 (39 $ za pierwszy rok).
 - **mymind:** Świetny wybór dla projektantów i miłośników estetycznych tablic inspiracji.
 - **Readwise Reader:** Bezkonkurencyjny dla osób intensywnie czytających książki i artykuły z zaznaczeniami.
 - **Raindrop.io:** Wzorcowy tradycyjny menedżer dla zwolenników ręcznej organizacji w folderach.

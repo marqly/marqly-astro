@@ -1,6 +1,6 @@
 ---
 question: "What's the difference between Marqly Free and Pro?"
-description: "Marqly Free covers saving, boards, highlights and keyword search across your whole library, up to 2,000 bookmarks. Every AI feature is Pro — tagging, summaries, semantic search, the Ask assistant and MCP access — at $72/yr or $9/mo, 7-day trial."
+description: "Marqly Free covers saving, boards, highlights and keyword search across your whole library, up to 2,000 bookmarks. Every AI feature is Pro — tagging, summaries, semantic search, the Ask assistant and MCP access — at $72/yr or $9/mo."
 category: pricing
 updatedDate: 2026-09-12
 related:
@@ -9,7 +9,7 @@ related:
   - what-happens-when-my-trial-ends
 ---
 
-Marqly Free is the manual bookmark manager: save links from your browser, file them into boards, highlight what matters, and search by keyword. It covers your whole library, up to 2,000 bookmarks. **Every AI feature is Pro** — auto-tagging and summaries on every save, semantic search across your whole library, Ask (the assistant that answers from your saves, finds problems and tidies with your approval), your library inside Claude, ChatGPT and Cursor over MCP, and chat with YouTube videos through their transcripts. Pro costs $72 per year or $9 per month, with a 7-day free trial, and the trial is the way to try the AI on your own library.
+Marqly Free is the manual bookmark manager: save links from your browser, file them into boards, highlight what matters, and search by keyword. It covers your whole library, up to 2,000 bookmarks. **Every AI feature is Pro** — auto-tagging and summaries on every save, semantic search across your whole library, Ask (the assistant that answers from your saves, finds problems and tidies with your approval), your library inside Claude, ChatGPT and Cursor over MCP, and chat with YouTube videos through their transcripts. Pro costs $72 per year or $9 per month, billed when you upgrade, and you can cancel anytime.
 
 ## What Free includes
 
@@ -44,4 +44,4 @@ If you mostly want somewhere reliable to put things and keyword search is enough
 
 ## Try before you pay
 
-The 7-day Pro trial lets you test semantic search, Ask and the YouTube chat on your real library. If you don't subscribe afterwards, you keep the free tier and all your saves — see [what happens when the trial ends](/faq/what-happens-when-my-trial-ends).
+There is no trial: the free plan is how you evaluate Marqly, with no card and no time limit. When you want semantic search, Ask and the YouTube chat on your own library, upgrade to Pro — it is billed from that moment and you can cancel anytime. If you cancel later, you keep the free tier and all your saves — see [what happens when you cancel Pro](/faq/what-happens-when-my-trial-ends).

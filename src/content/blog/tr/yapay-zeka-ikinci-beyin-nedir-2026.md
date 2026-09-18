@@ -40,4 +40,4 @@ Klasik bir not uygulamasından en büyük farkı, bilginin nerede saklandığın
 
 Notion veya Obsidian gibi araçlarda klasör ağaçları kurarak ikinci beyin oluşturmaya çalışan çoğu kullanıcı, sistemi güncel tutmanın getirdiği yorgunluk nedeniyle vazgeçer. [Marqly](https://app.marqly.com), tüm bu düzenleme yükünü yapay zekaya devrederek her zaman düzenli kalan akıllı bir bilgi arşivi sunar.
 
-Marqly'de 2.000 linke kadar ücretsiz plan sunulurken, Pro plan yıllık 72 dolardır (7 günlük ücretsiz deneme imkanıyla).
+Marqly'de 2.000 linke kadar ücretsiz plan sunulurken, Pro plan yıllık 72 dolardır.

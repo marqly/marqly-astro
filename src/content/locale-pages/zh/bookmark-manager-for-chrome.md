@@ -19,7 +19,7 @@ faqs:
   - q: "它会替换 Chrome 原生书签吗？"
     a: "两者并存运行。Chrome 原生收藏栏保持不变，Marqly 为您提供多端同步（Safari、Edge、Firefox、iOS及网页版）与AI语义检索。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

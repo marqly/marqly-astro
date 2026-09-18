@@ -12,7 +12,7 @@ tags:
   - "PARA 방식 대안"
   - "개인 지식 관리 AI"
 ctaUrl: "https://app.marqly.com/lp/knowledge-base"
-ctaLabel: "Marqly 무료 체험"
+ctaLabel: "Marqly 무료로 시작하기"
 lang: "ko"
 faqs:
   - q: "세컨드 브레인(Second Brain)이란 무엇인가요?"

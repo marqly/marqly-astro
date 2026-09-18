@@ -17,7 +17,7 @@ faqs:
   - q: "Marqly 是否会替代 Zotero 或 EndNote 在博士论文中的角色？"
     a: "不会。文献引用格式和 BibTeX 仍交由 Zotero 等工具处理。Marqly 解决的是理解与记忆层面的问题：记住每篇论文的核心论点、持久留存网页高亮并支持模糊概念检索。"
   - q: "博士生在有限科研经费下使用成本如何？"
-    a: "提供无需绑定信用卡的免费版。Pro 版每年仅需 72 美元（首年使用优惠码 STANDING39 仅需 39 美元），并提供 7 天免费试用。"
+    a: "提供无需绑定信用卡的免费版。Pro 版每年仅需 72 美元（首年使用优惠码 STANDING39 仅需 39 美元）。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"

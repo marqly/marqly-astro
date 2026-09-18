@@ -4,6 +4,32 @@ Every SEO action, why it won its slot, and how it was verified. Newest first.
 
 ---
 
+## 2026-09-18 — Free trial retired everywhere (hard paywall)
+
+Marqly stopped selling a trial on 2026-09-18 (app + API shipped the same day; 11 trials
+in August, 0 converted). Every Marqly-attributed trial promise on the site was removed:
+pricing page + landing `PricingSection` (CTA "Start the free trial" → "Get Pro", badge
+"7-DAY FREE TRIAL" → "CANCEL ANYTIME"), Terms §4.4 (now "Payment & Refunds"; stance
+unchanged), landing FAQ, AI-assistant section, Instapaper migration page,
+`compare-content.ts`, `competitors/marqly.json` (`trial: null`), `llms.txt`/`llms-full.txt`,
+ASO listing copy, the product-facts sheet, 13 EN + 183 localized blog posts (206 edits),
+11 FAQs (incl. a full rewrite of `/faq/what-happens-when-my-trial-ends` as the cancel-Pro
+page — slug kept for its inbound links/hreflang), 30 use-case landers and 263 locale
+landers (351 edits). Competitor trial facts (Readwise Reader, Linkwarden, mymind…) were
+deliberately left intact. zh/ko CTA labels that literally read "free trial"
+(免费试用 / 무료 체험) became "start for free".
+
+Guard: `seo-check.mjs` gate 2 now fails on any trial promise attributed to Marqly
+(`MARQLY_TRIAL_FWD/REV`, negation- and question-aware, competitor-window aware);
+`f04-commercial-claims` T1.F04.04 rejects any trial wording on the Raindrop compare page.
+
+### Verification
+- `npm run build` → 1,910 pages, 0 frontmatter parse signatures.
+- `npm run seo:check` → **ALL 16 SEO GATES PASSED (1,909 pages)**, 0 false claims.
+- `node active/scripts/test-e2e-raindrop.mjs --strict` → 184/184 (80/80, 80/80, 16/16, 8/8).
+
+---
+
 ## 2026-09-13 — SEO completion and strict certification
 
 Completed the DE/FR migration routes and hardened benchmark claims and pricing

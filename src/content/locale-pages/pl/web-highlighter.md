@@ -19,7 +19,7 @@ faqs:
   - q: "Czy mogę dodać własną notatkę do zakreślenia?"
     a: "Tak. Do każdego wyróżnionego fragmentu możesz dopisać myśl, dlaczego to miejsce jest istotne. Notatki i cytaty można później przeszukiwać."
   - q: "Ile kosztuje rozszerzenie zakreślacza?"
-    a: "Podstawowy plan jest darmowy. Pakiet Pro z nielimitowanymi zaznaczeniami i wyszukiwaniem semantycznym kosztuje 72 USD/rok (39 USD z kuponem STANDING39) lub 9 USD/miesięcznie (7 dni darmowego testu)."
+    a: "Podstawowy plan jest darmowy. Pakiet Pro z nielimitowanymi zaznaczeniami i wyszukiwaniem semantycznym kosztuje 72 USD/rok (39 USD z kuponem STANDING39) lub 9 USD/miesięcznie."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"

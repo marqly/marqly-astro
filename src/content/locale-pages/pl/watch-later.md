@@ -21,7 +21,7 @@ faqs:
   - q: "Czy muszę instalować rozszerzenie przeglądarki?"
     a: "Z poziomu aplikacji webowej również możesz generować streszczenia, ale rozszerzenie pozwala na automatyczne wyświetlanie karty AI na samej stronie YouTube."
   - q: "Jak wygląda cennik?"
-    a: "Darmowy pakiet pozwala na zapisanie do 2000 elementów. Wersja Pro z nielimitowanymi rozmowami AI kosztuje 72 USD rocznie (39 USD z kuponem STANDING39) lub 9 USD miesięcznie (7 dni bezpłatnej próby)."
+    a: "Darmowy pakiet pozwala na zapisanie do 2000 elementów. Wersja Pro z nielimitowanymi rozmowami AI kosztuje 72 USD rocznie (39 USD z kuponem STANDING39) lub 9 USD miesięcznie."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"

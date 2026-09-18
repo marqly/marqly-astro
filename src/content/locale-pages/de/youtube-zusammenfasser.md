@@ -17,7 +17,7 @@ faqs:
   - q: "Was genau liefert die Zusammenfassung?"
     a: "Drei Dinge: Ein sofort lesbares Streaming-TL;DR, die wichtigsten Abschnitte für gezielte Sprünge und alle im Video erwähnten Buchempfehlungen."
   - q: "Wie funktioniert der Chat mit dem Video?"
-    a: "Der Chat beantwortet konkrete Fragen direkt aus dem Transkript des Videos. Dieses Pro-Feature kann 7 Tage kostenlos getestet werden."
+    a: "Der Chat beantwortet konkrete Fragen direkt aus dem Transkript des Videos. Das ist ein Pro-Feature."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — gratis"

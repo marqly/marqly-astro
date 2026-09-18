@@ -1,6 +1,6 @@
 ---
 question: "How much does Marqly cost?"
-description: "Marqly Pro costs $72/year (about $6/month billed annually) or $9/month billed monthly. A free tier is available too, and Pro comes with a 7-day free trial."
+description: "Marqly Pro costs $72/year (about $6/month billed annually) or $9/month billed monthly. A free tier is available too, with no card required."
 category: pricing
 updatedDate: 2026-08-02
 related:
@@ -9,7 +9,7 @@ related:
   - marqly-coupons-and-discounts
 ---
 
-Marqly Pro costs $72 per year — about $6 a month when billed annually — or $9 per month if you prefer monthly billing. There's also a free tier that requires no credit card, and every new account can test Pro with a 7-day free trial before paying anything. Annual billing works out to about 33% less than paying month to month.
+Marqly Pro costs $72 per year — about $6 a month when billed annually — or $9 per month if you prefer monthly billing. There's also a free tier that requires no credit card and never expires; Pro is billed when you upgrade, and you can cancel anytime. Annual billing works out to about 33% less than paying month to month.
 
 ## The two plans
 
@@ -24,7 +24,7 @@ The math is simple:
 - **Annual**: $72/year, which works out to about $6/month (with a standing first-year offer of $39)
 - **Monthly**: $9/month, or $108 over a year
 
-Paying annually saves you roughly 33% compared to twelve monthly payments (and 46% off your first year with the $39 annual promo). If you're unsure whether you'll stick with it, start monthly or use the 7-day trial, then switch to annual once you know it fits your workflow. There are no other discounts to hunt for — annual billing is the deal.
+Paying annually saves you roughly 33% compared to twelve monthly payments (and 46% off your first year with the $39 annual promo). If you're unsure whether you'll stick with it, start monthly, then switch to annual once you know it fits your workflow. There are no other discounts to hunt for — annual billing is the deal.
 
 ## How it compares
 

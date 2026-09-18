@@ -81,7 +81,7 @@ Si el gran talón de Aquiles de Pocket era que guardar resultaba facilísimo per
 
 - **Ventajas:** Búsqueda semántica con IA, etiquetado automático inteligente, resúmenes automáticos, importación impecable de Pocket, modo de lectura limpio, precio muy accesible.
 - **Desventajas:** Más joven que los gigantes históricos, comunidad en plena fase de expansión.
-- **Precio:** Plan gratuito con hasta 2.000 guardados y búsqueda en toda la biblioteca; plan Pro por 72 $/año (~6 $/mes, con cupón `STANDING39` a 39 $ el primer año) o 9 $/mes. Prueba gratuita de 7 días.
+- **Precio:** Plan gratuito con hasta 2.000 guardados y búsqueda en toda la biblioteca; plan Pro por 72 $/año (~6 $/mes, con cupón `STANDING39` a 39 $ el primer año) o 9 $/mes.
 
 [Prueba Marqly gratis →](https://app.marqly.com/lp/replace-pocket)
 

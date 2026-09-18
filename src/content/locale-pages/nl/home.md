@@ -15,7 +15,7 @@ faqs:
   - q: "Wat is Marqly precies?"
     a: "Marqly is een moderne bladwijzerbeheerder met AI. Je bewaart webpagina's, video's en artikelen met één klik. Marqly voegt automatisch tags en samenvattingen toe en maakt alles doorzoekbaar via semantische zoekopdrachten. Beschikbaar voor Chrome, Edge, Firefox, Safari, web en iOS."
   - q: "Is Marqly gratis te gebruiken?"
-    a: "Ja, er is een gratis abonnement tot 2.000 bladwijzers met volledige zoekfunctionaliteit zonder creditcard. Het onbeperkte Pro-abonnement kost $72/jaar (het eerste jaar $39 met kortingscode) of $9/maand, inclusief 7 dagen gratis proefperiode."
+    a: "Ja, er is een gratis abonnement tot 2.000 bladwijzers met volledige zoekfunctionaliteit zonder creditcard. Het onbeperkte Pro-abonnement kost $72/jaar (het eerste jaar $39 met kortingscode) of $9/maand."
   - q: "Kan ik mijn bestaande bladwijzers importeren?"
     a: "Zeker. Marqly importeert moeiteloos exports vanuit Pocket, Raindrop en de standaard HTML-bladwijzerbestanden van Chrome, Edge, Firefox en Safari."
   - q: "Is er een Android-app?"

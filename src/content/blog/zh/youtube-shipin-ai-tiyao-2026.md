@@ -20,7 +20,7 @@ faqs:
   - q: "ChatGPT可以总结YouTube视频吗？"
     a: "可以，但必须手动粘贴字幕文本。你需要在YouTube上展开逐字稿并全选复制，再粘贴进ChatGPT提问。每个视频需要经历五六个手动步骤，且总结记录孤立在对话历史中。"
   - q: "Marqly的YouTube AI总结功能免费吗？"
-    a: "支持免费开始使用。Chrome、Edge、Firefox和Safari插件均可免费安装并体验基础摘要。Marqly Pro支持无限制视频AI对话与语义搜索，年付72美元（首年使用折扣码 STANDING39 为39美元）或月付9美元，提供7天免费试用。"
+    a: "支持免费开始使用。Chrome、Edge、Firefox和Safari插件均可免费安装并体验基础摘要。Marqly Pro支持无限制视频AI对话与语义搜索，年付72美元（首年使用折扣码 STANDING39 为39美元）或月付9美元。"
   - q: "可以就视频内容向AI追问吗？"
     a: "可以。Marqly拥有专属Chat功能，可直接根据视频中说话者的实际台词进行问答，并提供精确的内容出处引用。"
 heroImage: ../../../assets/blog/summarize-youtube-videos-with-ai.png

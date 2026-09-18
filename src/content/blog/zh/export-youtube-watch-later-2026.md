@@ -12,7 +12,7 @@ tags:
   - "YouTube视频备份"
   - "保存YouTube视频"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "Google Takeout可以导出“稍后观看”播放列表吗？"
@@ -49,4 +49,4 @@ ogImage: "https://www.marqly.com/og/export-youtube-watch-later-2026.png"
 - Marqly 自动抓取并保留视频的**完整逐字稿（Transcript）**，并生成精准的 AI 要点摘要。
 - 借助**语义搜索**，哪怕忘记视频标题，只要输入“讲解如何调整自行车变速器的教程”，系统即可精准定位。
 
-Marqly 免费版支持保存多达2,000条内容，Pro 版每年72美元（折合每月约6美元，支持7天免费试用）。立即拯救你的稍后观看清单！
+Marqly 免费版支持保存多达2,000条内容，Pro 版每年72美元（折合每月约6美元）。立即拯救你的稍后观看清单！

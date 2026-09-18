@@ -173,23 +173,12 @@ const PROMO_CODE = 'STANDING39';
           }
         </ul>
         {/*
-          The discount and the trial are mutually exclusive, and the page must not imply
-          otherwise. `subscribeStripe` suppresses the trial whenever a promotion code is
-          applied (`cardTrialEnabled = !couponApplied && …`) — deliberately, so nobody gets
-          "free for a week, then discounted". So a single CTA reading "Start the free trial"
-          while carrying coupon=STANDING39 would charge immediately and contradict its own
-          label, which is exactly the kind of mismatch that cost real purchases in 2026-09.
-          Both offers are therefore shown as what they are, and only the primary one carries
-          the code.
+          Marqly sells no free trial (retired 2026-09-18): Pro is billed the moment you
+          upgrade. The CTA therefore only ever says "Get Pro" — with the first-year offer on
+          annual, at list price on monthly — and carries the promotion code only when the
+          checkout will honour it (annual). A label that promises something the checkout
+          will not deliver is exactly the mismatch that cost real purchases in 2026-09.
         */}
-        <a
-          href={`${APP_URL}/checkout?billing=yearly&src=www_pricing_trial`}
-          data-cta="pricing_pro_trial"
-          data-pricing-cta="trial"
-          class="mt-5 mb-3 flex items-center justify-center text-[12px] text-white/70 underline-offset-4 transition-colors hover:text-white hover:underline"
-        >
-          or start a 7-day free trial at $72/year
-        </a>
         <a
           href={APP_URL}
           data-cta="pricing_pro"
@@ -254,14 +243,11 @@ const PROMO_CODE = 'STANDING39';
         wasEl.hidden = !price.was;
       }
       if (saveEl) {
-        saveEl.textContent = price.promo ? `${PROMO_SAVE} · FIRST YEAR` : '7-DAY FREE TRIAL';
+        saveEl.textContent = price.promo ? `${PROMO_SAVE} · FIRST YEAR` : 'CANCEL ANYTIME';
       }
-      // On monthly there is no discount, so the CTA goes back to the trial and the
-      // separate trial link would be a duplicate of it.
+      // On monthly there is no discount, so the CTA is plain "Get Pro" at list price.
       const ctaLabel = section.querySelector('[data-price-cta-label]');
-      const trialLink = section.querySelector('[data-pricing-cta="trial"]');
-      if (ctaLabel) ctaLabel.textContent = price.promo ? 'Get Pro — $39 for year one' : 'Start the free trial';
-      if (trialLink) trialLink.hidden = !price.promo;
+      if (ctaLabel) ctaLabel.textContent = price.promo ? 'Get Pro — $39 for year one' : 'Get Pro — $9/month';
       buttons.forEach((button) => {
         const isActive = button.dataset.billingBtn === key;
         button.setAttribute('aria-pressed', String(isActive));

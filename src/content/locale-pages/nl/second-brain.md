@@ -21,7 +21,7 @@ faqs:
   - q: "Kan ik mijn bestaande bladwijzers en gegevens importeren?"
     a: "Zeker. Marqly importeert moeiteloos HTML-bladwijzers uit Chrome, Safari, Edge en Firefox, plus exports uit Raindrop.io en Pocket."
   - q: "Wat zijn de kosten?"
-    a: "Er is een gratis tier tot 2.000 saves. Marqly Pro kost $72 per jaar ($39 in het eerste jaar met code STANDING39) of $9 per maand, inclusief een gratis proefperiode van 7 dagen."
+    a: "Er is een gratis tier tot 2.000 saves. Marqly Pro kost $72 per jaar ($39 in het eerste jaar met code STANDING39) of $9 per maand."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

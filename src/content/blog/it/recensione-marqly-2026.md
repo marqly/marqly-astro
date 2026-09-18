@@ -15,7 +15,7 @@ ctaLabel: "Prova Marqly gratis"
 lang: "it"
 faqs:
   - q: "Quanto costa Marqly Pro?"
-    a: "Costa 72 $/anno (6 $/mese annuale o 9 $/mese) con 7 giorni di prova gratuita e coupon STANDING39 (39 $ il primo anno)."
+    a: "Costa 72 $/anno (6 $/mese annuale o 9 $/mese) con coupon STANDING39 (39 $ il primo anno)."
 heroImage: ../../../assets/blog/marqly-review-2026.png
 heroAlt: "Recensione Marqly 2026"
 ---

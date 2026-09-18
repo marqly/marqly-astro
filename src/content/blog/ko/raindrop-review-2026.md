@@ -11,7 +11,7 @@ tags:
   - "Raindrop vs Marqly"
   - "북마크 앱"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly 무료 체험하기"
+ctaLabel: "Marqly 무료로 시작하기"
 lang: "ko"
 faqs:
   - q: "Raindrop.io는 시맨틱 검색을 지원하나요?"

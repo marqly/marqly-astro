@@ -28,7 +28,6 @@ If you search "Marqly promo code," you'll find aggregator sites listing codes li
 
 - **Bill annually.** $72/yr instead of $108/yr — the 33% saving mentioned above.
 - **Verify a student email.** Verified students get Pro for $48 in their first year instead of $72 — see below.
-- **Use the 7-day free trial** before paying anything, so you never pay for a product you won't use.
 - **Stay on the free tier** if the core save, auto-tag, and search experience covers your needs — it has no time limit and needs no card.
 
 ## Student pricing?

@@ -12,7 +12,7 @@ tags:
   - "유튜브 동영상 백업"
   - "유튜브 보관함"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly 무료 체험"
+ctaLabel: "Marqly 무료로 시작하기"
 lang: "ko"
 faqs:
   - q: "Google 테이크아웃으로 '나중에 볼 동영상'을 내려받을 수 있나요?"
@@ -49,4 +49,4 @@ ogImage: "https://www.marqly.com/og/export-youtube-watch-later-2026.png"
 - 영상의 **전체 스크립트(자막)를 자동으로 함께 보관**하며 핵심 AI 요약을 제공.
 - **시맨틱(의미 기반) 검색**으로 "자전거 변속기 세팅 꿀팁 영상"처럼 자연어로 기억나는 내용을 묘사해 검색 가능.
 
-Marqly는 최대 2,000개 링크까지 무료로 지원하며, Pro 플랜은 연 72달러(월 약 6달러, 7일 무료 체험)로 이용할 수 있습니다.
+Marqly는 최대 2,000개 링크까지 무료로 지원하며, Pro 플랜은 연 72달러(월 약 6달러)로 이용할 수 있습니다.

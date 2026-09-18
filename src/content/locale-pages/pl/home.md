@@ -15,7 +15,7 @@ faqs:
   - q: "Czym dokładnie jest Marqly?"
     a: "Marqly to nowoczesny menedżer zakładek wspierany przez sztuczną inteligencję. Zapisujesz strony, artykuły i filmy jednym kliknięciem. Marqly automatycznie dodaje tagi i streszczenia oraz pozwala wyszukiwać treści na podstawie ich znaczenia, nawet jeśli zapomnisz dokładnego tytułu."
   - q: "Czy Marqly jest darmowy?"
-    a: "Tak, oferujemy darmowy plan do 2 000 zapisanych pozycji z pełnym przeszukiwaniem biblioteki i bez konieczności podawania karty. Plan Pro z nielimitowanym miejscem kosztuje 72 USD rocznie (39 USD za pierwszy rok ze zniżką) lub 9 USD miesięcznie, z 7-dniowym okresem próbnym."
+    a: "Tak, oferujemy darmowy plan do 2 000 zapisanych pozycji z pełnym przeszukiwaniem biblioteki i bez konieczności podawania karty. Plan Pro z nielimitowanym miejscem kosztuje 72 USD rocznie (39 USD za pierwszy rok ze zniżką) lub 9 USD miesięcznie."
   - q: "Czy mogę zaimportować moje stare zakładki?"
     a: "Oczywiście. Marqly bez trudu importuje archiwa z Pocket, Raindrop oraz standardowe pliki zakładek HTML z Chrome, Edge, Firefox i Safari."
   - q: "Czy dostępna jest aplikacja na Androida?"

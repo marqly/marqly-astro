@@ -43,4 +43,4 @@ Demandez par exemple : *"Quels étaient les arguments majeurs contre les bureaux
 3. **Lisez la synthèse :** L'IA rassemble les informations complémentaires dispersées dans vos liens.
 4. **Accédez aux sources :** Cliquez sur les articles cités pour approfondir.
 
-Marqly inclut un compte gratuit jusqu'à 2 000 éléments et une formule Pro à 72 $/an avec 7 jours d'essai gratuit.
+Marqly inclut un compte gratuit jusqu'à 2 000 éléments et une formule Pro à 72 $/an.

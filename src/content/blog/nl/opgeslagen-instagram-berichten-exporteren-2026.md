@@ -54,4 +54,4 @@ Om je verzamelde inspiratie écht tot zijn recht te laten komen:
 - Gebruik **semantisch zoeken**: typ *"de video over het repareren van een piepend deurscharnier"* en vind het bericht direct terug.
 - Beheer artikelen, video's en sociale media op één overzichtelijke plek.
 
-Marqly biedt een gratis account tot 2.000 items en een Pro-abonnement voor 72 $/jaar met 7 dagen gratis proefperiode.
+Marqly biedt een gratis account tot 2.000 items en een Pro-abonnement voor 72 $/jaar.

@@ -26,6 +26,6 @@ The point of asking AI about your saves is grounding: answers are based on the c
 
 ## What you need
 
-Asking AI about your saves requires Marqly Pro: $72/year (about $6/month billed annually) or $9/month, with a 7-day free trial. See [what's in Marqly free vs Pro](/faq/whats-in-marqly-free-vs-pro) for the split.
+Asking AI about your saves requires Marqly Pro: $72/year (about $6/month billed annually) or $9/month. See [what's in Marqly free vs Pro](/faq/whats-in-marqly-free-vs-pro) for the split.
 
 For example questions and a full workflow, read [how to ask AI about your saved articles](/blog/how-to-chat-with-your-saved-articles).

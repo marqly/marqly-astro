@@ -19,7 +19,7 @@ faqs:
   - q: "在办公室使用 Windows 电脑怎么办？"
     a: "这正是 Marqly 的核心优势。无需依赖仅限苹果设备的 iCloud，在 Windows 上通过 Chrome、Edge 或网页版即可随时查看 Safari 收藏。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

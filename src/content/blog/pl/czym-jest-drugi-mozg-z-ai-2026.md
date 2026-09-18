@@ -40,4 +40,4 @@ Kluczowa różnica w porównaniu ze zwykłymi notatnikami: **nie musisz pamięta
 
 Większość osób porzuca budowanie drugiego mózgu w Notion czy Obsidianie, ponieważ ręczna kategoryzacja zajmuje zbyt wiele czasu. W [Marqly](https://app.marqly.com) to algorytm dba o strukturę, dzięki czemu Twoja wiedza pozostaje zawsze uporządkowana.
 
-Marqly oferuje darmowe konto do 2000 pozycji oraz pakiet Pro w cenie 72 USD rocznie z 7-dniowym bezpłatnym okresem próbnym.
+Marqly oferuje darmowe konto do 2000 pozycji oraz pakiet Pro w cenie 72 USD rocznie.

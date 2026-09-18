@@ -20,7 +20,7 @@ faqs:
   - q: "L'IA invente-t-elle des réponses fictives ?"
     a: "Non, car les réponses sont ancrées dans la transcription. Si l'intervenant n'a pas abordé le sujet, l'IA l'indique clairement au lieu de spéculer."
   - q: "La fonctionnalité de chat vidéo est-elle gratuite sur Marqly ?"
-    a: "Le chat vidéo interactif fait partie de Marqly Pro (72 $ par an, soit environ 6 $ par mois en facturation annuelle) avec un essai gratuit de 7 jours. L'extension et les résumés disposent d'un niveau d'accès gratuit."
+    a: "Le chat vidéo interactif fait partie de Marqly Pro (72 $ par an, soit environ 6 $ par mois en facturation annuelle). L'extension et les résumés disposent d'un niveau d'accès gratuit."
   - q: "Puis-je sauvegarder la vidéo pour lui poser des questions plus tard ?"
     a: "Oui. Le bouton de favori de Marqly enregistre la vidéo avec sa transcription dans votre bibliothèque pour que vous puissiez l'interroger à tout moment."
 heroImage: ../../../assets/blog/chat-with-youtube-videos.png

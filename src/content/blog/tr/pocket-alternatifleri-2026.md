@@ -35,7 +35,7 @@ Mozilla'nın 2025 yılında Pocket hizmetini sonlandırması web dünyasında bi
 ### 1. Marqly — Yapay zeka anlamsal aramalı en modern alternatif
 Marqly, Pocket'ın boşluğunu dolduran en güçlü araçtır. HTML dışa aktarma dosyasını saniyeler içinde içe aktarır, reklamsız temiz bir okuma modu sunar ve **yapay zeka destekli anlamsal arama** ile tam başlığı unutsanız bile aklınızda kalan konuyu yazarak içeriği bulmanızı sağlar.
 - **Kimler için**: Kaydettiği linkleri unutmaktan bıkan ve aradığını anında bulmak isteyenler.
-- **Fiyat**: 2.000 yer imine kadar ücretsiz; Pro yıllık 72$ (ilk yıl 39$) ve 7 gün ücretsiz deneme.
+- **Fiyat**: 2.000 yer imine kadar ücretsiz; Pro yıllık 72$ (ilk yıl 39$).
 
 ### 2. Raindrop.io — En iyi ücretsiz bağlantı yöneticisi
 Klasik klasör ve etiket yapısını sevenler için zengin ücretsiz özellikler sunar. Araması klasik anahtar kelimelere dayanır.

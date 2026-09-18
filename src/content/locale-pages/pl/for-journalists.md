@@ -21,7 +21,7 @@ faqs:
   - q: "Czy nadaje się do materiałów o najwyższej klauzuli poufności?"
     a: "Marqly to zabezpieczona usługa w chmurze bez instalacji lokalnej. W przypadku tajemnicy dziennikarskiej najwyższego ryzyka należy kierować się procedurami bezpieczeństwa redakcji."
   - q: "Ile wynosi koszt subskrypcji?"
-    a: "Plan darmowy obejmuje do 2 000 zakładek. Plan Pro kosztuje 72 $/rok (z kodem STANDING39 pierwszy rok za 39 $) lub 9 $/miesięcznie i zawiera 7 dni bezpłatnego okresu próbnego."
+    a: "Plan darmowy obejmuje do 2 000 zakładek. Plan Pro kosztuje 72 $/rok (z kodem STANDING39 pierwszy rok za 39 $) lub 9 $/miesięcznie."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"

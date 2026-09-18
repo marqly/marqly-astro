@@ -13,7 +13,7 @@ tags:
   - "浏览器标签清理"
   - "Chrome标签保存"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "2026年最适合我的标签页管理软件是哪个？"

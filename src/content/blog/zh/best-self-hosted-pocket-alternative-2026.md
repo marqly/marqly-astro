@@ -11,7 +11,7 @@ tags:
   - "Wallabag 评测"
   - "稍后读 私有部署"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "自建稍后读服务相比商业工具有何优劣？"

@@ -60,4 +60,4 @@ Um aus reinen URLs eine funktionale Wissenssammlung zu machen:
 - Die Marqly-KI ruft die jeweiligen Reddit-Seiten ab, ermittelt die Originaltitel und generiert thematische Schlagwörter.
 - Mit der **semantischen Suche** finden Sie Diskussionen über inhaltliche Umschreibungen wieder (z. B. *"der Beitrag über Sauerteig-Probleme"*), ohne den Subreddit-Namen kennen zu müssen.
 
-Marqly bietet einen kostenlosen Tarif für bis zu 2.000 Links und einen Pro-Plan für 72 $/Jahr mit 7-tägiger kostenloser Testphase.
+Marqly bietet einen kostenlosen Tarif für bis zu 2.000 Links und einen Pro-Plan für 72 $/Jahr.

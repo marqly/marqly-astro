@@ -20,7 +20,7 @@ faqs:
   - q: "Czy ChatGPT potrafi streścić film z YouTube?"
     a: "Tak, ale musisz ręcznie wkleić transkrypcję. Trzeba otworzyć transkrypcję pod filmem, zaznaczyć ją, skopiować, przejść do okna ChatGPT i wydać polecenie. Wymaga to wielu czynności przy każdym nagraniu."
   - q: "Czy streszczenia YouTube w Marqly są darmowe?"
-    a: "Tak, na start. Wtyczka jest darmowa dla Chrome, Edge, Firefox i Safari. Plan Marqly Pro z nielimitowanymi rozmowami o filmach i wyszukiwaniem semantycznym kosztuje 72 USD/rok (39 USD z kuponem STANDING39) lub 9 USD/miesiąc (7 dni darmowej próby)."
+    a: "Tak, na start. Wtyczka jest darmowa dla Chrome, Edge, Firefox i Safari. Plan Marqly Pro z nielimitowanymi rozmowami o filmach i wyszukiwaniem semantycznym kosztuje 72 USD/rok (39 USD z kuponem STANDING39) lub 9 USD/miesiąc."
   - q: "Czy mogę zadawać pytania modelowi AI na temat obejrzanego nagrania?"
     a: "Tak. Zakładka Czat pozwala zapytać o dowolny aspekt nagrania. Odpowiedzi opierają się na faktycznych wypowiedziach prelegenta i zawierają precyzyjne cytaty."
 heroImage: ../../../assets/blog/summarize-youtube-videos-with-ai.png

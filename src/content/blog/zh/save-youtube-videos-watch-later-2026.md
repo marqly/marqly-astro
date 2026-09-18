@@ -12,7 +12,7 @@ tags:
   - "稍后观看工具"
   - "收藏youtube视频"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "免费试用Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "为什么YouTube的“稍后观看”往往积灰？"

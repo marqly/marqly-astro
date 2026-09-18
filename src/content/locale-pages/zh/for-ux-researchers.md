@@ -19,7 +19,7 @@ faqs:
   - q: "网页上的高亮标记会持久保留吗？"
     a: "会。高亮不仅同步存入 Marqly 库中，当您再次访问原网页时，彩色高亮仍会保留在原段落上。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加至 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

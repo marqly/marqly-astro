@@ -22,7 +22,7 @@ faqs:
   - q: "내가 남긴 하이라이트들을 한곳에서 모아볼 수 있나요?"
     a: "네. 사이드 패널을 열면 현재 페이지 및 전체 라이브러리의 하이라이트 목록을 확인할 수 있으며, 클릭 시 해당 문장 위치로 즉시 스크롤 이동합니다."
   - q: "Marqly 웹 하이라이터는 무료인가요?"
-    a: "기본 북마크와 탭 저장은 무료입니다. 형광펜 하이라이트 및 메모 기능은 Pro 플랜(연 $72, 첫해 쿠폰 STANDING39 적용 시 $39)에 포함되며 7일 무료 체험을 제공합니다."
+    a: "기본 북마크와 탭 저장은 무료입니다. 형광펜 하이라이트 및 메모 기능은 Pro 플랜(연 $72, 첫해 쿠폰 STANDING39 적용 시 $39)에 포함됩니다."
 heroImage: ../../../assets/blog/how-to-highlight-text-on-any-website.png
 heroAlt: "웹페이지 텍스트 형광펜 하이라이트 방법 — 일러스트"
 ogImage: "https://www.marqly.com/og/how-to-highlight-text-on-any-website.png"

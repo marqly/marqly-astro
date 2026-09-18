@@ -17,9 +17,9 @@ faqs:
   - q: "AI总结具体包含哪些内容？"
     a: "包含实时生成的精简TL;DR、视频的核心分段指引，以及访谈或播客中提到的所有书籍推荐列表。"
   - q: "与视频对话功能需要付费吗？"
-    a: "对话提问是Pro功能（年付72美元或月付9美元，提供7天免费试用）。免费版即可直接体验AI摘要与字幕查看。"
+    a: "对话提问是Pro功能（年付72美元或月付9美元）。免费版即可直接体验AI摘要与字幕查看。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

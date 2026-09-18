@@ -17,7 +17,7 @@ faqs:
   - q: "Wat staat er precies in de AI-samenvatting?"
     a: "Een directe streaming TL;DR, de belangrijkste onderwerpen om meteen naar het juiste fragment te springen, en een lijst van alle boeken die in de video worden genoemd."
   - q: "Hoe werkt het chatten met een video?"
-    a: "Via het tabblad Chat kun je vragen stellen die direct worden beantwoord op basis van het transcript. Dit is een Pro-functie met 7 dagen gratis proefperiode."
+    a: "Via het tabblad Chat kun je vragen stellen die direct worden beantwoord op basis van het transcript. Dit is een Pro-functie."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly gratis proberen"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

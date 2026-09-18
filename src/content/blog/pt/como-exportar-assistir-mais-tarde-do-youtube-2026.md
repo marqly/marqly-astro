@@ -51,4 +51,4 @@ Para transformar vídeos salvos em conhecimento recuperável a qualquer momento:
 - O Marqly armazena o link, extrai a transcrição completa sincronizada e gera resumos com IA.
 - Use a **busca semântica** para localizar vídeos por ideias centrais, sem precisar saber o título exato.
 
-O Marqly conta com plano gratuito para até 2.000 itens e Pro por 72 $/ano com 7 dias de avaliação gratuita.
+O Marqly conta com plano gratuito para até 2.000 itens e Pro por 72 $/ano.

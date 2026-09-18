@@ -60,7 +60,7 @@ Testen Sie jedes Tool selbst, bevor Sie Geld investieren:
 
 ## Fazit und Empfehlung
 
-- **Marqly:** Der Spitzenreiter für das Wiederfinden nach Bedeutung. Kostenloser Plan bis zu 2.000 Elemente; Pro für 72 $/Jahr (6 $/Monat jährlich oder 9 $/Monat) mit 7 Tagen kostenloser Testphase und Gutscheincode STANDING39 (39 $ im ersten Jahr).
+- **Marqly:** Der Spitzenreiter für das Wiederfinden nach Bedeutung. Kostenloser Plan bis zu 2.000 Elemente; Pro für 72 $/Jahr (6 $/Monat jährlich oder 9 $/Monat) mit Gutscheincode STANDING39 (39 $ im ersten Jahr).
 - **mymind:** Perfekt für Designer, die ein visuelles Board ohne Ordnerhierarchien bevorzugen.
 - **Readwise Reader:** Die erste Wahl für Power-Leser mit intensivem Markieren von E-Books und Fachartikeln.
 - **Raindrop.io:** Der beste klassische Lesezeichen-Manager für Schlagwort-Liebhaber.

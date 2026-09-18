@@ -40,4 +40,4 @@ La vera novità è che non devi più preoccuparti di dove archiviare un link: l'
 
 I complessi sistemi di note falliscono quasi sempre a causa della fatica richiesta per mantenerli aggiornati. Con [Marqly](https://app.marqly.com), la macchina si occupa dell'indice, lasciando a te solo il piacere di esplorare e riutilizzare la conoscenza.
 
-Marqly include un piano gratuito fino a 2.000 link e una versione Pro a 72 $/anno con 7 giorni di prova gratuita.
+Marqly include un piano gratuito fino a 2.000 link e una versione Pro a 72 $/anno.

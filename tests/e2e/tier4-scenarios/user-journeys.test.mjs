@@ -150,9 +150,9 @@ export const tests = [
       if (!text.includes('android')) {
         return { ok: false, error: 'Evaluator journey failed: Missing cross-platform Android comparison' };
       }
-      // Must provide Pro trial CTA
-      const hasTrialCta = text.includes('trial') || text.includes('try') || text.includes('get started');
-      if (!hasTrialCta) {
+      // Must provide an upgrade / get-started CTA (Marqly sells no trial; 'trial' is kept only so an old build fails loudly elsewhere, not here)
+      const hasUpgradeCta = text.includes('get pro') || text.includes('upgrade') || text.includes('try') || text.includes('get started');
+      if (!hasUpgradeCta) {
         return { ok: false, error: 'Evaluator journey failed: Missing conversion CTA' };
       }
       return { ok: true };

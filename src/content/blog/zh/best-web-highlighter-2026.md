@@ -15,7 +15,7 @@ tags:
   - "weava 替代"
   - "glasp 对比"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "2026年最值得推荐的网页划线工具是哪一款？"

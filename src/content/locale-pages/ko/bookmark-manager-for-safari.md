@@ -19,7 +19,7 @@ faqs:
   - q: "직장에서 Windows PC를 사용하면 어떻게 되나요?"
     a: "iCloud와 달리 Marqly는 클라우드 계정 기반이므로, Windows PC의 Chrome, Edge 또는 웹 앱에서 Safari 북마크를 그대로 검색할 수 있습니다."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly 무료 체험"
+ctaLabel: "Marqly 무료로 시작하기"
 ctaSecondaryLabel: "Chrome에 추가 — 무료"
 updatedDate: 2026-09-07
 ---

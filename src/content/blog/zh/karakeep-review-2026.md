@@ -11,7 +11,7 @@ tags:
   - "自建书签"
   - "Karakeep vs Marqly"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "Karakeep 与原 Hoarder 是同一个软件吗？"

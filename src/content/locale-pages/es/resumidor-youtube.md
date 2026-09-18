@@ -17,7 +17,7 @@ faqs:
   - q: "¿Qué incluye exactamente el resumen generado por IA?"
     a: "Incluye un resumen ejecutivo en streaming, las secciones clave del video y una lista de libros u obras mencionadas durante la conversación."
   - q: "¿Cómo funciona el chat con el video?"
-    a: "El chat permite hacer preguntas sobre el contenido del video y obtener respuestas basadas en su transcripción completa. Es una función Pro con prueba gratuita de 7 días."
+    a: "El chat permite hacer preguntas sobre el contenido del video y obtener respuestas basadas en su transcripción completa. Es una función Pro."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probar Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"

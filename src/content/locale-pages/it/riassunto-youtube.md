@@ -17,7 +17,7 @@ faqs:
   - q: "Cosa contiene esattamente la sintesi IA?"
     a: "Un riassunto sintetico generato in tempo reale, i momenti chiave per andare al punto desiderato e l'elenco dei libri menzionati nel filmato."
   - q: "Come funziona la chat con il video?"
-    a: "La chat risponde a qualsiasi tua domanda estraendo le informazioni direttamente dalla trascrizione. È inclusa nel piano Pro con 7 giorni di prova gratuita."
+    a: "La chat risponde a qualsiasi tua domanda estraendo le informazioni direttamente dalla trascrizione. È inclusa nel piano Pro."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"

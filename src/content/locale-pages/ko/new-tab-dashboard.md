@@ -19,7 +19,7 @@ faqs:
   - q: "현재 새 탭 페이지를 대체하나요?"
     a: "네. 확장 프로그램을 설치하고 Marqly Home을 활성화하면 새 탭을 열 때마다 나만의 대시보드가 열립니다."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly 무료 체험"
+ctaLabel: "Marqly 무료로 시작하기"
 ctaSecondaryLabel: "Chrome에 추가 — 무료"
 updatedDate: 2026-09-07
 ---

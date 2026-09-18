@@ -19,7 +19,7 @@ faqs:
   - q: "它会替换现有的新标签页吗？"
     a: "是的。安装扩展并启用 Marqly Home 后，新建标签页将呈现专属于你的仪表盘，便签、任务与常用网址随手可得。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

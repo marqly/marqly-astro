@@ -19,7 +19,7 @@ faqs:
   - q: "Android용 앱도 있나요?"
     a: "현재 네이티브 모바일 앱은 iOS 전용입니다. Android 환경에서는 모바일 브라우저로 app.marqly.com에 접속하여 동일한 기능을 이용하실 수 있습니다."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly 무료 체험"
+ctaLabel: "Marqly 무료로 시작하기"
 ctaSecondaryLabel: "Chrome에 추가 — 무료"
 updatedDate: 2026-09-07
 ---

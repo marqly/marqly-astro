@@ -20,7 +20,7 @@ faqs:
   - q: "A IA inventa respostas sobre o vídeo?"
     a: "Não, desde que utilize um chat ancorado na transcrição. Se o palestrante não abordou o assunto perguntado, a IA informará claramente isso em vez de alucinar informações."
   - q: "O chat com vídeos no Marqly é gratuito?"
-    a: "O chat avançado faz parte do plano Marqly Pro ($72/ano, cerca de $6/mês no faturamento anual) e possui um teste grátis de 7 dias. A extensão e os resumos de vídeo contam com planos gratuitos."
+    a: "O chat avançado faz parte do plano Marqly Pro ($72/ano, cerca de $6/mês no faturamento anual). A extensão e os resumos de vídeo contam com planos gratuitos."
   - q: "Posso salvar o vídeo e consultá-lo depois?"
     a: "Sim. O Marqly inclui um botão de favorito no YouTube que salva o vídeo com a transcrição completa na sua biblioteca para você fazer perguntas a qualquer momento."
 heroImage: ../../../assets/blog/chat-with-youtube-videos.png

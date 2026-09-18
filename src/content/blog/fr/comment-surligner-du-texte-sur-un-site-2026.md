@@ -22,7 +22,7 @@ faqs:
   - q: "Puis-je retrouver tous mes passages au même endroit ?"
     a: "Oui. Le panneau latéral liste les citations de la page active et de votre bibliothèque entière. Un clic fait défiler la page directement jusqu'au texte surligné."
   - q: "Le surligneur web Marqly est-il gratuit ?"
-    a: "L'extension est gratuite pour les favoris et les onglets. Les surlignages et notes sont inclus dans Marqly Pro (72 $/an, ou 39 $ la 1re année avec code STANDING39) avec 7 jours d'essai gratuit."
+    a: "L'extension est gratuite pour les favoris et les onglets. Les surlignages et notes sont inclus dans Marqly Pro (72 $/an, ou 39 $ la 1re année avec code STANDING39)."
 heroImage: ../../../assets/blog/how-to-highlight-text-on-any-website.png
 heroAlt: "Comment surligner du texte sur un site internet — illustration"
 ogImage: "https://www.marqly.com/og/how-to-highlight-text-on-any-website.png"

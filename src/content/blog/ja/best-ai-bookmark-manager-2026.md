@@ -37,7 +37,7 @@ ogImage: "https://www.marqly.com/og/best-ai-bookmark-manager-2026.png"
 ### 1. Marqly — セマンティック検索に特化した最強ツール
 Marqlyは「保存した情報を二度と死蔵させない」ためにセマンティック検索を中心に設計されています。記事やYouTube動画をワンクリック保存でき、ライブラリ全体へのAIチャット質問にも対応しています。
 - 無料プラン：最大2,000件保存可能（全文検索対応）。
-- Proプラン：年額72ドル（初年度クーポン適用で39ドル）または月額9ドル、7日間無料トライアル付き。[無料で試す →](https://app.marqly.com/lp/ai-search)
+- Proプラン：年額72ドル（初年度クーポン適用で39ドル）または月額9ドル。[無料で試す →](https://app.marqly.com/lp/ai-search)
 
 ### 2. Readwise Reader — 研究者や読書家向け
 ハイライト機能や論文・PDFの読み込みに優れています。

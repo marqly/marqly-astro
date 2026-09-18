@@ -69,7 +69,7 @@ Het grootste pijnpunt van Pocket was altijd: opslaan ging met één klik, maar *
 
 - **Voordelen**: Semantisch AI-zoeken, slimme automatische tags, heldere samenvattingen, soepele Pocket-import, fijne leesmodus, eerlijke prijs.
 - **Nadelen**: Jonger dan de gevestigde namen, community groeit hard.
-- **Prijs**: Gratis tot 2.000 items; Pro voor $72/jaar (eerste jaar slechts $39 met code `STANDING39`) of $9/maand. 7 dagen gratis proefperiode.
+- **Prijs**: Gratis tot 2.000 items; Pro voor $72/jaar (eerste jaar slechts $39 met code `STANDING39`) of $9/maand.
 
 [Probeer Marqly gratis →](https://app.marqly.com/lp/replace-pocket)
 

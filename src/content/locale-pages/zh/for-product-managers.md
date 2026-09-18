@@ -15,11 +15,11 @@ faqs:
   - q: "Marqly 会替代文档或路线图工具吗？"
     a: "不会。Marqly 专注于编写 PRD 之前的素材调研与沉淀层，让参考论据触手可及。"
   - q: "产品经理可以免费使用吗？"
-    a: "可以，免费版可存 2,000 条书签。Pro 方案年付72美元（首年使用 STANDING39 仅需39美元），支持7天免费试用。"
+    a: "可以，免费版可存 2,000 条书签。Pro 方案年付72美元（首年使用 STANDING39 仅需39美元）。"
   - q: "语义搜索如何助力竞品调研？"
     a: "输入'按席位计费的竞品模型'等自然语义，无需精准匹配标题字眼即可直接调出对应分析。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加至 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

@@ -17,7 +17,7 @@ faqs:
   - q: "Que contient exactement le résumé IA ?"
     a: "Il comprend un résumé synthétique généré en direct, les sections clés pour naviguer rapidement et la liste des livres ou ouvrages cités."
   - q: "Puis-je poser des questions à la vidéo ?"
-    a: "Oui. L'onglet Chat permet de poser des questions précises et d'obtenir des réponses fondées sur la transcription du contenu. Inclus dans l'offre Pro avec 7 jours d'essai gratuit."
+    a: "Oui. L'onglet Chat permet de poser des questions précises et d'obtenir des réponses fondées sur la transcription du contenu. Inclus dans l'offre Pro."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"

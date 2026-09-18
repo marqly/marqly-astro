@@ -17,7 +17,7 @@ faqs:
   - q: "학위논문 작성 시 Zotero나 Mendeley를 대신할 수 있나요?"
     a: "아닙니다. Zotero는 최종 서지 인용 형식과 BibTeX 관리를 담당합니다. Marqly는 그 앞 단계인 논문 정독, 요점 하이라이트, 모호한 기억을 통한 논문 검색을 책임집니다."
   - q: "대학원생 연구비 예산으로 사용하기에 부담 없나요?"
-    a: "카드 등록 없는 무료 플랜으로 즉시 이용 가능합니다. Pro 플랜은 연 72달러(첫해 STANDING39 쿠폰 적용 시 39달러)이며 7일 무료 체험을 제공합니다."
+    a: "카드 등록 없는 무료 플랜으로 즉시 이용 가능합니다. Pro 플랜은 연 72달러(첫해 STANDING39 쿠폰 적용 시 39달러)입니다."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly 무료로 시작하기"
 ctaSecondaryLabel: "Chrome에 추가 — 무료"

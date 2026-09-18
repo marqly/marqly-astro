@@ -12,7 +12,7 @@ tags:
   - "북마크 자동화"
   - "AI 북마크 관리자"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly 무료 체험"
+ctaLabel: "Marqly 무료로 시작하기"
 lang: "ko"
 faqs:
   - q: "AI는 북마크를 어떻게 자동으로 정리하나요?"

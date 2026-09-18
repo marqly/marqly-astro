@@ -90,7 +90,7 @@ Speichert Webseiten direkt in Notion-Datenbanken. Kein spezieller Lesemodus oder
 
 Frage dich nicht: „Welche App speichert Artikel am schnellsten?“ — speichern können sie alle. Frage dich stattdessen: **„Mit welcher App finde ich den Artikel wieder, den ich vor drei Monaten gesichert habe und von dem ich nur noch eine vage Erinnerung habe?“** Genau hier versagen die meisten klassischen Apps — und genau hier gewinnt die semantische KI-Suche.
 
-[Teste Marqly kostenlos](https://app.marqly.com/lp/replace-pocket), importiere deine Leseliste und durchsuche alles nach Bedeutung. 7 Tage Testphase, bis zu 2.000 Lesezeichen gratis, keine Kreditkarte erforderlich.
+[Teste Marqly kostenlos](https://app.marqly.com/lp/replace-pocket), importiere deine Leseliste und durchsuche alles nach Bedeutung. Bis zu 2.000 Lesezeichen gratis, keine Kreditkarte erforderlich.
 
 ---
 

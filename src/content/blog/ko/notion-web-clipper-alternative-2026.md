@@ -12,7 +12,7 @@ tags:
   - "노션 나중에 읽기"
   - "AI 북마크 관리자"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly 무료 체험"
+ctaLabel: "Marqly 무료로 시작하기"
 lang: "ko"
 faqs:
   - q: "노션 웹 클리퍼는 왜 글 읽기 도구로 아쉬운가요?"
@@ -48,4 +48,4 @@ ogImage: "https://www.marqly.com/og/notion-web-clipper-alternative-2026.png"
 - **저장 즉시 AI 자동 태깅 및 핵심 요약** 생성.
 - **시맨틱 검색 기능**: "원격 근무의 신뢰 문제에 관한 글"처럼 자연어로 의미를 설명하면 즉시 결과 노출.
 
-Marqly는 최대 2,000개 링크까지 무료로 지원하며, Pro 플랜은 연 72달러(월 약 6달러, 7일 무료 체험)로 이용할 수 있습니다.
+Marqly는 최대 2,000개 링크까지 무료로 지원하며, Pro 플랜은 연 72달러(월 약 6달러)로 이용할 수 있습니다.

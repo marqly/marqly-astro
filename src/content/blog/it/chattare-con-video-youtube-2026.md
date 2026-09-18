@@ -20,7 +20,7 @@ faqs:
   - q: "L'IA rischia di inventare risposte inesatte?"
     a: "No, perché le risposte sono ancorate al testo della trascrizione. Se l'oratore non ha trattato l'argomento, l'IA lo segnalerà anziché inventare dettagli."
   - q: "La funzione di chat è gratuita su Marqly?"
-    a: "La chat con i video fa parte di Marqly Pro (72 $ all'anno, circa 6 $ al mese con fatturazione annuale) e include una prova gratuita di 7 giorni. L'estensione e i riassunti prevedono opzioni gratuite."
+    a: "La chat con i video fa parte di Marqly Pro (72 $ all'anno, circa 6 $ al mese con fatturazione annuale). L'estensione e i riassunti prevedono opzioni gratuite."
   - q: "Posso salvare il video per interrogarlo in un secondo momento?"
     a: "Certamente. Marqly integra un pulsante apposito su YouTube per archiviare il video assieme alla trascrizione nella tua libreria personale."
 heroImage: ../../../assets/blog/chat-with-youtube-videos.png

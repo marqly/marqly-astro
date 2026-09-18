@@ -21,7 +21,7 @@ faqs:
   - q: "Czy system sprawdza się przy badaniach trwających wiele miesięcy?"
     a: "Dokładnie do tego został stworzony. Im dłuższy projekt, tym większą wartość ma możliwość odnalezienia źródła po opisie myśli, bez pamiętania tytułu."
   - q: "Ile wynosi koszt subskrypcji?"
-    a: "Do 2 000 zakładek bezpłatnie. Wersja Pro kosztuje 72 $/rok (z kodem STANDING39 pierwszy rok za 39 $) lub 9 $/miesiąc i zawiera 7 dni darmowego okresu próbnego."
+    a: "Do 2 000 zakładek bezpłatnie. Wersja Pro kosztuje 72 $/rok (z kodem STANDING39 pierwszy rok za 39 $) lub 9 $/miesiąc."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"

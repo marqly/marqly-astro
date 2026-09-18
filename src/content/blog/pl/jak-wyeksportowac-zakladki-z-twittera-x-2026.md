@@ -53,4 +53,4 @@ Plik CSV na dysku rzadko bywa otwierany ponownie. Przekształć linki w użytecz
 - Sztuczna inteligencja przeanalizuje treść wpisów i automatycznie doda tematyczne tagi.
 - Wyszukuj semantycznie po znaczeniu — wpisz np. *"wątek o psychologii ustalania cen"*, a Marqly znajdzie właściwy post bez znajomości nicka autora.
 
-Marqly oferuje darmowy plan do 2000 pozycji oraz pakiet Pro w cenie 72 USD rocznie (ok. 6 USD/mies.) z 7-dniowym bezpłatnym okresem próbnym.
+Marqly oferuje darmowy plan do 2000 pozycji oraz pakiet Pro w cenie 72 USD rocznie (ok. 6 USD/mies.).

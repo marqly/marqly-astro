@@ -14,7 +14,7 @@ tags:
   - "mymind 怎么样"
   - "视觉书签管理"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 faqs:
   - q: "mymind 在 2026 年值得使用吗？"
     a: "如果您是注重视觉灵感、经常保存设计图、引言和产品的设计师或创作者，且看重完全无广告的私密空间，mymind 是同类产品中最优雅的选择。但如果您主要保存长文并需要按主题深度搜索，或者想要永久免费版，它并不太适合。"

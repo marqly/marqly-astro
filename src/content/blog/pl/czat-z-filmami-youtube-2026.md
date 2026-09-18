@@ -20,7 +20,7 @@ faqs:
   - q: "Czy sztuczna inteligencja nie zmyśla odpowiedzi?"
     a: "Nie, ponieważ odpowiedzi są ściśle zakotwiczone w transkrypcji filmu. Jeżeli prelegent nie poruszył danego tematu, AI wskaże to wprost, zamiast konfabulować."
   - q: "Czy czat z filmami w Marqly jest bezpłatny?"
-    a: "Zaawansowany czat wideo jest elementem planu Marqly Pro (72 $ rocznie – ok. 6 $ miesięcznie przy rozliczeniu rocznym) z 7-dniowym darmowym okresem próbnym. Samo rozszerzenie i podstawowe streszczenia są bezpłatne."
+    a: "Zaawansowany czat wideo jest elementem planu Marqly Pro (72 $ rocznie – ok. 6 $ miesięcznie przy rozliczeniu rocznym). Samo rozszerzenie i podstawowe streszczenia są bezpłatne."
   - q: "Czy mogę zapisać wideo i zadać mu pytania później?"
     a: "Tak. Przycisk zakładek Marqly na YouTube pozwala zapisać wideo wraz z całą transkrypcją do Twojej biblioteki wiedzy."
 heroImage: ../../../assets/blog/chat-with-youtube-videos.png

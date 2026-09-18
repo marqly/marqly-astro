@@ -17,7 +17,7 @@ faqs:
   - q: "Marqly remplace-t-il Zotero pour ma thèse ?"
     a: "Non. Gardez Zotero pour la bibliographie et les normes de citation. Marqly gère l'assimilation intellectuelle : retrouver une idée, surligner en 6 couleurs et chercher par concept vague."
   - q: "Quel est le coût de Marqly avec un budget de recherche ?"
-    a: "Offre gratuite sans carte bancaire. Pro à 72 $/an (39 $ la première année avec le code STANDING39) avec 7 jours d'essai gratuit."
+    a: "Offre gratuite sans carte bancaire. Pro à 72 $/an (39 $ la première année avec le code STANDING39)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"

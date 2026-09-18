@@ -17,7 +17,7 @@ faqs:
   - q: "O que o resumo com IA exibe?"
     a: "Ele gera um resumo em streaming à medida que processa, destaca as seções principais do vídeo e lista livros e referências citadas."
   - q: "A função de chat com o vídeo é gratuita?"
-    a: "O chat é um recurso do plano Pro (72 $/ano ou 9 $/mês, com 7 dias de teste grátis). O plano gratuito permite experimentar os resumos em vídeos reais sem inserir cartão."
+    a: "O chat é um recurso do plano Pro (72 $/ano ou 9 $/mês). O plano gratuito permite experimentar os resumos em vídeos reais sem inserir cartão."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Testar o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"

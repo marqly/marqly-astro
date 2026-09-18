@@ -12,7 +12,7 @@ tags:
   - "概念搜索书签"
   - "找回丢失书签"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "忘记了书签标题，该怎么找回已保存的文章？"

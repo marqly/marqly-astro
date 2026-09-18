@@ -28,7 +28,7 @@ Marqly saves articles, videos, and links from anywhere, tags them with AI, and f
 • Boards you can share as public pages
 • Imports from Pocket, Raindrop, and browser bookmarks
 
-Free to start, no card required. Pro: $70/year (≈$5.83/month) or $7/month, 3-day free trial.
+Free to start, no card required. Pro: $72/year (≈$6/month) or $9/month, billed when you upgrade; cancel anytime.
 Syncs with the Marqly extension for Chrome, Edge, Firefox & Safari, and the web app.
 ```
 

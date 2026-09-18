@@ -20,7 +20,7 @@ faqs:
   - q: "¿Las respuestas son precisas o la IA inventa información?"
     a: "Las respuestas están estrictamente fundamentadas en la transcripción real del video. Si el ponente no menciona un tema, la IA lo indicará con claridad en lugar de alucinar respuestas."
   - q: "¿Es gratis chatear con videos en Marqly?"
-    a: "La función de chat avanzado con videos forma parte de Marqly Pro ($72 al año, aprox. $6 al mes con facturación anual), e incluye una prueba gratuita de 7 días. La extensión y los resúmenes de video cuentan con modalidad gratuita."
+    a: "La función de chat avanzado con videos forma parte de Marqly Pro ($72 al año, aprox. $6 al mes con facturación anual). La extensión y los resúmenes de video cuentan con modalidad gratuita."
   - q: "¿Puedo guardar el video y chatear con él más adelante?"
     a: "Sí. Marqly incluye un botón de marcador directo en YouTube para guardar el video con su transcripción en tu biblioteca, permitiéndote hacerle preguntas en cualquier momento."
 heroImage: ../../../assets/blog/chat-with-youtube-videos.png

@@ -12,7 +12,7 @@ tags:
   - "트위터 북마크 제한"
   - "트위터 백업"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly 무료 체험"
+ctaLabel: "Marqly 무료로 시작하기"
 lang: "ko"
 faqs:
   - q: "X 공식 데이터 백업에 북마크가 포함되어 있나요?"
@@ -51,4 +51,4 @@ ogImage: "https://www.marqly.com/og/export-twitter-x-bookmarks-2026.png"
 - AI가 각 링크의 원문을 파악해 자동 태그와 요약을 생성.
 - 작성자 아이디를 몰라도 "가격 책정 심리학에 관한 스레드"처럼 자연어로 의미 검색 가능.
 
-Marqly는 2,000개 링크까지 무료로 지원하며, Pro 플랜은 연 72달러(월 약 6달러 상당, 7일 무료 체험)로 이용할 수 있습니다.
+Marqly는 2,000개 링크까지 무료로 지원하며, Pro 플랜은 연 72달러(월 약 6달러 상당)로 이용할 수 있습니다.

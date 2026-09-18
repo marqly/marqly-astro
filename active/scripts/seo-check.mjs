@@ -75,15 +75,15 @@ check('no fabricated AggregateRating in JSON-LD', rated.map((p) => p.url),
 
 // --- 2. Retired / false commercial claims must not reappear -------------
 // Two classes, deliberately separated:
-//   (a) phrases that are wrong in ANY context (stale limits, stale trial length,
-//       fabricated ratings);
+//   (a) phrases that are wrong in ANY context (stale limits, a trial length —
+//       there is no trial since 2026-09-18 — fabricated ratings);
 //   (b) capabilities Marqly does not have. For (b) a bare substring match is
 //       useless — the comparison tables MUST say "offline reading: —" and the FAQ
 //       MUST answer "Is there a Marqly lifetime deal?". So (b) only fires on an
 //       AFFIRMATIVE claim that Marqly has the capability.
 const ALWAYS_WRONG = [
   [/100 most recent/i, 'free-tier read-wall was removed; whole library is searchable'],
-  [/\b3\s*[-–\s]?(?:days?|tage?n?|jours?|giorni|d[ií]as?)\b[^.<>]{0,35}\b(?:trial|test|testversion|testphase|prova|prueba|teste|essai|kostenlos|gratis|grátis)\b|\b(?:trial|test|testversion|testphase|prova|prueba|teste|essai)\b[^.<>]{0,35}\b3\s*[-–\s]?(?:days?|tage?n?|jours?|giorni|d[ií]as?)\b/i, 'trial is 7 days'],
+  [/\b3\s*[-–\s]?(?:days?|tage?n?|jours?|giorni|d[ií]as?)\b[^.<>]{0,35}\b(?:trial|test|testversion|testphase|prova|prueba|teste|essai|kostenlos|gratis|grátis)\b|\b(?:trial|test|testversion|testphase|prova|prueba|teste|essai)\b[^.<>]{0,35}\b3\s*[-–\s]?(?:days?|tage?n?|jours?|giorni|d[ií]as?)\b/i, 'Marqly sells no trial (retired 2026-09-18)'],
 ];
 /**
  * Capabilities Marqly does NOT have. Only fires when the claim is attributed to
@@ -100,6 +100,12 @@ const SCORE = /\b[0-5](?:\.[0-9])?\s*(?:\/\s*5|out of 5|\bstars?\b)/i;
 const MARQLY_RATING_FWD = new RegExp(`\\bmarqly\\b[^.]{0,70}?\\b(?:rated|rating of|review score|scores?)\\b[^.]{0,30}?${SCORE.source}`, 'i');
 const MARQLY_RATING_REV = new RegExp(`${SCORE.source}[^.]{0,30}?\\b(?:for|of|from)\\s+marqly\\b`, 'i');
 const LIFETIME_OFFER = /\b(?:buy|get|grab|claim|our)\b[^.]{0,40}?\blifetime deal\b/i;
+// Marqly has sold no trial since 2026-09-18. Attributed like the other claims, because
+// competitor rows legitimately say "Readwise Reader: 30-day trial"; a question ("Is there a
+// free trial for Marqly Pro?") and a negation ("Marqly does not offer free trials") pass.
+const TRIAL = /\b(?:free trial|\d+[- ]day (?:free )?trial|trial period|start (?:your|a|the) (?:free )?trial|pro trial|try (?:marqly )?pro free|kostenlose testphase|testversion|prueba gratuita|essai gratuit|prova gratuita|teste gr[aá]tis)\b/i;
+const MARQLY_TRIAL_FWD = new RegExp(`\\bmarqly(?: pro)?\\b[^.?]{0,120}?${TRIAL.source}`, 'i');
+const MARQLY_TRIAL_REV = new RegExp(`${TRIAL.source}[^.?]{0,80}?\\b(?:of|for|from|with|on) marqly\\b`, 'i');
 const NEGATED = /\b(?:no|not|never|doesn't|does not|isn't|is not|without|lacks?|unlike|—)\b/i;
 
 /** Competitor display names, from the verified data layer that renders those pages. */
@@ -139,7 +145,9 @@ for (const p of pages) {
   for (const [re, why] of [[MARQLY_CLAIM, 'claims a capability Marqly does not have'],
     [MARQLY_RATING_FWD, 'publishes a Marqly rating/review score'],
     [MARQLY_RATING_REV, 'publishes a Marqly rating/review score'],
-    [LIFETIME_OFFER, 'offers a lifetime deal that does not exist']]) {
+    [LIFETIME_OFFER, 'offers a lifetime deal that does not exist'],
+    [MARQLY_TRIAL_FWD, 'promises a free trial (retired 2026-09-18)'],
+    [MARQLY_TRIAL_REV, 'promises a free trial (retired 2026-09-18)']]) {
     const m = re.exec(text);
     if (!m) continue;
     if (NEGATED.test(m[0])) continue;

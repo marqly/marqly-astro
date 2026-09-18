@@ -53,4 +53,4 @@ Masaüstünde unutulan bir CSV dosyası aradığınızı bulmanızı sağlamaz. 
 - Yapay zeka tüm bağlantıların içeriğini okuyarak otomatik konu etiketleri ve özetler hazırlasın.
 - Anlamsal arama sayesinde yazarın adını bilmeseniz bile *"fiyatlandırma psikolojisi hakkındaki flood"* yazarak aradığınız içeriği anında bulun.
 
-Marqly'de 2.000 yer imine kadar ücretsiz kullanım sunulur; Pro planı ise 7 günlük ücretsiz denemeyle birlikte yıllık 72 dolardır (ayda yaklaşık 6 dolar).
+Marqly'de 2.000 yer imine kadar ücretsiz kullanım sunulur; Pro planı ise yıllık 72 dolardır (ayda yaklaşık 6 dolar).

@@ -11,7 +11,7 @@ tags:
   - "浏览器备份"
   - "ai 书签管理"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "如何从Chrome导出书签？"

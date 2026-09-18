@@ -48,4 +48,4 @@ La méthode adoptée par les profils les plus productifs : **laissez Notion gér
 - **Tags et résumés automatiques par IA** dès l'enregistrement.
 - **Recherche sémantique :** Décrivez simplement le sujet en français pour retrouver n'importe quel article instantanément.
 
-Marqly propose une formule gratuite jusqu'à 2 000 liens et un forfait Pro à 72 $/an avec 7 jours d'essai gratuit.
+Marqly propose une formule gratuite jusqu'à 2 000 liens et un forfait Pro à 72 $/an.

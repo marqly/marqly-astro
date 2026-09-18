@@ -17,9 +17,9 @@ faqs:
   - q: "Marqly 能帮助快速消化长篇行业视频和访谈吗？"
     a: "可以。Marqly 提供 YouTube 视频流式 AI 摘要与同步字幕导出，Pro 用户更可直接与视频对话，在数分钟内提炼核心要点。"
   - q: "早期创业团队的使用成本是多少？"
-    a: "免费版可存储多达 2,000 条内容。Pro 方案年付72美元（首年使用 STANDING39 优惠码仅需39美元），提供7天免费试用。"
+    a: "免费版可存储多达 2,000 条内容。Pro 方案年付72美元（首年使用 STANDING39 优惠码仅需39美元）。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加至 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

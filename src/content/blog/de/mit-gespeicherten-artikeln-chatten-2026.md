@@ -43,4 +43,4 @@ Sie fragen beispielsweise: *"Was habe ich über Gehaltsmodelle bei Remote-Arbeit
 3. **Synthese lesen:** Marqly liefert Ihnen eine präzise Zusammenfassung der Kernaussagen.
 4. **Quellen prüfen:** Klicken Sie auf die zitierten Links, um Details nachzulesen.
 
-Marqly bietet einen Gratis-Plan für bis zu 2.000 Links und einen Pro-Tarif für 72 $/Jahr mit 7 Tagen kostenloser Testphase.
+Marqly bietet einen Gratis-Plan für bis zu 2.000 Links und einen Pro-Tarif für 72 $/Jahr.

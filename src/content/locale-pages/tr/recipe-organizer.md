@@ -21,7 +21,7 @@ faqs:
   - q: "Haftalık yemek planımı ailemle paylaşabilir miyim?"
     a: "Evet. 'Bu Haftanın Menüsü' panosu oluşturup herkese açık bağlantıyı ailenizle paylaşabilirsiniz; kimsenin uygulamaya üye olmasına gerek kalmaz."
   - q: "Kullanım ücreti nedir?"
-    a: "2.000 tarife kadar tamamen ücretsizdir. Pro plan yıllık 72 $ (STANDING39 koduyla ilk yıl 39 $) veya aylık 9 $'dır ve 7 günlük ücretsiz deneme imkanı sunar."
+    a: "2.000 tarife kadar tamamen ücretsizdir. Pro plan yıllık 72 $ (STANDING39 koduyla ilk yıl 39 $) veya aylık 9 $'dır."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Dene"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

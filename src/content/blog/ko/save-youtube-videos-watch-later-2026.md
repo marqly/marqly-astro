@@ -12,7 +12,7 @@ tags:
   - "동영상 보관 앱"
   - "유튜브 북마크"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "Marqly 무료 체험"
+ctaLabel: "Marqly 무료로 시작하기"
 lang: "ko"
 faqs:
   - q: "유튜브의 '나중에 볼 동영상'은 왜 다시 보지 않게 될까요?"

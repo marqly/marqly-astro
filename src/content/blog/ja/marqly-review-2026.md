@@ -15,7 +15,7 @@ ctaLabel: "Marqlyを無料で試す"
 lang: "ja"
 faqs:
   - q: "Marqlyの料金プランは？"
-    a: "無料プランは2,000件まで保存可能。Proプランは年額$72（月額$6相当）で、7日間の無料トライアルとクーポン『STANDING39』（初年度$39）が用意されています。"
+    a: "無料プランは2,000件まで保存可能。Proプランは年額$72（月額$6相当）で、クーポン『STANDING39』（初年度$39）が用意されています。"
 heroImage: ../../../assets/blog/marqly-review-2026.png
 heroAlt: "Marqly レビュー 2026年"
 ---

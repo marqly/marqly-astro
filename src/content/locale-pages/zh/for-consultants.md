@@ -17,9 +17,9 @@ faqs:
   - q: "可以给不愿注册账号的客户共享研究参考资料吗？"
     a: "可以。画板可生成公开只读网页链接，客户在任意设备点击即可直接查阅。"
   - q: "独立顾问的使用成本如何？"
-    a: "免费版可存 2,000 条内容。Pro 方案年付72美元（首年使用 STANDING39 仅需39美元），支持7天免费试用。"
+    a: "免费版可存 2,000 条内容。Pro 方案年付72美元（首年使用 STANDING39 仅需39美元）。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加至 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

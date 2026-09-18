@@ -42,4 +42,4 @@ Non serve spendere settimane a impostare complessi sistemi wiki su Obsidian o No
 
 Con [Marqly](https://app.marqly.com), importi i tuoi vecchi preferiti in pochi minuti. La ricerca semantica ti permetterà di ritrovare qualsiasi guida anche a distanza di mesi.
 
-Marqly offre fino a 2.000 elementi gratuiti e un piano Pro da 72 $/anno con 7 giorni di prova gratuita.
+Marqly offre fino a 2.000 elementi gratuiti e un piano Pro da 72 $/anno.

@@ -11,7 +11,7 @@ tags:
   - "셀프호스팅 북마크"
   - "Karakeep vs Marqly"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly 무료 체험하기"
+ctaLabel: "Marqly 무료로 시작하기"
 lang: "ko"
 faqs:
   - q: "Karakeep은 무료인가요?"

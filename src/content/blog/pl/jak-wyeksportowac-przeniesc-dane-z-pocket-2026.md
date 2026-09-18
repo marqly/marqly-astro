@@ -45,7 +45,7 @@ Poniższy poradnik poprowadzi Cię przez proces bezpiecznego przeniesienia bazy 
 3. Przeciągnij i upuść plik `pocket-export.html`.
 4. Import trwa zazwyczaj mniej niż dwie minuty.
 
-Darmowy plan Marqly pozwala zapisać do 2000 elementów; plan Pro kosztuje 72 $/rok (6 $/mies. rocznie lub 9 $/mies.) z 7-dniowym okresem próbnym i kodem `STANDING39` (39 $ za pierwszy rok).
+Darmowy plan Marqly pozwala zapisać do 2000 elementów; plan Pro kosztuje 72 $/rok (6 $/mies. rocznie lub 9 $/mies.) z kodem `STANDING39` (39 $ za pierwszy rok).
 
 ## Krok 4: Skonfiguruj rozszerzenia
 

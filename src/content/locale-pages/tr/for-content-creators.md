@@ -19,7 +19,7 @@ faqs:
   - q: "Koleksiyonlarımı ekibimle veya müşterilerimle paylaşabilir miyim?"
     a: "Evet. Panolarınız için herkese açık bağlantı üreterek, karşı taraf üye olmadan da tarayıcısında içerikleri inceleyebilir."
   - q: "Fiyatlandırma nasıldır?"
-    a: "Ücretsiz planda 2.000 yer imine kadar kayıt yapabilirsiniz. Pro plan yıllık 72 $ (STANDING39 kuponuyla ilk yıl 39 $) veya aylık 9 $'dır ve 7 günlük ücretsiz deneme içerir."
+    a: "Ücretsiz planda 2.000 yer imine kadar kayıt yapabilirsiniz. Pro plan yıllık 72 $ (STANDING39 kuponuyla ilk yıl 39 $) veya aylık 9 $'dır."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Dene"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

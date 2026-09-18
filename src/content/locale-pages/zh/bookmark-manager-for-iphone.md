@@ -19,7 +19,7 @@ faqs:
   - q: "有 Android 安卓版客户端吗？"
     a: "目前原生应用仅支持 iOS。安卓用户可以通过手机浏览器直接访问 app.marqly.com 体验全功能网页版。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

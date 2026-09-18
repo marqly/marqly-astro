@@ -28,7 +28,7 @@ If yours isn't recognised, **email support@marqly.com with proof of enrolment** 
 ## Worth knowing before you use it
 
 - The discount applies to the **yearly** plan only.
-- Using a discount code starts your subscription immediately, **without the free trial**. If you'd rather try Pro first, start the trial and upgrade afterwards.
+- Using a discount code starts your subscription immediately — Pro is billed from that moment, and you can cancel anytime.
 - It covers your first year. Renewal is at the standard price unless you re-verify.
 
 ## The other ways to pay less

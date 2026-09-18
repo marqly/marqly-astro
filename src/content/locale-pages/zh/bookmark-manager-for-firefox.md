@@ -19,7 +19,7 @@ faqs:
   - q: "保存的内容可以在 Firefox 以外的浏览器查看吗？"
     a: "可以。Marqly 在云端统一维护您的数据，支持 Chrome、Edge、Safari、iOS 应用及网页端跨平台访问。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

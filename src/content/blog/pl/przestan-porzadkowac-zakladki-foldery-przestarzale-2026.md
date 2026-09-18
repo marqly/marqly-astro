@@ -45,6 +45,6 @@ Współczesne podejście polega na rezygnacji z **katalogowania na zapas** na rz
 - **Automatyczne tagowanie AI podczas zapisu:** W momencie zachowania strony sztuczna inteligencja analizuje jej treść i dodaje precyzyjne tagi tematyczne.
 - **Wyszukiwanie semantyczne w języku naturalnym:** Wpisz *"ten artykuł o wpływie snu na koncentrację w pracy"*, a system znajdzie właściwą stronę, nawet jeśli jej oficjalny tytuł brzmiał zupełnie inaczej.
 
-W [Marqly](https://app.marqly.com) zaimportujesz wszystkie swoje dotychczasowe zakładki z przeglądarki w kilka chwil. Darmowy plan obejmuje do 2000 zapisanych pozycji, a wersja Pro kosztuje 72 USD rocznie (około 6 USD miesięcznie przy rozliczeniu rocznym) z 7-dniowym bezpłatnym okresem próbnym.
+W [Marqly](https://app.marqly.com) zaimportujesz wszystkie swoje dotychczasowe zakładki z przeglądarki w kilka chwil. Darmowy plan obejmuje do 2000 zapisanych pozycji, a wersja Pro kosztuje 72 USD rocznie (około 6 USD miesięcznie przy rozliczeniu rocznym).
 
 Przestań układać foldery. Zapisuj linki i pozwól AI pamiętać o wszystkim za Ciebie.

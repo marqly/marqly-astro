@@ -42,4 +42,4 @@ Systemy w rodzaju Notion czy Obsidiana bywają zbyt wymagające w codziennej obs
 
 W [Marqly](https://app.marqly.com) zaimportujesz swoje dotychczasowe linki w kilka chwil. AI zajmie się resztą: stworzy podsumowania i uruchomi wyszukiwarkę semantyczną.
 
-Marqly oferuje darmowe konto do 2000 pozycji oraz pakiet Pro w cenie 72 USD rocznie z 7-dniowym okresem próbnym.
+Marqly oferuje darmowe konto do 2000 pozycji oraz pakiet Pro w cenie 72 USD rocznie.

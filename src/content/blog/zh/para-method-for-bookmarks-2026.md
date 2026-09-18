@@ -13,7 +13,7 @@ tags:
   - "第二大脑"
   - "书签分类体系"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "什么是书签的PARA管理法？"

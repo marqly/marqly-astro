@@ -21,7 +21,7 @@ faqs:
   - q: "Kan ik een weekmenu delen met mijn gezin of partner?"
     a: "Ja. Maak een bord 'Weekmenu' en deel de openbare link, zodat iedereen zonder app of inloggen het recept kan bekijken."
   - q: "Wat zijn de kosten?"
-    a: "Gratis tot 2.000 recepten. Pro kost $72/jaar ($39 eerste jaar met actiecode STANDING39) of $9/maand inclusief 7 dagen proefperiode."
+    a: "Gratis tot 2.000 recepten. Pro kost $72/jaar ($39 eerste jaar met actiecode STANDING39) of $9/maand."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

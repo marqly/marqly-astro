@@ -11,7 +11,7 @@ tags:
   - "Raindrop vs Marqly"
   - "书签管理工具"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "Raindrop.io 免费版够用吗？"

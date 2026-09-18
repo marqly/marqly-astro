@@ -11,11 +11,11 @@ tags:
   - "AI 书签管理"
   - "第二大脑"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "Marqly 的收费标准如何？"
-    a: "提供多达 2,000 条收藏的永久免费版；Pro 版年付仅需 $72（折合 $6/月），支持 7 天免费试用，结账输入 STANDING39 首年立减至 $39。"
+    a: "提供多达 2,000 条收藏的永久免费版；Pro 版年付仅需 $72（折合 $6/月），结账输入 STANDING39 首年立减至 $39。"
 heroImage: ../../../assets/blog/marqly-review-2026.png
 heroAlt: "Marqly 深度评测 2026"
 ---

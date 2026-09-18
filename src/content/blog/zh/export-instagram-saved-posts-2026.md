@@ -12,7 +12,7 @@ tags:
   - "saved_posts json"
   - "Instagram备份"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "可以直接在Instagram App里导出收藏夹吗？"
@@ -54,4 +54,4 @@ ogImage: "https://www.marqly.com/og/export-instagram-saved-posts-2026.png"
 - 利用**语义搜索**，输入“如何修理发吱吱声的门铰链的视频”，即便记不得博主名字也能立刻检索出来。
 - 将网页深度文章、YouTube 教程与 Instagram 视觉灵感统统汇聚在受你控制的独立工具中。
 
-Marqly 免费版支持保存多达2000个项目，Pro 版每年仅需72美元（含7天免费试用）。立即接管你的收藏数据！
+Marqly 免费版支持保存多达2000个项目，Pro 版每年仅需72美元。立即接管你的收藏数据！

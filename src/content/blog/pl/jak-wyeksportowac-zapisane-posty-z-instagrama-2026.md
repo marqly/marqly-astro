@@ -54,4 +54,4 @@ Aby przekształcić linki w użyteczną bazę wiedzy:
 - Korzystaj z **wyszukiwania semantycznego**: wpisz *"film o naprawie skrzypiącego zawiasu w drzwiach"*, by odnaleźć go bez znajomości nazwy profilu.
 - Łącz artykuły, filmy z YouTube i inspiracje z Instagrama w jednym miejscu.
 
-Marqly oferuje darmowe konto do 2000 pozycji oraz plan Pro w cenie 72 USD rocznie z 7-dniowym bezpłatnym okresem próbnym.
+Marqly oferuje darmowe konto do 2000 pozycji oraz plan Pro w cenie 72 USD rocznie.

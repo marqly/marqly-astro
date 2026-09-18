@@ -43,4 +43,4 @@ Herramientas pesadas como Notion o Obsidian son excelentes para redactar proyect
 
 Con [Marqly](https://app.marqly.com), puedes importar todos tus marcadores de Chrome, Pocket o Raindrop en minutos. La IA se encarga del indexado semántico, permitiéndote recuperar cualquier idea describiendo lo que recuerdas.
 
-El plan gratuito de Marqly cubre hasta 2.000 marcadores guardados, y Marqly Pro cuesta 72 $/año con 7 días de prueba sin coste.
+El plan gratuito de Marqly cubre hasta 2.000 marcadores guardados, y Marqly Pro cuesta 72 $/año.

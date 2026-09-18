@@ -19,7 +19,7 @@ faqs:
   - q: "保存的内容可以同步到非 Edge 设备吗？"
     a: "可以。Marqly 在统一云端保存，支持在 Chrome、Safari、Firefox、iOS 以及网页端随时查阅。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

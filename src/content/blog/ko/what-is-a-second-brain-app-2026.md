@@ -12,7 +12,7 @@ tags:
   - "세컨드 브레인 만들기"
   - "개인 지식 관리"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly 무료 체험"
+ctaLabel: "Marqly 무료로 시작하기"
 lang: "ko"
 faqs:
   - q: "세컨드 브레인 앱이란 정확히 무엇인가요?"
@@ -42,4 +42,4 @@ ogImage: "https://www.marqly.com/og/what-is-a-second-brain-app-2026.png"
 
 [Marqly](https://app.marqly.com)에 기존 북마크를 가져오기만 하면, AI가 자동으로 글을 읽고 태그를 생성해 기억나는 문장만으로 지난 글을 즉시 호출할 수 있습니다.
 
-Marqly는 2,000개 링크까지 무료로 지원하며, Pro 플랜은 연 72달러(7일 무료 체험)로 이용할 수 있습니다.
+Marqly는 2,000개 링크까지 무료로 지원하며, Pro 플랜은 연 72달러로 이용할 수 있습니다.

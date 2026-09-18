@@ -37,7 +37,7 @@ ogImage: "https://www.marqly.com/og/best-ai-bookmark-manager-2026.png"
 ### 1. Marqly — 专为语义搜索打造的智能第二大脑
 Marqly 围绕语义检索从底层设计，支持网页文章、带有逐字稿的 YouTube 视频，并支持直接与你的个人收藏库进行 AI 对话。
 - 免费计划：支持最多 2,000 条书签（含全库检索）。
-- Pro 计划：年付 72 美元（首年优惠 39 美元）或月付 9 美元，包含 7 天免费试用。[免费试用 →](https://app.marqly.com/lp/ai-search)
+- Pro 计划：年付 72 美元（首年优惠 39 美元）或月付 9 美元。[免费开始使用 →](https://app.marqly.com/lp/ai-search)
 
 ### 2. Readwise Reader — 深度阅读与高亮首选
 专注于 PDF、长文阅读和划线同步，学术和研究人员的最爱。

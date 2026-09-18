@@ -22,7 +22,7 @@ faqs:
   - q: "Posso ver todos os meus destaques em um só lugar?"
     a: "Sim. O painel lateral mostra todos os trechos da página atual e da sua biblioteca inteira. Clicar em um destaque rola a página diretamente até o ponto correspondente."
   - q: "O marca-texto do Marqly é gratuito?"
-    a: "A extensão é gratuita e inclui salvamento de abas e favoritos. Destaques e notas fazem parte do plano Pro ($72/ano, ou $39 no 1º ano com cupom STANDING39), com 7 dias de teste gratuito."
+    a: "A extensão é gratuita e inclui salvamento de abas e favoritos. Destaques e notas fazem parte do plano Pro ($72/ano, ou $39 no 1º ano com cupom STANDING39)."
 heroImage: ../../../assets/blog/how-to-highlight-text-on-any-website.png
 heroAlt: "Como destacar texto em qualquer site — ilustração"
 ogImage: "https://www.marqly.com/og/how-to-highlight-text-on-any-website.png"

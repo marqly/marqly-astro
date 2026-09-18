@@ -11,7 +11,7 @@ tags:
   - "网页存档"
   - "Linkwarden vs Marqly"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "Linkwarden 如何防止网页死链？"

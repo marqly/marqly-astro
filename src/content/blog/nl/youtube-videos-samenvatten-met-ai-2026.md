@@ -20,7 +20,7 @@ faqs:
   - q: "Kan ChatGPT een YouTube-video samenvatten?"
     a: "Ja, maar je moet het transcript handmatig aanleveren. Je opent het transcript op YouTube, kopieert de tekst, plakt deze in ChatGPT en wacht op het antwoord. Dat kost meerdere handmatige stappen per video."
   - q: "Is de YouTube AI-samenvatting van Marqly gratis?"
-    a: "Ja, om te beginnen. De extensie is gratis te installeren op Chrome, Edge, Firefox en Safari. Marqly Pro biedt onbeperkt chatten met video's en semantisch zoeken voor $72/jaar ($39 in het eerste jaar met code STANDING39) of $9/maand (7 dagen gratis proefperiode)."
+    a: "Ja, om te beginnen. De extensie is gratis te installeren op Chrome, Edge, Firefox en Safari. Marqly Pro biedt onbeperkt chatten met video's en semantisch zoeken voor $72/jaar ($39 in het eerste jaar met code STANDING39) of $9/maand."
   - q: "Kan ik vragen stellen aan de AI over de video?"
     a: "Zeker. Via het Chat-tabblad kun je gerichte vragen stellen over de inhoud en krijg je antwoorden gebaseerd op het daadwerkelijk gesproken woord met directe citaten."
 heroImage: ../../../assets/blog/summarize-youtube-videos-with-ai.png

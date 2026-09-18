@@ -11,7 +11,7 @@ tags:
   - "Wallabag 대체"
   - "개인 서버 북마크"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly 무료 체험하기"
+ctaLabel: "Marqly 무료로 시작하기"
 lang: "ko"
 faqs:
   - q: "개인 서버에서 운영할 Pocket 대체제는 무엇이 있나요?"

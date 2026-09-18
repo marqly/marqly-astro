@@ -1,6 +1,6 @@
 ---
 question: "Can I get a refund on Marqly?"
-description: "Marqly offers a 7-day free trial so you can test Pro before paying. Refund requests go to support@marqly.com and are reviewed case by case — just ask."
+description: "Marqly has a free plan with no card and no time limit, so you can evaluate it before paying. Refund requests go to support@marqly.com and are reviewed case by case — just ask."
 category: pricing
 updatedDate: 2026-08-02
 related:
@@ -9,11 +9,11 @@ related:
   - how-much-does-marqly-cost
 ---
 
-Marqly handles refund requests case by case — email **support@marqly.com** with your account email and the reason, and a human will review it. There's no published automatic refund window, which is why the 7-day free trial exists: it lets you test everything Pro offers before any money changes hands, so most people never need to ask for a refund in the first place.
+Marqly handles refund requests case by case — email **support@marqly.com** with your account email and the reason, and a human will review it. There's no published automatic refund window. The free plan needs no card and has no time limit, so you can evaluate Marqly properly before any money changes hands — most people never need to ask for a refund in the first place.
 
-## Use the trial first
+## Use the free plan first
 
-The honest advice: don't pay until you've used the trial. Seven days is enough to save real bookmarks, run semantic searches, and try the chat features on your actual library. The free tier also requires no card, so you can evaluate the core experience for as long as you like before touching Pro. What happens after the trial is covered in [what happens when my trial ends](/faq/what-happens-when-my-trial-ends).
+The honest advice: don't pay until you've used the free plan. It requires no card and has no time limit, so you can save real bookmarks, file them into boards and search by keyword for as long as you like before touching Pro. Marqly no longer offers a free trial of Pro, so the AI features — semantic search, Ask and the chat features — are billed from the moment you upgrade, and you can cancel anytime. What happens if you cancel is covered in [what happens when I cancel Pro](/faq/what-happens-when-my-trial-ends).
 
 ## How to request a refund
 

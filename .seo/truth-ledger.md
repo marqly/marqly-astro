@@ -80,7 +80,7 @@ Removed from all three sources. Verified `0 / 1,891` built pages contain
 | No `AggregateRating` / `ratingValue` anywhere in the build | `seo-check.mjs` gate 1 |
 | No numeric rating or review count attributed to Marqly in copy | `seo-check.mjs` gate 2 |
 | No "100 most recent" read-wall claim | `seo-check.mjs` gate 2 |
-| No "3-day trial" (it is 7 days) | `seo-check.mjs` gate 2 |
+| No trial claim of any length (there is no trial, since 2026-09-18) | `seo-check.mjs` gate 2 |
 | No affirmative claim of offline mode, a public API or self-hosting | `seo-check.mjs` gate 2 |
 | No lifetime-deal offer | `seo-check.mjs` gate 2 |
 | Pricing/feature copy matches `src/data/competitors/marqly.json` | manual — that file is the render source for compare/alternatives |

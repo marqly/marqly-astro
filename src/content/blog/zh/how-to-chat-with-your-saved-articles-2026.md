@@ -12,7 +12,7 @@ tags:
   - "AI书签问答"
   - "AI第二大脑"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "我可以与自己收藏的书签和文章进行对话吗？"
@@ -43,4 +43,4 @@ ogImage: "https://www.marqly.com/og/how-to-chat-with-your-saved-articles-2026.pn
 3. **阅读精简答案：** 系统提炼出你所有藏品中的共识与核心论点。
 4. **查阅对应原文：** 点击引用标签，直接跳转至原网页进行深度核实。
 
-Marqly 免费版支持保存多达2,000项内容，Pro 版每年72美元（含7天免费试用）。立即解锁与个人知识库对话的全新体验！
+Marqly 免费版支持保存多达2,000项内容，Pro 版每年72美元。立即解锁与个人知识库对话的全新体验！

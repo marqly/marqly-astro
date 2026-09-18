@@ -17,7 +17,7 @@ faqs:
   - q: "O que é o Marqly?"
     a: "É um gerenciador de favoritos inteligente com IA que resume artigos, adiciona tags automaticamente e permite buscar por significado em vez de apenas palavras-chave."
   - q: "Quanto custa o plano Pro?"
-    a: "Custa $72/ano ($6/mês anual ou $9/mês), com 7 dias de teste grátis e cupom STANDING39 para pagar apenas $39 no primeiro ano."
+    a: "Custa $72/ano ($6/mês anual ou $9/mês), com cupom STANDING39 para pagar apenas $39 no primeiro ano."
 heroImage: ../../../assets/blog/marqly-review-2026.png
 heroAlt: "Avaliação do Marqly 2026"
 ---
@@ -32,4 +32,4 @@ O **Marqly** foi criado para solucionar o maior gargalo dos leitores digitais: r
 
 ## Preços em 2026
 
-O plano gratuito permite até 2.000 itens. O plano Pro oferece recursos ilimitados de IA por $72/ano ($6/mês), com 7 dias de teste grátis e cupom `STANDING39` ($39 no primeiro ano).
+O plano gratuito permite até 2.000 itens. O plano Pro oferece recursos ilimitados de IA por $72/ano ($6/mês), com cupom `STANDING39` ($39 no primeiro ano).

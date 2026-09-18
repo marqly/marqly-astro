@@ -17,7 +17,7 @@ faqs:
   - q: "I clienti possono visualizzare le mie bacheche di ispirazione?"
     a: "Puoi condividere qualsiasi bacheca tramite link pubblico visualizzabile senza dover creare un account Marqly."
   - q: "Marqly è gratuito per raccogliere idee e reference?"
-    a: "Sì, il piano gratuito include fino a 2.000 preferiti, bacheche ed evidenziatore. Il piano Pro (72 $/anno, 39 $ il primo anno con codice STANDING39) aggiunge l'IA con prova gratuita di 7 giorni."
+    a: "Sì, il piano gratuito include fino a 2.000 preferiti, bacheche ed evidenziatore. Il piano Pro (72 $/anno, 39 $ il primo anno con codice STANDING39) aggiunge l'IA."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"

@@ -49,4 +49,4 @@ Con [Marqly](https://app.marqly.com) puoi salvare i tuoi video preferiti in un a
 - Marqly estrae automaticamente la trascrizione testuale del video e genera riassunti sintetici con l'IA.
 - Grazie alla **ricerca semantica**, puoi cercare concetti spiegati nel video in linguaggio naturale anche a distanza di mesi.
 
-Marqly include 2.000 salvataggi gratuiti e un piano Pro da 72 $/anno con 7 giorni di prova gratuita.
+Marqly include 2.000 salvataggi gratuiti e un piano Pro da 72 $/anno.

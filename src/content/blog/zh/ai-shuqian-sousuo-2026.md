@@ -12,7 +12,7 @@ tags:
   - "自然语言检索书签"
   - "按含义搜索书签"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "什么是AI语义书签搜索？"

@@ -11,7 +11,7 @@ tags:
   - "나중에 읽기"
   - "Instapaper vs Marqly"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly 무료 체험하기"
+ctaLabel: "Marqly 무료로 시작하기"
 lang: "ko"
 faqs:
   - q: "Instapaper는 무료 검색을 제공하나요?"

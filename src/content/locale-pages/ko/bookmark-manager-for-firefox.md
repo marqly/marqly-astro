@@ -19,7 +19,7 @@ faqs:
   - q: "Firefox 외 다른 환경에서도 북마크를 볼 수 있나요?"
     a: "네. Firefox Sync와 달리 Marqly는 클라우드를 통해 Chrome, Edge, Safari, iOS 앱 및 웹 브라우저 전체에서 동기화됩니다."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly 무료 체험"
+ctaLabel: "Marqly 무료로 시작하기"
 ctaSecondaryLabel: "Chrome에 추가 — 무료"
 updatedDate: 2026-09-07
 ---

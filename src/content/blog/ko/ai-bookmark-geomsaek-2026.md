@@ -12,7 +12,7 @@ tags:
   - "자연어 북마크 검색"
   - "의미 기반 북마크 찾기"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly 무료 체험"
+ctaLabel: "Marqly 무료로 시작하기"
 lang: "ko"
 faqs:
   - q: "시맨틱(의미 기반) 북마크 검색이란 무엇인가요?"

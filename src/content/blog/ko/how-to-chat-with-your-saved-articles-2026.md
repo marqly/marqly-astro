@@ -12,7 +12,7 @@ tags:
   - "AI 북마크 답변"
   - "AI 세컨드 브레인"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly 무료 체험"
+ctaLabel: "Marqly 무료로 시작하기"
 lang: "ko"
 faqs:
   - q: "내가 저장해둔 아티클과 정말 대화할 수 있나요?"
@@ -43,4 +43,4 @@ ogImage: "https://www.marqly.com/og/how-to-chat-with-your-saved-articles-2026.pn
 3. **종합 답변 확인:** AI가 여러 아티클의 핵심을 종합한 명쾌한 답을 제시.
 4. **원문 바로가기:** 인용된 링크를 클릭해 상세 내용 확인.
 
-Marqly는 2,000개 링크까지 무료로 지원하며, Pro 플랜은 연 72달러(월 약 6달러, 7일 무료 체험)로 이용할 수 있습니다.
+Marqly는 2,000개 링크까지 무료로 지원하며, Pro 플랜은 연 72달러(월 약 6달러)로 이용할 수 있습니다.

@@ -19,7 +19,7 @@ faqs:
   - q: "Chrome 기본 북마크를 완전히 대체하나요?"
     a: "함께 작동합니다. 기존 북마크 바는 그대로 유지되며, Marqly는 Safari, Edge, Firefox, iOS, 웹 어디서든 동기화되는 AI 검색 라이브러리를 제공합니다."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly 무료 체험"
+ctaLabel: "Marqly 무료로 시작하기"
 ctaSecondaryLabel: "Chrome에 추가 — 무료"
 updatedDate: 2026-09-07
 ---

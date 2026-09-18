@@ -43,4 +43,4 @@ Vraag bijvoorbeeld: *"Wat heb ik opgeslagen over salarissen bij thuiswerken?"* e
 3. **Lees de samenvatting:** Marqly combineert de inzichten uit verschillende artikelen.
 4. **Controleer de bronnen:** Klik door naar de geciteerde artikelen voor de details.
 
-Marqly biedt een gratis account tot 2.000 items en een Pro-plan voor 72 $/jaar met 7 dagen gratis proefperiode.
+Marqly biedt een gratis account tot 2.000 items en een Pro-plan voor 72 $/jaar.

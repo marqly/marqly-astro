@@ -17,7 +17,7 @@ faqs:
   - q: "O Marqly substitui o Zotero ou Mendeley na tese?"
     a: "Não. Os gerenciadores tradicionais formatam a bibliografia no padrão ABNT/APA. O Marqly foca na assimilação: lembrar dos achados, manter destaques em 6 cores e recuperar artigos por conceitos vagos."
   - q: "Quanto custa o Marqly para quem tem bolsa de pós-graduação?"
-    a: "Plano gratuito sem cartão para montar seu acervo. O Pro custa 72 $/ano (39 $ no primeiro ano com cupom STANDING39) com 7 dias de teste grátis."
+    a: "Plano gratuito sem cartão para montar seu acervo. O Pro custa 72 $/ano (39 $ no primeiro ano com cupom STANDING39)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Testar o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"

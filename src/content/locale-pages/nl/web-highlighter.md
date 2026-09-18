@@ -19,7 +19,7 @@ faqs:
   - q: "Kan ik notities toevoegen aan een gemarkeerde tekst?"
     a: "Zeker. Je kunt bij elke markering een korte aantekening opslaan, die later via de zoekfunctie eenvoudig terug te vinden is."
   - q: "Wat kost de web highlighter?"
-    a: "Je kunt gratis starten. Voor onbeperkt markeren en AI-zoekfuncties is er Marqly Pro voor $72/jaar ($39 eerste jaar met code STANDING39) of $9/maand (7 dagen gratis proefperiode)."
+    a: "Je kunt gratis starten. Voor onbeperkt markeren en AI-zoekfuncties is er Marqly Pro voor $72/jaar ($39 eerste jaar met code STANDING39) of $9/maand."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

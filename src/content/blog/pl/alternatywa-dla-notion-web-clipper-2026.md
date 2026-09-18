@@ -48,4 +48,4 @@ Najskuteczniejszy schemat działania: **używaj Notion do tworzenia i projektów
 - **Automatyczne tagowanie i streszczenia AI** tworzone w ułamku sekundy.
 - **Wyszukiwanie semantyczne:** Odnajduj artykuły opisując ich treść własnymi słowami po polsku.
 
-Marqly oferuje darmowy plan do 2000 pozycji oraz wersję Pro w cenie 72 USD rocznie z 7-dniowym bezpłatnym okresem próbnym.
+Marqly oferuje darmowy plan do 2000 pozycji oraz wersję Pro w cenie 72 USD rocznie.

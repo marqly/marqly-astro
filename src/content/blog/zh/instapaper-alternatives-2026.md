@@ -11,7 +11,7 @@ tags:
   - "Marqly vs Instapaper"
   - "AI 书签管理"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "为什么需要寻找 Instapaper 的替代品？"

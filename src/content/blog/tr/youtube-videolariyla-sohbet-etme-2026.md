@@ -20,7 +20,7 @@ faqs:
   - q: "Yapay zeka cevapları uydurur mu?"
     a: "Hayır; çünkü cevaplar doğrudan videonun altyazı dökümüne dayanır. Konuşmacı o konudan hiç bahsetmediyse yapay zeka uydurmak yerine bunu açıkça belirtir."
   - q: "Marqly ile videoyla sohbet etmek ücretsiz mi?"
-    a: "Video sohbeti Marqly Pro (yıllık 72 $ – yıllık ödemede ayda yaklaşık 6 $, 7 günlük ücretsiz deneme imkanı) kapsamındadır. Eklenti kurulumu ve temel video özetleri ücretsizdir."
+    a: "Video sohbeti Marqly Pro (yıllık 72 $ – yıllık ödemede ayda yaklaşık 6 $) kapsamındadır. Eklenti kurulumu ve temel video özetleri ücretsizdir."
   - q: "Videoyu kaydedip daha sonra soru sorabilir miyim?"
     a: "Evet. Marqly'nin YouTube'daki yer imi butonu videoyu tüm transkriptiyle birlikte kişisel kütüphanenize kaydeder."
 heroImage: ../../../assets/blog/chat-with-youtube-videos.png

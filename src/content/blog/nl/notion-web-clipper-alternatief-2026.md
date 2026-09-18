@@ -48,4 +48,4 @@ De meest productieve aanpak: **houd Notion schoon voor je eigen teksten en proje
 - **Automatische AI-labels en samenvattingen** bij elke opslagactie.
 - **Semantisch zoeken:** Vind elk artikel terug door te omschrijven waar het over ging in gewone taal.
 
-Marqly biedt een gratis account tot 2.000 items en een Pro-plan voor 72 $/jaar met een gratis proefperiode van 7 dagen.
+Marqly biedt een gratis account tot 2.000 items en een Pro-plan voor 72 $/jaar.

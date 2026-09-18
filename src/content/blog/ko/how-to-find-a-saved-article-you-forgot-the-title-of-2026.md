@@ -12,7 +12,7 @@ tags:
   - "시맨틱 북마크 검색"
   - "잃어버린 북마크"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly 무료 체험"
+ctaLabel: "Marqly 무료로 시작하기"
 lang: "ko"
 faqs:
   - q: "제목을 잊어버린 북마크를 어떻게 찾나요?"

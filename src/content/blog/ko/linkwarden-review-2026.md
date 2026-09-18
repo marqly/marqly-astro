@@ -11,7 +11,7 @@ tags:
   - "웹페이지 영구보관"
   - "Linkwarden vs Marqly"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly 무료 체험하기"
+ctaLabel: "Marqly 무료로 시작하기"
 lang: "ko"
 faqs:
   - q: "Linkwarden은 웹페이지를 어떻게 보관하나요?"

@@ -90,7 +90,7 @@ Enregistre des pages web directement dans vos bases de données Notion. Pas de l
 
 Ne vous demandez pas « quelle application sauvegarde le plus vite ? » : elles le font toutes en une seconde. La vraie question est : **« quelle application me permettra de retrouver l'article lu il y a trois mois dont je ne me rappelle que vaguement l'idée ? »**. C'est ici que les outils classiques s'essoufflent, et c'est ici que la recherche sémantique par IA l'emporte.
 
-[Essayez Marqly gratuitement](https://app.marqly.com/lp/replace-pocket), importez votre historique de lecture et lancez vos recherches en langage naturel. 7 jours d'essai Pro, jusqu'à 2 000 favoris offerts, sans carte bancaire requise.
+[Essayez Marqly gratuitement](https://app.marqly.com/lp/replace-pocket), importez votre historique de lecture et lancez vos recherches en langage naturel. Jusqu'à 2 000 favoris offerts, sans carte bancaire requise.
 
 ---
 

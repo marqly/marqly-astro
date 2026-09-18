@@ -21,7 +21,7 @@ faqs:
   - q: "Is Marqly geschikt voor langdurig onderzoek over meerdere maanden?"
     a: "Absoluut. Juist bij langlopende projecten bewijst het zoeken op beschrijving zijn waarde: je hoeft je niet te herinneren waar iets is opgeslagen."
   - q: "Wat zijn de tarieven?"
-    a: "Gratis tot 2.000 items. Pro kost $72/jaar ($39 eerste jaar met coupon STANDING39) of $9/maand inclusief 7 dagen proefperiode."
+    a: "Gratis tot 2.000 items. Pro kost $72/jaar ($39 eerste jaar met coupon STANDING39) of $9/maand."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

@@ -41,8 +41,12 @@ remember — **semantic search by meaning, not keywords**.
   it as an automatic first-year price while the FAQ names the code — both are
   correct; prefer "a standing $39 first-year offer" in copy unless the code
   itself is the point.
-- **7-day free trial** of Pro. (Corrected 2026-09-03 — this sheet previously
-  said 3-day, which was stale and had propagated across ~50 site pages.)
+- **NO free trial — of any length.** (Retired 2026-09-18: Pro is a hard paywall,
+  billed the moment someone upgrades; cancel anytime, the account then continues
+  on the free plan with every bookmark. Before that this sheet said 7-day, and
+  before 2026-09-03 it said 3-day — both are now wrong on every page that still
+  carries them. The free plan is the evaluation path; say "get started free" or
+  "billed when you upgrade", never "trial".)
 - **Student discount**: $48 for the first year, for verified students
   (verify a university email at checkout).
 - NO lifetime deal.
@@ -95,7 +99,7 @@ support.
 - **AI summaries** of saved articles; triage a backlog fast.
 - **Semantic search**: "that video about sourdough starters" finds the right
   save without the title. Works across titles, content, highlights, transcripts.
-- **Ask — the AI assistant** (Pro; the 7-day free trial applies): a right-hand
+- **Ask — the AI assistant** (Pro): a right-hand
   panel in the web app (⌘J / Ctrl+J, the chat-bubble button in the header,
   "Ask about this board" from a board's menu, "Ask about this" on a bookmark).
   It is a real multi-turn chat with threads. Marketing name: "Ask" / "the AI

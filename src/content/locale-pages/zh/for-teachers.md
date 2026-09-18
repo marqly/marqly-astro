@@ -21,7 +21,7 @@ faqs:
   - q: "学校机房的公共电脑上能使用吗？"
     a: "可以。除了 Chrome、Edge、Firefox 扩展外，Marqly 提供纯网页版应用，在任何未安装客户端的学校电脑浏览器中直接登录就能访问全部资料。"
   - q: "收费方案是怎样的？"
-    a: "免费版最高支持保存 2,000 条教学素材。Pro 专业版为 72 美元/年（首年凭优惠码 STANDING39 仅需 39 美元）或 9 美元/月，附带 7 天免费试用。"
+    a: "免费版最高支持保存 2,000 条教学素材。Pro 专业版为 72 美元/年（首年凭优惠码 STANDING39 仅需 39 美元）或 9 美元/月。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"

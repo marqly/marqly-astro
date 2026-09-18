@@ -45,6 +45,6 @@ De grote verandering is de overstap van **eerst indelen om later te kunnen vinde
 - **Automatische AI-labels bij opslaan:** Zodra je een link bewaart, leest de AI de inhoud en kent automatisch nauwkeurige thema-tags toe.
 - **Semantisch zoeken in natuurlijke taal:** Typ bijvoorbeeld *"het artikel over slaap en concentratie"* en het juiste stuk verschijnt meteen bovenaan, zelfs als die woorden niet letterlijk in de titel voorkomen.
 
-Met [Marqly](https://app.marqly.com) importeer je je bestaande browserfavorieten in enkele minuten en zoek je voortaan moeiteloos op concept. Het gratis account ondersteunt tot 2.000 opgeslagen links; Marqly Pro kost 72 dollar per jaar (circa 6 dollar per maand bij jaarlijkse facturatie) met een gratis proefperiode van 7 dagen.
+Met [Marqly](https://app.marqly.com) importeer je je bestaande browserfavorieten in enkele minuten en zoek je voortaan moeiteloos op concept. Het gratis account ondersteunt tot 2.000 opgeslagen links; Marqly Pro kost 72 dollar per jaar (circa 6 dollar per maand bij jaarlijkse facturatie).
 
 Stop met het handmatig onderhouden van mappen. Laat AI je bladwijzers beheren.

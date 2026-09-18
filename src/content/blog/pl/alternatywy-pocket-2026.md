@@ -35,7 +35,7 @@ Zamknięcie Pocket przez Mozillę w 2025 roku zakończyło pewną epokę w inter
 ### 1. Marqly — Najlepsza alternatywa z semantycznym wyszukiwaniem AI
 Marqly to najnowocześniejszy następca Pocket. Oferuje błyskawiczny import archiwum HTML, czysty tryb czytnika oraz **semantyczne wyszukiwanie AI**. Nie musisz pamiętać dokładnego tytułu artykułu — wystarczy, że opiszesz to, co z niego zapamiętałeś.
 - **Dla kogo**: Dla każdego, kto ma dość zapomnianych zakładek i chce natychmiast odnajdywać wiedzę.
-- **Cena**: Darmowy plan do 2 000 zakładek; Pro $72/rok ($39 w pierwszym roku) z 7-dniowym okresem próbnym.
+- **Cena**: Darmowy plan do 2 000 zakładek; Pro $72/rok ($39 w pierwszym roku).
 
 ### 2. Raindrop.io — Najlepszy darmowy menedżer linków
 Świetne wsparcie dla folderów, tagów i multimediów. Posiada bardzo bogaty plan bezpłatny, choć jego wyszukiwanie opiera się na tradycyjnych słowach kluczowych.

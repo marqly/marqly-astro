@@ -13,7 +13,7 @@ tags:
   - "세컨드 브레인"
   - "북마크 관리 시스템"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly 무료 체험"
+ctaLabel: "Marqly 무료로 시작하기"
 lang: "ko"
 faqs:
   - q: "북마크에 적용하는 PARA 방식이란 무엇인가요?"

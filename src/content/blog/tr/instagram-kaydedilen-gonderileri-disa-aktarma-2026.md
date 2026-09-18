@@ -54,4 +54,4 @@ Kayıtlı gönderilerinizi gerçekten faydalanabileceğiniz bir bilgi bankasına
 - **Anlamsal arama** ile *"gıcırdayan kapı menteşesini tamir etme videosu"* gibi aklınızda kalan ifadelerle arayın.
 - Web makalelerini, YouTube videolarını ve Instagram fikirlerini tek bir güvenli çatı altında toplayın.
 
-Marqly 2.000 linke kadar ücretsizdir; Pro planı ise 7 günlük ücretsiz denemeyle birlikte yıllık 72 dolardır.
+Marqly 2.000 linke kadar ücretsizdir; Pro planı ise yıllık 72 dolardır.

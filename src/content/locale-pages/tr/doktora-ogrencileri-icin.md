@@ -17,7 +17,7 @@ faqs:
   - q: "Doktora sürecinde Marqly Zotero veya Mendeley'in yerini alır mı?"
     a: "Hayır. Zotero kaynakça formatlama ve BibTeX için gereklidir. Marqly ise hangi çalışmada ne söylendiğini hatırlama, 6 renkli vurgulama ve anlamsal geri çağırma aşamasını çözer."
   - q: "Doktora öğrencisi bütçesi için Marqly ücreti nedir?"
-    a: "Kredi kartı istemeyen ücretsiz planla başlayabilirsiniz. Pro sürüm yıllık 72 dolar (STANDING39 koduyla ilk yıl 39 dolar) ve 7 günlük deneme süresi sunar."
+    a: "Kredi kartı istemeyen ücretsiz planla başlayabilirsiniz. Pro sürüm yıllık 72 dolardır (STANDING39 koduyla ilk yıl 39 dolar)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Dene"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

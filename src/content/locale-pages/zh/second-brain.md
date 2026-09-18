@@ -21,7 +21,7 @@ faqs:
   - q: "我可以导入以前保存的数据吗？"
     a: "可以。Marqly支持一键导入Chrome、Firefox、Safari、Edge书签，以及Raindrop.io与Pocket的导出文件。"
   - q: "收费模式是怎样的？"
-    a: "免费版最高支持保存2,000个书签。Pro版提供无限AI搜索与全库对话，年付72美元（首年使用优惠码 STANDING39 仅需39美元），月付9美元，均享有7天免费试用。"
+    a: "免费版最高支持保存2,000个书签。Pro版提供无限AI搜索与全库对话，年付72美元（首年使用优惠码 STANDING39 仅需39美元），月付9美元。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"

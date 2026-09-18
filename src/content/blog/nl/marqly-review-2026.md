@@ -15,7 +15,7 @@ ctaLabel: "Probeer Marqly gratis"
 lang: "nl"
 faqs:
   - q: "Wat kost Marqly?"
-    a: "Gratis tot 2.000 items; Pro kost $72/jaar ($6/mnd jaarlijks) met 7 dagen proefperiode en coupon STANDING39 ($39 eerste jaar)."
+    a: "Gratis tot 2.000 items; Pro kost $72/jaar ($6/mnd jaarlijks) met coupon STANDING39 ($39 eerste jaar)."
 heroImage: ../../../assets/blog/marqly-review-2026.png
 heroAlt: "Marqly Review 2026"
 ---

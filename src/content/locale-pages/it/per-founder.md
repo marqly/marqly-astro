@@ -17,7 +17,7 @@ faqs:
   - q: "Marqly aiuta a consultare video e podcast lunghi?"
     a: "Sì, fornisce riassunti immediati e trascrizioni per YouTube, permettendo di interrogare direttamente il contenuto dei video."
   - q: "Quanto costa Marqly per un founder bootstrapped?"
-    a: "Gratuito fino a 2.000 salvataggi. Pro a 72 $/anno (39 $ il primo anno con STANDING39) con 7 giorni di prova gratuita."
+    a: "Gratuito fino a 2.000 salvataggi. Pro a 72 $/anno (39 $ il primo anno con STANDING39)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"

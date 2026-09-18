@@ -73,13 +73,18 @@ export const tests = [
   {
     id: 'T1.F04.04',
     feature: 'F04',
-    name: 'English Raindrop comparison pages advertise verified 7-day Pro trial or free tier',
+    name: 'English Raindrop comparison page promises no trial at all (retired 2026-09-18) — free tier only',
     run: async () => {
       const compHtml = resolve(ROOT, 'dist/client/compare/marqly-vs-raindrop.html');
       if (!existsSync(compHtml)) return { ok: false, error: 'compare/marqly-vs-raindrop.html missing' };
       const raw = readFileSync(compHtml, 'utf8');
       if (/3[- ]day\s*(?:free\s*)?trial/i.test(raw)) {
         return { ok: false, error: 'Found stale "3-day trial" claim in compare/marqly-vs-raindrop.html' };
+      }
+      // Marqly sells no trial since 2026-09-18; Raindrop has none either, so any trial wording
+      // on this page is a stale Marqly promise.
+      if (/\b(?:\d+[- ]day\s*(?:free\s*)?trial|free trial|start (?:your|a|the) trial)\b/i.test(raw)) {
+        return { ok: false, error: 'Found a trial promise in compare/marqly-vs-raindrop.html — Marqly has no trial' };
       }
       return { ok: true };
     }

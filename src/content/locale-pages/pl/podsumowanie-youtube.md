@@ -17,7 +17,7 @@ faqs:
   - q: "Co dokładnie zawiera podsumowanie AI?"
     a: "Otrzymujesz syntetyczny skrót generowany na bieżąco, listę najważniejszych wątków ułatwiających nawigację oraz spis książek polecanych w trakcie nagrania."
   - q: "Jak działa czat z filmem?"
-    a: "Możesz zadać dowolne pytanie o treść filmu, a AI odpowie na podstawie pełnej transkrypcji. Funkcja dostępna w planie Pro z 7-dniowym bezpłatnym okresem próbnym."
+    a: "Możesz zadać dowolne pytanie o treść filmu, a AI odpowie na podstawie pełnej transkrypcji. Funkcja dostępna w planie Pro."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"

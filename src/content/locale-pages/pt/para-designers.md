@@ -17,7 +17,7 @@ faqs:
   - q: "Clientes ou colegas de equipe podem ver meus quadros de inspiração?"
     a: "Você pode compartilhar qualquer quadro como página pública acessível por link, sem necessidade de cadastro por parte deles. Perfeito para moodboards de projetos."
   - q: "O Marqly é gratuito para colecionar referências?"
-    a: "Sim, há um plano gratuito permanente para até 2.000 itens com quadros e marca-texto. O plano Pro (72 $/ano ou 39 $ no primeiro ano com cupom STANDING39) inclui toda a inteligência artificial com 7 dias de teste grátis."
+    a: "Sim, há um plano gratuito permanente para até 2.000 itens com quadros e marca-texto. O plano Pro (72 $/ano ou 39 $ no primeiro ano com cupom STANDING39) inclui toda a inteligência artificial."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Testar o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"

@@ -53,4 +53,4 @@ Une liste CSV oubliée dans votre dossier Téléchargements ne vous servira jama
 - L'IA étiquette automatiquement vos liens et en extrait des résumés clairs.
 - Grâce à la recherche sémantique, vous retrouvez n'importe quelle publication en décrivant son sujet en langage courant.
 
-Marqly propose une formule gratuite jusqu'à 2 000 liens et un forfait Pro à 72 $/an (environ 6 $/mois) avec 7 jours d'essai gratuit.
+Marqly propose une formule gratuite jusqu'à 2 000 liens et un forfait Pro à 72 $/an (environ 6 $/mois).

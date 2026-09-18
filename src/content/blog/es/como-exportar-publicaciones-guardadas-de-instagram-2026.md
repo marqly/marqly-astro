@@ -60,4 +60,4 @@ Para no perder tus mejores referencias visuales e informativas:
 - Gracias a la **búsqueda semántica**, puedes escribir *"aquel vídeo sobre cómo arreglar una bisagra que chirría"* y el enlace aparecerá aunque no recuerdes la cuenta ni el pie de foto.
 - Integra tus lecturas web, vídeos de YouTube e inspiraciones en un único lugar bajo tu propio control.
 
-Marqly ofrece una cuenta gratuita para hasta 2.000 enlaces y un plan Pro por 72 $/año con 7 días de prueba sin compromiso.
+Marqly ofrece una cuenta gratuita para hasta 2.000 enlaces y un plan Pro por 72 $/año.

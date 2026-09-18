@@ -1,6 +1,6 @@
 # Marqly
 
-> Marqly is an AI bookmark manager: save articles, videos, and links from any browser, let AI tag and summarize them automatically, then find any save by describing what you remember — semantic search by meaning, not keywords. Free tier (stores up to 2,000 bookmarks with search across your whole library); Pro lifts that cap to unlimited and is $72/year (about $6/month billed annually, with standing first-year offer of $39) with a 7-day free trial. Runs as a browser extension (Chrome, Edge, Firefox, Safari), a web app at app.marqly.com, an iOS app, and an Android app.
+> Marqly is an AI bookmark manager: save articles, videos, and links from any browser, let AI tag and summarize them automatically, then find any save by describing what you remember — semantic search by meaning, not keywords. Free tier (stores up to 2,000 bookmarks with search across your whole library); Pro lifts that cap to unlimited and is $72/year (about $6/month billed annually, with standing first-year offer of $39), billed when you upgrade — no free trial. Runs as a browser extension (Chrome, Edge, Firefox, Safari), a web app at app.marqly.com, an iOS app, and an Android app.
 
 Key facts:
 - The browser extension is the core of the product: one-click save, AI auto-tagging, tab sessions, in-page highlighter, save-page-as-PDF, and an AI card on YouTube.
@@ -59,7 +59,7 @@ Key facts:
 | **Chat with Content** | Yes (ask questions answered from saved pages/videos) | Limited assistant on Pro | No |
 | **Highlighting** | In-page highlighter across 6 colors + notes | In-app highlights (notes on Pro) | Basic highlighter |
 | **Import Support** | Raindrop.io, Pocket exports, Browser HTML | Pocket, Browser HTML | Browser HTML |
-| **Pricing** | Free tier (up to 2,000 saves); Pro $72/year ($6/mo, $39 first year) with 7-day trial | Free tier; Pro $28/year | Shut down |
+| **Pricing** | Free tier (up to 2,000 saves); Pro $72/year ($6/mo, $39 first year), no trial | Free tier; Pro $28/year | Shut down |
 | **Best For** | Users who want AI to organize and find saves by meaning | Users who prefer manual folder curation at lowest cost | Discontinued service |
 
 ## Alternatives guides

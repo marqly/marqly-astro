@@ -45,6 +45,6 @@ Le nouveau paradigme remplace le besoin de **classer pour retrouver** par la lib
 - **Étiquetage automatique par IA :** Dès que vous enregistrez un lien, l'IA analyse l'intégralité de la page et lui attribue des tags thématiques précis sans intervention de votre part.
 - **Recherche sémantique :** Tapez simplement *"l'article qui explique le lien entre sommeil et concentration"* et la page apparaît instantanément, même si son titre exact était *"Pourquoi le repos optimise l'énergie cérébrale"*.
 
-Dans [Marqly](https://app.marqly.com), vous pouvez importer l'intégralité de vos signets désorganisés et profiter d'un index intelligent instantané. La formule gratuite offre jusqu'à 2 000 enregistrements, et Marqly Pro est disponible pour 72 $/an (environ 6 $/mois) avec un essai gratuit de 7 jours.
+Dans [Marqly](https://app.marqly.com), vous pouvez importer l'intégralité de vos signets désorganisés et profiter d'un index intelligent instantané. La formule gratuite offre jusqu'à 2 000 enregistrements, et Marqly Pro est disponible pour 72 $/an (environ 6 $/mois).
 
 Arrêtez de ranger vos favoris. Enregistrez-les, et laissez la machine s'occuper du reste.

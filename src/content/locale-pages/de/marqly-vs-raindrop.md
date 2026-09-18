@@ -38,7 +38,7 @@ Kurz vorweg, damit du nicht bis zum Ende scrollen musst: **Raindrop.io ist der a
 | --- | --- | --- |
 | Preis Pro | 72 $/Jahr (rund 66 €) oder 9 $/Monat (rund 8 €) | rund 28 $/Jahr (rund 26 €) oder 3 $/Monat |
 | Kostenlose Stufe | ja, ohne Karte | ja, sehr großzügig |
-| Test | 7 Tage kostenlos | kein Test nötig, Gratis-Stufe reicht weit |
+| Test | kein Test, Gratis-Stufe ohne Karte | kein Test nötig, Gratis-Stufe reicht weit |
 | Suche | semantisch: beschreiben statt benennen | Stichwortsuche; Volltext in Pro |
 | Automatisches Tagging | ja, KI vergibt Tags | KI schlägt Tags und Sammlungen vor (Pro) |
 | Zusammenfassungen | ja, zu jeder Speicherung | nein |

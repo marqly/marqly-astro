@@ -15,7 +15,7 @@ ctaLabel: "Marqly'yi ücretsiz deneyin"
 lang: "tr"
 faqs:
   - q: "Marqly ücreti ne kadar?"
-    a: "2.000 kayda kadar ücretsiz plan; Pro plan yıllık $72 (aylık $6), 7 gün ücretsiz deneme ve STANDING39 kuponuyla ilk yıl $39."
+    a: "2.000 kayda kadar ücretsiz plan; Pro plan yıllık $72 (aylık $6), STANDING39 kuponuyla ilk yıl $39."
 heroImage: ../../../assets/blog/marqly-review-2026.png
 heroAlt: "Marqly İncelemesi 2026"
 ---

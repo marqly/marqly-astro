@@ -19,7 +19,7 @@ faqs:
   - q: "我现有的浏览器书签可以导入吗？"
     a: "可以。Chrome、Firefox、Edge 和 Safari 均支持导出标准 HTML 书签文件，直接导入 Marqly 即可。AI 会自动对所有历史链接进行智能分类与打标签。"
   - q: "免费方案有什么额度限制？"
-    a: "免费方案支持最多保存 2,000 条书签。Pro 专业版年费为 $72（使用优惠码 STANDING39 首年仅需 $39），提供 7 天免费试用。"
+    a: "免费方案支持最多保存 2,000 条书签。Pro 专业版年费为 $72（使用优惠码 STANDING39 首年仅需 $39）。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"

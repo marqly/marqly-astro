@@ -12,7 +12,7 @@ tags:
   - "레딧 저장 제한"
   - "레딧 백업"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly 무료 체험"
+ctaLabel: "Marqly 무료로 시작하기"
 lang: "ko"
 faqs:
   - q: "레딧에서 저장한 게시물을 어떻게 내보내나요?"
@@ -60,4 +60,4 @@ ogImage: "https://www.marqly.com/og/export-reddit-saved-posts-2026.png"
 - Marqly의 AI가 각 페이지의 제목을 수집하고 적합한 주제 태그를 자동 생성합니다.
 - **시맨틱(의미 기반) 검색**을 통해 "사워도우 빵 반죽 실패 해결법"처럼 자연어로 설명하면 해당 글을 즉시 찾아줍니다.
 
-Marqly는 최대 2,000개 링크까지 무료로 지원하며, Pro 플랜은 연 72달러(월 약 6달러, 7일 무료 체험)로 이용할 수 있습니다.
+Marqly는 최대 2,000개 링크까지 무료로 지원하며, Pro 플랜은 연 72달러(월 약 6달러)로 이용할 수 있습니다.

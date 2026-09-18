@@ -19,7 +19,7 @@ faqs:
   - q: "Kan ik mijn bestaande browserbladwijzers importeren?"
     a: "Ja, je kunt eenvoudig een HTML-bladwijzerbestand exporteren vanuit Chrome, Firefox, Edge of Safari en direct uploaden in Marqly. AI tagt vervolgens je hele archief."
   - q: "Wat zijn de limieten van het gratis abonnement?"
-    a: "Het gratis abonnement biedt ruimte aan maximaal 2.000 saves. Marqly Pro kost $72/jaar (met coupon STANDING39 slechts $39 in het eerste jaar) met een gratis proefperiode van 7 dagen."
+    a: "Het gratis abonnement biedt ruimte aan maximaal 2.000 saves. Marqly Pro kost $72/jaar (met coupon STANDING39 slechts $39 in het eerste jaar)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

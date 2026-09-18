@@ -81,7 +81,7 @@ Pockets größte Schwachstelle war stets dieselbe: Das Speichern ging per Klick,
 
 - **Vorteile:** Semantische KI-Suche, automatisches intelligentes Tagging, KI-Zusammenfassungen, schneller Pocket-Import, aufgeräumter Lesemodus, faires Preismodell.
 - **Nachteile:** Jünger als traditionelle Marktführer, wachsende Community.
-- **Preis:** Gratis-Tarif bis zu 2.000 Einträge mit Volltextsuche; Pro-Tarif für 72 $/Jahr (~6 $/Monat, mit Gutscheincode `STANDING39` im ersten Jahr nur 39 $) oder 9 $/Monat. 7 Tage kostenlos testen.
+- **Preis:** Gratis-Tarif bis zu 2.000 Einträge mit Volltextsuche; Pro-Tarif für 72 $/Jahr (~6 $/Monat, mit Gutscheincode `STANDING39` im ersten Jahr nur 39 $) oder 9 $/Monat.
 
 [Marqly kostenlos testen →](https://app.marqly.com/lp/replace-pocket)
 

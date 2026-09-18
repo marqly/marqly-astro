@@ -11,7 +11,7 @@ tags:
   - "Pocket 백업 데이터"
   - "북마크 복원"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly 무료 체험하기"
+ctaLabel: "Marqly 무료로 시작하기"
 lang: "ko"
 faqs:
   - q: "Pocket 내보내기 파일에 본문 내용이 포함되어 있나요?"

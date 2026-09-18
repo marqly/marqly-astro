@@ -21,7 +21,7 @@ faqs:
   - q: "Aylar süren uzun soluklu araştırmalar için uygun mudur?"
     a: "Tam olarak bunun için geliştirilmiştir. Zaman geçtikçe tam dosya adını unutsanız bile aklınızdaki kavramla arama yapabilmek benzersiz bir avantaj sağlar."
   - q: "Kullanım ücreti nedir?"
-    a: "2.000 yer imine kadar tamamen ücretsizdir. Pro plan yıllık 72 $ (STANDING39 koduyla ilk yıl 39 $) veya aylık 9 $'dır ve 7 günlük ücretsiz deneme içerir."
+    a: "2.000 yer imine kadar tamamen ücretsizdir. Pro plan yıllık 72 $ (STANDING39 koduyla ilk yıl 39 $) veya aylık 9 $'dır."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Dene"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

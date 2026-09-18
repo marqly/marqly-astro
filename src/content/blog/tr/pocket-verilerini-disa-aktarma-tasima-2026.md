@@ -45,7 +45,7 @@ Bu adım adım kılavuzda verilerinizi nasıl güvenle dışa aktaracağınızı
 3. `pocket-export.html` dosyasını sürükleyip bırakın.
 4. Dosyanız saniyeler içinde işlenir ve kütüphaneniz hazır hale gelir.
 
-Marqly ücretsiz sürümünde 2.000 kayda kadar izin verir; Pro planı ise yıllık $72 (yıllık ödemede aylık $6 veya aylık $9), 7 günlük ücretsiz deneme ve `STANDING39` kuponuyla ilk yıl $39'dır.
+Marqly ücretsiz sürümünde 2.000 kayda kadar izin verir; Pro planı ise yıllık $72 (yıllık ödemede aylık $6 veya aylık $9), `STANDING39` kuponuyla ilk yıl $39'dır.
 
 ## 4. Adım: Tarayıcı eklentilerini kurun
 

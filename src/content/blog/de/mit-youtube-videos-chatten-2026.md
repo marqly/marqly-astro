@@ -20,7 +20,7 @@ faqs:
   - q: "Erfindet die KI Antworten über das Video?"
     a: "Nein, wenn der Chat strikt an das Transkript gekoppelt ist. Wird ein Thema im Video nicht erwähnt, teilt die KI das ehrlich mit, statt Vermutungen anzustellen."
   - q: "Ist die Video-Chat-Funktion bei Marqly kostenlos?"
-    a: "Der interaktive Video-Chat ist Teil von Marqly Pro (72 $ pro Jahr – ca. 6 $ pro Monat bei jährlicher Abrechnung) und bietet eine 7-tägige kostenlose Testphase. Die Erweiterung und Video-Zusammenfassungen haben eine kostenlose Stufe."
+    a: "Der interaktive Video-Chat ist Teil von Marqly Pro (72 $ pro Jahr – ca. 6 $ pro Monat bei jährlicher Abrechnung). Die Erweiterung und Video-Zusammenfassungen haben eine kostenlose Stufe."
   - q: "Kann ich das Video für später speichern und dann befragen?"
     a: "Ja. Mit dem Marqly-Lesezeichen-Button auf YouTube wird das Video mitsamt Transkript in deiner Bibliothek gespeichert, sodass du jederzeit Fragen dazu stellen kannst."
 heroImage: ../../../assets/blog/chat-with-youtube-videos.png

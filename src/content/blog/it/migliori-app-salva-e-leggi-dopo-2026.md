@@ -90,7 +90,7 @@ Invia le pagine web direttamente alle tabelle e ai database di Notion. Non offre
 
 Non chiederti «quale app salva le pagine più rapidamente?»: lo fanno tutte all'istante. La vera domanda è: **«quale app mi permetterà di ritrovare tra sei mesi quell'articolo di cui ricordo a malapena il concetto generale?»**. È qui che le app tradizionali si bloccano, ed è qui che la ricerca semantica con AI fa la differenza.
 
-[Prova Marqly gratis](https://app.marqly.com/lp/replace-pocket), importa la tua coda di lettura e cerca per significato. 7 giorni di prova Pro, fino a 2.000 segnalibri gratis, senza inserire la carta di credito.
+[Prova Marqly gratis](https://app.marqly.com/lp/replace-pocket), importa la tua coda di lettura e cerca per significato. Fino a 2.000 segnalibri gratis, senza inserire la carta di credito.
 
 ---
 

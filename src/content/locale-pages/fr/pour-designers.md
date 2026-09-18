@@ -17,7 +17,7 @@ faqs:
   - q: "Mes clients ou collègues peuvent-ils consulter mes moodboards ?"
     a: "Tout tableau peut être partagé via un lien public consultable sans création de compte. Idéal pour présenter un moodboard de cadrage sans friction."
   - q: "Marqly est-il gratuit pour collecter de l'inspiration ?"
-    a: "Oui, le forfait gratuit accueille jusqu'à 2 000 éléments avec tableaux et surlignage web. Le forfait Pro (72 $/an ou 39 $ la 1re année avec code STANDING39) ajoute l'IA complète avec 7 jours d'essai."
+    a: "Oui, le forfait gratuit accueille jusqu'à 2 000 éléments avec tableaux et surlignage web. Le forfait Pro (72 $/an ou 39 $ la 1re année avec code STANDING39) ajoute l'IA complète."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"

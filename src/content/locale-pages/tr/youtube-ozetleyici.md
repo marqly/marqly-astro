@@ -17,7 +17,7 @@ faqs:
   - q: "Yapay zeka özetinde tam olarak neler yer alır?"
     a: "Video oynatılırken üretilen canlı özet, videonun kilit bölümleri ve konuşmacıların bahsettiği kitap önerileri eksiksiz listelenir."
   - q: "Videoyla sohbet özelliği ücretli mi?"
-    a: "Transkript üzerinden videoya soru sorma Pro özelliğidir (yıllık 72$ veya aylık 9$, 7 gün ücretsiz deneme). Ücretsiz planda özet kartını deneyebilirsiniz."
+    a: "Transkript üzerinden videoya soru sorma Pro özelliğidir (yıllık 72$ veya aylık 9$). Ücretsiz planda özet kartını deneyebilirsiniz."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi ücretsiz deneyin"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

@@ -17,7 +17,7 @@ faqs:
   - q: "Marqly sostituisce Zotero o Mendeley nella stesura della tesi?"
     a: "No. Zotero formatta la bibliografia e le citazioni. Marqly gestisce la fase di studio: memorizzare i concetti chiave, annotare pagine web e recuperare studi da frammenti di ricordi."
   - q: "Quanto costa Marqly per un dottorando con borsa di studio?"
-    a: "Piano gratuito senza carta per iniziare. Pro a 72 $/anno (39 $ il primo anno con coupon STANDING39) con 7 giorni di prova gratuita."
+    a: "Piano gratuito senza carta per iniziare. Pro a 72 $/anno (39 $ il primo anno con coupon STANDING39)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"

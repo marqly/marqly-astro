@@ -20,7 +20,7 @@ faqs:
   - q: "Verzint de AI geen antwoorden (hallucinaties)?"
     a: "Nee, omdat de chat strikt verankerd is in het transcript. Als het onderwerp niet in de video voorkomt, meldt de AI dat eerlijk in plaats van antwoorden te verzinnen."
   - q: "Is chatten met video's gratis in Marqly?"
-    a: "De interactieve videochat is onderdeel van Marqly Pro ($72 per jaar – ca. $6 per maand bij jaarlijkse facturatie) en biedt een gratis proefperiode van 7 dagen. De extensie en basissamenvattingen zijn gratis beschikbaar."
+    a: "De interactieve videochat is onderdeel van Marqly Pro ($72 per jaar – ca. $6 per maand bij jaarlijkse facturatie). De extensie en basissamenvattingen zijn gratis beschikbaar."
   - q: "Kan ik een video bewaren en er later vragen over stellen?"
     a: "Ja. Marqly voegt een bladwijzerknop toe op YouTube waarmee de video inclusief transcript wordt opgeslagen in je bibliotheek."
 heroImage: ../../../assets/blog/chat-with-youtube-videos.png

@@ -21,7 +21,7 @@ faqs:
   - q: "Czy mogę przenieść swoje dotychczasowe zakładki?"
     a: "Oczywiście. Marqly obsługuje bezpośredni import plików HTML z Chrome, Safari, Edge i Firefox, a także eksporty z Raindrop.io oraz Pocket."
   - q: "Ile kosztuje Marqly?"
-    a: "Darmowy pakiet pozwala na zapisanie do 2000 elementów. Wersja Pro kosztuje 72 USD rocznie (39 USD w pierwszym roku z kodem STANDING39) lub 9 USD miesięcznie i zawiera 7-dniowy okres próbny."
+    a: "Darmowy pakiet pozwala na zapisanie do 2000 elementów. Wersja Pro kosztuje 72 USD rocznie (39 USD w pierwszym roku z kodem STANDING39) lub 9 USD miesięcznie."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"

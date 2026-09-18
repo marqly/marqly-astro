@@ -37,7 +37,7 @@ Un **gestore di segnalibri con AI** non si limita ad archiviare URL: utilizza l'
 ### 1. Marqly — Il riferimento assoluto per la ricerca semantica
 Marqly è nato per il recupero semantico delle informazioni. Salva pagine web, video di YouTube con trascrizione e ti permette di interrogare la tua libreria con domande in linguaggio naturale.
 - Gratuito: fino a 2.000 segnalibri con ricerca completa.
-- Pro: 72 $/anno (39 $ il 1° anno) o 9 $/mese con prova gratuita di 7 giorni. [Prova gratis →](https://app.marqly.com/lp/ai-search)
+- Pro: 72 $/anno (39 $ il 1° anno) o 9 $/mese. [Prova gratis →](https://app.marqly.com/lp/ai-search)
 
 ### 2. Readwise Reader — Per chi legge e annota molto
 Ottimo lettore di articoli, newsletter e PDF con sincronizzazione delle evidenziazioni.

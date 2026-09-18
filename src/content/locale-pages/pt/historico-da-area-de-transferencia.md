@@ -17,7 +17,7 @@ faqs:
   - q: "Ele armazena coisas que copio fora do navegador?"
     a: "Não. Ele foca estritamente nos trechos copiados de páginas web durante a navegação, organizando sua rotina de pesquisa online."
   - q: "Meus trechos copiados sincronizam entre computadores?"
-    a: "A captura local é gratuita. O Marqly Pro adiciona sincronização segura em nuvem entre seus dispositivos por 72 $/ano com 7 dias de teste."
+    a: "A captura local é gratuita. O Marqly Pro adiciona sincronização segura em nuvem entre seus dispositivos por 72 $/ano."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Testar o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"

@@ -16,7 +16,7 @@ faqs:
   - q: "What is Marqly?"
     a: "Marqly is an AI-powered bookmark manager and read-it-later app. You save articles, videos, threads, and links; Marqly auto-tags them, summarizes them, and — its defining feature — lets you search your library by meaning rather than keywords. It's available on web, iOS, and desktop."
   - q: "How much does Marqly cost?"
-    a: "Marqly has a free tier you can start without a credit card, and Pro at around $6 per month billed yearly with unlimited saves and full AI features, plus a 7-day free trial of Pro. At ~$6/mo it sits below premium tools like Readwise Reader ($12/mo) while offering AI search that free tools like Raindrop lack."
+    a: "Marqly has a free tier you can start without a credit card, and Pro at around $6 per month billed yearly with unlimited saves and full AI features. At ~$6/mo it sits below premium tools like Readwise Reader ($12/mo) while offering AI search that free tools like Raindrop lack."
   - q: "Who is Marqly for?"
     a: "Marqly is for people with a large, messy backlog of bookmarks they can't find, former Pocket users who want the AI search Pocket never had, and anyone building a second brain from what they read without the maintenance. It's less suited to highlight-heavy power readers or people who mainly write original notes."
   - q: "What are Marqly's main downsides?"
@@ -61,7 +61,7 @@ Browser extension for desktop, share-sheet on mobile.
 
 - **Free tier** — get started without a credit card; stores up to 2,000 bookmarks with search across your whole library.
 - **Pro ($72/year ≈ $6/month, with a $39 first-year offer or $9/mo)** — unlimited bookmarks and full AI capabilities (semantic search, auto-tagging, YouTube chat, ChatVault). See our [pricing page](/pricing).
-- **7-day free trial** of Pro.
+- **Free plan to start**, no card required; Pro is billed when you upgrade and can be cancelled anytime.
 
 At ~$6/mo, Marqly sits below premium tools like Readwise Reader ($12/mo) while offering the AI-search layer that free tools like Raindrop lack.
 

@@ -11,7 +11,7 @@ tags:
   - "북마크 복구"
   - "북마크 백업"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly 무료 체험하기"
+ctaLabel: "Marqly 무료로 시작하기"
 lang: "ko"
 faqs:
   - q: "크롬 북마크 동기화가 갑자기 안 되는 이유는 무엇인가요?"

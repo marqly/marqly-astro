@@ -45,6 +45,6 @@ Yeni yaklaşım, **bulabilmek için sınıflandırma zorunluluğundan**, **hemen
 - **Kaydetme anında yapay zeka ile otomatik etiketleme:** Bağlantıyı kaydettiğinizde yapay zeka metni tarar ve ilgili konu etiketlerini zahmetsizce ekler.
 - **Doğal dille anlamsal arama:** *"Uyku ile öğleden sonra odaklanması arasındaki ilişkiyi anlatan makale"* şeklinde arama yaptığınızda, başlıkta bu kelimeler yer almasa bile doğru yazı en üstte listelenir.
 
-[Marqly](https://app.marqly.com) ile tarayıcınızdaki tüm yer imlerini birkaç dakika içinde içe aktarabilir ve anlam odaklı aramanın rahatlığını yaşayabilirsiniz. Ücretsiz planda 2.000 yer imine kadar kayıt imkanı sunulurken, Marqly Pro yıllık 72 dolar (yıllık ödemede ayda yaklaşık 6 dolar) ve 7 günlük ücretsiz deneme imkanıyla gelir.
+[Marqly](https://app.marqly.com) ile tarayıcınızdaki tüm yer imlerini birkaç dakika içinde içe aktarabilir ve anlam odaklı aramanın rahatlığını yaşayabilirsiniz. Ücretsiz planda 2.000 yer imine kadar kayıt imkanı sunulurken, Marqly Pro yıllık 72 dolardır (yıllık ödemede ayda yaklaşık 6 dolar).
 
 Klasör yönetme stresine son verin. Linklerinizi kaydedin ve geri getirme işini yapay zekaya bırakın.

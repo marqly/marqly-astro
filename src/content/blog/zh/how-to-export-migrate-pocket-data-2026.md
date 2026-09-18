@@ -11,7 +11,7 @@ tags:
   - "Pocket 替代品"
   - "书签导入"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "如何导出 Pocket 中的收藏数据？"
@@ -45,7 +45,7 @@ heroAlt: "Pocket数据导出与迁移指南插图"
 3. 将下载的 `pocket-export.html` 文件拖入导入区域。
 4. 系统将在后台自动解析并在保留标签的同时建立 AI 语义索引。
 
-Marqly 免费计划支持 2,000 条收藏；Pro 计划年付 $72（折合 $6/月），提供 7 天免费试用，结账时输入优惠码 `STANDING39` 首年仅需 $39。
+Marqly 免费计划支持 2,000 条收藏；Pro 计划年付 $72（折合 $6/月），结账时输入优惠码 `STANDING39` 首年仅需 $39。
 
 ## 第 4 步：恢复高效收藏习惯
 

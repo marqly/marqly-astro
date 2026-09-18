@@ -19,7 +19,7 @@ faqs:
   - q: "Kan ik verzamelingen delen met een team of opdrachtgevers?"
     a: "Ja. Je kunt van elk bord een openbare link maken die anderen zonder account in hun browser kunnen bekijken."
   - q: "Wat zijn de tarieven?"
-    a: "De gratis versie biedt ruimte voor 2.000 bladwijzers. Het Pro-abonnement kost $72/jaar ($39 eerste jaar met coupon STANDING39) of $9/maand, inclusief 7 dagen gratis proefperiode."
+    a: "De gratis versie biedt ruimte voor 2.000 bladwijzers. Het Pro-abonnement kost $72/jaar ($39 eerste jaar met coupon STANDING39) of $9/maand."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

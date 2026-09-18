@@ -19,7 +19,7 @@ faqs:
   - q: "Hazırladığım analiz panosunu müşterilerim veya ekibimle paylaşabilir miyim?"
     a: "Evet. Panolarınız için tek tıkla herkese açık bağlantı oluşturabilir ve karşı taraf üye olmadan tarayıcısında tüm referansları görüntüleyebilir."
   - q: "Fiyatlandırma nasıldır?"
-    a: "Ücretsiz planda 2.000 yer imine kadar arşivleme yapılabilir. Pro plan yıllık 72 $ (STANDING39 koduyla ilk yıl 39 $) veya aylık 9 $'dır ve 7 günlük deneme süresi sunar."
+    a: "Ücretsiz planda 2.000 yer imine kadar arşivleme yapılabilir. Pro plan yıllık 72 $ (STANDING39 koduyla ilk yıl 39 $) veya aylık 9 $'dır."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Dene"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

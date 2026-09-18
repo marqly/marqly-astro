@@ -40,4 +40,4 @@ Contrairement aux carnets de notes traditionnels, il vous permet d'interroger di
 
 La principale cause d'abandon des systèmes de prise de notes comme Obsidian ou Notion est le temps nécessaire à leur entretien. Avec [Marqly](https://app.marqly.com), ce travail est délégué à la machine, vous laissant libre de vous concentrer sur la réflexion.
 
-Marqly propose une formule gratuite jusqu'à 2 000 éléments et une offre Pro à 72 $/an avec 7 jours d'essai sans engagement.
+Marqly propose une formule gratuite jusqu'à 2 000 éléments et une offre Pro à 72 $/an.

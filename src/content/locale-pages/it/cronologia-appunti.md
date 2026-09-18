@@ -17,7 +17,7 @@ faqs:
   - q: "Salva anche ciò che copio all'esterno del browser?"
     a: "No. Registra esclusivamente i frammenti copiati durante la navigazione web, mantenendo l'archivio pulito e leggero."
   - q: "Posso sincronizzare gli appunti copiati tra più computer?"
-    a: "L'uso locale nel browser è gratuito. Marqly Pro aggiunge la sincronizzazione tra dispositivi a 72 $/anno con prova di 7 giorni."
+    a: "L'uso locale nel browser è gratuito. Marqly Pro aggiunge la sincronizzazione tra dispositivi a 72 $/anno."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"

@@ -48,4 +48,4 @@ En üretken yaklaşım: **Notion'ı yazı ve projeleriniz için temiz tutun; int
 - **Kaydetme anında yapay zekayla otomatik etiketleme ve özetleme**.
 - **Anlamsal arama:** Başlığı unutsanız bile aklınızda kalan fikri tarif ederek makaleyi anında çağırma imkanı.
 
-Marqly'de 2.000 linke kadar ücretsiz kullanım sunulurken, Pro plan yıllık 72 dolardır (7 günlük ücretsiz deneme imkanıyla).
+Marqly'de 2.000 linke kadar ücretsiz kullanım sunulurken, Pro plan yıllık 72 dolardır.

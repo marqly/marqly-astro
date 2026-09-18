@@ -12,7 +12,7 @@ tags:
   - "构建第二大脑"
   - "个人知识管理"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "什么是第二大脑应用？"
@@ -42,4 +42,4 @@ ogImage: "https://www.marqly.com/og/what-is-a-second-brain-app-2026.png"
 
 使用 [Marqly](https://app.marqly.com)，你可以把积攒的书签一键导入，即刻获得全自动 AI 摘要与自然语言语义搜索。
 
-Marqly 免费版支持多达2000个项目，Pro版每年仅需72美元（含7天免费试用）。立即打造你的无负担数字外脑！
+Marqly 免费版支持多达2000个项目，Pro版每年仅需72美元。立即打造你的无负担数字外脑！

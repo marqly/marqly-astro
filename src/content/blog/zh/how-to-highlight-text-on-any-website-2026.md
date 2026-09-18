@@ -22,7 +22,7 @@ faqs:
   - q: "可以在一个地方统一查看所有高亮句子吗？"
     a: "可以。侧边栏会汇总当前页面及整个书签库的所有高亮摘录，点击即可自动定位跳转至原文段落。"
   - q: "Marqly 网页荧光笔功能免费吗？"
-    a: "基础书签与标签页保存功能永久免费。划线高亮与笔记属于 Pro 专业版（年费 $72，使用优惠码 STANDING39 首年仅需 $39），提供 7 天免费试用。"
+    a: "基础书签与标签页保存功能永久免费。划线高亮与笔记属于 Pro 专业版（年费 $72，使用优惠码 STANDING39 首年仅需 $39）。"
 heroImage: ../../../assets/blog/how-to-highlight-text-on-any-website.png
 heroAlt: "如何在网页上划线高亮文字 — 插图"
 ogImage: "https://www.marqly.com/og/how-to-highlight-text-on-any-website.png"

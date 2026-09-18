@@ -11,7 +11,7 @@ tags:
   - "书签同步失败"
   - "书签备份"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "为什么 Chrome 会突然停止同步书签？"

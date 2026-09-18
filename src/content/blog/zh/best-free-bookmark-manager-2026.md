@@ -16,7 +16,7 @@ tags:
   - "karakeep"
   - "浏览器书签"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "2026年哪款免费书签管理器最推荐？"

@@ -11,7 +11,7 @@ tags:
   - "Marqly vs Instapaper"
   - "AI 북마크"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly 무료 체험하기"
+ctaLabel: "Marqly 무료로 시작하기"
 lang: "ko"
 faqs:
   - q: "Instapaper를 대체할 가장 좋은 도구는?"

@@ -43,4 +43,4 @@ Wpisz np.: *"Jakie argumenty przeciwko biurom typu open-space pojawiły się w m
 3. **Przeczytaj opracowaną odpowiedź:** AI łączy wiedzę z kilku niezależnych źródeł w spójny tekst.
 4. **Sprawdź cytowania:** Klikaj w źródła, aby zapoznać się z pełnym kontekstem.
 
-Marqly oferuje darmowe konto do 2000 pozycji oraz pakiet Pro w cenie 72 USD rocznie z 7-dniowym darmowym okresem próbnym.
+Marqly oferuje darmowe konto do 2000 pozycji oraz pakiet Pro w cenie 72 USD rocznie.

@@ -54,4 +54,4 @@ Para ter um repositório pesquisável e à prova de exclusões:
 - Use a **busca semântica** em linguagem natural: digite *"a receita rápida de macarrão com cogumelos"* para encontrar o post instantaneamente.
 - Reúna artigos, vídeos e referências do Instagram em uma única plataforma confiável.
 
-O Marqly conta com plano gratuito para até 2.000 itens e versão Pro por 72 $/ano com 7 dias de avaliação gratuita.
+O Marqly conta com plano gratuito para até 2.000 itens e versão Pro por 72 $/ano.

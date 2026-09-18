@@ -17,7 +17,7 @@ faqs:
   - q: "¿Marqly reemplaza a Zotero o Mendeley en la redacción de la tesis?"
     a: "No. Zotero o Mendeley gestionan las citas y generan la bibliografía final. Marqly resuelve la fase de lectura y retención: recordar qué decía cada estudio, organizar citas clave y encontrar fuentes por descripciones vagas."
   - q: "¿Cuánto cuesta Marqly con presupuesto de doctorando?"
-    a: "Hay un plan gratuito sin tarjeta para empezar. Pro cuesta 72 $/año (unos 6 $/mes facturado anualmente) o 39 $ el primer año con el cupón STANDING39, incluyendo 7 días de prueba."
+    a: "Hay un plan gratuito sin tarjeta para empezar. Pro cuesta 72 $/año (unos 6 $/mes facturado anualmente) o 39 $ el primer año con el cupón STANDING39."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probar Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"

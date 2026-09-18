@@ -12,7 +12,7 @@ tags:
   - "书签自动化分类"
   - "AI书签管理器"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "AI是如何做到全自动整理书签的？"

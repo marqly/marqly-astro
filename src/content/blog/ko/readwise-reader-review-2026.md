@@ -11,7 +11,7 @@ tags:
   - "하이라이트 동기화"
   - "Readwise vs Marqly"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly 무료 체험하기"
+ctaLabel: "Marqly 무료로 시작하기"
 lang: "ko"
 faqs:
   - q: "Readwise Reader는 무료 버전이 있나요?"

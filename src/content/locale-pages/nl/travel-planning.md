@@ -21,7 +21,7 @@ faqs:
   - q: "Helpt Marqly bij lange reisvideo's op YouTube?"
     a: "Ja, AI vat de video samen en haalt bezienswaardigheden en routes direct naar voren met een tijdgebonden transcriptie."
   - q: "Wat zijn de tarieven?"
-    a: "Gratis tot 2.000 opgeslagen links. Pro kost $72/jaar ($39 eerste jaar met coupon STANDING39) of $9/maand inclusief 7 dagen proefperiode."
+    a: "Gratis tot 2.000 opgeslagen links. Pro kost $72/jaar ($39 eerste jaar met coupon STANDING39) of $9/maand."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

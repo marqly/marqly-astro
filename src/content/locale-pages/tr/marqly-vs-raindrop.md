@@ -15,7 +15,7 @@ faqs:
   - q: "Marqly ve Raindrop arasındaki en temel fark nedir?"
     a: "Fark arama ve düzenleme felsefesindedir. Raindrop'ta klasör ve etiketleri kendiniz yönetip tam anahtar kelimelerle arama yaparsınız. Marqly'de yapay zeka otomatik etiketler, makaleleri özetler ve tam başlığı unutsanız bile aklınızda kalan konuyu yazarak içeriği bulmanızı sağlar."
   - q: "Uygulamaların ücretleri ne kadardır?"
-    a: "Raindrop Pro yıllık yaklaşık 28$'dır. Marqly Pro yıllık 72$ (ilk yıl indirim koduyla 39$) veya aylık 9$'dır; 7 günlük ücretsiz deneme ve 2.000 yer imine kadar ücretsiz plan içerir."
+    a: "Raindrop Pro yıllık yaklaşık 28$'dır. Marqly Pro yıllık 72$ (ilk yıl indirim koduyla 39$) veya aylık 9$'dır; 2.000 yer imine kadar ücretsiz plan içerir."
   - q: "Raindrop'taki yer imlerimi Marqly'ye aktarabilir miyim?"
     a: "Evet. Marqly'nin doğrudan Raindrop içe aktarma aracı vardır ve birkaç dakika içinde tüm arşivinizi eksiksiz taşır."
 ctaUrl: "https://app.marqly.com"
@@ -32,7 +32,7 @@ updatedDate: 2026-08-16
 | --- | --- | --- |
 | Pro Fiyatı | Yıllık 72$ (ilk yıl 39$) · Aylık 9$ | Yıllık ~28$ |
 | Ücretsiz Plan | Var (2.000 yer imi, tüm kütüphanede arama) | Var (oldukça geniş) |
-| Ücretsiz Deneme | 7 gün ücretsiz Pro deneme | Yok |
+| Ücretsiz Deneme | Yok (kredi kartı istemeyen ücretsiz plan) | Yok |
 | Yapay Zeka Anlamsal Arama | Var (anlam ve hafızayla arama) | Yok (sadece anahtar kelime) |
 | Otomatik AI Etiketleme | Var | Pro'da etiket önerisi |
 | Yapay Zeka Özetleri | Var (makale ve YouTube) | Yok |

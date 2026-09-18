@@ -12,7 +12,7 @@ tags:
   - "PARA方法替代"
   - "个人知识管理 AI"
 ctaUrl: "https://app.marqly.com/lp/knowledge-base"
-ctaLabel: "免费试用Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "什么是第二大脑？"

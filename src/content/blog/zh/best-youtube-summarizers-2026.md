@@ -13,7 +13,7 @@ tags:
   - "视频文字稿提取"
   - "eightify替代品"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "2026年最好用的 YouTube 视频总结软件是哪款？"

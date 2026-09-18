@@ -21,7 +21,7 @@ faqs:
   - q: "Is het geschikt voor documentaires of gesproken interviews?"
     a: "Zeker. Bij het opslaan van een YouTube-video wordt automatisch een doorzoekbaar transcript gegenereerd, zodat je die ene uitspraak maanden later moeiteloos terugvindt."
   - q: "Wat zijn de tarieven?"
-    a: "Tot 2.000 items gratis. Pro kost $72/jaar ($39 eerste jaar met actiecode STANDING39) of $9/maand, inclusief 7 dagen gratis proefperiode."
+    a: "Tot 2.000 items gratis. Pro kost $72/jaar ($39 eerste jaar met actiecode STANDING39) of $9/maand."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

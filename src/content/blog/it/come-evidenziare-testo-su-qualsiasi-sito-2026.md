@@ -22,7 +22,7 @@ faqs:
   - q: "Posso vedere tutte le citazioni salvate in un unico posto?"
     a: "Sì. Il pannello laterale mostra sia le annotazioni della pagina corrente che quelle di tutta la tua libreria. Cliccando su una citazione la pagina scorre fino ad essa."
   - q: "L'evidenziatore di Marqly è gratuito?"
-    a: "L'estensione è gratuita per segnalibri e schede. Evidenziazioni e note fanno parte di Marqly Pro (72 $/anno, o 39 $ il 1° anno con codice STANDING39), con 7 giorni di prova gratuita."
+    a: "L'estensione è gratuita per segnalibri e schede. Evidenziazioni e note fanno parte di Marqly Pro (72 $/anno, o 39 $ il 1° anno con codice STANDING39)."
 heroImage: ../../../assets/blog/how-to-highlight-text-on-any-website.png
 heroAlt: "Come evidenziare testo su pagine web — illustrazione"
 ogImage: "https://www.marqly.com/og/how-to-highlight-text-on-any-website.png"

@@ -11,7 +11,7 @@ tags:
   - "Pocket 数据导出"
   - "书签备份解析"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费试用 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "Pocket 导出文件中包含文章正文吗？"
