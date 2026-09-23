@@ -73,7 +73,7 @@ A lot of apps slap "AI" on keyword search dressed up with filters. Run this test
 - Wait a day so you forget the wording.
 - Search by paraphrasing one of them using **none** of its title words.
 
-If the right article surfaces near the top, the semantic search is real. If you get nothing, it's keyword matching with marketing on top. We ran this exact test across the major apps to see [which tools actually do semantic search](/blog/ai-bookmark-managers-semantic-search-compared) and which only claim to.
+If the right article surfaces near the top, the semantic search is real. If you get nothing, it's keyword matching with marketing on top. Our [documentation-level breakdown of which tools actually do semantic search](/blog/ai-bookmark-managers-semantic-search-compared) shows how each is built, and the [retrieval benchmark protocol](/blog/ai-bookmark-retrieval-benchmark-2026) makes the judgment call yours to run.
 
 ## Get more out of AI search
 
@@ -83,4 +83,4 @@ If the right article surfaces near the top, the semantic search is real. If you 
 
 ## Start searching by meaning
 
-If you've ever known you saved something but couldn't dig it out, AI search is the fix. You describe the idea; the tool finds the save. [Marqly is built around semantic search](https://app.marqly.com) and is free to try on web, iOS, and desktop — save a few things, then search the way you actually remember.
+If you've ever known you saved something but couldn't dig it out, AI search is the fix. You describe the idea; the tool finds the save. [Marqly is built around semantic search](https://app.marqly.com) across web, iOS, and desktop — the free plan gives you up to 2,000 saves with whole-library search, and Pro turns on search by meaning, so you can compare the two against your own archive.

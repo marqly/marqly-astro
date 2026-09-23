@@ -122,7 +122,7 @@ Match the tool to the job, not the marketing. Pick by your **primary** use — w
 6. **You'd rather listen than read** → Matter, for its text-to-speech.
 7. **You're leaving Pocket and want a soft landing** → start with our [best Pocket alternatives](/blog/best-pocket-alternatives-2026) roundup; Marqly imports Pocket exports directly and adds the meaning search Pocket never had.
 
-If two tools tie on paper, check our empirical [1,000-save AI Bookmark Retrieval Benchmark](/blog/ai-bookmark-retrieval-benchmark-2026) to see how they perform under controlled testing, or run the two-minute test above.
+If two tools tie on paper, run the protocol in our [Bookmark Retrieval Benchmark 2026](/blog/ai-bookmark-retrieval-benchmark-2026) on your own five lost saves, or run the two-minute test above.
 
 ## How do you evaluate any "AI" bookmark tool fast?
 

@@ -27,4 +27,4 @@ Requests are reviewed individually. Charged right after forgetting to cancel? Hi
 
 ## Avoiding the situation entirely
 
-Two practical tips. First, if you're unsure about a full year, start with the $8 monthly plan and switch to annual later — the [pricing breakdown](/faq/how-much-does-marqly-cost) shows the difference. Second, if you've decided to leave, [cancel your subscription](/faq/how-do-i-cancel-my-subscription) before the next renewal date; you keep Pro access until the period ends either way, so there's no reason to wait.
+Two practical tips. First, if you're unsure about a full year, start with the $9 monthly plan and switch to annual later — the [pricing breakdown](/faq/how-much-does-marqly-cost) shows the difference. Second, if you've decided to leave, [cancel your subscription](/faq/how-do-i-cancel-my-subscription) before the next renewal date; you keep Pro access until the period ends either way, so there's no reason to wait.

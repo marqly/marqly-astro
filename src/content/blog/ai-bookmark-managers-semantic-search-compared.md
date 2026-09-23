@@ -93,7 +93,7 @@ This is also why "AI bookmark manager" is really shorthand for "a bookmark manag
 
 If you're buying an AI bookmark manager for the *AI*, the only question that matters is whether it searches by meaning. Most don't — they auto-tag, filter, and hope you don't notice the difference. A few do it partially through chat. One, Marqly, is built around it as the main event. Run the two-minute test on any tool you're considering and keep whichever one finds your paraphrased save; the rest are organizers wearing an AI label.
 
-To see empirical accuracy data across 1,000 saves, read our [AI Bookmark Retrieval Benchmark](/blog/ai-bookmark-retrieval-benchmark-2026). If you're ready to switch, our [Migration Center](/migrate) has step-by-step guides for Pocket, Raindrop, and mymind, and you can inspect or deduplicate your export files using our [Bookmark File Viewer](/tools/bookmark-file-viewer) and [free browser tools](/tools).
+To run a fair, reproducible head-to-head on your own library, take the protocol from our [Bookmark Retrieval Benchmark 2026](/blog/ai-bookmark-retrieval-benchmark-2026). If you're ready to switch, our [Migration Center](/migrate) has step-by-step guides for Pocket, Raindrop, and mymind, and you can inspect or deduplicate your export files using our [Bookmark File Viewer](/tools/bookmark-file-viewer) and [free browser tools](/tools).
 
 If you'd rather just feel the difference, [import your library into Marqly](https://app.marqly.com) and search for something you saved months ago — by meaning, not keywords. Free, no credit card, on web, iOS, and Chrome.
 

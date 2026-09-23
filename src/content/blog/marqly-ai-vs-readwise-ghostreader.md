@@ -57,7 +57,7 @@ The greatest breakdown in digital bookmarking happens months after saving: you r
 * **Readwise Ghostreader:** Reader provides full-text search across all downloaded documents and EPUBs. If you remember words that were explicitly printed in the text, you can find it. Ghostreader can also suggest queries. However, it still relies on textual keyword indexing. If you search for "cortisol spike upon waking" but the author titled the post "Why You Wake Up at 3 AM," keyword engines often score poorly.
 * **Marqly AI:** Marqly embeds semantic meaning directly into your personal vector space. You search by typing: *"that article about why blood sugar spikes during dawn hours"*, and Marqly retrieves the exact bookmark in milliseconds, even when none of those words appear in the headline.
 
-In our [1,000-Save Retrieval Benchmark](/blog/ai-bookmark-retrieval-benchmark-2026), Marqly scored a **94% Top-3 retrieval rate** on natural-language paraphrase queries compared to 85% for Reader.
+How each tool builds search (per official documentation, with the limits of reading-only research stated on the page) is in our [AI bookmark managers compared](/blog/ai-bookmark-managers-semantic-search-compared); to settle it with your own memory of articles you lost, use the runnable protocol in our [Bookmark Retrieval Benchmark 2026](/blog/ai-bookmark-retrieval-benchmark-2026).
 
 ---
 

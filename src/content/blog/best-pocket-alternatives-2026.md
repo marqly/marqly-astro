@@ -19,7 +19,7 @@ faqs:
   - q: "Can I still import my Pocket data after the shutdown?"
     a: "Yes. If you exported your Pocket data before or during the July 2025 shutdown, most modern tools — including Marqly, Raindrop, and Instapaper — import that file directly, preserving your saved articles and tags. Marqly imports a Pocket export in about two minutes."
   - q: "Is there a free Pocket alternative?"
-    a: "Yes. Raindrop.io has the most generous free tier for general saving, Instapaper offers a free minimalist reader, and Marqly has a free plan that includes AI search. Wallabag is completely free if you self-host it."
+    a: "Yes. Raindrop.io has the most generous free tier for general saving, Instapaper offers a free minimalist reader, and Marqly's free plan stores up to 2,000 bookmarks with search across the whole library — its AI layer (auto-tagging, summaries, semantic search) is part of Pro. Wallabag is completely free if you self-host it."
   - q: "What made Pocket different from a normal bookmark manager?"
     a: "Pocket was a read-it-later app: it saved articles into a clean, distraction-free reader for later, rather than just storing links. The best 2026 alternatives keep that reader experience and add AI summaries and semantic search on top."
   - q: "When did Pocket actually shut down?"

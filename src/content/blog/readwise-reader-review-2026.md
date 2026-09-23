@@ -107,7 +107,7 @@ Two footnotes that matter. First, Reader is not sold separately — if you want 
 | AI on YouTube | Transcripts in-app | **Summary, chat, transcript on the watch page itself** |
 | Learning curve | Steep | Minimal |
 
-The honest read: these tools disagree about what the job is. Reader believes the job is *reading more, better, and remembering it* — and wins every row that serves that. Marqly believes the job is *finding what you saved when you need it* — and wins retrieval, simplicity, and price. Plenty of people genuinely need Reader's depth; a full comparison is in our [Readwise Reader vs Marqly](/compare/marqly-vs-readwise-reader) breakdown, and see our empirical [1,000-save AI Bookmark Retrieval Benchmark](/blog/ai-bookmark-retrieval-benchmark-2026) to see how both scored on natural-language retrieval. If you're not sure which camp you're in, the cheap experiment order is Marqly's [free tier](https://app.marqly.com) first, Reader's 30-day trial second.
+The honest read: these tools disagree about what the job is. Reader believes the job is *reading more, better, and remembering it* — and wins every row that serves that. Marqly believes the job is *finding what you saved when you need it* — and wins retrieval, simplicity, and price. Plenty of people genuinely need Reader's depth; a full comparison is in our [Readwise Reader vs Marqly](/compare/marqly-vs-readwise-reader) breakdown, and the [Bookmark Retrieval Benchmark 2026](/blog/ai-bookmark-retrieval-benchmark-2026) gives you the protocol to test natural-language retrieval on your own library. If you're not sure which camp you're in, the cheap experiment order is Marqly's [free tier](https://app.marqly.com) first, Reader's 30-day trial second.
 
 ## Who should use Reader?
 

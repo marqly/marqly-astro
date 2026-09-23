@@ -1,8 +1,9 @@
 ---
-title: "AI Bookmark Retrieval Benchmark: 1,000 Saves Tested Across 5 Leading Apps"
-seoTitle: "AI Bookmark Retrieval Benchmark (2026 Study) — Marqly vs mymind vs Reader"
-description: "We tested 1,000 saves across Marqly, mymind, Readwise Reader, Karakeep, and Raindrop on partial-memory search, auto-tagging, and zero-filing retrieval."
+title: "AI Bookmark Retrieval Benchmark 2026: The Test Protocol (and What Each Tool Documents)"
+seoTitle: "AI Bookmark Retrieval Benchmark 2026 — Run the Test on Your Own Library"
+description: "A reproducible 20-query protocol for testing AI bookmark search on your own library, plus what Marqly, mymind, Readwise Reader, Karakeep, and Raindrop officially document about retrieval. No fabricated scores: the full lab run publishes when complete."
 pubDate: 2026-09-12
+updatedDate: 2026-09-23
 category: "Research"
 targetKeyword: "ai bookmark retrieval benchmark"
 tags:
@@ -14,17 +15,17 @@ tags:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Try Marqly free"
 heroImage: ../../assets/blog/ai-bookmark-managers-semantic-search-compared.png
-heroAlt: "AI Bookmark Retrieval Benchmark: 1,000 Saves Tested — illustration"
+heroAlt: "AI Bookmark Retrieval Benchmark 2026 — test protocol diagram"
 ogImage: "https://www.marqly.com/og/ai-bookmark-retrieval-benchmark-2026.png"
 faqs:
   - q: "What is an AI bookmark retrieval benchmark?"
-    a: "An empirical test measuring how effectively modern bookmark managers and knowledge tools retrieve saved content when a user searches by natural-language concept or partial memory rather than exact title keywords."
-  - q: "Which tool scored highest in concept-based retrieval?"
-    a: "Marqly achieved the highest Top-3 retrieval accuracy (94%) on natural-language paraphrase queries, followed by mymind (88% on visual/tagged items) and Readwise Reader (85% using Ghostreader document lookups)."
+    a: "An empirical test measuring how effectively bookmark managers retrieve saved content when you search by natural-language concept or partial memory rather than exact title keywords. A fair benchmark needs a real library, defined query types, and recorded results — the protocol on this page supplies all three."
+  - q: "Why doesn't this page publish accuracy scores for each tool?"
+    a: "Because we have not yet completed the full controlled run, and we will not publish numbers we haven't measured. This page carries the test protocol and each tool's officially documented retrieval capabilities. When the complete run finishes, results get their own dated section or article."
   - q: "What is zero-filing organization?"
-    a: "Zero-filing is an organization workflow where the user performs no manual folder sorting or tag creation upon saving. Instead, AI auto-tags, generates summaries, and creates semantic embeddings automatically."
-  - q: "Why do keyword-only bookmark managers fail on partially remembered saves?"
-    a: "Keyword engines match character sequences in titles and URLs. If you remember that an article was about 'cortisol and sleep architecture' but the article title was 'Why You Wake Up at 3 AM', keyword search returns zero results."
+    a: "Zero-filing is an organization workflow where the user performs no manual folder sorting or tag creation upon saving. Instead, AI auto-tags, generates summaries, and creates semantic embeddings automatically. Marqly, mymind, and Karakeep document zero-filing; Readwise Reader and Raindrop expect some manual triage."
+  - q: "How do I test whether a bookmark search is actually semantic?"
+    a: "Search for a concept using words that do not appear in the item's title. If you remember an article about 'cortisol and sleep architecture' but the title was 'Why You Wake Up at 3 AM', a keyword engine returns nothing — a semantic engine returns the save. The 20-query protocol below formalizes this."
 ---
 
 Most bookmark managers are great at saving things and terrible at finding them later.
@@ -33,87 +34,93 @@ When you save 10 articles a week, within a year you have 500 links. Within three
 
 The promise of the new wave of **AI bookmark managers** is simple: **save instantly, do zero manual filing, and find anything later by describing what you remember in natural language.**
 
-To find out which tools actually deliver on this promise, we built a controlled benchmark: **1,000 diverse real-world web items saved into fresh test accounts across five leading tools: Marqly, mymind, Readwise Reader, Karakeep, and Raindrop.io.**
+This page exists to let you verify that promise.
 
-Here are the results, methodology, and limitations.
-
----
-
-## The Benchmark Methodology
-
-### 1. The 1,000-Item Test Library
-Our test set represented an authentic, messy personal knowledge library collected over 6 months:
-- **500 long-form web articles & essays** (tech, economics, health, science, design)
-- **200 YouTube videos** (tutorials, conference talks, podcast interviews)
-- **150 visual design artifacts & web screenshots** (UI patterns, architecture, typography)
-- **100 technical documentation pages & GitHub repos**
-- **50 academic PDFs & research whitepapers**
-
-### 2. The 100 Partial-Memory Test Queries
-We tested 100 realistic natural-language search queries representing how humans actually remember past content weeks or months after reading:
-- **Concept paraphrases:** *"the essay explaining how dopamine works in habit loops"* (Title: *"The Molecule of More"*)
-- **Indirect references:** *"that YouTube video showing sourdough bulk fermentation in a glass bowl"* (Title: *"Bread Baking Masterclass Ep. 4"*)
-- **Technical fragments:** *"postgres query to find slow running connections by database"* (Title: *"Debugging Production Latency"*)
-- **Vague visual memory:** *"minimalist brutalist poster design in orange and black"* (Image save)
-
-We measured:
-1. **Top-1 Retrieval Rate:** Was the exact target item returned as the first result?
-2. **Top-3 Retrieval Rate:** Was the target item visible in the top three results without scrolling?
-3. **Manual Effort per Save:** Required user actions upon saving (clicks, tag selection, folder picking).
-4. **Auto-Tagging Quality:** Did the tool generate meaningful topical tags without manual input?
+> **A note on honesty.** An earlier draft of this article presented a "1,000-save benchmark" with precise per-tool accuracy scores. That run was never executed, so on September 23, 2026 we removed every number from it. We will not publish scores we did not measure. What follows is (1) the exact protocol we are running, (2) how each tool claims retrieval works per its official documentation, clearly labeled claims-as-claims, and (3) the same test run you can do on your own library in 30 minutes — which is the only benchmark that predicts your experience anyway.
 
 ---
 
-## The Benchmark Results
+## Why off-the-shelf benchmark numbers shouldn't be trusted
 
-| Metric | Marqly | mymind | Readwise Reader | Karakeep (Hoarder) | Raindrop.io (Baseline) |
-| :--- | :---: | :---: | :---: | :---: | :---: |
-| **Top-1 Retrieval (Paraphrase)** | **78%** | 62% | 66% | 58% | 14% |
-| **Top-3 Retrieval (Paraphrase)** | **94%** | 88% | 85% | 82% | 29% |
-| **Save-to-Index Time** | **Instant (cloud)** | Instant (cloud) | Instant (cloud) | 2–5 sec (local AI) | Instant (cloud) |
-| **Manual Filing Steps Required** | **0 actions** | 0 actions | 1–2 actions (triage) | 0 actions | 1–3 actions (folder/tag) |
-| **Automatic AI Summaries** | **Yes (on every save)** | Yes (Mastermind tier) | Yes (Ghostreader) | Yes (via LLM) | No |
-| **Visual / Image Search** | Text & previews | **Computer vision & color** | Document thumbnails | Screenshots | Thumbnail preview |
-| **YouTube Transcript Search** | **Yes (playback synced)** | No | Yes (video transcript) | Audio scrape (yt-dlp) | No |
-| **Pricing for AI Features** | **$49 first yr ($72/yr)** | $72–$129/yr | $119.88/yr | Free self-hosted | $28/yr (no semantic AI) |
+Retrieval quality is personal. A tool that aces queries about *design screenshots* can fail completely on *academic PDFs*; a library of 500 items behaves differently from 50,000. Aggregate scores from a stranger's 1,000-item fixture mostly measure how well that fixture matched that stranger's recall style.
 
----
+Three problems with most published tool comparisons:
 
-## Detailed Findings by Tool
+1. **Fixtures hide themselves.** Without the query set and item set, results can't be reproduced or checked.
+2. **Features move.** AI search in bookmark tools shipped and changed several times in 2025–2026; a score is stale the week it posts (our own [AI bookmark managers compared](/blog/ai-bookmark-managers-semantic-search-compared) analysis is documentation-based for the same reason — it says so on the page).
+3. **The job differs.** Readwise Reader optimizes triage of material you're *currently* reading; Marqly optimizes *finding something years later*. A single "retrieval score" flattens that.
 
-### 1. Marqly — Winner in Semantic Retrieval & Zero-Filing
-Marqly scored the highest overall Top-3 retrieval score (94%) on natural-language queries. Because Marqly automatically summarizes articles upon save and creates semantic vector embeddings across titles, body text, notes, and YouTube transcripts, it consistently surfaced the correct save even when queries shared zero literal vocabulary with the title.
-- **Workflow test:** Saving took 1 click from the Chrome extension; zero folders or tags were assigned manually. Retrieval took an average of 4.2 seconds.
-- **Limitation:** Image-only searches (e.g. searching solely by color palette) rely on surrounding page context and OCR rather than raw visual computer vision.
-
-### 2. mymind — Winner in Visual Computer Vision & Aesthetic Search
-mymind demonstrated extraordinary capability on image and visual saves. Its computer vision engine identified colors, objects, brands, and typography styles inside screenshots with remarkable accuracy.
-- **Workflow test:** True zero-filing philosophy: saves land on an infinite visual canvas with AI auto-tagging.
-- **Limitation:** Retrieval accuracy dropped on complex conceptual arguments in long-form essays where users searched by abstract thesis. mymind also strictly forbids bulk bookmark imports, making migration painful.
-
-### 3. Readwise Reader — Winner in In-Document Triage & Research
-Reader's Ghostreader AI proved exceptionally capable at document-level comprehension, particularly across multi-page PDFs and EPUB files.
-- **Workflow test:** Reader is designed around triage queues (Inbox, Later, Archive). Unlike zero-filing tools, it expects the user to actively manage an inbox backlog.
-- **Limitation:** High annual cost ($120/yr) and keyword-first search architecture across the global library (semantic queries require interacting with Ghostreader prompts).
-
-### 4. Karakeep — Best Self-Hosted & Local AI Alternative
-Running on a local Ollama instance (Llama 3), Karakeep performed surprisingly well, achieving an 82% Top-3 retrieval rate using its Meilisearch hybrid engine.
-- **Workflow test:** Zero-filing auto-tagging worked well, with full webpage snapshots and video downloads preserved locally.
-- **Limitation:** Inference speed varied depending on local GPU hardware (averaging 3–8 seconds per save during heavy indexing bursts).
-
-### 5. Raindrop.io — Baseline Control (Traditional Keyword Matching)
-As the traditional keyword control, Raindrop.io highlights the fundamental limitation of pre-AI bookmark tools. When queries did not contain exact title words, Raindrop's Top-3 success rate dropped to 29%.
-- **Workflow test:** Users spent an average of 8–15 seconds per save selecting folders, subcollections, and tags to maintain retrievability.
+The alternative is a protocol you can run yourself in the time it takes to drink a coffee — and one we are running in full, in the open.
 
 ---
 
-## Conclusion & Recommendations
+## The protocol (what we're running, and you can too)
 
-The benchmark clearly demonstrates that **semantic AI search fundamentally solves the bookmark retrieval problem.**
+### Step 1 — The library
 
-- If your goal is **effortless zero-filing knowledge retrieval** across web articles, YouTube transcripts, and notes: **[Marqly](https://app.marqly.com)** delivers the highest retrieval accuracy at the lowest organizational overhead.
-- If your library consists primarily of **visual design, fashion, architecture, and color palettes**: **mymind** is the strongest visual choice. Read our detailed [mymind Review](/blog/mymind-review-2026) and [Marqly vs mymind comparison](/compare/marqly-vs-mymind).
-- If you are an **academic or power reader consuming technical PDFs and RSS feeds**: **Readwise Reader** offers the most complete reading triage environment. Explore our [Marqly vs Readwise Reader comparison](/compare/marqly-vs-readwise-reader) and [Marqly AI vs Ghostreader deep dive](/blog/marqly-ai-vs-readwise-ghostreader).
-- If you require **strict offline self-hosting with local LLMs**: **Karakeep** is the open-source standout. See [Marqly vs Karakeep](/compare/marqly-vs-karakeep) and [Karakeep vs Linkwarden](/compare/linkwarden-vs-karakeep).
-- If you are currently organizing in traditional folders and want to switch: visit our [Migration Center](/migrate) or read our guide on [What Replaced Pocket in 2026](/blog/pocket-replacements-2026).
-- Before importing large collections, you can inspect, search, and deduplicate your export files using our [Bookmark File Viewer](/tools/bookmark-file-viewer) and [Duplicate Bookmark Finder](/tools/duplicate-bookmark-finder) from our [free tools directory](/tools).
+Import a fixed, real test set of **300 items**:
+
+- 150 long-form web articles & essays (tech, economics, health, science, design)
+- 60 YouTube videos (tutorials, talks, interviews)
+- 40 documentation pages & GitHub repos
+- 30 PDFs/academic pages
+- 20 image/visual saves
+
+Use the same import file for every tool where the tool accepts bulk import. Where it doesn't (mymind is the documented outlier — no bulk browser-bookmark import), record that itself as a migration finding, don't paper over it.
+
+### Step 2 — The zero-filing phase
+
+Save everything **without assigning a single folder or tag**. A tool that requires manual filing to stay retrievable is answering a different product promise — that's a result, not a setup detail.
+
+### Step 3 — The 20 retrieval queries
+
+Each query targets one specific saved item using only information a human plausibly remembers:
+
+| Type | Example shape | What it tests |
+| :--- | :--- | :--- |
+| Concept paraphrase | "how dopamine works in habit loops" (title: *The Molecule of More*) | embeddings over body text |
+| Indirect reference | "the video with sourdough bulk fermentation in a glass bowl" | transcript/video indexing |
+| Technical fragment | "postgres query for slow connections by database" | code/body text coverage |
+| Vague visual memory | "orange and black brutalist poster" | image understanding |
+| Exact-title control | the literal title | baseline sanity check |
+
+Score each answer: **Top-1**, **Top-3**, or **miss**. Run queries at 24h+ after import so indexing has completed — testing immediately after import mainly measures queues, not engines.
+
+### Step 4 — The friction record
+
+For each tool, log actions-per-save, time-to-first-result, and what happened on failure paths (empty results, mislabeled items).
+
+### Results publication
+
+The complete run — fixture file, query list, per-tool recordings and screenshots, all 20×5 rows scored — lands on this page dated, with anything we couldn't verify left unpublished. **Target: complete by mid-October 2026.** Until then, treat every percentage on the internet for these tools, including old drafts on this very page, as decoration.
+
+---
+
+## What each tool officially documents about retrieval (verified 2026-09-23)
+
+This matrix is our *documentation reading*, not testing. Each row reflects what the vendor publicly describes, from our date-verified competitor dataset (see the individual [compare](/compare) pages for each tool's verification date). Where we don't know, it says so.
+
+| Capability | Marqly | mymind | Readwise Reader | Karakeep | Raindrop.io |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Search across saved body text | ✅ documented | per docs, search is tag/visual-led | ✅ in-document search; global search documented as keyword-based | ✅ full-text via Meilisearch | ✅ full-text search is a Pro feature |
+| Semantic / meaning-based search | ✅ documented (Pro plan) | ✅ documented | ❌ not as library search — Ghostreader answers per-document | ✅ optional, when you connect an LLM | ❌ not offered |
+| YouTube transcript indexing | ✅ documented (transcript attached on save) | ❌ not offered | ✅ documents saving video content | ✅ downloads media with yt-dlp (self-hosted config) | ❌ not offered |
+| Zero-filing on save | ✅ | ✅ core philosophy — saves land unfiled | ⚠️ triage queues by design | ✅ when LLM tagging is on | ⚠️ folders expected |
+| Bulk import of bookmark HTML | ✅ documented (Pocket/Raindrop/browser formats) | ❌ browser/bookmark exports not supported | ✅ Pocket export, not browser HTML | ✅ browser HTML + API | ✅ browser HTML |
+| Search cost | Free plan: whole-library search; semantic/AI on Pro ($72/yr, standing first-year offer $49) | Free guest plan (100 cards); $72–$129/yr with AI tiers | $119.88/yr (Full plan; 30-day trial, no free tier) | Free self-hosted (+ your model/hardware); Cloud Pro $4/mo | Free unlimited saves; Pro $28/yr adds full-text search + AI save suggestions |
+
+Honest notes from the reading: **mymind's visual-first architecture is genuinely distinctive** — if your library is screenshots and design reference, its documented approach fits you better than text-embedding tools. **Reader is the strongest at the job it chose** (active reading + triage, with offline that the others mostly lack). **Karakeep gives real AI search free to anyone who runs a server.** **Raindrop remains the best cheap all-rounder if keyword search is enough for you.** Marqly's documented bet is the retrieval case the others treat as secondary: years-old saves, found by describing them — which is exactly what the lab run will test, pass or fail.
+
+---
+
+## Run the 30-minute version on your own library today
+
+You don't need 300 items. You need the five you *lost*.
+
+1. Pick 5 things you saved months ago in your current tool and could not find this week.
+2. For each, write down what you'd type if you could describe the memory, not the title ("the piece about waking at 3 AM and blood sugar").
+3. Import a test batch of 50–100 of your actual browser bookmarks into a free Marqly account — start with [Bookmark File Viewer](/tools/bookmark-file-viewer), which previews a browser's HTML export (Chrome, Firefox, Edge, Safari, and Diigo-style exports) before you move anything.
+4. Turn on the AI layer, run your five memory-queries, and try the same five in your current tool.
+5. Keep whichever one finds your lost five — and if neither does, the honest review is that nobody solves this perfectly yet, ourselves included.
+
+If two tools tie under your own queries, that's a coin-flip decided by everything else — pick via the [2026 Bookmark Manager Index](/best-bookmark-manager) or the [Migration Center](/migrate) once you've chosen. We'll publish ours under these rules, and you'll be able to check every row.

@@ -146,7 +146,7 @@ LINER was once the default answer to "web highlighter." In 2026 it's primarily a
 
 ## How to choose
 
-1. **You highlight to find things again later** → Marqly. Persistence plus semantic search over every highlight is the combination nobody else here has, and it starts free.
+1. **You highlight to find things again later** → Marqly. Persistence plus semantic search over every highlight is the combination nobody else here has — highlighting and storage are free on every plan, and the semantic search over them is on Pro.
 2. **Your highlights must end up in Notion/Obsidian/Anki** → Readwise Reader. Pay the $9.99/month; the pipeline is worth it for that workflow.
 3. **You're a student on a budget writing papers** → Weava, with the student discount.
 4. **You want free forever and like the idea of annotating with others** → Hypothesis.

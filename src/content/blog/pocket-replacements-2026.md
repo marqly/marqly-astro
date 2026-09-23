@@ -31,7 +31,7 @@ When Mozilla turned off Pocket's servers on **July 8, 2025**, and closed the fin
 
 Mozilla did not build a successor. Instead, the market fragmented into specialized tools. Some former users wanted an exact clone of Pocket's clean reading view; others wanted a permanent knowledge base with modern AI; and privacy-conscious users wanted self-hosted servers they control.
 
-We tested seven prominent replacements across six key criteria: **export file ingestion, distraction-free reading, organization effort, search intelligence, platform availability, and pricing**. Here is how they rank by job-to-be-done.
+We compared seven prominent replacements across six key criteria: **export file ingestion, distraction-free reading, organization effort, search intelligence, platform availability, and pricing** — from official documentation and pricing pages, with verification dates on the tool's compare page. Here is how they rank by job-to-be-done.
 
 ---
 
