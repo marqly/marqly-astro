@@ -70,3 +70,16 @@ Tier 1 — retrieval cluster pillar (§18):
 - Day 6: refresh verification sweep for top-traffic compare pages (re-curl competitor
   pricing pages; update JSON lastVerified where changed).
 - Day 7: weekly ledger post + inventory diff vs yesterday (page delta review).
+
+## 2026-09-23 deploy record
+
+- `git push marqly-astro main:main` (4e6cdbb→6b508fe, 6 commits incl. the parallel
+  $49-pricing pair + StoreButtons landing change). Workers Builds: success.
+- Verified live on www.marqly.com: /migrate/diigo (preservation table), honest
+  benchmark rewrite, /alternatives/diigo→/migrate/diigo link, all migrate OG cards 200
+  (were 404 pre-deploy), homepage store-buttons change.
+- ACTION for owner: GSC URL-inspect + request indexing for /migrate/diigo,
+  /blog/ai-bookmark-retrieval-benchmark-2026 (major change); confirm STANDING49 promo
+  exists in Stripe before the $49 copy converts traffic (site now advertises it).
+- Note: `marqly-astro.trymarqly.workers.dev` returns CF error 1014 (workers.dev
+  subdomain banned/flagged account-side). Not caused by this deploy; www unaffected.
