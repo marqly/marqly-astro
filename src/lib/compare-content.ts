@@ -43,6 +43,17 @@ export function pricingSentence(c: Competitor): string {
   return s;
 }
 
+/** Competitors with a live /migrate/<slug> guide. Single source for compare,
+ * alternatives, and hub templates — add the page first, then the slug here. */
+export const MIGRATIONS: { slug: string; name: string }[] = [
+  { slug: 'pocket', name: 'Pocket' },
+  { slug: 'raindrop', name: 'Raindrop' },
+  { slug: 'mymind', name: 'mymind' },
+  { slug: 'instapaper', name: 'Instapaper' },
+  { slug: 'diigo', name: 'Diigo' },
+];
+export const MIGRATION_SLUGS = MIGRATIONS.map((m) => m.slug);
+
 export function switchSentence(c: Competitor): string {
   if (c.slug === 'pocket' || c.features.importPocket === undefined) {
     // fallthrough below handles specifics
@@ -52,6 +63,9 @@ export function switchSentence(c: Competitor): string {
   }
   if (c.slug === 'raindrop') {
     return 'Yes. Marqly imports Raindrop.io collections directly, and AI re-tags everything on the way in so your saves become searchable by meaning.';
+  }
+  if (c.slug === 'diigo') {
+    return 'Yes. Diigo exports a standard bookmark HTML file with your links, titles, dates, tags, and descriptions, and Marqly imports it directly. One honest catch: on-page highlights, sticky notes, and Outliners are not part of that export — the Diigo migration guide covers the manual rescue route for those.';
   }
   return `Yes. Export your data from ${c.name} (most tools export standard bookmark HTML or CSV), then import the file into Marqly — AI tags everything automatically and semantic search works across all of it.`;
 }

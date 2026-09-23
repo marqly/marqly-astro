@@ -7,7 +7,7 @@ import { breadcrumbList, itemList, organization, softwareApplication, webSite } 
 const path = '/migrate';
 const title = 'Migrate Your Bookmarks to Marqly (2026 Guides) — Import From Anywhere';
 const description =
-  'Step-by-step migration guides to export your saves from Pocket, Raindrop, mymind, Instapaper, and all major browsers into Marqly with zero data loss.';
+  'Step-by-step migration guides to export your saves from Pocket, Raindrop, mymind, Instapaper, and all major browsers into Marqly.';
 
 const crumbs = [
   { name: 'Home', path: '/' },
@@ -39,6 +39,14 @@ const guides = [
     badge: 'Zero-Filing Upgrade',
     badgeClass: 'badge-accent',
     desc: 'Export your cards.csv from desktop Chrome/Edge and unlock public board sharing and full bookmark imports in Marqly.',
+  },
+  {
+    name: 'Diigo Migration',
+    slug: 'diigo',
+    url: '/migrate/diigo',
+    badge: 'Research Libraries',
+    badgeClass: 'badge-info',
+    desc: 'Export your Diigo library to bookmark HTML and import tags, descriptions, and links into Marqly — with an honest what-moves map for highlights and Outliners.',
   },
   {
     name: 'Instapaper Migration',
@@ -75,7 +83,7 @@ const jsonLd = [
         <span class="pill-badge">Migration Center</span>
         <h1>Migrate Your Bookmarks to Marqly</h1>
         <p class="lead">
-          Your saved knowledge shouldn't be trapped in a discontinued app or a closed silo. Move your entire library into Marqly in minutes with zero lost tags, automatic AI summaries, and semantic search across your whole library.
+          Your saved knowledge shouldn't be trapped in a discontinued app or a closed silo. Every guide below shows what your export actually contains, how to bring it into Marqly, and what to check after the import so you know nothing went missing.
         </p>
       </header>
 
@@ -144,11 +152,11 @@ const jsonLd = [
         <div class="tool-links">
           <a href="/blog/pocket-replacements-2026" class="tool-btn">
             <strong>What Replaced Pocket? (2026 Guide)</strong>
-            <span>7 tools tested on import compatibility, reading view, and AI search</span>
+            <span>7 successor tools compared on import compatibility, reading view, and AI search</span>
           </a>
           <a href="/blog/ai-bookmark-retrieval-benchmark-2026" class="tool-btn">
-            <strong>AI Bookmark Retrieval Benchmark</strong>
-            <span>1,000 saves tested across Marqly, mymind, and Readwise Reader</span>
+            <strong>AI Bookmark Retrieval Benchmark 2026</strong>
+            <span>The test protocol + documented capabilities — run it on your own library</span>
           </a>
           <a href="/blog/ai-bookmark-managers-semantic-search-compared" class="tool-btn">
             <strong>AI Semantic Search Comparison (8 Apps)</strong>

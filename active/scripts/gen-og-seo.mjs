@@ -73,6 +73,7 @@ function card(title, chip, footer) {
 }
 
 async function png(name, title, chip, footer, outputDir = OUT) {
+  if (process.env.ONLY && !new RegExp(process.env.ONLY).test(name)) return;
   const svg = await satori(card(title, chip, footer), {
     width: 1200, height: 630,
     fonts: [
@@ -204,6 +205,21 @@ await png('hub-tools', 'Free tools — no signup', 'Free tools', 'marqly.com/too
 await png('hub-prompt-gallery', 'AI Prompt Gallery — copy-paste prompts', 'Prompts', 'marqly.com/prompt-gallery');
 await png('extension', 'One extension. Your browser workspace.', 'Browser extension', 'marqly.com/extension');
 n += 6;
+
+// Migration hub + per-source guides (referenced by src/pages/migrate/*.astro)
+const migrateCards = {
+  'migrate-hub': 'Migrate your bookmarks to Marqly',
+  'migrate-pocket': 'Migrate from Pocket to Marqly',
+  'migrate-raindrop': 'Migrate from Raindrop to Marqly',
+  'migrate-mymind': 'Migrate from mymind to Marqly',
+  'migrate-instapaper': 'Migrate from Instapaper to Marqly',
+  'migrate-diigo': 'Migrate from Diigo to Marqly',
+};
+for (const [name, title] of Object.entries(migrateCards)) {
+  const href = name === 'migrate-hub' ? 'migrate' : `migrate/${name.slice('migrate-'.length)}`;
+  await png(name, title, 'Migration guide', `marqly.com/${href}`);
+  n++;
+}
 
 // Default social card used by the homepage and any page without a more
 // specific preview. Keep this at /og-default.png because both layouts use it.

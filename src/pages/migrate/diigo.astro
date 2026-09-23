@@ -1,0 +1,312 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import Breadcrumbs from '../../components/seo/Breadcrumbs.astro';
+import CtaBox from '../../components/seo/CtaBox.astro';
+import FaqAccordion from '../../components/seo/FaqAccordion.astro';
+import { breadcrumbList, faqPage, howTo, organization, softwareApplication, webSite } from '../../lib/schema';
+import { alternatesForPath } from '../../i18n/routes';
+
+const path = '/migrate/diigo';
+const title = 'How to Migrate from Diigo to Marqly (2026 Guide)';
+const description =
+  'Move your Diigo library to Marqly: export the bookmark HTML that keeps URLs, titles, tags, and descriptions, plus an honest map of what does and does not transfer.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Migrate', path: '/migrate' },
+  { name: 'Migrate from Diigo', path },
+];
+
+const steps = [
+  {
+    name: 'Export your Diigo library',
+    text: 'In Diigo, open My Library → Tools → Export. Choose the full library export; Diigo produces a standard bookmark HTML file with each link, title, date, tags, and description.',
+    url: path,
+  },
+  {
+    name: 'Inspect the export file',
+    text: 'Open the file in Marqly\'s free Bookmark File Viewer to confirm the save count and folder structure before moving anything. Nothing leaves your browser.',
+    url: path,
+  },
+  {
+    name: 'Import it into Marqly',
+    text: 'In Marqly at app.marqly.com, go to Settings → Import and upload the bookmark HTML file. Links, titles, tags, and descriptions come in; Marqly files them into boards.',
+    url: path,
+  },
+];
+
+const faqs = [
+  {
+    q: 'What transfers from a Diigo export to Marqly?',
+    a: 'Diigo\'s bookmark-HTML export carries each link, its title, the date saved, your tags, and the description you wrote for each bookmark. Marqly imports all four: titles and links become saves, tags become searchable metadata, and descriptions are preserved with the save.',
+  },
+  {
+    q: 'Do my Diigo highlights and sticky notes transfer?',
+    a: 'No — and this is the decision that matters for most Diigo researchers. Annotations are stored on Diigo\'s side attached to the page, and the bookmark HTML export does not include them. Before exporting, open the highlighter panel for each heavily annotated page and copy the notes into the bookmark description, or export completed Outliners to HTML and re-file them in Marqly as saves. Treat annotations as a manual migration step, not an automatic one.',
+  },
+  {
+    q: 'Can I import Diigo Outliners?',
+    a: 'Outliners export individually to HTML or PDF from Diigo\'s Outliner view. Once exported, you can save the document itself — but the outline structure will be inside the export you keep, not editable as a Marqly board. If Outliners are the heart of your research system, weigh that before switching; if they were a scratchpad, import the bookmarks underneath.',
+  },
+  {
+    q: 'What about Diigo groups and shared libraries?',
+    a: 'Group bookmarks export from the group\'s library view as the same bookmark HTML format, but group membership, collaborative tags, and shared highlights stay behind. Marqly has no team workspace; its closest equivalent is sharing a board as a public page, which anyone can view without an account.',
+  },
+  {
+    q: 'Does exporting delete anything from my Diigo account?',
+    a: 'No. Export is read-only. Keep your Diigo account active while you verify the import, then cancel when you\'re confident — that\'s also the safest sequence if you decide the annotation loss is a dealbreaker.',
+  },
+  {
+    q: 'Is Marqly free for a Diigo-sized library?',
+    a: 'The free plan stores up to 2,000 bookmarks with search across the whole library, no card required. Diigo\'s free tier is ad-supported and caps lifetime totals, so larger archives sit behind Diigo\'s paid plans as well. Beyond 2,000 saves, Marqly Pro is $72/year (about $6/month billed annually, or $9 monthly), with a standing $39 first-year offer at checkout.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  softwareApplication(),
+  breadcrumbList(crumbs),
+  howTo(
+    'How to Migrate from Diigo to Marqly in 3 Steps',
+    'Export your Diigo library as bookmark HTML, verify what it contains, and import it into Marqly — including how to handle highlights and Outliners that do not transfer.',
+    steps,
+    'PT10M',
+  ),
+  faqPage(faqs),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  canonical="https://www.marqly.com/migrate/diigo"
+  alternates={alternatesForPath(path)}
+  jsonLd={jsonLd}
+  ogImage="https://www.marqly.com/og/seo/migrate-diigo.png"
+>
+  <article class="section">
+    <div class="container migrate-page">
+      <Breadcrumbs items={crumbs} />
+
+      <header class="page-head">
+        <div class="badge-row">
+          <span class="pill-badge">Migration Guide · 2026</span>
+          <span class="time-badge">⏱️ ~10 minutes with annotations review</span>
+        </div>
+        <h1>How to Migrate from Diigo to Marqly</h1>
+        <p class="lead">
+          Diigo's years of research annotations are a real asset, so this guide starts where every honest Diigo migration starts: bookmark links, tags, and descriptions transfer automatically through the export file — highlights, sticky notes, and Outliners don't. Here's exactly what moves, what to do about the rest, and how to verify the import.
+        </p>
+      </header>
+
+      <div class="comparison-callout">
+        <div class="callout-head">
+          <span class="callout-tag">What moves — verified field-by-field (as of 2026-09-23)</span>
+          <h3>The Diigo → Marqly preservation table</h3>
+        </div>
+        <table class="preserve-table">
+          <thead>
+            <tr>
+              <th>Diigo data</th>
+              <th>In the export?</th>
+              <th>In Marqly</th>
+              <th>What to do</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Bookmarks (URL, title, date)</td>
+              <td>✅ Yes</td>
+              <td>Migrated as saves</td>
+              <td>Nothing — automatic</td>
+            </tr>
+            <tr>
+              <td>Tags</td>
+              <td>✅ Yes</td>
+              <td>Mapped to Marqly tags</td>
+              <td>Nothing — automatic</td>
+            </tr>
+            <tr>
+              <td>Bookmark descriptions</td>
+              <td>✅ Yes</td>
+              <td>Preserved on the save</td>
+              <td>Nothing — automatic</td>
+            </tr>
+            <tr>
+              <td>Folder-style lists</td>
+              <td>⚠️ As tag groups</td>
+              <td>File into boards after import</td>
+              <td>10 minutes, per folder that matters</td>
+            </tr>
+            <tr>
+              <td>On-page highlights & sticky notes</td>
+              <td>❌ No</td>
+              <td>—</td>
+              <td>Copy into the bookmark description before exporting, or keep a read-only Diigo account for reference</td>
+            </tr>
+            <tr>
+              <td>Outliners</td>
+              <td>❌ Not in bookmark export</td>
+              <td>Saved as the exported HTML/PDF</td>
+              <td>Export each Outliner you still care about, per-Outliner</td>
+            </tr>
+            <tr>
+              <td>Groups & shared libraries</td>
+              <td>⚠️ Bookmarks only, per group</td>
+              <td>Public board sharing (view-only, no teams)</td>
+              <td>Export group libraries separately if members won't migrate too</td>
+            </tr>
+            <tr>
+              <td>Cached page copies</td>
+              <td>❌ No</td>
+              <td>—</td>
+              <td>Nothing transfers live-link rot protection; use browser save-for-offline where needed today</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="callout-footer">
+          Want the full product story before deciding? Read the <a href="/compare/marqly-vs-diigo">Marqly vs Diigo comparison</a> and the honest <a href="/alternatives/diigo">Diigo alternatives</a> rundown — including what Diigo still does better.
+        </p>
+      </div>
+
+      <h2>The migration, step by step</h2>
+      <div class="steps-list">
+        <div class="step-card">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <h3>Rescue your annotations first</h3>
+            <p>Before touching the export button, decide what highlights and Outliners are worth keeping:</p>
+            <ol class="sub-steps">
+              <li>Sort My Library by <strong>tags</strong> and open the saves with the most annotations.</li>
+              <li>For each critical save, copy the highlights you want to keep into that bookmark's <strong>Description</strong> field with Diigo's edit dialog.</li>
+              <li>Open <strong>Outliners</strong> and export the live ones to HTML.</li>
+              <li>Archived Outliner sets — leave them where they are, or keep a paid-free Diigo read-only account as the cold archive.</li>
+            </ol>
+            <div class="step-tip">
+              <strong>Honest constraint:</strong> this is a manual pass and nobody's export makes it automatic. If your research system lives and dies with annotation fidelity, stay with Diigo and say so — its on-page highlighter is still the best feature here.
+            </div>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <h3>Export the library from Diigo</h3>
+            <ol class="sub-steps">
+              <li>Sign in to diigo.com and open <strong>My Library</strong>.</li>
+              <li>Go to <strong>Tools → Export</strong> and run the standard bookmark export.</li>
+              <li>Download the resulting HTML file to your computer.</li>
+              <li>If you organize as group member, export each group library as well.</li>
+            </ol>
+            <div class="step-tip">
+              <strong>Zero Risk:</strong> exporting doesn't alter anything in your Diigo account, and you can run it again after moving annotations.
+            </div>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <h3>Inspect, import, and verify</h3>
+            <ol class="sub-steps">
+              <li>Open the file in the free <a href="/tools/bookmark-file-viewer">Bookmark File Viewer</a> — it parses the export locally (nothing uploads) and shows your save count and structure.</li>
+              <li>Sign in to <a href="https://app.marqly.com" target="_blank" rel="noopener">app.marqly.com</a>, go to <strong>Settings → Import</strong>, and upload the HTML file.</li>
+              <li>Compare the imported count against the viewer's count — they should match exactly.</li>
+              <li>Spot-check five saves you know well: description present? tags attached? link opens?</li>
+            </ol>
+            <div class="step-tip">
+              <strong>Counts don't match after import?</strong> Re-run the viewer on the file and check whether duplicates were deduplicated. Marqly matches on exact URL when consolidating, so a library of genuinely repeated links will show fewer rows after import than the file contained.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cta-migration">
+        <h3>Bring the saved research into Marqly</h3>
+        <p>Free plan: 2,000 bookmarks and search over the whole library. Pro adds the AI layer that retrieves those years of links by meaning.</p>
+        <div class="cta-btns">
+          <a class="btn btn--primary" href="https://app.marqly.com" target="_blank" rel="noopener">Import Diigo into Marqly free →</a>
+          <a class="btn btn--ghost" href="/pricing">View Pricing Plans</a>
+        </div>
+      </div>
+
+      <div class="faq-wrap">
+        <FaqAccordion faqs={faqs} heading="Diigo migration — common questions" />
+      </div>
+
+      <CtaBox />
+    </div>
+  </article>
+</LandingLayout>
+
+<style>
+  .migrate-page { max-width: 860px; }
+  .badge-row { display: flex; gap: var(--space-3); align-items: center; margin-bottom: var(--space-3); }
+  .pill-badge {
+    display: inline-block; font-size: var(--fs-xs); font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    background: var(--surface-2); color: var(--ink-2);
+    padding: 0.2rem 0.6rem; border-radius: 9999px; border: 1px solid var(--border-1);
+  }
+  .time-badge { font-size: var(--fs-xs); color: var(--ink-3); font-weight: 500; }
+  h1 { font-size: var(--fs-h2); font-weight: 600; letter-spacing: var(--tracking-tight); color: var(--ink-1); line-height: var(--lh-tight); }
+  .lead { margin-top: var(--space-4); font-size: var(--fs-lg); line-height: var(--lh-base); color: var(--ink-2); }
+
+  .comparison-callout {
+    margin-top: var(--space-8); margin-bottom: var(--space-10);
+    background: var(--surface-1); border: 1px solid var(--border-1);
+    border-radius: var(--radius-card); padding: var(--space-6);
+  }
+  .callout-head { margin-bottom: var(--space-5); }
+  .callout-tag { font-size: var(--fs-xs); font-weight: 600; text-transform: uppercase; color: var(--ink-3); }
+  .callout-head h3 { font-size: var(--fs-h3); font-weight: 600; color: var(--ink-1); margin-top: var(--space-1); }
+  .preserve-table { width: 100%; border-collapse: collapse; font-size: var(--fs-sm); color: var(--ink-2); }
+  .preserve-table th, .preserve-table td { text-align: left; padding: var(--space-2) var(--space-3); border-bottom: 1px solid var(--border-1); vertical-align: top; }
+  .preserve-table th { font-weight: 600; color: var(--ink-1); background: var(--surface-2); }
+  .callout-footer { margin-top: var(--space-5); padding-top: var(--space-4); border-top: 1px solid var(--border-1); font-size: var(--fs-sm); color: var(--ink-3); }
+  .callout-footer a { color: var(--ink-1); text-decoration: underline; font-weight: 500; }
+
+  h2 { font-size: var(--fs-h3); font-weight: 600; color: var(--ink-1); margin-top: var(--space-10); margin-bottom: var(--space-6); }
+
+  .steps-list { display: flex; flex-direction: column; gap: var(--space-6); }
+  .step-card {
+    display: flex; gap: var(--space-5);
+    background: var(--surface-1); border: 1px solid var(--border-1);
+    border-radius: var(--radius-card); padding: var(--space-6);
+  }
+  .step-num {
+    flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%;
+    background: var(--ink-1); color: var(--surface-1);
+    display: flex; align-items: center; justify-content: center;
+    font-size: var(--fs-base); font-weight: 600;
+  }
+  .step-content { flex: 1; }
+  .step-content h3 { font-size: var(--fs-lg); font-weight: 600; color: var(--ink-1); margin-bottom: var(--space-2); }
+  .step-content p { font-size: var(--fs-base); color: var(--ink-2); line-height: var(--lh-base); margin-bottom: var(--space-3); }
+  .sub-steps { margin: 0; padding-left: 1.2rem; font-size: var(--fs-sm); color: var(--ink-2); line-height: 1.6; }
+  .sub-steps li { margin-bottom: var(--space-1); }
+  .step-tip {
+    margin-top: var(--space-4); padding: var(--space-3) var(--space-4);
+    background: var(--surface-2); border-left: 3px solid var(--ink-1);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    font-size: var(--fs-xs); color: var(--ink-2);
+  }
+
+  .cta-migration {
+    margin-top: var(--space-10); padding: var(--space-8);
+    background: var(--surface-2); border: 1px solid var(--border-2);
+    border-radius: var(--radius-card); text-align: center;
+  }
+  .cta-migration h3 { font-size: var(--fs-h3); font-weight: 600; color: var(--ink-1); }
+  .cta-migration p { margin-top: var(--space-2); font-size: var(--fs-base); color: var(--ink-2); }
+  .cta-btns { margin-top: var(--space-6); display: flex; justify-content: center; gap: var(--space-4); flex-wrap: wrap; }
+  .btn--ghost {
+    background: transparent; border: 1px solid var(--border-2);
+    color: var(--ink-1); padding: 0.65rem 1.25rem; border-radius: 9999px;
+    font-size: var(--fs-sm); font-weight: 500; text-decoration: none;
+  }
+  .btn--ghost:hover { background: var(--surface-1); }
+
+  .faq-wrap { margin-top: var(--space-12); }
+</style>

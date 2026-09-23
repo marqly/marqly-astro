@@ -6,7 +6,7 @@ import FaqAccordion from '../../components/seo/FaqAccordion.astro';
 import CtaBox from '../../components/seo/CtaBox.astro';
 import SourceNote from '../../components/seo/SourceNote.astro';
 import { competitors, marqly } from '../../lib/competitors';
-import { marqlyEdges, pricingSentence, rankAlternatives } from '../../lib/compare-content';
+import { marqlyEdges, pricingSentence, rankAlternatives, MIGRATIONS, MIGRATION_SLUGS } from '../../lib/compare-content';
 import { breadcrumbList, faqPage, itemList, organization, softwareApplication, webSite } from '../../lib/schema';
 import { alternatesForPath } from '../../i18n/routes';
 
@@ -98,7 +98,7 @@ const others = competitors.filter((c) => c.slug !== subject.slug);
             </div>
           </div>
           <p class="why-switch-meta">
-            Want an objective comparison across the whole space? Read our complete benchmark of the <a href="/blog/best-ai-bookmark-manager-2026">best bookmark managers in 2026</a>.
+            Want a second read on the whole space? See <a href="/blog/best-ai-bookmark-manager-2026">how the best AI bookmark managers stack up in 2026</a>, or run our <a href="/blog/ai-bookmark-retrieval-benchmark-2026">retrieval test</a> on your own library.
             {subject.slug === 'raindrop' && (
               <> Already downloaded your Raindrop backup? Audit your file with our free <a href="/tools/raindrop-export-analyzer">Raindrop Export Analyzer</a> before migrating.</>
             )}
@@ -123,7 +123,7 @@ const others = competitors.filter((c) => c.slug !== subject.slug);
             {tool.slug === 'marqly' ? (
               <div class="marqly-actions">
                 <a class="btn btn--primary" href="https://app.marqly.com">Try Marqly free <span class="arrow">→</span></a>
-                {['raindrop', 'pocket', 'mymind', 'instapaper'].includes(subject.slug) ? (
+        {MIGRATION_SLUGS.includes(subject.slug) ? (
                   <a class="rank-link" href={`/migrate/${subject.slug}`}>How to migrate from {subject.name} →</a>
                 ) : (
                   <a class="rank-link" href="/migrate">Migration guides & browser imports →</a>
@@ -140,10 +140,10 @@ const others = competitors.filter((c) => c.slug !== subject.slug);
       <ComparisonTable tools={[marqly, subject]} variant="full" />
       <p class="deep-link">
         <a href={`/compare/marqly-vs-${subject.slug}`}>See the full Marqly vs {subject.name} comparison →</a>
-        {['raindrop', 'pocket', 'mymind', 'instapaper'].includes(subject.slug) ? (
+        {MIGRATION_SLUGS.includes(subject.slug) ? (
           <> · <a href={`/migrate/${subject.slug}`}>How to migrate from {subject.name} to Marqly →</a> · <a href="/best-bookmark-manager">2026 Bookmark Manager Index →</a> · <a href="/migrate">All migration guides →</a></>
         ) : (
-          <> · <a href="/best-bookmark-manager">2026 Bookmark Manager Index →</a> · <a href="/migrate">How to migrate to Marqly with zero data loss →</a></>
+          <> · <a href="/best-bookmark-manager">2026 Bookmark Manager Index →</a> · <a href="/migrate">How to migrate to Marqly →</a></>
         )}
       </p>
 
@@ -159,14 +159,13 @@ const others = competitors.filter((c) => c.slug !== subject.slug);
         <div class="xlinks-section">
           <h3>Migration guides</h3>
           <ul>
-            {['raindrop', 'pocket', 'mymind', 'instapaper'].includes(subject.slug) && (
+            {MIGRATION_SLUGS.includes(subject.slug) && (
               <li><a href={`/migrate/${subject.slug}`} style="font-weight: 600;">Migrate from {subject.name} →</a></li>
             )}
             <li><a href="/migrate">Migration Hub</a></li>
-            <li><a href="/migrate/pocket">Migrate from Pocket</a></li>
-            <li><a href="/migrate/raindrop">Migrate from Raindrop</a></li>
-            <li><a href="/migrate/mymind">Migrate from mymind</a></li>
-            <li><a href="/migrate/instapaper">Migrate from Instapaper</a></li>
+            {MIGRATIONS.map((m) => (
+              <li><a href={`/migrate/${m.slug}`}>Migrate from {m.name}</a></li>
+            ))}
             <li><a href="/tools">Free migration tools →</a></li>
           </ul>
         </div>

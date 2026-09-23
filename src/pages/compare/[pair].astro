@@ -7,7 +7,7 @@ import FaqAccordion from '../../components/seo/FaqAccordion.astro';
 import CtaBox from '../../components/seo/CtaBox.astro';
 import SourceNote from '../../components/seo/SourceNote.astro';
 import { competitors, marqly, getCompetitor } from '../../lib/competitors';
-import { marqlyPairFaqs, marqlyEdges, otherEdges, pricingSentence, switchSentence } from '../../lib/compare-content';
+import { marqlyPairFaqs, marqlyEdges, otherEdges, pricingSentence, switchSentence, MIGRATIONS, MIGRATION_SLUGS } from '../../lib/compare-content';
 import { breadcrumbList, faqPage, organization, softwareApplication, webSite } from '../../lib/schema';
 import { alternatesForPath } from '../../i18n/routes';
 
@@ -212,7 +212,7 @@ const tableTools = isMarqlyPair ? [marqly, b] : [a, b, marqly];
             </div>
             <div class="migration-btns">
               <a class="btn btn--primary" href="https://app.marqly.com">Import your {b.name} bookmarks free →</a>
-              {['raindrop', 'pocket', 'mymind', 'instapaper'].includes(b.slug) ? (
+              {MIGRATION_SLUGS.includes(b.slug) ? (
                 <>
                   <a class="migration-guide-link" href={`/migrate/${b.slug}`}>
                     Step-by-step {b.name} migration guide →
@@ -255,10 +255,10 @@ const tableTools = isMarqlyPair ? [marqly, b] : [a, b, marqly];
             <div class="third-option-btns" style="margin-top: var(--space-4); display: flex; gap: var(--space-3); flex-wrap: wrap;">
               <a class="btn btn--primary" href="https://app.marqly.com">Try Marqly free →</a>
               <a class="btn btn--outline" href="/migrate">Migration guides →</a>
-              {['raindrop', 'pocket', 'mymind', 'instapaper'].includes(a.slug) && (
+              {MIGRATION_SLUGS.includes(a.slug) && (
                 <a class="btn btn--outline" href={`/migrate/${a.slug}`}>Migrate from {a.name} →</a>
               )}
-              {['raindrop', 'pocket', 'mymind', 'instapaper'].includes(b.slug) && (
+              {MIGRATION_SLUGS.includes(b.slug) && (
                 <a class="btn btn--outline" href={`/migrate/${b.slug}`}>Migrate from {b.name} →</a>
               )}
             </div>
@@ -307,17 +307,16 @@ const tableTools = isMarqlyPair ? [marqly, b] : [a, b, marqly];
         <div>
           <h3>Migration</h3>
           <ul>
-            {['raindrop', 'pocket', 'mymind', 'instapaper'].includes(b.slug) && (
+            {MIGRATION_SLUGS.includes(b.slug) && (
               <li><a href={`/migrate/${b.slug}`} style="font-weight: 600;">Migrate from {b.name} →</a></li>
             )}
-            {!isMarqlyPair && ['raindrop', 'pocket', 'mymind', 'instapaper'].includes(a.slug) && (
+            {!isMarqlyPair && MIGRATION_SLUGS.includes(a.slug) && (
               <li><a href={`/migrate/${a.slug}`} style="font-weight: 600;">Migrate from {a.name} →</a></li>
             )}
             <li><a href="/migrate">Migration Hub</a></li>
-            <li><a href="/migrate/pocket">Migrate from Pocket</a></li>
-            <li><a href="/migrate/raindrop">Migrate from Raindrop</a></li>
-            <li><a href="/migrate/mymind">Migrate from mymind</a></li>
-            <li><a href="/migrate/instapaper">Migrate from Instapaper</a></li>
+            {MIGRATIONS.map((m) => (
+              <li><a href={`/migrate/${m.slug}`}>Migrate from {m.name}</a></li>
+            ))}
             <li><a href="/tools">Free migration tools →</a></li>
           </ul>
         </div>
