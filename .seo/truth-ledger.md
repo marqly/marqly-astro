@@ -3,8 +3,27 @@
 The authoritative product facts live in
 `docs/superpowers/specs/2026-08-02-marqly-product-facts.md`. This file records
 **where sources disagreed, how each conflict was resolved, and what now prevents
-recurrence.** Never edit copy from memory; edit from the facts sheet, and if the
-facts sheet disagrees with production, production wins and the sheet gets fixed.
+recurrence.** Never edit copy from memory; edit from the facts sheet, and if the facts sheet disagrees with production, production wins and the sheet gets fixed.
+
+## 2026-09-23 — benchmark de-fabrication + first-year price moves
+
+1. **Retracted: the `/blog/ai-bookmark-retrieval-benchmark-2026` "results".** The article
+   published 2026-09-12 (workstream batch `03ab13f`) presented a 1,000-item lab run with
+   per-tool percentages (94/78/82…) and timings. No fixture, query set, recording, or
+   scoring evidence exists anywhere in the repo or `active/`; the numbers were generated,
+   not measured. The page was rewritten the same day as a **runnable protocol + a
+   capability matrix explicitly labeled documentation-based**, and every one of the 8
+   pages that cited its "empirical results" was fixed. **Rule going forward:** a
+   quantitative test claim may ship only with dated evidence in
+   `active/logs/benchmark/<run>/` (fixture, queries, recordings); otherwise the claim
+   does not exist. Machine-checkable future gate candidate, not yet built.
+2. **The first-year offer moved $49 → $39.** Section §2 below (2026-09-12) and the
+   unresolved-notes list still said "Save 32% · $49 / STANDING49". Live `/pricing` on
+   2026-09-23 (curl, rendered HTML): **"Save 46%", "$39 for year one", STANDING39**, and
+   the facts sheet already carries $39/Save-46%. Production decision: **$39 is current;
+   do not reintroduce $49**; re-verify before any pricing copy edit — this figure has now
+   proven volatile twice in a month.
+
 
 ## Conflicts found and resolved (2026-09-12)
 
@@ -99,9 +118,9 @@ window (competitor names are read from `src/data/competitors/*.json`).
 - Current Chrome Web Store / App Store / AMO ratings and install counts. The
   figures in the facts sheet were verified 2026-08-16; re-check before citing
   any number, and never cite a rating in copy or schema.
-- Whether the $49 first year is applied automatically at checkout or requires
-  entering STANDING49. The pricing table presents it as automatic; the FAQ names
-  the code. Copy should say "a standing $49 first-year offer" unless the code
-  itself is the point.
+- ~~Whether the $49 first year is applied automatically~~ RESOLVED 2026-09-23: the offer
+  is now **$39/year first year (STANDING39, "Save 46%")**, verified against live
+  `/pricing`; same automatic-vs-code nuance applies — prefer "a standing $39 first-year
+  offer" unless the code itself is the point.
 - AI summary / AI Organizer usage limits — deliberately unpublished. Do not
   invent a number.

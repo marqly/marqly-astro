@@ -4,6 +4,65 @@ Every SEO action, why it won its slot, and how it was verified. Newest first.
 
 ---
 
+## 2026-09-23 — Revenue-SEO sprint, session 1 (autonomous execution per 90-day mission)
+
+Fresh full build (1,909 → 1,911 pages incl. new `/migrate/diigo`); all 16 gates + link
+audit + orphan audit re-run at every step. First canonical URL inventory generated
+(`docs/seo/url-inventory.csv`, `active/scripts/gen-inventory.mjs`) — one row per URL with
+computed inbound/outbound internal links; GSC/billing columns are `pending-export`
+until a Search Console export exists.
+
+### Integrity fixes (claim vs `marqly-product-facts.md`)
+- **Fake benchmark removed.** `/blog/ai-bookmark-retrieval-benchmark-2026` presented a
+  1,000-save lab test with 94/78/82% scores that were never run (no artifacts; published
+  from the parallel-workstream batch `03ab13f`). Rewrote the page as an honest,
+  runnable **retrieval-benchmark protocol** + documentation-verified capability matrix
+  sourced from `src/data/competitors/*.json`. Fixed all 8 referrers that cited
+  "empirical results" (ghostreader, readwise-review, mymind-review, best-free, best-ai,
+  semantic-search-compared, migrate hub, how-to-search). `pocket-replacements-2026`
+  "We tested seven" → "We compared … from official documentation".
+- **Free/Pro plan boundaries corrected** (semantic/AI search = Pro): pocket-FAQ,
+  what-is-an-ai-bookmark-manager, what-ai-model, how-to-search, web-highlighters,
+  self-hosted-pocket pieces; refund FAQ stale `$8 monthly` → `$9`.
+- **"zero data loss"/"zero lost tags" removed from 7 surfaces** (migrate hub + raindrop
+  guide + Nav bookmark-file-viewer status + compare-index + alternatives template) —
+  unverified guarantee replaced with what-to-check language.
+
+### Money-cluster builds
+- **`/migrate/diigo` shipped:** field-by-field preservation table (links/titles/dates/
+  tags/descriptions migrate; on-page highlights, notes, Outliners, groups, cached copies
+  do **not** — with the manual rescue workflow). Diigo added to `MIGRATIONS` single
+  source in `compare-content.ts` (8 hardcoded lists consolidated) → live links in the
+  hub, `/alternatives/diigo`, `/compare/marqly-vs-diigo` (marqly pair + third-party
+  diigo-vs-X pages); truthful Diigo branch in `switchSentence()`.
+- **Vendor-authorship disclosure** added to `SourceNote.astro` (appears on every
+  alternatives/compare page).
+- Benchmarked "94%" claims now also removed from ghostreader body.
+- `how-to-search-bookmarks-with-ai` closing sentence re-joined corrected copy.
+- OG cards: generator never emitted `migrate-hub/pocket/mymind/instapaper` (+ new
+  `diigo`) — **4 were live 404s on production**; `gen-og-seo.mjs` now covers migrate
+  pages, supports `ONLY=` filtered runs; all 6 generated.
+- Orphan pages 2 → 0: `/uninstall` linked from `/extension`; `/prompt-gallery/category`
+  linked from the gallery hub.
+
+### Verification
+- `npm run build` → exit 0, no parse signatures, 1,911 HTML files.
+- `npm run seo:check` → ALL 16 GATES PASSED (1,910 indexable pages).
+- `check-links.mjs` → 347,935 internal hrefs, 0 broken.
+- `seo-orphans.py` + `gen-inventory.mjs` → 0 orphans (two independent scans agree).
+
+### Known open items (not touched — see docs/seo/execution-log.md)
+- GSC/GA4/Mixpanel/Stripe exports unavailable in this environment → funnel columns
+  pending; Bing WMT unverified.
+- Diigo export steps documented as of 2026-08-02 verification; end-to-end account test
+  pending (SEO-03/04).
+- Pre-existing contradictions left for product owner: refund FAQ (case-by-case) vs
+  Terms (non-refundable); highlights free-vs-Pro in some posts; `pt/para-estudantes`.
+- First-year offer live at **$39** (STANDING39) — old ledger §2 "$49/STANDING49" is
+  stale; corrected in truth-ledger today.
+
+---
+
 ## 2026-09-18 — Free trial retired everywhere (hard paywall)
 
 Marqly stopped selling a trial on 2026-09-18 (app + API shipped the same day; 11 trials
