@@ -1,9 +1,9 @@
 ---
 import { NewTabDemo } from './demos';
-import { IOS_URL, ANDROID_URL } from './data';
+import StoreButtons from './StoreButtons.astro';
 ---
 
-<section class="py-20 md:py-28">
+<section id="apps" class="py-20 md:py-28">
   <div class="mx-auto max-w-[1120px] px-5 md:px-8">
     <div class="max-w-[600px]" data-reveal>
       <p class="text-[11px] font-semibold tracking-[0.14em] text-muted uppercase">Everywhere</p>
@@ -16,6 +16,9 @@ import { IOS_URL, ANDROID_URL } from './data';
         One library, synced. The extension in your browser, the web app anywhere, iOS and Android
         apps in your pocket, and a new tab page that starts your day inside it.
       </p>
+      <div class="mt-7">
+        <StoreButtons />
+      </div>
     </div>
 
     <div class="mt-10 grid grid-cols-1 items-stretch gap-5 sm:grid-cols-2 md:gap-6">
@@ -31,10 +34,7 @@ import { IOS_URL, ANDROID_URL } from './data';
       </figure>
 
       <figure class="flex flex-col" data-reveal style="--reveal-delay: 80ms">
-        <a
-          href={IOS_URL}
-          target="_blank"
-          rel="noopener"
+        <div
           class="flex aspect-[5/4] w-full items-end justify-center overflow-hidden rounded-3xl bg-[#E0EFFE] pt-10"
         >
           <img
@@ -45,19 +45,12 @@ import { IOS_URL, ANDROID_URL } from './data';
             loading="lazy"
             class="block w-[74%] max-w-[360px] translate-y-2"
           />
-        </a>
+        </div>
         <figcaption class="mt-4 text-sm leading-relaxed text-muted">
           <b class="font-semibold text-foreground">iPhone, iPad, and Android.</b>
-          The whole library — saves, tags, and highlights — on the
-          <a href={IOS_URL} target="_blank" rel="noopener" class="font-medium text-foreground underline-offset-4 hover:underline">App Store</a>
-          and
-          <a href={ANDROID_URL} target="_blank" rel="noopener" class="font-medium text-foreground underline-offset-4 hover:underline">Google Play</a>.
+          The whole library — saves, tags, and highlights — in your pocket.
         </figcaption>
       </figure>
     </div>
-
-    <p class="mt-8 text-[13px] text-muted" data-reveal>
-      Chrome · Edge · Firefox · Safari · iOS · Android · Web
-    </p>
   </div>
 </section>
