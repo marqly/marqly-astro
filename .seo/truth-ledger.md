@@ -17,12 +17,16 @@ recurrence.** Never edit copy from memory; edit from the facts sheet, and if the
    quantitative test claim may ship only with dated evidence in
    `active/logs/benchmark/<run>/` (fixture, queries, recordings); otherwise the claim
    does not exist. Machine-checkable future gate candidate, not yet built.
-2. **The first-year offer moved $49 → $39.** Section §2 below (2026-09-12) and the
-   unresolved-notes list still said "Save 32% · $49 / STANDING49". Live `/pricing` on
-   2026-09-23 (curl, rendered HTML): **"Save 46%", "$39 for year one", STANDING39**, and
-   the facts sheet already carries $39/Save-46%. Production decision: **$39 is current;
-   do not reintroduce $49**; re-verify before any pricing copy edit — this figure has now
-   proven volatile twice in a month.
+2. **First-year offer moved $39 → $49 mid-day 2026-09-23** (commits `565e8ae`/`b005a26`,
+   coupon **STANDING49**, "Save 32%"). §2 below already records $49 as the canonical
+   figure; production `/pricing` still rendered **$39/STANDING39** at 11:12 local because
+   the move has not deployed and requires the STANDING49 promotion in Stripe +
+   `STANDING_OFFER_CODE/…_CENTS` in the app config. **Reconciled gaps:** the facts sheet
+   and three pages written concurrently (Diigo migration guide, benchmark table row,
+   ledger notes below) still carried $39 as of this morning — fixed same day. Rule: price
+   moves are a **two-sided change** (repo + Stripe/app); until the app side confirms,
+   copy that must ship before deploy should phrase offers without the number ("a standing
+   first-year offer") rather than pick a side.
 
 
 ## Conflicts found and resolved (2026-09-12)
@@ -118,9 +122,11 @@ window (competitor names are read from `src/data/competitors/*.json`).
 - Current Chrome Web Store / App Store / AMO ratings and install counts. The
   figures in the facts sheet were verified 2026-08-16; re-check before citing
   any number, and never cite a rating in copy or schema.
-- ~~Whether the $49 first year is applied automatically~~ RESOLVED 2026-09-23: the offer
-  is now **$39/year first year (STANDING39, "Save 46%")**, verified against live
-  `/pricing`; same automatic-vs-code nuance applies — prefer "a standing $39 first-year
-  offer" unless the code itself is the point.
+- Whether the $49 first year is applied automatically at checkout or requires
+  entering STANDING49. The pricing table presents it as automatic; the FAQ names
+  the code. Copy should say "a standing $49 first-year offer" unless the code
+  itself is the point. **Additionally unresolved 2026-09-23:** whether STANDING49
+  is live in Stripe + app config yet — production renders $39 until the deploy
+  carrying this change lands; verify before quoting any number.
 - AI summary / AI Organizer usage limits — deliberately unpublished. Do not
   invent a number.

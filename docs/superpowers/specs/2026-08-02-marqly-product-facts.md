@@ -36,11 +36,17 @@ remember — **semantic search by meaning, not keywords**.
   full-text search, AI Organizer, Ask (the AI assistant, see below) with MCP
   connected apps, YouTube AI summaries and chat, ChatVault, clipboard cloud sync, broken-link checking,
   unlimited notes, smart sorting, and priority email support.
-- **Standing first-year offer: $39 for year one** ("Save 46%"), then $72/year.
-  Applied with coupon code **STANDING39**. The visible pricing table presents
+- **Standing first-year offer: $49 for year one** ("Save 32%"), then $72/year.
+  Applied with coupon code **STANDING49**. The visible pricing table presents
   it as an automatic first-year price while the FAQ names the code — both are
-  correct; prefer "a standing $39 first-year offer" in copy unless the code
+  correct; prefer "a standing $49 first-year offer" in copy unless the code
   itself is the point.
+  > **2026-09-23 move.** Changed from $39/STANDING39 ("Save 46%") today in
+  > `565e8ae`/`b005a26`. This sheet had not been updated by that pass — corrected
+  > here. Production `/pricing` rendered $39 until the deploy lands and requires
+  > the STANDING49 promotion in Stripe (+ `STANDING_OFFER_CODE/…_CENTS` in app
+  > config) before $49 claims are true live. Verify against live checkout before
+  > quoting any number.
 - **NO free trial — of any length.** (Retired 2026-09-18: Pro is a hard paywall,
   billed the moment someone upgrades; cancel anytime, the account then continues
   on the free plan with every bookmark. Before that this sheet said 7-day, and

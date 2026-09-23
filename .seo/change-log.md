@@ -58,8 +58,9 @@ until a Search Console export exists.
   pending (SEO-03/04).
 - Pre-existing contradictions left for product owner: refund FAQ (case-by-case) vs
   Terms (non-refundable); highlights free-vs-Pro in some posts; `pt/para-estudantes`.
-- First-year offer live at **$39** (STANDING39) — old ledger §2 "$49/STANDING49" is
-  stale; corrected in truth-ledger today.
+- First-year offer: repo canonical is now **$49 (STANDING49)** per the same-day move
+  (`565e8ae`/`b005a26`); production still renders $39 until deploys. Facts sheet aligned
+  to $49 with a dated note; all pages written mid-move swept to $49.
 
 ---
 

@@ -20,7 +20,7 @@ exports exist; that single CSV is the one source of truth for page decisions.
 | 2026-09-23 | OG images | migrate-hub/pocket/mymind/instapaper cards were **404 in production**; generator now emits migrate family + `ONLY=` filter; 6 cards generated | social previews broken on commercial funnels | preview completeness | n/a | n/a | — | shipped |
 | 2026-09-23 | /uninstall, /prompt-gallery/category | Orphan fixes (30-sec survey link on /extension; category hub link on gallery) | §33 zero orphans; uninstall survey feeds §5 uninstall-reasons corpus | survey responses → changelog of friction driving product fixes | responses/week | 0 | 2026-10-07 | shipped |
 | 2026-09-23 | SourceNote.astro | Vendor-authorship disclosure on every alternatives/compare page | §11 honesty: page says "best… ranked" while ranked by Marqly | disclosure raises trust/clicks vs. penalty risk of implied-independence flags | n/a | n/a | 2026-10-23 | shipped |
-| 2026-09-23 | truth-ledger/change-log | $49→$39 first-year correction recorded; benchmark retraction recorded w/ evidence-rule | ledger was stale vs live /pricing (curl-verified) | n/a | n/a | n/a | — | shipped |
+| 2026-09-23 | truth-ledger/change-log/facts | Reconciled mid-day first-year price move $39→$49 (parallel commits 565e8ae/b005a26) with the 3 surfaces written mid-move (Diigo guide, benchmark, facts sheet); benchmark retraction recorded w/ evidence-rule | two sessions, one number — repo must be internally consistent pre-deploy | n/a | n/a | n/a | shipped |
 
 ## Analysis gaps (access blocked in this environment)
 
