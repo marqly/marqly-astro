@@ -17,7 +17,7 @@ faqs:
   - q: "Czy Marqly zastępuje programy Zotero lub Mendeley w pisaniu doktoratu?"
     a: "Nie. Menedżery bibliografii odpowiadają za formatowanie przypisów. Marqly wspiera fazę lektury: zapamiętywanie wniosków, trwałe zakreślanie w 6 kolorach i szukanie pojęciowe."
   - q: "Ile kosztuje Marqly dla doktoranta?"
-    a: "Darmowy plan bez karty na start. Wersja Pro kosztuje 72 $/rok (39 $ w pierwszym roku z kodem STANDING39)."
+    a: "Darmowy plan bez karty na start. Wersja Pro kosztuje 72 $/rok (49 $ w pierwszym roku z kodem STANDING49)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"

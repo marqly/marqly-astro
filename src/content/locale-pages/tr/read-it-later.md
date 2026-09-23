@@ -19,7 +19,7 @@ faqs:
   - q: "Başlığını unuttuğum bir makaleyi nasıl bulurum?"
     a: "Semantik arama sayesinde. Makalede geçen konuyu veya aklınızda kalan bir istatistiği yazmanız, Marqly'nin makaleyi bulması için yeterlidir."
   - q: "Fiyatlandırma nasıldır?"
-    a: "2.000 makaleye kadar ücretsizdir. Pro plan yıllık 72 $ (STANDING39 koduyla ilk yıl 39 $) veya aylık 9 $'dır."
+    a: "2.000 makaleye kadar ücretsizdir. Pro plan yıllık 72 $ (STANDING49 koduyla ilk yıl 49 $) veya aylık 9 $'dır."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Deneyin"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

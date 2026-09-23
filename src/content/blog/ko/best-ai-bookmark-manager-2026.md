@@ -37,7 +37,7 @@ ogImage: "https://www.marqly.com/og/best-ai-bookmark-manager-2026.png"
 ### 1. Marqly — 시맨틱 검색에 최적화된 올인원 도구
 Marqly는 시맨틱 검색을 핵심으로 설계되었습니다. 웹 아티클, 유튜브 영상(실시간 자막 및 Q&A)을 저장하고 라이브러리 전체와 대화할 수 있습니다.
 - 무료 플랜: 최대 2,000개 저장 (전체 라이브러리 검색 포함).
-- Pro 플랜: 연 $72(첫해 $39) 또는 월 $9. [무료로 시작하기 →](https://app.marqly.com/lp/ai-search)
+- Pro 플랜: 연 $72(첫해 $49) 또는 월 $9. [무료로 시작하기 →](https://app.marqly.com/lp/ai-search)
 
 ### 2. Readwise Reader — 리서치와 하이라이트 중심
 긴 글과 논문, PDF를 읽고 밑줄을 치며 공부하기에 최적화된 리더입니다.

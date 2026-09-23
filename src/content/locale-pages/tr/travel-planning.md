@@ -21,7 +21,7 @@ faqs:
   - q: "Uzun gezi ve vlog videolarını hızlıca tarayabilir miyim?"
     a: "Evet. Yapay zeka YouTube gezi videolarındaki önemli rotaları ve önerilen mekanları metin olarak özetler."
   - q: "Kullanım ücreti nedir?"
-    a: "2.000 yer imine kadar tamamen ücretsizdir. Pro plan yıllık 72 $ (STANDING39 koduyla ilk yıl 39 $) veya aylık 9 $'dır."
+    a: "2.000 yer imine kadar tamamen ücretsizdir. Pro plan yıllık 72 $ (STANDING49 koduyla ilk yıl 49 $) veya aylık 9 $'dır."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Dene"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

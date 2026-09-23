@@ -34,7 +34,7 @@ Als je 40 tabbladen open hebt staan om **tussen actieve werkprojecten te schakel
 | **OneTab** | Lijstcompressie | Direct RAM-geheugen legen | ✅ 100% gratis | Gratis |
 | **Toby** | Visuele borden | Visuele tab-organisatie | ⚠️ Limiet ~60 tabs | Vanaf 4,50 $/mnd |
 | **Session Buddy** | Sessieback-ups | Crashherstel | ✅ Gratis | Gratis |
-| **Marqly** | AI-kennisbibliotheek | Leeslijsten bewaren & AI-zoeken | ✅ Tot 2.000 items | 72 $/jaar (39 $ code STANDING39) |
+| **Marqly** | AI-kennisbibliotheek | Leeslijsten bewaren & AI-zoeken | ✅ Tot 2.000 items | 72 $/jaar (49 $ code STANDING49) |
 
 ## Waarom professionals voor Marqly kiezen
 

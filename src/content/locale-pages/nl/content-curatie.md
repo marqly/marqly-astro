@@ -17,7 +17,7 @@ faqs:
   - q: "Wat kan ik precies toevoegen aan een gecureerd board?"
     a: "Weblinks, artikelen, YouTube-video's met transcriptie en specifieke zinnen die je op de webpagina hebt gemarkeerd met je eigen toelichting."
   - q: "Wat kost Marqly voor content curators?"
-    a: "Gratis tot 2.000 items zonder betaalgegevens. Pro kost 72 $/jaar (39 $ in het eerste jaar met kortingscode STANDING39)."
+    a: "Gratis tot 2.000 items zonder betaalgegevens. Pro kost 72 $/jaar (49 $ in het eerste jaar met kortingscode STANDING49)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

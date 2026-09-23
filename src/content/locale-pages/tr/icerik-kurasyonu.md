@@ -17,7 +17,7 @@ faqs:
   - q: "Panoda salt web linki dışında neler yer alabilir?"
     a: "Web siteleri üzerinde 6 farklı renkle vurguladığınız önemli alıntılar, kendi notlarınız ve dökümüyle kaydedilen YouTube videoları yer alabilir."
   - q: "İçerik kurasyonu için Marqly ücreti nedir?"
-    a: "2.000 kayda kadar kredi kartsız ücretsiz plan sunulur. Pro sürüm yıllık 72 dolar (STANDING39 ile ilk yıl 39 dolar) olup yapay zeka özelliklerini açar."
+    a: "2.000 kayda kadar kredi kartsız ücretsiz plan sunulur. Pro sürüm yıllık 72 dolar (STANDING49 ile ilk yıl 49 dolar) olup yapay zeka özelliklerini açar."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Dene"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

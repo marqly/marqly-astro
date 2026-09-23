@@ -17,7 +17,7 @@ faqs:
   - q: "Come trovo un profilo salvato tempo fa senza ricordarmi il nome?"
     a: "Basta descrivere le competenze o il percorso. La ricerca semantica cerca per significato: 'team lead pagamenti con esperienza di scaleup Serie B' individua subito il link salvato."
   - q: "Quanto costa Marqly per recruiter indipendenti o agenzie?"
-    a: "Piano gratuito fino a 2.000 salvataggi. Pro a 72 $/anno (39 $ con codice STANDING39) con domande IA sui report retributivi."
+    a: "Piano gratuito fino a 2.000 salvataggi. Pro a 72 $/anno (49 $ con codice STANDING49) con domande IA sui report retributivi."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"

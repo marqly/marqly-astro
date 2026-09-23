@@ -19,7 +19,7 @@ faqs:
   - q: "Mevcut tarayıcı yer imlerimi aktarabilir miyim?"
     a: "Evet. Chrome, Firefox, Edge veya Safari'den standart HTML yer imi dosyasını dışa aktarıp Marqly'ye kolayca yükleyebilirsiniz. Yapay zeka eski yer imlerinizi de otomatik etiketler."
   - q: "Ücretsiz planın sınırları nelerdir?"
-    a: "Ücretsiz planla 2.000 adede kadar bağlantı kaydedebilirsiniz. Pro plan yıllık 72$'dır (STANDING39 kuponuyla ilk yıl 39$)."
+    a: "Ücretsiz planla 2.000 adede kadar bağlantı kaydedebilirsiniz. Pro plan yıllık 72$'dır (STANDING49 kuponuyla ilk yıl 49$)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Deneyin"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

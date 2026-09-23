@@ -31,7 +31,7 @@ Dobra aplikacja do czytania na później musi spełniać dwa warunki: ułatwiać
 ### 1. Marqly — Najlepsza do zapisywania i błyskawicznego odnajdywania
 Marqly łączy wygodny czytnik artykułów pozbawiony reklam z automatycznym generowaniem streszczeń oraz **semantyczną wyszukiwarką AI**. Wpisz luźne skojarzenie, a aplikacja natychmiast znajdzie odpowiedni artykuł.
 - Plan darmowy: do 2 000 zakładek.
-- Pro: $72/rok ($39 w pierwszym roku). [Wypróbuj za darmo →](https://app.marqly.com/lp/replace-pocket)
+- Pro: $72/rok ($49 w pierwszym roku). [Wypróbuj za darmo →](https://app.marqly.com/lp/replace-pocket)
 
 ### 2. Readwise Reader — Potęga dla badaczy
 Świetne narzędzie do zakreślania cytatów i powtórek materiału, integrujące się z aplikacjami Second Brain. Koszt: ok. $12/miesięcznie.

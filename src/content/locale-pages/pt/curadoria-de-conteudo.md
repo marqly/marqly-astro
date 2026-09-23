@@ -17,7 +17,7 @@ faqs:
   - q: "O que diferencia um quadro do Marqly de uma lista de links comum?"
     a: "O poder dos destaques: você compartilha não apenas a página inteira, mas as frases e dados específicos marcados em cores com as suas anotações editoriais."
   - q: "Quanto custa o Marqly para criadores e curadores?"
-    a: "Plano grátis até 2.000 itens sem cartão de crédito. Pro por 72 $/ano (39 $ no primeiro ano com cupom STANDING39) com recursos completos de IA."
+    a: "Plano grátis até 2.000 itens sem cartão de crédito. Pro por 72 $/ano (49 $ no primeiro ano com cupom STANDING49) com recursos completos de IA."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Testar o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"

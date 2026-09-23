@@ -21,7 +21,7 @@ faqs:
   - q: "Czy program działa na komputerach szkolnych?"
     a: "Tak. Poza wtyczkami do Chrome i Edge, aplikacja internetowa działa w dowolnej przeglądarce, co jest idealne przy braku uprawnień administratora na komputerze w szkole."
   - q: "Ile wynosi abonament?"
-    a: "Plan darmowy mieści do 2 000 zakładek. Plan Pro kosztuje 72 $/rok (z kodem STANDING39 pierwszy rok za 39 $) lub 9 $/miesiąc."
+    a: "Plan darmowy mieści do 2 000 zakładek. Plan Pro kosztuje 72 $/rok (z kodem STANDING49 pierwszy rok za 49 $) lub 9 $/miesiąc."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"

@@ -72,7 +72,7 @@ To reach 100× competitor-influenced qualified organic traffic, growth expands m
   2. **Strictly no sharing:** No public boards, no client sharing, no collaboration.
   3. **High pricing:** AI summaries require the $12.99/mo Mastermind plan ($129/yr).
   4. **Strict free limit:** Free plan caps at 100 cards.
-- **Marqly Winning Thesis:** Deliver identical zero-maintenance AI auto-tagging, summaries, and semantic retrieval, while offering full bookmark imports, shareable public boards, and a 2,000-save free tier at half the annual price ($39 first year, $72/yr).
+- **Marqly Winning Thesis:** Deliver identical zero-maintenance AI auto-tagging, summaries, and semantic retrieval, while offering full bookmark imports, shareable public boards, and a 2,000-save free tier at half the annual price ($49 first year, $72/yr).
 
 ### C. Readwise vs Readwise Reader Intent Split
 - **Intent Cannibalization Prevention:**

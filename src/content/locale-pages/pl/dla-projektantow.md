@@ -17,7 +17,7 @@ faqs:
   - q: "Czy klienci mogą przeglądać moje tablice inspiracji?"
     a: "Każdą tablicę możesz udostępnić jako publiczny link bez wymogu rejestracji po stronie klienta. Świetne rozwiązanie na moodboard projektowy."
   - q: "Czy Marqly jest darmowy dla projektantów?"
-    a: "Tak, darmowy plan obejmuje do 2 000 zakładek z tablicami i zakreślaczem. Wersja Pro (72 $/rok lub 39 $ w pierwszym roku z kodem STANDING39) dodaje tagowanie AI i wyszukiwanie semantyczne."
+    a: "Tak, darmowy plan obejmuje do 2 000 zakładek z tablicami i zakreślaczem. Wersja Pro (72 $/rok lub 49 $ w pierwszym roku z kodem STANDING49) dodaje tagowanie AI i wyszukiwanie semantyczne."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"

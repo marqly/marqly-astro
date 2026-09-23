@@ -19,7 +19,7 @@ ctaLabel: "Wypróbuj Marqly za darmo"
 lang: "pl"
 faqs:
   - q: "Jakie jest najlepsze narzędzie do zaznaczania stron WWW w 2026 roku?"
-    a: "Marqly to najbardziej kompletne rozwiązanie: 6 kolorów, notatki do fragmentów, 100% trwałość zakreśleń przy ponownych odwiedzinach, semantyczne wyszukiwanie AI i bezpłatny pakiet do 2000 pozycji (Pro za 72 USD/rok, a w 1. roku 39 USD z kuponem STANDING39)."
+    a: "Marqly to najbardziej kompletne rozwiązanie: 6 kolorów, notatki do fragmentów, 100% trwałość zakreśleń przy ponownych odwiedzinach, semantyczne wyszukiwanie AI i bezpłatny pakiet do 2000 pozycji (Pro za 72 USD/rok, a w 1. roku 49 USD z kuponem STANDING49)."
   - q: "Czy zakreślenia znikają po ponownym otwarciu strony?"
     a: "Tylko niektóre narzędzia potrafią je zachować. Marqly, Weava, LINER i Hypothesis bez problemu przywracają zakreślenia na żywej stronie."
   - q: "Jaki jest najlepszy darmowy zakreślacz tekstu online?"
@@ -32,7 +32,7 @@ W 2026 roku najlepszym wszechstronnym zakreślaczem stron WWW dla większości u
 
 | Narzędzie | Trwałość na stronie | Kolory i notatki | Wersja darmowa | Cena Pro |
 | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Tak, gwarantowana | 6 kolorów + notatki | ✅ Do 2 000 wpisów | 72 USD/rok (39 USD 1. rok) |
+| **Marqly** | ✅ Tak, gwarantowana | 6 kolorów + notatki | ✅ Do 2 000 wpisów | 72 USD/rok (49 USD 1. rok) |
 | **Readwise Reader** | ✅ Tak | Notatki i tagi | ❌ 30 dni próby | 9,99 USD/mies. rocznie |
 | **Weava** | ✅ Tak | 5 kolorów podstawowych | ✅ Tak (~100MB) | 3,99 USD/mies. |
 | **Hypothesis** | ✅ Tak | 1 kolor + dyskusje | ✅ 100% darmowy | Bezpłatny |

@@ -45,7 +45,7 @@ Ecco come recuperare la tua collezione e spostarla su una piattaforma dotata di 
 3. Trascina il file `pocket-export.html`.
 4. In pochi secondi tutti i tuoi salvataggi saranno sincronizzati.
 
-Il piano gratuito include fino a 2.000 elementi; la versione Pro costa 72 $/anno (6 $/mese annuale o 9 $/mese) con codice `STANDING39` (39 $ per il primo anno).
+Il piano gratuito include fino a 2.000 elementi; la versione Pro costa 72 $/anno (6 $/mese annuale o 9 $/mese) con codice `STANDING49` (49 $ per il primo anno).
 
 ## 4. Installa le estensioni e riprendi a salvare
 

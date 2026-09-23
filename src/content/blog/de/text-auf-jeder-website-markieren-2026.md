@@ -22,7 +22,7 @@ faqs:
   - q: "Kann ich alle meine Zitate an einem Ort einsehen?"
     a: "Ja. Die Seitenleiste zeigt alle Markierungen der aktuellen Seite sowie Ihrer gesamten Bibliothek. Ein Klick scrollt direkt zur markierten Stelle im Originaltext."
   - q: "Ist der Marqly Web Highlighter kostenlos?"
-    a: "Die Erweiterung ist kostenlos für Lesezeichen und Tabs. Highlighter und Notizen gehören zu Marqly Pro ($72/Jahr, bzw. $39 im 1. Jahr mit Gutschein STANDING39)."
+    a: "Die Erweiterung ist kostenlos für Lesezeichen und Tabs. Highlighter und Notizen gehören zu Marqly Pro ($72/Jahr, bzw. $49 im 1. Jahr mit Gutschein STANDING49)."
 heroImage: ../../../assets/blog/how-to-highlight-text-on-any-website.png
 heroAlt: "Text auf Websites markieren — Illustration"
 ogImage: "https://www.marqly.com/og/how-to-highlight-text-on-any-website.png"

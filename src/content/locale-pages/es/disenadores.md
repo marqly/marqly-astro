@@ -17,7 +17,7 @@ faqs:
   - q: "¿Pueden mis clientes o compañeros ver mis tableros de inspiración?"
     a: "Puedes compartir cualquier tablero como una página web pública visible por cualquiera con el enlace, sin necesidad de registro por su parte. Funciona como un moodboard listo para compartir: reúne referencias para un proyecto y envía un único enlace."
   - q: "¿Es gratis usar Marqly para recopilar referencias?"
-    a: "Sí, el plan gratuito permite guardar hasta 2.000 elementos con tableros y resaltador de texto sin tarjeta. El plan Pro (72 $/año, unos 6 $/mes, o 39 $ el primer año con el cupón STANDING39) añade autoetiquetado con IA, resúmenes, búsqueda semántica y preguntas a tus notas."
+    a: "Sí, el plan gratuito permite guardar hasta 2.000 elementos con tableros y resaltador de texto sin tarjeta. El plan Pro (72 $/año, unos 6 $/mes, o 49 $ el primer año con el cupón STANDING49) añade autoetiquetado con IA, resúmenes, búsqueda semántica y preguntas a tus notas."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probar Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"

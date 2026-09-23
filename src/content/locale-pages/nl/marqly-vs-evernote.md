@@ -15,7 +15,7 @@ faqs:
   - q: "Wat is het fundamentele verschil tussen Marqly en Evernote?"
     a: "Evernote is een volledige notitie-omgeving waarin je documenten typt, scant en bijlagen toevoegt. Marqly focust op één ding: webpagina's en video's met één klik opslaan en via AI direct terugvinden."
   - q: "Hoe groot is het prijsverschil?"
-    a: "Evernote kost al snel €99 tot meer dan €200 per jaar. Marqly Pro kost $72 per jaar (met coupon STANDING39 slechts $39 in het eerste jaar) en heeft een gratis versie tot 2.000 saves."
+    a: "Evernote kost al snel €99 tot meer dan €200 per jaar. Marqly Pro kost $72 per jaar (met coupon STANDING49 slechts $49 in het eerste jaar) en heeft een gratis versie tot 2.000 saves."
   - q: "Wat mis je als je Evernote verlaat?"
     a: "Vooral OCR van gescande documenten, offline synchronisatie en de Android-app. Als dit onmisbaar is, blijf dan bij Evernote."
 ctaUrl: "https://app.marqly.com"

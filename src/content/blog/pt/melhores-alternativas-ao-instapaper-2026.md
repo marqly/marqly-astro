@@ -24,7 +24,7 @@ O Instapaper definiu a categoria de leitura posterior com sua tipografia impecá
 
 ## As melhores opções atuais
 
-1. **Marqly:** A transição moderna perfeita. Une leitura limpa à busca semântica por IA, resumos automáticos e suporte a Chrome, Safari, Firefox, Edge e iOS. Grátis até 2.000 itens; Pro a $72/ano ($39 no primeiro ano com cupom `STANDING39`).
+1. **Marqly:** A transição moderna perfeita. Une leitura limpa à busca semântica por IA, resumos automáticos e suporte a Chrome, Safari, Firefox, Edge e iOS. Grátis até 2.000 itens; Pro a $72/ano ($49 no primeiro ano com cupom `STANDING49`).
 2. **Readwise Reader:** Focado em quem destaca muitos trechos e assina dezenas de newsletters ($119,88/ano).
 3. **Raindrop.io:** Excelente para quem deseja apenas organizar pastas manuais sem custo.
 

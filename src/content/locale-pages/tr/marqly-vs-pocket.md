@@ -19,7 +19,7 @@ faqs:
   - q: "Marqly'de Pocket gibi çevrimdışı okuma var mı?"
     a: "Hayır. Marqly bulut odaklı bir bilgi yöneticisidir ve çevrimdışı okuyucu özelliği bulunmaz. İnternetsiz okuma vazgeçilmezinizse Instapaper'ı değerlendirebilirsiniz."
   - q: "Fiyatlandırma nasıl?"
-    a: "2.000 kayda kadar ücretsiz plan sunulur. Pro plan yıllık 72 $ (STANDING39 kuponuyla ilk yıl 39 $) veya aylık 9 $'dır."
+    a: "2.000 kayda kadar ücretsiz plan sunulur. Pro plan yıllık 72 $ (STANDING49 kuponuyla ilk yıl 49 $) veya aylık 9 $'dır."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Deneyin"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

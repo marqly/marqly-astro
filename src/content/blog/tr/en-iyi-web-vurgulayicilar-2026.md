@@ -19,7 +19,7 @@ ctaLabel: "Marqly'yi Ücretsiz Deneyin"
 lang: "tr"
 faqs:
   - q: "2026 yılında en iyi web metin vurgulayıcı hangisidir?"
-    a: "Marqly en dengeli seçenektir: Altı renk, her alıntıya özel notlar, sayfaya aylar sonra dönüldüğünde bile kaybolmayan kalıcılık, yapay zeka semantik arama ve yıllık 72 $ (STANDING39 kuponuyla ilk yıl 39 $) olan Pro planı."
+    a: "Marqly en dengeli seçenektir: Altı renk, her alıntıya özel notlar, sayfaya aylar sonra dönüldüğünde bile kaybolmayan kalıcılık, yapay zeka semantik arama ve yıllık 72 $ (STANDING49 kuponuyla ilk yıl 49 $) olan Pro planı."
   - q: "Sayfayı yeniden ziyaret ettiğimde vurgularım durur mu?"
     a: "Yalnızca gelişmiş araçlar bunu destekler. Marqly, Weava, LINER ve Hypothesis sayfayı yeniden açtığınızda vurgularınızı orijinal yerinde yeniden çizer."
   - q: "Tamamen ücretsiz bir web vurgulayıcı var mı?"
@@ -32,7 +32,7 @@ faqs:
 
 | Araç | Sayfada Kalıcı mı? | Renkler ve Notlar | Ücretsiz Sürüm | Pro Fiyatı |
 | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Evet, garantili | 6 renk + notlar | ✅ 2.000 kayda kadar | Yıllık 72 $ (1. yıl 39 $) |
+| **Marqly** | ✅ Evet, garantili | 6 renk + notlar | ✅ 2.000 kayda kadar | Yıllık 72 $ (1. yıl 49 $) |
 | **Readwise Reader** | ✅ Evet | Notlar ve etiketler | ❌ 30 gün deneme | Yıllık $9,99/ay |
 | **Weava** | ✅ Evet | 5 temel renk | ✅ Var (~100MB) | Aylık $3,99 |
 | **Hypothesis** | ✅ Evet | 1 renk + yorumlar | ✅ Tamamen ücretsiz | Ücretsiz |

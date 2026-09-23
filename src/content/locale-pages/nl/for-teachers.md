@@ -21,7 +21,7 @@ faqs:
   - q: "Werkt het op schoolcomputers?"
     a: "Ja. Naast browserextensies draait de web-app in elke moderne browser, ideaal voor computers waarop geen software geïnstalleerd mag worden."
   - q: "Wat zijn de kosten?"
-    a: "Gratis tot 2.000 opgeslagen links. Pro kost $72/jaar ($39 eerste jaar met coupon STANDING39) of $9/maand."
+    a: "Gratis tot 2.000 opgeslagen links. Pro kost $72/jaar ($49 eerste jaar met coupon STANDING49) of $9/maand."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

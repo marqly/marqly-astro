@@ -19,7 +19,7 @@ faqs:
   - q: "Vurguladığım metne not ekleyebilir miyim?"
     a: "Evet. Her vurguya özel bir not iliştirebilir, sonrasında bu notları ve alıntıları kütüphanenizde arayabilirsiniz."
   - q: "Web vurgulayıcının ücreti nedir?"
-    a: "Ücretsiz olarak kullanmaya başlayabilirsiniz. Sınırsız vurgu ve yapay zeka arama özellikleri sunan Pro plan yıllık 72 $ (ilk yıl STANDING39 kuponuyla 39 $) veya aylık 9 $'dır."
+    a: "Ücretsiz olarak kullanmaya başlayabilirsiniz. Sınırsız vurgu ve yapay zeka arama özellikleri sunan Pro plan yıllık 72 $ (ilk yıl STANDING49 kuponuyla 49 $) veya aylık 9 $'dır."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Deneyin"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

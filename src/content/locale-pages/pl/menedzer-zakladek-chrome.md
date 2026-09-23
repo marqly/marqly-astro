@@ -13,7 +13,7 @@ trustLine: "Plan darmowy, bez karty · Dostępny w Chrome Web Store"
 faqHeading: "Często zadawane pytania"
 faqs:
   - q: "Czy Marqly w Chrome Web Store jest darmowy?"
-    a: "Rozszerzenie instaluje się bezpłatnie. Plan darmowy pozwala zapisać do 2000 pozycji bez karty. Plan Pro to 72 $/rok (39 $ w 1. roku z kodem STANDING39) lub 9 $/miesiąc."
+    a: "Rozszerzenie instaluje się bezpłatnie. Plan darmowy pozwala zapisać do 2000 pozycji bez karty. Plan Pro to 72 $/rok (49 $ w 1. roku z kodem STANDING49) lub 9 $/miesiąc."
   - q: "Czy mogę zaimportować obecne zakładki z Chrome?"
     a: "Tak. Wyeksportuj zakładki z Chrome do pliku HTML, a Marqly zaimportuje je natychmiast, kategoryzując całe archiwum za pomocą AI."
   - q: "Czy Marqly zastępuje domyślny pasek zakładek w Chrome?"

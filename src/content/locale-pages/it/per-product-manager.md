@@ -15,7 +15,7 @@ faqs:
   - q: "Marqly può sostituire i miei strumenti di PRD o roadmap?"
     a: "No, Marqly si occupa dell'archivio delle ricerche e delle evidenze preliminari."
   - q: "Marqly è gratuito per i product manager?"
-    a: "Sì, fino a 2.000 preferiti gratuiti. Il piano Pro costa 72 $/anno (39 $ il primo anno con STANDING39)."
+    a: "Sì, fino a 2.000 preferiti gratuiti. Il piano Pro costa 72 $/anno (49 $ il primo anno con STANDING49)."
   - q: "Come aiuta la ricerca semantica?"
     a: "Trova i salvataggi descrivendo il problema, come 'modelli di pricing per utente', senza bisogno di ricordare il titolo."
 ctaUrl: "https://app.marqly.com"

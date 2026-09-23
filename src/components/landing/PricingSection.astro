@@ -46,31 +46,31 @@ const proPerks = [
 //   Annual: $72/year → $6/mo, 33% off the $108/year monthly-equivalent
 //   Monthly: $9/mo
 //
-// PROMO is the standing first-year offer (Stripe promotion code STANDING39 → coupon
-// COMEBACK39-2026-09, $33 off, duration: once). It is NOT a fake sale: the offer has no
+// PROMO is the standing first-year offer (Stripe promotion code STANDING49 → coupon
+// STANDING49-2026-09, $23 off, duration: once). It is NOT a fake sale: the offer has no
 // expiry, so nothing here pretends it is about to end, and the renewal price is stated
 // beside it every time it appears — the honest thing, and what card-network and EU
 // consumer rules require.
 const PRICE = {
   annual: {
-    amount: '$39',
+    amount: '$49',
     period: '/first year',
     was: '$72',
-    note: 'then $72/year · just $3.25/month for year one',
+    note: 'then $72/year · just $4.08/month for year one',
     promo: true,
   },
   monthly: {
     amount: '$9',
     period: '/month',
     was: null,
-    note: 'billed monthly · switch to annual for your first year at $39',
+    note: 'billed monthly · switch to annual for your first year at $49',
     promo: false,
   },
 };
 
-// PROMO_SAVE is the standing first-year offer against annual list ($39 vs $72 = 45.8%).
-const PROMO_SAVE = 'Save 46%';
-const PROMO_CODE = 'STANDING39';
+// PROMO_SAVE is the standing first-year offer against annual list ($49 vs $72 = 31.9%).
+const PROMO_SAVE = 'Save 32%';
+const PROMO_CODE = 'STANDING49';
 ---
 
 <section id="pricing" class="py-20 md:py-28">
@@ -185,7 +185,7 @@ const PROMO_CODE = 'STANDING39';
           data-pricing-cta="pro"
           class="flex h-11 items-center justify-center rounded-3xl bg-white text-[15px] font-medium text-ink transition-transform active:scale-[0.97]"
         >
-          <span data-price-cta-label>Get Pro — $39 for year one</span>
+          <span data-price-cta-label>Get Pro — $49 for year one</span>
         </a>
       </div>
     </div>
@@ -216,7 +216,7 @@ const PROMO_CODE = 'STANDING39';
         url.searchParams.set('src', 'www_pricing');
         // The promotion code has to travel with the click or the page lies: checkout
         // would open at the full $72 the card just struck through. Annual only — the
-        // coupon is a flat $33 off, which is most of a $9 month, and checkout forces
+        // coupon is a flat $23 off, which is most of a $9 month, and checkout forces
         // yearly whenever a coupon is present. Removed on monthly rather than left stale.
         if (key === 'annual') {
           url.searchParams.set('coupon', PROMO_CODE);
@@ -247,7 +247,7 @@ const PROMO_CODE = 'STANDING39';
       }
       // On monthly there is no discount, so the CTA is plain "Get Pro" at list price.
       const ctaLabel = section.querySelector('[data-price-cta-label]');
-      if (ctaLabel) ctaLabel.textContent = price.promo ? 'Get Pro — $39 for year one' : 'Get Pro — $9/month';
+      if (ctaLabel) ctaLabel.textContent = price.promo ? 'Get Pro — $49 for year one' : 'Get Pro — $9/month';
       buttons.forEach((button) => {
         const isActive = button.dataset.billingBtn === key;
         button.setAttribute('aria-pressed', String(isActive));

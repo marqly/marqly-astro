@@ -45,7 +45,7 @@ In deze gids ontdek je hoe je jouw gegevens veiligstelt en importeert in een mod
 3. Sleep je bestand `pocket-export.html` in het importvenster.
 4. Binnen twee minuten is je complete bibliotheek beschikbaar.
 
-Marqly biedt een gratis versie tot 2.000 items; Pro kost $72/jaar ($6/mnd jaarlijks of $9/mnd) met kortingscode `STANDING39` ($39 voor het eerste jaar).
+Marqly biedt een gratis versie tot 2.000 items; Pro kost $72/jaar ($6/mnd jaarlijks of $9/mnd) met kortingscode `STANDING49` ($49 voor het eerste jaar).
 
 ## Stap 4: Herstel je bewaargewoonte
 

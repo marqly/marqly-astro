@@ -21,7 +21,7 @@ faqs:
   - q: "Czy mogę podzielić się jadłospisem z rodziną?"
     a: "Tak. Stwórz tablicę 'Obiady na ten tydzień' i wygeneruj link, który domownicy otworzą na telefonie bez logowania."
   - q: "Ile to kosztuje?"
-    a: "Do 2 000 zakładek całkowicie za darmo. Wersja Pro kosztuje 72 $/rok (z kuponem STANDING39 pierwszy rok za 39 $) lub 9 $/miesiąc."
+    a: "Do 2 000 zakładek całkowicie za darmo. Wersja Pro kosztuje 72 $/rok (z kuponem STANDING49 pierwszy rok za 49 $) lub 9 $/miesiąc."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"

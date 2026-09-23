@@ -15,7 +15,7 @@ faqs:
   - q: "Wat is het belangrijkste verschil tussen Marqly en Raindrop?"
     a: "Het verschil zit in zoeken en organiseren. Raindrop vraagt handmatig map- en tagbeheer en zoekt op letterlijke trefwoorden. Marqly tagt en vat automatisch samen via AI en vindt pagina's terug op wat je je herinnert van de strekking van het artikel (semantisch zoeken)."
   - q: "Wat zijn de kosten van beide apps?"
-    a: "Raindrop Pro kost ca. $28 per jaar. Marqly Pro kost $72 per jaar ($39 in het eerste jaar met kortingscode) of $9 per maand, naast een gratis abonnement tot 2.000 bladwijzers."
+    a: "Raindrop Pro kost ca. $28 per jaar. Marqly Pro kost $72 per jaar ($49 in het eerste jaar met kortingscode) of $9 per maand, naast een gratis abonnement tot 2.000 bladwijzers."
   - q: "Kan ik mijn bladwijzers overzetten van Raindrop naar Marqly?"
     a: "Ja. Marqly heeft een directe importfunctie voor Raindrop waarmee je je hele archief binnen enkele minuten overzet."
 ctaUrl: "https://app.marqly.com"
@@ -30,7 +30,7 @@ In het kort: **Raindrop.io** is ideaal voor wie houdt van handmatig gestructuree
 
 | Onderdeel | Marqly | Raindrop.io |
 | --- | --- | --- |
-| Pro-prijs | $72/jaar (1e jaar $39) · $9/mnd | ca. $28/jaar |
+| Pro-prijs | $72/jaar (1e jaar $49) · $9/mnd | ca. $28/jaar |
 | Gratis versie | Ja (tot 2.000 items, volledige zoekfunctie) | Ja (zeer ruim) |
 | Gratis proefperiode | Geen (gratis abonnement zonder creditcard) | Geen |
 | Semantisch AI-zoeken | Ja (vindt op betekenis) | Nee (alleen trefwoorden) |

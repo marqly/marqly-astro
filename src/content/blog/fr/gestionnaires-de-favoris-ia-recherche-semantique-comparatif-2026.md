@@ -60,7 +60,7 @@ Ne croyez pas les promesses marketing sans tester :
 
 ## Bilan des outils
 
-- **Marqly :** La solution idéale pour chercher par le sens. Version gratuite jusqu'à 2 000 favoris ; Pro à 72 $/an (6 $/mois facturé annuellement ou 9 $/mois) avec le coupon STANDING39 (39 $ la première année).
+- **Marqly :** La solution idéale pour chercher par le sens. Version gratuite jusqu'à 2 000 favoris ; Pro à 72 $/an (6 $/mois facturé annuellement ou 9 $/mois) avec le coupon STANDING49 (49 $ la première année).
 - **mymind :** Parfait pour les créatifs qui se fient à leur mémoire visuelle.
 - **Readwise Reader :** Recommandé pour les lecteurs assidus de livres numériques et d'articles longs avec surlignage.
 - **Raindrop.io :** Excellent outil classique pour organiser manuellement ses liens par dossiers.

@@ -36,7 +36,7 @@ Un sistema è efficace solo se continua a funzionare nel tempo senza rubarti ore
 
 | Applicazione | Tipo di strumento | Sforzo di gestione | Ricerca semantica IA | Prezzo Annuale |
 | --- | --- | --- | --- | --- |
-| **Marqly** | Cattura rapida con IA | Minimo (automatico) | ✅ Ricerca semantica nativa | 72 $/anno (39 $ con STANDING39) |
+| **Marqly** | Cattura rapida con IA | Minimo (automatico) | ✅ Ricerca semantica nativa | 72 $/anno (49 $ con STANDING49) |
 | **Obsidian** | PKM locale Markdown | Alto (tutto manuale) | ❌ Solo con plugin terzi | Gratuito (Sync a parte) |
 | **Notion** | Workspace completo | Medio-alto | ✅ Notion AI | Da 10 $/mese per utente |
 | **Readwise Reader** | Lettore per ricercatori | Medio | ❌ Testo letterale | 119,88 $/anno |

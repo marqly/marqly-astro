@@ -19,7 +19,7 @@ ctaLabel: "Marqly kostenlos testen"
 lang: "de"
 faqs:
   - q: "Was ist der beste Web-Highlighter 2026?"
-    a: "Marqly ist der beste Allrounder: Sechs Farben, Randnotizen, dauerhafte Beibehaltung der Markierungen beim erneuten Aufruf, semantische KI-Suche und ein kostenloser Einstiegstarif (Pro für 72 $/Jahr bzw. 39 $ im 1. Jahr mit Code STANDING39)."
+    a: "Marqly ist der beste Allrounder: Sechs Farben, Randnotizen, dauerhafte Beibehaltung der Markierungen beim erneuten Aufruf, semantische KI-Suche und ein kostenloser Einstiegstarif (Pro für 72 $/Jahr bzw. 49 $ im 1. Jahr mit Code STANDING49)."
   - q: "Bleiben die Markierungen beim Neuladen der Seite erhalten?"
     a: "Nur bei wenigen Tools. Marqly, Weava, LINER und Hypothesis zeichnen deine Markierungen zuverlässig wieder auf die Live-Seite. Das ist der wichtigste Test für einen echten Textmarker."
   - q: "Gibt es einen guten kostenlosen Web-Highlighter?"
@@ -32,7 +32,7 @@ Für die meisten Nutzer ist **Marqly** 2026 der beste Web-Highlighter: sechs fre
 
 | Tool | Bleibt auf der Seite? | Farben & Notizen | Gratis-Tarif | Pro-Preis |
 | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Ja, dauerhaft | 6 Farben + Notizen | ✅ Bis zu 2.000 Einträge | 72 $/Jahr (39 $ im 1. Jahr) |
+| **Marqly** | ✅ Ja, dauerhaft | 6 Farben + Notizen | ✅ Bis zu 2.000 Einträge | 72 $/Jahr (49 $ im 1. Jahr) |
 | **Readwise Reader** | ✅ Ja | Notizen + Tags | ❌ Nur 30 Tage Test | 9,99 $/Monat jährlich |
 | **Weava** | ✅ Ja | 5 Farben Standard | ✅ Ja (~100MB) | 3,99 $/Monat |
 | **Hypothesis** | ✅ Ja | 1 Farbe + Notizen | ✅ Komplett kostenlos | Kostenlos |

@@ -17,7 +17,7 @@ faqs:
   - q: "ブラウザに溜まった大量のブックマークを移行できますか？"
     a: "はい。Chrome、Firefox、Edge、Safariの標準HTMLエクスポートファイルや、Pocket、Raindrop.ioのバックアップを取り込み、AIが自動でタグを付与します。"
   - q: "ブックマーク整理ツールとして無料で使えますか？"
-    a: "クレジットカード不要で最大2,000件まで無料利用できます。Proプランは年額72ドル（初年度クーポンSTANDING39で39ドル）です。"
+    a: "クレジットカード不要で最大2,000件まで無料利用できます。Proプランは年額72ドル（初年度クーポンSTANDING49で49ドル）です。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqlyを無料で試す"
 ctaSecondaryLabel: "Chromeに追加 — 無料"

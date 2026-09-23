@@ -15,7 +15,7 @@ faqs:
   - q: "Jaka jest główna różnica między Marqly a Evernote?"
     a: "Evernote to uniwersalny notatnik do pisania, skanowania dokumentów i załączników. Marqly skupia się na jednej rzeczy: błyskawicznym zapisywaniu stron i wideo oraz ich semantycznym odnajdywaniu z AI."
   - q: "Jak wygląda różnica w cenie?"
-    a: "Evernote kosztuje od ok. 99 USD do ponad 200 USD rocznie. Marqly Pro kosztuje 72 USD rocznie (z kuponem STANDING39 tylko 39 USD w pierwszym roku) i ma darmowy plan do 2 000 zakładek."
+    a: "Evernote kosztuje od ok. 99 USD do ponad 200 USD rocznie. Marqly Pro kosztuje 72 USD rocznie (z kuponem STANDING49 tylko 49 USD w pierwszym roku) i ma darmowy plan do 2 000 zakładek."
   - q: "Co tracę, rezygnując z Evernote?"
     a: "Przede wszystkim skanowanie dokumentów z OCR, pisanie długich notatek i aplikację na Androida."
 ctaUrl: "https://app.marqly.com"

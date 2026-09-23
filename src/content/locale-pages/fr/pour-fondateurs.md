@@ -17,7 +17,7 @@ faqs:
   - q: "Marqly peut-il synthétiser de longues interviews de fondateurs ?"
     a: "Oui, grâce aux résumés IA de vidéos YouTube et aux transcriptions intégrées, vous extrayez l'essentiel en quelques minutes."
   - q: "Combien coûte Marqly pour une startup en amorçage ?"
-    a: "Gratuit jusqu'à 2 000 éléments. Le plan Pro à 72 $/an (ou 39 $ la 1re année avec coupon STANDING39) débloque toute l'IA."
+    a: "Gratuit jusqu'à 2 000 éléments. Le plan Pro à 72 $/an (ou 49 $ la 1re année avec coupon STANDING49) débloque toute l'IA."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"

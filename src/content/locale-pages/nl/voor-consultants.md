@@ -17,7 +17,7 @@ faqs:
   - q: "Kan ik research delen met klanten zonder dat zij een account nodig hebben?"
     a: "Ja, openbare borden openen direct in de browser zonder registratie."
   - q: "Wat kost Marqly voor adviseurs?"
-    a: "Gratis tot 2.000 saves. Pro kost $ 72/jaar ($ 39 eerste jaar met STANDING39)."
+    a: "Gratis tot 2.000 saves. Pro kost $ 72/jaar ($ 49 eerste jaar met STANDING49)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

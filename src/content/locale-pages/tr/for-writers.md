@@ -21,7 +21,7 @@ faqs:
   - q: "Belgesel ve röportaj videoları için kullanılabilir mi?"
     a: "Son derece uygundur. Kaydettiğiniz YouTube videolarının dökümü yapay zeka ile otomatik çıkarılır ve aylar sonra bile videodaki belirli bir ifadeyi aratarak bulabilirsiniz."
   - q: "Fiyatlandırma nasıldır?"
-    a: "Ücretsiz planda 2.000 yer imine kadar kayıt yapabilirsiniz. Pro plan yıllık 72 $ (STANDING39 koduyla ilk yıl 39 $) veya aylık 9 $'dır."
+    a: "Ücretsiz planda 2.000 yer imine kadar kayıt yapabilirsiniz. Pro plan yıllık 72 $ (STANDING49 koduyla ilk yıl 49 $) veya aylık 9 $'dır."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Dene"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

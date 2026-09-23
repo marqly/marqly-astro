@@ -13,7 +13,7 @@ trustLine: "Gratis plan, geen creditcard · Beschikbaar in Chrome Web Store"
 faqHeading: "Veelgestelde vragen"
 faqs:
   - q: "Is Marqly gratis in de Chrome Web Store?"
-    a: "De extensie is gratis te installeren. Het gratis plan ondersteunt tot 2.000 items zonder creditcard. Pro kost $72/jaar ($39 eerste jaar met STANDING39) of $9/maand."
+    a: "De extensie is gratis te installeren. Het gratis plan ondersteunt tot 2.000 items zonder creditcard. Pro kost $72/jaar ($49 eerste jaar met STANDING49) of $9/maand."
   - q: "Kan ik mijn bestaande Chrome-bladwijzers importeren?"
     a: "Ja. Exporteer je bladwijzers als HTML-bestand uit Chrome en Marqly importeert ze direct, waarna de AI je complete archief voorziet van slimme tags."
   - q: "Vervangt Marqly de standaard bladwijzerbalk van Chrome?"

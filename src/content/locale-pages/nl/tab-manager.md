@@ -19,7 +19,7 @@ faqs:
   - q: "Kan ik individuele tabs later los terugvinden?"
     a: "Jazeker. Elke pagina binnen de sessie wordt geïndexeerd en blijft doorzoekbaar via trefwoorden en betekenis."
   - q: "Wat kost Marqly?"
-    a: "Tot 2.000 opgeslagen links is Marqly gratis te gebruiken. Marqly Pro kost $72 per jaar ($39 eerste jaar met actiecode STANDING39) of $9 per maand."
+    a: "Tot 2.000 opgeslagen links is Marqly gratis te gebruiken. Marqly Pro kost $72 per jaar ($49 eerste jaar met actiecode STANDING49) of $9 per maand."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

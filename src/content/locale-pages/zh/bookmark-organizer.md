@@ -17,7 +17,7 @@ faqs:
   - q: "可以导入我目前浏览器里成百上千个旧书签吗？"
     a: "完全可以。支持导入 Chrome、Safari、Edge、Firefox 导出的标准 HTML 书签文件，以及 Pocket 和 Raindrop 备份，导入后AI会自动回溯补全标签。"
   - q: "作为主力书签整理器使用需要付费吗？"
-    a: "提供永久可用的免费版，免信用卡支持最多 2,000 条收藏。Pro 每年 72 美元（首年使用 STANDING39 仅需 39 美元）。"
+    a: "提供永久可用的免费版，免信用卡支持最多 2,000 条收藏。Pro 每年 72 美元（首年使用 STANDING49 仅需 49 美元）。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"

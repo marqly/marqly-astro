@@ -27,15 +27,15 @@ correction note so the old wording is not silently reintroduced from an archive.
 
 The facts sheet said *"all coupons/promo codes were deleted 2026-06-20 and none
 are offered"* and that the $48 student discount was *"the only discount that
-exists"*. Production contradicts both: `/pricing` sells **"Save 46% · FIRST
-YEAR — $39 /first year then $72/year"**, the CTA reads "Get Pro — $39 for year
-one", and the FAQ names code **STANDING39**. The $48 student discount is also
+exists"*. Production contradicts both: `/pricing` sells **"Save 32% · FIRST
+YEAR — $49 /first year then $72/year"**, the CTA reads "Get Pro — $49 for year
+one", and the FAQ names code **STANDING49**. The $48 student discount is also
 still live ("Verified students pay $48 for their first year").
 
-**Resolution:** ledger updated to record the standing $39 first-year offer
-(STANDING39) alongside the $48 student year.
+**Resolution:** ledger updated to record the standing $49 first-year offer
+(STANDING49) alongside the $48 student year.
 
-> Detection note: `STANDING39` and "Verified students" are **not** in the
+> Detection note: `STANDING49` and "Verified students" are **not** in the
 > text-extracted pricing page, because that FAQ copy ships inside a React
 > island's serialised props in a `<script>` tag. Any audit that strips scripts
 > before searching will wrongly conclude the coupon does not exist. Search the
@@ -99,9 +99,9 @@ window (competitor names are read from `src/data/competitors/*.json`).
 - Current Chrome Web Store / App Store / AMO ratings and install counts. The
   figures in the facts sheet were verified 2026-08-16; re-check before citing
   any number, and never cite a rating in copy or schema.
-- Whether the $39 first year is applied automatically at checkout or requires
-  entering STANDING39. The pricing table presents it as automatic; the FAQ names
-  the code. Copy should say "a standing $39 first-year offer" unless the code
+- Whether the $49 first year is applied automatically at checkout or requires
+  entering STANDING49. The pricing table presents it as automatic; the FAQ names
+  the code. Copy should say "a standing $49 first-year offer" unless the code
   itself is the point.
 - AI summary / AI Organizer usage limits — deliberately unpublished. Do not
   invent a number.

@@ -36,5 +36,5 @@ Voor veel professionals is de echte frustratie echter niet het lezen zelf, maar 
 
 ## Waarom Marqly vaak praktischer is
 
-- **Veel voordeliger**: gratis optie beschikbaar; Pro kost het eerste jaar slechts $39 met actiecode STANDING39.
+- **Veel voordeliger**: gratis optie beschikbaar; Pro kost het eerste jaar slechts $49 met actiecode STANDING49.
 - **Multimodaal semantisch zoeken**: doorzoek video-transcripties en webartikelen op betekenis zonder vooraf mappen aan te maken.

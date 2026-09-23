@@ -36,7 +36,7 @@ Um segundo cérebro só traz retorno se você continuar usando. Qualquer sistema
 
 | Aplicativo | Tipo de sistema | Custo de manutenção | Busca com IA | Preço Anual |
 | --- | --- | --- | --- | --- |
-| **Marqly** | Captura leve com IA | Mínimo (automático) | ✅ Semântica nativa | $72/ano ($39 c/ cupom STANDING39) |
+| **Marqly** | Captura leve com IA | Mínimo (automático) | ✅ Semântica nativa | $72/ano ($49 c/ cupom STANDING49) |
 | **Obsidian** | PKM local em Markdown | Alto (manual) | ❌ Depende de plugins | Gratuito (Sync pago) |
 | **Notion** | Workspace modular | Médio-alto | ✅ Assistente Notion AI | $10/mês por usuário |
 | **Readwise Reader** | Leitor avançado | Médio | ❌ Apenas texto literal | $119,88/ano |

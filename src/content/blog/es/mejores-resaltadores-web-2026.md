@@ -19,7 +19,7 @@ ctaLabel: "Prueba Marqly gratis"
 lang: "es"
 faqs:
   - q: "¿Cuál es el mejor resaltador web en 2026?"
-    a: "Marqly es la opción más completa: seis colores, notas en cada párrafo, persistencia real al recargar o volver a la página, búsqueda semántica por IA en tu biblioteca y plan gratis con Pro a $72/año ($39 primer año con cupón STANDING39)."
+    a: "Marqly es la opción más completa: seis colores, notas en cada párrafo, persistencia real al recargar o volver a la página, búsqueda semántica por IA en tu biblioteca y plan gratis con Pro a $72/año ($49 primer año con cupón STANDING49)."
   - q: "¿Mantienen las extensiones los resaltados al volver a la página?"
     a: "Solo algunas. Marqly, Weava, LINER y Hypothesis restauran tus marcas en la página original. Glasp también lo hace, pero en su plan gratis los resaltados son públicos por defecto."
   - q: "¿Cuál es el mejor resaltador web gratuito?"
@@ -32,7 +32,7 @@ Para la mayoría de los usuarios, el mejor resaltador web en 2026 es **Marqly**:
 
 | Herramienta | ¿Persiste en la página? | Colores y notas | Plan gratuito | Precio Pro |
 | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Sí, siempre | 6 colores + notas | ✅ Hasta 2.000 marcas | $72/año ($39 1er año) |
+| **Marqly** | ✅ Sí, siempre | 6 colores + notas | ✅ Hasta 2.000 marcas | $72/año ($49 1er año) |
 | **Readwise Reader** | ✅ Sí | Notas y etiquetas | ❌ Solo prueba 30 días | $9,99/mes anual |
 | **Weava** | ✅ Sí | 5 colores | ✅ Sí (~100MB) | $3,99/mes |
 | **Hypothesis** | ✅ Sí | 1 color + notas | ✅ Totalmente gratis | Gratuito |

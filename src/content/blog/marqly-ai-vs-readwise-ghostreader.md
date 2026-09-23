@@ -22,7 +22,7 @@ faqs:
   - q: "Can Ghostreader search bookmarks by meaning?"
     a: "Ghostreader helps suggest search queries and can search through highlighted excerpts, but Reader primarily indexes keywords and document full-text. Marqly uses continuous semantic vector embeddings across your entire library so you never need exact title or keyword matches."
   - q: "How do their prices compare?"
-    a: "Readwise costs $9.99/month ($120/year billed annually) with no permanent free tier. Marqly offers a permanent free tier with 2,000 saves searchable across your whole library, and Marqly Pro costs $72/year ($6/month) or $48/year for students, with promotional pricing at $39 for the first year."
+    a: "Readwise costs $9.99/month ($120/year billed annually) with no permanent free tier. Marqly offers a permanent free tier with 2,000 saves searchable across your whole library, and Marqly Pro costs $72/year ($6/month) or $48/year for students, with promotional pricing at $49 for the first year."
 ---
 
 When people evaluate AI for reading and bookmarks, two different philosophies emerge:

@@ -34,7 +34,7 @@ Jeśli masz otwartych 40 kart, aby **żonglować kilkoma aktywnymi projektami**,
 | **OneTab** | Jedna lista | Błyskawiczne zwolnienie RAM | ✅ 100% za darmo | Darmowy |
 | **Toby** | Tablice wizualne | Wizualna organizacja zakładek | ⚠️ Limit ~60 kart | Od 4,50 $/mies. |
 | **Session Buddy** | Kopie zapasowe sesji | Ochrona przed crashami | ✅ Bezpłatny | Darmowy |
-| **Marqly** | Baza wiedzy AI | Archiwizacja do czytania i szukanie AI | ✅ Do 2 000 zakładek | 72 $/rok (39 $ z kodem STANDING39) |
+| **Marqly** | Baza wiedzy AI | Archiwizacja do czytania i szukanie AI | ✅ Do 2 000 zakładek | 72 $/rok (49 $ z kodem STANDING49) |
 
 ## Przewaga Marqly
 

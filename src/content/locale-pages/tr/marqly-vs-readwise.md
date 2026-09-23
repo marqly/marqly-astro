@@ -36,5 +36,5 @@ Ancak çoğu kullanıcının asıl sorunu okuma temposu değil, 'kaydedilen onla
 
 ## Marqly Neden Daha Pratiktir?
 
-- **Bütçe dostu**: ücretsiz sürümü vardır, Pro plan ilk yıl kuponla 39$'dır.
+- **Bütçe dostu**: ücretsiz sürümü vardır, Pro plan ilk yıl kuponla 49$'dır.
 - **Çoklu ortam semantik arama**: YouTube konuşmalarını ve web metinlerini yapay zekayla anlar ve aklınızda kalan haliyle aratmanıza olanak tanır.

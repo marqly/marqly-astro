@@ -13,7 +13,7 @@ trustLine: "Darmowy plan · Bez karty kredytowej · Chrome, Edge, Firefox, Safar
 faqHeading: "Często zadawane pytania"
 faqs:
   - q: "Jaka jest najtańsza alternatywa dla Evernote?"
-    a: "Do wycinków ze stron i inteligentnego wyszukiwania z AI najtańszy jest Marqly (plan darmowy, Pro za $39 w pierwszym roku). Do czystych notatek Markdown darmowy jest Obsidian."
+    a: "Do wycinków ze stron i inteligentnego wyszukiwania z AI najtańszy jest Marqly (plan darmowy, Pro za $49 w pierwszym roku). Do czystych notatek Markdown darmowy jest Obsidian."
   - q: "Które narzędzie w pełni zastępuje pisanie notatek w Evernote?"
     a: "Notion lub Obsidian. Marqly skupia się na linkach, wycinkach i wideo, a nie na edycji wielostronicowych dokumentów."
   - q: "Co tracę przy rezygnacji z Evernote?"
@@ -36,4 +36,4 @@ Oceń zawartość swojego konta:
 Wycinki w Evernote często gubią się w gąszczu notatników. Marqly rozwiązuje ten problem:
 - Automatyczne streszczenia i etykiety AI.
 - Zapisywanie transkrypcji i podsumowań filmów z YouTube.
-- Korzystny abonament: $72 rocznie (z kuponem STANDING39 tylko $39 w pierwszym roku).
+- Korzystny abonament: $72 rocznie (z kuponem STANDING49 tylko $49 w pierwszym roku).

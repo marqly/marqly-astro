@@ -22,7 +22,7 @@ faqs:
   - q: "Czy mogę przejrzeć wszystkie swoje cytaty w jednym miejscu?"
     a: "Tak. Panel boczny wyświetla zaznaczenia z bieżącej strony oraz z całej biblioteki. Kliknięcie cytatu automatycznie przewija stronę do właściwego fragmentu."
   - q: "Czy zakreślacz Marqly jest bezpłatny?"
-    a: "Rozszerzenie jest bezpłatne dla zakładek i kart. Funkcje zakreślacza i notatek wchodzą w skład pakietu Pro ($72/rok, lub $39 w 1. roku z kodem STANDING39)."
+    a: "Rozszerzenie jest bezpłatne dla zakładek i kart. Funkcje zakreślacza i notatek wchodzą w skład pakietu Pro ($72/rok, lub $49 w 1. roku z kodem STANDING49)."
 heroImage: ../../../assets/blog/how-to-highlight-text-on-any-website.png
 heroAlt: "Jak zaznaczać tekst na stronach WWW — ilustracja"
 ogImage: "https://www.marqly.com/og/how-to-highlight-text-on-any-website.png"

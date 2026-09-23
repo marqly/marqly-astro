@@ -59,7 +59,7 @@ The critical difference is **search by paraphrase**: instead of guessing the exa
 
 - **Reader Mode:** Distraction-free clean reader view with text highlighting in 6 colors.
 - **YouTube Integration:** Saves YouTube videos with synchronized transcripts and in-page AI chat.
-- **Pricing:** Free tier stores up to 2,000 bookmarks with whole-library search; Pro is $72/year ($6/mo) or $39 for the standing first-year offer.
+- **Pricing:** Free tier stores up to 2,000 bookmarks with whole-library search; Pro is $72/year ($6/mo) or $49 for the standing first-year offer.
 - **Best for:** Anyone who wants their Pocket backlog organized automatically without sorting into folders.
 
 ---

@@ -93,7 +93,7 @@ There's a free trial and a guest mode capped by storage, but no permanent free t
 | YouTube tools | No | Summary, transcript, and chat on the watch page |
 | Sharing | None, by design | Public boards, no signup needed to view |
 | Free tier | No (trial/guest mode) | Yes, up to 2,000 saves, no card required |
-| Paid price | $72–$129/yr | $72/yr (or $9/mo, $39 first year with coupon STANDING39) |
+| Paid price | $72–$129/yr | $72/yr (or $9/mo, $49 first year with coupon STANDING49) |
 
 Where **mymind wins**: visual material, aesthetic ambience, and strict privacy posture.
 

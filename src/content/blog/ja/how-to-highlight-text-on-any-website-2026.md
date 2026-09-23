@@ -22,7 +22,7 @@ faqs:
   - q: "引いたハイライトを一括で管理できますか？"
     a: "はい。サイドパネルを開けば、表示中ページのハイライト一覧および保存済みライブラリ全体の引用文を確認でき、クリックすると該当箇所へスクロールします。"
   - q: "利用料金はいくらですか？"
-    a: "拡張機能の基本利用（ブックマーク・タブ保存）は無料です。マーカーやメモ機能はProプラン（年額72ドル、初年度クーポンSTANDING39適用で39ドル）に含まれます。"
+    a: "拡張機能の基本利用（ブックマーク・タブ保存）は無料です。マーカーやメモ機能はProプラン（年額72ドル、初年度クーポンSTANDING49適用で49ドル）に含まれます。"
 heroImage: ../../../assets/blog/how-to-highlight-text-on-any-website.png
 heroAlt: "Webページにマーカーを引いて保存する方法 — イラスト"
 ogImage: "https://www.marqly.com/og/how-to-highlight-text-on-any-website.png"

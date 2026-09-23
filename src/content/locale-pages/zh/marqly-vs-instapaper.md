@@ -17,7 +17,7 @@ faqs:
   - q: "Instapaper 支持离线，Marqly 支持吗？"
     a: "Instapaper 支持离线缓存和 Kindle 同步；Marqly 专注于云端智能检索，没有专门的离线纯文本阅读模式。"
   - q: "两者的价格是多少？"
-    a: "Instapaper Premium 订阅费用为每月 $5.99 或每年 $59.99。Marqly Pro 年费为 $72（使用优惠码 STANDING39 首年仅需 $39），并提供 2,000 条免费额度。"
+    a: "Instapaper Premium 订阅费用为每月 $5.99 或每年 $59.99。Marqly Pro 年费为 $72（使用优惠码 STANDING49 首年仅需 $49），并提供 2,000 条免费额度。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"

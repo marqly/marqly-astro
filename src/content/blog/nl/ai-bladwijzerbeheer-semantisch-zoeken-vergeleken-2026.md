@@ -60,7 +60,7 @@ Geloof geen marketingclaims zonder deze eenvoudige proef op de som te nemen:
 
 ## Conclusie
 
-- **Marqly:** De beste keuze om opgeslagen links op betekenis terug te vinden. Gratis versie tot 2.000 items; Pro kost $72/jaar ($6/mnd jaarlijks of $9/mnd) met coupon STANDING39 ($39 voor het eerste jaar).
+- **Marqly:** De beste keuze om opgeslagen links op betekenis terug te vinden. Gratis versie tot 2.000 items; Pro kost $72/jaar ($6/mnd jaarlijks of $9/mnd) met coupon STANDING49 ($49 voor het eerste jaar).
 - **mymind:** Ideaal voor ontwerpers die vertrouwen op visuele associaties.
 - **Readwise Reader:** Onmisbaar voor veellezers die markeringen in e-books synchroniseren.
 - **Raindrop.io:** De ultieme klassieke bladwijzerbeheerder voor handmatige maporganisatie.

@@ -34,6 +34,6 @@ faqs:
 
 1. **Búsqueda restringida y básica:** En la versión gratuita no puedes buscar tus propios artículos. En Premium, la búsqueda es por palabras clave exactas, incapaz de encontrar contenidos por significado.
 2. **Sin resúmenes ni categorización con IA:** No cuenta con autoetiquetado ni resúmenes automáticos.
-3. **Precio elevado para lo que ofrece:** 5,99 $/mes por un lector estático resulta costoso cuando alternativas modernas como [Marqly](https://app.marqly.com) ofrecen búsqueda semántica con IA y autoetiquetado por 6 $/mes (72 $/año o 39 $ el primer año con STANDING39).
+3. **Precio elevado para lo que ofrece:** 5,99 $/mes por un lector estático resulta costoso cuando alternativas modernas como [Marqly](https://app.marqly.com) ofrecen búsqueda semántica con IA y autoetiquetado por 6 $/mes (72 $/año o 49 $ el primer año con STANDING49).
 
 Si solo buscas leer sin distracciones, la versión gratuita de Instapaper cumple. Si quieres una base de conocimiento activa donde volver a encontrar todo lo guardado, prueba Marqly.

@@ -21,7 +21,7 @@ faqs:
   - q: "Hassas haber kaynakları için güvenli midir?"
     a: "Marqly güvenli bir bulut platformudur. Çok yüksek gizlilik gerektiren özel ihbar dosyalarında kurumunuzun dijital güvenlik protokollerini esas alınız."
   - q: "Kullanım ücreti nedir?"
-    a: "Ücretsiz planda 2.000 yer imine kadar arşivleme imkanı sunulur. Pro plan yıllık 72 $ (STANDING39 kuponuyla ilk yıl 39 $) veya aylık 9 $'dır."
+    a: "Ücretsiz planda 2.000 yer imine kadar arşivleme imkanı sunulur. Pro plan yıllık 72 $ (STANDING49 kuponuyla ilk yıl 49 $) veya aylık 9 $'dır."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Dene"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

@@ -36,5 +36,5 @@ Dla większości osób problemem nie jest jednak samo czytanie, lecz fakt, że z
 
 ## Dlaczego Marqly jest bardziej praktyczne na co dzień
 
-- **Przystępna cena**: wersja bezpłatna oraz Pro za $39 w pierwszym roku z kodem STANDING39.
+- **Przystępna cena**: wersja bezpłatna oraz Pro za $49 w pierwszym roku z kodem STANDING49.
 - **Wielomodalne wyszukiwanie semantyczne**: przeszukuj transkrypcje wideo i treść stron po ich znaczeniu.

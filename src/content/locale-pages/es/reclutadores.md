@@ -17,7 +17,7 @@ faqs:
   - q: "¿Cómo encuentro el perfil de un candidato que guardé hace semanas?"
     a: "Solo describe lo que recuerdas de él. La búsqueda semántica analiza el significado y tus notas resaltadas: 'ingeniero backend que escribió sobre migrar fuera de Kubernetes' encontrará el perfil exacto aunque el título no contenga esas palabras."
   - q: "¿Cuánto cuesta Marqly para un recruiter independiente?"
-    a: "El plan gratuito no pide tarjeta y permite guardar hasta 2.000 elementos. Pro cuesta 72 $/año (39 $ el primer año con STANDING39) y añade preguntas con IA sobre informes de compensación."
+    a: "El plan gratuito no pide tarjeta y permite guardar hasta 2.000 elementos. Pro cuesta 72 $/año (49 $ el primer año con STANDING49) y añade preguntas con IA sobre informes de compensación."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probar Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"

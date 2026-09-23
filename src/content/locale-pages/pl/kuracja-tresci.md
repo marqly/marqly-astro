@@ -17,7 +17,7 @@ faqs:
   - q: "Co można umieścić na tablicy kuratorskiej?"
     a: "Linki, artykuły, filmy z YouTube z transkrypcją oraz cytaty zaznaczone w 6 kolorach z Twoim autorskim komentarzem."
   - q: "Ile kosztuje Marqly dla twórców i kuratorów?"
-    a: "Darmowy plan do 2 000 zapisów bez podawania karty. Wersja Pro za 72 $/rok (39 $ w pierwszym roku z kuponem STANDING39)."
+    a: "Darmowy plan do 2 000 zapisów bez podawania karty. Wersja Pro za 72 $/rok (49 $ w pierwszym roku z kuponem STANDING49)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"

@@ -21,7 +21,7 @@ faqs:
   - q: "Is dit geschikt voor uiterst gevoelig bronmateriaal?"
     a: "Marqly is een beveiligde clouddienst zonder self-hosting. Raadpleeg bij strikt vertrouwelijke klokkenluidersdossiers altijd het redactieprotocol."
   - q: "Wat zijn de kosten?"
-    a: "Het gratis pakket bevat tot 2.000 opgeslagen links. Pro kost $72/jaar ($39 eerste jaar met coupon STANDING39) of $9/maand."
+    a: "Het gratis pakket bevat tot 2.000 opgeslagen links. Pro kost $72/jaar ($49 eerste jaar met coupon STANDING49) of $9/maand."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

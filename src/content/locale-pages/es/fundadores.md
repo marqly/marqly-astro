@@ -17,7 +17,7 @@ faqs:
   - q: "¿Puede Marqly ayudarme a digerir entrevistas largas de fundadores?"
     a: "Sí. Marqly genera resúmenes automáticos y transcripciones sincronizadas en YouTube, y en Pro te permite chatear con el vídeo para extraer lecciones clave de entrevistas de dos horas en minutos."
   - q: "¿Cuánto cuesta Marqly para un fundador bootstrapped?"
-    a: "El plan gratuito es 100% gratis hasta 2.000 guardados. Pro cuesta 72 $/año (o 39 $ el primer año con el cupón STANDING39), e incluye búsqueda semántica, resúmenes IA y chat con artículos y vídeos."
+    a: "El plan gratuito es 100% gratis hasta 2.000 guardados. Pro cuesta 72 $/año (o 49 $ el primer año con el cupón STANDING49), e incluye búsqueda semántica, resúmenes IA y chat con artículos y vídeos."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probar Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"

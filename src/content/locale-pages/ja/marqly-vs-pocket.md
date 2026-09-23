@@ -19,7 +19,7 @@ faqs:
   - q: "Marqlyにオフライン読書モードはありますか？"
     a: "Marqlyはクラウドファーストのツールであり、Pocketのような完全オフライン閲覧機能はありません。オフライン読書が最優先ならInstapaperなどもご検討ください。"
   - q: "利用料金はいくらですか？"
-    a: "最大2,000件保存可能な無料プランがあります。Proプランは年額72ドル（初年度クーポンSTANDING39で39ドル）または月額9ドルです。"
+    a: "最大2,000件保存可能な無料プランがあります。Proプランは年額72ドル（初年度クーポンSTANDING49で49ドル）または月額9ドルです。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqlyを無料で試す"
 ctaSecondaryLabel: "Chromeに追加 — 無料"

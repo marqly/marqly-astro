@@ -65,7 +65,7 @@ No te fíes de las páginas de venta: haz esta prueba práctica en cualquier her
 
 ## Lo mejor de cada herramienta
 
-- **Marqly:** La mejor para recuperar información por significado. Guarda desde Chrome, iOS o la web y encuentra cualquier lectura describiéndola en lenguaje natural. Plan gratuito hasta 2.000 elementos; Pro por 72 $/año (6 $/mes facturado anualmente o 9 $/mes) con cupón STANDING39 (39 $ el primer año).
+- **Marqly:** La mejor para recuperar información por significado. Guarda desde Chrome, iOS o la web y encuentra cualquier lectura describiéndola en lenguaje natural. Plan gratuito hasta 2.000 elementos; Pro por 72 $/año (6 $/mes facturado anualmente o 9 $/mes) con cupón STANDING49 (49 $ el primer año).
 - **mymind:** Ideal para diseñadores y creadores visuales que priorizan la estética y la memoria fotográfica sobre textos extensos.
 - **Recall:** Excelente para interconectar resúmenes en un grafo interactivo de conocimiento.
 - **Readwise Reader:** La referencia para lectura intensiva y sincronización de subrayados de libros y boletines.

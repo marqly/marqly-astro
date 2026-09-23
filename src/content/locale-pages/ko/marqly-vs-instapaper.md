@@ -17,7 +17,7 @@ faqs:
   - q: "Marqly에는 오프라인 모드가 없나요?"
     a: "네. Marqly는 클라우드 기반이며 오프라인 텍스트 전용 리더 모드는 지원하지 않습니다."
   - q: "두 제품의 요금 차이는 어떻게 되나요?"
-    a: "Instapaper Premium은 월 $5.99 또는 연 $59.99입니다. Marqly Pro는 연 $72(첫해 쿠폰 STANDING39 적용 시 $39)이며, 무료 플랜(최대 2,000개 저장)도 제공합니다."
+    a: "Instapaper Premium은 월 $5.99 또는 연 $59.99입니다. Marqly Pro는 연 $72(첫해 쿠폰 STANDING49 적용 시 $49)이며, 무료 플랜(최대 2,000개 저장)도 제공합니다."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly 무료로 시작하기"
 ctaSecondaryLabel: "Chrome에 추가 — 무료"

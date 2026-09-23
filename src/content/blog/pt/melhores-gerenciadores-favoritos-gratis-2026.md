@@ -34,7 +34,7 @@ O melhor gerenciador de favoritos gratuito em 2026 depende das suas prioridades.
 | Ferramenta | Plano gratuito | Busca por IA | Auto-hospedagem | Plataformas | Preço Pro |
 | --- | --- | --- | --- | --- | --- |
 | **Raindrop.io** | ✅ Ilimitado | ❌ Palavras-chave | ❌ Não | Web, iOS, Android, Desktop | $28/ano |
-| **Marqly** | ✅ Até 2.000 itens | ❌ IA no plano Pro | ❌ Não | Web, iOS, Extensões | $72/ano ($39 1º ano) |
+| **Marqly** | ✅ Até 2.000 itens | ❌ IA no plano Pro | ❌ Não | Web, iOS, Extensões | $72/ano ($49 1º ano) |
 | **Linkwarden** | ✅ Grátis se hospedado | ⚠️ Opcional | ✅ Sim (AGPL) | Web, celular, extensões | $3/mês em nuvem |
 | **Karakeep** | ✅ Grátis se hospedado | ✅ Sim (com sua chave) | ✅ Sim | Web, celular, extensões | Custo do servidor |
 | **Favoritos do navegador** | ✅ Integrados | ❌ Não | — | Apenas ecossistema próprio | Grátis |

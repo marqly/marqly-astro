@@ -36,7 +36,7 @@ Bir sistem yalnızca düzenli kullanıldığı sürece değerlidir. Karmaşık k
 
 | Uygulama | Sistem Türü | Bakım Yükü | Yapay Zeka Anlamsal Arama | Yıllık Fiyat |
 | --- | --- | --- | --- | --- |
-| **Marqly** | Hafif toplama + Yapay Zeka | Minimum (otomatik) | ✅ Yerel semantik arama | Yıllık $72 (STANDING39 ile $39) |
+| **Marqly** | Hafif toplama + Yapay Zeka | Minimum (otomatik) | ✅ Yerel semantik arama | Yıllık $72 (STANDING49 ile $49) |
 | **Obsidian** | Yerel Markdown PKM | Çok yüksek (el ile) | ❌ Eklenti gerektirir | Ücretsiz (Sync ücretli) |
 | **Notion** | Modüler çalışma alanı | Orta - Yüksek | ✅ Notion AI desteği | Kullanıcı başı $10/ay |
 | **Readwise Reader** | Araştırma okuyucusu | Orta | ❌ Harfiyen eşleşme | $119,88/yıl |

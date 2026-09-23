@@ -21,7 +21,7 @@ faqs:
   - q: "Muss ich Raindrop vor dem Import kündigen?"
     a: "Nein. Lass dein Raindrop-Konto bestehen, bis du Stichproben geprüft hast. Teste einige Sammlungen, Tags, Notizen und ältere Links in Marqly, bevor du eine bezahlte Raindrop-Mitgliedschaft beendest."
   - q: "Was kostet Marqly Pro?"
-    a: "Marqly Free speichert bis zu 2.000 Lesezeichen und durchsucht die gesamte Bibliothek per Stichwort. Pro kostet 72 $ pro Jahr oder 9 $ monatlich; für das erste Jahr gibt es ein dauerhaftes Angebot für 39 $. An der Kasse kann der lokale Preis in € angezeigt werden. KI-Zusammenfassungen, semantische Suche und KI-Organisation gehören zu Pro."
+    a: "Marqly Free speichert bis zu 2.000 Lesezeichen und durchsucht die gesamte Bibliothek per Stichwort. Pro kostet 72 $ pro Jahr oder 9 $ monatlich; für das erste Jahr gibt es ein dauerhaftes Angebot für 49 $. An der Kasse kann der lokale Preis in € angezeigt werden. KI-Zusammenfassungen, semantische Suche und KI-Organisation gehören zu Pro."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos starten"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"

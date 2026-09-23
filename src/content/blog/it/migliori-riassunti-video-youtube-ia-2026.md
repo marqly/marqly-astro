@@ -30,7 +30,7 @@ Il vero discrimine tra questi strumenti non è il testo generato — ormai tutti
 
 | Strumento | Dove compare il riassunto | Trascrizione | Chat con il video | Piano gratuito | Prezzo (agosto 2026) |
 | --- | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Sulla pagina di YouTube | ✅ Sincronizzata al millisecondo | ✅ Sì (Pro) | ✅ Fino a 2.000 elementi | 72 $/anno (39 $ codice STANDING39) |
+| **Marqly** | ✅ Sulla pagina di YouTube | ✅ Sincronizzata al millisecondo | ✅ Sì (Pro) | ✅ Fino a 2.000 elementi | 72 $/anno (49 $ codice STANDING49) |
 | **NoteGPT** | ❌ Spazio di lavoro esterno | ✅ Sì | ✅ Sì | ⚠️ Quota mensile ridotta | Pro 9 $/mese |
 | **Recall** | ❌ Applicazione esterna | ✅ Sì | ❌ Solo riassunto | ✅ 10 riassunti/mese | Plus 10 $/mese annuale |
 | **Eightify** | ✅ Sulla pagina di YouTube | ⚠️ Solo punti chiave | ❌ No | ✅ 3 video/settimana (≤30m) | 4,95 $/mese |

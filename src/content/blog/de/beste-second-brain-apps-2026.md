@@ -36,7 +36,7 @@ Ein System nützt nur, wenn man es beibehält. Zu viele manuelle Schritte führe
 
 | App | System-Typ | Wartungsaufwand | KI-Semantiksuche | Pro-Preis |
 | --- | --- | --- | --- | --- |
-| **Marqly** | Leichtes KI-Erfassen | Minimal (automatisch) | ✅ Echte Semantik | $72/Jahr ($39 m. STANDING39) |
+| **Marqly** | Leichtes KI-Erfassen | Minimal (automatisch) | ✅ Echte Semantik | $72/Jahr ($49 m. STANDING49) |
 | **Obsidian** | Lokales Markdown-PKM | Hoch (alles manuell) | ❌ Nur per Community-Plugin | Kostenlos (Sync kostenpflichtig) |
 | **Notion** | Modularer Arbeitsbereich | Mittel bis hoch | ✅ Notion AI Assistent | Ab $10/Monat je Nutzer |
 | **Readwise Reader** | Lese-Tool für Forscher | Mittel | ❌ Nur Volltext | $119,88/Jahr |

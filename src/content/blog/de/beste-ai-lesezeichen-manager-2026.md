@@ -37,7 +37,7 @@ Ein **KI-Lesezeichen-Manager** speichert nicht einfach nur Webadressen ab — er
 ### 1. Marqly — Der Maßstab für semantische KI-Suche
 Marqly wurde von Grund auf für das Finden nach Bedeutung entwickelt. Speichert Webseiten, YouTube-Videos samt Transkript und ermöglicht direkte Fragen an die eigene Lesezeichensammlung.
 - Kostenlos: bis zu 2.000 Lesezeichen inklusive Volltextsuche.
-- Pro: 72 $/Jahr (39 $ im ersten Jahr) oder 9 $/Monat. [Kostenlos testen →](https://app.marqly.com/lp/ai-search)
+- Pro: 72 $/Jahr (49 $ im ersten Jahr) oder 9 $/Monat. [Kostenlos testen →](https://app.marqly.com/lp/ai-search)
 
 ### 2. Readwise Reader — Für Forscher und Power-Reader
 Umfangreiche Markierungs- und Notizfunktionen für PDFs und Fachartikel.

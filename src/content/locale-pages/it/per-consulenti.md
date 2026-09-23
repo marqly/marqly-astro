@@ -17,7 +17,7 @@ faqs:
   - q: "Posso condividere link con i clienti senza fargli creare un account?"
     a: "Sì, le bacheche pubbliche si aprono in qualunque browser senza credenziali."
   - q: "Quanto costa Marqly per consulenti?"
-    a: "Gratis fino a 2.000 salvataggi. Pro a 72 $/anno (39 $ il primo anno con codice STANDING39)."
+    a: "Gratis fino a 2.000 salvataggi. Pro a 72 $/anno (49 $ il primo anno con codice STANDING49)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"

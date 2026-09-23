@@ -54,7 +54,7 @@ Heb je nog een exportbestand op je computer staan, dan kun je vandaag direct ove
 
 | Tool | Ideaal voor | Gratis versie | Semantisch AI-zoeken | Importeert Pocket | Prijs |
 |---|---|---|---|---|---|
-| **Marqly** | AI-zoeken + tweede brein | Ja (tot 2.000 items) | ✅ Semantisch (Pro) | ✅ Ja | Gratis; Pro $72/jr ($39 1e jaar) of $9/mnd |
+| **Marqly** | AI-zoeken + tweede brein | Ja (tot 2.000 items) | ✅ Semantisch (Pro) | ✅ Ja | Gratis; Pro $72/jr ($49 1e jaar) of $9/mnd |
 | Raindrop.io | Gratis veelzijdige opslag | Zeer ruim | ❌ Alleen trefwoorden | ✅ Ja | Gratis; Pro ca. $3/mnd |
 | Instapaper | Minimalistisch teksten lezen | Ja | ❌ Alleen trefwoorden | ✅ Ja | Gratis; Premium ca. $3/mnd |
 | Readwise Reader | Studie & intensief markeren | Nee (alleen proef) | ✅ Ja | ✅ Ja | ca. $10–12/mnd |
@@ -69,7 +69,7 @@ Het grootste pijnpunt van Pocket was altijd: opslaan ging met één klik, maar *
 
 - **Voordelen**: Semantisch AI-zoeken, slimme automatische tags, heldere samenvattingen, soepele Pocket-import, fijne leesmodus, eerlijke prijs.
 - **Nadelen**: Jonger dan de gevestigde namen, community groeit hard.
-- **Prijs**: Gratis tot 2.000 items; Pro voor $72/jaar (eerste jaar slechts $39 met code `STANDING39`) of $9/maand.
+- **Prijs**: Gratis tot 2.000 items; Pro voor $72/jaar (eerste jaar slechts $49 met code `STANDING49`) of $9/maand.
 
 [Probeer Marqly gratis →](https://app.marqly.com/lp/replace-pocket)
 

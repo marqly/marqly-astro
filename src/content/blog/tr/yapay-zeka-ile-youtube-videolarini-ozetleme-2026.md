@@ -20,7 +20,7 @@ faqs:
   - q: "ChatGPT bir YouTube videosunu özetleyebilir mi?"
     a: "Evet, ancak metin dökümünü (transkripti) elle kopyalamanız gerekir. YouTube'da transkripti açıp kopyalayıp ChatGPT penceresine yapıştırmalısınız. Bu da her video için çok sayıda manuel adım demektir."
   - q: "Marqly YouTube video özeti ücretsiz mi?"
-    a: "Başlangıç için ücretsizdir. Chrome, Edge, Firefox ve Safari için ücretsiz uzantı sunulur. Sınırsız video içi sohbet ve semantik arama içeren Pro plan yıllık 72 $ (ilk yıl STANDING39 kuponuyla 39 $) veya aylık 9 $'dır."
+    a: "Başlangıç için ücretsizdir. Chrome, Edge, Firefox ve Safari için ücretsiz uzantı sunulur. Sınırsız video içi sohbet ve semantik arama içeren Pro plan yıllık 72 $ (ilk yıl STANDING49 kuponuyla 49 $) veya aylık 9 $'dır."
   - q: "Yapay zekaya video içeriği hakkında soru sorabilir miyim?"
     a: "Evet. Marqly'nin Sohbet sekmesinde videoya dair sorular sorabilir, konuşmacının gerçek ifadelerine dayalı alıntılı yanıtlar alabilirsiniz."
 heroImage: ../../../assets/blog/summarize-youtube-videos-with-ai.png

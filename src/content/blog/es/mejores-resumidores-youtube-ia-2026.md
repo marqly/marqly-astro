@@ -30,7 +30,7 @@ La diferencia clave entre estas herramientas hoy no es la redacción del resumen
 
 | Herramienta | Dónde vive el resumen | Transcripción | Chat con el video | Plan gratuito | Precio (agosto 2026) |
 | --- | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ En la página de YouTube | ✅ Sincronizada al segundo | ✅ Sí (Pro) | ✅ Hasta 2.000 elementos | 72 $/año (39 $ cupón STANDING39) |
+| **Marqly** | ✅ En la página de YouTube | ✅ Sincronizada al segundo | ✅ Sí (Pro) | ✅ Hasta 2.000 elementos | 72 $/año (49 $ cupón STANDING49) |
 | **NoteGPT** | ❌ Espacio externo | ✅ Sí | ✅ Sí | ⚠️ Cuota reducida | Pro 9 $/mes |
 | **Recall** | ❌ Aplicación externa | ✅ Sí | ❌ Enfoque resumen | ✅ 10 resúmenes/mes | Plus 10 $/mes anual |
 | **Eightify** | ✅ En la página de YouTube | ⚠️ Solo puntos clave | ❌ No | ✅ 3 videos/semana (≤30m) | 4,95 $/mes |

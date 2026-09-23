@@ -17,7 +17,7 @@ faqs:
   - q: "Ersetzt Marqly Zotero oder Citavi für die Promotion?"
     a: "Nein. Literaturverwaltungsprogramme kümmern sich um Zitationsstile und BibTeX. Marqly löst das Erinnerungsproblem davor: Was stand in welcher Studie, Farbmarkierungen und semantisches Auffinden."
   - q: "Was kostet Marqly für Doktoranden?"
-    a: "Kostenlose Basisversion ohne Zahlungsdaten. Pro für 72 $/Jahr (39 $ im 1. Jahr mit Code STANDING39)."
+    a: "Kostenlose Basisversion ohne Zahlungsdaten. Pro für 72 $/Jahr (49 $ im 1. Jahr mit Code STANDING49)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"

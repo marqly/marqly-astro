@@ -17,7 +17,7 @@ faqs:
   - q: "Android対応状況はどうですか？"
     a: "MatterもMarqlyもネイティブのAndroidアプリはありません（MarqlyはAndroidのブラウザでWeb版を利用可能）。"
   - q: "料金の差はどれくらいですか？"
-    a: "Matter PremiumはWeb決済で年額60ドル（月額8ドル）。Marqly Proは年額72ドル（初年度クーポンSTANDING39で39ドル）で、2,000件保存の無料プランがあります。"
+    a: "Matter PremiumはWeb決済で年額60ドル（月額8ドル）。Marqly Proは年額72ドル（初年度クーポンSTANDING49で49ドル）で、2,000件保存の無料プランがあります。"
   - q: "両方を併用するのはありですか？"
     a: "とても合理的です。耳で聴きたい長文記事はMatterに入れ、仕事の資料や動画、技術記事のアーカイブはMarqlyに保管する使い分けが人気です。"
 ctaUrl: "https://app.marqly.com"

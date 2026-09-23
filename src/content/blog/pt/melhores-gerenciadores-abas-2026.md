@@ -36,7 +36,7 @@ Se você mantém dezenas de abas abertas porque **trabalha em vários projetos a
 | **OneTab** | Lista colapsada | Liberar memória RAM | ✅ Totalmente grátis | Gratuito |
 | **Toby** | Painéis visuais | Organização visual | ⚠️ Limite de ~60 abas | A partir de $4,50/mês |
 | **Session Buddy** | Snapshots de sessão | Recuperação pós-crash | ✅ Grátis | Gratuito |
-| **Marqly** | Biblioteca com IA | Abas para ler depois | ✅ Até 2.000 itens | $72/ano ($39 c/ cupom STANDING39) |
+| **Marqly** | Biblioteca com IA | Abas para ler depois | ✅ Até 2.000 itens | $72/ano ($49 c/ cupom STANDING49) |
 
 ## O diferencial do Marqly
 

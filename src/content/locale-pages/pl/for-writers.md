@@ -21,7 +21,7 @@ faqs:
   - q: "Czy sprawdzi się przy wywiadach i filmach dokumentalnych?"
     a: "Bardzo dobrze. Zapisane filmy z YouTube otrzymują transkrypcję tekstową, co pozwala odszukać wypowiedziane przez rozmówcę zdanie po wielu miesiącach."
   - q: "Ile wynosi abonament?"
-    a: "Do 2 000 zakładek bezpłatnie. Wersja Pro kosztuje 72 $/rok (z kuponem STANDING39 pierwszy rok za 39 $) lub 9 $/miesiąc."
+    a: "Do 2 000 zakładek bezpłatnie. Wersja Pro kosztuje 72 $/rok (z kuponem STANDING49 pierwszy rok za 49 $) lub 9 $/miesiąc."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"

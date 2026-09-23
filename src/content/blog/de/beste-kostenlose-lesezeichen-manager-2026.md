@@ -20,7 +20,7 @@ ctaLabel: "Marqly kostenlos testen"
 lang: "de"
 faqs:
   - q: "Welcher kostenlose Lesezeichen-Manager ist 2026 der beste?"
-    a: "Raindrop.io bietet den großzügigsten klassischen Gratis-Tarif (unbegrenzte Lesezeichen und Sammlungen auf allen Geräten). Marqly hat eine kostenlose Stufe für bis zu 2.000 Links mit flexibler Suche (KI-Features liegen im Pro-Tarif für 72 $/Jahr bzw. 39 $ im ersten Jahr). Wer selbst hosten möchte, greift zu Linkwarden oder Karakeep."
+    a: "Raindrop.io bietet den großzügigsten klassischen Gratis-Tarif (unbegrenzte Lesezeichen und Sammlungen auf allen Geräten). Marqly hat eine kostenlose Stufe für bis zu 2.000 Links mit flexibler Suche (KI-Features liegen im Pro-Tarif für 72 $/Jahr bzw. 49 $ im ersten Jahr). Wer selbst hosten möchte, greift zu Linkwarden oder Karakeep."
   - q: "Ist Raindrop.io wirklich kostenlos?"
     a: "Ja, der Gratis-Tarif von Raindrop hat kein Zeitlimit. Volltextsuche und dauerhafte Kopien gibt es allerdings erst im Pro-Tarif (28 $/Jahr)."
   - q: "Reichen die normalen Browser-Lesezeichen nicht aus?"
@@ -34,7 +34,7 @@ Der beste kostenlose Lesezeichen-Manager im Jahr 2026 richtet sich nach deinen A
 | Tool | Kostenlose Stufe | KI-Suche & Tags | Selbst hostbar | Plattformen | Pro-Preis |
 | --- | --- | --- | --- | --- | --- |
 | **Raindrop.io** | ✅ Unbegrenzt | ❌ Stichwortsuche | ❌ Nein | Web, iOS, Android, Desktop | 28 $/Jahr |
-| **Marqly** | ✅ Bis zu 2.000 Links | ❌ KI in Pro | ❌ Nein | Web, iOS, Browser-Addons | 72 $/Jahr (39 $ 1. Jahr) |
+| **Marqly** | ✅ Bis zu 2.000 Links | ❌ KI in Pro | ❌ Nein | Web, iOS, Browser-Addons | 72 $/Jahr (49 $ 1. Jahr) |
 | **Linkwarden** | ✅ Gratis beim Self-Hosting | ⚠️ Optional | ✅ Ja (AGPL) | Web, Mobile, Addons | 3 $/Monat Cloud |
 | **Karakeep** | ✅ Gratis beim Self-Hosting | ✅ Ja (mit API-Key) | ✅ Ja | Web, Mobile, Addons | Nur Serverkosten |
 | **Browser-Lesezeichen** | ✅ Vorinstalliert | ❌ Nein | — | Nur eigener Browser | Kostenlos |

@@ -19,7 +19,7 @@ faqs:
   - q: "Czy Marqly ma tryb czytania offline jak Pocket?"
     a: "Nie. Marqly działa w chmurze i nie oferuje dedykowanego czytnika offline. Jeśli czytanie bez internetu jest dla Ciebie kluczowe, sprawdź Instapaper."
   - q: "Ile kosztuje Marqly?"
-    a: "Pakiet darmowy mieści do 2000 elementów. Wersja Pro kosztuje 72 USD/rok (39 USD z kuponem STANDING39) lub 9 USD/miesięcznie."
+    a: "Pakiet darmowy mieści do 2000 elementów. Wersja Pro kosztuje 72 USD/rok (49 USD z kuponem STANDING49) lub 9 USD/miesięcznie."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"

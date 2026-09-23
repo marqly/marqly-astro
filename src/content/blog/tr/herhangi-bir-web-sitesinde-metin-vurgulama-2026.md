@@ -22,7 +22,7 @@ faqs:
   - q: "Tüm alıntılarımı tek bir yerden görebilir miyim?"
     a: "Evet. Yan panel hem mevcut sayfanın hem de tüm kütüphanenizin vurgularını listeler. Bir alıntıya tıkladığınızda sayfa doğrudan o paragrafa kayar."
   - q: "Marqly web vurgulayıcı ücretsiz mi?"
-    a: "Eklentinin yer imi ve sekme kaydetme özellikleri ücretsizdir. Vurgulama ve not alma Pro plana dahildir (yıllık 72$, STANDING39 kuponuyla ilk yıl 39$)."
+    a: "Eklentinin yer imi ve sekme kaydetme özellikleri ücretsizdir. Vurgulama ve not alma Pro plana dahildir (yıllık 72$, STANDING49 kuponuyla ilk yıl 49$)."
 heroImage: ../../../assets/blog/how-to-highlight-text-on-any-website.png
 heroAlt: "Web sitelerinde metin vurgulama — illüstrasyon"
 ogImage: "https://www.marqly.com/og/how-to-highlight-text-on-any-website.png"

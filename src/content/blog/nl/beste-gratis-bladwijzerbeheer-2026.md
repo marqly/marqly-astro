@@ -20,7 +20,7 @@ ctaLabel: "Probeer Marqly gratis"
 lang: "nl"
 faqs:
   - q: "Wat is de beste gratis bookmark manager in 2026?"
-    a: "Raindrop.io biedt het meest royale klassieke gratis pakket (onbeperkte bladwijzers en collecties). Marqly biedt een gratis instapversie tot 2.000 items zonder creditcard (AI-functies zitten in Pro voor $72/jaar of $39 in het eerste jaar met code STANDING39). Voor wie zelf wil hosten zijn Linkwarden en Karakeep de beste open-source opties."
+    a: "Raindrop.io biedt het meest royale klassieke gratis pakket (onbeperkte bladwijzers en collecties). Marqly biedt een gratis instapversie tot 2.000 items zonder creditcard (AI-functies zitten in Pro voor $72/jaar of $49 in het eerste jaar met code STANDING49). Voor wie zelf wil hosten zijn Linkwarden en Karakeep de beste open-source opties."
   - q: "Is Raindrop.io echt gratis?"
     a: "Ja, de basisversie van Raindrop kent geen tijdslimiet. Functies zoals zoeken in de volledige paginatekst en permanente back-ups vereisen wel het Pro-abonnement ($28/jaar)."
   - q: "Zijn gewone browserbladwijzers niet voldoende?"
@@ -34,7 +34,7 @@ De beste gratis bookmark manager in 2026 hangt af van wat 'gratis' voor jou inho
 | Tool | Gratis limiet | AI-functies | Zelf hosten | Beschikbaarheid | Pro prijs |
 | --- | --- | --- | --- | --- | --- |
 | **Raindrop.io** | ✅ Onbeperkt opslaan | ❌ Alleen trefwoorden | ❌ Nee | Web, mobiel, desktop | $28/jaar |
-| **Marqly** | ✅ Tot 2.000 saves | ❌ AI in Pro | ❌ Nee | Web, iOS, extensies | $72/jaar ($39 1e jaar) |
+| **Marqly** | ✅ Tot 2.000 saves | ❌ AI in Pro | ❌ Nee | Web, iOS, extensies | $72/jaar ($49 1e jaar) |
 | **Linkwarden** | ✅ Gratis bij self-hosting | ⚠️ Optioneel | ✅ Ja (AGPL) | Web, mobiel, extensies | $3/mnd Cloud |
 | **Karakeep** | ✅ Gratis bij self-hosting | ✅ Ja (eigen API key) | ✅ Ja | Web, mobiel, extensies | Enkel serverkosten |
 | **Browserbladwijzers** | ✅ Standaard ingebouwd | ❌ Nee | — | Enkel eigen browser | Gratis |

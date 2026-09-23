@@ -37,7 +37,7 @@ Een moderne **AI-bladwijzerbeheerder** doet veel meer dan alleen internetlinks o
 ### 1. Marqly — Dé standaard voor semantisch AI-zoeken
 Marqly is speciaal gebouwd om opgeslagen links vindbaar te houden. Bewaart artikelen, YouTube-video's inclusief tijdlijn en laat je direct vragen stellen aan je hele archief.
 - Gratis tot 2.000 bladwijzers met volledige zoekfunctie.
-- Pro: $72/jaar ($39 in het 1e jaar) of $9/maand. [Gratis proberen →](https://app.marqly.com/lp/ai-search)
+- Pro: $72/jaar ($49 in het 1e jaar) of $9/maand. [Gratis proberen →](https://app.marqly.com/lp/ai-search)
 
 ### 2. Readwise Reader — Krachtig voor studenten en onderzoekers
 Zeer uitgebreide markeermogelijkheden voor artikelen, nieuwsbrieven en pdf-bestanden.

@@ -19,7 +19,7 @@ ctaLabel: "Essayer Marqly gratuitement"
 lang: "fr"
 faqs:
   - q: "Quel est le meilleur surligneur web en 2026 ?"
-    a: "Marqly est le choix le plus polyvalent : six couleurs, notes contextuelles, maintien garanti des surlignages sur la page originale, recherche sémantique IA dans toute votre bibliothèque et formule gratuite avec Pro à 72 $/an (39 $ la 1re année avec le code STANDING39)."
+    a: "Marqly est le choix le plus polyvalent : six couleurs, notes contextuelles, maintien garanti des surlignages sur la page originale, recherche sémantique IA dans toute votre bibliothèque et formule gratuite avec Pro à 72 $/an (49 $ la 1re année avec le code STANDING49)."
   - q: "Les surlignages restent-ils en revenant sur la page ?"
     a: "Oui avec Marqly, Weava, LINER et Hypothesis. Vos surlignages réapparaissent exactement au même endroit à chaque visite."
   - q: "Existe-t-il un bon surligneur web gratuit ?"
@@ -32,7 +32,7 @@ Pour la majorité des utilisateurs en 2026, le meilleur surligneur web est **Mar
 
 | Outil | Persistance sur la page | Couleurs et notes | Version gratuite | Tarif Pro |
 | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Oui, garantie | 6 couleurs + notes | ✅ Jusqu'à 2 000 éléments | 72 $/an (39 $ la 1re année) |
+| **Marqly** | ✅ Oui, garantie | 6 couleurs + notes | ✅ Jusqu'à 2 000 éléments | 72 $/an (49 $ la 1re année) |
 | **Readwise Reader** | ✅ Oui | Notes et étiquettes | ❌ Essai 30 jours | 9,99 $/mois annuel |
 | **Weava** | ✅ Oui | 5 couleurs de base | ✅ Oui (~100 Mo) | 3,99 $/mois |
 | **Hypothesis** | ✅ Oui | 1 couleur + notes | ✅ Totalement gratuit | Gratuit |

@@ -19,7 +19,7 @@ faqs:
   - q: "Czy mogę udostępnić tablicę z materiałami klientowi lub zespołowi?"
     a: "Tak. Każda tablica posiada opcję wygenerowania publicznego linku, co umożliwia przeglądanie zebranych referencji bez konieczności rejestracji."
   - q: "Ile kosztuje Marqly?"
-    a: "Wersja bezpłatna mieści do 2 000 zakładek. Plan Pro kosztuje 72 $/rok (z kodem STANDING39 pierwszy rok za 39 $) lub 9 $/miesiąc."
+    a: "Wersja bezpłatna mieści do 2 000 zakładek. Plan Pro kosztuje 72 $/rok (z kodem STANDING49 pierwszy rok za 49 $) lub 9 $/miesiąc."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"

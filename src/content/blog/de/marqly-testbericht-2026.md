@@ -15,7 +15,7 @@ ctaLabel: "Marqly kostenlos testen"
 lang: "de"
 faqs:
   - q: "Was kostet Marqly?"
-    a: "Marqly bietet einen kostenlosen Plan für bis zu 2.000 Einträge. Marqly Pro kostet 72 $/Jahr (6 $/Monat jährlich oder 9 $/Monat) mit Gutscheincode STANDING39 (39 $ im ersten Jahr)."
+    a: "Marqly bietet einen kostenlosen Plan für bis zu 2.000 Einträge. Marqly Pro kostet 72 $/Jahr (6 $/Monat jährlich oder 9 $/Monat) mit Gutscheincode STANDING49 (49 $ im ersten Jahr)."
 heroImage: ../../../assets/blog/marqly-review-2026.png
 heroAlt: "Marqly Testbericht 2026"
 ---

@@ -15,7 +15,7 @@ ctaLabel: "Marqly 무료로 시작하기"
 lang: "ko"
 faqs:
   - q: "Marqly의 가격 정책은 어떻게 되나요?"
-    a: "2,000개까지 무료로 제공되며, Pro 플랜은 연 $72(월 $6 상당)이고, 쿠폰 STANDING39 적용 시 첫해 $39입니다."
+    a: "2,000개까지 무료로 제공되며, Pro 플랜은 연 $72(월 $6 상당)이고, 쿠폰 STANDING49 적용 시 첫해 $49입니다."
 heroImage: ../../../assets/blog/marqly-review-2026.png
 heroAlt: "Marqly 리뷰 2026"
 ---

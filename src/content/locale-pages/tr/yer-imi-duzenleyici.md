@@ -17,7 +17,7 @@ faqs:
   - q: "Tarayıcımdaki mevcut yer imlerimi Marqly'ye aktarabilir miyim?"
     a: "Evet. Chrome, Firefox, Edge ve Safari'den dışa aktarılan HTML dosyalarını ve Pocket, Raindrop arşivlerini içe aktarabilir, hepsini yapay zeka ile etiketletebilirsiniz."
   - q: "Marqly'yi yer imi düzenleyici olarak kullanmak ücretsiz mi?"
-    a: "Kredi kartı gerektirmeyen 2.000 kayda kadar ücretsiz plan mevcuttur. Pro sürüm yıllık 72 dolar (STANDING39 koduyla ilk yıl 39 dolar)."
+    a: "Kredi kartı gerektirmeyen 2.000 kayda kadar ücretsiz plan mevcuttur. Pro sürüm yıllık 72 dolar (STANDING49 koduyla ilk yıl 49 dolar)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Dene"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

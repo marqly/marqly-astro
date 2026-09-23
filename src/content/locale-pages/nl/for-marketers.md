@@ -19,7 +19,7 @@ faqs:
   - q: "Kan ik een bord delen met klanten of interne belanghebbenden?"
     a: "Ja. Elk bord kan worden gedeeld via een openbare weblink, zodat collega's of klanten direct zonder in te loggen toegang hebben."
   - q: "Wat kost Marqly?"
-    a: "Het gratis plan biedt ruimte voor 2.000 opgeslagen links. Pro kost $72/jaar ($39 eerste jaar met actiecode STANDING39) of $9/maand."
+    a: "Het gratis plan biedt ruimte voor 2.000 opgeslagen links. Pro kost $72/jaar ($49 eerste jaar met actiecode STANDING49) of $9/maand."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

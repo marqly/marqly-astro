@@ -60,7 +60,7 @@ Você pode testar qualquer aplicativo antes de pagar uma assinatura:
 
 ## Veredito das ferramentas
 
-- **Marqly:** A melhor escolha para recuperar links pelo significado. O plano gratuito permite até 2.000 itens; o Pro custa $72/ano ($6/mês cobrado anualmente ou $9/mês), com cupom STANDING39 ($39 no primeiro ano).
+- **Marqly:** A melhor escolha para recuperar links pelo significado. O plano gratuito permite até 2.000 itens; o Pro custa $72/ano ($6/mês cobrado anualmente ou $9/mês), com cupom STANDING49 ($49 no primeiro ano).
 - **mymind:** Indicado para quem arquiva inspirações visuais e valoriza uma interface limpa sem pastas.
 - **Readwise Reader:** Excelente ecossistema para quem lê dezenas de newsletters, PDFs e livros com destaques sincronizados.
 - **Raindrop.io:** Melhor organizador tradicional com suporte amplo a mídias e categorização manual.

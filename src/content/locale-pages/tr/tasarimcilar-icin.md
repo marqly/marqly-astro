@@ -17,7 +17,7 @@ faqs:
   - q: "Müşterilerim veya ekip arkadaşlarım panolarımı görebilir mi?"
     a: "Herhangi bir panoyu herkese açık bir bağlantıyla paylaşabilirsiniz; karşı tarafın Marqly hesabı açması gerekmez. Moodboard paylaşımı için kusursuzdur."
   - q: "Tasarım referansı toplamak için Marqly ücretsiz mi?"
-    a: "Evet, ücretsiz plan 2.000 yer imine kadar pano ve metin vurgulama desteği sunar. Pro plan (yıllık 72 $, STANDING39 kuponuyla ilk yıl 39 $) yapay zeka etiketleme ve semantik aramayı açar."
+    a: "Evet, ücretsiz plan 2.000 yer imine kadar pano ve metin vurgulama desteği sunar. Pro plan (yıllık 72 $, STANDING49 kuponuyla ilk yıl 49 $) yapay zeka etiketleme ve semantik aramayı açar."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi ücretsiz deneyin"
 ctaSecondaryLabel: "Chrome'a ekle — ücretsiz"

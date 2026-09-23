@@ -60,7 +60,7 @@ Puoi verificare l'autenticità di qualsiasi strumento con questo metodo:
 
 ## Verdetto finale
 
-- **Marqly:** Il punto di riferimento per ritrovare i salvataggi per significato. Piano gratuito fino a 2.000 elementi; Pro a 72 $/anno (6 $/mese fatturato annualmente o 9 $/mese) con coupon STANDING39 (39 $ il primo anno).
+- **Marqly:** Il punto di riferimento per ritrovare i salvataggi per significato. Piano gratuito fino a 2.000 elementi; Pro a 72 $/anno (6 $/mese fatturato annualmente o 9 $/mese) con coupon STANDING49 (49 $ il primo anno).
 - **mymind:** Perfetto per chi colleziona ispirazioni visive e immagini.
 - **Readwise Reader:** Ideale per chi legge intensamente libri ed e-book sottolineandone i passaggi chiave.
 - **Raindrop.io:** Ottimo archivio tradizionale per chi ama organizzare manualmente cartelle e collegamenti.

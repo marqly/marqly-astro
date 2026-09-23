@@ -19,7 +19,7 @@ faqs:
   - q: "Marqly도 포켓처럼 오프라인 읽기를 지원하나요?"
     a: "아닙니다. Marqly는 클라우드 기반 도구로 완전 오프라인 뷰어 기능은 없습니다. 오프라인 읽기가 필수라면 Instapaper를 추천합니다."
   - q: "가격은 얼마인가요?"
-    a: "최대 2,000개 링크 저장 무료 플랜이 있습니다. Pro 플랜은 연 $72(첫해 쿠폰 STANDING39 적용 시 $39), 월 $9입니다."
+    a: "최대 2,000개 링크 저장 무료 플랜이 있습니다. Pro 플랜은 연 $72(첫해 쿠폰 STANDING49 적용 시 $49), 월 $9입니다."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly 무료로 시작하기"
 ctaSecondaryLabel: "Chrome에 추가 — 무료"

@@ -19,7 +19,7 @@ ctaLabel: "Prova Marqly gratis"
 lang: "it"
 faqs:
   - q: "Qual è il miglior evidenziatore web nel 2026?"
-    a: "Marqly è lo strumento più completo: sei colori, note per ogni estratto, persistenza garantita al ritorno sulla pagina, ricerca semantica con intelligenza artificiale e piano gratuito con Pro a 72 $/anno (39 $ il primo anno con coupon STANDING39)."
+    a: "Marqly è lo strumento più completo: sei colori, note per ogni estratto, persistenza garantita al ritorno sulla pagina, ricerca semantica con intelligenza artificiale e piano gratuito con Pro a 72 $/anno (49 $ il primo anno con coupon STANDING49)."
   - q: "Le evidenziazioni rimangono ricaricando la pagina?"
     a: "Sì, con Marqly, Weava, LINER e Hypothesis. Marqly sincronizza le evidenziazioni sul tuo account cloud, mostrandole sempre al loro posto."
   - q: "Esiste un buon evidenziatore web gratuito?"
@@ -32,7 +32,7 @@ Per la grande maggioranza degli utenti nel 2026, il miglior evidenziatore web è
 
 | Strumento | Rimane sulla pagina? | Colori e note | Piano gratuito | Prezzo Pro |
 | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Sì, sempre | 6 colori + note | ✅ Fino a 2.000 elementi | 72 $/anno (39 $ primo anno) |
+| **Marqly** | ✅ Sì, sempre | 6 colori + note | ✅ Fino a 2.000 elementi | 72 $/anno (49 $ primo anno) |
 | **Readwise Reader** | ✅ Sì | Note e tag | ❌ Prova 30 giorni | 9,99 $/mese annuale |
 | **Weava** | ✅ Sì | 5 colori base | ✅ Sì (~100MB) | 3,99 $/mese |
 | **Hypothesis** | ✅ Sì | 1 colore + note | ✅ Sempre gratuito | Gratuito |

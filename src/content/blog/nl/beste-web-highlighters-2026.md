@@ -19,7 +19,7 @@ ctaLabel: "Probeer Marqly gratis"
 lang: "nl"
 faqs:
   - q: "Wat is de beste web highlighter in 2026?"
-    a: "Marqly is de beste allrounder: zes kleuren, kanttekeningen, markeringen die exact behouden blijven op de pagina, semantisch zoeken met AI en een royale gratis versie (Pro kost $72/jaar, of $39 in het eerste jaar met actiecode STANDING39)."
+    a: "Marqly is de beste allrounder: zes kleuren, kanttekeningen, markeringen die exact behouden blijven op de pagina, semantisch zoeken met AI en een royale gratis versie (Pro kost $72/jaar, of $49 in het eerste jaar met actiecode STANDING49)."
   - q: "Blijven markeringen staan als je de pagina herbezoekt?"
     a: "Alleen bij gespecialiseerde tools zoals Marqly, Weava, LINER en Hypothesis. Een markeerstift die de pagina vergeet is niets meer dan een gekleurde screenshot."
   - q: "Wat is de beste gratis web highlighter?"
@@ -32,7 +32,7 @@ Voor de meeste lezers en onderzoekers is **Marqly** in 2026 de beste web highlig
 
 | Tool | Blijft op pagina staan? | Kleuren & notities | Gratis versie | Pro prijs |
 | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Ja, altijd | 6 kleuren + notities | ✅ Tot 2.000 items | $72/jaar ($39 1e jaar) |
+| **Marqly** | ✅ Ja, altijd | 6 kleuren + notities | ✅ Tot 2.000 items | $72/jaar ($49 1e jaar) |
 | **Readwise Reader** | ✅ Ja | Notities + tags | ❌ 30 dagen proef | $9,99/mnd jaarlijks |
 | **Weava** | ✅ Ja | 5 basiskleuren | ✅ Ja (~100MB) | $3,99/mnd |
 | **Hypothesis** | ✅ Ja | 1 kleur + notities | ✅ Volledig gratis | Gratis |

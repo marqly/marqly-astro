@@ -36,7 +36,7 @@ Een second brain is alleen waardevol als je het blijft gebruiken. Elke extra han
 
 | App | Type systeem | Onderhoudsbelasting | AI Semantisch zoeken | Jaarprijs |
 | --- | --- | --- | --- | --- |
-| **Marqly** | Lichte capture + AI | Minimaal (automatisch) | ✅ Echte semantiek | $72/jaar ($39 m. STANDING39) |
+| **Marqly** | Lichte capture + AI | Minimaal (automatisch) | ✅ Echte semantiek | $72/jaar ($49 m. STANDING49) |
 | **Obsidian** | Lokale Markdown | Hoog (alles handmatig) | ❌ Enkel via plugins | Gratis (Sync betaald) |
 | **Notion** | Modulaire werkruimte | Gemiddeld tot hoog | ✅ Notion AI | Vanaf $10/maand p.p. |
 | **Readwise Reader** | Onderzoekslezer | Gemiddeld | ❌ Letterlijke tekst | $119,88/jaar |

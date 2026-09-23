@@ -20,7 +20,7 @@ ctaLabel: "Marqly'yi Ücretsiz Deneyin"
 lang: "tr"
 faqs:
   - q: "2026 yılında en iyi ücretsiz yer imi yöneticisi hangisidir?"
-    a: "Raindrop.io klasik manuel düzenleme için en cömert ücretsiz sürüme sahiptir: sınırsız yer imi ve koleksiyon sunar. Marqly, kredi kartı gerektirmeden 2.000 kayda kadar ücretsiz kullanım sağlar (gelişmiş AI özellikleri yıllık 72 $ olan Pro plandadır; ilk yıl STANDING39 kuponuyla 39 $). Kendi sunucunuzda barındırmak isterseniz Linkwarden ve Karakeep en iyi açık kaynaklı seçeneklerdir."
+    a: "Raindrop.io klasik manuel düzenleme için en cömert ücretsiz sürüme sahiptir: sınırsız yer imi ve koleksiyon sunar. Marqly, kredi kartı gerektirmeden 2.000 kayda kadar ücretsiz kullanım sağlar (gelişmiş AI özellikleri yıllık 72 $ olan Pro plandadır; ilk yıl STANDING49 kuponuyla 49 $). Kendi sunucunuzda barındırmak isterseniz Linkwarden ve Karakeep en iyi açık kaynaklı seçeneklerdir."
   - q: "Raindrop.io gerçekten ücretsiz mi?"
     a: "Evet, Raindrop'un ücretsiz sürümünde süre sınırı yoktur. Ancak sayfa metinlerinin tamamında arama ve kalıcı yedekleme özellikleri Pro plandadır (yıllık 28 $)."
   - q: "Tarayıcının kendi yer imleri yeterli değil mi?"
@@ -34,7 +34,7 @@ faqs:
 | Araç | Ücretsiz Sürüm Limiti | Yapay Zeka Özelliği | Self-Hosting | Platform Desteği | Pro Ücreti |
 | --- | --- | --- | --- | --- | --- |
 | **Raindrop.io** | ✅ Sınırsız link ve klasör | ❌ Yalnızca anahtar kelime | ❌ Yok | Web, mobil, masaüstü | Yıllık 28 $ |
-| **Marqly** | ✅ 2.000 kayda kadar | ❌ AI Pro'da | ❌ Yok | Web, iOS, uzantılar | Yıllık 72 $ (1. yıl 39 $) |
+| **Marqly** | ✅ 2.000 kayda kadar | ❌ AI Pro'da | ❌ Yok | Web, iOS, uzantılar | Yıllık 72 $ (1. yıl 49 $) |
 | **Linkwarden** | ✅ Kendi sunucunda ücretsiz | ⚠️ İsteğe bağlı | ✅ Var (AGPL) | Web, mobil, uzantılar | Bulut $3/ay |
 | **Karakeep** | ✅ Kendi sunucunda ücretsiz | ✅ Kendi API anahtarınla | ✅ Var | Web, mobil, uzantılar | Sadece sunucu gideri |
 | **Tarayıcı Yer İmleri** | ✅ Entegre ve sınırsız | ❌ Yok | — | Sadece kendi tarayıcısı | Ücretsiz |

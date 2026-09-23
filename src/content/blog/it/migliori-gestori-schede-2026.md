@@ -34,7 +34,7 @@ Se hai 40 schede aperte per **destreggiarti tra diversi progetti di lavoro attiv
 | **OneTab** | Elenco rapido | Liberare RAM subito | ✅ 100% gratuito | Gratuito |
 | **Toby** | Bacheche visive | Organizzazione visiva | ⚠️ Limite ~60 schede | Da 4,50 $/mese |
 | **Session Buddy** | Backup sessioni | Protezione da crash | ✅ Gratuito | Gratuito |
-| **Marqly** | Libreria con IA | Schede da leggere e consultare | ✅ Fino a 2.000 elementi | 72 $/anno (39 $ codice STANDING39) |
+| **Marqly** | Libreria con IA | Schede da leggere e consultare | ✅ Fino a 2.000 elementi | 72 $/anno (49 $ codice STANDING49) |
 
 ## Il vantaggio distintivo di Marqly
 

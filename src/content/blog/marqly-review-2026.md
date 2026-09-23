@@ -60,7 +60,7 @@ Browser extension for desktop, share-sheet on mobile.
 ## Pricing
 
 - **Free tier** — get started without a credit card; stores up to 2,000 bookmarks with search across your whole library.
-- **Pro ($72/year ≈ $6/month, with a $39 first-year offer or $9/mo)** — unlimited bookmarks and full AI capabilities (semantic search, auto-tagging, YouTube chat, ChatVault). See our [pricing page](/pricing).
+- **Pro ($72/year ≈ $6/month, with a $49 first-year offer or $9/mo)** — unlimited bookmarks and full AI capabilities (semantic search, auto-tagging, YouTube chat, ChatVault). See our [pricing page](/pricing).
 - **Free plan to start**, no card required; Pro is billed when you upgrade and can be cancelled anytime.
 
 At ~$6/mo, Marqly sits below premium tools like Readwise Reader ($12/mo) while offering the AI-search layer that free tools like Raindrop lack.

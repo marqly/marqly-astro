@@ -20,7 +20,7 @@ ctaLabel: "Prueba Marqly gratis"
 lang: "es"
 faqs:
   - q: "¿Cuál es el mejor gestor de marcadores gratuito en 2026?"
-    a: "Raindrop.io ofrece el plan gratuito clásico más generoso: marcadores y colecciones ilimitados en todas las plataformas. Marqly ofrece un plan gratuito limpio para hasta 2.000 enlaces con búsqueda en toda la biblioteca (las funciones avanzadas de IA están en Pro por $72/año o $39 el primer año). Si buscas autoalojamiento, Linkwarden y Karakeep son las mejores opciones libres."
+    a: "Raindrop.io ofrece el plan gratuito clásico más generoso: marcadores y colecciones ilimitados en todas las plataformas. Marqly ofrece un plan gratuito limpio para hasta 2.000 enlaces con búsqueda en toda la biblioteca (las funciones avanzadas de IA están en Pro por $72/año o $49 el primer año). Si buscas autoalojamiento, Linkwarden y Karakeep son las mejores opciones libres."
   - q: "¿Es Raindrop.io realmente gratis?"
     a: "Sí. El plan gratis de Raindrop incluye marcadores, colecciones y etiquetas ilimitados sin límite de tiempo. Pro ($28/año) añade búsqueda de texto completo, copias de seguridad de páginas y sugerencias por IA."
   - q: "¿Son suficientes los marcadores integrados del navegador?"
@@ -34,7 +34,7 @@ El mejor gestor de marcadores gratuito en 2026 depende de lo que signifique «gr
 | Herramienta | Plan gratuito | Búsqueda por IA | Autoalojamiento | Plataformas | Precio Pro |
 | --- | --- | --- | --- | --- | --- |
 | **Raindrop.io** | ✅ Ilimitado | ❌ Solo palabras clave | ❌ No | Web, iOS, Android, Desktop | $28/año |
-| **Marqly** | ✅ Hasta 2.000 enlaces | ❌ IA en Pro | ❌ No | Web, iOS, Extensiones | $72/año ($39 1er año) |
+| **Marqly** | ✅ Hasta 2.000 enlaces | ❌ IA en Pro | ❌ No | Web, iOS, Extensiones | $72/año ($49 1er año) |
 | **Linkwarden** | ✅ Gratis autoalojado | ⚠️ Opcional | ✅ Sí (AGPL) | Web, móvil, extensiones | $3/mes en la nube |
 | **Karakeep** | ✅ Gratis autoalojado | ✅ Sí (con tu clave API) | ✅ Sí | Web, móvil, extensiones | Solo coste del servidor |
 | **Marcadores del navegador** | ✅ Integrados | ❌ No | — | Solo su navegador | Gratis |

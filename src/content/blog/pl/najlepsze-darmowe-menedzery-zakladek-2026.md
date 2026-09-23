@@ -20,7 +20,7 @@ ctaLabel: "Wypróbuj Marqly za darmo"
 lang: "pl"
 faqs:
   - q: "Jaki jest najlepszy darmowy menedżer zakładek w 2026 roku?"
-    a: "Raindrop.io oferuje najbardziej rozbudowany klasyczny plan darmowy (nieograniczona liczba zakładek i folderów). Marqly posiada darmowy pakiet do 2000 pozycji z szybkim wyszukiwaniem (pełne AI znajduje się w Pro za 72 USD/rok lub 39 USD w 1. roku z kuponem STANDING39). Jeśli wolisz własny serwer, Linkwarden i Karakeep to najciekawsze projekty open source."
+    a: "Raindrop.io oferuje najbardziej rozbudowany klasyczny plan darmowy (nieograniczona liczba zakładek i folderów). Marqly posiada darmowy pakiet do 2000 pozycji z szybkim wyszukiwaniem (pełne AI znajduje się w Pro za 72 USD/rok lub 49 USD w 1. roku z kuponem STANDING49). Jeśli wolisz własny serwer, Linkwarden i Karakeep to najciekawsze projekty open source."
   - q: "Czy Raindrop.io jest całkowicie darmowy?"
     a: "Tak, podstawowy pakiet nie ma limitu czasowego. Jednak przeszukiwanie pełnej treści stron i kopie archiwalne wymagają subskrypcji Pro (28 USD/rok)."
   - q: "Czy tradycyjne zakładki w przeglądarce nie wystarczą?"
@@ -34,7 +34,7 @@ Najlepszy bezpłatny menedżer zakładek w 2026 roku zależy od tego, czego ocze
 | Narzędzie | Limit wersji darmowej | Wyszukiwanie AI | Własny serwer | Dostępne platformy | Cena Pro |
 | --- | --- | --- | --- | --- | --- |
 | **Raindrop.io** | ✅ Bez limitu pozycji | ❌ Tylko słowa kluczowe | ❌ Nie | Web, iOS, Android, PC | 28 USD/rok |
-| **Marqly** | ✅ Do 2 000 zakładek | ❌ AI w wersji Pro | ❌ Nie | Web, iOS, rozszerzenia | 72 USD/rok (39 USD 1. rok) |
+| **Marqly** | ✅ Do 2 000 zakładek | ❌ AI w wersji Pro | ❌ Nie | Web, iOS, rozszerzenia | 72 USD/rok (49 USD 1. rok) |
 | **Linkwarden** | ✅ Darmowy na serwerze | ⚠️ Opcjonalnie | ✅ Tak (AGPL) | Web, mobile, wtyczki | 3 USD/mies. Chmura |
 | **Karakeep** | ✅ Darmowy na serwerze | ✅ Tak (z własnym kluczem) | ✅ Tak | Web, mobile, wtyczki | Koszt serwera |
 | **Zakładki w Chrome** | ✅ Wbudowane, darmowe | ❌ Brak | — | Tylko własna przeglądarka | Bezpłatne |

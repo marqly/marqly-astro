@@ -36,7 +36,7 @@ Un outil n'est utile que s'il est conservé sur la durée. Les méthodes complex
 
 | Outil | Approche | Effort d'entretien | Recherche sémantique IA | Prix Pro |
 | --- | --- | --- | --- | --- |
-| **Marqly** | Capture légère + IA | Quasi nul (automatisé) | ✅ Sémantique native | 72 $/an (39 $ code STANDING39) |
+| **Marqly** | Capture légère + IA | Quasi nul (automatisé) | ✅ Sémantique native | 72 $/an (49 $ code STANDING49) |
 | **Obsidian** | PKM local en Markdown | Élevé (manuel) | ❌ Nécessite des plugins | Gratuit (Sync payant) |
 | **Notion** | Espace de travail modulaire | Moyen à élevé | ✅ Notion AI | Dès 10 $/mois par membre |
 | **Readwise Reader** | Lecteur de recherche | Moyen | ❌ Recherche littérale | 119,88 $/an |

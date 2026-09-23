@@ -17,7 +17,7 @@ faqs:
   - q: "Posso compartilhar leituras com clientes sem forçá-los a se cadastrar?"
     a: "Sim, quadros públicos podem ser abertos por qualquer pessoa pelo navegador sem login."
   - q: "Quanto custa o Marqly para consultores independentes?"
-    a: "Plano grátis até 2.000 itens. Pro por 72 $/ano (39 $ no 1º ano com cupom STANDING39) com IA completa."
+    a: "Plano grátis até 2.000 itens. Pro por 72 $/ano (49 $ no 1º ano com cupom STANDING49) com IA completa."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Testar o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"

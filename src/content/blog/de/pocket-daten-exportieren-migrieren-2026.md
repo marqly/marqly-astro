@@ -49,7 +49,7 @@ In dieser Schritt-für-Schritt-Anleitung erfahren Sie, wie Sie Ihre Daten sicher
 3. Ziehen Sie Ihre Datei `pocket-export.html` per Drag-and-Drop in das Importfenster.
 4. Ihre Artikel und Tags erscheinen unmittelbar in Ihrer Bibliothek.
 
-Marqly ist kostenlos für bis zu 2.000 Einträge. Für größere Bibliotheken bietet Marqly Pro unbegrenzten Speicherplatz für 72 $/Jahr (6 $/Monat bei jährlicher Zahlung oder 9 $/Monat) mit Gutscheincode `STANDING39` (39 $ im ersten Jahr).
+Marqly ist kostenlos für bis zu 2.000 Einträge. Für größere Bibliotheken bietet Marqly Pro unbegrenzten Speicherplatz für 72 $/Jahr (6 $/Monat bei jährlicher Zahlung oder 9 $/Monat) mit Gutscheincode `STANDING49` (49 $ im ersten Jahr).
 
 ## Schritt 4: Gewohnheiten erneuern
 

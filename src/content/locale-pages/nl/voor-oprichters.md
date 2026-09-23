@@ -17,7 +17,7 @@ faqs:
   - q: "Helpt Marqly bij lange video-interviews van ondernemers?"
     a: "Ja, met directe samenvattingen, kernpunten en doorzoekbare transcripties voor YouTube-video's."
   - q: "Wat kost Marqly voor een startende ondernemer?"
-    a: "Gratis tot 2.000 items. Pro kost $ 72/jaar (of $ 39 eerste jaar met coupon STANDING39) inclusief alle AI-functionaliteiten."
+    a: "Gratis tot 2.000 items. Pro kost $ 72/jaar (of $ 49 eerste jaar met coupon STANDING49) inclusief alle AI-functionaliteiten."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

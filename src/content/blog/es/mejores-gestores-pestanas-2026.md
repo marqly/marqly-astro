@@ -36,7 +36,7 @@ Si tienes 40 pestañas abiertas porque **alternas entre varios proyectos de trab
 | **OneTab** | Colapsar a lista simple | Liberar memoria de golpe | ✅ 100% gratis | Gratuito |
 | **Toby** | Colecciones visuales | Pensadores visuales | ⚠️ Limitado a ~60 pestañas | Desde 4,50 $/mes |
 | **Session Buddy** | Instantáneas de sesión | Recuperación tras cuelgues | ✅ Gratis | Gratuito |
-| **Marqly** | Guardar en biblioteca IA | Pestañas para leer después | ✅ 2.000 guardados | 72 $/año (39 $ con cupón STANDING39) |
+| **Marqly** | Guardar en biblioteca IA | Pestañas para leer después | ✅ 2.000 guardados | 72 $/año (49 $ con cupón STANDING49) |
 
 ## ¿Por qué OneTab se convierte en un cementerio de enlaces?
 

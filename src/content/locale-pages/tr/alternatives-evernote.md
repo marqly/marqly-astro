@@ -13,7 +13,7 @@ trustLine: "Ücretsiz plan · Kredi kartı gerekmez · Chrome, Edge, Firefox, Sa
 faqHeading: "Sıkça Sorulan Sorular"
 faqs:
   - q: "En hesaplı Evernote alternatifi hangisidir?"
-    a: "Web kaydetme ve yapay zeka arama için Marqly (ücretsiz plan, Pro ilk yıl 39$). Salt URL yer imleri için Raindrop.io (yıllık 28$). Çevrimdışı markdown için Obsidian (ücretsiz)."
+    a: "Web kaydetme ve yapay zeka arama için Marqly (ücretsiz plan, Pro ilk yıl 49$). Salt URL yer imleri için Raindrop.io (yıllık 28$). Çevrimdışı markdown için Obsidian (ücretsiz)."
   - q: "Evernote'un uzun not yazımını hangisi tam karşılar?"
     a: "Notion veya Obsidian. Marqly bir zengin metin editörü değil, web sayfaları ve bilgi arşividir."
   - q: "Evernote'u bırakınca neler eksilir?"
@@ -36,4 +36,4 @@ Hesabınızı gözden geçirin:
 Evernote'taki web kırpmaları yüzlerce not defteri içinde kolayca kaybolur. Marqly:
 - Web metnini ve alıntıları yapay zekayla otomatik etiketler.
 - YouTube video dökümlerini ve özetlerini saklar.
-- Yıllık 72$ (STANDING39 kuponuyla ilk yıl 39$) ile çok daha hesaplıdır.
+- Yıllık 72$ (STANDING49 kuponuyla ilk yıl 49$) ile çok daha hesaplıdır.

@@ -30,7 +30,7 @@ Der entscheidende Unterschied liegt heute nicht in der Textqualität, sondern da
 
 | Tool | Wo die Zusammenfassung lebt | Transkript | Chat mit dem Video | Gratis-Stufe | Preis (Aug 2026) |
 | --- | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Direkt auf der YouTube-Seite | ✅ Synchron zur Wiedergabe | ✅ Ja (Pro) | ✅ Bis 2.000 Einträge | 72 $/Jahr (39 $ Code STANDING39) |
+| **Marqly** | ✅ Direkt auf der YouTube-Seite | ✅ Synchron zur Wiedergabe | ✅ Ja (Pro) | ✅ Bis 2.000 Einträge | 72 $/Jahr (49 $ Code STANDING49) |
 | **NoteGPT** | ❌ Separater Arbeitsbereich | ✅ Ja | ✅ Ja | ⚠️ Kleines Kontingent | Pro 9 $/Monat |
 | **Recall** | ❌ Eigene App/Bibliothek | ✅ Ja | ❌ Nur Zusammenfassung | ✅ 10 Zusammenfassungen/Mo | Plus 10 $/Monat jährlich |
 | **Eightify** | ✅ Direkt auf der YouTube-Seite | ⚠️ Nur Kernpunkte | ❌ Nein | ✅ 3 Videos/Woche (≤30m) | 4,95 $/Monat |

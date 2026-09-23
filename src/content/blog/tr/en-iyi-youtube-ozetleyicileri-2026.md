@@ -30,7 +30,7 @@ Bu araçlar arasındaki gerçek fark özetin dil bilgisi kalitesi değil; **öze
 
 | Araç | Özet Nerede Yaşar | Transkript | Video İle Sohbet | Ücretsiz Plan | Fiyat (Ağustos 2026) |
 | --- | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ YouTube izleme sayfasında | ✅ Oynatmayla tam senkron | ✅ Evet (Pro) | ✅ 2.000 kayda kadar | Yıllık 72 $ (STANDING39 koduyla ilk yıl 39 $) |
+| **Marqly** | ✅ YouTube izleme sayfasında | ✅ Oynatmayla tam senkron | ✅ Evet (Pro) | ✅ 2.000 kayda kadar | Yıllık 72 $ (STANDING49 koduyla ilk yıl 49 $) |
 | **NoteGPT** | ❌ Ayrı çalışma alanı | ✅ Evet | ✅ Evet | ⚠️ Küçük kota | Pro 9 $/ay |
 | **Recall** | ❌ Ayrı uygulama/kütüphane | ✅ Evet | ❌ Sadece özet | ✅ 10 özet/ay | Plus yıllık ödemede 10 $/ay |
 | **Eightify** | ✅ YouTube izleme sayfasında | ⚠️ Yalnızca ana maddeler | ❌ Hayır | ✅ Haftada 3 video (≤30 dk) | 4,95 $/ay |

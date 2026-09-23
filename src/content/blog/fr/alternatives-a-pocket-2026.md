@@ -81,7 +81,7 @@ Si la principale faiblesse de Pocket était la facilité de sauvegarde contrasta
 
 - **Points forts :** Recherche sémantique par IA, auto-étiquetage intelligent, résumés automatiques, import Pocket instantané, mode lecture soigné, tarif compétitif.
 - **Points faibles :** Produit plus récent que les acteurs historiques, communauté en pleine expansion.
-- **Prix :** Formule gratuite jusqu'à 2 000 éléments avec recherche intégrale ; Pro à 72 $/an (~6 $/mois, ou 39 $ la première année avec le code `STANDING39`) ou 9 $/mois.
+- **Prix :** Formule gratuite jusqu'à 2 000 éléments avec recherche intégrale ; Pro à 72 $/an (~6 $/mois, ou 49 $ la première année avec le code `STANDING49`) ou 9 $/mois.
 
 [Essayer Marqly gratuitement →](https://app.marqly.com/lp/replace-pocket)
 

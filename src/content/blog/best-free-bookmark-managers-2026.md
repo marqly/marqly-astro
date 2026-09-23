@@ -32,7 +32,7 @@ Worth saying out loud: the era of "just use Pocket" is over — Mozilla shut Poc
 | Tool | Free tier | AI (tagging/search) | Self-host | Platforms | Paid upgrade (verified Aug 2026) |
 | --- | --- | --- | --- | --- | --- |
 | **Raindrop.io** | ✅ Unlimited bookmarks & collections | ❌ Keyword search on free | ❌ | Web, mobile, extensions | Pro $28/yr |
-| **Marqly** | ✅ Free tier, up to 2,000 saves (whole library search) | ❌ All AI is Pro (tagging, summaries, semantic search) | ❌ | Web, iOS, Chrome/Edge/Firefox/Safari | Pro $72/yr (~$6/mo, $39 first year) |
+| **Marqly** | ✅ Free tier, up to 2,000 saves (whole library search) | ❌ All AI is Pro (tagging, summaries, semantic search) | ❌ | Web, iOS, Chrome/Edge/Firefox/Safari | Pro $72/yr (~$6/mo, $49 first year) |
 | **Linkwarden** | ✅ Free if self-hosted | ⚠️ Optional AI tagging | ✅ Open source (AGPL) | Web, iOS, Android, extensions | Cloud $3/user/mo |
 | **Karakeep** | ✅ Free if self-hosted | ✅ LLM tagging + semantic search (bring your own key) | ✅ Open source | Web, iOS, Android, extensions | Server costs only |
 | **Browser bookmarks** | ✅ Built in | ❌ | — | Their own ecosystem | — |
@@ -63,14 +63,14 @@ Marqly's free tier is the manual half of the product, and it is honest about it:
 
 The boundaries are clear: the free tier holds up to **2,000 bookmarks** with full access to search and read all of them, while **semantic search and auto-tagging are Pro features**. If unlimited free storage is your primary requirement, Raindrop is the better answer and it's above for that reason. We build Marqly, so weigh this section accordingly — but those free-tier facts are checkable in two minutes.
 
-Where Raindrop free beats Marqly free: raw collecting at unlimited scale with a mature app on every platform. Where Marqly free beats Raindrop free: a modern reading and highlight workflow, whole-library search, and an integrated AI upgrade path. Pro is $72/year (~$6/month, with a $39 first-year offer) or $9/month, and lifts storage caps while enabling full AI capabilities.
+Where Raindrop free beats Marqly free: raw collecting at unlimited scale with a mature app on every platform. Where Marqly free beats Raindrop free: a modern reading and highlight workflow, whole-library search, and an integrated AI upgrade path. Pro is $72/year (~$6/month, with a $49 first-year offer) or $9/month, and lifts storage caps while enabling full AI capabilities.
 
 **Pros:**
 
 - Save-all-tabs, a 6-color highlighter, boards, and whole-library search at no cost
 - Extension bundles highlighter, tab saver, and YouTube summaries
 - Imports Pocket exports, Raindrop collections, and browser bookmark HTML
-- Free signup, no card; Pro at $72/year ($39 first year) stays affordable
+- Free signup, no card; Pro at $72/year ($49 first year) stays affordable
 
 **Cons:**
 

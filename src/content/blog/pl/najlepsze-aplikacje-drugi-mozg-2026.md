@@ -36,7 +36,7 @@ System ma sens tylko wtedy, gdy regularnie z niego korzystasz. Każde dodatkowe 
 
 | Aplikacja | Typ systemu | Nakład pracy | Wyszukiwanie semantyczne AI | Cena roczna |
 | --- | --- | --- | --- | --- |
-| **Marqly** | Lekki zapis + AI | Minimalny (automatyczny) | ✅ Natywna semantyka | $72/rok ($39 z kodem STANDING39) |
+| **Marqly** | Lekki zapis + AI | Minimalny (automatyczny) | ✅ Natywna semantyka | $72/rok ($49 z kodem STANDING49) |
 | **Obsidian** | Lokalny Markdown | Bardzo wysoki | ❌ Wymaga wtyczek | Darmowy (Sync płatny) |
 | **Notion** | Notatnik modułowy | Średni do wysokiego | ✅ Notion AI | Od $10/mies. za osobę |
 | **Readwise Reader** | Czytnik badawczy | Średni | ❌ Wyszukiwanie dosłowne | $119,88/rok |

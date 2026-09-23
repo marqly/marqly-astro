@@ -17,7 +17,7 @@ faqs:
   - q: "Vervangt Marqly Zotero of Mendeley voor mijn promotietraject?"
     a: "Nee. Zotero blijft essentieel voor citatiestijlen en BibTeX. Marqly lost het geheugenprobleem op: Kernaantekeningen maken, opgeslagen artikelen terugvinden op vage herinnering en AI-triage."
   - q: "Wat kost Marqly voor promovendi?"
-    a: "Er is een gratis versie zonder creditcard. Pro kost 72 $/jaar (39 $ in het eerste jaar met kortingscode STANDING39)."
+    a: "Er is een gratis versie zonder creditcard. Pro kost 72 $/jaar (49 $ in het eerste jaar met kortingscode STANDING49)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

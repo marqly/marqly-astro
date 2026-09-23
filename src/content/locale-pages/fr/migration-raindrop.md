@@ -21,7 +21,7 @@ faqs:
   - q: "Dois-je résilier Raindrop avant d'importer ?"
     a: "Non. Gardez votre compte Raindrop jusqu'à la fin des vérifications. Contrôlez quelques collections, tags, notes et anciens liens dans Marqly avant de résilier un abonnement payant."
   - q: "Combien coûte Marqly Pro ?"
-    a: "Marqly Free stocke jusqu'à 2 000 favoris et permet une recherche par mots-clés dans toute la bibliothèque. Pro coûte 72 $ par an ou 9 $ par mois, avec une offre permanente de 39 $ la première année. Le paiement peut afficher le prix local en €. Les résumés IA, la recherche sémantique et l'organisation par IA sont réservés à Pro."
+    a: "Marqly Free stocke jusqu'à 2 000 favoris et permet une recherche par mots-clés dans toute la bibliothèque. Pro coûte 72 $ par an ou 9 $ par mois, avec une offre permanente de 49 $ la première année. Le paiement peut afficher le prix local en €. Les résumés IA, la recherche sémantique et l'organisation par IA sont réservés à Pro."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Commencer gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"

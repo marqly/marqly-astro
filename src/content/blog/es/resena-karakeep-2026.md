@@ -39,4 +39,4 @@ El precio a pagar, sin embargo, es que te conviertes en tu propio administrador 
 
 ## Cuándo elegir Marqly
 
-Si buscas la potencia de la **búsqueda semántica con IA y autoetiquetado**, pero prefieres una solución en la nube lista para usar con extensiones impecables y app para iOS sin tocar una terminal, [Marqly](https://app.marqly.com) es la alternativa ideal. Marqly ofrece un plan gratuito de hasta 2.000 elementos y Pro por 72 $/año (6 $/mes o 39 $ el primer año con `STANDING39`).
+Si buscas la potencia de la **búsqueda semántica con IA y autoetiquetado**, pero prefieres una solución en la nube lista para usar con extensiones impecables y app para iOS sin tocar una terminal, [Marqly](https://app.marqly.com) es la alternativa ideal. Marqly ofrece un plan gratuito de hasta 2.000 elementos y Pro por 72 $/año (6 $/mes o 49 $ el primer año con `STANDING49`).

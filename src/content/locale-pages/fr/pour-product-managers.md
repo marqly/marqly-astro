@@ -15,7 +15,7 @@ faqs:
   - q: "Marqly remplace-t-il mes outils de PRD ou roadmap ?"
     a: "Non, Marqly gère la phase de recherche en amont pour que vos sources soient prêtes à être exploitées."
   - q: "Marqly est-il gratuit pour les PM ?"
-    a: "Oui, gratuit jusqu'à 2 000 éléments. Le forfait Pro est à 72 $/an (39 $ la 1re année avec le code STANDING39)."
+    a: "Oui, gratuit jusqu'à 2 000 éléments. Le forfait Pro est à 72 $/an (49 $ la 1re année avec le code STANDING49)."
   - q: "En quoi la recherche sémantique aide-t-elle la veille concurrentielle ?"
     a: "Elle permet de chercher par sens conceptuel plutôt que par mots-clés stricts, retrouvant les bons documents instantanément."
 ctaUrl: "https://app.marqly.com"

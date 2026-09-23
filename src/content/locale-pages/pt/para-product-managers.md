@@ -15,7 +15,7 @@ faqs:
   - q: "O Marqly substitui ferramentas de PRD ou roadmap?"
     a: "Não. O Marqly cuida da etapa de pesquisa: páginas de concorrentes, artigos de referência e feedbacks que embasam seus PRDs, tornando-os recuperáveis em segundos."
   - q: "O Marqly é gratuito para Product Managers?"
-    a: "Sim, há plano grátis para até 2.000 itens. O Pro custa 72 $/ano (39 $ com cupom STANDING39) e desbloqueia IA completa."
+    a: "Sim, há plano grátis para até 2.000 itens. O Pro custa 72 $/ano (49 $ com cupom STANDING49) e desbloqueia IA completa."
   - q: "Como a busca semântica auxilia no benchmark competitivo?"
     a: "Permite pesquisar pela intenção conceitual: 'como concorrentes cobram por assento' acha os materiais certos mesmo sem palavras exatas no título."
 ctaUrl: "https://app.marqly.com"

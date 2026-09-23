@@ -17,7 +17,7 @@ faqs:
   - q: "Cosa posso aggiungere a una bacheca tematica?"
     a: "Pagine web, video con trascrizione e soprattutto i singoli passaggi evidenziati in 6 colori con le tue annotazioni editoriali."
   - q: "Quanto costa Marqly per curatori di contenuti?"
-    a: "Piano gratuito fino a 2.000 elementi senza carta di credito. Pro a 72 $/anno (39 $ il primo anno con STANDING39) con ricerca semantica e IA."
+    a: "Piano gratuito fino a 2.000 elementi senza carta di credito. Pro a 72 $/anno (49 $ il primo anno con STANDING49) con ricerca semantica e IA."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"

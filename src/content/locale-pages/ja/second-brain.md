@@ -21,7 +21,7 @@ faqs:
   - q: "既存のブックマークやデータを移行できますか？"
     a: "はい。Chrome、Safari、Edge、FirefoxのHTMLエクスポートや、Raindrop.io、Pocketのデータをワンクリックでインポートできます。"
   - q: "料金プランはどうなっていますか？"
-    a: "無料プラン（最大2,000件保存）をご利用いただけます。無制限のAI検索やチャットが使えるProプランは年額72ドル（初年度クーポンSTANDING39で39ドル）、月額9ドルです。"
+    a: "無料プラン（最大2,000件保存）をご利用いただけます。無制限のAI検索やチャットが使えるProプランは年額72ドル（初年度クーポンSTANDING49で49ドル）、月額9ドルです。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqlyを無料で試す"
 ctaSecondaryLabel: "Chromeに追加 — 無料"

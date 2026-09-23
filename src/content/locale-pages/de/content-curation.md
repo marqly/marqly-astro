@@ -17,7 +17,7 @@ faqs:
   - q: "Was kann ich auf einem kuratierten Board ablegen?"
     a: "Web-Links, Artikel, YouTube-Videos mit Transkript sowie gezielte Textzitate, die du mit dem Web-Highlighter in 6 Farben markiert und kommentiert hast."
   - q: "Was kostet Marqly für Kuratoren?"
-    a: "Kostenlose Stufe bis 2.000 Einträge ohne Zahlungsdaten. Pro für 72 $/Jahr (39 $ im 1. Jahr mit Code STANDING39) mit KI-Zusammenfassungen."
+    a: "Kostenlose Stufe bis 2.000 Einträge ohne Zahlungsdaten. Pro für 72 $/Jahr (49 $ im 1. Jahr mit Code STANDING49) mit KI-Zusammenfassungen."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"

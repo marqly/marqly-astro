@@ -75,7 +75,7 @@ We measured:
 | **Automatic AI Summaries** | **Yes (on every save)** | Yes (Mastermind tier) | Yes (Ghostreader) | Yes (via LLM) | No |
 | **Visual / Image Search** | Text & previews | **Computer vision & color** | Document thumbnails | Screenshots | Thumbnail preview |
 | **YouTube Transcript Search** | **Yes (playback synced)** | No | Yes (video transcript) | Audio scrape (yt-dlp) | No |
-| **Pricing for AI Features** | **$39 first yr ($72/yr)** | $72–$129/yr | $119.88/yr | Free self-hosted | $28/yr (no semantic AI) |
+| **Pricing for AI Features** | **$49 first yr ($72/yr)** | $72–$129/yr | $119.88/yr | Free self-hosted | $28/yr (no semantic AI) |
 
 ---
 

@@ -20,7 +20,7 @@ faqs:
   - q: "Kann ChatGPT YouTube-Videos zusammenfassen?"
     a: "Ja, aber du musst das Transkript manuell übergeben. Du öffnest das YouTube-Transkript, kopierst den Text, fügst ihn in ChatGPT ein und wartest. Das erfordert rund sechs Arbeitsschritte pro Video und die Antwort verbleibt im Chatverlauf."
   - q: "Ist die YouTube-KI-Zusammenfassung von Marqly kostenlos?"
-    a: "Ja für den Einstieg. Die Erweiterung ist für Chrome, Edge, Firefox und Safari kostenlos. Marqly Pro bietet unbegrenzte Video-Chats und semantische Volltextsuche für 72 $ pro Jahr (39 $ im ersten Jahr mit Code STANDING39) oder 9 $/Monat."
+    a: "Ja für den Einstieg. Die Erweiterung ist für Chrome, Edge, Firefox und Safari kostenlos. Marqly Pro bietet unbegrenzte Video-Chats und semantische Volltextsuche für 72 $ pro Jahr (49 $ im ersten Jahr mit Code STANDING49) oder 9 $/Monat."
   - q: "Kann ich der KI Fragen zum Video stellen?"
     a: "Ja. Über den integrierten Chat-Reiter kannst du Detailfragen stellen. Die KI antwortet fundiert auf Basis des tatsächlichen Wortlauts mit genauen Quellenstellen."
 heroImage: ../../../assets/blog/summarize-youtube-videos-with-ai.png

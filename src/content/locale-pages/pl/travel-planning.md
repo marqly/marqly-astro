@@ -21,7 +21,7 @@ faqs:
   - q: "Czy Marqly pomaga w analizie długich przewodników wideo z YouTube?"
     a: "Tak. AI automatycznie wyciąga najważniejsze punkty trasy i rekomendacje z filmów, oszczędzając Twój czas."
   - q: "Ile wynosi koszt subskrypcji?"
-    a: "Wersja bezpłatna mieści do 2 000 zakładek. Wersja Pro kosztuje 72 $/rok (z kodem STANDING39 pierwszy rok za 39 $) lub 9 $/miesiąc."
+    a: "Wersja bezpłatna mieści do 2 000 zakładek. Wersja Pro kosztuje 72 $/rok (z kodem STANDING49 pierwszy rok za 49 $) lub 9 $/miesiąc."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"

@@ -15,7 +15,7 @@ faqs:
   - q: "Marqly PRD veya yol haritası araçlarımın yerini alır mı?"
     a: "Hayır, Marqly spesifikasyon yazmadan önceki araştırma ve kaynak katmanını yönetir."
   - q: "Ürün yöneticileri için ücretsiz mi?"
-    a: "Evet, 2.000 yer imine kadar ücretsiz. Pro plan yıllık 72 $'dır (STANDING39 kuponuyla ilk yıl 39 $)."
+    a: "Evet, 2.000 yer imine kadar ücretsiz. Pro plan yıllık 72 $'dır (STANDING49 kuponuyla ilk yıl 49 $)."
   - q: "Semantik arama rakip araştırmasına nasıl yardımcı olur?"
     a: "'Rakiplerin kullanıcı başına fiyatlandırma modeli' gibi kavramsal aramalarla tam eşleşme olmadan doğru içeriği getirir."
 ctaUrl: "https://app.marqly.com"

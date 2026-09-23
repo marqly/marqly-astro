@@ -36,7 +36,7 @@ Un segundo cerebro solo tiene valor si sigues usándolo. Cada paso manual —ele
 
 | Aplicación | Tipo de sistema | Esfuerzo de mantenimiento | Búsqueda con IA | Precio Pro |
 | --- | --- | --- | --- | --- |
-| **Marqly** | Captura ligera + IA | Mínimo (automático) | ✅ Semántica real | 72 $/año (39 $ con cupón STANDING39) |
+| **Marqly** | Captura ligera + IA | Mínimo (automático) | ✅ Semántica real | 72 $/año (49 $ con cupón STANDING49) |
 | **Obsidian** | PKM local en Markdown | Alto (manual) | ❌ Requiere plugins | Gratis (Sync de pago) |
 | **Notion** | Espacio de trabajo modular | Medio-alto (manual) | ✅ Asistente IA | 10 $/mes por usuario |
 | **Readwise Reader** | Lector para investigadores | Medio | ❌ Texto literal | 119,88 $/año |

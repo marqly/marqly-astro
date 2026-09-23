@@ -22,7 +22,7 @@ faqs:
   - q: "Kan ik al mijn markeringen op één plek bekijken?"
     a: "Zeker. Het zijpaneel toont zowel de citaten van de huidige pagina als die uit je volledige bibliotheek. Klikken op een citaat scrolt direct naar de juiste alinea."
   - q: "Is de Marqly web highlighter gratis?"
-    a: "De extensie is gratis voor bladwijzers en tabbladen. Markeren en notities maken maken deel uit van Marqly Pro ($72/jaar, of $39 in het 1e jaar met coupon STANDING39)."
+    a: "De extensie is gratis voor bladwijzers en tabbladen. Markeren en notities maken maken deel uit van Marqly Pro ($72/jaar, of $49 in het 1e jaar met coupon STANDING49)."
 heroImage: ../../../assets/blog/how-to-highlight-text-on-any-website.png
 heroAlt: "Tekst markeren op elke website — illustratie"
 ogImage: "https://www.marqly.com/og/how-to-highlight-text-on-any-website.png"

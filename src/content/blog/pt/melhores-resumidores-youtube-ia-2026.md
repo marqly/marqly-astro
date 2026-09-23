@@ -30,7 +30,7 @@ A diferença essencial hoje não é a capacidade do modelo de resumo, mas sim **
 
 | Ferramenta | Onde fica o resumo | Transcrição | Chat com o vídeo | Plano gratuito | Preço (agosto 2026) |
 | --- | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Na página do YouTube | ✅ Sincronizada com o player | ✅ Sim (Pro) | ✅ Até 2.000 itens | $72/ano ($39 cupom STANDING39) |
+| **Marqly** | ✅ Na página do YouTube | ✅ Sincronizada com o player | ✅ Sim (Pro) | ✅ Até 2.000 itens | $72/ano ($49 cupom STANDING49) |
 | **NoteGPT** | ❌ Espaço externo | ✅ Sim | ✅ Sim | ⚠️ Quota limitada | Pro $9/mês |
 | **Recall** | ❌ Aplicativo externo | ✅ Sim | ❌ Foco em resumo | ✅ 10 resumos/mês | Plus $10/mês anual |
 | **Eightify** | ✅ Na página do YouTube | ⚠️ Apenas tópicos | ❌ Não | ✅ 3 vídeos/sem (≤30m) | $4,95/mês |

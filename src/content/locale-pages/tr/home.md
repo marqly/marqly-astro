@@ -15,7 +15,7 @@ faqs:
   - q: "Marqly tam olarak nedir?"
     a: "Marqly, yapay zeka teknolojisiyle güçlendirilmiş modern bir yer imi yöneticisidir. Web sayfalarını, makaleleri ve videoları tek tıklamayla kaydedersiniz. Marqly otomatik olarak etiketler, özetler ve tam başlığı hatırlamasanız bile hatırladığınız anlamla arama yapmanıza imkan tanır."
   - q: "Marqly ücretsiz mi?"
-    a: "Evet, kredi kartı gerekmeden 2.000 yer imine kadar tüm kütüphaneyi kapsayan arama özellikli ücretsiz bir planımız bulunmaktadır. Sınırsız Pro planı yıllık 72$ (ilk yıl indirimle 39$) veya aylık 9$'dır."
+    a: "Evet, kredi kartı gerekmeden 2.000 yer imine kadar tüm kütüphaneyi kapsayan arama özellikli ücretsiz bir planımız bulunmaktadır. Sınırsız Pro planı yıllık 72$ (ilk yıl indirimle 49$) veya aylık 9$'dır."
   - q: "Eski yer imlerimi içe aktarabilir miyim?"
     a: "Elbette. Marqly; Pocket, Raindrop dışa aktarma dosyalarını ve Chrome, Edge, Firefox ve Safari'nin standart HTML yer imi dosyalarını saniyeler içinde içe aktarır."
   - q: "Android uygulaması var mı?"

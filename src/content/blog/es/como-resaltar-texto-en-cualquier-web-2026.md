@@ -22,7 +22,7 @@ faqs:
   - q: "¿Puedo ver todos mis fragmentos guardados en un solo lugar?"
     a: "Sí. El panel lateral de Marqly muestra los resaltados de la página actual y de toda tu biblioteca. Al hacer clic en un fragmento, la página se desplaza directamente hasta él."
   - q: "¿El resaltador web de Marqly es gratis?"
-    a: "La extensión es gratuita e incluye marcadores y guardado de pestañas. Los resaltados y notas forman parte de Marqly Pro, con un coste de 72 $ al año (unos 6 $/mes) o 39 $ el primer año con cupón STANDING39."
+    a: "La extensión es gratuita e incluye marcadores y guardado de pestañas. Los resaltados y notas forman parte de Marqly Pro, con un coste de 72 $ al año (unos 6 $/mes) o 49 $ el primer año con cupón STANDING49."
 heroImage: ../../../assets/blog/how-to-highlight-text-on-any-website.png
 heroAlt: "Cómo resaltar texto en cualquier sitio web — ilustración"
 ogImage: "https://www.marqly.com/og/how-to-highlight-text-on-any-website.png"

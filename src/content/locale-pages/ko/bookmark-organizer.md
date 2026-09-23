@@ -17,7 +17,7 @@ faqs:
   - q: "기존에 브라우저에 저장해 둔 북마크들을 옮겨올 수 있나요?"
     a: "네. Chrome, Safari, Edge, Firefox의 표준 HTML 북마크 파일과 Pocket, Raindrop 백업을 그대로 가져오며, 가져온 링크에도 AI 태그가 소급 적용됩니다."
   - q: "북마크 정리 도구로 무료 이용이 가능한가요?"
-    a: "신용카드 없이 최대 2,000개 링크까지 무료로 저장할 수 있습니다. Pro 플랜은 연 72달러(첫해 쿠폰 STANDING39로 39달러)입니다."
+    a: "신용카드 없이 최대 2,000개 링크까지 무료로 저장할 수 있습니다. Pro 플랜은 연 72달러(첫해 쿠폰 STANDING49로 49달러)입니다."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly 무료로 시작하기"
 ctaSecondaryLabel: "Chrome에 추가 — 무료"

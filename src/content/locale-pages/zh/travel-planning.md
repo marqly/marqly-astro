@@ -21,7 +21,7 @@ faqs:
   - q: "支持总结长篇旅行 Vlog 视频吗？"
     a: "支持。YouTube 上的深度旅行攻略视频，AI 会自动提炼出景点路线、避坑指南和时间节点，省去看视频的时间。"
   - q: "定价方案是怎样的？"
-    a: "免费版可保存多达 2,000 条旅行资料。Pro 专业版为 72 美元/年（首年使用折扣码 STANDING39 仅需 39 美元）或 9 美元/月。"
+    a: "免费版可保存多达 2,000 条旅行资料。Pro 专业版为 72 美元/年（首年使用折扣码 STANDING49 仅需 49 美元）或 9 美元/月。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"

@@ -17,7 +17,7 @@ faqs:
   - q: "Marqly 会与 CRM 系统冲突吗？"
     a: "不会。Marqly 充当更灵活的个人调研资料库，与 CRM 记录形成互补。"
   - q: "销售个人可以免费使用吗？"
-    a: "可以，免费版可存 2,000 条书签。Pro 方案年付72美元（首年使用 STANDING39 仅需39美元）。"
+    a: "可以，免费版可存 2,000 条书签。Pro 方案年付72美元（首年使用 STANDING49 仅需49美元）。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加至 Chrome — 免费"

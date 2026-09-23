@@ -17,7 +17,7 @@ faqs:
   - q: "Instapaperにはオフライン機能があり、Marqlyにはありませんか？"
     a: "その通りです。Instapaperは記事をローカルにキャッシュして機内でも読めます。Marqlyはオンライン特化でオフラインリーダー機能はありません。"
   - q: "料金の差はどれくらいですか？"
-    a: "Instapaper Premiumは月額5.99ドルまたは年額59.99ドルです。Marqly Proは年額72ドル（初年度クーポンSTANDING39で39ドル）で、無料プラン（2,000件保存）も提供しています。"
+    a: "Instapaper Premiumは月額5.99ドルまたは年額59.99ドルです。Marqly Proは年額72ドル（初年度クーポンSTANDING49で49ドル）で、無料プラン（2,000件保存）も提供しています。"
   - q: "InstapaperにAI機能はありますか？"
     a: "いいえ。Instapaperには自動タグ付け、AI要約、セマンティック検索はありません。手動でのフォルダー分けとテキスト一致検索が基本です。"
 ctaUrl: "https://app.marqly.com"

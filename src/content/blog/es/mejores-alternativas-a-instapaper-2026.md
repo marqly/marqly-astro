@@ -35,7 +35,7 @@ Si has acumulado cientos de artículos y te cuesta volver a encontrarlos, estas 
 - **Búsqueda semántica con IA:** Encuentra artículos describiendo lo que recuerdas en lugar de necesitar el titular exacto.
 - **Resúmenes y autoetiquetado:** La IA analiza el contenido en segundo plano para organizar tu biblioteca sin esfuerzo manual.
 - **Modo lectura cómodo:** Vista limpia sin publicidad ni elementos de distracción.
-- **Precios justos:** Plan gratuito para hasta 2.000 elementos; Pro a 72 $/año (6 $/mes) con cupón `STANDING39` (39 $ el primer año).
+- **Precios justos:** Plan gratuito para hasta 2.000 elementos; Pro a 72 $/año (6 $/mes) con cupón `STANDING49` (49 $ el primer año).
 
 ## 2. Readwise Reader: Para lectores y subrayadores intensivos
 

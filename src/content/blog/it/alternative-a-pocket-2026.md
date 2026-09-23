@@ -81,7 +81,7 @@ Se il più grande difetto di Pocket era la facilità nel salvare contrapposta al
 
 - **Vantaggi:** Ricerca semantica con AI, auto-tagging intelligente, riassunti con AI, importazione rapidissima da Pocket, lettore privo di distrazioni, prezzo conveniente.
 - **Svantaggi:** Più giovane rispetto ai giganti storici, community in piena espansione.
-- **Prezzo:** Piano gratuito fino a 2.000 link con ricerca completa; Pro a 72 $/anno (~6 $/mese, o 39 $ il primo anno con coupon `STANDING39`) o 9 $/mese.
+- **Prezzo:** Piano gratuito fino a 2.000 link con ricerca completa; Pro a 72 $/anno (~6 $/mese, o 49 $ il primo anno con coupon `STANDING49`) o 9 $/mese.
 
 [Prova Marqly gratis →](https://app.marqly.com/lp/replace-pocket)
 

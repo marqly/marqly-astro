@@ -15,7 +15,7 @@ faqs:
   - q: "Vervangt Marqly mijn PRD- of roadmapsoftware?"
     a: "Nee, het organiseert de onderzoekslaag vooraf zodat je direct onderbouwde bronnen kunt citeren."
   - q: "Is Marqly gratis voor PMs?"
-    a: "Ja, tot 2.000 saves gratis. Pro kost $ 72/jaar ($ 39 eerste jaar met STANDING39)."
+    a: "Ja, tot 2.000 saves gratis. Pro kost $ 72/jaar ($ 49 eerste jaar met STANDING49)."
   - q: "Wat is het voordeel van semantisch zoeken?"
     a: "Zoeken op betekenis vindt concepten zoals 'prijzen per seat bij concurrenten' zonder exacte titelmatches."
 ctaUrl: "https://app.marqly.com"

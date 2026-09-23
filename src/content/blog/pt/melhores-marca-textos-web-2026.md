@@ -19,7 +19,7 @@ ctaLabel: "Testar Marqly grátis"
 lang: "pt"
 faqs:
   - q: "Qual o melhor marca-texto para sites em 2026?"
-    a: "O Marqly é a escolha mais equilibrada: seis cores, notas anexadas a cada grifo, persistência garantida na página original, busca semântica por IA em toda a sua biblioteca e plano gratuito com Pro a $72/ano ($39 no 1º ano com cupom STANDING39)."
+    a: "O Marqly é a escolha mais equilibrada: seis cores, notas anexadas a cada grifo, persistência garantida na página original, busca semântica por IA em toda a sua biblioteca e plano gratuito com Pro a $72/ano ($49 no 1º ano com cupom STANDING49)."
   - q: "Os grifos continuam visíveis ao reabrir a página?"
     a: "Apenas em ferramentas especializadas como Marqly, Weava e Hypothesis. O Marqly restaura exatamente onde você marcou, mesmo meses depois."
   - q: "Qual o melhor marca-texto web gratuito?"
@@ -32,7 +32,7 @@ Para a maior parte dos leitores e pesquisadores em 2026, o melhor marca-texto we
 
 | Ferramenta | Persistência na página | Cores e notas | Plano gratuito | Preço Pro |
 | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Sim, em todas | 6 cores + notas | ✅ Até 2.000 itens | $72/ano ($39 1º ano) |
+| **Marqly** | ✅ Sim, em todas | 6 cores + notas | ✅ Até 2.000 itens | $72/ano ($49 1º ano) |
 | **Readwise Reader** | ✅ Sim | Notas e tags | ❌ Apenas 30 dias teste | $9,99/mês anual |
 | **Weava** | ✅ Sim | 5 cores | ✅ Sim (~100MB) | $3,99/mês |
 | **Hypothesis** | ✅ Sim | 1 cor + notas | ✅ Totalmente grátis | Gratuito |

@@ -81,7 +81,7 @@ Se o maior calcanhar de Aquiles do Pocket era salvar com facilidade mas **sofrer
 
 - **Prós:** Busca semântica com IA, marcação automática inteligente, resumos com IA, importação rápida do Pocket, leitor livre de distrações, preço justo.
 - **Contras:** Produto mais novo que os dinossauros do setor, comunidade em rápido crescimento.
-- **Preço:** Plano grátis com até 2.000 itens e busca na biblioteca inteira; Pro por US$ 72/ano (~US$ 6/mês, com cupom `STANDING39` a US$ 39 no primeiro ano) ou US$ 9/mês.
+- **Preço:** Plano grátis com até 2.000 itens e busca na biblioteca inteira; Pro por US$ 72/ano (~US$ 6/mês, com cupom `STANDING49` a US$ 49 no primeiro ano) ou US$ 9/mês.
 
 [Teste o Marqly grátis →](https://app.marqly.com/lp/replace-pocket)
 

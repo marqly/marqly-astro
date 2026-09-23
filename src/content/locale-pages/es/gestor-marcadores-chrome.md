@@ -13,7 +13,7 @@ trustLine: "Plan gratis, sin tarjeta · Disponible en Chrome Web Store"
 faqHeading: "Preguntas frecuentes"
 faqs:
   - q: "¿Marqly es gratis en Chrome Web Store?"
-    a: "La extensión es completamente gratuita para instalar. Marqly cuenta con un plan gratuito sin tarjeta para hasta 2.000 elementos. Pro cuesta 72 $/año (39 $ el primer año con STANDING39) o 9 $/mes."
+    a: "La extensión es completamente gratuita para instalar. Marqly cuenta con un plan gratuito sin tarjeta para hasta 2.000 elementos. Pro cuesta 72 $/año (49 $ el primer año con STANDING49) o 9 $/mes."
   - q: "¿Puedo importar mis marcadores actuales de Chrome?"
     a: "Sí. Exporta tus marcadores desde Chrome como archivo HTML y Marqly los importará en segundos, etiquetando todo tu historial acumulado con IA retroactivamente."
   - q: "¿Reemplaza el gestor de marcadores integrado de Chrome?"

@@ -30,7 +30,7 @@ Het echte verschil zit hem tegenwoordig niet in de schrijfkwaliteit van de samen
 
 | Tool | Waar staat de samenvatting | Transcript | Chat met de video | Gratis pakket | Prijs (augustus 2026) |
 | --- | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Direct op de YouTube-pagina | ✅ Synchroon met afspelen | ✅ Ja (Pro) | ✅ Tot 2.000 items | 72 $/jaar (39 $ code STANDING39) |
+| **Marqly** | ✅ Direct op de YouTube-pagina | ✅ Synchroon met afspelen | ✅ Ja (Pro) | ✅ Tot 2.000 items | 72 $/jaar (49 $ code STANDING49) |
 | **NoteGPT** | ❌ Externe werkruimte | ✅ Ja | ✅ Ja | ⚠️ Beperkt tegoed | Pro 9 $/maand |
 | **Recall** | ❌ Externe app/kennisbank | ✅ Ja | ❌ Alleen samenvatting | ✅ 10 samenvattingen/mnd | Plus 10 $/maand jaarlijks |
 | **Eightify** | ✅ Direct op de YouTube-pagina | ⚠️ Alleen hoofdpunten | ❌ Nee | ✅ 3 video's/week (≤30m) | 4,95 $/maand |

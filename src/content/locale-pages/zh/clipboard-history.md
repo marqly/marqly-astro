@@ -17,7 +17,7 @@ faqs:
   - q: "它会记录我在浏览器外部复制的内容吗？"
     a: "不会。它仅记录您在浏览器标签页内选中文本并执行复制的内容，专注于网页工作流，保护系统隐私。"
   - q: "复制的片段可以在多台电脑之间同步吗？"
-    a: "本地浏览器记录完全免费。升级到 Marqly Pro（每年72美元，首年优惠码 STANDING39 仅需39美元）可实现跨设备云同步。"
+    a: "本地浏览器记录完全免费。升级到 Marqly Pro（每年72美元，首年优惠码 STANDING49 仅需49美元）可实现跨设备云同步。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"

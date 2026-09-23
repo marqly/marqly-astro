@@ -20,7 +20,7 @@ faqs:
   - q: "¿Puede ChatGPT resumir un video de YouTube?"
     a: "Sí, pero debes copiar la transcripción manualmente. Abres la transcripción en YouTube, la copias, la pegas en ChatGPT y esperas. Funciona, pero requiere unos seis pasos por video y el resultado queda aislado en un chat."
   - q: "¿Es gratis el resumen de YouTube en Marqly?"
-    a: "Sí, para empezar. La extensión es gratuita para Chrome, Edge, Firefox y Safari e incluye resúmenes de prueba. Marqly Pro añade chat interactivo con el video y uso ilimitado por $72 al año ($39 el primer año con cupón STANDING39)."
+    a: "Sí, para empezar. La extensión es gratuita para Chrome, Edge, Firefox y Safari e incluye resúmenes de prueba. Marqly Pro añade chat interactivo con el video y uso ilimitado por $72 al año ($49 el primer año con cupón STANDING49)."
   - q: "¿Puedo hacer preguntas a la IA sobre el video?"
     a: "Sí. Marqly incluye una pestaña de Chat donde puedes formular cualquier duda y obtener respuestas basadas en lo que realmente se dijo en el video, con citas exactas del contenido."
 heroImage: ../../../assets/blog/summarize-youtube-videos-with-ai.png

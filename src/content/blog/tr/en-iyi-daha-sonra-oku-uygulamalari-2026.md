@@ -31,7 +31,7 @@ ogImage: "https://www.marqly.com/og/best-read-it-later-apps-2026.png"
 ### 1. Marqly — Kaydetmek ve anında geri bulmak için en iyisi
 Marqly; temiz, reklamsız okuma görünümü, otomatik yapay zeka özetleri ve **anlamsal arama motoruyla** öne çıkar. Makalenin tam adını hatırlamasanız bile konusunu yazarak hemen bulabilirsiniz.
 - Ücretsiz: 2.000 yer imine kadar.
-- Pro: Yıllık 72$ (ilk yıl 39$). [Ücretsiz Deneyin →](https://app.marqly.com/lp/replace-pocket)
+- Pro: Yıllık 72$ (ilk yıl 49$). [Ücretsiz Deneyin →](https://app.marqly.com/lp/replace-pocket)
 
 ### 2. Readwise Reader — Akademik araştırmalar için
 Gelişmiş metin vurgulama, spaced repetition ve ikinci beyin entegrasyonları. Aylık 12$.

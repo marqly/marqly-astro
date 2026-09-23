@@ -13,7 +13,7 @@ trustLine: "Gratis abonnement, geen creditcard · Chrome, Edge, Firefox, Safari 
 faqHeading: "Veelgestelde vragen"
 faqs:
   - q: "Wat is het voordeligste alternatief voor Evernote?"
-    a: "Voor webclips en AI-zoekfuncties is Marqly de voordeligste optie (gratis versie, Pro $39 in het 1e jaar). Voor lokale markdown-notities is Obsidian gratis."
+    a: "Voor webclips en AI-zoekfuncties is Marqly de voordeligste optie (gratis versie, Pro $49 in het 1e jaar). Voor lokale markdown-notities is Obsidian gratis."
   - q: "Welk alternatief vervangt Evernote's notitiefuncties volledig?"
     a: "Notion of Obsidian. Marqly is ontworpen voor het bewaren en terugvinden van webpagina's en video's, niet voor het typen van lange notities."
   - q: "Wat raak je kwijt bij het verlaten van Evernote?"
@@ -36,4 +36,4 @@ Inventariseer eerst wat je bewaart:
 Geknipte artikelen verdwijnen in Evernote vaak in een doolhof van notitieboeken. Marqly lost dit op:
 - Automatische AI-samenvattingen en tags.
 - Ondersteuning voor YouTube-video's met volledige transcripties.
-- Scherpe prijs van $72/jaar (slechts $39 in het eerste jaar met code STANDING39).
+- Scherpe prijs van $72/jaar (slechts $49 in het eerste jaar met code STANDING49).

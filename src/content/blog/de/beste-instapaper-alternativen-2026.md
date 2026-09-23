@@ -22,4 +22,4 @@ heroAlt: "Die besten Instapaper-Alternativen 2026"
 
 Instapaper bietet ein schönes Leseerlebnis, lässt Nutzer beim Wiederfinden gespeicherter Artikel jedoch allein. 
 
-Wer Hunderte Artikel sammelt, benötigt eine intelligente semantische Suche wie in [Marqly](https://app.marqly.com): Finden Sie Inhalte durch einfaches Umschreiben der Kernaussage wieder. Kostenlos bis 2.000 Artikel; Pro für 72 $/Jahr (39 $ im 1. Jahr mit Gutschein `STANDING39`).
+Wer Hunderte Artikel sammelt, benötigt eine intelligente semantische Suche wie in [Marqly](https://app.marqly.com): Finden Sie Inhalte durch einfaches Umschreiben der Kernaussage wieder. Kostenlos bis 2.000 Artikel; Pro für 72 $/Jahr (49 $ im 1. Jahr mit Gutschein `STANDING49`).

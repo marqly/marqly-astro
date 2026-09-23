@@ -21,10 +21,10 @@ Marqly Pro costs $72 per year — about $6 a month when billed annually — or $
 
 The math is simple:
 
-- **Annual**: $72/year, which works out to about $6/month (with a standing first-year offer of $39)
+- **Annual**: $72/year, which works out to about $6/month (with a standing first-year offer of $49)
 - **Monthly**: $9/month, or $108 over a year
 
-Paying annually saves you roughly 33% compared to twelve monthly payments (and 46% off your first year with the $39 annual promo). If you're unsure whether you'll stick with it, start monthly, then switch to annual once you know it fits your workflow. There are no other discounts to hunt for — annual billing is the deal.
+Paying annually saves you roughly 33% compared to twelve monthly payments (and 32% off your first year with the $49 annual promo). If you're unsure whether you'll stick with it, start monthly, then switch to annual once you know it fits your workflow. There are no other discounts to hunt for — annual billing is the deal.
 
 ## How it compares
 

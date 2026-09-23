@@ -17,7 +17,7 @@ faqs:
   - q: "Hilft Marqly bei langen Gründer-Interviews und Videos?"
     a: "Ja. Die YouTube-KI liefert Zusammenfassungen, Kernabschnitte und durchsuchbare Transkripte für jedes Video."
   - q: "Was kostet Marqly für Bootstrapped-Gründer?"
-    a: "Kostenlose Stufe bis 2.000 Saves. Pro kostet 72 $/Jahr (39 $ im ersten Jahr mit Gutschein STANDING39) inklusive aller KI-Features."
+    a: "Kostenlose Stufe bis 2.000 Saves. Pro kostet 72 $/Jahr (49 $ im ersten Jahr mit Gutschein STANDING49) inklusive aller KI-Features."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"

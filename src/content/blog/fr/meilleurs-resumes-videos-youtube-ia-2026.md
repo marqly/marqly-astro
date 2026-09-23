@@ -30,7 +30,7 @@ La vraie différence ne tient pas à la plume du résumé — tous les outils s'
 
 | Outil | Intégration | Transcription | Chat vidéo | Formule gratuite | Tarif (août 2026) |
 | --- | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Directement sur YouTube | ✅ Synchronisée au mot près | ✅ Oui (Pro) | ✅ Jusqu'à 2 000 liens | 72 $/an (39 $ code STANDING39) |
+| **Marqly** | ✅ Directement sur YouTube | ✅ Synchronisée au mot près | ✅ Oui (Pro) | ✅ Jusqu'à 2 000 liens | 72 $/an (49 $ code STANDING49) |
 | **NoteGPT** | ❌ Espace de travail externe | ✅ Oui | ✅ Oui | ⚠️ Quota mensuel serré | Pro 9 $/mois |
 | **Recall** | ❌ Application externe | ✅ Oui | ❌ Pas de chat direct | ✅ 10 résumés/mois | Plus 10 $/mois annuel |
 | **Eightify** | ✅ Directement sur YouTube | ⚠️ Puntos clés uniquement | ❌ Non | ✅ 3 vidéos/sem (≤30m) | 4,95 $/mois |

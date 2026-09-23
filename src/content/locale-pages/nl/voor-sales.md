@@ -17,7 +17,7 @@ faqs:
   - q: "Integreert Marqly met CRM?"
     a: "Het fungeert als je persoonlijke externe onderzoeksbibliotheek naast je CRM."
   - q: "Wat kost Marqly voor salesprofessionals?"
-    a: "Gratis tot 2.000 saves. Pro kost $ 72/jaar ($ 39 eerste jaar met STANDING39)."
+    a: "Gratis tot 2.000 saves. Pro kost $ 72/jaar ($ 49 eerste jaar met STANDING49)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

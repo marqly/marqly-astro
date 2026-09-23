@@ -17,7 +17,7 @@ faqs:
   - q: "Wie finde ich ein Profil wieder, wenn ich den Namen vergessen habe?"
     a: "Beschreibe die Person. Die semantische Suche gleicht Bedeutungen ab: 'Backend-Entwickler mit Blogbeitrag über Kubernetes-Migration' findet das Profil, auch wenn diese Wörter nicht im Titel stehen."
   - q: "Was kostet Marqly für Headhunter und Recruiter?"
-    a: "Kostenlos bis 2.000 Einträge ohne Kreditkarte. Pro für 72 $/Jahr (39 $ im ersten Jahr mit STANDING39) mit KI-Fragen über gespeicherte Gehaltsreports."
+    a: "Kostenlos bis 2.000 Einträge ohne Kreditkarte. Pro für 72 $/Jahr (49 $ im ersten Jahr mit STANDING49) mit KI-Fragen über gespeicherte Gehaltsreports."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"

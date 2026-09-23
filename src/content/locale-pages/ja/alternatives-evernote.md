@@ -13,7 +13,7 @@ trustLine: "無料プランあり · クレジットカード不要 · Chrome, E
 faqHeading: "よくある質問"
 faqs:
   - q: "Evernoteからの乗り換えで最も安い選択肢は？"
-    a: "Webクリップの保存とAI検索ならMarqly（無料プランあり、Pro初年度39ドル）。純粋なブックマークならRaindrop.io（年額28ドル）。ローカルMarkdownならObsidian（無料）です。"
+    a: "Webクリップの保存とAI検索ならMarqly（無料プランあり、Pro初年度49ドル）。純粋なブックマークならRaindrop.io（年額28ドル）。ローカルMarkdownならObsidian（無料）です。"
   - q: "Evernoteのノート執筆を完全に代用できるツールは？"
     a: "NotionやObsidianです。Marqlyはノート執筆アプリではなく、Webリンクや記事の収集・検索ツールですので、ノート作成には向きません。"
   - q: "Evernoteをやめると失う機能は何ですか？"
@@ -36,4 +36,4 @@ Evernoteの度重なる値上げと無料プランの制限強化により、代
 Evernote Web Clipperで保存した記事は、ノート一覧の中で埋もれがちです。Marqlyなら：
 - 記事の本文やハイライトをAIが自動タグ付け。
 - YouTube動画の自動文字起こし・要約。
-- 年額72ドル（初年度クーポンSTANDING39適用で39ドル）と圧倒的なコストパフォーマンス。
+- 年額72ドル（初年度クーポンSTANDING49適用で49ドル）と圧倒的なコストパフォーマンス。
