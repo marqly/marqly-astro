@@ -43,7 +43,7 @@ Every save is also **auto-tagged by AI**, which quietly removes the filing step.
 
 Tags are automatic; boards are deliberate. Group links and highlights into a board per course, per paper-in-progress, or per grant application — the readings, the key highlighted passages, the talk that framed the problem.
 
-Boards can be **shared as public pages**, viewable without signup. That makes them a low-friction way to hand a reading list to students, or to give a co-author a view of the literature you've assembled — no new tool for them to adopt, just a link. (Sharing is view-only; Marqly has no collaborative editing.)
+Boards can be **shared as public pages**, viewable without signup. That makes them a low-friction way to hand a reading list to students, or to give a co-author a view of the literature you've assembled — no new tool for them to adopt, just a link. (Sharing is view-only; for a co-edited collection, [Marqly Teams](/teams) gives you a shared workspace.)
 
 For sources that might move or vanish — a preprint page, a dataset description, a course resource — **Save as PDF** captures the page as a clean PDF matching the on-screen layout, processed locally in your browser, so the copy in your library outlives the URL.
 
@@ -64,6 +64,6 @@ The free tier covers the core workflow. Pro is $72/year (about $6/month billed a
 
 ## Is Marqly the right fit?
 
-The honest boundaries: Marqly is not a reference manager — it won't format citations or export a bibliography, so it complements Zotero-style tools rather than replacing them. There's no offline reading mode, and board sharing is view-only rather than collaborative.
+The honest boundaries: Marqly is not a reference manager — it won't format citations or export a bibliography, so it complements Zotero-style tools rather than replacing them. There's no offline reading mode, and personal board sharing is view-only rather than collaborative (shared editing is a [Teams](/teams) capability).
 
 What it does is the layer most academic stacks are missing: one searchable place for everything you read, highlight, and half-remember on the web. Try it free at [app.marqly.com](https://app.marqly.com).

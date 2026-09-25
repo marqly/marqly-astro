@@ -179,12 +179,47 @@ support.
 - Always CTA to https://app.marqly.com (or the Chrome listing when the context
   is "install the extension"). Default CTA label: "Try Marqly free".
 
+## Marqly Teams — approved wording (went public 2026-09-25, owner flip)
+
+- $9 per seat per month, or $72 per seat per year (≈$6/seat/month). USD only.
+  Minimum 3 seats — from $27/month or $216/year. One bill, paid by the Owner.
+  No trial — billed when the Owner upgrades.
+- **Every seat includes all Pro features**, plus a shared team workspace:
+  shared boards and bookmarks; the team saves, organises, and searches
+  together. Members' personal libraries and personal plans are separate and
+  unchanged; Pro users can join or start a team.
+- Pooled AI: each purchased seat adds 2× an individual Pro's monthly AI
+  allowance to one shared team pool; resets monthly; no rollover.
+- Roles (every role occupies a seat): Owner — billing, ownership transfer,
+  deletion; Admin — members, invitations, publishing, settings, no billing;
+  Member — save, edit, organise, and invite only if the team allows it.
+- Email invitations hold a seat until accepted, revoked, or expired (7 days).
+  Activity log for Owners/Admins.
+- Cancel any time: the team works to the end of the paid period, then turns
+  read-only; nothing is deleted; resume or restart with the same members and
+  content.
+- **Web only** (app.marqly.com). Personal public board links stay view-only;
+  team collaboration lives in the Teams workspace.
+- Surfaces: `/teams`, Teams pricing card (home + /pricing), nav link. Kill
+  switch: `TEAMS_PUBLIC` in `src/components/landing/data.ts`.
+
 ## Never claim
 
 - Offline mode (or "offline reading"/"offline copies" in any form), public API,
-  self-hosting, team/collab features, browser support beyond the four above,
+  self-hosting, browser support beyond the four above,
   SOC2 or other certifications, employee counts, funding, AI-powered duplicate
-  detection (dedup is exact-URL matching only).
+  detection (dedup is exact-URL matching only), **file uploads or any storage
+  allowance** ("10 GB Pro uploads" circulates in briefs but has zero support in
+  product truth — that is Raindrop's number; never claim it).
+- **Offline verification queue (2026-09-26):** help.marqly.com's pricing page
+  reportedly describes an "Offline Mode" (revenue-focused-seo-plan.md §task
+  SEO-02). The site keeps "no offline" until product owner confirms shipped
+  behavior per platform; if offline ships, update this spec, the FAQ, and the
+  19+ lander tails together.
+- Team/collaboration claims beyond the Teams approved wording below (no
+  per-board permissions, no Viewer/Guest roles, no SSO/SCIM, no team MCP/
+  assistant access, no extension save-to-team, no mobile Teams, no custom
+  sharing domains, no invoices/bank transfer, no non-USD pricing, no trial).
 - Do NOT publish Ask credit numbers or limits; do NOT say Ask "remembers
   everything" or "has memory of your whole library" (memory = a few clearable
   preferences); do NOT call the Ask icon "sparkles". (The old "single-shot, do

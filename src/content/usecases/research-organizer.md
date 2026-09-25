@@ -59,3 +59,11 @@ That's the whole methodology. No setup weekend, no taxonomy design. If you want 
 Marqly is not a citation manager. It won't format references, export BibTeX, or manage citation styles — academics with bibliography requirements still need Zotero or similar alongside it. It's not a collaborative workspace either: there are no shared team libraries or multi-user editing, so a lab group needing simultaneous access should look elsewhere. And it's not where you write — drafting happens in your editor of choice.
 
 The fit: you research alone or mostly alone, your sources are scattered across the web, and your real bottleneck is capturing them fast and finding them again weeks later. That collection-to-retrieval loop is exactly what Marqly is built to run.
+
+## Free templates that pair with the library
+
+- **[Source log — CSV](/templates/marqly-source-log.csv)** · [guide](/templates/marqly-source-log.md) — one row per source: claim, quote, locator, verification status. For journalists and evidence-to-decision work.
+- **[Reading matrix — CSV](/templates/marqly-reading-matrix.csv)** · [guide](/templates/marqly-reading-matrix.md) — one row per paper, method and limitations in the authors' own terms, your analysis in its own column.
+
+Both ship with a worked example filled from a real, live source — including
+the blanks left blank, which is the discipline that makes them trustworthy.

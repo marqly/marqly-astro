@@ -2,16 +2,17 @@
 /**
  * Marqly Teams — the shared, AI-organised bookmark workspace.
  *
- * DARK LAUNCH (2026-09-25): TEAMS_PUBLIC=false → this page builds for local
- * preview but emits noindex and is unlinked; the sitemap filter drops it and
- * llms.txt omits its line. Flip the flag in src/components/landing/data.ts
- * once live Stripe setup + the canary week are done.
+ * LAUNCHED 2026-09-25 (owner flipped TEAMS_PUBLIC=true after the product
+ * flags went live). The flag still gates every surface: set it false and
+ * this page builds for preview but goes noindex + unlinked (see data.ts).
  *
  * Copy is pinned to the product truth in the monorepo (docs/teams/*.md,
- * apps/api/src/lib/teams/config.ts). Do NOT add: file uploads / storage
- * numbers, custom sharing domains, team access from MCP or the AI assistant,
- * Viewer/Guest roles, SSO/SCIM, per-board permissions, mobile team access,
- * extension save-to-team, non-USD pricing, invoices/bank transfer, any trial.
+ * apps/api/src/lib/teams/config.ts) and the approved wording in
+ * docs/superpowers/specs/2026-08-02-marqly-product-facts.md. Do NOT add:
+ * file uploads / storage numbers, custom sharing domains, team access from
+ * MCP or the AI assistant, Viewer/Guest roles, SSO/SCIM, per-board
+ * permissions, mobile team access, extension save-to-team, non-USD pricing,
+ * invoices/bank transfer, any trial.
  */
 import LandingV2 from '../layouts/LandingV2.astro';
 import Nav from '../components/landing/Nav.astro';

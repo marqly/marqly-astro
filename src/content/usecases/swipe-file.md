@@ -56,6 +56,6 @@ Sign up free at [app.marqly.com](https://app.marqly.com) — no card required �
 
 ## Who this is not for
 
-Marqly is not an ad-spy tool. It doesn't scrape the Facebook Ads Library, track competitors' active campaigns, or auto-collect creative at scale — you save what you actually see, which is a different (and more opinionated) kind of file. There are also no team features, so an agency wanting a shared, multi-editor swipe library won't find that here; public boards let others *view* your file, not edit it.
+Marqly is not an ad-spy tool. It doesn't scrape the Facebook Ads Library, track competitors' active campaigns, or auto-collect creative at scale — you save what you actually see, which is a different (and more opinionated) kind of file. A personal board's public link is view-only, so others can see your file but not edit it; an agency wanting a shared, multi-editor swipe library wants [Marqly Teams](/teams), where the workspace itself is shared.
 
 The fit: you're a copywriter, designer, or marketer building a personal reference library, and your real problem is that saved inspiration goes into a hole it never comes out of. Save in one click, highlight the good part, retrieve by describing it — that's the loop Marqly runs.

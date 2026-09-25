@@ -50,6 +50,21 @@ Conference talks, methods tutorials, and recorded seminars carry real content th
 
 1. **Install the extension** for Chrome, Edge, Firefox, or Safari from [app.marqly.com](https://app.marqly.com) — signup is free and needs no card.
 2. **Import your existing collections.** Bring in browser bookmarks (the standard HTML export), a Pocket archive, or Raindrop.io collections in one pass.
-3. **Let auto-tagging process the backlog.** The AI tags everything you imported, turning years of accumulated links into a structured library on day one. From there, the habit is one click per source, and the system in [how to build a second brain](/blog/how-to-build-a-second-brain) maps well onto research practice.
+3. **Let Pro's auto-tagging process the backlog.** The AI tags everything you imported, turning years of accumulated links into a structured library on day one. From there, the habit is one click per source, and the system in [how to build a second brain](/blog/how-to-build-a-second-brain) maps well onto research practice.
 
 Where Marqly is *not* the right tool: it is not a citation manager — it won't format references or sync BibTeX, so keep Zotero or equivalent for bibliographies. There's no offline mode, no public API for scripted pipelines, and no self-hosted option, which rules it out for air-gapped environments or institutions that require on-premise tools. If your bottleneck is recalling and reusing what you read — rather than formatting what you cite — that's the job Marqly does well.
+
+## The reading matrix — free template
+
+The classic fix for "I've read forty papers and can't reconstruct why": a
+matrix with one row per source and columns that keep *the source's words* and
+*your analysis* on opposite sides of the sheet.
+
+- **[Reading matrix — CSV](/templates/marqly-reading-matrix.csv)** · **[how to use it](/templates/marqly-reading-matrix.md)**
+
+The guide walks the columns, includes a worked example filled from a real,
+live source, and shows the discipline that matters most: metadata you didn't
+verify stays blank, not guessed. It's built to complement Zotero (the matrix
+carries the cite key), and pairs naturally with Marqly: capture each article
+to a board as you find it, then let semantic search bring it back when you
+remember the finding but not the title.

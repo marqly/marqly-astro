@@ -32,7 +32,7 @@ Because highlights persist on the original page and sync to your library, verifi
 
 ## Background reading at wire speed
 
-Getting up to speed on an unfamiliar beat means burning through briefings, explainers, past coverage, and primary documents fast. Marqly's AI summaries turn that stack into something you can triage: save everything relevant — the tab saver captures a whole window of research in one action — then skim summaries to decide which three pieces deserve full attention before the 2 p.m. interview. Auto-tagging organizes it all as it lands, so the "hospital funding" material separates itself from the "planning committee" material without you touching a folder. Standing reference material is worth saving once and reusing across stories — a [social media statistics roundup](https://viewinsta.com/social-media-statistics-2026), for instance, is the kind of source you'll cite on a dozen unrelated pieces and should never have to re-find.
+Getting up to speed on an unfamiliar beat means burning through briefings, explainers, past coverage, and primary documents fast. With Pro, Marqly's AI summaries turn that stack into something you can triage: save everything relevant — the tab saver captures a whole window of research in one action — then skim summaries to decide which three pieces deserve full attention before the 2 p.m. interview. Pro's auto-tagging organizes it all as it lands, so the "hospital funding" material separates itself from the "planning committee" material without you touching a folder. Standing reference material is worth saving once and reusing across stories — a statistics roundup or a style guide is the kind of source you'll cite on a dozen unrelated pieces and should never have to re-find.
 
 Video sources get equivalent treatment. Press conferences, hearings, and interviews on YouTube come with Marqly's AI card: a streaming summary with key sections, and a playback-synced transcript with one-click copy — meaning a quote from minute 47 of a committee session becomes text with a timestamp you can cite. Saving the video attaches its transcript to the bookmark, and the workflow is laid out in [summarize YouTube videos with AI](/blog/summarize-youtube-videos-with-ai).
 
@@ -46,6 +46,20 @@ Boards keep concurrent stories from bleeding together: one board per investigati
 
 1. **Install the extension** — Chrome, Edge, Firefox, and Safari are supported, and signup at [app.marqly.com](https://app.marqly.com) is free with no card.
 2. **Import your existing link archive.** Browser bookmark HTML exports, Pocket exports, and Raindrop.io collections import directly — years of beat knowledge, recovered in one pass.
-3. **Let auto-tagging organize the archive.** AI tags everything imported and everything saved from now on, so the library structures itself while you report.
+3. **Let Pro's auto-tagging organize the archive.** AI tags everything imported and everything saved from now on, so the library structures itself while you report.
 
-The honest limits: Marqly has no offline mode, so it won't serve as a field kit where connectivity dies. It's also a personal library, not a newsroom system: shared boards are public, view-only pages, not collaborative workspaces. For the individual reporter's problem — keeping months of sourcing accurate, organized, and findable at deadline — that's precisely the shape of the tool.
+The honest limits: Marqly has no offline mode, so it won't serve as a field kit where connectivity dies. It's also a personal library, not a newsroom system: shared boards are public, view-only pages — a multi-editor shared workspace is [Marqly Teams](/teams). For the individual reporter's problem — keeping months of sourcing accurate, organized, and findable at deadline — that's precisely the shape of the tool.
+
+## The source log — free template
+
+The habit above only works if every source keeps its quote, locator, and
+verification status with it. We publish the exact log we use:
+
+- **[Source log — CSV](/templates/marqly-source-log.csv)** · **[how to fill it](/templates/marqly-source-log.md)**
+
+One row per source: the claim you're using it for, the verbatim quote, the
+locator, and a status that starts at *unverified* and only moves when you open
+the page yourself. The guide includes a worked example filled from a real,
+live source — including what *not* to do: invented author credits and
+AI-summary-as-proof. Save the sources themselves into a board per story, so
+the log and the library always point at the same material.

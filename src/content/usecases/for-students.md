@@ -11,7 +11,7 @@ hero:
 updatedDate: 2026-08-02
 faqs:
   - q: "Is Marqly free for students?"
-    a: "Marqly has a free tier that anyone can use — sign up at app.marqly.com with no card required. There is no separate student discount, but Pro costs $72/year (about $6/month billed annually) or $9/month. Most students can start on the free tier and upgrade only if they need Pro features like semantic search and chat."
+    a: "Marqly has a free tier that anyone can use — sign up at app.marqly.com with no card required. Verified students also get a discount: Pro is $48 for your first year (instead of $72), confirmed automatically with a university email at checkout. Most students can start on the free tier and upgrade only if they need Pro features like AI summaries, semantic search, and chat."
   - q: "Can Marqly save YouTube lectures with the transcript?"
     a: "Yes. Marqly adds an AI card to every YouTube watch page with a playback-synced transcript you can copy in one click, plus an AI summary with key sections. A bookmark button in YouTube's action row saves the video to your library with its transcript attached, so semantic search can later find the lecture by what was said in it."
   - q: "Do my highlights stay on the page when I come back to a reading?"
@@ -55,3 +55,16 @@ Boards let you group links and highlights, so "ECON 201," "Dissertation," and "I
 Saving, transcripts and highlighting work on the free tier — [is Marqly free?](/faq/is-marqly-free) covers exactly what's included, and where its limits are. The AI features, semantic search included, are Pro, and you unlock them by upgrading at [app.marqly.com](https://app.marqly.com).
 
 One honest caveat before you commit: Marqly has no offline mode, so it won't replace a read-it-later app for studying on a flight or an underground commute with no signal. If your studying is mostly offline, Marqly is a weaker fit; for everyone working in a desktop browser — or from the [iOS](/faq/is-there-an-ios-app) or [Android](/faq/is-there-an-android-app) app — it's built for exactly the semester you're having.
+
+## The reading matrix — free template
+
+The fastest grade-changer for essay season isn't reading more — it's a matrix:
+one row per source, with the source's own claims kept apart from your
+analysis. Fill one per week and your lit review is half written before you
+start drafting.
+
+- **[Reading matrix — CSV](/templates/marqly-reading-matrix.csv)** · **[how to use it](/templates/marqly-reading-matrix.md)**
+
+Works alongside whatever your department recommends (Zotero for citations),
+and with Marqly for the capture-and-re-find loop: save each reading to a
+course board, then find it again by describing the idea.

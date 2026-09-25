@@ -57,3 +57,17 @@ AI summaries earn their keep during screening: when a supervisor forwards eleven
 3. **Let the AI tag it all.** Auto-tagging processes the imports and every save from here on, so the corpus stays organized while your attention stays on reading.
 
 Fit check, honestly: Marqly does not format citations or manage BibTeX — keep your reference manager for the bibliography. There's no offline mode for reading in dead zones, and no self-hosting for institutions that mandate it. What it replaces is the graveyard of bookmarks, open tabs, and "papers_final_v2" folders — the part of the PhD workflow nobody's reference manager ever fixed.
+
+## The reading matrix — free template
+
+Four years of reading collapses into one question at write-up time: *what did
+each source actually claim?* This is the matrix that keeps their words and
+yours on opposite sides of the sheet — one row per source, method and
+limitations copied from what the paper says about itself, your analysis in its
+own column.
+
+- **[Reading matrix — CSV](/templates/marqly-reading-matrix.csv)** · **[how to use it](/templates/marqly-reading-matrix.md)**
+
+It complements your reference manager rather than replacing it (the matrix
+carries the Zotero cite key), and pairs with Marqly's job: capture to a board
+per chapter, retrieve by describing the finding when the title is gone.
