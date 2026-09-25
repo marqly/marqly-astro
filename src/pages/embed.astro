@@ -1,7 +1,6 @@
 ---
 import LandingLayout from '../layouts/LandingLayout.astro';
 import Breadcrumbs from '../components/seo/Breadcrumbs.astro';
-import CtaBox from '../components/seo/CtaBox.astro';
 import FaqAccordion from '../components/seo/FaqAccordion.astro';
 import {
   breadcrumbList,
@@ -15,7 +14,7 @@ import {
 
 const title = 'Embed Curated Bookmarks & Public Boards | Marqly';
 const description =
-  'Embed your curated Marqly bookmark boards into Notion, WordPress, Ghost, Substack, or any website. Live interactive embed generator with responsive cards and clean styling.';
+  'Embed your curated Marqly bookmark boards into Notion, WordPress, Ghost, Substack, or any website. Live preview, three layouts, and one clean iframe snippet.';
 
 const crumbs = [
   { name: 'Home', path: '/' },
@@ -25,22 +24,22 @@ const crumbs = [
 const steps: HowToStep[] = [
   {
     name: 'Make your Marqly board public',
-    text: 'Open any board in your Marqly library, click the Share button in the top bar, and toggle Public Sharing on to get your unique shareable board link.',
-    url: 'https://app.marqly.com/explore',
+    text: 'Open any board in your Marqly library, click Share, set access to Public (or Password Protected), and copy the share link.',
+    url: 'https://app.marqly.com',
   },
   {
-    name: 'Customize your layout and theme',
-    text: 'Paste your board link into the Embed Generator below. Select Card Grid for visual directories, Compact List for sidebars, or Minimal for documentation.',
+    name: 'Paste the link into the generator below',
+    text: 'The live preview loads your real board instantly. Choose Cards, List, or Condensed — Pro plans can also hide the board title and the creator line for a content-only embed.',
     url: '/embed#generator',
   },
   {
-    name: 'Copy your responsive embed snippet',
-    text: 'Choose HTML iframe for websites and CMSs, Notion URL for Notion pages, or Markdown for GitHub READMEs. Click Copy to grab your snippet.',
+    name: 'Copy your snippet',
+    text: 'Grab the HTML iframe for websites and CMSs, the plain link for Notion /embed, or a Markdown link for GitHub READMEs.',
     url: '/embed#generator',
   },
   {
     name: 'Paste into your blog, doc, or website',
-    text: 'Paste the snippet into a Custom HTML block in WordPress or Ghost, an /embed block in Notion, or directly into your site template.',
+    text: 'Drop it into a Custom HTML block in WordPress or Ghost, an /embed link in Notion, or directly into your site template. The embed loads lazily and updates itself whenever your board changes.',
     url: '/embed#platforms',
   },
 ];
@@ -48,27 +47,31 @@ const steps: HowToStep[] = [
 const faqs = [
   {
     q: 'Is embedding Marqly boards free?',
-    a: 'Yes. Board embedding and public sharing are available on both Free and Pro plans. You can curate up to 2,000 bookmarks on the Free tier and embed as many public boards as you want without watermarks or paywalls.',
+    a: 'Yes. Embedding a public board is available on every plan. Pro plans unlock the display options: Cards, List, and Condensed layouts, plus hiding the board title and creator line for a content-only widget.',
   },
   {
     q: 'Do embedded boards update automatically when I save new bookmarks?',
-    a: 'Yes. Because the embed renders your live Marqly board via a lightweight sandboxed frame, any link you add, edit, or delete in Marqly immediately updates across all embedded instances in real time.',
+    a: 'Yes. The embed renders your live Marqly board inside an iframe, so any link you add, edit, or delete in Marqly appears in every embedded copy — no republishing.',
   },
   {
     q: 'How does Marqly board embedding compare to Raindrop.io?',
-    a: 'Raindrop offers basic collection embeds, but Marqly boards include AI-generated tags, smart summaries, semantic search previews, responsive card layouts, and zero-script lightweight sandboxing that keeps your page speed fast.',
+    a: 'Beyond basic collection embeds, Marqly boards carry AI-generated tags and summaries, three embed layouts with live preview, and a lazy-loading iframe that keeps your page speed intact.',
   },
   {
     q: 'Does embedding a Marqly board slow down my website?',
-    a: 'No. The embed uses standard HTML5 iframe markup with native loading="lazy". The host website’s Largest Contentful Paint (LCP) and First Input Delay are unaffected because iframe resources load asynchronously in a sandboxed context.',
+    a: 'No. The snippet is a standard HTML5 iframe with native loading="lazy". The board loads asynchronously, so your host page’s LCP and First Input Delay are unaffected.',
   },
   {
-    q: 'Can viewers search and filter bookmarks inside the embed?',
-    a: 'Yes. Depending on the layout mode selected, viewers can filter bookmarks by tags or search titles and summaries directly inside the board widget without leaving your website.',
+    q: 'Can viewers search bookmarks inside the embed?',
+    a: 'Boards with many bookmarks show a search box automatically. Viewers can also open any bookmark in a new tab straight from the embed.',
   },
   {
     q: 'Can private boards be embedded?',
-    a: 'No. Privacy is strictly enforced. Only boards where you explicitly enable Public Sharing can be viewed or embedded. Private boards remain accessible only to you.',
+    a: 'No. Only Public and Password Protected boards can be embedded — a password-protected board opens with its password prompt inside the iframe. Private boards stay private.',
+  },
+  {
+    q: 'Will the embed show a Marqly link?',
+    a: 'A full embed shows the board with its title and curator line. If you hide those (Pro), the embed always keeps a small linked "Created with Marqly" note at the bottom — that stays, and it sends readers back to the live board.',
   },
 ];
 
@@ -78,14 +81,14 @@ const jsonLd = [
   breadcrumbList(crumbs),
   howTo(
     'How to Embed a Marqly Bookmark Board on Any Website',
-    'A quick step-by-step walkthrough to turn any public Marqly collection into an interactive, live-updating embed widget.',
+    'A quick step-by-step walkthrough to turn any public Marqly board into an interactive, live-updating embed widget.',
     steps,
     'PT2M',
   ),
   faqPage(faqs),
   freeWebApplication(
     'Marqly Public Board Embed Generator',
-    'Turn any public Marqly bookmark collection into an interactive, live-updating embed widget for Notion, WordPress, Ghost, or any website.',
+    'Turn any public Marqly board into an interactive, live-updating embed widget for Notion, WordPress, Ghost, or any website.',
     '/embed',
   ),
 ];
@@ -95,7 +98,6 @@ const jsonLd = [
   title={title}
   description={description}
   jsonLd={jsonLd}
-  ogImage="https://www.marqly.com/og/seo/embed-boards.png"
 >
   <article class="section embed-page">
     <div class="container">
@@ -103,8 +105,8 @@ const jsonLd = [
 
       <header class="page-head">
         <div class="badge-row">
-          <span class="pill-badge">Embed Flywheel · 2026</span>
-          <span class="live-badge">⚡ Real-time sync</span>
+          <span class="pill-badge">Embed · 2026</span>
+          <span class="live-badge">⚡ Live sync</span>
         </div>
         <h1>Embed your curated bookmarks anywhere</h1>
         <p class="lead">
@@ -120,8 +122,8 @@ const jsonLd = [
           <div class="gen-title">
             <span class="gen-icon">⚙️</span>
             <div>
-              <h2>Interactive Embed Code Generator</h2>
-              <p class="gen-sub">Configure your board layout, customize colors, and copy your embed snippet.</p>
+              <h2>Embed code generator</h2>
+              <p class="gen-sub">Paste a public board link, pick a layout, copy the snippet.</p>
             </div>
           </div>
         </div>
@@ -130,59 +132,60 @@ const jsonLd = [
           <!-- Controls Column -->
           <div class="gen-controls">
             <div class="form-group">
-              <label for="board-url">Public Board URL</label>
+              <label for="board-url">Public board link</label>
               <input
                 type="url"
                 id="board-url"
                 class="form-input"
-                placeholder="https://app.marqly.com/s/developer-tools"
-                value="https://app.marqly.com/s/developer-tools"
+                placeholder="https://app.marqly.com/s/YourShareId"
+                value="https://app.marqly.com/s/83QcwyG"
               />
-              <span class="input-hint">Paste your public board link from <a href="https://app.marqly.com/explore" target="_blank" rel="noopener">app.marqly.com</a></span>
+              <span class="input-hint">Find it in Marqly under <a href="https://app.marqly.com" target="_blank" rel="noopener">Share → Public link</a>, or paste the bare share ID.</span>
             </div>
 
             <div class="form-group">
-              <label>Layout Style</label>
-              <div class="radio-tiles">
+              <label>Layout</label>
+              <div class="radio-tiles" role="radiogroup" aria-label="Embed layout">
                 <label class="radio-tile">
                   <input type="radio" name="layout" value="cards" checked />
                   <span class="tile-body">
-                    <strong>Grid Cards</strong>
-                    <small>Visual previews & tags</small>
+                    <strong>Cards</strong>
+                    <small>Cover previews in a grid (default)</small>
                   </span>
                 </label>
                 <label class="radio-tile">
                   <input type="radio" name="layout" value="list" />
                   <span class="tile-body">
-                    <strong>Compact List</strong>
-                    <small>Scannable sidebar view</small>
+                    <strong>List</strong>
+                    <small>One row per bookmark, with description</small>
                   </span>
                 </label>
                 <label class="radio-tile">
-                  <input type="radio" name="layout" value="minimal" />
+                  <input type="radio" name="layout" value="condensed" />
                   <span class="tile-body">
-                    <strong>Minimal</strong>
-                    <small>Clean link stream</small>
+                    <strong>Condensed</strong>
+                    <small>Tight rows for sidebars</small>
                   </span>
                 </label>
               </div>
             </div>
 
             <div class="form-group">
-              <label>Theme</label>
-              <div class="theme-buttons">
-                <button type="button" class="theme-btn active" data-theme="system">Auto (System)</button>
-                <button type="button" class="theme-btn" data-theme="light">Light</button>
-                <button type="button" class="theme-btn" data-theme="dark">Dark</button>
+              <div class="pro-row-head">
+                <label for="opt-title">Display <span class="pro-chip">Pro</span></label>
               </div>
-            </div>
-
-            <div class="form-group checkbox-group">
-              <label class="custom-check">
-                <input type="checkbox" id="show-attribution" checked />
-                <span>Include curator backlink badge</span>
+              <label class="switch-row" for="opt-title">
+                <input type="checkbox" id="opt-title" checked />
+                <span>Board title & description</span>
               </label>
-              <span class="input-hint">Includes canonical attribution to Marqly to power discoverability.</span>
+              <label class="switch-row" for="opt-creator">
+                <input type="checkbox" id="opt-creator" checked />
+                <span>Creator & stats line</span>
+              </label>
+              <p class="attribution-note">
+                Hiding both gives a content-only embed — Marqly then adds a small linked
+                “Created with Marqly” note at the bottom so readers can find the live board.
+              </p>
             </div>
           </div>
 
@@ -193,71 +196,30 @@ const jsonLd = [
                 <div class="preview-dots">
                   <span></span><span></span><span></span>
                 </div>
-                <span class="preview-title">Live Widget Preview</span>
-                <span class="preview-badge" id="preview-badge">Cards · Auto</span>
+                <span class="preview-title">Live preview</span>
+                <span class="preview-badge" id="preview-badge">Cards</span>
               </div>
 
-              <!-- Live Widget Preview Box -->
-              <div class="preview-box theme-light" id="preview-box">
-                <div class="widget-head">
-                  <div class="widget-icon">⚡</div>
-                  <div class="widget-info">
-                    <h3 class="widget-title">AI & Developer Toolkit</h3>
-                    <p class="widget-meta">Curated by Sarah Lin · 16 resources · Updated today</p>
-                  </div>
-                </div>
-
-                <div class="widget-search">
-                  <input type="text" placeholder="Search these bookmarks..." readonly />
-                </div>
-
-                <div class="widget-items layout-cards" id="widget-items">
-                  <div class="widget-card">
-                    <div class="card-icon">🧠</div>
-                    <div class="card-content">
-                      <h4>Anthropic Claude 3.7 Sonnet</h4>
-                      <p>Hybrid reasoning architecture with real-time thinking tokens.</p>
-                      <div class="card-tags">
-                        <span>#ai</span><span>#llm</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="widget-card">
-                    <div class="card-icon">🚀</div>
-                    <div class="card-content">
-                      <h4>Astro v5 Content Layer</h4>
-                      <p>Ultra-fast static content loader with zero clientside JS overhead.</p>
-                      <div class="card-tags">
-                        <span>#frontend</span><span>#astro</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="widget-card">
-                    <div class="card-icon">☁️</div>
-                    <div class="card-content">
-                      <h4>Cloudflare Workers & D1</h4>
-                      <p>Edge serverless execution with instant globally distributed reads.</p>
-                      <div class="card-tags">
-                        <span>#cloud</span><span>#edge</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="widget-footer" id="widget-footer">
-                  <a href="https://www.marqly.com/?utm_source=embed&utm_medium=referral&utm_campaign=board_embed" target="_blank" rel="noopener">
-                    Curated with Marqly AI Bookmark Manager ↗
-                  </a>
+              <div class="preview-frame-wrap">
+                <iframe
+                  id="preview-frame"
+                  class="preview-frame"
+                  src="https://app.marqly.com/s/83QcwyG?embed=1"
+                  title="Marqly board embed preview"
+                  loading="lazy"
+                ></iframe>
+                <div class="preview-empty" id="preview-empty" hidden>
+                  Paste a valid public board link to see it here.
                 </div>
               </div>
             </div>
 
             <!-- Code Snippet Area -->
             <div class="code-wrap">
-              <div class="code-tabs">
-                <button type="button" class="tab-btn active" data-tab="html">HTML Iframe</button>
-                <button type="button" class="tab-btn" data-tab="notion">Notion /embed</button>
-                <button type="button" class="tab-btn" data-tab="markdown">Markdown</button>
+              <div class="code-tabs" role="tablist" aria-label="Snippet format">
+                <button type="button" role="tab" aria-selected="true" class="tab-btn active" data-tab="html">HTML iframe</button>
+                <button type="button" role="tab" aria-selected="false" class="tab-btn" data-tab="notion">Notion /embed</button>
+                <button type="button" role="tab" aria-selected="false" class="tab-btn" data-tab="markdown">Markdown</button>
               </div>
 
               <div class="code-box">
@@ -339,7 +301,7 @@ const jsonLd = [
         </div>
       </section>
 
-      <!-- Benefits & Backlink Flywheel Section -->
+      <!-- Benefits Section -->
       <section class="benefits-section" data-reveal>
         <h2>Why content creators and teams choose Marqly embeds</h2>
         <div class="benefits-grid">
@@ -353,11 +315,11 @@ const jsonLd = [
           </div>
 
           <div class="benefit-card">
-            <div class="ben-icon">🔍</div>
-            <h3>Interactive Search</h3>
+            <div class="ben-icon">🎛️</div>
+            <h3>Your Layout, Your Call</h3>
             <p>
-              Readers don't have to endlessly scroll. Embedded boards include search and tag filtering
-              so visitors can find exact resources within seconds.
+              Cards for visual directories, List for roundups, Condensed for sidebars — and Pro can
+              strip the chrome down to just the bookmarks.
             </p>
           </div>
 
@@ -365,8 +327,8 @@ const jsonLd = [
             <div class="ben-icon">⚡</div>
             <h3>Zero Performance Penalty</h3>
             <p>
-              Sandboxed iframes with native <code>loading="lazy"</code> ensure zero slowdown on your host
-              domain's Core Web Vitals, LCP, or SEO scores.
+              A lazy-loaded standard iframe keeps your host domain's Core Web Vitals, LCP, and SEO
+              scores untouched.
             </p>
           </div>
 
@@ -374,8 +336,8 @@ const jsonLd = [
             <div class="ben-icon">🚀</div>
             <h3>Curator Brand Equity</h3>
             <p>
-              Showcase your expertise. Every public board and embed highlights your profile and
-              drives high-intent readers back to your curated knowledge base.
+              Showcase your expertise. Every public board highlights your profile and drives
+              high-intent readers back to your curated knowledge base.
             </p>
           </div>
         </div>
@@ -410,118 +372,165 @@ const jsonLd = [
 
 <script is:inline>
   (function () {
-    const urlInput = document.getElementById('board-url');
-    const layoutRadios = document.querySelectorAll('input[name="layout"]');
-    const themeBtns = document.querySelectorAll('.theme-btn');
-    const attributionCheck = document.getElementById('show-attribution');
-    const codeElem = document.getElementById('snippet-code');
-    const copyBtn = document.getElementById('copy-btn');
-    const copyLabel = document.getElementById('copy-label');
-    const tabBtns = document.querySelectorAll('.tab-btn');
-    const previewBox = document.getElementById('preview-box');
-    const widgetItems = document.getElementById('widget-items');
-    const previewBadge = document.getElementById('preview-badge');
-    const widgetFooter = document.getElementById('widget-footer');
+    // The embed contract lives in the app: apps/web/lib/utils/shareEmbed.ts.
+    // Canonical form: https://app.marqly.com/s/<shareId>?embed=1
+    //   [&title=0] [&meta=0]  — display options (Pro)
+    //   [&view=list|condensed] — layout (cards = default, no param)
+    // URLs must be ABSOLUTE on app.marqly.com: marqly.com/www serve the
+    // marketing site, which has no /s routes (the old generator's
+    // "/embed?theme=…" shape 404'd for everyone who copied it).
+    var APP_ORIGIN = 'https://app.marqly.com';
 
-    let currentLayout = 'cards';
-    let currentTheme = 'system';
-    let currentTab = 'html';
+    var urlInput = document.getElementById('board-url');
+    var layoutRadios = document.querySelectorAll('input[name="layout"]');
+    var optTitle = document.getElementById('opt-title');
+    var optCreator = document.getElementById('opt-creator');
+    var codeElem = document.getElementById('snippet-code');
+    var copyBtn = document.getElementById('copy-btn');
+    var copyLabel = document.getElementById('copy-label');
+    var tabBtns = document.querySelectorAll('.tab-btn');
+    var previewFrame = document.getElementById('preview-frame');
+    var previewEmpty = document.getElementById('preview-empty');
+    var previewBadge = document.getElementById('preview-badge');
 
-    function getBaseSlug() {
-      const val = (urlInput?.value || '').trim();
-      if (!val) return 'https://app.marqly.com/s/developer-tools';
-      return val.replace(/\/+$/, '');
+    var currentLayout = 'cards';
+    var currentTab = 'html';
+
+    function extractShareId(raw) {
+      var val = (raw || '').trim();
+      if (!val) return null;
+      var m = val.match(/\/s\/([A-Za-z0-9_-]+)/);
+      if (m) return m[1];
+      if (/^[A-Za-z0-9_-]{4,}$/.test(val)) return val; // bare share id
+      return null;
     }
 
-    function updateSnippet() {
-      const baseUrl = getBaseSlug();
-      const embedUrl = baseUrl + '/embed?theme=' + currentTheme + '&view=' + currentLayout;
-      const includeAttr = attributionCheck?.checked;
+    function buildEmbedUrl(shareId) {
+      var params = ['embed=1'];
+      if (!optTitle || !optTitle.checked) params.push('title=0');
+      if (!optCreator || !optCreator.checked) params.push('meta=0');
+      if (currentLayout !== 'cards') params.push('view=' + currentLayout);
+      return APP_ORIGIN + '/s/' + encodeURIComponent(shareId) + '?' + params.join('&');
+    }
 
-      let code = '';
-      if (currentTab === 'html') {
-        const height = currentLayout === 'minimal' ? '360' : '520';
-        code = '<iframe src="' + embedUrl + '" width="100%" height="' + height + '" frameborder="0" style="border:1px solid #e2e8f0;border-radius:12px;max-width:100%;" loading="lazy" title="Curated Bookmark Board"></iframe>';
-        if (includeAttr) {
-          code += '\n<div style="font-size:12px;color:#64748b;margin-top:6px;text-align:right;">\n  <a href="https://www.marqly.com/?utm_source=embed&utm_medium=referral&utm_campaign=board_embed" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;">Curated with Marqly AI Bookmark Manager</a>\n</div>';
+    function escapeHtml(s) {
+      return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    }
+
+    function update() {
+      var shareId = extractShareId(urlInput && urlInput.value);
+      var embedUrl = shareId ? buildEmbedUrl(shareId) : '';
+      var shareUrl = shareId ? APP_ORIGIN + '/s/' + encodeURIComponent(shareId) : '';
+
+      // Preview: the real embed, always honest.
+      if (previewFrame && previewEmpty) {
+        if (embedUrl) {
+          previewFrame.hidden = false;
+          previewEmpty.hidden = true;
+          if (previewFrame.getAttribute('src') !== embedUrl) previewFrame.setAttribute('src', embedUrl);
+        } else {
+          previewFrame.hidden = true;
+          previewEmpty.hidden = false;
         }
+      }
+      if (previewBadge) {
+        previewBadge.textContent =
+          currentLayout.charAt(0).toUpperCase() + currentLayout.slice(1) +
+          (embedUrl && embedUrl.indexOf('title=0') !== -1 && embedUrl.indexOf('meta=0') !== -1 ? ' · Content only' : '');
+      }
+
+      // Snippet
+      var code = '';
+      if (!embedUrl) {
+        code = 'Paste a valid public board link to generate the snippet.';
+      } else if (currentTab === 'html') {
+        var height = currentLayout === 'cards' ? '600' : currentLayout === 'list' ? '520' : '420';
+        code =
+          '<iframe src="' + embedUrl + '"\n' +
+          '  title="Marqly board"\n' +
+          '  width="100%" height="' + height + '"\n' +
+          '  style="border:0;border-radius:12px;overflow:hidden"\n' +
+          '  loading="lazy"\n' +
+          '  allowfullscreen></iframe>';
       } else if (currentTab === 'notion') {
         code = embedUrl;
       } else if (currentTab === 'markdown') {
-        code = '[![Curated with Marqly](https://www.marqly.com/og/embed-badge.svg)](' + baseUrl + ')';
+        code = '[Curated bookmarks on Marqly](' + shareUrl + ')';
       }
 
-      if (codeElem) {
-        codeElem.textContent = code;
-      }
-
-      // Update Live Preview Box styling
-      if (previewBox) {
-        previewBox.className = 'preview-box theme-' + (currentTheme === 'dark' ? 'dark' : 'light');
-      }
-      if (widgetItems) {
-        widgetItems.className = 'widget-items layout-' + currentLayout;
-      }
-      if (previewBadge) {
-        const layoutText = currentLayout.charAt(0).toUpperCase() + currentLayout.slice(1);
-        const themeText = currentTheme.charAt(0).toUpperCase() + currentTheme.slice(1);
-        previewBadge.textContent = layoutText + ' · ' + themeText;
-      }
-      if (widgetFooter) {
-        widgetFooter.style.display = includeAttr ? 'block' : 'none';
-      }
+      if (codeElem) codeElem.innerHTML = currentTab === 'html' && embedUrl ? highlight(code) : escapeHtml(code);
     }
 
-    urlInput?.addEventListener('input', updateSnippet);
-    attributionCheck?.addEventListener('change', updateSnippet);
-
-    layoutRadios.forEach((radio) => {
-      radio.addEventListener('change', (e) => {
-        currentLayout = e.target.value;
-        updateSnippet();
-      });
-    });
-
-    themeBtns.forEach((btn) => {
-      btn.addEventListener('click', () => {
-        themeBtns.forEach((b) => b.classList.remove('active'));
-        btn.classList.add('active');
-        currentTheme = btn.getAttribute('data-theme') || 'system';
-        updateSnippet();
-      });
-    });
-
-    tabBtns.forEach((btn) => {
-      btn.addEventListener('click', () => {
-        tabBtns.forEach((b) => b.classList.remove('active'));
-        btn.classList.add('active');
-        currentTab = btn.getAttribute('data-tab') || 'html';
-        updateSnippet();
-      });
-    });
-
-    copyBtn?.addEventListener('click', async () => {
-      const text = codeElem?.textContent || '';
-      try {
-        await navigator.clipboard.writeText(text);
-        if (copyLabel) copyLabel.textContent = 'Copied to clipboard!';
-        copyBtn.classList.add('is-copied');
-        setTimeout(() => {
-          if (copyLabel) copyLabel.textContent = 'Copy snippet';
-          copyBtn.classList.remove('is-copied');
-        }, 2000);
-      } catch (err) {
-        // Fallback selection
-        const range = document.createRange();
-        range.selectNodeContents(codeElem);
-        const sel = window.getSelection();
-        sel?.removeAllRanges();
-        sel?.addRange(range);
+    // Lightweight HTML-token colouring, same scheme as the in-app snippet.
+    // SINGLE pass over the raw source: sequential replaces would re-match the
+    // markup the previous pass emitted (class="c-..." looked like an
+    // attribute) and corrupt the snippet — textContent must round-trip to a
+    // valid iframe tag, since that string is what users paste into their site.
+    function highlight(src) {
+      var re = /(<\/?)([a-zA-Z][\w-]*)|([a-zA-Z][\w-]*)=("[^"]*")|(\/>|>)/g;
+      var out = '', last = 0, m;
+      while ((m = re.exec(src))) {
+        out += escapeHtml(src.slice(last, m.index));
+        if (m[2]) {
+          out += '<span class="c-punct">' + escapeHtml(m[1]) + '</span><span class="c-tag">' + escapeHtml(m[2]) + '</span>';
+        } else if (m[3]) {
+          out += '<span class="c-attr">' + escapeHtml(m[3]) + '</span><span class="c-punct">=</span><span class="c-value">' + escapeHtml(m[4]) + '</span>';
+        } else if (m[5]) {
+          out += '<span class="c-punct">' + escapeHtml(m[5]) + '</span>';
+        }
+        last = m.index + m[0].length;
       }
+      out += escapeHtml(src.slice(last));
+      return out;
+    }
+
+    if (urlInput) urlInput.addEventListener('input', update);
+    if (optTitle) optTitle.addEventListener('change', update);
+    if (optCreator) optCreator.addEventListener('change', update);
+
+    layoutRadios.forEach(function (radio) {
+      radio.addEventListener('change', function (e) {
+        currentLayout = e.target.value;
+        update();
+      });
     });
 
-    // Initial render
-    updateSnippet();
+    tabBtns.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        tabBtns.forEach(function (b) {
+          b.classList.remove('active');
+          b.setAttribute('aria-selected', 'false');
+        });
+        btn.classList.add('active');
+        btn.setAttribute('aria-selected', 'true');
+        currentTab = btn.getAttribute('data-tab') || 'html';
+        update();
+      });
+    });
+
+    if (copyBtn) {
+      copyBtn.addEventListener('click', async function () {
+        var text = (codeElem && codeElem.textContent) || '';
+        try {
+          await navigator.clipboard.writeText(text);
+          if (copyLabel) copyLabel.textContent = 'Copied!';
+          copyBtn.classList.add('is-copied');
+          setTimeout(function () {
+            if (copyLabel) copyLabel.textContent = 'Copy snippet';
+            copyBtn.classList.remove('is-copied');
+          }, 2000);
+        } catch (err) {
+          if (codeElem) {
+            var range = document.createRange();
+            range.selectNodeContents(codeElem);
+            var sel = window.getSelection();
+            if (sel) { sel.removeAllRanges(); sel.addRange(range); }
+          }
+        }
+      });
+    }
+
+    update();
   })();
 </script>
 
@@ -562,7 +571,7 @@ const jsonLd = [
   /* Controls */
   .gen-controls { display: flex; flex-direction: column; gap: var(--space-6); }
   .form-group { display: flex; flex-direction: column; gap: var(--space-2); }
-  .form-group label { font-size: var(--fs-sm); font-weight: 600; color: var(--ink-1); }
+  .form-group > label { font-size: var(--fs-sm); font-weight: 600; color: var(--ink-1); }
   .form-input {
     width: 100%; padding: 0.65rem 0.85rem; font-size: var(--fs-sm);
     border: 1px solid var(--border-2); border-radius: var(--radius-sm);
@@ -571,6 +580,21 @@ const jsonLd = [
   .form-input:focus { outline: none; border-color: var(--ink-1); }
   .input-hint { font-size: var(--fs-xs); color: var(--ink-3); }
   .input-hint a { color: var(--ink-2); text-decoration: underline; }
+
+  .pro-row-head { display: flex; align-items: center; gap: var(--space-2); }
+  .pro-chip {
+    font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+    background: var(--surface-2); border: 1px solid var(--border-2); color: var(--ink-2);
+    padding: 0.05rem 0.4rem; border-radius: 9999px; vertical-align: middle;
+  }
+  .switch-row {
+    display: flex; align-items: center; gap: var(--space-2);
+    font-size: var(--fs-sm); font-weight: 500; color: var(--ink-1); cursor: pointer;
+  }
+  .switch-row input { accent-color: var(--ink-1); width: 15px; height: 15px; }
+  .attribution-note {
+    margin: var(--space-1) 0 0 0; font-size: var(--fs-xs); color: var(--ink-3); line-height: 1.45;
+  }
 
   /* Radio Tiles */
   .radio-tiles { display: flex; flex-direction: column; gap: var(--space-2); }
@@ -585,26 +609,6 @@ const jsonLd = [
   .tile-body { display: flex; flex-direction: column; }
   .tile-body strong { font-size: var(--fs-sm); color: var(--ink-1); font-weight: 500; }
   .tile-body small { font-size: var(--fs-xs); color: var(--ink-3); }
-
-  /* Theme Buttons */
-  .theme-buttons { display: flex; gap: var(--space-2); }
-  .theme-btn {
-    flex: 1; padding: 0.5rem 0.75rem; font-size: var(--fs-xs); font-weight: 500;
-    background: var(--surface-2); border: 1px solid var(--border-1);
-    border-radius: var(--radius-sm); color: var(--ink-2); cursor: pointer;
-    transition: all 0.15s ease;
-  }
-  .theme-btn:hover { color: var(--ink-1); border-color: var(--border-2); }
-  .theme-btn.active {
-    background: var(--ink-1); color: var(--surface-1); border-color: var(--ink-1); font-weight: 600;
-  }
-
-  .checkbox-group { margin-top: var(--space-2); }
-  .custom-check {
-    display: inline-flex; align-items: center; gap: var(--space-2);
-    font-size: var(--fs-sm); font-weight: 500; color: var(--ink-1); cursor: pointer;
-  }
-  .custom-check input { accent-color: var(--ink-1); }
 
   /* Output Column */
   .gen-output { display: flex; flex-direction: column; gap: var(--space-6); }
@@ -627,55 +631,12 @@ const jsonLd = [
     padding: 0.15rem 0.5rem; border-radius: 9999px; border: 1px solid var(--border-1);
     color: var(--ink-2);
   }
-
-  /* Live Preview Box */
-  .preview-box { padding: var(--space-5); transition: background 0.2s ease, color 0.2s ease; }
-  .preview-box.theme-light { background: #ffffff; color: #0f172a; }
-  .preview-box.theme-dark { background: #0f172a; color: #f8fafc; }
-
-  .widget-head { display: flex; gap: var(--space-3); align-items: center; margin-bottom: var(--space-4); }
-  .widget-icon { font-size: 1.5rem; }
-  .widget-title { font-size: var(--fs-base); font-weight: 600; margin: 0; color: inherit; }
-  .widget-meta { font-size: 12px; opacity: 0.7; margin: 0; }
-
-  .widget-search { margin-bottom: var(--space-4); }
-  .widget-search input {
-    width: 100%; padding: 0.45rem 0.75rem; font-size: 12px;
-    border: 1px solid rgba(148, 163, 184, 0.3); border-radius: 6px;
-    background: rgba(148, 163, 184, 0.1); color: inherit;
+  .preview-frame-wrap { position: relative; background: var(--surface-1); min-height: 420px; }
+  .preview-frame { display: block; width: 100%; height: 480px; border: 0; }
+  .preview-empty {
+    position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+    font-size: var(--fs-sm); color: var(--ink-3); text-align: center; padding: var(--space-5);
   }
-
-  .widget-items { display: flex; flex-direction: column; gap: var(--space-3); }
-  .widget-card {
-    display: flex; gap: var(--space-3); padding: var(--space-3);
-    border: 1px solid rgba(148, 163, 184, 0.25); border-radius: 8px;
-    background: rgba(148, 163, 184, 0.05);
-  }
-  .card-icon { font-size: 1.25rem; flex-shrink: 0; }
-  .card-content h4 { font-size: 13px; font-weight: 600; margin: 0 0 2px 0; color: inherit; }
-  .card-content p { font-size: 12px; opacity: 0.8; margin: 0 0 6px 0; line-height: 1.4; }
-  .card-tags { display: flex; gap: 6px; }
-  .card-tags span {
-    font-size: 10px; font-weight: 500; opacity: 0.7;
-    background: rgba(148, 163, 184, 0.15); padding: 1px 5px; border-radius: 4px;
-  }
-
-  /* List & Minimal Modes */
-  .layout-list .widget-card {
-    padding: var(--space-2) var(--space-3); align-items: center;
-  }
-  .layout-list .card-content p { display: none; }
-  .layout-minimal .widget-card {
-    border: none; background: transparent; padding: 2px 0;
-  }
-  .layout-minimal .card-icon { display: none; }
-  .layout-minimal .card-content p { display: none; }
-  .layout-minimal .card-tags { display: none; }
-
-  .widget-footer {
-    margin-top: var(--space-4); text-align: right; font-size: 11px; opacity: 0.8;
-  }
-  .widget-footer a { color: inherit; text-decoration: underline; }
 
   /* Code Wrap */
   .code-wrap {
@@ -698,8 +659,15 @@ const jsonLd = [
   .code-box { position: relative; padding: var(--space-4); }
   .code-box pre {
     margin: 0; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-    font-size: 12px; line-height: 1.5; color: var(--ink-1);
-    white-space: pre-wrap; word-break: break-all; max-height: 160px; overflow-y: auto;
+    font-size: 12px; line-height: 1.55; color: var(--ink-1);
+    white-space: pre-wrap; word-break: break-all; max-height: 200px; overflow-y: auto;
+  }
+  .code-box .c-punct { color: var(--ink-3); }
+  .code-box .c-tag { color: var(--accent, #6d28d9); font-weight: 600; }
+  .code-box .c-attr { color: var(--ink-1); }
+  .code-box .c-value { color: #0f7b3f; }
+  @media (prefers-color-scheme: dark) {
+    .code-box .c-value { color: #4ade80; }
   }
   .copy-snippet-btn {
     margin-top: var(--space-3); width: 100%; padding: 0.6rem;
