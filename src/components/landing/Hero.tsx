@@ -128,7 +128,7 @@ export default function Hero() {
   return (
     <div ref={rootRef} className="relative">
       <BrowserFrame url="app.marqly.com">
-        <div className="relative h-[430px] overflow-hidden bg-background sm:h-[470px] lg:h-[540px]" aria-hidden>
+        <div className="relative h-[520px] overflow-hidden bg-background sm:h-[580px] lg:h-[680px]" aria-hidden>
           {/* The library, list view — hidden below sm where the app shows Ask as a full sheet */}
           <div className="absolute inset-y-0 right-0 left-0 max-sm:hidden sm:right-[320px] md:right-[340px] lg:right-[400px]">
             <LibraryRows added={applied} reduce={!!reduce} />

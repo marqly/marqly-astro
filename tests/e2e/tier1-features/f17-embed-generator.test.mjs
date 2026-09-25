@@ -44,6 +44,19 @@ export const tests = [
     },
   },
   {
+    id: 'T1.F17.05',
+    feature: 'F17',
+    name: 'site CSP frame-src allows app.marqly.com (the live preview iframe)',
+    run: async () => {
+      const headers = readFileSync(resolve(ROOT, 'public/_headers'), 'utf8');
+      const m = headers.match(/frame-src[^;]+/);
+      if (!m || !m[0].includes('https://app.marqly.com')) {
+        return { ok: false, error: 'CSP frame-src does not allow app.marqly.com — the embed preview renders "This content is blocked"' };
+      }
+      return { ok: true };
+    },
+  },
+  {
     id: 'T1.F17.04',
     feature: 'F17',
     name: 'built page ships the generator (live preview iframe + shareId extraction)',
