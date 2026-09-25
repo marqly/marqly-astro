@@ -245,23 +245,25 @@ const jsonLd = [
     .eyebrow {
       display: inline-block;
       font-size: var(--fs-xs);
-      letter-spacing: var(--tracking-wide);
+      letter-spacing: 0.08em;
       text-transform: uppercase;
       color: var(--accent, var(--ink-3));
       font-weight: 600;
       margin-bottom: var(--space-3);
     }
     .kit-group { margin-top: var(--space-10); }
-    .kit-group h2 { font-size: var(--fs-xl); font-weight: 600; color: var(--ink-1); }
+    .kit-group h2 { font-size: var(--fs-h3); font-weight: 600; color: var(--ink-1); }
     .group-why { margin-top: var(--space-2); font-size: var(--fs-sm); color: var(--ink-2); font-style: italic; }
     .kit-list { margin-top: var(--space-5); display: grid; gap: var(--space-4); }
     .kit-card {
-      border: 1px solid var(--line);
-      border-radius: var(--radius-lg);
+      border: 1px solid var(--border-1);
+      border-radius: var(--radius-card);
       padding: var(--space-5) var(--space-6);
       background: var(--surface-1);
+      transition: border-color var(--dur-base) var(--ease-out);
     }
-    .kit-card h3 { font-size: var(--fs-md); font-weight: 600; }
+    .kit-card:hover { border-color: var(--border-2); }
+    .kit-card h3 { font-size: var(--fs-base); font-weight: 600; }
     .kit-card h3 a { color: var(--ink-1); text-decoration: underline; text-underline-offset: 3px; }
     .kit-use { margin-top: var(--space-2); font-size: var(--fs-sm); color: var(--ink-2); line-height: var(--lh-base); }
     .kit-meta { margin-top: var(--space-2); font-size: var(--fs-xs); color: var(--ink-3); line-height: var(--lh-base); }
