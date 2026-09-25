@@ -3,11 +3,16 @@
  *
  * Every bookmark shown is a REAL page: real domain, real title (og:title
  * where the site provides one), and its real og/preview image stored under
- * /public/landing/covers. Favicons are the real ones, stored locally.
+ * /public/landing/covers — where a page publishes no og:image (japan-guide,
+ * Time Out), a free-licensed Wikimedia Commons photo of the same subject
+ * stands in for the card cover. Favicons are the real ones, stored locally.
  *
- * Through-line: the hero's Ask panel answers "what did I save about Japan?"
- * from three real pages (japan-guide, Time Out Tokyo), cites them, and tags
- * them after approval. The Cooking bookmarks below stay in use elsewhere.
+ * Through-line: the hero plays the full loop on one story — teamLab's real
+ * official page is SAVED with AI tags auto-added, the Ask panel answers
+ * "what did I save about Japan?" citing four different real sites
+ * (teamlab.art, japan-guide, Time Out Tokyo, Wikipedia), proposes tags for
+ * the three untagged saves, files all four on one board, and the board
+ * opens in card view. The Cooking bookmarks stay in use elsewhere.
  */
 
 export type ContentKind = 'article' | 'paper' | 'repo' | 'video' | 'conversation';
@@ -48,6 +53,8 @@ export const FAVICONS: Record<string, string> = {
   'paulgraham.com': '/landing/favicons/paulgraham.com.png',
   'japan-guide.com': '/landing/favicons/japan-guide.com.png',
   'timeout.com': '/landing/favicons/timeout.com.png',
+  'teamlab.art': '/landing/favicons/teamlab.art.png',
+  'en.wikipedia.org': '/landing/favicons/en.wikipedia.org.png',
   'cursor.com': '/landing/favicons/cursor.com.png',
   'code.visualstudio.com': '/landing/favicons/code.visualstudio.com.png',
   'lawsofux.com': '/landing/favicons/lawsofux.com.png',
@@ -363,6 +370,7 @@ export const japanBookmarks: DemoBookmark[] = [
     tags: [],
     date: '14 Mar',
     kind: 'article',
+    cover: '/landing/covers/kyoto.jpg',
   },
   {
     id: 'tokyo',
@@ -372,15 +380,17 @@ export const japanBookmarks: DemoBookmark[] = [
     tags: [],
     date: '2 Apr',
     kind: 'article',
+    cover: '/landing/covers/tokyo-food.jpg',
   },
   {
     id: 'jr-pass',
-    title: 'Japan Rail Pass (JR Pass)',
-    domain: 'japan-guide.com',
-    description: 'What the JR Pass covers, what it costs, and when it pays off.',
+    title: 'Japan Rail Pass',
+    domain: 'en.wikipedia.org',
+    description: 'What the JR Pass covers, what it costs since the 2023 hike, and when it still pays off.',
     tags: [],
     date: '9 May',
     kind: 'article',
+    cover: '/landing/covers/jrpass.jpg',
   },
 ];
 
@@ -395,20 +405,47 @@ export const askEmptyBoxes: { kind: AskBoxKind; tint: AskTintName; label: string
   { kind: 'overlap', tint: 'mint', label: 'Design and Design systems overlap' },
 ];
 
+/** Hero loop part 1 — the save: teamLab's own official page lands today, AI
+ *  tags it on capture, and the loop ends with it filed on the Japan board. */
+export const heroSave = {
+  bookmark: {
+    id: 'teamlab',
+    title: 'teamLab Planets TOKYO, Toyosu',
+    domain: 'teamlab.art',
+    description:
+      'The walk-through digital art museum where you move through water: mirrored floors, the Swamp Lamp, a giant lotus pond.',
+    tags: ['japan', 'art'],
+    date: 'Today',
+    kind: 'article' as ContentKind,
+    cover: '/landing/covers/teamlab.jpg',
+  },
+  boardEmoji: '🧳',
+  board: 'Travel · Japan',
+};
+
+/** Hero loop part 3 — the tidy-up: the four Japan saves file onto the board. */
+export const japanBoard = {
+  emoji: heroSave.boardEmoji,
+  name: heroSave.board,
+  count: 4,
+};
+
 /** Hero: ask → cited answer → proposal → applied. */
 export const askHero = {
   question: 'what did I save about Japan?',
-  tool: { label: 'Searched “Japan”', results: 7 },
+  tool: { label: "Searched “Japan”", results: 8 },
   answer: [
-    'You saved 7 things about Japan between March and May: three Kyoto guides',
+    'You saved 8 things about Japan. Newest: teamLab Planets',
     { cite: 1 },
-    ', a Tokyo restaurant guide',
+    ', auto-tagged when it landed today. Before it: three Kyoto guides',
     { cite: 2 },
-    ' and a JR Pass explainer',
+    ', a Tokyo restaurant guide',
     { cite: 3 },
-    '. Three of them have no tags yet.',
+    ' and a JR Pass explainer',
+    { cite: 4 },
+    '. Three have no tags yet.',
   ] as AnswerSeg[],
-  sources: { domains: ['japan-guide.com', 'timeout.com', 'gemini.google.com'], count: 7 },
+  sources: { domains: ['teamlab.art', 'japan-guide.com', 'timeout.com', 'en.wikipedia.org'], count: 8 },
   proposal: {
     title: 'Add tags to 3 bookmarks',
     items: [

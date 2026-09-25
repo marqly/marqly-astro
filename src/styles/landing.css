@@ -335,6 +335,17 @@
   }
 }
 
+/* Toast spinner — the hero's saving beat */
+@utility hero-spin {
+  animation: hero-rotate 0.9s linear infinite;
+}
+
+@keyframes hero-rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /* ------------------------------------------------------- FAQ accordion -- */
 /* Smooth, native <details> expansion via ::details-content (Chrome 131+,
    Safari 18.4+). Older browsers simply snap open — graceful fallback. */
@@ -520,6 +531,7 @@ footer a:hover {
   .card-in,
   .badge-enter,
   .just-added,
+  .hero-spin,
   .organizer-sweep,
   .ask-dots > span {
     animation: none !important;
