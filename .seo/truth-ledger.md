@@ -149,3 +149,6 @@ window (competitor names are read from `src/data/competitors/*.json`).
   removed 2026-09-25. Two additional slots require REAL quotes (Play Store /
   email from named users) — App Store RSS and CWS review endpoints returned 0
   fetchable reviews on 2026-09-25; do not invent.
+- 2026-09-25 (owner-confirmed): **Every Teams seat includes all Pro features.**
+  Highlighted on the Teams pricing card ("All Pro features — INCLUDED") and as
+  the first workspace card on /teams. Basis: owner directive this session.

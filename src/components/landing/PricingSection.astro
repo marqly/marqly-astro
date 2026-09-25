@@ -41,6 +41,7 @@ const proPerks = [
 ];
 
 const teamsPerks = [
+  'All Pro features',
   'Shared team workspace — boards and bookmarks',
   'Save, organise, and search together',
   'Personal libraries stay separate',
@@ -217,7 +218,16 @@ const PROMO_CODE = 'STANDING49';
               {TEAMS_PRICE.minSeats}-seat minimum — from {TEAMS_PRICE.fromYearly}/year
             </p>
             <ul class="mt-6 flex-1 space-y-2.5">
-              {teamsPerks.map((p) => (
+              <li class="flex items-start gap-2.5 text-sm font-semibold text-foreground">
+                <CheckIcon size={14} className="mt-1 shrink-0 text-pro" />
+                <span>
+                  {teamsPerks[0]}
+                  <span class="ml-1.5 rounded-2xl bg-pro px-2 py-0.5 text-[10px] font-semibold tracking-wide text-white uppercase">
+                    included
+                  </span>
+                </span>
+              </li>
+              {teamsPerks.slice(1).map((p) => (
                 <li class="flex items-start gap-2.5 text-sm text-foreground/80">
                   <CheckIcon size={14} className="mt-1 shrink-0 text-pro" />
                   {p}
