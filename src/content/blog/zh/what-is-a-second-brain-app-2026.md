@@ -42,4 +42,4 @@ ogImage: "https://www.marqly.com/og/what-is-a-second-brain-app-2026.png"
 
 使用 [Marqly](https://app.marqly.com)，你可以把积攒的书签一键导入，即刻获得全自动 AI 摘要与自然语言语义搜索。
 
-Marqly 免费版支持多达2000个项目，Pro版每年仅需72美元。立即打造你的无负担数字外脑！
+Marqly 免费版支持多达100个项目，Pro版每年仅需72美元。立即打造你的无负担数字外脑！

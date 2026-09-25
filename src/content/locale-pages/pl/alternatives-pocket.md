@@ -17,7 +17,7 @@ faqs:
   - q: "Czy mogę zaimportować archiwalne pliki z Pocket?"
     a: "Tak. Marqly wczytuje paczkę eksportową z Pocket, a model AI automatycznie przypisuje etykiety wszystkim zaimportowanym artykułom."
   - q: "Czy są darmowe alternatywy?"
-    a: "Tak, zarówno Marqly, jak i Raindrop.io oferują pakiety darmowe. W Marqly zapiszesz do 2000 artykułów bez podawania karty."
+    a: "Tak, zarówno Marqly, jak i Raindrop.io oferują pakiety darmowe. W Marqly zapiszesz do 100 artykułów bez podawania karty."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"

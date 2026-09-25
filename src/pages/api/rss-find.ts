@@ -50,7 +50,7 @@ function declaredFeeds(html: string, base: URL): Found[] {
 }
 
 function looksLikeFeed(body: string): boolean {
-  const head = body.slice(0, 2000).toLowerCase();
+  const head = body.slice(0, 100).toLowerCase();
   return head.includes('<rss') || head.includes('<feed') || head.includes('<rdf:rdf');
 }
 

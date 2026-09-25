@@ -60,4 +60,4 @@ Aby uczynić te dane ponownie użytecznymi:
 - Sztuczna inteligencja Marqly odwiedzi strony z linków, pobierze ich oryginalne tytuły i wygeneruje odpowiednie tagi.
 - Dzięki **wyszukiwaniu semantycznemu** możesz odnaleźć dyskusję wpisując po prostu opis tematu (np. *"wątek o naprawianiu chleba na zakwasie"*), bez pamiętania subreddita czy tytułu.
 
-Marqly oferuje darmowe konto do 2000 pozycji oraz plan Pro w cenie 72 USD/rok.
+Marqly oferuje darmowe konto do 100 pozycji oraz plan Pro w cenie 72 USD/rok.

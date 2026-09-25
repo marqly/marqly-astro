@@ -49,4 +49,4 @@ Przekształć ulubione materiały wideo w użyteczną bazę wiedzy z [Marqly](ht
 - Marqly pobiera nagranie wraz z **pełną transkrypcją tekstową** i generuje streszczenie AI.
 - **Wyszukiwanie semantyczne** pozwala odnaleźć film po opisie treści (np. *"poradnik regulacji przerzutek rowerowych"*), bez znajomości tytułu.
 
-Marqly oferuje darmowe konto do 2000 pozycji oraz pakiet Pro w cenie 72 USD rocznie.
+Marqly oferuje darmowe konto do 100 pozycji oraz pakiet Pro w cenie 72 USD rocznie.

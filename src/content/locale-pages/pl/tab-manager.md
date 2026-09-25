@@ -19,7 +19,7 @@ faqs:
   - q: "Czy mogę wyszukiwać pojedyncze strony z zapisanej sesji?"
     a: "Tak. Każda zapisana karta staje się przeszukiwalną pozycją w Twojej bazie wiedzy, z możliwością wyszukiwania po słowach kluczowych i znaczeniu."
   - q: "Ile to kosztuje?"
-    a: "Plan darmowy pozwala zapisać do 2000 elementów. Wersja Pro z nielimitowanymi funkcjami kosztuje 72 USD/rok (49 USD z kuponem STANDING49) lub 9 USD/miesiąc."
+    a: "Plan darmowy pozwala zapisać do 100 elementów. Wersja Pro z nielimitowanymi funkcjami kosztuje 72 USD/rok (49 USD z kuponem STANDING49) lub 9 USD/miesiąc."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"

@@ -20,14 +20,14 @@ ctaLabel: "Wypróbuj Marqly za darmo"
 lang: "pl"
 faqs:
   - q: "Jaki jest najlepszy darmowy menedżer zakładek w 2026 roku?"
-    a: "Raindrop.io oferuje najbardziej rozbudowany klasyczny plan darmowy (nieograniczona liczba zakładek i folderów). Marqly posiada darmowy pakiet do 2000 pozycji z szybkim wyszukiwaniem (pełne AI znajduje się w Pro za 72 USD/rok lub 49 USD w 1. roku z kuponem STANDING49). Jeśli wolisz własny serwer, Linkwarden i Karakeep to najciekawsze projekty open source."
+    a: "Raindrop.io oferuje najbardziej rozbudowany klasyczny plan darmowy (nieograniczona liczba zakładek i folderów). Marqly posiada darmowy pakiet do 100 pozycji z szybkim wyszukiwaniem (pełne AI znajduje się w Pro za 72 USD/rok lub 49 USD w 1. roku z kuponem STANDING49). Jeśli wolisz własny serwer, Linkwarden i Karakeep to najciekawsze projekty open source."
   - q: "Czy Raindrop.io jest całkowicie darmowy?"
     a: "Tak, podstawowy pakiet nie ma limitu czasowego. Jednak przeszukiwanie pełnej treści stron i kopie archiwalne wymagają subskrypcji Pro (28 USD/rok)."
   - q: "Czy tradycyjne zakładki w przeglądarce nie wystarczą?"
     a: "Dla kilkudziesięciu stron tak. Przy setkach linków brak wyszukiwania w treści artykułów powoduje, że odnalezienie czegokolwiek staje się niemożliwe."
 ---
 
-Najlepszy bezpłatny menedżer zakładek w 2026 roku zależy od tego, czego oczekujesz od wersji darmowej. **Raindrop.io** to lider tradycyjnego, ręcznego porządkowania zakładek bez limitu wpisów. **Marqly** zapewnia świetny plan darmowy bez konieczności podawania karty dla maksymalnie 2000 zakładek. Z kolei **Linkwarden** i **Karakeep** oferują bezkompromisową prywatność na własnym serwerze.
+Najlepszy bezpłatny menedżer zakładek w 2026 roku zależy od tego, czego oczekujesz od wersji darmowej. **Raindrop.io** to lider tradycyjnego, ręcznego porządkowania zakładek bez limitu wpisów. **Marqly** zapewnia świetny plan darmowy bez konieczności podawania karty dla maksymalnie 100 zakładek. Z kolei **Linkwarden** i **Karakeep** oferują bezkompromisową prywatność na własnym serwerze.
 
 ## Zestawienie 5 bezpłatnych menedżerów zakładek
 

@@ -19,7 +19,7 @@ ctaLabel: "Wypróbuj Marqly za darmo"
 lang: "pl"
 faqs:
   - q: "Jakie jest najlepsze narzędzie do zaznaczania stron WWW w 2026 roku?"
-    a: "Marqly to najbardziej kompletne rozwiązanie: 6 kolorów, notatki do fragmentów, 100% trwałość zakreśleń przy ponownych odwiedzinach, semantyczne wyszukiwanie AI i bezpłatny pakiet do 2000 pozycji (Pro za 72 USD/rok, a w 1. roku 49 USD z kuponem STANDING49)."
+    a: "Marqly to najbardziej kompletne rozwiązanie: 6 kolorów, notatki do fragmentów, 100% trwałość zakreśleń przy ponownych odwiedzinach, semantyczne wyszukiwanie AI i bezpłatny pakiet do 100 pozycji (Pro za 72 USD/rok, a w 1. roku 49 USD z kuponem STANDING49)."
   - q: "Czy zakreślenia znikają po ponownym otwarciu strony?"
     a: "Tylko niektóre narzędzia potrafią je zachować. Marqly, Weava, LINER i Hypothesis bez problemu przywracają zakreślenia na żywej stronie."
   - q: "Jaki jest najlepszy darmowy zakreślacz tekstu online?"

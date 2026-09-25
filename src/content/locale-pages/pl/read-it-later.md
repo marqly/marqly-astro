@@ -19,7 +19,7 @@ faqs:
   - q: "Jak znaleźć artykuł, jeśli zapomniałem tytułu?"
     a: "Za pomocą wyszukiwania semantycznego. Opisz własnymi słowami temat lub zapamiętane dane z tekstu, a Marqly bez trudu go odnajdzie."
   - q: "Ile kosztuje Marqly?"
-    a: "Plan darmowy pozwala zapisać do 2000 artykułów. Wersja Pro kosztuje 72 USD/rok (49 USD z kuponem STANDING49) lub 9 USD/miesięcznie."
+    a: "Plan darmowy pozwala zapisać do 100 artykułów. Wersja Pro kosztuje 72 USD/rok (49 USD z kuponem STANDING49) lub 9 USD/miesięcznie."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"

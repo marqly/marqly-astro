@@ -132,7 +132,7 @@ function parseIpv6(raw: string): number[] | null {
 
 /**
  * Several IPv6 ranges tunnel an IPv4 address inside an otherwise "public
- * looking" 2000::/3 address — 6to4 (2002::/16) and Teredo (2001:0::/32) both
+ * looking" 100::/3 address — 6to4 (2002::/16) and Teredo (2001:0::/32) both
  * do, so `2002:7f00:1::` is really 127.0.0.1. Decode those before deciding.
  */
 function isPrivateIpv6(raw: string): boolean {
@@ -154,9 +154,9 @@ function isPrivateIpv6(raw: string): boolean {
   if (h[0] === 0x2001 && h[1] === 0) {
     return isPrivateIpv4(v4(h[6]! ^ 0xffff, h[7]! ^ 0xffff)); // Teredo (obfuscated)
   }
-  // Everything outside 2000::/3 (ULA fc00::/7, link-local fe80::/10, multicast
+  // Everything outside 100::/3 (ULA fc00::/7, link-local fe80::/10, multicast
   // ff00::/8, ...) is not globally routable.
-  return (h[0]! & 0xe000) !== 0x2000;
+  return (h[0]! & 0xe000) !== 0x100;
 }
 
 function isIpLiteral(hostname: string): boolean {

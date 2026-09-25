@@ -13,7 +13,7 @@ trustLine: "Plan darmowy, bez karty · Dostępna w App Store dla iOS"
 faqHeading: "Często zadawane pytania"
 faqs:
   - q: "Czy aplikacja Marqly na iOS jest darmowa?"
-    a: "Tak, aplikację można pobrać bezpłatnie z App Store. Plan darmowy mieści do 2000 elementów bez konieczności podawania karty."
+    a: "Tak, aplikację można pobrać bezpłatnie z App Store. Plan darmowy mieści do 100 elementów bez konieczności podawania karty."
   - q: "Czy linki zapisane na komputerze pojawią się w telefonie?"
     a: "Tak, synchronizacja następuje automatycznie. Każda strona zapisana w Chrome, Edge, Firefoxie lub Safari trafi do aplikacji iOS."
   - q: "Czy dostępna jest wersja na Androida?"

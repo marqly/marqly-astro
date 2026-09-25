@@ -49,7 +49,7 @@ Przetestuj dowolne narzędzie przed zakupem subskrypcji:
 
 | Narzędzie | Prawdziwe wyszukiwanie semantyczne? | Czym naprawdę jest jego "AI" | Plan darmowy |
 | --- | --- | --- | --- |
-| **Marqly** | ✅ Tak (kluczowa funkcja Pro) | Wyszukiwanie znaczeniowe, streszczenia, auto-tagi | ✅ Tak (do 2000 elementów) |
+| **Marqly** | ✅ Tak (kluczowa funkcja Pro) | Wyszukiwanie znaczeniowe, streszczenia, auto-tagi | ✅ Tak (do 100 elementów) |
 | **mymind** | ⚠️ Częściowo | Pamięć wizualna i automatyczne tagi | ❌ Brak (~8 $/mies.) |
 | **Recall** | ⚠️ Częściowo | Graf wiedzy i czat nad notatkami | ✅ Ograniczony |
 | **Readwise Reader** | ⚠️ Częściowo | Czat Ghostreader nad dokumentami | ❌ Tylko okres próbny (~10-13 $/mies.) |
@@ -60,7 +60,7 @@ Przetestuj dowolne narzędzie przed zakupem subskrypcji:
 
 ## Werdykt
 
-- **Marqly:** Najlepsze narzędzie do wyszukiwania po znaczeniu. Plan bezpłatny do 2000 zapisów; Pro w cenie 72 $/rok (6 $/mies. przy rozliczeniu rocznym lub 9 $/mies.) z kodem STANDING49 (49 $ za pierwszy rok).
+- **Marqly:** Najlepsze narzędzie do wyszukiwania po znaczeniu. Plan bezpłatny do 100 zapisów; Pro w cenie 72 $/rok (6 $/mies. przy rozliczeniu rocznym lub 9 $/mies.) z kodem STANDING49 (49 $ za pierwszy rok).
 - **mymind:** Świetny wybór dla projektantów i miłośników estetycznych tablic inspiracji.
 - **Readwise Reader:** Bezkonkurencyjny dla osób intensywnie czytających książki i artykuły z zaznaczeniami.
 - **Raindrop.io:** Wzorcowy tradycyjny menedżer dla zwolenników ręcznej organizacji w folderach.

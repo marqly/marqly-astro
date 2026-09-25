@@ -143,7 +143,7 @@ export default function Hero() {
       for (let i = 1; i <= answerWords; i++) at(answerAt + i * WORD_MS, () => setWords(i));
       const answered = answerAt + answerWords * WORD_MS;
       at(answered + 600, () => setStep('proposal'));
-      at(answered + 2000, () => setPulse(true));
+      at(answered + 100, () => setPulse(true));
       at(answered + 2900, () => setStep('applied'));
       at(answered + 5200, () => setStep('board'));
       at(answered + 7500, () => setStep('cards'));

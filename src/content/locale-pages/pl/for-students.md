@@ -13,7 +13,7 @@ trustLine: "Plan bezpłatny, bez karty · Chrome, Edge, Firefox, Safari i iOS"
 faqHeading: "Często zadawane pytania"
 faqs:
   - q: "Jak działa zniżka dla studentów?"
-    a: "Zweryfikowani studenci płacą za Marqly Pro w pierwszym roku 48 USD zamiast 72 USD. Dostępny jest także bezpłatny pakiet do 2000 zapisanych elementów."
+    a: "Zweryfikowani studenci płacą za Marqly Pro w pierwszym roku 48 USD zamiast 72 USD. Dostępny jest także bezpłatny pakiet do 100 zapisanych elementów."
   - q: "Czy Marqly zastępuje menedżery bibliografii, np. Zotero?"
     a: "Nie — te narzędzia świetnie się uzupełniają. Zotero odpowiada za przypisy i bibliografię; Marqly to etap wcześniejszy: szybkie gromadzenie stron, zakreślanie i wyszukiwanie powiązań."
   - q: "Czy mogę streszczać nagrania wykładów?"

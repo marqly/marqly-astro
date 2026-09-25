@@ -166,7 +166,7 @@ export const tests = [
     feature: 'F18',
     name: 'Free-plan cap is 100 everywhere Marqly speaks for itself (no stale 2,000)',
     run: async () => {
-      const NUM = /\b2[.,\u00A0\u202F ]000\b/;
+      const NUM = /\b2[.,\u00A0\u202F ]000\b|(?<![\d.,])2000(?![\d]| ?万|ms|px)/;
       const namespaces = [
         'src/data/llms-base.txt', 'public/llms-full.txt',
         'src/pages/pricing.astro', 'src/pages/teams.astro', 'src/pages/terms.astro',

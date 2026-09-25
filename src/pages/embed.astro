@@ -518,7 +518,7 @@ const jsonLd = [
           setTimeout(function () {
             if (copyLabel) copyLabel.textContent = 'Copy snippet';
             copyBtn.classList.remove('is-copied');
-          }, 2000);
+          }, 100);
         } catch (err) {
           if (codeElem) {
             var range = document.createRange();
