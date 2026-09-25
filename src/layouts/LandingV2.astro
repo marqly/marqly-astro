@@ -26,6 +26,8 @@ export interface Props {
   lang?: string;
   /** hreflang cluster from src/i18n/routes.ts (empty = no alternate links). */
   alternates?: { hreflang: string; href: string }[];
+  /** Dark pages (built but unpublished): robots noindex,follow. */
+  noindex?: boolean;
 }
 
 const OG_LOCALES: Record<string, string> = {
@@ -41,6 +43,7 @@ const {
   jsonLd = [],
   lang = 'en',
   alternates = [],
+  noindex = false,
 } = Astro.props;
 const ogLocale = OG_LOCALES[lang] ?? 'en_US';
 
@@ -59,7 +62,7 @@ const canonicalURL = canonical ?? new URL(cleanPath, Astro.site).href;
     {alternates.map((a) => (
       <link rel="alternate" hreflang={a.hreflang} href={a.href} />
     ))}
-    <meta name="robots" content="max-image-preview:large" />
+    <meta name="robots" content={noindex ? 'noindex, follow' : 'max-image-preview:large'} />
     <meta name="theme-color" content="#f7f7f7" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content={ogLocale} />

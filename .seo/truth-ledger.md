@@ -125,8 +125,30 @@ window (competitor names are read from `src/data/competitors/*.json`).
 - Whether the $49 first year is applied automatically at checkout or requires
   entering STANDING49. The pricing table presents it as automatic; the FAQ names
   the code. Copy should say "a standing $49 first-year offer" unless the code
-  itself is the point. **Additionally unresolved 2026-09-23:** whether STANDING49
-  is live in Stripe + app config yet — production renders $39 until the deploy
-  carrying this change lands; verify before quoting any number.
+  itself is the point. **RESOLVED 2026-09-25 (owner-confirmed):** the product
+  truth is $9/mo, $72/yr, and STANDING49 = $49 first year then $72/yr, offer
+  codes yearly-only. $39/STANDING39 is dead; the site now says $49 throughout
+  and the coupons FAQ names STANDING49 as the one real code.
+- **Discount percentage rule (2026-09-25, mirrors apps/web/lib/billing/discount.ts
+  in the monorepo):** always ROUND DOWN and always name the baseline. $49 vs $72
+  = "31% off your first year" (never 32%); $72 vs $108 = "about 33% vs monthly";
+  $49 vs $108 = "54% less than paying monthly (first year)". Never print a bare
+  %. Enforced by tests/e2e/tier1-features/f18-pricing-truth-guard.test.mjs.
 - AI summary / AI Organizer usage limits — deliberately unpublished. Do not
   invent a number.
+
+## 2026-09-25 — "Marqly users work at teams like" logo wall (owner-confirmed)
+- Homepage hero strip shows Google, Apple, Stripe, Cloudflare, Shopify, Tesla,
+  BBC, Reuters (monochrome, Simple Icons CC0 / Wikimedia SVGs, stored under
+  public/landing/logos). **Claim basis: owner states there are actual users
+  employed at these companies (2026-09-25).** The copy says where users work —
+  never "trusted by" / "used by [company]" — so no endorsement or partnership
+  is implied. If a user count from any named company ever drops to zero, the
+  logo comes out. Keep attribution language exactly this shape.
+- Reviews section: 4 testimonials remain the carried-over real ones, avatars
+  removed 2026-09-25. Two additional slots require REAL quotes (Play Store /
+  email from named users) — App Store RSS and CWS review endpoints returned 0
+  fetchable reviews on 2026-09-25; do not invent.
+- 2026-09-25 (owner-confirmed): **Every Teams seat includes all Pro features.**
+  Highlighted on the Teams pricing card ("All Pro features — INCLUDED") and as
+  the first workspace card on /teams. Basis: owner directive this session.

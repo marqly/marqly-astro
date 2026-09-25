@@ -2,7 +2,7 @@
 question: "How much does Marqly cost?"
 description: "Marqly Pro costs $72/year (about $6/month billed annually) or $9/month billed monthly. A free tier is available too, with no card required."
 category: pricing
-updatedDate: 2026-08-02
+updatedDate: 2026-09-25
 related:
   - is-marqly-free
   - whats-in-marqly-free-vs-pro
@@ -24,7 +24,7 @@ The math is simple:
 - **Annual**: $72/year, which works out to about $6/month (with a standing first-year offer of $49)
 - **Monthly**: $9/month, or $108 over a year
 
-Paying annually saves you roughly 33% compared to twelve monthly payments (and 32% off your first year with the $49 annual promo). If you're unsure whether you'll stick with it, start monthly, then switch to annual once you know it fits your workflow. There are no other discounts to hunt for — annual billing is the deal.
+Paying annually saves you roughly 33% compared to twelve monthly payments (and 31% off your first year with the $49 annual promo). If you're unsure whether you'll stick with it, start monthly, then switch to annual once you know it fits your workflow. There are no other discounts to hunt for — annual billing is the deal.
 
 ## How it compares
 

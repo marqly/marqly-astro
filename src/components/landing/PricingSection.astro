@@ -1,5 +1,5 @@
 ---
-import { APP_URL } from './data';
+import { APP_URL, TEAMS_PUBLIC, TEAMS_PRICE } from './data';
 import { CheckIcon } from './icons';
 
 export interface Props {
@@ -9,12 +9,11 @@ export interface Props {
 const { isPage = false } = Astro.props;
 
 const freePerks = [
-  // Was 'Your 100 most recent bookmarks' until 2026-09-05, when the read wall was
-  // removed: FREE now reads and searches its whole library, capped only by the 2,000
-  // storage limit. This was the single biggest change to what free is worth, and
-  // leaving the old line would have undersold the plan rather than oversold it.
+  // 2026-09-05: the read wall was removed — FREE reads and searches its whole
+  // library, capped only by storage. 2026-09-25: that storage cap dropped from
+  // 2,000 to 100 (owner-confirmed; site-wide sweep pending).
   'Your whole library — search all of it',
-  'Up to 2,000 bookmarks',
+  'Up to 100 bookmarks',
   'One-click bookmark saving',
   'Bookmark preview',
   'Highlights',
@@ -30,7 +29,7 @@ const proPerks = [
   'AI tagging and summaries on every save',
   'Semantic + full-text search',
   'Ask: AI answers with sources',
-  'Connected apps (MCP): Claude, ChatGPT, Cursor, VS Code',
+  'MCP',
   'AI Organizer for bulk auto-filing',
   'YouTube AI summaries and chat',
   'ChatVault for AI conversations',
@@ -39,6 +38,19 @@ const proPerks = [
   'Unlimited notes',
   'Smart sorting',
   'Priority support by email',
+];
+
+const teamsPerks = [
+  'All Pro features',
+  'Shared team workspace — boards and bookmarks',
+  'Save, organise, and search together',
+  'Personal libraries stay separate',
+  'Pooled AI: 2× a Pro allowance per seat',
+  'Owner, Admin, and Member roles',
+  'Email invites; a pending invite holds a seat',
+  'Activity log for Owners and Admins',
+  'One Owner-paid bill',
+  'Cancel any time — data kept read-only',
 ];
 
 // Single source of truth for this section. Must match apps/api
@@ -68,8 +80,9 @@ const PRICE = {
   },
 };
 
-// PROMO_SAVE is the standing first-year offer against annual list ($49 vs $72 = 31.9%).
-const PROMO_SAVE = 'Save 32%';
+// PROMO_SAVE is the standing first-year offer against annual list ($49 vs $72 = 31.9% →
+// rounded DOWN per the app's discount rule; the "· FIRST YEAR" baseline is printed in the badge).
+const PROMO_SAVE = 'Save 31%';
 const PROMO_CODE = 'STANDING49';
 ---
 
@@ -115,7 +128,7 @@ const PROMO_CODE = 'STANDING49';
       </button>
     </div>
 
-    <div class="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 md:gap-6">
+    <div class={`mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 md:gap-6 ${TEAMS_PUBLIC ? 'lg:grid-cols-3' : ''}`}>
       <div class="flex flex-col rounded-3xl bg-surface p-7 shadow-surface" data-reveal>
         <h3 class="text-sm font-semibold tracking-wide text-muted uppercase">Free</h3>
         <p class="font-display mt-3 text-4xl font-medium text-foreground">$0</p>
@@ -130,9 +143,6 @@ const PROMO_CODE = 'STANDING49';
             ))
           }
         </ul>
-        <p class="mt-3 mb-2.5 text-[11px] text-muted">
-          Store up to 2,000 bookmarks — and read and search every one of them.
-        </p>
         <a
           href={APP_URL}
           data-cta="pricing_free"
@@ -188,11 +198,57 @@ const PROMO_CODE = 'STANDING49';
           <span data-price-cta-label>Get Pro — $49 for year one</span>
         </a>
       </div>
+
+      {
+        /*
+          Teams — dark until launch (TEAMS_PUBLIC in ./data). The card follows the
+          Annually/Monthly toggle through its own data-teams-* hooks: annual is the
+          server-rendered default (matching the toggle), and every string names its
+          period — no bare "≈$6" without "billed yearly", no mixing of periods.
+        */
+        TEAMS_PUBLIC && (
+          <div class="flex flex-col rounded-3xl bg-surface p-7 shadow-surface" data-reveal style="--reveal-delay: 140ms">
+            <h3 class="text-sm font-semibold tracking-wide text-muted uppercase">Teams</h3>
+            <p class="font-display mt-3 flex items-baseline gap-1.5 text-4xl font-medium text-foreground">
+              <span data-teams-amount>{TEAMS_PRICE.perSeatYearly}</span>
+              <span class="text-base font-normal tracking-[0.3px] text-muted" data-teams-period>/seat/yr</span>
+            </p>
+            <p class="mt-1 text-[12px] text-muted" data-teams-sub>about {TEAMS_PRICE.perSeatMonthlyWhenYearly}/seat/month, billed yearly</p>
+            <p class="mt-2 text-[11px] font-medium text-foreground/60" data-teams-min>
+              {TEAMS_PRICE.minSeats}-seat minimum — from {TEAMS_PRICE.fromYearly}/year
+            </p>
+            <ul class="mt-6 flex-1 space-y-2.5">
+              <li class="flex items-start gap-2.5 text-sm font-semibold text-foreground">
+                <CheckIcon size={14} className="mt-1 shrink-0 text-pro" />
+                <span>
+                  {teamsPerks[0]}
+                  <span class="ml-1.5 rounded-2xl bg-pro px-2 py-0.5 text-[10px] font-semibold tracking-wide text-white uppercase">
+                    included
+                  </span>
+                </span>
+              </li>
+              {teamsPerks.slice(1).map((p) => (
+                <li class="flex items-start gap-2.5 text-sm text-foreground/80">
+                  <CheckIcon size={14} className="mt-1 shrink-0 text-pro" />
+                  {p}
+                </li>
+              ))}
+            </ul>
+            <a
+              href="/teams"
+              data-cta="pricing_teams"
+              class="mt-7 flex h-11 items-center justify-center rounded-3xl bg-default text-[15px] font-medium text-foreground transition-colors hover:bg-default/70"
+            >
+              Get Teams
+            </a>
+          </div>
+        )
+      }
     </div>
   </div>
 </section>
 
-<script define:vars={{ PRICE, PROMO_SAVE, PROMO_CODE }}>
+<script define:vars={{ PRICE, PROMO_SAVE, PROMO_CODE, TEAMS_PRICE: TEAMS_PRICE }}>
   // Vanilla, no hydration — matches the rest of this landing page.
   const toggle = document.querySelector('[data-billing-toggle]');
   const section = document.querySelector('#pricing');
@@ -236,6 +292,32 @@ const PROMO_CODE = 'STANDING49';
       amountEl.textContent = price.amount;
       periodEl.textContent = price.period;
       noteEl.textContent = price.note;
+      // Teams follows the same period switch (dark until TEAMS_PUBLIC — the
+      // elements simply do not exist then, hence the guards).
+      const teams = {
+        annual: {
+          amount: TEAMS_PRICE.perSeatYearly,
+          period: '/seat/yr',
+          sub: `about ${TEAMS_PRICE.perSeatMonthlyWhenYearly}/seat/month, billed yearly`,
+          min: `${TEAMS_PRICE.minSeats}-seat minimum — from ${TEAMS_PRICE.fromYearly}/year`,
+        },
+        monthly: {
+          amount: TEAMS_PRICE.perSeatMonthly,
+          period: '/seat/mo',
+          sub: `or ${TEAMS_PRICE.perSeatYearly}/seat/yr — about ${TEAMS_PRICE.perSeatMonthlyWhenYearly}/seat/month billed yearly`,
+          min: `${TEAMS_PRICE.minSeats}-seat minimum — from ${TEAMS_PRICE.fromMonthly}/month`,
+        },
+      }[key];
+      if (teams) {
+        const tA = section.querySelector('[data-teams-amount]');
+        const tP = section.querySelector('[data-teams-period]');
+        const tS = section.querySelector('[data-teams-sub]');
+        const tM = section.querySelector('[data-teams-min]');
+        if (tA) tA.textContent = teams.amount;
+        if (tP) tP.textContent = teams.period;
+        if (tS) tS.textContent = teams.sub;
+        if (tM) tM.textContent = teams.min;
+      }
       // Monthly carries no discount, so the struck-through anchor and the savings badge
       // must disappear rather than sit beside a price they do not describe.
       if (wasEl) {

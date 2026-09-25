@@ -78,6 +78,31 @@ import { CHROME_URL, APP_URL, IOS_URL, ANDROID_URL } from './data';
         Download for Android
       </a>
     </div>
+
+    <!-- Social proof strip: owner-confirmed 2026-09-25 that Marqly users work
+         at these companies (see .seo/truth-ledger.md). Monochrome, quiet —
+         it states where users work, not that these companies endorse us. -->
+    <div
+      class="mt-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-4"
+      role="img"
+      aria-label="Companies where Marqly users work: BBC, Google, Apple, Stripe, Cloudflare, Shopify, Tesla, Reuters"
+    >
+      <span class="w-full text-center text-[12px] font-medium text-muted/75">
+        Marqly users work at teams like
+      </span>
+      {
+        ['bbc', 'google', 'apple', 'stripe', 'cloudflare', 'shopify', 'tesla', 'reuters'].map((c) => (
+          <img
+            src={`/landing/logos/${c}.svg`}
+            alt=""
+            width="64"
+            height="18"
+            class={`w-auto opacity-50 ${c === 'cloudflare' ? 'h-[18px]' : 'h-[15px]'}`}
+            loading="lazy"
+          />
+        ))
+      }
+    </div>
   </div>
 
   <div class="mx-auto mt-12 max-w-[980px] md:mt-16 lg:max-w-[1056px]">

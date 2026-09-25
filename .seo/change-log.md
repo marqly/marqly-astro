@@ -4,6 +4,58 @@ Every SEO action, why it won its slot, and how it was verified. Newest first.
 
 ---
 
+## 2026-09-25 — Pricing-truth sweep + Marqly Teams (dark launch)
+
+### Pricing truth (ship now)
+- **Discount rounding rule enforced site-wide** (mirrors the app's
+  `apps/web/lib/billing/discount.ts`: round DOWN, always name the baseline).
+  `PROMO_SAVE` "Save 32%" → **"Save 31%"** (badge already prints "· FIRST YEAR")
+  and the cost FAQ's "32% off your first year" → "31% off your first year".
+  Swept src + built dist + `llms*.txt` for stale `STANDING39`/`$39` Marqly copy
+  and bare percentages — clean (remaining $39/$8 hits are competitor prices).
+- **Coupons FAQ contradiction fixed.** `/faq/marqly-coupons-and-discounts`
+  claimed "no public coupon codes exist" while the pricing page promoted
+  STANDING49 — it now names STANDING49 as the one real code ($49 first year,
+  yearly-only) and keeps the anti-aggregator warning.
+- **Trial sweep: verified, not rewritten.** `52c8317` (2026-09-18) already
+  de-trialed the site; every remaining "trial" match is a competitor's trial,
+  a question, or a ledger-approved negation (Terms §4.2/§4.4 keep "Marqly does
+  not offer free trials"). No changes needed.
+
+### Marqly Teams — built, kept dark
+- New `/teams` page (hero, workspace, roles, per-seat pricing with the 3-seat
+  minimum spelled out, FAQ) + Teams pricing card + nav link + Product/Offer
+  JSON-LD + sitemap entry + llms.txt line, ALL behind `TEAMS_PUBLIC` in
+  `src/components/landing/data.ts` (the `ONE_TAP_ENABLED` pattern). While
+  false: `/teams` still builds (preview), emits `noindex, follow`, is linked
+  from nothing, absent from sitemap (config filter) and llms.txt.
+- `public/llms.txt` → `src/pages/llms.txt.ts` route over `src/data/llms-base.txt`
+  so the Teams line flips with the flag; while dark the served bytes are
+  identical to the old static file (cmp-verified).
+- Copy pinned to the fact sheet; the dark/cut list (files/storage numbers,
+  custom sharing domains, team MCP, Viewer/Guest, SSO, per-board permissions,
+  mobile, extension save-to-team, non-USD, invoices, any trial) is recorded as
+  a do-not-add comment at the top of `teams.astro`.
+
+### Guards
+- New `tests/e2e/tier1-features/f18-pricing-truth-guard.test.mjs` (5 cases):
+  no rounded-up % anywhere in dist; 31%/33% truth PRESENT on pricing surfaces;
+  every % on pricing pages names its baseline; no forward trial promise
+  (EN + localized) on pricing surfaces; **dark-mode guarantee** — while
+  `TEAMS_PUBLIC=false`, teams.html is noindex, zero inbound links, absent from
+  sitemap and llms.txt.
+
+### Verification
+- `npm run build` rc=0 → 1,911 pages (1,910 + `/teams`).
+- `node active/scripts/seo-check.mjs` → **ALL 16 SEO GATES PASSED (1,911 pages)**.
+- `node active/scripts/test-e2e-raindrop.mjs --strict` → exit 0; F18 5/5.
+- Dark state asserted in dist: `noindex, follow` on teams.html; 0 leaked
+  `href="/teams"`; sitemap/llms clean; llms.txt byte-identical (cmp).
+- Launch rehearsal: flag ON → rebuild → sitemap/llms/nav/pricing-card/JSON-LD
+  all light up and F18 still passes → reverted to dark and rebuilt.
+
+---
+
 ## 2026-09-23 — Revenue-SEO sprint, session 1 (autonomous execution per 90-day mission)
 
 Fresh full build (1,909 → 1,911 pages incl. new `/migrate/diigo`); all 16 gates + link
