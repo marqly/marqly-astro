@@ -65,7 +65,7 @@ editorial in English per revenue plan §:28).
 | 6 | Gallery hub weight + stale description | tech | **shipped batch 2** (637KB→134KB; search removed, category hubs carry the full set) |
 | 7 | Prompt-gallery worked-example pass (top-traffic prompts only) | content | batch 2, gated on GSC |
 | 8 | Template-download event (Mixpanel + GA4 `template_download`, content-free payload) | analytics | **shipped batch 2** |
-| 9 | Curated public research kit (one, e.g. "credible statistics for writers") — evaluate vs capacity | content | batch 3 candidate |
+| 9 | Curated primary-source kit | content | **shipped batch 4** — /primary-source-kit: 13 sources, every URL HTTP-200 verified 2026-09-26; DocumentCloud+Perma.cc EXCLUDED (Cloudflare challenge unverifiable — re-add only after human check) |
 | 10 | Import-fidelity test as original evidence (documented public corpus, honest failures) | research | batch 3; needs benchmark run dir first |
 | 11 | Outreach drafts for templates (personalized, no spam) | distribution | **drafted batch 2** (`outreach-drafts.md`) — NOT SENT, needs human authorization |
 
@@ -101,3 +101,12 @@ file's findings; extend it.
   alone, build + 16 gates + e2e green. Remaining judgment calls (trustLine
   Android omissions, appending Teams pointer to personal-link-only lines) are
   listed in `locale-truth-inventory.md` and left as owner-visible options.
+
+## Batch-4 note (2026-09-26)
+- **D-014 Primary-source kit shipped** (/primary-source-kit): authority/
+  link-earning asset per mission option G. Selection criteria published on
+  page; annotations original; check-date printed; links into source-log
+  template and /for-journalists (contextual, not footer-stuffed). Excluded
+  unverifiable entries rather than vouching blind — the exclusion itself is
+  disclosed on the FAQ, which is the credibility move.
+- Site is now 1,912 pages; 16/16 gates + e2e green.

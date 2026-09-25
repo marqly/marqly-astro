@@ -67,3 +67,9 @@ The fit: you research alone or mostly alone, your sources are scattered across t
 
 Both ship with a worked example filled from a real, live source — including
 the blanks left blank, which is the discipline that makes them trustworthy.
+
+## Where to find the sources themselves
+
+The [primary-source kit](/primary-source-kit) is a curated, link-checked list
+of free archives, leaked-document databases, and official-statistics portals —
+each entry annotated with what it's good for and where it lies.

@@ -22,6 +22,8 @@ site must never contradict them.
 | Batch | Date | Shipped | Deploy |
 |---|---|---|---|
 | 0 (context) | 2026-09-25 | Pricing-truth sweep + Teams dark launch (separate mission) | live |
+| 4 | 2026-09-26 | Primary-source kit (/primary-source-kit, 13 link-verified sources, honest exclusions) + contextual links from /for-journalists & /research-organizer | live |
+| 3 | 2026-09-26 | Locale truth sweep: 154 lander files — Android affirmations (API/offline/self-host denials kept), Teams approved-split rewrites, 24 header-verified table rows | live |
 | 2 | 2026-09-26 | Team-tail alignment ×8 EN pages; quote-bank template wired into /for-writers; gallery hub 637KB→134KB + stale description fixed; `template_download` analytics event; locale truth-bug inventory (199 lines) + outreach drafts (not sent) | live |
 | 1 | 2026-09-26 | Truth fixes (student discount, free-tier AI claims, auto-tag tier ×3 pages, Teams-copy alignment ×5 pages, Teams spec wording, 10 GB claim banned, offline conflict logged); source-log + reading-matrix templates wired into 5 persona pages; growth ledgers created | see git log |
 

@@ -1,0 +1,270 @@
+---
+/**
+ * Primary-source kit — a curated, re-checked list of archives, official data,
+ * and investigation resources for journalists, fact-checkers, and nonfiction
+ * writers. Authority/link-earning asset (role per growth ledger D-014): its
+ * success metric is use and citations, not direct conversion.
+ *
+ * Every URL below returned HTTP 200 to an automated check on 2026-09-26
+ * (documentcloud.org and perma.cc were EXCLUDED — Cloudflare challenges made
+ * them unverifiable; re-add by hand only after a human confirms).
+ * When adding entries: verify live, write the annotation yourself, record the
+ * check date. Never list a source you haven't opened.
+ */
+import LandingLayout from '../layouts/LandingLayout.astro';
+import Breadcrumbs from '../components/seo/Breadcrumbs.astro';
+import CtaBox from '../components/seo/CtaBox.astro';
+import FaqAccordion from '../components/seo/FaqAccordion.astro';
+import { breadcrumbList, faqPage, itemList, organization, webSite } from '../lib/schema';
+
+const title = 'Primary-Source Kit: Archives, Official Data & Investigation Resources';
+const description =
+  'A curated, link-checked kit of 13 free primary-source resources for journalists, fact-checkers, and nonfiction writers: web archives, leaked-document databases, government open data, and official statistics — with access conditions and honest limitations for each.';
+const canonical = 'https://www.marqly.com/primary-source-kit';
+const CHECKED = '2026-09-26';
+
+const groups = [
+  {
+    name: 'Archives & preservation',
+    why: 'Because sources move, delete, and die. These give you a citable version of what was actually there.',
+    items: [
+      {
+        name: 'Internet Archive',
+        url: 'https://archive.org/',
+        use: 'Billions of archived pages, books, software, and media; the universal fallback when a source disappears.',
+        access: 'Free; no account needed to read.',
+        limit: 'Coverage is crawl-shaped, not complete — quiet corners of the web may never have been captured.',
+      },
+      {
+        name: 'Wayback Machine',
+        url: 'https://web.archive.org/',
+        use: 'Time-travel a specific URL: cite the snapshot for the version of the page you actually read.',
+        access: 'Free.',
+        limit: 'Snapshots can lag days or years; robots-blocked pages are missing; always note the snapshot date, not just the URL.',
+      },
+    ],
+  },
+  {
+    name: 'Investigations & leaked documents',
+    why: 'Cross-border document sets and company records that no single newsroom holds — and collaborators who already indexed them.',
+    items: [
+      {
+        name: 'ICIJ — International Consortium of Investigative Journalists',
+        url: 'https://www.icij.org/',
+        use: 'The Panama/Pandora Papers class of leaks, plus the Offshore Leases database for free company-record searches.',
+        access: 'Site and Offshore Leases database free; full leak corpora are member/newsroom-gated.',
+        limit: 'The databases cover what has been leaked, not what exists — absence of a match is not innocence.',
+      },
+      {
+        name: 'OCCRP — Organized Crime and Corruption Reporting Project',
+        url: 'https://www.occrp.org/',
+        use: 'Eastern Europe/Central Asia depth plus Project Search: cross-linked company, flight, and court records.',
+        access: 'Free tools and reporting.',
+        limit: 'Corrections exist; treat any single hit as a lead to verify against primary registries.',
+      },
+    ],
+  },
+  {
+    name: 'United States: official data',
+    why: 'The record itself, before anyone interprets it — budgets, spending, people, and the datasets agencies publish.',
+    items: [
+      {
+        name: 'Data.gov',
+        url: 'https://data.gov/',
+        use: 'The U.S. federal open-data catalog: search by agency, topic, or format and go straight to the source file.',
+        access: 'Free.',
+        limit: 'Quality varies wildly by agency; freshness is not guaranteed — check the dataset\u2019s own update notes.',
+      },
+      {
+        name: 'USAspending',
+        url: 'https://www.usaspending.gov/',
+        use: 'Every federal contract, grant, and loan by recipient and location — the follow-the-money workhorse.',
+        access: 'Free; bulk downloads available.',
+        limit: 'Agency-reported data with reporting lag; subawards are under-reported — read their data-quality notes before quoting.',
+      },
+      {
+        name: 'U.S. Census Bureau',
+        url: 'https://www.census.gov/',
+        use: 'Population, income, housing, business counts — the denominators every "X% of Americans" claim needs.',
+        access: 'Free.',
+        limit: 'Different surveys measure different things on different schedules; mixing ACS with Current Population Survey numbers is the classic error.',
+      },
+    ],
+  },
+  {
+    name: 'Europe & UK: official statistics',
+    items: [
+      {
+        name: 'Eurostat',
+        url: 'https://ec.europa.eu/eurostat',
+        use: 'Harmonized EU statistics — the only way to compare member-state numbers on the same basis.',
+        access: 'Free; downloadable tables.',
+        limit: 'Methodology changes silently between releases; pin the version when you cite.',
+      },
+      {
+        name: 'Office for National Statistics (UK)',
+        url: 'https://www.ons.gov.uk/',
+        use: 'UK population, economy, and society with unusually candid methodology and quality pages.',
+        access: 'Free.',
+        limit: 'Post-Brexit trade series have known breaks — read the caveats before comparing eras.',
+      },
+    ],
+  },
+  {
+    name: 'Global data & research',
+    items: [
+      {
+        name: 'World Bank Open Data',
+        url: 'https://data.worldbank.org/',
+        use: 'Cross-country development indicators (GDP, health, education) in clean downloadable series.',
+        access: 'Free.',
+        limit: 'Modeled estimates for many low-income countries — the number is an estimate with error bars, even when the chart hides them.',
+      },
+      {
+        name: 'Our World in Data',
+        url: 'https://ourworldindata.org/',
+        use: 'Research-grade long-form data essays with every chart downloadable and sources footnoted.',
+        access: 'Free.',
+        limit: 'An interpretation layer on top of primary data — cite their essay and the underlying source both.',
+      },
+      {
+        name: 'Pew Research Center',
+        url: 'https://www.pewresearch.org/',
+        use: 'U.S. public-attitude and social research with methodology-first releases.',
+        access: 'Free.',
+        limit: 'U.S.-centric unless stated; sampling frames shape what "Americans" means in each study.',
+      },
+      {
+        name: 'Google Dataset Search',
+        url: 'https://datasetsearch.research.google.com/',
+        use: 'A cross-web catalog of published datasets — the starting map when you know the topic but not the publisher.',
+        access: 'Free.',
+        limit: 'It indexes what publishers expose; dead links happen — verify any dataset before relying on it.',
+      },
+    ],
+  },
+];
+
+const allItems = groups.flatMap((g) => g.items);
+
+const faqs = [
+  {
+    q: 'Why these and not others?',
+    a: `Three criteria: the resource publishes primary material or official statistics (not aggregated commentary), it has a free tier usable without institutional access, and it is stable enough to cite. Every link on this page returned HTTP 200 to an automated check on ${CHECKED}. Two well-known tools (DocumentCloud, Perma.cc) were left out of this edition because bot protection made them unverifiable by the same automated method — they are excellent resources; we simply only list what we could check.`,
+  },
+  {
+    q: 'How often is this list re-checked?',
+    a: 'The check date is printed on the page. When a link breaks or a service changes its access terms, the entry is corrected and the date bumped — a kit that never shows its age is a kit nobody maintains.',
+  },
+  {
+    q: 'How does this fit a research workflow?',
+    a: 'These are find-and-verify tools; the missing discipline is recording what you verified and where. The free source-log template (CSV or guide) is built for exactly that: claim, quote, locator, and a verification status that only moves when you opened the original.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  breadcrumbList([{ name: 'Home', path: '/' }, { name: 'Primary-Source Kit', path: '/primary-source-kit' }]),
+  itemList(
+    allItems.map((i) => i.name),
+    '/primary-source-kit',
+    allItems.map((i) => i.url),
+  ),
+  faqPage(faqs),
+];
+---
+
+<LandingLayout title={title} description={description} canonical={canonical} jsonLd={jsonLd}>
+  <section class="section kit">
+    <div class="container narrow">
+      <Breadcrumbs items={[{ name: 'Home', path: '/' }, { name: 'Primary-Source Kit', path: '/primary-source-kit' }]} />
+      <header class="kit-head" data-reveal>
+        <span class="eyebrow">Curated resource · link-checked {CHECKED}</span>
+        <h1>The primary-source kit</h1>
+        <p class="lead">
+          Thirteen free archives, leaked-document databases, and official-statistics portals for people who
+          have to get sourcing right — journalists, fact-checkers, researchers, and nonfiction writers.
+          Each entry says what it's good for, what it costs, and where it lies.
+        </p>
+        <p class="criteria">
+          Selection criteria: primary material or official data (not commentary), a usable free tier, and
+          stability worth citing. Every link verified live on <time datetime={CHECKED}>{CHECKED}</time>.
+        </p>
+      </header>
+
+      {
+        groups.map((g) => (
+          <section class="kit-group" data-reveal>
+            <h2>{g.name}</h2>
+            {g.why && <p class="group-why">{g.why}</p>}
+            <div class="kit-list">
+              {g.items.map((it) => (
+                <article class="kit-card">
+                  <h3><a href={it.url} target="_blank" rel="noopener noreferrer">{it.name}</a></h3>
+                  <p class="kit-use">{it.use}</p>
+                  <p class="kit-meta"><strong>Access:</strong> {it.access}</p>
+                  <p class="kit-meta"><strong>Watch out:</strong> {it.limit}</p>
+                </article>
+              ))}
+            </div>
+          </section>
+        ))
+      }
+
+      <section class="kit-group" data-reveal>
+        <h2>Working the kit into a story</h2>
+        <p>
+          Finding the source is half the job; proving later which version you read is the other half.
+          Pair this kit with the free <a href="/templates/marqly-source-log.csv">source-log template</a>{' '}
+          (<a href="/templates/marqly-source-log.md">guide</a>): one row per source, with a verification
+          status that only moves when you opened the original. For the full workflow, see{' '}
+          <a href="/for-journalists">Marqly for journalists</a> and the{' '}
+          <a href="/tools/dead-link-checker">dead-link checker</a> that keeps a filed story's citations
+          from rotting.
+        </p>
+      </section>
+
+      <FaqAccordion faqs={faqs} heading="Kit questions" />
+      <CtaBox />
+    </div>
+  </section>
+
+  <style>
+    .kit { padding-block: var(--section-pad-y); }
+    .kit-head { max-width: 720px; margin-bottom: var(--space-10); }
+    .kit-head h1 {
+      font-size: var(--fs-display);
+      font-weight: 600;
+      letter-spacing: var(--tracking-tight);
+      color: var(--ink-1);
+      line-height: var(--lh-display);
+    }
+    .lead { margin-top: var(--space-4); font-size: var(--fs-lg); color: var(--ink-2); line-height: var(--lh-base); }
+    .criteria { margin-top: var(--space-4); font-size: var(--fs-sm); color: var(--ink-3); }
+    .eyebrow {
+      display: inline-block;
+      font-size: var(--fs-xs);
+      letter-spacing: var(--tracking-wide);
+      text-transform: uppercase;
+      color: var(--accent, var(--ink-3));
+      font-weight: 600;
+      margin-bottom: var(--space-3);
+    }
+    .kit-group { margin-top: var(--space-10); }
+    .kit-group h2 { font-size: var(--fs-xl); font-weight: 600; color: var(--ink-1); }
+    .group-why { margin-top: var(--space-2); font-size: var(--fs-sm); color: var(--ink-2); font-style: italic; }
+    .kit-list { margin-top: var(--space-5); display: grid; gap: var(--space-4); }
+    .kit-card {
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      padding: var(--space-5) var(--space-6);
+      background: var(--surface-1);
+    }
+    .kit-card h3 { font-size: var(--fs-md); font-weight: 600; }
+    .kit-card h3 a { color: var(--ink-1); text-decoration: underline; text-underline-offset: 3px; }
+    .kit-use { margin-top: var(--space-2); font-size: var(--fs-sm); color: var(--ink-2); line-height: var(--lh-base); }
+    .kit-meta { margin-top: var(--space-2); font-size: var(--fs-xs); color: var(--ink-3); line-height: var(--lh-base); }
+    .kit-meta strong { color: var(--ink-2); }
+  </style>
+</LandingLayout>

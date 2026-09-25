@@ -62,4 +62,6 @@ locator, and a status that starts at *unverified* and only moves when you open
 the page yourself. The guide includes a worked example filled from a real,
 live source — including what *not* to do: invented author credits and
 AI-summary-as-proof. Save the sources themselves into a board per story, so
-the log and the library always point at the same material.
+the log and the library always point at the same material. For the archives
+and official databases worth starting from, see the link-checked
+[primary-source kit](/primary-source-kit).
