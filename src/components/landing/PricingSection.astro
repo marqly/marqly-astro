@@ -1,5 +1,5 @@
 ---
-import { APP_URL } from './data';
+import { APP_URL, TEAMS_PUBLIC, TEAMS_PRICE } from './data';
 import { CheckIcon } from './icons';
 
 export interface Props {
@@ -68,8 +68,9 @@ const PRICE = {
   },
 };
 
-// PROMO_SAVE is the standing first-year offer against annual list ($49 vs $72 = 31.9%).
-const PROMO_SAVE = 'Save 32%';
+// PROMO_SAVE is the standing first-year offer against annual list ($49 vs $72 = 31.9% →
+// rounded DOWN per the app's discount rule; the "· FIRST YEAR" baseline is printed in the badge).
+const PROMO_SAVE = 'Save 31%';
 const PROMO_CODE = 'STANDING49';
 ---
 
@@ -115,7 +116,7 @@ const PROMO_CODE = 'STANDING49';
       </button>
     </div>
 
-    <div class="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 md:gap-6">
+    <div class={`mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 md:gap-6 ${TEAMS_PUBLIC ? 'lg:grid-cols-3' : ''}`}>
       <div class="flex flex-col rounded-3xl bg-surface p-7 shadow-surface" data-reveal>
         <h3 class="text-sm font-semibold tracking-wide text-muted uppercase">Free</h3>
         <p class="font-display mt-3 text-4xl font-medium text-foreground">$0</p>
@@ -188,6 +189,47 @@ const PROMO_CODE = 'STANDING49';
           <span data-price-cta-label>Get Pro — $49 for year one</span>
         </a>
       </div>
+
+      {
+        /*
+          Teams — dark until launch (TEAMS_PUBLIC in ./data). Deliberately NO
+          data-price-* attributes: the billing toggle below only drives the
+          personal plans; Teams prices are per-seat and always shown both ways.
+        */
+        TEAMS_PUBLIC && (
+          <div class="flex flex-col rounded-3xl bg-surface p-7 shadow-surface" data-reveal style="--reveal-delay: 140ms">
+            <h3 class="text-sm font-semibold tracking-wide text-muted uppercase">Teams</h3>
+            <p class="font-display mt-3 flex items-baseline gap-1.5 text-4xl font-medium text-foreground">
+              {TEAMS_PRICE.perSeatMonthly}
+              <span class="text-base font-normal text-muted">/seat/mo</span>
+            </p>
+            <p class="mt-1 text-[11px] text-muted">
+              or {TEAMS_PRICE.perSeatYearly}/seat/year (≈{TEAMS_PRICE.perSeatMonthlyWhenYearly}/seat/mo) · min{' '}
+              {TEAMS_PRICE.minSeats} seats — from {TEAMS_PRICE.fromMonthly}/month
+            </p>
+            <ul class="mt-6 flex-1 space-y-2.5">
+              {[
+                'Shared team workspace, separate from personal libraries',
+                'Pooled AI: 2× a Pro allowance per seat',
+                'Owner, Admin, and Member roles + activity log',
+                'One Owner-paid bill; cancel keeps data read-only',
+              ].map((p) => (
+                <li class="flex items-start gap-2.5 text-sm text-foreground/80">
+                  <CheckIcon size={14} className="mt-1 shrink-0 text-muted" />
+                  {p}
+                </li>
+              ))}
+            </ul>
+            <a
+              href="/teams"
+              data-cta="pricing_teams"
+              class="mt-7 flex h-11 items-center justify-center rounded-3xl bg-default text-[15px] font-medium text-foreground transition-colors hover:bg-default/70"
+            >
+              Get Teams
+            </a>
+          </div>
+        )
+      }
     </div>
   </div>
 </section>

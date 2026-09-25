@@ -335,6 +335,28 @@ export const GOOGLE_CLIENT_ID =
 export const ONE_TAP_ENABLED = true;
 
 /**
+ * Kill switch for the Marqly Teams marketing surface (dark since 2026-09-25).
+ *
+ * Teams is deployed in-product but every flag is OFF: the public launch waits
+ * on live Stripe setup + a one-week canary. While false, /teams is still
+ * BUILT (for preview) but noindex, and absent from the nav, the pricing
+ * cards, the sitemap and llms.txt — flip this one line at launch and all of
+ * it lights up together (see src/pages/teams.astro + the sitemap filter in
+ * astro.config.mjs + the T1.F18.05 dark-mode guard).
+ */
+export const TEAMS_PUBLIC = false;
+
+/** Teams pricing truth (apps/api/src/lib/teams/config.ts). USD only. */
+export const TEAMS_PRICE = {
+  perSeatMonthly: '$9',
+  perSeatYearly: '$72',
+  perSeatMonthlyWhenYearly: '$6',
+  minSeats: 3,
+  fromMonthly: '$27',
+  fromYearly: '$216',
+};
+
+/**
  * Cookie app.marqly.com sets on `.marqly.com` while a session is alive. One Tap
  * reads it via `skip_prompt_cookie` so already-signed-in visitors are never
  * prompted here. Carries no identity — it is a boolean presence flag.

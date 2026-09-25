@@ -1,5 +1,5 @@
 ---
-import { APP_URL, CHROME_URL } from './data';
+import { APP_URL, CHROME_URL, TEAMS_PUBLIC } from './data';
 
 const primary: { label: string; href: string; badge?: string }[] = [
   { label: 'Extension', href: '/extension' },
@@ -7,6 +7,8 @@ const primary: { label: string; href: string; badge?: string }[] = [
   { label: 'AI Assistant', href: '/#ai-assistant', badge: 'New' },
   { label: 'Features', href: '/#features' },
   { label: 'Pricing', href: '/#pricing' },
+  // Dark until Teams launch — flip TEAMS_PUBLIC in ./data (see teams.astro).
+  ...(TEAMS_PUBLIC ? [{ label: 'Teams', href: '/teams' }] : []),
   { label: 'Reviews', href: '/#reviews' },
 ];
 

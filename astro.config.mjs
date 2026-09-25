@@ -100,6 +100,16 @@ function buildLastmod() {
 
 const LASTMOD = buildLastmod();
 
+/**
+ * Teams launch flag — read from data.ts at config time (the file is plain
+ * TS with no runtime deps, but a regex keeps this config import-free).
+ * While dark, /teams is built for preview but must NOT appear in the
+ * sitemap; the page itself emits noindex (src/pages/teams.astro).
+ */
+const TEAMS_PUBLIC = /export const TEAMS_PUBLIC\s*=\s*true/.test(
+  readFileSync(join(ROOT, 'src/components/landing/data.ts'), 'utf8'),
+);
+
 // https://astro.build/config
 // Deployed as a Cloudflare Worker (Workers Static Assets). All pages are
 // prerendered (static); the adapter produces the worker entry + asset manifest
@@ -131,6 +141,8 @@ export default defineConfig({
     react(),
     mdx(),
     sitemap({
+      // Dark-launch guard: /teams stays out of the sitemap until TEAMS_PUBLIC.
+      filter: (page) => TEAMS_PUBLIC || !/\/teams\/?(\.html)?$/.test(page),
       // Attach real per-URL lastmod from frontmatter. URLs with no mappable
       // source date are emitted without lastmod rather than with a fake one.
       serialize(item) {

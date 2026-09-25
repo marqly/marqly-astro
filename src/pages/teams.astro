@@ -1,0 +1,302 @@
+---
+/**
+ * Marqly Teams — the shared, AI-organised bookmark workspace.
+ *
+ * DARK LAUNCH (2026-09-25): TEAMS_PUBLIC=false → this page builds for local
+ * preview but emits noindex and is unlinked; the sitemap filter drops it and
+ * llms.txt omits its line. Flip the flag in src/components/landing/data.ts
+ * once live Stripe setup + the canary week are done.
+ *
+ * Copy is pinned to the product truth in the monorepo (docs/teams/*.md,
+ * apps/api/src/lib/teams/config.ts). Do NOT add: file uploads / storage
+ * numbers, custom sharing domains, team access from MCP or the AI assistant,
+ * Viewer/Guest roles, SSO/SCIM, per-board permissions, mobile team access,
+ * extension save-to-team, non-USD pricing, invoices/bank transfer, any trial.
+ */
+import LandingV2 from '../layouts/LandingV2.astro';
+import Nav from '../components/landing/Nav.astro';
+import FooterV2 from '../components/landing/FooterV2.astro';
+import CloseSection from '../components/landing/CloseSection.astro';
+import { CheckIcon } from '../components/landing/icons';
+import { APP_URL, TEAMS_PUBLIC, TEAMS_PRICE } from '../components/landing/data';
+
+const title = 'Marqly Teams — Shared AI Bookmark Workspace for Your Team';
+const description =
+  'A shared, AI-organised bookmark workspace: team boards and saves everyone can search, while each member keeps their personal library. $9 per seat per month or $72 per seat per year, 3-seat minimum.';
+const canonical = 'https://www.marqly.com/teams';
+
+const P = TEAMS_PRICE;
+
+const included = [
+  {
+    lead: 'One shared library.',
+    text: 'A team workspace with shared boards and shared saves, separate from every member’s personal library. Everyone can save, organise, and search together.',
+  },
+  {
+    lead: 'Personal stays personal.',
+    text: 'Joining a team never touches anyone’s bookmarks, boards, or personal plan. Pro members can join or start a team and keep everything they have.',
+  },
+  {
+    lead: 'A pooled AI allowance.',
+    text: 'Each purchased seat adds 2× an individual Pro’s monthly AI allowance to one shared team pool. It resets monthly; unused credits don’t roll over.',
+  },
+  {
+    lead: 'Invites and an activity log.',
+    text: 'Invite members by email — a pending invitation holds a seat for 7 days. Owners and Admins see an activity log of what the team saved and changed.',
+  },
+];
+
+const roles = [
+  {
+    name: 'Owner',
+    note: 'Pays and holds the team.',
+    can: ['Everything Admins can do', 'Billing: purchase, add/remove seats, cancel', 'Transfer ownership', 'Delete the team'],
+  },
+  {
+    name: 'Admin',
+    note: 'Runs the workspace.',
+    can: ['Everything Members can do', 'Manage members and invitations', 'Publish shared boards', 'Edit team settings'],
+  },
+  {
+    name: 'Member',
+    note: 'Works the library.',
+    can: ['Save, edit, and organise shared bookmarks', 'Search the team workspace', 'Invite others only if the team allows it'],
+  },
+];
+
+const billing = [
+  `${P.perSeatMonthly} per seat per month, or ${P.perSeatYearly} per seat per year (about ${P.perSeatMonthlyWhenYearly} per seat/month billed annually). USD.`,
+  `Minimum ${P.minSeats} seats — a team starts at ${P.fromMonthly} per month (${P.fromYearly} per year on annual billing). Every plan includes 3 seats.`,
+  'You pay for purchased seats, including any you’re not using yet — seats are the unit of billing.',
+  'Adding a seat is prorated and charged immediately. Removing one takes effect at renewal, with no refund for the current period.',
+  'One bill for the whole team, paid by the Owner. No trial — Teams is billed when the Owner upgrades.',
+  'Cancel any time: the team keeps working to the end of the paid period, then turns read-only. Nothing is deleted — you can resume or restart with the same members and content.',
+];
+
+const faqs = [
+  {
+    q: 'Is there a free trial for Teams?',
+    a: 'No. Marqly sells no trials — Teams is billed when the Owner upgrades. The personal free plan (no card, no time limit, up to 2,000 bookmarks) is the way to evaluate Marqly before paying for anything.',
+  },
+  {
+    q: 'What does Teams cost?',
+    a: `${P.perSeatMonthly} per seat per month or ${P.perSeatYearly} per seat per year (about ${P.perSeatMonthlyWhenYearly} per seat/month billed annually), USD, with a ${P.minSeats}-seat minimum — so from ${P.fromMonthly}/month or ${P.fromYearly}/year. The Owner pays one bill for the team.`,
+  },
+  {
+    q: 'Do members lose their personal library when they join?',
+    a: 'No. The team workspace is separate from every member’s personal library, and personal plans (Free, Pro, Lifetime, app-store subscriptions) are unchanged by joining. You can switch between personal and team views in the web app.',
+  },
+  {
+    q: 'Can a Pro user start or join a team?',
+    a: 'Yes, either. Pro members can start a team or accept an invitation; their personal Pro features keep working alongside the team workspace.',
+  },
+  {
+    q: 'What happens when we add or remove seats?',
+    a: 'Adding a seat is prorated and charged immediately. Removing a seat takes effect at the next renewal — you keep paying for purchased seats through the period you’ve paid for, and removals are not refunded mid-term.',
+  },
+  {
+    q: 'What happens if the team cancels?',
+    a: 'The team keeps working until the end of the paid period, then turns read-only. Nothing is deleted: you can resume the subscription, or restart the team later with the same members and content.',
+  },
+  {
+    q: 'Does Teams work in the mobile apps?',
+    a: 'Teams is web-only today — members use it at app.marqly.com. The iOS and Android apps are for personal libraries.',
+  },
+  {
+    q: 'How do invitations work?',
+    a: 'The Owner or an Admin invites by email. Until the invite is accepted it holds one of your purchased seats for 7 days, after which it expires; revoking it releases the seat.',
+  },
+];
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: 'Marqly Teams',
+    description:
+      'A shared, AI-organised bookmark workspace for teams: shared boards and saves, a pooled AI allowance, role-based management, and one Owner-paid bill. 3-seat minimum.',
+    brand: { '@type': 'Brand', name: 'Marqly', url: 'https://www.marqly.com' },
+    url: canonical,
+    offers: [
+      {
+        '@type': 'Offer',
+        price: '9',
+        priceCurrency: 'USD',
+        unitText: 'per seat per month',
+        availability: 'https://schema.org/PreOrder',
+      },
+      {
+        '@type': 'Offer',
+        price: '72',
+        priceCurrency: 'USD',
+        unitText: 'per seat per year',
+        availability: 'https://schema.org/PreOrder',
+      },
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  },
+];
+---
+
+<LandingV2
+  title={title}
+  description={description}
+  canonical={canonical}
+  jsonLd={TEAMS_PUBLIC ? jsonLd : []}
+  noindex={!TEAMS_PUBLIC}
+>
+  <Nav slot="nav" />
+
+  <section class="relative overflow-hidden">
+    <div class="mx-auto max-w-[1120px] px-5 pt-16 pb-14 md:px-8 md:pt-20">
+      <div class="mx-auto max-w-[720px] text-center">
+        <p class="text-[11px] font-semibold tracking-[0.16em] text-foreground/70 uppercase">For teams</p>
+        <h1
+          class="font-display mt-4 text-[clamp(2.4rem,5.5vw,3.9rem)] leading-[1.06] font-medium tracking-[-0.015em] text-foreground"
+        >
+          The links your team<br />
+          <em class="mark-stroke">keeps losing.</em>
+        </h1>
+        <p class="mx-auto mt-6 max-w-[560px] text-[17px] leading-relaxed text-[#4b4b53]">
+          Marqly Teams is one shared, AI-organised bookmark workspace: everyone saves to it, everyone
+          searches it, and the AI tags and files as you go — while each member keeps their own personal
+          library untouched.
+        </p>
+        <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
+          <a
+            href={APP_URL}
+            data-cta="teams_hero"
+            class="flex h-11 items-center rounded-3xl bg-accent px-6 text-[15px] font-medium text-accent-foreground shadow-custom transition-transform active:scale-[0.97]"
+          >
+            Start a team
+          </a>
+          <a
+            href="/pricing"
+            class="flex h-11 items-center gap-1.5 rounded-3xl bg-white px-5 text-[15px] font-medium text-foreground shadow-surface transition-colors hover:bg-white/80"
+          >
+            Personal plans
+          </a>
+        </div>
+        <p class="mt-5 text-[13px] text-muted">
+          {P.minSeats}-seat minimum · from {P.fromMonthly}/month · no trial — billed when the Owner upgrades
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 md:py-20">
+    <div class="mx-auto max-w-[1120px] px-5 md:px-8">
+      <h2 class="font-display text-[clamp(1.7rem,3.4vw,2.4rem)] font-medium tracking-[-0.01em] text-foreground">
+        What’s in the workspace
+      </h2>
+      <div class="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2">
+        {
+          included.map((f) => (
+            <div class="rounded-3xl bg-surface p-6 shadow-surface">
+              <h3 class="text-[15px] font-semibold text-foreground">{f.lead}</h3>
+              <p class="mt-2 text-sm leading-relaxed text-muted">{f.text}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 md:py-20">
+    <div class="mx-auto max-w-[1120px] px-5 md:px-8">
+      <h2 class="font-display text-[clamp(1.7rem,3.4vw,2.4rem)] font-medium tracking-[-0.01em] text-foreground">
+        Three roles, one bill
+      </h2>
+      <p class="mt-3 max-w-[560px] text-[15px] leading-relaxed text-muted">
+        Every role occupies a seat. Billing is the Owner’s; the rest of the team just works.
+      </p>
+      <div class="mt-8 grid grid-cols-1 gap-5 md:grid-cols-3">
+        {
+          roles.map((r) => (
+            <div class="flex flex-col rounded-3xl bg-surface p-6 shadow-surface">
+              <h3 class="text-sm font-semibold tracking-wide text-foreground uppercase">{r.name}</h3>
+              <p class="mt-1 text-[13px] text-muted">{r.note}</p>
+              <ul class="mt-4 flex flex-col gap-2">
+                {r.can.map((c) => (
+                  <li class="flex items-start gap-2.5 text-sm leading-snug text-foreground/85">
+                    <CheckIcon size={14} class="mt-0.5 shrink-0 text-muted" />
+                    {c}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 md:py-20">
+    <div class="mx-auto max-w-[1120px] px-5 md:px-8">
+      <div class="relative flex flex-col overflow-hidden rounded-3xl bg-ink p-8 text-white md:p-10">
+        <p class="text-[11px] font-semibold tracking-[0.16em] text-white/60 uppercase">Teams pricing</p>
+        <p class="font-display mt-4 flex items-baseline gap-2.5 text-5xl font-medium">
+          {P.perSeatMonthly}
+          <span class="text-lg font-normal text-white/60">/seat/month</span>
+        </p>
+        <p class="mt-2 text-sm text-white/70">
+          or {P.perSeatYearly}/seat/year (about {P.perSeatMonthlyWhenYearly}/seat/month billed annually) · USD
+        </p>
+        <p class="mt-5 inline-flex w-fit items-center gap-2 rounded-2xl bg-white/10 px-3 py-1.5 text-[13px] font-medium text-white/90">
+          Minimum {P.minSeats} seats — from {P.fromMonthly}/month or {P.fromYearly}/year
+        </p>
+        <ul class="mt-6 grid max-w-[720px] grid-cols-1 gap-2.5 md:grid-cols-2">
+          {
+            billing.map((b) => (
+              <li class="flex items-start gap-2.5 text-sm leading-snug text-white/85">
+                <CheckIcon size={14} class="mt-0.5 shrink-0 text-pro-bright" />
+                {b}
+              </li>
+            ))
+          }
+        </ul>
+        <div class="mt-8">
+          <a
+            href={APP_URL}
+            data-cta="teams_pricing"
+            class="flex h-11 w-fit items-center justify-center rounded-3xl bg-white px-6 text-[15px] font-medium text-ink transition-transform active:scale-[0.97]"
+          >
+            Start a team
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 md:py-20">
+    <div class="mx-auto max-w-[820px] px-5 md:px-8">
+      <h2 class="font-display text-[clamp(1.7rem,3.4vw,2.4rem)] font-medium tracking-[-0.01em] text-foreground">
+        Questions teams ask before paying
+      </h2>
+      <div class="mt-8 flex flex-col divide-y divide-separator rounded-3xl bg-surface px-6 shadow-surface">
+        {
+          faqs.map((f) => (
+            <details class="group py-4">
+              <summary class="flex cursor-pointer items-center justify-between gap-4 text-[15px] font-medium text-foreground marker:content-none">
+                {f.q}
+                <span aria-hidden class="text-muted transition-transform duration-200 group-open:rotate-45">+</span>
+              </summary>
+              <p class="mt-3 text-sm leading-relaxed text-muted">{f.a}</p>
+            </details>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <CloseSection />
+  <FooterV2 slot="footer" />
+</LandingV2>

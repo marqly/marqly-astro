@@ -125,8 +125,14 @@ window (competitor names are read from `src/data/competitors/*.json`).
 - Whether the $49 first year is applied automatically at checkout or requires
   entering STANDING49. The pricing table presents it as automatic; the FAQ names
   the code. Copy should say "a standing $49 first-year offer" unless the code
-  itself is the point. **Additionally unresolved 2026-09-23:** whether STANDING49
-  is live in Stripe + app config yet — production renders $39 until the deploy
-  carrying this change lands; verify before quoting any number.
+  itself is the point. **RESOLVED 2026-09-25 (owner-confirmed):** the product
+  truth is $9/mo, $72/yr, and STANDING49 = $49 first year then $72/yr, offer
+  codes yearly-only. $39/STANDING39 is dead; the site now says $49 throughout
+  and the coupons FAQ names STANDING49 as the one real code.
+- **Discount percentage rule (2026-09-25, mirrors apps/web/lib/billing/discount.ts
+  in the monorepo):** always ROUND DOWN and always name the baseline. $49 vs $72
+  = "31% off your first year" (never 32%); $72 vs $108 = "about 33% vs monthly";
+  $49 vs $108 = "54% less than paying monthly (first year)". Never print a bare
+  %. Enforced by tests/e2e/tier1-features/f18-pricing-truth-guard.test.mjs.
 - AI summary / AI Organizer usage limits — deliberately unpublished. Do not
   invent a number.
