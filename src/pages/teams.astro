@@ -241,7 +241,13 @@ const jsonLd = [
               <ul class="mt-4 flex flex-col gap-2">
                 {r.can.map((c) => (
                   <li class="flex items-start gap-3 text-sm leading-snug text-foreground/85">
-                    <span class="mt-px flex size-5 shrink-0 items-center justify-center rounded-full bg-default text-foreground/70">
+                    <span
+                      class="mt-px flex size-5 shrink-0 items-center justify-center rounded-full"
+                      style={{
+                        background: 'color-mix(in oklab, var(--success-solid) 13%, transparent)',
+                        color: 'var(--success-solid)',
+                      }}
+                    >
                       <CheckIcon size={11} />
                     </span>
                     {c}
@@ -257,56 +263,60 @@ const jsonLd = [
 
   <section class="py-16 md:py-20">
     <div class="mx-auto max-w-[1120px] px-5 md:px-8">
-      <div class="relative overflow-hidden rounded-3xl bg-ink p-8 text-white md:p-12">
-        <div class="grid gap-10 md:gap-14 lg:grid-cols-[minmax(0,420px)_minmax(0,1fr)]">
-          {/* Price side: the two billing choices ARE the hero of this card */}
+      <div class="tp-card relative overflow-hidden rounded-3xl border border-separator p-8 md:p-12" data-reveal>
+        {/* Subtle creative backdrop: soft brand-tinted glows over a fine dot grid. */}
+        <div aria-hidden class="tp-bg pointer-events-none absolute inset-0"></div>
+        <div class="relative grid gap-10 md:gap-14 lg:grid-cols-[minmax(0,420px)_minmax(0,1fr)]">
+          {/* Price side: the two billing choices are selectable, like the personal plans. */}
           <div>
-            <p class="text-[11px] font-semibold tracking-[0.16em] text-white/45 uppercase">Teams pricing</p>
-            <p class="mt-3 text-[15px] leading-relaxed text-white/60">
+            <p class="text-[11px] font-semibold tracking-[0.16em] text-muted uppercase">Teams pricing</p>
+            <p class="mt-3 text-[15px] leading-relaxed text-muted">
               Priced per seat, billed to one Owner. USD.
             </p>
-            <div class="mt-7 grid grid-cols-2 gap-3">
-              <div class="rounded-2xl border border-white/12 bg-white/[0.05] p-5">
-                <p class="text-[10px] font-semibold tracking-[0.14em] text-white/45 uppercase">Monthly</p>
-                <p class="font-display mt-2.5 text-[34px] leading-none font-medium">
-                  {P.perSeatMonthly}<span class="text-[13px] font-normal text-white/50"> /seat</span>
+            <div class="mt-7 grid grid-cols-2 gap-3" role="group" aria-label="Billing period">
+              <button type="button" data-teams-btn="monthly" aria-pressed="false" class="tp-btn rounded-2xl p-5 text-left">
+                <p class="tp-label text-[10px] font-semibold tracking-[0.14em] uppercase">Monthly</p>
+                <p class="font-display tp-price mt-2.5 text-[32px] leading-none font-medium">
+                  {P.perSeatMonthly}<span class="tp-per text-[13px] font-normal"> /seat</span>
                 </p>
-              </div>
-              <div class="rounded-2xl bg-white p-5 text-ink shadow-custom">
-                <p class="text-[10px] font-semibold tracking-[0.14em] text-ink/50 uppercase">Annual</p>
-                <p class="font-display mt-2.5 text-[34px] leading-none font-medium">
-                  {P.perSeatYearly}<span class="text-[13px] font-normal text-ink/50"> /seat/yr</span>
+              </button>
+              <button type="button" data-teams-btn="annual" aria-pressed="true" class="tp-btn is-on rounded-2xl p-5 text-left">
+                <p class="tp-label text-[10px] font-semibold tracking-[0.14em] uppercase">Annual</p>
+                <p class="font-display tp-price mt-2.5 text-[32px] leading-none font-medium">
+                  {P.perSeatYearly}<span class="tp-per text-[13px] font-normal"> /seat/yr</span>
                 </p>
-                <p class="mt-2 text-[11px] font-medium text-ink/60">
+                <p class="tp-sub mt-2 text-[11px] font-medium">
                   ≈ {P.perSeatMonthlyWhenYearly}/seat/month, billed yearly
                 </p>
-              </div>
+              </button>
             </div>
-            <div class="mt-3 flex items-center gap-2.5 rounded-2xl bg-white/[0.06] px-4 py-3 text-[13px] font-medium text-white/80">
-              <span aria-hidden class="size-1.5 shrink-0 rounded-full bg-pro-bright" />
-              Minimum {P.minSeats} seats — from {P.fromMonthly}/month or {P.fromYearly}/year
-            </div>
+            <p class="mt-3 flex items-center gap-2.5 rounded-2xl bg-default/70 px-4 py-3 text-[13px] font-medium text-foreground/80">
+              <span aria-hidden class="size-1.5 shrink-0 rounded-full bg-pro"></span>
+              <span data-teams-note>{
+                `Minimum ${P.minSeats} seats — ${P.fromYearly}/year (≈${P.perSeatMonthlyWhenYearly}/seat/month)`
+              }</span>
+            </p>
             <a
               href={APP_URL}
               data-cta="teams_pricing"
-              class="mt-6 flex h-12 w-full items-center justify-center rounded-3xl bg-white text-[15px] font-medium text-ink transition-transform active:scale-[0.98]"
+              class="mt-6 flex h-12 w-full items-center justify-center rounded-3xl bg-accent text-[15px] font-medium text-accent-foreground shadow-custom transition-transform active:scale-[0.98]"
             >
               Start a team
             </a>
-            <p class="mt-3 text-center text-[12px] text-white/45">
+            <p class="mt-3 text-center text-[12px] text-muted">
               No trial — Teams is billed when the Owner upgrades. Cancel any time.
             </p>
           </div>
 
-          {/* Rules side: a definition list on hairlines — scannable, no icon wall */}
+          {/* Rules side: a definition list on hairlines. */}
           <div>
-            <p class="text-[11px] font-semibold tracking-[0.16em] text-white/45 uppercase">How billing works</p>
-            <dl class="mt-5 divide-y divide-white/10">
+            <p class="text-[11px] font-semibold tracking-[0.16em] text-muted uppercase">How billing works</p>
+            <dl class="mt-5 divide-y divide-separator">
               {
                 billing.map((b) => (
                   <div class="grid gap-1 py-4 first:pt-0 first:pb-4 last:pb-0">
-                    <dt class="text-[14px] font-semibold text-white">{b.lead}</dt>
-                    <dd class="text-[13px] leading-relaxed text-white/60">{b.text}</dd>
+                    <dt class="text-[14px] font-semibold text-foreground">{b.lead}</dt>
+                    <dd class="text-[13px] leading-relaxed text-muted">{b.text}</dd>
                   </div>
                 ))
               }
@@ -362,3 +372,72 @@ const jsonLd = [
   <CloseSection />
   <FooterV2 slot="footer" />
 </LandingV2>
+
+<script define:vars={{ TP: TEAMS_PRICE }}>
+  // Teams billing-period toggle — same vanilla, no-hydration pattern as the
+  // personal-plan section. The selected panel inverts to ink; the minimum-seats
+  // note restates the price in the chosen period.
+  const btns = [...document.querySelectorAll('[data-teams-btn]')];
+  const note = document.querySelector('[data-teams-note]');
+  const NOTES = {
+    monthly: `Minimum ${TP.minSeats} seats — from ${TP.fromMonthly}/month`,
+    annual: `Minimum ${TP.minSeats} seats — ${TP.fromYearly}/year (≈${TP.perSeatMonthlyWhenYearly}/seat/month)`,
+  };
+  function pick(k) {
+    btns.forEach((b) => {
+      const on = b.dataset.teamsBtn === k;
+      b.setAttribute('aria-pressed', String(on));
+      b.classList.toggle('is-on', on);
+    });
+    if (note) note.textContent = NOTES[k];
+  }
+  btns.forEach((b) => b.addEventListener('click', () => pick(b.dataset.teamsBtn)));
+</script>
+
+<style>
+  .tp-card {
+    background: var(--surface);
+  }
+  .tp-bg {
+    background:
+      radial-gradient(64% 52% at 88% 0%, color-mix(in oklab, var(--pro) 10%, transparent), transparent 68%),
+      radial-gradient(52% 44% at 2% 100%, color-mix(in oklab, var(--success-solid) 9%, transparent), transparent 70%),
+      radial-gradient(rgba(38, 38, 44, 0.05) 1px, transparent 1.3px);
+    background-size:
+      auto,
+      auto,
+      22px 22px;
+  }
+  .tp-btn {
+    background: color-mix(in oklab, var(--foreground) 5%, transparent);
+    color: var(--foreground);
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition:
+      background 0.2s var(--ease-smooth, ease),
+      color 0.2s,
+      box-shadow 0.2s;
+  }
+  .tp-label,
+  .tp-per,
+  .tp-sub {
+    color: var(--muted);
+  }
+  .tp-btn:hover {
+    background: color-mix(in oklab, var(--foreground) 9%, transparent);
+  }
+  .tp-btn.is-on {
+    background: var(--foreground);
+    color: #fff;
+    box-shadow: 0 12px 28px color-mix(in oklab, var(--foreground) 22%, transparent);
+  }
+  .tp-btn.is-on .tp-label {
+    color: rgba(255, 255, 255, 0.55);
+  }
+  .tp-btn.is-on .tp-per {
+    color: rgba(255, 255, 255, 0.65);
+  }
+  .tp-btn.is-on .tp-sub {
+    color: rgba(255, 255, 255, 0.78);
+  }
+</style>

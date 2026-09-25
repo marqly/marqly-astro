@@ -136,3 +136,16 @@ window (competitor names are read from `src/data/competitors/*.json`).
   %. Enforced by tests/e2e/tier1-features/f18-pricing-truth-guard.test.mjs.
 - AI summary / AI Organizer usage limits — deliberately unpublished. Do not
   invent a number.
+
+## 2026-09-25 — "Marqly users work at teams like" logo wall (owner-confirmed)
+- Homepage hero strip shows Google, Apple, Stripe, Cloudflare, Shopify, Tesla,
+  BBC, Reuters (monochrome, Simple Icons CC0 / Wikimedia SVGs, stored under
+  public/landing/logos). **Claim basis: owner states there are actual users
+  employed at these companies (2026-09-25).** The copy says where users work —
+  never "trusted by" / "used by [company]" — so no endorsement or partnership
+  is implied. If a user count from any named company ever drops to zero, the
+  logo comes out. Keep attribution language exactly this shape.
+- Reviews section: 4 testimonials remain the carried-over real ones, avatars
+  removed 2026-09-25. Two additional slots require REAL quotes (Play Store /
+  email from named users) — App Store RSS and CWS review endpoints returned 0
+  fetchable reviews on 2026-09-25; do not invent.
