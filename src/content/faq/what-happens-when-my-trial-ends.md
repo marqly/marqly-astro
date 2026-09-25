@@ -13,7 +13,7 @@ When you cancel Marqly Pro, your account moves to the free plan at the end of th
 
 ## A note on trials
 
-Marqly no longer offers a free trial of Pro — trials were retired in September 2026. Pro is billed from the moment you upgrade, and you can cancel at any time. The free plan is the way to evaluate Marqly before paying: it needs no card, has no time limit, and holds up to 2,000 bookmarks. See [is Marqly free](/faq/is-marqly-free).
+Marqly no longer offers a free trial of Pro — trials were retired in September 2026. Pro is billed from the moment you upgrade, and you can cancel at any time. The free plan is the way to evaluate Marqly before paying: it needs no card, has no time limit, and holds up to 100 bookmarks. See [is Marqly free](/faq/is-marqly-free).
 
 ## What you keep on the free plan
 
@@ -23,7 +23,7 @@ The free plan is the foundation of the product, not a locked-out shell. After ca
 - File them into boards, highlight what matters, and share boards publicly
 - Find anything you've saved with keyword search
 
-Everything you saved on Pro stays readable and keyword-searchable, including any library you imported while subscribed. The free plan holds up to 2,000 bookmarks and hides none of them. If you are above 2,000, everything you already saved stays readable — that ceiling limits new saves, not access to old ones. What you lose is the AI layer on top: searching by meaning rather than keyword, and asking questions of your own saves.
+Everything you saved on Pro stays readable and keyword-searchable, including any library you imported while subscribed. The free plan holds up to 100 bookmarks and hides none of them. If you are above 100, everything you already saved stays readable — that ceiling limits new saves, not access to old ones. What you lose is the AI layer on top: searching by meaning rather than keyword, and asking questions of your own saves.
 
 ## What switches off
 

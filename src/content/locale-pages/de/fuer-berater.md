@@ -17,7 +17,7 @@ faqs:
   - q: "Können Mandanten meine kuratierten Links ohne Account ansehen?"
     a: "Ja, über öffentliche Lese-Links können Kunden die Quellensammlung direkt im Browser betrachten."
   - q: "Was kostet Marqly für Consultants?"
-    a: "Kostenlose Stufe bis 2.000 Lesezeichen. Pro für 72 $/Jahr (49 $ im ersten Jahr mit STANDING49)."
+    a: "Kostenlose Stufe bis 100 Lesezeichen. Pro für 72 $/Jahr (49 $ im ersten Jahr mit STANDING49)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"

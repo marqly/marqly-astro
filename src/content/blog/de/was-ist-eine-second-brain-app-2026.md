@@ -42,4 +42,4 @@ Programme wie Obsidian oder Notion sind mächtig, verlangen dem Nutzer aber enor
 
 In [Marqly](https://app.marqly.com) importieren Sie Ihre Lesezeichen in wenigen Minuten. Die KI erstellt automatische Zusammenfassungen und ermöglicht eine semantische Suche nach inhaltlicher Bedeutung.
 
-Marqly bietet bis zu 2.000 Speicherungen kostenlos und einen Pro-Tarif für 72 $/Jahr.
+Marqly bietet bis zu 100 Speicherungen kostenlos und einen Pro-Tarif für 72 $/Jahr.

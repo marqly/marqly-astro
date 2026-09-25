@@ -24,7 +24,7 @@ faqs:
   - q: "What if I missed the Pocket export deadline?"
     a: "If you did not export your data before October 8, 2025, Mozilla has permanently deleted all Pocket cloud databases. However, if you had Pocket synced with Firefox or an offline browser profile, you can export your browser bookmarks as HTML and import those into Marqly."
   - q: "Which Pocket replacement is completely free?"
-    a: "Wallabag and Karakeep are 100% free if you self-host them on your own server. For hosted tools, Raindrop.io offers an unlimited free tier for basic bookmarking, and Marqly offers a permanent free tier storing up to 2,000 bookmarks with search across your whole library."
+    a: "Wallabag and Karakeep are 100% free if you self-host them on your own server. For hosted tools, Raindrop.io offers an unlimited free tier for basic bookmarking, and Marqly offers a permanent free tier storing up to 100 bookmarks with search across your whole library."
 ---
 
 When Mozilla turned off Pocket's servers on **July 8, 2025**, and closed the final export window on **October 8, 2025**, it marked the end of an 18-year era. More than 20 million users who relied on the little red icon to save articles, recipes, and videos were cut loose.
@@ -39,7 +39,7 @@ We compared seven prominent replacements across six key criteria: **export file 
 
 | Category | Winner | Why It Wins | Free Tier |
 | :--- | :--- | :--- | :--- |
-| **Best Overall & AI Organization** | **Marqly** | Imports Pocket exports in 2 mins, auto-tags saves, and adds semantic search by meaning. | Yes (2,000 saves) |
+| **Best Overall & AI Organization** | **Marqly** | Imports Pocket exports in 2 mins, auto-tags saves, and adds semantic search by meaning. | Yes (100 saves) |
 | **Best Pure Article Reader** | **Instapaper** | Cleanest typography, Kindle delivery, and minimal distraction. | Yes (basic) |
 | **Best Power Reader & Highlighting** | **Readwise Reader** | Handles PDFs, newsletters, RSS, and EPUBs with Ghostreader AI. | No (30-day trial) |
 | **Best General Bookmark Manager** | **Raindrop.io** | Generous free tier, nested collections, and cross-platform reliability. | Yes (unlimited) |
@@ -59,7 +59,7 @@ The critical difference is **search by paraphrase**: instead of guessing the exa
 
 - **Reader Mode:** Distraction-free clean reader view with text highlighting in 6 colors.
 - **YouTube Integration:** Saves YouTube videos with synchronized transcripts and in-page AI chat.
-- **Pricing:** Free tier stores up to 2,000 bookmarks with whole-library search; Pro is $72/year ($6/mo) or $49 for the standing first-year offer.
+- **Pricing:** Free tier stores up to 100 bookmarks with whole-library search; Pro is $72/year ($6/mo) or $49 for the standing first-year offer.
 - **Best for:** Anyone who wants their Pocket backlog organized automatically without sorting into folders.
 
 ---

@@ -60,4 +60,4 @@ Una lista de mil enlaces crudos no te ayuda a localizar información cuando la n
 - La inteligencia artificial visita cada enlace de Reddit, extrae el título del debate y le asigna etiquetas temáticas automáticas.
 - A través de la **búsqueda semántica**, puedes buscar conceptos como *"aquel debate sobre cómo reparar masa madre"* sin saber en qué subreddit se publicó ni qué título exacto tenía.
 
-Marqly ofrece una cuenta gratuita para hasta 2.000 marcadores y un plan Pro por 72 $/año. Recupera tus mejores hallazgos de Reddit y mantenlos organizados para siempre.
+Marqly ofrece una cuenta gratuita para hasta 100 marcadores y un plan Pro por 72 $/año. Recupera tus mejores hallazgos de Reddit y mantenlos organizados para siempre.

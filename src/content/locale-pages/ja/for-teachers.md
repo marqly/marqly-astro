@@ -9,7 +9,7 @@ hero:
   heading: "去年の授業で大好評だったあの教材。覚えているのに、どこに保存したかが見つからない"
   subheading: "教材や解説動画をワンクリックで保存。AIが自動でタグ付けと要約を行い、テーマごとの教材リストを生徒にアカウント不要の公開リンクでそのまま共有できます。"
 crumbHome: "ホーム"
-trustLine: "最大2,000件無料 · クレジットカード不要 · Chrome, Edge, Firefox, Safari, iOS"
+trustLine: "最大100件無料 · クレジットカード不要 · Chrome, Edge, Firefox, Safari, iOS"
 faqHeading: "よくある質問"
 faqs:
   - q: "生徒や学生はアカウントを持っていなくても教材リストを閲覧できますか？"
@@ -21,7 +21,7 @@ faqs:
   - q: "学校のパソコンでも使えますか？"
     a: "はい。Chrome、Edge、Firefox、Safari対応の拡張機能に加え、ブラウザ上で動くWebアプリもあるため、専用ソフトのインストールが制限された環境でも利用可能です。"
   - q: "利用料金は？"
-    a: "無料プランで最大2,000件の教材を保存可能。Proプランは年額72ドル（初年度クーポンSTANDING49で49ドル）または月額9ドルです。"
+    a: "無料プランで最大100件の教材を保存可能。Proプランは年額72ドル（初年度クーポンSTANDING49で49ドル）または月額9ドルです。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqlyを無料で試す"
 ctaSecondaryLabel: "Chromeに追加 — 無料"

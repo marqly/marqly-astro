@@ -54,4 +54,4 @@ Damit gesammelte Inspirationen nicht verloren gehen:
 - Nutzen Sie die **semantische Suche**: Suchen Sie nach Inhalten wie *"das Video über das Reparieren einer quietschenden Tür"*, ohne den Kanalnamen wissen zu müssen.
 - Führen Sie Webartikel, YouTube-Videos und Instagram-Inspirationen an einem zentralen Ort zusammen.
 
-Marqly bietet bis zu 2.000 Links kostenlos und ein Pro-Abo für 72 $/Jahr.
+Marqly bietet bis zu 100 Links kostenlos und ein Pro-Abo für 72 $/Jahr.

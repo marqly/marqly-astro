@@ -53,4 +53,4 @@ Un file CSV sul computer finisce presto nel dimenticatoio. Con [Marqly](https://
 - L'intelligenza artificiale genera automaticamente tag e sintesi di ogni contenuto.
 - Grazie alla ricerca semantica, puoi trovare qualsiasi post descrivendone il concetto in italiano senza ricordare l'autore.
 
-Marqly include un piano gratuito fino a 2.000 elementi e un piano Pro da 72 $/anno (circa 6 $/mese).
+Marqly include un piano gratuito fino a 100 elementi e un piano Pro da 72 $/anno (circa 6 $/mese).

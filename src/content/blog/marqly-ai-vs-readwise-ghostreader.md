@@ -22,7 +22,7 @@ faqs:
   - q: "Can Ghostreader search bookmarks by meaning?"
     a: "Ghostreader helps suggest search queries and can search through highlighted excerpts, but Reader primarily indexes keywords and document full-text. Marqly uses continuous semantic vector embeddings across your entire library so you never need exact title or keyword matches."
   - q: "How do their prices compare?"
-    a: "Readwise costs $9.99/month ($120/year billed annually) with no permanent free tier. Marqly offers a permanent free tier with 2,000 saves searchable across your whole library, and Marqly Pro costs $72/year ($6/month) or $48/year for students, with promotional pricing at $49 for the first year."
+    a: "Readwise costs $9.99/month ($120/year billed annually) with no permanent free tier. Marqly offers a permanent free tier with 100 saves searchable across your whole library, and Marqly Pro costs $72/year ($6/month) or $48/year for students, with promotional pricing at $49 for the first year."
 ---
 
 When people evaluate AI for reading and bookmarks, two different philosophies emerge:
@@ -45,7 +45,7 @@ Both tools leverage modern large language models, but they solve fundamentally d
 | **YouTube AI Summaries & Synced Transcripts** | **Yes** (live on watch page + saved) | Video transcript reading (basic) |
 | **Web Highlighter** | **Yes** (6 persistent colors + notes on live web) | Highlighting inside Reader client only |
 | **Save Webpage as Screen-Faithful PDF** | **Yes** (native local rendering) | No (PDF reader for uploaded files) |
-| **Free Tier** | **Permanent free plan** (2,000 saves, full search) | Free trial only (no free tier) |
+| **Free Tier** | **Permanent free plan** (100 saves, full search) | Free trial only (no free tier) |
 | **Paid Pricing** | **$72/year** ($6/mo direct · $48 student) | **$120/year** ($9.99/mo direct) |
 
 ---
@@ -87,7 +87,7 @@ Video is now a primary source of technical and industry knowledge:
 ## 5. Pricing & Value
 
 * **Readwise Reader:** Billed at **$9.99/month ($120/year)**. There is no permanent free tier. When your trial ends, you must subscribe to keep using the product.
-* **Marqly:** Includes a **generous permanent free plan** storing up to 2,000 bookmarks with semantic search across your whole library. Marqly Pro is **$72/year** ($6/month), with verified student pricing at $48/year and first-year introductory discounts.
+* **Marqly:** Includes a **generous permanent free plan** storing up to 100 bookmarks with semantic search across your whole library. Marqly Pro is **$72/year** ($6/month), with verified student pricing at $48/year and first-year introductory discounts.
 
 ---
 

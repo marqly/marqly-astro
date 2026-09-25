@@ -17,7 +17,7 @@ faqs:
   - q: "Kan ik mijn oude Pocket-gegevens importeren?"
     a: "Ja. Marqly leest Pocket-exports direct in en het AI-model tagt vervolgens automatisch al je opgeslagen artikelen."
   - q: "Zijn er gratis alternatieven?"
-    a: "Marqly en Raindrop.io hebben beide een gratis versie. Bij Marqly bewaar je tot 2.000 artikelen kosteloos zonder creditcard."
+    a: "Marqly en Raindrop.io hebben beide een gratis versie. Bij Marqly bewaar je tot 100 artikelen kosteloos zonder creditcard."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

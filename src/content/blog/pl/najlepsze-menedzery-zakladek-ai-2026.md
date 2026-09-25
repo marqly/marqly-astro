@@ -36,7 +36,7 @@ Prawdziwy **menedżer zakładek z AI** to coś znacznie więcej niż zwykły sch
 
 ### 1. Marqly — Niekwestionowany lider semantycznego wyszukiwania
 Zaprojektowany specjalnie po to, by nic co zapiszesz nie zginęło. Obsługuje strony, wideo z YouTube (z transkrypcją i Q&A) oraz pozwala na bezpośredni czat z własną biblioteką.
-- Plan darmowy: do 2 000 zakładek z pełnym przeszukiwaniem.
+- Plan darmowy: do 100 zakładek z pełnym przeszukiwaniem.
 - Pro: $72/rok ($49 w 1. roku) lub $9/miesiąc. [Wypróbuj za darmo →](https://app.marqly.com/lp/ai-search)
 
 ### 2. Readwise Reader — Dla badaczy i analityków

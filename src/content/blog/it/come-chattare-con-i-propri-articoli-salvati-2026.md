@@ -43,4 +43,4 @@ Puoi chiedere: *"Cosa dicono i miei articoli sul rapporto tra sonno e concentraz
 3. **Esamina la risposta:** Marqly sintetizza i punti chiave in un testo chiaro e coerente.
 4. **Verifica le fonti:** Clicca sui link citati per approfondire i passaggi originali.
 
-Marqly offre fino a 2.000 elementi gratuiti e un piano Pro da 72 $/anno.
+Marqly offre fino a 100 elementi gratuiti e un piano Pro da 72 $/anno.

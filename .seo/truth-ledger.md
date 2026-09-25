@@ -152,3 +152,13 @@ window (competitor names are read from `src/data/competitors/*.json`).
 - 2026-09-25 (owner-confirmed): **Every Teams seat includes all Pro features.**
   Highlighted on the Teams pricing card ("All Pro features — INCLUDED") and as
   the first workspace card on /teams. Basis: owner directive this session.
+
+## 2026-09-25 — Free-tier cap: 2,000 → 100 (site-wide sweep, DONE)
+- Owner-confirmed: the free plan now stores **100 bookmarks** (whole library
+  still readable/searchable; the 2026-09-05 read-wall removal is unchanged).
+- Swept 403 files / 535 lines across EN + 11 languages (landers, FAQ, use
+  cases, blogs, verdicts tables, migrate/tool pages, llms*.txt, product-facts
+  spec). Three numbers deliberately KEPT: the 2026-09-06 plan-doc backlog
+  line (history), "2.000 millones de artículos" (Pocket's own stat), and the
+  rhetorical "2,000 saves in four places". Regression guard: T1.F18.06 fails
+  if 2,000 reappears in any Marqly-owned namespace.

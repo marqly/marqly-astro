@@ -17,7 +17,7 @@ faqs:
   - q: "¿Qué es exactamente Marqly?"
     a: "Marqly es un gestor de marcadores y app de lectura inteligente potenciada por IA. Guarda artículos, hilos y vídeos, los resume y etiqueta automáticamente, y permite buscar toda tu biblioteca por significado y en lenguaje natural."
   - q: "¿Cuánto cuesta Marqly?"
-    a: "Marqly ofrece un plan gratuito para hasta 2.000 elementos sin tarjeta de crédito. Marqly Pro cuesta 72 $/año (6 $/mes anual o 9 $/mes mensual) con el código STANDING49 (49 $ el primer año)."
+    a: "Marqly ofrece un plan gratuito para hasta 100 elementos sin tarjeta de crédito. Marqly Pro cuesta 72 $/año (6 $/mes anual o 9 $/mes mensual) con el código STANDING49 (49 $ el primer año)."
   - q: "¿Para quién está pensado Marqly?"
     a: "Es ideal para investigadores, profesionales y usuarios que acumulan muchos artículos y necesitan encontrarlos al instante sin perder tiempo organizando carpetas a mano."
 heroImage: ../../../assets/blog/marqly-review-2026.png
@@ -40,7 +40,7 @@ El problema fundamental que resuelve Marqly es la **recuperación**: guardar enl
 
 ## Precios transparentes
 
-- **Plan Gratuito:** Hasta 2.000 elementos guardados, sin fecha de caducidad ni necesidad de tarjeta.
+- **Plan Gratuito:** Hasta 100 elementos guardados, sin fecha de caducidad ni necesidad de tarjeta.
 - **Marqly Pro:** 72 $/año (equivalente a 6 $/mes facturado anualmente, o 9 $/mes en suscripción mensual). Incluye almacenamiento ilimitado, motor semántico completo, resúmenes IA avanzados y descuento especial a 49 $ el primer año con el cupón `STANDING49`.
 
 Comienza a construir hoy tu biblioteca de conocimiento inteligente [probando Marqly gratis](https://app.marqly.com).

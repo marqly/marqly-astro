@@ -17,7 +17,7 @@ faqs:
   - q: "Czy mogę przenieść dotychczasowe zakładki z przeglądarki?"
     a: "Tak. Obsługujemy standardowy plik eksportu HTML z Chrome, Firefox, Safari i Edge oraz kopie z Pocket i Raindrop.io z automatycznym otagowaniem."
   - q: "Czy korzystanie z Marqly jako organizatora zakładek jest darmowe?"
-    a: "Darmowy plan pozwala zapisać do 2 000 pozycji bez podawania karty. Wersja Pro kosztuje 72 $/rok (49 $ w 1. roku z kodem STANDING49)."
+    a: "Darmowy plan pozwala zapisać do 100 pozycji bez podawania karty. Wersja Pro kosztuje 72 $/rok (49 $ w 1. roku z kodem STANDING49)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"

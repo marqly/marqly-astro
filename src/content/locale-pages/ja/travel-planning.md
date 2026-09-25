@@ -9,7 +9,7 @@ hero:
   heading: "旅行の計画を立てるつもりが、気づけばタブが40個開いて何も決まっていない"
   subheading: "航空券、宿泊予約、旅行Vlog、ブログ記事をワンクリックで保存。AIが自動でエリアごとにタグ付けし、同行者と共有できるスマートな旅のボードを瞬時に構築。"
 crumbHome: "ホーム"
-trustLine: "最大2,000件無料 · クレジットカード不要 · Chrome, Edge, Firefox, Safari, iOS"
+trustLine: "最大100件無料 · クレジットカード不要 · Chrome, Edge, Firefox, Safari, iOS"
 faqHeading: "よくある質問"
 faqs:
   - q: "一緒に行く家族や友人と旅行プランを共有できますか？"
@@ -21,7 +21,7 @@ faqs:
   - q: "旅行Vlog動画の要約も確認できますか？"
     a: "はい。長尺の旅行ガイド動画もAIがおすすめスポットや移動ルートを要約し、タイムスタンプ付き文字起こしで確認できます。"
   - q: "料金プランはどうなっていますか？"
-    a: "最大2,000件まで無料。Proプランは年額72ドル（初年度クーポンSTANDING49で49ドル）または月額9ドルです。"
+    a: "最大100件まで無料。Proプランは年額72ドル（初年度クーポンSTANDING49で49ドル）または月額9ドルです。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqlyを無料で試す"
 ctaSecondaryLabel: "Chromeに追加 — 無料"

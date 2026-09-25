@@ -21,7 +21,7 @@ One thing changes on the free tier: the Pro AI features pause — semantic searc
 
 ## If you had a large library
 
-Nothing is hidden from you. The free tier holds up to 2,000 bookmarks and you can read and search all of them, so a library built up over a Pro subscription stays exactly as usable for finding things by name or keyword. If you are above 2,000, everything you already saved stays and stays readable — that ceiling limits new saves, not access to old ones. What gets harder is finding something you only half-remember, because searching by meaning is the Pro feature.
+Nothing is hidden from you. The free tier holds up to 100 bookmarks and you can read and search all of them, so a library built up over a Pro subscription stays exactly as usable for finding things by name or keyword. If you are above 100, everything you already saved stays and stays readable — that ceiling limits new saves, not access to old ones. What gets harder is finding something you only half-remember, because searching by meaning is the Pro feature.
 
 ## Timing
 

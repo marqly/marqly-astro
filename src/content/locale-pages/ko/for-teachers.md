@@ -9,7 +9,7 @@ hero:
   heading: "작년 수업 때 반응이 뜨거웠던 그 시각 자료, 올해 다시 쓰려니 어디 있는지 찾을 수 없다면"
   subheading: "수업 참고 자료와 유튜브 교육 영상을 원클릭으로 보관하세요. AI가 과목별로 자동 태깅하고, 학생들에게 가입 절차 없는 공개 링크로 읽기 과제를 즉시 배포할 수 있습니다."
 crumbHome: "홈"
-trustLine: "최대 2,000개 무료 보관 · 카드 등록 불필요 · Chrome, Edge, Firefox, Safari, iOS 지원"
+trustLine: "최대 100개 무료 보관 · 카드 등록 불필요 · Chrome, Edge, Firefox, Safari, iOS 지원"
 faqHeading: "자주 묻는 질문"
 faqs:
   - q: "학생들이 회원가입을 하지 않아도 제가 공유한 자료 목록을 볼 수 있나요?"
@@ -21,7 +21,7 @@ faqs:
   - q: "학교 교무실이나 실습실 PC에서도 사용할 수 있나요?"
     a: "네. Chrome, Edge, Firefox 확장 프로그램 외에도 웹 브라우저에서 바로 동작하는 웹앱을 제공하므로 별도 프로그램 설치가 제한된 교내 컴퓨터에서도 자유롭게 이용 가능합니다."
   - q: "이용 요금은 어떻게 되나요?"
-    a: "2,000개 자료까지 무료입니다. Pro 플랜은 연 $72(쿠폰 STANDING49 적용 시 첫해 $49) 또는 월 $9입니다."
+    a: "100개 자료까지 무료입니다. Pro 플랜은 연 $72(쿠폰 STANDING49 적용 시 첫해 $49) 또는 월 $9입니다."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly 무료로 시작하기"
 ctaSecondaryLabel: "Chrome에 추가 — 무료"

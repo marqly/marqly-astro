@@ -48,4 +48,4 @@ O [Marqly](https://app.marqly.com) foi construído sob medida para quem consome 
 - **Classificação automática por IA** com tags inteligentes no exato instante do salvamento.
 - **Busca semântica avançada**: Encontre conteúdos descrevendo o assunto em português, sem depender de títulos exatos.
 
-O plano gratuito do Marqly suporta até 2.000 itens e a versão Pro custa 72 $/ano.
+O plano gratuito do Marqly suporta até 100 itens e a versão Pro custa 72 $/ano.

@@ -49,7 +49,7 @@ Bir araca para ödemeden önce şu basit testi uygulayın:
 
 | Araç | Gerçek anlamsal arama? | Yapay zekasının gerçek rolü | Ücretsiz plan |
 | --- | --- | --- | --- |
-| **Marqly** | ✅ Evet (Pro temel özelliği) | Anlama dayalı arama, özetler, otomatik etiketler | ✅ Evet (2.000 kayda kadar) |
+| **Marqly** | ✅ Evet (Pro temel özelliği) | Anlama dayalı arama, özetler, otomatik etiketler | ✅ Evet (100 kayda kadar) |
 | **mymind** | ⚠️ Kısmi | Görsel hafıza ve otomatik etiketleme | ❌ Yok (~$8/ay) |
 | **Recall** | ⚠️ Kısmi | Bilgi grafiği ve sohbet | ✅ Sınırlı |
 | **Readwise Reader** | ⚠️ Kısmi | Ghostreader ile doküman sohbeti | ❌ Yalnızca deneme (~$10-13/ay) |
@@ -60,7 +60,7 @@ Bir araca para ödemeden önce şu basit testi uygulayın:
 
 ## Değerlendirme ve Tavsiye
 
-- **Marqly:** Anlama göre arama için en ideal platform. 2.000 kayda kadar ücretsiz plan; Pro plan yıllık $72 (yıllık ödemede aylık $6 veya aylık $9), STANDING49 kuponuyla ilk yıl $49.
+- **Marqly:** Anlama göre arama için en ideal platform. 100 kayda kadar ücretsiz plan; Pro plan yıllık $72 (yıllık ödemede aylık $6 veya aylık $9), STANDING49 kuponuyla ilk yıl $49.
 - **mymind:** Tasarımcılar ve görsel ilham toplayanlar için mükemmel bir dijital pano.
 - **Readwise Reader:** Yoğun kitap ve makale okuyup altını çizenler için en gelişmiş okuma aracı.
 - **Raindrop.io:** Manuel klasör ve etiketleme sevenler için klasik kütüphane standardı.

@@ -17,7 +17,7 @@ faqs:
   - q: "保存しておいたPocketのエクスポートデータは移行できますか？"
     a: "はい。MarqlyはPocketのエクスポートファイル（ZIP/HTML/CSV）のインポートに対応しており、取り込んだ全記事にAIが自動タグを付与します。"
   - q: "無料で使える乗り換え先はありますか？"
-    a: "MarqlyとRaindrop.ioには無料プランがあります。Marqlyは無料枠で最大2,000件の保存と全文検索が可能です。"
+    a: "MarqlyとRaindrop.ioには無料プランがあります。Marqlyは無料枠で最大100件の保存と全文検索が可能です。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqlyを無料で試す"
 ctaSecondaryLabel: "Chromeに追加 — 無料"

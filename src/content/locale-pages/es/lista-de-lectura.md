@@ -58,7 +58,7 @@ La segunda mitad es la búsqueda semántica: describes lo que quieres con tus pa
 
 > "el artículo que explicaba por qué los equipos pequeños entregan más rápido"
 
-Si puedes recuperar cualquier cosa por su contenido, ya no importa cuánto haya en la lista. Una biblioteca de 2.000 elementos consultable es un activo; una de 200 sin índice es una carga.
+Si puedes recuperar cualquier cosa por su contenido, ya no importa cuánto haya en la lista. Una biblioteca de 100 elementos consultable es un activo; una de 200 sin índice es una carga.
 
 ## Los videos también están en la lista
 

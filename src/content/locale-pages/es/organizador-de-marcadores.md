@@ -17,7 +17,7 @@ faqs:
   - q: "¿Puedo importar mis marcadores actuales del navegador?"
     a: "Sí. Marqly importa el archivo HTML estándar de Chrome, Firefox, Edge y Safari, además de copias de Pocket y colecciones de Raindrop.io, etiquetándolo todo con IA retroactivamente."
   - q: "¿Es gratis usar Marqly como organizador de marcadores?"
-    a: "Hay un plan gratuito sin tarjeta para hasta 2.000 elementos. Pro cuesta 72 $/año (49 $ el primer año con STANDING49) y añade preguntas con IA sobre tus notas."
+    a: "Hay un plan gratuito sin tarjeta para hasta 100 elementos. Pro cuesta 72 $/año (49 $ el primer año con STANDING49) y añade preguntas con IA sobre tus notas."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probar Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"

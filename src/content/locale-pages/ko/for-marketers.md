@@ -9,7 +9,7 @@ hero:
   heading: "회의 때 팀원들에게 보여주려던 경쟁사의 그 랜딩페이지는 이미 리뉴얼되어 사라졌습니다"
   subheading: "Marqly는 원본 레이아웃 그대로 고품질 PDF 아카이빙을 지원합니다. 브랜드명이 기억나지 않아도 AI 시맨틱 검색으로 마케팅 소구점과 카피 특징만으로 즉시 찾아냅니다."
 crumbHome: "홈"
-trustLine: "최대 2,000개 무료 보관 · 신용카드 불필요 · Chrome, Edge, Firefox, Safari, iOS 지원"
+trustLine: "최대 100개 무료 보관 · 신용카드 불필요 · Chrome, Edge, Firefox, Safari, iOS 지원"
 faqHeading: "자주 묻는 질문"
 faqs:
   - q: "경쟁사가 페이지를 개편하거나 삭제하기 전에 아카이빙할 수 있나요?"
@@ -19,7 +19,7 @@ faqs:
   - q: "수집한 리서치 보드를 클라이언트나 팀과 공유할 수 있나요?"
     a: "네. 생성한 보드의 공개 링크를 공유하면 상대방이 별도 가입 절차 없이 브라우저에서 즉시 리서치 목록을 열람할 수 있습니다."
   - q: "요금 체계는 어떻게 되나요?"
-    a: "무료 플랜에서 2,000개 링크까지 저장 가능합니다. Pro 플랜은 연 $72(쿠폰 STANDING49 적용 시 첫해 $49) 또는 월 $9입니다."
+    a: "무료 플랜에서 100개 링크까지 저장 가능합니다. Pro 플랜은 연 $72(쿠폰 STANDING49 적용 시 첫해 $49) 또는 월 $9입니다."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly 무료로 시작하기"
 ctaSecondaryLabel: "Chrome에 추가 — 무료"

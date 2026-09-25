@@ -40,4 +40,4 @@ Der entscheidende Vorteil gegenüber traditionellen Notiz-Apps: Sie müssen sich
 
 Komplexe Ordnersysteme in Notion oder Markdown-Verlinkungen in Obsidian fordern ständige Disziplin. Bleibt die Pflege einmal auf der Strecke, verwandelt sich das System in ein unübersichtliches Chaos. Ein KI-basiertes System wie [Marqly](https://app.marqly.com) automatisiert diese Pflege vollständig.
 
-Testen Sie Marqly kostenlos mit bis zu 2.000 Einträgen. Der Pro-Tarif kostet 72 $/Jahr.
+Testen Sie Marqly kostenlos mit bis zu 100 Einträgen. Der Pro-Tarif kostet 72 $/Jahr.

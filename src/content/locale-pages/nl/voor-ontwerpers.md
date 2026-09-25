@@ -17,7 +17,7 @@ faqs:
   - q: "Kunnen klanten of collega's mijn inspiratieborden bekijken?"
     a: "Je kunt elk bord openbaar delen via een unieke link. Ontvangers hebben geen Marqly-account nodig om het bord te bekijken."
   - q: "Is Marqly gratis te gebruiken voor ontwerpers?"
-    a: "Ja, met het gratis plan bewaar je tot 2.000 links met borden en markeerstift. Pro ($ 72/jaar of $ 49 eerste jaar met actiecode STANDING49) voegt AI-labels en semantisch zoeken toe."
+    a: "Ja, met het gratis plan bewaar je tot 100 links met borden en markeerstift. Pro ($ 72/jaar of $ 49 eerste jaar met actiecode STANDING49) voegt AI-labels en semantisch zoeken toe."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

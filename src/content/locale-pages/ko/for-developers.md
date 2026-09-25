@@ -19,7 +19,7 @@ faqs:
   - q: "기존 브라우저 북마크를 불러올 수 있나요?"
     a: "가능합니다. Chrome, Edge, Firefox, Safari에서 표준 HTML 형식으로 내보낸 뒤 그대로 가져올 수 있습니다. AI가 기존의 방대한 북마크도 자동으로 분류합니다."
   - q: "무료 플랜의 제한은 무엇인가요?"
-    a: "무료 플랜으로 최대 2,000개의 링크를 저장할 수 있습니다. Pro 플랜은 연 $72(첫해 쿠폰 STANDING49 적용 시 $49)입니다."
+    a: "무료 플랜으로 최대 100개의 링크를 저장할 수 있습니다. Pro 플랜은 연 $72(첫해 쿠폰 STANDING49 적용 시 $49)입니다."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly 무료로 시작하기"
 ctaSecondaryLabel: "Chrome에 추가 — 무료"

@@ -45,6 +45,6 @@ La transizione fondamentale consiste nel passare dal dover **catalogare per ritr
 - **Tag automatici con l'IA:** Appena salvi un collegamento, l'IA analizza il testo della pagina e applica tag concettuali senza alcun intervento manuale.
 - **Ricerca semantica naturale:** Scrivi ad esempio *"quell'articolo sull'influenza del caffè sulla concentrazione pomeridiana"* e il post giusto emergerà subito, anche se il titolo effettivo era completamente diverso.
 
-Con [Marqly](https://app.marqly.com), puoi importare tutti i tuoi vecchi preferiti e renderli immediatamente ricercabili per concetto. Il piano gratuito include fino a 2.000 link, mentre Marqly Pro costa solo 72 $/anno (circa 6 $/mese con fatturazione annuale) o 9 $/mese.
+Con [Marqly](https://app.marqly.com), puoi importare tutti i tuoi vecchi preferiti e renderli immediatamente ricercabili per concetto. Il piano gratuito include fino a 100 link, mentre Marqly Pro costa solo 72 $/anno (circa 6 $/mese con fatturazione annuale) o 9 $/mese.
 
 Smetti di perdere tempo a sistemare cartelle. Salva ciò che conta e lascia che l'IA trovi tutto.

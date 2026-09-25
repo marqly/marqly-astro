@@ -17,7 +17,7 @@ faqs:
   - q: "Czy Marqly integruje się z CRM?"
     a: "Działa jako podręczna baza wiedzy i notatek wspierająca wpisy w CRM."
   - q: "Ile kosztuje Marqly dla handlowców?"
-    a: "Darmowy plan do 2 000 zakładek. Wersja Pro za 72 $/rok (49 $ z kodem STANDING49)."
+    a: "Darmowy plan do 100 zakładek. Wersja Pro za 72 $/rok (49 $ z kodem STANDING49)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"

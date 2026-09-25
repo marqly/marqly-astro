@@ -13,7 +13,7 @@ trustLine: "Kostenlos starten, keine Kreditkarte · Im Chrome Web Store erhältl
 faqHeading: "Häufig gestellte Fragen"
 faqs:
   - q: "Ist Marqly im Chrome Web Store kostenlos?"
-    a: "Die Erweiterung ist kostenlos installierbar. Der Free-Plan umfasst bis zu 2.000 Speicherungen ohne Kreditkarte. Pro kostet 72 $/Jahr (49 $ im 1. Jahr mit STANDING49) oder 9 $/Monat."
+    a: "Die Erweiterung ist kostenlos installierbar. Der Free-Plan umfasst bis zu 100 Speicherungen ohne Kreditkarte. Pro kostet 72 $/Jahr (49 $ im 1. Jahr mit STANDING49) oder 9 $/Monat."
   - q: "Kann ich bestehende Chrome-Lesezeichen importieren?"
     a: "Ja. Exportiere deine Lesezeichen als HTML-Datei aus Chrome. Marqly importiert alles und versieht deine Altbestände nachträglich per KI mit Tags."
   - q: "Ersetzt Marqly die Chrome-Lesezeichenleiste?"

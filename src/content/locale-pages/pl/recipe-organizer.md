@@ -9,7 +9,7 @@ hero:
   heading: "Zapisałeś genialny przepis na obiad. W czwartek po pracy za nic nie możesz go odnaleźć"
   subheading: "Połącz inspiracje kulinarne z Instagrama, YouTube i stron kulinarnych w jednej bazie wiedzy. Automatyczne tagowanie składników przez AI i szukanie po tym, co masz w lodówce."
 crumbHome: "Strona główna"
-trustLine: "Do 2 000 przepisów bezpłatnie · Bez karty płatniczej · Chrome, Edge, Firefox, Safari i iOS"
+trustLine: "Do 100 przepisów bezpłatnie · Bez karty płatniczej · Chrome, Edge, Firefox, Safari i iOS"
 faqHeading: "Najczęstsze pytania"
 faqs:
   - q: "Czy mogę zapisywać rolki z Instagrama i TikToka z przepisami?"
@@ -21,7 +21,7 @@ faqs:
   - q: "Czy mogę podzielić się jadłospisem z rodziną?"
     a: "Tak. Stwórz tablicę 'Obiady na ten tydzień' i wygeneruj link, który domownicy otworzą na telefonie bez logowania."
   - q: "Ile to kosztuje?"
-    a: "Do 2 000 zakładek całkowicie za darmo. Wersja Pro kosztuje 72 $/rok (z kuponem STANDING49 pierwszy rok za 49 $) lub 9 $/miesiąc."
+    a: "Do 100 zakładek całkowicie za darmo. Wersja Pro kosztuje 72 $/rok (z kuponem STANDING49 pierwszy rok za 49 $) lub 9 $/miesiąc."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"

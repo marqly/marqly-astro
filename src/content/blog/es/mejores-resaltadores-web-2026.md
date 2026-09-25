@@ -32,7 +32,7 @@ Para la mayoría de los usuarios, el mejor resaltador web en 2026 es **Marqly**:
 
 | Herramienta | ¿Persiste en la página? | Colores y notas | Plan gratuito | Precio Pro |
 | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Sí, siempre | 6 colores + notas | ✅ Hasta 2.000 marcas | $72/año ($49 1er año) |
+| **Marqly** | ✅ Sí, siempre | 6 colores + notas | ✅ Hasta 100 marcas | $72/año ($49 1er año) |
 | **Readwise Reader** | ✅ Sí | Notas y etiquetas | ❌ Solo prueba 30 días | $9,99/mes anual |
 | **Weava** | ✅ Sí | 5 colores | ✅ Sí (~100MB) | $3,99/mes |
 | **Hypothesis** | ✅ Sí | 1 color + notas | ✅ Totalmente gratis | Gratuito |

@@ -9,7 +9,7 @@ hero:
   heading: "Planowanie wakacji to czterdzieści otwartych kart i ani jednej podjętej decyzji"
   subheading: "Zapisz wszystko jednym kliknięciem, pozwól sztucznej inteligencji uporządkować miejsca według miast i stwórz tablicę wyjazdu, którą udostępnisz współtowarzyszom za pomocą prostego linku."
 crumbHome: "Strona główna"
-trustLine: "Do 2 000 zakładek bezpłatnie · Bez karty płatniczej · Chrome, Edge, Firefox, Safari i iOS"
+trustLine: "Do 100 zakładek bezpłatnie · Bez karty płatniczej · Chrome, Edge, Firefox, Safari i iOS"
 faqHeading: "Najczęstsze pytania"
 faqs:
   - q: "Czy mogę udostępnić plan podróży znajomym lub rodzinie?"
@@ -21,7 +21,7 @@ faqs:
   - q: "Czy Marqly pomaga w analizie długich przewodników wideo z YouTube?"
     a: "Tak. AI automatycznie wyciąga najważniejsze punkty trasy i rekomendacje z filmów, oszczędzając Twój czas."
   - q: "Ile wynosi koszt subskrypcji?"
-    a: "Wersja bezpłatna mieści do 2 000 zakładek. Wersja Pro kosztuje 72 $/rok (z kodem STANDING49 pierwszy rok za 49 $) lub 9 $/miesiąc."
+    a: "Wersja bezpłatna mieści do 100 zakładek. Wersja Pro kosztuje 72 $/rok (z kodem STANDING49 pierwszy rok za 49 $) lub 9 $/miesiąc."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"

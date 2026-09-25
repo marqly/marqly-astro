@@ -23,7 +23,7 @@ faqs:
   - q: "Heeft mymind een gratis versie?"
     a: "Geen permanente gratis versie. mymind biedt een proefperiode en een gastmodus met opslaglimiet, maar regulier gebruik vereist een abonnement. AI-functies starten vanaf $ 7,99/maand."
   - q: "Wat is het verschil tussen mymind en Marqly?"
-    a: "mymind is een privé visueel moodboard met automatische tagging voor afbeeldingen en notities. Marqly is gebouwd rondom semantisch zoeken op betekenis, markeerstift op webpagina's, YouTube-samenvattingen en borden. Marqly heeft een royale gratis versie (tot 2.000 items) en Pro kost $ 72/jaar."
+    a: "mymind is een privé visueel moodboard met automatische tagging voor afbeeldingen en notities. Marqly is gebouwd rondom semantisch zoeken op betekenis, markeerstift op webpagina's, YouTube-samenvattingen en borden. Marqly heeft een royale gratis versie (tot 100 items) en Pro kost $ 72/jaar."
 ---
 
 **Het korte antwoord: mymind scoort een 3.8 uit 5.** Het is de mooiste en meest eigenzinnige verzamel-app op de markt: een rustig visueel canvas met indrukwekkend goede automatische AI-labels en nul noodzaak tot handmatig organiseren. Het verliest punten door het ontbreken van een permanente gratis versie, het plaatsen van de handigste AI-functies achter het $ 12,99/maand Mastermind-abonnement en zwakkere prestaties bij het terugvinden van lange tekstartikelen.
@@ -92,7 +92,7 @@ There's a free trial and a guest mode capped by storage, but no permanent free t
 | Highlighter | No | 6 colors + notes, persists on the page |
 | YouTube tools | No | Summary, transcript, and chat on the watch page |
 | Sharing | None, by design | Public boards, no signup needed to view |
-| Free tier | No (trial/guest mode) | Yes, up to 2,000 saves, no card required |
+| Free tier | No (trial/guest mode) | Yes, up to 100 saves, no card required |
 | Paid price | $72–$129/yr | $72/yr (or $9/mo, $49 first year with coupon STANDING49) |
 
 Where **mymind wins**: visual material, aesthetic ambience, and strict privacy posture.

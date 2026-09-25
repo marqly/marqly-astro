@@ -15,7 +15,7 @@ faqs:
   - q: "Czy Marqly zastępuje narzędzia do PRD i roadmap?"
     a: "Nie. Marqly gromadzi wiedzę i źródła poprzedzające tworzenie specyfikacji."
   - q: "Czy Marqly jest darmowy dla PM-ów?"
-    a: "Tak, plan darmowy obejmuje do 2 000 zakładek. Pro to 72 $/rok (49 $ w pierwszym roku z STANDING49)."
+    a: "Tak, plan darmowy obejmuje do 100 zakładek. Pro to 72 $/rok (49 $ w pierwszym roku z STANDING49)."
   - q: "Jak pomaga wyszukiwanie semantyczne?"
     a: "Umożliwia przeszukiwanie według intencji koncepcyjnej, np. 'jak konkurenci wyceniają plany na użytkownika'."
 ctaUrl: "https://app.marqly.com"

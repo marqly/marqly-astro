@@ -9,7 +9,7 @@ hero:
   heading: "Haberinizde alıntıladığınız kaynak sayfa artık aynı şeyleri yazmıyor"
   subheading: "Marqly incelediğiniz günkü web sayfasını orijinal sayfa düzeniyle PDF olarak arşivler. Alıntıları vurgulayın ve video kayıtlarını konuşulan kelimelerle saniyeler içinde tarayın."
 crumbHome: "Ana Sayfa"
-trustLine: "2.000 kaynağa kadar ücretsiz · Kredi kartı gerekmez · Chrome, Edge, Firefox, Safari ve iOS"
+trustLine: "100 kaynağa kadar ücretsiz · Kredi kartı gerekmez · Chrome, Edge, Firefox, Safari ve iOS"
 faqHeading: "Sıkça Sorulan Sorular"
 faqs:
   - q: "Bir sayfayı incelediğim tarihteki haliyle delil olarak koruyabilir miyim?"
@@ -21,7 +21,7 @@ faqs:
   - q: "Hassas haber kaynakları için güvenli midir?"
     a: "Marqly güvenli bir bulut platformudur. Çok yüksek gizlilik gerektiren özel ihbar dosyalarında kurumunuzun dijital güvenlik protokollerini esas alınız."
   - q: "Kullanım ücreti nedir?"
-    a: "Ücretsiz planda 2.000 yer imine kadar arşivleme imkanı sunulur. Pro plan yıllık 72 $ (STANDING49 kuponuyla ilk yıl 49 $) veya aylık 9 $'dır."
+    a: "Ücretsiz planda 100 yer imine kadar arşivleme imkanı sunulur. Pro plan yıllık 72 $ (STANDING49 kuponuyla ilk yıl 49 $) veya aylık 9 $'dır."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Dene"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

@@ -17,7 +17,7 @@ faqs:
   - q: "Eski Pocket arşivimi içeri aktarabilir miyim?"
     a: "Evet. Marqly Pocket dışa aktarma dosyalarını destekler ve içeri aktarılan tüm makaleleri yapay zeka ile otomatik olarak etiketler."
   - q: "Ücretsiz bir alternatif var mı?"
-    a: "Marqly ve Raindrop.io ücretsiz başlangıç planlarına sahiptir. Marqly 2.000 kayda kadar ücretsizdir."
+    a: "Marqly ve Raindrop.io ücretsiz başlangıç planlarına sahiptir. Marqly 100 kayda kadar ücretsizdir."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Deneyin"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

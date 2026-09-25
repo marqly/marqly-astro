@@ -32,4 +32,4 @@ O **Marqly** foi criado para solucionar o maior gargalo dos leitores digitais: r
 
 ## Preços em 2026
 
-O plano gratuito permite até 2.000 itens. O plano Pro oferece recursos ilimitados de IA por $72/ano ($6/mês), com cupom `STANDING49` ($49 no primeiro ano).
+O plano gratuito permite até 100 itens. O plano Pro oferece recursos ilimitados de IA por $72/ano ($6/mês), com cupom `STANDING49` ($49 no primeiro ano).

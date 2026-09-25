@@ -9,7 +9,7 @@ hero:
   heading: "Kaynak bulmak kolaydır. Araştırdığınız şeyi aylar sonra tekrar bulmak ise asıl zor olandır"
   subheading: "Her araştırma projesi için ayrı bir pano, yapay zekadan otomatik etiketler ve özetler. Sayfa metinleri, aldığınız vurgular ve video dökümleri üzerinden anlamsal arama."
 crumbHome: "Ana Sayfa"
-trustLine: "2.000 kaynağa kadar ücretsiz · Kredi kartı gerekmez · Chrome, Edge, Firefox, Safari ve iOS"
+trustLine: "100 kaynağa kadar ücretsiz · Kredi kartı gerekmez · Chrome, Edge, Firefox, Safari ve iOS"
 faqHeading: "Sıkça Sorulan Sorular"
 faqs:
   - q: "Farklı araştırma projelerimi ayrı klasörlerde tutabilir miyim?"
@@ -21,7 +21,7 @@ faqs:
   - q: "Aylar süren uzun soluklu araştırmalar için uygun mudur?"
     a: "Tam olarak bunun için geliştirilmiştir. Zaman geçtikçe tam dosya adını unutsanız bile aklınızdaki kavramla arama yapabilmek benzersiz bir avantaj sağlar."
   - q: "Kullanım ücreti nedir?"
-    a: "2.000 yer imine kadar tamamen ücretsizdir. Pro plan yıllık 72 $ (STANDING49 koduyla ilk yıl 49 $) veya aylık 9 $'dır."
+    a: "100 yer imine kadar tamamen ücretsizdir. Pro plan yıllık 72 $ (STANDING49 koduyla ilk yıl 49 $) veya aylık 9 $'dır."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Dene"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

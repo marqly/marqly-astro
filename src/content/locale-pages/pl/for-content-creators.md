@@ -9,7 +9,7 @@ hero:
   heading: "Zapisujesz genialną inspirację, a gdy przychodzi czas na tworzenie — nie możesz jej znaleźć"
   subheading: "Marqly przekształca porozrzucane zakładki w aktywny swipe file: automatyczne tagi AI, streszczenia wideo i wyszukiwanie według znaczenia przyspieszają Twoją produkcję."
 crumbHome: "Strona główna"
-trustLine: "Do 2 000 zakładek za darmo · Bez karty płatniczej · Chrome, Edge, Firefox, Safari i iOS"
+trustLine: "Do 100 zakładek za darmo · Bez karty płatniczej · Chrome, Edge, Firefox, Safari i iOS"
 faqHeading: "Najczęstsze pytania"
 faqs:
   - q: "Czy mogę zapisywać treści z X, Instagrama i YouTube?"
@@ -19,7 +19,7 @@ faqs:
   - q: "Czy mogę udostępniać kolekcje klientom lub współpracownikom?"
     a: "Tak. Każda tablica może otrzymać publiczny link, który pozwala przeglądać zgromadzone materiały w przeglądarce bez konieczności logowania."
   - q: "Ile to kosztuje?"
-    a: "Plan darmowy pozwala zapisać do 2 000 zakładek. Plan Pro kosztuje 72 $/rok (z kodem STANDING49 pierwszy rok za 49 $) lub 9 $/miesięcznie."
+    a: "Plan darmowy pozwala zapisać do 100 zakładek. Plan Pro kosztuje 72 $/rok (z kodem STANDING49 pierwszy rok za 49 $) lub 9 $/miesięcznie."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"

@@ -17,7 +17,7 @@ faqs:
   - q: "Czy Instapaper ma tryb offline, a Marqly nie?"
     a: "Tak. Instapaper pobiera artykuły do pamięci urządzenia. Marqly działa w chmurze i nie oferuje dedykowanego trybu offline."
   - q: "Jak wyglądają ceny obu usług?"
-    a: "Instapaper Premium kosztuje $5,99/miesięcznie lub $59,99/rocznie. Marqly Pro kosztuje $72/rok (z kuponem STANDING49 tylko $49 w pierwszym roku), a darmowy plan obejmuje do 2 000 zakładek."
+    a: "Instapaper Premium kosztuje $5,99/miesięcznie lub $59,99/rocznie. Marqly Pro kosztuje $72/rok (z kuponem STANDING49 tylko $49 w pierwszym roku), a darmowy plan obejmuje do 100 zakładek."
   - q: "Czy Instapaper posiada funkcje AI?"
     a: "Nie. Instapaper nie oferuje automatycznego tagowania, generowania streszczeń ani wyszukiwania semantycznego."
 ctaUrl: "https://app.marqly.com"

@@ -20,7 +20,7 @@ faqs:
   - q: "Ainda consigo importar meus dados do Pocket após o fim do serviço?"
     a: "Sim. Se você baixou o seu arquivo de exportação do Pocket antes ou durante a janela de encerramento em julho de 2025, ferramentas modernas — como Marqly, Raindrop e Instapaper — importam esse arquivo diretamente, preservando seus links e tags. O Marqly importa o arquivo em cerca de dois minutos."
   - q: "Existe alguma alternativa gratuita ao Pocket?"
-    a: "Sim. O Raindrop.io tem o plano gratuito mais generoso para salvar itens diversos, o Instapaper oferece um modo de leitura minimalista sem custos, e o Marqly oferece plano gratuito com até 2.000 favoritos e busca em toda a biblioteca. O Wallabag é totalmente gratuito caso você faça auto-hospedagem (self-host)."
+    a: "Sim. O Raindrop.io tem o plano gratuito mais generoso para salvar itens diversos, o Instapaper oferece um modo de leitura minimalista sem custos, e o Marqly oferece plano gratuito com até 100 favoritos e busca em toda a biblioteca. O Wallabag é totalmente gratuito caso você faça auto-hospedagem (self-host)."
   - q: "O que tornava o Pocket diferente de um gerenciador de favoritos comum?"
     a: "O Pocket era um app de leitura posterior (read-it-later): salvava matérias em um leitor limpo, tipográfico e sem anúncios, em vez de apenas empilhar links. As melhores alternativas em 2026 preservam esse conforto de leitura e acrescentam resumos com IA e busca semântica."
   - q: "Quando o Pocket encerrou as atividades de fato?"
@@ -60,7 +60,7 @@ As alternativas se dividem em três categorias: ferramentas modernas com IA que 
 
 | Ferramenta | Ideal para | Plano gratuito | Busca semântica com IA | Importa Pocket | Preço |
 |---|---|---|---|---|---|
-| **Marqly** | Busca com IA + segundo cérebro | Sim (até 2.000 itens) | ✅ Semântica (Pro) | ✅ Sim | Grátis; Pro US$ 72/ano (~US$ 6/mês) ou US$ 9/mês |
+| **Marqly** | Busca com IA + segundo cérebro | Sim (até 100 itens) | ✅ Semântica (Pro) | ✅ Sim | Grátis; Pro US$ 72/ano (~US$ 6/mês) ou US$ 9/mês |
 | Raindrop.io | Salvamento geral gratuito | Generoso | ❌ Apenas palavra-chave | ✅ Sim | Grátis; Pro ~US$ 3/mês |
 | Instapaper | Leitura minimalista | Sim | ❌ Apenas palavra-chave | ✅ Sim | Grátis; Premium ~US$ 3/mês |
 | Readwise Reader | Leitores intensos e grifos | Não (apenas teste) | ✅ Sim | ✅ Sim | ~US$ 10–12/mês |
@@ -81,7 +81,7 @@ Se o maior calcanhar de Aquiles do Pocket era salvar com facilidade mas **sofrer
 
 - **Prós:** Busca semântica com IA, marcação automática inteligente, resumos com IA, importação rápida do Pocket, leitor livre de distrações, preço justo.
 - **Contras:** Produto mais novo que os dinossauros do setor, comunidade em rápido crescimento.
-- **Preço:** Plano grátis com até 2.000 itens e busca na biblioteca inteira; Pro por US$ 72/ano (~US$ 6/mês, com cupom `STANDING49` a US$ 49 no primeiro ano) ou US$ 9/mês.
+- **Preço:** Plano grátis com até 100 itens e busca na biblioteca inteira; Pro por US$ 72/ano (~US$ 6/mês, com cupom `STANDING49` a US$ 49 no primeiro ano) ou US$ 9/mês.
 
 [Teste o Marqly grátis →](https://app.marqly.com/lp/replace-pocket)
 
@@ -188,6 +188,6 @@ A grande lição do fim do Pocket é que **salvar links nunca foi a parte difíc
 
 Essa é a grande divisão em 2026. Quase todas as alternativas tradicionais continuam buscando como faziam há dez anos: exigindo que você lembre o título exato do texto. **A busca semântica com IA muda o jogo:** você digita uma descrição ou uma ideia vaga, e a ferramenta encontra o artigo pelo significado, mesmo que aquelas palavras não estejam no texto.
 
-Se você quer essa tranquilidade, [o Marqly foi criado exatamente para isso](https://app.marqly.com/lp/replace-pocket) — importe sua biblioteca do Pocket e comece a pesquisar tudo o que salvou com linguagem natural. É grátis para começar, com até 2.000 favoritos e sem necessidade de cartão de crédito.
+Se você quer essa tranquilidade, [o Marqly foi criado exatamente para isso](https://app.marqly.com/lp/replace-pocket) — importe sua biblioteca do Pocket e comece a pesquisar tudo o que salvou com linguagem natural. É grátis para começar, com até 100 favoritos e sem necessidade de cartão de crédito.
 
 E se além de matérias escritas você também salva muito conteúdo em vídeo, confira nossos comparativos sobre [os melhores apps para salvar e ler depois em 2026](/blog/best-read-it-later-apps-2026) e [os melhores gerenciadores de favoritos com IA](/blog/best-ai-bookmark-manager-2026).

@@ -36,7 +36,7 @@ Un **gestionnaire de favoris avec IA** ne se contente pas d'empiler des liens : 
 
 ### 1. Marqly — La référence de la recherche sémantique
 Conçu spécialement pour retrouver n'importe quelle information par le sens. Sauvegarde de pages, de vidéos YouTube avec transcription et discussion directe avec votre bibliothèque.
-- Gratuit jusqu'à 2 000 favoris avec recherche intégrale.
+- Gratuit jusqu'à 100 favoris avec recherche intégrale.
 - Pro : 72 $/an (49 $ la 1ère année) ou 9 $/mois. [Essayer gratuitement →](https://app.marqly.com/lp/ai-search)
 
 ### 2. Readwise Reader — La solution des universitaires et chercheurs

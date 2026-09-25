@@ -55,7 +55,7 @@ El importador de Marqly procesa miles de enlaces en cuestión de segundos:
 3. Arrastra tu archivo `pocket-export.html` directamente a la pantalla.
 4. El sistema conservará tus títulos, URLs originales y etiquetas temáticas, comenzando a indexar el contenido para búsqueda semántica.
 
-El plan gratuito de Marqly admite hasta 2.000 elementos. Si cuentas con un archivo masivo de lecturas, Marqly Pro ofrece almacenamiento ilimitado por 72 $/año (6 $/mes anual o 9 $/mes mensual) con el código `STANDING49` (49 $ el primer año).
+El plan gratuito de Marqly admite hasta 100 elementos. Si cuentas con un archivo masivo de lecturas, Marqly Pro ofrece almacenamiento ilimitado por 72 $/año (6 $/mes anual o 9 $/mes mensual) con el código `STANDING49` (49 $ el primer año).
 
 ## Paso 4: Recupera tu hábito de lectura
 

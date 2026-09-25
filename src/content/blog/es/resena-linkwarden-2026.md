@@ -33,4 +33,4 @@ faqs:
 - **Búsqueda tradicional:** Solo busca coincidencias de palabras clave, sin entender el significado conceptual.
 - **Sin resúmenes de IA profundos:** La IA se limita a sugerencias de etiquetas.
 
-Si tu objetivo prioritario es **encontrar artículos rápidamente por su significado**, [Marqly](https://app.marqly.com) ofrece un motor semántico superior con extensiones oficiales y plan gratuito de hasta 2.000 enlaces.
+Si tu objetivo prioritario es **encontrar artículos rápidamente por su significado**, [Marqly](https://app.marqly.com) ofrece un motor semántico superior con extensiones oficiales y plan gratuito de hasta 100 enlaces.

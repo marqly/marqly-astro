@@ -32,7 +32,7 @@ Per la grande maggioranza degli utenti nel 2026, il miglior evidenziatore web è
 
 | Strumento | Rimane sulla pagina? | Colori e note | Piano gratuito | Prezzo Pro |
 | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Sì, sempre | 6 colori + note | ✅ Fino a 2.000 elementi | 72 $/anno (49 $ primo anno) |
+| **Marqly** | ✅ Sì, sempre | 6 colori + note | ✅ Fino a 100 elementi | 72 $/anno (49 $ primo anno) |
 | **Readwise Reader** | ✅ Sì | Note e tag | ❌ Prova 30 giorni | 9,99 $/mese annuale |
 | **Weava** | ✅ Sì | 5 colori base | ✅ Sì (~100MB) | 3,99 $/mese |
 | **Hypothesis** | ✅ Sì | 1 colore + note | ✅ Sempre gratuito | Gratuito |

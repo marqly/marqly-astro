@@ -30,7 +30,7 @@ For landing pages, there's a sharper tool than the link: save the page as a PDF.
 
 ## Highlight the exact line that earned the save
 
-A saved landing page is 2,000 words of which you cared about eleven. Six months later, the eleven are unfindable — unless you marked them.
+A saved landing page is 100 words of which you cared about eleven. Six months later, the eleven are unfindable — unless you marked them.
 
 Marqly's highlighter works on any website: select the headline, the CTA, the objection-handling paragraph, and highlight it in one of six colors, with a note if you want to record *why* it works. Colors can carry your own taxonomy — hooks in yellow, proof elements in green, CTAs in blue. Highlights persist on the page when you revisit and sync to your library, so the specific craft you admired becomes part of the permanent record, not a memory that decays with the tab.
 

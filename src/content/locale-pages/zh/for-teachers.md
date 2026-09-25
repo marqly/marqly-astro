@@ -9,7 +9,7 @@ hero:
   heading: "去年那堂公开课上用过的神级素材，今年备课时却怎么也找不到了"
   subheading: "将教案文献、实验演示视频与新闻案例一键收纳。AI 自动提取知识点标签，支持生成免注册公开链接，课后一键分发给全班学生。"
 crumbHome: "首页"
-trustLine: "免费保存高达 2,000 条 · 无需信用卡 · 支持 Chrome, Edge, Firefox, Safari 与 iOS"
+trustLine: "免费保存高达 100 条 · 无需信用卡 · 支持 Chrome, Edge, Firefox, Safari 与 iOS"
 faqHeading: "常见问题"
 faqs:
   - q: "学生不需要注册或下载应用就能看我分享的课件资料吗？"
@@ -21,7 +21,7 @@ faqs:
   - q: "学校机房的公共电脑上能使用吗？"
     a: "可以。除了 Chrome、Edge、Firefox 扩展外，Marqly 提供纯网页版应用，在任何未安装客户端的学校电脑浏览器中直接登录就能访问全部资料。"
   - q: "收费方案是怎样的？"
-    a: "免费版最高支持保存 2,000 条教学素材。Pro 专业版为 72 美元/年（首年凭优惠码 STANDING49 仅需 49 美元）或 9 美元/月。"
+    a: "免费版最高支持保存 100 条教学素材。Pro 专业版为 72 美元/年（首年凭优惠码 STANDING49 仅需 49 美元）或 9 美元/月。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"

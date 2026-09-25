@@ -32,7 +32,7 @@ Für die meisten Nutzer ist **Marqly** 2026 der beste Web-Highlighter: sechs fre
 
 | Tool | Bleibt auf der Seite? | Farben & Notizen | Gratis-Tarif | Pro-Preis |
 | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Ja, dauerhaft | 6 Farben + Notizen | ✅ Bis zu 2.000 Einträge | 72 $/Jahr (49 $ im 1. Jahr) |
+| **Marqly** | ✅ Ja, dauerhaft | 6 Farben + Notizen | ✅ Bis zu 100 Einträge | 72 $/Jahr (49 $ im 1. Jahr) |
 | **Readwise Reader** | ✅ Ja | Notizen + Tags | ❌ Nur 30 Tage Test | 9,99 $/Monat jährlich |
 | **Weava** | ✅ Ja | 5 Farben Standard | ✅ Ja (~100MB) | 3,99 $/Monat |
 | **Hypothesis** | ✅ Ja | 1 Farbe + Notizen | ✅ Komplett kostenlos | Kostenlos |

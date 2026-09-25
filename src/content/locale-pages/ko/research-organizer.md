@@ -9,7 +9,7 @@ hero:
   heading: "자료를 찾는 것은 쉽지만, 몇 달 뒤 그 자료를 다시 찾아내는 것은 어렵습니다"
   subheading: "프로젝트별 보드 구축, AI 자동 요약과 스마트 태깅. 웹페이지 본문, 형광펜 하이라이트 인용구, 영상 자막까지 기억나는 의미 그대로 자유롭게 다시 찾아내세요."
 crumbHome: "홈"
-trustLine: "최대 2,000개 무료 보관 · 신용카드 등록 불필요 · Chrome, Edge, Firefox, Safari, iOS 지원"
+trustLine: "최대 100개 무료 보관 · 신용카드 등록 불필요 · Chrome, Edge, Firefox, Safari, iOS 지원"
 faqHeading: "자주 묻는 질문"
 faqs:
   - q: "여러 연구 과제나 프로젝트별로 자료를 완전히 분리할 수 있나요?"
@@ -21,7 +21,7 @@ faqs:
   - q: "수개월 이상 진행되는 장기 리서치 프로젝트에도 적합한가요?"
     a: "장기 프로젝트일수록 더욱 빛을 발합니다. 시간이 지나 어디에 저장했는지 잊어버려도 머릿속에 떠오르는 개념만으로 필요한 문서를 찾아낼 수 있습니다."
   - q: "이용 요금은 어떻게 되나요?"
-    a: "2,000개 문서까지 무료입니다. Pro 플랜은 연 $72(쿠폰 STANDING49 적용 시 첫해 $49) 또는 월 $9입니다."
+    a: "100개 문서까지 무료입니다. Pro 플랜은 연 $72(쿠폰 STANDING49 적용 시 첫해 $49) 또는 월 $9입니다."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly 무료로 시작하기"
 ctaSecondaryLabel: "Chrome에 추가 — 무료"

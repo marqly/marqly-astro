@@ -17,7 +17,7 @@ faqs:
   - q: "Posso importare i segnalibri accumulati negli anni nel browser?"
     a: "Certamente. Marqly importa file HTML da Chrome, Safari, Edge e Firefox, oltre ad archivi Pocket e Raindrop.io, categorizzandoli con l'IA."
   - q: "Quanto costa Marqly per organizzare i preferiti?"
-    a: "C'è un piano gratuito fino a 2.000 elementi senza carta di credito. Pro costa 72 $/anno (49 $ il primo anno con STANDING49)."
+    a: "C'è un piano gratuito fino a 100 elementi senza carta di credito. Pro costa 72 $/anno (49 $ il primo anno con STANDING49)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"

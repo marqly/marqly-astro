@@ -23,7 +23,7 @@ faqs:
   - q: "Gibt es einen kostenlosen Plan bei mymind?"
     a: "Keinen dauerhaft kostenlosen Plan. mymind bietet eine Testversion und einen speicherbegrenzten Gastmodus, aber die Vollversion erfordert ein Abo. Die KI-Funktionen starten bei 7,99 $/Monat."
   - q: "Was ist der Unterschied zwischen mymind und Marqly?"
-    a: "mymind ist ein privates visuelles Moodboard mit automatischer Verschlagwortung für Bilder und Notizen. Marqly setzt auf semantische Suche nach inhaltlicher Bedeutung, Web-Highlighter, YouTube-Zusammenfassungen und Boards. Marqly bietet einen kostenlosen Tarif (bis 2.000 Lesezeichen) und Pro kostet 72 $/Jahr."
+    a: "mymind ist ein privates visuelles Moodboard mit automatischer Verschlagwortung für Bilder und Notizen. Marqly setzt auf semantische Suche nach inhaltlicher Bedeutung, Web-Highlighter, YouTube-Zusammenfassungen und Boards. Marqly bietet einen kostenlosen Tarif (bis 100 Lesezeichen) und Pro kostet 72 $/Jahr."
 ---
 
 **Das Fazit vorab: mymind erhält von uns 3.8 von 5 Punkten.** Es ist die visuell ansprechendste und kompromissloseste Sammel-App auf dem Markt — ein ruhiges visuelles Canvas mit exzellentem KI-Auto-Tagging und null manueller Sortierarbeit. Punktabzüge gibt es für das Fehlen eines dauerhaft kostenlosen Tarifs, die Beschränkung nützlicher KI-Features auf das 12,99 $/Monat Mastermind-Abo und spürbare Schwächen beim Wiederfinden längerer Textartikel nach inhaltlichen Konzepten.
@@ -92,7 +92,7 @@ There's a free trial and a guest mode capped by storage, but no permanent free t
 | Highlighter | No | 6 colors + notes, persists on the page |
 | YouTube tools | No | Summary, transcript, and chat on the watch page |
 | Sharing | None, by design | Public boards, no signup needed to view |
-| Free tier | No (trial/guest mode) | Yes, up to 2,000 saves, no card required |
+| Free tier | No (trial/guest mode) | Yes, up to 100 saves, no card required |
 | Paid price | $72–$129/yr | $72/yr (or $9/mo, $49 first year with coupon STANDING49) |
 
 Where **mymind wins**: visual material, aesthetic ambience, and strict privacy posture.

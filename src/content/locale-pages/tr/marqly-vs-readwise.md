@@ -13,7 +13,7 @@ trustLine: "Ücretsiz plan · Kredi kartı gerekmez · Chrome, Edge, Firefox, Sa
 faqHeading: "Sıkça Sorulan Sorular"
 faqs:
   - q: "Readwise Reader'ın ücretsiz planı var mı?"
-    a: "Hayır. Reader yalnızca 30 günlük deneme sunar, sonrasında yıllık 119,88$ ücreti vardır. Marqly ise 2.000 kayda kadar ücretsiz plan sunar."
+    a: "Hayır. Reader yalnızca 30 günlük deneme sunar, sonrasında yıllık 119,88$ ücreti vardır. Marqly ise 100 kayda kadar ücretsiz plan sunar."
   - q: "Akademik makale okumak için hangisi daha iyi?"
     a: "Kesinlikle Readwise Reader. EPUB, PDF ve bültenleri klavye kısayollarıyla tarama akışı benzersizdir."
   - q: "O halde Marqly'nin rolü nedir?"

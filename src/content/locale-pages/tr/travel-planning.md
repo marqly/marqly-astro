@@ -9,7 +9,7 @@ hero:
   heading: "Seyahat planlayacağım derken 40 sekme açtınız ve hala hiçbir şeye karar veremediniz"
   subheading: "Her şeyi tek tıkla kaydedin, yapay zekanın şehirlere göre etiketlemesine izin verin ve tüm tatil detaylarını yol arkadaşlarınızla paylaşabileceğiniz tek bir panoda toplayın."
 crumbHome: "Ana Sayfa"
-trustLine: "2.000 kayda kadar ücretsiz · Kredi kartı gerekmez · Chrome, Edge, Firefox, Safari ve iOS"
+trustLine: "100 kayda kadar ücretsiz · Kredi kartı gerekmez · Chrome, Edge, Firefox, Safari ve iOS"
 faqHeading: "Sıkça Sorulan Sorular"
 faqs:
   - q: "Planı birlikte seyahat edeceğim arkadaşlarımla paylaşabilir miyim?"
@@ -21,7 +21,7 @@ faqs:
   - q: "Uzun gezi ve vlog videolarını hızlıca tarayabilir miyim?"
     a: "Evet. Yapay zeka YouTube gezi videolarındaki önemli rotaları ve önerilen mekanları metin olarak özetler."
   - q: "Kullanım ücreti nedir?"
-    a: "2.000 yer imine kadar tamamen ücretsizdir. Pro plan yıllık 72 $ (STANDING49 koduyla ilk yıl 49 $) veya aylık 9 $'dır."
+    a: "100 yer imine kadar tamamen ücretsizdir. Pro plan yıllık 72 $ (STANDING49 koduyla ilk yıl 49 $) veya aylık 9 $'dır."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Dene"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

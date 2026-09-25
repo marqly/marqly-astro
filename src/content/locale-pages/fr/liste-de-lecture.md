@@ -58,7 +58,7 @@ La seconde moitié est la recherche sémantique : décrivez ce que vous voulez a
 
 > « l'article qui expliquait pourquoi les petites équipes livrent plus vite »
 
-Si vous pouvez récupérer n'importe quoi par son contenu, peu importe la taille de la liste. Une bibliothèque de 2 000 éléments consultable est un actif ; 200 sans index sont une charge.
+Si vous pouvez récupérer n'importe quoi par son contenu, peu importe la taille de la liste. Une bibliothèque de 100 éléments consultable est un actif ; 200 sans index sont une charge.
 
 ## Les vidéos sont aussi dans la liste
 

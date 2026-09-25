@@ -9,7 +9,7 @@ hero:
   heading: "Bronnen vinden is eenvoudig. Terugvinden wat je onderzocht hebt, is de echte uitdaging"
   subheading: "Eén bord per project, automatische tags en samenvattingen door AI. Zoek op betekenis door pagina's, markeringen en videotranscripties."
 crumbHome: "Home"
-trustLine: "Gratis tot 2.000 bronnen · Geen creditcard vereist · Chrome, Edge, Firefox, Safari & iOS"
+trustLine: "Gratis tot 100 bronnen · Geen creditcard vereist · Chrome, Edge, Firefox, Safari & iOS"
 faqHeading: "Veelgestelde vragen"
 faqs:
   - q: "Kan ik onderzoek per project scheiden?"
@@ -21,7 +21,7 @@ faqs:
   - q: "Is Marqly geschikt voor langdurig onderzoek over meerdere maanden?"
     a: "Absoluut. Juist bij langlopende projecten bewijst het zoeken op beschrijving zijn waarde: je hoeft je niet te herinneren waar iets is opgeslagen."
   - q: "Wat zijn de tarieven?"
-    a: "Gratis tot 2.000 items. Pro kost $72/jaar ($49 eerste jaar met coupon STANDING49) of $9/maand."
+    a: "Gratis tot 100 items. Pro kost $72/jaar ($49 eerste jaar met coupon STANDING49) of $9/maand."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

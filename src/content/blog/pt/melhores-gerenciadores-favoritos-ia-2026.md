@@ -36,7 +36,7 @@ Um verdadeiro **gerenciador de favoritos com IA** faz muito mais do que salvar l
 
 ### 1. Marqly — O pioneiro em busca semântica real
 O Marqly foi construído com foco na recuperação por significado. Salva páginas, vídeos do YouTube com transcrições, faz perguntas à sua biblioteca e organiza tudo automaticamente.
-- Grátis: até 2.000 favoritos com busca completa.
+- Grátis: até 100 favoritos com busca completa.
 - Pro: $72/ano ($49 no 1º ano) ou $9/mês. [Experimente grátis →](https://app.marqly.com/lp/ai-search)
 
 ### 2. Readwise Reader — O favorito dos pesquisadores

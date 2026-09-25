@@ -9,7 +9,7 @@ hero:
   heading: "글이 막힘없이 써내려가던 순간, 몇 달 전에 읽은 그 인용구를 찾느라 흐름이 끊겼습니다"
   subheading: "Marqly는 작가를 위한 디지털 외장 기억장치입니다. AI 자동 태깅과 요약, 시맨틱 검색으로 제목을 잊었어도 기억나는 내용 그대로 인용 출처를 즉시 찾아냅니다."
 crumbHome: "홈"
-trustLine: "최대 2,000개 무료 보관 · 신용카드 등록 불필요 · Chrome, Edge, Firefox, Safari, iOS 지원"
+trustLine: "최대 100개 무료 보관 · 신용카드 등록 불필요 · Chrome, Edge, Firefox, Safari, iOS 지원"
 faqHeading: "자주 묻는 질문"
 faqs:
   - q: "Marqly 안에서 직접 원고를 작성할 수 있나요?"
@@ -21,7 +21,7 @@ faqs:
   - q: "다큐멘터리나 인터뷰 영상도 자료로 정리되나요?"
     a: "매우 유용합니다. 유튜브 영상을 저장하면 AI가 텍스트 스크립트를 추출하여, 인터뷰이의 발언을 텍스트로 검색하고 해당 재생 위치로 바로 이동할 수 있습니다."
   - q: "이용 요금은 어떻게 되나요?"
-    a: "무료 플랜에서 2,000개 링크까지 저장할 수 있습니다. Pro 플랜은 연 $72(쿠폰 STANDING49 적용 시 첫해 $49) 또는 월 $9입니다."
+    a: "무료 플랜에서 100개 링크까지 저장할 수 있습니다. Pro 플랜은 연 $72(쿠폰 STANDING49 적용 시 첫해 $49) 또는 월 $9입니다."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly 무료로 시작하기"
 ctaSecondaryLabel: "Chrome에 추가 — 무료"

@@ -19,7 +19,7 @@ faqs:
   - q: "Welches ist der beste YouTube-Zusammenfasser mit KI im Jahr 2026?"
     a: "Marqly ist für die meisten Nutzer die beste Wahl, weil die Zusammenfassung direkt auf der YouTube-Wiedergabeseite erscheint – inklusive synchronisiertem Transkript, Video-Chat und dauerhafter Archivierung mit semantischer Suche."
   - q: "Gibt es eine kostenlose Möglichkeit, YouTube-Videos zusammenzufassen?"
-    a: "Ja, mehrere. Marqly bietet einen kostenlosen Plan für bis zu 2.000 Lesezeichen, Eightify erlaubt 3 Videos pro Woche (bis 30 Min.) und Glasp 3 einfache Zusammenfassungen pro Tag."
+    a: "Ja, mehrere. Marqly bietet einen kostenlosen Plan für bis zu 100 Lesezeichen, Eightify erlaubt 3 Videos pro Woche (bis 30 Min.) und Glasp 3 einfache Zusammenfassungen pro Tag."
   - q: "Kann ich Fragen an das YouTube-Video stellen?"
     a: "Ja. Mit der Browser-Erweiterung von Marqly kannst du im Chat-Tab gezielte Fragen stellen, die direkt anhand des echten Transkripts beantwortet werden, ohne YouTube zu verlassen."
 ---
@@ -30,7 +30,7 @@ Der entscheidende Unterschied liegt heute nicht in der Textqualität, sondern da
 
 | Tool | Wo die Zusammenfassung lebt | Transkript | Chat mit dem Video | Gratis-Stufe | Preis (Aug 2026) |
 | --- | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Direkt auf der YouTube-Seite | ✅ Synchron zur Wiedergabe | ✅ Ja (Pro) | ✅ Bis 2.000 Einträge | 72 $/Jahr (49 $ Code STANDING49) |
+| **Marqly** | ✅ Direkt auf der YouTube-Seite | ✅ Synchron zur Wiedergabe | ✅ Ja (Pro) | ✅ Bis 100 Einträge | 72 $/Jahr (49 $ Code STANDING49) |
 | **NoteGPT** | ❌ Separater Arbeitsbereich | ✅ Ja | ✅ Ja | ⚠️ Kleines Kontingent | Pro 9 $/Monat |
 | **Recall** | ❌ Eigene App/Bibliothek | ✅ Ja | ❌ Nur Zusammenfassung | ✅ 10 Zusammenfassungen/Mo | Plus 10 $/Monat jährlich |
 | **Eightify** | ✅ Direkt auf der YouTube-Seite | ⚠️ Nur Kernpunkte | ❌ Nein | ✅ 3 Videos/Woche (≤30m) | 4,95 $/Monat |

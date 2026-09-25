@@ -9,7 +9,7 @@ hero:
   heading: "チームに見せたかった競合のLPは、すでにデザイン刷新されて消えていた"
   subheading: "Marqlyは競合のWebページを実際のレイアウトのままPDFアーカイブ。AIの自動要約とセマンティック検索で、ブランド名ではなく施策の特徴から瞬時に呼び出せます。"
 crumbHome: "ホーム"
-trustLine: "最大2,000件無料 · クレジットカード不要 · Chrome, Edge, Firefox, Safari, iOS"
+trustLine: "最大100件無料 · クレジットカード不要 · Chrome, Edge, Firefox, Safari, iOS"
 faqHeading: "よくある質問"
 faqs:
   - q: "競合がページを改修・削除する前にアーカイブできますか？"
@@ -19,7 +19,7 @@ faqs:
   - q: "クライアントや社内チームにリサーチ結果を共有できますか？"
     a: "はい。作成したボードの公開リンクを発行すれば、相手がアカウントを持っていなくてもブラウザ上でリサーチ一覧を閲覧できます。"
   - q: "利用料金は？"
-    a: "無料プランで最大2,000件保存可能。Proプランは年額72ドル（クーポンSTANDING49で初年度49ドル）または月額9ドルです。"
+    a: "無料プランで最大100件保存可能。Proプランは年額72ドル（クーポンSTANDING49で初年度49ドル）または月額9ドルです。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqlyを無料で試す"
 ctaSecondaryLabel: "Chromeに追加 — 無料"

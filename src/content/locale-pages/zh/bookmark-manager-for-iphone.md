@@ -13,7 +13,7 @@ trustLine: "免费方案无需信用卡 · App Store 官方下载"
 faqHeading: "常见问题解答"
 faqs:
   - q: "Marqly iOS 应用是否免费？"
-    a: "是的，可在 App Store 免费下载。免费计划支持至多 2,000 条收藏，无需提供信用卡。Pro 版提供高级 AI 对话与深度检索。"
+    a: "是的，可在 App Store 免费下载。免费计划支持至多 100 条收藏，无需提供信用卡。Pro 版提供高级 AI 对话与深度检索。"
   - q: "电脑上保存的书签会自动出现在 iPhone 上吗？"
     a: "是的，完全实时同步。无论是通过 Chrome、Edge、Firefox 还是 Safari 保存的内容，都会带着标签和高亮出现在 iOS 客户端中。"
   - q: "有 Android 安卓版客户端吗？"

@@ -17,7 +17,7 @@ faqs:
   - q: "Que peut-on mettre en avant sur un tableau ?"
     a: "Des articles, des vidéos YouTube avec transcription synchronisée et surtout des extraits de textes surlignés en 6 couleurs avec vos notes explicatives."
   - q: "Marqly est-il gratuit pour les curateurs et créateurs ?"
-    a: "Offre gratuite jusqu'à 2 000 éléments sans carte bancaire. Pro à 72 $/an (49 $ la 1ère année avec code STANDING49) pour les fonctionnalités IA complètes."
+    a: "Offre gratuite jusqu'à 100 éléments sans carte bancaire. Pro à 72 $/an (49 $ la 1ère année avec code STANDING49) pour les fonctionnalités IA complètes."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"

@@ -9,7 +9,7 @@ hero:
   heading: "あなたが引用した取材ソースのWebページは、すでにサイレント修正されていた"
   subheading: "Marqlyは閲覧時点のWebページを実際のレイアウトのままPDFアーカイブ。正確な引用箇所のハイライトと、発言内容で検索できるAI動画文字起こしで取材資料を確実に保全します。"
 crumbHome: "ホーム"
-trustLine: "最大2,000件無料 · クレジットカード不要 · Chrome, Edge, Firefox, Safari, iOS"
+trustLine: "最大100件無料 · クレジットカード不要 · Chrome, Edge, Firefox, Safari, iOS"
 faqHeading: "よくある質問"
 faqs:
   - q: "閲覧した当日の状態のままWebページを証拠保全できますか？"
@@ -21,7 +21,7 @@ faqs:
   - q: "機密性の高い取材資料にも適していますか？"
     a: "Marqlyはクラウド型SaaSです。極めて厳格な情報管理が求められる内部告発資料などは、所属する報道機関のセキュリティ規定をご確認ください。"
   - q: "料金体系は？"
-    a: "無料プランで2,000件まで保存可能。Proプランは年額72ドル（初年度クーポンSTANDING49で49ドル）または月額9ドルです。"
+    a: "無料プランで100件まで保存可能。Proプランは年額72ドル（初年度クーポンSTANDING49で49ドル）または月額9ドルです。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqlyを無料で試す"
 ctaSecondaryLabel: "Chromeに追加 — 無料"

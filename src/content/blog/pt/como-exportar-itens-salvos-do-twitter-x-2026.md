@@ -53,4 +53,4 @@ Manter arquivos CSV perdidos no computador não resolve o problema de encontrar 
 - Salve threads imperdíveis no [Marqly](https://app.marqly.com) com um clique na extensão.
 - A IA do Marqly lê a página, adiciona tags automáticas e permite busca semântica em linguagem natural.
 
-O Marqly conta com plano gratuito para até 2.000 links e versão Pro por 72 $/ano (cerca de 6 $/mês).
+O Marqly conta com plano gratuito para até 100 links e versão Pro por 72 $/ano (cerca de 6 $/mês).

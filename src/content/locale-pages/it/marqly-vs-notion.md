@@ -49,7 +49,7 @@ Due problemi, e compaiono proprio quando il volume cresce.
 
 **La cattura è debole.** Il Web Clipper di Notion perde spesso la formattazione e si inceppa sulle pagine complesse. Salva il link, sì, ma ciò che arriva nel database è di solito una versione degradata. Per materiale di riferimento da rileggere, questo conta.
 
-**L'organizzazione resta a te.** Notion non etichetta al salvataggio: crei il database, definisci le proprietà e le riempi. Funziona con 50 link. Con 2.000, il database diventa una discarica con colonne vuote, perché quella manutenzione per mesi non la regge nessuno.
+**L'organizzazione resta a te.** Notion non etichetta al salvataggio: crei il database, definisci le proprietà e le riempi. Funziona con 50 link. Con 100, il database diventa una discarica con colonne vuote, perché quella manutenzione per mesi non la regge nessuno.
 
 È sempre la stessa storia: non fallisce lo strumento, fallisce il lavoro manuale che richiede.
 

@@ -13,7 +13,7 @@ trustLine: "Kostenlos starten, keine Kreditkarte · Im Apple App Store verfügba
 faqHeading: "Häufig gestellte Fragen"
 faqs:
   - q: "Ist die Marqly iOS-App kostenlos?"
-    a: "Ja, der Download im App Store ist kostenlos. Der Free-Plan speichert bis zu 2.000 Einträge ohne Zahlungsdaten. Pro kostet 72 $/Jahr (49 $ im 1. Jahr mit STANDING49)."
+    a: "Ja, der Download im App Store ist kostenlos. Der Free-Plan speichert bis zu 100 Einträge ohne Zahlungsdaten. Pro kostet 72 $/Jahr (49 $ im 1. Jahr mit STANDING49)."
   - q: "Tauchen am PC gespeicherte Lesezeichen auf dem iPhone auf?"
     a: "Ja, vollautomatisch. Jeder Link aus Chrome, Edge, Firefox oder Safari synchronisiert sich direkt mit der iOS-App inklusive KI-Tags."
   - q: "Gibt es eine Android-App?"

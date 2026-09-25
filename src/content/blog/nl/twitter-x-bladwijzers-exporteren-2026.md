@@ -53,4 +53,4 @@ Een vergeten CSV-bestand op je computer helpt je niet verder. Koppel je opgeslag
 - De AI genereert automatisch relevante trefwoorden en beknopte samenvattingen.
 - Zoek semantisch op omschrijving, bijvoorbeeld *"de thread over prijspsychologie"*, zelfs als je de auteur niet meer weet.
 
-Marqly biedt een gratis account tot 2.000 opgeslagen links en een Pro-plan voor 72 $/jaar (circa 6 $/maand).
+Marqly biedt een gratis account tot 100 opgeslagen links en een Pro-plan voor 72 $/jaar (circa 6 $/maand).

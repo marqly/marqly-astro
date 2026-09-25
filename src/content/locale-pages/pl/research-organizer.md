@@ -9,7 +9,7 @@ hero:
   heading: "Gromadzenie źródeł jest proste. Odnalezienie tego, co zbadałeś — to prawdziwe wyzwanie"
   subheading: "Jedna tablica na każdy projekt badawczy, automatyczne tagi i streszczenia od AI. Wyszukuj po znaczeniu w treści stron, własnych zakreśleniach i transkrypcjach."
 crumbHome: "Strona główna"
-trustLine: "Do 2 000 materiałów za darmo · Bez karty płatniczej · Chrome, Edge, Firefox, Safari i iOS"
+trustLine: "Do 100 materiałów za darmo · Bez karty płatniczej · Chrome, Edge, Firefox, Safari i iOS"
 faqHeading: "Najczęstsze pytania"
 faqs:
   - q: "Czy mogę oddzielić materiały dla różnych projektów badawczych?"
@@ -21,7 +21,7 @@ faqs:
   - q: "Czy system sprawdza się przy badaniach trwających wiele miesięcy?"
     a: "Dokładnie do tego został stworzony. Im dłuższy projekt, tym większą wartość ma możliwość odnalezienia źródła po opisie myśli, bez pamiętania tytułu."
   - q: "Ile wynosi koszt subskrypcji?"
-    a: "Do 2 000 zakładek bezpłatnie. Wersja Pro kosztuje 72 $/rok (z kodem STANDING49 pierwszy rok za 49 $) lub 9 $/miesiąc."
+    a: "Do 100 zakładek bezpłatnie. Wersja Pro kosztuje 72 $/rok (z kodem STANDING49 pierwszy rok za 49 $) lub 9 $/miesiąc."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"

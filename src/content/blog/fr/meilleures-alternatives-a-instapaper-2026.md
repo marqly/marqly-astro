@@ -22,4 +22,4 @@ heroAlt: "Meilleures alternatives à Instapaper en 2026"
 
 Instapaper séduit par sa pureté visuelle, mais sa recherche textuelle rigide rend les anciens articles introuvables.
 
-Avec [Marqly](https://app.marqly.com), vous conservez le confort de lecture tout en bénéficiant de l'auto-étiquetage et de la recherche sémantique par IA. Gratuit jusqu'à 2 000 éléments.
+Avec [Marqly](https://app.marqly.com), vous conservez le confort de lecture tout en bénéficiant de l'auto-étiquetage et de la recherche sémantique par IA. Gratuit jusqu'à 100 éléments.

@@ -9,7 +9,7 @@ hero:
   heading: "분명히 감탄하며 저장했던 그 레퍼런스, 정작 만들려고 하니 찾을 수 없다면"
   subheading: "Marqly는 방치된 북마크를 언제든 꺼내 쓰는 활성 스와이프 파일로 바꿉니다. AI 자동 태깅, 영상 핵심 요약, 문맥 기반 시맨틱 검색을 경험하세요."
 crumbHome: "홈"
-trustLine: "최대 2,000개 무료 보관 · 카드 등록 불필요 · Chrome, Edge, Firefox, Safari, iOS 지원"
+trustLine: "최대 100개 무료 보관 · 카드 등록 불필요 · Chrome, Edge, Firefox, Safari, iOS 지원"
 faqHeading: "자주 묻는 질문"
 faqs:
   - q: "X(트위터), 인스타그램, 유튜브 게시물도 저장되나요?"
@@ -19,7 +19,7 @@ faqs:
   - q: "팀원이나 외주 파트너와 보드를 공유할 수 있나요?"
     a: "네. 저장한 보드에 대해 공개 링크를 생성하면 상대방이 별도 가입 절차 없이 브라우저에서 바로 레퍼런스 모음을 확인할 수 있습니다."
   - q: "이용 요금은 어떻게 되나요?"
-    a: "무료 플랜에서 최대 2,000개의 링크를 보관할 수 있습니다. Pro 플랜은 연 $72(쿠폰 STANDING49 적용 시 첫해 $49) 또는 월 $9입니다."
+    a: "무료 플랜에서 최대 100개의 링크를 보관할 수 있습니다. Pro 플랜은 연 $72(쿠폰 STANDING49 적용 시 첫해 $49) 또는 월 $9입니다."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly 무료로 시작하기"
 ctaSecondaryLabel: "Chrome에 추가 — 무료"

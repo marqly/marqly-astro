@@ -17,7 +17,7 @@ faqs:
   - q: "Instapaper'da çevrimdışı mod var, Marqly'de var mı?"
     a: "Hayır. Instapaper sayfaları çevrimdışı okuma için indirir; Marqly ise bulut tabanlıdır ve çevrimdışı okuma modu içermez."
   - q: "Fiyatlandırma nasıl?"
-    a: "Instapaper Premium aylık 5,99$ veya yıllık 59,99$'dır. Marqly Pro yıllık 72$'dır (STANDING49 kuponuyla ilk yıl 49$) ve 2.000 bağlantıya kadar ücretsiz plan sunar."
+    a: "Instapaper Premium aylık 5,99$ veya yıllık 59,99$'dır. Marqly Pro yıllık 72$'dır (STANDING49 kuponuyla ilk yıl 49$) ve 100 bağlantıya kadar ücretsiz plan sunar."
   - q: "Instapaper'da yapay zeka özellikleri var mı?"
     a: "Hayır. Instapaper'da otomatik etiketleme, yapay zeka özetleri veya semantik arama bulunmaz."
 ctaUrl: "https://app.marqly.com"

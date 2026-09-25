@@ -9,7 +9,7 @@ hero:
   heading: "筆が乗っていたのに、数ヶ月前に読んだあの名言を探すために執筆が止まってしまった"
   subheading: "Marqlyは執筆者のための外部記憶です。AIによる自動要約とタグ付けにより、タイトルを忘れても思い出したフレーズや意味から必要な引用箇所を瞬時に呼び出せます。"
 crumbHome: "ホーム"
-trustLine: "最大2,000件無料 · クレジットカード不要 · Chrome, Edge, Firefox, Safari, iOS"
+trustLine: "最大100件無料 · クレジットカード不要 · Chrome, Edge, Firefox, Safari, iOS"
 faqHeading: "よくある質問"
 faqs:
   - q: "Marqlyのアプリ内で直接執筆できますか？"
@@ -21,7 +21,7 @@ faqs:
   - q: "ドキュメンタリーやインタビュー動画も整理できますか？"
     a: "はい。YouTube動画を保存すると文字起こしが自動生成され、映像内の特定の発言をキーワードでピンポイントに検索できます。"
   - q: "料金プランは？"
-    a: "無料プランで2,000件まで保存可能。Proプランは年額72ドル（初年度クーポンSTANDING49で49ドル）または月額9ドルです。"
+    a: "無料プランで100件まで保存可能。Proプランは年額72ドル（初年度クーポンSTANDING49で49ドル）または月額9ドルです。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqlyを無料で試す"
 ctaSecondaryLabel: "Chromeに追加 — 無料"

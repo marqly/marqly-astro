@@ -9,7 +9,7 @@ hero:
   heading: "搜索资料很简单，但几个月后重新找出当时查到的关键论据却很难"
   subheading: "为每个课题建立专属看板。AI 自动提取核心论点与语义标签，无需死记文件名，直接搜索网页正文、高亮批注与视频文字稿。"
 crumbHome: "首页"
-trustLine: "免费保存高达 2,000 条 · 无需信用卡 · 支持 Chrome, Edge, Firefox, Safari 与 iOS"
+trustLine: "免费保存高达 100 条 · 无需信用卡 · 支持 Chrome, Edge, Firefox, Safari 与 iOS"
 faqHeading: "常见问题"
 faqs:
   - q: "可以按不同研究项目或课题建立独立资料库吗？"
@@ -21,7 +21,7 @@ faqs:
   - q: "适合跨越数月甚至数年的大型长期课题吗？"
     a: "非常合适。时间跨度越长，依靠死记硬背寻找文献越困难，而 AI 语义搜索能根据你大脑中残留的概念秒级命中目标。"
   - q: "收费标准是怎样的？"
-    a: "免费版最高支持保存 2,000 条资料。Pro 专业版为 72 美元/年（首年凭优惠码 STANDING49 仅需 49 美元）或 9 美元/月。"
+    a: "免费版最高支持保存 100 条资料。Pro 专业版为 72 美元/年（首年凭优惠码 STANDING49 仅需 49 美元）或 9 美元/月。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"

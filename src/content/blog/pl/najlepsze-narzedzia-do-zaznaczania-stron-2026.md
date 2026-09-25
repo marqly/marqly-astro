@@ -32,7 +32,7 @@ W 2026 roku najlepszym wszechstronnym zakreślaczem stron WWW dla większości u
 
 | Narzędzie | Trwałość na stronie | Kolory i notatki | Wersja darmowa | Cena Pro |
 | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Tak, gwarantowana | 6 kolorów + notatki | ✅ Do 2 000 wpisów | 72 USD/rok (49 USD 1. rok) |
+| **Marqly** | ✅ Tak, gwarantowana | 6 kolorów + notatki | ✅ Do 100 wpisów | 72 USD/rok (49 USD 1. rok) |
 | **Readwise Reader** | ✅ Tak | Notatki i tagi | ❌ 30 dni próby | 9,99 USD/mies. rocznie |
 | **Weava** | ✅ Tak | 5 kolorów podstawowych | ✅ Tak (~100MB) | 3,99 USD/mies. |
 | **Hypothesis** | ✅ Tak | 1 kolor + dyskusje | ✅ 100% darmowy | Bezpłatny |

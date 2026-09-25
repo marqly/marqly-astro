@@ -18,7 +18,7 @@ faqs:
   - q: "Qual é o melhor app para salvar e ler depois em 2026?"
     a: "O Marqly é o melhor aplicativo completo de leitura posterior em 2026: combina captura em um clique, modo de leitura agradável sem anúncios e sincronização entre dispositivos com busca semântica por IA que encontra artigos pelo significado. O Readwise Reader é o melhor para destacar textos, o Raindrop.io é a melhor opção gratuita e o Instapaper para quem busca minimalismo."
   - q: "Existe aplicativo gratuito para salvar artigos e ler depois?"
-    a: "Sim. O Raindrop.io tem o plano grátis mais generoso para vários formatos e o Instapaper oferece um leitor simples sem custos. O Marqly inclui plano gratuito com até 2.000 favoritos e busca completa, e o Wallabag é 100% gratuito se você instalar no seu próprio servidor."
+    a: "Sim. O Raindrop.io tem o plano grátis mais generoso para vários formatos e o Instapaper oferece um leitor simples sem custos. O Marqly inclui plano gratuito com até 100 favoritos e busca completa, e o Wallabag é 100% gratuito se você instalar no seu próprio servidor."
   - q: "O que define um excelente app de 'salvar para ler depois' em 2026?"
     a: "Três fatores decisivos: captura ágil sem atrito, um modo de leitura focado sem poluição visual, e recuperação inteligente com busca semântica que encontra artigos a partir de descrições vagas da sua memória."
   - q: "Qual app é o mais indicado para quem estuda e grifa muito?"
@@ -41,7 +41,7 @@ Três fatores colocam as melhores ferramentas no topo hoje:
 ## O ranking de 2026
 
 ### 1. Marqly — a melhor escolha para salvar *e* reencontrar
-O Marqly reúne todos os fundamentos básicos (salvamento rápido, visualização de leitura impecável, sincronização em qualquer aparelho) e traz a tecnologia essencial que falta aos outros: a **busca semântica com IA**. Descreva o que você lembra e o Marqly localiza o artigo, mesmo sem o título. Além disso, gera resumos automáticos e tags inteligentes, evitando que sua lista de leitura vire um arquivo esquecido. Importa favoritos do Pocket, do Raindrop e dos navegadores. Plano gratuito até 2.000 itens; Pro por ~US$ 6/mês (US$ 49 no primeiro ano com o cupom `STANDING49`). [Testar grátis →](https://app.marqly.com/lp/replace-pocket)
+O Marqly reúne todos os fundamentos básicos (salvamento rápido, visualização de leitura impecável, sincronização em qualquer aparelho) e traz a tecnologia essencial que falta aos outros: a **busca semântica com IA**. Descreva o que você lembra e o Marqly localiza o artigo, mesmo sem o título. Além disso, gera resumos automáticos e tags inteligentes, evitando que sua lista de leitura vire um arquivo esquecido. Importa favoritos do Pocket, do Raindrop e dos navegadores. Plano gratuito até 100 itens; Pro por ~US$ 6/mês (US$ 49 no primeiro ano com o cupom `STANDING49`). [Testar grátis →](https://app.marqly.com/lp/replace-pocket)
 
 ### 2. Readwise Reader — a referência para pesquisadores e leitores analíticos
 Opção premium (~US$ 12/mês) com o sistema de destaques e repetição espaçada (spaced repetition) mais robusto do mercado. Suporta PDFs, newsletters por email e arquivos EPUB. Essencial se o estudo aprofundado de textos fizer parte da sua rotina de trabalho. Veja o comparativo [Readwise Reader vs Marqly](/compare/marqly-vs-readwise-reader).
@@ -71,7 +71,7 @@ Salva links diretamente em tabelas e bases de dados do Notion. Não tem leitor t
 
 | Aplicativo | Busca IA | Modo leitura | Leitura offline | Plano grátis | Preço Pro |
 |---|---|---|---|---|---|
-| Marqly | ✅ Semântica | ✅ | ✅ | ✅ (até 2.000) | ~US$ 6/mês |
+| Marqly | ✅ Semântica | ✅ | ✅ | ✅ (até 100) | ~US$ 6/mês |
 | Readwise Reader | ✅ | ✅ | ✅ | ❌ | US$ 12/mês |
 | Raindrop.io | ❌ | ✅ | ✅ | ✅ | US$ 3/mês |
 | Instapaper | ❌ | ✅ | ✅ | ✅ | US$ 3/mês |
@@ -90,7 +90,7 @@ Salva links diretamente em tabelas e bases de dados do Notion. Não tem leitor t
 
 Não se pergunte «qual app salva artigos mais rápido?»: todos salvam em um piscar de olhos. A pergunta essencial é: **«qual aplicativo vai me permitir encontrar daqui a quatro meses aquela matéria da qual só lembro de forma vaga?»**. É nesse ponto que as ferramentas tradicionais travam, e é aí que a busca semântica com IA faz toda a diferença.
 
-[Teste o Marqly grátis](https://app.marqly.com/lp/replace-pocket), importe sua biblioteca de leitura e comece a pesquisar por significado. Até 2.000 favoritos gratuitos, sem pedir cartão de crédito.
+[Teste o Marqly grátis](https://app.marqly.com/lp/replace-pocket), importe sua biblioteca de leitura e comece a pesquisar por significado. Até 100 favoritos gratuitos, sem pedir cartão de crédito.
 
 ---
 

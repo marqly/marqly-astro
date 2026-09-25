@@ -17,7 +17,7 @@ faqs:
   - q: "Posso importar meus favoritos acumulados no navegador?"
     a: "Sim. O Marqly aceita arquivos HTML exportados do Chrome, Safari, Edge e Firefox, além de arquivos do Pocket e Raindrop.io, etiquetando todo o seu acervo."
   - q: "Quanto custa usar o Marqly como organizador principal?"
-    a: "O plano gratuito é ilimitado em tempo para até 2.000 itens. O Pro custa 72 $/ano (49 $ no 1º ano com cupom STANDING49) com IA avançada."
+    a: "O plano gratuito é ilimitado em tempo para até 100 itens. O Pro custa 72 $/ano (49 $ no 1º ano com cupom STANDING49) com IA avançada."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Testar o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"

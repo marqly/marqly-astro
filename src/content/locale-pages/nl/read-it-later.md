@@ -19,7 +19,7 @@ faqs:
   - q: "Hoe vind ik een artikel terug waarvan ik de titel ben vergeten?"
     a: "Via semantisch zoeken. Beschrijf gewoon waar het artikel over ging en Marqly vindt de juiste pagina direct terug."
   - q: "Wat kost Marqly?"
-    a: "Tot 2.000 opgeslagen artikelen is Marqly gratis. Pro kost $72 per jaar ($49 eerste jaar met code STANDING49) of $9 per maand."
+    a: "Tot 100 opgeslagen artikelen is Marqly gratis. Pro kost $72 per jaar ($49 eerste jaar met code STANDING49) of $9 per maand."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

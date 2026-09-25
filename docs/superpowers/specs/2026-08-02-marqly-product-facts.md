@@ -23,7 +23,7 @@ remember — **semantic search by meaning, not keywords**.
 
 ## Pricing (updated 2026-09-12, verified against the live /pricing page)
 
-- **Free tier**: exists; no card required to sign up. Stores up to **2,000
+- **Free tier**: exists; no card required to sign up. Stores up to **100
   bookmarks** with **search across the whole library** — every saved bookmark
   is readable and searchable on Free. The old "only the 100 most recent are
   accessible" read-wall was **removed**; do not describe it, and do not
@@ -189,7 +189,7 @@ support.
   everything" or "has memory of your whole library" (memory = a few clearable
   preferences); do NOT call the Ask icon "sparkles". (The old "single-shot, do
   not call it chat" rule is retired — Ask IS a multi-turn chat.)
-- The free-tier bookmark quota (**2,000 stored, whole library searchable**,
+- The free-tier bookmark quota (**100 stored, whole library searchable**,
   above) is the one quota that IS published and SHOULD be stated — this list
   used to tell writers to never state a free-tier quota at all, which is why
   the site went a long time without disclosing it. Don't extend that silence

@@ -9,7 +9,7 @@ hero:
   heading: "你明明收藏过那道绝赞的拿手菜，周四下班饿着肚子却怎么也找不到了"
   subheading: "将社交媒体、视频平台与各大博客的美食菜谱汇聚一处。支持 AI 自动识别食材标签，凭食材名或模糊记忆秒出步骤，彻底告别灵感荒。"
 crumbHome: "首页"
-trustLine: "免费保存高达 2,000 条 · 无需信用卡 · 支持 Chrome, Edge, Firefox, Safari 与 iOS"
+trustLine: "免费保存高达 100 条 · 无需信用卡 · 支持 Chrome, Edge, Firefox, Safari 与 iOS"
 faqHeading: "常见问题"
 faqs:
   - q: "可以保存手机各大社交平台的做菜视频吗？"
@@ -21,7 +21,7 @@ faqs:
   - q: "可以把一周菜单分享给家人吗？"
     a: "可以。建立一个“本周晚餐”看板，生成公开分享链接，家人点开浏览器就能看，无需单独下载或注册账号。"
   - q: "价格方案是怎样的？"
-    a: "免费版可保存多达 2,000 条菜谱。Pro 专业版为 72 美元/年（首年使用折扣码 STANDING49 仅需 49 美元）或 9 美元/月。"
+    a: "免费版可保存多达 100 条菜谱。Pro 专业版为 72 美元/年（首年使用折扣码 STANDING49 仅需 49 美元）或 9 美元/月。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"

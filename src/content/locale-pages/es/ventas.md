@@ -17,7 +17,7 @@ faqs:
   - q: "¿Se integra Marqly con mi CRM?"
     a: "Marqly funciona como tu biblioteca de investigación complementaria: guarda los enlaces en crudo y lleva las conclusiones clave a tu CRM."
   - q: "¿Es gratis Marqly para profesionales de ventas?"
-    a: "El plan gratuito cubre hasta 2.000 guardados sin tarjeta. Pro cuesta 72 $/año (49 $ el primer año con STANDING49)."
+    a: "El plan gratuito cubre hasta 100 guardados sin tarjeta. Pro cuesta 72 $/año (49 $ el primer año con STANDING49)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probar Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"

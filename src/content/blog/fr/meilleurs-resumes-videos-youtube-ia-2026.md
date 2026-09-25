@@ -19,7 +19,7 @@ faqs:
   - q: "Quel est le meilleur outil IA pour résumer des vidéos YouTube en 2026 ?"
     a: "Marqly est la solution la plus pratique car le résumé s'affiche directement sur la page du lecteur YouTube avec transcription synchronisée, chat interactif et archivage dans une bibliothèque avec recherche sémantique."
   - q: "Peut-on résumer des vidéos YouTube gratuitement ?"
-    a: "Oui. Marqly propose une formule gratuite jusqu'à 2 000 marque-pages, Eightify permet 3 vidéos par semaine (≤30 min) et Glasp 3 résumés par jour. Copier la transcription dans ChatGPT est aussi possible manuellement."
+    a: "Oui. Marqly propose une formule gratuite jusqu'à 100 marque-pages, Eightify permet 3 vidéos par semaine (≤30 min) et Glasp 3 résumés par jour. Copier la transcription dans ChatGPT est aussi possible manuellement."
   - q: "Peut-on poser des questions précises sur le contenu de la vidéo ?"
     a: "Oui. Grâce à l'onglet Chat de l'extension Marqly, vous pouvez dialoguer avec la vidéo et obtenir des réponses fiables ancrées dans la transcription sans quitter YouTube."
 ---
@@ -30,7 +30,7 @@ La vraie différence ne tient pas à la plume du résumé — tous les outils s'
 
 | Outil | Intégration | Transcription | Chat vidéo | Formule gratuite | Tarif (août 2026) |
 | --- | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Directement sur YouTube | ✅ Synchronisée au mot près | ✅ Oui (Pro) | ✅ Jusqu'à 2 000 liens | 72 $/an (49 $ code STANDING49) |
+| **Marqly** | ✅ Directement sur YouTube | ✅ Synchronisée au mot près | ✅ Oui (Pro) | ✅ Jusqu'à 100 liens | 72 $/an (49 $ code STANDING49) |
 | **NoteGPT** | ❌ Espace de travail externe | ✅ Oui | ✅ Oui | ⚠️ Quota mensuel serré | Pro 9 $/mois |
 | **Recall** | ❌ Application externe | ✅ Oui | ❌ Pas de chat direct | ✅ 10 résumés/mois | Plus 10 $/mois annuel |
 | **Eightify** | ✅ Directement sur YouTube | ⚠️ Puntos clés uniquement | ❌ Non | ✅ 3 vidéos/sem (≤30m) | 4,95 $/mois |

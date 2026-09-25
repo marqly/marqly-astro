@@ -51,4 +51,4 @@ La separación más productiva es clara: **conserva Notion para tus notas y proy
 - **Etiquetado y resúmenes automáticos por IA** que identifican los temas clave sin que tengas que intervenir.
 - **Búsqueda semántica:** Encuentra cualquier artículo describiendo de qué trataba en lenguaje natural, aunque no recuerdes el título.
 
-El plan gratuito de Marqly cubre hasta 2.000 artículos guardados, y Marqly Pro cuesta solo 72 $/año. Mantén tu Notion ordenado y tus lecturas siempre accesibles.
+El plan gratuito de Marqly cubre hasta 100 artículos guardados, y Marqly Pro cuesta solo 72 $/año. Mantén tu Notion ordenado y tus lecturas siempre accesibles.

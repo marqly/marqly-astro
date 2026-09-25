@@ -9,7 +9,7 @@ hero:
   heading: "Het lesmateriaal van vorig schooljaar bestaat nog. Het terugvinden is een ander verhaal"
   subheading: "Bewaar materialen met één klik, laat AI automatisch ordenen en deel leeslijsten voor een thema als openbare pagina met je klas — zonder dat leerlingen hoeven in te loggen."
 crumbHome: "Home"
-trustLine: "Gratis tot 2.000 items · Geen creditcard vereist · Chrome, Edge, Firefox, Safari & iOS"
+trustLine: "Gratis tot 100 items · Geen creditcard vereist · Chrome, Edge, Firefox, Safari & iOS"
 faqHeading: "Veelgestelde vragen"
 faqs:
   - q: "Kunnen leerlingen het materiaal bekijken zonder account?"
@@ -21,7 +21,7 @@ faqs:
   - q: "Werkt het op schoolcomputers?"
     a: "Ja. Naast browserextensies draait de web-app in elke moderne browser, ideaal voor computers waarop geen software geïnstalleerd mag worden."
   - q: "Wat zijn de kosten?"
-    a: "Gratis tot 2.000 opgeslagen links. Pro kost $72/jaar ($49 eerste jaar met coupon STANDING49) of $9/maand."
+    a: "Gratis tot 100 opgeslagen links. Pro kost $72/jaar ($49 eerste jaar met coupon STANDING49) of $9/maand."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

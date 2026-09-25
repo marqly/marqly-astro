@@ -9,7 +9,7 @@ hero:
   heading: "Je sloeg dat heerlijke recept op. Donderdagavond met honger vind je het nergens terug"
   subheading: "Breng alles wat je opslaat via Instagram, YouTube en kookblogs samen in één overzichtelijke bibliotheek. Met automatische AI-ingrediëntentags en zoeken op wat je in huis hebt."
 crumbHome: "Home"
-trustLine: "Gratis tot 2.000 recepten · Geen creditcard vereist · Chrome, Edge, Firefox, Safari & iOS"
+trustLine: "Gratis tot 100 recepten · Geen creditcard vereist · Chrome, Edge, Firefox, Safari & iOS"
 faqHeading: "Veelgestelde vragen"
 faqs:
   - q: "Kan ik recepten van Instagram en TikTok opslaan?"
@@ -21,7 +21,7 @@ faqs:
   - q: "Kan ik een weekmenu delen met mijn gezin of partner?"
     a: "Ja. Maak een bord 'Weekmenu' en deel de openbare link, zodat iedereen zonder app of inloggen het recept kan bekijken."
   - q: "Wat zijn de kosten?"
-    a: "Gratis tot 2.000 recepten. Pro kost $72/jaar ($49 eerste jaar met actiecode STANDING49) of $9/maand."
+    a: "Gratis tot 100 recepten. Pro kost $72/jaar ($49 eerste jaar met actiecode STANDING49) of $9/maand."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

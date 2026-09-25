@@ -34,7 +34,7 @@ Wenn Sie 40 Tabs geöffnet haben, weil Sie **zwischen mehreren Projekten wechsel
 | **OneTab** | Liste | Schnelles Speichersparen | ✅ 100% kostenlos | Kostenlos |
 | **Toby** | Visuelle Boards | Visuelle Denker | ⚠️ Begrenzt (~60 Tabs) | Ab $4,50/Monat |
 | **Session Buddy** | Snapshots | Absturzsicherung | ✅ Kostenlos | Kostenlos |
-| **Marqly** | KI-Wissensbibliothek | Tabs für später | ✅ Bis 2.000 Saves | $72/Jahr ($49 m. STANDING49) |
+| **Marqly** | KI-Wissensbibliothek | Tabs für später | ✅ Bis 100 Saves | $72/Jahr ($49 m. STANDING49) |
 
 ## Warum Marqly über OneTab hinausgeht
 

@@ -19,7 +19,7 @@ faqs:
   - q: "¿Cuál es el mejor resumidor de YouTube con IA en 2026?"
     a: "Marqly es la mejor opción integral porque el resumen se genera directamente en la página del video en YouTube, con transcripción sincronizada, chat interactivo con el video y guardado en biblioteca con búsqueda semántica."
   - q: "¿Existe alguna forma gratuita de resumir videos de YouTube?"
-    a: "Sí. Marqly ofrece un plan gratuito de hasta 2.000 marcadores, Eightify permite 3 videos semanales (hasta 30 minutos) y Glasp da 3 resúmenes diarios básicos. También puedes copiar la transcripción en ChatGPT, aunque requiere pasos manuales."
+    a: "Sí. Marqly ofrece un plan gratuito de hasta 100 marcadores, Eightify permite 3 videos semanales (hasta 30 minutos) y Glasp da 3 resúmenes diarios básicos. También puedes copiar la transcripción en ChatGPT, aunque requiere pasos manuales."
   - q: "¿Se puede chatear y hacer preguntas sobre un video de YouTube?"
     a: "Sí. Con la extensión de Marqly, la pestaña Chat te permite hacer preguntas directamente al contenido del video y recibir respuestas basadas en la transcripción real sin salir de YouTube."
 ---
@@ -30,7 +30,7 @@ La diferencia clave entre estas herramientas hoy no es la redacción del resumen
 
 | Herramienta | Dónde vive el resumen | Transcripción | Chat con el video | Plan gratuito | Precio (agosto 2026) |
 | --- | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ En la página de YouTube | ✅ Sincronizada al segundo | ✅ Sí (Pro) | ✅ Hasta 2.000 elementos | 72 $/año (49 $ cupón STANDING49) |
+| **Marqly** | ✅ En la página de YouTube | ✅ Sincronizada al segundo | ✅ Sí (Pro) | ✅ Hasta 100 elementos | 72 $/año (49 $ cupón STANDING49) |
 | **NoteGPT** | ❌ Espacio externo | ✅ Sí | ✅ Sí | ⚠️ Cuota reducida | Pro 9 $/mes |
 | **Recall** | ❌ Aplicación externa | ✅ Sí | ❌ Enfoque resumen | ✅ 10 resúmenes/mes | Plus 10 $/mes anual |
 | **Eightify** | ✅ En la página de YouTube | ⚠️ Solo puntos clave | ❌ No | ✅ 3 videos/semana (≤30m) | 4,95 $/mes |

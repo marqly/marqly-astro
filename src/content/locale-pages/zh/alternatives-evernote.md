@@ -13,7 +13,7 @@ trustLine: "免费方案 · 无需信用卡 · 支持 Chrome, Edge, Firefox, Saf
 faqHeading: "常见问题"
 faqs:
   - q: "寻找 Evernote 替代品最经济的选择是什么？"
-    a: "针对网页剪藏与智能搜索，Marqly 提供 2,000 条免费额度，Pro 首年优惠仅 $49；纯网址书签可选 Raindrop（年费 $28）；本地 Markdown 笔记可选 Obsidian（免费）。"
+    a: "针对网页剪藏与智能搜索，Marqly 提供 100 条免费额度，Pro 首年优惠仅 $49；纯网址书签可选 Raindrop（年费 $28）；本地 Markdown 笔记可选 Obsidian（免费）。"
   - q: "哪款工具能完全替代 Evernote 的笔记编辑？"
     a: "Notion 或 Obsidian。Marqly 专注于网络书签与灵感检索，并非富文本笔记编辑器。"
   - q: "放弃 Evernote 会损失哪些功能？"

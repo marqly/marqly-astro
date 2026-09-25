@@ -19,7 +19,7 @@ faqs:
   - q: "Czy mogę zaimportować istniejące zakładki z przeglądarki?"
     a: "Tak, wystarczy wyeksportować plik HTML z Chrome, Firefoxa, Edge lub Safari i wgrać go do Marqly. AI automatycznie przetaguje Twoją bibliotekę."
   - q: "Jakie są limity darmowego konta?"
-    a: "Darmowy plan pozwala na zapisanie do 2 000 zakładek. Pakiet Pro kosztuje $72 rocznie (z kuponem STANDING49 tylko $49 w pierwszym roku)."
+    a: "Darmowy plan pozwala na zapisanie do 100 zakładek. Pakiet Pro kosztuje $72 rocznie (z kuponem STANDING49 tylko $49 w pierwszym roku)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"

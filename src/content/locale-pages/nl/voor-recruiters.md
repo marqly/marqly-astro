@@ -17,7 +17,7 @@ faqs:
   - q: "Hoe vind ik een kandidaatprofiel terug als ik de naam vergeten ben?"
     a: "Omschrijf de persoon. Semantisch zoeken koppelt betekenissen: 'backend developer die schreef over migratie weg van Kubernetes' vindt het juiste profiel direct."
   - q: "Wat kost Marqly voor recruiters?"
-    a: "Gratis tot 2.000 items zonder creditcard. Pro voor 72 $/jaar (49 $ in het eerste jaar met code STANDING49) met AI Q&A over salarisrapporten."
+    a: "Gratis tot 100 items zonder creditcard. Pro voor 72 $/jaar (49 $ in het eerste jaar met code STANDING49) met AI Q&A over salarisrapporten."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

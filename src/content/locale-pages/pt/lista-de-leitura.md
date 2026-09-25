@@ -58,7 +58,7 @@ A segunda metade é a busca semântica: descreva o que quer com suas palavras e 
 
 > "o artigo que explicava por que times pequenos entregam mais rápido"
 
-Se você consegue recuperar qualquer coisa pelo conteúdo, deixa de importar quanto tem na lista. Uma biblioteca de 2.000 itens consultável é um ativo; uma de 200 sem índice é um peso.
+Se você consegue recuperar qualquer coisa pelo conteúdo, deixa de importar quanto tem na lista. Uma biblioteca de 100 itens consultável é um ativo; uma de 200 sem índice é um peso.
 
 ## Os vídeos também estão na lista
 

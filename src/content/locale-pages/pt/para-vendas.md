@@ -17,7 +17,7 @@ faqs:
   - q: "O Marqly substitui o CRM?"
     a: "Não, ele opera como seu acervo de pesquisa profunda complementar ao CRM."
   - q: "Qual o valor para profissionais de vendas?"
-    a: "Grátis até 2.000 itens. Pro por 72 $/ano (49 $ com cupom STANDING49)."
+    a: "Grátis até 100 itens. Pro por 72 $/ano (49 $ com cupom STANDING49)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Testar o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"

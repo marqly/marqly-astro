@@ -32,7 +32,7 @@ Para a maior parte dos leitores e pesquisadores em 2026, o melhor marca-texto we
 
 | Ferramenta | Persistência na página | Cores e notas | Plano gratuito | Preço Pro |
 | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Sim, em todas | 6 cores + notas | ✅ Até 2.000 itens | $72/ano ($49 1º ano) |
+| **Marqly** | ✅ Sim, em todas | 6 cores + notas | ✅ Até 100 itens | $72/ano ($49 1º ano) |
 | **Readwise Reader** | ✅ Sim | Notas e tags | ❌ Apenas 30 dias teste | $9,99/mês anual |
 | **Weava** | ✅ Sim | 5 cores | ✅ Sim (~100MB) | $3,99/mês |
 | **Hypothesis** | ✅ Sim | 1 cor + notas | ✅ Totalmente grátis | Gratuito |

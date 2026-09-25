@@ -49,7 +49,7 @@ Neste guia prático, você aprenderá a resgatar seu arquivo e importá-lo em um
 3. Arraste seu arquivo `pocket-export.html` para a janela de importação.
 4. Em poucos instantes, todos os seus links estarão disponíveis com suas respectivas tags.
 
-O Marqly oferece plano gratuito de até 2.000 itens. Para bibliotecas maiores, o Marqly Pro custa $72/ano ($6/mês cobrado anualmente ou $9/mês), com cupom `STANDING49` ($49 no primeiro ano).
+O Marqly oferece plano gratuito de até 100 itens. Para bibliotecas maiores, o Marqly Pro custa $72/ano ($6/mês cobrado anualmente ou $9/mês), com cupom `STANDING49` ($49 no primeiro ano).
 
 ## Passo 4: Retome seu fluxo de salvamento
 

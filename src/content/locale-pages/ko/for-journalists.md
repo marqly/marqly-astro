@@ -9,7 +9,7 @@ hero:
   heading: "기사에서 인용했던 취재원의 공식 페이지는 이미 조용히 수정되었습니다"
   subheading: "Marqly는 확인한 시점 그대로의 원본 웹페이지를 PDF로 완벽하게 증거 보존합니다. 인용문 형광펜 하이라이트와 영상 텍스트 자동 추출로 취재 근거를 지켜냅니다."
 crumbHome: "홈"
-trustLine: "최대 2,000개 무료 보관 · 카드 등록 불필요 · Chrome, Edge, Firefox, Safari, iOS 지원"
+trustLine: "최대 100개 무료 보관 · 카드 등록 불필요 · Chrome, Edge, Firefox, Safari, iOS 지원"
 faqHeading: "자주 묻는 질문"
 faqs:
   - q: "기사를 확인한 당일의 원본 상태 그대로 증거를 보존할 수 있나요?"
@@ -21,7 +21,7 @@ faqs:
   - q: "극비 취재원이나 내부고발 문건 보관에도 적합한가요?"
     a: "Marqly는 안전한 클라우드 서비스이나, 극도의 비밀 유지가 요구되는 기밀 취재원의 경우 소속 언론사의 보안 지침을 우선 준수하시기 바랍니다."
   - q: "요금제는 어떻게 되나요?"
-    a: "무료 플랜에서 2,000개 링크까지 저장 가능합니다. Pro 플랜은 연 $72(쿠폰 STANDING49 적용 시 첫해 $49) 또는 월 $9입니다."
+    a: "무료 플랜에서 100개 링크까지 저장 가능합니다. Pro 플랜은 연 $72(쿠폰 STANDING49 적용 시 첫해 $49) 또는 월 $9입니다."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly 무료로 시작하기"
 ctaSecondaryLabel: "Chrome에 추가 — 무료"

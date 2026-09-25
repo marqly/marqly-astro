@@ -18,7 +18,7 @@ faqs:
   - q: "¿Cuál es la mejor app para leer después en 2026?"
     a: "Marqly es la mejor app para leer más tarde en 2026: reúne guardado con un clic, un modo lectura limpio sin publicidad y sincronización total con búsqueda semántica por IA para encontrar artículos por su significado. Readwise Reader destaca para subrayar textos, Raindrop.io es la mejor opción gratuita e Instapaper para lectura minimalista."
   - q: "¿Hay aplicaciones gratuitas para leer más tarde?"
-    a: "Sí. Raindrop.io tiene el plan gratuito más completo para todo tipo de medios e Instapaper ofrece lectura básica gratuita. Marqly ofrece un plan gratuito con hasta 2.000 marcadores y búsqueda integral, y Wallabag es 100% gratuito si lo auto-alojas."
+    a: "Sí. Raindrop.io tiene el plan gratuito más completo para todo tipo de medios e Instapaper ofrece lectura básica gratuita. Marqly ofrece un plan gratuito con hasta 100 marcadores y búsqueda integral, y Wallabag es 100% gratuito si lo auto-alojas."
   - q: "¿Qué define a una gran aplicación de lectura diferida en 2026?"
     a: "Tres factores clave: captura instantánea en un clic o menú compartir, un modo de lectura limpio y cómodo, y recuperación inteligente con búsqueda semántica que encuentra artículos describiendo lo que recuerdas."
   - q: "¿Qué app conviene a quienes leen y subrayan intensamente?"
@@ -41,7 +41,7 @@ Tres pilares marcan la diferencia hoy:
 ## La clasificación 2026
 
 ### 1. Marqly — la mejor para guardar *y* volver a encontrar
-Marqly reúne todo lo básico (guardado con un clic, vista de lectura limpia, sincronización multiplataforma) y le suma lo que casi todas las herramientas omiten: **búsqueda semántica con IA**. Describes con tus propias palabras lo que recuerdas de un artículo y Marqly lo localiza al instante, incluso sin el título. Además, genera resúmenes automáticos y etiquetas inteligentes para que tu lista de lectura no se convierta en un cementerio de enlaces. Importa datos de Pocket, Raindrop y navegadores. Plan gratuito hasta 2.000 marcadores; Pro ~6 $/mes (49 $ el primer año con código `STANDING49`). [Probar gratis →](https://app.marqly.com/lp/replace-pocket)
+Marqly reúne todo lo básico (guardado con un clic, vista de lectura limpia, sincronización multiplataforma) y le suma lo que casi todas las herramientas omiten: **búsqueda semántica con IA**. Describes con tus propias palabras lo que recuerdas de un artículo y Marqly lo localiza al instante, incluso sin el título. Además, genera resúmenes automáticos y etiquetas inteligentes para que tu lista de lectura no se convierta en un cementerio de enlaces. Importa datos de Pocket, Raindrop y navegadores. Plan gratuito hasta 100 marcadores; Pro ~6 $/mes (49 $ el primer año con código `STANDING49`). [Probar gratis →](https://app.marqly.com/lp/replace-pocket)
 
 ### 2. Readwise Reader — la mejor para lectores analíticos que subrayan
 Opción premium (~12 $/mes) con el mejor sistema de subrayados y repaso espaciado (spaced repetition). Admite PDFs, newsletters y EPUBs. Imprescindible si procesar y estudiar textos forma parte de tu trabajo. Conoce más en nuestro análisis [Readwise Reader vs Marqly](/compare/marqly-vs-readwise-reader).
@@ -71,7 +71,7 @@ Envía páginas web directamente a tus bases de datos en Notion. Sin lector tipo
 
 | Aplicación | Búsqueda IA | Modo lectura | Lectura offline | Plan gratuito | Precio Pro |
 |---|---|---|---|---|---|
-| Marqly | ✅ Semántica | ✅ | ✅ | ✅ (hasta 2.000) | ~6 $/mes |
+| Marqly | ✅ Semántica | ✅ | ✅ | ✅ (hasta 100) | ~6 $/mes |
 | Readwise Reader | ✅ | ✅ | ✅ | ❌ | 12 $/mes |
 | Raindrop.io | ❌ | ✅ | ✅ | ✅ | 3 $/mes |
 | Instapaper | ❌ | ✅ | ✅ | ✅ | 3 $/mes |
@@ -90,7 +90,7 @@ Envía páginas web directamente a tus bases de datos en Notion. Sin lector tipo
 
 No te preguntes «¿qué app guarda páginas más rápido?»: todas lo hacen en un segundo. La pregunta clave es: **«¿qué aplicación me permitirá encontrar dentro de cuatro meses aquel artículo del que solo recuerdo una idea general?»**. Ahí es donde la mayoría fracasa y donde la búsqueda con IA marca una diferencia abrumadora.
 
-[Prueba Marqly gratis](https://app.marqly.com/lp/replace-pocket), importa tu historial de lectura y empieza a buscar por significado. Sin tarjeta de crédito y hasta 2.000 marcadores gratis.
+[Prueba Marqly gratis](https://app.marqly.com/lp/replace-pocket), importa tu historial de lectura y empieza a buscar por significado. Sin tarjeta de crédito y hasta 100 marcadores gratis.
 
 ---
 

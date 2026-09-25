@@ -9,7 +9,7 @@ hero:
   heading: "本来只是想做旅行攻略，结果打开了40个标签页，依然什么都没定下来"
   subheading: "将机票价格、酒店房型、旅行 Vlog 与各大平台的实用攻略一网打尽。AI 自动按城市和玩法打标，生成一条链接即可共享的同行看板。"
 crumbHome: "首页"
-trustLine: "免费保存高达 2,000 条 · 无需信用卡 · 支持 Chrome, Edge, Firefox, Safari 与 iOS"
+trustLine: "免费保存高达 100 条 · 无需信用卡 · 支持 Chrome, Edge, Firefox, Safari 与 iOS"
 faqHeading: "常见问题"
 faqs:
   - q: "可以把旅行计划和同行的朋友或家人分享吗？"
@@ -21,7 +21,7 @@ faqs:
   - q: "支持总结长篇旅行 Vlog 视频吗？"
     a: "支持。YouTube 上的深度旅行攻略视频，AI 会自动提炼出景点路线、避坑指南和时间节点，省去看视频的时间。"
   - q: "定价方案是怎样的？"
-    a: "免费版可保存多达 2,000 条旅行资料。Pro 专业版为 72 美元/年（首年使用折扣码 STANDING49 仅需 49 美元）或 9 美元/月。"
+    a: "免费版可保存多达 100 条旅行资料。Pro 专业版为 72 美元/年（首年使用折扣码 STANDING49 仅需 49 美元）或 9 美元/月。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"

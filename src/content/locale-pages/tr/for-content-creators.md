@@ -9,7 +9,7 @@ hero:
   heading: "Harika bir fikir görüp kaydettiniz. Sıra üretmeye geldiğinde ise hiçbir yerde yok"
   subheading: "Marqly dağınık yer imlerinizi yaşayan bir swipe file'a dönüştürür: otomatik yapay zeka etiketleri, video özetleri ve anlamsal arama ile içerik üretim hızınızı katlayın."
 crumbHome: "Ana Sayfa"
-trustLine: "2.000 kayda kadar ücretsiz · Kredi kartı gerekmez · Chrome, Edge, Firefox, Safari ve iOS"
+trustLine: "100 kayda kadar ücretsiz · Kredi kartı gerekmez · Chrome, Edge, Firefox, Safari ve iOS"
 faqHeading: "Sıkça Sorulan Sorular"
 faqs:
   - q: "X, Instagram ve YouTube içeriklerini kaydedebilir miyim?"
@@ -19,7 +19,7 @@ faqs:
   - q: "Koleksiyonlarımı ekibimle veya müşterilerimle paylaşabilir miyim?"
     a: "Evet. Panolarınız için herkese açık bağlantı üreterek, karşı taraf üye olmadan da tarayıcısında içerikleri inceleyebilir."
   - q: "Fiyatlandırma nasıldır?"
-    a: "Ücretsiz planda 2.000 yer imine kadar kayıt yapabilirsiniz. Pro plan yıllık 72 $ (STANDING49 kuponuyla ilk yıl 49 $) veya aylık 9 $'dır."
+    a: "Ücretsiz planda 100 yer imine kadar kayıt yapabilirsiniz. Pro plan yıllık 72 $ (STANDING49 kuponuyla ilk yıl 49 $) veya aylık 9 $'dır."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Dene"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

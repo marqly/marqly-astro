@@ -49,7 +49,7 @@ Testen Sie jedes Tool selbst, bevor Sie Geld investieren:
 
 | Tool | Echte semantische Suche? | Was die "KI" tatsächlich tut | Kostenlose Version |
 | --- | --- | --- | --- |
-| **Marqly** | ✅ Ja (Kernfunktion in Pro) | Suche nach Sinn, Zusammenfassungen, Auto-Tags | ✅ Ja (bis zu 2.000 Lesezeichen) |
+| **Marqly** | ✅ Ja (Kernfunktion in Pro) | Suche nach Sinn, Zusammenfassungen, Auto-Tags | ✅ Ja (bis zu 100 Lesezeichen) |
 | **mymind** | ⚠️ Teilweise | Visuelle Erfassung und Auto-Tags | ❌ Nein (~8 $/Monat) |
 | **Recall** | ⚠️ Teilweise | Wissensgraph und Chat über Zusammenfassungen | ✅ Eingeschränkt |
 | **Readwise Reader** | ⚠️ Teilweise | Ghostreader-Chat über Dokumenten | ❌ Nur Testphase (~10-13 $/Monat) |
@@ -60,7 +60,7 @@ Testen Sie jedes Tool selbst, bevor Sie Geld investieren:
 
 ## Fazit und Empfehlung
 
-- **Marqly:** Der Spitzenreiter für das Wiederfinden nach Bedeutung. Kostenloser Plan bis zu 2.000 Elemente; Pro für 72 $/Jahr (6 $/Monat jährlich oder 9 $/Monat) mit Gutscheincode STANDING49 (49 $ im ersten Jahr).
+- **Marqly:** Der Spitzenreiter für das Wiederfinden nach Bedeutung. Kostenloser Plan bis zu 100 Elemente; Pro für 72 $/Jahr (6 $/Monat jährlich oder 9 $/Monat) mit Gutscheincode STANDING49 (49 $ im ersten Jahr).
 - **mymind:** Perfekt für Designer, die ein visuelles Board ohne Ordnerhierarchien bevorzugen.
 - **Readwise Reader:** Die erste Wahl für Power-Leser mit intensivem Markieren von E-Books und Fachartikeln.
 - **Raindrop.io:** Der beste klassische Lesezeichen-Manager für Schlagwort-Liebhaber.

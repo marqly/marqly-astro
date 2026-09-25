@@ -13,7 +13,7 @@ trustLine: "무료 플랜 제공 · 신용카드 불필요 · Chrome, Edge, Fire
 faqHeading: "자주 묻는 질문"
 faqs:
   - q: "에버노트 대체재 중 가장 가성비가 좋은 툴은?"
-    a: "웹페이지 스크랩과 AI 검색이라면 Marqly(2,000개 무료, Pro 첫해 쿠폰 시 $49). 단순 URL 링크라면 Raindrop.io(연 $28). 로컬 마크다운 노트라면 Obsidian(무료)입니다."
+    a: "웹페이지 스크랩과 AI 검색이라면 Marqly(100개 무료, Pro 첫해 쿠폰 시 $49). 단순 URL 링크라면 Raindrop.io(연 $28). 로컬 마크다운 노트라면 Obsidian(무료)입니다."
   - q: "에버노트의 긴 노트 작성 기능을 온전히 대체할 툴은?"
     a: "Notion 또는 Obsidian입니다. Marqly는 웹 북마크와 지식 검색 도구이며 리치 텍스트 에디터는 아닙니다."
   - q: "에버노트를 떠나면 무엇을 잃게 되나요?"

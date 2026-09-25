@@ -13,7 +13,7 @@ trustLine: "Darmowy plan · Bez karty kredytowej · Chrome, Edge, Firefox, Safar
 faqHeading: "Często zadawane pytania"
 faqs:
   - q: "Czy Readwise Reader ma darmowy plan?"
-    a: "Nie. Reader oferuje jedynie 30-dniowy okres próbny, po czym kosztuje niemal $120 rocznie. Marqly udostępnia darmowy plan do 2 000 zakładek."
+    a: "Nie. Reader oferuje jedynie 30-dniowy okres próbny, po czym kosztuje niemal $120 rocznie. Marqly udostępnia darmowy plan do 100 zakładek."
   - q: "Które narzędzie jest lepsze do czytania artykułów naukowych?"
     a: "Readwise Reader bez dwóch zdań. Obsługa plików PDF, EPUB oraz skrótów klawiszowych jest w nim wzorcowa."
   - q: "Jaka jest rola Marqly?"

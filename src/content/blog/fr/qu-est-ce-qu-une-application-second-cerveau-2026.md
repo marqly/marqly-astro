@@ -42,4 +42,4 @@ Bâtir un wiki complexe sur Notion ou Obsidian demande un temps considérable qu
 
 Avec [Marqly](https://app.marqly.com), importez vos signets désordonnés en quelques instants. L'IA étiquette automatiquement vos documents et active la recherche sémantique en langage naturel.
 
-Marqly propose un compte gratuit jusqu'à 2 000 éléments et une formule Pro à 72 $/an.
+Marqly propose un compte gratuit jusqu'à 100 éléments et une formule Pro à 72 $/an.

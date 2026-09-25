@@ -42,4 +42,4 @@ Você não precisa aprender ferramentas complexas de markdown para usufruir de u
 
 Com o [Marqly](https://app.marqly.com), basta importar seus links antigos e começar a salvar suas leituras com a extensão. A IA resume o conteúdo, coloca tags e permite busca semântica em linguagem natural.
 
-O Marqly conta com plano gratuito para até 2.000 itens e versão Pro por 72 $/ano.
+O Marqly conta com plano gratuito para até 100 itens e versão Pro por 72 $/ano.

@@ -19,7 +19,7 @@ faqs:
   - q: "2026'da en iyi YouTube video özetleme aracı hangisidir?"
     a: "Çoğu kullanıcı için Marqly en iyi tercihtir; çünkü yapay zeka kartı doğrudan YouTube izleme sayfasında çalışır. Oynatmayla senkronize transkript, videoyla soru-cevap sohbeti ve anlamsal aramayla kütüphaneye kayıt özelliklerini bir arada sunar."
   - q: "YouTube videolarını ücretsiz özetlemenin bir yolu var mı?"
-    a: "Evet. Marqly 2.000 kayda kadar ücretsiz plan sunar, Eightify haftada 3 video (30 dakikaya kadar) hakkı tanır, Glasp günde 3 temel özet verir. ChatGPT'ye transkripti elle yapıştırmak da mümkündür."
+    a: "Evet. Marqly 100 kayda kadar ücretsiz plan sunar, Eightify haftada 3 video (30 dakikaya kadar) hakkı tanır, Glasp günde 3 temel özet verir. ChatGPT'ye transkripti elle yapıştırmak da mümkündür."
   - q: "İzlediğim video hakkında yapay zekaya sorular sorabilir miyim?"
     a: "Evet. Marqly uzantısındaki Chat sekmesi sayesinde YouTube sayfasından ayrılmadan, videoda geçen gerçek konuşmalara dayalı detaylı sorular sorup anında yanıt alabilirsiniz."
 ---
@@ -30,7 +30,7 @@ Bu araçlar arasındaki gerçek fark özetin dil bilgisi kalitesi değil; **öze
 
 | Araç | Özet Nerede Yaşar | Transkript | Video İle Sohbet | Ücretsiz Plan | Fiyat (Ağustos 2026) |
 | --- | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ YouTube izleme sayfasında | ✅ Oynatmayla tam senkron | ✅ Evet (Pro) | ✅ 2.000 kayda kadar | Yıllık 72 $ (STANDING49 koduyla ilk yıl 49 $) |
+| **Marqly** | ✅ YouTube izleme sayfasında | ✅ Oynatmayla tam senkron | ✅ Evet (Pro) | ✅ 100 kayda kadar | Yıllık 72 $ (STANDING49 koduyla ilk yıl 49 $) |
 | **NoteGPT** | ❌ Ayrı çalışma alanı | ✅ Evet | ✅ Evet | ⚠️ Küçük kota | Pro 9 $/ay |
 | **Recall** | ❌ Ayrı uygulama/kütüphane | ✅ Evet | ❌ Sadece özet | ✅ 10 özet/ay | Plus yıllık ödemede 10 $/ay |
 | **Eightify** | ✅ YouTube izleme sayfasında | ⚠️ Yalnızca ana maddeler | ❌ Hayır | ✅ Haftada 3 video (≤30 dk) | 4,95 $/ay |

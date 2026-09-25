@@ -23,7 +23,7 @@ faqs:
   - q: "mymind에 무료 요금제가 있나요?"
     a: "영구 무료 요금제는 없습니다. 무료 체험과 저장 용량 제한이 있는 게스트 모드가 있지만 정식 사용에는 구독이 필요합니다. AI 기능은 월 $7.99부터 시작합니다. 무료 티어가 필요하다면 Raindrop이나 Marqly를 추천합니다."
   - q: "mymind와 Marqly의 차이점은 무엇인가요?"
-    a: "mymind는 폴더 정리가 필요 없는 비공개 시각적 캔버스입니다. Marqly는 의미 기반 시맨틱 검색, 웹 형광펜 하이라이트, YouTube 영상 요약, 공유 보드를 제공하는 지식 검색 엔진입니다. Marqly는 무료 요금제(최대 2,000개 저장)를 제공하며 Pro는 연 $72입니다."
+    a: "mymind는 폴더 정리가 필요 없는 비공개 시각적 캔버스입니다. Marqly는 의미 기반 시맨틱 검색, 웹 형광펜 하이라이트, YouTube 영상 요약, 공유 보드를 제공하는 지식 검색 엔진입니다. Marqly는 무료 요금제(최대 100개 저장)를 제공하며 Pro는 연 $72입니다."
 ---
 
 **결론부터 말하자면, mymind의 평점은 5점 만점에 3.8점입니다.** 디자인 완성도가 가장 높고 뚜렷한 철학을 지닌 북마크 도구입니다. 폴더 정리가 일체 필요 없는 우수한 AI 자동 태깅과 차분한 비주얼 캔버스는 독보적입니다. 그러나 영구 무료 플랜이 없고 핵심 기능인 AI 요약과 아티클 백업을 월 $12.99의 Mastermind 플랜에 묶어두었으며, 본문 내용 기반 검색 성능이 아쉽다는 점에서 점수가 깎였습니다.
@@ -92,7 +92,7 @@ There's a free trial and a guest mode capped by storage, but no permanent free t
 | Highlighter | No | 6 colors + notes, persists on the page |
 | YouTube tools | No | Summary, transcript, and chat on the watch page |
 | Sharing | None, by design | Public boards, no signup needed to view |
-| Free tier | No (trial/guest mode) | Yes, up to 2,000 saves, no card required |
+| Free tier | No (trial/guest mode) | Yes, up to 100 saves, no card required |
 | Paid price | $72–$129/yr | $72/yr (or $9/mo, $49 first year with coupon STANDING49) |
 
 Where **mymind wins**: visual material, aesthetic ambience, and strict privacy posture.

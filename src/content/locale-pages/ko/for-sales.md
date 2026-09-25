@@ -17,7 +17,7 @@ faqs:
   - q: "CRM 시스템과 어떻게 함께 쓰나요?"
     a: "Marqly는 웹상의 방대한 조사 자료를 원형 그대로 보관하는 개인 지식고 역할을 합니다."
   - q: "영업 담당자가 무료로 사용할 수 있나요?"
-    a: "2,000개까지 무료입니다. Pro 플랜은 연 $72(첫해 쿠폰 STANDING49 적용 시 $49)입니다."
+    a: "100개까지 무료입니다. Pro 플랜은 연 $72(첫해 쿠폰 STANDING49 적용 시 $49)입니다."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly 무료로 시작하기"
 ctaSecondaryLabel: "Chrome에 추가 — 무료"

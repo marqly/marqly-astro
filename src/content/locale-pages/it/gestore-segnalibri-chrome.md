@@ -13,7 +13,7 @@ trustLine: "Piano gratuito, senza carta · Disponibile su Chrome Web Store"
 faqHeading: "Domande frequenti"
 faqs:
   - q: "Marqly è gratuito sul Chrome Web Store?"
-    a: "L'estensione si installa gratis. Il piano Free supporta fino a 2.000 elementi senza carta di credito. Pro costa 72 $/anno (49 $ il primo anno con il codice STANDING49) o 9 $/mese."
+    a: "L'estensione si installa gratis. Il piano Free supporta fino a 100 elementi senza carta di credito. Pro costa 72 $/anno (49 $ il primo anno con il codice STANDING49) o 9 $/mese."
   - q: "Posso importare i miei preferiti già salvati in Chrome?"
     a: "Sì. Esporta i segnalibri di Chrome in formato HTML e importali in Marqly: l'IA applicherà i tag all'intero archivio pregresso in automatico."
   - q: "Sostituisce la barra dei preferiti di Chrome?"

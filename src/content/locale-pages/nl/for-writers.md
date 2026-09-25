@@ -9,7 +9,7 @@ hero:
   heading: "Je zat midden in je schrijfstroom, totdat je dat ene citaat van maanden geleden nodig had"
   subheading: "Marqly bewaart je onderzoek met automatische AI-tags en samenvattingen. Vind de juiste bron terug door in je eigen woorden te beschrijven wat je je herinnert."
 crumbHome: "Home"
-trustLine: "Gratis tot 2.000 items · Geen creditcard vereist · Chrome, Edge, Firefox, Safari & iOS"
+trustLine: "Gratis tot 100 items · Geen creditcard vereist · Chrome, Edge, Firefox, Safari & iOS"
 faqHeading: "Veelgestelde vragen"
 faqs:
   - q: "Kan ik direct in Marqly schrijven?"
@@ -21,7 +21,7 @@ faqs:
   - q: "Is het geschikt voor documentaires of gesproken interviews?"
     a: "Zeker. Bij het opslaan van een YouTube-video wordt automatisch een doorzoekbaar transcript gegenereerd, zodat je die ene uitspraak maanden later moeiteloos terugvindt."
   - q: "Wat zijn de tarieven?"
-    a: "Tot 2.000 items gratis. Pro kost $72/jaar ($49 eerste jaar met actiecode STANDING49) of $9/maand."
+    a: "Tot 100 items gratis. Pro kost $72/jaar ($49 eerste jaar met actiecode STANDING49) of $9/maand."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

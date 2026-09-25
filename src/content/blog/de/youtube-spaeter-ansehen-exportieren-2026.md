@@ -51,4 +51,4 @@ Der modernere und effizientere Weg:
 - Marqly speichert das Video inklusive vollständigem Transkript und KI-Zusammenfassung ab.
 - Dank **semantischer Suche** finden Sie Videos über Umschreibungen (z. B. *"der Vortrag über Zinseszins und Sparpläne"*), ohne Titel oder Kanalnamen wissen zu müssen.
 
-Marqly bietet einen Gratis-Plan für bis zu 2.000 Links und einen Pro-Tarif für 72 $/Jahr.
+Marqly bietet einen Gratis-Plan für bis zu 100 Links und einen Pro-Tarif für 72 $/Jahr.

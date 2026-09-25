@@ -9,7 +9,7 @@ hero:
   heading: "Ekibe örnek göstermek istediğiniz rakip firmanın o açılış sayfası yenilendi ve yayından kalktı"
   subheading: "Marqly rakip web sayfalarını orijinal görsel düzeniyle PDF formatında arşivler. Yapay zeka sayfa amacını özetler; marka adını hatırlamasanız bile pazarlama kurgusuna göre anında bulursunuz."
 crumbHome: "Ana Sayfa"
-trustLine: "2.000 kayda kadar ücretsiz · Kredi kartı gerekmez · Chrome, Edge, Firefox, Safari ve iOS"
+trustLine: "100 kayda kadar ücretsiz · Kredi kartı gerekmez · Chrome, Edge, Firefox, Safari ve iOS"
 faqHeading: "Sıkça Sorulan Sorular"
 faqs:
   - q: "Rakip firma sayfayı değiştirmeden veya silmeden önce tam arşiv alabilir miyim?"
@@ -19,7 +19,7 @@ faqs:
   - q: "Hazırladığım analiz panosunu müşterilerim veya ekibimle paylaşabilir miyim?"
     a: "Evet. Panolarınız için tek tıkla herkese açık bağlantı oluşturabilir ve karşı taraf üye olmadan tarayıcısında tüm referansları görüntüleyebilir."
   - q: "Fiyatlandırma nasıldır?"
-    a: "Ücretsiz planda 2.000 yer imine kadar arşivleme yapılabilir. Pro plan yıllık 72 $ (STANDING49 koduyla ilk yıl 49 $) veya aylık 9 $'dır."
+    a: "Ücretsiz planda 100 yer imine kadar arşivleme yapılabilir. Pro plan yıllık 72 $ (STANDING49 koduyla ilk yıl 49 $) veya aylık 9 $'dır."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Dene"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

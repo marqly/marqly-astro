@@ -9,7 +9,7 @@ hero:
   heading: "あの素晴らしいアイデアを保存したはずなのに、いざ制作する時に見つからない"
   subheading: "Marqlyは散らばったブックマークを生きたスワイプファイルに変えます。AI自動タグ付け、動画の要約、意図で探せるセマンティック検索で制作フローを加速。"
 crumbHome: "ホーム"
-trustLine: "無料プランあり（最大2,000件） · クレジットカード不要 · Chrome, Edge, Firefox, Safari, iOS"
+trustLine: "無料プランあり（最大100件） · クレジットカード不要 · Chrome, Edge, Firefox, Safari, iOS"
 faqHeading: "よくある質問"
 faqs:
   - q: "X（Twitter）やInstagram、YouTubeの投稿も保存できますか？"
@@ -19,7 +19,7 @@ faqs:
   - q: "チームやクライアントと参考資料を共有できますか？"
     a: "はい。作成したボード（コレクション）は公開リンクを発行して、アカウント登録なしの相手にもWeb上で閲覧共有できます。"
   - q: "料金プランはどうなっていますか？"
-    a: "最大2,000件まで無料。Proプランは年額72ドル（初年度クーポンSTANDING49利用で49ドル）または月額9ドルです。"
+    a: "最大100件まで無料。Proプランは年額72ドル（初年度クーポンSTANDING49利用で49ドル）または月額9ドルです。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqlyを無料で試す"
 ctaSecondaryLabel: "Chromeに追加 — 無料"

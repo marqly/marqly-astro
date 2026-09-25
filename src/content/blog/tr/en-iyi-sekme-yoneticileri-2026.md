@@ -34,7 +34,7 @@ Eğer **aktif birden fazla iş projesi arasında geçiş yapmak** için 40 sekme
 | **OneTab** | Liste Sıkıştırma | Anında RAM boşaltma | ✅ %100 Ücretsiz | Ücretsiz |
 | **Toby** | Görsel Panolar | Görsel sekme düzenleme | ⚠️ ~60 sekme sınırı | 4.50 $/ay'dan |
 | **Session Buddy** | Oturum Yedekleme | Çökme kurtarma | ✅ Ücretsiz | Ücretsiz |
-| **Marqly** | Yapay Zeka Kütüphanesi | Okuma listesi ve AI arama | ✅ 2.000 kayda kadar | Yıllık 72 $ (STANDING49 koduyla ilk yıl 49 $) |
+| **Marqly** | Yapay Zeka Kütüphanesi | Okuma listesi ve AI arama | ✅ 100 kayda kadar | Yıllık 72 $ (STANDING49 koduyla ilk yıl 49 $) |
 
 ## Marqly Neden Farklı?
 

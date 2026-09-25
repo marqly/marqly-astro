@@ -13,7 +13,7 @@ trustLine: "Gratis abonnement, geen creditcard · Chrome, Edge, Firefox, Safari 
 faqHeading: "Veelgestelde vragen"
 faqs:
   - q: "Hoe werkt de studentenkorting?"
-    a: "Geverifieerde studenten betalen voor Marqly Pro in het eerste jaar slechts $48 in plaats van $72. Daarnaast is er een royale gratis versie tot 2.000 saves."
+    a: "Geverifieerde studenten betalen voor Marqly Pro in het eerste jaar slechts $48 in plaats van $72. Daarnaast is er een royale gratis versie tot 100 saves."
   - q: "Vervangt Marqly bronnenbeheerders zoals Zotero?"
     a: "Nee, en dat is een bewuste keuze. Zotero regelt formele citatiestijlen en bibliografieën; Marqly is de laag ervoor: snel verzamelen, doorlezen, markeren en semantisch doorzoeken."
   - q: "Kan ik opgenomen colleges en video's samenvatten?"

@@ -45,7 +45,7 @@ Suivez ce guide simple pour récupérer vos liens et leur redonner vie grâce à
 3. Déposez votre fichier `pocket-export.html`.
 4. Tous vos articles apparaissent instantanément avec leurs étiquettes d'origine.
 
-Le plan gratuit de Marqly permet d'enregistrer jusqu'à 2 000 éléments. Le forfait Pro est proposé à 72 $/an (6 $/mois facturé annuellement ou 9 $/mois) avec le code promotionnel `STANDING49` (49 $ la première année).
+Le plan gratuit de Marqly permet d'enregistrer jusqu'à 100 éléments. Le forfait Pro est proposé à 72 $/an (6 $/mois facturé annuellement ou 9 $/mois) avec le code promotionnel `STANDING49` (49 $ la première année).
 
 ## Étape 4 : Reprendre vos habitudes
 

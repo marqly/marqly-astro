@@ -15,7 +15,7 @@ ctaLabel: "Marqlyを無料で試す"
 lang: "ja"
 faqs:
   - q: "Instapaperから乗り換えるならどのアプリ？"
-    a: "意味で探せるセマンティック検索と自動要約を備えたMarqlyが最もおすすめです。無料プランで最大2,000件保存可能です。"
+    a: "意味で探せるセマンティック検索と自動要約を備えたMarqlyが最もおすすめです。無料プランで最大100件保存可能です。"
 heroImage: ../../../assets/blog/instapaper-alternatives-2026.png
 heroAlt: "Instapaperの代替ツール比較 2026年"
 ---

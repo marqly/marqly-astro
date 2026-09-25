@@ -19,7 +19,7 @@ faqs:
   - q: "忘记文章标题了该如何找到它？"
     a: "使用语义向量搜索。只需输入你记忆中文章提到的核心观点、案例或数字，AI便能精准匹配到对应文章。"
   - q: "收费标准是怎样的？"
-    a: "免费版可存储多达2,000条内容。Pro版年付72美元（首年优惠码 STANDING49 为49美元）或月付9美元。"
+    a: "免费版可存储多达100条内容。Pro版年付72美元（首年优惠码 STANDING49 为49美元）或月付9美元。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"

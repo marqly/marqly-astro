@@ -49,7 +49,7 @@ Geloof geen marketingclaims zonder deze eenvoudige proef op de som te nemen:
 
 | Tool | Echte semantische zoekfunctie? | Wat de 'AI' daadwerkelijk doet | Gratis versie |
 | --- | --- | --- | --- |
-| **Marqly** | ✅ Ja (kern van Pro) | Betekeniszoeken, samenvattingen, auto-tags | ✅ Ja (tot 2.000 items) |
+| **Marqly** | ✅ Ja (kern van Pro) | Betekeniszoeken, samenvattingen, auto-tags | ✅ Ja (tot 100 items) |
 | **mymind** | ⚠️ Gedeeltelijk | Visueel geheugen en auto-tags | ❌ Nee (~$8/mnd) |
 | **Recall** | ⚠️ Gedeeltelijk | Kennisgraaf en samenvattingschat | ✅ Beperkt |
 | **Readwise Reader** | ⚠️ Gedeeltelijk | Ghostreader-chat over documenten | ❌ Alleen proefperiode (~$10-13/mnd) |
@@ -60,7 +60,7 @@ Geloof geen marketingclaims zonder deze eenvoudige proef op de som te nemen:
 
 ## Conclusie
 
-- **Marqly:** De beste keuze om opgeslagen links op betekenis terug te vinden. Gratis versie tot 2.000 items; Pro kost $72/jaar ($6/mnd jaarlijks of $9/mnd) met coupon STANDING49 ($49 voor het eerste jaar).
+- **Marqly:** De beste keuze om opgeslagen links op betekenis terug te vinden. Gratis versie tot 100 items; Pro kost $72/jaar ($6/mnd jaarlijks of $9/mnd) met coupon STANDING49 ($49 voor het eerste jaar).
 - **mymind:** Ideaal voor ontwerpers die vertrouwen op visuele associaties.
 - **Readwise Reader:** Onmisbaar voor veellezers die markeringen in e-books synchroniseren.
 - **Raindrop.io:** De ultieme klassieke bladwijzerbeheerder voor handmatige maporganisatie.

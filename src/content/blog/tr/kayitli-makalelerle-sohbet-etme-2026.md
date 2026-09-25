@@ -43,4 +43,4 @@ Kayıtlı makalelerinizle sohbet etmek, genel internet araması yerine **bizzat 
 3. **Sentezlenmiş yanıtı okuyun:** Marqly farklı kaynaklardaki ortak bilgileri düzenli bir cevap halinde sunar.
 4. **Kaynaklara göz atın:** Alıntı yapılan makalelere tıklayarak orijinal bölümlere gidin.
 
-Marqly'de 2.000 linke kadar ücretsiz plan sunulurken, Pro plan yıllık 72 dolardır.
+Marqly'de 100 linke kadar ücretsiz plan sunulurken, Pro plan yıllık 72 dolardır.

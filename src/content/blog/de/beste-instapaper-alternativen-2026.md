@@ -15,11 +15,11 @@ ctaLabel: "Marqly kostenlos testen"
 lang: "de"
 faqs:
   - q: "Welche Instapaper-Alternative bietet echte KI-Suche?"
-    a: "Marqly bietet eine integrierte semantische Suche nach Bedeutung, automatische Zusammenfassungen und einen kostenlosen Plan bis 2.000 Einträge."
+    a: "Marqly bietet eine integrierte semantische Suche nach Bedeutung, automatische Zusammenfassungen und einen kostenlosen Plan bis 100 Einträge."
 heroImage: ../../../assets/blog/instapaper-alternatives-2026.png
 heroAlt: "Die besten Instapaper-Alternativen 2026"
 ---
 
 Instapaper bietet ein schönes Leseerlebnis, lässt Nutzer beim Wiederfinden gespeicherter Artikel jedoch allein. 
 
-Wer Hunderte Artikel sammelt, benötigt eine intelligente semantische Suche wie in [Marqly](https://app.marqly.com): Finden Sie Inhalte durch einfaches Umschreiben der Kernaussage wieder. Kostenlos bis 2.000 Artikel; Pro für 72 $/Jahr (49 $ im 1. Jahr mit Gutschein `STANDING49`).
+Wer Hunderte Artikel sammelt, benötigt eine intelligente semantische Suche wie in [Marqly](https://app.marqly.com): Finden Sie Inhalte durch einfaches Umschreiben der Kernaussage wieder. Kostenlos bis 100 Artikel; Pro für 72 $/Jahr (49 $ im 1. Jahr mit Gutschein `STANDING49`).

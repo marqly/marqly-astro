@@ -20,21 +20,21 @@ ctaLabel: "Prova Marqly gratis"
 lang: "it"
 faqs:
   - q: "Qual è il miglior gestore di segnalibri gratuito nel 2026?"
-    a: "Raindrop.io offre il piano gratuito classico più completo: segnalibri e cartelle illimitati ovunque. Marqly include un piano gratuito per salvare fino a 2.000 elementi con ricerca rapida (l'IA avanzata è disponibile nel piano Pro a 72 $/anno o 49 $ il primo anno). Se desideri l'auto-hosting, Linkwarden e Karakeep sono le scelte ideali."
+    a: "Raindrop.io offre il piano gratuito classico più completo: segnalibri e cartelle illimitati ovunque. Marqly include un piano gratuito per salvare fino a 100 elementi con ricerca rapida (l'IA avanzata è disponibile nel piano Pro a 72 $/anno o 49 $ il primo anno). Se desideri l'auto-hosting, Linkwarden e Karakeep sono le scelte ideali."
   - q: "Raindrop.io è davvero gratuito?"
     a: "Sì, il piano base non ha scadenze temporali. Tuttavia, la ricerca full-text nel contenuto delle pagine e le copie permanenti richiedono il piano Pro (28 $/anno)."
   - q: "I segnalibri del browser non bastano?"
     a: "Per qualche decina di siti sì. Quando superi centinaia di collegamenti, le cartelle diventano caotiche e l'impossibilità di cercare per contenuto blocca la produttività."
 ---
 
-Il miglior gestore di segnalibri gratuito nel 2026 varia in base alle tue priorità. **Raindrop.io** dispone del piano gratuito classico più generoso sul mercato. **Marqly** mette a disposizione un livello gratuito senza carta di credito per un massimo di 2.000 elementi. **Linkwarden** e **Karakeep** rappresentano le soluzioni open source per eccellenza per chi possiede un server.
+Il miglior gestore di segnalibri gratuito nel 2026 varia in base alle tue priorità. **Raindrop.io** dispone del piano gratuito classico più generoso sul mercato. **Marqly** mette a disposizione un livello gratuito senza carta di credito per un massimo di 100 elementi. **Linkwarden** e **Karakeep** rappresentano le soluzioni open source per eccellenza per chi possiede un server.
 
 ## Tabella comparativa dei gestori di segnalibri gratuiti
 
 | Strumento | Piano gratuito | Ricerca IA | Self-hosting | Piattaforme | Prezzo Pro |
 | --- | --- | --- | --- | --- | --- |
 | **Raindrop.io** | ✅ Illimitato | ❌ Solo parole chiave | ❌ No | Web, iOS, Android, Desktop | 28 $/anno |
-| **Marqly** | ✅ Fino a 2.000 link | ❌ IA in Pro | ❌ No | Web, iOS, Estensioni | 72 $/anno (49 $ 1° anno) |
+| **Marqly** | ✅ Fino a 100 link | ❌ IA in Pro | ❌ No | Web, iOS, Estensioni | 72 $/anno (49 $ 1° anno) |
 | **Linkwarden** | ✅ Gratis self-hosted | ⚠️ Opzionale | ✅ Sì (AGPL) | Web, mobile, estensioni | 3 $/mese Cloud |
 | **Karakeep** | ✅ Gratis self-hosted | ✅ Sì (con API key) | ✅ Sì | Web, mobile, estensioni | Solo costo server |
 | **Segnalibri browser** | ✅ Integrati | ❌ No | — | Solo proprio browser | Gratuito |

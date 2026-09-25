@@ -23,7 +23,7 @@ faqs:
   - q: "mymindには無料プランがありますか？"
     a: "永年無料プランはありません。無料トライアルおよび容量制限付きのゲストモードはありますが、実用的な利用にはサブスクリプションが必要です。AI機能は月額7.99ドルから利用可能です。無料枠を重視する場合はRaindropやMarqlyが適しています。"
   - q: "mymindとMarqlyの違いは何ですか？"
-    a: "mymindはフォルダ分け不要のプライベートなビジュアルキャンバスです。一方、Marqlyは文脈や意味で探せるセマンティック検索、Web蛍光ペン、YouTube動画要約、共有ボードを備えた実用的なナレッジ管理ツールです。Marqlyには無料プラン（最大2,000件）があり、Proプランは年額72ドルです。"
+    a: "mymindはフォルダ分け不要のプライベートなビジュアルキャンバスです。一方、Marqlyは文脈や意味で探せるセマンティック検索、Web蛍光ペン、YouTube動画要約、共有ボードを備えた実用的なナレッジ管理ツールです。Marqlyには無料プラン（最大100件）があり、Proプランは年額72ドルです。"
 ---
 
 **結論から言うと、mymindの評価は5点中3.8点です。** 市場で最もデザイン性が高く、思想の明確な保存ツールです。整理整頓の手間をゼロにする優れたAI自動タグ付けと、静寂でプライベートなビジュアルキャンバスを備えています。しかし、永年無料プランが存在しないこと、AI要約や記事の永久保存が月額12.99ドルのMastermindプランに限定されていること、そして長文記事を内容から検索する能力が劣ることが減点要因となっています。
@@ -92,7 +92,7 @@ There's a free trial and a guest mode capped by storage, but no permanent free t
 | Highlighter | No | 6 colors + notes, persists on the page |
 | YouTube tools | No | Summary, transcript, and chat on the watch page |
 | Sharing | None, by design | Public boards, no signup needed to view |
-| Free tier | No (trial/guest mode) | Yes, up to 2,000 saves, no card required |
+| Free tier | No (trial/guest mode) | Yes, up to 100 saves, no card required |
 | Paid price | $72–$129/yr | $72/yr (or $9/mo, $49 first year with coupon STANDING49) |
 
 Where **mymind wins**: visual material, aesthetic ambience, and strict privacy posture.

@@ -23,7 +23,7 @@ faqs:
   - q: "mymind ha un piano gratuito?"
     a: "Nessun piano gratuito permanente. mymind include una prova gratuita e una modalità ospite limitata nello spazio di archiviazione, ma l'uso richiede un abbonamento. L'IA parte da 7,99 $/mese."
   - q: "Qual è la differenza tra mymind e Marqly?"
-    a: "mymind è una bacheca visiva privata con etichettatura automatica per immagini e note. Marqly punta sul recupero semantico per significato, evidenziatore web, riassunti YouTube e bacheche condivisibili. Marqly ha un piano gratuito (fino a 2.000 elementi) e Pro a 72 $/anno."
+    a: "mymind è una bacheca visiva privata con etichettatura automatica per immagini e note. Marqly punta sul recupero semantico per significato, evidenziatore web, riassunti YouTube e bacheche condivisibili. Marqly ha un piano gratuito (fino a 100 elementi) e Pro a 72 $/anno."
 ---
 
 **Il verdetto in sintesi: mymind ottiene 3.8 su 5.** È l'app di salvataggio più bella e curata sul piano visivo — una bacheca pulita con un auto-tagging basato su IA davvero efficace e zero cartelle da gestire. Perde punti per la totale assenza di un piano gratuito permanente, per aver relegato riassunti e backup al piano Mastermind da 12,99 $/mese, e per le prestazioni limitate quando si tratta di ritrovare articoli lunghi descrivendone il contenuto.
@@ -92,7 +92,7 @@ There's a free trial and a guest mode capped by storage, but no permanent free t
 | Highlighter | No | 6 colors + notes, persists on the page |
 | YouTube tools | No | Summary, transcript, and chat on the watch page |
 | Sharing | None, by design | Public boards, no signup needed to view |
-| Free tier | No (trial/guest mode) | Yes, up to 2,000 saves, no card required |
+| Free tier | No (trial/guest mode) | Yes, up to 100 saves, no card required |
 | Paid price | $72–$129/yr | $72/yr (or $9/mo, $49 first year with coupon STANDING49) |
 
 Where **mymind wins**: visual material, aesthetic ambience, and strict privacy posture.

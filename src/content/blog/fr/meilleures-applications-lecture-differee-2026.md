@@ -18,7 +18,7 @@ faqs:
   - q: "Quelle est la meilleure application de lecture différée en 2026 ?"
     a: "Marqly est la meilleure application globale de lecture différée en 2026 : elle associe l'enregistrement en un clic, un mode lecture purifié et une synchronisation fluide avec une recherche sémantique par IA qui retrouve les articles par le sens. Readwise Reader excelle pour le surlignage, Raindrop.io est la meilleure solution gratuite et Instapaper pour la lecture minimaliste."
   - q: "Existe-t-il une application gratuite de lecture différée ?"
-    a: "Oui. Raindrop.io propose la formule gratuite la plus complète pour enregistrer tous types de médias, tandis qu'Instapaper offre un lecteur épuré sans frais. Marqly propose une formule gratuite jusqu'à 2 000 éléments avec recherche complète, et Wallabag est 100 % gratuit en auto-hébergement."
+    a: "Oui. Raindrop.io propose la formule gratuite la plus complète pour enregistrer tous types de médias, tandis qu'Instapaper offre un lecteur épuré sans frais. Marqly propose une formule gratuite jusqu'à 100 éléments avec recherche complète, et Wallabag est 100 % gratuit en auto-hébergement."
   - q: "Qu'est-ce qui caractérise une excellente application read-it-later en 2026 ?"
     a: "Trois qualités indispensables : une capture sans friction, un mode lecture soigné sans distractions, et une recherche sémantique intelligente capable d'identifier un article à partir d'une description floue de vos souvenirs."
   - q: "Quelle application choisir pour surligner et étudier en profondeur ?"
@@ -41,7 +41,7 @@ Trois critères fondamentaux distinguent les meilleures solutions :
 ## Le classement 2026
 
 ### 1. Marqly — le meilleur choix pour sauvegarder *et* retrouver
-Marqly réunit tous les fondamentaux (sauvegarde en un clic, vue lecture confortable, synchronisation tous appareils) et y ajoute l'innovation majeure qui manque aux autres : la **recherche sémantique par IA**. Décrivez ce dont vous vous souvenez et Marqly retrouve l'article sans exiger le titre exact. Il génère aussi des résumés concis et attribue automatiquement des étiquettes pertinentes. Résultat : votre liste de lecture reste vivante au lieu de s'endormir dans un tiroir. Importe les archives Pocket, Raindrop et favoris de navigateur. Formule gratuite jusqu'à 2 000 éléments ; Pro à ~6 $/mois (49 $ la 1re année avec `STANDING49`). [Essayer gratuitement →](https://app.marqly.com/lp/replace-pocket)
+Marqly réunit tous les fondamentaux (sauvegarde en un clic, vue lecture confortable, synchronisation tous appareils) et y ajoute l'innovation majeure qui manque aux autres : la **recherche sémantique par IA**. Décrivez ce dont vous vous souvenez et Marqly retrouve l'article sans exiger le titre exact. Il génère aussi des résumés concis et attribue automatiquement des étiquettes pertinentes. Résultat : votre liste de lecture reste vivante au lieu de s'endormir dans un tiroir. Importe les archives Pocket, Raindrop et favoris de navigateur. Formule gratuite jusqu'à 100 éléments ; Pro à ~6 $/mois (49 $ la 1re année avec `STANDING49`). [Essayer gratuitement →](https://app.marqly.com/lp/replace-pocket)
 
 ### 2. Readwise Reader — la référence pour les chercheurs et gros lecteurs
 Solution premium (~12 $/mois) dotée du meilleur écosystème de surlignage et de mémorisation espacée (spaced repetition). Prend en charge les PDF, les newsletters par email et les fichiers EPUB. Idéal si l'étude approfondie de textes est au cœur de votre activité. Comparez avec notre analyse [Readwise Reader vs Marqly](/compare/marqly-vs-readwise-reader).
@@ -71,7 +71,7 @@ Enregistre des pages web directement dans vos bases de données Notion. Pas de l
 
 | Application | Recherche IA | Mode lecture | Lecture hors ligne | Formule gratuite | Prix Pro |
 |---|---|---|---|---|---|
-| Marqly | ✅ Sémantique | ✅ | ✅ | ✅ (jusqu'à 2 000) | ~6 $/mois |
+| Marqly | ✅ Sémantique | ✅ | ✅ | ✅ (jusqu'à 100) | ~6 $/mois |
 | Readwise Reader | ✅ | ✅ | ✅ | ❌ | 12 $/mois |
 | Raindrop.io | ❌ | ✅ | ✅ | ✅ | 3 $/mois |
 | Instapaper | ❌ | ✅ | ✅ | ✅ | 3 $/mois |
@@ -90,7 +90,7 @@ Enregistre des pages web directement dans vos bases de données Notion. Pas de l
 
 Ne vous demandez pas « quelle application sauvegarde le plus vite ? » : elles le font toutes en une seconde. La vraie question est : **« quelle application me permettra de retrouver l'article lu il y a trois mois dont je ne me rappelle que vaguement l'idée ? »**. C'est ici que les outils classiques s'essoufflent, et c'est ici que la recherche sémantique par IA l'emporte.
 
-[Essayez Marqly gratuitement](https://app.marqly.com/lp/replace-pocket), importez votre historique de lecture et lancez vos recherches en langage naturel. Jusqu'à 2 000 favoris offerts, sans carte bancaire requise.
+[Essayez Marqly gratuitement](https://app.marqly.com/lp/replace-pocket), importez votre historique de lecture et lancez vos recherches en langage naturel. Jusqu'à 100 favoris offerts, sans carte bancaire requise.
 
 ---
 

@@ -9,7 +9,7 @@ hero:
   heading: "Źródło, na które powołałeś się w artykule, nie zawiera już tych samych słów"
   subheading: "Marqly archiwizuje stronę internetową z dnia wglądu jako wierny plik PDF z zachowaniem 100% układu. Zaznaczaj kluczowe cytaty i przeszukuj transkrypcje wideo według wypowiedzianych zdań."
 crumbHome: "Strona główna"
-trustLine: "Do 2 000 materiałów za darmo · Bez karty płatniczej · Chrome, Edge, Firefox, Safari i iOS"
+trustLine: "Do 100 materiałów za darmo · Bez karty płatniczej · Chrome, Edge, Firefox, Safari i iOS"
 faqHeading: "Najczęstsze pytania"
 faqs:
   - q: "Czy mogę zachować stronę dokładnie w takim stanie, w jakim była w dniu analizy?"
@@ -21,7 +21,7 @@ faqs:
   - q: "Czy nadaje się do materiałów o najwyższej klauzuli poufności?"
     a: "Marqly to zabezpieczona usługa w chmurze bez instalacji lokalnej. W przypadku tajemnicy dziennikarskiej najwyższego ryzyka należy kierować się procedurami bezpieczeństwa redakcji."
   - q: "Ile wynosi koszt subskrypcji?"
-    a: "Plan darmowy obejmuje do 2 000 zakładek. Plan Pro kosztuje 72 $/rok (z kodem STANDING49 pierwszy rok za 49 $) lub 9 $/miesięcznie."
+    a: "Plan darmowy obejmuje do 100 zakładek. Plan Pro kosztuje 72 $/rok (z kodem STANDING49 pierwszy rok za 49 $) lub 9 $/miesięcznie."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"

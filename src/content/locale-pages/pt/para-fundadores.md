@@ -17,7 +17,7 @@ faqs:
   - q: "O Marqly ajuda a resumir podcasts e vídeos longos?"
     a: "Sim. O Marqly gera resumo e transcrição com busca em vídeos do YouTube, permitindo extrair os 15 minutos cruciais de uma entrevista de duas horas."
   - q: "Qual o custo para fundadores em estágio inicial?"
-    a: "Plano grátis até 2.000 itens. Plano Pro por 72 $/ano (ou 49 $ com cupom STANDING49) com IA completa."
+    a: "Plano grátis até 100 itens. Plano Pro por 72 $/ano (ou 49 $ com cupom STANDING49) com IA completa."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Testar o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"

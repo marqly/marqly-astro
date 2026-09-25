@@ -17,7 +17,7 @@ faqs:
   - q: "Heeft Instapaper een offline modus en Marqly niet?"
     a: "Klopt. Instapaper downloadt artikelen voor offline gebruik in het vliegtuig of de trein. Marqly is een cloud-applicatie en heeft geen offline leesmodus."
   - q: "Wat zijn de prijzen?"
-    a: "Instapaper Premium kost $5,99/maand of $59,99/jaar. Marqly Pro kost $72/jaar (met actiecode STANDING49 slechts $49 in het 1e jaar) met een gratis versie tot 2.000 saves."
+    a: "Instapaper Premium kost $5,99/maand of $59,99/jaar. Marqly Pro kost $72/jaar (met actiecode STANDING49 slechts $49 in het 1e jaar) met een gratis versie tot 100 saves."
   - q: "Heeft Instapaper AI-functies?"
     a: "Nee. Instapaper biedt geen automatische AI-tags, samenvattingen of semantisch zoeken. Het draait puur om handmatige mappen en letterlijke trefwoorden."
 ctaUrl: "https://app.marqly.com"

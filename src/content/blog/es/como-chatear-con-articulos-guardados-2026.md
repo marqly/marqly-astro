@@ -46,4 +46,4 @@ Frente a un chatbot genérico como ChatGPT, la ventaja principal es la **confian
 3. **Consulta la respuesta fundamentada:** Marqly reúne las ideas clave y te explica el consenso de tus lecturas.
 4. **Verifica las fuentes:** Haz clic en los enlaces citados para profundizar en los párrafos exactos.
 
-El plan gratuito de Marqly cubre hasta 2.000 elementos guardados, y el plan Pro está disponible por 72 $/año.
+El plan gratuito de Marqly cubre hasta 100 elementos guardados, y el plan Pro está disponible por 72 $/año.

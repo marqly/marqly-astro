@@ -53,4 +53,4 @@ Ein CSV-Export auf Ihrer Festplatte ist kein aktives Wissensmanagement. Mit [Mar
 - Die integrierte KI fasst Inhalte zusammen und versieht sie mit automatischen Themen-Tags.
 - Dank semantischer Suche finden Sie Beiträge nach inhaltlicher Bedeutung wieder, ohne den Nutzernamen des Autors wissen zu müssen.
 
-Marqly bietet einen kostenlosen Plan für bis zu 2.000 Links sowie einen Pro-Tarif für 72 $/Jahr (ca. 6 $/Monat).
+Marqly bietet einen kostenlosen Plan für bis zu 100 Links sowie einen Pro-Tarif für 72 $/Jahr (ca. 6 $/Monat).

@@ -17,7 +17,7 @@ faqs:
   - q: "Kann ich meine bisherigen Browser-Lesezeichen importieren?"
     a: "Ja. Der Standard-HTML-Export aus Chrome, Firefox, Edge und Safari wird vollständig unterstützt, ebenso Exporte aus Pocket und Raindrop.io. Alles wird nachträglich per KI getaggt."
   - q: "Ist Marqly als Lesezeichen-Verwalter kostenlos?"
-    a: "Es gibt eine dauerhaft kostenlose Stufe bis 2.000 Lesezeichen ohne Kreditkarte. Pro für 72 $/Jahr (49 $ im ersten Jahr mit STANDING49) bietet Chat mit gespeicherten Artikeln."
+    a: "Es gibt eine dauerhaft kostenlose Stufe bis 100 Lesezeichen ohne Kreditkarte. Pro für 72 $/Jahr (49 $ im ersten Jahr mit STANDING49) bietet Chat mit gespeicherten Artikeln."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"

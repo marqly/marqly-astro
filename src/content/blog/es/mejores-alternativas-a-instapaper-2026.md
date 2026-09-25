@@ -19,7 +19,7 @@ faqs:
   - q: "¿Debería abandonar Instapaper o quedarme?"
     a: "Quédate si tu único objetivo es guardar artículos ocasionales y leerlos sin formato. Cambia si acumulas cientos de lecturas que nunca vuelves a encontrar o si deseas buscar por conceptos en lenguaje natural."
   - q: "¿Existe alguna alternativa gratuita a Instapaper con IA?"
-    a: "Sí. Marqly ofrece un plan gratuito permanente para hasta 2.000 marcadores, con funciones completas de búsqueda y lectura."
+    a: "Sí. Marqly ofrece un plan gratuito permanente para hasta 100 marcadores, con funciones completas de búsqueda y lectura."
 heroImage: ../../../assets/blog/instapaper-alternatives-2026.png
 heroAlt: "Mejores alternativas a Instapaper en 2026"
 ---
@@ -35,7 +35,7 @@ Si has acumulado cientos de artículos y te cuesta volver a encontrarlos, estas 
 - **Búsqueda semántica con IA:** Encuentra artículos describiendo lo que recuerdas en lugar de necesitar el titular exacto.
 - **Resúmenes y autoetiquetado:** La IA analiza el contenido en segundo plano para organizar tu biblioteca sin esfuerzo manual.
 - **Modo lectura cómodo:** Vista limpia sin publicidad ni elementos de distracción.
-- **Precios justos:** Plan gratuito para hasta 2.000 elementos; Pro a 72 $/año (6 $/mes) con cupón `STANDING49` (49 $ el primer año).
+- **Precios justos:** Plan gratuito para hasta 100 elementos; Pro a 72 $/año (6 $/mes) con cupón `STANDING49` (49 $ el primer año).
 
 ## 2. Readwise Reader: Para lectores y subrayadores intensivos
 

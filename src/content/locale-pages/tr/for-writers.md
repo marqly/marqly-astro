@@ -9,7 +9,7 @@ hero:
   heading: "Yazı akıp giderken, aylar önce okuduğunuz o alıntıyı aramak zorunda kalıp tıkandınız"
   subheading: "Marqly yazarların harici hafızasıdır. Yapay zeka ile otomatik etiketlenen kaynaklar sayesinde, başlığı unutsanız bile aklınızdaki kavramı yazarak aradığınız alıntıya saniyeler içinde ulaşırsınız."
 crumbHome: "Ana Sayfa"
-trustLine: "2.000 kaynağa kadar ücretsiz · Kredi kartı gerekmez · Chrome, Edge, Firefox, Safari ve iOS"
+trustLine: "100 kaynağa kadar ücretsiz · Kredi kartı gerekmez · Chrome, Edge, Firefox, Safari ve iOS"
 faqHeading: "Sıkça Sorulan Sorular"
 faqs:
   - q: "Doğrudan Marqly içinde yazı yazabilir miyim?"
@@ -21,7 +21,7 @@ faqs:
   - q: "Belgesel ve röportaj videoları için kullanılabilir mi?"
     a: "Son derece uygundur. Kaydettiğiniz YouTube videolarının dökümü yapay zeka ile otomatik çıkarılır ve aylar sonra bile videodaki belirli bir ifadeyi aratarak bulabilirsiniz."
   - q: "Fiyatlandırma nasıldır?"
-    a: "Ücretsiz planda 2.000 yer imine kadar kayıt yapabilirsiniz. Pro plan yıllık 72 $ (STANDING49 koduyla ilk yıl 49 $) veya aylık 9 $'dır."
+    a: "Ücretsiz planda 100 yer imine kadar kayıt yapabilirsiniz. Pro plan yıllık 72 $ (STANDING49 koduyla ilk yıl 49 $) veya aylık 9 $'dır."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Dene"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

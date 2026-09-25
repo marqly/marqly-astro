@@ -17,7 +17,7 @@ faqs:
   - q: "Puis-je importer mes anciens favoris de navigateur ?"
     a: "Oui. Marqly importe les fichiers HTML standards de Chrome, Safari, Firefox et Edge, ainsi que les archives Pocket et Raindrop.io, avec étiquetage IA rétroactif."
   - q: "Marqly est-il gratuit pour organiser mes favoris ?"
-    a: "L'offre gratuite permet de stocker jusqu'à 2 000 favoris sans carte bancaire. Pro coûte 72 $/an (49 $ la 1ère année avec le code STANDING49)."
+    a: "L'offre gratuite permet de stocker jusqu'à 100 favoris sans carte bancaire. Pro coûte 72 $/an (49 $ la 1ère année avec le code STANDING49)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"

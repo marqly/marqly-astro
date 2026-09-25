@@ -54,4 +54,4 @@ Per organizzare le tue idee in modo duraturo:
 - Sfrutta la **ricerca semantica**: digita *"il video su come riparare una cerniera che cigola"* e ritrovalo all'istante.
 - Gestisci articoli web, video di YouTube e post di Instagram in una sola app indipendente.
 
-Marqly offre fino a 2.000 salvataggi gratuiti e un piano Pro da 72 $/anno.
+Marqly offre fino a 100 salvataggi gratuiti e un piano Pro da 72 $/anno.

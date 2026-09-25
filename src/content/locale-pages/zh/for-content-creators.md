@@ -9,7 +9,7 @@ hero:
   heading: "你明明收藏过那个绝妙的创意，可真正要写文案时，却怎么也找不到了"
   subheading: "Marqly 将凌乱的收藏夹变成高价值的创作素材库：AI 自动分类标签、智能视频摘要与基于语义意图的极速检索，让灵感随取随用。"
 crumbHome: "首页"
-trustLine: "免费额度高达 2,000 条 · 无需信用卡 · 支持 Chrome, Edge, Firefox, Safari 与 iOS"
+trustLine: "免费额度高达 100 条 · 无需信用卡 · 支持 Chrome, Edge, Firefox, Safari 与 iOS"
 faqHeading: "常见问题"
 faqs:
   - q: "可以保存 X（Twitter）、小红书或视频网站的内容吗？"
@@ -19,7 +19,7 @@ faqs:
   - q: "可以和团队成员或客户分享素材库吗？"
     a: "可以。你可以为任何素材分类看板生成公开访问链接，对方无需注册即可直接在浏览器中查看。"
   - q: "收费标准是怎样的？"
-    a: "免费版最高支持保存 2,000 条链接。Pro 专业版为 72 美元/年（首年使用折扣码 STANDING49 仅需 49 美元）或 9 美元/月。"
+    a: "免费版最高支持保存 100 条链接。Pro 专业版为 72 美元/年（首年使用折扣码 STANDING49 仅需 49 美元）或 9 美元/月。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"

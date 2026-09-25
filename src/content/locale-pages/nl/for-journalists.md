@@ -9,7 +9,7 @@ hero:
   heading: "De bron die je citeerde, toont inmiddels heel andere cijfers"
   subheading: "Marqly bewaart webpagina's op de dag van raadpleging als volledige PDF met exacte lay-out. Markeer citaten en doorzoek zelfs videotopnames op wat er letterlijk is gezegd."
 crumbHome: "Home"
-trustLine: "Gratis tot 2.000 items · Geen creditcard vereist · Chrome, Edge, Firefox, Safari & iOS"
+trustLine: "Gratis tot 100 items · Geen creditcard vereist · Chrome, Edge, Firefox, Safari & iOS"
 faqHeading: "Veelgestelde vragen"
 faqs:
   - q: "Kan ik een pagina exact bewaren zoals hij eruitzag op de dag van onderzoek?"
@@ -21,7 +21,7 @@ faqs:
   - q: "Is dit geschikt voor uiterst gevoelig bronmateriaal?"
     a: "Marqly is een beveiligde clouddienst zonder self-hosting. Raadpleeg bij strikt vertrouwelijke klokkenluidersdossiers altijd het redactieprotocol."
   - q: "Wat zijn de kosten?"
-    a: "Het gratis pakket bevat tot 2.000 opgeslagen links. Pro kost $72/jaar ($49 eerste jaar met coupon STANDING49) of $9/maand."
+    a: "Het gratis pakket bevat tot 100 opgeslagen links. Pro kost $72/jaar ($49 eerste jaar met coupon STANDING49) of $9/maand."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

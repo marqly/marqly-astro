@@ -49,7 +49,7 @@ Você pode testar qualquer aplicativo antes de pagar uma assinatura:
 
 | Ferramenta | Busca semântica real? | Natureza real da sua IA | Plano gratuito |
 | --- | --- | --- | --- |
-| **Marqly** | ✅ Sim (recurso central Pro) | Busca por significado, resumos e tags automáticas | ✅ Sim (até 2.000 itens) |
+| **Marqly** | ✅ Sim (recurso central Pro) | Busca por significado, resumos e tags automáticas | ✅ Sim (até 100 itens) |
 | **mymind** | ⚠️ Parcial | Memória visual e autoetiquetagem | ❌ Não (~$8/mês) |
 | **Recall** | ⚠️ Parcial | Grafo de conexões e chat sobre notas | ✅ Limitado |
 | **Readwise Reader** | ⚠️ Parcial | Chat Ghostreader sobre artigos e destaques | ❌ Apenas teste (~$10-13/mês) |
@@ -60,7 +60,7 @@ Você pode testar qualquer aplicativo antes de pagar uma assinatura:
 
 ## Veredito das ferramentas
 
-- **Marqly:** A melhor escolha para recuperar links pelo significado. O plano gratuito permite até 2.000 itens; o Pro custa $72/ano ($6/mês cobrado anualmente ou $9/mês), com cupom STANDING49 ($49 no primeiro ano).
+- **Marqly:** A melhor escolha para recuperar links pelo significado. O plano gratuito permite até 100 itens; o Pro custa $72/ano ($6/mês cobrado anualmente ou $9/mês), com cupom STANDING49 ($49 no primeiro ano).
 - **mymind:** Indicado para quem arquiva inspirações visuais e valoriza uma interface limpa sem pastas.
 - **Readwise Reader:** Excelente ecossistema para quem lê dezenas de newsletters, PDFs e livros com destaques sincronizados.
 - **Raindrop.io:** Melhor organizador tradicional com suporte amplo a mídias e categorização manual.

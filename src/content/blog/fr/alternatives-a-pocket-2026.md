@@ -20,7 +20,7 @@ faqs:
   - q: "Puis-je encore importer mes données Pocket après la fermeture ?"
     a: "Oui. Si vous avez téléchargé votre fichier d'exportation Pocket avant ou pendant la période de clôture de juillet 2025, la plupart des outils modernes — dont Marqly, Raindrop et Instapaper — importent ce fichier directement en conservant vos liens et vos étiquettes. Marqly importe une archive Pocket en environ deux minutes."
   - q: "Existe-t-il une alternative gratuite à Pocket ?"
-    a: "Oui. Raindrop.io propose l'offre gratuite la plus complète pour sauvegarder tous types de médias, Instapaper offre un lecteur minimaliste sans frais, et Marqly dispose d'une formule gratuite jusqu'à 2 000 éléments avec recherche sur l'ensemble de la bibliothèque. Wallabag est entièrement gratuit si vous l'auto-hébergez."
+    a: "Oui. Raindrop.io propose l'offre gratuite la plus complète pour sauvegarder tous types de médias, Instapaper offre un lecteur minimaliste sans frais, et Marqly dispose d'une formule gratuite jusqu'à 100 éléments avec recherche sur l'ensemble de la bibliothèque. Wallabag est entièrement gratuit si vous l'auto-hébergez."
   - q: "Qu'est-ce qui distinguait Pocket d'un simple gestionnaire de favoris ?"
     a: "Pocket était une application de lecture différée (read-it-later) : elle enregistrait les articles dans un mode lecture épuré et sans distraction, au lieu d'accumuler de simples liens. Les meilleures alternatives de 2026 conservent cette vue de lecture agréable et y ajoutent des résumés par IA et une recherche sémantique."
   - q: "Quand Pocket a-t-il définitivement fermé ?"
@@ -60,7 +60,7 @@ Les remplaçants de Pocket se partagent en trois familles : les outils nouvelle 
 
 | Outil | Idéal pour | Formule gratuite | Recherche sémantique IA | Import Pocket | Prix |
 |---|---|---|---|---|---|
-| **Marqly** | Recherche IA + second cerveau | Oui (jusqu'à 2 000 favoris) | ✅ Sémantique (Pro) | ✅ Oui | Gratuit ; Pro 72 $/an (~6 $/mois) ou 9 $/mois |
+| **Marqly** | Recherche IA + second cerveau | Oui (jusqu'à 100 favoris) | ✅ Sémantique (Pro) | ✅ Oui | Gratuit ; Pro 72 $/an (~6 $/mois) ou 9 $/mois |
 | Raindrop.io | Sauvegarde tous médias gratuite | Généreuse | ❌ Mots-clés uniquement | ✅ Oui | Gratuit ; Pro ~3 $/mois |
 | Instapaper | Lecture minimaliste | Oui | ❌ Mots-clés uniquement | ✅ Oui | Gratuit ; Premium ~3 $/mois |
 | Readwise Reader | Lecteurs intensifs et surlignage | Non (essai uniquement) | ✅ Oui | ✅ Oui | ~10–12 $/mois |
@@ -81,7 +81,7 @@ Si la principale faiblesse de Pocket était la facilité de sauvegarde contrasta
 
 - **Points forts :** Recherche sémantique par IA, auto-étiquetage intelligent, résumés automatiques, import Pocket instantané, mode lecture soigné, tarif compétitif.
 - **Points faibles :** Produit plus récent que les acteurs historiques, communauté en pleine expansion.
-- **Prix :** Formule gratuite jusqu'à 2 000 éléments avec recherche intégrale ; Pro à 72 $/an (~6 $/mois, ou 49 $ la première année avec le code `STANDING49`) ou 9 $/mois.
+- **Prix :** Formule gratuite jusqu'à 100 éléments avec recherche intégrale ; Pro à 72 $/an (~6 $/mois, ou 49 $ la première année avec le code `STANDING49`) ou 9 $/mois.
 
 [Essayer Marqly gratuitement →](https://app.marqly.com/lp/replace-pocket)
 
@@ -188,6 +188,6 @@ La grande leçon de la disparition de Pocket est évidente : **enregistrer des l
 
 C'est là que se situe le grand tournant de 2026. Les outils traditionnels continuent d'exiger que vous vous souveniez des mots exacts du titre. **La recherche sémantique par IA inverse cette contrainte :** vous exprimez une idée ou un souvenir imprécis, et le logiciel identifie l'article correspondant grâce au sens de son contenu.
 
-Si vous souhaitez franchir ce cap, [Marqly a été conçu dans cette optique](https://app.marqly.com/lp/replace-pocket) — importez votre bibliothèque Pocket et commencez à chercher par le sens dans votre propre savoir. L'inscription est gratuite jusqu'à 2 000 favoris et ne réclame aucune carte bancaire.
+Si vous souhaitez franchir ce cap, [Marqly a été conçu dans cette optique](https://app.marqly.com/lp/replace-pocket) — importez votre bibliothèque Pocket et commencez à chercher par le sens dans votre propre savoir. L'inscription est gratuite jusqu'à 100 favoris et ne réclame aucune carte bancaire.
 
 Et si votre veille inclut également beaucoup de contenus vidéo, n'hésitez pas à consulter nos guides sur [les meilleures apps de lecture différée en 2026](/blog/best-read-it-later-apps-2026) et [les meilleurs gestionnaires de favoris avec IA](/blog/best-ai-bookmark-manager-2026).

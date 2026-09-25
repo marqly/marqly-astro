@@ -49,4 +49,4 @@ Pour ne plus risquer de perdre vos vidéos favorites :
 - Marqly récupère la vidéo, sa retranscription texte intégrale et génère un résumé par IA.
 - La **recherche sémantique** vous permet de retrouver un tutoriel en expliquant simplement son idée maîtresse, sans connaître son titre exact.
 
-Marqly propose un compte gratuit jusqu'à 2 000 liens et une offre Pro à 72 $/an.
+Marqly propose un compte gratuit jusqu'à 100 liens et une offre Pro à 72 $/an.

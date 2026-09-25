@@ -9,7 +9,7 @@ hero:
   heading: "正写到灵感迸发的时刻，却为了找几个月前读过的一句名言而被迫中断"
   subheading: "Marqly 是写作者的外部长时记忆。AI 自动打标、全文提炼与语义搜索，让你无需死记文章标题，用自己的日常语言描述即可找回原始论据。"
 crumbHome: "首页"
-trustLine: "免费保存高达 2,000 条 · 无需信用卡 · 支持 Chrome, Edge, Firefox, Safari 与 iOS"
+trustLine: "免费保存高达 100 条 · 无需信用卡 · 支持 Chrome, Edge, Firefox, Safari 与 iOS"
 faqHeading: "常见问题"
 faqs:
   - q: "可以直接在 Marqly 里写文章吗？"
@@ -21,7 +21,7 @@ faqs:
   - q: "适合整理纪录片或深度访谈视频吗？"
     a: "非常合适。保存 YouTube 视频时，AI 会自动转写全部文本，你可以按视频中嘉宾讲过的一句话直接检索并跳转播放。"
   - q: "定价方案是怎样的？"
-    a: "免费版最高支持保存 2,000 个条目。Pro 专业版为 72 美元/年（首年使用折扣码 STANDING49 仅需 49 美元）或 9 美元/月。"
+    a: "免费版最高支持保存 100 个条目。Pro 专业版为 72 美元/年（首年使用折扣码 STANDING49 仅需 49 美元）或 9 美元/月。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"

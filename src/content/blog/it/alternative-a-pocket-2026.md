@@ -20,7 +20,7 @@ faqs:
   - q: "Posso ancora importare i miei dati di Pocket dopo la chiusura?"
     a: "Sì. Se hai scaricato il tuo file di esportazione da Pocket prima o durante la chiusura del luglio 2025, la maggior parte dei moderni strumenti — inclusi Marqly, Raindrop e Instapaper — importa direttamente quel file conservando link e tag. Marqly importa un file di Pocket in circa due minuti."
   - q: "Esiste un'alternativa a Pocket gratis?"
-    a: "Sì. Raindrop.io ha il piano gratuito più generoso per salvare ogni tipo di contenuto, Instapaper offre una modalità di lettura minimalista gratuita, e Marqly include un piano gratuito fino a 2.000 segnalibri con ricerca sull'intera libreria. Wallabag è completamente gratuito se lo ospiti su un tuo server (self-host)."
+    a: "Sì. Raindrop.io ha il piano gratuito più generoso per salvare ogni tipo di contenuto, Instapaper offre una modalità di lettura minimalista gratuita, e Marqly include un piano gratuito fino a 100 segnalibri con ricerca sull'intera libreria. Wallabag è completamente gratuito se lo ospiti su un tuo server (self-host)."
   - q: "Cosa rendeva Pocket diverso da un normale gestore di segnalibri?"
     a: "Pocket era un'applicazione «leggi dopo» (read-it-later): salvava gli articoli in una modalità di lettura pulita e senza distrazioni anziché archiviare semplici collegamenti. Le migliori alternative del 2026 mantengono quell'esperienza di lettura e vi aggiungono riassunti con AI e ricerca semantica."
   - q: "Quando ha chiuso definitivamente Pocket?"
@@ -60,7 +60,7 @@ Le alternative si suddividono in tre gruppi: strumenti nativi con AI che cercano
 
 | Strumento | Ideale per | Piano gratuito | Ricerca semantica con AI | Importa Pocket | Prezzo |
 |---|---|---|---|---|---|
-| **Marqly** | Ricerca AI + secondo cervello | Sì (fino a 2.000 salvataggi) | ✅ Semantica (Pro) | ✅ Sì | Gratis; Pro 72 $/anno (~6 $/mese) o 9 $/mese |
+| **Marqly** | Ricerca AI + secondo cervello | Sì (fino a 100 salvataggi) | ✅ Semantica (Pro) | ✅ Sì | Gratis; Pro 72 $/anno (~6 $/mese) o 9 $/mese |
 | Raindrop.io | Salvataggio generale gratuito | Generoso | ❌ Solo parole chiave | ✅ Sì | Gratis; Pro ~3 $/mese |
 | Instapaper | Lettura minimalista | Sì | ❌ Solo parole chiave | ✅ Sì | Gratis; Premium ~3 $/mese |
 | Readwise Reader | Studio intensivo e sottolineature | No (solo prova) | ✅ Sì | ✅ Sì | ~10–12 $/mese |
@@ -81,7 +81,7 @@ Se il più grande difetto di Pocket era la facilità nel salvare contrapposta al
 
 - **Vantaggi:** Ricerca semantica con AI, auto-tagging intelligente, riassunti con AI, importazione rapidissima da Pocket, lettore privo di distrazioni, prezzo conveniente.
 - **Svantaggi:** Più giovane rispetto ai giganti storici, community in piena espansione.
-- **Prezzo:** Piano gratuito fino a 2.000 link con ricerca completa; Pro a 72 $/anno (~6 $/mese, o 49 $ il primo anno con coupon `STANDING49`) o 9 $/mese.
+- **Prezzo:** Piano gratuito fino a 100 link con ricerca completa; Pro a 72 $/anno (~6 $/mese, o 49 $ il primo anno con coupon `STANDING49`) o 9 $/mese.
 
 [Prova Marqly gratis →](https://app.marqly.com/lp/replace-pocket)
 
@@ -188,6 +188,6 @@ La lezione principale lasciata dalla chiusura di Pocket è evidente: **salvare i
 
 È questo il discrimine nel 2026. I servizi tradizionali cercano come dieci anni fa, chiedendoti di ricordare le parole esatte del titolo. **La ricerca semantica con AI capovolge questa logica:** inserisci una descrizione a parole tue o un concetto vago, e il sistema individua l'articolo per affinità di significato, persino se quei termini precisi non compaiono nel testo.
 
-Se desideri questa serenità, [Marqly è stato sviluppato esattamente per questo scopo](https://app.marqly.com/lp/replace-pocket) — importa il tuo archivio di Pocket e comincia a cercare qualsiasi cosa salvata con il linguaggio naturale. Puoi registrarti gratuitamente fino a 2.000 segnalibri, senza alcuna carta di credito richiesta.
+Se desideri questa serenità, [Marqly è stato sviluppato esattamente per questo scopo](https://app.marqly.com/lp/replace-pocket) — importa il tuo archivio di Pocket e comincia a cercare qualsiasi cosa salvata con il linguaggio naturale. Puoi registrarti gratuitamente fino a 100 segnalibri, senza alcuna carta di credito richiesta.
 
 E se oltre ai testi sei solito salvare molti video di approfondimento, dai un'occhiata alle nostre guide sulle [migliori app di lettura differita nel 2026](/blog/best-read-it-later-apps-2026) e sui [migliori gestori di segnalibri con AI](/blog/best-ai-bookmark-manager-2026).

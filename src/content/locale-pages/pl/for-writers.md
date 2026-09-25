@@ -9,7 +9,7 @@ hero:
   heading: "Pisałeś w pełnym skupieniu, dopóki nie musiałeś odszukać cytatu przeczytanego pół roku temu"
   subheading: "Marqly to zewnętrzna pamięć każdego autora. Automatyczne tagowanie AI i wyszukiwanie semantyczne pozwalają odnaleźć źródło na podstawie opisu idei własnymi słowami."
 crumbHome: "Strona główna"
-trustLine: "Do 2 000 materiałów za darmo · Bez karty płatniczej · Chrome, Edge, Firefox, Safari i iOS"
+trustLine: "Do 100 materiałów za darmo · Bez karty płatniczej · Chrome, Edge, Firefox, Safari i iOS"
 faqHeading: "Najczęstsze pytania"
 faqs:
   - q: "Czy mogę pisać teksty bezpośrednio w Marqly?"
@@ -21,7 +21,7 @@ faqs:
   - q: "Czy sprawdzi się przy wywiadach i filmach dokumentalnych?"
     a: "Bardzo dobrze. Zapisane filmy z YouTube otrzymują transkrypcję tekstową, co pozwala odszukać wypowiedziane przez rozmówcę zdanie po wielu miesiącach."
   - q: "Ile wynosi abonament?"
-    a: "Do 2 000 zakładek bezpłatnie. Wersja Pro kosztuje 72 $/rok (z kuponem STANDING49 pierwszy rok za 49 $) lub 9 $/miesiąc."
+    a: "Do 100 zakładek bezpłatnie. Wersja Pro kosztuje 72 $/rok (z kuponem STANDING49 pierwszy rok za 49 $) lub 9 $/miesiąc."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"

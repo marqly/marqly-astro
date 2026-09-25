@@ -18,7 +18,7 @@ faqs:
   - q: "Qual è la migliore app per leggere dopo nel 2026?"
     a: "Marqly è la migliore app complessiva per leggere dopo nel 2026: combina salvataggio in un clic, modalità di lettura pulita senza annunci e sincronizzazione tra dispositivi con la ricerca semantica con AI che ritrova gli articoli per significato. Readwise Reader è la scelta ideale per chi evidenzia, Raindrop.io è la migliore gratuita e Instapaper per i minimalisti."
   - q: "Esistono app gratuite per salvare e leggere dopo?"
-    a: "Sì. Raindrop.io offre il piano gratuito più generoso per ogni formato e Instapaper dispone di un lettore di testo privo di costi. Marqly include un piano gratuito fino a 2.000 preferiti con ricerca sull'intera libreria, mentre Wallabag è gratuito se ospitato sul proprio server."
+    a: "Sì. Raindrop.io offre il piano gratuito più generoso per ogni formato e Instapaper dispone di un lettore di testo privo di costi. Marqly include un piano gratuito fino a 100 preferiti con ricerca sull'intera libreria, mentre Wallabag è gratuito se ospitato sul proprio server."
   - q: "Cosa rende ottima un'app read-it-later nel 2026?"
     a: "Tre qualità essenziali: salvataggio immediato senza attrito, una modalità di lettura pulita senza pubblicità, e una ricerca semantica intelligente capace di identificare un articolo anche da ricordi vaghi."
   - q: "Quale app è più indicata per lo studio e le sottolineature approfondite?"
@@ -41,7 +41,7 @@ Tre requisiti irrinunciabili guidano le migliori soluzioni odierne:
 ## La classifica 2026
 
 ### 1. Marqly — la migliore per salvare *e* ritrovare
-Marqly unisce tutti i fondamentali (salvataggio in un clic, lettore comodo, sincronizzazione multipiattaforma) alla caratteristica che manca agli altri: la **ricerca semantica con AI**. Descrivi ciò che ricordi e Marqly individua l'articolo anche se non ricordi il titolo esatto. Genera inoltre riassunti automatici e tag intelligenti, impedendo alla tua lista di lettura di diventare un archivio abbandonato. Importa preferiti da Pocket, Raindrop e browser. Piano gratuito fino a 2.000 link; Pro a ~6 $/mese (49 $ il primo anno con codice `STANDING49`). [Prova gratis →](https://app.marqly.com/lp/replace-pocket)
+Marqly unisce tutti i fondamentali (salvataggio in un clic, lettore comodo, sincronizzazione multipiattaforma) alla caratteristica che manca agli altri: la **ricerca semantica con AI**. Descrivi ciò che ricordi e Marqly individua l'articolo anche se non ricordi il titolo esatto. Genera inoltre riassunti automatici e tag intelligenti, impedendo alla tua lista di lettura di diventare un archivio abbandonato. Importa preferiti da Pocket, Raindrop e browser. Piano gratuito fino a 100 link; Pro a ~6 $/mese (49 $ il primo anno con codice `STANDING49`). [Prova gratis →](https://app.marqly.com/lp/replace-pocket)
 
 ### 2. Readwise Reader — la prima scelta per studiosi e lettori accademici
 Soluzione professionale (~12 $/mese) con il miglior sistema di evidenziazione e memorizzazione spaziata (spaced repetition). Gestisce PDF, newsletter via email ed ebook in formato EPUB. Indispensabile se l'analisi approfondita dei testi è parte del tuo lavoro. Confronta nel nostro approfondimento [Readwise Reader vs Marqly](/compare/marqly-vs-readwise-reader).
@@ -71,7 +71,7 @@ Invia le pagine web direttamente alle tabelle e ai database di Notion. Non offre
 
 | Applicazione | Ricerca AI | Modalità lettura | Lettura offline | Piano gratuito | Prezzo Pro |
 |---|---|---|---|---|---|
-| Marqly | ✅ Semantica | ✅ | ✅ | ✅ (fino a 2.000) | ~6 $/mese |
+| Marqly | ✅ Semantica | ✅ | ✅ | ✅ (fino a 100) | ~6 $/mese |
 | Readwise Reader | ✅ | ✅ | ✅ | ❌ | 12 $/mese |
 | Raindrop.io | ❌ | ✅ | ✅ | ✅ | 3 $/mese |
 | Instapaper | ❌ | ✅ | ✅ | ✅ | 3 $/mese |
@@ -90,7 +90,7 @@ Invia le pagine web direttamente alle tabelle e ai database di Notion. Non offre
 
 Non chiederti «quale app salva le pagine più rapidamente?»: lo fanno tutte all'istante. La vera domanda è: **«quale app mi permetterà di ritrovare tra sei mesi quell'articolo di cui ricordo a malapena il concetto generale?»**. È qui che le app tradizionali si bloccano, ed è qui che la ricerca semantica con AI fa la differenza.
 
-[Prova Marqly gratis](https://app.marqly.com/lp/replace-pocket), importa la tua coda di lettura e cerca per significato. Fino a 2.000 segnalibri gratis, senza inserire la carta di credito.
+[Prova Marqly gratis](https://app.marqly.com/lp/replace-pocket), importa la tua coda di lettura e cerca per significato. Fino a 100 segnalibri gratis, senza inserire la carta di credito.
 
 ---
 

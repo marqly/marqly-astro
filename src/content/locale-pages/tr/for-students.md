@@ -13,7 +13,7 @@ trustLine: "Ücretsiz plan, kredi kartı gerekmez · Chrome, Edge, Firefox, Safa
 faqHeading: "Sıkça Sorulan Sorular"
 faqs:
   - q: "Öğrenci indirimi nasıl çalışır?"
-    a: "Doğrulanmış öğrenciler Pro yıllık planını 72 $ yerine ilk yıl 48 $'a kullanabilir. 2.000 kayda kadar ücretsiz plan da her zaman aktiftir."
+    a: "Doğrulanmış öğrenciler Pro yıllık planını 72 $ yerine ilk yıl 48 $'a kullanabilir. 100 kayda kadar ücretsiz plan da her zaman aktiftir."
   - q: "Marqly, Zotero veya Mendeley'in yerine mi geçer?"
     a: "Hayır; bu araçlar birlikte çalışır. Zotero nihai kaynakça ve dipnot formatlamasını yapar. Marqly ise önceki aşamayı yönetir: hızlı toplama, vurgulama ve semantik arama."
   - q: "YouTube ders videolarını özetleyebilir miyim?"

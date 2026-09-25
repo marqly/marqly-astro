@@ -60,4 +60,4 @@ Bu ham bağlantıları gerçek bir bilgi bankasına dönüştürmek için:
 - Marqly yapay zekası ilgili Reddit sayfalarını tarayarak başlıkları çeker ve otomatik konu etiketleri ekler.
 - **Anlamsal arama** sayesinde subreddit veya başlığı hatırlamasanız bile *"ekşi maya ekmek yapımı ipuçları"* gibi aklınızda kalan ifadelerle aradığınız gönderiye anında ulaşın.
 
-Marqly'de 2.000 linke kadar ücretsiz plan bulunur; Pro plan ise yıllık 72 dolardır (ayda yaklaşık 6 dolar).
+Marqly'de 100 linke kadar ücretsiz plan bulunur; Pro plan ise yıllık 72 dolardır (ayda yaklaşık 6 dolar).

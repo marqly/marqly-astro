@@ -9,7 +9,7 @@ hero:
   heading: "분명 저장해 둔 맛있는 레시피가 있었는데, 퇴근 후 저녁엔 찾을 수가 없다면"
   subheading: "인스타그램, 유튜브, 블로그에 흩어진 요리법을 하나의 라이브러리로 모으세요. AI 자동 식재료 태깅과 냉장고 파먹기 검색으로 매일 저녁 메뉴 고민을 끝냅니다."
 crumbHome: "홈"
-trustLine: "최대 2,000개 무료 저장 · 신용카드 등록 불필요 · Chrome, Edge, Firefox, Safari, iOS 지원"
+trustLine: "최대 100개 무료 저장 · 신용카드 등록 불필요 · Chrome, Edge, Firefox, Safari, iOS 지원"
 faqHeading: "자주 묻는 질문"
 faqs:
   - q: "인스타그램이나 틱톡의 요리 릴스도 저장할 수 있나요?"
@@ -21,7 +21,7 @@ faqs:
   - q: "가족과 함께 식단이나 장보기 목록을 공유할 수 있나요?"
     a: "네. '이번 주 저녁 식단' 보드를 만들어 공개 링크를 전달하면 가족들이 별도 가입 없이 웹 브라우저에서 바로 레시피를 확인할 수 있습니다."
   - q: "이용 요금은 어떻게 되나요?"
-    a: "2,000개 레시피까지 무료입니다. Pro 플랜은 연 $72(쿠폰 STANDING49 적용 시 첫해 $49) 또는 월 $9입니다."
+    a: "100개 레시피까지 무료입니다. Pro 플랜은 연 $72(쿠폰 STANDING49 적용 시 첫해 $49) 또는 월 $9입니다."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly 무료로 시작하기"
 ctaSecondaryLabel: "Chrome에 추가 — 무료"

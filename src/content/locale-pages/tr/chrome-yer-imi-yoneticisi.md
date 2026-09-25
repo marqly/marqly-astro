@@ -13,7 +13,7 @@ trustLine: "Ücretsiz plan, kart gerekmez · Chrome Web Mağazası'nda"
 faqHeading: "Sıkça Sorulan Sorular"
 faqs:
   - q: "Marqly Chrome Web Mağazası'nda ücretsiz mi?"
-    a: "Uzantıyı yüklemek tamamen ücretsizdir. Kredi kartı istemeyen ücretsiz plan 2.000 kayda kadar destekler. Pro sürümü yıllık 72$ (STANDING49 kuponuyla ilk yıl 49$) veya aylık 9$'dır."
+    a: "Uzantıyı yüklemek tamamen ücretsizdir. Kredi kartı istemeyen ücretsiz plan 100 kayda kadar destekler. Pro sürümü yıllık 72$ (STANDING49 kuponuyla ilk yıl 49$) veya aylık 9$'dır."
   - q: "Mevcut Chrome yer imlerimi aktarabilir miyim?"
     a: "Evet. Chrome'dan dışa aktarılan HTML yer imi dosyasını Marqly'ye yüklediğinizde yapay zeka tüm geçmişinizi otomatik olarak etiketler."
   - q: "Chrome'un yerleşik yer imi çubuğunun yerini mi alır?"

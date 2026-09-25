@@ -16,7 +16,7 @@ This document tracks execution of the Marqly SEO War Plan to capture organic sea
   - `/features` & `/features/` → 301 to `/extension`
   - `/about` & `/about/` → 301 to `/`
 - [x] **Pricing & Free-Tier Reconciliation:**
-  - Following the removal of the 100-bookmark read-wall, updated `src/data/competitors/marqly.json`, `public/llms.txt`, all pricing FAQs, and blog roundups to reflect the canonical product truth: **Free tier stores up to 2,000 bookmarks with whole-library search**.
+  - Following the removal of the 100-bookmark read-wall, updated `src/data/competitors/marqly.json`, `public/llms.txt`, all pricing FAQs, and blog roundups to reflect the canonical product truth: **Free tier stores up to 100 bookmarks with whole-library search**.
   - Standardized Pro pricing ($72/yr, $39 first-year with `STANDING39`, $9/mo, $48 student discount, 7-day trial).
 
 ---

@@ -9,7 +9,7 @@ hero:
   heading: "Strona konkurencji, którą chciałeś pokazać zespołowi, właśnie zniknęła po redesignie"
   subheading: "Marqly pozwala zapisać strony konkurencji jako wierny plik PDF z zachowaniem 100% układu. Sztuczna inteligencja analizuje przekaz, byś mógł szukać po cechach oferty zamiast nazwy marki."
 crumbHome: "Strona główna"
-trustLine: "Do 2 000 zakładek bez opłat · Bez karty płatniczej · Chrome, Edge, Firefox, Safari i iOS"
+trustLine: "Do 100 zakładek bez opłat · Bez karty płatniczej · Chrome, Edge, Firefox, Safari i iOS"
 faqHeading: "Najczęstsze pytania"
 faqs:
   - q: "Czy mogę zarchiwizować stronę, zanim konkurencja ją zmieni lub usunie?"
@@ -19,7 +19,7 @@ faqs:
   - q: "Czy mogę udostępnić tablicę z materiałami klientowi lub zespołowi?"
     a: "Tak. Każda tablica posiada opcję wygenerowania publicznego linku, co umożliwia przeglądanie zebranych referencji bez konieczności rejestracji."
   - q: "Ile kosztuje Marqly?"
-    a: "Wersja bezpłatna mieści do 2 000 zakładek. Plan Pro kosztuje 72 $/rok (z kodem STANDING49 pierwszy rok za 49 $) lub 9 $/miesiąc."
+    a: "Wersja bezpłatna mieści do 100 zakładek. Plan Pro kosztuje 72 $/rok (z kodem STANDING49 pierwszy rok za 49 $) lub 9 $/miesiąc."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"

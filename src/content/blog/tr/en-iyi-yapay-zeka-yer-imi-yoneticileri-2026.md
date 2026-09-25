@@ -36,7 +36,7 @@ Modern bir **yapay zeka yer imi yöneticisi**, internet bağlantılarını yaln�
 
 ### 1. Marqly — Anlamsal aramada tartışmasız lider
 Marqly, kaydedilen hiçbir bilginin unutulmaması için geliştirilmiştir. Web makalelerini, altyazılı YouTube videolarını depolar ve tüm arşivinizle yapay zeka üzerinden sohbet etmenizi sağlar.
-- Ücretsiz plan: 2.000 yer imine kadar tüm kütüphanede arama.
+- Ücretsiz plan: 100 yer imine kadar tüm kütüphanede arama.
 - Pro plan: Yıllık 72$ (ilk yıl 49$) veya aylık 9$. [Ücretsiz Deneyin →](https://app.marqly.com/lp/ai-search)
 
 ### 2. Readwise Reader — Akademik okuma ve vurgulama için

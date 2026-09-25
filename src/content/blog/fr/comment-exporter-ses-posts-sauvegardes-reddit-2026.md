@@ -60,4 +60,4 @@ Pour redonner vie à ces sauvegardes et les rendre facilement exploitables :
 - L'IA de Marqly explore chaque lien, extrait le titre de la discussion et crée des tags thématiques précis.
 - Grâce à la **recherche sémantique**, vous retrouvez une discussion en décrivant simplement son sujet (par exemple *"le post expliquant comment isoler phoniquement une pièce"*), sans vous souvenir du titre exact ni du subreddit.
 
-Marqly propose une version gratuite jusqu'à 2 000 liens et un forfait Pro à 72 $/an.
+Marqly propose une version gratuite jusqu'à 100 liens et un forfait Pro à 72 $/an.

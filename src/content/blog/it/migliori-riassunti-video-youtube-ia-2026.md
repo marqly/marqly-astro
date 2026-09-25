@@ -19,7 +19,7 @@ faqs:
   - q: "Qual è il miglior riassuntore di video YouTube con IA nel 2026?"
     a: "Marqly è la scelta migliore per la maggior parte degli utenti perché la scheda con il riassunto vive direttamente sulla pagina di YouTube, con trascrizione sincronizzata, chat interattiva e salvataggio in libreria con ricerca semantica."
   - q: "Si possono riassumere video YouTube gratis?"
-    a: "Sì. Marqly include un piano gratuito fino a 2.000 elementi, Eightify offre 3 video a settimana (max 30 min) e Glasp 3 riassunti base al giorno. È anche possibile copiare la trascrizione in ChatGPT manualmente."
+    a: "Sì. Marqly include un piano gratuito fino a 100 elementi, Eightify offre 3 video a settimana (max 30 min) e Glasp 3 riassunti base al giorno. È anche possibile copiare la trascrizione in ChatGPT manualmente."
   - q: "Posso fare domande e dialogare con il video di YouTube?"
     a: "Sì. Nella scheda Chat di Marqly puoi porre domande specifiche sul contenuto del video e ottenere risposte basate fedelmente sulla trascrizione senza mai lasciare YouTube."
 ---
@@ -30,7 +30,7 @@ Il vero discrimine tra questi strumenti non è il testo generato — ormai tutti
 
 | Strumento | Dove compare il riassunto | Trascrizione | Chat con il video | Piano gratuito | Prezzo (agosto 2026) |
 | --- | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Sulla pagina di YouTube | ✅ Sincronizzata al millisecondo | ✅ Sì (Pro) | ✅ Fino a 2.000 elementi | 72 $/anno (49 $ codice STANDING49) |
+| **Marqly** | ✅ Sulla pagina di YouTube | ✅ Sincronizzata al millisecondo | ✅ Sì (Pro) | ✅ Fino a 100 elementi | 72 $/anno (49 $ codice STANDING49) |
 | **NoteGPT** | ❌ Spazio di lavoro esterno | ✅ Sì | ✅ Sì | ⚠️ Quota mensile ridotta | Pro 9 $/mese |
 | **Recall** | ❌ Applicazione esterna | ✅ Sì | ❌ Solo riassunto | ✅ 10 riassunti/mese | Plus 10 $/mese annuale |
 | **Eightify** | ✅ Sulla pagina di YouTube | ⚠️ Solo punti chiave | ❌ No | ✅ 3 video/settimana (≤30m) | 4,95 $/mese |

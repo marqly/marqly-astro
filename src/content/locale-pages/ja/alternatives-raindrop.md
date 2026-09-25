@@ -17,7 +17,7 @@ faqs:
   - q: "MarqlyはRaindropのブックマークを移行できますか？"
     a: "はい。RaindropのエクスポートファイルをMarqlyにアップロードするだけで、数分で全コレクションを移行できます。"
   - q: "Raindropの代替として完全無料のツールはありますか？"
-    a: "ローカルで管理したい方にはObsidian Web Clipperが完全無料の選択肢です。クラウド管理ならMarqlyの2,000件無料プランがおすすめです。"
+    a: "ローカルで管理したい方にはObsidian Web Clipperが完全無料の選択肢です。クラウド管理ならMarqlyの100件無料プランがおすすめです。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqlyを無料で試す"
 ctaSecondaryLabel: "Chromeに追加 — 無料"

@@ -25,4 +25,4 @@ Keyword search needs you to remember words that literally appear in the title. S
 
 ## How Marqly implements the three layers
 
-Marqly auto-tags every save, generates AI summaries of saved articles, and runs [semantic search](/faq/what-is-semantic-search) across titles, content, highlights, and video transcripts. Those three AI layers are part of Pro; the free plan covers up to 2,000 bookmarks with search across your whole library. Marqly works as a browser extension for Chrome, Edge, Firefox, and Safari, plus a web app and an iOS app — start free, no card required, at [app.marqly.com](https://app.marqly.com).
+Marqly auto-tags every save, generates AI summaries of saved articles, and runs [semantic search](/faq/what-is-semantic-search) across titles, content, highlights, and video transcripts. Those three AI layers are part of Pro; the free plan covers up to 100 bookmarks with search across your whole library. Marqly works as a browser extension for Chrome, Edge, Firefox, and Safari, plus a web app and an iOS app — start free, no card required, at [app.marqly.com](https://app.marqly.com).

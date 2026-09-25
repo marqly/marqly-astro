@@ -20,7 +20,7 @@ faqs:
   - q: "Eski Pocket verilerimi hala aktarabilir miyim?"
     a: "Evet. Sunucular tamamen kapanmadan önce indirdiğiniz HTML dışa aktarma dosyası elinizde varsa Marqly, Raindrop veya Instapaper'a tek tıkla yükleyebilirsiniz."
   - q: "Tamamen ücretsiz bir Pocket alternatifi var mı?"
-    a: "Raindrop.io zengin bir ücretsiz plan sunar. Marqly ise 2.000 yer imine kadar tüm kütüphaneyi kapsayan arama özellikli ücretsiz bir plana sahiptir."
+    a: "Raindrop.io zengin bir ücretsiz plan sunar. Marqly ise 100 yer imine kadar tüm kütüphaneyi kapsayan arama özellikli ücretsiz bir plana sahiptir."
   - q: "Pocket tam olarak ne zaman kapandı?"
     a: "Mozilla, Pocket'ın kapatılacağını 8 Temmuz 2025'te duyurarak yeni kaydetmeleri durdurdu ve 12 Kasım 2025'te kullanıcı verileri sunuculardan kalıcı olarak silindi."
 heroImage: ../../../assets/blog/best-pocket-alternatives-2026.png
@@ -35,7 +35,7 @@ Mozilla'nın 2025 yılında Pocket hizmetini sonlandırması web dünyasında bi
 ### 1. Marqly — Yapay zeka anlamsal aramalı en modern alternatif
 Marqly, Pocket'ın boşluğunu dolduran en güçlü araçtır. HTML dışa aktarma dosyasını saniyeler içinde içe aktarır, reklamsız temiz bir okuma modu sunar ve **yapay zeka destekli anlamsal arama** ile tam başlığı unutsanız bile aklınızda kalan konuyu yazarak içeriği bulmanızı sağlar.
 - **Kimler için**: Kaydettiği linkleri unutmaktan bıkan ve aradığını anında bulmak isteyenler.
-- **Fiyat**: 2.000 yer imine kadar ücretsiz; Pro yıllık 72$ (ilk yıl 49$).
+- **Fiyat**: 100 yer imine kadar ücretsiz; Pro yıllık 72$ (ilk yıl 49$).
 
 ### 2. Raindrop.io — En iyi ücretsiz bağlantı yöneticisi
 Klasik klasör ve etiket yapısını sevenler için zengin ücretsiz özellikler sunar. Araması klasik anahtar kelimelere dayanır.

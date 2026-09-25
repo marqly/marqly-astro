@@ -17,7 +17,7 @@ faqs:
   - q: "Czy mogę udostępnić materiały klientowi bez wymuszania rejestracji?"
     a: "Tak, tablice publiczne otwierają się w przeglądarce bez logowania."
   - q: "Ile kosztuje Marqly dla doradców?"
-    a: "Darmowy plan do 2 000 zakładek. Pro za 72 $/rok (49 $ z kodem STANDING49)."
+    a: "Darmowy plan do 100 zakładek. Pro za 72 $/rok (49 $ z kodem STANDING49)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"

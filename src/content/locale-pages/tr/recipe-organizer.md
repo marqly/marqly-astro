@@ -9,7 +9,7 @@ hero:
   heading: "Harika bir yemek tarifi kaydetmiştiniz. Perşembe akşamı acıktığınızda ise bulamıyorsunuz"
   subheading: "Instagram, YouTube ve yemek bloglarındaki tüm tarifleri tek bir akıllı kütüphanede birleştirin. Yapay zeka malzeme etiketleri ve dolaptaki malzemeyle arama ile akşam ne pişireceğinizi dert etmeyin."
 crumbHome: "Ana Sayfa"
-trustLine: "2.000 tarife kadar ücretsiz · Kredi kartı gerekmez · Chrome, Edge, Firefox, Safari ve iOS"
+trustLine: "100 tarife kadar ücretsiz · Kredi kartı gerekmez · Chrome, Edge, Firefox, Safari ve iOS"
 faqHeading: "Sıkça Sorulan Sorular"
 faqs:
   - q: "Instagram veya TikTok yemek videolarını kaydedebilir miyim?"
@@ -21,7 +21,7 @@ faqs:
   - q: "Haftalık yemek planımı ailemle paylaşabilir miyim?"
     a: "Evet. 'Bu Haftanın Menüsü' panosu oluşturup herkese açık bağlantıyı ailenizle paylaşabilirsiniz; kimsenin uygulamaya üye olmasına gerek kalmaz."
   - q: "Kullanım ücreti nedir?"
-    a: "2.000 tarife kadar tamamen ücretsizdir. Pro plan yıllık 72 $ (STANDING49 koduyla ilk yıl 49 $) veya aylık 9 $'dır."
+    a: "100 tarife kadar tamamen ücretsizdir. Pro plan yıllık 72 $ (STANDING49 koduyla ilk yıl 49 $) veya aylık 9 $'dır."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Dene"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

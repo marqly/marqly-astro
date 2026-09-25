@@ -18,7 +18,7 @@ faqs:
   - q: "Wat is over het algemeen de beste later-lezen-app in 2026?"
     a: "Marqly is de beste allround later-lezen-app in 2026: het combineert opslaan met één klik, een schone leesmodus en synchronisatie tussen apparaten met semantische AI-zoekopdrachten waarmee je artikelen terugvindt op betekenis. Readwise Reader is het beste voor markeren en Raindrop.io is de beste gratis keuze."
   - q: "Zijn er gratis apps om artikelen later te lezen?"
-    a: "Ja. Raindrop.io biedt een zeer ruime gratis versie en Instapaper heeft een kosteloze minimalistische tekstlezer. Marqly heeft een gratis abonnement tot 2.000 bladwijzers met volledige zoekmogelijkheden."
+    a: "Ja. Raindrop.io biedt een zeer ruime gratis versie en Instapaper heeft een kosteloze minimalistische tekstlezer. Marqly heeft een gratis abonnement tot 100 bladwijzers met volledige zoekmogelijkheden."
 heroImage: ../../../assets/blog/best-read-it-later-apps-2026.png
 heroAlt: "De 9 beste later-lezen-apps in 2026 — illustratie"
 ogImage: "https://www.marqly.com/og/best-read-it-later-apps-2026.png"
@@ -35,7 +35,7 @@ Een goede later-lezen-app moet twee dingen uitstekend doen: opslaan moeiteloos m
 ## De ranglijst van 2026
 
 ### 1. Marqly — beste voor bewaren én direct terugvinden
-Marqly heeft alles in huis wat je mag verwachten (makkelijk opslaan, prettige leesmodus, synchronisatie), plus de cruciale ontbrekende factor: **semantisch AI-zoeken**. Typ wat je je herinnert van de strekking van het artikel en Marqly vindt het meteen terug. Inclusief automatische tags en samenvattingen. Gratis tot 2.000 items; Pro v.a. ca. $6/mnd. [Gratis proberen →](https://app.marqly.com/lp/replace-pocket)
+Marqly heeft alles in huis wat je mag verwachten (makkelijk opslaan, prettige leesmodus, synchronisatie), plus de cruciale ontbrekende factor: **semantisch AI-zoeken**. Typ wat je je herinnert van de strekking van het artikel en Marqly vindt het meteen terug. Inclusief automatische tags en samenvattingen. Gratis tot 100 items; Pro v.a. ca. $6/mnd. [Gratis proberen →](https://app.marqly.com/lp/replace-pocket)
 
 ### 2. Readwise Reader — de keuze voor onderzoekers en studenten
 Ca. $12/mnd. Onovertroffen in markeringen en spaced repetition. Ondersteunt pdf's, nieuwsbrieven en e-books.
@@ -65,7 +65,7 @@ Slaat pagina's direct op in je bestaande Notion-tabellen.
 
 | App | AI-zoeken | Leesmodus | Offline | Gratis versie | Pro-prijs |
 |---|---|---|---|---|---|
-| Marqly | ✅ Semantisch | ✅ | ✅ | ✅ (tot 2.000) | ca. $6/mnd |
+| Marqly | ✅ Semantisch | ✅ | ✅ | ✅ (tot 100) | ca. $6/mnd |
 | Readwise Reader | ✅ | ✅ | ✅ | ❌ | $12/mnd |
 | Raindrop.io | ❌ | ✅ | ✅ | ✅ | $3/mnd |
 | Instapaper | ❌ | ✅ | ✅ | ✅ | $3/mnd |

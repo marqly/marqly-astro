@@ -32,7 +32,7 @@ Pour la majorité des utilisateurs en 2026, le meilleur surligneur web est **Mar
 
 | Outil | Persistance sur la page | Couleurs et notes | Version gratuite | Tarif Pro |
 | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Oui, garantie | 6 couleurs + notes | ✅ Jusqu'à 2 000 éléments | 72 $/an (49 $ la 1re année) |
+| **Marqly** | ✅ Oui, garantie | 6 couleurs + notes | ✅ Jusqu'à 100 éléments | 72 $/an (49 $ la 1re année) |
 | **Readwise Reader** | ✅ Oui | Notes et étiquettes | ❌ Essai 30 jours | 9,99 $/mois annuel |
 | **Weava** | ✅ Oui | 5 couleurs de base | ✅ Oui (~100 Mo) | 3,99 $/mois |
 | **Hypothesis** | ✅ Oui | 1 couleur + notes | ✅ Totalement gratuit | Gratuit |

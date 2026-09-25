@@ -1,6 +1,6 @@
 ---
 question: "What's the difference between Marqly Free and Pro?"
-description: "Marqly Free covers saving, boards, highlights and keyword search across your whole library, up to 2,000 bookmarks. Every AI feature is Pro — tagging, summaries, semantic search, the Ask assistant and MCP access — at $72/yr or $9/mo."
+description: "Marqly Free covers saving, boards, highlights and keyword search across your whole library, up to 100 bookmarks. Every AI feature is Pro — tagging, summaries, semantic search, the Ask assistant and MCP access — at $72/yr or $9/mo."
 category: pricing
 updatedDate: 2026-09-12
 related:
@@ -9,7 +9,7 @@ related:
   - what-happens-when-my-trial-ends
 ---
 
-Marqly Free is the manual bookmark manager: save links from your browser, file them into boards, highlight what matters, and search by keyword. It covers your whole library, up to 2,000 bookmarks. **Every AI feature is Pro** — auto-tagging and summaries on every save, semantic search across your whole library, Ask (the assistant that answers from your saves, finds problems and tidies with your approval), your library inside Claude, ChatGPT and Cursor over MCP, and chat with YouTube videos through their transcripts. Pro costs $72 per year or $9 per month, billed when you upgrade, and you can cancel anytime.
+Marqly Free is the manual bookmark manager: save links from your browser, file them into boards, highlight what matters, and search by keyword. It covers your whole library, up to 100 bookmarks. **Every AI feature is Pro** — auto-tagging and summaries on every save, semantic search across your whole library, Ask (the assistant that answers from your saves, finds problems and tidies with your approval), your library inside Claude, ChatGPT and Cursor over MCP, and chat with YouTube videos through their transcripts. Pro costs $72 per year or $9 per month, billed when you upgrade, and you can cancel anytime.
 
 ## What Free includes
 
@@ -23,8 +23,8 @@ No card is required to sign up at [app.marqly.com](https://app.marqly.com), and 
 
 ## The two free-tier limits, stated plainly
 
-- **You can open and search every bookmark you save**, up to 2,000 of them. Nothing you save is hidden from you on Free.
-- **You can store up to 2,000 bookmarks.** Beyond that, saving stops until you upgrade.
+- **You can open and search every bookmark you save**, up to 100 of them. Nothing you save is hidden from you on Free.
+- **You can store up to 100 bookmarks.** Beyond that, saving stops until you upgrade.
 
 These are the limits, and they are the reason Pro exists. We would rather you read them here plainly before you start.
 

@@ -58,7 +58,7 @@ Die zweite Hälfte ist die semantische Suche: Beschreib mit deinen Worten, was d
 
 > „der Artikel, der erklärte, warum kleine Teams schneller liefern"
 
-Wenn du alles über den Inhalt zurückholen kannst, ist es egal, wie viel in der Liste steht. Eine durchsuchbare Bibliothek mit 2.000 Einträgen ist ein Vermögenswert; 200 ohne Index sind eine Last.
+Wenn du alles über den Inhalt zurückholen kannst, ist es egal, wie viel in der Liste steht. Eine durchsuchbare Bibliothek mit 100 Einträgen ist ein Vermögenswert; 200 ohne Index sind eine Last.
 
 ## Videos stehen auch auf der Liste
 

@@ -43,4 +43,4 @@ Hatten Sie beispielsweise einen Artikel mit dem Titel *"Warum das 15-Uhr-Tief ei
 3. **Auf Bedeutung setzen statt auf Stichwörter:** Die KI transformiert Ihren Satz in mathematische Vektoren und ermittelt die inhaltlich ähnlichsten Dokumente.
 4. **Die ersten Treffer prüfen:** Meist befindet sich der gesuchte Artikel bereits unter den Top-3-Ergebnissen.
 
-Mit [Marqly](https://app.marqly.com) steht Ihnen eine moderne semantische Suche für alle Ihre Lesezeichen zur Verfügung. Testen Sie Marqly kostenlos mit bis zu 2.000 Links und entdecken Sie, wie einfach Wiederfinden sein kann.
+Mit [Marqly](https://app.marqly.com) steht Ihnen eine moderne semantische Suche für alle Ihre Lesezeichen zur Verfügung. Testen Sie Marqly kostenlos mit bis zu 100 Links und entdecken Sie, wie einfach Wiederfinden sein kann.

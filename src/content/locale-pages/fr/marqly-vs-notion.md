@@ -49,7 +49,7 @@ Deux problèmes, et ils apparaissent quand le volume augmente.
 
 **La capture est faible.** Le Web Clipper de Notion perd souvent la mise en forme et bute sur les pages complexes. Il enregistre le lien, mais ce qui arrive dans votre base est souvent une version dégradée. Pour du matériel de référence à relire, cela compte.
 
-**L'organisation reste à votre charge.** Notion n'étiquette pas à l'enregistrement : vous créez la base, définissez les propriétés et les remplissez. Cela marche avec 50 liens. Avec 2 000, la base devient un dépotoir aux colonnes vides, parce que personne ne tient cet entretien pendant des mois.
+**L'organisation reste à votre charge.** Notion n'étiquette pas à l'enregistrement : vous créez la base, définissez les propriétés et les remplissez. Cela marche avec 50 liens. Avec 100, la base devient un dépotoir aux colonnes vides, parce que personne ne tient cet entretien pendant des mois.
 
 C'est toujours la même histoire : ce n'est pas l'outil qui échoue, c'est le travail manuel qu'il exige.
 

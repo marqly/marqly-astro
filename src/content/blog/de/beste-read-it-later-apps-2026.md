@@ -18,7 +18,7 @@ faqs:
   - q: "Was ist 2026 die beste Später-lesen-App?"
     a: "Marqly ist 2026 die beste Gesamtlösung für Später-lesen: Es verbindet 1-Klick-Speichern, einen werbefreien Lesemodus und geräteübergreifenden Sync mit semantischer KI-Suche, die Artikel nach Bedeutung findet. Readwise Reader eignet sich am besten für Markierungen, Raindrop.io ist die beste kostenlose Option und Instapaper die Wahl für Minimalisten."
   - q: "Gibt es eine kostenlose Später-lesen-App?"
-    a: "Ja. Raindrop.io bietet die umfangreichste Gratis-Stufe für verschiedenste Medientypen, während Instapaper einen kostenlosen minimalistischen Lesemodus bereitstellt. Marqly bietet einen kostenlosen Plan für bis zu 2.000 Lesezeichen inklusive Volltextsuche, und Wallabag ist komplett kostenlos im Self-Hosting."
+    a: "Ja. Raindrop.io bietet die umfangreichste Gratis-Stufe für verschiedenste Medientypen, während Instapaper einen kostenlosen minimalistischen Lesemodus bereitstellt. Marqly bietet einen kostenlosen Plan für bis zu 100 Lesezeichen inklusive Volltextsuche, und Wallabag ist komplett kostenlos im Self-Hosting."
   - q: "Was zeichnet eine hervorragende Read-it-Later-App im Jahr 2026 aus?"
     a: "Drei Eigenschaften definieren die besten Apps 2026: Reibungslose Erfassung per Klick, ein angenehmer ablenkungsfreier Lesemodus und intelligente Wiederauffindbarkeit. Semantische KI-Suche, die Inhalte nach Sinn statt nach exakten Stichwörtern findet, ist das entscheidende Unterscheidungsmerkmal."
   - q: "Welche App eignet sich am besten für intensives Markieren und Recherchieren?"
@@ -41,7 +41,7 @@ Drei Kriterien bestimmen heute die besten Werkzeuge:
 ## Die Rangliste 2026
 
 ### 1. Marqly — Gesamtsieger für Speichern *und* Wiederfinden
-Marqly verbindet die Grundlagen (1-Klick-Speichern, sauberer Lesemodus, Sync über alle Geräte) mit dem, was den meisten Diensten fehlt: **semantische KI-Suche**. Beschreibe, woran du dich erinnerst, und Marqly findet den Artikel — auch ohne Titel. Das Tool versieht Artikel automatisch mit Tags und erstellt Zusammenfassungen. Das Ergebnis: Deine Leseliste bleibt lebendig, statt zum Datenfriedhof zu werden. Importiert Pocket-, Raindrop- und Browser-Lesezeichen. Kostenloser Plan bis 2.000 Lesezeichen; Pro ab ~6 $/Mon. [Kostenlos testen →](https://app.marqly.com/lp/replace-pocket)
+Marqly verbindet die Grundlagen (1-Klick-Speichern, sauberer Lesemodus, Sync über alle Geräte) mit dem, was den meisten Diensten fehlt: **semantische KI-Suche**. Beschreibe, woran du dich erinnerst, und Marqly findet den Artikel — auch ohne Titel. Das Tool versieht Artikel automatisch mit Tags und erstellt Zusammenfassungen. Das Ergebnis: Deine Leseliste bleibt lebendig, statt zum Datenfriedhof zu werden. Importiert Pocket-, Raindrop- und Browser-Lesezeichen. Kostenloser Plan bis 100 Lesezeichen; Pro ab ~6 $/Mon. [Kostenlos testen →](https://app.marqly.com/lp/replace-pocket)
 
 ### 2. Readwise Reader — Das Werkzeug für Vielleser & Markierer
 Premium-Lösung (~12 $/Mon.) mit dem stärksten System für Hervorhebungen und Spaced-Repetition-Wiederholung. Verarbeitet PDFs, Newsletter und E-Books. Die erste Wahl, wenn vertieftes Lernen im Zentrum deiner Arbeit steht. Mehr Details in unserem Vergleich [Readwise Reader vs Marqly](/compare/marqly-vs-readwise-reader).
@@ -71,7 +71,7 @@ Speichert Webseiten direkt in Notion-Datenbanken. Kein spezieller Lesemodus oder
 
 | App | KI-Suche | Lesemodus | Offline | Gratis-Tarif | Pro-Preis |
 |---|---|---|---|---|---|
-| Marqly | ✅ Semantisch | ✅ | ✅ | ✅ (bis 2.000) | ~6 $/Mon. |
+| Marqly | ✅ Semantisch | ✅ | ✅ | ✅ (bis 100) | ~6 $/Mon. |
 | Readwise Reader | ✅ | ✅ | ✅ | ❌ | 12 $/Mon. |
 | Raindrop.io | ❌ | ✅ | ✅ | ✅ | 3 $/Mon. |
 | Instapaper | ❌ | ✅ | ✅ | ✅ | 3 $/Mon. |
@@ -90,7 +90,7 @@ Speichert Webseiten direkt in Notion-Datenbanken. Kein spezieller Lesemodus oder
 
 Frage dich nicht: „Welche App speichert Artikel am schnellsten?“ — speichern können sie alle. Frage dich stattdessen: **„Mit welcher App finde ich den Artikel wieder, den ich vor drei Monaten gesichert habe und von dem ich nur noch eine vage Erinnerung habe?“** Genau hier versagen die meisten klassischen Apps — und genau hier gewinnt die semantische KI-Suche.
 
-[Teste Marqly kostenlos](https://app.marqly.com/lp/replace-pocket), importiere deine Leseliste und durchsuche alles nach Bedeutung. Bis zu 2.000 Lesezeichen gratis, keine Kreditkarte erforderlich.
+[Teste Marqly kostenlos](https://app.marqly.com/lp/replace-pocket), importiere deine Leseliste und durchsuche alles nach Bedeutung. Bis zu 100 Lesezeichen gratis, keine Kreditkarte erforderlich.
 
 ---
 

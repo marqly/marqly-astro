@@ -51,4 +51,4 @@ Si buscas la comodidad de un servicio listo para usar, [Marqly](https://app.marq
 - **Búsqueda semántica real:** Encuentra cualquier artículo por su significado conceptual, algo que Wallabag o Linkwarden no pueden hacer sin complejas configuraciones de vectores.
 - **Multiplataforma impecable:** Extensiones para Chrome, Safari, Firefox y Edge con app en iOS.
 
-Marqly cuenta con un plan gratuito para hasta 2.000 marcadores y Pro por 72 $/año (6 $/mes o 49 $ el primer año con `STANDING49`).
+Marqly cuenta con un plan gratuito para hasta 100 marcadores y Pro por 72 $/año (6 $/mes o 49 $ el primer año con `STANDING49`).

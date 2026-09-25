@@ -23,7 +23,7 @@ faqs:
   - q: "mymind 有免费版吗？"
     a: "没有永久免费计划。它仅提供限时试用以及受存储容量限制的访客模式，核心AI功能均需订阅（起价每月7.99美元）。如果您需要真正的免费层级，建议考虑 Raindrop 或 Marqly。"
   - q: "mymind 与 Marqly 有什么区别？"
-    a: "mymind 专注于无文件夹的私密视觉看板和自动标签；Marqly 则以检索为核心，提供基于语义理解的智能搜索、网页荧光笔高亮、YouTube 视频摘要与公开协作画板。Marqly 提供永久免费版（可存2,000条），Pro版年付仅需72美元。"
+    a: "mymind 专注于无文件夹的私密视觉看板和自动标签；Marqly 则以检索为核心，提供基于语义理解的智能搜索、网页荧光笔高亮、YouTube 视频摘要与公开协作画板。Marqly 提供永久免费版（可存100条），Pro版年付仅需72美元。"
 ---
 
 **开门见山的结论：mymind 获得了 3.8 / 5 分的综合评价。** 它是市面上审美水平最高、个性最鲜明的灵感收集工具：一个完全私密的无干扰视觉画板，配备了极其精准的 AI 自动标签，完全免除了分类整理的苦恼。然而，没有永久免费计划、最核心的 AI 摘要和网页快照备份需要高达 12.99 美元/月的 Mastermind 订阅，以及在长篇文本内容检索上的不足，拉低了整体评分。
@@ -92,7 +92,7 @@ There's a free trial and a guest mode capped by storage, but no permanent free t
 | Highlighter | No | 6 colors + notes, persists on the page |
 | YouTube tools | No | Summary, transcript, and chat on the watch page |
 | Sharing | None, by design | Public boards, no signup needed to view |
-| Free tier | No (trial/guest mode) | Yes, up to 2,000 saves, no card required |
+| Free tier | No (trial/guest mode) | Yes, up to 100 saves, no card required |
 | Paid price | $72–$129/yr | $72/yr (or $9/mo, $49 first year with coupon STANDING49) |
 
 Where **mymind wins**: visual material, aesthetic ambience, and strict privacy posture.

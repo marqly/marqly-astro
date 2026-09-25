@@ -13,7 +13,7 @@ trustLine: "Plan gratis, sin tarjeta · Disponible en App Store para iOS"
 faqHeading: "Preguntas frecuentes"
 faqs:
   - q: "¿Es gratuita la app de Marqly para iOS?"
-    a: "Sí. Se descarga gratis desde el App Store. El plan gratuito no requiere tarjeta y cubre hasta 2.000 elementos. Pro añade preguntas con IA sobre tus notas por 72 $/año."
+    a: "Sí. Se descarga gratis desde el App Store. El plan gratuito no requiere tarjeta y cubre hasta 100 elementos. Pro añade preguntas con IA sobre tus notas por 72 $/año."
   - q: "¿Los enlaces guardados en el ordenador aparecen en el iPhone?"
     a: "Sí, al instante. Todo lo que guardas desde Chrome, Edge, Firefox, Safari o la web se sincroniza en la app de iOS con sus etiquetas y notas."
   - q: "¿Existe versión para Android?"

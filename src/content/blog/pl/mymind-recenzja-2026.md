@@ -23,7 +23,7 @@ faqs:
   - q: "Czy mymind ma darmowy plan?"
     a: "Brak stałego darmowego planu. mymind oferuje okres próbny i tryb gościa z limitem pamięci, ale stałe użytkowanie wymaga subskrypcji. Funkcje AI zaczynają się od 7,99 $/miesiąc."
   - q: "Czym różni się mymind od Marqly?"
-    a: "mymind to prywatna tablica wizualna z automatycznym tagowaniem kart. Marqly stawia na wyszukiwanie semantyczne według znaczenia, zakreślacz stron WWW, podsumowania YouTube i współdzielone tablice. Marqly oferuje darmowy plan (do 2 000 zakładek), a wersja Pro kosztuje 72 $/rok."
+    a: "mymind to prywatna tablica wizualna z automatycznym tagowaniem kart. Marqly stawia na wyszukiwanie semantyczne według znaczenia, zakreślacz stron WWW, podsumowania YouTube i współdzielone tablice. Marqly oferuje darmowy plan (do 100 zakładek), a wersja Pro kosztuje 72 $/rok."
 ---
 
 **Krótki werdykt: mymind otrzymuje ocenę 3.8 na 5.** To najbardziej dopracowana wizualnie aplikacja do zbierania materiałów na rynku — estetyczny, spokojny canvas z doskonałym automatycznym tagowaniem AI i zerową potrzebą ręcznego segregowania w folderach. Traci punkty ze względu na brak bezpłatnego planu na stałe, zablokowanie podsumowań AI i kopii zapasowych w droższym planie Mastermind (12,99 $/mies.) oraz trudności z precyzyjnym odnajdywaniem artykułów tekstowych.
@@ -92,7 +92,7 @@ There's a free trial and a guest mode capped by storage, but no permanent free t
 | Highlighter | No | 6 colors + notes, persists on the page |
 | YouTube tools | No | Summary, transcript, and chat on the watch page |
 | Sharing | None, by design | Public boards, no signup needed to view |
-| Free tier | No (trial/guest mode) | Yes, up to 2,000 saves, no card required |
+| Free tier | No (trial/guest mode) | Yes, up to 100 saves, no card required |
 | Paid price | $72–$129/yr | $72/yr (or $9/mo, $49 first year with coupon STANDING49) |
 
 Where **mymind wins**: visual material, aesthetic ambience, and strict privacy posture.

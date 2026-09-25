@@ -17,7 +17,7 @@ faqs:
   - q: "Integriert Marqly mit meinem CRM?"
     a: "Es dient als vorgeschaltete persönliche Recherche-Bibliothek neben deinem CRM."
   - q: "Was kostet Marqly für Vertriebler?"
-    a: "Kostenlose Stufe bis 2.000 Saves. Pro für 72 $/Jahr (49 $ im ersten Jahr mit STANDING49)."
+    a: "Kostenlose Stufe bis 100 Saves. Pro für 72 $/Jahr (49 $ im ersten Jahr mit STANDING49)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"

@@ -55,4 +55,4 @@ Un archivo CSV en tu carpeta de descargas no es una biblioteca útil. Para conve
 - La IA de Marqly procesa cada enlace, genera un resumen instantáneo y añade etiquetas temáticas automáticas.
 - Gracias a la búsqueda semántica, puedes encontrar cualquier hilo buscando ideas como *"el hilo sobre psicología de precios"* sin recordar quién lo publicó.
 
-El plan gratuito de Marqly cubre hasta 2.000 elementos guardados, y Marqly Pro cuesta 72 $/año. Deja de depender de las restricciones de X y mantén tu biblioteca bajo tu propio control.
+El plan gratuito de Marqly cubre hasta 100 elementos guardados, y Marqly Pro cuesta 72 $/año. Deja de depender de las restricciones de X y mantén tu biblioteca bajo tu propio control.

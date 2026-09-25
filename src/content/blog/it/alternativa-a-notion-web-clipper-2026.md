@@ -48,4 +48,4 @@ La configurazione più efficace: **lascia Notion dedicato alla scrittura e ai tu
 - **Generazione automatica di tag e riassunti** tramite intelligenza artificiale.
 - **Ricerca semantica naturale**: Ritrova gli articoli spiegando il concetto a parole tue in italiano.
 
-Marqly offre fino a 2.000 elementi salvati nel piano gratuito e una versione Pro a 72 $/anno.
+Marqly offre fino a 100 elementi salvati nel piano gratuito e una versione Pro a 72 $/anno.

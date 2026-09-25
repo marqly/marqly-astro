@@ -38,7 +38,7 @@ Un **gestor de marcadores con IA** no se limita a guardar enlaces: utiliza intel
 
 ### 1. Marqly — El líder en búsqueda semántica y recuperación
 Marqly está diseñado desde su origen en torno a la búsqueda semántica. Guarda artículos, videos de YouTube y notas, genera resúmenes automáticos y te permite hacer preguntas a tu biblioteca.
-- Plan gratis: hasta 2.000 marcadores con búsqueda completa.
+- Plan gratis: hasta 100 marcadores con búsqueda completa.
 - Pro: 72 USD/año (49 USD el primer año) o 9 USD/mes. [Prueba Marqly gratis →](https://app.marqly.com/lp/ai-search)
 
 ### 2. Readwise Reader — Potencia para investigadores

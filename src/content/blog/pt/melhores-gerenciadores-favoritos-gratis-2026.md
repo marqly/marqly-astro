@@ -20,21 +20,21 @@ ctaLabel: "Testar Marqly grátis"
 lang: "pt"
 faqs:
   - q: "Qual o melhor gerenciador de favoritos gratuito em 2026?"
-    a: "O Raindrop.io tem o plano gratuito clássico mais generoso: links e pastas ilimitados em todas as plataformas. O Marqly oferece plano gratuito para até 2.000 itens com busca rápida. Para quem prefere hospedar no próprio servidor, Linkwarden e Karakeep são as melhores escolhas em código aberto."
+    a: "O Raindrop.io tem o plano gratuito clássico mais generoso: links e pastas ilimitados em todas as plataformas. O Marqly oferece plano gratuito para até 100 itens com busca rápida. Para quem prefere hospedar no próprio servidor, Linkwarden e Karakeep são as melhores escolhas em código aberto."
   - q: "O Raindrop.io é realmente gratuito?"
     a: "Sim. A versão gratuita inclui favoritos e coleções sem limite de tempo. Recursos avançados como cópias permanentes e busca textual completa exigem o Pro ($28/ano)."
   - q: "Os favoritos do navegador são suficientes?"
     a: "Para algumas dezenas de links, sim. Quando você ultrapassa centenas, a ausência de busca por conteúdo e a desorganização de pastas tornam o navegador ineficiente."
 ---
 
-O melhor gerenciador de favoritos gratuito em 2026 depende das suas prioridades. O **Raindrop.io** oferece o melhor plano gratuito clássico para organizar links manualmente. O **Marqly** conta com um plano gratuito sem cartão de crédito para até 2.000 itens. E para entusiastas de auto-hospedagem, **Linkwarden** e **Karakeep** entregam total privacidade.
+O melhor gerenciador de favoritos gratuito em 2026 depende das suas prioridades. O **Raindrop.io** oferece o melhor plano gratuito clássico para organizar links manualmente. O **Marqly** conta com um plano gratuito sem cartão de crédito para até 100 itens. E para entusiastas de auto-hospedagem, **Linkwarden** e **Karakeep** entregam total privacidade.
 
 ## Tabela comparativa de opções gratuitas
 
 | Ferramenta | Plano gratuito | Busca por IA | Auto-hospedagem | Plataformas | Preço Pro |
 | --- | --- | --- | --- | --- | --- |
 | **Raindrop.io** | ✅ Ilimitado | ❌ Palavras-chave | ❌ Não | Web, iOS, Android, Desktop | $28/ano |
-| **Marqly** | ✅ Até 2.000 itens | ❌ IA no plano Pro | ❌ Não | Web, iOS, Extensões | $72/ano ($49 1º ano) |
+| **Marqly** | ✅ Até 100 itens | ❌ IA no plano Pro | ❌ Não | Web, iOS, Extensões | $72/ano ($49 1º ano) |
 | **Linkwarden** | ✅ Grátis se hospedado | ⚠️ Opcional | ✅ Sim (AGPL) | Web, celular, extensões | $3/mês em nuvem |
 | **Karakeep** | ✅ Grátis se hospedado | ✅ Sim (com sua chave) | ✅ Sim | Web, celular, extensões | Custo do servidor |
 | **Favoritos do navegador** | ✅ Integrados | ❌ Não | — | Apenas ecossistema próprio | Grátis |

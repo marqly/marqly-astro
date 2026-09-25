@@ -20,7 +20,7 @@ faqs:
   - q: "¿Todavía puedo importar mis datos de Pocket tras su cierre?"
     a: "Sí. Si descargaste tu exportación de Pocket antes o durante el cierre anunciado en julio de 2025, las herramientas modernas —incluyendo Marqly, Raindrop e Instapaper— importan ese archivo directamente, conservando tus enlaces y etiquetas. Marqly importa una exportación de Pocket en unos dos minutos."
   - q: "¿Hay alternativas gratuitas a Pocket?"
-    a: "Sí. Raindrop.io ofrece el plan gratuito más generoso para guardar de todo, Instapaper cuenta con un modo de lectura minimalista gratis, y Marqly incluye un plan gratuito con hasta 2.000 marcadores y búsqueda en toda la biblioteca. Wallabag es completamente gratuito si lo auto-alojas."
+    a: "Sí. Raindrop.io ofrece el plan gratuito más generoso para guardar de todo, Instapaper cuenta con un modo de lectura minimalista gratis, y Marqly incluye un plan gratuito con hasta 100 marcadores y búsqueda en toda la biblioteca. Wallabag es completamente gratuito si lo auto-alojas."
   - q: "¿Qué diferenciaba a Pocket de un gestor de marcadores tradicional?"
     a: "Pocket era una app de lectura diferida (read-it-later): guardaba artículos en una vista limpia y sin distracciones para leerlos después, en lugar de acumular enlaces planos. Las mejores alternativas de 2026 conservan esa experiencia de lectura y le añaden resúmenes con IA y búsqueda semántica."
   - q: "¿Cuándo cerró Pocket exactamente?"
@@ -36,7 +36,7 @@ ogImage: "https://www.marqly.com/og/best-pocket-alternatives-2026.png"
 
 **La mejor alternativa a Pocket en 2026 para la mayoría es Marqly:** importa tu archivo de Pocket en un par de minutos y suma búsqueda semántica con IA, para que encuentres lo guardado describiendo lo que recuerdas en vez de adivinar palabras clave. Elige Raindrop.io si buscas la mejor opción gratuita todoterreno, o Readwise Reader si eres un lector intensivo que subraya todo.
 
-Cuando Mozilla apagó Pocket el 8 de julio de 2025, dejó desamparados a más de 20 millones de usuarios que habían acumulado más de 2.000 millones de artículos guardados. Si fuiste uno de ellos, probablemente hayas pasado los últimos meses buscando un reemplazo que haga lo que hacía Pocket — e idealmente mucho mejor. (Si todavía necesitas rescatar tus enlaces, consulta nuestra guía sobre cómo [exportar y migrar tus datos de Pocket](/blog/how-to-export-migrate-pocket-data)).
+Cuando Mozilla apagó Pocket el 8 de julio de 2025, dejó desamparados a más de 20 millones de usuarios que habían acumulado más de 100 millones de artículos guardados. Si fuiste uno de ellos, probablemente hayas pasado los últimos meses buscando un reemplazo que haga lo que hacía Pocket — e idealmente mucho mejor. (Si todavía necesitas rescatar tus enlaces, consulta nuestra guía sobre cómo [exportar y migrar tus datos de Pocket](/blog/how-to-export-migrate-pocket-data)).
 
 La buena noticia: la categoría de «leer más tarde» no murió con Pocket. Maduró. Las mejores herramientas en 2026 no se limitan a guardar URLs: utilizan inteligencia artificial para resumir lo que guardas, etiquetarlo automáticamente y permitirte **buscar por significado** en lugar de rebuscar manualmente en carpetas olvidadas. El marcador tradicional se ha transformado en una base de conocimiento inteligente y consultable.
 
@@ -60,7 +60,7 @@ Las alternativas a Pocket se dividen en tres grandes grupos: herramientas nativa
 
 | Herramienta | Ideal para | Plan gratuito | Búsqueda semántica con IA | Importa Pocket | Precio |
 |---|---|---|---|---|---|
-| **Marqly** | Búsqueda con IA + segundo cerebro | Sí (hasta 2.000 guardados) | ✅ Semántica (Pro) | ✅ Sí | Gratis; Pro 72 $/año (~6 $/mes) o 9 $/mes |
+| **Marqly** | Búsqueda con IA + segundo cerebro | Sí (hasta 100 guardados) | ✅ Semántica (Pro) | ✅ Sí | Gratis; Pro 72 $/año (~6 $/mes) o 9 $/mes |
 | Raindrop.io | Guardado general gratuito | Generoso | ❌ Solo palabras clave | ✅ Sí | Gratis; Pro ~3 $/mes |
 | Instapaper | Lectura minimalista | Sí | ❌ Solo palabras clave | ✅ Sí | Gratis; Premium ~3 $/mes |
 | Readwise Reader | Lectores intensivos y subrayado | No (solo prueba) | ✅ Sí | ✅ Sí | ~10–12 $/mes |
@@ -81,7 +81,7 @@ Si el gran talón de Aquiles de Pocket era que guardar resultaba facilísimo per
 
 - **Ventajas:** Búsqueda semántica con IA, etiquetado automático inteligente, resúmenes automáticos, importación impecable de Pocket, modo de lectura limpio, precio muy accesible.
 - **Desventajas:** Más joven que los gigantes históricos, comunidad en plena fase de expansión.
-- **Precio:** Plan gratuito con hasta 2.000 guardados y búsqueda en toda la biblioteca; plan Pro por 72 $/año (~6 $/mes, con cupón `STANDING49` a 49 $ el primer año) o 9 $/mes.
+- **Precio:** Plan gratuito con hasta 100 guardados y búsqueda en toda la biblioteca; plan Pro por 72 $/año (~6 $/mes, con cupón `STANDING49` a 49 $ el primer año) o 9 $/mes.
 
 [Prueba Marqly gratis →](https://app.marqly.com/lp/replace-pocket)
 
@@ -188,6 +188,6 @@ La gran enseñanza del adiós a Pocket no es simplemente qué aplicación instal
 
 Esa es la verdadera línea divisoria en 2026. Casi todas las alternativas históricas continúan buscando exactamente igual que en 2012: exigiendo que recuerdes los términos exactos del titular. **La búsqueda semántica con IA invierte esa lógica:** recuerdas un concepto o una idea vaga y el sistema te entrega el artículo exacto por significado, incluso aunque ninguna de esas palabras aparezca en el texto original.
 
-Si buscas esa tranquilidad, [Marqly se construyó específicamente con ese fin](https://app.marqly.com/lp/replace-pocket) — importa tu archivo de Pocket y empieza a buscar cualquier cosa que hayas leído con lenguaje natural. Puedes probarlo gratis con hasta 2.000 marcadores, sin tarjeta de crédito.
+Si buscas esa tranquilidad, [Marqly se construyó específicamente con ese fin](https://app.marqly.com/lp/replace-pocket) — importa tu archivo de Pocket y empieza a buscar cualquier cosa que hayas leído con lenguaje natural. Puedes probarlo gratis con hasta 100 marcadores, sin tarjeta de crédito.
 
 Y si además de artículos sueles guardar mucho contenido audiovisual para verlo con calma, echa un vistazo a nuestras guías sobre [las mejores apps de lectura diferida en 2026](/blog/best-read-it-later-apps-2026) y [los mejores gestores de marcadores con IA](/blog/best-ai-bookmark-manager-2026).

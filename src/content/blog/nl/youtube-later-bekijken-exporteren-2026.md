@@ -49,4 +49,4 @@ Met [Marqly](https://app.marqly.com) bouw je een echt doorzoekbaar videoarchief:
 - Marqly bewaart de video inclusief het **volledige uitgeschreven transcript** en een heldere AI-samenvatting.
 - Dankzij **semantisch zoeken** vind je video's terug door te omschrijven waar het over ging, zelfs als je de exacte titel niet meer weet.
 
-Marqly biedt een gratis account voor maximaal 2.000 items en een Pro-abonnement van 72 $/jaar.
+Marqly biedt een gratis account voor maximaal 100 items en een Pro-abonnement van 72 $/jaar.

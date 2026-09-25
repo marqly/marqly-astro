@@ -23,7 +23,7 @@ faqs:
   - q: "mymind'ın ücretsiz planı var mı?"
     a: "Kalıcı bir ücretsiz planı yoktur. mymind ücretsiz deneme ve depolama kotalı misafir modu sunar ancak tam kullanım için abonelik zorunludur. Yapay zeka özellikleri ayda 7,99 $'dan başlar. Gerçek bir ücretsiz katman istiyorsanız Raindrop veya Marqly'ye göz atın."
   - q: "mymind ile Marqly arasındaki fark nedir?"
-    a: "mymind klasörsüz, otomatik etiketlemeli özel bir görsel tuvaldir. Marqly ise semantik anlamsal arama, web sayfası metin vurgulama, YouTube video özetleri ve paylaşımlı panolar sunan kapsamlı bir bilgi yöneticisidir. Marqly'nin ücretsiz planı vardır (2.000 yer imine kadar) ve Pro yıllık 72 $'dır."
+    a: "mymind klasörsüz, otomatik etiketlemeli özel bir görsel tuvaldir. Marqly ise semantik anlamsal arama, web sayfası metin vurgulama, YouTube video özetleri ve paylaşımlı panolar sunan kapsamlı bir bilgi yöneticisidir. Marqly'nin ücretsiz planı vardır (100 yer imine kadar) ve Pro yıllık 72 $'dır."
 ---
 
 **Özetle yanıt: mymind 5 üzerinden 3.8 puan alıyor.** Piyasadaki en estetik ve en özgün kaydetme uygulamalarından biridir: üstün yapay zeka otomatik etiketlemesine sahip ve kesinlikle manuel klasörleme gerektirmeyen sakin bir görsel çalışma alanı. Ancak kalıcı bir ücretsiz katmanının olmaması, en etkili yapay zeka özetlerini 12,99 $/aylık Mastermind planına kilitlemesi ve uzun metinli makaleleri anlamsal olarak bulma konusundaki yetersizlikleri puanını düşürüyor.
@@ -92,7 +92,7 @@ There's a free trial and a guest mode capped by storage, but no permanent free t
 | Highlighter | No | 6 colors + notes, persists on the page |
 | YouTube tools | No | Summary, transcript, and chat on the watch page |
 | Sharing | None, by design | Public boards, no signup needed to view |
-| Free tier | No (trial/guest mode) | Yes, up to 2,000 saves, no card required |
+| Free tier | No (trial/guest mode) | Yes, up to 100 saves, no card required |
 | Paid price | $72–$129/yr | $72/yr (or $9/mo, $49 first year with coupon STANDING49) |
 
 Where **mymind wins**: visual material, aesthetic ambience, and strict privacy posture.

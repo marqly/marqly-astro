@@ -13,7 +13,7 @@ trustLine: "Gratis plan, geen creditcard · Beschikbaar in de App Store"
 faqHeading: "Veelgestelde vragen"
 faqs:
   - q: "Is de Marqly iOS-app gratis?"
-    a: "Ja, de app is gratis te downloaden in de App Store. Het gratis plan ondersteunt tot 2.000 items zonder betaalgegevens. Pro kost $72/jaar met geavanceerde AI."
+    a: "Ja, de app is gratis te downloaden in de App Store. Het gratis plan ondersteunt tot 100 items zonder betaalgegevens. Pro kost $72/jaar met geavanceerde AI."
   - q: "Verschijnen saves van mijn computer ook op de iPhone?"
     a: "Ja, volledig automatisch. Alles wat je opslaat via Chrome, Edge, Firefox of Safari verschijnt direct in de iOS-app."
   - q: "Is er een Android-versie?"

@@ -21,7 +21,7 @@ faqs:
   - q: "Tarayıcı uzantısı olmadan çalışır mı?"
     a: "Web panelinden de bağlantı yapıştırıp özet alabilirsiniz; ancak uzantı doğrudan YouTube arayüzünde hızlı AI kartını aktif hale getirir."
   - q: "Fiyatlandırma nasıldır?"
-    a: "2.000 kayda kadar ücretsiz plan mevcuttur. AI video sohbeti içeren Pro plan yıllık 72 $ (STANDING49 kuponuyla ilk yıl 49 $) veya aylık 9 $'dır."
+    a: "100 kayda kadar ücretsiz plan mevcuttur. AI video sohbeti içeren Pro plan yıllık 72 $ (STANDING49 kuponuyla ilk yıl 49 $) veya aylık 9 $'dır."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Deneyin"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

@@ -60,4 +60,4 @@ Per dare un senso a questi link e poterli ritrovare facilmente:
 - L'intelligenza artificiale di Marqly legge i post originali, recupera i titoli e assegna tag tematici pertinenti.
 - Attraverso la **ricerca semantica**, puoi cercare concetti come *"la discussione sul lievito madre che non cresce"* senza ricordare il subreddit o le parole del titolo.
 
-Marqly offre un piano gratuito fino a 2.000 link e una versione Pro a 72 $/anno.
+Marqly offre un piano gratuito fino a 100 link e una versione Pro a 72 $/anno.

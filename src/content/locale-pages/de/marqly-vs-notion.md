@@ -49,7 +49,7 @@ Zwei Probleme, und beide zeigen sich erst, wenn die Menge wächst.
 
 **Die Erfassung ist schwach.** Notions Web Clipper verliert häufig Formatierung und verschluckt sich an komplexen Seiten. Er speichert den Link, aber was in deiner Datenbank ankommt, ist meist eine abgespeckte Version. Für Referenzmaterial, das du wieder lesen willst, zählt das.
 
-**Das Ordnen bleibt an dir.** Notion taggt beim Speichern nicht: Du legst die Datenbank an, definierst die Eigenschaften und füllst sie. Mit 50 Links geht das. Mit 2.000 wird die Datenbank zur Halde mit leeren Spalten, weil diesen Pflegeaufwand über Monate niemand durchhält.
+**Das Ordnen bleibt an dir.** Notion taggt beim Speichern nicht: Du legst die Datenbank an, definierst die Eigenschaften und füllst sie. Mit 50 Links geht das. Mit 100 wird die Datenbank zur Halde mit leeren Spalten, weil diesen Pflegeaufwand über Monate niemand durchhält.
 
 Es ist die immer gleiche Geschichte: Nicht das Werkzeug versagt, sondern die manuelle Arbeit, die es verlangt.
 

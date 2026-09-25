@@ -57,4 +57,4 @@ El flujo más rápido para guardar decenas de enlaces a la vez:
 3. La IA de Marqly procesa cada vídeo, adjunta la transcripción completa y genera un resumen inteligente.
 4. Gracias a la **búsqueda semántica**, podrás encontrar el vídeo meses después escribiendo *"el vídeo que explicaba cómo ajustar el cambio de la bicicleta"*, sin recordar el título ni el canal.
 
-El plan gratuito de Marqly cubre hasta 2.000 enlaces, y el plan Pro está disponible por 72 $/año. Salva tus vídeos de YouTube de forma duradera.
+El plan gratuito de Marqly cubre hasta 100 enlaces, y el plan Pro está disponible por 72 $/año. Salva tus vídeos de YouTube de forma duradera.

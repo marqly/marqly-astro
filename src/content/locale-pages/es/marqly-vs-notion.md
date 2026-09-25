@@ -49,7 +49,7 @@ Dos problemas, y aparecen justo cuando el volumen crece.
 
 **La captura es floja.** El Web Clipper de Notion pierde formato a menudo y se atraganta con páginas complejas. Guarda el enlace, sí, pero lo que llega a tu base de datos suele ser una versión degradada de lo que viste. Para material de referencia que quieres releer, eso importa.
 
-**La organización sigue siendo tuya.** Notion no etiqueta por ti al guardar: creas la base de datos, defines las propiedades y las rellenas. Funciona con 50 enlaces. Con 2.000, la base de datos se convierte en un vertedero con columnas vacías, porque nadie sostiene ese mantenimiento durante meses.
+**La organización sigue siendo tuya.** Notion no etiqueta por ti al guardar: creas la base de datos, defines las propiedades y las rellenas. Funciona con 50 enlaces. Con 100, la base de datos se convierte en un vertedero con columnas vacías, porque nadie sostiene ese mantenimiento durante meses.
 
 Es la misma historia de siempre: la herramienta no falla, falla el trabajo manual que exige.
 

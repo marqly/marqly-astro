@@ -17,7 +17,7 @@ faqs:
   - q: "¿Qué elementos puedo incluir en un tablero temático?"
     a: "Artículos, vídeos de YouTube con transcripción, páginas completas y fragmentos de texto resaltados en seis colores con tus notas explicativas."
   - q: "¿Es gratuito utilizar Marqly para curar contenidos?"
-    a: "El plan gratuito permite crear y compartir tableros hasta 2.000 elementos sin tarjeta. Pro cuesta 72 $/año (49 $ el primer año con STANDING49) e incluye IA avanzada."
+    a: "El plan gratuito permite crear y compartir tableros hasta 100 elementos sin tarjeta. Pro cuesta 72 $/año (49 $ el primer año con STANDING49) e incluye IA avanzada."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probar Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"

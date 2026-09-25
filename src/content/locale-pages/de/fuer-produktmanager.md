@@ -15,7 +15,7 @@ faqs:
   - q: "Ersetzt Marqly mein PRD- oder Roadmap-Tool?"
     a: "Nein. Marqly kümmert sich um die vorgelagerte Recherche: Konkurrenz-Seiten, Nutzer-Feedback und Artikel, die in deine PRDs einfließen."
   - q: "Ist Marqly für PMs kostenlos?"
-    a: "Ja, bis zu 2.000 Lesezeichen im Gratisplan. Pro (72 $/Jahr, 49 $ im ersten Jahr mit STANDING49) schaltet KI-Tagging und Chat frei."
+    a: "Ja, bis zu 100 Lesezeichen im Gratisplan. Pro (72 $/Jahr, 49 $ im ersten Jahr mit STANDING49) schaltet KI-Tagging und Chat frei."
   - q: "Wie hilft die semantische Suche bei Konkurrenzanalysen?"
     a: "Sie versteht das Thema statt bloßer Stichwörter: 'wie Konkurrenten nutzerbasiert abrechnen' findet die relevanten Fundstücke sofort."
 ctaUrl: "https://app.marqly.com"

@@ -13,7 +13,7 @@ trustLine: "Gratuit sans carte bancaire · Disponible sur l'App Store iOS"
 faqHeading: "Questions fréquentes"
 faqs:
   - q: "L'application Marqly pour iOS est-elle gratuite ?"
-    a: "Oui, le téléchargement est gratuit sur l'App Store. L'offre gratuite gère jusqu'à 2 000 liens sans carte bancaire. Pro est à 72 $/an avec les fonctionnalités avancées."
+    a: "Oui, le téléchargement est gratuit sur l'App Store. L'offre gratuite gère jusqu'à 100 liens sans carte bancaire. Pro est à 72 $/an avec les fonctionnalités avancées."
   - q: "Les favoris enregistrés sur ordinateur s'affichent-ils sur iPhone ?"
     a: "Oui, automatiquement. Tout lien sauvé sur Chrome, Edge, Firefox ou Safari apparaît dans l'application iOS avec ses résumés."
   - q: "Existe-t-il une version Android ?"

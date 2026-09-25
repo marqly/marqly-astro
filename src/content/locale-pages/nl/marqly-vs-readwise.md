@@ -13,7 +13,7 @@ trustLine: "Gratis abonnement, geen creditcard · Chrome, Edge, Firefox, Safari 
 faqHeading: "Veelgestelde vragen"
 faqs:
   - q: "Heeft Readwise Reader een gratis abonnement?"
-    a: "Nee. Reader biedt enkel een proefperiode van 30 dagen en kost daarna $119,88 per jaar. Marqly heeft een royale gratis versie tot 2.000 saves."
+    a: "Nee. Reader biedt enkel een proefperiode van 30 dagen en kost daarna $119,88 per jaar. Marqly heeft een royale gratis versie tot 100 saves."
   - q: "Welke app is beter voor serieuze academische literatuur?"
     a: "Readwise Reader, zonder twijfel. De integratie van PDF's, EPUB's en toetsenbordbediening is ongeëvenaard."
   - q: "Wat is de rol van Marqly dan?"

@@ -13,7 +13,7 @@ trustLine: "Plano grátis, sem cartão · Disponível na Chrome Web Store"
 faqHeading: "Perguntas frequentes"
 faqs:
   - q: "O Marqly é gratuito na Chrome Web Store?"
-    a: "A instalação é gratuita e o plano grátis permite até 2.000 itens sem pedir cartão. O plano Pro (72 $/ano ou 9 $/mês, com cupom STANDING49 por 49 $ no 1º ano) oferece IA avançada."
+    a: "A instalação é gratuita e o plano grátis permite até 100 itens sem pedir cartão. O plano Pro (72 $/ano ou 9 $/mês, com cupom STANDING49 por 49 $ no 1º ano) oferece IA avançada."
   - q: "Posso importar meus favoritos acumulados no Chrome?"
     a: "Sim. Exporte seus favoritos do Chrome como arquivo HTML e importe direto no Marqly. A IA aplicará tags a todo o acervo antigo."
   - q: "Ele substitui os favoritos padrão do Chrome?"

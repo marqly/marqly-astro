@@ -9,7 +9,7 @@ hero:
   heading: "De landingspagina van de concurrent die je aan je team wilde laten zien, is alweer verdwenen"
   subheading: "Marqly bewaart pagina's van concurrenten als volledige PDF met exacte lay-out. AI analyseert de propositie, zodat je zoekt op marketingstrategie in plaats van merknamen."
 crumbHome: "Home"
-trustLine: "Gratis tot 2.000 items · Geen creditcard vereist · Chrome, Edge, Firefox, Safari & iOS"
+trustLine: "Gratis tot 100 items · Geen creditcard vereist · Chrome, Edge, Firefox, Safari & iOS"
 faqHeading: "Veelgestelde vragen"
 faqs:
   - q: "Kan ik een pagina archiveren voordat een concurrent deze aanpast?"
@@ -19,7 +19,7 @@ faqs:
   - q: "Kan ik een bord delen met klanten of interne belanghebbenden?"
     a: "Ja. Elk bord kan worden gedeeld via een openbare weblink, zodat collega's of klanten direct zonder in te loggen toegang hebben."
   - q: "Wat kost Marqly?"
-    a: "Het gratis plan biedt ruimte voor 2.000 opgeslagen links. Pro kost $72/jaar ($49 eerste jaar met actiecode STANDING49) of $9/maand."
+    a: "Het gratis plan biedt ruimte voor 100 opgeslagen links. Pro kost $72/jaar ($49 eerste jaar met actiecode STANDING49) of $9/maand."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

@@ -13,7 +13,7 @@ trustLine: "Plano grátis, sem cartão · Disponível na App Store para iOS"
 faqHeading: "Perguntas frequentes"
 faqs:
   - q: "O aplicativo do Marqly para iOS é gratuito?"
-    a: "Sim, o download na App Store é gratuito. O plano grátis suporta até 2.000 itens sem cartão de crédito. O Pro custa 72 $/ano com IA avançada."
+    a: "Sim, o download na App Store é gratuito. O plano grátis suporta até 100 itens sem cartão de crédito. O Pro custa 72 $/ano com IA avançada."
   - q: "Os links salvos no computador aparecem no iPhone?"
     a: "Sim, automaticamente. Qualquer página salva no Chrome, Edge, Firefox, Safari ou web é sincronizada no app do iPhone com resumos e tags."
   - q: "Existe aplicativo para Android?"

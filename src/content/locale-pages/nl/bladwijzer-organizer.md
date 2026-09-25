@@ -17,7 +17,7 @@ faqs:
   - q: "Kan ik mijn bestaande browserbladwijzers importeren?"
     a: "Zeker. Marqly importeert standaard HTML-bestanden uit Chrome, Safari, Firefox en Edge, plus exports van Pocket en Raindrop.io, en tagt alles automatisch."
   - q: "Is Marqly gratis te gebruiken als bladwijzer organizer?"
-    a: "Er is een gratis versie tot 2.000 items zonder creditcard. Pro kost 72 $/jaar (49 $ in het eerste jaar met code STANDING49)."
+    a: "Er is een gratis versie tot 100 items zonder creditcard. Pro kost 72 $/jaar (49 $ in het eerste jaar met code STANDING49)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

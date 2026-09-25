@@ -23,7 +23,7 @@ faqs:
   - q: "mymind propose-t-il une offre gratuite ?"
     a: "Aucune offre gratuite permanente. mymind propose un essai gratuit et un mode invité limité en volume de stockage, mais l'usage complet requiert un abonnement. L'IA commence à 7,99 $/mois."
   - q: "Quelle est la différence entre mymind et Marqly ?"
-    a: "mymind est un tableau d'inspiration visuel axé sur l'auto-classification par cartes. Marqly privilégie la recherche sémantique par le sens, le surlignage de pages web, les résumés YouTube et les tableaux partagés. Marqly propose une formule gratuite (jusqu'à 2 000 favoris) et Pro coûte 72 $/an."
+    a: "mymind est un tableau d'inspiration visuel axé sur l'auto-classification par cartes. Marqly privilégie la recherche sémantique par le sens, le surlignage de pages web, les résumés YouTube et les tableaux partagés. Marqly propose une formule gratuite (jusqu'à 100 favoris) et Pro coûte 72 $/an."
 ---
 
 **En résumé : mymind obtient la note de 3.8 sur 5.** C'est l'application de sauvegarde la plus élégante et la plus épurée du marché : un espace visuel apaisant doté d'un excellent étiquetage automatique par IA, sans aucun dossier à classer. Elle perd des points en raison de l'absence de formule gratuite permanente, du coût élevé du palier Mastermind (12,99 $/mois) nécessaire pour débloquer les résumés IA et l'archivage de secours, et de ses limites pour retrouver des articles longs par leur signification conceptuelle.
@@ -92,7 +92,7 @@ There's a free trial and a guest mode capped by storage, but no permanent free t
 | Highlighter | No | 6 colors + notes, persists on the page |
 | YouTube tools | No | Summary, transcript, and chat on the watch page |
 | Sharing | None, by design | Public boards, no signup needed to view |
-| Free tier | No (trial/guest mode) | Yes, up to 2,000 saves, no card required |
+| Free tier | No (trial/guest mode) | Yes, up to 100 saves, no card required |
 | Paid price | $72–$129/yr | $72/yr (or $9/mo, $49 first year with coupon STANDING49) |
 
 Where **mymind wins**: visual material, aesthetic ambience, and strict privacy posture.

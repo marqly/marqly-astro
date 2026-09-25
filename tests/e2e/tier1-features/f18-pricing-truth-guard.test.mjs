@@ -161,4 +161,45 @@ export const tests = [
       return { ok: true };
     },
   },
+  {
+    id: 'T1.F18.06',
+    feature: 'F18',
+    name: 'Free-plan cap is 100 everywhere Marqly speaks for itself (no stale 2,000)',
+    run: async () => {
+      const NUM = /\b2[.,\u00A0\u202F ]000\b/;
+      const namespaces = [
+        'src/data/llms-base.txt', 'public/llms-full.txt',
+        'src/pages/pricing.astro', 'src/pages/teams.astro', 'src/pages/terms.astro',
+        'src/pages/index.astro', 'src/pages/embed.astro', 'src/pages/best-bookmark-manager.astro',
+      ];
+      const problems = [];
+      const walk = (dir) => {
+        if (!existsSync(dir)) return;
+        for (const e of readdirSync(dir, { withFileTypes: true })) {
+          const p = join(dir, e.name);
+          if (e.isDirectory()) walk(p);
+          else if (/\.(astro|md|mdx|ts|txt|json)$/.test(e.name)) {
+            const raw = readFileSync(p, 'utf8');
+            raw.split('\n').forEach((ln, i) => { if (NUM.test(ln)) problems.push(`${p.replace(ROOT + '/', '')}:${i + 1}`); });
+          }
+        }
+      };
+      for (const n of namespaces) {
+        const p = resolve(ROOT, n);
+        if (!existsSync(p)) continue;
+        const raw = readFileSync(p, 'utf8');
+        raw.split('\n').forEach((ln, i) => { if (NUM.test(ln)) problems.push(`${n}:${i + 1}`); });
+      }
+      walk(resolve(ROOT, 'src/content/faq'));
+      walk(resolve(ROOT, 'src/content/usecases'));
+      walk(resolve(ROOT, 'src/content/locale-pages'));
+      walk(resolve(ROOT, 'src/components/landing'));
+      walk(resolve(ROOT, 'src/pages/migrate'));
+      if (existsSync(resolve(ROOT, 'src/data/competitors/marqly.json'))) {
+        const raw = readFileSync(resolve(ROOT, 'src/data/competitors/marqly.json'), 'utf8');
+        raw.split('\n').forEach((ln, i) => { if (NUM.test(ln)) problems.push(`marqly.json:${i + 1}`); });
+      }
+      return problems.length ? { ok: false, error: `Stale 2,000 in Marqly-owned copy:\n  ${problems.join('\n  ')}` } : { ok: true };
+    },
+  },
 ];

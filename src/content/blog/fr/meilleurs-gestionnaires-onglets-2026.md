@@ -34,7 +34,7 @@ Si vous avez 40 onglets ouverts pour **jongler entre plusieurs projets**, il vou
 | **OneTab** | Liste simple | Nettoyage mémoire immédiat | ✅ 100% gratuit | Gratuit |
 | **Toby** | Tableaux visuels | Pensée visuelle | ⚠️ Limité à ~60 onglets | Dès 4,50 $/mois |
 | **Session Buddy** | Sauvegardes de session | Sécurité anti-crash | ✅ Gratuit | Gratuit |
-| **Marqly** | Bibliothèque IA | Onglets à lire et retrouver | ✅ Jusqu'à 2 000 entrées | 72 $/an (49 $ code STANDING49) |
+| **Marqly** | Bibliothèque IA | Onglets à lire et retrouver | ✅ Jusqu'à 100 entrées | 72 $/an (49 $ code STANDING49) |
 
 ## La différence Marqly
 

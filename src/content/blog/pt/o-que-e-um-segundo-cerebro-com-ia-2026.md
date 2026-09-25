@@ -42,4 +42,4 @@ O cérebro humano é excelente para ter ideias e péssimo para armazenar detalhe
 
 Muitos entusiastas de produtividade abandonam sistemas manuais no Notion ou Obsidian porque o esforço de catalogação supera os benefícios práticos. No [Marqly](https://app.marqly.com), a manutenção é praticamente zero: você salva com um clique e deixa o algoritmo estruturar o seu acervo.
 
-O Marqly conta com plano gratuito para até 2.000 itens e versão Pro por 72 $/ano.
+O Marqly conta com plano gratuito para até 100 itens e versão Pro por 72 $/ano.

@@ -49,7 +49,7 @@ Dois problemas, e eles aparecem justamente quando o volume cresce.
 
 **A captura é fraca.** O Web Clipper do Notion perde formatação com frequência e engasga em páginas complexas. Ele salva o link, sim, mas o que chega ao seu banco de dados costuma ser uma versão degradada do que você viu. Para material de referência que você quer reler, isso importa.
 
-**A organização continua sua.** O Notion não marca por você ao salvar: você cria o banco, define as propriedades e preenche. Funciona com 50 links. Com 2.000, o banco vira um depósito com colunas vazias, porque ninguém sustenta essa manutenção por meses.
+**A organização continua sua.** O Notion não marca por você ao salvar: você cria o banco, define as propriedades e preenche. Funciona com 50 links. Com 100, o banco vira um depósito com colunas vazias, porque ninguém sustenta essa manutenção por meses.
 
 É a mesma história de sempre: a ferramenta não falha, falha o trabalho manual que ela exige.
 

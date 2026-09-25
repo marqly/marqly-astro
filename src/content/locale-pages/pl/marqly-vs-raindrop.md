@@ -15,7 +15,7 @@ faqs:
   - q: "Czym różni się Marqly od Raindrop.io?"
     a: "Główna różnica polega na podejściu do organizacji. W Raindrop sam tworzysz foldery i szukasz po dokładnych słowach kluczowych. W Marqly sztuczna inteligencja automatycznie generuje tagi i streszczenia, a wyszukiwanie semantyczne pozwala odnaleźć artykuł opisując jego treść swoimi słowami."
   - q: "Ile kosztuje każda z aplikacji?"
-    a: "Raindrop Pro kosztuje ok. 28 USD rocznie. Marqly Pro to 72 USD rocznie (49 USD za pierwszy rok z kodem) lub 9 USD miesięcznie, z darmowym planem do 2 000 zakładek."
+    a: "Raindrop Pro kosztuje ok. 28 USD rocznie. Marqly Pro to 72 USD rocznie (49 USD za pierwszy rok z kodem) lub 9 USD miesięcznie, z darmowym planem do 100 zakładek."
   - q: "Czy mogę przenieść kolekcje z Raindrop do Marqly?"
     a: "Tak, Marqly oferuje dedykowany importer z Raindrop, który przenosi zakładki i foldery w kilka minut."
 ctaUrl: "https://app.marqly.com"
@@ -31,7 +31,7 @@ Krótkie podsumowanie: **Raindrop.io** to doskonały tradycyjny katalog zakłade
 | Funkcja | Marqly | Raindrop.io |
 | --- | --- | --- |
 | Cena Pro | 72 USD/rok (1. rok 49 USD) · 9 USD/msc | ok. 28 USD/rok |
-| Plan bezpłatny | Do 2 000 zakładek z pełnym szukaniem | Bardzo obszerny plan darmowy |
+| Plan bezpłatny | Do 100 zakładek z pełnym szukaniem | Bardzo obszerny plan darmowy |
 | Okres próbny | Brak (darmowy plan bez karty) | Brak |
 | Wyszukiwanie semantyczne AI | Tak (znajduje po opisie i znaczeniu) | Nie (tylko słowa kluczowe) |
 | Automatyczne tagowanie AI | Tak | Sugestie tagów w Pro |

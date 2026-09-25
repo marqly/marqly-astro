@@ -49,4 +49,4 @@ Pek çok kullanıcının sonradan fark ettiği şaşırtıcı bir gerçek vardı
 - Marqly videonun **tam metin transkriptini** kaydeder ve yapay zeka ile otomatik özetler oluşturur.
 - **Anlamsal arama** sayesinde başlığı bilmeseniz bile *"bisiklet vites ayarı nasıl yapılır videosu"* yazarak aradığınız içeriğe anında ulaşın.
 
-Marqly'de 2.000 linke kadar ücretsiz hesap açabilir, dilediğinizde yıllık 72 dolarlık Pro plana geçebilirsiniz.
+Marqly'de 100 linke kadar ücretsiz hesap açabilir, dilediğinizde yıllık 72 dolarlık Pro plana geçebilirsiniz.

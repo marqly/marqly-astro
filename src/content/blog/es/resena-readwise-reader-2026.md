@@ -36,4 +36,4 @@ Sin embargo, con un coste de **119,88 $/año** (9,99 $/mes en facturación anual
 
 Si tu objetivo principal es **guardar artículos interesantes y volver a encontrarlos con facilidad meses después**, Readwise Reader resulta sobredimensionado y costoso.
 
-El núcleo de Reader gira en torno a la lectura activa y el procesamiento analítico. Si lo que necesitas es un **segundo cerebro automático que organice tus enlaces y responda a búsquedas conceptuales**, [Marqly](https://app.marqly.com) ofrece búsqueda semántica y autoetiquetado con un plan gratuito de hasta 2.000 elementos y Pro por 72 $/año (6 $/mes).
+El núcleo de Reader gira en torno a la lectura activa y el procesamiento analítico. Si lo que necesitas es un **segundo cerebro automático que organice tus enlaces y responda a búsquedas conceptuales**, [Marqly](https://app.marqly.com) ofrece búsqueda semántica y autoetiquetado con un plan gratuito de hasta 100 elementos y Pro por 72 $/año (6 $/mes).

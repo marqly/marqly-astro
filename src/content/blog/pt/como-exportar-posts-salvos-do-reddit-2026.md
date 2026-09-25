@@ -60,4 +60,4 @@ Para transformar esses links em uma base de conhecimento ativa:
 - A IA do Marqly acessa cada página, resgata o título original da postagem e atribui tags automáticas de assunto.
 - A **busca semântica** permite localizar discussões com base em ideias gerais, como *"a discussão sobre isolamento acústico caseiro"*, sem depender de títulos exatos.
 
-O Marqly oferece plano gratuito de até 2.000 links e versão Pro por 72 $/ano. Salve seu histórico do Reddit com segurança.
+O Marqly oferece plano gratuito de até 100 links e versão Pro por 72 $/ano. Salve seu histórico do Reddit com segurança.

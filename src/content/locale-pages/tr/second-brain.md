@@ -21,7 +21,7 @@ faqs:
   - q: "Mevcut yer imlerimi ve arşivimi aktarabilir miyim?"
     a: "Evet. Chrome, Safari, Edge ve Firefox HTML yer imlerinizi ve Raindrop.io ile Pocket arşivlerinizi tek tıkla Marqly'ye aktarabilirsiniz."
   - q: "Ücretlendirme nasıl?"
-    a: "2.000 kayda kadar ücretsiz bir başlangıç planı sunulur. Pro plan yıllık 72 $ (ilk yıl STANDING49 kuponuyla 49 $) veya aylık 9 $'dır."
+    a: "100 kayda kadar ücretsiz bir başlangıç planı sunulur. Pro plan yıllık 72 $ (ilk yıl STANDING49 kuponuyla 49 $) veya aylık 9 $'dır."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Deneyin"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

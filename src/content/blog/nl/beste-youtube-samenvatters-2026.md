@@ -19,7 +19,7 @@ faqs:
   - q: "Wat is de beste YouTube AI-samenvatter in 2026?"
     a: "Marqly is voor de meeste gebruikers de beste keuze omdat de samenvattingskaart direct op de YouTube-kijkpagina verschijnt – compleet met synchroon transcript, interactieve chat en archivering in je doorzoekbare bibliotheek."
   - q: "Kun je YouTube-video's gratis laten samenvatten door AI?"
-    a: "Ja. Marqly biedt een gratis account tot 2.000 opgeslagen links, Eightify ondersteunt 3 video's per week (tot 30 minuten) en Glasp 3 basissamenvattingen per dag."
+    a: "Ja. Marqly biedt een gratis account tot 100 opgeslagen links, Eightify ondersteunt 3 video's per week (tot 30 minuten) en Glasp 3 basissamenvattingen per dag."
   - q: "Kan ik vragen stellen over de inhoud van de YouTube-video?"
     a: "Zeker. In het Chat-tabblad van de Marqly-extensie stel je vragen die direct worden beantwoord op basis van het gesproken transcript, zonder dat je YouTube verlaat."
 ---
@@ -30,7 +30,7 @@ Het echte verschil zit hem tegenwoordig niet in de schrijfkwaliteit van de samen
 
 | Tool | Waar staat de samenvatting | Transcript | Chat met de video | Gratis pakket | Prijs (augustus 2026) |
 | --- | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Direct op de YouTube-pagina | ✅ Synchroon met afspelen | ✅ Ja (Pro) | ✅ Tot 2.000 items | 72 $/jaar (49 $ code STANDING49) |
+| **Marqly** | ✅ Direct op de YouTube-pagina | ✅ Synchroon met afspelen | ✅ Ja (Pro) | ✅ Tot 100 items | 72 $/jaar (49 $ code STANDING49) |
 | **NoteGPT** | ❌ Externe werkruimte | ✅ Ja | ✅ Ja | ⚠️ Beperkt tegoed | Pro 9 $/maand |
 | **Recall** | ❌ Externe app/kennisbank | ✅ Ja | ❌ Alleen samenvatting | ✅ 10 samenvattingen/mnd | Plus 10 $/maand jaarlijks |
 | **Eightify** | ✅ Direct op de YouTube-pagina | ⚠️ Alleen hoofdpunten | ❌ Nee | ✅ 3 video's/week (≤30m) | 4,95 $/maand |

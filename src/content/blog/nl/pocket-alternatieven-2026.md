@@ -20,7 +20,7 @@ faqs:
   - q: "Kan ik mijn Pocket-gegevens na de sluiting nog steeds importeren?"
     a: "Ja. Als je tijdens of voor de sluitingsperiode in 2025 een exportbestand hebt gedownload, kunnen moderne tools zoals Marqly, Raindrop en Instapaper dit HTML-bestand direct inlezen met behoud van links en tags."
   - q: "Is er een gratis Pocket-alternatief?"
-    a: "Zeker. Raindrop.io heeft een zeer ruimhartig gratis abonnement voor allerlei media, Instapaper biedt een gratis minimalistische lezer en Marqly heeft een gratis abonnement tot 2.000 items met doorzoekbare bibliotheek. Wallabag is 100% gratis als je het zelf host."
+    a: "Zeker. Raindrop.io heeft een zeer ruimhartig gratis abonnement voor allerlei media, Instapaper biedt een gratis minimalistische lezer en Marqly heeft een gratis abonnement tot 100 items met doorzoekbare bibliotheek. Wallabag is 100% gratis als je het zelf host."
   - q: "Wat maakte Pocket anders dan een gewone browserbladwijzer?"
     a: "Pocket was een echte 'read-it-later'-app: het bewaarde artikelen in een schone weergave zonder advertenties of afleiding. De beste alternatieven in 2026 behouden die fijne leeservaring en voegen er AI-samenvattingen en semantisch zoeken aan toe."
   - q: "Wanneer is Pocket definitief gestopt?"
@@ -54,7 +54,7 @@ Heb je nog een exportbestand op je computer staan, dan kun je vandaag direct ove
 
 | Tool | Ideaal voor | Gratis versie | Semantisch AI-zoeken | Importeert Pocket | Prijs |
 |---|---|---|---|---|---|
-| **Marqly** | AI-zoeken + tweede brein | Ja (tot 2.000 items) | ✅ Semantisch (Pro) | ✅ Ja | Gratis; Pro $72/jr ($49 1e jaar) of $9/mnd |
+| **Marqly** | AI-zoeken + tweede brein | Ja (tot 100 items) | ✅ Semantisch (Pro) | ✅ Ja | Gratis; Pro $72/jr ($49 1e jaar) of $9/mnd |
 | Raindrop.io | Gratis veelzijdige opslag | Zeer ruim | ❌ Alleen trefwoorden | ✅ Ja | Gratis; Pro ca. $3/mnd |
 | Instapaper | Minimalistisch teksten lezen | Ja | ❌ Alleen trefwoorden | ✅ Ja | Gratis; Premium ca. $3/mnd |
 | Readwise Reader | Studie & intensief markeren | Nee (alleen proef) | ✅ Ja | ✅ Ja | ca. $10–12/mnd |
@@ -69,7 +69,7 @@ Het grootste pijnpunt van Pocket was altijd: opslaan ging met één klik, maar *
 
 - **Voordelen**: Semantisch AI-zoeken, slimme automatische tags, heldere samenvattingen, soepele Pocket-import, fijne leesmodus, eerlijke prijs.
 - **Nadelen**: Jonger dan de gevestigde namen, community groeit hard.
-- **Prijs**: Gratis tot 2.000 items; Pro voor $72/jaar (eerste jaar slechts $49 met code `STANDING49`) of $9/maand.
+- **Prijs**: Gratis tot 100 items; Pro voor $72/jaar (eerste jaar slechts $49 met code `STANDING49`) of $9/maand.
 
 [Probeer Marqly gratis →](https://app.marqly.com/lp/replace-pocket)
 

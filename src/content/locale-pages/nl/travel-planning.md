@@ -9,7 +9,7 @@ hero:
   heading: "Je reisplanning bestaat uit veertig open tabbladen en nog steeds geen beslissing"
   subheading: "Sla alles met één klik op, laat AI automatisch ordenen op bestemming en verzamel je hele vakantie op een overzichtelijk bord dat je deelt met je medereizigers."
 crumbHome: "Home"
-trustLine: "Gratis tot 2.000 items · Geen creditcard vereist · Chrome, Edge, Firefox, Safari & iOS"
+trustLine: "Gratis tot 100 items · Geen creditcard vereist · Chrome, Edge, Firefox, Safari & iOS"
 faqHeading: "Veelgestelde vragen"
 faqs:
   - q: "Kan ik het reisplan delen met vrienden of familie?"
@@ -21,7 +21,7 @@ faqs:
   - q: "Helpt Marqly bij lange reisvideo's op YouTube?"
     a: "Ja, AI vat de video samen en haalt bezienswaardigheden en routes direct naar voren met een tijdgebonden transcriptie."
   - q: "Wat zijn de tarieven?"
-    a: "Gratis tot 2.000 opgeslagen links. Pro kost $72/jaar ($49 eerste jaar met coupon STANDING49) of $9/maand."
+    a: "Gratis tot 100 opgeslagen links. Pro kost $72/jaar ($49 eerste jaar met coupon STANDING49) of $9/maand."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

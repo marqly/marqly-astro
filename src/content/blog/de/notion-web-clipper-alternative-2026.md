@@ -48,4 +48,4 @@ Die bewährte Arbeitsteilung: **Nutzen Sie Notion für Notizen und Aufgaben – 
 - **Automatische KI-Verschlagwortung und Zusammenfassungen**, die Ihnen in Sekunden den Kerninhalt zeigen.
 - **Semantische Suche:** Finden Sie Artikel wieder, indem Sie den Inhalt mit eigenen Worten beschreiben.
 
-Der kostenlose Tarif von Marqly erlaubt bis zu 2.000 Speicherungen; die Pro-Version kostet 72 $/Jahr.
+Der kostenlose Tarif von Marqly erlaubt bis zu 100 Speicherungen; die Pro-Version kostet 72 $/Jahr.

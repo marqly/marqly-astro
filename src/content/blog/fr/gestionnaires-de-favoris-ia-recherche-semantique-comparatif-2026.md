@@ -49,7 +49,7 @@ Ne croyez pas les promesses marketing sans tester :
 
 | Outil | Recherche sémantique réelle ? | Ce que fait vraiment son "IA" | Version gratuite |
 | --- | --- | --- | --- |
-| **Marqly** | ✅ Oui (cœur de Pro) | Recherche par le sens, résumés, tags auto | ✅ Oui (jusqu'à 2 000 éléments) |
+| **Marqly** | ✅ Oui (cœur de Pro) | Recherche par le sens, résumés, tags auto | ✅ Oui (jusqu'à 100 éléments) |
 | **mymind** | ⚠️ Partielle | Mémoire visuelle et étiquetage auto | ❌ Non (~8 $/mois) |
 | **Recall** | ⚠️ Partielle | Graphe de connaissances et chat | ✅ Limitée |
 | **Readwise Reader** | ⚠️ Partielle | Chat Ghostreader sur documents et surlignages | ❌ Essai uniquement (~10-13 $/mois) |
@@ -60,7 +60,7 @@ Ne croyez pas les promesses marketing sans tester :
 
 ## Bilan des outils
 
-- **Marqly :** La solution idéale pour chercher par le sens. Version gratuite jusqu'à 2 000 favoris ; Pro à 72 $/an (6 $/mois facturé annuellement ou 9 $/mois) avec le coupon STANDING49 (49 $ la première année).
+- **Marqly :** La solution idéale pour chercher par le sens. Version gratuite jusqu'à 100 favoris ; Pro à 72 $/an (6 $/mois facturé annuellement ou 9 $/mois) avec le coupon STANDING49 (49 $ la première année).
 - **mymind :** Parfait pour les créatifs qui se fient à leur mémoire visuelle.
 - **Readwise Reader :** Recommandé pour les lecteurs assidus de livres numériques et d'articles longs avec surlignage.
 - **Raindrop.io :** Excellent outil classique pour organiser manuellement ses liens par dossiers.

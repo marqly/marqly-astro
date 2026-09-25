@@ -351,7 +351,7 @@ export const ONE_TAP_ENABLED = true;
  * it lights up together (see src/pages/teams.astro + the sitemap filter in
  * astro.config.mjs + the T1.F18.05 dark-mode guard).
  */
-export const TEAMS_PUBLIC = false;
+export const TEAMS_PUBLIC = true;
 
 /** Teams pricing truth (apps/api/src/lib/teams/config.ts). USD only. */
 export const TEAMS_PRICE = {

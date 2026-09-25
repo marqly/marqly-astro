@@ -13,7 +13,7 @@ trustLine: "무료 플랜, 카드 등록 없음 · App Store 지원"
 faqHeading: "자주 묻는 질문"
 faqs:
   - q: "Marqly iOS 앱은 무료인가요?"
-    a: "네, App Store에서 무료로 다운로드할 수 있습니다. 신용카드 없이 최대 2,000개까지 무료로 저장할 수 있습니다."
+    a: "네, App Store에서 무료로 다운로드할 수 있습니다. 신용카드 없이 최대 100개까지 무료로 저장할 수 있습니다."
   - q: "컴퓨터에서 저장한 북마크가 iPhone에 자동으로 뜨나요?"
     a: "네, 자동으로 동기화됩니다. Chrome, Edge, Firefox, Safari에서 저장한 모든 링크와 하이라이트가 iOS 앱에 즉시 나타납니다."
   - q: "Android용 앱도 있나요?"

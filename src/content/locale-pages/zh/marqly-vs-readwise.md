@@ -13,7 +13,7 @@ trustLine: "免费方案 · 无需信用卡 · 支持 Chrome, Edge, Firefox, Saf
 faqHeading: "常见问题"
 faqs:
   - q: "Readwise Reader 有免费版吗？"
-    a: "没有。Reader 仅提供 30 天试用，之后必须付费（每年 $119.88，按月付为 $12.99/月）。Marqly 提供最多保存 2,000 条内容的永久免费方案。"
+    a: "没有。Reader 仅提供 30 天试用，之后必须付费（每年 $119.88，按月付为 $12.99/月）。Marqly 提供最多保存 100 条内容的永久免费方案。"
   - q: "严肃学术阅读该选哪一个？"
     a: "毫无疑问选 Readwise Reader。它在处理长篇 EPUB、PDF、邮件 Newsletter 的键盘流操作上极具统治力。"
   - q: "那么 Marqly 解决的核心痛点是什么？"

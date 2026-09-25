@@ -20,7 +20,7 @@ faqs:
   - q: "Kann ich meine Pocket-Daten nach der Abschaltung noch importieren?"
     a: "Ja. Wenn du deine Daten vor oder während der Abschaltung im Juli 2025 exportiert hast, akzeptieren moderne Tools wie Marqly, Raindrop und Instapaper diese Datei direkt. Gespeicherte Artikel und Tags bleiben erhalten. Marqly importiert die Pocket-Exportdatei in rund zwei Minuten."
   - q: "Gibt es eine kostenlose Pocket-Alternative?"
-    a: "Ja. Raindrop.io hat eine sehr großzügige Gratis-Stufe für verschiedenste Medien, Instapaper bietet einen kostenlosen minimalistischen Lesemodus, und Marqly verfügt über einen kostenlosen Tarif für bis zu 2.000 Lesezeichen inklusive Suche in der gesamten Bibliothek. Wallabag ist komplett kostenlos, wenn du es selbst hostest."
+    a: "Ja. Raindrop.io hat eine sehr großzügige Gratis-Stufe für verschiedenste Medien, Instapaper bietet einen kostenlosen minimalistischen Lesemodus, und Marqly verfügt über einen kostenlosen Tarif für bis zu 100 Lesezeichen inklusive Suche in der gesamten Bibliothek. Wallabag ist komplett kostenlos, wenn du es selbst hostest."
   - q: "Was machte Pocket anders als ein klassischer Lesezeichen-Manager?"
     a: "Pocket war eine „Später lesen“-App: Sie speicherte Artikel in einem aufgeräumten, ablenkungsfreien Lesemodus statt reiner Link-Listen. Die besten Alternativen 2026 behalten dieses Leseerlebnis bei und erweitern es um KI-Zusammenfassungen und semantische Suche."
   - q: "Wann wurde Pocket tatsächlich eingestellt?"
@@ -60,7 +60,7 @@ Die Alternativen teilen sich in drei Gruppen auf: KI-native Tools mit semantisch
 
 | Tool | Am besten für | Gratis-Tarif | Semantische KI-Suche | Pocket-Import | Preis |
 |---|---|---|---|---|---|
-| **Marqly** | KI-Suche + zweites Gehirn | Ja (bis 2.000 Links) | ✅ Semantisch (Pro) | ✅ Ja | Gratis; Pro 72 $/Jahr (~6 $/Mon.) oder 9 $/Mon. |
+| **Marqly** | KI-Suche + zweites Gehirn | Ja (bis 100 Links) | ✅ Semantisch (Pro) | ✅ Ja | Gratis; Pro 72 $/Jahr (~6 $/Mon.) oder 9 $/Mon. |
 | Raindrop.io | Kostenlose Allround-Ablage | Großzügig | ❌ Nur Stichwörter | ✅ Ja | Gratis; Pro ~3 $/Mon. |
 | Instapaper | Minimalistisches Lesen | Ja | ❌ Nur Stichwörter | ✅ Ja | Gratis; Premium ~3 $/Mon. |
 | Readwise Reader | Vielleser & Markierungen | Nein (nur Testphase) | ✅ Ja | ✅ Ja | ~10–12 $/Mon. |
@@ -81,7 +81,7 @@ Pockets größte Schwachstelle war stets dieselbe: Das Speichern ging per Klick,
 
 - **Vorteile:** Semantische KI-Suche, automatisches intelligentes Tagging, KI-Zusammenfassungen, schneller Pocket-Import, aufgeräumter Lesemodus, faires Preismodell.
 - **Nachteile:** Jünger als traditionelle Marktführer, wachsende Community.
-- **Preis:** Gratis-Tarif bis zu 2.000 Einträge mit Volltextsuche; Pro-Tarif für 72 $/Jahr (~6 $/Monat, mit Gutscheincode `STANDING49` im ersten Jahr nur 49 $) oder 9 $/Monat.
+- **Preis:** Gratis-Tarif bis zu 100 Einträge mit Volltextsuche; Pro-Tarif für 72 $/Jahr (~6 $/Monat, mit Gutscheincode `STANDING49` im ersten Jahr nur 49 $) oder 9 $/Monat.
 
 [Marqly kostenlos testen →](https://app.marqly.com/lp/replace-pocket)
 
@@ -188,6 +188,6 @@ Die zentrale Lehre aus dem Ende von Pocket lautet: **Das Speichern von Links war
 
 Hier verläuft die entscheidende Trennlinie im Jahr 2026. Traditionelle Werkzeuge suchen wie vor zehn Jahren nach exakten Begriffen im Titel. **Semantische KI-Suche kehrt das Prinzip um:** Du gibst eine vage Erinnerung oder Umschreibung ein, und das System findet den passenden Artikel anhand seiner inhaltlichen Bedeutung.
 
-Wer genau dieses System sucht, findet in [Marqly die ideale Plattform](https://app.marqly.com/lp/replace-pocket) — Pocket-Daten importieren und Gespeichertes sofort in natürlicher Sprache durchsuchen. Der Einstieg ist kostenlos für bis zu 2.000 Lesezeichen und erfordert keine Kreditkarte.
+Wer genau dieses System sucht, findet in [Marqly die ideale Plattform](https://app.marqly.com/lp/replace-pocket) — Pocket-Daten importieren und Gespeichertes sofort in natürlicher Sprache durchsuchen. Der Einstieg ist kostenlos für bis zu 100 Lesezeichen und erfordert keine Kreditkarte.
 
 Und wer neben Texten auch viele Lehr- und Informationsvideos speichert, findet in unseren Leitfäden zu [den besten Später-lesen-Apps 2026](/blog/best-read-it-later-apps-2026) und [den besten KI-Lesezeichen-Managern](/blog/best-ai-bookmark-manager-2026) weitere vertiefende Einblicke.

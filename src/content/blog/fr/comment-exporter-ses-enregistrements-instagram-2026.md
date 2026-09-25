@@ -54,4 +54,4 @@ Pour transformer ces liens en une véritable base de connaissances :
 - Utilisez la **recherche sémantique** pour retrouver une idée en langage naturel (*"la recette rapide de pâtes aux champignons"*).
 - Centralisez vos articles, vidéos et inspirations visuelles au même endroit.
 
-Marqly propose un plan gratuit jusqu'à 2 000 liens et un abonnement Pro à 72 $/an.
+Marqly propose un plan gratuit jusqu'à 100 liens et un abonnement Pro à 72 $/an.

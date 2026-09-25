@@ -17,7 +17,7 @@ faqs:
   - q: "Czy Marqly pomaga przetwarzać długie nagrania wideo?"
     a: "Tak, generuje automatyczne podsumowania i transkrypcje wideo YouTube, umożliwiając bezpośredni czat z treścią wywiadu."
   - q: "Ile kosztuje Marqly dla początkującego startupu?"
-    a: "Darmowy plan obsługuje do 2 000 zakładek. Wersja Pro kosztuje 72 $/rok (49 $ w pierwszym roku z kodem STANDING49)."
+    a: "Darmowy plan obsługuje do 100 zakładek. Wersja Pro kosztuje 72 $/rok (49 $ w pierwszym roku z kodem STANDING49)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"

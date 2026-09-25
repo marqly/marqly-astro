@@ -18,7 +18,7 @@ faqs:
   - q: "2026'da genel olarak en iyi daha sonra oku uygulaması hangisidir?"
     a: "Marqly, temiz okuma modunu yapay zekalı anlamsal aramayla birleştirerek kaydedilen makalelerin unutulmasını önleyen en güçlü all-in-one çözümdür."
   - q: "Makaleleri daha sonra okumak için ücretsiz araçlar var mı?"
-    a: "Evet. Raindrop.io ve Instapaper ücretsiz planlar sunar. Marqly de 2.000 yer imine kadar ücretsiz plan içerir."
+    a: "Evet. Raindrop.io ve Instapaper ücretsiz planlar sunar. Marqly de 100 yer imine kadar ücretsiz plan içerir."
 heroImage: ../../../assets/blog/best-read-it-later-apps-2026.png
 heroAlt: "2026 Yılının En İyi 9 Daha Sonra Oku Uygulaması — illüstrasyon"
 ogImage: "https://www.marqly.com/og/best-read-it-later-apps-2026.png"
@@ -30,7 +30,7 @@ ogImage: "https://www.marqly.com/og/best-read-it-later-apps-2026.png"
 
 ### 1. Marqly — Kaydetmek ve anında geri bulmak için en iyisi
 Marqly; temiz, reklamsız okuma görünümü, otomatik yapay zeka özetleri ve **anlamsal arama motoruyla** öne çıkar. Makalenin tam adını hatırlamasanız bile konusunu yazarak hemen bulabilirsiniz.
-- Ücretsiz: 2.000 yer imine kadar.
+- Ücretsiz: 100 yer imine kadar.
 - Pro: Yıllık 72$ (ilk yıl 49$). [Ücretsiz Deneyin →](https://app.marqly.com/lp/replace-pocket)
 
 ### 2. Readwise Reader — Akademik araştırmalar için
@@ -49,7 +49,7 @@ Görsel ve linkleri klasör seçtirmeden yapay zekayla otomatik gruplar.
 
 | Uygulama | AI Arama | Okuma Modu | Ücretsiz Plan | Pro Fiyat |
 |---|---|---|---|---|
-| **Marqly** | ✅ Anlamsal | ✅ | ✅ (2.000'e kadar) | ~6$/ay |
+| **Marqly** | ✅ Anlamsal | ✅ | ✅ (100'e kadar) | ~6$/ay |
 | Readwise Reader | ✅ | ✅ | ❌ | 12$/ay |
 | Raindrop.io | ❌ | ✅ | ✅ | 3$/ay |
 | Instapaper | ❌ | ✅ | ✅ | 3$/ay |

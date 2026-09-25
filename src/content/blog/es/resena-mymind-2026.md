@@ -23,7 +23,7 @@ faqs:
   - q: "¿Tiene mymind un plan gratuito?"
     a: "No tiene plan gratuito permanente. mymind ofrece una prueba gratuita y un modo de invitado limitado por espacio de almacenamiento en vez de tiempo, pero el producto completo requiere suscripción. Las funciones de IA comienzan en 7,99 $/mes. Si buscas un nivel gratuito real, revisa Raindrop o Marqly."
   - q: "¿Cuál es la diferencia entre mymind y Marqly?"
-    a: "mymind es un lienzo visual privado: autoetiqueta lo que guardas y lo muestra como tarjetas, ideal para imágenes e inspiración. Marqly se enfoca en la recuperación y búsqueda semántica por significado, con resaltado de texto, resúmenes de YouTube y tableros. Marqly tiene un plan gratuito permanente (hasta 2.000 marcadores) y Pro cuesta 72 $/año; los planes de IA de mymind cuestan de 72 $ a 129 $/año."
+    a: "mymind es un lienzo visual privado: autoetiqueta lo que guardas y lo muestra como tarjetas, ideal para imágenes e inspiración. Marqly se enfoca en la recuperación y búsqueda semántica por significado, con resaltado de texto, resúmenes de YouTube y tableros. Marqly tiene un plan gratuito permanente (hasta 100 marcadores) y Pro cuesta 72 $/año; los planes de IA de mymind cuestan de 72 $ a 129 $/año."
 ---
 
 **La respuesta corta: mymind obtiene una puntuación de 3.8 sobre 5.** Es la aplicación de guardado más bella y con mayor personalidad del mercado: un lienzo visual privado con un etiquetado por IA sobresaliente y cero necesidad de organizar carpetas. Pierde puntos por no ofrecer un plan gratuito permanente, reservar su mejor IA para el plan Mastermind de 12,99 $/mes, y ser más débil en lo que la mayoría de usuarios necesita: encontrar un artículo específico describiendo de qué trataba. Si guardas imágenes, citas e inspiración de diseño, es una gozada. Si guardas artículos y necesitas encontrarlos por tema, hay mejores alternativas.
@@ -92,7 +92,7 @@ There's a free trial and a guest mode capped by storage, but no permanent free t
 | Highlighter | No | 6 colors + notes, persists on the page |
 | YouTube tools | No | Summary, transcript, and chat on the watch page |
 | Sharing | None, by design | Public boards, no signup needed to view |
-| Free tier | No (trial/guest mode) | Yes, up to 2,000 saves, no card required |
+| Free tier | No (trial/guest mode) | Yes, up to 100 saves, no card required |
 | Paid price | $72–$129/yr | $72/yr (or $9/mo, $49 first year with coupon STANDING49) |
 
 Where **mymind wins**: visual material, aesthetic ambience, and strict privacy posture.

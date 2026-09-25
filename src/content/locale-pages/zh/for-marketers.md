@@ -9,7 +9,7 @@ hero:
   heading: "你本想在复盘会上给团队看的那张竞品落地页，对方刚刚改版下线了"
   subheading: "Marqly 让你一键永久保存竞品网页的真实排版 PDF，并通过 AI 自动分析核心卖点，无需死记品牌名，按营销策略特征即搜即出。"
 crumbHome: "首页"
-trustLine: "免费保存高达 2,000 条 · 无需信用卡 · 支持 Chrome, Edge, Firefox, Safari 与 iOS"
+trustLine: "免费保存高达 100 条 · 无需信用卡 · 支持 Chrome, Edge, Firefox, Safari 与 iOS"
 faqHeading: "常见问题"
 faqs:
   - q: "可以在竞品修改或删除页面前将其完整存档吗？"
@@ -19,7 +19,7 @@ faqs:
   - q: "可以把收集的案例看板分享给客户或团队吗？"
     a: "可以。你可以为分类看板生成公开只读链接，对方无需注册即可直接在浏览器里查看所有调研素材。"
   - q: "收费模式是什么？"
-    a: "免费版最高支持保存 2,000 个书签。Pro 专业版为 72 美元/年（首年使用折扣码 STANDING49 仅需 49 美元）或 9 美元/月。"
+    a: "免费版最高支持保存 100 个书签。Pro 专业版为 72 美元/年（首年使用折扣码 STANDING49 仅需 49 美元）或 9 美元/月。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"

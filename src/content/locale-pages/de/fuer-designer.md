@@ -17,7 +17,7 @@ faqs:
   - q: "Können Kunden oder Teammitglieder meine Boards einsehen?"
     a: "Jedes Board lässt sich als öffentliche Seite teilen, die ohne Anmeldung im Browser geöffnet werden kann. Ideal als leichtgewichtiges Moodboard für Kundenbriefings."
   - q: "Ist Marqly für Designer kostenlos?"
-    a: "Ja, der kostenlose Tarif umfasst bis zu 2.000 Lesezeichen mit Boards und Web-Highlighter. Pro (72 $/Jahr, 49 $ im ersten Jahr mit Gutschein STANDING49) schaltet KI-Tagging, Zusammenfassungen und semantische Suche frei."
+    a: "Ja, der kostenlose Tarif umfasst bis zu 100 Lesezeichen mit Boards und Web-Highlighter. Pro (72 $/Jahr, 49 $ im ersten Jahr mit Gutschein STANDING49) schaltet KI-Tagging, Zusammenfassungen und semantische Suche frei."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"

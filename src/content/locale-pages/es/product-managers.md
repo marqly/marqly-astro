@@ -15,7 +15,7 @@ faqs:
   - q: "¿Puede Marqly sustituir mi herramienta de PRD o roadmap?"
     a: "No, y no intenta hacerlo. Marqly gestiona la capa de investigación previa: páginas de competidores, enlaces de research y artículos que fundamentan tus PRD. La redacción sigue en tus docs y roadmaps; Marqly asegura que cuando te sientes a escribir, las fuentes ya estén etiquetadas, resumidas y listas para citar."
   - q: "¿Es gratis Marqly para product managers?"
-    a: "Sí, el plan gratuito incluye hasta 2.000 elementos, tableros y resaltados sin tarjeta. El plan Pro cuesta 72 $/año (49 $ el primer año con código STANDING49) y añade búsqueda semántica, resúmenes IA y chat con tus notas y vídeos de YouTube."
+    a: "Sí, el plan gratuito incluye hasta 100 elementos, tableros y resaltados sin tarjeta. El plan Pro cuesta 72 $/año (49 $ el primer año con código STANDING49) y añade búsqueda semántica, resúmenes IA y chat con tus notas y vídeos de YouTube."
   - q: "¿Cómo ayuda la búsqueda semántica en la investigación competitiva?"
     a: "La investigación de competidores envejece mal en carpetas porque archivas por empresa pero recuerdas por temática. La búsqueda semántica busca por significado: 'cómo cobran los competidores por usuario' encuentra los análisis relevantes aunque no tengan esas palabras exactas."
 ctaUrl: "https://app.marqly.com"

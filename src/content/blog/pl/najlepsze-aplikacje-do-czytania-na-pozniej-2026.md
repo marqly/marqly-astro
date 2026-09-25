@@ -18,7 +18,7 @@ faqs:
   - q: "Jaka jest obecnie najlepsza aplikacja read-it-later w 2026 roku?"
     a: "Marqly to najlepszy wybór łączący wygodny tryb czytania z rewolucyjnym wyszukiwaniem semantycznym AI. Pozwala nie tylko odkładać artykuły, ale przede wszystkim błyskawicznie do nich wracać."
   - q: "Czy istnieją darmowe narzędzia do odkładania artykułów na później?"
-    a: "Tak. Raindrop.io i Instapaper mają darmowe pakiety. Marqly zapewnia bezpłatny plan do 2 000 zakładek z pełnym przeszukiwaniem bazy."
+    a: "Tak. Raindrop.io i Instapaper mają darmowe pakiety. Marqly zapewnia bezpłatny plan do 100 zakładek z pełnym przeszukiwaniem bazy."
 heroImage: ../../../assets/blog/best-read-it-later-apps-2026.png
 heroAlt: "9 najlepszych aplikacji do czytania na później w 2026 — ilustracja"
 ogImage: "https://www.marqly.com/og/best-read-it-later-apps-2026.png"
@@ -30,7 +30,7 @@ Dobra aplikacja do czytania na później musi spełniać dwa warunki: ułatwiać
 
 ### 1. Marqly — Najlepsza do zapisywania i błyskawicznego odnajdywania
 Marqly łączy wygodny czytnik artykułów pozbawiony reklam z automatycznym generowaniem streszczeń oraz **semantyczną wyszukiwarką AI**. Wpisz luźne skojarzenie, a aplikacja natychmiast znajdzie odpowiedni artykuł.
-- Plan darmowy: do 2 000 zakładek.
+- Plan darmowy: do 100 zakładek.
 - Pro: $72/rok ($49 w pierwszym roku). [Wypróbuj za darmo →](https://app.marqly.com/lp/replace-pocket)
 
 ### 2. Readwise Reader — Potęga dla badaczy
@@ -58,7 +58,7 @@ Bezpośredni zapis do baz wiedzy w Notion.
 
 | Aplikacja | Wyszukiwanie AI | Tryb czytnika | Plan darmowy | Cena Pro |
 |---|---|---|---|---|
-| **Marqly** | ✅ Semantyczne | ✅ | ✅ (do 2 000) | ok. $6/msc |
+| **Marqly** | ✅ Semantyczne | ✅ | ✅ (do 100) | ok. $6/msc |
 | Readwise Reader | ✅ | ✅ | ❌ | $12/msc |
 | Raindrop.io | ❌ | ✅ | ✅ | $3/msc |
 | Instapaper | ❌ | ✅ | ✅ | $3/msc |

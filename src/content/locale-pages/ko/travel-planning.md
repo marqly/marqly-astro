@@ -9,7 +9,7 @@ hero:
   heading: "여행 계획을 세우려다 탭만 40개 열어두고, 결국 아무것도 결정하지 못했다면"
   subheading: "항공권, 숙소 예약, 여행 유튜브 브이로그, 블로그 맛집 정보를 원클릭 저장하세요. AI가 도시별로 자동 분류하고 동행인과 공유할 수 있는 깔끔한 보드를 만듭니다."
 crumbHome: "홈"
-trustLine: "최대 2,000개 무료 보관 · 신용카드 등록 불필요 · Chrome, Edge, Firefox, Safari, iOS 지원"
+trustLine: "최대 100개 무료 보관 · 신용카드 등록 불필요 · Chrome, Edge, Firefox, Safari, iOS 지원"
 faqHeading: "자주 묻는 질문"
 faqs:
   - q: "함께 가는 친구나 가족과 여행 일정을 공유할 수 있나요?"
@@ -21,7 +21,7 @@ faqs:
   - q: "긴 여행 브이로그 영상의 요약도 볼 수 있나요?"
     a: "네. 1시간짜리 여행 가이드 영상도 AI가 추천 명소와 핵심 이동 동선을 텍스트로 요약해 주어 시간을 대폭 절약할 수 있습니다."
   - q: "이용 요금은 어떻게 되나요?"
-    a: "2,000개 링크까지 무료입니다. Pro 플랜은 연 $72(쿠폰 STANDING49 적용 시 첫해 $49) 또는 월 $9입니다."
+    a: "100개 링크까지 무료입니다. Pro 플랜은 연 $72(쿠폰 STANDING49 적용 시 첫해 $49) 또는 월 $9입니다."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly 무료로 시작하기"
 ctaSecondaryLabel: "Chrome에 추가 — 무료"

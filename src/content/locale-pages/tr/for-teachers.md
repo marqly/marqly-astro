@@ -9,7 +9,7 @@ hero:
   heading: "Geçen yılki derste öğrencilerin bayıldığı o görsel materyal duruyor ama nerede olduğunu bulamıyorsunuz"
   subheading: "Ders kaynaklarını ve videoları tek tıkla kaydedin, yapay zekanın özetlemesini sağlayın ve konuyla ilgili okuma listelerini öğrencilerinize hesap açma zorunluluğu olmadan tek linkle dağıtın."
 crumbHome: "Ana Sayfa"
-trustLine: "2.000 materyale kadar ücretsiz · Kredi kartı gerekmez · Chrome, Edge, Firefox, Safari ve iOS"
+trustLine: "100 materyale kadar ücretsiz · Kredi kartı gerekmez · Chrome, Edge, Firefox, Safari ve iOS"
 faqHeading: "Sıkça Sorulan Sorular"
 faqs:
   - q: "Öğrencilerim hesap açmadan ders materyallerini görebilir mi?"
@@ -21,7 +21,7 @@ faqs:
   - q: "Okuldaki akıllı tahta veya laboratuvar bilgisayarlarında çalışır mı?"
     a: "Evet. Tarayıcı uzantılarının yanında doğrudan web üzerinden çalışan arayüzü sayesinde yazılım yükleme izni olmayan okul bilgisayarlarında da sorunsuz çalışır."
   - q: "Fiyatlandırma nasıldır?"
-    a: "2.000 kaynağa kadar tamamen ücretsizdir. Pro plan yıllık 72 $ (STANDING49 kuponuyla ilk yıl 49 $) veya aylık 9 $'dır."
+    a: "100 kaynağa kadar tamamen ücretsizdir. Pro plan yıllık 72 $ (STANDING49 kuponuyla ilk yıl 49 $) veya aylık 9 $'dır."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Dene"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

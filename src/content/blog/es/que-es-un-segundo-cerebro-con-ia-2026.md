@@ -44,4 +44,4 @@ La mayoría de las personas que intentan crear un segundo cerebro en Notion u Ob
 
 Con un segundo cerebro con IA como [Marqly](https://app.marqly.com), el sistema trabaja para ti. La máquina indexa, etiqueta y estructura el conocimiento en segundo plano.
 
-El plan gratuito de Marqly permite almacenar hasta 2.000 elementos, y Marqly Pro cuesta 72 $/año. Empieza hoy a crear tu segundo cerebro sin esfuerzo de mantenimiento.
+El plan gratuito de Marqly permite almacenar hasta 100 elementos, y Marqly Pro cuesta 72 $/año. Empieza hoy a crear tu segundo cerebro sin esfuerzo de mantenimiento.

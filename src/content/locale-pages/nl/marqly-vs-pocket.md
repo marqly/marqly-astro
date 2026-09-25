@@ -19,7 +19,7 @@ faqs:
   - q: "Heeft Marqly een offline leesmodus zoals Pocket?"
     a: "Nee. Marqly is een cloud-first kennisbeheersysteem en heeft geen native offline lezer. Als offline lezen in de trein essentieel voor je is, bekijk dan Instapaper."
   - q: "Wat zijn de kosten?"
-    a: "Gratis tot 2.000 opgeslagen pagina's. Pro kost $72 per jaar ($49 eerste jaar met code STANDING49) of $9 per maand."
+    a: "Gratis tot 100 opgeslagen pagina's. Pro kost $72 per jaar ($49 eerste jaar met code STANDING49) of $9 per maand."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

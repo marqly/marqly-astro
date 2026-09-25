@@ -20,7 +20,7 @@ faqs:
   - q: "Czy nadal mogę przenieść moje stare dane z Pocket?"
     a: "Tak. Jeśli pobrałeś plik eksportu HTML przed całkowitym wyłączeniem serwerów, możesz bez problemu zaimportować całą historię do Marqly, Raindrop lub Instapaper."
   - q: "Która alternatywa dla Pocket jest całkowicie darmowa?"
-    a: "Raindrop.io oferuje bardzo bogaty plan bezpłatny. Marqly zapewnia darmowy plan do 2 000 zakładek z pełnym przeszukiwaniem całej biblioteki. Dla osób posiadających własny serwer darmową opcją open source jest Wallabag."
+    a: "Raindrop.io oferuje bardzo bogaty plan bezpłatny. Marqly zapewnia darmowy plan do 100 zakładek z pełnym przeszukiwaniem całej biblioteki. Dla osób posiadających własny serwer darmową opcją open source jest Wallabag."
   - q: "Kiedy dokładnie Pocket został zamknięty?"
     a: "Mozilla ogłosiła zakończenie usługi Pocket 8 lipca 2025 roku, blokując możliwość dodawania nowych zakładek, a 12 listopada 2025 roku serwery zostały definitywnie wyłączone."
 heroImage: ../../../assets/blog/best-pocket-alternatives-2026.png
@@ -35,7 +35,7 @@ Zamknięcie Pocket przez Mozillę w 2025 roku zakończyło pewną epokę w inter
 ### 1. Marqly — Najlepsza alternatywa z semantycznym wyszukiwaniem AI
 Marqly to najnowocześniejszy następca Pocket. Oferuje błyskawiczny import archiwum HTML, czysty tryb czytnika oraz **semantyczne wyszukiwanie AI**. Nie musisz pamiętać dokładnego tytułu artykułu — wystarczy, że opiszesz to, co z niego zapamiętałeś.
 - **Dla kogo**: Dla każdego, kto ma dość zapomnianych zakładek i chce natychmiast odnajdywać wiedzę.
-- **Cena**: Darmowy plan do 2 000 zakładek; Pro $72/rok ($49 w pierwszym roku).
+- **Cena**: Darmowy plan do 100 zakładek; Pro $72/rok ($49 w pierwszym roku).
 
 ### 2. Raindrop.io — Najlepszy darmowy menedżer linków
 Świetne wsparcie dla folderów, tagów i multimediów. Posiada bardzo bogaty plan bezpłatny, choć jego wyszukiwanie opiera się na tradycyjnych słowach kluczowych.

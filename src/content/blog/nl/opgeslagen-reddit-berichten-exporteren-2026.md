@@ -60,4 +60,4 @@ Om deze links weer waardevol te maken:
 - De AI van Marqly haalt de originele titels op en kent automatische thematische labels toe.
 - Dankzij **semantisch zoeken** vind je discussies terug op omschrijving (zoals *"de thread over zuurdesemproblemen oplossen"*), zonder de subreddit of titel te hoeven raden.
 
-Marqly biedt een gratis account tot 2.000 links en een Pro-abonnement voor 72 $/jaar.
+Marqly biedt een gratis account tot 100 links en een Pro-abonnement voor 72 $/jaar.

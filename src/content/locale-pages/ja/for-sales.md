@@ -17,7 +17,7 @@ faqs:
   - q: "SFAやCRMツールと連携できますか？"
     a: "MarqlyはWeb上の生のリサーチ資料を保管するパーソナルナレッジとして機能し、CRMの活動履歴と役割を分担します。"
   - q: "営業担当者の個人利用にかかる費用は？"
-    a: "最大2,000件まで無料。Proプランは年額72ドル（初年度クーポンSTANDING49で49ドル）で、いつでも解約できます。"
+    a: "最大100件まで無料。Proプランは年額72ドル（初年度クーポンSTANDING49で49ドル）で、いつでも解約できます。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqlyを無料で試す"
 ctaSecondaryLabel: "Chromeに追加 — 無料"

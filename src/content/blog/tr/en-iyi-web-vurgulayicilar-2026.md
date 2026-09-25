@@ -32,7 +32,7 @@ faqs:
 
 | Araç | Sayfada Kalıcı mı? | Renkler ve Notlar | Ücretsiz Sürüm | Pro Fiyatı |
 | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Evet, garantili | 6 renk + notlar | ✅ 2.000 kayda kadar | Yıllık 72 $ (1. yıl 49 $) |
+| **Marqly** | ✅ Evet, garantili | 6 renk + notlar | ✅ 100 kayda kadar | Yıllık 72 $ (1. yıl 49 $) |
 | **Readwise Reader** | ✅ Evet | Notlar ve etiketler | ❌ 30 gün deneme | Yıllık $9,99/ay |
 | **Weava** | ✅ Evet | 5 temel renk | ✅ Var (~100MB) | Aylık $3,99 |
 | **Hypothesis** | ✅ Evet | 1 renk + yorumlar | ✅ Tamamen ücretsiz | Ücretsiz |

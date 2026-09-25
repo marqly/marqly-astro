@@ -59,7 +59,7 @@ Browser extension for desktop, share-sheet on mobile.
 
 ## Pricing
 
-- **Free tier** — get started without a credit card; stores up to 2,000 bookmarks with search across your whole library.
+- **Free tier** — get started without a credit card; stores up to 100 bookmarks with search across your whole library.
 - **Pro ($72/year ≈ $6/month, with a $49 first-year offer or $9/mo)** — unlimited bookmarks and full AI capabilities (semantic search, auto-tagging, YouTube chat, ChatVault). See our [pricing page](/pricing).
 - **Free plan to start**, no card required; Pro is billed when you upgrade and can be cancelled anytime.
 
@@ -75,7 +75,7 @@ At ~$6/mo, Marqly sits below premium tools like Readwise Reader ($12/mo) while o
 
 ## Cons (the honest part)
 
-- **Free tier stores up to 2,000 bookmarks without AI.** Heavy savers needing unlimited bookmarks or semantic AI retrieval will want to upgrade to Pro.
+- **Free tier stores up to 100 bookmarks without AI.** Heavy savers needing unlimited bookmarks or semantic AI retrieval will want to upgrade to Pro.
 - **Newer than incumbents.** Smaller community than Raindrop or Readwise (growing quickly, but worth noting).
 - **Not a note-taking tool.** If you want to write and link your own notes (Zettelkasten-style), pair it with Obsidian or Notion — Marqly is for what you *read*, not what you *write*.
 - **Highlighting is basic** compared to Readwise Reader's spaced-repetition system. If study-by-highlight is your core workflow, Reader does that specific thing better.

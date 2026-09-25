@@ -32,7 +32,7 @@ Voor de meeste lezers en onderzoekers is **Marqly** in 2026 de beste web highlig
 
 | Tool | Blijft op pagina staan? | Kleuren & notities | Gratis versie | Pro prijs |
 | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Ja, altijd | 6 kleuren + notities | ✅ Tot 2.000 items | $72/jaar ($49 1e jaar) |
+| **Marqly** | ✅ Ja, altijd | 6 kleuren + notities | ✅ Tot 100 items | $72/jaar ($49 1e jaar) |
 | **Readwise Reader** | ✅ Ja | Notities + tags | ❌ 30 dagen proef | $9,99/mnd jaarlijks |
 | **Weava** | ✅ Ja | 5 basiskleuren | ✅ Ja (~100MB) | $3,99/mnd |
 | **Hypothesis** | ✅ Ja | 1 kleur + notities | ✅ Volledig gratis | Gratis |

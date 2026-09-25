@@ -9,7 +9,7 @@ hero:
   heading: "Je sloeg die geweldige referentie op voor later. Nu je content maakt, ben je hem kwijt"
   subheading: "Marqly verandert losse bladwijzers in een levend swipe file: automatische tags, videosamenvattingen en semantisch zoeken op betekenis versnellen je creatieve proces."
 crumbHome: "Home"
-trustLine: "Gratis tot 2.000 items · Geen creditcard vereist · Chrome, Edge, Firefox, Safari & iOS"
+trustLine: "Gratis tot 100 items · Geen creditcard vereist · Chrome, Edge, Firefox, Safari & iOS"
 faqHeading: "Veelgestelde vragen"
 faqs:
   - q: "Kan ik links van X, Instagram en YouTube opslaan?"
@@ -19,7 +19,7 @@ faqs:
   - q: "Kan ik verzamelingen delen met een team of opdrachtgevers?"
     a: "Ja. Je kunt van elk bord een openbare link maken die anderen zonder account in hun browser kunnen bekijken."
   - q: "Wat zijn de tarieven?"
-    a: "De gratis versie biedt ruimte voor 2.000 bladwijzers. Het Pro-abonnement kost $72/jaar ($49 eerste jaar met coupon STANDING49) of $9/maand."
+    a: "De gratis versie biedt ruimte voor 100 bladwijzers. Het Pro-abonnement kost $72/jaar ($49 eerste jaar met coupon STANDING49) of $9/maand."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

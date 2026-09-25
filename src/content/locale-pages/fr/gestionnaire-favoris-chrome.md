@@ -13,7 +13,7 @@ trustLine: "Gratuit sans carte bancaire · Disponible sur le Chrome Web Store"
 faqHeading: "Questions fréquentes"
 faqs:
   - q: "Marqly est-il gratuit sur le Chrome Web Store ?"
-    a: "L'extension s'installe gratuitement. L'offre gratuite prend en charge jusqu'à 2 000 éléments sans carte bancaire. Pro est à 72 $/an (49 $ la 1re année avec STANDING49) ou 9 $/mois."
+    a: "L'extension s'installe gratuitement. L'offre gratuite prend en charge jusqu'à 100 éléments sans carte bancaire. Pro est à 72 $/an (49 $ la 1re année avec STANDING49) ou 9 $/mois."
   - q: "Puis-je importer mes favoris Chrome existants ?"
     a: "Oui. Exportez vos favoris Chrome en fichier HTML et importez-les dans Marqly. L'IA étiquettera rétroactivement l'ensemble de vos liens accumulés."
   - q: "Marqly remplace-t-il les favoris intégrés de Chrome ?"

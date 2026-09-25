@@ -34,7 +34,7 @@ Najlepszy bezpłatny menedżer zakładek w 2026 roku zależy od tego, czego ocze
 | Narzędzie | Limit wersji darmowej | Wyszukiwanie AI | Własny serwer | Dostępne platformy | Cena Pro |
 | --- | --- | --- | --- | --- | --- |
 | **Raindrop.io** | ✅ Bez limitu pozycji | ❌ Tylko słowa kluczowe | ❌ Nie | Web, iOS, Android, PC | 28 USD/rok |
-| **Marqly** | ✅ Do 2 000 zakładek | ❌ AI w wersji Pro | ❌ Nie | Web, iOS, rozszerzenia | 72 USD/rok (49 USD 1. rok) |
+| **Marqly** | ✅ Do 100 zakładek | ❌ AI w wersji Pro | ❌ Nie | Web, iOS, rozszerzenia | 72 USD/rok (49 USD 1. rok) |
 | **Linkwarden** | ✅ Darmowy na serwerze | ⚠️ Opcjonalnie | ✅ Tak (AGPL) | Web, mobile, wtyczki | 3 USD/mies. Chmura |
 | **Karakeep** | ✅ Darmowy na serwerze | ✅ Tak (z własnym kluczem) | ✅ Tak | Web, mobile, wtyczki | Koszt serwera |
 | **Zakładki w Chrome** | ✅ Wbudowane, darmowe | ❌ Brak | — | Tylko własna przeglądarka | Bezpłatne |

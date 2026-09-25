@@ -9,7 +9,7 @@ hero:
   heading: "你昨晚引用的那份权威信源，今早已被静默修改得面目全非"
   subheading: "Marqly 让你在看到网页的第一时间留存高保真 PDF。结合网页划线标注与视频自动文字稿，无论原网站如何删改，调查证据坚如磐石。"
 crumbHome: "首页"
-trustLine: "免费保存高达 2,000 条 · 无需信用卡 · 支持 Chrome, Edge, Firefox, Safari 与 iOS"
+trustLine: "免费保存高达 100 条 · 无需信用卡 · 支持 Chrome, Edge, Firefox, Safari 与 iOS"
 faqHeading: "常见问题"
 faqs:
   - q: "能将网页保存为当时浏览时刻的原始证据吗？"
@@ -21,7 +21,7 @@ faqs:
   - q: "是否适合存放高度机密的新闻爆料？"
     a: "Marqly 是一款安全的云端软件，不提供私有化部署。如涉及极度敏感的机密爆料信源，请遵循所在媒体机构的保密安全规程。"
   - q: "价格方案是什么？"
-    a: "免费版最高支持保存 2,000 条内容。Pro 专业版为 72 美元/年（首年凭优惠码 STANDING49 仅需 49 美元）或 9 美元/月。"
+    a: "免费版最高支持保存 100 条内容。Pro 专业版为 72 美元/年（首年凭优惠码 STANDING49 仅需 49 美元）或 9 美元/月。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"

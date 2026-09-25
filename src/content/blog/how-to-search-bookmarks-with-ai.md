@@ -83,4 +83,4 @@ If the right article surfaces near the top, the semantic search is real. If you 
 
 ## Start searching by meaning
 
-If you've ever known you saved something but couldn't dig it out, AI search is the fix. You describe the idea; the tool finds the save. [Marqly is built around semantic search](https://app.marqly.com) across web, iOS, and desktop — the free plan gives you up to 2,000 saves with whole-library search, and Pro turns on search by meaning, so you can compare the two against your own archive.
+If you've ever known you saved something but couldn't dig it out, AI search is the fix. You describe the idea; the tool finds the save. [Marqly is built around semantic search](https://app.marqly.com) across web, iOS, and desktop — the free plan gives you up to 100 saves with whole-library search, and Pro turns on search by meaning, so you can compare the two against your own archive.

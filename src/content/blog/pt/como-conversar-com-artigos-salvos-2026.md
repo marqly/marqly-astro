@@ -44,4 +44,4 @@ Ao contrário de uma simples barra de busca que entrega uma lista de links para 
 3. **Leia a resposta estruturada:** A IA compila as ideias principais encontradas nos textos.
 4. **Consulte os originais:** Clique nas fontes citadas para ler trechos completos.
 
-O Marqly conta com plano gratuito para até 2.000 itens e Pro por 72 $/ano.
+O Marqly conta com plano gratuito para até 100 itens e Pro por 72 $/ano.

@@ -58,7 +58,7 @@ La seconda metà è la ricerca semantica: descrivi con parole tue ciò che vuoi 
 
 > «l'articolo che spiegava perché i team piccoli consegnano più in fretta»
 
-Se puoi recuperare qualsiasi cosa dal contenuto, non conta più quanto c'è nella lista. Una libreria di 2.000 elementi consultabile è un asset; 200 senza indice sono un peso.
+Se puoi recuperare qualsiasi cosa dal contenuto, non conta più quanto c'è nella lista. Una libreria di 100 elementi consultabile è un asset; 200 senza indice sono un peso.
 
 ## Anche i video sono nella lista
 

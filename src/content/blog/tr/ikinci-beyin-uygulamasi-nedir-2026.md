@@ -42,4 +42,4 @@ Notion veya Obsidian gibi araçlarda devasa not ağaçları kurmak uzun vadede s
 
 [Marqly](https://app.marqly.com) ile mevcut tarayıcı yer imlerinizi dakikalar içinde içe aktarabilir, yapay zeka özetleri ve anlamsal aramayla kusursuz bir bilgi kütüphanesine sahip olabilirsiniz.
 
-Marqly'de 2.000 linke kadar ücretsiz plan sunulurken, Pro plan yıllık 72 dolardır.
+Marqly'de 100 linke kadar ücretsiz plan sunulurken, Pro plan yıllık 72 dolardır.

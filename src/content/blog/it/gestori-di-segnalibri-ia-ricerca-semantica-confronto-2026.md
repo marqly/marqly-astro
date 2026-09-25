@@ -49,7 +49,7 @@ Puoi verificare l'autenticità di qualsiasi strumento con questo metodo:
 
 | Strumento | Ricerca semantica reale? | Cosa fa davvero la sua IA | Piano gratuito |
 | --- | --- | --- | --- |
-| **Marqly** | ✅ Sì (motore principale Pro) | Ricerca per concetto, riassunti, tag automatici | ✅ Sì (fino a 2.000 elementi) |
+| **Marqly** | ✅ Sì (motore principale Pro) | Ricerca per concetto, riassunti, tag automatici | ✅ Sì (fino a 100 elementi) |
 | **mymind** | ⚠️ Parziale | Memoria visiva e auto-tagging | ❌ No (~$8/mese) |
 | **Recall** | ⚠️ Parziale | Grafo di conoscenza e chat | ✅ Limitato |
 | **Readwise Reader** | ⚠️ Parziale | Chat Ghostreader e gestione evidenziazioni | ❌ Solo prova (~$10-13/mese) |
@@ -60,7 +60,7 @@ Puoi verificare l'autenticità di qualsiasi strumento con questo metodo:
 
 ## Verdetto finale
 
-- **Marqly:** Il punto di riferimento per ritrovare i salvataggi per significato. Piano gratuito fino a 2.000 elementi; Pro a 72 $/anno (6 $/mese fatturato annualmente o 9 $/mese) con coupon STANDING49 (49 $ il primo anno).
+- **Marqly:** Il punto di riferimento per ritrovare i salvataggi per significato. Piano gratuito fino a 100 elementi; Pro a 72 $/anno (6 $/mese fatturato annualmente o 9 $/mese) con coupon STANDING49 (49 $ il primo anno).
 - **mymind:** Perfetto per chi colleziona ispirazioni visive e immagini.
 - **Readwise Reader:** Ideale per chi legge intensamente libri ed e-book sottolineandone i passaggi chiave.
 - **Raindrop.io:** Ottimo archivio tradizionale per chi ama organizzare manualmente cartelle e collegamenti.

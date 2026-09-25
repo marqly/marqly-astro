@@ -56,7 +56,7 @@ Para solucionar este problema nació la búsqueda semántica de **Marqly**, que 
 | **Búsqueda semántica por IA** | ❌ No (solo palabras clave) | ✅ Sí (búsqueda por significado) |
 | **Resúmenes automáticos con IA** | ❌ No | ✅ Sí (instantáneos al guardar) |
 | **Etiquetado automático** | ⚠️ Solo sugerencias en Pro | ✅ Sí (automático en segundo plano) |
-| **Plan gratuito** | ✅ Ilimitado (sin IA) | ✅ Hasta 2.000 elementos |
+| **Plan gratuito** | ✅ Ilimitado (sin IA) | ✅ Hasta 100 elementos |
 | **Plan de pago** | 27,99 $/año | 72 $/año (o 49 $ el primer año con STANDING49) |
 
 Si prefieres clasificar carpetas manualmente, Raindrop.io es insuperable. Si quieres que la inteligencia artificial encuentre cualquier recuerdo vago de tu biblioteca, te recomendamos [probar Marqly gratis](https://app.marqly.com).

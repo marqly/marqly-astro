@@ -13,7 +13,7 @@ trustLine: "Ücretsiz plan, kart gerekmez · App Store'dan İndirin"
 faqHeading: "Sıkça Sorulan Sorular"
 faqs:
   - q: "Marqly iOS uygulaması ücretsiz mi?"
-    a: "Evet, App Store'dan ücretsiz indirilebilir. Kredi kartı istemeyen ücretsiz planda 2.000 kayda kadar alan sunulur."
+    a: "Evet, App Store'dan ücretsiz indirilebilir. Kredi kartı istemeyen ücretsiz planda 100 kayda kadar alan sunulur."
   - q: "Bilgisayardan kaydettiğim yer imleri iPhone'da görünür mü?"
     a: "Evet, anında eşitlenir. Chrome, Edge, Firefox veya Safari üzerinden kaydettiğiniz her sayfa iOS uygulamasında görünür."
   - q: "Android uygulaması var mı?"

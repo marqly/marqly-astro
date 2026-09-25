@@ -17,7 +17,7 @@ faqs:
   - q: "Marqly s'intègre-t-il au CRM ?"
     a: "Marqly sert d'annexe de recherche personnelle en amont de votre CRM."
   - q: "Quel est le coût pour un commercial ?"
-    a: "Gratuit jusqu'à 2 000 enregistrements. Pro à 72 $/an (49 $ avec STANDING49)."
+    a: "Gratuit jusqu'à 100 enregistrements. Pro à 72 $/an (49 $ avec STANDING49)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"

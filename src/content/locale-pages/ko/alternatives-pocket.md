@@ -17,7 +17,7 @@ faqs:
   - q: "기존에 백업해 둔 포켓 데이터를 가져올 수 있나요?"
     a: "네. Marqly는 포켓 내보내기 파일(ZIP/HTML)을 원클릭으로 가져올 수 있으며, AI가 가져온 모든 기사에 자동으로 태그를 달아줍니다."
   - q: "무료로 쓸 수 있는 대체 앱이 있나요?"
-    a: "Marqly와 Raindrop.io 모두 무료 버전을 제공합니다. Marqly 무료 티어는 최대 2,000개 링크 저장과 전체 검색을 지원합니다."
+    a: "Marqly와 Raindrop.io 모두 무료 버전을 제공합니다. Marqly 무료 티어는 최대 100개 링크 저장과 전체 검색을 지원합니다."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly 무료로 시작하기"
 ctaSecondaryLabel: "Chrome에 추가 — 무료"

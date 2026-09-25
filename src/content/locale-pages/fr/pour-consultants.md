@@ -17,7 +17,7 @@ faqs:
   - q: "Puis-je partager mes sources sans obliger le client à s'inscrire ?"
     a: "Oui, les tableaux se partagent par un lien public accessible directement sans login."
   - q: "Combien coûte Marqly pour un consultant indépendant ?"
-    a: "Gratuit jusqu'à 2 000 liens. Le forfait Pro à 72 $/an (49 $ avec le code STANDING49) offre toute l'IA."
+    a: "Gratuit jusqu'à 100 liens. Le forfait Pro à 72 $/an (49 $ avec le code STANDING49) offre toute l'IA."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"

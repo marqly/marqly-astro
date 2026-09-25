@@ -17,7 +17,7 @@ faqs:
   - q: "Marqly si integra con il CRM?"
     a: "Funziona come archivio di intelligence preliminare a supporto delle note CRM."
   - q: "Quanto costa Marqly per i venditori?"
-    a: "Gratis fino a 2.000 link. Pro a 72 $/anno (49 $ con coupon STANDING49)."
+    a: "Gratis fino a 100 link. Pro a 72 $/anno (49 $ con coupon STANDING49)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"

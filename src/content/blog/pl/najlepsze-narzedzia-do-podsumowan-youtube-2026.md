@@ -19,7 +19,7 @@ faqs:
   - q: "Jakie jest najlepsze narzędzie AI do podsumowywania filmów na YouTube w 2026 roku?"
     a: "Dla większości użytkowników bezkonkurencyjny jest Marqly. Karta z podsumowaniem pojawia się bezpośrednio na stronie oglądanego filmu, oferując zsynchronizowaną transkrypcję, czat ze sztuczną inteligencją i zapisywanie do bazy wiedzy."
   - q: "Czy można streszczać filmy z YouTube za darmo?"
-    a: "Tak. Marqly posiada darmowy plan do 2 000 zakładek, Eightify pozwala na streszczenie 3 filmów tygodniowo (do 30 min), a Glasp daje 3 podstawowe podsumowania dziennie."
+    a: "Tak. Marqly posiada darmowy plan do 100 zakładek, Eightify pozwala na streszczenie 3 filmów tygodniowo (do 30 min), a Glasp daje 3 podstawowe podsumowania dziennie."
   - q: "Czy mogę zadawać pytania dotyczące treści oglądanego filmu?"
     a: "Tak. W zakładce Chat w rozszerzeniu Marqly możesz zadawać szczegółowe pytania, a AI odpowiada bezpośrednio na podstawie transkrypcji bez opuszczania strony YouTube."
 ---
@@ -30,7 +30,7 @@ Prawdziwa różnica pomiędzy tymi aplikacjami nie tkwi w jakości generowanego 
 
 | Narzędzie | Gdzie pojawia się podsumowanie | Transkrypcja | Czat z filmem | Wersja darmowa | Cena (sierpień 2026) |
 | --- | --- | --- | --- | --- | --- |
-| **Marqly** | ✅ Bezpośrednio na YouTube | ✅ Zsynchronizowana z wideo | ✅ Tak (Pro) | ✅ Do 2 000 zakładek | 72 $/rok (49 $ z kodem STANDING49) |
+| **Marqly** | ✅ Bezpośrednio na YouTube | ✅ Zsynchronizowana z wideo | ✅ Tak (Pro) | ✅ Do 100 zakładek | 72 $/rok (49 $ z kodem STANDING49) |
 | **NoteGPT** | ❌ Odrębny panel | ✅ Tak | ✅ Tak | ⚠️ Niewielki limit | Pro 9 $/mies. |
 | **Recall** | ❌ Zewnętrzna aplikacja | ✅ Tak | ❌ Tylko streszczenie | ✅ 10 podsumowań/mies. | Plus 10 $/mies. rocznie |
 | **Eightify** | ✅ Bezpośrednio na YouTube | ⚠️ Tylko wypunktowania | ❌ Nie | ✅ 3 filmy/tydz. (≤30 min) | 4,95 $/mies. |
