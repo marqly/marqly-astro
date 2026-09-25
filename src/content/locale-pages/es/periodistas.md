@@ -21,7 +21,7 @@ faqs:
   - q: "¿Es seguro para material sensible?"
     a: "Marqly es un servicio en la nube, no autoalojable y sin API pública. Para material que requiera custodia estricta, conviene valorarlo con tu redacción antes de usarlo."
   - q: "¿Puedo compartir la documentación de un reportaje?"
-    a: "Sí, publicando un tablero como página pública que se abre con el enlace. No hay funciones de equipo ni edición colaborativa."
+    a: "Sí, publicando un tablero como página pública que se abre con el enlace, en modo lectura. Para que la redacción edite junta existe Marqly Teams."
   - q: "¿Cuánto cuesta?"
     a: "Plan gratis sin tarjeta. Pro cuesta 9 USD al mes o 72 USD al año."
 ctaUrl: "https://app.marqly.com"
@@ -80,14 +80,14 @@ Se puede probar sin instalar nada con la [transcripción de YouTube](/es/herrami
 
 Cada tema tiene su tablero con toda la documentación. Cuando entregas, puedes publicarlo como página pública para pasar el material de apoyo a un editor o a verificación, sin adjuntar treinta enlaces.
 
-Es lectura compartida: **no hay edición colaborativa ni funciones de equipo**.
+Es lectura compartida: **el enlace personal es de solo lectura; escribir juntos es cosa de Marqly Teams**.
 
 ## Lo que debes valorar antes
 
 Con transparencia, porque en esta profesión importa:
 
 - Marqly es un **servicio en la nube**. No es autoalojable y no tiene API pública.
-- **No hay modo sin conexión** ni app de Android.
+- **No hay modo sin conexión.**
 - Para material sensible o con fuentes que requieran protección, esta decisión debería pasar por los criterios de tu redacción, no por una página de producto.
 
 Para trabajo donde el requisito sea que los archivos vivan en tu disco, la alternativa honesta está en [Marqly vs Obsidian](/es/comparar/marqly-vs-obsidian).

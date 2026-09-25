@@ -17,7 +17,7 @@ faqs:
   - q: "컴퓨터에서 저장한 북마크가 iPhone에 자동으로 뜨나요?"
     a: "네, 자동으로 동기화됩니다. Chrome, Edge, Firefox, Safari에서 저장한 모든 링크와 하이라이트가 iOS 앱에 즉시 나타납니다."
   - q: "Android용 앱도 있나요?"
-    a: "현재 네이티브 모바일 앱은 iOS 전용입니다. Android 환경에서는 모바일 브라우저로 app.marqly.com에 접속하여 동일한 기능을 이용하실 수 있습니다."
+    a: "있습니다. 안드로이드 앱은 Google Play에 있습니다: https://play.google.com/store/apps/details?id=com.marqly.android. iOS 앱과 같은 계정으로 사용합니다."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly 무료로 시작하기"
 ctaSecondaryLabel: "Chrome에 추가 — 무료"

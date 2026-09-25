@@ -19,7 +19,7 @@ faqs:
   - q: "Dá para reaproveitar o material do ano passado?"
     a: "É exatamente esse o caso. Tudo o que você salvou continua pesquisável por significado, então você recupera a leitura do ano passado descrevendo, mesmo sem lembrar o título."
   - q: "Tem recursos de equipe para o departamento?"
-    a: "Não há recursos de equipe nem edição colaborativa. O que dá para fazer é compartilhar quadros públicos com colegas."
+    a: "No plano pessoal, o compartilhamento é por link público em modo leitura, sem cadastro. Para a equipe editar junto no mesmo espaço, existe o Marqly Teams."
   - q: "Funciona no computador da escola?"
     a: "A extensão funciona no Chrome, Edge, Firefox e Safari, e você sempre pode entrar no app web por qualquer navegador sem instalar nada."
   - q: "Quanto custa?"
@@ -91,7 +91,7 @@ Quando você lê um texto longo pensando na aula, lê diferente: procura o trech
 
 ## O que você não vai encontrar
 
-Para não haver surpresa: **não há recursos de equipe nem edição colaborativa**, não há modo offline e não há app de Android. O Marqly é uma biblioteca pessoal que você pode compartilhar em modo leitura, não uma plataforma de ensino.
+Para não haver surpresa: no plano pessoal o compartilhamento é **em modo leitura** (para edição colaborativa em grupo existe o Marqly Teams) e não há modo offline. O Marqly é uma biblioteca pessoal que você pode compartilhar em modo leitura, não uma plataforma de ensino.
 
 ## Comece
 

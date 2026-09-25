@@ -15,7 +15,7 @@ faqs:
   - q: "Cosa rende speciale Matter?"
     a: "L'audio. Trasforma articoli e newsletter in qualcosa che ascolti mentre guidi o ti alleni, con voci molto buone, e la sua app iOS è tra le più curate della categoria."
   - q: "Matter esiste su Android?"
-    a: "No. Matter è su web, iOS, macOS e Chrome. Nemmeno Marqly ha un'app Android, quindi su questo punto pari: nessuno dei due va bene se vuoi un'app Android nativa."
+    a: "No. Matter è su web, iOS, macOS e Chrome. Marqly invece un'app Android ce l'ha, oltre a web e iOS: se vuoi usarla su Android, tra i due è l'unico a dartela."
   - q: "Quanto costano?"
     a: "Matter Premium costa 8 $/mese o 60 $/anno (circa 57 €) sul web, e 7,99 $/mese o 79,99 $/anno (circa 76 €) tramite App Store. Marqly Pro costa 9 $/mese o 72 $/anno (circa 69 €), con piano gratuito senza carta."
   - q: "Matter ha la ricerca IA?"
@@ -63,7 +63,7 @@ Se vivi su iPhone e Mac e il tuo collo di bottiglia è il tempo per leggere, Mat
 - **Salvare come PDF** su Chrome ed Edge.
 - **Chrome, Edge, Firefox e Safari**, più app web e iOS.
 
-Cosa manca: **audio, lettura offline e app Android**.
+Cosa manca: **audio e lettura offline**.
 
 ## Confronto diretto
 
@@ -72,7 +72,7 @@ Cosa manca: **audio, lettura offline e app Android**.
 | Ascoltare articoli (audio) | **Sì, eccellente** | No |
 | Offline | **Sì** | No |
 | App iOS | Sì, molto curata | Sì |
-| App Android | No | No |
+| App Android | No | Sì |
 | Browser | Chrome | Chrome, Edge, Firefox, Safari |
 | Tag automatici con IA | No | Sì |
 | Ricerca semantica | No | Sì |

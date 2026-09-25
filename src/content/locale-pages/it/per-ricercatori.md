@@ -19,7 +19,7 @@ faqs:
   - q: "Salva i PDF?"
     a: "Su Chrome ed Edge puoi archiviare una pagina come PDF con il layout reale, immagini a caricamento differito comprese. Su Firefox e Safari si usa la stampa in PDF del browser."
   - q: "Va bene per il lavoro collaborativo?"
-    a: "Puoi condividere una bacheca come pagina pubblica, che chiunque apre senza registrarsi. Non ci sono funzioni di team né modifica collaborativa."
+    a: "Puoi condividere una bacheca come pagina pubblica in sola lettura, che chiunque apre senza registrarsi. Per modificare insieme lo stesso spazio di lavoro c'è Marqly Teams."
   - q: "E le conferenze registrate?"
     a: "Salvando un video di YouTube, la trascrizione viene allegata e diventa ricercabile. Dopo puoi cercare una frase detta, non solo il titolo."
   - q: "Quanto costa?"
@@ -81,8 +81,7 @@ Perché non ci siano sorprese:
 
 - **Non gestisce citazioni né bibliografie formattate.** Per quello ci sono Zotero e Mendeley, e Marqly non li sostituisce.
 - **Nessuna modalità offline.**
-- **Nessuna app Android** (ci sono iPhone, iPad e app web).
-- **Nessuna funzione di team** oltre alla bacheca pubblica.
+- **Nessuna modifica collaborativa sul piano personale**, dove la bacheca pubblica è sola lettura: per lavorare in più persone c'è Marqly Teams.
 
 Marqly copre la fase precedente alla bibliografia: il materiale che stai valutando, non quello che hai già deciso di citare. Molti usano entrambi — Marqly per esplorare, un gestore di riferimenti per pubblicare.
 

@@ -17,7 +17,7 @@ faqs:
   - q: "Ist Raindrop günstiger als Marqly?"
     a: "Ja, deutlich. Raindrop Pro kostet rund 28 $/Jahr (rund 26 €), Marqly Pro 72 $/Jahr (rund 66 €) oder 9 $/Monat (rund 8 €). Raindrops kostenlose Stufe gilt außerdem als eine der großzügigsten der Kategorie."
   - q: "Wann ist Raindrop die bessere Wahl?"
-    a: "Wenn du gerne selbst ordnest, viele Sammlungen mit Untersammlungen pflegst, eine Android-App oder eine API brauchst oder möglichst wenig zahlen willst. Raindrop wird seit 2013 entwickelt und ist auf allen Plattformen ausgereift."
+    a: "Wenn du gerne selbst ordnest, viele Sammlungen mit Untersammlungen pflegst, eine API brauchst oder möglichst wenig zahlen willst. Raindrop wird seit 2013 entwickelt und ist auf allen Plattformen ausgereift."
   - q: "Wann ist Marqly die bessere Wahl?"
     a: "Wenn dein Problem nicht die Ablage ist, sondern das Wiederfinden. Marqly vergibt Tags automatisch, fasst jede Speicherung zusammen, sucht semantisch und bringt auf YouTube eine KI-Karte mit Zusammenfassung, Chat und synchronem Transkript mit."
   - q: "Kann ich meine Raindrop-Sammlung zu Marqly mitnehmen?"
@@ -63,7 +63,7 @@ Wir schreiben das nicht aus Höflichkeit. Raindrop macht drei Dinge besser:
 
 **Die kostenlose Stufe.** Sie gehört zu den großzügigsten der Kategorie und reicht vielen Leuten dauerhaft. Wer keine KI braucht, hat wenig Anlass, für irgendetwas zu zahlen.
 
-**Die Abdeckung.** Web, macOS, iOS, **Android**, dazu Erweiterungen für alle großen Browser. Marqly hat **keine Android-App** – wenn dein Telefon ein Android-Gerät ist, ist das ein hartes Ausschlusskriterium, an dem kein Funktionsvergleich etwas ändert.
+**Die Abdeckung.** Web, macOS, iOS, **Android**, dazu Erweiterungen für alle großen Browser. Marqly hat inzwischen eine eigene Android-App – auf dem Telefon ist das kein Ausschlusskriterium mehr; Raindrops Vorsprung liegt hier nur noch bei den Desktop-Programmen.
 
 **Die Reife und die Anschlussfähigkeit.** Seit 2013 in Entwicklung, mit verschachtelten Sammlungen, Ansichten, Titelbildern, Duplikatsuche, täglichen Sicherungen und einer **öffentlichen API**. Marqly hat keine API; wer über Zapier oder eigene Skripte automatisiert, ist bei Raindrop richtig.
 
@@ -81,7 +81,7 @@ Und der Preis: rund **28 $/Jahr (rund 26 €)** gegen **72 $/Jahr (rund 66 €)*
 
 ## Die ehrliche Entscheidungshilfe
 
-**Nimm Raindrop, wenn** du gern selbst ordnest, Android nutzt, eine API brauchst, möglichst wenig zahlen willst oder ein Werkzeug suchst, das seit über einem Jahrzehnt stabil läuft.
+**Nimm Raindrop, wenn** du gern selbst ordnest, eine API brauchst, möglichst wenig zahlen willst oder ein Werkzeug suchst, das seit über einem Jahrzehnt stabil läuft.
 
 **Nimm Marqly, wenn** deine Sammlung schneller wächst, als du sie pflegen kannst, du viel mit Videos und KI-Chats arbeitest, gern [markierst](/de/webseiten-markieren) und dein Problem eher „wiederfinden" als „ablegen" heißt – auch beim [Auflösen von Tab-Bergen](/de/tabs-speichern).
 

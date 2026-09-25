@@ -21,7 +21,7 @@ faqs:
   - q: "Quanti colori posso usare?"
     a: "Sei. Bastano per darti un sistema: per esempio un colore per le tesi principali, uno per i dati, uno per le cose che non ti convincono e uno per quello che vuoi citare."
   - q: "Funziona anche sul telefono?"
-    a: "Marqly ha l'app per iPhone e iPad e l'app web, ma l'evidenziatore vive dentro l'estensione del browser, quindi si usa da computer. Non esiste un'app Android."
+    a: "Marqly ha l'app per iPhone e iPad, quella per Android e l'app web, ma l'evidenziatore vive dentro l'estensione del browser, quindi si usa da computer."
   - q: "Serve il piano a pagamento?"
     a: "No, puoi iniziare con il piano gratuito e senza carta. Il piano Pro costa 72 $/anno (circa 69 €) oppure 9 $/mese (circa 8 €), e serve soprattutto per la chat con i tuoi salvataggi."
 ctaUrl: "https://app.marqly.com"

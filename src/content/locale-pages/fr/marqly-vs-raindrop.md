@@ -19,7 +19,7 @@ faqs:
   - q: "Puis-je importer mes favoris Raindrop dans Marqly ?"
     a: "Oui. Marqly propose un import dédié pour Raindrop, ainsi que pour Pocket et pour les fichiers HTML de favoris. Raindrop exporte en HTML et en CSV, même sur son offre gratuite, donc il n'y a pas d'enfermement."
   - q: "Lequel choisir si j'ai un téléphone Android ?"
-    a: "Raindrop, sans hésiter. Il propose une application Android native, alors que Marqly n'a pas d'application Android : uniquement une application iOS, l'application web et les extensions de navigateur."
+    a: "Désormais, les deux : Marqly a aussi une application Android native, en plus de l'application iOS, de l'application web et des extensions. Si Android était votre seul critère, ce n'est plus lui qui départage ; regardez plutôt la recherche et l'organisation."
   - q: "Marqly a-t-il une API comme Raindrop ?"
     a: "Non. Raindrop dispose d'une API ouverte et de nombreuses intégrations via des services comme Zapier. Marqly n'a pas d'API publique ni d'auto-hébergement. Si votre usage repose sur des automatisations, Raindrop est le bon choix."
   - q: "Peut-on utiliser les deux ?"
@@ -38,7 +38,7 @@ Disons-le franchement, parce que ce sont de vrais avantages&nbsp;:
 
 - **Une offre gratuite très généreuse.** Favoris, collections, surlignages et appareils illimités, import et export inclus. Peu d'outils en font autant sans payer.
 - **La maturité.** Plus de dix ans de développement continu, une interface éprouvée, des habitudes qui ne bougent pas sous vos pieds.
-- **Toutes les plateformes.** Web, macOS, iOS **et Android**, plus les extensions Chrome, Edge, Firefox et Safari. Marqly n'a pas d'application Android&nbsp;: si c'est votre téléphone, le débat s'arrête là.
+- **Toutes les plateformes.** Web, macOS, iOS **et Android**, plus les extensions Chrome, Edge, Firefox et Safari. Marqly propose désormais sa propre application Android&nbsp;: ce téléphone n'est plus un critère d'exclusion entre les deux.
 - **L'organisation visuelle.** Collections imbriquées, vignettes de couverture, plusieurs modes d'affichage. Pour qui aime ranger, c'est un plaisir.
 - **Une API ouverte** et de nombreuses intégrations. Marqly n'a pas d'API publique.
 - **Un prix bas.** Environ 28 $/an (environ 27 €) pour Pro, contre 72 $/an (environ 69 €) pour Marqly Pro.
@@ -81,7 +81,7 @@ Si votre bibliothèque est déjà bien rangée et que vous retrouvez sans peine 
 
 ## Comment choisir en une minute
 
-**Prenez Raindrop si&nbsp;:** vous aimez ranger et vous le faites bien&nbsp;; vous utilisez Android&nbsp;; vous voulez le budget le plus bas&nbsp;; vous avez besoin d'une API et d'automatisations&nbsp;; vous gérez des milliers de liens dans une arborescence structurée.
+**Prenez Raindrop si&nbsp;:** vous aimez ranger et vous le faites bien&nbsp;; vous voulez le budget le plus bas&nbsp;; vous avez besoin d'une API et d'automatisations&nbsp;; vous gérez des milliers de liens dans une arborescence structurée.
 
 **Prenez Marqly si&nbsp;:** vous sauvegardez beaucoup et rangez peu&nbsp;; vous perdez du temps à retrouver ce que vous savez avoir lu&nbsp;; vous voulez un résumé avant d'investir vingt minutes&nbsp;; vous regardez beaucoup de vidéos et voulez les rendre consultables&nbsp;; vous voulez poser des questions à votre propre bibliothèque.
 

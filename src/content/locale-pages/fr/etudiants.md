@@ -21,7 +21,7 @@ faqs:
   - q: "Puis-je résumer un cours filmé ou une conférence ?"
     a: "Oui, pour les vidéos YouTube. Marqly affiche une carte IA sur la page de la vidéo, avec un résumé, un chat et une transcription synchronisée. Si vous sauvegardez la vidéo, la transcription lui reste attachée et devient consultable."
   - q: "Marqly fonctionne-t-il sur mon téléphone ?"
-    a: "Il existe une application iOS pour iPhone et iPad, ainsi qu'une application web accessible depuis n'importe quel navigateur. Il n'y a pas d'application Android pour l'instant."
+    a: "Il existe des applications pour iPhone, iPad et Android, ainsi qu'une application web accessible depuis n'importe quel navigateur."
   - q: "Puis-je récupérer mes favoris déjà accumulés ?"
     a: "Oui. Marqly importe depuis Pocket, depuis Raindrop et depuis les fichiers HTML de favoris exportés par n'importe quel navigateur. Vos favoris X (Twitter) peuvent aussi être récupérés."
 ctaUrl: "https://app.marqly.com"
@@ -88,7 +88,7 @@ Commencez par l'offre gratuite pendant un dossier entier. Si les résumés et la
 
 ## Ce que Marqly ne fait pas
 
-Pas d'application Android, pas de mode hors ligne, pas de fonctions d'équipe, pas de génération de citations au format APA. Ce sont des limites réelles, autant les connaître avant d'installer.
+Pas de mode hors ligne, pas de génération de citations au format APA. Ce sont des limites réelles, autant les connaître avant d'installer.
 
 ## Pour aller plus loin
 

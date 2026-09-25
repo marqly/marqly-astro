@@ -74,7 +74,7 @@ Si guardas muchos videos o artículos largos y quieres triar sin abrirlos, neces
 
 ## Cuándo *no* deberías cambiar
 
-Sé honesto contigo mismo: si te gusta ordenar y tu sistema de colecciones funciona, quedarte en Raindrop es la decisión correcta. Es más barato, tiene app de Android y su plan gratis alcanza para mucha gente. Cambiar de herramienta no arregla un sistema que ya funciona.
+Sé honesto contigo mismo: si te gusta ordenar y tu sistema de colecciones funciona, quedarte en Raindrop es la decisión correcta. Es más barato, tiene API pública y su plan gratis alcanza para mucha gente. Cambiar de herramienta no arregla un sistema que ya funciona.
 
 Cambia solo si te reconoces en la razón 1 o en la razón 2: la pila de "sin ordenar" que crece, o la sensación de saber que guardaste algo y no poder encontrarlo.
 

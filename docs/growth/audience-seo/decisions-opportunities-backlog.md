@@ -61,7 +61,7 @@ editorial in English per revenue plan §:28).
 | 2 | Templates + wiring (cluster 1) | asset | **shipped batch 1** |
 | 3 | Growth ledgers | docs | **shipped batch 1** |
 | 4 | Offline verification (help page vs spec) | owner task | queued — blocks any offline copy |
-| 5 | Locale truth-bug sweep (Android denials + team lines, 12 locales, 199 inventoried lines) | fix | **inventory done** (`locale-truth-inventory.md`); execution batch 3 — table rows need per-file column checks |
+| 5 | Locale truth-bug sweep (Android denials + team lines, 12 locales) | fix | **shipped batch 3** — 154 files: 24 comparison-table rows (header-verified Marqly column) + ~130 prose lines (Android affirmations keeping API/offline/self-host denials; team lines → approved personal-vs-Teams split). Skips documented: competitor-truth rows, personal-link view-only phrasings (still true), trustLine understatements (marketing call) |
 | 6 | Gallery hub weight + stale description | tech | **shipped batch 2** (637KB→134KB; search removed, category hubs carry the full set) |
 | 7 | Prompt-gallery worked-example pass (top-traffic prompts only) | content | batch 2, gated on GSC |
 | 8 | Template-download event (Mixpanel + GA4 `template_download`, content-free payload) | analytics | **shipped batch 2** |
@@ -93,3 +93,11 @@ file's findings; extend it.
   denials across it/pl/ja/pt/… + team lines + comparison-table rows needing
   per-file column verification) inventoried in `locale-truth-inventory.md`
   for batch 3. Bulk regex-editing table rows was rejected as unsafe.
+
+## Batch-3 note (2026-09-26)
+- **D-013 Locale sweep executed via delegated edits + integrator verification**:
+  scope proven (0 files outside locale-pages), spot-checks grammatical, table
+  edits restricted to header-identified Marqly columns, competitor claims left
+  alone, build + 16 gates + e2e green. Remaining judgment calls (trustLine
+  Android omissions, appending Teams pointer to personal-link-only lines) are
+  listed in `locale-truth-inventory.md` and left as owner-visible options.

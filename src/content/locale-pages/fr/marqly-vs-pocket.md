@@ -21,7 +21,7 @@ faqs:
   - q: "Marqly propose-t-il la lecture hors ligne comme Pocket ?"
     a: "Non, et il faut le dire clairement : c'était l'une des meilleures fonctions de Pocket, et Marqly ne l'a pas. Si votre usage principal était de lire sans réseau dans le métro, cela ne se remplace pas à l'identique."
   - q: "Y a-t-il une application Android ?"
-    a: "Non. Marqly propose une application iPhone et iPad, et l'application web fonctionne dans n'importe quel navigateur Android. Pocket avait une application Android native : vous y perdez donc aussi quelque chose."
+    a: "Oui. Marqly propose une application iPhone, iPad et Android, et l'application web fonctionne dans n'importe quel navigateur."
   - q: "Combien coûte Marqly ?"
     a: "Offre gratuite sans carte, et Pro à 9 $ (soit environ 8 €) par mois ou 72 $ (soit environ 69 €) par an. Les étudiants vérifiés paient 48 $ (soit environ 46 €) la première année."
 ctaUrl: "https://app.marqly.com"
@@ -50,7 +50,6 @@ Sinon, il n'y a rien à récupérer. Aucun outil ne restitue ces données, et m�
 Soyons justes, Pocket était très bon dans son domaine :
 
 - **Lecture hors ligne.** Les articles se synchronisaient seuls sur le téléphone. Marqly n'a **pas** de mode hors ligne.
-- **Application Android native.** Marqly n'en a pas ; seulement iPhone, iPad et l'application web.
 - **Listen (synthèse vocale).** Transformait la pile d'articles en playlist pour la voiture. Marqly ne le fait pas.
 - **Lecteur épuré et sans distraction**, affiné pendant des années.
 - **Discover**, avec de très bonnes recommandations de fond.

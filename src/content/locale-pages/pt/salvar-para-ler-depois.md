@@ -19,7 +19,7 @@ faqs:
   - q: "Consigo ler offline?"
     a: "Não. O Marqly precisa de conexão para sincronizar e usar os recursos de IA — não existe modo offline. No Chrome e no Edge dá para salvar a página como PDF, e essa conversão é feita no seu próprio computador."
   - q: "Funciona no celular?"
-    a: "Tem aplicativo para iPhone e iPad, e o app web abre no navegador de qualquer celular. Não existe aplicativo para Android. O que você salva no computador aparece no celular e vice-versa."
+    a: "Tem aplicativo para iPhone, iPad e Android, e o app web abre no navegador de qualquer celular. O que você salva no computador aparece no celular e vice-versa."
   - q: "E quando eu não lembro onde salvei?"
     a: "É para isso que existe a busca semântica: você descreve o que lembra do conteúdo e o Marqly traz o texto, mesmo que nenhuma dessas palavras esteja no título."
   - q: "Preciso pagar?"
@@ -91,7 +91,7 @@ O ponto do passo 2 é psicológico: quando apagar fica barato, salvar volta a se
 
 ## O que o Marqly não faz
 
-Para não te enganar: não existe modo offline, não existe aplicativo para Android e não há recursos de equipe. O que existe é extensão nos quatro navegadores principais, app web, aplicativo de iPhone e iPad, e a opção de salvar a página como PDF no Chrome e no Edge, com a conversão feita no seu próprio computador.
+Para não te enganar: não existe modo offline, e o compartilhamento no plano pessoal é apenas leitura — para a equipe editar junto existe o Marqly Teams. O que existe é extensão nos quatro navegadores principais, app web, aplicativo de iPhone, iPad e Android, e a opção de salvar a página como PDF no Chrome e no Edge, com a conversão feita no seu próprio computador.
 
 ## Preço
 

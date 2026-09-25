@@ -68,13 +68,13 @@ Se salvi molti video o articoli lunghi e vuoi smistare senza aprire, servono ria
 | Salvare come PDF | No | Sì (Chrome/Edge) | No |
 | Bacheca pubblica | Sì | Sì | No |
 | Offline | No | No | **Sì** |
-| App Android | **Sì** | No | **Sì** |
+| App Android | **Sì** | Sì | **Sì** |
 | Prezzo | **28 $/anno** | 72 $/anno | Gratis |
 | Piano gratuito | Sì | Sì, senza carta | Sì |
 
 ## Quando *non* cambiare
 
-Sii onesto: se ti piace organizzare e il tuo sistema di raccolte funziona, restare su Raindrop è la decisione giusta. Costa meno, ha un'app Android e il piano gratuito basta a molti. Cambiare strumento non ripara un sistema che già funziona.
+Sii onesto: se ti piace organizzare e il tuo sistema di raccolte funziona, restare su Raindrop è la decisione giusta. Costa meno, ha un'API pubblica e il piano gratuito basta a molti. Cambiare strumento non ripara un sistema che già funziona.
 
 Cambia solo se ti riconosci nel motivo 1 o nel 2: la pila «non ordinati» che cresce, o la sensazione di sapere di aver salvato qualcosa senza riuscire a trovarlo.
 

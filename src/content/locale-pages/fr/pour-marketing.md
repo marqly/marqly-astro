@@ -17,7 +17,7 @@ faqs:
   - q: "Est-ce utile pour la veille concurrentielle ?"
     a: "Oui. Vous enregistrez leurs pages, l'IA étiquette et résume, puis vous cherchez par le sens. L'archivage PDF permet en plus de comparer l'évolution de leur discours."
   - q: "Puis-je partager un tableau avec le client ?"
-    a: "Oui, un tableau se publie en page publique ouverte par lien, sans inscription. Il n'y a ni édition collaborative ni fonctions d'équipe."
+    a: "Oui, un tableau se publie en page publique ouverte par lien, sans inscription, en lecture seule. Pour éditer ensemble avec l'agence, il y a Marqly Teams."
   - q: "Enregistre-t-il les publicités des réseaux ?"
     a: "Vous pouvez enregistrer le lien de n'importe quelle page et capturer vos favoris X/Twitter depuis l'extension."
   - q: "Cela fonctionne-t-il avec les webinaires et vidéos longues ?"
@@ -83,7 +83,7 @@ Avec le surligneur six couleurs et les notes, vous marquez le passage précis, c
 
 Les tableaux regroupent les références par campagne, concurrent ou projet, et se publient en page publique. Le client ouvre le lien et voit, sans compte ni installation. Pratique pour présenter une analyse concurrentielle, un moodboard ou les éléments d'une proposition.
 
-À savoir : c'est un partage en lecture. **Il n'y a ni fonctions d'équipe ni édition collaborative.**
+À savoir : le partage personnel est en lecture seule. **Pour éditer ensemble, il y a Marqly Teams.**
 
 ## Webinaires et vidéos produit
 

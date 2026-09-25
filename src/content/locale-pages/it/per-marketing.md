@@ -17,7 +17,7 @@ faqs:
   - q: "Serve per monitorare la concorrenza?"
     a: "Sì. Salvi le loro pagine, l'IA etichetta e riassume, e poi cerchi per significato. L'archivio PDF permette anche di confrontare come è cambiato il loro messaggio."
   - q: "Posso condividere una bacheca con il cliente?"
-    a: "Sì, una bacheca si pubblica come pagina pubblica che si apre dal link, senza registrazione. Non ci sono modifica collaborativa né funzioni di team."
+    a: "Sì, una bacheca si pubblica come pagina pubblica che si apre dal link, senza registrazione e in sola lettura. Per lavorare e modificare in più c'è Marqly Teams."
   - q: "Salva gli annunci dai social?"
     a: "Puoi salvare il link di qualsiasi pagina e catturare i preferiti di X/Twitter dall'estensione."
   - q: "Funziona con webinar e video lunghi?"
@@ -83,7 +83,7 @@ Con l'evidenziatore a sei colori e le note segni il passaggio preciso, che resta
 
 Le bacheche raggruppano i riferimenti per campagna, concorrente o progetto e si pubblicano come pagina pubblica. Il cliente apre il link e vede, senza account e senza installare nulla. Utile per presentare un'analisi competitiva, un moodboard o la documentazione di una proposta.
 
-Da sapere: è condivisione in lettura. **Non ci sono funzioni di team né modifica collaborativa.**
+Da sapere: la condivisione personale è in sola lettura. **Per la modifica collaborativa di gruppo c'è Marqly Teams.**
 
 ## Webinar e video di prodotto
 

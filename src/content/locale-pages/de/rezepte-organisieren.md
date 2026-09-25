@@ -79,7 +79,7 @@ Es löst außerdem den Klassiker des unter zweitausend Wörtern Einleitung vergr
 
 Ein Board kann „schnelle Abendessen", „wenn Besuch kommt" oder „Einkauf diese Woche" heißen. Und weil es als öffentliche Seite veröffentlicht wird, kannst du die Liste per Link an alle geben, die mitkochen — ohne Installation, ohne Anmeldung.
 
-Am Handy öffnest du es über die iPhone-App oder den Browser. **Eine Android-App gibt es nicht**, die Web-App läuft aber in dessen Browser.
+Am Handy öffnest du es über die iPhone-App, die Android-App oder den Browser.
 
 ## Loslegen
 

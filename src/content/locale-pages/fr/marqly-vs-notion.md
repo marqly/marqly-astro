@@ -21,7 +21,7 @@ faqs:
   - q: "Puis-je utiliser les deux ?"
     a: "Oui, et c'est cohérent : Marqly comme boîte de capture rapide et bibliothèque consultable, Notion pour les documents et projets où vous citez ensuite ces sources."
   - q: "Notion fonctionne-t-il hors ligne ?"
-    a: "Oui, avec accès hors ligne et application Android. Marqly n'a ni l'un ni l'autre."
+    a: "Oui, avec accès hors ligne et application Android. Marqly a l'application Android, pas l'accès hors ligne."
   - q: "Combien coûte Marqly ?"
     a: "Offre gratuite sans carte. Pro coûte 9 $ (soit environ 8 €) par mois ou 72 $ (soit environ 69 €) par an."
 ctaUrl: "https://app.marqly.com"
@@ -66,7 +66,7 @@ Marqly part du principe que **vous n'organiserez rien** :
 - **Enregistrer tous les onglets** et sessions réouvrables.
 - **Tableaux publics** sans inscription.
 
-Ce qui manque : **hors ligne, application Android, documents, tâches et bases de données**. Ce n'est pas un espace de travail et cela n'essaie pas de l'être.
+Ce qui manque : **hors ligne, documents, tâches et bases de données**. Ce n'est pas un espace de travail et cela n'essaie pas de l'être.
 
 ## Comparatif direct
 

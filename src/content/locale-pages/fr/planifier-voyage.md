@@ -21,7 +21,7 @@ faqs:
   - q: "Cela fonctionne-t-il hors ligne pendant le voyage ?"
     a: "Non. Marqly n'a pas de mode hors ligne : pour consulter sans données, téléchargez l'essentiel à part."
   - q: "Y a-t-il une application mobile ?"
-    a: "Il existe une application iPhone et iPad, et l'application web fonctionne dans n'importe quel navigateur, y compris sous Android. Il n'existe pas d'application Android native."
+    a: "Il existe des applications iPhone, iPad et Android, et l'application web fonctionne dans n'importe quel navigateur."
   - q: "Combien cela coûte-t-il ?"
     a: "Offre gratuite sans carte. Pro coûte 9 $ (environ 8 €) par mois ou 72 $ (environ 69 €) par an."
 ctaUrl: "https://app.marqly.com"

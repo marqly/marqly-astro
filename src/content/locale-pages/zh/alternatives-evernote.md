@@ -17,7 +17,7 @@ faqs:
   - q: "哪款工具能完全替代 Evernote 的笔记编辑？"
     a: "Notion 或 Obsidian。Marqly 专注于网络书签与灵感检索，并非富文本笔记编辑器。"
   - q: "放弃 Evernote 会损失哪些功能？"
-    a: "主要包括扫描文档 OCR、长篇笔记编辑排版、原生 Android 应用及离线模式。"
+    a: "主要包括扫描文档 OCR、长篇笔记编辑排版及离线模式。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"

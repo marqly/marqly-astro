@@ -66,7 +66,7 @@ Marqly assume il contrario: che **non manterrai nulla**.
 - **Salvare tutte le schede** in una volta e sessioni riapribili.
 - **Bacheche pubbliche** senza registrazione.
 
-E ciò che non fa: **niente file locali, niente Markdown, niente modalità offline, niente app Android**. È un servizio, con quel che ha di buono e di brutto.
+E ciò che non fa: **niente file locali, niente Markdown, niente modalità offline**. È un servizio, con quel che ha di buono e di brutto.
 
 ## Confronto diretto
 
@@ -74,7 +74,7 @@ E ciò che non fa: **niente file locali, niente Markdown, niente modalità offli
 | --- | --- | --- |
 | Dati locali (Markdown) | **Sì** | No |
 | Offline | **Sì** | No |
-| App Android | **Sì** | No |
+| App Android | **Sì** | Sì |
 | Linux | **Sì** | Browser |
 | Prezzo | **Gratis** | Gratis · Pro 72 $/anno |
 | Tag automatici con IA | No | Sì |

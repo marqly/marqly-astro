@@ -21,7 +21,7 @@ faqs:
   - q: "Haben beide KI für YouTube?"
     a: "Ja, beide arbeiten mit Video. Marqly zeigt Zusammenfassung, synchronisiertes Transkript und Chat direkt auf der YouTube-Seite und hängt das Transkript an die Speicherung an."
   - q: "Funktioniert Readwise Reader offline?"
-    a: "Ja, und es hat eine Android-App. Marqly hat beides nicht."
+    a: "Ja, und es hat eine Android-App. Marqly hat die Android-App inzwischen auch, offline funktioniert es nicht."
   - q: "Was kostet Marqly?"
     a: "Kostenlose Stufe ohne Karte, Pro für 9 $ (rund 8 €) im Monat oder 72 $ (rund 66 €) im Jahr."
 ctaUrl: "https://app.marqly.com"
@@ -66,7 +66,7 @@ Marqly konkurriert nicht beim Leseerlebnis, sondern beim **Index**:
 - **Als PDF sichern** in Chrome und Edge.
 - **Kostenlose Stufe ohne Karte**, Pro für 72 $ im Jahr.
 
-Was fehlt: **Offline, Android-App, Newsletter per E-Mail, Spaced Repetition und öffentliche API**.
+Was fehlt: **Offline, Newsletter per E-Mail, Spaced Repetition und öffentliche API**.
 
 ## Direkter Vergleich
 
@@ -76,7 +76,7 @@ Was fehlt: **Offline, Android-App, Newsletter per E-Mail, Spaced Repetition und 
 | Newsletter und RSS | **Ja** | Nein |
 | Spaced Repetition | **Ja** | Nein |
 | Offline | **Ja** | Nein |
-| Android-App | **Ja** | Nein |
+| Android-App | **Ja** | Ja |
 | Öffentliche API | **Ja** | Nein |
 | Automatisches KI-Tagging | Nein | Ja |
 | Semantische Suche | Nein | Ja |

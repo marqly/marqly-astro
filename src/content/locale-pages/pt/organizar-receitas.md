@@ -77,7 +77,7 @@ Também resolve o clássico da receita enterrada sob duas mil palavras de introd
 
 Um quadro pode ser "jantares rápidos", "quando vem visita" ou "compras desta semana". E como é publicado como página pública, dá para passar a lista para quem cozinha com você por um link, sem instalar nada nem criar conta.
 
-No celular você abre pelo app de iPhone ou pelo navegador. **Não há app de Android**, embora o app web funcione no navegador dele.
+No celular você abre pelo app de iPhone, pelo de Android ou pelo navegador.
 
 ## Comece
 

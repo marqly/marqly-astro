@@ -21,7 +21,7 @@ faqs:
   - q: "Funziona offline durante il viaggio?"
     a: "No. Marqly non ha una modalità offline, quindi per consultare senza dati conviene scaricare a parte l'essenziale."
   - q: "C'è un'app per il telefono?"
-    a: "C'è un'app per iPhone e iPad, e l'app web funziona in qualsiasi browser, anche su Android. Non esiste un'app Android nativa."
+    a: "C'è un'app per iPhone e iPad, una per Android su Google Play, e l'app web funziona in qualsiasi browser."
   - q: "Quanto costa?"
     a: "Piano gratuito senza carta. Pro costa 9 $/mese (circa 8 €) o 72 $/anno (circa 69 €)."
 ctaUrl: "https://app.marqly.com"

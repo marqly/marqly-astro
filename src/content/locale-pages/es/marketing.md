@@ -17,7 +17,7 @@ faqs:
   - q: "¿Sirve para vigilar a la competencia?"
     a: "Sí. Guardas sus páginas, la IA las etiqueta y resume, y luego buscas por significado. Archivar como PDF además te deja comparar cómo cambió su mensaje con el tiempo."
   - q: "¿Puedo compartir un tablero con el cliente?"
-    a: "Sí, un tablero se publica como página pública que se abre con el enlace, sin registro. No hay edición colaborativa ni funciones de equipo."
+    a: "Sí, un tablero se publica como página pública que se abre con el enlace, sin registro y en modo lectura. Para editar en conjunto, está Marqly Teams."
   - q: "¿Guarda anuncios de redes?"
     a: "Puedes guardar el enlace de cualquier página, y capturar marcadores de X/Twitter desde la extensión."
   - q: "¿Funciona con webinars y videos largos?"
@@ -85,7 +85,7 @@ Con el resaltador de seis colores y notas puedes marcar el fragmento concreto qu
 
 Los tableros agrupan referencias por campaña, competidor o proyecto, y se publican como página pública. El cliente abre el enlace y lo ve, sin cuenta y sin instalar nada. Sirve para presentar un análisis competitivo, un moodboard o la documentación de una propuesta.
 
-Conviene saberlo: es compartir en modo lectura. **No hay funciones de equipo ni edición colaborativa.**
+Conviene saberlo: el compartir personal es en modo lectura. **Para edición colaborativa en equipo, Marqly Teams.**
 
 ## Webinars y videos de producto
 

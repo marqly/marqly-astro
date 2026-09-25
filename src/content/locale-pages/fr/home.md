@@ -107,7 +107,7 @@ Pro débloque notamment le chat avec vos sauvegardes. Le cœur de l'idée — sa
 
 ## Ce que Marqly ne fait pas
 
-Autant le dire tout de suite&nbsp;: pas de mode hors ligne, pas d'API publique, pas d'auto-hébergement et pas de fonctions d'équipe. Marqly est un outil personnel, pensé pour une personne et ses navigateurs.
+Autant le dire tout de suite&nbsp;: pas de mode hors ligne, pas d'API publique, pas d'auto-hébergement. L'espace personnel reste un outil pour une personne et ses navigateurs&nbsp;; l'édition à plusieurs dans un espace partagé, c'est Marqly Teams.
 
 ## Commencez en deux minutes
 

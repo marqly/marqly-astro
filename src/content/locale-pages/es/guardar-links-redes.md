@@ -19,7 +19,7 @@ faqs:
   - q: "¿Por qué no me sirven los guardados de TikTok o Instagram?"
     a: "Porque quedan encerrados en cada app, sin búsqueda útil y separados de todo lo demás. Guardaste una receta en Instagram, otra en TikTok y una tercera por WhatsApp: son tres lugares distintos y ninguno se habla con el otro."
   - q: "¿Se puede desde el celular?"
-    a: "Sí, con la app de iPhone y iPad, y desde la app web en cualquier navegador. Por ahora no hay app para Android."
+    a: "Sí, con las apps de iPhone, iPad y Android, y desde la app web en cualquier navegador."
   - q: "¿Puedo guardar mis marcadores de X (Twitter)?"
     a: "Sí. Marqly permite traer tus marcadores de X, que suelen ser la carpeta más grande y más olvidada que tiene cualquiera."
   - q: "¿Cuánto cuesta?"
@@ -82,7 +82,6 @@ Mucho de lo que te mandan es video, y ahí Marqly hace algo más. En YouTube mue
 ## Lo que Marqly no hace (para que no te lleves una sorpresa)
 
 - **No descarga** videos ni fotos de TikTok, Instagram ni WhatsApp. Guarda el enlace.
-- **No hay app de Android** por ahora: la app para celular es para iPhone y iPad, y además tienes la app web desde cualquier navegador.
 - **No funciona sin conexión.** Necesita internet para guardar, sincronizar y usar la IA.
 
 Preferimos decirlo aquí y no que lo descubras después de instalar.

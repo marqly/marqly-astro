@@ -17,7 +17,7 @@ faqs:
   - q: "Evernoteのノート執筆を完全に代用できるツールは？"
     a: "NotionやObsidianです。Marqlyはノート執筆アプリではなく、Webリンクや記事の収集・検索ツールですので、ノート作成には向きません。"
   - q: "Evernoteをやめると失う機能は何ですか？"
-    a: "紙文書のスキャンOCR、長文リッチテキストノート、Androidアプリ、オフライン同期です。"
+    a: "紙文書のスキャンOCR、長文リッチテキストノート、オフライン同期です。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqlyを無料で試す"
 ctaSecondaryLabel: "Chromeに追加 — 無料"

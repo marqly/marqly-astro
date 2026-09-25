@@ -19,7 +19,7 @@ faqs:
   - q: "Raindrop ha la ricerca semantica?"
     a: "No. La ricerca di Raindrop è per parole chiave, e la ricerca nel testo completo delle pagine è inclusa nel piano Pro. La sua AI si limita a suggerire tag e collezioni: niente riassunti, niente chat, niente funzioni per i video."
   - q: "Quale dei due ha l'app Android?"
-    a: "Raindrop. Marqly ha estensione per Chrome, Edge, Firefox e Safari, app web e app per iPhone e iPad, ma non ha un'app Android né un'API pubblica. Se ti servono, Raindrop è la scelta pratica."
+    a: "Tutti e due: Marqly ha l'app Android su Google Play, oltre a web, iOS ed estensioni. La differenza vera è l'API pubblica, che Marqly non ha: se serve quella, Raindrop è la scelta pratica."
   - q: "Posso passare da Raindrop a Marqly senza perdere niente?"
     a: "Sì. Raindrop esporta in HTML e CSV anche dal piano gratuito, e Marqly ha un'importazione dedicata da Raindrop, oltre a quella da Pocket e dai file HTML dei preferiti del browser."
   - q: "Quanto costano i due?"
@@ -38,7 +38,7 @@ Va detto senza giri di parole, perché è vero:
 
 - **Il piano gratuito.** Segnalibri, collezioni ed evidenziazioni illimitati, su tutti i dispositivi, con import ed export inclusi. Nella categoria è tra i più generosi che esistano.
 - **Il prezzo del Pro.** Circa 28 $/anno (circa 27 €) o 3 $/mese: molto meno dei 72 $/anno di Marqly Pro.
-- **La copertura piattaforme.** Web, Mac, iOS e **Android**, più le estensioni per tutti i browser principali. Marqly non ha l'app Android.
+- **La copertura piattaforme.** Web, Mac, iOS e **Android**, più le estensioni per tutti i browser principali. Marqly ha ormai la sua app Android, quindi sul telefono siete pari: la differenza qui sono le app desktop, che a Marqly mancano.
 - **L'API e le integrazioni.** Raindrop ha un'API documentata e si collega a servizi come Zapier. Marqly **non ha un'API pubblica**.
 - **La maturità.** In sviluppo continuo dal 2013, con collezioni annidate, copertine, viste multiple e trova-duplicati.
 
@@ -74,7 +74,7 @@ Marqly parte da un'idea diversa: il tempo che spendi a catalogare è tempo perso
 | Condivisione pubblica | Bacheche condivisibili | Collezioni pubbliche |
 | Estensione browser | Chrome, Edge, Firefox, Safari | Tutti i principali |
 | App iOS | Sì | Sì |
-| App Android | **No** | **Sì** |
+| App Android | **Sì** | **Sì** |
 | API pubblica | **No** | **Sì** |
 | Modalità offline | No | No |
 | Self-hosting | No | No |
@@ -84,7 +84,7 @@ Dati Raindrop verificati ad agosto 2026; i prezzi possono cambiare.
 
 ## Come scegliere in trenta secondi
 
-**Scegli Raindrop se:** usi Android, ti serve un'API, vuoi spendere il meno possibile, e ti piace davvero organizzare in collezioni con copertine e sottocartelle.
+**Scegli Raindrop se:** ti serve un'API, vuoi spendere il meno possibile, e ti piace davvero organizzare in collezioni con copertine e sottocartelle.
 
 **Scegli Marqly se:** salvi molto e cataloghi poco, non ricordi mai i titoli, guardi tante videolezioni o conferenze su YouTube, e vuoi poter chiedere alla tua libreria invece di scorrerla. È il caso tipico di chi studia — vedi [Marqly per studenti](/it/studenti) — e di chi lavora con [venti schede aperte per volta](/it/salva-schede).
 

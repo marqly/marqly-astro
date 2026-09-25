@@ -19,7 +19,7 @@ faqs:
   - q: "Puis-je restaurer une session plus tard ?"
     a: "Oui. Une session sauvegardée se rouvre quand vous en avez besoin, avec les pages qu'elle contenait. Vous pouvez aussi n'en reprendre qu'une partie si le reste n'a plus d'intérêt."
   - q: "Est-ce que ça fonctionne sur Edge, Firefox et Safari ?"
-    a: "L'extension Marqly existe pour Chrome, Edge, Firefox et Safari. S'y ajoutent l'application web et l'application iOS pour retrouver vos sauvegardes ailleurs. Il n'y a pas d'application Android."
+    a: "L'extension Marqly existe pour Chrome, Edge, Firefox et Safari. S'y ajoutent l'application web et les applications iOS et Android pour retrouver vos sauvegardes ailleurs."
   - q: "Que deviennent les onglets sauvegardés ?"
     a: "Ils rejoignent votre bibliothèque, où l'IA leur pose des étiquettes et rédige un résumé. Vous pouvez ensuite les retrouver par la recherche sémantique, en décrivant le contenu plutôt qu'en cherchant le titre exact."
   - q: "Faut-il payer pour sauvegarder ses onglets ?"
@@ -87,7 +87,7 @@ Si vous traînez déjà des milliers de favoris, ils n'ont pas à rester dehors&
 
 ## Ce qu'il faut savoir avant d'installer
 
-Il n'y a pas d'application Android et pas de mode hors ligne&nbsp;: une connexion est nécessaire pour sauvegarder et synchroniser. La nouvelle page d'onglet avec widgets est disponible sur Chrome, Edge et Firefox, et l'historique du presse-papiers uniquement sur Chrome et Edge.
+Pas de mode hors ligne&nbsp;: une connexion est nécessaire pour sauvegarder et synchroniser. La nouvelle page d'onglet avec widgets est disponible sur Chrome, Edge et Firefox, et l'historique du presse-papiers uniquement sur Chrome et Edge.
 
 ## Videz votre fenêtre maintenant
 

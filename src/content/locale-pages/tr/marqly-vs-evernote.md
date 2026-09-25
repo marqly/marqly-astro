@@ -17,7 +17,7 @@ faqs:
   - q: "Fiyat farkı ne kadar?"
     a: "Evernote yıllık 100$ ile 250$ arasında değişir. Marqly Pro yıllık 72$'dır (STANDING49 kuponuyla ilk yıl 49$) ve 100 bağlantıya kadar ücretsiz planı bulunur."
   - q: "Evernote'tan ayrılınca ne kaybedilir?"
-    a: "Fiziksel belge OCR taraması, uzun biçimli notlar ve Android çevrimdışı uygulaması."
+    a: "Fiziksel belge OCR taraması, uzun biçimli notlar ve tamamen çevrimdışı kullanım."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Deneyin"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

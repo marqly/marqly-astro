@@ -23,7 +23,7 @@ faqs:
   - q: "Puis-je emporter ce que j'ai ?"
     a: "Marqly importe les exports Pocket, les collections Raindrop.io et les fichiers HTML de favoris. Pour migrer des notes complètes, tournez-vous vers un outil de notes."
   - q: "Que perds-je en partant ?"
-    a: "Surtout la numérisation de documents, les notes longues, le mode hors ligne et l'application Android. Marqly n'a rien de tout cela."
+    a: "Surtout la numérisation de documents, les notes longues et le mode hors ligne. Marqly n'a rien de tout cela."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
@@ -82,7 +82,7 @@ Soyez sincère : si vous ne l'ouvrez pas, tout migrer est du travail perdu. Expo
 
 ## Ce que vous perdez en partant
 
-Sans enjoliver, parce qu'il faut décider les yeux ouverts. En passant d'Evernote à Marqly, vous perdez : **les notes longues, la numérisation de documents, le mode hors ligne et l'application Android**. Si l'un de ces quatre est indispensable à votre quotidien, Marqly n'est pas votre alternative — et mieux vaut le savoir maintenant.
+Sans enjoliver, parce qu'il faut décider les yeux ouverts. En passant d'Evernote à Marqly, vous perdez : **les notes longues, la numérisation de documents et le mode hors ligne**. Si l'un de ces trois est indispensable à votre quotidien, Marqly n'est pas votre alternative — et mieux vaut le savoir maintenant.
 
 Le détail complet est dans [Marqly vs Evernote](/fr/comparer/marqly-vs-evernote).
 

@@ -23,7 +23,7 @@ faqs:
   - q: "Kann ich meine Lesezeichen übernehmen?"
     a: "Ja. Marqly importiert Pocket-Exporte, Raindrop.io-Sammlungen und HTML-Lesezeichendateien aus Chrome, Firefox, Edge und Safari."
   - q: "Funktioniert Evernote offline?"
-    a: "Ja, Evernote hat Offline-Zugriff und eine Android-App. Marqly hat beides nicht."
+    a: "Ja, Evernote hat Offline-Zugriff und eine Android-App. Die Android-App hat Marqly inzwischen auch, den Offline-Zugriff nicht."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
@@ -67,7 +67,7 @@ Marqly versucht nicht, dein Notizsystem zu sein. Es macht eine Sache:
 - **Als PDF sichern** in Chrome und Edge.
 - **Zwischenablage-Verlauf** in Chrome und Edge, mit Sync in Pro.
 
-Was fehlt: **Offline, Android-App, lange Notizen, Dokumentenscan**.
+Was fehlt: **Offline, lange Notizen, Dokumentenscan**.
 
 ## Direkter Vergleich
 
@@ -76,7 +76,7 @@ Was fehlt: **Offline, Android-App, lange Notizen, Dokumentenscan**.
 | Notizen und Dokumente | **Ja, vollständig** | Nein |
 | Dokumentenscan | **Ja** | Nein |
 | Offline | **Ja** | Nein |
-| Android-App | **Ja** | Nein |
+| Android-App | **Ja** | Ja |
 | Web-Clipping | Ja, sehr gut | Ja |
 | Automatisches KI-Tagging | Nein | Ja |
 | Semantische Suche | Ja | Ja |

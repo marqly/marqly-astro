@@ -17,7 +17,7 @@ faqs:
   - q: "Evernote'un uzun not yazımını hangisi tam karşılar?"
     a: "Notion veya Obsidian. Marqly bir zengin metin editörü değil, web sayfaları ve bilgi arşividir."
   - q: "Evernote'u bırakınca neler eksilir?"
-    a: "Fiziksel belge tarama OCR'ı, çok sayfalı zengin metin düzenleme ve Android uygulaması."
+    a: "Fiziksel belge tarama OCR'ı ve çok sayfalı zengin metin düzenleme."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Deneyin"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

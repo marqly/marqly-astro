@@ -83,7 +83,7 @@ Se la tua casella si riempie soprattutto di schede aperte, guarda [salvare le sc
 | IA per YouTube | No | Sì | No | Sì |
 | Evidenziazioni con note | Sì | Sì | Sì | Sì, 6 colori |
 | Bacheca pubblica | No | No | Sì | Sì |
-| App Android | Sì | No | Sì | No |
+| App Android | Sì | No | Sì | Sì |
 | Piano gratuito | Sì | Sì | Sì | Sì, senza carta |
 | Importa export di Pocket | Sì | Sì | Sì | Sì |
 

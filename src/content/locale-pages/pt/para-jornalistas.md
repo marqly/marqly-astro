@@ -21,7 +21,7 @@ faqs:
   - q: "É seguro para material sensível?"
     a: "O Marqly é um serviço na nuvem, não auto-hospedável e sem API pública. Para material que exija custódia estrita, vale avaliar com a sua redação antes de usar."
   - q: "Dá para compartilhar a apuração de uma pauta?"
-    a: "Sim, publicando um quadro como página pública que abre pelo link. Não há recursos de equipe nem edição colaborativa."
+    a: "Sim, publicando um quadro como página pública em modo leitura que abre pelo link. Para a equipe editar junto, existe o Marqly Teams."
   - q: "Quanto custa?"
     a: "Plano grátis sem cartão. O Pro custa 9 USD/mês ou 72 USD/ano."
 ctaUrl: "https://app.marqly.com"
@@ -80,14 +80,14 @@ Teste sem instalar nada na [transcrição do YouTube](/pt/ferramentas/transcrica
 
 Cada tema tem seu quadro com toda a apuração. Na hora de entregar, você pode publicá-lo como página pública para passar o material de apoio a um editor ou à checagem, sem anexar trinta links.
 
-É leitura compartilhada: **não há edição colaborativa nem recursos de equipe**.
+É leitura compartilhada: **o link pessoal é só leitura; para editar em várias mãos existe o Marqly Teams**.
 
 ## O que avaliar antes
 
 Com transparência, porque nessa profissão importa:
 
 - O Marqly é um **serviço na nuvem**. Não é auto-hospedável e não tem API pública.
-- **Não há modo offline** nem app de Android.
+- **Não há modo offline.**
 - Para material sensível ou com fontes que exijam proteção, essa decisão deveria passar pelos critérios da sua redação, não por uma página de produto.
 
 Para trabalho em que o requisito seja arquivos no seu disco, a alternativa honesta está em [Marqly vs Obsidian](/pt/comparar/marqly-vs-obsidian).

@@ -19,7 +19,7 @@ faqs:
   - q: "Posso riutilizzare i materiali dell'anno scorso?"
     a: "È esattamente il caso d'uso. Tutto ciò che hai salvato resta ricercabile per significato, quindi recuperi la lettura dell'anno scorso descrivendola, anche senza il titolo."
   - q: "Ci sono funzioni di team per il dipartimento?"
-    a: "Non ci sono funzioni di team né modifica collaborativa. Puoi però condividere bacheche pubbliche con i colleghi."
+    a: "Con il piano personale le bacheche si condividono come pagine pubbliche in sola lettura. Per lavorare e modificare in più persone lo stesso spazio c'è Marqly Teams, l'area di lavoro condivisa."
   - q: "Funziona sul computer della scuola?"
     a: "L'estensione funziona su Chrome, Edge, Firefox e Safari, e puoi sempre aprire l'app web da qualsiasi browser senza installare nulla."
   - q: "Quanto costa?"
@@ -91,7 +91,7 @@ Quando leggi un testo lungo pensando alla lezione, leggi diversamente: cerchi il
 
 ## Cosa non troverai
 
-Perché non ci siano sorprese: **nessuna funzione di team né modifica collaborativa**, nessuna modalità offline e nessuna app Android. Marqly è una libreria personale che puoi condividere in lettura, non una piattaforma didattica.
+Perché non ci siano sorprese: sul piano personale la condivisione è **in sola lettura** (per modificare in più persone c'è Marqly Teams) e non c'è una modalità offline. Marqly è una libreria personale che puoi condividere in lettura, non una piattaforma didattica.
 
 ## Iniziare
 

@@ -89,6 +89,6 @@ Die kostenlose Stufe verlangt keine Kreditkarte. **Pro kostet 72 $/Jahr (rund 66
 
 ## Was Marqly nicht kann
 
-Damit du es vor der Installation weißt und nicht danach: Es gibt **keinen Offline-Modus**, **keine öffentliche API**, **keine Team-Funktionen** und **kein Self-Hosting**. Wenn einer dieser Punkte für dich Bedingung ist, spar dir die Einrichtung. Was mit deinen Daten passiert – und was du exportieren kannst – steht in den [Datenschutz-Fragen](/de/datenschutz-fragen).
+Damit du es vor der Installation weißt und nicht danach: Es gibt **keinen Offline-Modus**, **keine öffentliche API** und **kein Self-Hosting**. Wenn einer dieser Punkte für dich Bedingung ist, spar dir die Einrichtung. Was mit deinen Daten passiert – und was du exportieren kannst – steht in den [Datenschutz-Fragen](/de/datenschutz-fragen).
 
 Wenn dein Ordner „Lesen (wirklich)" gerade beim Lesen zuschaut: Leg ein Konto an, importiere deine Lesezeichen und such beim nächsten Mal einfach nach dem, woran du dich erinnerst. [Marqly kostenlos testen](https://app.marqly.com).

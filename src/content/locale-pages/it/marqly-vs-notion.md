@@ -21,7 +21,7 @@ faqs:
   - q: "Posso usarli insieme?"
     a: "Sì, e ha senso: Marqly come casella di cattura rapida e libreria consultabile, Notion per i documenti e i progetti in cui poi citi quelle fonti."
   - q: "Notion funziona offline?"
-    a: "Sì, con accesso offline e app Android. Marqly non ha nessuna delle due."
+    a: "Sì, con accesso offline e app Android. Marqly l'app Android ce l'ha, l'accesso offline no."
   - q: "Quanto costa Marqly?"
     a: "Piano gratuito senza carta. Pro costa 9 $/mese (circa 8 €) o 72 $/anno (circa 69 €)."
 ctaUrl: "https://app.marqly.com"
@@ -66,7 +66,7 @@ Marqly parte dal presupposto che **non organizzerai nulla**:
 - **Salvare tutte le schede** e sessioni riapribili.
 - **Bacheche pubbliche** senza registrazione.
 
-Cosa manca: **offline, app Android, documenti, attività e database**. Non è un workspace e non prova a esserlo.
+Cosa manca: **offline, documenti, attività e database**. Non è un workspace e non prova a esserlo.
 
 ## Confronto diretto
 
@@ -75,7 +75,7 @@ Cosa manca: **offline, app Android, documenti, attività e database**. Non è un
 | Documenti e progetti | **Sì** | No |
 | Database flessibili | **Sì** | No |
 | Offline | **Sì** | No |
-| App Android | **Sì** | No |
+| App Android | **Sì** | Sì |
 | Qualità della cattura | Irregolare | Alta |
 | Tag automatici con IA | No | Sì |
 | Ricerca semantica | Sì | Sì |

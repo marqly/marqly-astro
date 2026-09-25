@@ -19,7 +19,7 @@ faqs:
   - q: "Kann ich Material vom Vorjahr wiederverwenden?"
     a: "Genau das ist der Fall. Alles Gespeicherte bleibt nach Bedeutung durchsuchbar, du holst den Text vom Vorjahr also über eine Beschreibung zurück, auch ohne Titel."
   - q: "Gibt es Teamfunktionen für die Fachschaft?"
-    a: "Es gibt keine Teamfunktionen und keine gemeinsame Bearbeitung. Möglich ist, öffentliche Boards mit Kolleginnen und Kollegen zu teilen."
+    a: "Im persönlichen Plan teilst du öffentliche Boards – die sind zum Lesen da. Für gemeinsame Bearbeitung im Team gibt es Marqly Teams."
   - q: "Funktioniert es auf dem Schulrechner?"
     a: "Die Erweiterung läuft in Chrome, Edge, Firefox und Safari, und du kannst die Web-App jederzeit ohne Installation im Browser öffnen."
   - q: "Was kostet es?"
@@ -91,7 +91,7 @@ Wenn du einen langen Text mit Blick auf den Unterricht liest, liest du anders: D
 
 ## Was du nicht findest
 
-Damit es keine Überraschung gibt: **keine Teamfunktionen, keine gemeinsame Bearbeitung**, kein Offline-Modus, keine Android-App. Marqly ist eine persönliche Bibliothek, die du lesend teilen kannst, keine Lernplattform.
+Damit es keine Überraschung gibt: kein Offline-Modus, und im persönlichen Plan ist Teilen **nur lesbar** – eine gemeinsam bearbeitbare Arbeitsfläche bietet Marqly Teams. Marqly ist eine persönliche Bibliothek, die du lesend teilen kannst, keine Lernplattform.
 
 ## Loslegen
 

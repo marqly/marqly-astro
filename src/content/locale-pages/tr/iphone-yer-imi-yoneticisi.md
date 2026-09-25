@@ -17,7 +17,7 @@ faqs:
   - q: "Bilgisayardan kaydettiğim yer imleri iPhone'da görünür mü?"
     a: "Evet, anında eşitlenir. Chrome, Edge, Firefox veya Safari üzerinden kaydettiğiniz her sayfa iOS uygulamasında görünür."
   - q: "Android uygulaması var mı?"
-    a: "Şu anda yerel mobil uygulama iOS içindir. Android kullanıcıları mobil tarayıcı üzerinden app.marqly.com adresindeki web uygulamasını kullanabilir."
+    a: "Evet. Android uygulaması Google Play'de: https://play.google.com/store/apps/details?id=com.marqly.android. iOS uygulamasıyla aynı hesabı kullanır."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi ücretsiz deneyin"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"

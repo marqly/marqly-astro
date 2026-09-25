@@ -15,7 +15,7 @@ faqs:
   - q: "Wat maakt Matter uniek?"
     a: "De hoogwaardige AI-audiovoorleesfunctie. Het verandert artikelen en nieuwsbrieven in een podcast-achtige ervaring voor onderweg."
   - q: "Ondersteunt Matter Android?"
-    a: "Nee. Zowel Matter als Marqly hebben geen native Android-app (Marqly werkt wel in de browser op mobiel)."
+    a: "Nee, die heeft Matter niet: het staat er alleen voor web, iOS, macOS en Chrome. Marqly heeft inmiddels wél een native Android-app, dus op dit punt is Marqly de keuze voor Android-gebruikers."
   - q: "Is het verstandig om ze samen te gebruiken?"
     a: "Absoluut. Gebruik Matter voor artikelen die je wilt beluisteren, en Marqly voor het bewaren en semantisch doorzoeken van werkreferenties en video's."
 ctaUrl: "https://app.marqly.com"

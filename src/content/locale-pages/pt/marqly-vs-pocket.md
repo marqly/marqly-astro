@@ -21,7 +21,7 @@ faqs:
   - q: "O Marqly tem leitura offline como o Pocket tinha?"
     a: "Não, e vale dizer com clareza: essa era uma das melhores funções do Pocket e o Marqly não tem. Se o seu uso principal era ler no metrô sem sinal, essa peça não é substituída."
   - q: "Tem app de Android?"
-    a: "Não. O Marqly tem app para iPhone e iPad, e o app web funciona em qualquer navegador Android. O Pocket tinha app nativo de Android, então aqui você também perde algo."
+    a: "Sim. O Marqly tem app para iPhone, iPad e Android, e o app web funciona em qualquer navegador."
   - q: "Quanto custa o Marqly?"
     a: "Plano grátis sem cartão, e o Pro custa 9 USD por mês ou 72 USD por ano. Estudantes verificados pagam 48 USD no primeiro ano."
 ctaUrl: "https://app.marqly.com"
@@ -50,7 +50,6 @@ Se não baixou, não há o que recuperar. Nenhuma ferramenta devolve esses dados
 Vale ser justo, porque o Pocket era muito bom no que fazia:
 
 - **Leitura offline.** Os artigos sincronizavam sozinhos para o celular. O Marqly **não** tem modo offline.
-- **App nativo de Android.** O Marqly não tem; só iPhone, iPad e app web.
 - **Listen (texto para voz).** Transformava a fila de leitura em playlist para o trânsito. O Marqly não tem.
 - **Leitor limpo**, sem distração, polido por anos de uso.
 - **Discover**, com recomendações editoriais de qualidade real.

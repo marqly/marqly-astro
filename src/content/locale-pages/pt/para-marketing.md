@@ -17,7 +17,7 @@ faqs:
   - q: "Serve para monitorar a concorrência?"
     a: "Sim. Você salva as páginas deles, a IA marca e resume, e depois você busca por significado. Arquivar como PDF ainda permite comparar como a mensagem mudou ao longo do tempo."
   - q: "Dá para compartilhar um quadro com o cliente?"
-    a: "Sim, um quadro é publicado como página pública que abre pelo link, sem cadastro. Não há edição colaborativa nem recursos de equipe."
+    a: "Sim, um quadro é publicado como página pública que abre pelo link, sem cadastro e em modo leitura. Para a equipe editar junto, existe o Marqly Teams."
   - q: "Ele salva anúncios de redes?"
     a: "Dá para salvar o link de qualquer página, e capturar favoritos do X/Twitter pela extensão."
   - q: "Funciona com webinars e vídeos longos?"
@@ -83,7 +83,7 @@ Com o marca-texto de seis cores e notas você marca o trecho exato, e ele persis
 
 Os quadros agrupam referências por campanha, concorrente ou projeto, e são publicados como página pública. O cliente abre o link e vê, sem conta e sem instalar nada. Serve para apresentar uma análise competitiva, um moodboard ou a documentação de uma proposta.
 
-Vale saber: é compartilhamento em modo leitura. **Não há recursos de equipe nem edição colaborativa.**
+Vale saber: o compartilhamento pessoal é em modo leitura. **Para a equipe editar junto, existe o Marqly Teams.**
 
 ## Webinars e vídeos de produto
 

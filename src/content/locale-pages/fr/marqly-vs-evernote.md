@@ -23,7 +23,7 @@ faqs:
   - q: "Puis-je transférer mes favoris ?"
     a: "Oui. Marqly importe les exports Pocket, les collections Raindrop.io et les fichiers HTML de favoris de Chrome, Firefox, Edge et Safari."
   - q: "Evernote fonctionne-t-il hors ligne ?"
-    a: "Oui, Evernote propose l'accès hors ligne et une application Android. Marqly n'a ni l'un ni l'autre."
+    a: "Oui, Evernote propose l'accès hors ligne et une application Android. Marqly a l'application Android, pas l'accès hors ligne."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
@@ -67,7 +67,7 @@ Marqly ne cherche pas à être votre système de notes. Il fait une chose :
 - **Enregistrer en PDF** dans Chrome et Edge.
 - **Historique du presse-papiers** dans Chrome et Edge, avec synchronisation en Pro.
 
-Ce qui manque : **hors ligne, application Android, notes longues, numérisation de documents**.
+Ce qui manque : **hors ligne, notes longues, numérisation de documents**.
 
 ## Comparatif direct
 

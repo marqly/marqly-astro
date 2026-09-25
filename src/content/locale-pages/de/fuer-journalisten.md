@@ -21,7 +21,7 @@ faqs:
   - q: "Ist es für sensibles Material geeignet?"
     a: "Marqly ist ein Cloud-Dienst, nicht selbst hostbar und ohne öffentliche API. Für Material mit strengen Sorgfaltsanforderungen solltest du das vorab mit deiner Redaktion klären."
   - q: "Kann ich die Recherche zu einem Thema teilen?"
-    a: "Ja, indem du ein Board als öffentliche Seite veröffentlichst. Teamfunktionen und gemeinsame Bearbeitung gibt es nicht."
+    a: "Ja, indem du ein Board als öffentliche Seite veröffentlichst – die ist nur lesbar. Redaktionen, die gemeinsam bearbeiten wollen, nutzen Marqly Teams."
   - q: "Was kostet es?"
     a: "Kostenlose Stufe ohne Karte. Pro kostet 9 $ (rund 8 €) im Monat oder 72 $ (rund 66 €) im Jahr."
 ctaUrl: "https://app.marqly.com"
@@ -80,14 +80,14 @@ Ohne Installation testen: [YouTube-Transkript](/de/tools/youtube-transkript) und
 
 Jedes Thema hat sein Board mit der gesamten Recherche. Beim Abgeben kannst du es als öffentliche Seite veröffentlichen, um Belegmaterial an Redaktion oder Verifikation zu geben, ohne dreißig Links anzuhängen.
 
-Es ist lesendes Teilen: **keine gemeinsame Bearbeitung, keine Teamfunktionen**.
+Es ist lesendes Teilen: **das persönliche Board-Link ist nur lesbar; zum gemeinsamen Bearbeiten gibt es Marqly Teams**.
 
 ## Was du vorher abwägen solltest
 
 Transparent, weil es in diesem Beruf zählt:
 
 - Marqly ist ein **Cloud-Dienst**. Nicht selbst hostbar, keine öffentliche API.
-- **Kein Offline-Modus**, keine Android-App.
+- **Kein Offline-Modus.**
 - Bei sensiblem Material oder Quellen mit Schutzbedarf sollte diese Entscheidung über die Kriterien deiner Redaktion laufen, nicht über eine Produktseite.
 
 Für Arbeit, bei der Dateien auf deiner Festplatte liegen müssen, steht die ehrliche Alternative in [Marqly vs Obsidian](/de/vergleich/marqly-vs-obsidian). Zu Datenschutzfragen: [Datenschutz](/de/datenschutz-fragen).

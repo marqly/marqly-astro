@@ -15,7 +15,7 @@ faqs:
   - q: "Matterの最大の特徴は何ですか？"
     a: "非常に自然なAI音声による記事の読み上げです。通勤中や運動中にWeb記事をポッドキャスト感覚で聴くことができます。"
   - q: "Android対応状況はどうですか？"
-    a: "MatterもMarqlyもネイティブのAndroidアプリはありません（MarqlyはAndroidのブラウザでWeb版を利用可能）。"
+    a: "MatterにネイティブのAndroidアプリはありません。MarqlyにはAndroidアプリがあり（Google Playで配信）、Web版もAndroidブラウザで利用可能です。"
   - q: "料金の差はどれくらいですか？"
     a: "Matter PremiumはWeb決済で年額60ドル（月額8ドル）。Marqly Proは年額72ドル（初年度クーポンSTANDING49で49ドル）で、100件保存の無料プランがあります。"
   - q: "両方を併用するのはありですか？"

@@ -21,7 +21,7 @@ faqs:
   - q: "¿Puedo usar los dos a la vez?"
     a: "Sí, y tiene sentido: Marqly como bandeja de captura rápida y biblioteca buscable, Notion para los documentos y proyectos donde luego citas esas fuentes."
   - q: "¿Notion funciona sin conexión?"
-    a: "Sí, Notion tiene acceso sin conexión y app de Android. Marqly no tiene ninguna de las dos."
+    a: "Sí, Notion tiene acceso sin conexión y app de Android. Marqly tiene la app de Android, no el acceso sin conexión."
   - q: "¿Cuánto cuesta Marqly?"
     a: "Plan gratis sin tarjeta. Pro cuesta 9 USD al mes o 72 USD al año. Los estudiantes verificados pagan 48 USD el primer año."
 ctaUrl: "https://app.marqly.com"
@@ -66,7 +66,7 @@ Marqly asume que **no vas a organizar nada**, y construye alrededor de eso:
 - **Guardar todas las pestañas** de golpe y sesiones reabribles.
 - **Tableros públicos** compartibles sin registro.
 
-Lo que no tiene: **sin conexión, app de Android, documentos, tareas ni bases de datos**. No es un workspace y no intenta serlo.
+Lo que no tiene: **sin conexión, documentos, tareas ni bases de datos**. No es un workspace y no intenta serlo.
 
 ## Comparación directa
 

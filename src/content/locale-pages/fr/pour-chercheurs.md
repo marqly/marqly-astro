@@ -19,7 +19,7 @@ faqs:
   - q: "Enregistre-t-il les PDF ?"
     a: "Dans Chrome et Edge, vous pouvez archiver une page en PDF avec la mise en page réelle, images en chargement différé comprises. Dans Firefox et Safari, cela passe par l'impression en PDF du navigateur."
   - q: "Est-ce adapté au travail collaboratif ?"
-    a: "Vous pouvez partager un tableau en page publique, que chacun ouvre sans inscription. Il n'y a ni fonctions d'équipe ni édition collaborative."
+    a: "Vous pouvez partager un tableau en page publique, que chacun ouvre sans inscription — en lecture seule. Pour éditer ensemble, il y a Marqly Teams."
   - q: "Et les conférences enregistrées ?"
     a: "En enregistrant une vidéo YouTube, la transcription est jointe et devient recherchable. Vous pouvez ensuite chercher une phrase prononcée, pas seulement le titre."
   - q: "Combien cela coûte-t-il ?"
@@ -81,8 +81,7 @@ Pour éviter toute surprise :
 
 - **Pas de gestion de citations ni de bibliographies formatées.** C'est le rôle de Zotero et Mendeley, et Marqly ne les remplace pas.
 - **Pas de mode hors ligne.**
-- **Pas d'application Android** (iPhone, iPad et application web existent).
-- **Pas de fonctions d'équipe** au-delà du tableau public.
+- **Pas d'édition collaborative dans le plan personnel** : le tableau public est en lecture seule ; pour éditer à plusieurs, il y a Marqly Teams.
 
 Marqly couvre l'étape avant la bibliographie : le matériel que vous évaluez, pas celui que vous avez déjà décidé de citer. Beaucoup utilisent les deux — Marqly pour explorer, un gestionnaire de références pour publier.
 

@@ -82,7 +82,7 @@ La lista puede crecer indefinidamente sin ser un problema, porque ya no es una c
 
 ## Lo que no hace
 
-Marqly **no descarga videos** ni permite verlos sin conexión. Tampoco hay app de Android, aunque la app web funciona en su navegador. Lo que guarda es el video, su resumen y su transcripción — no el archivo.
+Marqly **no descarga videos** ni permite verlos sin conexión. Lo que guarda es el video, su resumen y su transcripción — no el archivo.
 
 ## Empezar
 

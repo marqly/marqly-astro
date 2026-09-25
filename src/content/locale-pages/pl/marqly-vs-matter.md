@@ -15,7 +15,7 @@ faqs:
   - q: "Co wyróżnia aplikację Matter?"
     a: "Wybitna jakość syntezatora mowy AI. Zmienia artykuły i newslettery w profesjonalne nagrania audio do słuchania w samochodzie lub podczas biegania."
   - q: "Czy Matter działa na Androidzie?"
-    a: "Nie. Zarówno Matter, jak i Marqly nie posiadają natywnej aplikacji na Androida (Marqly działa w przeglądarce mobilnej)."
+    a: "Nie. Matter działa tylko na webie, iOS, macOS i Chrome. Marqly ma za to natywną aplikację na Androida — jeśli telefon z Androidem jest wymagany, na tym punkcie wygrywa Marqly."
   - q: "Czy warto używać obu narzędzi razem?"
     a: "Jak najbardziej. Matter do tekstów, które chcesz odsłuchać w wolnym czasie, a Marqly do gromadzenia źródeł, transkrypcji i artykułów branżowych."
 ctaUrl: "https://app.marqly.com"

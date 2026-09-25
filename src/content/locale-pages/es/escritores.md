@@ -92,7 +92,7 @@ Se puede probar sin instalar nada con la [transcripción de YouTube](/es/herrami
 
 ## Lo que no hace
 
-Marqly **no es un editor**: no escribes aquí. Tampoco gestiona citas con formato académico, no funciona sin conexión y no tiene app de Android. Es la biblioteca, no el escritorio.
+Marqly **no es un editor**: no escribes aquí. Tampoco gestiona citas con formato académico ni funciona sin conexión. Es la biblioteca, no el escritorio.
 
 ## Empezar
 

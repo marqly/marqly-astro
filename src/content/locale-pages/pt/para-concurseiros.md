@@ -21,7 +21,7 @@ faqs:
   - q: "Quanto custa?"
     a: "Tem plano grátis, sem cartão de crédito. O Pro custa US$ 9 por mês ou US$ 72 por ano. Se você também está matriculado em uma instituição de ensino, o preço de estudante verificado é US$ 48 no primeiro ano."
   - q: "Tem app para Android?"
-    a: "Ainda não. Existe aplicativo para iPhone e iPad, extensão para Chrome, Edge, Firefox e Safari, e o app web, que abre no navegador de qualquer celular."
+    a: "Tem. Existe aplicativo para iPhone, iPad e Android, extensão para Chrome, Edge, Firefox e Safari, e o app web, que abre no navegador de qualquer celular."
   - q: "E o material que já está espalhado nos meus favoritos?"
     a: "Importe. O Marqly puxa de arquivos HTML de favoritos exportados do navegador, do Pocket e do Raindrop. Depois a IA vai etiquetando o que veio solto, e a busca já funciona em cima disso."
 ctaUrl: "https://app.marqly.com"
@@ -90,7 +90,7 @@ Sobre o quarto item: depois de garimpar jurisprudência com quinze abas abertas,
 - **Nova guia com widgets** (Chrome, Edge e Firefox): sua aba nova abre no material em vez de abrir no Instagram.
 - **Captura de conversas de IA** (Chrome, Edge e Firefox): salva a explicação que você pediu ao ChatGPT, ao Claude ou ao Gemini junto com o resto do material, em vez de deixar perdida no histórico do chat.
 
-Para ser justo com o seu planejamento, o que o Marqly **não** faz: não tem aplicativo para Android, não funciona offline e não é feito para equipe. No iPhone e no iPad tem app; em outros celulares, use o app web pelo navegador.
+Para ser justo com o seu planejamento, o que o Marqly **não** faz: não funciona offline e, no plano pessoal, o compartilhamento é em modo leitura — para a equipe editar junto existe o Marqly Teams. No iPhone, no iPad e no Android tem app; em outros celulares, use o app web pelo navegador.
 
 ## Preço
 

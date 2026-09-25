@@ -82,7 +82,7 @@ Die Liste darf unbegrenzt wachsen, ohne zum Problem zu werden, weil sie keine Wa
 
 ## Was es nicht macht
 
-Marqly **lädt keine Videos herunter** und erlaubt kein Ansehen offline. Es gibt auch keine Android-App, wobei die Web-App in dessen Browser läuft. Gespeichert werden das Video, die Zusammenfassung und das Transkript — nicht die Datei.
+Marqly **lädt keine Videos herunter** und erlaubt kein Ansehen offline. Gespeichert werden das Video, die Zusammenfassung und das Transkript — nicht die Datei.
 
 ## Loslegen
 

@@ -23,7 +23,7 @@ faqs:
   - q: "Posso portarmi ciò che ho?"
     a: "Marqly importa export di Pocket, raccolte di Raindrop.io e file HTML di preferiti. Per migrare note complete servono strumenti di note."
   - q: "Cosa perdo uscendo?"
-    a: "Soprattutto la scansione documenti, le note lunghe, la modalità offline e l'app Android. Marqly non ha nulla di tutto questo."
+    a: "Soprattutto la scansione documenti, le note lunghe e la modalità offline. Marqly non ha nulla di tutto questo."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
@@ -76,13 +76,13 @@ Sii sincero: se non lo apri, migrare tutto è lavoro sprecato. Esporta per sicur
 | Salvare tutte le schede | No | No | Sì | Sì |
 | Salvare come PDF | Sì | No | No | Sì (Chrome/Edge) |
 | Offline | **Sì** | **Sì** | No | No |
-| App Android | **Sì** | **Sì** | **Sì** | No |
+| App Android | **Sì** | **Sì** | **Sì** | Sì |
 | Prezzo | 99–249,99 $/anno | 10 $/membro/mese | **28 $/anno** | 72 $/anno |
 | Piano gratuito | Limitato | Sì | Sì | Sì, senza carta |
 
 ## Cosa perdi uscendo
 
-Senza abbellire, perché conviene decidere a occhi aperti. Passando da Evernote a Marqly perdi: **note lunghe, scansione documenti, modalità offline e app Android**. Se una di queste quattro è indispensabile nella tua giornata, Marqly non è la tua alternativa — ed è meglio saperlo adesso.
+Senza abbellire, perché conviene decidere a occhi aperti. Passando da Evernote a Marqly perdi: **note lunghe, scansione documenti e modalità offline**. Se una di queste tre è indispensabile nella tua giornata, Marqly non è la tua alternativa — ed è meglio saperlo adesso.
 
 Il dettaglio completo è in [Marqly vs Evernote](/it/confronto/marqly-vs-evernote).
 

@@ -19,7 +19,7 @@ faqs:
   - q: "¿Puedo reutilizar los materiales del curso pasado?"
     a: "Ese es justo el caso. Todo lo que guardaste sigue buscable por significado, así que recuperas la lectura del año pasado describiéndola aunque no recuerdes el título."
   - q: "¿Hay funciones de equipo para el departamento?"
-    a: "No hay funciones de equipo ni edición colaborativa. Lo que sí puedes hacer es compartir tableros públicos con compañeros."
+    a: "Con el plan personal compartes los tableros como páginas públicas en modo lectura para tus compañeros. Para editar juntos en un espacio compartido existe Marqly Teams."
   - q: "¿Funciona en el ordenador del aula?"
     a: "La extensión funciona en Chrome, Edge, Firefox y Safari, y siempre puedes entrar a la app web desde cualquier navegador sin instalar nada."
   - q: "¿Cuánto cuesta?"
@@ -93,7 +93,7 @@ Un esquema útil para docencia:
 
 ## Lo que no encontrarás
 
-Para que no haya sorpresas: **no hay funciones de equipo ni edición colaborativa**, no hay modo sin conexión y no hay app de Android. Marqly es una biblioteca personal que puedes compartir en modo lectura, no una plataforma docente.
+Para que no haya sorpresas: en el plan personal la compartición es **en modo lectura** (para editar en equipo existe Marqly Teams) y no hay modo sin conexión. Marqly es una biblioteca personal que puedes compartir en modo lectura, no una plataforma docente.
 
 ## Empezar
 

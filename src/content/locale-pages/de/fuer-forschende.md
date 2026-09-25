@@ -19,7 +19,7 @@ faqs:
   - q: "Speichert es PDFs?"
     a: "In Chrome und Edge kannst du eine Seite als PDF im echten Layout archivieren, inklusive nachgeladener Bilder. In Firefox und Safari läuft es über den Drucken-als-PDF-Weg des Browsers."
   - q: "Taugt es für Zusammenarbeit?"
-    a: "Du kannst ein Board als öffentliche Seite teilen, die jede Person ohne Anmeldung öffnet. Es gibt keine Teamfunktionen und keine gemeinsame Bearbeitung."
+    a: "Du kannst ein Board als öffentliche Seite teilen, die jede Person ohne Anmeldung öffnet – lesend. Für gemeinsame Bearbeitung im Team gibt es Marqly Teams."
   - q: "Und aufgezeichnete Vorträge?"
     a: "Beim Speichern eines YouTube-Videos wird das Transkript angehängt und durchsuchbar. Danach kannst du nach einem Satz suchen, der gesagt wurde, nicht nur nach dem Titel."
   - q: "Was kostet es?"
@@ -81,8 +81,7 @@ Damit es keine Überraschung gibt:
 
 - **Keine Zitations- oder Literaturverwaltung im Format.** Dafür gibt es Zotero und Mendeley, und Marqly ersetzt sie nicht.
 - **Kein Offline-Modus.**
-- **Keine Android-App** (iPhone, iPad und Web-App gibt es).
-- **Keine Teamfunktionen** über das öffentliche Board hinaus.
+- **Keine gemeinsame Bearbeitung im persönlichen Plan** – über das öffentliche Board (nur lesbar) hinaus bietet Marqly Teams den geteilten Arbeitsbereich.
 
 Marqly deckt die Phase vor dem Literaturverzeichnis ab: das Material, das du prüfst, nicht das, was du schon zitieren willst. Viele nutzen beides — Marqly zum Erkunden, ein Referenzmanager zum Publizieren.
 

@@ -19,7 +19,7 @@ faqs:
   - q: "Consigo reabrir só uma aba da sessão?"
     a: "Consegue. A sessão pode ser reaberta inteira ou você abre só o item que interessa. Cada aba salva também aparece na busca normal da biblioteca, com resumo de IA."
   - q: "Isso funciona em quais navegadores?"
-    a: "A extensão existe para Chrome, Edge, Firefox e Safari. O que você salva sincroniza com o app web e com o aplicativo de iPhone e iPad. Não existe aplicativo para Android."
+    a: "A extensão existe para Chrome, Edge, Firefox e Safari. O que você salva sincroniza com o app web e com os aplicativos de iPhone, iPad e Android."
   - q: "Salvar as abas consome memória do computador?"
     a: "O ganho é o contrário: como as páginas salvas ficam na sua conta, você pode fechar as abas e liberar a memória que elas ocupavam, sabendo que consegue voltar a qualquer uma delas depois."
   - q: "É grátis?"

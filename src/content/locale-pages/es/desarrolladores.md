@@ -85,7 +85,6 @@ Sin rodeos, porque este público lo pregunta primero:
 - **No hay API pública.**
 - **No es autoalojable.**
 - **No hay modo sin conexión.**
-- **No hay app de Android** (sí iPhone, iPad y app web).
 
 Si tu requisito es poseer los datos en local, la comparación honesta está en [Marqly vs Obsidian](/es/comparar/marqly-vs-obsidian), cuyo clipper guarda Markdown en tu disco y es gratis.
 

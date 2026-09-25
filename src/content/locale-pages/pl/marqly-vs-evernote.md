@@ -17,7 +17,7 @@ faqs:
   - q: "Jak wygląda różnica w cenie?"
     a: "Evernote kosztuje od ok. 99 USD do ponad 200 USD rocznie. Marqly Pro kosztuje 72 USD rocznie (z kuponem STANDING49 tylko 49 USD w pierwszym roku) i ma darmowy plan do 100 zakładek."
   - q: "Co tracę, rezygnując z Evernote?"
-    a: "Przede wszystkim skanowanie dokumentów z OCR, pisanie długich notatek i aplikację na Androida."
+    a: "Przede wszystkim skanowanie dokumentów z OCR oraz pisanie długich notatek."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"

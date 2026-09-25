@@ -19,7 +19,7 @@ faqs:
   - q: "EvernoteにAI機能はありますか？"
     a: "はい、EvernoteにもAI検索や要約機能が追加されています。差はAIの有無ではなく、ツールの守備範囲と価格です。"
   - q: "Evernoteから乗り換える際に失うものは？"
-    a: "紙文書のスキャンOCR、長文リッチテキスト執筆、Androidアプリ、オフラインモードなどです。これらが必須ならEvernoteを維持すべきです。"
+    a: "紙文書のスキャンOCR、長文リッチテキスト執筆、オフラインモードなどです。これらが必須ならEvernoteを維持すべきです。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqlyを無料で試す"
 ctaSecondaryLabel: "Chromeに追加 — 無料"

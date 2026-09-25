@@ -21,7 +21,7 @@ faqs:
   - q: "Est-ce adapté à du matériel sensible ?"
     a: "Marqly est un service cloud, non auto-hébergeable et sans API publique. Pour du matériel exigeant une garde stricte, il vaut mieux en discuter avec votre rédaction au préalable."
   - q: "Puis-je partager la documentation d'un sujet ?"
-    a: "Oui, en publiant un tableau en page publique ouverte par lien. Il n'y a ni fonctions d'équipe ni édition collaborative."
+    a: "Oui, en publiant un tableau en page publique ouverte par lien, en lecture seule. Pour que la rédaction édite ensemble, il y a Marqly Teams."
   - q: "Combien cela coûte-t-il ?"
     a: "Offre gratuite sans carte. Pro coûte 9 $ (environ 8 €) par mois ou 72 $ (environ 69 €) par an."
 ctaUrl: "https://app.marqly.com"
@@ -80,14 +80,14 @@ Beaucoup de déclarations n'existent qu'en vidéo. Marqly affiche sur la page Yo
 
 Chaque sujet a son tableau avec toute la documentation. À la remise, vous pouvez le publier en page publique pour transmettre les éléments à un rédacteur en chef ou à la vérification, sans joindre trente liens.
 
-C'est un partage en lecture : **ni édition collaborative ni fonctions d'équipe**.
+C'est un partage en lecture : **le lien personnel est en lecture seule ; l'écriture à plusieurs mains, c'est Marqly Teams**.
 
 ## Ce qu'il faut évaluer avant
 
 En toute transparence, parce que cela compte dans ce métier :
 
 - Marqly est un **service cloud**. Non auto-hébergeable, sans API publique.
-- **Pas de mode hors ligne**, pas d'application Android.
+- **Pas de mode hors ligne.**
 - Pour du matériel sensible ou des sources nécessitant une protection, cette décision devrait relever des critères de votre rédaction, pas d'une page produit.
 
 Pour un travail exigeant des fichiers sur votre disque, l'alternative honnête est dans [Marqly vs Obsidian](/fr/comparer/marqly-vs-obsidian).

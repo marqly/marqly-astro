@@ -65,7 +65,7 @@ Se stai ancora decidendo dove trasferirti, il confronto sulle [alternative a Poc
 
 Raindrop esporta in HTML e CSV, anche dal piano gratuito. Vai nelle impostazioni del tuo account, scegli l'esportazione, scarica il file e caricalo in Marqly con l'importazione dedicata: le collezioni servono a ricostruire l'organizzazione che avevi.
 
-Se stai valutando i due strumenti prima di spostarti, il [confronto tra Marqly e Raindrop](/it/confronto/marqly-vs-raindrop) è onesto anche sui punti in cui Raindrop resta più forte — piano gratuito, prezzo, app Android e API.
+Se stai valutando i due strumenti prima di spostarti, il [confronto tra Marqly e Raindrop](/it/confronto/marqly-vs-raindrop) è onesto anche sui punti in cui Raindrop resta più forte — piano gratuito, prezzo e API.
 
 ## 4. Preferiti di X (Twitter)
 

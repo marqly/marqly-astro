@@ -79,7 +79,7 @@ Risolve anche il classico della ricetta sepolta sotto duemila parole di introduz
 
 Una bacheca può chiamarsi «cene veloci», «quando arrivano ospiti» o «spesa di questa settimana». E poiché si pubblica come pagina pubblica, puoi passare la lista con un link a chi cucina con te — senza installare nulla né registrarsi.
 
-Sul telefono la apri dall'app iPhone o dal browser. **Non esiste un'app Android**, anche se l'app web funziona nel suo browser.
+Sul telefono la apri dall'app iPhone, da quella Android o dal browser.
 
 ## Iniziare
 

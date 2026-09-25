@@ -17,7 +17,7 @@ faqs:
   - q: "Hoe groot is het prijsverschil?"
     a: "Evernote kost al snel €99 tot meer dan €200 per jaar. Marqly Pro kost $72 per jaar (met coupon STANDING49 slechts $49 in het eerste jaar) en heeft een gratis versie tot 100 saves."
   - q: "Wat mis je als je Evernote verlaat?"
-    a: "Vooral OCR van gescande documenten, offline synchronisatie en de Android-app. Als dit onmisbaar is, blijf dan bij Evernote."
+    a: "Vooral OCR van gescande documenten en offline synchronisatie. Als dit onmisbaar is, blijf dan bij Evernote."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

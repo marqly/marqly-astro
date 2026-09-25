@@ -86,7 +86,7 @@ Ein 45-Minuten-Video ist der Artikel, den du am ehesten aufschiebst. Marqly blen
 
 Seit dem Ende von Pocket suchen viele Ersatz. Marqly importiert aus **Pocket**, aus **Raindrop** und aus jeder **Lesezeichen-HTML-Datei**; einen Überblick über das Feld gibt der Beitrag zu den [Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2026), einen direkten Vergleich [Marqly vs. Raindrop](/de/vergleich/marqly-vs-raindrop).
 
-Zwei Dinge vorweg, damit du nicht enttäuscht wirst: Es gibt **keinen Offline-Modus** – im Zug ohne Empfang ist Marqly das falsche Werkzeug – und **keine Android-App**. Was an Daten entsteht und wie du sie exportierst, steht in den [Datenschutz-Fragen](/de/datenschutz-fragen).
+Eines vorweg, damit du nicht enttäuscht wirst: Es gibt **keinen Offline-Modus** – im Zug ohne Empfang ist Marqly das falsche Werkzeug. Was an Daten entsteht und wie du sie exportierst, steht in den [Datenschutz-Fragen](/de/datenschutz-fragen).
 
 Die kostenlose Stufe verlangt keine Kreditkarte. Pro kostet **72 $/Jahr (rund 66 €)** oder **9 $/Monat (rund 8 €)**, für Studierende **48 $ (rund 44 €) im ersten Jahr**.
 

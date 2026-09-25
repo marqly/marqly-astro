@@ -85,7 +85,6 @@ Ohne Umschweife, weil dieses Publikum zuerst danach fragt:
 - **Keine öffentliche API.**
 - **Nicht selbst hostbar.**
 - **Kein Offline-Modus.**
-- **Keine Android-App** (iPhone, iPad und Web-App gibt es).
 
 Wenn deine Anforderung lokale Datenhoheit ist, steht der ehrliche Vergleich in [Marqly vs Obsidian](/de/vergleich/marqly-vs-obsidian), dessen Clipper Markdown auf deiner Festplatte speichert und kostenlos ist.
 

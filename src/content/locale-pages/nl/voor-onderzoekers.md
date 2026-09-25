@@ -19,7 +19,7 @@ faqs:
   - q: "Kan ik academische video's en lezingen opslaan?"
     a: "Zeker. Bij het opslaan van een YouTube-lezing wordt automatisch het volledige transcript gekoppeld, zodat je later kunt zoeken op wat een spreker daadwerkelijk heeft gezegd."
   - q: "Is Marqly geschikt voor gezamenlijk teamonderzoek?"
-    a: "Je kunt borden delen als een openbare webpagina zonder dat anderen hoeven in te loggen. Er is echter geen realtime gelijktijdige samenwerking in dezelfde werkruimte."
+    a: "Je kunt borden delen als een openbare webpagina zonder dat anderen hoeven in te loggen; die is alleen leesbaar. Voor samen bewerken in teamverband is er Marqly Teams."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

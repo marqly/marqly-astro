@@ -70,7 +70,7 @@ Marqly parte da un'idea diversa: il collo di bottiglia non è leggere, è **ritr
 - **Salvare tutte le schede**, sessioni riapribili e **bacheche pubbliche** senza registrazione.
 - **Salvare come PDF** (Chrome ed Edge).
 
-E ciò che Marqly non ha, detto chiaro: **niente lettura offline, niente app Android, niente integrazione Kindle**.
+E ciò che Marqly non ha, detto chiaro: **niente lettura offline, niente integrazione Kindle**.
 
 ## Confronto diretto
 
@@ -79,7 +79,7 @@ E ciò che Marqly non ha, detto chiaro: **niente lettura offline, niente app And
 | Esperienza di lettura | **Eccellente** | Buona |
 | Lettura offline | **Sì** | No |
 | Kindle | **Sì** | No |
-| App Android | **Sì** | No |
+| App Android | **Sì** | Sì |
 | Tag automatici con IA | No | Sì |
 | Ricerca semantica | No | Sì |
 | Riassunti con IA | No | Sì |

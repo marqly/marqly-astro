@@ -21,7 +21,7 @@ faqs:
   - q: "Et les vidéos longues que j'utilise en référence ?"
     a: "Sur YouTube, vous avez résumé, transcription synchronisée et chat sur la vidéo. À l'enregistrement, la transcription est jointe et vous pouvez chercher ce qui y a été dit."
   - q: "Cela fonctionne-t-il sur mobile ?"
-    a: "Il existe une application iPhone et iPad, et l'application web fonctionne dans n'importe quel navigateur, y compris sous Android. Il n'existe pas d'application Android native."
+    a: "Il existe des applications iPhone, iPad et Android, et l'application web fonctionne dans n'importe quel navigateur."
   - q: "Combien cela coûte-t-il ?"
     a: "Offre gratuite sans carte. Pro coûte 9 $ (environ 8 €) par mois ou 72 $ (environ 69 €) par an."
 ctaUrl: "https://app.marqly.com"

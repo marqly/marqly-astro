@@ -79,7 +79,7 @@ También resuelve el clásico de la receta enterrada bajo dos mil palabras de in
 
 Un tablero puede ser "cenas rápidas", "para cuando vienen invitados" o "compra de esta semana". Y como se publica como página pública, puedes pasarle la lista a quien cocine contigo con un enlace, sin que instale nada ni se registre.
 
-En el móvil lo abres desde la app de iPhone o desde el navegador. **No hay app de Android**, aunque la app web funciona en su navegador.
+En el móvil lo abres desde la app de iPhone, la de Android o el navegador.
 
 ## Empezar
 

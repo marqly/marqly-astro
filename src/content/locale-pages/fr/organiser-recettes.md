@@ -79,7 +79,7 @@ Cela règle aussi le classique de la recette enterrée sous deux mille mots d'in
 
 Un tableau peut s'appeler « dîners rapides », « quand on reçoit » ou « courses de la semaine ». Et comme il se publie en page publique, vous pouvez transmettre la liste par lien à qui cuisine avec vous — sans installation ni inscription.
 
-Sur le téléphone, vous l'ouvrez via l'application iPhone ou le navigateur. **Il n'existe pas d'application Android**, mais l'application web fonctionne dans son navigateur.
+Sur le téléphone, vous l'ouvrez via l'application iPhone ou Android, ou par le navigateur.
 
 ## Commencer
 

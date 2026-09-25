@@ -17,7 +17,7 @@ faqs:
   - q: "Les favoris enregistrés sur ordinateur s'affichent-ils sur iPhone ?"
     a: "Oui, automatiquement. Tout lien sauvé sur Chrome, Edge, Firefox ou Safari apparaît dans l'application iOS avec ses résumés."
   - q: "Existe-t-il une version Android ?"
-    a: "L'application native est aujourd'hui réservée à iOS. Sur Android, la plateforme web à l'adresse app.marqly.com offre un accès complet à votre collection."
+    a: "Oui. L'application Android est sur Google Play : https://play.google.com/store/apps/details?id=com.marqly.android. C'est le même compte que pour l'application iOS."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"

@@ -82,7 +82,7 @@ La liste peut grossir indéfiniment sans devenir un problème, car ce n'est plus
 
 ## Ce qu'il ne fait pas
 
-Marqly **ne télécharge pas les vidéos** et ne permet pas de les regarder hors ligne. Il n'y a pas non plus d'application Android, même si l'application web fonctionne dans son navigateur. Ce qui est enregistré, c'est la vidéo, son résumé et sa transcription — pas le fichier.
+Marqly **ne télécharge pas les vidéos** et ne permet pas de les regarder hors ligne. Ce qui est enregistré, c'est la vidéo, son résumé et sa transcription — pas le fichier.
 
 ## Commencer
 

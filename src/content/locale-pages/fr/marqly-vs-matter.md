@@ -15,7 +15,7 @@ faqs:
   - q: "Qu'est-ce qui distingue Matter ?"
     a: "L'audio. Il transforme articles et newsletters en quelque chose que vous écoutez en conduisant ou en vous entraînant, avec de très bonnes voix, et son application iOS est parmi les plus soignées de la catégorie."
   - q: "Matter existe-t-il sur Android ?"
-    a: "Non. Matter est sur web, iOS, macOS et Chrome. Marqly n'a pas non plus d'application Android : sur ce point, les deux sont à égalité — aucun ne convient si vous voulez une application Android native."
+    a: "Non. Matter est sur web, iOS, macOS et Chrome. Marqly a désormais une application Android : si c'est votre téléphone, un seul des deux vous donne une app native."
   - q: "Combien coûte chacun ?"
     a: "Matter Premium coûte 8 $ par mois ou 60 $ (environ 57 €) par an sur le web, et 7,99 $ par mois ou 79,99 $ (environ 76 €) par an via l'App Store. Marqly Pro coûte 9 $ par mois ou 72 $ (environ 69 €) par an, avec offre gratuite sans carte."
   - q: "Matter a-t-il une recherche IA ?"
@@ -63,7 +63,7 @@ Si vous vivez sur iPhone et Mac et que votre goulot d'étranglement est le temps
 - **Enregistrer en PDF** dans Chrome et Edge.
 - **Chrome, Edge, Firefox et Safari**, plus application web et iOS.
 
-Ce qui manque : **audio, lecture hors ligne et application Android**.
+Ce qui manque : **audio et lecture hors ligne**.
 
 ## Comparatif direct
 

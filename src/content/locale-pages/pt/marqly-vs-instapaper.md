@@ -70,7 +70,7 @@ O Marqly parte de outra ideia: o gargalo não é ler, é **reencontrar**.
 - **Salvar todas as abas**, sessões reabríveis e **quadros públicos** que abrem sem cadastro.
 - **Salvar como PDF** (Chrome e Edge).
 
-E o que o Marqly não tem, dito com clareza: **sem leitura offline, sem app de Android e sem integração com Kindle**.
+E o que o Marqly não tem, dito com clareza: **sem leitura offline e sem integração com Kindle**.
 
 ## Comparação direta
 

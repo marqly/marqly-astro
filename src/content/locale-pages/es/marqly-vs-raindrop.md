@@ -19,7 +19,7 @@ faqs:
   - q: "¿Raindrop tiene búsqueda semántica?"
     a: "No. Raindrop busca por palabras clave, y la búsqueda de texto completo dentro de las páginas guardadas está en el plan Pro. Marqly busca por significado: describes de qué trataba la página y aparece, aunque no uses ninguna palabra de su título."
   - q: "¿Marqly tiene app de Android o API?"
-    a: "No. Marqly tiene extensión para Chrome, Edge, Firefox y Safari, app web y app de iPhone, pero no hay app de Android ni API pública. Raindrop sí tiene ambas, y es una razón legítima para quedarse con Raindrop."
+    a: "Lo primero, sí; lo segundo, no. Marqly tiene app de Android, además de extensión para Chrome, Edge, Firefox y Safari, app web y app de iPhone. Lo que no tiene es API pública: si eso te hace falta, Raindrop sigue siendo una razón legítima para quedarse con él."
   - q: "¿Puedo pasar mis datos de Raindrop a Marqly?"
     a: "Sí. Marqly tiene importación directa desde Raindrop, y Raindrop permite exportar tu biblioteca en HTML o CSV incluso desde el plan gratis. No hay bloqueo de salida en ninguno de los dos."
   - q: "¿Se pueden usar los dos a la vez?"
@@ -54,7 +54,7 @@ Resumen corto: **Raindrop.io** es el mejor archivador de enlaces del mercado —
 | Captura de chats de IA | Sí (Chrome, Edge, Firefox) | No |
 | Extensiones | Chrome, Edge, Firefox, Safari | Chrome, Edge, Firefox, Safari |
 | App iOS | Sí | Sí |
-| App Android | **No** | Sí |
+| App Android | **Sí** | Sí |
 | App de escritorio | No | Sí (macOS) |
 | API pública | **No** | Sí |
 | Lectura sin conexión | No | No |
@@ -68,7 +68,7 @@ Vale la pena decirlo sin rodeos, porque son ventajas reales:
 
 - **El plan gratis.** Marcadores, colecciones y resaltados ilimitados sin pagar. En esta categoría eso es raro y es el argumento más fuerte de Raindrop.
 - **El precio.** Unos 28 USD al año contra 72 de Marqly Pro. Si el presupuesto manda, no hay discusión.
-- **Cobertura de plataformas.** Raindrop tiene **Android** y app de escritorio para Mac; Marqly no. Si tu celular es Android, esto solo ya decide la comparación.
+- **Cobertura de plataformas.** Raindrop tiene **Android** y app de escritorio para Mac. Marqly ya tiene también su app de Android; lo que le sigue faltando son las apps de escritorio.
 - **API e integraciones.** Raindrop tiene API pública y se conecta con miles de servicios vía Zapier o IFTTT. Marqly no tiene API pública.
 - **Madurez y orden visual.** Se desarrolla desde 2013: colecciones anidadas, portadas y varios modos de vista, con una solidez que ninguna app nueva iguala de entrada.
 
@@ -91,7 +91,6 @@ No es "cuál tiene más funciones". Es **en qué momento se rompe tu sistema**.
 
 ## Casos en los que Raindrop es la respuesta correcta
 
-- Usas **Android** como celular principal.
 - Necesitas **API** o automatizaciones con otras herramientas.
 - Quieres pagar poco o nada y tu volumen de guardados es alto.
 - Te importa la organización visual y disfrutas curar colecciones.

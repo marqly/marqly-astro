@@ -19,7 +19,7 @@ faqs:
   - q: "Comment éviter que ma pile de lecture ne devienne un cimetière ?"
     a: "En triant sur le résumé plutôt que sur le titre. Chaque page sauvegardée est résumée automatiquement, ce qui permet de décider en quelques secondes si vous la lisez, la gardez pour référence ou la supprimez."
   - q: "Puis-je lire sur mon téléphone ?"
-    a: "Il existe une application iOS pour iPhone et iPad, ainsi qu'une application web accessible depuis n'importe quel navigateur. Il n'y a pas d'application Android pour le moment."
+    a: "Il existe des applications pour iPhone, iPad et Android, ainsi qu'une application web accessible depuis n'importe quel navigateur."
   - q: "Puis-je importer ma liste Pocket ?"
     a: "Oui. Marqly importe depuis Pocket, depuis Raindrop et depuis les fichiers HTML de favoris exportés par n'importe quel navigateur. Vos favoris X (Twitter) peuvent également être récupérés."
   - q: "Et pour les vidéos que je garde pour plus tard ?"
@@ -79,7 +79,7 @@ Essayez sans rien installer avec le [résumeur YouTube](/fr/outils/resume-youtub
 
 ## Ce que Marqly ne remplace pas
 
-Autant être franc&nbsp;: **il n'y a pas de mode hors ligne**. Si votre besoin principal est de lire dans le métro ou en avion sans réseau, une application de lecture différée dédiée sera meilleure sur ce point. Il n'y a pas non plus d'application Android, ni de fonctions d'équipe.
+Autant être franc&nbsp;: **il n'y a pas de mode hors ligne**. Si votre besoin principal est de lire dans le métro ou en avion sans réseau, une application de lecture différée dédiée sera meilleure sur ce point.
 
 Marqly vise l'autre moitié du problème&nbsp;: la mémoire de ce que vous avez mis de côté. Le [comparatif Marqly vs Raindrop](/fr/comparer/marqly-vs-raindrop) applique la même franchise à un concurrent direct.
 

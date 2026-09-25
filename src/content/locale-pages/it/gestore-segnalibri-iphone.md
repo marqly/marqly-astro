@@ -17,7 +17,7 @@ faqs:
   - q: "I link salvati sul computer appaiono sull'iPhone?"
     a: "Sì, in tempo reale. Qualsiasi contenuto salvato da Chrome, Edge, Firefox, Safari o web si ritrova nell'app iPhone con relativi tag e note."
   - q: "C'è un'applicazione per Android?"
-    a: "Al momento l'app nativa è sviluppata per iOS. Su dispositivi Android è possibile utilizzare la web app su app.marqly.com da qualsiasi browser."
+    a: "Sì. L'app Android è su Google Play: https://play.google.com/store/apps/details?id=com.marqly.android. È lo stesso account dell'app iOS."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"

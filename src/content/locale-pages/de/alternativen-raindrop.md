@@ -68,13 +68,13 @@ Wenn du viele Videos oder lange Artikel speicherst und ohne Öffnen sichten will
 | Als PDF sichern | Nein | Ja (Chrome/Edge) | Nein |
 | Öffentliches Board | Ja | Ja | Nein |
 | Offline | Nein | Nein | **Ja** |
-| Android-App | **Ja** | Nein | **Ja** |
+| Android-App | **Ja** | Ja | **Ja** |
 | Preis | **28 $/Jahr** | 72 $/Jahr | Kostenlos |
 | Kostenlose Stufe | Ja | Ja, ohne Karte | Ja |
 
 ## Wann du *nicht* wechseln solltest
 
-Sei ehrlich zu dir: Wenn du gern ordnest und dein Sammlungssystem funktioniert, ist Bleiben die richtige Entscheidung. Raindrop ist günstiger, hat eine Android-App und seine Gratis-Stufe reicht vielen. Ein Werkzeugwechsel repariert kein System, das bereits funktioniert.
+Sei ehrlich zu dir: Wenn du gern ordnest und dein Sammlungssystem funktioniert, ist Bleiben die richtige Entscheidung. Raindrop ist günstiger, hat eine öffentliche API und seine Gratis-Stufe reicht vielen. Ein Werkzeugwechsel repariert kein System, das bereits funktioniert.
 
 Wechsle nur, wenn du dich in Grund 1 oder 2 wiedererkennst: der wachsende „Unsortiert"-Stapel oder das Gefühl, etwas gespeichert zu haben und es nicht zu finden.
 

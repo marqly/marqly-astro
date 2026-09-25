@@ -69,7 +69,7 @@ Instapaper hat keine KI: keine Zusammenfassungen, kein automatisches Tagging, ke
 | Alle Tabs speichern | Nein | Nein | Nein | Ja |
 | Als PDF sichern | Nein | Nein | Nein | Ja (Chrome/Edge) |
 | Öffentliches Board | Nein | Nein | Nein | Ja |
-| Android-App | Ja | Nein | Ja | Nein |
+| Android-App | Ja | Nein | Ja | Ja |
 | Kostenlose Stufe | Ja | Ja | **Nein** | Ja, ohne Karte |
 | Preis | 59,99 $/Jahr | 60 $/Jahr | 119,88 $/Jahr | 72 $/Jahr |
 

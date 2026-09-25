@@ -82,7 +82,7 @@ La lista può crescere all'infinito senza diventare un problema, perché non è 
 
 ## Cosa non fa
 
-Marqly **non scarica i video** e non permette di guardarli offline. Non c'è nemmeno un'app Android, anche se l'app web funziona nel suo browser. Ciò che viene salvato è il video, il riassunto e la trascrizione — non il file.
+Marqly **non scarica i video** e non permette di guardarli offline. Ciò che viene salvato è il video, il riassunto e la trascrizione — non il file.
 
 ## Iniziare
 

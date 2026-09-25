@@ -21,7 +21,7 @@ faqs:
   - q: "¿Puedo resaltar los PDF y lecturas del curso?"
     a: "Puedes resaltar en páginas web con 6 colores y agregar notas, y esos resaltados persisten cuando vuelves a abrir la página. En Chrome y Edge también puedes archivar una página como PDF."
   - q: "¿Funciona en el celular?"
-    a: "Hay app para iPhone y iPad, más la app web que puedes abrir desde cualquier navegador. Por ahora no existe app para Android."
+    a: "Hay app para iPhone, iPad y Android, más la app web que puedes abrir desde cualquier navegador."
   - q: "¿Marqly escribe mis trabajos por mí?"
     a: "No, y esa no es la idea. Marqly organiza y resume lo que tú guardas, y te deja preguntarle a tu propia biblioteca para encontrar la fuente correcta más rápido."
 ctaUrl: "https://app.marqly.com"

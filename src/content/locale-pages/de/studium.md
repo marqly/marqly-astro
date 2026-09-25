@@ -21,9 +21,9 @@ faqs:
   - q: "Bleiben meine Markierungen in PDF-Quellen und auf Webseiten erhalten?"
     a: "Auf Webseiten ja: Markierungen in sechs Farben und deine Notizen dazu sind beim nächsten Besuch der Seite wieder da. In Chrome und Edge kannst du eine Seite zusätzlich als PDF sichern, damit die Quelle nicht verschwindet."
   - q: "Funktioniert das auf dem Handy in der Bibliothek?"
-    a: "Es gibt eine iOS-App und die Web-App im Browser. Eine Android-App gibt es nicht – dort nutzt du die Web-App."
+    a: "Es gibt eine iOS-App, eine Android-App und die Web-App im Browser."
   - q: "Kann ich mit Kommilitonen zusammenarbeiten?"
-    a: "Nur eingeschränkt: Du kannst ein Board als öffentliche Seite teilen, etwa eine Literaturliste für die Lerngruppe. Echte Team-Funktionen mit gemeinsamem Bearbeiten gibt es nicht."
+    a: "Dafür gibt es zwei Stufen: Du kannst ein Board als öffentliche Seite teilen, etwa eine Literaturliste für die Lerngruppe – die ist nur lesbar. Wer gemeinsam in einem geteilten Arbeitsbereich bearbeiten will, nutzt Marqly Teams."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
@@ -72,6 +72,6 @@ Details dazu: [YouTube-Zusammenfassung](/de/tools/youtube-zusammenfassung) und [
 
 Die kostenlose Stufe verlangt keine Kreditkarte – zum Ausprobieren über eine Hausarbeit hinweg reicht das. Pro kostet regulär **72 $/Jahr (rund 66 €)** oder **9 $/Monat (rund 8 €)**. **Verifizierte Studierende zahlen im ersten Jahr 48 $ (rund 44 €)** und bekommen darüber den Chat mit den eigenen Speicherungen.
 
-Fair vorab: keine Android-App, kein Offline-Modus, keine Team-Funktionen. Was an Daten entsteht und wie du alles wieder herausbekommst, steht in den [Datenschutz-Fragen](/de/datenschutz-fragen); wie sich Marqly gegen einen klassischen Sammler schlägt, im Vergleich [Marqly vs. Raindrop](/de/vergleich/marqly-vs-raindrop).
+Fair vorab: kein Offline-Modus, und Teilen ist im persönlichen Plan nur lesbar – für die gemeinsame Bearbeitung gibt es Marqly Teams. Was an Daten entsteht und wie du alles wieder herausbekommst, steht in den [Datenschutz-Fragen](/de/datenschutz-fragen); wie sich Marqly gegen einen klassischen Sammler schlägt, im Vergleich [Marqly vs. Raindrop](/de/vergleich/marqly-vs-raindrop).
 
 Fang mit der nächsten Seminararbeit an: Quellen rein, markieren, in Woche sieben einfach beschreiben, was du suchst. [Marqly kostenlos testen](https://app.marqly.com).

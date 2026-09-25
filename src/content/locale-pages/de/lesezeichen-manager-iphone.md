@@ -17,7 +17,7 @@ faqs:
   - q: "Tauchen am PC gespeicherte Lesezeichen auf dem iPhone auf?"
     a: "Ja, vollautomatisch. Jeder Link aus Chrome, Edge, Firefox oder Safari synchronisiert sich direkt mit der iOS-App inklusive KI-Tags."
   - q: "Gibt es eine Android-App?"
-    a: "Aktuell ist die native Mobile-App exklusiv für iOS verfügbar. Android-Nutzer können die vollwertige Web-App unter app.marqly.com nutzen."
+    a: "Ja. Die Android-App ist bei Google Play: https://play.google.com/store/apps/details?id=com.marqly.android. Dieselbe Kontoanmeldung wie bei der iOS-App."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — gratis"

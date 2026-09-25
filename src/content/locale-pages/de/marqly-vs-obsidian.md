@@ -66,7 +66,7 @@ Marqly nimmt das Gegenteil an: dass **du nichts pflegen wirst**.
 - **Alle Tabs auf einmal speichern** und wiederherstellbare Sitzungen.
 - **Öffentliche Boards** ohne Anmeldung.
 
-Und was es nicht gibt: **keine lokalen Dateien, kein Markdown, kein Offline-Modus, keine Android-App**. Es ist ein Dienst, mit allem Guten und Schlechten daran.
+Und was es nicht gibt: **keine lokalen Dateien, kein Markdown, kein Offline-Modus**. Es ist ein Dienst, mit allem Guten und Schlechten daran.
 
 ## Direkter Vergleich
 
@@ -74,7 +74,7 @@ Und was es nicht gibt: **keine lokalen Dateien, kein Markdown, kein Offline-Modu
 | --- | --- | --- |
 | Lokale Daten (Markdown) | **Ja** | Nein |
 | Offline | **Ja** | Nein |
-| Android-App | **Ja** | Nein |
+| Android-App | **Ja** | Ja |
 | Linux | **Ja** | Browser |
 | Preis | **Kostenlos** | Gratis · Pro 72 $/Jahr |
 | Automatisches KI-Tagging | Nein | Ja |

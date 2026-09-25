@@ -23,7 +23,7 @@ faqs:
   - q: "¿Puedo pasar mis marcadores a Marqly?"
     a: "Sí. Marqly importa exportaciones de Pocket, colecciones de Raindrop.io y archivos HTML de marcadores de Chrome, Firefox, Edge y Safari."
   - q: "¿Evernote funciona sin conexión?"
-    a: "Sí, Evernote tiene acceso sin conexión y app de Android. Marqly no tiene ninguna de las dos cosas."
+    a: "Sí, Evernote tiene acceso sin conexión y app de Android. Marqly tiene la app de Android, el acceso sin conexión no."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
@@ -67,7 +67,7 @@ Marqly no intenta ser tu sistema de notas. Hace una cosa:
 - **Guardar como PDF** en Chrome y Edge.
 - **Historial de portapapeles** en Chrome y Edge, con sincronización en Pro.
 
-Lo que no tiene: **sin conexión, app de Android, notas largas, escaneo de documentos**.
+Lo que no tiene: **sin conexión, notas largas, escaneo de documentos**.
 
 ## Comparación directa
 

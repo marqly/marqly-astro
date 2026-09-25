@@ -83,7 +83,7 @@ Wenn dein Posteingang vor allem aus offenen Tabs entsteht, schau dir [Tabs speic
 | KI für YouTube | Nein | Ja | Nein | Ja |
 | Markierungen mit Notizen | Ja | Ja | Ja | Ja, 6 Farben |
 | Öffentliches Board | Nein | Nein | Ja | Ja |
-| Android-App | Ja | Nein | Ja | Nein |
+| Android-App | Ja | Nein | Ja | Ja |
 | Kostenlose Stufe | Ja | Ja | Ja | Ja, ohne Karte |
 | Importiert Pocket-Export | Ja | Ja | Ja | Ja |
 

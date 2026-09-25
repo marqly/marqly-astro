@@ -17,7 +17,7 @@ faqs:
   - q: "Welk alternatief vervangt Evernote's notitiefuncties volledig?"
     a: "Notion of Obsidian. Marqly is ontworpen voor het bewaren en terugvinden van webpagina's en video's, niet voor het typen van lange notities."
   - q: "Wat raak je kwijt bij het verlaten van Evernote?"
-    a: "Met name het scannen van fysieke documenten, OCR op afbeeldingen en de Android-app."
+    a: "Met name het scannen van fysieke documenten en OCR op afbeeldingen."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"

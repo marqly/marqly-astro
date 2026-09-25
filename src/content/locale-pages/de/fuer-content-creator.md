@@ -21,7 +21,7 @@ faqs:
   - q: "Und lange Videos als Referenz?"
     a: "Auf YouTube bekommst du Zusammenfassung, synchronisiertes Transkript und Chat zum Video. Beim Speichern wird das Transkript angehängt, und du kannst nach Gesagtem suchen."
   - q: "Funktioniert es mobil?"
-    a: "Es gibt eine App für iPhone und iPad, und die Web-App läuft in jedem Browser, auch unter Android. Eine native Android-App existiert nicht."
+    a: "Es gibt Apps für iPhone, iPad und Android, und die Web-App läuft in jedem Browser."
   - q: "Was kostet es?"
     a: "Kostenlose Stufe ohne Karte. Pro kostet 9 $ (rund 8 €) im Monat oder 72 $ (rund 66 €) im Jahr."
 ctaUrl: "https://app.marqly.com"

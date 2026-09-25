@@ -13,7 +13,7 @@ trustLine: "Plano grátis, sem cartão · Chrome, Edge, Firefox, Safari e iOS"
 faqHeading: "Perguntas frequentes"
 faqs:
   - q: "O Raindrop é melhor que o Marqly?"
-    a: "Depende do seu problema. Se você gosta de organizar em coleções, quer app para Android e o plano grátis mais generoso da categoria, o Raindrop é melhor. Se você salva muito e depois não acha nada, a busca semântica e os resumos de IA do Marqly resolvem melhor."
+    a: "Depende do seu problema. Se você gosta de organizar em coleções e quer o plano grátis mais generoso da categoria, o Raindrop é melhor. Se você salva muito e depois não acha nada, a busca semântica e os resumos de IA do Marqly resolvem melhor."
   - q: "Quanto custa cada um?"
     a: "O Raindrop Pro custa cerca de US$ 28 por ano ou US$ 3 por mês, e o plano grátis é bem completo. O Marqly Pro custa US$ 72 por ano ou US$ 9 por mês, com plano grátis sem cartão; estudante verificado paga US$ 48 no primeiro ano."
   - q: "Dá para migrar do Raindrop para o Marqly?"
@@ -21,7 +21,7 @@ faqs:
   - q: "O Raindrop tem IA?"
     a: "Tem, mas limitada: no Pro ele sugere tags e coleções. Não gera resumos, não conversa com o que você salvou e não tem recursos de YouTube. A busca dele é por palavra-chave, com busca no texto completo no plano pago."
   - q: "Qual dos dois funciona no Android?"
-    a: "Só o Raindrop. O Marqly tem extensão para Chrome, Edge, Firefox e Safari, app web e aplicativo para iPhone e iPad, mas não tem aplicativo para Android. Se o Android é obrigatório para você, o Raindrop leva."
+    a: "Os dois: o Marqly também tem aplicativo para Android, além de iOS, app web e extensões para Chrome, Edge, Firefox e Safari. O que ainda separa os dois é a API pública, que só o Raindrop tem — se ela for obrigatória para você, o Raindrop leva."
   - q: "Dá para usar os dois juntos?"
     a: "Dá, e não é raro. Muita gente mantém o arquivo antigo no Raindrop e usa o Marqly para o que é ativo: pesquisa, videoaula e leitura da semana. Como os dois importam e exportam, você não fica preso a nenhum dos lados."
 ctaUrl: "https://app.marqly.com"
@@ -85,11 +85,11 @@ O Marqly foi construído em volta desse problema:
 
 ## Como escolher em trinta segundos
 
-**Fique com o Raindrop se:** você usa Android, quer gastar pouco ou nada, gosta de organizar em coleções aninhadas e costuma lembrar onde salvou as coisas.
+**Fique com o Raindrop se:** você quer gastar pouco ou nada, gosta de organizar em coleções aninhadas e costuma lembrar onde salvou as coisas.
 
 **Vá de Marqly se:** você salva muito mais do que consegue organizar, perde tempo procurando o que já salvou, estuda por videoaula no YouTube ou quer perguntar para a sua própria biblioteca em vez de garimpar nela.
 
-Duas coisas para deixar claras: o Marqly é mais caro e não tem app para Android nem API pública. Se qualquer um desses três pontos for decisivo, a escolha já está feita — e tudo bem.
+Duas coisas para deixar claras: o Marqly é mais caro e não tem API pública. Se qualquer um desses dois pontos for decisivo, a escolha já está feita — e tudo bem.
 
 ## Migração é reversível
 

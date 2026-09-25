@@ -69,7 +69,7 @@ Instapaper non ha IA: né riassunti, né tag automatici, né chat. È una scelta
 | Salvare tutte le schede | No | No | No | Sì |
 | Salvare come PDF | No | No | No | Sì (Chrome/Edge) |
 | Bacheca pubblica | No | No | No | Sì |
-| App Android | Sì | No | Sì | No |
+| App Android | Sì | No | Sì | Sì |
 | Piano gratuito | Sì | Sì | **No** | Sì, senza carta |
 | Prezzo | 59,99 $/anno | 60 $/anno | 119,88 $/anno | 72 $/anno |
 

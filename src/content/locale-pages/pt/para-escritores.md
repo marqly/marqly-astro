@@ -92,7 +92,7 @@ Teste sem instalar nada na [transcrição do YouTube](/pt/ferramentas/transcrica
 
 ## O que ele não faz
 
-O Marqly **não é um editor**: você não escreve aqui. Também não gerencia citações em formato acadêmico, não funciona offline e não tem app de Android. É a biblioteca, não a escrivaninha.
+O Marqly **não é um editor**: você não escreve aqui. Também não gerencia citações em formato acadêmico e não funciona offline. É a biblioteca, não a escrivaninha.
 
 ## Comece
 

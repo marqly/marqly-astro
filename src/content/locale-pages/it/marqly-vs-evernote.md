@@ -23,7 +23,7 @@ faqs:
   - q: "Posso portare i miei preferiti?"
     a: "Sì. Marqly importa export di Pocket, raccolte di Raindrop.io e file HTML di preferiti da Chrome, Firefox, Edge e Safari."
   - q: "Evernote funziona offline?"
-    a: "Sì, Evernote ha accesso offline e app Android. Marqly non ha nessuna delle due."
+    a: "Sì, Evernote ha accesso offline e app Android. Marqly l'app Android ce l'ha, l'offline no."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
@@ -67,7 +67,7 @@ Marqly non prova a essere il tuo sistema di note. Fa una cosa:
 - **Salvare come PDF** su Chrome ed Edge.
 - **Cronologia degli appunti** su Chrome ed Edge, con sincronizzazione in Pro.
 
-Cosa manca: **offline, app Android, note lunghe, scansione documenti**.
+Cosa manca: **offline, note lunghe e scansione documenti**.
 
 ## Confronto diretto
 
@@ -76,7 +76,7 @@ Cosa manca: **offline, app Android, note lunghe, scansione documenti**.
 | Note e documenti | **Sì, completo** | No |
 | Scansione documenti | **Sì** | No |
 | Offline | **Sì** | No |
-| App Android | **Sì** | No |
+| App Android | **Sì** | Sì |
 | Ritaglio web | Sì, molto buono | Sì |
 | Tag automatici con IA | No | Sì |
 | Ricerca semantica | Sì | Sì |

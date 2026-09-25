@@ -66,7 +66,7 @@ Marqly suppose l'inverse : que **vous n'entretiendrez rien**.
 - **Enregistrer tous les onglets** d'un coup et sessions réouvrables.
 - **Tableaux publics** sans inscription.
 
-Et ce qu'il ne fait pas : **pas de fichiers locaux, pas de Markdown, pas de mode hors ligne, pas d'application Android**. C'est un service, avec ce que cela a de bon et de mauvais.
+Et ce qu'il ne fait pas : **pas de fichiers locaux, pas de Markdown, pas de mode hors ligne**. C'est un service, avec ce que cela a de bon et de mauvais.
 
 ## Comparatif direct
 

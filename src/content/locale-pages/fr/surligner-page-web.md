@@ -93,7 +93,7 @@ Une page web n'est pas gravée dans le marbre&nbsp;: elle est modifiée, dépubl
 
 ## Ce que le surligneur ne fait pas
 
-Soyons clairs&nbsp;: pas de mode hors ligne, pas d'application Android, pas d'annotation collaborative en équipe. Le surligneur est un outil personnel, conçu pour votre lecture à vous. Si vous comparez avec d'autres solutions, notre [comparatif Marqly vs Raindrop](/fr/comparer/marqly-vs-raindrop) dit aussi ce que fait mieux la concurrence.
+Soyons clairs&nbsp;: pas de mode hors ligne, et le surligneur ne se partage pas dans l'espace personnel — c'est un outil conçu pour votre lecture à vous. L'édition à plusieurs dans un même espace, c'est le rôle de Marqly Teams. Si vous comparez avec d'autres solutions, notre [comparatif Marqly vs Raindrop](/fr/comparer/marqly-vs-raindrop) dit aussi ce que fait mieux la concurrence.
 
 ## Essayez sur la page que vous avez sous les yeux
 

@@ -17,7 +17,7 @@ faqs:
   - q: "Które narzędzie w pełni zastępuje pisanie notatek w Evernote?"
     a: "Notion lub Obsidian. Marqly skupia się na linkach, wycinkach i wideo, a nie na edycji wielostronicowych dokumentów."
   - q: "Co tracę przy rezygnacji z Evernote?"
-    a: "Skanowanie dokumentów papierowych z OCR, rozbudowane formatowanie notatek oraz aplikację na Androida."
+    a: "Skanowanie dokumentów papierowych z OCR oraz rozbudowane formatowanie notatek."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"

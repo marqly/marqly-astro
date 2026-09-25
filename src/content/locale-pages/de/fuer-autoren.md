@@ -92,7 +92,7 @@ Ohne Installation testen: [YouTube-Transkript](/de/tools/youtube-transkript).
 
 ## Was es nicht macht
 
-Marqly ist **kein Editor**: Du schreibst hier nicht. Es verwaltet auch keine Zitationen im akademischen Format, funktioniert nicht offline und hat keine Android-App. Es ist die Bibliothek, nicht der Schreibtisch.
+Marqly ist **kein Editor**: Du schreibst hier nicht. Es verwaltet auch keine Zitationen im akademischen Format und funktioniert nicht offline. Es ist die Bibliothek, nicht der Schreibtisch.
 
 ## Loslegen
 

@@ -70,7 +70,7 @@ Marqly parte de una idea distinta: el cuello de botella no es leer, es **reencon
 - **Guardar todas las pestañas**, sesiones reabribles y **tableros públicos** compartibles sin registro.
 - **Guardar como PDF** (Chrome y Edge).
 
-Y lo que Marqly no tiene, dicho claro: **no hay lectura sin conexión, no hay app de Android y no hay integración con Kindle**.
+Y lo que Marqly no tiene, dicho claro: **no hay lectura sin conexión ni integración con Kindle**.
 
 ## Comparación directa
 

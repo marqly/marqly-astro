@@ -17,7 +17,7 @@ faqs:
   - q: "电脑上保存的书签会自动出现在 iPhone 上吗？"
     a: "是的，完全实时同步。无论是通过 Chrome、Edge、Firefox 还是 Safari 保存的内容，都会带着标签和高亮出现在 iOS 客户端中。"
   - q: "有 Android 安卓版客户端吗？"
-    a: "目前原生应用仅支持 iOS。安卓用户可以通过手机浏览器直接访问 app.marqly.com 体验全功能网页版。"
+    a: "有。Android 应用已上架 Google Play：https://play.google.com/store/apps/details?id=com.marqly.android。与 iOS 应用使用同一账号。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"

@@ -21,7 +21,7 @@ faqs:
   - q: "Isso não é colar?"
     a: "O Marqly resume, organiza e te devolve a fonte de cada coisa. Ele não escreve trabalho por você. O ganho é de tempo de garimpo: você chega mais rápido no material certo e cita a origem sem ter que refazer a busca."
   - q: "Funciona no celular?"
-    a: "Funciona no iPhone e no iPad pelo aplicativo, e em qualquer celular pelo app web no navegador. Não existe aplicativo para Android por enquanto."
+    a: "Funciona no iPhone, no iPad e no Android pelo aplicativo, e em qualquer celular pelo app web no navegador."
   - q: "Consigo trazer o que já está salvo em outro app?"
     a: "Sim. Dá para importar do Pocket, do Raindrop e de arquivos HTML de favoritos exportados do navegador. Também dá para trazer o que você salvou no X/Twitter."
 ctaUrl: "https://app.marqly.com"
@@ -96,7 +96,7 @@ Se o seu foco é prova de concurso, a rotina é um pouco diferente — veja [Mar
 - **Pro**: US$ 9 por mês ou US$ 72 por ano.
 - **Estudante verificado**: **US$ 48 no primeiro ano**, com os mesmos recursos do Pro.
 
-Vale lembrar do que o Marqly **não** faz, para você não se planejar errado: não tem aplicativo para Android, não funciona sem internet e não tem recursos de equipe. No iPhone e no iPad existe app; em qualquer outro celular, o app web resolve pelo navegador.
+Vale lembrar do que o Marqly **não** faz, para você não se planejar errado: não funciona sem internet e, no plano pessoal, o compartilhamento é apenas leitura — para a equipe editar junto existe o Marqly Teams. No iPhone, no iPad e no Android existe app; em qualquer outro celular, o app web resolve pelo navegador.
 
 ## Uma rotina de estudo que se sustenta
 

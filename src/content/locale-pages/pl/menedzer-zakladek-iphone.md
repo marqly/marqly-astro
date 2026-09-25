@@ -17,7 +17,7 @@ faqs:
   - q: "Czy linki zapisane na komputerze pojawią się w telefonie?"
     a: "Tak, synchronizacja następuje automatycznie. Każda strona zapisana w Chrome, Edge, Firefoxie lub Safari trafi do aplikacji iOS."
   - q: "Czy dostępna jest wersja na Androida?"
-    a: "Obecnie aplikacja natywna powstała z myślą o iOS. Użytkownicy Androida mogą korzystać z pełnej wersji w przeglądarce pod adresem app.marqly.com."
+    a: "Tak. Aplikacja na Androida jest w Google Play: https://play.google.com/store/apps/details?id=com.marqly.android. To to samo konto co w aplikacji iOS."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"

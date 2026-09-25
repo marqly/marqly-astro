@@ -15,7 +15,7 @@ faqs:
   - q: "Matter 最突出的特色是什么？"
     a: "高品质的 AI 拟真语音朗读。它能将文章和 Newsletter 转为如同播客般的音频，非常适合在通勤或跑步时收听。"
   - q: "两者支持 Android 吗？"
-    a: "Matter 和 Marqly 目前均无原生 Android 应用（Marqly 支持在 Android 浏览器中使用网页版）。"
+    a: "Matter 没有原生 Android 应用；Marqly 的 Android 应用已上架 Google Play，同时支持在 Android 浏览器中使用网页版。"
   - q: "两者可以配合使用吗？"
     a: "非常适合。把计划戴耳机收听的文章存入 Matter，而把技术资料、研究参考和视频讲座存入 Marqly 充当智库。"
 ctaUrl: "https://app.marqly.com"

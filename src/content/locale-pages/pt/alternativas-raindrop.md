@@ -74,7 +74,7 @@ Se você salva muitos vídeos ou artigos longos e quer triar sem abrir, precisa 
 
 ## Quando *não* trocar
 
-Seja honesto: se você gosta de organizar e seu sistema de coleções funciona, ficar no Raindrop é a decisão certa. É mais barato, tem app de Android e o plano grátis dá conta de muita gente. Trocar de ferramenta não conserta um sistema que já funciona.
+Seja honesto: se você gosta de organizar e seu sistema de coleções funciona, ficar no Raindrop é a decisão certa. É mais barato, tem API pública e o plano grátis dá conta de muita gente. Trocar de ferramenta não conserta um sistema que já funciona.
 
 Troque só se você se reconhecer no motivo 1 ou no motivo 2: a pilha de "sem organizar" que cresce, ou a sensação de saber que salvou algo e não conseguir achar.
 

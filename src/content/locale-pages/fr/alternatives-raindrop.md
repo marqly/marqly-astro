@@ -74,7 +74,7 @@ Si vous enregistrez beaucoup de vidéos ou d'articles longs et voulez trier sans
 
 ## Quand *ne pas* changer
 
-Soyez honnête : si vous aimez ranger et que votre système de collections fonctionne, rester sur Raindrop est la bonne décision. C'est moins cher, il y a une application Android et l'offre gratuite suffit à beaucoup. Changer d'outil ne répare pas un système qui marche déjà.
+Soyez honnête : si vous aimez ranger et que votre système de collections fonctionne, rester sur Raindrop est la bonne décision. C'est moins cher, il y a une API publique et l'offre gratuite suffit à beaucoup. Changer d'outil ne répare pas un système qui marche déjà.
 
 Ne changez que si vous vous reconnaissez dans la raison 1 ou 2 : la pile « non triés » qui grossit, ou la sensation de savoir que vous avez enregistré quelque chose sans pouvoir le retrouver.
 

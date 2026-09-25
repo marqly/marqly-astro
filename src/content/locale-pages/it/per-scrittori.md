@@ -92,7 +92,7 @@ Da provare senza installare nulla: [trascrizione YouTube](/it/strumenti/trascriz
 
 ## Cosa non fa
 
-Marqly **non è un editor**: qui non scrivi. Non gestisce nemmeno citazioni in formato accademico, non funziona offline e non ha un'app Android. È la libreria, non la scrivania.
+Marqly **non è un editor**: qui non scrivi. Non gestisce nemmeno citazioni in formato accademico e non funziona offline. È la libreria, non la scrivania.
 
 ## Iniziare
 

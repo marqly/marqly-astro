@@ -21,7 +21,7 @@ faqs:
   - q: "Wofür sind die sechs Farben gut?"
     a: "Für eine Bedeutung, die du selbst festlegst: etwa Grün für Belege, Gelb für Zitate, Rot für Widersprüche. Es gibt keine feste Regel – nützlich wird das System erst, wenn du dieselben drei bis vier Farben konsequent gleich verwendest."
   - q: "Funktioniert das auch auf dem iPhone?"
-    a: "Es gibt eine iOS-App und eine Safari-Erweiterung; Markierungen aus dem Browser tauchen in deinem Konto auf. Eine Android-App gibt es nicht."
+    a: "Es gibt eine iOS-App, eine Android-App und eine Safari-Erweiterung; Markierungen aus dem Browser tauchen in deinem Konto auf."
   - q: "Was kostet der Textmarker?"
     a: "Die kostenlose Stufe startet ohne Kreditkarte. Pro kostet 72 $/Jahr (rund 66 €) oder 9 $/Monat (rund 8 €) und schaltet unter anderem den Chat mit deinen Speicherungen frei. Studierende zahlen im ersten Jahr 48 $ (rund 44 €)."
 ctaUrl: "https://app.marqly.com"
@@ -86,6 +86,6 @@ Wie sich das gegen einen klassischen Bookmark-Manager schlägt, steht im Verglei
 
 ## Kosten und Grenzen
 
-Die kostenlose Stufe braucht keine Kreditkarte. Pro liegt bei **72 $/Jahr (rund 66 €)** oder **9 $/Monat (rund 8 €)**, für Studierende bei **48 $ (rund 44 €) im ersten Jahr**. Ehrlich dazugesagt: Markieren funktioniert nur mit Verbindung, es gibt keinen Offline-Modus und keine Android-App.
+Die kostenlose Stufe braucht keine Kreditkarte. Pro liegt bei **72 $/Jahr (rund 66 €)** oder **9 $/Monat (rund 8 €)**, für Studierende bei **48 $ (rund 44 €) im ersten Jahr**. Ehrlich dazugesagt: Markieren funktioniert nur mit Verbindung, es gibt keinen Offline-Modus.
 
 Installier die Erweiterung, markier die nächste Seite, die du liest – und schau in zwei Wochen nach, ob die Stelle noch da ist. [Marqly kostenlos testen](https://app.marqly.com) – mehr Lesestoff im [Blog](/de/blog).

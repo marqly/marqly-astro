@@ -70,7 +70,7 @@ Marqly geht von einer anderen Idee aus: Der Engpass ist nicht das Lesen, sondern
 - **Alle Tabs speichern**, wiederherstellbare Sitzungen und **öffentliche Boards** ohne Anmeldung.
 - **Als PDF sichern** (Chrome & Edge).
 
-Und was Marqly nicht hat, klar gesagt: **kein Offline-Lesen, keine Android-App, keine Kindle-Anbindung**.
+Und was Marqly nicht hat, klar gesagt: **kein Offline-Lesen, keine Kindle-Anbindung**.
 
 ## Direkter Vergleich
 
@@ -79,7 +79,7 @@ Und was Marqly nicht hat, klar gesagt: **kein Offline-Lesen, keine Android-App, 
 | Leseerlebnis | **Hervorragend** | Solide |
 | Offline-Lesen | **Ja** | Nein |
 | Kindle | **Ja** | Nein |
-| Android-App | **Ja** | Nein |
+| Android-App | **Ja** | Ja |
 | Automatisches KI-Tagging | Nein | Ja |
 | Semantische Suche | Nein | Ja |
 | KI-Zusammenfassungen | Nein | Ja |

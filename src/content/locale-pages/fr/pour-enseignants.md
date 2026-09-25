@@ -19,7 +19,7 @@ faqs:
   - q: "Puis-je réutiliser les supports de l'an dernier ?"
     a: "C'est exactement le cas d'usage. Tout ce que vous avez enregistré reste consultable par le sens : vous récupérez la lecture de l'an dernier en la décrivant, même sans le titre."
   - q: "Y a-t-il des fonctions d'équipe pour l'établissement ?"
-    a: "Il n'y a ni fonctions d'équipe ni édition collaborative. Vous pouvez en revanche partager des tableaux publics avec vos collègues."
+    a: "Avec le plan personnel, les tableaux se partagent en page publique, en lecture seule. Pour éditer ensemble le même espace, il y a Marqly Teams."
   - q: "Cela fonctionne-t-il sur l'ordinateur de la classe ?"
     a: "L'extension fonctionne sur Chrome, Edge, Firefox et Safari, et vous pouvez toujours ouvrir l'application web depuis n'importe quel navigateur sans rien installer."
   - q: "Combien cela coûte-t-il ?"
@@ -91,7 +91,7 @@ Quand vous lisez un texte long en pensant au cours, vous ne lisez pas pareil : v
 
 ## Ce que vous ne trouverez pas
 
-Pour éviter les surprises : **ni fonctions d'équipe ni édition collaborative**, pas de mode hors ligne et pas d'application Android. Marqly est une bibliothèque personnelle que vous pouvez partager en lecture, pas une plateforme pédagogique.
+Pour éviter les surprises : dans l'espace personnel, le partage est **en lecture seule** (l'édition à plusieurs, c'est Marqly Teams) et il n'y a pas de mode hors ligne. Marqly est une bibliothèque personnelle que vous pouvez partager en lecture, pas une plateforme pédagogique.
 
 ## Commencer
 

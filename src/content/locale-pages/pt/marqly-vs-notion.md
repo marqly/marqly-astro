@@ -21,7 +21,7 @@ faqs:
   - q: "Dá para usar os dois juntos?"
     a: "Sim, e faz sentido: Marqly como caixa de captura rápida e biblioteca pesquisável, Notion para os documentos e projetos onde você depois cita essas fontes."
   - q: "O Notion funciona offline?"
-    a: "Sim, tem acesso offline e app de Android. O Marqly não tem nenhum dos dois."
+    a: "Sim, tem acesso offline e app de Android. O Marqly tem o app de Android, o acesso offline não."
   - q: "Quanto custa o Marqly?"
     a: "Plano grátis sem cartão. O Pro custa 9 USD/mês ou 72 USD/ano. Estudantes verificados pagam 48 USD no primeiro ano."
 ctaUrl: "https://app.marqly.com"
@@ -66,7 +66,7 @@ O Marqly parte do princípio de que **você não vai organizar nada**:
 - **Salvar todas as abas** e sessões reabríveis.
 - **Quadros públicos** que abrem sem cadastro.
 
-O que não tem: **offline, app de Android, documentos, tarefas ou bancos de dados**. Não é um workspace e não tenta ser.
+O que não tem: **offline, documentos, tarefas ou bancos de dados**. Não é um workspace e não tenta ser.
 
 ## Comparação direta
 

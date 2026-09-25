@@ -92,7 +92,7 @@ Beaucoup de matériel n'existe qu'en vidéo. Sur la page YouTube, vous avez rés
 
 ## Ce qu'il ne fait pas
 
-Marqly **n'est pas un éditeur** : vous n'écrivez pas ici. Il ne gère pas non plus les citations au format académique, ne fonctionne pas hors ligne et n'a pas d'application Android. C'est la bibliothèque, pas le bureau.
+Marqly **n'est pas un éditeur** : vous n'écrivez pas ici. Il ne gère pas non plus les citations au format académique et ne fonctionne pas hors ligne. C'est la bibliothèque, pas le bureau.
 
 ## Commencer
 

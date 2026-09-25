@@ -17,7 +17,7 @@ faqs:
   - q: "两者的订阅价格差距多大？"
     a: "Evernote 个人年费通常超过 $100，高级版更高。Marqly Pro 年费为 $72（首年优惠码 STANDING49 仅 $49），并提供 100 条免费额度。"
   - q: "离开 Evernote 会失去什么功能？"
-    a: "纸质文档拍照 OCR、长篇富文本排版、原生 Android 客户端和离线编辑。如果这些是刚需，建议保留 Evernote。"
+    a: "纸质文档拍照 OCR、长篇富文本排版和离线编辑。如果这些是刚需，建议保留 Evernote。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"

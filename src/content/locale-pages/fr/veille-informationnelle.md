@@ -21,7 +21,7 @@ faqs:
   - q: "Puis-je diffuser ma veille à d'autres personnes ?"
     a: "Oui. Les tableaux (boards) regroupent une sélection de liens et peuvent être publiés sur une page publique, partageable par simple URL. C'est le moyen le plus rapide de diffuser une revue de presse ou un panorama sectoriel."
   - q: "Marqly propose-t-il des fonctions d'équipe ou une API ?"
-    a: "Non. Il n'y a ni espace d'équipe, ni API publique, ni auto-hébergement. Marqly est un outil de veille personnel ; le partage passe par les tableaux publics."
+    a: "Oui pour l'équipe : Marqly Teams est l'espace de travail partagé où plusieurs personnes éditent ensemble. Pour le reste, le partage personnel passe par les tableaux publics en lecture seule, et il n'y a toujours ni API publique ni auto-hébergement."
   - q: "Puis-je archiver une page susceptible de disparaître ?"
     a: "Sur Chrome et Edge, Marqly enregistre la page en PDF, avec un traitement effectué en local sur votre machine. C'est utile pour les sources fragiles, les pages amenées à évoluer ou les contenus dépubliés."
 ctaUrl: "https://app.marqly.com"
@@ -80,7 +80,7 @@ Avec l'offre Pro, vous pouvez discuter avec vos sauvegardes&nbsp;: poser une que
 
 Un tableau (board) regroupe une sélection thématique — veille concurrentielle, panorama d'un secteur, revue de presse hebdomadaire — et se publie sur une page publique partageable par simple URL. Pas d'export, pas de mise en forme&nbsp;: vous envoyez un lien.
 
-Attention toutefois&nbsp;: Marqly n'a pas de fonctions d'équipe, pas d'espace collaboratif et pas d'API publique. Le partage est une publication, pas un travail à plusieurs mains dans le même outil.
+Attention toutefois&nbsp;: dans votre espace personnel, le partage est une publication — un lien en lecture seule. Le travail à plusieurs mains dans le même outil, c'est Marqly Teams&nbsp;; et il n'y a toujours pas d'API publique.
 
 ## Reprendre une veille existante
 
@@ -88,7 +88,7 @@ Vos archives ne restent pas dehors&nbsp;: Marqly importe depuis Pocket, depuis R
 
 ## Les limites, sans détour
 
-Pas d'application Android, pas de mode hors ligne, pas d'API, pas d'auto-hébergement, pas d'espace d'équipe. Si votre veille doit être industrialisée à plusieurs et connectée à d'autres systèmes, ce n'est pas le bon outil. Si elle est portée par une personne qui capte beaucoup et réexploite mal, c'est exactement le bon.
+Pas de mode hors ligne, pas d'API publique, pas d'auto-hébergement. Le travail d'équipe n'est pas oublié — c'est le rôle de Marqly Teams — mais l'espace personnel de veille reste un outil individuel. Si votre veille doit être industrialisée et connectée à d'autres systèmes, Marqly seul n'est pas le bon outil. Si elle est portée par une personne qui capte beaucoup et réexploite mal, c'est exactement le bon.
 
 ## Testez sur une semaine de veille
 

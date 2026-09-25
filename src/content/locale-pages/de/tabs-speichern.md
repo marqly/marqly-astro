@@ -89,7 +89,7 @@ Nach zwei, drei Wochen kippt das Verhältnis: Ein Tab bleibt nur noch offen, wei
 
 Wenn du deine Tabs bisher in Pocket oder Raindrop geparkt hast: Marqly importiert aus beiden sowie aus jeder Lesezeichen-HTML-Datei, die dein Browser exportiert. Passend dazu die [Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2026) und der Vergleich [Marqly vs. Raindrop](/de/vergleich/marqly-vs-raindrop).
 
-Ehrlich dazu: Es gibt **keine Android-App**, **keinen Offline-Modus** und **keine Team-Funktionen**. Wiederherstellen setzt eine Verbindung voraus. Was an Daten entsteht, steht in den [Datenschutz-Fragen](/de/datenschutz-fragen).
+Ehrlich dazu: Es gibt **keinen Offline-Modus**, und das Teilen im persönlichen Board ist nur lesbar – gemeinsam bearbeitet wird in Marqly Teams. Wiederherstellen setzt eine Verbindung voraus. Was an Daten entsteht, steht in den [Datenschutz-Fragen](/de/datenschutz-fragen).
 
 Die kostenlose Stufe braucht keine Kreditkarte. Pro kostet **72 $/Jahr (rund 66 €)** oder **9 $/Monat (rund 8 €)**, für Studierende **48 $ (rund 44 €) im ersten Jahr**.
 

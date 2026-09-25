@@ -17,7 +17,7 @@ faqs:
   - q: "Taugt es zur Wettbewerbsbeobachtung?"
     a: "Ja. Du speicherst deren Seiten, die KI taggt und fasst zusammen, und danach suchst du nach Bedeutung. Das PDF-Archiv erlaubt zusätzlich den Vergleich, wie sich ihre Botschaft verändert hat."
   - q: "Kann ich ein Board mit Kundschaft teilen?"
-    a: "Ja, ein Board wird als öffentliche Seite veröffentlicht und per Link ohne Anmeldung geöffnet. Gemeinsame Bearbeitung und Teamfunktionen gibt es nicht."
+    a: "Ja, ein Board wird als öffentliche Seite veröffentlicht und per Link ohne Anmeldung geöffnet – lesend. Wer mit dem Team gemeinsam bearbeiten will, nutzt Marqly Teams."
   - q: "Speichert es Anzeigen aus sozialen Netzen?"
     a: "Du kannst den Link jeder Seite speichern und X/Twitter-Lesezeichen über die Erweiterung erfassen."
   - q: "Funktioniert es mit Webinaren und langen Videos?"
@@ -83,7 +83,7 @@ Mit dem Textmarker in sechs Farben und Notizen markierst du die genaue Stelle, u
 
 Boards bündeln Referenzen nach Kampagne, Wettbewerber oder Projekt und werden als öffentliche Seite veröffentlicht. Die Kundschaft öffnet den Link und sieht es, ohne Konto und ohne Installation. Praktisch für eine Wettbewerbsanalyse, ein Moodboard oder die Unterlagen zu einem Angebot.
 
-Wichtig zu wissen: Es ist lesendes Teilen. **Teamfunktionen und gemeinsame Bearbeitung gibt es nicht.**
+Wichtig zu wissen: Es ist lesendes Teilen. **Gemeinsam bearbeiten im Team geht mit Marqly Teams.**
 
 ## Webinare und Produktvideos
 

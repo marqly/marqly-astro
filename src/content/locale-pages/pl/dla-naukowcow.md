@@ -19,7 +19,7 @@ faqs:
   - q: "Czy mogę porządkować nagrania z konferencji?"
     a: "Tak, zapisanie wideo z YouTube automatycznie dołącza zsynchronizowaną transkrypcję i podsumowanie AI, dzięki czemu możesz wyszukać zdanie wypowiedziane przez prelegenta."
   - q: "Czy narzędzie sprawdza się w pracy zespołowej?"
-    a: "Możesz udostępnić tablicę jako publiczną stronę WWW dostępną bez rejestracji. Marqly nie oferuje jednak jednoczesnej edycji zespołowej w czasie rzeczywistym."
+    a: "Możesz udostępnić tablicę jako publiczną stronę WWW dostępną bez rejestracji — jest tylko do oglądania. Do wspólnej edycji w zespole służy Marqly Teams."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"

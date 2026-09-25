@@ -21,7 +21,7 @@ faqs:
   - q: "Marqly ha la lettura offline come Pocket?"
     a: "No, e va detto chiaramente: era una delle funzioni migliori di Pocket e Marqly non ce l'ha. Se il tuo uso principale era leggere in metro senza rete, quel pezzo non si sostituisce uno a uno."
   - q: "C'è un'app Android?"
-    a: "No. Marqly ha un'app per iPhone e iPad, e l'app web funziona in qualsiasi browser Android. Pocket aveva un'app Android nativa, quindi anche qui perdi qualcosa."
+    a: "Sì, è su Google Play. Marqly ha l'app per Android oltre a quella per iPhone e iPad e all'app web, che funziona in qualsiasi browser."
   - q: "Quanto costa Marqly?"
     a: "Piano gratuito senza carta, e Pro a 9 $/mese (circa 8 €) o 72 $/anno (circa 69 €). Gli studenti verificati pagano 48 $ il primo anno (circa 46 €)."
 ctaUrl: "https://app.marqly.com"
@@ -50,7 +50,6 @@ Se non l'hai fatto, non c'è nulla da recuperare. Nessuno strumento restituisce 
 Va detto con onestà, perché Pocket era molto bravo nel suo campo:
 
 - **Lettura offline.** Gli articoli si sincronizzavano da soli sul telefono. Marqly **non** ha una modalità offline.
-- **App Android nativa.** Marqly non ce l'ha; solo iPhone, iPad e l'app web.
 - **Listen (sintesi vocale).** Trasformava la pila di articoli in una playlist per l'auto. Marqly non lo fa.
 - **Lettore pulito e senza distrazioni**, affinato in anni.
 - **Discover**, con consigli editoriali di long-form davvero buoni.
@@ -95,7 +94,7 @@ Marqly non prova a essere un lettore senza distrazioni. È un gestore di preferi
 | Salvare tutte le schede | No | Sì |
 | Bacheca pubblica | No | Sì |
 | Lettura offline | **Sì** | No |
-| App Android | **Sì** | No |
+| App Android | **Sì** | Sì |
 | Importa export di Pocket | — | Sì |
 | Piano gratuito | Sì | Sì, senza carta |
 

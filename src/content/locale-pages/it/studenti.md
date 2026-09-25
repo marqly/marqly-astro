@@ -21,7 +21,7 @@ faqs:
   - q: "Serve per la tesi?"
     a: "È il caso in cui rende di più: salvi le fonti mentre le trovi, evidenzi i passaggi con una nota su perché ti servono e mesi dopo li ritrovi descrivendo l'argomento, senza rileggere tutto da capo."
   - q: "Funziona sul telefono?"
-    a: "C'è l'app per iPhone e iPad e l'app web, che apri da qualsiasi computer del campus. Non esiste un'app Android e non c'è una modalità offline: serve la connessione."
+    a: "C'è l'app per iPhone e iPad, quella per Android e l'app web, che apri da qualsiasi computer del campus. Non c'è una modalità offline: serve la connessione."
   - q: "Va bene anche per la maturità?"
     a: "Sì. Tieni in un posto solo i video di ripasso, le pagine e i PDF che ti passano i compagni, evidenzi quello che conta e ricostruisci ogni materia quando arriva il momento di ripassare."
 ctaUrl: "https://app.marqly.com"

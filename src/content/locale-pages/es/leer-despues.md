@@ -19,7 +19,7 @@ faqs:
   - q: "¿Puedo leer sin conexión?"
     a: "No. Marqly necesita conexión a internet para sincronizar y para las funciones de IA."
   - q: "¿Sirve en el celular?"
-    a: "Sí, hay app para iPhone y iPad, además de la app web desde cualquier navegador. Por ahora no hay app para Android."
+    a: "Sí, hay app para iPhone, iPad y Android, además de la app web desde cualquier navegador."
   - q: "¿Cómo evito acumular 800 artículos sin leer?"
     a: "Usa los resúmenes para hacer triaje: en 20 segundos sabes si un texto merece los 12 minutos completos. Lo que no los merece se queda guardado y buscable, sin ocupar tu cola mental."
   - q: "¿Cuánto cuesta?"

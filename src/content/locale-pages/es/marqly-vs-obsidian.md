@@ -66,7 +66,7 @@ Marqly asume lo contrario: que **no vas a mantener nada**.
 - **Guardar todas las pestañas** de golpe y sesiones reabribles.
 - **Tableros públicos** compartibles sin registro.
 
-Y lo que no hace: **no hay archivos locales, ni Markdown, ni modo sin conexión, ni app de Android**. Es un servicio, con lo bueno y lo malo que eso implica.
+Y lo que no hace: **no hay archivos locales, ni Markdown, ni modo sin conexión**. Es un servicio, con lo bueno y lo malo que eso implica.
 
 ## Comparación directa
 

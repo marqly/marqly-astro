@@ -21,7 +21,7 @@ faqs:
   - q: "È adatto a materiale sensibile?"
     a: "Marqly è un servizio cloud, non self-hosted e senza API pubblica. Per materiale che richieda custodia rigorosa, conviene valutarlo con la tua redazione prima di usarlo."
   - q: "Posso condividere la documentazione di un servizio?"
-    a: "Sì, pubblicando una bacheca come pagina pubblica che si apre dal link. Non ci sono funzioni di team né modifica collaborativa."
+    a: "Sì, pubblicando una bacheca come pagina pubblica che si apre dal link, in sola lettura. Per lavorare e modificare insieme lo stesso spazio c'è Marqly Teams."
   - q: "Quanto costa?"
     a: "Piano gratuito senza carta. Pro costa 9 $/mese (circa 8 €) o 72 $/anno (circa 69 €)."
 ctaUrl: "https://app.marqly.com"
@@ -80,14 +80,14 @@ Da provare senza installare nulla: [trascrizione YouTube](/it/strumenti/trascriz
 
 Ogni tema ha la sua bacheca con tutta la documentazione. Alla consegna puoi pubblicarla come pagina pubblica per passare il materiale a un caporedattore o alla verifica, senza allegare trenta link.
 
-È condivisione in lettura: **niente modifica collaborativa né funzioni di team**.
+È condivisione in lettura: **sola lettura, non modifica collaborativa**. Per modificare in più persone c'è Marqly Teams.
 
 ## Cosa valutare prima
 
 Con trasparenza, perché in questo mestiere conta:
 
 - Marqly è un **servizio cloud**. Non self-hosted, senza API pubblica.
-- **Nessuna modalità offline**, nessuna app Android.
+- **Nessuna modalità offline.**
 - Per materiale sensibile o fonti che richiedano protezione, questa decisione dovrebbe passare per i criteri della tua redazione, non per una pagina di prodotto.
 
 Per lavoro in cui i file devono stare sul tuo disco, l'alternativa onesta è in [Marqly vs Obsidian](/it/confronto/marqly-vs-obsidian).

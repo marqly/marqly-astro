@@ -66,7 +66,7 @@ O Marqly assume o contrário: que **você não vai manter nada**.
 - **Salvar todas as abas** de uma vez e sessões reabríveis.
 - **Quadros públicos** que abrem sem cadastro.
 
-E o que ele não faz: **sem arquivos locais, sem Markdown, sem modo offline, sem app de Android**. É um serviço, com o que isso tem de bom e de ruim.
+E o que ele não faz: **sem arquivos locais, sem Markdown e sem modo offline**. É um serviço, com o que isso tem de bom e de ruim.
 
 ## Comparação direta
 

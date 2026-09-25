@@ -17,7 +17,7 @@ faqs:
   - q: "¿Los enlaces guardados en el ordenador aparecen en el iPhone?"
     a: "Sí, al instante. Todo lo que guardas desde Chrome, Edge, Firefox, Safari o la web se sincroniza en la app de iOS con sus etiquetas y notas."
   - q: "¿Existe versión para Android?"
-    a: "Actualmente la app nativa es exclusiva para iOS. En Android puedes acceder a todas las funciones y búsqueda semántica desde el navegador web en app.marqly.com."
+    a: "Sí. La app de Android está en Google Play: https://play.google.com/store/apps/details?id=com.marqly.android. Es la misma cuenta que la app de iOS."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probar Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"

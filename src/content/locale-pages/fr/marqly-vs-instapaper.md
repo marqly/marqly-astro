@@ -70,7 +70,7 @@ Marqly part d'une autre idée : le goulot d'étranglement n'est pas la lecture, 
 - **Enregistrer tous les onglets**, sessions réouvrables et **tableaux publics** sans inscription.
 - **Enregistrer en PDF** (Chrome et Edge).
 
-Et ce que Marqly n'a pas, dit clairement : **pas de lecture hors ligne, pas d'application Android, pas d'intégration Kindle**.
+Et ce que Marqly n'a pas, dit clairement : **pas de lecture hors ligne, pas d'intégration Kindle**.
 
 ## Comparatif direct
 

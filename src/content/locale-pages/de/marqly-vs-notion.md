@@ -21,7 +21,7 @@ faqs:
   - q: "Kann ich beides parallel nutzen?"
     a: "Ja, und das ergibt Sinn: Marqly als schneller Eingang und durchsuchbare Bibliothek, Notion für Dokumente und Projekte, in denen du diese Quellen zitierst."
   - q: "Funktioniert Notion offline?"
-    a: "Ja, mit Offline-Zugriff und Android-App. Marqly hat beides nicht."
+    a: "Ja, mit Offline-Zugriff und Android-App. Marqly hat die Android-App, den Offline-Zugriff nicht."
   - q: "Was kostet Marqly?"
     a: "Kostenlose Stufe ohne Karte. Pro kostet 9 $ (rund 8 €) im Monat oder 72 $ (rund 66 €) im Jahr."
 ctaUrl: "https://app.marqly.com"
@@ -66,7 +66,7 @@ Marqly geht davon aus, dass **du nichts ordnen wirst**:
 - **Alle Tabs speichern** und wiederherstellbare Sitzungen.
 - **Öffentliche Boards** ohne Anmeldung.
 
-Was fehlt: **Offline, Android-App, Dokumente, Aufgaben und Datenbanken**. Es ist kein Workspace und will keiner sein.
+Was fehlt: **Offline, Dokumente, Aufgaben und Datenbanken**. Es ist kein Workspace und will keiner sein.
 
 ## Direkter Vergleich
 
@@ -75,7 +75,7 @@ Was fehlt: **Offline, Android-App, Dokumente, Aufgaben und Datenbanken**. Es ist
 | Dokumente und Projekte | **Ja** | Nein |
 | Flexible Datenbanken | **Ja** | Nein |
 | Offline | **Ja** | Nein |
-| Android-App | **Ja** | Nein |
+| Android-App | **Ja** | Ja |
 | Erfassungsqualität | Unbeständig | Hoch |
 | Automatisches KI-Tagging | Nein | Ja |
 | Semantische Suche | Ja | Ja |

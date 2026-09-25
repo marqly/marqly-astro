@@ -21,7 +21,7 @@ faqs:
   - q: "E i video lunghi che uso come riferimento?"
     a: "Su YouTube hai riassunto, trascrizione sincronizzata e chat sul video. Al salvataggio la trascrizione viene allegata e puoi cercare ciò che è stato detto."
   - q: "Funziona su mobile?"
-    a: "C'è un'app per iPhone e iPad, e l'app web funziona in qualsiasi browser, anche su Android. Non esiste un'app Android nativa."
+    a: "C'è un'app per iPhone e iPad, una per Android, e l'app web funziona in qualsiasi browser."
   - q: "Quanto costa?"
     a: "Piano gratuito senza carta. Pro costa 9 $/mese (circa 8 €) o 72 $/anno (circa 69 €)."
 ctaUrl: "https://app.marqly.com"

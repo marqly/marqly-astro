@@ -21,7 +21,7 @@ faqs:
   - q: "¿Funciona sin conexión durante el viaje?"
     a: "No. Marqly no tiene modo sin conexión, así que para consultar sin datos conviene descargar lo importante aparte."
   - q: "¿Hay app para el móvil?"
-    a: "Hay app de iPhone y iPad, y la app web funciona en cualquier navegador, también en Android. No existe app nativa de Android."
+    a: "Hay app de iPhone, iPad y Android, y la app web funciona en cualquier navegador."
   - q: "¿Cuánto cuesta?"
     a: "Plan gratis sin tarjeta. Pro cuesta 9 USD al mes o 72 USD al año."
 ctaUrl: "https://app.marqly.com"

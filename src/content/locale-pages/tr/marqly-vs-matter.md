@@ -15,7 +15,7 @@ faqs:
   - q: "Matter'ı özel kılan nedir?"
     a: "Gerçekçi yapay zeka seslendirmesi. Makaleleri ve bültenleri araç sürerken veya spor yaparken dinlenebilir bir podcast'e dönüştürür."
   - q: "Android desteği var mı?"
-    a: "Matter ve Marqly'nin ikisinin de yerel Android uygulaması yoktur (Marqly mobil web tarayıcısında sorunsuz çalışır)."
+    a: "Matter'da yok; yalnızca web, iOS, macOS ve Chrome'a çıkıyor. Marqly'nin yerel Android uygulaması ise Google Play'de mevcut (mobil tarayıcıda web sürümü de sorunsuz çalışır)."
   - q: "İkisini birlikte kullanmak mantıklı mı?"
     a: "Evet. Dinlemek istediğiniz yazıları Matter'a, teknik dokümanları ve araştırma kaynaklarını Marqly'ye kaydetmek çok yaygın bir modeldir."
 ctaUrl: "https://app.marqly.com"
