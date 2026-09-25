@@ -69,13 +69,33 @@ editorial in English per revenue plan §:28).
 | 10 | Import-fidelity test as original evidence (documented public corpus, honest failures) | research | batch 3; needs benchmark run dir first |
 | 11 | Outreach drafts for templates (personalized, no spam) | distribution | **drafted batch 2** (`outreach-drafts.md`) — NOT SENT, needs human authorization |
 
-## Task state (resumable)
+## Batch-5 note (2026-09-26)
+- **D-015 Kit CSS-token fix**: `--line/--fs-md/--fs-xl/--tracking-wide` don't
+  exist in tokens.css (silent-drop trap, lab note added); canonical
+  `--border-1/2`, `--radius-card`, `--fs-h3/--fs-base` now used; desktop+
+  mobile headless QA passed (13 bordered cards).
+- **D-016 Kit in nav Resources** (discoverability beyond persona-page links).
+- **Journey QA passed**: all 4 template files 200 with correct content-types;
+  app CTA src-stamp confirmed host-gated (design, not defect); mobile layout
+  clean.
 
-Last deploy: see git log `main` at marqly-astro. Gates green as of batch 1
-commit. Next action for a fresh session: run `npm run seo:check` +
-`node active/scripts/test-e2e-raindrop.mjs --strict` on current main, then
-pick backlog #5 (tiny) or #6 (technical, measurable). Do not re-derive this
-file's findings; extend it.
+## Task state (resumable) — end of 2026-09-26 session
+
+Deployed through `main` at marqly-astro (see git log; batches 1-5 + fixes all
+live, 16/16 gates, e2e 184/184). Everything executable without new access is
+DONE. Remaining items are each gated on something only the owner can supply:
+
+| Item | Blocked on |
+|---|---|
+| #4 Offline copy decision | owner: verify help.marqly.com "Offline Mode" vs app reality |
+| #7 Prompt-gallery content pass | GSC export (which prompts get impressions?) |
+| #10 Import-fidelity benchmark | app/API access + run dir protocol |
+| #11 Outreach | human decision to send (drafts ready, personalized, no spam) |
+| Locale trustLine Android omissions | owner marketing call (understatements, not lies) |
+| Post-release monitoring | no scheduler authorized; review cadence = owner-triggered |
+
+Next session: re-run gates on current main, read this file top-to-bottom, and
+start with whatever row of the table above has gained its access.
 
 ## Batch-2 decisions appended (2026-09-26)
 
