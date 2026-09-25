@@ -17,7 +17,7 @@ import LandingV2 from '../layouts/LandingV2.astro';
 import Nav from '../components/landing/Nav.astro';
 import FooterV2 from '../components/landing/FooterV2.astro';
 import CloseSection from '../components/landing/CloseSection.astro';
-import { CheckIcon } from '../components/landing/icons';
+import { CheckIcon, PlusIcon } from '../components/landing/icons';
 import { APP_URL, TEAMS_PUBLIC, TEAMS_PRICE } from '../components/landing/data';
 
 const title = 'Marqly Teams — Shared AI Bookmark Workspace for Your Team';
@@ -65,12 +65,26 @@ const roles = [
 ];
 
 const billing = [
-  `${P.perSeatMonthly} per seat per month, or ${P.perSeatYearly} per seat per year (about ${P.perSeatMonthlyWhenYearly} per seat/month billed annually). USD.`,
-  `Minimum ${P.minSeats} seats — a team starts at ${P.fromMonthly} per month (${P.fromYearly} per year on annual billing). Every plan includes 3 seats.`,
-  'You pay for purchased seats, including any you’re not using yet — seats are the unit of billing.',
-  'Adding a seat is prorated and charged immediately. Removing one takes effect at renewal, with no refund for the current period.',
-  'One bill for the whole team, paid by the Owner. No trial — Teams is billed when the Owner upgrades.',
-  'Cancel any time: the team keeps working to the end of the paid period, then turns read-only. Nothing is deleted — you can resume or restart with the same members and content.',
+  {
+    lead: 'Seats are the unit.',
+    text: `You pay for purchased seats, including any you’re not using yet. Minimum ${P.minSeats} seats — a team starts at ${P.fromMonthly} per month.`,
+  },
+  {
+    lead: 'Add seats anytime.',
+    text: 'A new seat is prorated to the end of your period and charged immediately.',
+  },
+  {
+    lead: 'Remove at renewal.',
+    text: 'Seat removals take effect at the next renewal; the period you’ve paid for is not refunded.',
+  },
+  {
+    lead: 'One bill, paid by the Owner.',
+    text: 'No trial — Teams is billed the moment the Owner upgrades.',
+  },
+  {
+    lead: 'Cancel keeps everything.',
+    text: 'The team works to the end of the paid period, then turns read-only. Nothing is deleted — resume or restart later with the same members and content.',
+  },
 ];
 
 const faqs = [
@@ -226,8 +240,10 @@ const jsonLd = [
               <p class="mt-1 text-[13px] text-muted">{r.note}</p>
               <ul class="mt-4 flex flex-col gap-2">
                 {r.can.map((c) => (
-                  <li class="flex items-start gap-2.5 text-sm leading-snug text-foreground/85">
-                    <CheckIcon size={14} class="mt-0.5 shrink-0 text-muted" />
+                  <li class="flex items-start gap-3 text-sm leading-snug text-foreground/85">
+                    <span class="mt-px flex size-5 shrink-0 items-center justify-center rounded-full bg-default text-foreground/70">
+                      <CheckIcon size={11} />
+                    </span>
                     {c}
                   </li>
                 ))}
@@ -241,59 +257,105 @@ const jsonLd = [
 
   <section class="py-16 md:py-20">
     <div class="mx-auto max-w-[1120px] px-5 md:px-8">
-      <div class="relative flex flex-col overflow-hidden rounded-3xl bg-ink p-8 text-white md:p-10">
-        <p class="text-[11px] font-semibold tracking-[0.16em] text-white/60 uppercase">Teams pricing</p>
-        <p class="font-display mt-4 flex items-baseline gap-2.5 text-5xl font-medium">
-          {P.perSeatMonthly}
-          <span class="text-lg font-normal text-white/60">/seat/month</span>
-        </p>
-        <p class="mt-2 text-sm text-white/70">
-          or {P.perSeatYearly}/seat/year (about {P.perSeatMonthlyWhenYearly}/seat/month billed annually) · USD
-        </p>
-        <p class="mt-5 inline-flex w-fit items-center gap-2 rounded-2xl bg-white/10 px-3 py-1.5 text-[13px] font-medium text-white/90">
-          Minimum {P.minSeats} seats — from {P.fromMonthly}/month or {P.fromYearly}/year
-        </p>
-        <ul class="mt-6 grid max-w-[720px] grid-cols-1 gap-2.5 md:grid-cols-2">
-          {
-            billing.map((b) => (
-              <li class="flex items-start gap-2.5 text-sm leading-snug text-white/85">
-                <CheckIcon size={14} class="mt-0.5 shrink-0 text-pro-bright" />
-                {b}
-              </li>
-            ))
-          }
-        </ul>
-        <div class="mt-8">
-          <a
-            href={APP_URL}
-            data-cta="teams_pricing"
-            class="flex h-11 w-fit items-center justify-center rounded-3xl bg-white px-6 text-[15px] font-medium text-ink transition-transform active:scale-[0.97]"
-          >
-            Start a team
-          </a>
+      <div class="relative overflow-hidden rounded-3xl bg-ink p-8 text-white md:p-12">
+        <div class="grid gap-10 md:gap-14 lg:grid-cols-[minmax(0,420px)_minmax(0,1fr)]">
+          {/* Price side: the two billing choices ARE the hero of this card */}
+          <div>
+            <p class="text-[11px] font-semibold tracking-[0.16em] text-white/45 uppercase">Teams pricing</p>
+            <p class="mt-3 text-[15px] leading-relaxed text-white/60">
+              Priced per seat, billed to one Owner. USD.
+            </p>
+            <div class="mt-7 grid grid-cols-2 gap-3">
+              <div class="rounded-2xl border border-white/12 bg-white/[0.05] p-5">
+                <p class="text-[10px] font-semibold tracking-[0.14em] text-white/45 uppercase">Monthly</p>
+                <p class="font-display mt-2.5 text-[34px] leading-none font-medium">
+                  {P.perSeatMonthly}<span class="text-[13px] font-normal text-white/50"> /seat</span>
+                </p>
+              </div>
+              <div class="rounded-2xl bg-white p-5 text-ink shadow-custom">
+                <p class="text-[10px] font-semibold tracking-[0.14em] text-ink/50 uppercase">Annual</p>
+                <p class="font-display mt-2.5 text-[34px] leading-none font-medium">
+                  {P.perSeatYearly}<span class="text-[13px] font-normal text-ink/50"> /seat/yr</span>
+                </p>
+                <p class="mt-2 text-[11px] font-medium text-ink/60">
+                  ≈ {P.perSeatMonthlyWhenYearly}/seat/month, billed yearly
+                </p>
+              </div>
+            </div>
+            <div class="mt-3 flex items-center gap-2.5 rounded-2xl bg-white/[0.06] px-4 py-3 text-[13px] font-medium text-white/80">
+              <span aria-hidden class="size-1.5 shrink-0 rounded-full bg-pro-bright" />
+              Minimum {P.minSeats} seats — from {P.fromMonthly}/month or {P.fromYearly}/year
+            </div>
+            <a
+              href={APP_URL}
+              data-cta="teams_pricing"
+              class="mt-6 flex h-12 w-full items-center justify-center rounded-3xl bg-white text-[15px] font-medium text-ink transition-transform active:scale-[0.98]"
+            >
+              Start a team
+            </a>
+            <p class="mt-3 text-center text-[12px] text-white/45">
+              No trial — Teams is billed when the Owner upgrades. Cancel any time.
+            </p>
+          </div>
+
+          {/* Rules side: a definition list on hairlines — scannable, no icon wall */}
+          <div>
+            <p class="text-[11px] font-semibold tracking-[0.16em] text-white/45 uppercase">How billing works</p>
+            <dl class="mt-5 divide-y divide-white/10">
+              {
+                billing.map((b) => (
+                  <div class="grid gap-1 py-4 first:pt-0 first:pb-4 last:pb-0">
+                    <dt class="text-[14px] font-semibold text-white">{b.lead}</dt>
+                    <dd class="text-[13px] leading-relaxed text-white/60">{b.text}</dd>
+                  </div>
+                ))
+              }
+            </dl>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <section class="py-16 md:py-20">
-    <div class="mx-auto max-w-[820px] px-5 md:px-8">
-      <h2 class="font-display text-[clamp(1.7rem,3.4vw,2.4rem)] font-medium tracking-[-0.01em] text-foreground">
-        Questions teams ask before paying
-      </h2>
-      <div class="mt-8 flex flex-col divide-y divide-separator rounded-3xl bg-surface px-6 shadow-surface">
-        {
-          faqs.map((f) => (
-            <details class="group py-4">
-              <summary class="flex cursor-pointer items-center justify-between gap-4 text-[15px] font-medium text-foreground marker:content-none">
-                {f.q}
-                <span aria-hidden class="text-muted transition-transform duration-200 group-open:rotate-45">+</span>
-              </summary>
-              <p class="mt-3 text-sm leading-relaxed text-muted">{f.a}</p>
-            </details>
-          ))
-        }
+    <div class="mx-auto max-w-[1120px] px-5 md:px-8">
+      <div class="max-w-[600px]" data-reveal>
+        <p class="text-[11px] font-semibold tracking-[0.16em] text-muted uppercase">FAQ</p>
+        <h2
+          class="font-display mt-3 text-[clamp(1.9rem,4vw,2.9rem)] leading-[1.1] font-medium tracking-[-0.01em] text-foreground"
+        >
+          Questions teams ask<br />
+          before paying.
+        </h2>
       </div>
+
+      {/* Same accordion as the homepage: faq-item + PlusIcon, expanded
+          smoothly by the ::details-content rule in landing.css. */}
+      {
+        (() => {
+          const mid = Math.ceil(faqs.length / 2);
+          const columns = [faqs.slice(0, mid), faqs.slice(mid)];
+          return (
+            <div class="mt-10 grid grid-cols-1 gap-x-12 md:grid-cols-2">
+              {columns.map((col) => (
+                <div>
+                  {col.map((f) => (
+                    <details class="faq-item group border-b border-separator">
+                      <summary class="flex cursor-pointer list-none items-center justify-between gap-4 py-4 text-[15px] font-medium text-foreground [&::-webkit-details-marker]:hidden">
+                        {f.q}
+                        <span class="shrink-0 text-muted transition-transform duration-200 group-open:rotate-45">
+                          <PlusIcon size={15} />
+                        </span>
+                      </summary>
+                      <div class="pb-5 text-sm leading-relaxed text-muted">{f.a}</div>
+                    </details>
+                  ))}
+                </div>
+              ))}
+            </div>
+          );
+        })()
+      }
     </div>
   </section>
 
