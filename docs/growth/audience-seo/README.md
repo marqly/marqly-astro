@@ -22,6 +22,7 @@ site must never contradict them.
 | Batch | Date | Shipped | Deploy |
 |---|---|---|---|
 | 0 (context) | 2026-09-25 | Pricing-truth sweep + Teams dark launch (separate mission) | live |
+| 2 | 2026-09-26 | Team-tail alignment ×8 EN pages; quote-bank template wired into /for-writers; gallery hub 637KB→134KB + stale description fixed; `template_download` analytics event; locale truth-bug inventory (199 lines) + outreach drafts (not sent) | live |
 | 1 | 2026-09-26 | Truth fixes (student discount, free-tier AI claims, auto-tag tier ×3 pages, Teams-copy alignment ×5 pages, Teams spec wording, 10 GB claim banned, offline conflict logged); source-log + reading-matrix templates wired into 5 persona pages; growth ledgers created | see git log |
 
 Rules of engagement (unchanged from the mission): no billing/pricing changes as

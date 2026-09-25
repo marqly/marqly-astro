@@ -54,6 +54,6 @@ Create a free account at [app.marqly.com](https://app.marqly.com) — no card re
 
 ## Who this is not for
 
-Marqly is not an application tracker. There are no pipeline columns, status fields, deadlines, or follow-up reminders — the Teal/Huntr-style kanban of "applied → phone screen → onsite" is a different tool, and if tracking state is your main pain, get one (or a spreadsheet) and let Marqly sit underneath it as the research layer. It also has no team features, so shared recruiting pipelines are out of scope.
+Marqly is not an application tracker. There are no pipeline columns, status fields, deadlines, or follow-up reminders — the Teal/Huntr-style kanban of "applied → phone screen → onsite" is a different tool, and if tracking state is your main pain, get one (or a spreadsheet) and let Marqly sit underneath it as the research layer. Shared pipelines are out of scope too; a job-search *group* co-editing one research space is what [Marqly Teams](/teams) is for.
 
 The fit: you're running a real search across multiple companies, the research is the part drowning you, and you need every posting, thread, and prep note captured once and findable the night it matters. That's the job this does.

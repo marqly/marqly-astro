@@ -49,3 +49,17 @@ Two more tools speed up the research phase itself. AI summaries let you triage a
 3. **Let auto-tagging sort the pile.** The AI tags the whole import and every future save. Your job reduces to the click and the highlight; the library handles the rest.
 
 Where the fit ends: Marqly is not a drafting environment — you'll still write in your word processor or plain-text editor of choice — and it has no offline mode, so research reading on a signal-dead train needs a different tool. What it owns is everything between "I should keep this" and "where was that line?" — the stretch of the writing process where good material usually disappears.
+
+## The quote bank — free template
+
+The lines you keep are the ones you can place — and the ones you can prove.
+This is the bank that keeps *who said it* separate from *who wrote about it*:
+
+- **[Quote bank — CSV](/templates/marqly-quote-bank.csv)** · **[how to keep it](/templates/marqly-quote-bank.md)**
+
+Every row carries the verbatim line, its locator, a quote-or-paraphrase flag,
+and a verification status that starts at *unverified* — because the mistakes
+that survive to print are the ones promoted from memory. The guide includes a
+worked example from a real, live source. Pair it with the habit above: save
+each source to the project's board, and the quote in your notes always has a
+one-click path back to its page.

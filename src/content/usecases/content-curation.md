@@ -60,6 +60,6 @@ That's a complete curation pipeline, and it took an evening — not a platform m
 
 ## Who this is not for
 
-Marqly is not a distribution tool. It won't schedule posts to social media, send your board as an email newsletter, or auto-publish to an RSS feed — pair it with your newsletter or social tooling for that half of the job. There are also no team features: boards are curated by you, not co-edited by a group, so an editorial team wanting shared workflows should look at multi-user tools.
+Marqly is not a distribution tool. It won't schedule posts to social media, send your board as an email newsletter, or auto-publish to an RSS feed — pair it with your newsletter or social tooling for that half of the job. Personal boards are curated by you; an editorial team that wants one shared, multi-editor curation space gets that through [Marqly Teams](/teams).
 
 The fit: you're a person with taste — a writer, builder, or community runner — whose audience trusts your selection, and you need the path from "found something great" to "shareable page" to be nearly effortless. Boards plus public sharing is exactly that path.

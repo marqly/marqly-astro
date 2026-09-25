@@ -95,6 +95,20 @@
 
         var isApp = url.hostname === "app.marqly.com";
         var isStore = STORE_HOSTS.indexOf(url.hostname) !== -1;
+
+        // Same-origin template downloads: the only payload is the fixed
+        // public filename + section placement — no URLs, queries, or user data.
+        if (url.hostname === location.hostname && url.pathname.indexOf("/templates/") === 0) {
+          var tPlacement = placementOf(a);
+          send("template_download", { template: url.pathname.split("/").pop(), placement: tPlacement });
+          if (typeof window.gtag === "function") {
+            try {
+              window.gtag("event", "template_download", { template: url.pathname.split("/").pop(), placement: tPlacement });
+            } catch (err) {}
+          }
+          return;
+        }
+
         if (!isApp && !isStore) return;
 
         var placement = placementOf(a);

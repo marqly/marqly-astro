@@ -50,4 +50,4 @@ It's [free to start](/faq/is-marqly-free), no card required, at [app.marqly.com]
 
 ## Who this isn't for
 
-Marqly won't run your recruiting pipeline. There are no stages, no email sequences, no scheduling, no candidate CRM, and no team features — a sourcing team can't share one collaborative workspace, since board sharing is public and view-only. If your bottleneck is pipeline management, invest in your ATS. If your bottleneck is the pre-pipeline chaos — profiles and market intel scattered across tabs and lost by Friday — Marqly is the specific fix for that.
+Marqly won't run your recruiting pipeline. There are no stages, no email sequences, no scheduling, no candidate CRM — and personal board sharing is public, view-only; a sourcing team that works from one shared research space can get it with [Marqly Teams](/teams). If your bottleneck is pipeline management, invest in your ATS. If your bottleneck is the pre-pipeline chaos — profiles and market intel scattered across tabs and lost by Friday — Marqly is the specific fix for that.

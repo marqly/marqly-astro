@@ -61,13 +61,13 @@ editorial in English per revenue plan §:28).
 | 2 | Templates + wiring (cluster 1) | asset | **shipped batch 1** |
 | 3 | Growth ledgers | docs | **shipped batch 1** |
 | 4 | Offline verification (help page vs spec) | owner task | queued — blocks any offline copy |
-| 5 | IT locale landers "no Android" stale | fix | batch 2 |
-| 6 | Gallery pagination + index weight | tech | batch 2 |
+| 5 | Locale truth-bug sweep (Android denials + team lines, 12 locales, 199 inventoried lines) | fix | **inventory done** (`locale-truth-inventory.md`); execution batch 3 — table rows need per-file column checks |
+| 6 | Gallery hub weight + stale description | tech | **shipped batch 2** (637KB→134KB; search removed, category hubs carry the full set) |
 | 7 | Prompt-gallery worked-example pass (top-traffic prompts only) | content | batch 2, gated on GSC |
-| 8 | Template download + CTA event wiring (data-cta on template links; /api/touch already exists) | analytics | batch 2 |
+| 8 | Template-download event (Mixpanel + GA4 `template_download`, content-free payload) | analytics | **shipped batch 2** |
 | 9 | Curated public research kit (one, e.g. "credible statistics for writers") — evaluate vs capacity | content | batch 3 candidate |
 | 10 | Import-fidelity test as original evidence (documented public corpus, honest failures) | research | batch 3; needs benchmark run dir first |
-| 11 | Outreach drafts for templates/kit (personalized, no spam) | distribution | drafts only, not sent |
+| 11 | Outreach drafts for templates (personalized, no spam) | distribution | **drafted batch 2** (`outreach-drafts.md`) — NOT SENT, needs human authorization |
 
 ## Task state (resumable)
 
@@ -76,3 +76,20 @@ commit. Next action for a fresh session: run `npm run seo:check` +
 `node active/scripts/test-e2e-raindrop.mjs --strict` on current main, then
 pick backlog #5 (tiny) or #6 (technical, measurable). Do not re-derive this
 file's findings; extend it.
+
+## Batch-2 decisions appended (2026-09-26)
+
+- **D-009 EN team-tails aligned (8 more pages)**: for-product-managers,
+  for-lawyers, job-search-organizer, for-founders, for-consultants,
+  second-brain, content-curation, for-recruiters now use the approved split
+  (personal = view-only links; shared workspace = /teams).
+- **D-010 Quote bank shipped** (mission option C): template + guide wired
+  into /for-writers; same verification discipline as the source log.
+- **D-011 Gallery hub = navigation, not the library.** Index now renders 48
+  featured + category hubs (which carry all 400); client-side search removed
+  (it only ever saw the rendered set anyway); stale "reference image"
+  description claim fixed; ItemList schema trimmed to what's on the page.
+- **D-012 Locale rot quantified, not guessed**: 199 stale lines (Android
+  denials across it/pl/ja/pt/… + team lines + comparison-table rows needing
+  per-file column verification) inventoried in `locale-truth-inventory.md`
+  for batch 3. Bulk regex-editing table rows was rejected as unsafe.

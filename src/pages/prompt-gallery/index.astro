@@ -8,6 +8,9 @@ import { breadcrumbList, faqPage, itemList, organization, webSite } from '../../
 import { aiToolsBySlug } from '../../lib/ai-tools';
 
 const entries = await getCollection('prompts', ({ data }) => !data.draft);
+// Hub is navigation, not the whole library: 48 featured cards + category hubs.
+// (Rendering all ~400 made this the heaviest page on the site for no SEO gain.)
+const featured = entries.slice(0, 48);
 
 const CATEGORY_ORDER = [
   'Image & Photo',
@@ -30,7 +33,7 @@ function catSlug(text: string) {
 }
 const title = 'AI Prompt Gallery — Copy-Paste Prompts for ChatGPT, Gemini, Midjourney & More';
 const description =
-  `Browse ${entries.length}+ copy-pasteable AI prompts organized by category: image generation, writing, SEO, coding, productivity, social media, and prompt engineering. Each prompt includes tool links and a reference image where relevant.`;
+  `Browse ${entries.length} copy-pasteable AI prompts organized by category: image generation, writing, SEO, coding, productivity, social media, and prompt engineering. Every prompt page shows the full text, the tools it fits, and how to adapt it.`;
 
 const faqs = [
   {
@@ -52,9 +55,9 @@ const jsonLd = [
   webSite(),
   breadcrumbList([{ name: 'Home', path: '/' }, { name: 'Prompt Gallery', path: '/prompt-gallery' }]),
   itemList(
-    entries.map((e) => e.data.title),
+    featured.map((e) => e.data.title),
     '/prompt-gallery',
-    entries.map((e) => `/prompt-gallery/${e.id}`),
+    featured.map((e) => `/prompt-gallery/${e.id}`),
   ),
   faqPage(faqs),
 ];
@@ -81,7 +84,7 @@ function preview(text: string) {
         <h1>AI Prompt Gallery</h1>
         <p class="lead">
           {entries.length}+ copy-pasteable prompts for ChatGPT, Claude, Gemini, DeepSeek, Kimi, Midjourney,
-          DALL-E, and more. Click any card to reveal the full prompt.
+          DALL-E, and more. Browse by category below, or open any prompt for its full text and usage steps.
         </p>
         <div class="prompt-hub-banner">
           <div class="banner-badge">⚡ AI Prompt Organizer</div>
@@ -114,41 +117,18 @@ function preview(text: string) {
         <a href="/prompt-gallery/category" style="font-weight: 500; text-decoration: underline; text-underline-offset: 3px; color: inherit;">Browse all prompt categories →</a>
       </p>
 
-      <div class="filter-bar" data-reveal>
-        <div class="search-wrap">
-          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-          <input
-            type="search"
-            class="search-input"
-            placeholder="Search prompts, tools, or tags…"
-            aria-label="Search prompts"
-            data-search-input
-          />
-        </div>
-        <div class="chip-row" role="group" aria-label="Filter by category">
-          <button type="button" class="chip is-active" data-category="all">All</button>
-          {categories.map((cat) => (
-            <button type="button" class="chip" data-category={cat} aria-pressed="false">{cat}</button>
-          ))}
-        </div>
-      </div>
-
+      <h2 style="margin: var(--space-8) 0 var(--space-5); font-size: var(--fs-xl); color: var(--ink-1);" data-reveal>Recently added</h2>
       <div class="prompt-grid" data-reveal>
-        {entries.map((entry) => {
+        {featured.map((entry) => {
           const data = entry.data;
-          const searchTokens = [data.title, data.description, data.category, ...data.tags, ...toolNames(data.tools)]
-            .join(' ')
-            .toLowerCase();
           return (
             <a
               href={`/prompt-gallery/${entry.id}`}
               class="prompt-card card"
-              data-category={data.category}
-              data-search={searchTokens}
             >
               <div class="card-body">
                 <span class="card-cat">{data.category}</span>
-                <h2>{data.title}</h2>
+                <h3>{data.title}</h3>
                 <p>{data.description}</p>
                 <span class="card-preview">{preview(data.prompt)}</span>
                 <div class="card-tools">
@@ -161,10 +141,9 @@ function preview(text: string) {
           );
         })}
       </div>
-
-      <div class="empty-state" data-empty-state hidden>
-        <p>No prompts match your search. Try a different keyword or category.</p>
-      </div>
+      <p style="margin: var(--space-6) 0 0; font-size: var(--fs-sm);" data-reveal>
+        <a href="/prompt-gallery/category" style="font-weight: 500; text-decoration: underline; text-underline-offset: 3px; color: inherit;">Browse all {entries.length} prompts by category →</a>
+      </p>
 
       <div data-reveal>
         <FaqAccordion faqs={faqs} heading="Frequently asked questions" />
@@ -173,52 +152,6 @@ function preview(text: string) {
       <CtaBox />
     </div>
   </section>
-
-  <script is:inline>
-    (function () {
-      const input = document.querySelector('[data-search-input]');
-      const chips = document.querySelectorAll('.chip[data-category]');
-      const cards = document.querySelectorAll('[data-search]');
-      const empty = document.querySelector('[data-empty-state]');
-      if (!input || !cards.length) return;
-
-      let activeCategory = 'all';
-      let query = '';
-
-      function filter() {
-        let visible = 0;
-        const q = query.trim().toLowerCase();
-        cards.forEach((card) => {
-          const cat = card.getAttribute('data-category');
-          const tokens = card.getAttribute('data-search') || '';
-          const catMatch = activeCategory === 'all' || cat === activeCategory;
-          const queryMatch = !q || tokens.includes(q);
-          const show = catMatch && queryMatch;
-          card.toggleAttribute('hidden', !show);
-          if (show) visible++;
-        });
-        if (empty) empty.toggleAttribute('hidden', visible > 0);
-      }
-
-      input.addEventListener('input', (e) => {
-        query = e.target.value;
-        filter();
-      });
-
-      chips.forEach((chip) => {
-        chip.addEventListener('click', () => {
-          chips.forEach((c) => {
-            c.classList.remove('is-active');
-            c.setAttribute('aria-pressed', 'false');
-          });
-          chip.classList.add('is-active');
-          chip.setAttribute('aria-pressed', 'true');
-          activeCategory = chip.getAttribute('data-category') || 'all';
-          filter();
-        });
-      });
-    })();
-  </script>
 
   <style>
     .prompt-hub { padding-block: var(--section-pad-y); }
