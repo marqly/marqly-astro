@@ -49,8 +49,9 @@ export const tests = [
     name: 'site CSP frame-src allows app.marqly.com (the live preview iframe)',
     run: async () => {
       const headers = readFileSync(resolve(ROOT, 'public/_headers'), 'utf8');
-      const m = headers.match(/frame-src[^;]+/);
-      if (!m || !m[0].includes('https://app.marqly.com')) {
+      // match only the real directive (https:// appears there, not in the file comments)
+      const m = headers.match(/frame-src[^;]*https:\/\/app\.marqly\.com[^;]*/);
+      if (!m) {
         return { ok: false, error: 'CSP frame-src does not allow app.marqly.com — the embed preview renders "This content is blocked"' };
       }
       return { ok: true };
