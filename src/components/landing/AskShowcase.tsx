@@ -108,7 +108,7 @@ export default function AskShowcase() {
 
       <div className="mt-3">
         <BrowserFrame url="app.marqly.com" className="border border-black/5">
-          <div className="relative h-[440px] overflow-hidden bg-background sm:h-[460px]" aria-hidden>
+          <div className="relative h-[520px] overflow-hidden bg-background sm:h-[580px] lg:h-[680px]" aria-hidden>
             {/* The library behind, quiet */}
             <div className="absolute inset-y-0 right-0 left-0 max-sm:hidden sm:right-[340px] md:right-[380px]">
               <LibraryRows added dimmed reduce={!!reduce} />
