@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: 'Do I even need to convert it for Marqly?',
-    a: 'No — Marqly imports the Pocket file directly, no conversion step needed. Follow our step-by-step <a href="/migrate/pocket">Pocket to Marqly migration guide</a>. Every save gets AI tags and a summary on import, and semantic search works across all of it.',
+    a: 'The CSV, yes — import list.csv straight in (titles, URLs and tags carry; dates and status do not). The ril_export.html beside it is NOT a format Marqly reads — a real export parses to zero saves, which is exactly what this converter fixes: convert the CSV to standard bookmarks HTML here, then import that anywhere. AI tagging and summaries on import are Pro; see the <a href="/migrate/pocket">Pocket migration guide</a> for the full matrix.',
   },
 ];
 
@@ -50,7 +50,7 @@ const jsonLd = [
     sub="Turn Pocket's CSV into a bookmarks HTML file any browser can import, or into clean JSON. Unzip your Pocket export first — the CSV is inside."
     faqs={faqs}
     ctaHeading="Skip the conversion entirely"
-    ctaSub="Marqly imports your Pocket file directly and AI tags and summarizes every save — the closest thing to getting Pocket back, plus search that actually finds things."
+    ctaSub="Import the converted file (or the CSV directly) into Marqly — on Pro every save gets AI tags and a summary, the closest thing to getting Pocket back plus search that actually finds things."
   >
     <div class="tool-row">
       <div class="grow">

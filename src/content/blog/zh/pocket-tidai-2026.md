@@ -18,7 +18,7 @@ faqs:
   - q: "2026 年综合体验最好的 Pocket 替代工具有哪些？"
     a: "对绝大多数用户而言，Marqly 是 2026 年最理想的 Pocket 替代品：只需两分钟即可完整导入 Pocket 导出文件，并提供了 Pocket 梦寐以求的「AI 语义搜索」，让你可以根据记忆中的文章含义而非死板标题来找回内容。追求完全免费推荐 Raindrop.io，深度重度阅读者推荐 Readwise Reader。"
   - q: "Pocket 关停后，我以前导出的数据还能导入吗？"
-    a: "可以。只要你在 2025 年 7 月关停至过渡期内下载了 Pocket 的 HTML/JSON 备份文件，Marqly、Raindrop、Instapaper 等现代工具都可以直接解析导入，完整保留原始链接和标签。"
+    a: "可以。只要在 2025 年 10 月导出窗口关闭前下载了备份，就能把其中的 list.csv 直接导入 Marqly，保留原始链接和标签（导出的 .html 预览文件不是 Marqly 导入器支持的格式，详见迁移指南）。"
   - q: "有免费的 Pocket 替代工具吗？"
     a: "有的。Raindrop.io 的免费版功能相当慷慨，Instapaper 也有免费的基础阅读器，Marqly 则提供最多支持 100 条书签的永久免费版并支持全库语义搜索。若有自建能力，开源的 Wallabag 完全免费。"
   - q: "Pocket 和普通浏览器书签到底有什么区别？"

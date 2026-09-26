@@ -21,6 +21,6 @@ Pocket's shutdown did more than orphan its users — it reset expectations. A pl
 
 ## Where Marqly fits
 
-Marqly covers the save-for-later loop — one-click save from Chrome, Edge, Firefox, or Safari — and attacks the guilt-pile problem with AI: every save is auto-tagged, articles get AI summaries so you can triage a backlog fast, and semantic search finds a save from whatever you remember about it. If you're coming from Pocket, Marqly [imports Pocket export files directly](/faq/how-do-i-import-from-pocket).
+Marqly covers the save-for-later loop — one-click save from Chrome, Edge, Firefox, or Safari — and attacks the guilt-pile problem with AI: every save is auto-tagged, articles get AI summaries so you can triage a backlog fast, and semantic search finds a save from whatever you remember about it. If you're coming from Pocket, Marqly imports the [list.csv from your export archive](/faq/how-do-i-import-from-pocket).
 
 One honest limitation: offline reading exists only on Pro, only in the web app and iOS app, and only per-device — see [does Marqly work offline](/faq/does-marqly-work-offline). If automatic whole-queue downloads for flights were the heart of your read-it-later habit, factor that in before switching.

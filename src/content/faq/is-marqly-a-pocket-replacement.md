@@ -9,11 +9,11 @@ related:
   - does-marqly-work-offline
 ---
 
-Yes, for the core Pocket workflow: save an article with one click, find it later, and work through your backlog. Marqly adds what Pocket never had — AI auto-tagging, article summaries, and semantic search on Pro — and it imports Pocket export files directly, so your archive comes with you. One honest caveat: Pocket auto-downloaded your queue to every device, while Marqly's offline reading is Pro and per-device — [here's exactly what it caches and where](/faq/does-marqly-work-offline). If synced offline downloads were your main Pocket habit, that's the one row to weigh before switching.
+Yes, for the core Pocket workflow: save an article with one click, find it later, and work through your backlog. Marqly adds what Pocket never had — AI auto-tagging, article summaries, and semantic search on Pro — and it imports list.csv from your Pocket export archive, so your archive comes with you. One honest caveat: Pocket auto-downloaded your queue to every device, while Marqly's offline reading is Pro and per-device — [here's exactly what it caches and where](/faq/does-marqly-work-offline). If synced offline downloads were your main Pocket habit, that's the one row to weigh before switching.
 
 ## What carries over from Pocket
 
-The save-for-later loop survives intact. The browser extension (Chrome, Edge, Firefox, Safari) saves the current page in one click, your library lives in the web app, and there's an iOS app for saving and reading on the phone. Your existing archive isn't stranded either — Marqly [imports the export file Pocket gave you](/faq/how-do-i-import-from-pocket).
+The save-for-later loop survives intact. The browser extension (Chrome, Edge, Firefox, Safari) saves the current page in one click, your library lives in the web app, and there's an iOS app for saving and reading on the phone. Your existing archive isn't stranded either — Marqly [imports list.csv from the export Pocket gave you](/faq/how-do-i-import-from-pocket).
 
 ## What Marqly adds
 

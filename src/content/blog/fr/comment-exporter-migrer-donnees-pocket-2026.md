@@ -15,7 +15,7 @@ ctaLabel: "Essayer Marqly gratuitement"
 lang: "fr"
 faqs:
   - q: "Comment exporter ses sauvegardes depuis Pocket ?"
-    a: "Mozilla a fermé Pocket le 8 juillet 2025 et la période d'export s'est achevée le 8 octobre 2025. Si vous disposez de votre fichier d'export (.html ou .csv), vous pouvez l'importer directement dans Marqly."
+    a: "Mozilla a fermé Pocket le 8 juillet 2025 et la période d'export s'est achevée le 8 octobre 2025. Si vous disposez de votre archive d'export, importez directement dans Marqly le fichier list.csv (.csv) qu'elle contient ; le .html n'est pas un format que l'importateur lit."
   - q: "Les tags Pocket sont-ils conservés lors de la migration ?"
     a: "Oui, un outil moderne comme Marqly importe et préserve automatiquement l'ensemble de vos tags et titres."
 heroImage: ../../../assets/blog/how-to-export-migrate-pocket-data.png

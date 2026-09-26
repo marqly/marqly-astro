@@ -15,7 +15,7 @@ ctaLabel: "Probar Marqly gratis"
 lang: "es"
 faqs:
   - q: "¿Cómo descargo mi copia de seguridad de Pocket?"
-    a: "Mozilla cerró Pocket el 8 de julio de 2025 y el plazo de exportación finalizó el 8 de octubre de 2025. Los usuarios que ya descargaron su archivo de exportación (.html o .csv) pueden importarlo directamente en Marqly."
+    a: "Mozilla cerró Pocket el 8 de julio de 2025 y el plazo de exportación finalizó el 8 de octubre de 2025. Quien ya descargó su archivo de exportación puede importar directamente en Marqly el list.csv (.csv) que contiene; el .html no es un formato que el importador lea."
   - q: "¿Perderé mis etiquetas al migrar de Pocket?"
     a: "No, siempre que uses un gestor moderno como Marqly. Marqly mapea automáticamente todas tus etiquetas y títulos originales sin pérdida de datos."
   - q: "¿Qué aplicación es la mejor alternativa tras el cierre de Pocket?"

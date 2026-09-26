@@ -20,7 +20,7 @@ const crumbs = [
 const steps = [
   {
     name: 'Locate your Pocket export file',
-    text: 'Locate the export file you downloaded from Pocket before Mozilla shut down the service (typically named ril_export.html, pocket-export.html, or a ZIP archive containing your CSV).',
+    text: 'Locate the ZIP you downloaded from Pocket before the shutdown and unzip it. You want list.csv — the rows of title, url, time_added, tags, status. The folder’s ril_export.html looks like a bookmark file, but it is NOT the format Marqly imports (measured: a real 261-item HTML export parses to zero saves). Skip it.',
     url: path,
   },
   {
@@ -38,7 +38,7 @@ const steps = [
 const faqs = [
   {
     q: 'Can I still export my data from Pocket today?',
-    a: 'Mozilla permanently shut down Pocket servers on July 8, 2025, and export access closed on October 8, 2025. If you already downloaded your export file before that date, Marqly can import it directly. If you synced Pocket with browser bookmarks, you can also export your browser HTML and import that into Marqly.',
+    a: 'Mozilla permanently shut down Pocket servers on July 8, 2025, and export access closed on October 8, 2025. If you downloaded the export ZIP before that date, Marqly imports list.csv from inside it. If you synced Pocket saves into browser bookmarks instead, your browser HTML export works too.',
   },
   {
     q: 'What if my Pocket export file is corrupted or very large?',
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     q: 'Will my Pocket tags and read statuses be preserved?',
-    a: 'Titles and tags transfer; dates and read status do not. Marqly reads the Pocket export HTML and carries titles, URLs and your tags over, preserving your categorization — but the export\'s timestamps and read/archive flags are not stored: imported saves take the import date and archived items land as normal saves. AI re-tagging and semantic search over the backlog are Pro features.',
+    a: 'From the CSV: titles, URLs and your tags transfer — that is the good news, and your categorization by tag survives. Saved dates and read/archive status do not: every import is dated the import day and unread and archived items land the same way. The HTML export is a different structure entirely and does not import at all (use the CSV). AI re-tagging and semantic search over the backlog are Pro features.',
   },
   {
     q: 'Is Marqly free for former Pocket users?',
@@ -95,7 +95,7 @@ const jsonLd = [
       </header>
 
       <div class="alert-box">
-        <strong>⚠️ Pocket Status Note:</strong> Pocket's servers are no longer operational. This guide is for users who saved their <code>ril_export.html</code> or CSV backup, or who have bookmarks synced to browser profiles.
+        <strong>⚠️ Pocket Status Note:</strong> Pocket's servers are no longer operational. This guide is for users who saved the export ZIP before the window closed — import the <code>list.csv</code> inside it (not <code>ril_export.html</code>, which uses a layout the importer does not read) — or users whose saves went to browser bookmarks.
       </div>
 
       <div class="comparison-callout">
@@ -136,7 +136,7 @@ const jsonLd = [
               Locate the export file you downloaded from Pocket:
             </p>
             <ul class="sub-steps">
-              <li>Check your <strong>Downloads</strong> or <strong>Documents</strong> folder for <code>ril_export.html</code> or <code>pocket-export.html</code>.</li>
+              <li>Check your <strong>Downloads</strong> or <strong>Documents</strong> folder for the Pocket export ZIP (it contains <code>list.csv</code> and an HTML preview file you can ignore for import).</li>
               <li>If you downloaded a ZIP from Mozilla, unzip it to extract the HTML or CSV data file.</li>
               <li><em>Need to preview or clean duplicates first?</em> Use our free <a href="/tools/pocket-export-converter">Pocket Export Converter Tool</a> to inspect your links in the browser before importing.</li>
             </ul>
@@ -153,7 +153,7 @@ const jsonLd = [
             <ol class="sub-steps">
               <li>Sign in to <a href="https://app.marqly.com" target="_blank" rel="noopener">app.marqly.com</a> (free, no credit card required).</li>
               <li>Go to <strong>Settings → Import Bookmarks</strong>.</li>
-              <li>Select <strong>Pocket</strong> and upload your <code>ril_export.html</code> or CSV file.</li>
+              <li>Select <strong>Pocket</strong> and upload <code>list.csv</code>. The viewer at <a href="/tools/pocket-export-converter">Pocket export converter</a> can preview the rows first, free and in-browser.</li>
               <li>Click <strong>Import</strong>. Marqly parses your links and recreates your library in under two minutes.</li>
             </ol>
           </div>

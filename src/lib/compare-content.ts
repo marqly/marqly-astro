@@ -60,7 +60,7 @@ export function switchSentence(c: Competitor): string {
     // fallthrough below handles specifics
   }
   if (c.slug === 'pocket') {
-    return 'Yes. Marqly imports Pocket export files directly — upload the export, and on Pro every save is re-tagged by AI and becomes searchable by meaning.';
+    return 'Yes. Marqly imports the list.csv from your Pocket export ZIP — titles, URLs and tags carry over, and on Pro every save is re-tagged by AI and becomes searchable by meaning. (The HTML file in the ZIP does not import; the free Pocket converter handles that.)';
   }
   if (c.slug === 'raindrop') {
     return 'Yes. Marqly imports Raindrop.io collections directly, and on Pro AI re-tags everything on the way in so your saves become searchable by meaning.';

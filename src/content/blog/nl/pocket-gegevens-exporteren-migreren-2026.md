@@ -15,9 +15,9 @@ ctaLabel: "Probeer Marqly gratis"
 lang: "nl"
 faqs:
   - q: "Hoe download ik mijn Pocket-archief?"
-    a: "Mozilla sloot Pocket op 8 juli 2025 en de exportperiode eindigde op 8 oktober 2025. Gebruikers met een bestaand exportbestand (.html of .csv) kunnen dit direct importeren in Marqly."
+    a: "Mozilla sloot Pocket op 8 juli 2025 en de exportperiode eindigde op 8 oktober 2025. Gebruikers met de gedownloade exportarchief importeren direct de bijgevoegde list.csv (.csv) in Marqly — het .html-bestand is een indeling die de importer niet leest."
   - q: "Blijven mijn tags bewaard bij de overstap?"
-    a: "Ja, Marqly behoudt al je oorspronkelijke tags en titels tijdens het importeren."
+    a: "Ja, Marqly behoudt je tags en titels tijdens het importeren; de oorspronkelijke opsladatum wordt de importdatum."
 heroImage: ../../../assets/blog/how-to-export-migrate-pocket-data.png
 heroAlt: "Stapsgewijze gids voor het exporteren van Pocket-gegevens"
 ---

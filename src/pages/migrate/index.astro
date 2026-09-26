@@ -22,7 +22,7 @@ const guides = [
     url: '/migrate/pocket',
     badge: 'Discontinued Service',
     badgeClass: 'badge-warning',
-    desc: 'How to import your downloaded Pocket export archive (.html or .csv) and restore your saved articles with AI semantic search.',
+    desc: 'How to import the list.csv from your downloaded Pocket export archive (the HTML file inside it does NOT import — the guide explains) and restore your saved articles with AI semantic search on Pro.',
   },
   {
     name: 'Raindrop.io Migration',
@@ -94,6 +94,16 @@ const jsonLd = [
           Your saved knowledge shouldn't be trapped in a discontinued app or a closed silo. Every guide below shows what your export actually contains, how to bring it into Marqly, and what to check after the import so you know nothing went missing.
         </p>
       </header>
+
+      <aside class="method-note">
+        <p>
+          <strong>How these guides know what they know:</strong> every fidelity matrix row is read from the importer
+          Marqly runs in production and, where possible, measured against genuine export files — including a real
+          412-item Raindrop archive and a real 261-item Pocket export (source hashes recorded 2026-09-26). Where we
+          have not run a genuine file yet, the row says “Not yet verified” instead of guessing. The Pocket finding
+          that started it all: <strong>Pocket’s <code>ril_export.html</code> does not import — its <code>list.csv</code> does.</strong>
+        </p>
+      </aside>
 
       <section class="guides-grid">
         {guides.map((g) => (
@@ -218,6 +228,15 @@ const jsonLd = [
     line-height: var(--lh-base);
     color: var(--ink-2);
   }
+  .method-note {
+    margin-block: 0 1.6rem;
+    padding: 1rem 1.2rem;
+    border: 1px solid var(--border-1);
+    border-radius: var(--radius-card);
+    background: var(--surface-1);
+  }
+  .method-note p { margin: 0; max-width: 80ch; font-size: var(--fs-sm); color: var(--color-text-muted); }
+  .method-note strong { color: var(--color-text, inherit); }
   .guides-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));

@@ -17,13 +17,13 @@ faqs:
   - q: "What is the best Pocket alternative in 2026?"
     a: "Marqly is the best Pocket alternative for most people in 2026: it imports your Pocket library in minutes and adds the semantic AI search Pocket never had, so you find saves by meaning instead of keywords. Raindrop.io is the best free option, and Readwise Reader is best for power readers who highlight."
   - q: "Can I still import my Pocket data after the shutdown?"
-    a: "Yes. If you exported your Pocket data before or during the July 2025 shutdown, most modern tools — including Marqly, Raindrop, and Instapaper — import that file directly, preserving your saved articles and tags. Marqly imports a Pocket export in about two minutes."
+    a: "Yes. If you exported your Pocket data before or during the July 2025 shutdown, most modern tools — including Marqly, Raindrop, and Instapaper — import the CSV from that archive, preserving your saved links and tags. Marqly imports the CSV in about two minutes (its importer reads the CSV, not the HTML preview file — see the [tested matrix](/migrate/pocket))."
   - q: "Is there a free Pocket alternative?"
     a: "Yes. Raindrop.io has the most generous free tier for general saving, Instapaper offers a free minimalist reader, and Marqly's free plan stores up to 100 bookmarks with search across the whole library — its AI layer (auto-tagging, summaries, semantic search) is part of Pro. Wallabag is completely free if you self-host it."
   - q: "What made Pocket different from a normal bookmark manager?"
     a: "Pocket was a read-it-later app: it saved articles into a clean, distraction-free reader for later, rather than just storing links. The best 2026 alternatives keep that reader experience and add AI summaries and semantic search on top."
   - q: "When did Pocket actually shut down?"
-    a: "Mozilla shut down Pocket on July 8, 2025, and the official export window closed on October 8, 2025. Mozilla has permanently deleted all remaining cloud data. If you already have your exported file, modern tools like Marqly can import it directly."
+    a: "Mozilla shut down Pocket on July 8, 2025, and the official export window closed on October 8, 2025. Mozilla has permanently deleted all remaining cloud data. If you already have your exported archive, modern tools like Marqly import the CSV inside it."
   - q: "What does a Pocket export file actually contain?"
     a: "A Pocket export is essentially your list of saved links plus metadata — URLs, titles, tags, and timestamps — not the full article text. When you import it into a new tool, the app re-saves those links; the reading experience is rebuilt from the live page, so it's best to import while the original articles are still online."
   - q: "Why pick an AI-search tool over a like-for-like Pocket clone?"
@@ -49,7 +49,7 @@ Here are the facts:
 
 1. **July 8, 2025 — shutdown.** Mozilla ended Pocket service and turned off new saves. The apps and extensions stopped syncing.
 2. **October 8, 2025 — export window closed.** The export window closed permanently, and Mozilla purged user databases.
-3. **Today — migration of existing exports.** If you already have your downloaded Pocket export file, modern tools can import it directly. If you never exported, you're starting fresh with a new tool.
+3. **Today — migration of existing exports.** If you already have your downloaded Pocket export archive, modern tools can import the CSV inside it. If you never exported, you're starting fresh with a new tool.
 
 ## How do the best Pocket alternatives compare?
 

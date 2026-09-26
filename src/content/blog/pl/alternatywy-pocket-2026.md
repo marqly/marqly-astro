@@ -18,7 +18,7 @@ faqs:
   - q: "Jaka jest najlepsza ogólna alternatywa dla Pocket w 2026 roku?"
     a: "Dla większości użytkowników najlepszym wyborem jest Marqly. Pozwala zaimportować archiwum z Pocket w zaledwie 2 minuty i rozwiązuje największą wadę Pocketa dzięki semantycznemu wyszukiwaniu AI — artykuły znajdujesz na podstawie tego, co z nich pamiętasz."
   - q: "Czy nadal mogę przenieść moje stare dane z Pocket?"
-    a: "Tak. Jeśli pobrałeś plik eksportu HTML przed całkowitym wyłączeniem serwerów, możesz bez problemu zaimportować całą historię do Marqly, Raindrop lub Instapaper."
+    a: "Tak. Jeśli pobrałeś archiwum eksportu przed wyłączeniem serwerów, zaimportujesz całą historię do Marqly — importer czyta plik list.csv z archiwum (znajduje się w nim też podglądowy HTML, którego Marqly nie importuje)."
   - q: "Która alternatywa dla Pocket jest całkowicie darmowa?"
     a: "Raindrop.io oferuje bardzo bogaty plan bezpłatny. Marqly zapewnia darmowy plan do 100 zakładek z pełnym przeszukiwaniem całej biblioteki. Dla osób posiadających własny serwer darmową opcją open source jest Wallabag."
   - q: "Kiedy dokładnie Pocket został zamknięty?"
@@ -33,7 +33,7 @@ Zamknięcie Pocket przez Mozillę w 2025 roku zakończyło pewną epokę w inter
 ## Zestawienie 8 najlepszych alternatyw dla Pocket w 2026
 
 ### 1. Marqly — Najlepsza alternatywa z semantycznym wyszukiwaniem AI
-Marqly to najnowocześniejszy następca Pocket. Oferuje błyskawiczny import archiwum HTML, czysty tryb czytnika oraz **semantyczne wyszukiwanie AI**. Nie musisz pamiętać dokładnego tytułu artykułu — wystarczy, że opiszesz to, co z niego zapamiętałeś.
+Marqly to najnowocześniejszy następca Pocket. Oferuje błyskawiczny import CSV z archiwum eksportu, czysty tryb czytnika oraz **semantyczne wyszukiwanie AI**. Nie musisz pamiętać dokładnego tytułu artykułu — wystarczy, że opiszesz to, co z niego zapamiętałeś.
 - **Dla kogo**: Dla każdego, kto ma dość zapomnianych zakładek i chce natychmiast odnajdywać wiedzę.
 - **Cena**: Darmowy plan do 100 zakładek; Pro $72/rok ($49 w pierwszym roku).
 

@@ -15,7 +15,7 @@ ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "如何导出 Pocket 中的收藏数据？"
-    a: "Mozilla 已于 2025 年 7 月 8 日停运 Pocket，官方数据导出窗口也已于 2025 年 10 月 8 日关闭。如果您此前已下载了备份文件（.html 或 .csv），可直接导入 Marqly。"
+    a: "Mozilla 已于 2025 年 7 月 8 日停运 Pocket，官方数据导出窗口也已于 2025 年 10 月 8 日关闭。如果您此前已下载了导出压缩包，可直接将其中的 list.csv 导入 Marqly（.html 文件不是导入器支持的格式，迁移指南有完整说明）。"
   - q: "迁移后我的标签（Tags）会丢失吗？"
     a: "不会。像 Marqly 这样成熟的工具能完美保留所有原始标题和标签结构。"
 heroImage: ../../../assets/blog/how-to-export-migrate-pocket-data.png

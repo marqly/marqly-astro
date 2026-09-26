@@ -18,7 +18,7 @@ faqs:
   - q: "2026'da Pocket için en iyi genel alternatif hangisidir?"
     a: "Çoğu kullanıcı için en ideal alternatif Marqly'dir. Pocket dışa aktarma dosyasını 2 dakikada içe aktarır ve yapay zeka anlamsal araması sayesinde makaleleri hatırladığınız anlamla bulmanızı sağlar."
   - q: "Eski Pocket verilerimi hala aktarabilir miyim?"
-    a: "Evet. Sunucular tamamen kapanmadan önce indirdiğiniz HTML dışa aktarma dosyası elinizde varsa Marqly, Raindrop veya Instapaper'a tek tıkla yükleyebilirsiniz."
+    a: "Evet. Sunucular kapanmadan önce indirdiğiniz dışa aktarma arşivi elinizdeyse, içindeki list.csv dosyasını Marqly'ye tek adımda içe aktarabilirsiniz (arşivdeki .html önizleme dosyası Marqly'nin okuduğu biçim değildir)."
   - q: "Tamamen ücretsiz bir Pocket alternatifi var mı?"
     a: "Raindrop.io zengin bir ücretsiz plan sunar. Marqly ise 100 yer imine kadar tüm kütüphaneyi kapsayan arama özellikli ücretsiz bir plana sahiptir."
   - q: "Pocket tam olarak ne zaman kapandı?"
@@ -33,7 +33,7 @@ Mozilla'nın 2025 yılında Pocket hizmetini sonlandırması web dünyasında bi
 ## 2026'nın En İyi 8 Pocket Alternatifi
 
 ### 1. Marqly — Yapay zeka anlamsal aramalı en modern alternatif
-Marqly, Pocket'ın boşluğunu dolduran en güçlü araçtır. HTML dışa aktarma dosyasını saniyeler içinde içe aktarır, reklamsız temiz bir okuma modu sunar ve **yapay zeka destekli anlamsal arama** ile tam başlığı unutsanız bile aklınızda kalan konuyu yazarak içeriği bulmanızı sağlar.
+Marqly, Pocket'ın boşluğunu dolduran en güçlü araçtır. Pocket CSV dışa aktarımını saniyeler içinde içe aktarır, reklamsız temiz bir okuma modu sunar ve **yapay zeka destekli anlamsal arama** ile tam başlığı unutsanız bile aklınızda kalan konuyu yazarak içeriği bulmanızı sağlar.
 - **Kimler için**: Kaydettiği linkleri unutmaktan bıkan ve aradığını anında bulmak isteyenler.
 - **Fiyat**: 100 yer imine kadar ücretsiz; Pro yıllık 72$ (ilk yıl 49$).
 

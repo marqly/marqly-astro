@@ -15,9 +15,9 @@ ctaLabel: "Marqly kostenlos testen"
 lang: "de"
 faqs:
   - q: "Wie exportiere ich meine Daten aus Pocket?"
-    a: "Mozilla hat Pocket am 8. Juli 2025 eingestellt und das Exportfenster am 8. Oktober 2025 geschlossen. Nutzer mit einer vorhandenen Exportdatei (.html oder .csv) können diese direkt in Marqly importieren."
+    a: "Mozilla hat Pocket am 8. Juli 2025 eingestellt und das Exportfenster am 8. Oktober 2025 geschlossen. Nutzer mit dem gespeicherten Export-Archiv importieren direkt die darin enthaltene list.csv (.csv) in Marqly — die .html-Datei ist ein Format, das der Importer nicht einliest."
   - q: "Gehen meine Schlagwörter (Tags) beim Wechsel verloren?"
-    a: "Nein. Moderne Lesezeichen-Manager wie Marqly übernehmen sämtliche Tags und Metadaten beim Import automatisch."
+    a: "Nein. Marqly übernimmt beim Import Ihre Tags und Titel; das gespeicherte Datum wird durch das Importdatum ersetzt."
   - q: "Welches Tool ist die beste Alternative zu Pocket?"
     a: "Marqly bietet die modernste Lösung mit integrierter KI-Semantiksuche, automatischen Zusammenfassungen und Browser-Erweiterungen für alle Plattformen."
 heroImage: ../../../assets/blog/how-to-export-migrate-pocket-data.png

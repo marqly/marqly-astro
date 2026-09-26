@@ -53,7 +53,7 @@ We compared seven prominent replacements across six key criteria: **export file 
 
 If Pocket's biggest flaw was that it became a "read-never" graveyard where you saved thousands of links you could never find again, Marqly is the direct upgrade.
 
-Marqly imports legacy Pocket export files (`ril_export.html` or CSV) in about two minutes with your original tags and timestamps intact. Once imported, Marqly's AI does the filing: it automatically generates concise summaries and indexes content semantically.
+Marqly imports the **CSV** from your Pocket export archive (not `ril_export.html` — the HTML uses a layout the importer can't read; see the [migration guide](/migrate/pocket)) in about two minutes, with your titles, URLs and tags intact. Saved timestamps don't ride along — imports take the import date. Once imported, Pro's AI does the filing: it automatically generates concise summaries and indexes content semantically.
 
 The critical difference is **search by paraphrase**: instead of guessing the exact title keyword you saved in 2022, you search by concept (*"that essay on the history of typography"* or *"the video showing sourdough hydration techniques"*). Marqly finds the right save even with zero exact word matches.
 
@@ -123,7 +123,7 @@ Running as a lightweight Docker container on a home server or VPS, Karakeep prov
 Before choosing a replacement, check which group you belong to:
 
 1. **You already have your Pocket export file:**
-   You downloaded `ril_export.html` or `pocket-export.zip` before the October 8, 2025 deadline. You are in great shape. Follow our [Pocket to Marqly migration guide](/migrate/pocket) to import your file directly, use our free [Pocket Export Converter](/tools/pocket-export-converter), or inspect your archive with our [Bookmark File Viewer](/tools/bookmark-file-viewer).
+   You downloaded `ril_export.html` or `pocket-export.zip` before the October 8, 2025 deadline. You are in great shape. Follow our [Pocket to Marqly migration guide](/migrate/pocket) to import `list.csv` from inside the archive, use our free [Pocket Export Converter](/tools/pocket-export-converter) to preview it or rebuild it as browser-importable HTML, or inspect the archive with our [Bookmark File Viewer](/tools/bookmark-file-viewer).
 2. **You never downloaded your Pocket archive:**
    Mozilla's servers have deleted all user databases, and data recovery through Pocket is impossible. However, if you had Pocket synced with Firefox or exported bookmarks from Chrome, you can export your browser bookmarks HTML file and import that into Marqly via our [Universal Migration Center](/migrate).
 
