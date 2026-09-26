@@ -165,3 +165,5 @@ window (competitor names are read from `src/data/competitors/*.json`).
   line (history), "2.000 millones de artículos" (Pocket's own stat), and the
   rhetorical "2,000 saves in four places". Regression guard: T1.F18.06 fails
   if 2,000 reappears in any Marqly-owned namespace.
+
+- 2026-09-26 (batch 7b): "Marqly imports Pocket export files directly" was FALSE for the HTML file — measured vs a genuine 261-item `ril_export.html` (0/261 parse; import fails safe). Approved truth: import `list.csv` from the export ZIP; titles/URLs/tags survive, `time_added`/`status` columns are dropped; the HTML preview file is not importable (its layout is UL/LI, not Netscape DL). Never restate the HTML claim for Marqly (competitor claims unverified — leave those rows alone). Corpus + hashes: `active/logs/benchmark/2026-09-26-import-fidelity/REAL-CORPUS.json`. Single render source: `src/data/migration-fidelity.ts`.

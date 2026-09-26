@@ -129,6 +129,19 @@ editorial in English per revenue plan §:28).
   synthetic corpus remains unpublished per rule. The builder doubles as the
   trust asset: it emits the exact file format whose fidelity we just documented.
 
+- **D-025 Real corpus falsified a flagship claim.** Searched public repos (gh code
+  search) for genuine exports and ran the deployed parser: a real Pocket
+  `ril_export.html` (261 items, authentic header/attrs) → **0 bookmarks** —
+  Pocket's HTML is `<ul><li>`, not the Netscape DL the importer reads. Every
+  "Marqly imports Pocket files directly" surface (26 files, 10 languages) now
+  says list.csv, and the matrix's first row is the format denial. A real
+  412-item Raindrop export quantified the `<DD>` bug at 306/412 differing
+  description records (deployed vs staged fix) — the numbers behind D-022 are
+  now measurements, not inference. Provenance+sha256 per file in
+  `active/logs/benchmark/2026-09-26-import-fidelity/REAL-CORPUS.json`; fixture
+  bytes stay in ignored active/tmp (privacy), never executed/rendered.
+  Rejected: softening the denial to keep the compare-page tick pretty.
+
 ### Batch-7 task state (owner-gated / next-trigger)
 | Item | Trigger |
 |---|---|
