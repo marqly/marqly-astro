@@ -56,6 +56,6 @@ Then open the page you want to keep and save it as a PDF from the extension. The
 
 ## Who this is not for
 
-Honest fit check. Marqly is not a batch converter: there's no public API, so if your job is turning a spreadsheet of 500 URLs into 500 PDFs on a schedule, you want a dedicated conversion service. It's not a PDF editor either — you can't rearrange pages, fill forms, or annotate inside the file after capture. And Marqly has no offline reading mode, so don't pick it as an offline-first reading app.
+Honest fit check. Marqly is not a batch converter: there's no public API, so if your job is turning a spreadsheet of 500 URLs into 500 PDFs on a schedule, you want a dedicated conversion service. It's not a PDF editor either — you can't rearrange pages, fill forms, or annotate inside the file after capture. And offline reading (Pro) only caches pages you mark, one device at a time — don't pick Marqly as an offline-first reading app; the PDF you keep locally is the permanent copy.
 
 Where it fits: you regularly hit pages worth keeping exactly as they look, and you want each one captured in a click and filed somewhere you can actually search. If that's the job, the capture quality — screen-faithful, images included, processed locally — is hard to beat with a print dialog.

@@ -13,7 +13,7 @@ faqs:
   - q: "Can I import my Pocket articles into Marqly?"
     a: "Yes. Marqly imports Pocket exports directly, along with Raindrop.io collections and the standard bookmark HTML files that Chrome, Firefox, Edge, and Safari produce. Your imported backlog gets AI tags on the way in, so the years of saves you brought over become searchable by meaning immediately — often better organized than they ever were in the original app."
   - q: "Does Marqly work offline?"
-    a: "No. Marqly has no offline reading mode — you need a connection to read your saves. If your main reading time is on flights or a subway with no signal, a dedicated offline reader is honestly a better fit for that specific situation. Marqly's strengths are on the other side of the job: AI triage, highlighting, and finding saves again by meaning."
+    a: "Partly. On Pro, the web app and the iOS app can cache articles you mark for offline — they open with no connection, on that device. What it doesn't do is sync a whole queue down to every device the way a dedicated offline reader does, and there's no offline on the free plan, the extensions, or Android. Marqly's strengths are on the other side of the job: AI triage, highlighting, and finding saves again by meaning."
   - q: "What does Marqly cost?"
     a: "The free tier requires no card — sign up at app.marqly.com and start saving. Pro is $72 per year (about $6 a month billed annually) or $9 billed monthly. Pro adds features like AI Q&A over your saved content, where you ask questions and get answers drawn from articles you've saved."
 ---
@@ -61,6 +61,6 @@ Pro is $72/year (about $6/month billed annually) or $9/month. There's also an iO
 
 ## Is Marqly the right fit?
 
-The honest limitation first: **Marqly has no offline reading mode.** If most of your reading happens on planes or underground, a dedicated offline reader serves that specific need better, and pretending otherwise would waste your time.
+The honest limitation first: **offline reading is Pro, per-device, and only for pages you mark** (web app or iPhone app — not the extensions, not Android). If most of your reading happens on planes and you expect your whole queue waiting offline on every device, a dedicated offline reader serves that specific habit better, and pretending otherwise would waste your time.
 
 Where Marqly fits is the larger version of the job: you save more than you can read, you want help deciding what deserves attention, and you want what you've read — and highlighted — to stay findable for years. If that's the actual problem, try it free at [app.marqly.com](https://app.marqly.com).

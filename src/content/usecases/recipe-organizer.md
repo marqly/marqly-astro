@@ -56,6 +56,6 @@ Sign up free at [app.marqly.com](https://app.marqly.com) — no credit card, and
 
 ## Who this is not for
 
-Marqly is not a meal-planning app. It won't generate grocery lists, scale ingredient quantities, calculate nutrition, or slot dinners into a calendar — if that workflow is what you're after, a dedicated cooking app does it and Marqly doesn't pretend to. It also has no offline mode, so it's not the tool for a cabin with no signal.
+Marqly is not a meal-planning app. It won't generate grocery lists, scale ingredient quantities, calculate nutrition, or slot dinners into a calendar — if that workflow is what you're after, a dedicated cooking app does it and Marqly doesn't pretend to. Offline reading is a Pro feature for marked pages on a single device — it's not a synced offline cookbook for a cabin with no signal.
 
 The fit: your recipes are scattered across the open web, the collection has outgrown your memory, and the thing you actually need is to *find the right recipe fast* from whatever detail stuck — an ingredient, a technique, the night you made it. Saving from anywhere and searching by meaning is precisely that.

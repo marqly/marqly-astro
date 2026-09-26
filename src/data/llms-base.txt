@@ -11,8 +11,10 @@ Key facts:
 - YouTube AI card: on every YouTube watch page, Marqly shows a card next to the video with an AI Summary tab (streaming TL;DR + key sections, plus books mentioned in the video), a Chat tab (ask questions answered from the video's transcript — Pro), and a Transcript tab (playback-synced, one-click copy). A Bookmark button in YouTube's action row saves the video with its transcript attached.
 - Highlights: select text on any website, highlight in 6 colors, add notes; highlights persist on the page when you revisit and sync to your library. Boards of links and highlights can be shared as a public page (no signup needed to view).
 - Save as PDF: capture any page as a clean PDF that matches the on-screen layout (lazy-loaded images included), locally in the browser.
-- Import: Pocket exports, Raindrop.io collections, and standard browser bookmark HTML exports.
-- Search: semantic — "that video about sourdough starters" finds the right save without the title.
+- Import: Pocket exports, Raindrop.io collections (HTML or CSV — not its JSON export), and standard browser bookmark HTML exports. Imported titles, URLs, tags, and folder structure (flattened to two board levels) carry over; original save dates do not — imported items take the import date.
+- Export: built-in CSV export (URL, Title, Description, Tags) — Free exports the 100 most recent saves, Pro the whole library plus a new-since-last-export mode. A complete account copy (boards, highlights, notes) is available from support.
+- Offline reading (Pro): pages you mark are cached on the device in the web app and the iOS app and open without a connection; per-device only — no server-stored copies, no cross-device offline sync, and no offline in the browser extensions or the Android app.
+- Search: keyword search covers the whole library on Free; semantic — Pro — "that video about sourdough starters" finds the right save without the title.
 
 ## Product
 

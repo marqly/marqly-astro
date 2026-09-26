@@ -2,7 +2,7 @@
 question: "Where is my Marqly data stored?"
 description: "Marqly stores your saves in secure cloud infrastructure tied to your private account, synced across your devices. The privacy policy covers the details."
 category: trust
-updatedDate: 2026-08-02
+updatedDate: 2026-09-26
 related:
   - is-marqly-safe
   - does-marqly-sell-my-data
@@ -19,7 +19,7 @@ A bookmark manager that only lives on one machine fails at its main job. Because
 - Losing or replacing a device doesn't lose your library.
 - AI features — auto-tagging, summaries, semantic search — run against your whole library, not just what happens to be on the current machine.
 
-Note that Marqly has no offline reading mode; your library is accessed through your signed-in devices.
+Note that Marqly's library lives in your account, not on any device — the one exception is Pro's offline reading, which caches the pages *you* mark on the device you mark them on, and stores nothing offline on our servers.
 
 ## Who can see it
 

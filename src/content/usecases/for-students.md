@@ -54,7 +54,7 @@ Boards let you group links and highlights, so "ECON 201," "Dissertation," and "I
 
 Saving, transcripts and highlighting work on the free tier — [is Marqly free?](/faq/is-marqly-free) covers exactly what's included, and where its limits are. The AI features, semantic search included, are Pro, and you unlock them by upgrading at [app.marqly.com](https://app.marqly.com).
 
-One honest caveat before you commit: Marqly has no offline mode, so it won't replace a read-it-later app for studying on a flight or an underground commute with no signal. If your studying is mostly offline, Marqly is a weaker fit; for everyone working in a desktop browser — or from the [iOS](/faq/is-there-an-ios-app) or [Android](/faq/is-there-an-android-app) app — it's built for exactly the semester you're having.
+One honest caveat before you commit: offline reading is a Pro feature in the web and iOS apps, and it only caches the pages you mark, on one device at a time — it won't replace a read-it-later app that keeps your whole queue synced for flights. If your studying is mostly offline, that row is a weaker fit; for everyone working in a desktop browser — or from the [iOS](/faq/is-there-an-ios-app) or [Android](/faq/is-there-an-android-app) app — it's built for exactly the semester you're having.
 
 ## The reading matrix — free template
 

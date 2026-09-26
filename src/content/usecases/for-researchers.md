@@ -52,7 +52,7 @@ Conference talks, methods tutorials, and recorded seminars carry real content th
 2. **Import your existing collections.** Bring in browser bookmarks (the standard HTML export), a Pocket archive, or Raindrop.io collections in one pass.
 3. **Let Pro's auto-tagging process the backlog.** The AI tags everything you imported, turning years of accumulated links into a structured library on day one. From there, the habit is one click per source, and the system in [how to build a second brain](/blog/how-to-build-a-second-brain) maps well onto research practice.
 
-Where Marqly is *not* the right tool: it is not a citation manager — it won't format references or sync BibTeX, so keep Zotero or equivalent for bibliographies. There's no offline mode, no public API for scripted pipelines, and no self-hosted option, which rules it out for air-gapped environments or institutions that require on-premise tools. If your bottleneck is recalling and reusing what you read — rather than formatting what you cite — that's the job Marqly does well.
+Where Marqly is *not* the right tool: it is not a citation manager — it won't format references or sync BibTeX, so keep Zotero or equivalent for bibliographies. Offline reading (Pro) caches the papers you mark, on one device — enough for the flight to the conference, not a synced corpus — and there's no public API for scripted pipelines and no self-hosted option, which rules it out for air-gapped environments or institutions that require on-premise tools. If your bottleneck is recalling and reusing what you read — rather than formatting what you cite — that's the job Marqly does well.
 
 ## The reading matrix — free template
 

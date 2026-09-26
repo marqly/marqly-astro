@@ -48,7 +48,7 @@ Two more tools speed up the research phase itself. AI summaries let you triage a
 2. **Import your research backlog.** Standard browser bookmark exports, Pocket archives, and Raindrop.io collections all import directly, so the material from past pieces comes with you.
 3. **Let auto-tagging sort the pile.** The AI tags the whole import and every future save. Your job reduces to the click and the highlight; the library handles the rest.
 
-Where the fit ends: Marqly is not a drafting environment — you'll still write in your word processor or plain-text editor of choice — and it has no offline mode, so research reading on a signal-dead train needs a different tool. What it owns is everything between "I should keep this" and "where was that line?" — the stretch of the writing process where good material usually disappears.
+Where the fit ends: Marqly is not a drafting environment — you'll still write in your word processor or plain-text editor of choice — and offline reading is Pro and per-device (web or iOS app), so tomorrow's chapter sources need marking before the signal-dead train. What it owns is everything between "I should keep this" and "where was that line?" — the stretch of the writing process where good material usually disappears.
 
 ## The quote bank — free template
 

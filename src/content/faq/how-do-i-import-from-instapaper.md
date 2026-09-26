@@ -1,15 +1,15 @@
 ---
 question: "How do I import my Instapaper articles into Marqly?"
-description: "Instapaper exports your saves as standard HTML and CSV files. Import the HTML export into Marqly and AI auto-tagging organizes every article automatically."
+description: "Instapaper exports your saves as standard HTML and CSV files. Import the HTML export into Marqly — folders and tags carry over, and on Pro AI auto-tagging organizes every article automatically."
 category: getting-started
-updatedDate: 2026-08-02
+updatedDate: 2026-09-26
 related:
   - how-do-i-import-from-pocket
   - how-do-i-import-chrome-bookmarks
   - what-is-a-read-it-later-app
 ---
 
-Instapaper lets you export your saved articles in standard formats — HTML and CSV. Take the HTML export, sign in to Marqly, and import it: the HTML bookmark format is exactly what Marqly's importer reads. Your Instapaper backlog comes across as saved links, and Marqly's AI auto-tags each one, so the pile you meant to read someday becomes a library you can actually search.
+Instapaper lets you export your saved articles in standard formats — HTML and CSV. Take the HTML export, sign in to Marqly, and import it: the HTML bookmark format is exactly what Marqly's importer reads. Your Instapaper backlog comes across as saved links (highlights in Instapaper's export don't transfer — the links and their metadata do), and on Pro Marqly's AI re-tags each one, so the pile you meant to read someday becomes a library you can actually search.
 
 ## The migration path
 
@@ -23,9 +23,9 @@ Marqly imports standard bookmark HTML — the same format browsers like Chrome, 
 
 Instapaper's model is a clean reading queue. The failure mode most people hit is the queue itself: hundreds of unread articles with no way to find the one you actually need. Marqly attacks that directly:
 
-- **AI auto-tagging** files every article the moment it lands — including your entire import
+- **AI auto-tagging (Pro)** files every article the moment it lands — including your entire import
 - **AI summaries** let you triage a backlog fast instead of reading linearly
-- **Semantic search** finds saves by meaning: describe the article, get the article
+- **Semantic search (Pro)** finds saves by meaning: describe the article, get the article
 
 If you're still choosing your next tool, the wider field is covered in [the best Instapaper alternatives in 2026](/blog/instapaper-alternatives-2026), and the category basics are in [what is a read-it-later app](/faq/what-is-a-read-it-later-app).
 

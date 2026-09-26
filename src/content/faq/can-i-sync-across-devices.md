@@ -2,7 +2,7 @@
 question: "Can I sync Marqly across devices?"
 description: "Yes — Marqly syncs through your account. Save from the browser extension, web app, iOS app, or Android app, and your library stays identical on every signed-in device."
 category: getting-started
-updatedDate: 2026-08-02
+updatedDate: 2026-09-26
 related:
   - does-marqly-work-offline
   - is-there-an-ios-app
@@ -28,4 +28,4 @@ The common pattern: save at a desk, retrieve everywhere. Heavy saving happens in
 
 ## The one requirement: a connection
 
-Because your library lives in your account, reaching it requires being online — Marqly has no offline mode, and we say so plainly in [does Marqly work offline](/faq/does-marqly-work-offline). The flip side is that no device ever holds the only copy of your bookmarks: lose a laptop, and your library is untouched.
+Because your library lives in your account, reaching the full thing requires being online — the offline cache (Pro, web + iOS) holds only the pages you marked, on the one device where you marked them, as covered in [does Marqly work offline](/faq/does-marqly-work-offline). The flip side is that no device ever holds the only copy of your bookmarks: lose a laptop, and your library is untouched.

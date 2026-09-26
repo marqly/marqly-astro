@@ -2,7 +2,7 @@
 question: "What happens to my bookmarks if I cancel Marqly?"
 description: "Your bookmarks stay — canceling never deletes data. Canceling Marqly Pro moves you to the free tier, where every bookmark you saved stays readable and searchable; only the Pro AI features stop."
 category: pricing
-updatedDate: 2026-08-02
+updatedDate: 2026-09-26
 related:
   - how-do-i-cancel-my-subscription
   - what-happens-when-my-trial-ends
@@ -13,7 +13,7 @@ Nothing is deleted when you cancel. When you cancel Marqly Pro, your account dro
 
 ## The free tier is a real landing spot
 
-This matters because some subscription products effectively hold your data hostage: cancel, and your archive goes read-only or disappears after a grace period. Marqly's free tier isn't that — nothing is ever deleted for being on it. After canceling you can still save new links, get AI auto-tagging on them, and use semantic search across your accessible library. Your library doesn't freeze; it keeps growing if you want it to.
+This matters because some subscription products effectively hold your data hostage: cancel, and your archive goes read-only or disappears after a grace period. Marqly's free tier isn't that — nothing is ever deleted for being on it. After canceling you can still save new links, file them by hand, use your imported and manual tags, and keyword-search your whole library. Your library doesn't freeze; it keeps growing if you want it to.
 
 ## What you actually lose
 

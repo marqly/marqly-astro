@@ -2,7 +2,7 @@
 question: "What is a read-it-later app?"
 description: "A read-it-later app saves articles and videos to a queue for when you have time. Pocket defined the category; its July 2025 shutdown reshaped what comes next."
 category: basics
-updatedDate: 2026-08-02
+updatedDate: 2026-09-26
 related:
   - is-marqly-a-pocket-replacement
   - how-do-i-import-from-pocket
@@ -23,4 +23,4 @@ Pocket's shutdown did more than orphan its users — it reset expectations. A pl
 
 Marqly covers the save-for-later loop — one-click save from Chrome, Edge, Firefox, or Safari — and attacks the guilt-pile problem with AI: every save is auto-tagged, articles get AI summaries so you can triage a backlog fast, and semantic search finds a save from whatever you remember about it. If you're coming from Pocket, Marqly [imports Pocket export files directly](/faq/how-do-i-import-from-pocket).
 
-One honest limitation: Marqly has [no offline reading mode](/faq/does-marqly-work-offline). If downloading articles for flights was the heart of your read-it-later habit, factor that in before switching.
+One honest limitation: offline reading exists only on Pro, only in the web app and iOS app, and only per-device — see [does Marqly work offline](/faq/does-marqly-work-offline). If automatic whole-queue downloads for flights were the heart of your read-it-later habit, factor that in before switching.

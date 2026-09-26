@@ -59,6 +59,6 @@ The free tier gets you highlighting immediately. Pro — $72/year (about $6/mont
 
 ## Is Marqly the right fit?
 
-Boundaries, honestly drawn: the highlighter lives in the browser extension, so it works in Chrome, Edge, Firefox, and Safari — highlighting isn't something you do from the iOS or Android app (those are for reviewing your library). There's no offline mode either.
+Boundaries, honestly drawn: the highlighter lives in the browser extension, so it works in Chrome, Edge, Firefox, and Safari — highlighting isn't something you do from the iOS or Android app (those are for reviewing your library). And highlights need a live page — offline reading (Pro) is a web-app and iOS-app feature for marked articles.
 
 If what you want is a pen for the web — marks that survive, notes attached, everything collected somewhere searchable — this is exactly the job Marqly's highlighter does. Try it free at [app.marqly.com](https://app.marqly.com).

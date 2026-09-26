@@ -56,7 +56,7 @@ AI summaries earn their keep during screening: when a supervisor forwards eleven
 2. **Import the backlog you've already accumulated.** Marqly ingests standard browser bookmark HTML exports, Pocket archives, and Raindrop.io collections — likely everywhere your first-year reading is currently buried.
 3. **Let the AI tag it all.** Auto-tagging processes the imports and every save from here on, so the corpus stays organized while your attention stays on reading.
 
-Fit check, honestly: Marqly does not format citations or manage BibTeX — keep your reference manager for the bibliography. There's no offline mode for reading in dead zones, and no self-hosting for institutions that mandate it. What it replaces is the graveyard of bookmarks, open tabs, and "papers_final_v2" folders — the part of the PhD workflow nobody's reference manager ever fixed.
+Fit check, honestly: Marqly does not format citations or manage BibTeX — keep your reference manager for the bibliography. Offline reading exists on Pro — but only for pages you mark, on one device at a time — and there's no self-hosting for institutions that mandate it. What it replaces is the graveyard of bookmarks, open tabs, and "papers_final_v2" folders — the part of the PhD workflow nobody's reference manager ever fixed.
 
 ## The reading matrix — free template
 

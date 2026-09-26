@@ -48,7 +48,7 @@ Boards keep concurrent stories from bleeding together: one board per investigati
 2. **Import your existing link archive.** Browser bookmark HTML exports, Pocket exports, and Raindrop.io collections import directly — years of beat knowledge, recovered in one pass.
 3. **Let Pro's auto-tagging organize the archive.** AI tags everything imported and everything saved from now on, so the library structures itself while you report.
 
-The honest limits: Marqly has no offline mode, so it won't serve as a field kit where connectivity dies. It's also a personal library, not a newsroom system: shared boards are public, view-only pages — a multi-editor shared workspace is [Marqly Teams](/teams). For the individual reporter's problem — keeping months of sourcing accurate, organized, and findable at deadline — that's precisely the shape of the tool.
+The honest limits: offline reading is a Pro feature of the web and iOS apps that caches only what you mark, device by device — handy for deadline reading in a dead zone, but not a field kit where connectivity dies on every device you carry. It's also a personal library, not a newsroom system: shared boards are public, view-only pages — a multi-editor shared workspace is [Marqly Teams](/teams). For the individual reporter's problem — keeping months of sourcing accurate, organized, and findable at deadline — that's precisely the shape of the tool.
 
 ## The source log — free template
 

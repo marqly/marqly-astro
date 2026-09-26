@@ -2,7 +2,7 @@
 question: "What's on Marqly's roadmap?"
 description: "Marqly is actively developed, but we don't pre-announce features or dates. Follow @getmarqly on X for updates as they ship, or email requests to support."
 category: company
-updatedDate: 2026-08-02
+updatedDate: 2026-09-26
 related:
   - does-marqly-have-an-api
   - is-there-an-android-app
@@ -21,7 +21,7 @@ Email support@marqly.com with your use case. Not a feature name — the actual w
 
 ## What's true today
 
-Rather than promise futures, here are the current honest answers to the most-asked "when will you…" questions: there's [no public API](/faq/does-marqly-have-an-api) and [no offline reading mode](/faq/does-marqly-work-offline). The [Android app](/faq/is-there-an-android-app) is now on Google Play. None of the remaining gaps is a "never" — it's a "not today, and we won't pretend otherwise." If any of those change, @getmarqly is where the announcement lands first.
+Rather than promise futures, here are the current honest answers to the most-asked "when will you…" questions: there's [no public API](/faq/does-marqly-have-an-api), and offline reading — live today on Pro in the web app and the iOS app — hasn't come to the Android app yet. The [Android app](/faq/is-there-an-android-app) itself is now on Google Play. None of the remaining gaps is a "never" — it's a "not today, and we won't pretend otherwise." If any of those change, @getmarqly is where the announcement lands first.
 
 ## The pattern to expect
 

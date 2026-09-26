@@ -1,15 +1,15 @@
 ---
 question: "What's the difference between Marqly Free and Pro?"
-description: "Marqly Free covers saving, boards, highlights and keyword search across your whole library, up to 100 bookmarks. Every AI feature is Pro — tagging, summaries, semantic search, the Ask assistant and MCP access — at $72/yr or $9/mo."
+description: "Marqly Free covers saving, boards, highlights and keyword search across your whole library, up to 100 bookmarks. The AI layer is Pro (tagging, summaries, semantic search, the Ask assistant and MCP access), and so is offline reading — at $72/yr or $9/mo."
 category: pricing
-updatedDate: 2026-09-12
+updatedDate: 2026-09-26
 related:
   - is-marqly-free
   - how-much-does-marqly-cost
   - what-happens-when-my-trial-ends
 ---
 
-Marqly Free is the manual bookmark manager: save links from your browser, file them into boards, highlight what matters, and search by keyword. It covers your whole library, up to 100 bookmarks. **Every AI feature is Pro** — auto-tagging and summaries on every save, semantic search across your whole library, Ask (the assistant that answers from your saves, finds problems and tidies with your approval), your library inside Claude, ChatGPT and Cursor over MCP, and chat with YouTube videos through their transcripts. Pro costs $72 per year or $9 per month, billed when you upgrade, and you can cancel anytime.
+Marqly Free is the manual bookmark manager: save links from your browser, file them into boards, highlight what matters, and search by keyword. It covers your whole library, up to 100 bookmarks. **The AI layer is Pro** — auto-tagging and summaries on every save, semantic search across your whole library, Ask (the assistant that answers from your saves, finds problems and tidies with your approval), your library inside Claude, ChatGPT and Cursor over MCP, chat with YouTube videos through their transcripts (YouTube summaries include a small free allowance of 3 per month). **Offline reading is also Pro**: it caches pages you mark in the web app or iOS app, on that device only — not in the extensions or the Android app. Pro costs $72 per year or $9 per month, billed when you upgrade, and you can cancel anytime.
 
 ## What Free includes
 

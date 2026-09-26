@@ -65,6 +65,6 @@ The free tier lets you try the card on real videos. Pro — $72/year (about $6/m
 
 ## Is Marqly the right fit?
 
-Scope, stated plainly: the summarizer lives in the browser extension, so you need Chrome, Edge, Firefox, or Safari on a computer — if you watch exclusively in YouTube's mobile app, the card won't be part of that experience. Marqly doesn't download videos and has no offline mode. And chat is Pro, not free.
+Scope, stated plainly: the summarizer lives in the browser extension, so you need Chrome, Edge, Firefox, or Safari on a computer — if you watch exclusively in YouTube's mobile app, the card won't be part of that experience. Marqly doesn't download videos, and offline reading (Pro) caches article pages, not playback. And chat is Pro, not free.
 
 But if your browser is where YouTube happens and your problem is too many long videos and no way to triage them, a summarizer built into the watch page is the version of this tool that actually gets used. Try it free at [app.marqly.com](https://app.marqly.com).

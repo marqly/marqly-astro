@@ -11,7 +11,7 @@ hero:
 updatedDate: 2026-08-02
 faqs:
   - q: "Does Marqly download the video?"
-    a: "No. Marqly saves the video's link with its transcript attached — it doesn't download the video file, and there's no offline mode, so watching still happens on YouTube with a connection. What you gain is everything around the watching: the transcript in your library, AI summaries for triage, semantic search across what's said, and boards to keep the queue organized."
+    a: "No. Marqly saves the video's link with its transcript attached — it doesn't download the video file, and offline reading (Pro) caches article pages rather than playback, so watching still happens on YouTube with a connection. What you gain is everything around the watching: the transcript in your library, AI summaries for triage, semantic search across what's said, and boards to keep the queue organized."
   - q: "Which browsers do the YouTube features work in?"
     a: "The Marqly extension is available for Chrome, Edge, Firefox, and Safari, and the YouTube AI card — summary, transcript, and chat tabs, plus the bookmark button in the action row — comes with it on YouTube watch pages. There's also a web app, an iOS app, and an [Android app on Google Play](https://play.google.com/store/apps/details?id=com.marqly.android)."
   - q: "Is any of this free?"
@@ -59,6 +59,6 @@ The free tier covers the core save-and-triage workflow; Pro ($72/year, about $6/
 
 ## Is Marqly the right fit?
 
-To be clear about scope: Marqly doesn't download videos and has no offline mode — this is not a tool for watching on a plane. It also needs the browser extension for the YouTube features, so if you watch exclusively in the YouTube mobile app, the capture step won't be there (the iOS app and web app are for your library).
+To be clear about scope: Marqly doesn't download videos, and its offline cache is for article pages, not playback — this is not a tool for watching on a plane. It also needs the browser extension for the YouTube features, so if you watch exclusively in the YouTube mobile app, the capture step won't be there (the iOS app and web app are for your library).
 
 If the actual problem is a Watch Later list you never process — too long to face, impossible to search — saving with transcripts and triaging with summaries is the fix. Try it free at [app.marqly.com](https://app.marqly.com).
