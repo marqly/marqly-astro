@@ -1,0 +1,199 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import Breadcrumbs from '../../components/seo/Breadcrumbs.astro';
+import CtaBox from '../../components/seo/CtaBox.astro';
+import FaqAccordion from '../../components/seo/FaqAccordion.astro';
+import MigrationFidelity from '../../components/seo/MigrationFidelity.astro';
+import { breadcrumbList, faqPage, howTo, organization, softwareApplication, webSite } from '../../lib/schema';
+import { alternatesForPath } from '../../i18n/routes';
+
+const path = '/migrate/browser-bookmarks';
+const title = 'Move Chrome, Safari, Firefox or Edge Bookmarks to Marqly (2026)';
+const description =
+  'Every browser exports bookmarks as one HTML file — here is the exact export click-path for Chrome, Safari, Firefox and Edge, what Marqly preserves (real fidelity matrix), and the five-minute check after import.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Migrate', path: '/migrate' },
+  { name: 'Browser bookmarks', path },
+];
+
+const steps = [
+  {
+    name: 'Export one HTML file from your browser',
+    text: 'Chrome: open chrome://bookmarks → ⋮ menu → Export bookmarks. Edge: Favorites bar → ⋯ → Export favorites. Safari: Bookmarks menu → Export Bookmarks… Firefox: Library (≡ → Library) → Import and Backup → Export Bookmarks to HTML.',
+    url: path,
+  },
+  {
+    name: 'Preview and dedupe the file (free, in-browser)',
+    text: 'Open the export in the bookmark file viewer to see counts, folders and repeats before anything moves. Nothing is uploaded — parsing is local. Run the duplicate finder too if you have accumulated the same URL across profile syncs.',
+    url: path,
+  },
+  {
+    name: 'Import into Marqly',
+    text: 'Sign in at app.marqly.com (free plan needs no card) → sidebar menu → Import/Export → Import. Choose the HTML file. One file can be up to 30 MB / 10,000 bookmarks on Pro (10 MB on Free); split a huge profile into two exports by browser if needed.',
+    url: path,
+  },
+];
+
+const faqs = [
+  {
+    q: 'Do my folders survive the move?',
+    a: 'Yes — each folder becomes a Marqly board. Marqly boards hold two levels, so a deeper path like Research/Sources/2024 flattens to Sources-2024 under Research. Nothing is dropped; the third level joins into the second level’s name.',
+  },
+  {
+    q: 'Will my saved dates come with them?',
+    a: 'No, and this is the one row that surprises people: the export carries every ADD_DATE and the importer reads it — but the stored bookmark is dated the import day. If chronological filing matters, import in passes (oldest browser profile first) or sort by title.',
+  },
+  {
+    q: 'Do tags transfer?',
+    a: 'Firefox writes tags into the HTML export and they import as Marqly tags. Chrome, Edge and Safari bookmarks simply have no tags to export — the browsers never stored them.',
+  },
+  {
+    q: 'What about bookmark notes and descriptions?',
+    a: 'Firefox and Safari write descriptions as <DD> entries and they come through as the bookmark description. In the current importer, a note can land on the following item and the first note in each folder can be dropped — after import, open the top of each folder and spot-check. (A fix is being verified upstream; we will update this page the day it ships.)',
+  },
+  {
+    q: 'Is anything deduplicated automatically?',
+    a: 'No. Every row in the file becomes a save. Check repeats before uploading with the duplicate finder — free, local, no account — or clean up afterwards.',
+  },
+  {
+    q: 'Can I undo an import?',
+    a: 'There is no one-click undo, which is why the guide says preview first. Imports create ordinary new saves, so the recovery is ordinary: select the imported items in their board and delete them, or stop the job from the import dialog if the counts look wrong mid-flight. Your browser’s bookmarks and the export file are untouched throughout — the import never writes to your browser.',
+  },
+  {
+    q: 'Does importing hurt my existing Marqly library?',
+    a: 'No — imports add saves; they do not edit or delete what you already had. Duplicates of existing saves are possible if you imported a similar file before.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  softwareApplication(),
+  breadcrumbList(crumbs),
+  howTo(
+    'How to Move Browser Bookmarks to Marqly (Chrome, Safari, Firefox, Edge)',
+    'Export your bookmarks as an HTML file from any major browser, preview it locally, and import it into Marqly with folders converted to boards.',
+    steps,
+    'PT3M',
+  ),
+  faqPage(faqs),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  canonical="https://www.marqly.com/migrate/browser-bookmarks"
+  alternates={alternatesForPath(path)}
+  jsonLd={jsonLd}
+  ogImage="https://www.marqly.com/og/seo/migrate-browser-bookmarks.png"
+>
+  <article class="section">
+    <div class="container">
+      <Breadcrumbs items={crumbs} />
+
+      <header class="page-head">
+        <div class="badge-row">
+          <span class="pill-badge">Migration Guide · 2026</span>
+          <span class="time-badge">⏱️ Takes ~3 minutes</span>
+        </div>
+        <h1>Move your Chrome, Safari, Firefox or Edge bookmarks to Marqly</h1>
+        <p class="lead">
+          All four browsers export to the same Netscape bookmark HTML format, so there is one honest answer about what
+          transfers — and it is written from the importer Marqly actually runs in production, not from marketing slides.
+          Folders become boards, URLs and titles come verbatim, saved dates do not survive, and this page shows you
+          exactly where to check after the import.
+        </p>
+      </header>
+
+      <section class="browser-grid" aria-label="Export click-paths">
+        <div class="browser-card">
+          <h3>Chrome</h3>
+          <p>Address bar: <code>chrome://bookmarks</code> → three-dot menu → <strong>Export bookmarks</strong>. Saves <code>bookmarks_&lt;date&gt;.html</code> to your Downloads folder. Tip: if you sign in with multiple profiles, export from each — they are separate files.</p>
+        </div>
+        <div class="browser-card">
+          <h3>Edge</h3>
+          <p>Favorites bar (Ctrl+Shift+O) → three-dot menu → <strong>Export favorites</strong>. Same HTML format, same fields.</p>
+        </div>
+        <div class="browser-card">
+          <h3>Safari</h3>
+          <p><strong>Bookmarks → Export Bookmarks…</strong> from the menu bar. Safari writes any bookmark description into the file; iCloud-synced devices all read the same library, so one export covers the whole account.</p>
+        </div>
+        <div class="browser-card">
+          <h3>Firefox</h3>
+          <p>Menu (≡) → <strong>Library</strong> → Import and Backup → <strong>Export Bookmarks to HTML…</strong> Firefox is the only one of the four that exports tags with every bookmark.</p>
+        </div>
+      </section>
+
+      <section class="why" id="why">
+        <h2>Why move a plain bookmark folder into Marqly at all?</h2>
+        <p>
+          Browser bookmarks store a name and a URL and then quietly rot: the tab you meant to return to lives behind
+          four folder levels you never re-open, titles repeat themselves, and pages disappear. Marqly takes the same
+          HTML file and turns it into a library you can search by describing what you remember — auto-tagging, summaries
+          and semantic search are Pro features, and the free plan still gives you boards, tags and keyword search across
+          the first 100 saves.
+        </p>
+        <p>If your bookmarks actually came from a service rather than the browser, use the guide for it instead: <a href="/migrate/pocket">Pocket</a>, <a href="/migrate/raindrop">Raindrop.io</a>, <a href="/migrate/diigo">Diigo</a>, <a href="/migrate/instapaper">Instapaper</a>, <a href="/migrate/mymind">mymind</a> — or the <a href="/migrate">migration hub</a>.</p>
+      </section>
+
+      <section class="steps" id="steps">
+        <h2>The move, step by step</h2>
+        <ol>
+          {steps.map((s, i) => (
+            <li>
+              <h3>{i + 1}. {s.name}</h3>
+              <p>{s.text}</p>
+            </li>
+          ))}
+        </ol>
+        <p class="tool-line">
+          Tools used above, all free and browser-local:
+          <a href="/tools/bookmark-file-viewer">bookmark file viewer</a> ·
+          <a href="/tools/duplicate-bookmark-finder">duplicate finder</a> ·
+          <a href="/tools/research-table-builder">research table builder</a> (turn the imported set into a source log).
+        </p>
+      </section>
+
+      <MigrationFidelity source="browser-html" />
+
+      <section class="verify" id="after-import">
+        <h2>Five-minute check after importing</h2>
+        <ul class="checklist">
+          <li><strong>Count</strong> — bookmarks in the source browser ≈ saves in Marqly (minus duplicates you kept on purpose). The import dialog shows progress; a mismatch stops here, not after you cleaned the browser up.</li>
+          <li><strong>Depth</strong> — open one former three-level folder and confirm it reads <code>Parent / Child-Grandchild</code>.</li>
+          <li><strong>Tags</strong> (Firefox) — a couple of known tagged items should show the same tags.</li>
+          <li><strong>Notes</strong> (Firefox/Safari) — check the first item of a folder that had a description; the current importer shifts notes onto the following item.</li>
+          <li><strong>Search</strong> — keyword search works on the free plan for the whole library; semantic (“describe and find”) is Pro.</li>
+        </ul>
+        <p>
+          Something off? You can delete the imported batch from its boards and re-import after trimming the HTML file —
+          the export is yours, and nothing about the import touched the browser itself.
+        </p>
+      </section>
+
+      <FaqAccordion faqs={faqs} heading="Questions the export file won’t answer" />
+
+      <CtaBox />
+    </div>
+  </article>
+</LandingLayout>
+
+<style>
+  .page-head { margin-bottom: 2rem; }
+  .badge-row { display: flex; gap: 0.6rem; flex-wrap: wrap; margin-bottom: 0.9rem; }
+  .browser-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1rem; margin: 1.5rem 0 2rem; }
+  .browser-card { border: 1px solid var(--border-1); border-radius: var(--radius-card); padding: 1.1rem 1.2rem; background: var(--surface-1); }
+  .browser-card h3 { margin: 0 0 0.45rem; font-size: var(--fs-h3); }
+  .browser-card p { margin: 0; font-size: var(--fs-sm); color: var(--color-text-muted); }
+  .browser-card code { font-size: 0.85em; }
+  .why p, .steps p, .verify p { max-width: 68ch; }
+  .steps ol { padding-left: 1.2rem; }
+  .steps li { margin-bottom: 1.1rem; }
+  .steps h3 { font-size: var(--fs-h3); margin-bottom: 0.3rem; }
+  .tool-line { font-size: var(--fs-sm); color: var(--color-text-muted); }
+  .checklist { padding-left: 1.3rem; max-width: 72ch; }
+  .checklist li { margin-bottom: 0.55rem; }
+</style>

@@ -3,6 +3,7 @@ import LandingLayout from '../../layouts/LandingLayout.astro';
 import Breadcrumbs from '../../components/seo/Breadcrumbs.astro';
 import CtaBox from '../../components/seo/CtaBox.astro';
 import FaqAccordion from '../../components/seo/FaqAccordion.astro';
+import MigrationFidelity from '../../components/seo/MigrationFidelity.astro';
 import RaindropExportAnalyzer from '../../components/tools/RaindropExportAnalyzer.astro';
 import { breadcrumbList, faqPage, howTo, organization, softwareApplication, webSite } from '../../lib/schema';
 import { alternatesForPath } from '../../i18n/routes';
@@ -55,7 +56,7 @@ const faqs = [
   },
   {
     q: 'Does Marqly support nested collections?',
-    a: 'Marqly organizes bookmarks into flexible boards and multi-tag filters. When importing nested Raindrop collections, Marqly creates corresponding boards and applies tag hierarchies so no categorization is lost.',
+    a: 'Marqly boards hold two levels. Top-level collections become boards, and deeper nesting is preserved by hyphen-joining the remainder into the second-level name — “Reading/Longform/Energy 2024” becomes the board “Longform-Energy 2024” under “Reading”. Nothing is dropped; the tree just gets flatter.',
   },
 ];
 
@@ -207,7 +208,9 @@ const jsonLd = [
       </div>
 
       <div class="faq-wrap">
-        <FaqAccordion faqs={faqs} heading="Frequently Asked Questions about Raindrop Migration" />
+        <MigrationFidelity source="raindrop" />
+
+      <FaqAccordion faqs={faqs} heading="Frequently Asked Questions about Raindrop Migration" />
       </div>
 
       <CtaBox />

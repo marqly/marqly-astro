@@ -3,6 +3,7 @@ import LandingLayout from '../../layouts/LandingLayout.astro';
 import Breadcrumbs from '../../components/seo/Breadcrumbs.astro';
 import CtaBox from '../../components/seo/CtaBox.astro';
 import FaqAccordion from '../../components/seo/FaqAccordion.astro';
+import MigrationFidelity from '../../components/seo/MigrationFidelity.astro';
 import { breadcrumbList, faqPage, howTo, organization, softwareApplication, webSite } from '../../lib/schema';
 
 const path = '/migrate/pocket';
@@ -45,7 +46,7 @@ const faqs = [
   },
   {
     q: 'Will my Pocket tags and read statuses be preserved?',
-    a: 'Yes — apart from dates. Marqly reads the Pocket export HTML and carries your titles and tags over, preserving your categorization. The export\'s timestamps do not transfer: imported saves are dated the day you import. AI re-tagging and semantic search over the backlog are Pro features.',
+    a: 'Titles and tags transfer; dates and read status do not. Marqly reads the Pocket export HTML and carries titles, URLs and your tags over, preserving your categorization — but the export\'s timestamps and read/archive flags are not stored: imported saves take the import date and archived items land as normal saves. AI re-tagging and semantic search over the backlog are Pro features.',
   },
   {
     q: 'Is Marqly free for former Pocket users?',
@@ -184,7 +185,9 @@ const jsonLd = [
       </div>
 
       <div class="faq-wrap">
-        <FaqAccordion faqs={faqs} heading="Frequently Asked Questions about Pocket Migration" />
+        <MigrationFidelity source="pocket" />
+
+      <FaqAccordion faqs={faqs} heading="Frequently Asked Questions about Pocket Migration" />
       </div>
 
       <CtaBox />

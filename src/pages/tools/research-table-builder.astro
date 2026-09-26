@@ -1,0 +1,220 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import ToolShell from '../../components/seo/ToolShell.astro';
+import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../lib/schema';
+
+const title = 'Research Table Builder — Source Log, Quote Bank, Reading Matrix (Free, In-Browser)';
+const description =
+  'A free offline-first builder for the three tables that keep research honest: a journalist’s source log, a writer’s quote bank, and a student’s literature reading matrix. Works entirely in your browser, exports CSV, Markdown, or a Marqly-importable bookmark file.';
+
+const faqs = [
+  { q: 'Does my research leave the browser?', a: 'No. The builder runs entirely in your browser with plain HTML and JavaScript. Your rows are saved in this device’s localStorage and the CSV, Markdown and bookmark-file downloads are generated locally. Nothing is uploaded — you can prove it by opening your network tab or switching the tool page to offline after it loads.' },
+  { q: 'Why three presets instead of one generic table?', a: 'Because the jobs differ. A reporter separates a claim from its evidence and verification status; a writer separates a verbatim quote from a paraphrase and its draft use; a researcher separates a source’s findings and limitations from their own analysis. Same engine, different columns — swap presets any time, your rows stay in one table per preset.' },
+  { q: 'How does the Marqly bookmark file work?', a: 'Every row with an http(s) URL becomes a standard Netscape bookmark (the format Chrome exports). Your source name is the title, your note is stored as the bookmark description attribute, and the timestamp is today. Upload the file at app.marqly.com under Import — your whole table lands as searchable saves with your notes attached.' },
+  { q: 'Is there a row limit?', a: '300 rows per preset, which is past what a single article, chapter or beat notebook needs — and small enough that the file stays instant. For a multi-month library, export to Marqly and keep building.' },
+  { q: 'What if I close the tab?', a: 'Your work survives: rows autosave to this browser on this device. Clearing site data or using another device without Marqly will not carry them — that is exactly what the exports are for.' },
+];
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: 'Free tools', path: '/tools' },
+    { name: 'Research table builder', path: '/tools/research-table-builder' },
+  ]),
+  faqPage(faqs),
+  freeWebApplication(
+    'Research table builder',
+    'Build a research source log, quote bank or literature reading matrix entirely in your browser; export CSV, Markdown, or a bookmark file for Marqly.',
+    '/tools/research-table-builder',
+  ),
+];
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  canonical="https://www.marqly.com/tools/research-table-builder"
+  jsonLd={jsonLd}
+  ogImage="https://www.marqly.com/og/seo/tool-research-table-builder.png"
+>
+  <ToolShell
+    name="Research table builder"
+    heading="Build the table your research actually needs"
+    sub="A source log for reporting, a quote bank for writing, a reading matrix for dissertations. Free, no account, runs entirely in this browser."
+    faqs={faqs}
+    ctaHeading="Ready to make it permanent?"
+    ctaSub="Export your table as a bookmark file and import it into Marqly — every source becomes a searchable save with your note attached."
+    ctaLabel="Open Marqly free"
+    ctaSecondaryLabel="How imports work"
+  >
+    <div id="rtb" aria-live="off">
+      <div class="rtb-presets" role="radiogroup" aria-label="Table preset"></div>
+      <div class="rtb-bar">
+        <button type="button" id="rtb-add" class="rtb-btn primary">+ Add row</button>
+        <button type="button" id="rtb-csv" class="rtb-btn" data-tool-export="research-table-builder" data-format="csv">Download CSV</button>
+        <button type="button" id="rtb-md" class="rtb-btn" data-tool-export="research-table-builder" data-format="markdown">Download Markdown</button>
+        <button type="button" id="rtb-html" class="rtb-btn" data-tool-export="research-table-builder" data-format="bookmark-html">Export for Marqly (.html)</button>
+        <span id="rtb-status" class="rtb-status" role="status"></span>
+      </div>
+      <p class="rtb-hint">Rows autosave to this device only. The first row of each preset is a public example — edit or delete it.</p>
+      <div id="rtb-rows"></div>
+    </div>
+  </ToolShell>
+</LandingLayout>
+
+<script is:inline>
+(function () {
+  var PRESETS = {
+    'source-log': {
+      label: 'Source log', who: 'for reporters & fact-checkers',
+      cols: [['source', 'Source (publication, person, URL)'], ['claim', 'Claim / quote captured'], ['locator', 'Page, timestamp or paragraph'], ['status', 'Verification status'], ['note', 'Your note']],
+      example: { source: 'Municipal utilities board meeting transcript (public archive)', claim: 'Grid outage was attributed to a transformer fault, not cyberattack', locator: 'p. 12, 14:32', status: 'checked', note: '(example) corroborate with operator statement before filing' },
+    },
+    'quote-bank': {
+      label: 'Quote bank', who: 'for writers & newsletter folks',
+      cols: [['speaker', 'Speaker'], ['quote', 'Exact quote'], ['source', 'Where it came from'], ['locator', 'Page / timecode'], ['note', 'Draft-use note']],
+      example: { speaker: 'Isabel Allende', quote: '“Longing is the ultimate sadness, remembering the ultimate happiness.”', source: 'interview, public transcript', locator: '12:40', note: '(example) chapter 2 opening — verify wording against video' },
+    },
+    'reading-matrix': {
+      label: 'Reading matrix', who: 'for students & researchers',
+      cols: [['source', 'Source / citation key'], ['method', 'Methodology'], ['findings', 'Key findings'], ['limits', 'Limitations'], ['mine', 'My analysis']],
+      example: { source: 'Chen 2021 — container adoption survey', method: 'n=214 survey, self-reported', findings: 'adoption doubled after OCI standardisation', limits: 'single vendor dataset, no longitudinal data', mine: '(example) usable for trend claim, not for market size' },
+    },
+  };
+  var KEY = 'marqly.rtb.v1', MAX = 300, MAXLEN = 500;
+  var root = document.getElementById('rtb');
+  if (!root) return;
+  var state = load();
+  function load() {
+    try { var s = JSON.parse(localStorage.getItem(KEY)); if (s && s.presets) return s; } catch (e) {}
+    var init = { preset: 'source-log', presets: {} };
+    Object.keys(PRESETS).forEach(function (p) {
+      init.presets[p] = [Object.assign({}, PRESETS[p].example)];
+    });
+    return init;
+  }
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); status('Saved on this device · ' + rows().length + ' rows'); } catch (e) { status('Storage full — export your rows'); } }
+  function rows() { return state.presets[state.preset] || []; }
+  function status(t) { document.getElementById('rtb-status').textContent = t; }
+  function escAttr(s) { return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+  function safeUrl(u) { var s = String(u || '').trim(); if (!/^https?:\/\//i.test(s)) return ''; return s; }
+
+  // --- render ---
+  var presetBox = root.querySelector('.rtb-presets');
+  var rowsBox = document.getElementById('rtb-rows');
+  function render() {
+    presetBox.innerHTML = '';
+    Object.keys(PRESETS).forEach(function (p) {
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'rtb-preset' + (state.preset === p ? ' on' : '');
+      b.setAttribute('role', 'radio'); b.setAttribute('aria-checked', state.preset === p);
+      b.textContent = PRESETS[p].label + ' ' + PRESETS[p].who;
+      b.onclick = function () { state.preset = p; save(); render(); };
+      presetBox.appendChild(b);
+    });
+    rowsBox.innerHTML = '';
+    rows().forEach(function (r, i) {
+      var card = document.createElement('div');
+      card.className = 'rtb-row';
+      PRESETS[state.preset].cols.forEach(function (c) {
+        var wrap = document.createElement('label');
+        wrap.className = 'rtb-cell';
+        var span = document.createElement('span'); span.textContent = c[1]; wrap.appendChild(span);
+        var inp = document.createElement('input');
+        inp.type = 'text'; inp.maxLength = MAXLEN; inp.value = r[c[0]] || '';
+        inp.oninput = function () { r[c[0]] = inp.value; debounceSave(); };
+        wrap.appendChild(inp); card.appendChild(wrap);
+      });
+      var del = document.createElement('button');
+      del.type = 'button'; del.className = 'rtb-del'; del.textContent = 'Remove';
+      del.setAttribute('aria-label', 'Remove row ' + (i + 1));
+      del.onclick = function () { rows().splice(i, 1); save(); render(); };
+      card.appendChild(del);
+      rowsBox.appendChild(card);
+    });
+    status('Saved on this device · ' + rows().length + ' rows');
+  }
+  var tid; function debounceSave() { clearTimeout(tid); tid = setTimeout(save, 600); }
+  document.getElementById('rtb-add').onclick = function () {
+    if (rows().length >= MAX) { status('Max ' + MAX + ' rows — export what you have'); return; }
+    rows().push({}); save(); render();
+    var last = rowsBox.lastElementChild; if (last) { var f = last.querySelector('input'); if (f) f.focus(); }
+  };
+
+  // --- exports (all local; CSV neutralised against formula injection) ---
+  function csvCell(v) {
+    var s = String(v == null ? '' : v);
+    if (/^[=+\-@\t\r]/.test(s)) s = "'" + s;
+    if (/[",\r\n]/.test(s)) s = '"' + s.replace(/"/g, '""') + '"';
+    return s;
+  }
+  function stamp() { return new Date().toISOString().slice(0, 10); }
+  function dl(name, text, mime) {
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([text], { type: mime }));
+    a.download = name; document.body.appendChild(a); a.click();
+    setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 2000);
+    status('Downloaded ' + name);
+  }
+  document.getElementById('rtb-csv').onclick = function () {
+    var cols = PRESETS[state.preset].cols;
+    var out = cols.map(function (c) { return csvCell(c[1]); }).join(',') + '\r\n';
+    rows().forEach(function (r) { out += cols.map(function (c) { return csvCell(r[c[0]]); }).join(',') + '\r\n'; });
+    dl('marqly-' + state.preset + '-' + stamp() + '.csv', '\uFEFF' + out, 'text/csv;charset=utf-8');
+    track('csv');
+  };
+  document.getElementById('rtb-md').onclick = function () {
+    var cols = PRESETS[state.preset].cols;
+    var esc = function (v) { return String(v == null ? '' : v).replace(/\|/g, '\\|').replace(/\n/g, ' '); };
+    var out = '| ' + cols.map(function (c) { return esc(c[1]); }).join(' | ') + ' |\n';
+    out += '|' + cols.map(function () { return ' --- |'; }).join('') + '\n';
+    rows().forEach(function (r) { out += '| ' + cols.map(function (c) { return esc(r[c[0]]); }).join(' | ') + ' |\n'; });
+    dl('marqly-' + state.preset + '-' + stamp() + '.md', out, 'text/markdown;charset=utf-8');
+    track('markdown');
+  };
+  document.getElementById('rtb-html').onclick = function () {
+    var cols = PRESETS[state.preset].cols;
+    var urlCol = cols[0][0], noteCol = cols[cols.length - 1][0];
+    var now = Math.floor(Date.now() / 1000), n = 0;
+    var body = rows().map(function (r) {
+      var u = safeUrl(r[urlCol]); if (!u) return '';
+      var t = String(r[urlCol] || u).slice(0, 200);
+      var note = String(r[noteCol] || '').slice(0, MAXLEN);
+      n += 1;
+      // DESCRIPTION rides as an attribute — the importer reads it before any
+      // <DD>, so notes stay attached to the right save on today's build.
+      return '<DT><A HREF="' + escAttr(u) + '" ADD_DATE="' + now + '"' + (note ? ' DESCRIPTION="' + escAttr(note) + '"' : '') + '>' + escAttr(t) + '</A>';
+    }).filter(Boolean).join('\n');
+    if (!n) { status('No rows have an http(s) URL in the first column yet'); return; }
+    var html = '<!DOCTYPE NETSCAPE-Bookmark-file-1>\n<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">\n<TITLE>Bookmarks</TITLE>\n<H1>Marqly research table — ' + escAttr(PRESETS[state.preset].label) + '</H1>\n<DL><p>\n' + body + '\n</DL><p>\n';
+    dl('marqly-' + state.preset + '-' + stamp() + '.html', html, 'text/html;charset=utf-8');
+    track('bookmark-html');
+  };
+  function track(fmt) {
+    try {
+      var ev = new CustomEvent('marqly-tool-export', { detail: { tool: 'research-table-builder', format: fmt, preset: state.preset } });
+      document.dispatchEvent(ev);
+    } catch (e) {}
+  }
+  render();
+})();
+</script>
+
+<style>
+  #rtb { margin-block: 1.4rem; }
+  .rtb-presets { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem; }
+  .rtb-preset { border: 1px solid var(--color-border, var(--border-2)); background: transparent; color: var(--color-text, inherit); padding: 0.45rem 0.85rem; border-radius: var(--radius-pill); font: inherit; font-size: var(--fs-sm); cursor: pointer; }
+  .rtb-preset.on { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .rtb-bar { display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; margin-bottom: 0.4rem; }
+  .rtb-btn { font: inherit; font-size: var(--fs-sm); padding: 0.5rem 0.85rem; border-radius: var(--radius-sm, 8px); border: 1px solid var(--color-border, var(--border-2)); background: var(--surface-1); cursor: pointer; }
+  .rtb-btn.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .rtb-status { font-size: var(--fs-xs); color: var(--color-text-muted); }
+  .rtb-hint { font-size: var(--fs-xs); color: var(--color-text-muted); margin: 0.2rem 0 1rem; }
+  .rtb-row { display: grid; gap: 0.6rem 0.8rem; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); border: 1px solid var(--border-1); border-radius: var(--radius-card); padding: 0.9rem 1rem; margin-bottom: 0.8rem; position: relative; }
+  .rtb-cell { display: flex; flex-direction: column; gap: 0.25rem; }
+  .rtb-cell span { font-size: var(--fs-xs); color: var(--color-text-soft); }
+  .rtb-cell input { font: inherit; font-size: var(--fs-sm); padding: 0.45rem 0.6rem; border: 1px solid var(--color-border, var(--border-2)); border-radius: var(--radius-sm, 8px); background: var(--surface-1); color: inherit; }
+  .rtb-del { grid-column: 1 / -1; justify-self: start; font: inherit; font-size: var(--fs-xs); background: none; border: none; color: var(--color-text-muted); cursor: pointer; text-decoration: underline; padding: 0; }
+</style>

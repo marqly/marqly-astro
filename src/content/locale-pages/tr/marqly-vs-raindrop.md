@@ -38,7 +38,7 @@ updatedDate: 2026-08-16
 | Yapay Zeka Özetleri | Var (makale ve YouTube) | Yok |
 | YouTube AI Araçları | Özet, videoyla sohbet, senkronize altyazı | Yalnızca link kaydetme |
 | Web Vurgulayıcı & Notlar | 6 renk, sayfa üzerinde kalıcı | Pro'da açıklama desteği |
-| Desteklenen Platformlar | Web, iOS, Chrome, Edge, Firefox, Safari | Web, iOS, Android, macOS, Windows |
-| Android Uygulaması | Web uygulaması (PWA) | Yerel uygulama |
+| Desteklenen Platformlar | Web, iOS, Android, Chrome, Edge, Firefox, Safari | Web, iOS, Android, macOS, Windows |
+| Android Uygulaması | **Yerel uygulama (Google Play)** | Yerel uygulama |
 
 Klasörleri elle düzenlemek istiyorsanız Raindrop'ı; kaydettiklerinizi dilediğiniz an yapay zekayla anında bulmak istiyorsanız Marqly'yi tercih edin.

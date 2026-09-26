@@ -3,6 +3,7 @@ import LandingLayout from '../../layouts/LandingLayout.astro';
 import Breadcrumbs from '../../components/seo/Breadcrumbs.astro';
 import CtaBox from '../../components/seo/CtaBox.astro';
 import FaqAccordion from '../../components/seo/FaqAccordion.astro';
+import MigrationFidelity from '../../components/seo/MigrationFidelity.astro';
 import { breadcrumbList, faqPage, howTo, organization, softwareApplication, webSite } from '../../lib/schema';
 
 const path = '/migrate/instapaper';
@@ -149,6 +150,8 @@ const jsonLd = [
           </div>
         </div>
       </div>
+
+      <MigrationFidelity source="instapaper" />
 
       <FaqAccordion faqs={faqs} heading="Frequently asked migration questions" />
 

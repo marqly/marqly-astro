@@ -51,7 +51,7 @@ Kurz vorweg, damit du nicht bis zum Ende scrollen musst: **Raindrop.io ist der a
 | Zwischenablage-Verlauf | ja, nur Chrome und Edge | nein |
 | Neuer-Tab-Seite mit Widgets | ja, Chrome, Edge, Firefox | nein |
 | KI-Chats erfassen (ChatGPT, Claude, Gemini) | ja, Chrome, Edge, Firefox | nein |
-| Android-App | nein | ja |
+| Android-App | **ja** | ja |
 | Öffentliche API | nein | ja |
 | Offline-Modus | ja (Pro) | nein |
 | Self-Hosting | nein | nein |

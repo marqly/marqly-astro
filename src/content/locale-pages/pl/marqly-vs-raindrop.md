@@ -38,7 +38,7 @@ Krótkie podsumowanie: **Raindrop.io** to doskonały tradycyjny katalog zakłade
 | Streszczenia AI | Tak (artykuły i YouTube) | Nie |
 | Narzędzia AI dla YouTube | Streszczenie, czat z wideo, transkrypcja | Tylko zapis linku |
 | Zakreślacz stron i notatki | 6 kolorów, trwałe na stronach | Notatki w Pro |
-| Obsługiwane platformy | Web, iOS, Chrome, Edge, Firefox, Safari | Web, iOS, Android, macOS, Windows |
-| Aplikacja Android | Aplikacja webowa (PWA) | Aplikacja natywna |
+| Obsługiwane platformy | Web, iOS, Android, Chrome, Edge, Firefox, Safari | Web, iOS, Android, macOS, Windows |
+| Aplikacja Android | **Aplikacja natywna (Google Play)** | Aplikacja natywna |
 
 Jeśli lubisz ręcznie układać foldery — wybierz Raindrop. Jeśli chcesz po prostu zapisać i mieć pewność, że AI natychmiast odnajdzie stronę za pół roku — wybierz Marqly.

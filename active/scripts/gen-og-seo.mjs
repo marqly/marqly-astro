@@ -158,6 +158,7 @@ const tools = {
   'youtube-transcript': 'Free YouTube Transcript Viewer',
   'youtube-summarize': 'Free YouTube Video Summarizer',
   'bookmark-file-viewer': 'Bookmark File Viewer',
+  'research-table-builder': 'Research Table Builder',
   'duplicate-bookmark-finder': 'Duplicate Bookmark Finder',
   'pocket-export-converter': 'Pocket Export Converter',
   'dead-link-checker': 'Dead Link Checker',
@@ -214,6 +215,7 @@ const migrateCards = {
   'migrate-mymind': 'Migrate from mymind to Marqly',
   'migrate-instapaper': 'Migrate from Instapaper to Marqly',
   'migrate-diigo': 'Migrate from Diigo to Marqly',
+  'migrate-browser-bookmarks': 'Move Browser Bookmarks to Marqly',
 };
 for (const [name, title] of Object.entries(migrateCards)) {
   const href = name === 'migrate-hub' ? 'migrate' : `migrate/${name.slice('migrate-'.length)}`;

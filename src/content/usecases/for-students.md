@@ -64,6 +64,7 @@ analysis. Fill one per week and your lit review is half written before you
 start drafting.
 
 - **[Reading matrix — CSV](/templates/marqly-reading-matrix.csv)** · **[how to use it](/templates/marqly-reading-matrix.md)**
+- **Interactive version:** [research table builder](/tools/research-table-builder) — same columns, fillable in your browser, exports CSV/Markdown/a Marqly-importable file
 
 Works alongside whatever your department recommends (Zotero for citations),
 and with Marqly for the capture-and-re-find loop: save each reading to a

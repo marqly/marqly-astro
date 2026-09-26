@@ -56,6 +56,7 @@ The lines you keep are the ones you can place — and the ones you can prove.
 This is the bank that keeps *who said it* separate from *who wrote about it*:
 
 - **[Quote bank — CSV](/templates/marqly-quote-bank.csv)** · **[how to keep it](/templates/marqly-quote-bank.md)**
+- **Interactive version:** [research table builder](/tools/research-table-builder) — same columns, fillable in your browser, exports CSV/Markdown/a Marqly-importable file
 
 Every row carries the verbatim line, its locator, a quote-or-paraphrase flag,
 and a verification status that starts at *unverified* — because the mistakes

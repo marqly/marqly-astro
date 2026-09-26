@@ -51,6 +51,7 @@ export const MIGRATIONS: { slug: string; name: string }[] = [
   { slug: 'mymind', name: 'mymind' },
   { slug: 'instapaper', name: 'Instapaper' },
   { slug: 'diigo', name: 'Diigo' },
+  { slug: 'browser-bookmarks', name: 'Browser bookmarks' },
 ];
 export const MIGRATION_SLUGS = MIGRATIONS.map((m) => m.slug);
 
@@ -59,10 +60,10 @@ export function switchSentence(c: Competitor): string {
     // fallthrough below handles specifics
   }
   if (c.slug === 'pocket') {
-    return 'Yes. Marqly imports Pocket export files directly — upload the export and every save is re-tagged by AI and becomes searchable by meaning.';
+    return 'Yes. Marqly imports Pocket export files directly — upload the export, and on Pro every save is re-tagged by AI and becomes searchable by meaning.';
   }
   if (c.slug === 'raindrop') {
-    return 'Yes. Marqly imports Raindrop.io collections directly, and AI re-tags everything on the way in so your saves become searchable by meaning.';
+    return 'Yes. Marqly imports Raindrop.io collections directly, and on Pro AI re-tags everything on the way in so your saves become searchable by meaning.';
   }
   if (c.slug === 'diigo') {
     return 'Yes. Diigo exports a standard bookmark HTML file with your links, titles, dates, tags, and descriptions, and Marqly imports it directly. One honest catch: on-page highlights, sticky notes, and Outliners are not part of that export — the Diigo migration guide covers the manual rescue route for those.';

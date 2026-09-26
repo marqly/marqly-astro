@@ -56,6 +56,7 @@ The habit above only works if every source keeps its quote, locator, and
 verification status with it. We publish the exact log we use:
 
 - **[Source log — CSV](/templates/marqly-source-log.csv)** · **[how to fill it](/templates/marqly-source-log.md)**
+- **Interactive version:** [research table builder](/tools/research-table-builder) — same columns, fillable in your browser, exports CSV/Markdown/a Marqly-importable file
 
 One row per source: the claim you're using it for, the verbatim quote, the
 locator, and a status that starts at *unverified* and only moves when you open

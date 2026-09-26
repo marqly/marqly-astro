@@ -61,6 +61,7 @@ matrix with one row per source and columns that keep *the source's words* and
 *your analysis* on opposite sides of the sheet.
 
 - **[Reading matrix — CSV](/templates/marqly-reading-matrix.csv)** · **[how to use it](/templates/marqly-reading-matrix.md)**
+- **Interactive version:** [research table builder](/tools/research-table-builder) — same columns, fillable in your browser, exports CSV/Markdown/a Marqly-importable file
 
 The guide walks the columns, includes a worked example filled from a real,
 live source, and shows the discipline that matters most: metadata you didn't

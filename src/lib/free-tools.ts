@@ -12,6 +12,14 @@ export interface FreeTool {
 /** Single source of truth for the crawlable free-tools directory and link hub. */
 export const freeTools: FreeTool[] = [
   {
+    name: 'Research table builder',
+    shortName: 'Research table builder',
+    desc: 'Build a source log, quote bank, or literature reading matrix in your browser — export CSV, Markdown, or a bookmark file that imports straight into Marqly.',
+    path: '/tools/research-table-builder',
+    category: 'Bookmarks',
+    browserOnly: true,
+  },
+  {
     name: 'YouTube transcript viewer',
     shortName: 'YouTube transcript viewer',
     desc: 'Paste a link, get the full transcript, then copy or download it as text.',

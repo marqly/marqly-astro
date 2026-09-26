@@ -72,7 +72,7 @@ O que não tem: **áudio**. A leitura offline existe, mas só no Pro e por dispo
 | Ouvir artigos (áudio) | **Sim, excelente** | Não |
 | Offline | **Sim** | Sim (Pro) |
 | App de iOS | Sim, muito polido | Sim |
-| App de Android | Não | Não |
+| App de Android | Não | **Sim** |
 | Navegadores | Chrome | Chrome, Edge, Firefox, Safari |
 | Tags automáticas com IA | Não | Sim |
 | Busca semântica | Não | Sim |

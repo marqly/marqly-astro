@@ -38,7 +38,7 @@ updatedDate: 2026-08-16
 | AI記事・動画要約 | 対応 | 非対応 |
 | YouTube AIカード | 対応（要約・質問・タイムスタンプ） | 保存のみ |
 | ハイライト・メモ | 6色対応・ページ上に永続保持 | Proで注釈対応 |
-| 対応環境 | Web, iOS, Chrome, Edge, Firefox, Safari | Web, iOS, Android, macOS, Windows |
-| Androidアプリ | Webアプリ（PWA）対応（ネイティブなし） | ネイティブアプリあり |
+| 対応環境 | Web, iOS, Android, Chrome, Edge, Firefox, Safari | Web, iOS, Android, macOS, Windows |
+| Androidアプリ | **ネイティブアプリ（Google Play）** | ネイティブアプリあり |
 
 手動で細かくフォルダを分けたい方はRaindrop、保存したまま放置しがちで後からサクッと見つけたい方はMarqlyが最適です。

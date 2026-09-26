@@ -15,6 +15,8 @@ const PATHS = [
   '/compare/instapaper-vs-matter', // 3 tools
   '/alternatives/liner',
   '/alternatives/raindrop',
+  '/migrate/browser-bookmarks', // fidelity .mat table
+  '/migrate/raindrop', // existing guide now carries .mat
 ];
 
 const browser = await chromium.launch();
@@ -31,8 +33,17 @@ for (const path of PATHS) {
       continue;
     }
     const r = await page.evaluate(() => {
-      const wrap = document.querySelector('.cmp-wrap');
+      const wrap = document.querySelector('.cmp-wrap') || document.querySelector('.fidelity') || document.querySelector('#rtb');
       if (!wrap) return { missing: true };
+      if (wrap.id === 'rtb') {
+        const vw = document.documentElement.clientWidth;
+        let spill = [];
+        wrap.querySelectorAll('*').forEach((c) => {
+          const r = c.getBoundingClientRect();
+          if (r.right > vw + 1 && r.width > 8) spill.push((c.textContent || '').trim().slice(0, 40));
+        });
+        return { spill, scrollWidth: document.documentElement.scrollWidth, clientWidth: vw, wrapWidth: wrap.getBoundingClientRect().width };
+      }
       const spill = [];
       wrap.querySelectorAll('th,td').forEach((c) => {
         if (c.scrollWidth > c.clientWidth + 1) spill.push(c.textContent.trim().slice(0, 40));

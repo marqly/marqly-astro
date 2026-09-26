@@ -369,8 +369,10 @@ const jsonLd = [
         return;
       }
 
+      const deep = bookmarks.filter((b) => ((b.folder.match(/\//g) || []).length >= 2)).length;
+      const dated = bookmarks.filter((b) => b.addDate !== null).length;
       detectedType.textContent = `Detected: ${formatName} (${bookmarks.length.toLocaleString()} saves)`;
-      detectedDesc.textContent = 'This file parses cleanly and is ready to import into Marqly.';
+      detectedDesc.textContent = 'This file parses cleanly. In Marqly: every URL, title and folder converts (boards hold two levels — ' + deep + ' item' + (deep === 1 ? '' : 's') + ' here use deeper paths that get hyphen-joined), the ' + dated.toLocaleString() + ' saved date' + (dated === 1 ? '' : 's') + ' become the import date, and <DD> notes can land on the following item, so check folder heads after import. The guide below has the full matrix.';
       guideLink.href = targetGuide;
       detectedBox.classList.remove('hidden');
 

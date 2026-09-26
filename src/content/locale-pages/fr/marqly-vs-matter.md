@@ -72,7 +72,7 @@ Ce qui manque : **l'audio**. La lecture hors ligne existe, mais seulement avec P
 | Écouter des articles (audio) | **Oui, excellent** | Non |
 | Hors ligne | **Oui** | Oui (Pro) |
 | Application iOS | Oui, très soignée | Oui |
-| Application Android | Non | Non |
+| Application Android | Non | **Oui** |
 | Navigateurs | Chrome | Chrome, Edge, Firefox, Safari |
 | Tags automatiques par IA | Non | Oui |
 | Recherche sémantique | Non | Oui |

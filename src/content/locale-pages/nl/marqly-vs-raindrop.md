@@ -38,7 +38,7 @@ In het kort: **Raindrop.io** is ideaal voor wie houdt van handmatig gestructuree
 | AI-samenvattingen | Ja (artikelen en YouTube) | Nee |
 | YouTube AI-hulp | Samenvatting, Q&A, tijdlijn | Alleen link bewaren |
 | Markeringen & notities | Ja (6 kleuren, blijft op de pagina) | Annotaties op Pro |
-| Ondersteunde platforms | Web, iOS, Chrome, Edge, Firefox, Safari | Web, iOS, Android, macOS, Windows |
-| Android-app | Web-app (PWA) | Native app |
+| Ondersteunde platforms | Web, iOS, Android, Chrome, Edge, Firefox, Safari | Web, iOS, Android, macOS, Windows |
+| Android-app | **Native app (Google Play)** | Native app |
 
 Houd je van handmatig structureren? Kies Raindrop. Wil je bewaren zonder gedoe en alles direct terugvinden? Kies Marqly.

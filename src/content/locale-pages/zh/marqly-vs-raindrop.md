@@ -38,7 +38,7 @@ updatedDate: 2026-08-16
 | AI 文章与视频摘要 | 支持 | 不支持 |
 | YouTube AI 功能 | 视频页面摘要、AI 问答、同步字幕 | 仅支持保存链接 |
 | 网页高亮与笔记 | 6 色高亮，永久留存原网页 | Pro 版支持注释 |
-| 客户端生态 | Web、iOS、Chrome、Edge、Firefox、Safari | Web、iOS、Android、macOS、Windows |
-| Android 应用 | 移动端网页应用 (PWA) | 原生客户端 |
+| 客户端生态 | Web、iOS、Android、Chrome、Edge、Firefox、Safari | Web、iOS、Android、macOS、Windows |
+| Android 应用 | **原生应用（Google Play）** | 原生客户端 |
 
 如果你享受精细化打理目录，选 Raindrop；如果你希望保存后不再为分类操心，随时能通过 AI 秒搜出来，Marqly 是更好的选择。

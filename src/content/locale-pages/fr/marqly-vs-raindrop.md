@@ -74,7 +74,7 @@ Si votre bibliothèque est déjà bien rangée et que vous retrouvez sans peine 
 | Partage public | Tableaux publics | Collections publiques |
 | Import Pocket et HTML | Oui | Oui |
 | Application iOS | Oui | Oui |
-| Application Android | Non | Oui |
+| Application Android | **Oui** | Oui |
 | Mode hors ligne | Oui (Pro) | Non |
 | API publique | Non | Oui |
 | Auto-hébergement | Non | Non |

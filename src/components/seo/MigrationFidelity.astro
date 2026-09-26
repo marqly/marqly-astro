@@ -1,0 +1,90 @@
+---
+import { FIDELITY, FIDELITY_LABEL, type FidelityState } from '../../data/migration-fidelity';
+
+interface Props {
+  source: string;
+  heading?: string;
+  lead?: string;
+}
+
+const { source, heading = 'What transfers — fidelity matrix', lead } = Astro.props;
+const f = FIDELITY[source];
+if (!f) throw new Error(`migration-fidelity: unknown source "${source}"`);
+
+const ICON: Record<FidelityState, string> = {
+  supported: '✓',
+  partial: '◐',
+  'not-supported': '✕',
+  'not-verified': '?',
+};
+---
+
+<section class="fidelity" id="fidelity">
+  <h2>{heading}</h2>
+  <p class="lead">
+    {lead ?? 'Every row below was read out of the importer Marqly actually runs in production, plus fixture runs of each export format. Where something is lost, we say so — the point is an import you do not have to redo.'}
+  </p>
+  <p class="formats"><strong>Accepted input:</strong> {f.formats}</p>
+
+  <table class="mat">
+    <caption class="sr-only">Fidelity of {f.label} imports into Marqly</caption>
+    <colgroup><col class="c-field" /><col class="c-state" /><col class="c-note" /></colgroup>
+    <thead>
+      <tr><th scope="col">Field</th><th scope="col">Outcome</th><th scope="col">What it means for your library</th></tr>
+    </thead>
+    <tbody>
+      {f.rows.map((r) => (
+        <tr>
+          <th scope="row">{r.field}</th>
+          <td><span class={`badge s-${r.state}`}><span aria-hidden="true">{ICON[r.state]}</span> {FIDELITY_LABEL[r.state]}</span></td>
+          <td class="note">{r.note}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+
+  <dl class="stack">
+    {f.rows.map((r) => (
+      <div class="stack-row">
+        <dt>{r.field}</dt>
+        <dd><span class={`badge s-${r.state}`}><span aria-hidden="true">{ICON[r.state]}</span> {FIDELITY_LABEL[r.state]}</span></dd>
+        <dd class="note">{r.note}</dd>
+      </div>
+    ))}
+  </dl>
+
+  <p class="method">
+    {f.method} · checked {f.verifiedOn} against Marqly’s deployed importer.
+    Preview any export file before uploading it with the <a href="/tools/bookmark-file-viewer">bookmark file viewer</a>;
+    clean repeats first with the <a href="/tools/duplicate-bookmark-finder">duplicate finder</a>.
+  </p>
+</section>
+
+<style>
+  .fidelity { margin-block: 2.5rem; }
+  .fidelity h2 { font-size: var(--fs-h2); letter-spacing: -0.01em; }
+  .lead { color: var(--color-text-muted); max-width: 60ch; }
+  .formats { margin-block: 0.5rem 1rem; font-size: var(--fs-sm); }
+  .mat { width: 100%; border-collapse: collapse; table-layout: fixed; font-size: var(--fs-sm); }
+  .c-field { width: 26%; }
+  .c-state { width: 19%; }
+  .mat th, .mat td { text-align: start; padding: 0.7rem 0.8rem; border-bottom: 1px solid var(--border-1); vertical-align: top; overflow-wrap: anywhere; }
+  .mat thead th { border-bottom: 2px solid var(--border-2); font-size: var(--fs-xs); text-transform: uppercase; letter-spacing: 0.04em; color: var(--color-text-soft); }
+  .mat tbody th { font-weight: 600; }
+  .badge { display: inline-block; padding: 0.15rem 0.55rem; border-radius: var(--radius-pill); font-weight: 600; font-size: 0.78rem; white-space: normal; }
+  .s-supported { color: #17663c; background: #e7f5ec; }
+  .s-partial { color: #7d5402; background: #fdf3dc; }
+  .s-not-supported { color: #93312d; background: #fbe9e7; }
+  .s-not-verified { color: #4d5866; background: #eef1f5; }
+  .method { margin-top: 0.9rem; font-size: var(--fs-xs); color: var(--color-text-soft); }
+  .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+  .stack { display: none; }
+  @media (max-width: 46rem) {
+    .mat { display: none; }
+    .stack { display: block; }
+    .stack-row { border-bottom: 1px solid var(--border-1); padding-block: 0.8rem; }
+    .stack-row dt { font-weight: 600; }
+    .stack-row dd { margin: 0.25rem 0 0; }
+    .stack-row .note { color: var(--color-text-muted); font-size: var(--fs-sm); }
+  }
+</style>

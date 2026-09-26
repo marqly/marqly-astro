@@ -134,5 +134,16 @@
       },
       true
     );
+
+    // In-page tool exports (e.g. /tools/research-table-builder). The tools
+    // dispatch this event after generating a local download; the payload is
+    // fixed UI metadata — never row contents, URLs or filenames.
+    document.addEventListener("marqly-tool-export", function (ev) {
+      var d = (ev && ev.detail) || {};
+      send("tool_export", { tool: d.tool || "unknown", format: d.format || "unknown", preset: d.preset || "" });
+      if (typeof window.gtag === "function") {
+        try { window.gtag("event", "tool_export", { tool: d.tool, format: d.format, preset: d.preset }); } catch (err) {}
+      }
+    });
   })();
 </script>

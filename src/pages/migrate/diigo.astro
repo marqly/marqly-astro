@@ -3,6 +3,7 @@ import LandingLayout from '../../layouts/LandingLayout.astro';
 import Breadcrumbs from '../../components/seo/Breadcrumbs.astro';
 import CtaBox from '../../components/seo/CtaBox.astro';
 import FaqAccordion from '../../components/seo/FaqAccordion.astro';
+import MigrationFidelity from '../../components/seo/MigrationFidelity.astro';
 import { breadcrumbList, faqPage, howTo, organization, softwareApplication, webSite } from '../../lib/schema';
 import { alternatesForPath } from '../../i18n/routes';
 
@@ -38,7 +39,7 @@ const steps = [
 const faqs = [
   {
     q: 'What transfers from a Diigo export to Marqly?',
-    a: 'Diigo\'s bookmark-HTML export carries each link, its title, the date saved, your tags, and the description you wrote for each bookmark. Marqly imports all four: titles and links become saves, tags become searchable metadata, and descriptions are preserved with the save.',
+    a: 'Titles, links, tags and descriptions come across: tags become searchable Marqly tags, and each description imports as the bookmark description — with one caveat to check, not hide: the current importer can pair a description with the following item and drop the first note in a folder, so spot-check folder heads after import. Dates: the export has them, the importer does not store them — saves take the import day.',
   },
   {
     q: 'Do my Diigo highlights and sticky notes transfer?',
@@ -232,7 +233,9 @@ const jsonLd = [
       </div>
 
       <div class="faq-wrap">
-        <FaqAccordion faqs={faqs} heading="Diigo migration — common questions" />
+        <MigrationFidelity source="diigo" />
+
+      <FaqAccordion faqs={faqs} heading="Diigo migration — common questions" />
       </div>
 
       <CtaBox />

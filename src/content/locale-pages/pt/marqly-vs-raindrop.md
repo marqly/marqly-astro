@@ -78,7 +78,7 @@ O Marqly foi construído em volta desse problema:
 | Compartilhar publicamente | Boards públicos | Coleções públicas |
 | Extensões | Chrome, Edge, Firefox, Safari | Chrome, Edge, Firefox, Safari |
 | App iOS | Sim | Sim |
-| App Android | Não | Sim |
+| App Android | **Sim** | Sim |
 | API pública | Não | Sim |
 | Leitura offline | Sim (Pro) | Não |
 | Importar do Pocket | Sim | Sim |

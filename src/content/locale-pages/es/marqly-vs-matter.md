@@ -72,7 +72,7 @@ Lo que no tiene: **audio**. La lectura sin conexión existe, pero solo en Pro y 
 | Escuchar artículos (audio) | **Sí, excelente** | No |
 | Sin conexión | **Sí** | Sí (Pro) |
 | App de iOS | Sí, muy pulida | Sí |
-| App de Android | No | No |
+| App de Android | No | **Sí** |
 | Navegadores | Chrome | Chrome, Edge, Firefox, Safari |
 | Etiquetado automático con IA | No | Sí |
 | Búsqueda semántica | No | Sí |

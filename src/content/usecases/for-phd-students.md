@@ -67,6 +67,7 @@ limitations copied from what the paper says about itself, your analysis in its
 own column.
 
 - **[Reading matrix — CSV](/templates/marqly-reading-matrix.csv)** · **[how to use it](/templates/marqly-reading-matrix.md)**
+- **Interactive version:** [research table builder](/tools/research-table-builder) — same columns, fillable in your browser, exports CSV/Markdown/a Marqly-importable file
 
 It complements your reference manager rather than replacing it (the matrix
 carries the Zotero cite key), and pairs with Marqly's job: capture to a board
