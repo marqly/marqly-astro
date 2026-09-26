@@ -1,6 +1,6 @@
 # Marqly
 
-> Marqly is an AI bookmark manager: save articles, videos, and links from any browser, let AI tag and summarize them automatically, then find any save by describing what you remember — semantic search by meaning, not keywords. Free tier (stores up to 100 bookmarks with search across your whole library); Pro lifts that cap to unlimited and is $72/year (about $6/month billed annually, with standing first-year offer of $49), billed when you upgrade — no free trial. Runs as a browser extension (Chrome, Edge, Firefox, Safari), a web app at app.marqly.com, and an iOS app.
+> Marqly is an AI bookmark manager: save articles, videos, and links from any browser, let AI tag and summarize them automatically, then find any save by describing what you remember — semantic search by meaning, not keywords. Free tier (stores up to 100 bookmarks with search across your whole library); Pro lifts that cap to unlimited and is $72/year (about $6/month billed annually, with standing first-year offer of $49), billed when you upgrade — no free trial. Runs as a browser extension (Chrome, Edge, Firefox, Safari), a web app at app.marqly.com, an iOS app, and an Android app (Google Play).
 
 Key facts:
 - The browser extension is the core of the product: one-click save, AI auto-tagging, tab sessions, in-page highlighter, save-page-as-PDF, and an AI card on YouTube.
@@ -11,8 +11,10 @@ Key facts:
 - YouTube AI card: on every YouTube watch page, Marqly shows a card next to the video with an AI Summary tab (streaming TL;DR + key sections, plus books mentioned in the video), a Chat tab (ask questions answered from the video's transcript — Pro), and a Transcript tab (playback-synced, one-click copy). A Bookmark button in YouTube's action row saves the video with its transcript attached.
 - Highlights: select text on any website, highlight in 6 colors, add notes; highlights persist on the page when you revisit and sync to your library. Boards of links and highlights can be shared as a public page (no signup needed to view).
 - Save as PDF: capture any page as a clean PDF that matches the on-screen layout (lazy-loaded images included), locally in the browser.
-- Import: Pocket exports, Raindrop.io collections, and standard browser bookmark HTML exports.
-- Search: semantic — "that video about sourdough starters" finds the right save without the title.
+- Import: Pocket list.csv from the export ZIP (its ril_export.html layout is not importable), Raindrop.io HTML or CSV (not JSON), and standard browser bookmark HTML (Chrome, Edge, Firefox, Safari). Titles, URLs, tags and folder structure (flattened to two board levels) carry over; original save dates do not. The migrate guides carry measured fidelity matrices.
+- Export: built-in CSV export (URL, Title, Description, Tags) — Free exports the 100 most recent saves, Pro the whole library plus a new-since-last-export mode.
+- Offline reading (Pro): marked pages are cached on-device in the web app and the iOS app; per-device only, no cross-device offline sync, not in the extensions or the Android app.
+- Search: keyword search covers the whole library on Free; semantic search — "that video about sourdough starters" finds the right save without the title — is Pro.
 
 ## Product
 
@@ -21,7 +23,8 @@ Key facts:
 - [Browser extension features](https://www.marqly.com/extension): full feature list and Chrome/Edge/Firefox/Safari availability
 - [Embed boards](https://www.marqly.com/embed): generate responsive embed widgets for Notion, blogs, and websites
 - [Migrate from Raindrop](https://www.marqly.com/migrate/raindrop): step-by-step migration guide from Raindrop to Marqly
-- [Migrate from Pocket](https://www.marqly.com/migrate/pocket): import and recover Pocket archives with semantic AI
+- [Migrate from Pocket](https://www.marqly.com/migrate/pocket): import and recover Pocket archives (the CSV path — the HTML file inside the archive does not import) with semantic AI
+- [Migrate browser bookmarks](https://www.marqly.com/migrate/browser-bookmarks): Chrome, Safari, Firefox and Edge export paths with the measured fidelity matrix
 - [Web app](https://app.marqly.com/): sign up / sign in (free, no card required)
 - [Chrome extension](https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc): install from the Chrome Web Store
 - [iOS app](https://apps.apple.com/us/app/marqly-ai-bookmark-manager/id6758905385): App Store
@@ -83,7 +86,7 @@ Key facts:
 - Featured prompts: [LinkedIn headshot prompt](https://www.marqly.com/prompt-gallery/linkedin-headshot-prompt-for-corporate-executives) · [cinematic portrait prompt](https://www.marqly.com/prompt-gallery/cinematic-portrait-prompt-with-rim-lighting) · [DeepSeek coding prompt](https://www.marqly.com/prompt-gallery/build-a-crud-app-prompt) · [Kimi research prompt](https://www.marqly.com/prompt-gallery/research-gap-finder-prompt)
 - YouTube: [transcript viewer](https://www.marqly.com/tools/youtube-transcript) · [summarizer](https://www.marqly.com/tools/youtube-summarize) · [chapter generator](https://www.marqly.com/tools/youtube-chapter-generator) · [thumbnail downloader](https://www.marqly.com/tools/youtube-thumbnail-downloader) · [timestamp link generator](https://www.marqly.com/tools/youtube-timestamp-link)
 - Links and SEO: [UTM builder](https://www.marqly.com/tools/utm-builder) · [URL encoder and decoder](https://www.marqly.com/tools/url-encoder) · [redirect chain checker](https://www.marqly.com/tools/redirect-checker) · [Open Graph and meta tag checker](https://www.marqly.com/tools/open-graph-checker) · [dead link checker](https://www.marqly.com/tools/dead-link-checker) · [URL cleaner](https://www.marqly.com/tools/url-cleaner) · [RSS feed finder](https://www.marqly.com/tools/rss-feed-finder)
-- Content and bookmarks: [HTML to Markdown converter](https://www.marqly.com/tools/html-to-markdown) · [bookmarklet maker](https://www.marqly.com/tools/bookmarklet-maker) · [bookmark file viewer](https://www.marqly.com/tools/bookmark-file-viewer) · [duplicate bookmark finder](https://www.marqly.com/tools/duplicate-bookmark-finder) · [Pocket export converter](https://www.marqly.com/tools/pocket-export-converter) · [reading time calculator](https://www.marqly.com/tools/reading-time)
+- Content and bookmarks: [HTML to Markdown converter](https://www.marqly.com/tools/html-to-markdown) · [bookmarklet maker](https://www.marqly.com/tools/bookmarklet-maker) · [bookmark file viewer](https://www.marqly.com/tools/bookmark-file-viewer) · [duplicate bookmark finder](https://www.marqly.com/tools/duplicate-bookmark-finder) · [Pocket export converter](https://www.marqly.com/tools/pocket-export-converter) · [reading time calculator](https://www.marqly.com/tools/reading-time) · [research table builder](https://www.marqly.com/tools/research-table-builder)
 
 ## Use cases
 

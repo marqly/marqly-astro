@@ -11,7 +11,7 @@ hero:
 updatedDate: 2026-08-02
 faqs:
   - q: "Can I share account research with my team?"
-    a: "You can share any board as a public page that anyone can view without signing up — useful for handing a research trail to a colleague or manager before a call. But Marqly has no team workspaces, shared libraries, or collaborative editing. It's built as a personal research library; board sharing is read-only and one-directional."
+    a: "You can share any board as a public page that anyone can view without signing up — useful for handing a research trail to a colleague or manager before a call. Personal board sharing is read-only and one-directional; if your team needs a shared library with multi-editor workspaces, that is what [Marqly Teams](/teams) adds."
   - q: "Does Marqly integrate with my CRM?"
     a: "No. Marqly has no public API, so there's no Salesforce or HubSpot integration. It works alongside your CRM rather than inside it: keep the raw research — articles, pricing pages, conference talks, highlights — in Marqly, and copy the facts that matter into your CRM notes when you log activity. The two jobs stay separate."
   - q: "Is Marqly free for sales research?"

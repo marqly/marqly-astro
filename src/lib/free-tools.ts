@@ -14,7 +14,7 @@ export const freeTools: FreeTool[] = [
   {
     name: 'Research table builder',
     shortName: 'Research table builder',
-    desc: 'Build a source log, quote bank, or literature reading matrix in your browser — export CSV, Markdown, or a bookmark file that imports straight into Marqly.',
+    desc: 'Build a source log, quote bank, reading matrix, or competitor research grid in your browser — export CSV, Markdown, or a bookmark file that imports straight into Marqly.',
     path: '/tools/research-table-builder',
     category: 'Bookmarks',
     browserOnly: true,

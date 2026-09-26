@@ -182,14 +182,26 @@ const jsonLd = [
       const { results, checked, dropped } = data as CheckResponse;
 
       tbody.textContent = '';
-      let dead = 0;
+      let dead = 0, verify = 0, redirected = 0, live = 0;
+      const verdictOf = (st: number): { text: string; kind: string } =>
+        st === 0 ? { text: 'unreachable — gone, or just busy; rerun before you believe it', kind: 'dead' }
+        : st === 404 || st === 410 ? { text: `${st} — gone`, kind: 'dead' }
+        : st === 401 || st === 403 || st === 999 ? { text: `${st} — private or bot-blocked; a human may still see the page — verify in a browser`, kind: 'verify' }
+        : st === 429 ? { text: '429 — rate-limited; rerun this batch later', kind: 'verify' }
+        : st >= 500 ? { text: `${st} — server trouble; rerun, not proof of death`, kind: 'verify' }
+        : st >= 300 ? { text: `${st} — redirected`, kind: 'redirected' }
+        : { text: `${st} — live`, kind: 'live' };
       for (const r of results) {
-        if (!r.ok) dead++;
+        const v = verdictOf(r.status);
+        if (v.kind === 'dead') dead++;
+        else if (v.kind === 'verify') verify++;
+        else if (v.kind === 'redirected') redirected++;
+        else live++;
         const tr = document.createElement('tr');
         const tdUrl = document.createElement('td');
         tdUrl.textContent = r.url.length > 70 ? `${r.url.slice(0, 67)}…` : r.url;
         const tdStatus = document.createElement('td');
-        tdStatus.textContent = r.status === 0 ? 'unreachable' : String(r.status);
+        tdStatus.textContent = v.text;
         if (r.error) tdStatus.textContent += ` (${r.error})`;
         const tdOk = document.createElement('td');
         tdOk.textContent = r.ok ? '✓' : '✗';
@@ -204,7 +216,7 @@ const jsonLd = [
         tbody.appendChild(tr);
       }
       tableWrap.classList.remove('hidden');
-      const parts = [`${checked} checked`, `${dead} not OK`];
+      const parts = [`${checked} checked`, `${dead} gone`, `${verify} need a human check`, `${redirected} redirected`, `${live} live`];
       if (dropped > 0) parts.push(`${dropped} over the ${MAX}-URL limit skipped — run them in the next batch`);
       status.textContent = `${parts.join(' — ')}.`;
     } catch (err) {

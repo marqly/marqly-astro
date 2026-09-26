@@ -5,11 +5,11 @@ import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } fr
 
 const title = 'Research Table Builder — Source Log, Quote Bank, Reading Matrix (Free, In-Browser)';
 const description =
-  'A free offline-first builder for the three tables that keep research honest: a journalist’s source log, a writer’s quote bank, and a student’s literature reading matrix. Works entirely in your browser, exports CSV, Markdown, or a Marqly-importable bookmark file.';
+  'A free offline-first builder for the tables that keep research honest: a journalist’s source log, a writer’s quote bank, a student’s literature reading matrix, and a competitor research grid. Works entirely in your browser, exports CSV, Markdown, or a Marqly-importable bookmark file.';
 
 const faqs = [
   { q: 'Does my research leave the browser?', a: 'No. The builder runs entirely in your browser with plain HTML and JavaScript. Your rows are saved in this device’s localStorage and the CSV, Markdown and bookmark-file downloads are generated locally. Nothing is uploaded — you can prove it by opening your network tab or switching the tool page to offline after it loads.' },
-  { q: 'Why three presets instead of one generic table?', a: 'Because the jobs differ. A reporter separates a claim from its evidence and verification status; a writer separates a verbatim quote from a paraphrase and its draft use; a researcher separates a source’s findings and limitations from their own analysis. Same engine, different columns — swap presets any time, your rows stay in one table per preset.' },
+  { q: 'Why presets instead of one generic table?', a: 'Because the jobs differ. A reporter separates a claim from its evidence and verification status; a writer separates a verbatim quote from a paraphrase and its draft use; a researcher separates a source’s findings and limitations from their own analysis; an analyst separates a competitor’s claim from what you actually observed. Same engine, different columns — swap presets any time, your rows stay in one table per preset.' },
   { q: 'How does the Marqly bookmark file work?', a: 'Every row with an http(s) URL becomes a standard Netscape bookmark (the format Chrome exports). Your source name is the title, your note is stored as the bookmark description attribute, and the timestamp is today. Upload the file at app.marqly.com under Import — your whole table lands as searchable saves with your notes attached.' },
   { q: 'Is there a row limit?', a: '300 rows per preset, which is past what a single article, chapter or beat notebook needs — and small enough that the file stays instant. For a multi-month library, export to Marqly and keep building.' },
   { q: 'What if I close the tab?', a: 'Your work survives: rows autosave to this browser on this device. Clearing site data or using another device without Marqly will not carry them — that is exactly what the exports are for.' },
@@ -42,7 +42,7 @@ const jsonLd = [
   <ToolShell
     name="Research table builder"
     heading="Build the table your research actually needs"
-    sub="A source log for reporting, a quote bank for writing, a reading matrix for dissertations. Free, no account, runs entirely in this browser."
+    sub="A source log for reporting, a quote bank for writing, a reading matrix for dissertations, a competitor grid for market research. Free, no account, runs entirely in this browser."
     faqs={faqs}
     ctaHeading="Ready to make it permanent?"
     ctaSub="Export your table as a bookmark file and import it into Marqly — every source becomes a searchable save with your note attached."
@@ -76,6 +76,11 @@ const jsonLd = [
       label: 'Quote bank', who: 'for writers & newsletter folks',
       cols: [['speaker', 'Speaker'], ['quote', 'Exact quote'], ['source', 'Where it came from'], ['locator', 'Page / timecode'], ['note', 'Draft-use note']],
       example: { speaker: 'Isabel Allende', quote: '“Longing is the ultimate sadness, remembering the ultimate happiness.”', source: 'interview, public transcript', locator: '12:40', note: '(example) chapter 2 opening — verify wording against video' },
+    },
+    'competitor-grid': {
+      label: 'Competitor grid', who: 'for marketers, founders & analysts',
+      cols: [['source', 'Competitor page (pricing, launch post, ad)'], ['claim', 'Their positioning claim'], ['evidence', 'What you actually observed'], ['gap', 'Gap vs your offer'], ['note', 'Where it goes in your deck']],
+      example: { source: 'ExampleCo pricing page (public URL)', claim: '“1-click migration from any tool”', evidence: 'Their importer reads 3 formats (checked, dated)', gap: 'No format table on their page', note: '(example) counter in deck with a measured matrix' },
     },
     'reading-matrix': {
       label: 'Reading matrix', who: 'for students & researchers',
