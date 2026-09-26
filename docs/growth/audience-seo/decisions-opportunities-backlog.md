@@ -96,7 +96,49 @@ editorial in English per revenue plan §:28).
 | New: url-guard IPv6 test 1/40 | `test-url-guard.mjs` fails on clean HEAD (`[2600:1901::1]` blocked, expects ALLOWED) — pre-existing, untouched this batch |
 | Post-release monitoring | no scheduler authorized; owner-triggered |
 
-## Batch-6 decisions (2026-09-26, offline/export truth resolution)
+## Batch-7 decisions (2026-09-26, acquisition)
+
+- **D-021 Help center was silently stale for a week.** The Deploy-Help-Center
+  workflow treats a missing `CLOUDFLARE_API_TOKEN` secret as a warning + exit 0,
+  so every "success" since 2026-09-25 15:27Z was a no-op (help.marqly.com was
+  still serving the Sep-18 build; Teams docs were 404). Actions taken: docs
+  truth fixes (Teams seat-pricing split, offline per-device incl. iOS + explicit
+  "not extensions/Android", verified Play link), `pnpm-lock` refreshed to
+  unblock frozen-lockfile CI, workflow made to FAIL LOUD, and a manual
+  `wrangler pages deploy` shipped main (also finally publishing the OTHER
+  sessions' merged doc work). **OWNER ACTION:** add the `CLOUDFLARE_API_TOKEN`
+  Pages-Edit secret in marqlydev repo settings.
+- **D-022 Importer notes bug + fidelity layer.** Reproduced against documented
+  real export layouts: the deployed `<DD>` handling attaches notes to the NEXT
+  bookmark and drops each folder's first note (Firefox/Pocket/Raindrop/Diigo all
+  write notes that way; their unit tests never had a DD fixture). Fix + 3
+  regression tests on prod branch `fix/import-dd-attachment` (27/27 suites green
+  in side worktree) — **merge is the owner's deploy gate; do NOT flip site copy
+  before it ships.** Site guides document CURRENT behavior honestly (PARTIAL +
+  verify steps) via the single-source fidelity matrices; my own builder exports
+  notes as the DESCRIPTION ATTRIBUTE, which the current importer reads correctly
+  — the bridge works today regardless of the merge.
+- **D-023 Android claims now evidence-backed.** Play listing verified live
+  (official JSON-LD, ANDROID, InStock) + shipping web config URL
+  (`desktop-download-urls.ts`) → flipped the 12 remaining locale-table "no
+  Android" stragglers; Files/10GB stays banned everywhere (`ENABLE_FILES` off).
+- **D-024 Acquisition shapes.** One canonical browser-bookmarks page (four
+  click-paths, NOT four near-duplicate URLs); one builder tool with three
+  presets (NOT three tools); fidelity = 4 honest states incl. NOT-YET-VERIFIED
+  (mymind/instapaper rows stay unverified until real export files exist);
+  synthetic corpus remains unpublished per rule. The builder doubles as the
+  trust asset: it emits the exact file format whose fidelity we just documented.
+
+### Batch-7 task state (owner-gated / next-trigger)
+| Item | Trigger |
+|---|---|
+| Merge `fix/import-dd-attachment` (prod repo) | owner deploy decision → then update the 4 DD-drift caveats to SUPPORTED in `migration-fidelity.ts` (one-file change, matrices re-render everywhere) |
+| Add CLOUDFLARE_API_TOKEN secret | owner (else help-center stops updating again — now loudly) |
+| Real export fixtures → publish fidelity research | human drops files into `active/logs/benchmark/2026-09-26-import-fidelity/corpus/` |
+| GSC access | still blocked → Lane-3 inventory untouched (no speculative rewrites) |
+| Batch-7 analytics | `tool_export` event live (payload = tool/format/preset only); first readout needs Mixpanel access |
+
+## Batch-6 decisions appended (2026-09-26, offline/export truth resolution)
 
 - **D-017 Offline is a shipped Pro capability — the site's denial was as false
   as the old overclaim would be.** Verified first-hand against adjacent repos
