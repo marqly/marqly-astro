@@ -89,7 +89,7 @@ const tableTools = isMarqlyPair ? [marqly, b] : [a, b, marqly];
   ogImage={`https://www.marqly.com/og/seo/compare-${pairSlug}.png`}
 >
   <article class="section">
-    <div class="container cmp-page">
+    <div class="container">
       <Breadcrumbs items={crumbs} />
       <h1>{h1}</h1>
       <SourceNote tools={tableTools} />
@@ -326,7 +326,6 @@ const tableTools = isMarqlyPair ? [marqly, b] : [a, b, marqly];
 </LandingLayout>
 
 <style>
-  .cmp-page { max-width: 900px; }
   h1 {
     font-size: var(--fs-h2);
     font-weight: 600;

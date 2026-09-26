@@ -57,7 +57,7 @@ const others = competitors.filter((c) => c.slug !== subject.slug);
   alternates={alternatesForPath(path)}
 >
   <article class="section">
-    <div class="container alt-page">
+    <div class="container">
       <Breadcrumbs items={crumbs} />
       <h1>{h1}</h1>
       <SourceNote tools={[subject, ...ranked]} />
@@ -189,7 +189,6 @@ const others = competitors.filter((c) => c.slug !== subject.slug);
 </LandingLayout>
 
 <style>
-  .alt-page { max-width: 900px; }
   h1 { font-size: var(--fs-h2); font-weight: 600; letter-spacing: var(--tracking-tight); color: var(--ink-1); line-height: var(--lh-tight); }
   h2 { font-size: var(--fs-h3); font-weight: 600; color: var(--ink-1); margin-top: var(--space-12); margin-bottom: var(--space-4); letter-spacing: var(--tracking-tight); }
   .intro { margin-top: var(--space-5); font-size: var(--fs-base); line-height: var(--lh-base); color: var(--ink-2); }
