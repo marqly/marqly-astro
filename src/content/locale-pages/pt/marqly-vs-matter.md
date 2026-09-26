@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Matter e Marqly se sobrepõem menos do que parece. O Matter quer que você **consuma** o que salva — lendo ou ouvindo — e faz isso melhor que quase todo mundo. O Marqly parte do princípio de que você vai salvar muito mais do que vai consumir, e foca em você conseguir voltar.
@@ -63,14 +63,14 @@ Se você vive no iPhone e no Mac e seu gargalo é achar tempo para ler, o Matter
 - **Salvar como PDF** no Chrome e Edge.
 - **Chrome, Edge, Firefox e Safari**, mais app web e iOS.
 
-O que não tem: **áudio e leitura offline**.
+O que não tem: **áudio**. A leitura offline existe, mas só no Pro e por dispositivo: as páginas marcadas ficam salvas no app web ou no app de iOS, e não há modo offline no Android nem nas extensões.
 
 ## Comparação direta
 
 | | Matter | Marqly |
 | --- | --- | --- |
 | Ouvir artigos (áudio) | **Sim, excelente** | Não |
-| Offline | **Sim** | Não |
+| Offline | **Sim** | Sim (Pro) |
 | App de iOS | Sim, muito polido | Sim |
 | App de Android | Não | Não |
 | Navegadores | Chrome | Chrome, Edge, Firefox, Safari |

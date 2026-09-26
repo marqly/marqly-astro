@@ -19,7 +19,7 @@ faqs:
   - q: "O Marqly importa o export do Pocket?"
     a: "Sim. O Marqly importa exportações do Pocket, coleções do Raindrop.io e arquivos HTML de favoritos exportados do Chrome, Firefox, Edge ou Safari."
   - q: "O Marqly tem leitura offline como o Pocket tinha?"
-    a: "Não, e vale dizer com clareza: essa era uma das melhores funções do Pocket e o Marqly não tem. Se o seu uso principal era ler no metrô sem sinal, essa peça não é substituída."
+    a: "Sim, mas só no Pro: as páginas marcadas ficam salvas naquele dispositivo e você lê sem sinal pelo app web ou pelo app de iOS. Não sincronizam entre dispositivos, e não há modo offline no plano grátis, no Android nem nas extensões."
   - q: "Tem app de Android?"
     a: "Sim. O Marqly tem app para iPhone, iPad e Android, e o app web funciona em qualquer navegador."
   - q: "Quanto custa o Marqly?"
@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Esta comparação tem um detalhe incômodo: **o Pocket não existe mais**. A Mozilla encerrou o serviço em 8 de julho de 2025 e apagou de forma permanente todos os dados restantes depois de 8 de outubro de 2025. Então a pergunta real não é "qual é melhor", e sim "o que o Pocket fazia por mim e quem faz isso agora".
@@ -49,7 +49,7 @@ Se não baixou, não há o que recuperar. Nenhuma ferramenta devolve esses dados
 
 Vale ser justo, porque o Pocket era muito bom no que fazia:
 
-- **Leitura offline.** Os artigos sincronizavam sozinhos para o celular. O Marqly **não** tem modo offline.
+- **Leitura offline.** Os artigos sincronizavam sozinhos para o celular. O Marqly tem isso no Pro, mas por dispositivo: as páginas marcadas ficam salvas no app web ou no app de iOS e não viajam de um aparelho a outro; no Android e nas extensões não há modo offline.
 - **Listen (texto para voz).** Transformava a fila de leitura em playlist para o trânsito. O Marqly não tem.
 - **Leitor limpo**, sem distração, polido por anos de uso.
 - **Discover**, com recomendações editoriais de qualidade real.
@@ -93,7 +93,7 @@ O Marqly não tenta ser um leitor sem distrações. É um gerenciador de favorit
 | Salvar como PDF | Não | Sim (Chrome e Edge) |
 | Salvar todas as abas | Não | Sim |
 | Quadro público | Não | Sim |
-| Leitura offline | **Sim** | Não |
+| Leitura offline | **Sim** | Sim (Pro) |
 | App de Android | **Sim** | Não |
 | Importa export do Pocket | — | Sim |
 | Plano grátis | Sim | Sim, sem cartão |

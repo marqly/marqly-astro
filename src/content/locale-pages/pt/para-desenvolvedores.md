@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Programar produz um tipo bem específico de conhecimento: **a solução exata para um problema muito específico que vai voltar daqui a um ano**. E quase sempre ela mora numa aba que você fechou.
@@ -84,7 +84,7 @@ Sem rodeios, porque esse público pergunta isso primeiro:
 
 - **Não tem API pública.**
 - **Não é auto-hospedável.**
-- **Não tem modo offline.**
+- **A leitura offline só existe no Pro**, por dispositivo, no app web ou no app de iOS.
 
 Se o seu requisito é ser dono dos dados localmente, a comparação honesta está em [Marqly vs Obsidian](/pt/comparar/marqly-vs-obsidian), cujo clipper salva Markdown no seu disco e é grátis.
 

@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Partiamo dal riconoscerlo: **Raindrop.io è il miglior schedario di preferiti che esista**. Raccolte annidate, app curate su tutte le piattaforme, piano gratuito generoso e Pro a soli **28 $/anno (circa 27 €)**. Se il tuo problema è organizzare, Raindrop l'ha risolto e probabilmente non ti serve cambiare.
@@ -67,7 +67,7 @@ Se salvi molti video o articoli lunghi e vuoi smistare senza aprire, servono ria
 | Salvare tutte le schede | Sì | Sì | No |
 | Salvare come PDF | No | Sì (Chrome/Edge) | No |
 | Bacheca pubblica | Sì | Sì | No |
-| Offline | No | No | **Sì** |
+| Offline | No | Sì (Pro) | **Sì** |
 | App Android | **Sì** | Sì | **Sì** |
 | Prezzo | **28 $/anno** | 72 $/anno | Gratis |
 | Piano gratuito | Sì | Sì, senza carta | Sì |

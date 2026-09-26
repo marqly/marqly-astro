@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Kurz vorweg, damit du nicht bis zum Ende scrollen musst: **Raindrop.io ist der ausgereiftere und günstigere Bookmark-Manager** – großzügige Gratis-Stufe, Apps für wirklich jede Plattform, seit 2013 in Entwicklung. **Marqly ist stärker, wenn du das Gespeicherte wiederfinden willst, ohne dich an deine eigene Ordnung zu erinnern** – dank semantischer Suche, automatischem KI-Tagging, Zusammenfassungen und den YouTube-Werkzeugen. Welches besser passt, hängt nicht davon ab, wie viel du speicherst, sondern wie gut du dich beim Suchen an dich selbst erinnerst.
@@ -53,7 +53,7 @@ Kurz vorweg, damit du nicht bis zum Ende scrollen musst: **Raindrop.io ist der a
 | KI-Chats erfassen (ChatGPT, Claude, Gemini) | ja, Chrome, Edge, Firefox | nein |
 | Android-App | nein | ja |
 | Öffentliche API | nein | ja |
-| Offline-Modus | nein | nein |
+| Offline-Modus | ja (Pro) | nein |
 | Self-Hosting | nein | nein |
 | Import aus Pocket | ja | ja |
 

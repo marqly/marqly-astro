@@ -21,13 +21,13 @@ faqs:
   - q: "Posso usarli insieme?"
     a: "Sì, e ha senso: Marqly come casella di cattura rapida e libreria consultabile, Notion per i documenti e i progetti in cui poi citi quelle fonti."
   - q: "Notion funziona offline?"
-    a: "Sì, con accesso offline e app Android. Marqly l'app Android ce l'ha, l'accesso offline no."
+    a: "Sì, con accesso offline sincronizzato e app Android. Marqly l'app Android ce l'ha; l'accesso offline c'è solo su Pro, in app web e iOS, dispositivo per dispositivo."
   - q: "Quanto costa Marqly?"
     a: "Piano gratuito senza carta. Pro costa 9 $/mese (circa 8 €) o 72 $/anno (circa 69 €)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Se vivi già in Notion, salvarci i link sembra logico: un posto in meno da mantenere. E per molti funziona. Ma conviene conoscere il limite prima di versarci mille link in un database che poi nessuno apre.
@@ -66,7 +66,7 @@ Marqly parte dal presupposto che **non organizzerai nulla**:
 - **Salvare tutte le schede** e sessioni riapribili.
 - **Bacheche pubbliche** senza registrazione.
 
-Cosa manca: **offline, documenti, attività e database**. Non è un workspace e non prova a esserlo.
+Cosa manca: **documenti, attività e database** — e un offline sincronizzato: la lettura offline è solo su Pro, in app web e iOS, dispositivo per dispositivo. Non è un workspace e non prova a esserlo.
 
 ## Confronto diretto
 
@@ -74,7 +74,7 @@ Cosa manca: **offline, documenti, attività e database**. Non è un workspace e 
 | --- | --- | --- |
 | Documenti e progetti | **Sì** | No |
 | Database flessibili | **Sì** | No |
-| Offline | **Sì** | No |
+| Offline | **Sì** | Sì (Pro) |
 | App Android | **Sì** | Sì |
 | Qualità della cattura | Irregolare | Alta |
 | Tag automatici con IA | No | Sì |

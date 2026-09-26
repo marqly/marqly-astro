@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — c'est gratuit"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Si vous hésitez entre Marqly et Raindrop, la question à trancher n'est pas «&nbsp;lequel est le meilleur&nbsp;» mais «&nbsp;qu'est-ce qui vous coûte du temps aujourd'hui&nbsp;». Raindrop est le meilleur classeur à liens du marché&nbsp;: développé sans interruption depuis 2013, présent sur toutes les plateformes, avec une offre gratuite remarquablement généreuse. Marqly parie sur l'inverse&nbsp;: ne rien vous demander de ranger, et vous rendre vos pages quand vous les décrivez. Voici le détail, sans complaisance.
@@ -75,7 +75,7 @@ Si votre bibliothèque est déjà bien rangée et que vous retrouvez sans peine 
 | Import Pocket et HTML | Oui | Oui |
 | Application iOS | Oui | Oui |
 | Application Android | Non | Oui |
-| Mode hors ligne | Non | Non |
+| Mode hors ligne | Oui (Pro) | Non |
 | API publique | Non | Oui |
 | Auto-hébergement | Non | Non |
 
@@ -85,7 +85,7 @@ Si votre bibliothèque est déjà bien rangée et que vous retrouvez sans peine 
 
 **Prenez Marqly si&nbsp;:** vous sauvegardez beaucoup et rangez peu&nbsp;; vous perdez du temps à retrouver ce que vous savez avoir lu&nbsp;; vous voulez un résumé avant d'investir vingt minutes&nbsp;; vous regardez beaucoup de vidéos et voulez les rendre consultables&nbsp;; vous voulez poser des questions à votre propre bibliothèque.
 
-**Aucun des deux ne conviendra si&nbsp;:** vous avez besoin de lire hors ligne. Ni l'un ni l'autre ne propose de vrai mode hors ligne.
+**Aucun des deux ne conviendra si&nbsp;:** vous voulez lire hors ligne toute votre bibliothèque sur tous vos appareils. Marqly a bien un mode hors ligne, mais limité&nbsp;: avec Pro, pour les pages marquées, dans l'application web ou iOS, et sans synchronisation entre appareils. Raindrop n'en propose pas.
 
 ## Passer de Raindrop à Marqly
 

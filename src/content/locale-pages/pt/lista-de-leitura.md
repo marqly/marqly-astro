@@ -19,7 +19,7 @@ faqs:
   - q: "Dá para trazer minha lista atual?"
     a: "Sim. O Marqly importa exports do Pocket, coleções do Raindrop.io e arquivos HTML de favoritos do Chrome, Firefox, Edge e Safari."
   - q: "Funciona offline?"
-    a: "Não. O Marqly não tem modo offline, então para ler num avião sem sinal convém outra ferramenta."
+    a: "Sim, mas só no Pro: as páginas marcadas ficam salvas no próprio aparelho e você lê sem sinal no app web ou no app de iOS. No plano grátis, no Android e nas extensões faz falta a conexão."
   - q: "Os vídeos contam como lista de leitura?"
     a: "Sim, e costumam ser metade do problema. Ao salvar um vídeo do YouTube você tem resumo e a transcrição anexada, então dá para triar sem assistir."
   - q: "Quanto custa?"
@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Toda lista de leitura tem o mesmo destino: **cresce mais rápido do que se lê**. Você salva cinco coisas por dia e lê uma. Em um ano são mil artigos pendentes e uma sensação permanente de dívida.
@@ -78,7 +78,7 @@ Se a sua pilha vem principalmente de abas abertas, veja [salvar todas as abas](/
 
 ## Se você realmente quer ler mais
 
-Vale ser honesto: se o seu objetivo é **ler** mais e melhor, há ferramentas melhores que o Marqly para isso. Instapaper e Matter têm experiência de leitura superior e funcionam offline, algo que o Marqly não oferece. Está comparado em [Marqly vs Instapaper](/pt/comparar/marqly-vs-instapaper) e [Marqly vs Matter](/pt/comparar/marqly-vs-matter).
+Vale ser honesto: se o seu objetivo é **ler** mais e melhor, há ferramentas melhores que o Marqly para isso. Instapaper e Matter têm experiência de leitura superior e funcionam offline em qualquer plano, algo que o Marqly só oferece no Pro e por dispositivo. Está comparado em [Marqly vs Instapaper](/pt/comparar/marqly-vs-instapaper) e [Marqly vs Matter](/pt/comparar/marqly-vs-matter).
 
 O Marqly é a resposta quando o problema não é ler, e sim **voltar a encontrar**.
 

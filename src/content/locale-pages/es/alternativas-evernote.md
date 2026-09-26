@@ -23,11 +23,11 @@ faqs:
   - q: "¿Puedo llevarme lo que tengo?"
     a: "Marqly importa exportaciones de Pocket, colecciones de Raindrop.io y archivos HTML de marcadores del navegador. Para migrar notas completas, mira herramientas de notas."
   - q: "¿Qué pierdo al salir de Evernote?"
-    a: "Sobre todo el escaneo de documentos, las notas largas y el modo sin conexión. Marqly no tiene ninguna de esas cosas."
+    a: "Sobre todo el escaneo de documentos y las notas largas, y también un sin conexión distinto: Evernote baja libretas enteras a todos tus equipos, mientras que Marqly solo guarda sin conexión las páginas marcadas, en Pro y en el dispositivo donde las marcaste (app web o app de iOS)."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Casi todo el mundo que busca alternativa a Evernote lo hace por lo mismo: **el precio subió y el plan gratis se quedó corto**. Starter cuesta 99 USD al año y Advanced 249,99 USD al año. La pregunta útil es qué parte de todo eso usas realmente.
@@ -75,14 +75,14 @@ Sé sincero: si no lo abres, migrar todo es trabajo perdido. Exporta por segurid
 | IA para YouTube | No | No | No | **Sí** |
 | Guardar todas las pestañas | No | No | Sí | Sí |
 | Guardar como PDF | Sí | No | No | Sí (Chrome/Edge) |
-| Sin conexión | **Sí** | **Sí** | No | No |
+| Sin conexión | **Sí** | **Sí** | No | Sí (Pro) |
 | App de Android | **Sí** | **Sí** | **Sí** | No |
 | Precio | 99–249,99 USD/año | 10 USD/miembro/mes | **28 USD/año** | 72 USD/año |
 | Plan gratis | Limitado | Sí | Sí | Sí, sin tarjeta |
 
 ## Lo que pierdes al salir
 
-Sin adornos, porque conviene decidir con los ojos abiertos. Saliendo de Evernote hacia Marqly pierdes: **notas largas, escaneo de documentos y modo sin conexión**. Si alguna de esas tres es imprescindible en tu día a día, Marqly no es tu alternativa y es mejor saberlo ahora.
+Sin adornos, porque conviene decidir con los ojos abiertos. Saliendo de Evernote hacia Marqly pierdes: **notas largas, escaneo de documentos y el sin conexión de libretas completas en todos tus equipos**. Marqly sí baja páginas a tu dispositivo para leer sin señal, pero solo en Pro, solo las marcadas y solo en la app web o la app de iOS. Si lo primero es imprescindible en tu día a día, Marqly no es tu alternativa y es mejor saberlo ahora.
 
 El detalle completo está en [Marqly vs Evernote](/es/comparar/marqly-vs-evernote).
 

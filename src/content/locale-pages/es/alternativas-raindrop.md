@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Conviene empezar reconociéndolo: **Raindrop.io es el mejor archivador de marcadores que existe**. Colecciones anidadas, apps pulidas en todas las plataformas, un plan gratis generoso y Pro por solo **28 USD al año**. Si tu problema es ordenar, Raindrop ya lo resolvió y probablemente no necesites cambiar.
@@ -67,7 +67,7 @@ Si guardas muchos videos o artículos largos y quieres triar sin abrirlos, neces
 | Guardar todas las pestañas | Sí | Sí | No |
 | Guardar como PDF | No | Sí (Chrome/Edge) | No |
 | Tablero público | Sí | Sí | No |
-| Sin conexión | No | No | **Sí** |
+| Sin conexión | No | Sí (Pro) | **Sí** |
 | App de Android | **Sí** | No | **Sí** |
 | Precio | **28 USD/año** | 72 USD/año | Gratis |
 | Plan gratis | Sí | Sí, sin tarjeta | Sí |

@@ -23,11 +23,11 @@ faqs:
   - q: "Puis-je garder une copie de la page annotée ?"
     a: "Sur Chrome et Edge, Marqly enregistre la page en PDF, avec un traitement effectué en local sur votre machine. C'est utile pour les pages susceptibles de disparaître ou d'être modifiées."
   - q: "Le surligneur fonctionne-t-il hors ligne ?"
-    a: "Non. Marqly a besoin d'une connexion internet pour enregistrer et synchroniser vos surlignages, vos notes et vos sauvegardes. Il n'y a pas de mode hors ligne."
+    a: "Non. L'extension a besoin d'une connexion pour enregistrer et synchroniser vos surlignages, vos notes et vos sauvegardes ; il n'y a pas de mode hors ligne dans l'extension. En revanche, avec Pro, les pages marquées restent enregistrées sur l'appareil et se lisent hors ligne dans l'application web ou l'application iOS."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — c'est gratuit"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Pour surligner du texte sur une page web, il vous faut une extension de navigateur qui garde la trace de vos marques. Avec Marqly, vous sélectionnez un passage, vous choisissez une couleur parmi six, et le surlignage est enregistré sur votre compte&nbsp;: il réapparaît exactement au même endroit à votre prochaine visite, même des semaines plus tard, même sur un autre ordinateur. L'extension existe pour Chrome, Edge, Firefox et Safari.
@@ -93,7 +93,7 @@ Une page web n'est pas gravée dans le marbre&nbsp;: elle est modifiée, dépubl
 
 ## Ce que le surligneur ne fait pas
 
-Soyons clairs&nbsp;: pas de mode hors ligne, et le surligneur ne se partage pas dans l'espace personnel — c'est un outil conçu pour votre lecture à vous. L'édition à plusieurs dans un même espace, c'est le rôle de Marqly Teams. Si vous comparez avec d'autres solutions, notre [comparatif Marqly vs Raindrop](/fr/comparer/marqly-vs-raindrop) dit aussi ce que fait mieux la concurrence.
+Soyons clairs&nbsp;: pas de mode hors ligne dans l'extension — avec Pro, les pages marquées se lisent hors ligne dans l'application web ou iOS, par appareil — et le surligneur ne se partage pas dans l'espace personnel ; c'est un outil conçu pour votre lecture à vous. L'édition à plusieurs dans un même espace, c'est le rôle de Marqly Teams. Si vous comparez avec d'autres solutions, notre [comparatif Marqly vs Raindrop](/fr/comparer/marqly-vs-raindrop) dit aussi ce que fait mieux la concurrence.
 
 ## Essayez sur la page que vous avez sous les yeux
 

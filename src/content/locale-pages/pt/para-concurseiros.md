@@ -17,7 +17,7 @@ faqs:
   - q: "Serve para as videoaulas de cursinho?"
     a: "Para as aulas hospedadas no YouTube, sim: aparece um cartão de IA com resumo, chat e transcrição sincronizada, e a transcrição é salva junto com o vídeo. Aula dentro da área de aluno de um cursinho você salva como página, com anotação."
   - q: "Consigo estudar sem internet?"
-    a: "Não. O Marqly precisa de conexão para salvar, sincronizar e usar a IA — não existe modo offline. O que dá para fazer é converter páginas em PDF, no Chrome e no Edge, e ficar com o arquivo por sua conta."
+    a: "Sim, mas só no Pro: as páginas marcadas ficam salvas naquele dispositivo e você lê sem internet pelo app web ou pelo app de iOS — não sincroniza entre aparelhos, e grátis, no Android e nas extensões não há modo offline. Também dá para converter páginas em PDF, no Chrome e no Edge, e ficar com o arquivo por sua conta."
   - q: "Quanto custa?"
     a: "Tem plano grátis, sem cartão de crédito. O Pro custa US$ 9 por mês ou US$ 72 por ano. Se você também está matriculado em uma instituição de ensino, o preço de estudante verificado é US$ 48 no primeiro ano."
   - q: "Tem app para Android?"
@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Quem estuda para concurso não sofre por falta de material — sofre por excesso dele espalhado. São videoaulas em três lugares, PDFs baixados com nome de arquivo ilegível, links de jurisprudência, resumos de colega e uma pasta de favoritos que virou depósito. O Marqly resolve a parte de salvar e reencontrar: você salva tudo com um clique, a IA organiza e resume, e depois você acha o material descrevendo o que lembra — mesmo sem saber onde salvou.
@@ -90,7 +90,7 @@ Sobre o quarto item: depois de garimpar jurisprudência com quinze abas abertas,
 - **Nova guia com widgets** (Chrome, Edge e Firefox): sua aba nova abre no material em vez de abrir no Instagram.
 - **Captura de conversas de IA** (Chrome, Edge e Firefox): salva a explicação que você pediu ao ChatGPT, ao Claude ou ao Gemini junto com o resto do material, em vez de deixar perdida no histórico do chat.
 
-Para ser justo com o seu planejamento, o que o Marqly **não** faz: não funciona offline e, no plano pessoal, o compartilhamento é em modo leitura — para a equipe editar junto existe o Marqly Teams. No iPhone, no iPad e no Android tem app; em outros celulares, use o app web pelo navegador.
+Para ser justo com o seu planejamento, o que o Marqly **não** faz: a leitura offline só existe no Pro e por dispositivo — páginas marcadas, salvas no app web ou no app de iOS, sem sincronizar entre aparelhos — e, no plano pessoal, o compartilhamento é em modo leitura; para a equipe editar junto existe o Marqly Teams. No iPhone, no iPad e no Android tem app; em outros celulares, use o app web pelo navegador.
 
 ## Preço
 

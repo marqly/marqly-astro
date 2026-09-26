@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Zuerst die Anerkennung: **Raindrop.io ist der beste Lesezeichen-Aktenschrank, den es gibt**. Verschachtelte Sammlungen, elegante Apps auf allen Plattformen, eine großzügige Gratis-Stufe und Pro für nur **28 $ (rund 26 €) im Jahr**. Wenn dein Problem das Ordnen ist, hat Raindrop es gelöst und du brauchst vermutlich keinen Wechsel.
@@ -67,7 +67,7 @@ Wenn du viele Videos oder lange Artikel speicherst und ohne Öffnen sichten will
 | Alle Tabs speichern | Ja | Ja | Nein |
 | Als PDF sichern | Nein | Ja (Chrome/Edge) | Nein |
 | Öffentliches Board | Ja | Ja | Nein |
-| Offline | Nein | Nein | **Ja** |
+| Offline | Nein | Ja (Pro) | **Ja** |
 | Android-App | **Ja** | Ja | **Ja** |
 | Preis | **28 $/Jahr** | 72 $/Jahr | Kostenlos |
 | Kostenlose Stufe | Ja | Ja, ohne Karte | Ja |

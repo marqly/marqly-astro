@@ -15,7 +15,7 @@ faqs:
   - q: "Como funciona o desconto de estudante?"
     a: "Estudante com matrícula verificada paga US$ 48 no primeiro ano de Pro, em vez de US$ 72. É o mesmo plano, com todos os recursos de IA — inclusive o chat com o que você salvou."
   - q: "Dá para usar sem pagar nada?"
-    a: "Dá. O plano grátis não pede cartão de crédito e já serve para salvar, organizar com tags automáticas e buscar. O Pro é cobrado no momento do upgrade e pode ser cancelado quando quiser."
+    a: "Dá. O plano grátis não pede cartão de crédito e já serve para salvar, montar boards, grifar e buscar por palavra-chave em toda a biblioteca. As tags automáticas e a busca semântica por IA são recursos do Pro — que é cobrado no momento do upgrade e pode ser cancelado quando quiser."
   - q: "O Marqly resume videoaula do YouTube?"
     a: "Sim. Ao abrir um vídeo aparece um cartão de IA com resumo, chat e transcrição sincronizada — clicou na frase, o vídeo pula para aquele trecho. Quando você salva o vídeo, a transcrição vai junto para a sua biblioteca."
   - q: "Isso não é colar?"
@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Se você estuda pela internet, o gargalo não é falta de material — é excesso. Videoaula de duas horas, PDF do professor, três artigos abertos em abas diferentes e um vídeo do YouTube que explicava exatamente aquilo, mas você não faz ideia de qual era. O Marqly é uma extensão com IA que salva tudo isso em um clique, resume, organiza sozinho e devolve o material quando você precisa — mesmo que você só lembre vagamente do assunto. E quem é estudante verificado paga **US$ 48 no primeiro ano** de Pro.
@@ -92,11 +92,11 @@ Se o seu foco é prova de concurso, a rotina é um pouco diferente — veja [Mar
 
 ## Quanto custa para estudante
 
-- **Grátis**: salvar, tags automáticas e busca, sem cartão de crédito.
+- **Grátis**: salvar, boards, grifos e busca por palavra-chave na biblioteca toda (até 100 links salvos), sem cartão de crédito. As funções de IA — tags automáticas, resumos e busca semântica — são do Pro.
 - **Pro**: US$ 9 por mês ou US$ 72 por ano.
 - **Estudante verificado**: **US$ 48 no primeiro ano**, com os mesmos recursos do Pro.
 
-Vale lembrar do que o Marqly **não** faz, para você não se planejar errado: não funciona sem internet e, no plano pessoal, o compartilhamento é apenas leitura — para a equipe editar junto existe o Marqly Teams. No iPhone, no iPad e no Android existe app; em qualquer outro celular, o app web resolve pelo navegador.
+Vale lembrar do que o Marqly **não** faz, para você não se planejar errado: a leitura offline só existe no Pro e por dispositivo — as páginas marcadas ficam salvas no app web ou no app de iOS, sem sincronizar entre aparelhos — e, no plano pessoal, o compartilhamento é apenas leitura; para a equipe editar junto existe o Marqly Teams. No iPhone, no iPad e no Android existe app; em qualquer outro celular, o app web resolve pelo navegador.
 
 ## Uma rotina de estudo que se sustenta
 

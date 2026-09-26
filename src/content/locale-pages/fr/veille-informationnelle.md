@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — c'est gratuit"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Un outil de veille informationnelle doit vous faire gagner du temps sur la partie ingrate&nbsp;: qualifier, classer, résumer, puis retrouver. Marqly automatise exactement cette chaîne. Vous captez une page d'un clic, l'IA lui pose des étiquettes et rédige un résumé, la recherche sémantique vous la restitue six mois plus tard quand vous ne vous souvenez plus que du sujet, et un tableau public suffit à diffuser votre sélection.
@@ -88,7 +88,7 @@ Vos archives ne restent pas dehors&nbsp;: Marqly importe depuis Pocket, depuis R
 
 ## Les limites, sans détour
 
-Pas de mode hors ligne, pas d'API publique, pas d'auto-hébergement. Le travail d'équipe n'est pas oublié — c'est le rôle de Marqly Teams — mais l'espace personnel de veille reste un outil individuel. Si votre veille doit être industrialisée et connectée à d'autres systèmes, Marqly seul n'est pas le bon outil. Si elle est portée par une personne qui capte beaucoup et réexploite mal, c'est exactement le bon.
+Pas d'API publique, pas d'auto-hébergement, et un mode hors ligne limité — seulement avec Pro, sur les pages marquées, par appareil, dans l'application web ou iOS. Le travail d'équipe n'est pas oublié — c'est le rôle de Marqly Teams — mais l'espace personnel de veille reste un outil individuel. Si votre veille doit être industrialisée et connectée à d'autres systèmes, Marqly seul n'est pas le bon outil. Si elle est portée par une personne qui capte beaucoup et réexploite mal, c'est exactement le bon.
 
 ## Testez sur une semaine de veille
 

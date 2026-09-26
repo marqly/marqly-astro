@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Écrire quelque chose de documenté comporte deux phases très différentes : une où vous accumulez du matériel sans ordre, et une où il vous faut une pièce précise de ce matériel **tout de suite**. C'est dans la seconde que le temps se perd.
@@ -92,7 +92,7 @@ Beaucoup de matériel n'existe qu'en vidéo. Sur la page YouTube, vous avez rés
 
 ## Ce qu'il ne fait pas
 
-Marqly **n'est pas un éditeur** : vous n'écrivez pas ici. Il ne gère pas non plus les citations au format académique et ne fonctionne pas hors ligne. C'est la bibliothèque, pas le bureau.
+Marqly **n'est pas un éditeur** : vous n'écrivez pas ici, et il ne gère pas non plus les citations au format académique. La lecture hors ligne existe, mais seulement avec Pro et par appareil : les pages marquées restent dans l'application web ou iOS. C'est la bibliothèque, pas le bureau.
 
 ## Commencer
 

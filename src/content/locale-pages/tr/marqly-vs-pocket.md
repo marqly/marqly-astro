@@ -17,13 +17,13 @@ faqs:
   - q: "Pocket ile Marqly arasındaki en belirgin fark nedir?"
     a: "Pocket'ta her şeyi elle etiketlemek gerekiyordu; Marqly'de ise yapay zeka içerikleri otomatik sınıflandırır ve anlam tabanlı arama sunar."
   - q: "Marqly'de Pocket gibi çevrimdışı okuma var mı?"
-    a: "Hayır. Marqly bulut odaklı bir bilgi yöneticisidir ve çevrimdışı okuyucu özelliği bulunmaz. İnternetsiz okuma vazgeçilmezinizse Instapaper'ı değerlendirebilirsiniz."
+    a: "Evet, Pro planda. Çevrimdışı okuma bir Pro özelliğidir: web uygulaması ve iOS uygulamasında kaydedilen makaleler cihaza önbelleğe alınır ve uçakta bile okunabilir; ancak cihazlar arası eşitleme yoktur ve Android uygulaması ile tarayıcı eklentileri çevrimdışı okumayı desteklemez."
   - q: "Fiyatlandırma nasıl?"
     a: "100 kayda kadar ücretsiz plan sunulur. Pro plan yıllık 72 $ (STANDING49 kuponuyla ilk yıl 49 $) veya aylık 9 $'dır."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Deneyin"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
-updatedDate: 2026-09-07
+updatedDate: 2026-09-26
 ---
 
 Pocket'ın kapatılmasıyla birlikte yıllarca biriktirilen makalelerin güvenle taşınabileceği modern bir araç ihtiyacı doğdu. Marqly, Pocket dışa aktarma dosyalarını sorunsuzca içeri aktararak arşivinizi yapay zeka ile canlandırır.

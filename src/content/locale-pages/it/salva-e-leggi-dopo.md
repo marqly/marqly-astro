@@ -17,7 +17,7 @@ faqs:
   - q: "Come faccio a smaltire una coda di lettura enorme?"
     a: "Usa i riassunti come filtro. Scorri la lista, leggi il riassunto di ognuno e decidi in dieci secondi: leggo, elimino, tengo. Bastano dieci minuti a settimana perché la coda torni a essere gestibile."
   - q: "Marqly funziona offline, in metropolitana?"
-    a: "No, serve la connessione: non c'è una modalità di lettura offline. Se il tuo requisito principale è leggere senza rete, un'app di sola lettura è più adatta; Marqly è pensato per salvare, capire e ritrovare."
+    a: "Sì, ma solo su Pro: le pagine che contrassegni restano offline in app web e iOS, sul dispositivo dove le salvi. Fuori da quello serve la connessione; se il tuo requisito principale è leggere senza rete su Android o col piano gratuito, un'app di sola lettura è più adatta — Marqly è pensato per salvare, capire e ritrovare."
   - q: "Posso salvare anche i post che mi arrivano dai social?"
     a: "Sì. Salvi qualsiasi pagina dal browser e puoi importare i tuoi preferiti di X (Twitter). Anche le conversazioni di ChatGPT, Claude e Gemini si catturano da Chrome, Edge e Firefox."
   - q: "Posso tenere una copia della pagina?"
@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — è gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Per salvare un articolo da leggere dopo basta un clic: con l'estensione Marqly la pagina entra nella tua libreria senza che tu debba scegliere una cartella o inventarti un'etichetta. Poi l'intelligenza artificiale fa la parte noiosa — mette i tag e scrive un riassunto — così quando torni non ti trovi davanti una lista di titoli muti, ma qualcosa che ti dice subito se vale la pena aprirlo. Lo ritrovi dall'estensione, dall'app web o dall'iPhone.
@@ -61,7 +61,7 @@ Quando arrivi davvero a leggere, tanto vale portarti a casa qualcosa. Con l'[evi
 
 ## Cosa Marqly non è
 
-Onestà, così non perdi tempo: **non c'è una modalità offline**. Se il tuo bisogno principale è scaricare venti articoli e leggerli in aereo senza rete, un'app di sola lettura fa meglio il suo mestiere. Marqly è fatto per il problema opposto: salvare tanto, capire in fretta cosa vale e ritrovare mesi dopo. Se ti stai orientando adesso, il confronto sulle [alternative a Pocket nel 2026](/it/blog/alternative-a-pocket-2026) è la lettura giusta prima di scegliere.
+Onestà, così non perdi tempo: **la lettura offline esiste solo su Pro**, con le pagine che contrassegni, in app web e iOS e solo sul dispositivo usato. Se il tuo bisogno principale è scaricare venti articoli su Android e leggerli in aereo senza rete, un'app di sola lettura fa meglio il suo mestiere. Marqly è fatto per il problema opposto: salvare tanto, capire in fretta cosa vale e ritrovare mesi dopo. Se ti stai orientando adesso, il confronto sulle [alternative a Pocket nel 2026](/it/blog/alternative-a-pocket-2026) è la lettura giusta prima di scegliere.
 
 ## Cosa puoi mettere nella coda
 

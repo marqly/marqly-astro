@@ -19,7 +19,7 @@ faqs:
   - q: "Importiert Marqly den Pocket-Export?"
     a: "Ja. Marqly importiert Pocket-Exporte, Raindrop.io-Sammlungen und HTML-Lesezeichendateien aus Chrome, Firefox, Edge oder Safari."
   - q: "Hat Marqly Offline-Lesen wie Pocket?"
-    a: "Nein, und das sollte klar gesagt sein: Das war eine der besten Funktionen von Pocket, und Marqly hat sie nicht. Wenn du vor allem ohne Empfang in der Bahn gelesen hast, wird das nicht eins zu eins ersetzt."
+    a: "Teilweise, und das sollte klar gesagt sein: Offline-Lesen gibt es auf Pro – markierte Seiten bleiben in der Web-App oder iOS-App auf dem jeweiligen Gerät. Pocket hat automatisch über alle Geräte synchronisiert; ohne Pro, auf Android und in den Erweiterungen wird das nicht eins zu eins ersetzt."
   - q: "Gibt es eine Android-App?"
     a: "Ja. Marqly hat Apps für iPhone, iPad und Android, und die Web-App läuft in jedem Browser."
   - q: "Was kostet Marqly?"
@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Dieser Vergleich hat einen unangenehmen Haken: **Pocket gibt es nicht mehr**. Mozilla hat den Dienst am 8. Juli 2025 abgeschaltet und alle verbliebenen Daten nach dem 8. Oktober 2025 endgültig gelöscht. Die eigentliche Frage lautet also nicht „welches ist besser", sondern „was hat Pocket für mich getan, und wer macht das jetzt".
@@ -49,7 +49,7 @@ Wenn nicht, gibt es nichts wiederherzustellen. Kein Werkzeug bringt diese Daten 
 
 Fairerweise: Pocket war richtig gut in dem, was es tat.
 
-- **Offline-Lesen.** Artikel synchronisierten sich von allein aufs Handy. Marqly hat **kein** Offline-Modus.
+- **Offline-Lesen.** Artikel synchronisierten sich von allein aufs Handy. Marqly speichert Offline-Kopien nur **auf Pro** – in Web-App und iOS, pro Gerät, ohne Sync.
 - **Listen (Text-zu-Sprache).** Machte aus dem Lesestapel eine Playlist fürs Auto. Marqly kann das nicht.
 - **Sauberer, ablenkungsfreier Reader**, über Jahre verfeinert.
 - **Discover** mit wirklich guten Longread-Empfehlungen.
@@ -93,7 +93,7 @@ Marqly versucht nicht, ein ablenkungsfreier Reader zu sein. Es ist ein Lesezeich
 | Als PDF sichern | Nein | Ja (Chrome & Edge) |
 | Alle Tabs speichern | Nein | Ja |
 | Öffentliches Board | Nein | Ja |
-| Offline-Lesen | **Ja** | Nein |
+| Offline-Lesen | **Ja** | Ja (Pro) |
 | Android-App | **Ja** | Ja |
 | Importiert Pocket-Export | — | Ja |
 | Kostenlose Stufe | Ja | Ja, ohne Karte |

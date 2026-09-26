@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Un'inchiesta si regge su documentazione che **può cambiare mentre scrivi**. Comunicati corretti senza preavviso, profili cancellati, cifre aggiornate, pagine ufficiali riorganizzate. Salvare un link non è archiviare.
@@ -87,7 +87,7 @@ Ogni tema ha la sua bacheca con tutta la documentazione. Alla consegna puoi pubb
 Con trasparenza, perché in questo mestiere conta:
 
 - Marqly è un **servizio cloud**. Non self-hosted, senza API pubblica.
-- **Nessuna modalità offline.**
+- **Lettura offline solo su Pro**, in app web e iOS, dispositivo per dispositivo.
 - Per materiale sensibile o fonti che richiedano protezione, questa decisione dovrebbe passare per i criteri della tua redazione, non per una pagina di prodotto.
 
 Per lavoro in cui i file devono stare sul tuo disco, l'alternativa onesta è in [Marqly vs Obsidian](/it/confronto/marqly-vs-obsidian).

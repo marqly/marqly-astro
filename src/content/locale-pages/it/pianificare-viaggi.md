@@ -19,7 +19,7 @@ faqs:
   - q: "Conserva la prenotazione o il prezzo com'erano?"
     a: "Su Chrome ed Edge puoi archiviare la pagina come PDF con il layout reale, il che fissa un prezzo o delle condizioni a una certa data."
   - q: "Funziona offline durante il viaggio?"
-    a: "No. Marqly non ha una modalità offline, quindi per consultare senza dati conviene scaricare a parte l'essenziale."
+    a: "Sì, ma solo su Pro: le pagine che contrassegni restano offline in app web e iOS, sul dispositivo dove le salvi. Senza Pro o su Android, per consultare senza dati conviene scaricare a parte l'essenziale."
   - q: "C'è un'app per il telefono?"
     a: "C'è un'app per iPhone e iPad, una per Android su Google Play, e l'app web funziona in qualsiasi browser."
   - q: "Quanto costa?"
@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Pianificare un viaggio è una di quelle attività che generano un disordine enorme in pochissimo tempo. Inizi guardando i voli e finisci con quaranta schede aperte, tre conversazioni piene di consigli e nessuna decisione presa.
@@ -85,7 +85,7 @@ Sei in città, hai due ore libere e non ricordi cosa avevi salvato in zona. Cerc
 
 E compare. Dall'app iPhone o dal browser del telefono.
 
-Un avviso pratico: **non c'è modalità offline**. Se vai in un posto senza dati, scarica a parte l'essenziale.
+Un avviso pratico: **la lettura offline è solo su Pro**, in app web e iOS, dispositivo per dispositivo. Se vai in un posto senza dati col piano gratuito o su Android, scarica a parte l'essenziale.
 
 ## Iniziare
 

@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 La recherche crée un problème que personne n'apprend à résoudre : **vous accumulez bien plus de matériel que vous ne pouvez en retenir**. Articles, rapports, prépublications, conférences enregistrées, communiqués, bases de données. Tout pertinent sur le moment, tout introuvable six mois plus tard.
@@ -80,7 +80,7 @@ Une grande part du savoir actuel se trouve dans des conférences YouTube d'une h
 Pour éviter toute surprise :
 
 - **Pas de gestion de citations ni de bibliographies formatées.** C'est le rôle de Zotero et Mendeley, et Marqly ne les remplace pas.
-- **Pas de mode hors ligne.**
+- **Le hors ligne n'existe qu'avec Pro**, pour les pages marquées et seulement sur l'appareil où elles ont été enregistrées (application web ou iOS).
 - **Pas d'édition collaborative dans le plan personnel** : le tableau public est en lecture seule ; pour éditer à plusieurs, il y a Marqly Teams.
 
 Marqly couvre l'étape avant la bibliographie : le matériel que vous évaluez, pas celui que vous avez déjà décidé de citer. Beaucoup utilisent les deux — Marqly pour explorer, un gestionnaire de références pour publier.

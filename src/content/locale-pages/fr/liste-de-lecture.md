@@ -19,7 +19,7 @@ faqs:
   - q: "Puis-je apporter ma liste actuelle ?"
     a: "Oui. Marqly importe les exports Pocket, les collections Raindrop.io et les fichiers HTML de favoris de Chrome, Firefox, Edge et Safari."
   - q: "Cela fonctionne-t-il hors ligne ?"
-    a: "Non. Marqly n'a pas de mode hors ligne : pour lire en avion sans réseau, mieux vaut un autre outil."
+    a: "Oui, mais seulement avec Pro : les pages marquées restent enregistrées sur l'appareil et se lisent sans réseau dans l'application web ou l'application iOS. Sur l'offre gratuite, sur Android et dans les extensions, la connexion reste nécessaire."
   - q: "Les vidéos comptent-elles dans la liste de lecture ?"
     a: "Oui, et elles représentent souvent la moitié du problème. En enregistrant une vidéo YouTube, vous obtenez un résumé et la transcription jointe : vous pouvez trier sans regarder."
   - q: "Combien cela coûte-t-il ?"
@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Toute liste de lecture connaît le même sort : elle **grossit plus vite qu'on ne lit**. Vous enregistrez cinq choses par jour et en lisez une. En un an, mille articles en attente et un sentiment permanent de dette.
@@ -78,7 +78,7 @@ Si votre pile vient surtout d'onglets ouverts : [sauvegarder les onglets](/fr/sa
 
 ## Si vous voulez vraiment lire davantage
 
-Soyons honnêtes : si votre objectif est de **lire** plus et mieux, il existe de meilleurs outils que Marqly. Instapaper et Matter offrent une meilleure expérience de lecture et fonctionnent hors ligne, ce que Marqly ne propose pas. Comparé dans [Marqly vs Instapaper](/fr/comparer/marqly-vs-instapaper) et [Marqly vs Matter](/fr/comparer/marqly-vs-matter).
+Soyons honnêtes : si votre objectif est de **lire** plus et mieux, il existe de meilleurs outils que Marqly. Instapaper et Matter offrent une meilleure expérience de lecture et fonctionnent hors ligne sur tous les plans, ce que Marqly ne propose qu'avec Pro et par appareil. Comparé dans [Marqly vs Instapaper](/fr/comparer/marqly-vs-instapaper) et [Marqly vs Matter](/fr/comparer/marqly-vs-matter).
 
 Marqly est la réponse quand le problème n'est pas de lire, mais de **retrouver**.
 

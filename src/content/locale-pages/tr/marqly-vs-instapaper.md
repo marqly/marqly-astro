@@ -15,7 +15,7 @@ faqs:
   - q: "Marqly mi yoksa Instapaper mı tercih edilmeli?"
     a: "Uçakta veya metroda uzun makaleleri çevrimdışı ve reklamsız okumak istiyorsanız Instapaper. Kaydettiğiniz makaleleri, videoları ve dokümanları sonradan kolayca bulmak istiyorsanız Marqly."
   - q: "Instapaper'da çevrimdışı mod var, Marqly'de var mı?"
-    a: "Hayır. Instapaper sayfaları çevrimdışı okuma için indirir; Marqly ise bulut tabanlıdır ve çevrimdışı okuma modu içermez."
+    a: "Instapaper sayfaları çevrimdışı okuma için indirir. Marqly'de çevrimdışı okuma bir Pro özelliğidir: web uygulaması ve iOS uygulamasında kaydedilen makaleler cihaza önbelleğe alınır ve internetsiz ortamda da okunabilir; ancak cihazlar arası eşitleme yoktur ve Android uygulaması ile tarayıcı eklentileri çevrimdışı okumayı desteklemez."
   - q: "Fiyatlandırma nasıl?"
     a: "Instapaper Premium aylık 5,99$ veya yıllık 59,99$'dır. Marqly Pro yıllık 72$'dır (STANDING49 kuponuyla ilk yıl 49$) ve 100 bağlantıya kadar ücretsiz plan sunar."
   - q: "Instapaper'da yapay zeka özellikleri var mı?"
@@ -23,7 +23,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Deneyin"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
-updatedDate: 2026-09-07
+updatedDate: 2026-09-26
 ---
 
 Bu karşılaştırmanın özeti çok nettir: **Instapaper okumada, Marqly ise geri bulmada kazanır**.

@@ -15,7 +15,7 @@ faqs:
   - q: "Qual é melhor, Marqly ou Instapaper?"
     a: "Depende do seu problema. Se você lê muito texto longo e quer uma experiência de leitura impecável e offline, Instapaper. Se você salva muito e depois não acha nada, Marqly, porque marca com IA e busca por significado."
   - q: "O Instapaper tem leitura offline e o Marqly não?"
-    a: "Isso mesmo. O Instapaper baixa seus artigos para ler sem sinal e ainda integra com o Kindle. O Marqly não tem modo offline e não vamos dizer que tem."
+    a: "Não é mais tão simples. O Instapaper baixa seus artigos para ler sem sinal e ainda integra com o Kindle. O Marqly também tem leitura offline, mas só no Pro e por dispositivo: as páginas marcadas ficam salvas no app web ou no app de iOS, não sincronizam entre aparelhos, e não há modo offline no Android nem nas extensões."
   - q: "Quanto custa cada um?"
     a: "O Instapaper tem plano grátis e Premium por 5,99 USD/mês ou 59,99 USD/ano. O Marqly tem plano grátis sem cartão, e o Pro custa 9 USD/mês ou 72 USD/ano."
   - q: "O Instapaper tem IA?"
@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Dá para resumir esta comparação em uma frase: **o Instapaper ganha em ler, o Marqly ganha em encontrar**. Não são a mesma ferramenta, e escolher a errada é o que faz as pessoas abandonarem as duas.
@@ -70,14 +70,14 @@ O Marqly parte de outra ideia: o gargalo não é ler, é **reencontrar**.
 - **Salvar todas as abas**, sessões reabríveis e **quadros públicos** que abrem sem cadastro.
 - **Salvar como PDF** (Chrome e Edge).
 
-E o que o Marqly não tem, dito com clareza: **sem leitura offline e sem integração com Kindle**.
+E o que o Marqly não tem, dito com clareza: **integração com Kindle**. A leitura offline existe, mas só no Pro, por dispositivo, no app web ou no app de iOS.
 
 ## Comparação direta
 
 | | Instapaper | Marqly |
 | --- | --- | --- |
 | Experiência de leitura | **Excelente** | Adequada |
-| Leitura offline | **Sim** | Não |
+| Leitura offline | **Sim** | Sim (Pro) |
 | Kindle | **Sim** | Não |
 | App de Android | **Sim** | Não |
 | Tags automáticas com IA | Não | Sim |

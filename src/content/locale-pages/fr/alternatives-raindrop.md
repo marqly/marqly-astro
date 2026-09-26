@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Commençons par le reconnaître : **Raindrop.io est le meilleur classeur de favoris qui existe**. Collections imbriquées, applications soignées sur toutes les plateformes, offre gratuite généreuse et Pro à seulement **28 $ (environ 27 €) par an**. Si votre problème est de ranger, Raindrop l'a résolu et vous n'avez probablement pas besoin de changer.
@@ -67,7 +67,7 @@ Si vous enregistrez beaucoup de vidéos ou d'articles longs et voulez trier sans
 | Enregistrer tous les onglets | Oui | Oui | Non |
 | Enregistrer en PDF | Non | Oui (Chrome/Edge) | Non |
 | Tableau public | Oui | Oui | Non |
-| Hors ligne | Non | Non | **Oui** |
+| Hors ligne | Non | Oui (Pro) | **Oui** |
 | Application Android | **Oui** | Non | **Oui** |
 | Prix | **28 $/an** | 72 $/an | Gratuit |
 | Offre gratuite | Oui | Oui, sans carte | Oui |

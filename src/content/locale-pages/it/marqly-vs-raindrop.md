@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — è gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 La risposta breve: **Raindrop è il miglior schedario per segnalibri in circolazione, Marqly è fatto per ritrovare le cose.** Raindrop ha un piano gratuito molto generoso, app su ogni piattaforma (Android compreso), un'API aperta e dieci anni di sviluppo alle spalle. Marqly punta tutto su quello che succede dopo il salvataggio: tag automatici, riassunti, ricerca semantica, chat con i tuoi salvataggi e una scheda AI su ogni video YouTube. Se ami organizzare, Raindrop. Se odi organizzare ma vuoi comunque ritrovare, Marqly.
@@ -76,7 +76,7 @@ Marqly parte da un'idea diversa: il tempo che spendi a catalogare è tempo perso
 | App iOS | Sì | Sì |
 | App Android | **Sì** | **Sì** |
 | API pubblica | **No** | **Sì** |
-| Modalità offline | No | No |
+| Modalità offline | Sì (Pro) | No |
 | Self-hosting | No | No |
 | Importazione da Pocket | Sì | Sì |
 

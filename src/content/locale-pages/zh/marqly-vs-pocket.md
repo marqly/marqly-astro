@@ -17,13 +17,13 @@ faqs:
   - q: "Marqly与Pocket最大的区别是什么？"
     a: "Pocket依靠手动打标签，久而久之成为死库；Marqly引入了AI自动提炼和语义向量检索，只要输入记忆中的句子就能秒出文章。"
   - q: "Marqly支持像Pocket那样的离线阅读模式吗？"
-    a: "不支持。Marqly是现代云端知识库，并不主打离线排版阅读。如果你对离线无网阅读有刚需，建议考虑Instapaper。"
+    a: "支持。离线阅读属于 Pro 功能：在网页应用或 iOS 应用中，把文章标记为离线后，该设备即可无网阅读；离线内容不会同步到其他设备，Android 应用和浏览器扩展暂不支持离线。"
   - q: "价格与免费额度如何？"
     a: "免费版可存储多达100条内容。Pro版年付72美元（首年优惠码 STANDING49 为49美元）或月付9美元。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
-updatedDate: 2026-09-07
+updatedDate: 2026-09-26
 ---
 
 随着Pocket服务正式关闭，许多用户手中的文章备份需要一个能够长久维护的归宿。Marqly不仅完整支持Pocket备份文件的导入，更用现代AI技术彻底激活了沉睡的文章库。

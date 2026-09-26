@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Salvare link in Notion è un'idea ragionevole: ci vivi già, quindi un posto in meno da mantenere. Con cinquanta link funziona bene. Il problema arriva quando il database cresce.
@@ -64,7 +64,7 @@ A seconda di cosa ti dà fastidio:
 | Salvare tutte le schede | No | Sì | No | Sì |
 | Salvare come PDF | No | No | No | Sì (Chrome/Edge) |
 | Dati locali | No | No | **Sì** | No |
-| Offline | **Sì** | No | **Sì** | No |
+| Offline | **Sì** | No | **Sì** | Sì (Pro) |
 | Prezzo | 10 $/membro/mese | **28 $/anno** | **Gratis** | 72 $/anno |
 
 ## La soluzione a cui quasi nessuno pensa: non scegliere

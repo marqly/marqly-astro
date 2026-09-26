@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Guardar enlaces en Notion es una idea muy razonable: ya vives ahí, así tienes un sitio menos que mantener. Y con cincuenta enlaces funciona bien. El problema aparece cuando la base de datos crece.
@@ -64,7 +64,7 @@ Según lo que te esté molestando:
 | Guardar todas las pestañas | No | Sí | No | Sí |
 | Guardar como PDF | No | No | No | Sí (Chrome/Edge) |
 | Datos en local | No | No | **Sí** | No |
-| Sin conexión | **Sí** | No | **Sí** | No |
+| Sin conexión | **Sí** | No | **Sí** | Sí (Pro) |
 | Precio | 10 USD/miembro/mes | **28 USD/año** | **Gratis** | 72 USD/año |
 
 ## La solución que casi nadie considera: no elegir

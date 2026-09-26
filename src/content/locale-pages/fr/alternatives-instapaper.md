@@ -17,7 +17,7 @@ faqs:
   - q: "Quelle alternative a une recherche IA ?"
     a: "Marqly. Il étiquette chaque enregistrement automatiquement et cherche par sens, transcriptions vidéo et surlignages compris. Instapaper cherche littéralement."
   - q: "Une alternative fonctionne-t-elle hors ligne ?"
-    a: "Instapaper, Matter et Readwise Reader oui. Marqly n'a pas de mode hors ligne, à savoir avant de changer."
+    a: "Instapaper, Matter et Readwise Reader oui, sur n'importe quel plan. Marqly aussi : avec Pro, les pages marquées restent enregistrées sur l'appareil, dans l'application web ou iOS ; sur l'offre gratuite, sur Android et dans les extensions, il n'y a pas de mode hors ligne. À savoir avant de changer."
   - q: "Combien coûte Instapaper ?"
     a: "Il a une offre gratuite et Premium à 5,99 $ (environ 5,50 €) par mois ou 59,99 $ (environ 57 €) par an."
   - q: "Puis-je emporter mes articles ?"
@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Disons-le d'emblée : **Instapaper reste la meilleure expérience de lecture de la catégorie**. Typographie soignée, lecteur épuré, lecture hors ligne, intégration Kindle et une offre gratuite utilisable. Ceux qui cherchent une alternative ne le font presque jamais parce qu'il lit mal.
@@ -59,7 +59,7 @@ Instapaper n'a pas d'IA : ni résumés, ni étiquetage automatique, ni chat. C'e
 | | Instapaper | Matter | Readwise Reader | Marqly |
 | --- | --- | --- | --- | --- |
 | Expérience de lecture | **Excellente** | Excellente | Excellente | Correcte |
-| Hors ligne | Oui | Oui | Oui | **Non** |
+| Hors ligne | Oui | Oui | Oui | **Oui (Pro)** |
 | Audio | Non | **Oui** | Oui | Non |
 | Kindle | **Oui** | Non | Non | Non |
 | Tags automatiques par IA | Non | Non | Non | **Oui** |
@@ -75,7 +75,7 @@ Instapaper n'a pas d'IA : ni résumés, ni étiquetage automatique, ni chat. C'e
 
 ## Quand rester
 
-Si vous lisez beaucoup de textes longs, lisez hors ligne ou envoyez des articles au Kindle : restez sur Instapaper. Aucune alternative n'améliore cela, et Marqly en particulier **n'a ni lecture hors ligne ni intégration Kindle**. Changer d'outil ne répare pas un système qui fonctionne.
+Si vous lisez beaucoup de textes longs, lisez hors ligne ou envoyez des articles au Kindle : restez sur Instapaper. Aucune alternative n'améliore cela, et Marqly en particulier ne propose la lecture hors ligne qu'avec Pro, par appareil — et **aucune intégration Kindle**. Changer d'outil ne répare pas un système qui fonctionne.
 
 ## Quand changer
 

@@ -15,7 +15,7 @@ faqs:
   - q: "Wie speichere ich einen Artikel zum späteren Lesen?"
     a: "Mit einem Klick über die Marqly-Erweiterung oder die Seitenleiste – in Chrome, Edge, Firefox und Safari. Auf dem iPhone geht es über die iOS-App. Tags und eine Zusammenfassung legt Marqly automatisch an, du musst nichts einsortieren."
   - q: "Kann ich gespeicherte Artikel offline lesen?"
-    a: "Nein, einen Offline-Modus gibt es nicht. In Chrome und Edge kannst du eine Seite aber als PDF sichern – die Verarbeitung passiert lokal – und behältst so eine Kopie, falls die Quelle verschwindet."
+    a: "Ja – auf Pro: markierte Seiten speichert die Web-App oder die iOS-App offline, auf dem jeweiligen Gerät, ohne Sync und ohne Android oder Erweiterungen. In Chrome und Edge kannst du eine Seite alternativ als PDF sichern – die Verarbeitung passiert lokal – und behältst so eine Kopie, falls die Quelle verschwindet."
   - q: "Wozu eine KI-Zusammenfassung, wenn ich den Artikel doch lesen will?"
     a: "Zum Aussortieren. Die meisten gespeicherten Artikel halten nicht, was die Überschrift verspricht. Mit der Kurzfassung entscheidest du in Sekunden, ob du die zwanzig Minuten investierst – und was direkt gelöscht werden kann."
   - q: "Wie finde ich einen Artikel wieder, dessen Titel ich vergessen habe?"
@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Eine App zum späteren Lesen ist schnell gefunden. Das Problem ist nie das Speichern, sondern das, was danach kommt: Nach ein paar Monaten liegen 300 Artikel in der Liste, und beim Öffnen fühlst du dich schuldig statt neugierig. Marqly geht die zweite Hälfte an. Du speicherst mit einem Klick, bekommst zu jedem Artikel eine **KI-Zusammenfassung** und sortierst damit aus – und findest den einen Text später wieder, indem du beschreibst, worum es ging. Erweiterung für Chrome, Edge, Firefox und Safari, dazu Web-App und iOS-App.
@@ -86,7 +86,7 @@ Ein 45-Minuten-Video ist der Artikel, den du am ehesten aufschiebst. Marqly blen
 
 Seit dem Ende von Pocket suchen viele Ersatz. Marqly importiert aus **Pocket**, aus **Raindrop** und aus jeder **Lesezeichen-HTML-Datei**; einen Überblick über das Feld gibt der Beitrag zu den [Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2026), einen direkten Vergleich [Marqly vs. Raindrop](/de/vergleich/marqly-vs-raindrop).
 
-Eines vorweg, damit du nicht enttäuscht wirst: Es gibt **keinen Offline-Modus** – im Zug ohne Empfang ist Marqly das falsche Werkzeug. Was an Daten entsteht und wie du sie exportierst, steht in den [Datenschutz-Fragen](/de/datenschutz-fragen).
+Eines vorweg, damit du nicht enttäuscht wirst: Offline-Lesen gibt es nur auf Pro – markierte Seiten, pro Gerät, in Web-App oder iOS-App; ohne Pro, auf Android oder in den Erweiterungen brauchst du Verbindung. Was an Daten entsteht und wie du sie exportierst, steht in den [Datenschutz-Fragen](/de/datenschutz-fragen).
 
 Die kostenlose Stufe verlangt keine Kreditkarte. Pro kostet **72 $/Jahr (rund 66 €)** oder **9 $/Monat (rund 8 €)**, für Studierende **48 $ (rund 44 €) im ersten Jahr**.
 

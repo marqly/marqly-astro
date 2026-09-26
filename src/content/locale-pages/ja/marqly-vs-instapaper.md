@@ -14,8 +14,8 @@ faqHeading: "よくある質問"
 faqs:
   - q: "MarqlyとInstapaper、どちらを選ぶべきですか？"
     a: "長文記事をオフラインやKindleで落ち着いて読みたいならInstapaperが最適です。記事だけでなく動画やドキュメントを保存し、AIで探したいならMarqlyが適しています。"
-  - q: "Instapaperにはオフライン機能があり、Marqlyにはありませんか？"
-    a: "その通りです。Instapaperは記事をローカルにキャッシュして機内でも読めます。Marqlyはオンライン特化でオフラインリーダー機能はありません。"
+  - q: "Instapaperにはオフライン機能があります。Marqlyにもありますか？"
+    a: "Instapaperは記事をローカルにキャッシュして機内でも読めます。Marqlyのオフライン閲覧はPro機能です。WebアプリとiOSアプリで保存した記事をデバイスにキャッシュして機内でも読めますが、端末間の同期はなく、Androidアプリや拡張機能には対応していません。"
   - q: "料金の差はどれくらいですか？"
     a: "Instapaper Premiumは月額5.99ドルまたは年額59.99ドルです。Marqly Proは年額72ドル（初年度クーポンSTANDING49で49ドル）で、無料プラン（100件保存）も提供しています。"
   - q: "InstapaperにAI機能はありますか？"
@@ -23,7 +23,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqlyを無料で試す"
 ctaSecondaryLabel: "Chromeに追加 — 無料"
-updatedDate: 2026-09-07
+updatedDate: 2026-09-26
 ---
 
 この比較の結論は明快です：**『読む』ことに特化するならInstapaper、『探す』ことを自動化するならMarqly**です。

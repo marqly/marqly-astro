@@ -23,11 +23,11 @@ faqs:
   - q: "Kann ich mitnehmen, was ich habe?"
     a: "Marqly importiert Pocket-Exporte, Raindrop.io-Sammlungen und HTML-Lesezeichendateien. Für vollständige Notizen brauchst du ein Notiz-Tool."
   - q: "Was verliere ich beim Wechsel?"
-    a: "Vor allem Dokumentenscan, lange Notizen und den Offline-Modus. Marqly hat nichts davon."
+    a: "Vor allem Dokumentenscan und lange Notizen – die hat Marqly nicht. Offline-Lesen gibt es nur auf Pro, in Web-App und iOS, pro Gerät."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Fast alle, die eine Evernote-Alternative suchen, tun das aus demselben Grund: **der Preis ist gestiegen und die Gratis-Stufe wurde eng**. Starter kostet 99 $ im Jahr, Advanced 249,99 $. Die nützliche Frage ist, welchen Teil davon du wirklich nutzt.
@@ -75,14 +75,14 @@ Sei ehrlich: Wenn du es nicht öffnest, ist eine vollständige Migration verlore
 | KI für YouTube | Nein | Nein | Nein | **Ja** |
 | Alle Tabs speichern | Nein | Nein | Ja | Ja |
 | Als PDF sichern | Ja | Nein | Nein | Ja (Chrome/Edge) |
-| Offline | **Ja** | **Ja** | Nein | Nein |
+| Offline | **Ja** | **Ja** | Nein | Ja (Pro) |
 | Android-App | **Ja** | **Ja** | **Ja** | Ja |
 | Preis | 99–249,99 $/Jahr | 10 $/Mitglied/Monat | **28 $/Jahr** | 72 $/Jahr |
 | Kostenlose Stufe | Begrenzt | Ja | Ja | Ja, ohne Karte |
 
 ## Was du beim Wechsel verlierst
 
-Ohne Schönfärberei, weil man mit offenen Augen entscheiden sollte. Beim Wechsel von Evernote zu Marqly verlierst du: **lange Notizen, Dokumentenscan und Offline-Modus**. Wenn eines dieser drei in deinem Alltag unverzichtbar ist, ist Marqly nicht deine Alternative — und das solltest du jetzt wissen.
+Ohne Schönfärberei, weil man mit offenen Augen entscheiden sollte. Beim Wechsel von Evernote zu Marqly verlierst du: **lange Notizen und Dokumentenscan**; Offline-Lesen gibt es nur auf Pro, in Web-App und iOS, pro Gerät und ohne Sync. Wenn etwas davon in deinem Alltag unverzichtbar ist, ist Marqly nicht deine Alternative — und das solltest du jetzt wissen.
 
 Alle Details in [Marqly vs Evernote](/de/vergleich/marqly-vs-evernote).
 

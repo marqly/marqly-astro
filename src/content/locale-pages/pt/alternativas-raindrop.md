@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Vale começar reconhecendo: **o Raindrop.io é o melhor arquivador de favoritos que existe**. Coleções aninhadas, apps polidos em todas as plataformas, plano grátis generoso e Pro por apenas **28 USD por ano**. Se o seu problema é organizar, o Raindrop já resolveu e talvez você nem precise trocar.
@@ -67,7 +67,7 @@ Se você salva muitos vídeos ou artigos longos e quer triar sem abrir, precisa 
 | Salvar todas as abas | Sim | Sim | Não |
 | Salvar como PDF | Não | Sim (Chrome/Edge) | Não |
 | Quadro público | Sim | Sim | Não |
-| Offline | Não | Não | **Sim** |
+| Offline | Não | Sim (Pro) | **Sim** |
 | App de Android | **Sim** | Não | **Sim** |
 | Preço | **28 USD/ano** | 72 USD/ano | Grátis |
 | Plano grátis | Sim | Sim, sem cartão | Sim |

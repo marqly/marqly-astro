@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Preparar una clase genera material que usarás una vez y necesitarás otra vez dentro de un año. El problema no es encontrarlo la primera vez: es **encontrarlo la segunda**, cuando ya no recuerdas de dónde salió.
@@ -93,7 +93,7 @@ Un esquema útil para docencia:
 
 ## Lo que no encontrarás
 
-Para que no haya sorpresas: en el plan personal la compartición es **en modo lectura** (para editar en equipo existe Marqly Teams) y no hay modo sin conexión. Marqly es una biblioteca personal que puedes compartir en modo lectura, no una plataforma docente.
+Para que no haya sorpresas: en el plan personal la compartición es **en modo lectura** (para editar en equipo existe Marqly Teams) y el sin conexión solo está en Pro, por dispositivo: las páginas marcadas se quedan en la app web o en la app de iOS y no se sincronizan entre equipos. Marqly es una biblioteca personal que puedes compartir en modo lectura, no una plataforma docente.
 
 ## Empezar
 

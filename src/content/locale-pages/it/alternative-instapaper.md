@@ -17,7 +17,7 @@ faqs:
   - q: "Quale alternativa ha la ricerca IA?"
     a: "Marqly. Etichetta ogni salvataggio automaticamente e cerca per significato, trascrizioni video ed evidenziazioni comprese. Instapaper cerca in modo letterale."
   - q: "Qualche alternativa funziona offline?"
-    a: "Instapaper, Matter e Readwise Reader sì. Marqly non ha modalità offline, ed è bene saperlo prima di cambiare."
+    a: "Instapaper, Matter e Readwise Reader sì. Marqly ha la lettura offline solo su Pro, in app web e iOS, dispositivo per dispositivo: è bene saperlo prima di cambiare."
   - q: "Quanto costa Instapaper?"
     a: "Ha un piano gratuito e Premium a 5,99 $/mese (circa 5,50 €) o 59,99 $/anno (circa 57 €)."
   - q: "Posso portarmi via i miei articoli?"
@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Diciamolo subito: **Instapaper resta la migliore esperienza di lettura della categoria**. Tipografia curata, lettore pulito, lettura offline, integrazione Kindle e un piano gratuito usabile. Chi cerca un'alternativa quasi mai lo fa perché legge male.
@@ -59,7 +59,7 @@ Instapaper non ha IA: né riassunti, né tag automatici, né chat. È una scelta
 | | Instapaper | Matter | Readwise Reader | Marqly |
 | --- | --- | --- | --- | --- |
 | Esperienza di lettura | **Eccellente** | Eccellente | Eccellente | Buona |
-| Offline | Sì | Sì | Sì | **No** |
+| Offline | Sì | Sì | Sì | Sì (Pro) |
 | Audio | No | **Sì** | Sì | No |
 | Kindle | **Sì** | No | No | No |
 | Tag automatici con IA | No | No | No | **Sì** |
@@ -75,7 +75,7 @@ Instapaper non ha IA: né riassunti, né tag automatici, né chat. È una scelta
 
 ## Quando restare
 
-Se leggi molti testi lunghi, leggi offline o mandi articoli al Kindle: resta su Instapaper. Nessuna alternativa migliora questo, e Marqly in particolare **non ha lettura offline né integrazione Kindle**. Cambiare strumento non ripara un sistema che funziona.
+Se leggi molti testi lunghi, leggi offline o mandi articoli al Kindle: resta su Instapaper. Nessuna alternativa migliora questo, e Marqly in particolare **non ha integrazione Kindle**, e legge offline solo su Pro, in app web e iOS, dispositivo per dispositivo. Cambiare strumento non ripara un sistema che funziona.
 
 ## Quando cambiare
 

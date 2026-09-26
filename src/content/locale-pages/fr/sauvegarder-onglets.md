@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — c'est gratuit"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Pour sauvegarder tous vos onglets Chrome d'un coup, il faut un outil qui traite la fenêtre comme un ensemble et non comme une pile de liens sans rapport. Marqly le fait en un clic&nbsp;: toute la fenêtre part dans votre bibliothèque sous forme de session, vous fermez sans hésiter, et vous la rouvrez plus tard telle quelle. L'extension fonctionne sur Chrome, Edge, Firefox et Safari.
@@ -87,7 +87,7 @@ Si vous traînez déjà des milliers de favoris, ils n'ont pas à rester dehors&
 
 ## Ce qu'il faut savoir avant d'installer
 
-Pas de mode hors ligne&nbsp;: une connexion est nécessaire pour sauvegarder et synchroniser. La nouvelle page d'onglet avec widgets est disponible sur Chrome, Edge et Firefox, et l'historique du presse-papiers uniquement sur Chrome et Edge.
+Une connexion est nécessaire pour sauvegarder et synchroniser, et il n'y a pas de mode hors ligne dans l'extension ; avec Pro, les pages marquées restent lisibles hors ligne dans l'application web ou iOS, par appareil. La nouvelle page d'onglet avec widgets est disponible sur Chrome, Edge et Firefox, et l'historique du presse-papiers uniquement sur Chrome et Edge.
 
 ## Videz votre fenêtre maintenant
 

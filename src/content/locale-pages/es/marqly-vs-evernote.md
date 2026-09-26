@@ -23,11 +23,11 @@ faqs:
   - q: "¿Puedo pasar mis marcadores a Marqly?"
     a: "Sí. Marqly importa exportaciones de Pocket, colecciones de Raindrop.io y archivos HTML de marcadores de Chrome, Firefox, Edge y Safari."
   - q: "¿Evernote funciona sin conexión?"
-    a: "Sí, Evernote tiene acceso sin conexión y app de Android. Marqly tiene la app de Android, el acceso sin conexión no."
+    a: "Sí, Evernote tiene acceso sin conexión y app de Android. Marqly también lee sin conexión, pero solo en Pro y por dispositivo: las páginas marcadas se guardan en la app web o en la app de iOS, y no hay modo sin conexión en Android ni en las extensiones."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Comparar Marqly con Evernote es comparar una herramienta con una suite. Evernote quiere ser el sitio donde vive todo tu trabajo; Marqly quiere ser el sitio donde encuentras lo que viste en internet. La pregunta útil no es cuál es más potente —lo es Evernote— sino **cuánto sistema necesitas realmente**.
@@ -67,7 +67,7 @@ Marqly no intenta ser tu sistema de notas. Hace una cosa:
 - **Guardar como PDF** en Chrome y Edge.
 - **Historial de portapapeles** en Chrome y Edge, con sincronización en Pro.
 
-Lo que no tiene: **sin conexión, notas largas, escaneo de documentos**.
+Lo que no tiene: **notas largas y escaneo de documentos**. El acceso sin conexión existe en Pro, por dispositivo, en la app web o en la app de iOS.
 
 ## Comparación directa
 
@@ -75,7 +75,7 @@ Lo que no tiene: **sin conexión, notas largas, escaneo de documentos**.
 | --- | --- | --- |
 | Notas y documentos | **Sí, completo** | No |
 | Escaneo de documentos | **Sí** | No |
-| Sin conexión | **Sí** | No |
+| Sin conexión | **Sí** | Sí (Pro) |
 | App de Android | **Sí** | No |
 | Recorte web | Sí, muy bueno | Sí |
 | Etiquetado automático con IA | No | Sí |

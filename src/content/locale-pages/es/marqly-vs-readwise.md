@@ -21,13 +21,13 @@ faqs:
   - q: "¿Los dos tienen IA para YouTube?"
     a: "Sí, los dos trabajan con video. Marqly muestra resumen, transcripción sincronizada y chat directamente en la página de YouTube, y adjunta la transcripción al guardado para que sea buscable."
   - q: "¿Readwise Reader funciona sin conexión?"
-    a: "Sí, y también tiene app de Android. Marqly tiene la app de Android; el modo sin conexión, no."
+    a: "Sí, y también tiene app de Android. Marqly también lee sin conexión, pero solo en Pro y por dispositivo: las páginas marcadas se guardan en la app web o en la app de iOS, y no hay modo sin conexión en Android ni en las extensiones."
   - q: "¿Cuánto cuesta Marqly?"
     a: "Plan gratis sin tarjeta, y Pro por 9 USD al mes o 72 USD al año. Los estudiantes verificados pagan 48 USD el primer año."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Hay que empezar reconociendo lo evidente: **Readwise Reader es la herramienta de lectura más potente que existe hoy**. Si tu problema es leer mucho y sacar partido de lo que subrayas, probablemente sea la respuesta correcta y esta página debería terminar aquí.
@@ -66,7 +66,7 @@ Marqly no compite en la experiencia de lectura. Compite en **el índice**:
 - **Guardar como PDF** en Chrome y Edge.
 - **Plan gratis sin tarjeta**, y Pro a 72 USD al año.
 
-Lo que no tiene: **sin conexión, newsletters por correo, repaso espaciado ni API pública**.
+Lo que no tiene: **newsletters por correo, repaso espaciado ni API pública**. La lectura sin conexión existe, pero solo en Pro y por dispositivo (app web o app de iOS).
 
 ## Comparación directa
 
@@ -75,7 +75,7 @@ Lo que no tiene: **sin conexión, newsletters por correo, repaso espaciado ni AP
 | Experiencia de lectura | **Excelente** | Correcta |
 | Newsletters y RSS | **Sí** | No |
 | Repaso espaciado | **Sí** | No |
-| Sin conexión | **Sí** | No |
+| Sin conexión | **Sí** | Sí (Pro) |
 | App de Android | **Sí** | No |
 | API pública | **Sí** | No |
 | Etiquetado automático con IA | No | Sí |

@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Investigar genera un problema que nadie te enseña a resolver: **acumulas mucho más material del que puedes recordar**. Papers, informes, hilos, preprints, charlas grabadas, notas de prensa, bases de datos. Todo relevante en su momento, todo irrecuperable seis meses después.
@@ -80,7 +80,7 @@ Puedes probarlo sin instalar nada con el [resumidor de YouTube](/es/herramientas
 Conviene decirlo claro:
 
 - **No gestiona citas ni bibliografías con formato.** Para eso están Zotero y Mendeley, y Marqly no los sustituye.
-- **No tiene modo sin conexión.**
+- **El sin conexión solo está en Pro**, para páginas marcadas y en el dispositivo donde las marcaste (app web o app de iOS).
 - **Sin edición colaborativa en el plan personal**: el tablero público es de solo lectura; para editar varias personas existe Marqly Teams.
 
 Marqly cubre la etapa anterior a la bibliografía: el material que estás evaluando, no el que ya decidiste citar. Muchos investigadores usan las dos cosas — Marqly para explorar, un gestor de referencias para publicar.

@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Scrivere qualcosa di documentato ha due fasi molto diverse: una in cui accumuli materiale senza ordine, e una in cui ti serve un pezzo preciso di quel materiale **adesso**. È nella seconda che si perde tempo.
@@ -92,7 +92,7 @@ Da provare senza installare nulla: [trascrizione YouTube](/it/strumenti/trascriz
 
 ## Cosa non fa
 
-Marqly **non è un editor**: qui non scrivi. Non gestisce nemmeno citazioni in formato accademico e non funziona offline. È la libreria, non la scrivania.
+Marqly **non è un editor**: qui non scrivi. Non gestisce nemmeno citazioni in formato accademico; offline si legge solo su Pro, in app web e iOS, dispositivo per dispositivo. È la libreria, non la scrivania.
 
 ## Iniziare
 

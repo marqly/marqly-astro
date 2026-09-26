@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Si quieres una app para guardar links de TikTok, Instagram y WhatsApp en un solo lugar, lo que necesitas es algo que reciba enlaces de cualquier app y después te los devuelva. Marqly guarda el link, lo etiqueta con IA, lo resume y te deja encontrarlo describiendo de qué trataba. Una aclaración honesta antes de seguir: Marqly guarda **enlaces**, no descarga los videos ni el contenido de esas apps.
@@ -82,7 +82,7 @@ Mucho de lo que te mandan es video, y ahí Marqly hace algo más. En YouTube mue
 ## Lo que Marqly no hace (para que no te lleves una sorpresa)
 
 - **No descarga** videos ni fotos de TikTok, Instagram ni WhatsApp. Guarda el enlace.
-- **No funciona sin conexión.** Necesita internet para guardar, sincronizar y usar la IA.
+- **El sin conexión es limitado.** Solo en Pro: las páginas marcadas se guardan en ese dispositivo y se leen en la app web o en la app de iOS. Guardar, sincronizar y usar la IA necesita internet, y en gratis, Android y extensiones no hay modo sin conexión.
 
 Preferimos decirlo aquí y no que lo descubras después de instalar.
 

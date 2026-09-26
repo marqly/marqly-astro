@@ -17,7 +17,7 @@ faqs:
   - q: "Ainda dá tempo de tirar meus dados do Pocket?"
     a: "Não. A exportação fechou em 8 de outubro de 2025 e a Mozilla apagou os dados restantes de forma permanente. Só serve o ZIP baixado antes dessa data."
   - q: "Alguma alternativa tem leitura offline como o Pocket?"
-    a: "Instapaper e Matter têm leitura offline. O Marqly não tem modo offline, então se isso era essencial, comece por essas duas."
+    a: "Instapaper e Matter têm leitura offline para a biblioteca inteira. O Marqly também tem, mas só no Pro: as páginas marcadas ficam salvas no próprio aparelho, no app web ou no app de iOS. Se o essencial era Android ou extensão, comece por essas duas."
   - q: "Existe alternativa gratuita?"
     a: "Sim. Raindrop.io e Marqly têm plano grátis. No Marqly dá para criar conta sem cartão, e o Pro custa 72 USD por ano ou 9 USD por mês."
   - q: "Qual alternativa importa melhor o arquivo do Pocket?"
@@ -25,7 +25,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 O Pocket encerrou em **8 de julho de 2025** e a Mozilla apagou os dados restantes depois de **8 de outubro de 2025**. Se você procura alternativa, o primeiro passo é aceitar que não existe substituto único: o Pocket fazia três coisas diferentes e cada alternativa cobre uma parte.
@@ -42,9 +42,9 @@ A alternativa certa depende de qual dos três você era. Errar aqui é o motivo 
 
 ## Se o Pocket era seu leitor
 
-Procure **Instapaper** ou **Matter**. São os substitutos mais próximos do Pocket clássico: leitor limpo, tipografia caprichada e **leitura offline** — exatamente o que o Marqly não tem.
+Procure **Instapaper** ou **Matter**. São os substitutos mais próximos do Pocket clássico: leitor limpo, tipografia caprichada e **leitura offline** na biblioteca inteira; o Marqly só oferece isso no Pro, por dispositivo, e só no app web ou no app de iOS.
 
-Vale dizer sem rodeios: se sua rotina era baixar artigos e ler no avião ou no metrô sem sinal, o Marqly não é sua ferramenta. Essa função não existe aqui e não vamos fingir que existe.
+Vale dizer sem rodeios: se sua rotina era baixar artigos e ler no avião ou no metrô sem sinal, o Marqly não é substituto um para um. O offline existe só no Pro, de página marcada em página marcada, apenas no app web ou no app de iOS, e não sincroniza entre aparelhos.
 
 ## Se o Pocket era seu arquivo
 
@@ -76,7 +76,7 @@ Se a sua caixa enche principalmente de abas abertas, veja [salvar todas as abas]
 
 | | Instapaper | Matter | Raindrop.io | Marqly |
 | --- | --- | --- | --- | --- |
-| Leitura offline | Sim | Sim | Não | Não |
+| Leitura offline | Sim | Sim | Não | Sim (Pro) |
 | Tags automáticas com IA | Não | Não | Não | Sim |
 | Busca semântica | Não | Não | Não | Sim |
 | Resumos com IA | Não | Não | Não | Sim |

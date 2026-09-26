@@ -19,7 +19,7 @@ faqs:
   - q: "Kann ich meine aktuelle Liste mitbringen?"
     a: "Ja. Marqly importiert Pocket-Exporte, Raindrop.io-Sammlungen und HTML-Lesezeichendateien aus Chrome, Firefox, Edge und Safari."
   - q: "Funktioniert es offline?"
-    a: "Nein. Marqly hat keinen Offline-Modus, für Lesen im Flugzeug ohne Empfang eignet sich also ein anderes Werkzeug."
+    a: "Ja – aber nur auf Pro: markierte Seiten speicherst du offline in der Web-App oder der iOS-App, auf dem jeweiligen Gerät. Ohne Sync über Geräte, ohne Android-App, ohne Erweiterungen."
   - q: "Zählen Videos zur Leseliste?"
     a: "Ja, und sie sind oft die Hälfte des Problems. Beim Speichern eines YouTube-Videos bekommst du Zusammenfassung und angehängtes Transkript, kannst also ohne Ansehen sichten."
   - q: "Was kostet es?"
@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Jede Leseliste hat dasselbe Schicksal: Sie **wächst schneller, als gelesen wird**. Du speicherst fünf Dinge am Tag und liest eines. In einem Jahr sind das tausend offene Artikel und ein dauerhaftes Schuldgefühl.
@@ -78,7 +78,7 @@ Wenn dein Stapel vor allem aus offenen Tabs entsteht: [Tabs speichern](/de/tabs-
 
 ## Wenn du wirklich mehr lesen willst
 
-Ehrlich gesagt: Wenn dein Ziel ist, **mehr** und besser zu lesen, gibt es dafür bessere Werkzeuge als Marqly. Instapaper und Matter haben ein besseres Leseerlebnis und funktionieren offline, was Marqly nicht bietet. Verglichen in [Marqly vs Instapaper](/de/vergleich/marqly-vs-instapaper) und [Marqly vs Matter](/de/vergleich/marqly-vs-matter).
+Ehrlich gesagt: Wenn dein Ziel ist, **mehr** und besser zu lesen, gibt es dafür bessere Werkzeuge als Marqly. Instapaper und Matter haben ein besseres Leseerlebnis und lesen überall offline; Marqly bietet Offline-Lesen nur auf Pro, in Web-App und iOS, pro Gerät. Verglichen in [Marqly vs Instapaper](/de/vergleich/marqly-vs-instapaper) und [Marqly vs Matter](/de/vergleich/marqly-vs-matter).
 
 Marqly ist die Antwort, wenn das Problem nicht das Lesen ist, sondern das **Wiederfinden**.
 

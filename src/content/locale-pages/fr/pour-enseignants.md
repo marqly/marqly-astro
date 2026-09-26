@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Préparer un cours produit du matériel que vous utilisez une fois et dont vous aurez besoin dans un an. Le problème n'est pas de le trouver la première fois : c'est de le **retrouver la seconde**, quand vous ne savez plus d'où il venait.
@@ -91,7 +91,7 @@ Quand vous lisez un texte long en pensant au cours, vous ne lisez pas pareil : v
 
 ## Ce que vous ne trouverez pas
 
-Pour éviter les surprises : dans l'espace personnel, le partage est **en lecture seule** (l'édition à plusieurs, c'est Marqly Teams) et il n'y a pas de mode hors ligne. Marqly est une bibliothèque personnelle que vous pouvez partager en lecture, pas une plateforme pédagogique.
+Pour éviter les surprises : dans l'espace personnel, le partage est **en lecture seule** (l'édition à plusieurs, c'est Marqly Teams) et le hors ligne n'existe qu'avec Pro, par appareil — les pages marquées, enregistrées dans l'application web ou iOS, sans synchronisation. Marqly est une bibliothèque personnelle que vous pouvez partager en lecture, pas une plateforme pédagogique.
 
 ## Commencer
 

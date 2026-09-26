@@ -15,7 +15,7 @@ faqs:
   - q: "Quelle est la meilleure application pour lire plus tard ?"
     a: "Cela dépend de ce qui vous bloque. Si votre problème est de lire au calme, une application de lecture différée classique suffit. Si votre problème est de retrouver et de trier ce que vous avez mis de côté, Marqly ajoute les résumés par IA et la recherche par le sens."
   - q: "Marqly permet-il de lire hors ligne ?"
-    a: "Non. Il n'y a pas de mode hors ligne : une connexion internet est nécessaire pour sauvegarder, synchroniser et utiliser les fonctions d'IA. Si la lecture dans l'avion ou le métro est votre besoin principal, dites-le-vous avant d'installer."
+    a: "Oui, avec Pro : les pages marquées restent enregistrées sur l'appareil et se lisent hors ligne dans l'application web ou l'application iOS. Sauvegarder, synchroniser et utiliser les fonctions d'IA demande toujours une connexion, et il n'y a pas de mode hors ligne sur Android ni dans les extensions. Si la lecture complète de votre pile dans l'avion ou le métro hors réseau est votre besoin principal, sachez que c'est ici limité aux pages marquées."
   - q: "Comment éviter que ma pile de lecture ne devienne un cimetière ?"
     a: "En triant sur le résumé plutôt que sur le titre. Chaque page sauvegardée est résumée automatiquement, ce qui permet de décider en quelques secondes si vous la lisez, la gardez pour référence ou la supprimez."
   - q: "Puis-je lire sur mon téléphone ?"
@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — c'est gratuit"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Une application pour lire plus tard doit régler deux problèmes, pas un seul&nbsp;: mettre un article de côté sans effort, et vous le remettre entre les mains au bon moment. Le premier est facile — tout le monde sait le faire. Le second est celui qui échoue toujours. Marqly sauvegarde en un clic, résume automatiquement chaque page et vous la rend quand vous la décrivez, même des mois après.
@@ -79,7 +79,7 @@ Essayez sans rien installer avec le [résumeur YouTube](/fr/outils/resume-youtub
 
 ## Ce que Marqly ne remplace pas
 
-Autant être franc&nbsp;: **il n'y a pas de mode hors ligne**. Si votre besoin principal est de lire dans le métro ou en avion sans réseau, une application de lecture différée dédiée sera meilleure sur ce point.
+Autant être franc&nbsp;: **le hors ligne existe, mais seulement avec Pro et par appareil** — les pages marquées restent lisibles dans l'application web ou iOS, sans synchronisation. Si votre besoin principal est de lire toute votre pile dans le métro ou en avion sans réseau, une application de lecture différée dédiée restera meilleure sur ce point.
 
 Marqly vise l'autre moitié du problème&nbsp;: la mémoire de ce que vous avez mis de côté. Le [comparatif Marqly vs Raindrop](/fr/comparer/marqly-vs-raindrop) applique la même franchise à un concurrent direct.
 

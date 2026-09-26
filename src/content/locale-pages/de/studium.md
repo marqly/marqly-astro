@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Recherche im Studium scheitert selten daran, dass man zu wenig findet. Sie scheitert daran, dass man in Woche drei zwanzig Quellen offen hat, in Woche sieben nicht mehr weiß, in welcher davon das eine Argument stand – und drei Tage vor Abgabe alles noch einmal googelt. Marqly ist der Bookmark-Manager mit KI für genau diese Phase: **sammeln, markieren, wiederfinden**, bevor überhaupt zitiert wird. Verifizierte Studierende zahlen für Pro im ersten Jahr **48 $ (rund 44 €)**.
@@ -72,6 +72,6 @@ Details dazu: [YouTube-Zusammenfassung](/de/tools/youtube-zusammenfassung) und [
 
 Die kostenlose Stufe verlangt keine Kreditkarte – zum Ausprobieren über eine Hausarbeit hinweg reicht das. Pro kostet regulär **72 $/Jahr (rund 66 €)** oder **9 $/Monat (rund 8 €)**. **Verifizierte Studierende zahlen im ersten Jahr 48 $ (rund 44 €)** und bekommen darüber den Chat mit den eigenen Speicherungen.
 
-Fair vorab: kein Offline-Modus, und Teilen ist im persönlichen Plan nur lesbar – für die gemeinsame Bearbeitung gibt es Marqly Teams. Was an Daten entsteht und wie du alles wieder herausbekommst, steht in den [Datenschutz-Fragen](/de/datenschutz-fragen); wie sich Marqly gegen einen klassischen Sammler schlägt, im Vergleich [Marqly vs. Raindrop](/de/vergleich/marqly-vs-raindrop).
+Fair vorab: Offline-Lesen nur auf Pro (Web-App und iOS, pro Gerät), und Teilen ist im persönlichen Plan nur lesbar – für die gemeinsame Bearbeitung gibt es Marqly Teams. Was an Daten entsteht und wie du alles wieder herausbekommst, steht in den [Datenschutz-Fragen](/de/datenschutz-fragen); wie sich Marqly gegen einen klassischen Sammler schlägt, im Vergleich [Marqly vs. Raindrop](/de/vergleich/marqly-vs-raindrop).
 
 Fang mit der nächsten Seminararbeit an: Quellen rein, markieren, in Woche sieben einfach beschreiben, was du suchst. [Marqly kostenlos testen](https://app.marqly.com).

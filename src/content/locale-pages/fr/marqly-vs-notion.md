@@ -21,13 +21,13 @@ faqs:
   - q: "Puis-je utiliser les deux ?"
     a: "Oui, et c'est cohérent : Marqly comme boîte de capture rapide et bibliothèque consultable, Notion pour les documents et projets où vous citez ensuite ces sources."
   - q: "Notion fonctionne-t-il hors ligne ?"
-    a: "Oui, avec accès hors ligne et application Android. Marqly a l'application Android, pas l'accès hors ligne."
+    a: "Oui, avec accès hors ligne et application Android. Marqly propose aussi la lecture hors ligne, mais seulement avec Pro et par appareil : les pages marquées restent dans l'application web ou l'application iOS, et il n'y a pas de mode hors ligne sur Android ni dans les extensions."
   - q: "Combien coûte Marqly ?"
     a: "Offre gratuite sans carte. Pro coûte 9 $ (soit environ 8 €) par mois ou 72 $ (soit environ 69 €) par an."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Si vous vivez déjà dans Notion, y enregistrer vos liens semble logique : un endroit de moins à entretenir. Et pour beaucoup, cela fonctionne. Mais mieux vaut connaître la limite avant d'y verser mille liens dans une base que personne n'ouvrira ensuite.
@@ -66,7 +66,7 @@ Marqly part du principe que **vous n'organiserez rien** :
 - **Enregistrer tous les onglets** et sessions réouvrables.
 - **Tableaux publics** sans inscription.
 
-Ce qui manque : **hors ligne, documents, tâches et bases de données**. Ce n'est pas un espace de travail et cela n'essaie pas de l'être.
+Ce qui manque : **les documents, les tâches et les bases de données**. L'accès hors ligne existe avec Pro, par appareil, dans l'application web ou iOS. Ce n'est pas un espace de travail et cela n'essaie pas de l'être.
 
 ## Comparatif direct
 
@@ -74,7 +74,7 @@ Ce qui manque : **hors ligne, documents, tâches et bases de données**. Ce n'es
 | --- | --- | --- |
 | Documents et projets | **Oui** | Non |
 | Bases de données flexibles | **Oui** | Non |
-| Hors ligne | **Oui** | Non |
+| Hors ligne | **Oui** | Oui (Pro) |
 | Application Android | **Oui** | Non |
 | Qualité de capture | Irrégulière | Élevée |
 | Tags automatiques par IA | Non | Oui |

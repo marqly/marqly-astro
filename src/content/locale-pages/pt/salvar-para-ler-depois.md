@@ -17,7 +17,7 @@ faqs:
   - q: "Dá para migrar do Pocket?"
     a: "Dá. O Marqly importa do Pocket, do Raindrop e de arquivos HTML de favoritos exportados do navegador. Também dá para trazer os favoritos que você salvou no X/Twitter."
   - q: "Consigo ler offline?"
-    a: "Não. O Marqly precisa de conexão para sincronizar e usar os recursos de IA — não existe modo offline. No Chrome e no Edge dá para salvar a página como PDF, e essa conversão é feita no seu próprio computador."
+    a: "Sim, com o Pro: as páginas marcadas ficam salvas naquele dispositivo e você as lê sem internet pelo app web ou pelo app de iOS. Para sincronizar e usar os recursos de IA ainda faz falta conexão, e não há modo offline no Android nem nas extensões. No Chrome e no Edge dá para salvar a página como PDF, e essa conversão é feita no seu próprio computador."
   - q: "Funciona no celular?"
     a: "Tem aplicativo para iPhone, iPad e Android, e o app web abre no navegador de qualquer celular. O que você salva no computador aparece no celular e vice-versa."
   - q: "E quando eu não lembro onde salvei?"
@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Todo app de salvar link resolve a primeira metade do problema: salvar. A segunda metade — voltar e realmente ler — é onde quase todos falham, e a fila vira um cemitério de boas intenções. O Marqly ataca essa segunda parte: cada link salvo ganha um **resumo de IA** para você triar em segundos, e a busca funciona por descrição, então você acha o texto mesmo sem lembrar do título.
@@ -91,7 +91,7 @@ O ponto do passo 2 é psicológico: quando apagar fica barato, salvar volta a se
 
 ## O que o Marqly não faz
 
-Para não te enganar: não existe modo offline, e o compartilhamento no plano pessoal é apenas leitura — para a equipe editar junto existe o Marqly Teams. O que existe é extensão nos quatro navegadores principais, app web, aplicativo de iPhone, iPad e Android, e a opção de salvar a página como PDF no Chrome e no Edge, com a conversão feita no seu próprio computador.
+Para não te enganar: a leitura offline só existe no Pro e por dispositivo (páginas marcadas salvas no app web ou no app de iOS, sem sincronizar entre aparelhos, e nada de offline nas extensões), e o compartilhamento no plano pessoal é apenas leitura — para a equipe editar junto existe o Marqly Teams. O que existe é extensão nos quatro navegadores principais, app web, aplicativo de iPhone, iPad e Android, e a opção de salvar a página como PDF no Chrome e no Edge, com a conversão feita no seu próprio computador.
 
 ## Preço
 

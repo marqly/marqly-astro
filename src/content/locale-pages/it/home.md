@@ -23,11 +23,11 @@ faqs:
   - q: "Che cos'è la ricerca semantica?"
     a: "È la ricerca per idea, non per parola esatta. Se scrivi «quell'articolo sul perché le riunioni ammazzano la produttività», Marqly ti tira fuori la pagina anche se quelle parole nel titolo non ci sono mai state."
   - q: "Marqly funziona offline?"
-    a: "No. Marqly ha bisogno della connessione per salvare, sincronizzare e usare le funzioni AI. Non c'è una modalità offline."
+    a: "Sì, ma solo su Pro: le pagine che contrassegni restano offline in app web e iOS, sul singolo dispositivo, senza sincronizzazione. Salvare, sincronizzare e usare le funzioni AI richiede la connessione; su Android e nelle estensioni l'offline non c'è."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — è gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Un gestore di segnalibri con AI non si limita a mettere via i link: li legge. Marqly salva la pagina con un clic, le assegna i tag da solo, ne scrive un riassunto e poi te la restituisce quando la cerchi con parole tue, anche quando del titolo non ricordi niente. Funziona come estensione su Chrome, Edge, Firefox e Safari, come app web da qualsiasi computer e come app su iPhone e iPad.

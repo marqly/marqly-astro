@@ -14,8 +14,8 @@ faqHeading: "Veelgestelde vragen"
 faqs:
   - q: "Wat is de betere keuze: Marqly of Instapaper?"
     a: "Dat hangt af van je doel. Wil je lange artikelen in alle rust offline lezen, kies dan Instapaper. Bewaar je veel artikelen, video's en bronnen en vind je later niets terug, kies dan Marqly."
-  - q: "Heeft Instapaper een offline modus en Marqly niet?"
-    a: "Klopt. Instapaper downloadt artikelen voor offline gebruik in het vliegtuig of de trein. Marqly is een cloud-applicatie en heeft geen offline leesmodus."
+  - q: "Heeft Instapaper een offline modus, en Marqly ook?"
+    a: "Grotendeels. Instapaper downloadt artikelen voor offline gebruik in het vliegtuig of de trein. Marqly kan dat ook, maar alleen op Pro: gemarkeerde pagina's blijven op het apparaat zelf, in de webapp en de iOS-app — niet op Android, niet in de extensies, niet op het gratis plan."
   - q: "Wat zijn de prijzen?"
     a: "Instapaper Premium kost $5,99/maand of $59,99/jaar. Marqly Pro kost $72/jaar (met actiecode STANDING49 slechts $49 in het 1e jaar) met een gratis versie tot 100 saves."
   - q: "Heeft Instapaper AI-functies?"
@@ -23,7 +23,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
-updatedDate: 2026-09-07
+updatedDate: 2026-09-26
 ---
 
 De samenvatting is eenvoudig: **Instapaper wint op het gebied van lezen, Marqly wint op het gebied van terugvinden**.

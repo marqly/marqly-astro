@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Resposta curta: o **Raindrop.io** é o melhor arquivo de links que existe — plano grátis generoso, apps em todas as plataformas e organização em coleções impecável. O **Marqly** é para quem já tem o arquivo e continua não achando nada dentro dele: ele coloca tags com IA, resume o que você salva e busca por sentido, deixando você descrever a lembrança em vez do título. São filosofias diferentes: organizar melhor contra depender menos da organização.
@@ -80,7 +80,7 @@ O Marqly foi construído em volta desse problema:
 | App iOS | Sim | Sim |
 | App Android | Não | Sim |
 | API pública | Não | Sim |
-| Leitura offline | Não | Não |
+| Leitura offline | Sim (Pro) | Não |
 | Importar do Pocket | Sim | Sim |
 
 ## Como escolher em trinta segundos

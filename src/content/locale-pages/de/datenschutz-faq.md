@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Ein Bookmark-Manager sieht deine Leseliste – und eine Leseliste sagt viel über einen Menschen. Dass diese Seite überhaupt existiert, liegt daran, dass die Frage berechtigt ist. Hier steht, welche Daten beim Benutzen entstehen, was du davon zurückbekommst und wo Marqly nicht das richtige Werkzeug ist. Die rechtlich vollständigen und verbindlichen Angaben stehen in der [Datenschutzerklärung](/privacypolicy) – diese Seite ist die verständliche Fassung, kein Ersatz dafür.
@@ -76,7 +76,7 @@ Der ehrliche Verweis geht dann an die quelloffene Welt: **wallabag** speichert A
 | Auskunft und Löschung nach DSGVO? | Als Person in der EU: ja |
 | Self-Hosting? | Nein |
 | Öffentliche API? | Nein |
-| Offline-Modus? | Nein |
+| Offline-Modus? | Ja, auf Pro – markierte Seiten pro Gerät (Web-App & iOS) |
 | Verbindliche Angaben? | In der [Datenschutzerklärung](/privacypolicy) |
 
 Wenn dir das reicht, fang klein an: ein Konto ohne Kreditkarte, zehn gespeicherte Seiten, danach ein Testexport. Genau in dieser Reihenfolge prüft man ein Werkzeug, dem man später ein Archiv anvertraut. [Marqly kostenlos testen](https://app.marqly.com) – oder vorher noch [durchs Blog](/de/blog), zur [Startseite](/de) oder zum Vergleich [Marqly vs. Raindrop](/de/vergleich/marqly-vs-raindrop).

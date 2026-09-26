@@ -19,7 +19,7 @@ faqs:
   - q: "¿Guarda la reserva o el precio como estaban?"
     a: "En Chrome y Edge puedes archivar la página como PDF con el diseño real, lo que sirve para conservar un precio o unas condiciones en una fecha concreta."
   - q: "¿Funciona sin conexión durante el viaje?"
-    a: "No. Marqly no tiene modo sin conexión, así que para consultar sin datos conviene descargar lo importante aparte."
+    a: "Sí, pero solo con Pro y solo para las páginas que marques antes: se guardan en ese dispositivo y se leen sin datos en la app web o en la app de iOS. En gratis, Android y extensiones hace falta conexión, así que en zonas sin datos marca lo importante antes de salir."
   - q: "¿Hay app para el móvil?"
     a: "Hay app de iPhone, iPad y Android, y la app web funciona en cualquier navegador."
   - q: "¿Cuánto cuesta?"
@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Planificar un viaje es una de esas tareas que generan un desorden enorme en muy poco tiempo. Empiezas mirando vuelos y acabas con cuarenta pestañas abiertas, tres conversaciones de WhatsApp con recomendaciones y ninguna decisión tomada.
@@ -85,7 +85,7 @@ Estás en la ciudad, tienes dos horas libres y no recuerdas qué habías guardad
 
 Y aparece. Desde la app de iPhone o desde el navegador del móvil.
 
-Una advertencia práctica: **no hay modo sin conexión**. Si vas a un sitio sin datos, descarga aparte lo imprescindible.
+Una advertencia práctica: el modo sin conexión existe, pero solo en Pro y solo para páginas marcadas en ese dispositivo (app web o app de iOS). Si vas a un sitio sin datos, marca lo imprescindible antes de salir o descarga aparte lo que no.
 
 ## Empezar
 

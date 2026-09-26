@@ -21,13 +21,13 @@ faqs:
   - q: "Dá para usar os dois juntos?"
     a: "Sim, e faz sentido: Marqly como caixa de captura rápida e biblioteca pesquisável, Notion para os documentos e projetos onde você depois cita essas fontes."
   - q: "O Notion funciona offline?"
-    a: "Sim, tem acesso offline e app de Android. O Marqly tem o app de Android, o acesso offline não."
+    a: "Sim, tem acesso offline e app de Android. O Marqly também lê offline, mas só no Pro e por dispositivo: as páginas marcadas ficam salvas no app web ou no app de iOS, e não há modo offline no Android nem nas extensões."
   - q: "Quanto custa o Marqly?"
     a: "Plano grátis sem cartão. O Pro custa 9 USD/mês ou 72 USD/ano. Estudantes verificados pagam 48 USD no primeiro ano."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Se você já vive no Notion, salvar links lá parece o mais lógico: um lugar a menos para manter. E para muita gente funciona. Mas vale conhecer o limite antes de jogar mil links num banco de dados que depois ninguém abre.
@@ -66,7 +66,7 @@ O Marqly parte do princípio de que **você não vai organizar nada**:
 - **Salvar todas as abas** e sessões reabríveis.
 - **Quadros públicos** que abrem sem cadastro.
 
-O que não tem: **offline, documentos, tarefas ou bancos de dados**. Não é um workspace e não tenta ser.
+O que não tem: **documentos, tarefas ou bancos de dados**. O acesso offline existe no Pro, por dispositivo, no app web ou no app de iOS. Não é um workspace e não tenta ser.
 
 ## Comparação direta
 
@@ -74,7 +74,7 @@ O que não tem: **offline, documentos, tarefas ou bancos de dados**. Não é um 
 | --- | --- | --- |
 | Documentos e projetos | **Sim** | Não |
 | Bancos de dados flexíveis | **Sim** | Não |
-| Offline | **Sim** | Não |
+| Offline | **Sim** | Sim (Pro) |
 | App de Android | **Sim** | Não |
 | Qualidade da captura | Irregular | Alta |
 | Tags automáticas com IA | Não | Sim |

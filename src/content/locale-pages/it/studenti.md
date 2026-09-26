@@ -21,13 +21,13 @@ faqs:
   - q: "Serve per la tesi?"
     a: "È il caso in cui rende di più: salvi le fonti mentre le trovi, evidenzi i passaggi con una nota su perché ti servono e mesi dopo li ritrovi descrivendo l'argomento, senza rileggere tutto da capo."
   - q: "Funziona sul telefono?"
-    a: "C'è l'app per iPhone e iPad, quella per Android e l'app web, che apri da qualsiasi computer del campus. Non c'è una modalità offline: serve la connessione."
+    a: "C'è l'app per iPhone e iPad, quella per Android e l'app web, che apri da qualsiasi computer del campus. La lettura offline c'è solo su Pro, in app web e iOS, sul singolo dispositivo: per tutto il resto serve la connessione."
   - q: "Va bene anche per la maturità?"
     a: "Sì. Tieni in un posto solo i video di ripasso, le pagine e i PDF che ti passano i compagni, evidenzi quello che conta e ricostruisci ogni materia quando arriva il momento di ripassare."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — è gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Studiare con l'AI non vuol dire farsi scrivere la tesi. Vuol dire smettere di perdere ore nella parte meccanica: capire al volo se una fonte serve, avere la trascrizione di una videolezione da due ore, ritrovare a maggio la dispensa salvata a novembre. Marqly fa esattamente questo: salvi con un clic, l'intelligenza artificiale mette i tag e scrive i riassunti, e la ricerca ti restituisce il materiale anche quando ricordi solo di cosa parlava. Per gli studenti verificati il primo anno costa **48 $ (circa 46 €)** invece di 72 $.

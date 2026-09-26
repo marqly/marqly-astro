@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Dieser Vergleich dreht sich nicht um Funktionen, sondern um **Haltung**. Obsidian sagt: Die Daten gehören dir, als Textdateien auf deiner Festplatte, für immer. Marqly sagt: Die manuelle Arbeit ist das Problem, lass die KI ran. Beide Positionen sind legitim und führen zu sehr unterschiedlichen Werkzeugen.
@@ -66,14 +66,14 @@ Marqly nimmt das Gegenteil an: dass **du nichts pflegen wirst**.
 - **Alle Tabs auf einmal speichern** und wiederherstellbare Sitzungen.
 - **Öffentliche Boards** ohne Anmeldung.
 
-Und was es nicht gibt: **keine lokalen Dateien, kein Markdown, kein Offline-Modus**. Es ist ein Dienst, mit allem Guten und Schlechten daran.
+Und was es nicht gibt: **keine lokalen Dateien, kein Markdown**; Offline-Lesen nur auf Pro, in Web-App und iOS, pro Gerät. Es ist ein Dienst, mit allem Guten und Schlechten daran.
 
 ## Direkter Vergleich
 
 | | Obsidian Web Clipper | Marqly |
 | --- | --- | --- |
 | Lokale Daten (Markdown) | **Ja** | Nein |
-| Offline | **Ja** | Nein |
+| Offline | **Ja** | Ja (Pro) |
 | Android-App | **Ja** | Ja |
 | Linux | **Ja** | Browser |
 | Preis | **Kostenlos** | Gratis · Pro 72 $/Jahr |

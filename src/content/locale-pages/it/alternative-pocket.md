@@ -17,7 +17,7 @@ faqs:
   - q: "Faccio ancora in tempo a recuperare i miei dati?"
     a: "No. L'esportazione si è chiusa l'8 ottobre 2025 e Mozilla ha cancellato definitivamente i dati rimanenti. Serve solo uno ZIP scaricato prima."
   - q: "Qualche alternativa ha la lettura offline?"
-    a: "Instapaper e Matter offrono la lettura offline. Marqly non ha una modalità offline: se per te era indispensabile, parti da quelle due."
+    a: "Instapaper e Matter offrono la lettura offline ovunque. Marqly ce l'ha solo su Pro, in app web e iOS, dispositivo per dispositivo: se per te l'offline è indispensabile altrove, parti da quelle due."
   - q: "Esistono alternative gratuite?"
     a: "Sì. Raindrop.io e Marqly hanno un piano gratuito. Su Marqly ti registri senza carta, e Pro costa 72 $/anno (circa 69 €) oppure 9 $/mese."
   - q: "Quale alternativa importa meglio il file di Pocket?"
@@ -25,7 +25,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Pocket ha chiuso l'**8 luglio 2025** e Mozilla ha cancellato i dati rimanenti dopo l'**8 ottobre 2025**. Se cerchi un'alternativa, il primo passo è accettare che non ne esiste una sola: Pocket svolgeva tre funzioni diverse e ogni alternativa ne copre solo una parte.
@@ -42,7 +42,7 @@ L'alternativa giusta dipende da quale dei tre eri. Sbagliare qui è il motivo pe
 
 ## Se Pocket era il tuo lettore
 
-Guarda **Instapaper** o **Matter**. Sono i più vicini al Pocket classico: lettore pulito, tipografia curata e **lettura offline** — esattamente ciò che Marqly non ha.
+Guarda **Instapaper** o **Matter**. Sono i più vicini al Pocket classico: lettore pulito, tipografia curata e **lettura offline** — che Marqly offre solo su Pro, in app web e iOS, dispositivo per dispositivo.
 
 Detto senza giri di parole: se la tua abitudine era scaricare articoli e leggerli in aereo o senza rete, Marqly non è il tuo strumento. Quella funzione qui non esiste e non fingeremo il contrario.
 
@@ -76,7 +76,7 @@ Se la tua casella si riempie soprattutto di schede aperte, guarda [salvare le sc
 
 | | Instapaper | Matter | Raindrop.io | Marqly |
 | --- | --- | --- | --- | --- |
-| Lettura offline | Sì | Sì | No | No |
+| Lettura offline | Sì | Sì | No | Sì (Pro) |
 | Tag automatici con IA | No | No | No | Sì |
 | Ricerca semantica | No | No | No | Sì |
 | Riassunti con IA | No | No | No | Sì |

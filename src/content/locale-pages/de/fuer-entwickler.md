@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Programmieren erzeugt eine sehr spezielle Art von Wissen: **die exakte Lösung für ein sehr spezifisches Problem, das in einem Jahr wiederkommt**. Und fast immer wohnt sie in einem Tab, den du geschlossen hast.
@@ -84,7 +84,7 @@ Ohne Umschweife, weil dieses Publikum zuerst danach fragt:
 
 - **Keine öffentliche API.**
 - **Nicht selbst hostbar.**
-- **Kein Offline-Modus.**
+- **Offline-Lesen nur auf Pro** – markierte Seiten, pro Gerät, in Web-App und iOS.
 
 Wenn deine Anforderung lokale Datenhoheit ist, steht der ehrliche Vergleich in [Marqly vs Obsidian](/de/vergleich/marqly-vs-obsidian), dessen Clipper Markdown auf deiner Festplatte speichert und kostenlos ist.
 

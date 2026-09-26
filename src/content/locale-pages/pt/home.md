@@ -21,13 +21,13 @@ faqs:
   - q: "Como funciona a busca semântica?"
     a: "Você escreve o que lembra em vez do título exato — algo como aquele texto sobre juros compostos com um gráfico no começo. O Marqly entende o sentido da frase e traz as páginas que combinam, mesmo que nenhuma dessas palavras esteja no título."
   - q: "O Marqly funciona sem internet?"
-    a: "Não. Ele precisa de conexão para salvar, sincronizar entre a extensão e o app, e para os recursos de IA. Não existe modo offline. A conversão de página em PDF, no Chrome e no Edge, é processada no seu próprio computador."
+    a: "Depende. Para salvar, sincronizar entre a extensão e o app e para os recursos de IA, a conexão é necessária. Já a leitura offline existe no Pro: as páginas marcadas ficam salvas naquele dispositivo e você as lê sem internet pelo app web ou pelo app de iOS — não sincronizam entre aparelhos, e não há modo offline no Android nem nas extensões. A conversão de página em PDF, no Chrome e no Edge, é processada no seu próprio computador."
   - q: "O que exatamente a IA faz com o que eu salvo?"
     a: "Ela coloca tags automáticas, gera um resumo curto da página, indexa o conteúdo para a busca semântica e, no plano Pro, deixa você conversar com o que já salvou para lembrar de onde veio uma informação."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 O Marqly é um gerenciador de favoritos com IA: você salva qualquer página com um clique e depois acha ela de novo escrevendo o que lembra — mesmo sem lembrar do título, do site ou de onde salvou. Funciona como extensão no Chrome, Edge, Firefox e Safari, tem app web e aplicativo para iPhone, e organiza o que você salva sozinho, com tags automáticas e resumos gerados por IA.

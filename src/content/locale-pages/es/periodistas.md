@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Un reportaje se sostiene sobre documentación que **puede cambiar mientras lo escribes**. Comunicados que se corrigen sin avisar, perfiles que se borran, cifras que se actualizan, páginas oficiales que se reorganizan. Guardar el enlace no es archivar.
@@ -87,7 +87,7 @@ Es lectura compartida: **el enlace personal es de solo lectura; escribir juntos 
 Con transparencia, porque en esta profesión importa:
 
 - Marqly es un **servicio en la nube**. No es autoalojable y no tiene API pública.
-- **No hay modo sin conexión.**
+- **El sin conexión solo está en Pro y por dispositivo**: las páginas marcadas se guardan en la app web o en la app de iOS, sin sincronizar entre equipos, y nada de eso existe en Android ni en las extensiones.
 - Para material sensible o con fuentes que requieran protección, esta decisión debería pasar por los criterios de tu redacción, no por una página de producto.
 
 Para trabajo donde el requisito sea que los archivos vivan en tu disco, la alternativa honesta está en [Marqly vs Obsidian](/es/comparar/marqly-vs-obsidian).

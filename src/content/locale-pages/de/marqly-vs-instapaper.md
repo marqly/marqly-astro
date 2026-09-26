@@ -14,8 +14,8 @@ faqHeading: "Häufige Fragen"
 faqs:
   - q: "Was ist besser, Marqly oder Instapaper?"
     a: "Kommt auf dein Problem an. Wenn du viel Langtext liest und ein makelloses, offline verfügbares Leseerlebnis willst: Instapaper. Wenn du viel speicherst und danach nichts wiederfindest: Marqly, weil es mit KI taggt und nach Bedeutung sucht."
-  - q: "Instapaper liest offline und Marqly nicht?"
-    a: "Genau. Instapaper lädt deine Artikel herunter und bindet sogar den Kindle an. Marqly hat keinen Offline-Modus, und wir behaupten nichts anderes."
+  - q: "Instapaper liest offline – und Marqly?"
+    a: "Beides, aber anders. Instapaper lädt deine Artikel herunter und bindet sogar den Kindle an. Marqly bietet Offline-Lesen nur auf Pro: markierte Seiten bleiben in der Web-App oder iOS-App auf dem jeweiligen Gerät – ohne Sync, ohne Android, ohne Erweiterungen."
   - q: "Was kostet was?"
     a: "Instapaper hat eine Gratis-Stufe und Premium für 5,99 $ (rund 5,50 €) im Monat oder 59,99 $ (rund 55 €) im Jahr. Marqly hat eine kostenlose Stufe ohne Karte, Pro kostet 9 $ (rund 8 €) im Monat oder 72 $ (rund 66 €) im Jahr."
   - q: "Hat Instapaper KI?"
@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Dieser Vergleich lässt sich in einem Satz zusammenfassen: **Instapaper gewinnt beim Lesen, Marqly beim Wiederfinden**. Das sind nicht dieselben Werkzeuge, und das falsche zu wählen ist der Grund, warum Leute am Ende beide aufgeben.
@@ -70,14 +70,14 @@ Marqly geht von einer anderen Idee aus: Der Engpass ist nicht das Lesen, sondern
 - **Alle Tabs speichern**, wiederherstellbare Sitzungen und **öffentliche Boards** ohne Anmeldung.
 - **Als PDF sichern** (Chrome & Edge).
 
-Und was Marqly nicht hat, klar gesagt: **kein Offline-Lesen, keine Kindle-Anbindung**.
+Und was Marqly nicht hat, klar gesagt: **keine Kindle-Anbindung**; Offline-Lesen gibt es nur auf Pro, in Web-App und iOS, pro Gerät.
 
 ## Direkter Vergleich
 
 | | Instapaper | Marqly |
 | --- | --- | --- |
 | Leseerlebnis | **Hervorragend** | Solide |
-| Offline-Lesen | **Ja** | Nein |
+| Offline-Lesen | **Ja** | Ja (Pro) |
 | Kindle | **Ja** | Nein |
 | Android-App | **Ja** | Ja |
 | Automatisches KI-Tagging | Nein | Ja |

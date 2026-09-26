@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Pesquisar cria um problema que ninguém ensina a resolver: **você acumula muito mais material do que consegue lembrar**. Artigos, relatórios, preprints, palestras gravadas, notícias, bases de dados. Tudo relevante na hora, tudo irrecuperável seis meses depois.
@@ -80,7 +80,7 @@ Dá para testar sem instalar nada no [resumidor do YouTube](/pt/ferramentas/resu
 Para não haver surpresa:
 
 - **Não gerencia citações nem referências formatadas.** Isso é Zotero e Mendeley, e o Marqly não substitui.
-- **Não tem modo offline.**
+- **O offline só existe no Pro**, para páginas marcadas e só no aparelho onde foram salvas (app web ou app de iOS).
 - **Sem edição colaborativa no plano pessoal**: o quadro público é só leitura; para várias pessoas editarem existe o Marqly Teams.
 
 O Marqly cobre a etapa anterior à bibliografia: o material que você está avaliando, não o que já decidiu citar. Muita gente usa os dois — Marqly para explorar, gerenciador de referências para publicar.

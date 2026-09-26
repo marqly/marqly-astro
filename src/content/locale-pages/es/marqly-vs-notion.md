@@ -21,13 +21,13 @@ faqs:
   - q: "¿Puedo usar los dos a la vez?"
     a: "Sí, y tiene sentido: Marqly como bandeja de captura rápida y biblioteca buscable, Notion para los documentos y proyectos donde luego citas esas fuentes."
   - q: "¿Notion funciona sin conexión?"
-    a: "Sí, Notion tiene acceso sin conexión y app de Android. Marqly tiene la app de Android, no el acceso sin conexión."
+    a: "Sí, Notion tiene acceso sin conexión y app de Android. Marqly también lee sin conexión, pero solo en Pro y por dispositivo: las páginas marcadas se guardan en la app web o en la app de iOS, y no hay modo sin conexión en Android ni en las extensiones."
   - q: "¿Cuánto cuesta Marqly?"
     a: "Plan gratis sin tarjeta. Pro cuesta 9 USD al mes o 72 USD al año. Los estudiantes verificados pagan 48 USD el primer año."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Si ya vives en Notion, guardar enlaces ahí parece lo lógico: un sitio menos que mantener. Y para mucha gente funciona. Pero conviene saber dónde está el límite antes de meter mil enlaces en una base de datos que luego no consultas.
@@ -66,7 +66,7 @@ Marqly asume que **no vas a organizar nada**, y construye alrededor de eso:
 - **Guardar todas las pestañas** de golpe y sesiones reabribles.
 - **Tableros públicos** compartibles sin registro.
 
-Lo que no tiene: **sin conexión, documentos, tareas ni bases de datos**. No es un workspace y no intenta serlo.
+Lo que no tiene: **documentos, tareas ni bases de datos**. El acceso sin conexión existe en Pro, por dispositivo, en la app web o en la app de iOS. No es un workspace y no intenta serlo.
 
 ## Comparación directa
 
@@ -74,7 +74,7 @@ Lo que no tiene: **sin conexión, documentos, tareas ni bases de datos**. No es 
 | --- | --- | --- |
 | Documentos y proyectos | **Sí** | No |
 | Bases de datos flexibles | **Sí** | No |
-| Sin conexión | **Sí** | No |
+| Sin conexión | **Sí** | Sí (Pro) |
 | App de Android | **Sí** | No |
 | Calidad de captura | Irregular | Alta |
 | Etiquetado automático con IA | No | Sí |

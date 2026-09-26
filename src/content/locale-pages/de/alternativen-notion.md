@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Links in Notion zu speichern ist ein vernünftiger Gedanke: Du lebst ohnehin dort, also ein Ort weniger zu pflegen. Bei fünfzig Links geht das gut. Das Problem kommt, wenn die Datenbank wächst.
@@ -64,7 +64,7 @@ Je nachdem, was stört:
 | Alle Tabs speichern | Nein | Ja | Nein | Ja |
 | Als PDF sichern | Nein | Nein | Nein | Ja (Chrome/Edge) |
 | Lokale Daten | Nein | Nein | **Ja** | Nein |
-| Offline | **Ja** | Nein | **Ja** | Nein |
+| Offline | **Ja** | Nein | **Ja** | Ja (Pro) |
 | Preis | 10 $/Mitglied/Monat | **28 $/Jahr** | **Kostenlos** | 72 $/Jahr |
 
 ## Die Lösung, an die kaum jemand denkt: nicht wählen

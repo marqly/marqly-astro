@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Unterricht vorzubereiten erzeugt Material, das du einmal nutzt und in einem Jahr wieder brauchst. Das Problem ist nicht, es beim ersten Mal zu finden, sondern **beim zweiten Mal** — wenn du nicht mehr weißt, woher es kam.
@@ -91,7 +91,7 @@ Wenn du einen langen Text mit Blick auf den Unterricht liest, liest du anders: D
 
 ## Was du nicht findest
 
-Damit es keine Überraschung gibt: kein Offline-Modus, und im persönlichen Plan ist Teilen **nur lesbar** – eine gemeinsam bearbeitbare Arbeitsfläche bietet Marqly Teams. Marqly ist eine persönliche Bibliothek, die du lesend teilen kannst, keine Lernplattform.
+Damit es keine Überraschung gibt: Offline-Lesen gibt es nur auf Pro (Web-App und iOS, pro Gerät), und im persönlichen Plan ist Teilen **nur lesbar** – eine gemeinsam bearbeitbare Arbeitsfläche bietet Marqly Teams. Marqly ist eine persönliche Bibliothek, die du lesend teilen kannst, keine Lernplattform.
 
 ## Loslegen
 

@@ -23,11 +23,11 @@ faqs:
   - q: "Kann ich meine Lesezeichen übernehmen?"
     a: "Ja. Marqly importiert Pocket-Exporte, Raindrop.io-Sammlungen und HTML-Lesezeichendateien aus Chrome, Firefox, Edge und Safari."
   - q: "Funktioniert Evernote offline?"
-    a: "Ja, Evernote hat Offline-Zugriff und eine Android-App. Die Android-App hat Marqly inzwischen auch, den Offline-Zugriff nicht."
+    a: "Ja, Evernote hat Offline-Zugriff mit Sync und eine Android-App. Die Android-App hat Marqly inzwischen auch; Offline-Lesen gibt es dort nur auf Pro – markierte Seiten, pro Gerät, in Web-App und iOS."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Marqly mit Evernote zu vergleichen heißt, ein Werkzeug mit einer Suite zu vergleichen. Evernote will der Ort sein, an dem deine gesamte Arbeit lebt; Marqly will der Ort sein, an dem du wiederfindest, was du im Netz gesehen hast. Die nützliche Frage ist nicht, was mächtiger ist — das ist Evernote — sondern **wie viel System du wirklich brauchst**.
@@ -67,7 +67,7 @@ Marqly versucht nicht, dein Notizsystem zu sein. Es macht eine Sache:
 - **Als PDF sichern** in Chrome und Edge.
 - **Zwischenablage-Verlauf** in Chrome und Edge, mit Sync in Pro.
 
-Was fehlt: **Offline, lange Notizen, Dokumentenscan**.
+Was fehlt: **lange Notizen, Dokumentenscan und geräteübergreifender Offline-Sync** – Offline-Lesen selbst gibt es nur auf Pro, in Web-App und iOS.
 
 ## Direkter Vergleich
 
@@ -75,7 +75,7 @@ Was fehlt: **Offline, lange Notizen, Dokumentenscan**.
 | --- | --- | --- |
 | Notizen und Dokumente | **Ja, vollständig** | Nein |
 | Dokumentenscan | **Ja** | Nein |
-| Offline | **Ja** | Nein |
+| Offline | **Ja** | Ja (Pro) |
 | Android-App | **Ja** | Ja |
 | Web-Clipping | Ja, sehr gut | Ja |
 | Automatisches KI-Tagging | Nein | Ja |

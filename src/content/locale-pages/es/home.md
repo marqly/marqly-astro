@@ -23,11 +23,11 @@ faqs:
   - q: "¿Qué es la búsqueda semántica?"
     a: "Es buscar por idea, no por palabra exacta. Si escribes \"ese artículo sobre por qué las reuniones matan la productividad\", Marqly te muestra la página aunque su título nunca haya dicho esas palabras."
   - q: "¿Marqly funciona sin conexión?"
-    a: "No. Marqly necesita conexión a internet para guardar, sincronizar y usar las funciones de IA."
+    a: "Sí, con Pro: las páginas marcadas se guardan en ese dispositivo y las lees sin conexión en la app web o en la app de iOS. No se sincronizan entre dispositivos, y para guardar, sincronizar y usar la IA hace falta conexión; en Android y en las extensiones no hay modo sin conexión."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Un gestor de marcadores con IA no solo guarda enlaces: los entiende. Marqly etiqueta solo cada página que guardas, escribe un resumen de lo que dice y te deja buscarla describiendo lo que recuerdas, aunque no te acuerdes del título ni del sitio. Funciona como extensión en Chrome, Edge, Firefox y Safari, como app web desde cualquier computadora y como app en iPhone.

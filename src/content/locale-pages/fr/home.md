@@ -23,11 +23,11 @@ faqs:
   - q: "Qu'est-ce que la recherche sémantique ?"
     a: "C'est une recherche par idée plutôt que par mot exact. Si vous tapez « cet article qui expliquait pourquoi les réunions tuent la productivité », Marqly retrouve la page même si son titre n'a jamais contenu ces mots-là."
   - q: "Marqly fonctionne-t-il hors ligne ?"
-    a: "Non. Marqly a besoin d'une connexion internet pour sauvegarder, synchroniser et faire tourner les fonctions d'IA. Il n'existe pas de mode hors ligne."
+    a: "Cela dépend. Sauvegarder, synchroniser et faire tourner les fonctions d'IA demandent une connexion. La lecture hors ligne, elle, existe avec Pro : les pages marquées restent enregistrées sur l'appareil et se lisent sans réseau dans l'application web ou l'application iOS. Elles ne se synchronisent pas entre appareils, et il n'y a pas de mode hors ligne sur Android ni dans les extensions."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — c'est gratuit"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Un gestionnaire de favoris devrait vous rendre vos pages, pas les empiler. Marqly sauvegarde en un clic, étiquette et résume automatiquement chaque page, puis vous la restitue quand vous décrivez ce dont vous vous souvenez — même si le titre et le nom du site vous échappent complètement. Il existe en extension pour Chrome, Edge, Firefox et Safari, en application web depuis n'importe quel ordinateur, et en application iOS.
@@ -107,7 +107,7 @@ Pro débloque notamment le chat avec vos sauvegardes. Le cœur de l'idée — sa
 
 ## Ce que Marqly ne fait pas
 
-Autant le dire tout de suite&nbsp;: pas de mode hors ligne, pas d'API publique, pas d'auto-hébergement. L'espace personnel reste un outil pour une personne et ses navigateurs&nbsp;; l'édition à plusieurs dans un espace partagé, c'est Marqly Teams.
+Autant le dire tout de suite&nbsp;: pas d'API publique, pas d'auto-hébergement, et un mode hors ligne limité — seulement avec Pro, sur les pages marquées, par appareil, dans l'application web ou iOS. L'espace personnel reste un outil pour une personne et ses navigateurs&nbsp;; l'édition à plusieurs dans un espace partagé, c'est Marqly Teams.
 
 ## Commencez en deux minutes
 

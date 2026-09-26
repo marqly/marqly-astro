@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Forschen erzeugt ein Problem, das niemandem beigebracht wird: **du sammelst weit mehr Material, als du behalten kannst**. Studien, Berichte, Preprints, aufgezeichnete Vorträge, Pressemitteilungen, Datenbanken. Alles im Moment relevant, alles sechs Monate später unauffindbar.
@@ -80,7 +80,7 @@ Ohne Installation testen: [YouTube-Zusammenfassung](/de/tools/youtube-zusammenfa
 Damit es keine Überraschung gibt:
 
 - **Keine Zitations- oder Literaturverwaltung im Format.** Dafür gibt es Zotero und Mendeley, und Marqly ersetzt sie nicht.
-- **Kein Offline-Modus.**
+- **Offline-Lesen nur auf Pro** – markierte Seiten, pro Gerät, in Web-App und iOS.
 - **Keine gemeinsame Bearbeitung im persönlichen Plan** – über das öffentliche Board (nur lesbar) hinaus bietet Marqly Teams den geteilten Arbeitsbereich.
 
 Marqly deckt die Phase vor dem Literaturverzeichnis ab: das Material, das du prüfst, nicht das, was du schon zitieren willst. Viele nutzen beides — Marqly zum Erkunden, ein Referenzmanager zum Publizieren.

@@ -21,13 +21,13 @@ faqs:
   - q: "Gibt es eine Android-App?"
     a: "Ja. Die Android-App ist bei Google Play: https://play.google.com/store/apps/details?id=com.marqly.android. Dieselbe Kontoanmeldung wie bei der Erweiterung, der Web-App und der iOS-App."
   - q: "Funktioniert Marqly offline?"
-    a: "Nein. Marqly braucht eine Verbindung, weil Suche, Tagging und Zusammenfassungen serverseitig laufen. Wenn ein Offline-Modus für dich Bedingung ist, ist Marqly nicht das richtige Werkzeug."
+    a: "Ja – aber nur auf Pro: markierte Seiten speicherst du offline in der Web-App oder der iOS-App, auf dem jeweiligen Gerät. Suche, Tagging und Zusammenfassungen laufen serverseitig; Android-App und Erweiterungen haben kein Offline-Lesen."
   - q: "Was kann Marqly, das die Lesezeichen im Browser nicht können?"
     a: "Browser-Lesezeichen speichern eine URL und einen Titel. Marqly speichert zusätzlich Zusammenfassung, Tags, deine Markierungen und Notizen – und lässt dich danach suchen, indem du beschreibst, worum es ging. Dazu kommen Tab-Sitzungen, Boards zum Teilen und die KI-Karte auf YouTube."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Marqly ist ein Bookmark-Manager mit KI. Du speicherst eine Seite mit einem Klick, Marqly vergibt automatisch Tags und legt eine Zusammenfassung an – und wenn du die Seite Wochen später brauchst, beschreibst du einfach, woran du dich erinnerst, statt den exakten Titel zu raten. Dafür gibt es eine Erweiterung für Chrome, Edge, Firefox und Safari, eine Web-App und eine iOS-App. Die kostenlose Stufe startet ohne Kreditkarte.
@@ -89,6 +89,6 @@ Die kostenlose Stufe verlangt keine Kreditkarte. **Pro kostet 72 $/Jahr (rund 66
 
 ## Was Marqly nicht kann
 
-Damit du es vor der Installation weißt und nicht danach: Es gibt **keinen Offline-Modus**, **keine öffentliche API** und **kein Self-Hosting**. Wenn einer dieser Punkte für dich Bedingung ist, spar dir die Einrichtung. Was mit deinen Daten passiert – und was du exportieren kannst – steht in den [Datenschutz-Fragen](/de/datenschutz-fragen).
+Damit du es vor der Installation weißt und nicht danach: Offline-Lesen gibt es nur **auf Pro** (Web-App und iOS, pro Gerät, ohne Sync), es gibt **keine öffentliche API** und **kein Self-Hosting**. Wenn einer dieser Punkte für dich Bedingung ist, spar dir die Einrichtung. Was mit deinen Daten passiert – und was du exportieren kannst – steht in den [Datenschutz-Fragen](/de/datenschutz-fragen).
 
 Wenn dein Ordner „Lesen (wirklich)" gerade beim Lesen zuschaut: Leg ein Konto an, importiere deine Lesezeichen und such beim nächsten Mal einfach nach dem, woran du dich erinnerst. [Marqly kostenlos testen](https://app.marqly.com).

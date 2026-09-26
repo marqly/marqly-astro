@@ -17,13 +17,13 @@ faqs:
   - q: "Czym różni się Marqly od Pocket?"
     a: "Pocket wymagał ręcznego przypisywania tagów; Marqly robi to automatycznie za pomocą AI i umożliwia wyszukiwanie semantyczne według tego, co pamiętasz z tekstu."
   - q: "Czy Marqly ma tryb czytania offline jak Pocket?"
-    a: "Nie. Marqly działa w chmurze i nie oferuje dedykowanego czytnika offline. Jeśli czytanie bez internetu jest dla Ciebie kluczowe, sprawdź Instapaper."
+    a: "Tak, w planie Pro. Zapisane w aplikacji webowej i iOS artykuły są zapamiętywane w pamięci tego urządzenia, więc można je czytać bez internetu; treść offline nie synchronizuje się między urządzeniami, a aplikacja na Androida i rozszerzenia przeglądarek nie obsługują czytania offline."
   - q: "Ile kosztuje Marqly?"
     a: "Pakiet darmowy mieści do 100 elementów. Wersja Pro kosztuje 72 USD/rok (49 USD z kuponem STANDING49) lub 9 USD/miesięcznie."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"
-updatedDate: 2026-09-07
+updatedDate: 2026-09-26
 ---
 
 Zamknięcie serwisu Pocket postawiło tysiące użytkowników przed dylematem, jak uratować lata zbieranych materiałów. Marqly stanowi nowoczesną przystań dla archiwów Pocket, wzbogacając je o silnik sztucznej inteligencji.

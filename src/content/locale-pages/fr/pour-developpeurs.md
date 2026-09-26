@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Développer produit un type de savoir très particulier : **la solution exacte à un problème très spécifique qui reviendra dans un an**. Et elle vit presque toujours dans un onglet que vous avez fermé.
@@ -84,7 +84,7 @@ Sans détour, parce que ce public pose la question en premier :
 
 - **Pas d'API publique.**
 - **Pas auto-hébergeable.**
-- **Pas de mode hors ligne.**
+- **Lecture hors ligne seulement avec Pro**, par appareil, dans l'application web ou iOS.
 
 Si votre prérequis est de posséder vos données en local, le comparatif honnête est dans [Marqly vs Obsidian](/fr/comparer/marqly-vs-obsidian), dont le clipper enregistre du Markdown sur votre disque et est gratuit.
 

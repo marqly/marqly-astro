@@ -17,13 +17,13 @@ faqs:
   - q: "Czy mogę przenieść artykuły z Pocket lub Instapaper?"
     a: "Tak, Marqly bez trudu importuje pliki eksportu z Pocket, Raindrop.io oraz pliki HTML zakładek z dowolnej popularnej przeglądarki."
   - q: "Czy jest dostępny tryb czytania offline?"
-    a: "Nie. Marqly działa w chmurze i nie posiada dedykowanego trybu offline do czytania bez dostępu do sieci."
+    a: "Tak, ale tylko w planie Pro. Zapisane w aplikacji webowej i iOS artykuły są zapamiętywane w pamięci tego urządzenia, więc można je czytać np. w samolocie; treść offline nie synchronizuje się między urządzeniami, a aplikacja na Androida i rozszerzenia przeglądarek nie wspierają czytania offline."
   - q: "Czy długie filmy z YouTube też można dodawać do listy?"
     a: "Oczywiście. Do każdego zapisanego filmu dołączane jest streszczenie AI i transkrypcja, więc nie musisz oglądać całego nagrania, by poznać jego treść."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"
-updatedDate: 2026-09-07
+updatedDate: 2026-09-26
 ---
 
 Każda lista artykułów 'na później' ma ten sam problem: **rośnie znacznie szybciej, niż jesteś w stanie ją przeczytać**. Zapisujesz pięć ciekawych tekstów dziennie, a czytasz jeden. Po roku masz setki zaległości i nieustające poczucie winy.

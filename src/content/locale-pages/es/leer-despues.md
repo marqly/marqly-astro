@@ -17,7 +17,7 @@ faqs:
   - q: "¿Marqly reemplaza a Pocket?"
     a: "Para la mayoría de los usos, sí: guardar de un clic, tener la cola en el celular y volver a encontrar lo guardado. Además importa directamente tu biblioteca de Pocket, de Raindrop o un archivo HTML de marcadores."
   - q: "¿Puedo leer sin conexión?"
-    a: "No. Marqly necesita conexión a internet para sincronizar y para las funciones de IA."
+    a: "Sí, con Pro: las páginas marcadas se quedan guardadas en ese dispositivo y las lees sin conexión en la app web o en la app de iOS. En el plan gratis, en Android y en las extensiones hace falta conexión para sincronizar y para las funciones de IA."
   - q: "¿Sirve en el celular?"
     a: "Sí, hay app para iPhone, iPad y Android, además de la app web desde cualquier navegador."
   - q: "¿Cómo evito acumular 800 artículos sin leer?"
@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Una app para guardar artículos y leer después solo sirve si de verdad vuelves. Marqly guarda cualquier página de un clic, la resume con IA y la etiqueta sola, así que cuando abres la cola no ves 400 títulos idénticos: ves de qué trata cada cosa y decides en segundos qué leer hoy. Funciona en Chrome, Edge, Firefox, Safari, en la app web y en iPhone.
@@ -75,10 +75,10 @@ Así puedes escribir "el artículo donde explicaban por qué los pilotos usan li
 | Buscar por idea, no por título | No | Búsqueda de texto | Sí, semántica |
 | Resaltar y anotar | No | A veces | Sí, 6 colores + notas |
 | Preguntarle a lo guardado | No | No | Sí, con Pro |
-| Lectura sin conexión | Sí | Sí | No |
+| Lectura sin conexión | Sí | Sí | Sí (Pro) |
 | App de iPhone | Vía sync | Sí | Sí |
 
-Marqly no gana en todo, y la lectura sin conexión es un ejemplo claro: si lees en el metro sin señal, esa casilla te importa y hay que decirlo.
+Marqly no gana en todo, y la lectura sin conexión es un ejemplo claro: existe, pero solo en Pro y solo para las páginas marcadas en ese dispositivo, sin sincronizar entre equipos. Si lees en el metro sin señal, esa casilla te importa y hay que decirla clara.
 
 ## Resaltar mientras lees
 

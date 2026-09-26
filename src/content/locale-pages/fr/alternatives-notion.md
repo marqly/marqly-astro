@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Enregistrer ses liens dans Notion est une idée raisonnable : vous y vivez déjà, donc un endroit de moins à entretenir. Avec cinquante liens, cela fonctionne bien. Le problème arrive quand la base grossit.
@@ -64,7 +64,7 @@ Selon ce qui vous gêne :
 | Enregistrer tous les onglets | Non | Oui | Non | Oui |
 | Enregistrer en PDF | Non | Non | Non | Oui (Chrome/Edge) |
 | Données locales | Non | Non | **Oui** | Non |
-| Hors ligne | **Oui** | Non | **Oui** | Non |
+| Hors ligne | **Oui** | Non | **Oui** | Oui (Pro) |
 | Prix | 10 $/membre/mois | **28 $/an** | **Gratuit** | 72 $/an |
 
 ## La solution à laquelle presque personne ne pense : ne pas choisir

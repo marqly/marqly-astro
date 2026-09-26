@@ -21,13 +21,13 @@ faqs:
   - q: "¿En qué navegadores está la extensión?"
     a: "Chrome, Edge, Firefox y Safari. El historial del portapapeles y el guardado de página como PDF están solo en Chrome y Edge; la página de nueva pestaña con widgets está en Chrome, Edge y Firefox."
   - q: "¿La extensión sirve sin conexión?"
-    a: "No. La extensión necesita conexión para guardar y sincronizar tus resaltados, notas y páginas."
+    a: "No. La extensión necesita conexión para guardar y sincronizar tus resaltados, notas y páginas; dentro de la extensión no hay modo sin conexión. Con Pro, en cambio, las páginas marcadas sí se quedan guardadas en el dispositivo y puedes leerlas sin señal en la app web o en la app de iOS."
   - q: "¿Cuánto cuesta?"
     a: "Hay plan gratis y no pide tarjeta. Pro cuesta 72 USD al año o 9 USD al mes, y los estudiantes verificados pagan 48 USD el primer año."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Para resaltar texto en una página web necesitas una extensión que guarde la marca fuera de la pestaña. La extensión de Marqly hace justo eso: seleccionas el texto, eliges uno de **6 colores**, le agregas una nota si quieres, y ese resaltado queda anclado a la página en tu cuenta. Vuelves un mes después, desde otra computadora, y sigue ahí.

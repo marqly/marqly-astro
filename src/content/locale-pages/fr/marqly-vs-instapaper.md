@@ -15,7 +15,7 @@ faqs:
   - q: "Lequel est le meilleur, Marqly ou Instapaper ?"
     a: "Cela dépend de votre problème. Si vous lisez beaucoup de textes longs et voulez une expérience de lecture impeccable et hors ligne : Instapaper. Si vous enregistrez beaucoup et ne retrouvez rien ensuite : Marqly, parce qu'il étiquette par IA et cherche par sens."
   - q: "Instapaper lit hors ligne et pas Marqly ?"
-    a: "Exactement. Instapaper télécharge vos articles et s'intègre même au Kindle. Marqly n'a pas de mode hors ligne, et nous ne dirons pas le contraire."
+    a: "Plus tout à fait. Instapaper télécharge vos articles pour les lire sans réseau où que vous soyez et s'intègre même au Kindle. Marqly propose aussi la lecture hors ligne, mais seulement avec Pro et par appareil : les pages marquées restent dans l'application web ou l'application iOS, sans synchronisation entre appareils, et rien de tel sur Android ni dans les extensions."
   - q: "Combien coûte chacun ?"
     a: "Instapaper a une offre gratuite et Premium à 5,99 $ (soit environ 5,50 €) par mois ou 59,99 $ (soit environ 57 €) par an. Marqly a une offre gratuite sans carte, et Pro à 9 $ par mois ou 72 $ (soit environ 69 €) par an."
   - q: "Instapaper a-t-il de l'IA ?"
@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Ce comparatif tient en une phrase : **Instapaper gagne sur la lecture, Marqly sur la recherche**. Ce ne sont pas les mêmes outils, et choisir le mauvais est la raison pour laquelle certains finissent par abandonner les deux.
@@ -70,14 +70,14 @@ Marqly part d'une autre idée : le goulot d'étranglement n'est pas la lecture, 
 - **Enregistrer tous les onglets**, sessions réouvrables et **tableaux publics** sans inscription.
 - **Enregistrer en PDF** (Chrome et Edge).
 
-Et ce que Marqly n'a pas, dit clairement : **pas de lecture hors ligne, pas d'intégration Kindle**.
+Et ce que Marqly n'a pas, dit clairement : **pas d'intégration Kindle**, et sa lecture hors ligne n'existe qu'avec Pro, par appareil, dans l'application web ou iOS.
 
 ## Comparatif direct
 
 | | Instapaper | Marqly |
 | --- | --- | --- |
 | Expérience de lecture | **Excellente** | Correcte |
-| Lecture hors ligne | **Oui** | Non |
+| Lecture hors ligne | **Oui** | Oui (Pro) |
 | Kindle | **Oui** | Non |
 | Application Android | **Oui** | Non |
 | Tags automatiques par IA | Non | Oui |

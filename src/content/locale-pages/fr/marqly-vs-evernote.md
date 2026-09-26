@@ -23,11 +23,11 @@ faqs:
   - q: "Puis-je transférer mes favoris ?"
     a: "Oui. Marqly importe les exports Pocket, les collections Raindrop.io et les fichiers HTML de favoris de Chrome, Firefox, Edge et Safari."
   - q: "Evernote fonctionne-t-il hors ligne ?"
-    a: "Oui, Evernote propose l'accès hors ligne et une application Android. Marqly a l'application Android, pas l'accès hors ligne."
+    a: "Oui, Evernote propose l'accès hors ligne et une application Android. Marqly propose aussi la lecture hors ligne, mais seulement avec Pro et par appareil : les pages marquées restent dans l'application web ou l'application iOS, et il n'y a pas de mode hors ligne sur Android ni dans les extensions."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Comparer Marqly et Evernote revient à comparer un outil et une suite. Evernote veut être l'endroit où vit tout votre travail ; Marqly veut être l'endroit où vous retrouvez ce que vous avez vu en ligne. La question utile n'est pas lequel est le plus puissant — c'est Evernote — mais **de combien de système vous avez réellement besoin**.
@@ -67,7 +67,7 @@ Marqly ne cherche pas à être votre système de notes. Il fait une chose :
 - **Enregistrer en PDF** dans Chrome et Edge.
 - **Historique du presse-papiers** dans Chrome et Edge, avec synchronisation en Pro.
 
-Ce qui manque : **hors ligne, notes longues, numérisation de documents**.
+Ce qui manque : **les notes longues et la numérisation de documents**. L'accès hors ligne existe avec Pro, par appareil, dans l'application web ou iOS.
 
 ## Comparatif direct
 
@@ -75,7 +75,7 @@ Ce qui manque : **hors ligne, notes longues, numérisation de documents**.
 | --- | --- | --- |
 | Notes et documents | **Oui, complet** | Non |
 | Numérisation | **Oui** | Non |
-| Hors ligne | **Oui** | Non |
+| Hors ligne | **Oui** | Oui (Pro) |
 | Application Android | **Oui** | Non |
 | Capture web | Oui, très bonne | Oui |
 | Tags automatiques par IA | Non | Oui |

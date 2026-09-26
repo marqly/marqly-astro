@@ -19,7 +19,7 @@ faqs:
   - q: "Conserve-t-il la réservation ou le prix tels quels ?"
     a: "Dans Chrome et Edge, vous pouvez archiver la page en PDF avec la mise en page réelle, ce qui fige un prix ou des conditions à une date donnée."
   - q: "Cela fonctionne-t-il hors ligne pendant le voyage ?"
-    a: "Non. Marqly n'a pas de mode hors ligne : pour consulter sans données, téléchargez l'essentiel à part."
+    a: "Oui, mais seulement avec Pro et seulement pour les pages marquées avant de partir : elles restent enregistrées sur l'appareil et s'ouvrent sans données dans l'application web ou iOS. Sur l'offre gratuite, sur Android et dans les extensions, il n'y a pas de mode hors ligne — en zone sans réseau, marquez l'essentiel avant de sortir."
   - q: "Y a-t-il une application mobile ?"
     a: "Il existe des applications iPhone, iPad et Android, et l'application web fonctionne dans n'importe quel navigateur."
   - q: "Combien cela coûte-t-il ?"
@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Préparer un voyage fait partie de ces tâches qui créent un désordre énorme en très peu de temps. Vous commencez par regarder des vols et vous finissez avec quarante onglets ouverts, trois conversations pleines de recommandations et aucune décision prise.
@@ -85,7 +85,7 @@ Vous êtes en ville, vous avez deux heures libres et vous ne savez plus ce que v
 
 Et il apparaît. Via l'application iPhone ou le navigateur du téléphone.
 
-Un avertissement pratique : **il n'y a pas de mode hors ligne**. Si vous partez dans un endroit sans données, téléchargez l'essentiel à part.
+Un avertissement pratique : **le mode hors ligne existe, mais seulement avec Pro et par appareil** — les pages marquées, dans l'application web ou iOS. Si vous partez dans un endroit sans données, marquez l'essentiel avant de sortir, et téléchargez à part le reste.
 
 ## Commencer
 

@@ -17,13 +17,13 @@ faqs:
   - q: "Wat is het grootste verschil tussen Marqly en Pocket?"
     a: "Pocket vereiste handmatige mappen en tags; Marqly gebruikt AI voor automatische categorisering en stelt je in staat links terug te vinden door te omschrijven wat je je herinnert."
   - q: "Heeft Marqly een offline leesmodus zoals Pocket?"
-    a: "Nee. Marqly is een cloud-first kennisbeheersysteem en heeft geen native offline lezer. Als offline lezen in de trein essentieel voor je is, bekijk dan Instapaper."
+    a: "Deels. Marqly bewaart gemarkeerde pagina's offline op Pro, in de webapp en de iOS-app, per apparaat — zonder synchronisatie tussen apparaten, niet op Android en niet in de extensies. Als offline lezen in de trein op je telefoon essentieel voor je is, bekijk dan Instapaper."
   - q: "Wat zijn de kosten?"
     a: "Gratis tot 100 opgeslagen pagina's. Pro kost $72 per jaar ($49 eerste jaar met code STANDING49) of $9 per maand."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
-updatedDate: 2026-09-07
+updatedDate: 2026-09-26
 ---
 
 Nu Pocket officieel is stopgezet, zoeken veel gebruikers een betrouwbaar nieuw thuis voor hun opgeslagen artikelen. Marqly leest Pocket-exports naadloos in en voegt moderne AI-zoekkracht toe.

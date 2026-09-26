@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Um Text auf einer Webseite zu markieren, brauchst du eine Erweiterung – im Browser selbst gibt es keinen Textmarker. Marqly bringt einen mit: Text auswählen, eine von **sechs Farben** wählen, fertig. Optional schreibst du eine Notiz dazu. Beim nächsten Besuch derselben Seite sind Markierung und Notiz wieder da, weil beides an deinem Konto hängt und nicht an der Browser-Sitzung. Die Erweiterung gibt es für Chrome, Edge, Firefox und Safari.
@@ -86,6 +86,6 @@ Wie sich das gegen einen klassischen Bookmark-Manager schlägt, steht im Verglei
 
 ## Kosten und Grenzen
 
-Die kostenlose Stufe braucht keine Kreditkarte. Pro liegt bei **72 $/Jahr (rund 66 €)** oder **9 $/Monat (rund 8 €)**, für Studierende bei **48 $ (rund 44 €) im ersten Jahr**. Ehrlich dazugesagt: Markieren funktioniert nur mit Verbindung, es gibt keinen Offline-Modus.
+Die kostenlose Stufe braucht keine Kreditkarte. Pro liegt bei **72 $/Jahr (rund 66 €)** oder **9 $/Monat (rund 8 €)**, für Studierende bei **48 $ (rund 44 €) im ersten Jahr**. Ehrlich dazugesagt: Markieren funktioniert nur mit Verbindung; Offline-Lesen gibt es auf Pro – markierte Seiten speicherst du in der Web-App oder iOS-App, auf dem jeweiligen Gerät.
 
 Installier die Erweiterung, markier die nächste Seite, die du liest – und schau in zwei Wochen nach, ob die Stelle noch da ist. [Marqly kostenlos testen](https://app.marqly.com) – mehr Lesestoff im [Blog](/de/blog).

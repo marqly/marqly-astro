@@ -15,13 +15,13 @@ faqs:
   - q: "我该选 Marqly 还是 Instapaper？"
     a: "如果你平时阅读大量纯文本长文，追求纯净排版并常在飞行或断网时阅读，选 Instapaper。如果你收藏内容繁杂且常常找不到，选 Marqly。"
   - q: "Instapaper 支持离线，Marqly 支持吗？"
-    a: "Instapaper 支持离线缓存和 Kindle 同步；Marqly 专注于云端智能检索，没有专门的离线纯文本阅读模式。"
+    a: "Instapaper 支持离线缓存和 Kindle 同步；Marqly 的离线阅读属于 Pro 功能：在网页应用或 iOS 应用中，把文章标记为离线后，该设备即可无网阅读；离线内容不会同步到其他设备，Android 应用和浏览器扩展暂不支持离线。"
   - q: "两者的价格是多少？"
     a: "Instapaper Premium 订阅费用为每月 $5.99 或每年 $59.99。Marqly Pro 年费为 $72（使用优惠码 STANDING49 首年仅需 $49），并提供 100 条免费额度。"
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "免费体验 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
-updatedDate: 2026-09-07
+updatedDate: 2026-09-26
 ---
 
 结论非常清晰：**Instapaper 赢在“阅读”，Marqly 赢在“检索”。**

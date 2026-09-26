@@ -17,7 +17,7 @@ faqs:
   - q: "¿Sigo a tiempo de sacar mis datos de Pocket?"
     a: "No. La exportación cerró el 8 de octubre de 2025 y Mozilla borró los datos restantes de forma permanente. Solo sirve el ZIP si lo descargaste antes de esa fecha."
   - q: "¿Alguna alternativa tiene lectura sin conexión como Pocket?"
-    a: "Instapaper y Matter sí ofrecen lectura sin conexión. Marqly no tiene modo sin conexión, así que si eso era imprescindible para ti, empieza por esas dos."
+    a: "Instapaper y Matter sí ofrecen lectura sin conexión en todo el acervo. Marqly también la tiene, pero solo en Pro: las páginas marcadas se guardan en ese dispositivo, en la app web o en la app de iOS. Si tu escenario era Android o la extensión, empieza por esas dos."
   - q: "¿Hay alguna alternativa gratis?"
     a: "Sí. Raindrop.io y Marqly tienen plan gratis. En Marqly puedes registrarte sin tarjeta y el plan Pro cuesta 72 USD al año o 9 USD al mes."
   - q: "¿Qué alternativa importa mejor el archivo de Pocket?"
@@ -25,7 +25,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Pocket cerró el **8 de julio de 2025** y Mozilla borró los datos que quedaban después del **8 de octubre de 2025**. Si buscas alternativa, lo primero es admitir que no hay un sustituto único: Pocket hacía tres cosas distintas y cada alternativa cubre una parte.
@@ -42,9 +42,9 @@ La alternativa correcta depende de cuál de esas tres eras. Elegir mal es la raz
 
 ## Si Pocket era tu lector
 
-Busca **Instapaper** o **Matter**. Son los reemplazos más cercanos al Pocket clásico: lector limpio, tipografía cuidada y **lectura sin conexión**, que es exactamente lo que Marqly no tiene.
+Busca **Instapaper** o **Matter**. Son los reemplazos más cercanos al Pocket clásico: lector limpio, tipografía cuidada y **lectura sin conexión** en todo el acervo; Marqly solo la ofrece en Pro, por dispositivo, y únicamente en la app web o la app de iOS.
 
-Conviene decirlo sin rodeos: si tu rutina era descargar artículos y leerlos en el avión o en el metro sin señal, Marqly no es tu herramienta. Esa función no existe aquí y no vamos a fingir lo contrario.
+Conviene decirlo sin rodeos: si tu rutina era descargar toda la cola y leerla en el avión o en el metro sin señal, Marqly no es un reemplazo uno a uno. Su lectura sin conexión existe solo en Pro, página marcada a página marcada, en la app web o en la app de iOS, y no se sincroniza entre dispositivos.
 
 ## Si Pocket era tu archivo
 
@@ -76,7 +76,7 @@ Si tu bandeja se llena sobre todo de pestañas abiertas, mira [guardar todas las
 
 | | Instapaper | Matter | Raindrop.io | Marqly |
 | --- | --- | --- | --- | --- |
-| Lectura sin conexión | Sí | Sí | No | No |
+| Lectura sin conexión | Sí | Sí | No | Sí (Pro) |
 | Etiquetado automático con IA | No | No | No | Sí |
 | Búsqueda semántica | No | No | No | Sí |
 | Resúmenes con IA | No | No | No | Sí |

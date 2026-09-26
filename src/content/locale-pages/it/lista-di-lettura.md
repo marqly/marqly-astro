@@ -19,7 +19,7 @@ faqs:
   - q: "Posso portare la mia lista attuale?"
     a: "Sì. Marqly importa export di Pocket, raccolte di Raindrop.io e file HTML di preferiti da Chrome, Firefox, Edge e Safari."
   - q: "Funziona offline?"
-    a: "No. Marqly non ha una modalità offline, quindi per leggere in aereo senza rete conviene un altro strumento."
+    a: "Sì, ma solo su Pro: le pagine contrassegnate si leggono offline in app web e iOS, sul dispositivo dove le salvi. Con il piano gratuito o su Android, per leggere in aereo senza rete conviene un altro strumento."
   - q: "I video contano nella lista di lettura?"
     a: "Sì, e spesso sono metà del problema. Salvando un video di YouTube hai riassunto e trascrizione allegata, quindi puoi smistare senza guardare."
   - q: "Quanto costa?"
@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Ogni lista di lettura ha lo stesso destino: **cresce più in fretta di quanto si legga**. Salvi cinque cose al giorno e ne leggi una. In un anno sono mille articoli in sospeso e una sensazione permanente di debito.
@@ -78,7 +78,7 @@ Se la tua pila nasce soprattutto da schede aperte: [salvare le schede](/it/salva
 
 ## Se vuoi davvero leggere di più
 
-Onestamente: se il tuo obiettivo è **leggere** di più e meglio, ci sono strumenti migliori di Marqly. Instapaper e Matter hanno un'esperienza di lettura superiore e funzionano offline, cosa che Marqly non offre. Confrontato in [Marqly vs Instapaper](/it/confronto/marqly-vs-instapaper) e [Marqly vs Matter](/it/confronto/marqly-vs-matter).
+Onestamente: se il tuo obiettivo è **leggere** di più e meglio, ci sono strumenti migliori di Marqly. Instapaper e Matter hanno un'esperienza di lettura superiore e funzionano offline ovunque; Marqly offre la lettura offline solo su Pro, in app web e iOS, dispositivo per dispositivo. Confrontato in [Marqly vs Instapaper](/it/confronto/marqly-vs-instapaper) e [Marqly vs Matter](/it/confronto/marqly-vs-matter).
 
 Marqly è la risposta quando il problema non è leggere, ma **ritrovare**.
 

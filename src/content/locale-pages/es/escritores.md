@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Escribir cualquier cosa medianamente documentada tiene dos fases muy distintas: una en la que acumulas material sin orden, y otra en la que necesitas una pieza concreta de ese material **ahora mismo**. La segunda fase es donde se pierde el tiempo.
@@ -92,7 +92,7 @@ Se puede probar sin instalar nada con la [transcripción de YouTube](/es/herrami
 
 ## Lo que no hace
 
-Marqly **no es un editor**: no escribes aquí. Tampoco gestiona citas con formato académico ni funciona sin conexión. Es la biblioteca, no el escritorio.
+Marqly **no es un editor**: no escribes aquí, y tampoco gestiona citas con formato académico. La lectura sin conexión existe, pero solo en Pro y por dispositivo: las páginas marcadas se guardan en la app web o en la app de iOS. Es la biblioteca, no el escritorio.
 
 ## Empezar
 

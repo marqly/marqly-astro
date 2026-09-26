@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Escrever qualquer coisa minimamente pesquisada tem duas fases bem distintas: uma em que você acumula material sem ordem, e outra em que precisa de uma peça específica desse material **agora**. A segunda fase é onde o tempo se perde.
@@ -92,7 +92,7 @@ Teste sem instalar nada na [transcrição do YouTube](/pt/ferramentas/transcrica
 
 ## O que ele não faz
 
-O Marqly **não é um editor**: você não escreve aqui. Também não gerencia citações em formato acadêmico e não funciona offline. É a biblioteca, não a escrivaninha.
+O Marqly **não é um editor**: você não escreve aqui, e também não gerencia citações em formato acadêmico. A leitura offline existe, mas só no Pro e por dispositivo: páginas marcadas, salvas no app web ou no app de iOS. É a biblioteca, não a escrivaninha.
 
 ## Comece
 

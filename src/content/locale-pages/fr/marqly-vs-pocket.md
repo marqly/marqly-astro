@@ -19,7 +19,7 @@ faqs:
   - q: "Marqly importe-t-il l'export Pocket ?"
     a: "Oui. Marqly importe les exports Pocket, les collections Raindrop.io et les fichiers HTML de favoris de Chrome, Firefox, Edge ou Safari."
   - q: "Marqly propose-t-il la lecture hors ligne comme Pocket ?"
-    a: "Non, et il faut le dire clairement : c'était l'une des meilleures fonctions de Pocket, et Marqly ne l'a pas. Si votre usage principal était de lire sans réseau dans le métro, cela ne se remplace pas à l'identique."
+    a: "Oui, mais seulement avec Pro : les pages marquées restent enregistrées sur cet appareil et se lisent sans réseau dans l'application web ou l'application iOS. Elles ne se synchronisent pas entre appareils, et il n'y a pas de mode hors ligne sur l'offre gratuite, sur Android ni dans les extensions."
   - q: "Y a-t-il une application Android ?"
     a: "Oui. Marqly propose une application iPhone, iPad et Android, et l'application web fonctionne dans n'importe quel navigateur."
   - q: "Combien coûte Marqly ?"
@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Ce comparatif a une particularité gênante : **Pocket n'existe plus**. Mozilla a fermé le service le 8 juillet 2025 et supprimé définitivement toutes les données restantes après le 8 octobre 2025. La vraie question n'est donc pas « lequel est meilleur », mais « qu'est-ce que Pocket faisait pour moi, et qui le fait maintenant ».
@@ -49,7 +49,7 @@ Sinon, il n'y a rien à récupérer. Aucun outil ne restitue ces données, et m�
 
 Soyons justes, Pocket était très bon dans son domaine :
 
-- **Lecture hors ligne.** Les articles se synchronisaient seuls sur le téléphone. Marqly n'a **pas** de mode hors ligne.
+- **Lecture hors ligne.** Les articles se synchronisaient seuls sur le téléphone. Marqly le fait aussi, mais seulement avec Pro et par appareil : les pages marquées restent enregistrées dans l'application web ou l'application iOS, sans synchronisation entre appareils ; pas de mode hors ligne sur Android ni dans les extensions.
 - **Listen (synthèse vocale).** Transformait la pile d'articles en playlist pour la voiture. Marqly ne le fait pas.
 - **Lecteur épuré et sans distraction**, affiné pendant des années.
 - **Discover**, avec de très bonnes recommandations de fond.
@@ -93,7 +93,7 @@ Marqly ne cherche pas à être un lecteur sans distraction. C'est un gestionnair
 | Enregistrer en PDF | Non | Oui (Chrome et Edge) |
 | Enregistrer tous les onglets | Non | Oui |
 | Tableau public | Non | Oui |
-| Lecture hors ligne | **Oui** | Non |
+| Lecture hors ligne | **Oui** | Oui (Pro) |
 | Application Android | **Oui** | Non |
 | Importe l'export Pocket | — | Oui |
 | Offre gratuite | Oui | Oui, sans carte |

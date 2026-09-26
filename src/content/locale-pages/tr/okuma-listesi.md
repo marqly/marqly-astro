@@ -17,13 +17,13 @@ faqs:
   - q: "Pocket veya Instapaper'dan aktarım yapabilir miyim?"
     a: "Evet. Pocket ve Raindrop.io dışa aktarım dosyalarını ve tüm tarayıcıların HTML yer imi arşivlerini doğrudan Marqly'ye yükleyebilirsiniz."
   - q: "Çevrimdışı okuma modu var mı?"
-    a: "Hayır. Marqly bulut tabanlı bir servistir ve uçak gibi internetsiz ortamlarda okumak için özel bir çevrimdışı okuyucu modu içermez."
+    a: "Evet, Pro planda. Çevrimdışı okuma bir Pro özelliğidir: web uygulaması ve iOS uygulamasında kaydedilen makaleler cihaza önbelleğe alınır ve uçakta bile okunabilir; ancak cihazlar arası eşitleme yoktur ve Android uygulaması ile tarayıcı eklentileri çevrimdışı okumayı desteklemez."
   - q: "YouTube videoları da listeye dahil edilebilir mi?"
     a: "Evet. Kaydedilen her video için otomatik olarak yapay zeka özeti ve transkript çıkarılır; bir saatlik videoyu izlemeden ne anlattığını saniyeler içinde anlarsınız."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'yi Ücretsiz Deneyin"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
-updatedDate: 2026-09-07
+updatedDate: 2026-09-26
 ---
 
 Her 'daha sonra oku' listesinin kaderi aynıdır: **okuma kapasitenizden çok daha hızlı büyür**. Günde beş makale kaydedip sadece birini okursanız, bir yıl sonra geriye yüzlerce okunmamış yazı ve kronik bir suçluluk hissi kalır.

@@ -19,7 +19,7 @@ faqs:
   - q: "¿Marqly importa el export de Pocket?"
     a: "Sí. Marqly importa exportaciones de Pocket, colecciones de Raindrop.io y archivos HTML de marcadores exportados desde Chrome, Firefox, Edge o Safari."
   - q: "¿Marqly tiene lectura sin conexión como Pocket?"
-    a: "No, y conviene decirlo claro: esa era una de las mejores funciones de Pocket y Marqly no la tiene. Si tu caso de uso principal era leer en el metro sin señal, esa pieza no se reemplaza uno a uno."
+    a: "Sí, pero solo con Pro: las páginas marcadas se quedan guardadas en ese dispositivo y las lees sin señal desde la app web o la app de iOS. No se sincronizan entre dispositivos, y en el plan gratis, en Android y en las extensiones no hay modo sin conexión."
   - q: "¿Hay app de Android?"
     a: "Sí. Marqly tiene app para iPhone, iPad y Android, y la app web funciona en cualquier navegador."
   - q: "¿Cuánto cuesta Marqly frente a lo que costaba Pocket Premium?"
@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Esta comparación tiene una particularidad incómoda: **Pocket ya no existe**. Mozilla lo cerró el 8 de julio de 2025 y borró de forma permanente todos los datos que quedaban después del 8 de octubre de 2025. Así que la pregunta real no es "¿cuál es mejor?", sino "¿qué hacía Pocket por mí y quién lo hace ahora?".
@@ -51,7 +51,7 @@ Si no lo descargaste, no hay nada que recuperar. Ninguna herramienta puede devol
 
 Vale la pena ser honesto, porque Pocket era muy bueno en lo suyo:
 
-- **Lectura sin conexión.** Los artículos se sincronizaban al teléfono solos. Marqly **no** tiene modo sin conexión.
+- **Lectura sin conexión.** Los artículos se sincronizaban al teléfono solos. Marqly la tiene en Pro, pero por dispositivo: las páginas marcadas se guardan en la app web o en la app de iOS y no viajan de un equipo a otro; en Android y en las extensiones no hay modo sin conexión.
 - **Listen (texto a voz).** Convertía la pila de pendientes en una playlist para el coche. Marqly no lo tiene.
 - **Lector limpio y sin distracciones**, muy pulido después de años de iteración.
 - **Discover**, con recomendaciones editoriales de largo formato realmente buenas.
@@ -95,7 +95,7 @@ Marqly no intenta ser un lector sin distracciones. Es un gestor de marcadores co
 | Guardar como PDF | No | Sí (Chrome y Edge) |
 | Guardar todas las pestañas | No | Sí |
 | Compartir tablero público | No | Sí |
-| Lectura sin conexión | **Sí** | No |
+| Lectura sin conexión | **Sí** | Sí (Pro) |
 | App de Android | **Sí** | No |
 | Importa export de Pocket | — | Sí |
 | Plan gratis | Sí | Sí, sin tarjeta |

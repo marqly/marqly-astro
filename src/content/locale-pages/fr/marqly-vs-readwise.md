@@ -21,13 +21,13 @@ faqs:
   - q: "Les deux ont-ils de l'IA pour YouTube ?"
     a: "Oui, les deux traitent la vidéo. Marqly affiche résumé, transcription synchronisée et chat directement sur la page YouTube, et joint la transcription à l'enregistrement."
   - q: "Readwise Reader fonctionne-t-il hors ligne ?"
-    a: "Oui, et il a une application Android. Marqly a bien une application Android, mais pas le mode hors ligne."
+    a: "Oui, et il a une application Android. Marqly propose aussi la lecture hors ligne, mais seulement avec Pro et par appareil : les pages marquées restent dans l'application web ou l'application iOS, et il n'y a pas de mode hors ligne sur Android ni dans les extensions."
   - q: "Combien coûte Marqly ?"
     a: "Offre gratuite sans carte, et Pro à 9 $ (soit environ 8 €) par mois ou 72 $ (soit environ 69 €) par an."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Commençons par l'évidence : **Readwise Reader est l'outil de lecture le plus puissant du moment**. Si votre problème est de lire beaucoup et d'exploiter ce que vous surlignez, c'est probablement la bonne réponse et cette page devrait s'arrêter ici.
@@ -66,7 +66,7 @@ Marqly ne concourt pas sur l'expérience de lecture mais sur **l'index** :
 - **Enregistrer en PDF** dans Chrome et Edge.
 - **Offre gratuite sans carte**, et Pro à 72 $ par an.
 
-Ce qui manque : **hors ligne, newsletters par e-mail, répétition espacée et API publique**.
+Ce qui manque : **les newsletters par e-mail, la répétition espacée et l'API publique**. La lecture hors ligne existe, mais seulement avec Pro et par appareil (application web ou iOS).
 
 ## Comparatif direct
 
@@ -75,7 +75,7 @@ Ce qui manque : **hors ligne, newsletters par e-mail, répétition espacée et A
 | Expérience de lecture | **Excellente** | Correcte |
 | Newsletters et RSS | **Oui** | Non |
 | Répétition espacée | **Oui** | Non |
-| Hors ligne | **Oui** | Non |
+| Hors ligne | **Oui** | Oui (Pro) |
 | Application Android | **Oui** | Non |
 | API publique | **Oui** | Non |
 | Tags automatiques par IA | Non | Oui |

@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Preparar aula gera material que você usa uma vez e vai precisar de novo daqui a um ano. O problema não é achar na primeira vez: é **achar na segunda**, quando você já não lembra de onde veio.
@@ -91,7 +91,7 @@ Quando você lê um texto longo pensando na aula, lê diferente: procura o trech
 
 ## O que você não vai encontrar
 
-Para não haver surpresa: no plano pessoal o compartilhamento é **em modo leitura** (para edição colaborativa em grupo existe o Marqly Teams) e não há modo offline. O Marqly é uma biblioteca pessoal que você pode compartilhar em modo leitura, não uma plataforma de ensino.
+Para não haver surpresa: no plano pessoal o compartilhamento é **em modo leitura** (para edição colaborativa em grupo existe o Marqly Teams) e o modo offline só existe no Pro, por dispositivo — páginas marcadas salvas no app web ou no app de iOS, sem sincronizar entre aparelhos. O Marqly é uma biblioteca pessoal que você pode compartilhar em modo leitura, não uma plataforma de ensino.
 
 ## Comece
 

@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Une enquête repose sur une documentation qui **peut changer pendant que vous écrivez**. Communiqués corrigés sans préavis, profils supprimés, chiffres actualisés, pages officielles réorganisées. Enregistrer un lien n'est pas archiver.
@@ -87,7 +87,7 @@ C'est un partage en lecture : **le lien personnel est en lecture seule ; l'écri
 En toute transparence, parce que cela compte dans ce métier :
 
 - Marqly est un **service cloud**. Non auto-hébergeable, sans API publique.
-- **Pas de mode hors ligne.**
+- **Le hors ligne existe seulement avec Pro et par appareil** : pages marquées, enregistrées dans l'application web ou iOS, sans synchronisation, et rien sur Android ni dans les extensions.
 - Pour du matériel sensible ou des sources nécessitant une protection, cette décision devrait relever des critères de votre rédaction, pas d'une page produit.
 
 Pour un travail exigeant des fichiers sur votre disque, l'alternative honnête est dans [Marqly vs Obsidian](/fr/comparer/marqly-vs-obsidian).

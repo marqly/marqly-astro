@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Wenn du alle offenen Tabs auf einmal speichern willst, brauchst du zwei Dinge: einen Klick, der das ganze Fenster sichert, und die Gewissheit, dass du den Inhalt später wiederfindest. Marqly macht beides. Die Erweiterung für Chrome, Edge, Firefox und Safari legt deine Tabs als **Sitzung** ab, vergibt automatisch Tags, schreibt zu jeder Seite eine Zusammenfassung – und macht alles über eine semantische Suche auffindbar. Danach darfst du das Fenster tatsächlich schließen.
@@ -89,7 +89,7 @@ Nach zwei, drei Wochen kippt das Verhältnis: Ein Tab bleibt nur noch offen, wei
 
 Wenn du deine Tabs bisher in Pocket oder Raindrop geparkt hast: Marqly importiert aus beiden sowie aus jeder Lesezeichen-HTML-Datei, die dein Browser exportiert. Passend dazu die [Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2026) und der Vergleich [Marqly vs. Raindrop](/de/vergleich/marqly-vs-raindrop).
 
-Ehrlich dazu: Es gibt **keinen Offline-Modus**, und das Teilen im persönlichen Board ist nur lesbar – gemeinsam bearbeitet wird in Marqly Teams. Wiederherstellen setzt eine Verbindung voraus. Was an Daten entsteht, steht in den [Datenschutz-Fragen](/de/datenschutz-fragen).
+Ehrlich dazu: Offline-Lesen gibt es nur **auf Pro** (Web-App und iOS, pro Gerät), und das Teilen im persönlichen Board ist nur lesbar – gemeinsam bearbeitet wird in Marqly Teams. Wiederherstellen setzt eine Verbindung voraus. Was an Daten entsteht, steht in den [Datenschutz-Fragen](/de/datenschutz-fragen).
 
 Die kostenlose Stufe braucht keine Kreditkarte. Pro kostet **72 $/Jahr (rund 66 €)** oder **9 $/Monat (rund 8 €)**, für Studierende **48 $ (rund 44 €) im ersten Jahr**.
 

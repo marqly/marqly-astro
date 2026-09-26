@@ -17,13 +17,13 @@ faqs:
   - q: "Kan ik overstappen vanaf Pocket of Instapaper?"
     a: "Ja, Marqly kan back-upbestanden van Pocket en Raindrop.io naadloos inlezen, evenals HTML-bladwijzers uit alle grote browsers."
   - q: "Is er een offline leesmodus?"
-    a: "Nee. Marqly is een cloud-applicatie en heeft geen offline lezersmodus voor gebruik zonder internetverbinding."
+    a: "Ja, maar alleen op Pro: gemarkeerde pagina's worden offline bewaard in de webapp en de iOS-app, per apparaat apart. Zonder Pro, op Android en in de extensies is er geen offline leesmodus."
   - q: "Tellen opgeslagen YouTube-video's ook mee?"
     a: "Ja, bij elke opgeslagen video wordt direct een AI-samenvatting en de uitgeschreven tekst bewaard, zodat je een lezing van een uur in twee minuten kunt beoordelen."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Probeer Marqly gratis"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
-updatedDate: 2026-09-07
+updatedDate: 2026-09-26
 ---
 
 Elke 'later lezen'-lijst deelt hetzelfde lot: **hij groeit exponentieel sneller dan je leest**. Je slaat vijf interessante artikelen per dag op en leest er hooguit één. Na een jaar heb je honderden ongelezen links en een continu schuldgevoel.

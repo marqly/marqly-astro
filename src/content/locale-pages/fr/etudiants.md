@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — c'est gratuit"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Organiser ses recherches, quand on est étudiant, ce n'est pas créer des dossiers&nbsp;: c'est réussir à remettre la main sur le bon article trois semaines après l'avoir trouvé. Marqly sauvegarde vos sources en un clic, les étiquette et les résume automatiquement, et vous les rend quand vous les décrivez avec vos mots. Le tarif étudiant est de **48 $ la première année (environ 46 €)**, sur vérification du statut.
@@ -88,7 +88,7 @@ Commencez par l'offre gratuite pendant un dossier entier. Si les résumés et la
 
 ## Ce que Marqly ne fait pas
 
-Pas de mode hors ligne, pas de génération de citations au format APA. Ce sont des limites réelles, autant les connaître avant d'installer.
+La lecture hors ligne existe, mais seulement avec Pro et par appareil (pages marquées, dans l'application web ou iOS) ; pas de génération de citations au format APA. Ce sont des limites réelles, autant les connaître avant d'installer.
 
 ## Pour aller plus loin
 

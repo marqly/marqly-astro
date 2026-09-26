@@ -15,7 +15,7 @@ faqs:
   - q: "¿Cuál es mejor, Marqly o Instapaper?"
     a: "Depende de tu problema. Si lees mucho texto largo y quieres una experiencia de lectura impecable y sin conexión, Instapaper. Si guardas mucho y luego no encuentras nada, Marqly, porque etiqueta con IA y busca por significado."
   - q: "¿Instapaper tiene lectura sin conexión y Marqly no?"
-    a: "Correcto. Instapaper descarga tus artículos para leerlos sin señal, y además se integra con Kindle. Marqly no tiene modo sin conexión y no vamos a decir que sí."
+    a: "Instapaper descarga tus artículos para leerlos sin señal en cualquier plataforma, y además se integra con Kindle. Marqly también tiene lectura sin conexión, pero solo en Pro y por dispositivo: las páginas marcadas se quedan en la app web o en la app de iOS, no se sincronizan entre equipos, y no hay modo sin conexión en Android ni en las extensiones."
   - q: "¿Cuánto cuesta cada uno?"
     a: "Instapaper tiene plan gratis y Premium por 5,99 USD al mes o 59,99 USD al año. Marqly tiene plan gratis sin tarjeta, y Pro por 9 USD al mes o 72 USD al año, y 48 USD el primer año para estudiantes verificados."
   - q: "¿Instapaper tiene IA?"
@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prueba Marqly gratis"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Esta comparación es sencilla de resumir: **Instapaper gana en leer, Marqly gana en encontrar**. No son la misma herramienta, y elegir la equivocada es lo que hace que la gente abandone las dos.
@@ -70,14 +70,14 @@ Marqly parte de una idea distinta: el cuello de botella no es leer, es **reencon
 - **Guardar todas las pestañas**, sesiones reabribles y **tableros públicos** compartibles sin registro.
 - **Guardar como PDF** (Chrome y Edge).
 
-Y lo que Marqly no tiene, dicho claro: **no hay lectura sin conexión ni integración con Kindle**.
+Y lo que Marqly no tiene, dicho claro: **integración con Kindle**, y su lectura sin conexión solo existe en Pro, por dispositivo, en la app web o en la app de iOS.
 
 ## Comparación directa
 
 | | Instapaper | Marqly |
 | --- | --- | --- |
 | Experiencia de lectura | **Excelente** | Correcta |
-| Lectura sin conexión | **Sí** | No |
+| Lectura sin conexión | **Sí** | Sí (Pro) |
 | Kindle | **Sí** | No |
 | App de Android | **Sí** | No |
 | Etiquetado automático con IA | No | Sí |

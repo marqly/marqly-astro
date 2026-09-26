@@ -23,11 +23,11 @@ faqs:
   - q: "Puis-je emporter ce que j'ai ?"
     a: "Marqly importe les exports Pocket, les collections Raindrop.io et les fichiers HTML de favoris. Pour migrer des notes complètes, tournez-vous vers un outil de notes."
   - q: "Que perds-je en partant ?"
-    a: "Surtout la numérisation de documents, les notes longues et le mode hors ligne. Marqly n'a rien de tout cela."
+    a: "Surtout la numérisation de documents et les notes longues, et un hors ligne très différent : Evernote baisse des carnets entiers sur tous vos appareils, alors que Marqly n'enregistre hors ligne que les pages marquées, avec Pro, dans l'application web ou iOS."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Presque tous ceux qui cherchent une alternative à Evernote le font pour la même raison : **le prix a augmenté et l'offre gratuite s'est resserrée**. Starter coûte 99 $ par an, Advanced 249,99 $. La question utile est : quelle part utilisez-vous réellement ?
@@ -75,14 +75,14 @@ Soyez sincère : si vous ne l'ouvrez pas, tout migrer est du travail perdu. Expo
 | IA pour YouTube | Non | Non | Non | **Oui** |
 | Enregistrer tous les onglets | Non | Non | Oui | Oui |
 | Enregistrer en PDF | Oui | Non | Non | Oui (Chrome/Edge) |
-| Hors ligne | **Oui** | **Oui** | Non | Non |
+| Hors ligne | **Oui** | **Oui** | Non | Oui (Pro) |
 | Application Android | **Oui** | **Oui** | **Oui** | Non |
 | Prix | 99–249,99 $/an | 10 $/membre/mois | **28 $/an** | 72 $/an |
 | Offre gratuite | Limitée | Oui | Oui | Oui, sans carte |
 
 ## Ce que vous perdez en partant
 
-Sans enjoliver, parce qu'il faut décider les yeux ouverts. En passant d'Evernote à Marqly, vous perdez : **les notes longues, la numérisation de documents et le mode hors ligne**. Si l'un de ces trois est indispensable à votre quotidien, Marqly n'est pas votre alternative — et mieux vaut le savoir maintenant.
+Sans enjoliver, parce qu'il faut décider les yeux ouverts. En passant d'Evernote à Marqly, vous perdez : **les notes longues, la numérisation de documents et le hors ligne de carnets entiers sur tous vos appareils**. Marqly propose bien une lecture hors ligne, mais seulement avec Pro, page par page marquée, dans l'application web ou iOS. Si l'un des deux premiers est indispensable à votre quotidien, Marqly n'est pas votre alternative — et mieux vaut le savoir maintenant.
 
 Le détail complet est dans [Marqly vs Evernote](/fr/comparer/marqly-vs-evernote).
 

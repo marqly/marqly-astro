@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Preparare una lezione produce materiale che usi una volta e ti servirà di nuovo fra un anno. Il problema non è trovarlo la prima volta: è **ritrovarlo la seconda**, quando non ricordi più da dove veniva.
@@ -91,7 +91,7 @@ Quando leggi un testo lungo pensando alla lezione, leggi diversamente: cerchi il
 
 ## Cosa non troverai
 
-Perché non ci siano sorprese: sul piano personale la condivisione è **in sola lettura** (per modificare in più persone c'è Marqly Teams) e non c'è una modalità offline. Marqly è una libreria personale che puoi condividere in lettura, non una piattaforma didattica.
+Perché non ci siano sorprese: sul piano personale la condivisione è **in sola lettura** (per modificare in più persone c'è Marqly Teams) e la lettura offline c'è solo su Pro, in app web e iOS, dispositivo per dispositivo. Marqly è una libreria personale che puoi condividere in lettura, non una piattaforma didattica.
 
 ## Iniziare
 

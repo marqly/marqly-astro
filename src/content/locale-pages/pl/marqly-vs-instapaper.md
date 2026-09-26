@@ -14,8 +14,8 @@ faqHeading: "Często zadawane pytania"
 faqs:
   - q: "Które narzędzie jest lepsze: Marqly czy Instapaper?"
     a: "Wszystko zależy od celu. Jeśli czytasz długie eseje w podróży bez zasięgu, wybierz Instapaper. Jeśli zapisujesz mnóstwo artykułów, wideo i notatek, a potem nie możesz ich znaleźć — wybierz Marqly."
-  - q: "Czy Instapaper ma tryb offline, a Marqly nie?"
-    a: "Tak. Instapaper pobiera artykuły do pamięci urządzenia. Marqly działa w chmurze i nie oferuje dedykowanego trybu offline."
+  - q: "Czy Instapaper i Marqly oferują tryb offline?"
+    a: "Instapaper pobiera artykuły do pamięci urządzenia. W Marqly czytanie offline to funkcja planu Pro: zapisane w aplikacji webowej i iOS artykuły są zapamiętywane w pamięci tego urządzenia, więc można je czytać nawet w samolocie; treść offline nie synchronizuje się między urządzeniami, a aplikacja na Androida i rozszerzenia przeglądarek nie obsługują czytania offline."
   - q: "Jak wyglądają ceny obu usług?"
     a: "Instapaper Premium kosztuje $5,99/miesięcznie lub $59,99/rocznie. Marqly Pro kosztuje $72/rok (z kuponem STANDING49 tylko $49 w pierwszym roku), a darmowy plan obejmuje do 100 zakładek."
   - q: "Czy Instapaper posiada funkcje AI?"
@@ -23,7 +23,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Wypróbuj Marqly za darmo"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"
-updatedDate: 2026-09-07
+updatedDate: 2026-09-26
 ---
 
 Podsumowanie tego zestawienia jest proste: **Instapaper wygrywa w czytaniu, a Marqly wygrywa w odnajdywaniu**.

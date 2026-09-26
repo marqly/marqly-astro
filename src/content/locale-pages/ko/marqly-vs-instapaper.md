@@ -14,14 +14,14 @@ faqHeading: "자주 묻는 질문"
 faqs:
   - q: "어떤 사람에게 Instapaper가 더 맞나요?"
     a: "비행기나 지하철 등 인터넷이 연결되지 않는 곳에서 킨들이나 모바일로 순수 장문 기사를 편안하게 읽고 싶다면 Instapaper가 최고의 선택입니다."
-  - q: "Marqly에는 오프라인 모드가 없나요?"
-    a: "네. Marqly는 클라우드 기반이며 오프라인 텍스트 전용 리더 모드는 지원하지 않습니다."
+  - q: "Marqly도 오프라인 읽기를 지원하나요?"
+    a: "네. 오프라인 읽기는 Pro 기능입니다. 웹 앱과 iOS 앱에서 저장한 글을 그 기기에서 오프라인으로 읽을 수 있지만, 기기 간 동기화는 없고 안드로이드 앱과 확장 프로그램은 지원하지 않습니다."
   - q: "두 제품의 요금 차이는 어떻게 되나요?"
     a: "Instapaper Premium은 월 $5.99 또는 연 $59.99입니다. Marqly Pro는 연 $72(첫해 쿠폰 STANDING49 적용 시 $49)이며, 무료 플랜(최대 100개 저장)도 제공합니다."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly 무료로 시작하기"
 ctaSecondaryLabel: "Chrome에 추가 — 무료"
-updatedDate: 2026-09-07
+updatedDate: 2026-09-26
 ---
 
 비교의 결론은 간단합니다: **'읽기'에 집중한다면 Instapaper, '다시 찾기'를 자동화하고 싶다면 Marqly**입니다.

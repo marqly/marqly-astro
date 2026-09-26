@@ -17,7 +17,7 @@ faqs:
   - q: "Che differenza c'è tra salvare le schede e una sessione?"
     a: "Salvare le schede mette ogni pagina nella libreria come voce singola. Una sessione tiene insieme il gruppo: è lo stato del tuo browser in quel momento, e lo riapri tutto insieme quando riprendi quel lavoro."
   - q: "Posso riaprire le schede su un altro computer?"
-    a: "Sì. Quello che salvi sta nel tuo account, non nel browser, quindi lo ritrovi dall'app web o da un altro computer con l'estensione installata. Serve la connessione: non c'è una modalità offline."
+    a: "Sì. Quello che salvi sta nel tuo account, non nel browser, quindi lo ritrovi dall'app web o da un altro computer con l'estensione installata. Serve la connessione, tranne su Pro: le pagine che contrassegni restano offline in app web e iOS, sul singolo dispositivo."
   - q: "Le schede salvate occupano memoria?"
     a: "No, ed è il punto. Le schede chiuse liberano RAM; i link restano nella libreria di Marqly. Il browser torna leggero e tu non hai perso niente."
   - q: "Funziona su Firefox e Safari?"
@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Prova Marqly gratis"
 ctaSecondaryLabel: "Aggiungi a Chrome — è gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Per salvare tutte le schede aperte serve un'estensione: apri il menu di Marqly, scegli di salvarle tutte e in un secondo finiscono nella tua libreria, ognuna con il suo link e i tag assegnati dall'AI. A quel punto puoi chiudere il browser senza pensarci. Funziona su Chrome, Edge, Firefox e Safari, e quello che salvi resta nel tuo account, non nel browser — quindi lo ritrovi anche da un altro computer.

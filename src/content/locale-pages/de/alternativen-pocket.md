@@ -17,7 +17,7 @@ faqs:
   - q: "Komme ich noch an meine Pocket-Daten?"
     a: "Nein. Der Export schloss am 8. Oktober 2025 und Mozilla hat die restlichen Daten endgültig gelöscht. Nur ein vorher geladenes ZIP hilft."
   - q: "Hat eine Alternative Offline-Lesen wie Pocket?"
-    a: "Instapaper und Matter bieten Offline-Lesen. Marqly hat keinen Offline-Modus — wenn das für dich unverzichtbar war, fang bei diesen beiden an."
+    a: "Instapaper und Matter bieten Offline-Lesen auf allen Plattformen. Marqly offline nur auf Pro und nur in Web-App oder iOS, pro Gerät – wenn du ohne Pro oder auf Android offline brauchst, fang bei diesen beiden an."
   - q: "Gibt es kostenlose Alternativen?"
     a: "Ja. Raindrop.io und Marqly haben kostenlose Stufen. Bei Marqly kannst du dich ohne Karte anmelden, Pro kostet 72 $ (rund 66 €) im Jahr oder 9 $ (rund 8 €) im Monat."
   - q: "Welche Alternative importiert die Pocket-Datei am besten?"
@@ -25,7 +25,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Pocket wurde am **8. Juli 2025** abgeschaltet, und Mozilla hat die verbliebenen Daten nach dem **8. Oktober 2025** gelöscht. Wer eine Alternative sucht, muss zuerst akzeptieren: Es gibt keinen einzelnen Ersatz. Pocket erfüllte drei verschiedene Aufgaben, und jede Alternative deckt nur einen Teil ab.
@@ -42,7 +42,7 @@ Die richtige Alternative hängt davon ab, welcher der drei du warst. Hier falsch
 
 ## Wenn Pocket dein Reader war
 
-Schau dir **Instapaper** oder **Matter** an. Sie kommen dem klassischen Pocket am nächsten: sauberer Reader, gute Typografie und **Offline-Lesen** — genau das, was Marqly nicht hat.
+Schau dir **Instapaper** oder **Matter** an. Sie kommen dem klassischen Pocket am nächsten: sauberer Reader, gute Typografie und **Offline-Lesen** — das Marqly nur auf Pro bietet, in Web-App und iOS, pro Gerät.
 
 Deutlich gesagt: Wenn deine Routine war, Artikel zu laden und im Flugzeug oder ohne Empfang zu lesen, ist Marqly nicht dein Werkzeug. Diese Funktion gibt es hier nicht, und wir tun nicht so, als gäbe es sie.
 
@@ -76,7 +76,7 @@ Wenn dein Posteingang vor allem aus offenen Tabs entsteht, schau dir [Tabs speic
 
 | | Instapaper | Matter | Raindrop.io | Marqly |
 | --- | --- | --- | --- | --- |
-| Offline-Lesen | Ja | Ja | Nein | Nein |
+| Offline-Lesen | Ja | Ja | Nein | Ja (Pro) |
 | Automatisches KI-Tagging | Nein | Nein | Nein | Ja |
 | Semantische Suche | Nein | Nein | Nein | Ja |
 | KI-Zusammenfassungen | Nein | Nein | Nein | Ja |

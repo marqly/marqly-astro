@@ -17,7 +17,7 @@ faqs:
   - q: "Puis-je encore récupérer mes données Pocket ?"
     a: "Non. L'export s'est fermé le 8 octobre 2025 et Mozilla a supprimé définitivement les données restantes. Seul un ZIP téléchargé avant cette date reste utilisable."
   - q: "Une alternative propose-t-elle la lecture hors ligne ?"
-    a: "Instapaper et Matter proposent la lecture hors ligne. Marqly n'a pas de mode hors ligne : si c'était indispensable pour vous, commencez par ces deux-là."
+    a: "Instapaper et Matter proposent la lecture hors ligne pour toute leur bibliothèque. Marqly la propose aussi, mais seulement avec Pro : les pages marquées restent enregistrées sur l'appareil, dans l'application web ou l'application iOS. Si l'essentiel pour vous tenait dans Android ou les extensions, commencez par les deux premières."
   - q: "Existe-t-il des alternatives gratuites ?"
     a: "Oui. Raindrop.io et Marqly ont une offre gratuite. Chez Marqly, l'inscription se fait sans carte, et Pro coûte 72 $ (soit environ 69 €) par an ou 9 $ par mois."
   - q: "Quelle alternative importe le mieux le fichier Pocket ?"
@@ -25,7 +25,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Essayer Marqly gratuitement"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Pocket a fermé le **8 juillet 2025**, et Mozilla a supprimé les données restantes après le **8 octobre 2025**. Si vous cherchez une alternative, il faut d'abord accepter qu'il n'en existe pas une seule : Pocket remplissait trois fonctions différentes, et chaque alternative n'en couvre qu'une partie.
@@ -42,9 +42,9 @@ La bonne alternative dépend de laquelle des trois vous étiez. Se tromper ici, 
 
 ## Si Pocket était votre lecteur
 
-Regardez **Instapaper** ou **Matter**. Ce sont les plus proches du Pocket classique : lecteur épuré, belle typographie et **lecture hors ligne** — exactement ce que Marqly n'a pas.
+Regardez **Instapaper** ou **Matter**. Ce sont les plus proches du Pocket classique : lecteur épuré, belle typographie et **lecture hors ligne** sur toute la bibliothèque ; Marqly ne l'offre qu'avec Pro, par appareil, et uniquement dans l'application web ou iOS.
 
-Disons-le sans détour : si votre routine était de télécharger des articles et de les lire en avion ou sans réseau, Marqly n'est pas votre outil. Cette fonction n'existe pas ici et nous ne prétendrons pas le contraire.
+Disons-le sans détour : si votre routine était de télécharger toute votre file et de la lire en avion ou sans réseau, Marqly ne remplace pas Pocket à l'identique. Le hors ligne existe ici, mais seulement avec Pro, page marquée par page marquée, dans l'application web ou iOS, et sans synchronisation entre appareils.
 
 ## Si Pocket était votre archive
 
@@ -76,7 +76,7 @@ Si votre boîte se remplit surtout d'onglets ouverts, voyez [sauvegarder les ong
 
 | | Instapaper | Matter | Raindrop.io | Marqly |
 | --- | --- | --- | --- | --- |
-| Lecture hors ligne | Oui | Oui | Non | Non |
+| Lecture hors ligne | Oui | Oui | Non | Oui (Pro) |
 | Tags automatiques par IA | Non | Non | Non | Oui |
 | Recherche sémantique | Non | Non | Non | Oui |
 | Résumés par IA | Non | Non | Non | Oui |

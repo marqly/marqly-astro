@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos testen"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Eine Recherche stützt sich auf Material, das **sich ändern kann, während du schreibst**. Mitteilungen werden stillschweigend korrigiert, Profile gelöscht, Zahlen aktualisiert, amtliche Seiten umgebaut. Einen Link zu speichern ist kein Archivieren.
@@ -87,7 +87,7 @@ Es ist lesendes Teilen: **das persönliche Board-Link ist nur lesbar; zum gemein
 Transparent, weil es in diesem Beruf zählt:
 
 - Marqly ist ein **Cloud-Dienst**. Nicht selbst hostbar, keine öffentliche API.
-- **Kein Offline-Modus.**
+- **Offline-Lesen nur auf Pro** – markierte Seiten, pro Gerät, in Web-App und iOS.
 - Bei sensiblem Material oder Quellen mit Schutzbedarf sollte diese Entscheidung über die Kriterien deiner Redaktion laufen, nicht über eine Produktseite.
 
 Für Arbeit, bei der Dateien auf deiner Festplatte liegen müssen, steht die ehrliche Alternative in [Marqly vs Obsidian](/de/vergleich/marqly-vs-obsidian). Zu Datenschutzfragen: [Datenschutz](/de/datenschutz-fragen).

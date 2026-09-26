@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Teste o Marqly grátis"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
-updatedDate: 2026-08-16
+updatedDate: 2026-09-26
 ---
 
 Salvar links no Notion é uma ideia bem razoável: você já vive ali, então é um lugar a menos para manter. E com cinquenta links funciona bem. O problema aparece quando o banco de dados cresce.
@@ -64,7 +64,7 @@ Conforme o que está incomodando:
 | Salvar todas as abas | Não | Sim | Não | Sim |
 | Salvar como PDF | Não | Não | Não | Sim (Chrome/Edge) |
 | Dados locais | Não | Não | **Sim** | Não |
-| Offline | **Sim** | Não | **Sim** | Não |
+| Offline | **Sim** | Não | **Sim** | Sim (Pro) |
 | Preço | 10 USD/membro/mês | **28 USD/ano** | **Grátis** | 72 USD/ano |
 
 ## A saída que quase ninguém considera: não escolher
