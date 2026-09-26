@@ -110,8 +110,11 @@
   --dur-slow: 600ms;
 
   /* --- Layout --- */
-  --container-max: 1200px;
-  --container-pad: clamp(1rem, 4vw, 1.5rem);
+  /* Canonical content frame — MUST equal the header/footer container
+     (Nav.astro / FooterV2: max-w-[1120px] px-5 md:px-8). Page content is
+     aligned to the logo/button edges; changing one side means changing both. */
+  --container-max: 1120px;
+  --container-pad: 1.25rem;
   --section-pad-y: clamp(4rem, 9vw, 7rem);
   --header-h: 68px;
 
@@ -140,4 +143,11 @@
   --shadow-sm: 0 1px 2px rgba(10, 10, 15, 0.05);
   --shadow-md: 0 6px 16px rgba(10, 10, 15, 0.06);
   --shadow-lg: 0 12px 32px rgba(10, 10, 15, 0.08);
+}
+
+/* Header/footer gutter parity: Nav.astro/FooterV2 use px-5 md:px-8. */
+@media (min-width: 768px) {
+  :root {
+    --container-pad: 2rem;
+  }
 }
