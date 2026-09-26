@@ -22,6 +22,7 @@ site must never contradict them.
 | Batch | Date | Shipped | Deploy |
 |---|---|---|---|
 | 0 (context) | 2026-09-25 | Pricing-truth sweep + Teams dark launch (separate mission) | live |
+| 6 | 2026-09-26 | Offline truth resolved vs adjacent prod repos (D-017): EN FAQ/usecase/migrate sweep + 142 locale landers; CSV-export truth shipped (D-018); import expectations made factual; bidirectional seo-check guards; llms.txt corrected | see git log |
 | 5 | 2026-09-26 | Kit token fix (bordered cards, verified desktop+mobile headless), kit added to nav Resources, journey QA (templates 200 + content-types, CTA stamp logic) | live |
 | 4 | 2026-09-26 | Primary-source kit (/primary-source-kit, 13 link-verified sources, honest exclusions) + contextual links from /for-journalists & /research-organizer | live |
 | 3 | 2026-09-26 | Locale truth sweep: 154 lander files — Android affirmations (API/offline/self-host denials kept), Teams approved-split rewrites, 24 header-verified table rows | live |

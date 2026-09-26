@@ -7,6 +7,9 @@
   uniformly "no offline" and the *spec bans* claiming it. The outlier is
   help.marqly.com (out of repo). Rejected: flipping site copy to claim offline
   on the strength of an unverified third-party page. → owner verification task.
+  **SUPERSEDED same day by D-017** — verification happened against first-party
+  production code, not the third-party page; the flip shipped with narrower
+  wording than even the help center uses.
 - **D-002 (09-26) "10 GB Pro file uploads" is unclaimable.** Zero product
   evidence; the number traces to Raindrop competitor reviews. Added to spec's
   never-claim list. Rejected: any page/tool built around upload/storage.
@@ -79,23 +82,61 @@ editorial in English per revenue plan §:28).
   app CTA src-stamp confirmed host-gated (design, not defect); mobile layout
   clean.
 
-## Task state (resumable) — end of 2026-09-26 session
-
-Deployed through `main` at marqly-astro (see git log; batches 1-5 + fixes all
-live, 16/16 gates, e2e 184/184). Everything executable without new access is
-DONE. Remaining items are each gated on something only the owner can supply:
+## Task state (resumable) — end of batch-6, 2026-09-26 (second session)
 
 | Item | Blocked on |
 |---|---|
-| #4 Offline copy decision | owner: verify help.marqly.com "Offline Mode" vs app reality |
-| #7 Prompt-gallery content pass | GSC export (which prompts get impressions?) |
-| #10 Import-fidelity benchmark | app/API access + run dir protocol |
-| #11 Outreach | human decision to send (drafts ready, personalized, no spam) |
-| Locale trustLine Android omissions | owner marketing call (understatements, not lies) |
-| Post-release monitoring | no scheduler authorized; review cadence = owner-triggered |
+| ~~#4 Offline copy decision~~ | **RESOLVED D-017** — verified vs adjacent prod repos, not help-center hearsay |
+| #7 Prompt-gallery content pass | GSC export (still no credentials in this environment) |
+| #10 Import-fidelity benchmark | parser is on disk (`marqly_2026_prod/apps/api/src/services/bookmark-parser.ts`, pure + unit-tested) → NOT blocked; needs corpus + editorial pass. Known-code findings to fold in: dates dropped at insert, folders flatten to 2 levels, Raindrop JSON rejected, no dedup at import |
+| #11 Outreach | human decision to send |
+| New: Android-app claim in locale compare tables | de/it/es…/marqly-vs-* still list Marqly "Android-App: nein" while EN FAQ says Google Play; confirm the store listing (Play URL) before flipping — agent B could not verify a live listing |
+| New: help-center ↔ site Teams contradiction | help.marqly.com `workspaces-and-members.md` says "up to 10 members, 100 GB pooled"; approved site split is $9/seat, min 3, storage NOT claimed (Files dark). Product-doc issue in marqly_2026_prod — owner/PM call |
+| New: locale "AI on Free" audit | pt/para-estudantes fixed; a systematic es/pt/fr/de/it sweep for auto-tagging-as-free wording is queued |
+| New: url-guard IPv6 test 1/40 | `test-url-guard.mjs` fails on clean HEAD (`[2600:1901::1]` blocked, expects ALLOWED) — pre-existing, untouched this batch |
+| Post-release monitoring | no scheduler authorized; owner-triggered |
 
-Next session: re-run gates on current main, read this file top-to-bottom, and
-start with whatever row of the table above has gained its access.
+## Batch-6 decisions (2026-09-26, offline/export truth resolution)
+
+- **D-017 Offline is a shipped Pro capability — the site's denial was as false
+  as the old overclaim would be.** Verified first-hand against adjacent repos
+  on this machine (the "owner task" was resolvable locally): web SW + IndexedDB
+  cache + `CacheButton.tsx` Pro gate; iOS `OfflineCoordinator` shipped since
+  2026-06-09; help center `account/offline-mode.md` live (200, quotes checked).
+  Claimable split: Pro · web app + iOS app · per-device · no server copy ·
+  videos/big pages skipped · NOT Android app/extensions/Free. Cross-device
+  offline sync does NOT exist (prod API has no `savedOffline` field — the iOS
+  call 404s and self-heals) — banned as overclaim. Rejected: claiming the
+  help-center's loose "Offline Mode" at face value (original D-001 caution was
+  right; the evidence just arrived from elsewhere).
+- **D-018 Export/import copy truth.** In-app CSV export shipped (Free=100
+  latest, Pro=all+new-only; URL/Title/Description/Tags only) — rewrote
+  can-i-export FAQ + registry; import expectations fixed across 4 import FAQs +
+  2 migrate pages (save dates DON'T carry, folders flatten to 2 board levels,
+  Raindrop JSON rejected, no dedup at import); the "AI auto-tags every import"
+  promise made on Free-facing switch pages is now plan-scoped (server-side
+  auto-tagging has been Pro-gated since prod's 2026-09-04 fix). Cancel-FAQ
+  AI-on-free contradiction (old lab note) resolved.
+- **D-019 Files plane: built, DARK, still banned.** `ENABLE_FILES` default off
+  (founder decision label in code; prod changelog 09-26 confirms dark +
+  storage claims hidden on /teams). Quotas (10 GiB Pro / 2 GiB LT / 0 Free /
+  500 MB per-file) recorded in registry for launch day — zero public claims.
+- **D-020 Guards made bidirectional.** seo-check gate 2: MARQLY_CLAIM lost the
+  offline term (now a legit capability); added OFFLINE_OVERCLAIM (prose-verb
+  attribution + competitor-proximity exclusion so flattened table cells can't
+  trip it) and STALE_NO_OFFLINE denial detector; the 2026-09-12
+  "100 most recent" ban was hitting the TRUE export-cap sentence → scoped to
+  read-wall context. Locale sweep: 142 files via 3 parallel editors (de/nl/it,
+  es/pt/fr, ja/ko/zh/pl/tr), integrator-verified: 174-file YAML parse clean,
+  table flips header-verified (de first-col, es last-col sampled), residual
+  multilingual grep clean, build 16/16 + e2e 184/184 + 0 broken links +
+  no-table-overflow @6 pages×8 widths.
+- **Harness traps logged:** a stale `python http.server` on 4321 from an old
+  session made check-table-overflow.mjs "fail" 48/48 with HTTP 404s (it needs
+  a clean-URL server on the CURRENT dist — see `active/tmp/clean-server.py`
+  pattern); `rg` is not on this shell's PATH (use the grep tool).
+- **llms.txt**: gained Export + Offline + corrected Import/Search rows
+  (AI-search engines were being fed the stale "no offline" fact-set).
 
 ## Batch-2 decisions appended (2026-09-26)
 

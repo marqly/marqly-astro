@@ -82,17 +82,29 @@ check('no fabricated AggregateRating in JSON-LD', rated.map((p) => p.url),
 //       MUST answer "Is there a Marqly lifetime deal?". So (b) only fires on an
 //       AFFIRMATIVE claim that Marqly has the capability.
 const ALWAYS_WRONG = [
-  [/100 most recent/i, 'free-tier read-wall was removed; whole library is searchable'],
+  [/\b100 most recent\b[^.]{0,80}?(?:\bbrowse|\bsearch|\bsee|\bview|\bvisible|\baccess)|(?:(?:\bonly|\bjust|\bshows?|\bdisplays?|\bbrowses?|\bsearches?|\bsees?|\bviews?|\baccess(?:ible)?)[^.]{0,50}?\b100 most recent\b)/i, 'free-tier READ-wall was removed; whole library is searchable (an export cap of 100 is real — export copy must say "exports")'],
   [/\b3\s*[-–\s]?(?:days?|tage?n?|jours?|giorni|d[ií]as?)\b[^.<>]{0,35}\b(?:trial|test|testversion|testphase|prova|prueba|teste|essai|kostenlos|gratis|grátis)\b|\b(?:trial|test|testversion|testphase|prova|prueba|teste|essai)\b[^.<>]{0,35}\b3\s*[-–\s]?(?:days?|tage?n?|jours?|giorni|d[ií]as?)\b/i, 'Marqly sells no trial (retired 2026-09-18)'],
 ];
 /**
- * Capabilities Marqly does NOT have. Only fires when the claim is attributed to
- * Marqly: the comparison pages legitimately state "offline reading: —", the FAQ
- * legitimately answers "Is there a Marqly lifetime deal?", and competitor rows
- * legitimately cite e.g. "Anybox — 4.7 stars on the App Store". A window that
- * mentions another product, or that negates the capability, is correct copy.
+ * Capabilities Marqly does NOT have (public API, self-hosting, file storage).
+ * Only fires when the claim is attributed to Marqly: the comparison pages
+ * legitimately state API "—" for Marqly, the FAQ legitimately answers
+ * "Is there a Marqly lifetime deal?", and competitor rows legitimately cite
+ * e.g. "Anybox — 4.7 stars on the App Store". A window that mentions another
+ * product, or that negates the capability, is correct copy.
+ * OFFLINE moved from this ban to a CLAIMABLE capability on 2026-09-26
+ * (verified in prod code + live help center) — see OFFLINE_OVERCLAIM below.
  */
-const MARQLY_CLAIM = /\bmarqly\b[^.]{0,140}?\b(?:has|have|offers?|includes?|supports?|provides?|comes with|ships with)\b[^.]{0,140}?\b(?:offline (?:reading|mode|copies|access)|public api|self-host)/i;
+const MARQLY_CLAIM = /\bmarqly\b[^.]{0,140}?\b(?:has|have|offers?|includes?|supports?|provides?|comes with|ships with)\b[^.]{0,140}?\b(?:public api|self-host)/i;
+// Offline IS shipped (Pro, web+iOS, per-device). Two failure directions now:
+//  (a) overclaim — synced/all-devices/server-stored/Android/extension offline;
+//  (b) stale denial — "Marqly has no offline mode" is now as false as the old
+//      ban was. Free-plan denials and competitor denials stay legal copy.
+// Both require a prose verb next to Marqly so flattened table cells
+// ("… No | Offline reading | Yes …") can't trigger them; a competitor within
+// ±120 chars of the match marks it as their column (see the check loop).
+const OFFLINE_OVERCLAIM = /\bmarqly\b[^.]{0,80}?\b(?:has|have|offers?|with|support(?:s|ed)?|adds?|lets you)\b[^.]{0,60}?\boffline\b[^.]{0,90}?(?:sync\w*|all (?:your )?devices|every (?:device|platform)|everywhere|server(?:-| )stored|on (?:the )?(?:android|safari|firefox|edge)|\bextension)|\boffline (?:reading|mode|copies)[^.]{0,60}?(?:is synced|syncs|available everywhere|on all (?:your )?devices)/i;
+const STALE_NO_OFFLINE = /\bmarqly\b[^.?!]{0,60}?\b(?:has|have|had|there(?:'?s| is| were| are))\b[^.?!]{0,30}?\bno offline (?:mode|reading|access|support)\b|no offline (?:mode|reading|access|support)\b[^.?!]{0,40}?\b(?:of|for|in|with) marqly\b|\b(?:it|the app|the tool)\b[^.?!]{0,40}?\bhas\b[^.?!]{0,25}?\bno offline (?:mode|reading)\b/i;
 // Deliberately narrow: it must be an explicit rating construction attributed to
 // Marqly. Loose patterns match CSS ("/5)"), the word "started" (via /stars?/),
 // and competitor review scores that merely sit near a "Marqly Team" byline.
@@ -157,6 +169,26 @@ for (const p of pages) {
     if (/\?/.test(text.slice(m.index, m.index + m[0].length + 60))) continue;
     if (mentionsCompetitor(m[0])) continue;
     claimHits.push(`${p.url} → ${why}: "${m[0].slice(0, 120)}"`);
+  }
+  // Offline's two guards need custom pre-filters: the overclaim must still
+  // pass a NEGATED check ("offline copies are NOT synced" is legal), and the
+  // stale denial IS a negation so it can never ride the loop above.
+  // Competitor proximity is judged on a ±120 window (flattened table columns
+  // keep the header near every cell); the free-plan window exempts "Free has
+  // no offline", which is true.
+  const over = OFFLINE_OVERCLAIM.exec(text);
+  if (over && !NEGATED.test(over[0]) && !/marqly team/i.test(over[0])
+    && !/\?/.test(text.slice(over.index, over.index + over[0].length + 60))
+    && !mentionsCompetitor(text.slice(Math.max(0, over.index - 120), over.index + over[0].length + 120))) {
+    claimHits.push(`${p.url} → overclaims offline (synced / all-devices / server-stored / Android / extension): "${over[0].slice(0, 120)}"`);
+  }
+  const stale = STALE_NO_OFFLINE.exec(text);
+  if (stale) {
+    const win = text.slice(Math.max(0, stale.index - 100), stale.index + stale[0].length + 100);
+    if (!/\?/.test(text.slice(stale.index, stale.index + stale[0].length + 60))
+      && !mentionsCompetitor(win) && !/\bfree\b/i.test(win)) {
+      claimHits.push(`${p.url} → stale denial: offline reading ships on Pro (web+iOS, per-device; verified 2026-09-26): "${stale[0].slice(0, 120)}"`);
+    }
   }
 }
 check('no retired or false product claims in visible copy', claimHits.slice(0, 40),

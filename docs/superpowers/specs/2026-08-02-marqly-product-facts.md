@@ -75,8 +75,64 @@ remember — **semantic search by meaning, not keywords**.
 ## Platforms
 
 Chrome, Edge, Firefox, Safari (extensions) · web app · iOS app · Android app.
-No public API. Not self-hostable. No offline reading mode — don't claim offline
-support.
+No public API. Not self-hostable.
+
+> **2026-09-26 correction (offline).** The "no offline reading mode" rule was
+> stale. Offline reading **ships** as a Pro feature in the web app and the iOS
+> app, verified first-hand against the production code
+> (`marqly_2026_prod`: `apps/web/public/sw.js`, `lib/storage/offlineCache.ts`,
+> `components/bookmarks/CacheButton.tsx`; `marqly-mobile`:
+> `OfflineCoordinator.swift`, `OfflineContentManager.swift`) and the live help
+> center (`help.marqly.com/account/offline-mode`, HTTP 200 on 2026-09-26).
+> Approved wording + hard limits in the Offline section below.
+
+### Offline reading — approved wording (verified 2026-09-26)
+
+- Claimable: "Offline reading is on Pro: Marqly caches supported pages you
+  mark for offline in the **web app** or the **iOS app**, so you can read them
+  with no connection."
+- Mandatory qualifiers when the page goes into detail (FAQ, persona pages,
+  the offline FAQ itself): it is **per-device** — each device keeps its own
+  cached copies; there is **no server-stored offline copy and no cross-device
+  sync** of offline selections; **videos are not cached**, images > 2 MB and
+  pages > 5 MB may be skipped; **the Android app and the browser extensions do
+  not have offline reading** today; saving, search, and AI stay online.
+- Never claim: "synced offline library", "offline on all your devices",
+  "offline anywhere you sign in", Android/extension offline.
+- Free-plan answer to "does it work offline": no — offline reading is Pro.
+- Old "save-as-PDF is the only offline keepsake" framing stays true but must
+  no longer be justified by a nonexistent "no offline mode at all".
+
+### Export — approved wording (verified 2026-09-26)
+
+- The app has a real **CSV export button** (sidebar/profile menu → Export).
+  Free plan exports the **100 most recent bookmarks**; Pro exports the whole
+  library and can export only what's **new since the last export**.
+- The CSV carries **URL, Title, Description, Tags** — nothing else. Never
+  promise dates, boards, highlights or notes in the CSV.
+- For a **full account copy** (highlights, notes, boards, etc.) the path is
+  still email to support@marqly.com — say "complete copy of your account",
+  not a self-serve button.
+- The previous "export is manual only" rule was stale; `export.route.ts` +
+  `ExportModal.tsx` in the prod repo shipped it, and
+  `help.marqly.com/account/export-data` is live. Do **not** reintroduce
+  "email support to get your bookmarks out" as the primary route.
+
+### Import — what actually transfers (verified 2026-09-26)
+
+- Formats: browser bookmark **HTML** (Chrome/Edge/Firefox/Safari), **Raindrop
+  HTML** (its JSON export is NOT accepted), **Pocket** export HTML/CSV, generic
+  CSV, `.txt` (not exposed in UI). Limits: 10 MB free / 30 MB Pro, 10,000
+  bookmarks per file, `.html/.htm/.csv`.
+- Preserved: title, URL, description/note, tags, folder → board structure —
+  **flattened to at most 2 board levels**.
+- NOT preserved: original save dates (imported items take the import date —
+  the parser reads ADD_DATE but the insert discards it), highlights, article
+  text, read/archive status. No dedup runs at import (duplicates come through;
+  the `/tools` duplicate finder is the cleanup step).
+- Auto-tagging the import is **Pro** (it has been gated server-side since
+  2026-09-04). Free imports keep their own tags; the claim "Marqly's AI
+  auto-tags every imported bookmark" must be plan-scoped everywhere it appears.
 
 ## Features (the extension is the core of the product)
 
@@ -205,17 +261,22 @@ support.
 
 ## Never claim
 
-- Offline mode (or "offline reading"/"offline copies" in any form), public API,
-  self-hosting, browser support beyond the four above,
+- Public API, self-hosting, browser support beyond the four above,
   SOC2 or other certifications, employee counts, funding, AI-powered duplicate
   detection (dedup is exact-URL matching only), **file uploads or any storage
-  allowance** ("10 GB Pro uploads" circulates in briefs but has zero support in
-  product truth — that is Raindrop's number; never claim it).
-- **Offline verification queue (2026-09-26):** help.marqly.com's pricing page
-  reportedly describes an "Offline Mode" (revenue-focused-seo-plan.md §task
-  SEO-02). The site keeps "no offline" until product owner confirms shipped
-  behavior per platform; if offline ships, update this spec, the FAQ, and the
-  19+ lander tails together.
+  allowance** (the Files plane is fully built in the prod repo but **dark** —
+  `ENABLE_FILES` off, prod changelog 2026-09-26 — so "10 GB" remains
+  unclaimable today; the Raindrop-sourced number must still never appear).
+- **Offline overclaims** (the capability itself became claimable 2026-09-26 —
+  see the Offline approved wording above): never claim server-stored offline
+  copies, cross-device offline sync, Android or extension offline reading, or
+  offline on the free plan. "Offline mode is synced to every device" is the
+  new version of the old ban — the truth is narrower than a one-liner.
+- RESOLVED (2026-09-26, was the offline verification queue): offline was
+  verified against prod code + live help center, not a third-party rumor.
+  Spec, FAQ, marqly.json, comparison tables, EN lander tails and the locale
+  tails were flipped together; `seo-check.mjs` gate 2 now bans BOTH the stale
+  site-wide denial ("Marqly has no offline mode") and the overclaims above.
 - Team/collaboration claims beyond the Teams approved wording below (no
   per-board permissions, no Viewer/Guest roles, no SSO/SCIM, no team MCP/
   assistant access, no extension save-to-team, no mobile Teams, no custom

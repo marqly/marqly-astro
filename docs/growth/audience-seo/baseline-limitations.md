@@ -26,6 +26,7 @@
 | GA4 / Mixpanel | no read access | funnel rates (visit→signup→activation→pay) cannot be computed; the revenue plan's small-sample numbers are the only prior |
 | Stripe / app DB | unavailable | payer counts unverifiable first-hand; never re-quote without the plan doc as source |
 | Scheduler for monitoring | none authorized | no recurring checks may be claimed as configured |
+| **Product truth (capabilities)** | **UNBLOCKED 2026-09-26 batch 6** — `/Users/megamoon/DEV/marqly_2026_prod` (web app+API+help-center source, committed daily), `marqly-mobile` (iOS/Android), live help.marqly.com. Read-only grep evidence, cited with file paths in the registry | the verification queue no longer waits on the owner for code questions; runtime *flags* (Cloud Run env) are only provable via the prod changelogs, and store listings still need human eyes |
 
 ## Standing rules
 
