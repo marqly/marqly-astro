@@ -69,7 +69,7 @@ editorial in English per revenue plan §:28).
 | 7 | Prompt-gallery worked-example pass (top-traffic prompts only) | content | batch 2, gated on GSC |
 | 8 | Template-download event (Mixpanel + GA4 `template_download`, content-free payload) | analytics | **shipped batch 2** |
 | 9 | Curated primary-source kit | content | **shipped batch 4** — /primary-source-kit: 13 sources, every URL HTTP-200 verified 2026-09-26; DocumentCloud+Perma.cc EXCLUDED (Cloudflare challenge unverifiable — re-add only after human check) |
-| 10 | Import-fidelity test as original evidence (documented public corpus, honest failures) | research | batch 3; needs benchmark run dir first |
+| 10 | Import-fidelity test as original evidence (documented public corpus, honest failures) | research | preliminary run 2026-09-26 (see task-state table); publishable only with real export files |
 | 11 | Outreach drafts for templates (personalized, no spam) | distribution | **drafted batch 2** (`outreach-drafts.md`) — NOT SENT, needs human authorization |
 
 ## Batch-5 note (2026-09-26)
@@ -88,7 +88,7 @@ editorial in English per revenue plan §:28).
 |---|---|
 | ~~#4 Offline copy decision~~ | **RESOLVED D-017** — verified vs adjacent prod repos, not help-center hearsay |
 | #7 Prompt-gallery content pass | GSC export (still no credentials in this environment) |
-| #10 Import-fidelity benchmark | parser is on disk (`marqly_2026_prod/apps/api/src/services/bookmark-parser.ts`, pure + unit-tested) → NOT blocked; needs corpus + editorial pass. Known-code findings to fold in: dates dropped at insert, folders flatten to 2 levels, Raindrop JSON rejected, no dedup at import |
+| #10 Import-fidelity benchmark | parser runs VERBATIM today (jsdom, Node 22) — preliminary measured facts + protocol in `active/logs/benchmark/2026-09-26-import-fidelity/`; publication blocked on a REAL exported-file corpus (needs human account files: Chrome export, Raindrop export, Pocket ril_export.html) — synthetic fixtures rejected as not a public corpus |
 | #11 Outreach | human decision to send |
 | New: Android-app claim in locale compare tables | de/it/es…/marqly-vs-* still list Marqly "Android-App: nein" while EN FAQ says Google Play; confirm the store listing (Play URL) before flipping — agent B could not verify a live listing |
 | New: help-center ↔ site Teams contradiction | help.marqly.com `workspaces-and-members.md` says "up to 10 members, 100 GB pooled"; approved site split is $9/seat, min 3, storage NOT claimed (Files dark). Product-doc issue in marqly_2026_prod — owner/PM call |
