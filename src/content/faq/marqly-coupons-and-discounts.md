@@ -17,7 +17,7 @@ Run the numbers:
 
 - Monthly: $9 × 12 = $108 per year
 - Annual: $72 per year, about $6 per month
-- Annual, first year with STANDING49: $49 — 31% off the annual list price for year one
+- Annual, first year with STANDING49: $49 — $23 off the $72 annual list price for year one
 
 Annual billing is the permanent saving; the first-year code just makes year one cheaper still. Full details in [how much does Marqly cost](/faq/how-much-does-marqly-cost) and on the [pricing section](/#pricing) of the homepage.
 
@@ -28,7 +28,7 @@ If you search "Marqly promo code," you'll find aggregator sites listing codes li
 ## Ways to pay less that actually work
 
 - **Bill annually.** $72/yr instead of $108/yr — the 33% saving mentioned above.
-- **Use STANDING49 in your first year.** $49 instead of $72 — 31% off your first year.
+- **Use STANDING49 in your first year.** $49 instead of $72 — you save $23 in your first year.
 - **Verify a student email.** Verified students get Pro for $48 in their first year instead of $72 — see below.
 - **Stay on the free tier** if the core save, auto-tag, and search experience covers your needs — it has no time limit and needs no card.
 

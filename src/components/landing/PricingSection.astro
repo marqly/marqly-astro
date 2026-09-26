@@ -80,9 +80,11 @@ const PRICE = {
   },
 };
 
-// PROMO_SAVE is the standing first-year offer against annual list ($49 vs $72 = 31.9% →
-// rounded DOWN per the app's discount rule; the "· FIRST YEAR" baseline is printed in the badge).
-const PROMO_SAVE = 'Save 31%';
+// PROMO_SAVE is the standing first-year offer, quoted in DOLLARS like everywhere in the app
+// (apps/web/lib/billing/discount.ts): $49 vs $72 is 31.9% — no honest round percentage exists,
+// and an odd one ("31%") reads as invented. The only percentage Marqly shows is annual vs
+// monthly at list price (33%). The "· FIRST YEAR" baseline is printed in the badge.
+const PROMO_SAVE = 'Save $23';
 const PROMO_CODE = 'STANDING49';
 ---
 
