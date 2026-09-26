@@ -5,10 +5,11 @@ const ROOT = resolve(process.cwd());
 const DIST = resolve(ROOT, 'dist/client');
 
 /**
- * Pricing-truth guards (2026-09-25). Marqly's discount rule, same as the app
- * (apps/web/lib/billing/discount.ts): percentages are always ROUNDED DOWN and
- * always name their baseline. $49 vs $72 = 31.9% → "31% off your first year",
- * never 32%. And Marqly sells no trial of any kind (retired 2026-09-18) —
+ * Pricing-truth guards (2026-09-26). Marqly's discount rule, same as the app
+ * (apps/web/lib/billing/discount.ts): an OFFER is quoted in DOLLARS ("$49 your
+ * first year · save $23"), never as a percentage — $49 vs $72 is 31.9%, and an
+ * odd number reads as invented. The ONLY percentage is annual vs monthly at
+ * list price (33%), always with its baseline. And Marqly sells no trial of any kind (retired 2026-09-18) —
  * forward trial phrasing, in any language, must never reach built output
  * attributed to Marqly. Questions and negations are allowed.
  */
@@ -31,9 +32,10 @@ const PRICING_PAGES = [
   'faq/is-there-a-student-discount.html',
 ];
 
-// "32% off" / "Save 32%" is Marqly-offer copy by construction — no competitor
-// page states a 32% saving, so a global dist scan is safe.
-const BANNED_ROUNDING = [/save\s*32\s*%/i, /32\s*%\s*off/i];
+// The first-year offer as a percentage ("31% off", "Save 32%", "54% less") is
+// Marqly-offer copy by construction — no competitor page states these savings,
+// so a global dist scan is safe.
+const BANNED_ROUNDING = [/save\s*3[12]\s*%/i, /3[12]\s*%\s*off/i, /54\s*%\s*(less|off)/i];
 
 const LOCALIZED_TRIAL_FWD = [
   /\b(start|get|enjoy|claim)(?:\s+a|\s+your)?\s+(free\s+)?trial\b/i,
@@ -52,7 +54,7 @@ export const tests = [
   {
     id: 'T1.F18.01',
     feature: 'F18',
-    name: 'No rounded-UP Marqly discount ("Save 32%" / "32% off") anywhere in built output',
+    name: 'No odd offer percentage ("31% off", "Save 32%", "54% less") anywhere in built output',
     run: async () => {
       if (!existsSync(DIST)) return { ok: false, error: 'dist/client missing — run npm run build first' };
       const stack = [DIST];
@@ -67,19 +69,19 @@ export const tests = [
           if (BANNED_ROUNDING.some((re) => re.test(raw))) hits.push(p.replace(DIST + '/', ''));
         }
       }
-      return hits.length ? { ok: false, error: `Rounded-up discount in: ${hits.slice(0, 8).join(', ')}` } : { ok: true };
+      return hits.length ? { ok: false, error: `Offer quoted as a percentage in: ${hits.slice(0, 8).join(', ')}` } : { ok: true };
     },
   },
   {
     id: 'T1.F18.02',
     feature: 'F18',
-    name: 'The truth is PRESENT: 31% first-year and 33% annual-vs-monthly on the pricing pages',
+    name: 'The truth is PRESENT: the offer in dollars ($49 · save $23) and 33% annual-vs-monthly',
     run: async () => {
       const home = readIf(resolve(DIST, 'index.html'));
       const faq = readIf(resolve(DIST, 'faq/how-much-does-marqly-cost.html'));
       if (home === null || faq === null) return { ok: false, error: 'pricing pages missing in dist' };
-      if (!/Save\s*31%/i.test(home)) return { ok: false, error: 'homepage pricing badge does not say "Save 31%"' };
-      if (!/31\s*%\s*off your first year/i.test(faq)) return { ok: false, error: 'cost FAQ lacks "31% off your first year"' };
+      if (!/Save\s*\$23/i.test(home)) return { ok: false, error: 'homepage pricing badge does not say "Save $23"' };
+      if (!/\$49/.test(faq) || !/save \$23/i.test(faq)) return { ok: false, error: 'cost FAQ lacks the dollar offer ($49 · save $23)' };
       if (!/33%/i.test(faq)) return { ok: false, error: 'cost FAQ lost the 33% annual-vs-monthly baseline' };
       return { ok: true };
     },
