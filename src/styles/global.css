@@ -268,3 +268,13 @@ input:focus-visible,
 }
 .prose th { background: var(--surface-2); color: var(--ink-1); font-weight: 600; }
 .prose hr { border: 0; border-top: 1px solid var(--border-1); margin: var(--space-8) 0; }
+
+/* Content links: the reset above strips all anchor styling (correct for nav,
+   buttons, cards); bare inline links inside page content must read as links. */
+main .container a:not([class]) {
+  color: var(--link-accent, #0071e3);
+  text-decoration: underline;
+  text-underline-offset: 0.14em;
+  text-decoration-thickness: 1px;
+}
+main .container a:not([class]):hover { color: var(--link-accent-hover, #0077ed); }

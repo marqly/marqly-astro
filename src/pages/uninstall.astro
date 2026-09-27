@@ -280,7 +280,7 @@ const COMPETITORS = [
     text-transform: uppercase;
     letter-spacing: 0.08em;
     color: var(--ink-3);
-    border: 1px solid var(--line-subtle);
+    border: 1px solid var(--border-1, rgba(0, 0, 0, 0.08));
     border-radius: 9999px;
     margin-bottom: var(--space-3);
   }
@@ -302,8 +302,8 @@ const COMPETITORS = [
   }
 
   .feedback-card {
-    background: var(--surface-card, #ffffff);
-    border: 1px solid var(--line-subtle, rgba(0, 0, 0, 0.08));
+    background: var(--surface-1, #ffffff);
+    border: 1px solid var(--border-1, rgba(0, 0, 0, 0.08));
     border-radius: var(--radius-xl, 16px);
     padding: var(--space-8);
     box-shadow: 0 4px 20px -4px rgba(0, 0, 0, 0.05);
@@ -339,15 +339,15 @@ const COMPETITORS = [
     align-items: flex-start;
     gap: var(--space-3);
     padding: var(--space-3) var(--space-4);
-    border: 1px solid var(--line-subtle, rgba(0, 0, 0, 0.08));
+    border: 1px solid var(--border-1, rgba(0, 0, 0, 0.08));
     border-radius: var(--radius-md, 8px);
     cursor: pointer;
     transition: all 0.15s ease;
-    background: var(--surface-subtle, #fafafa);
+    background: var(--surface-2, #fafafa);
   }
 
   .reason-option:hover {
-    border-color: var(--brand-primary, #6366f1);
+    border-color: var(--accent, #0071e3);
     background: #ffffff;
   }
 
@@ -370,13 +370,13 @@ const COMPETITORS = [
   }
 
   .reason-option input[type='radio']:checked + .radio-custom {
-    border-color: var(--brand-primary, #6366f1);
-    background: var(--brand-primary, #6366f1);
+    border-color: var(--accent, #0071e3);
+    background: var(--accent, #0071e3);
     box-shadow: inset 0 0 0 3px #ffffff;
   }
 
   .reason-option:has(input[type='radio']:checked) {
-    border-color: var(--brand-primary, #6366f1);
+    border-color: var(--accent, #0071e3);
     background: rgba(99, 102, 241, 0.04);
   }
 
@@ -421,7 +421,7 @@ const COMPETITORS = [
   .text-input:focus,
   .textarea-input:focus {
     outline: none;
-    border-color: var(--brand-primary, #6366f1);
+    border-color: var(--accent, #0071e3);
     box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
   }
 
@@ -519,8 +519,8 @@ const COMPETITORS = [
   }
 
   .alt-card {
-    background: var(--surface-card, #ffffff);
-    border: 1px solid var(--line-subtle, rgba(0, 0, 0, 0.08));
+    background: var(--surface-1, #ffffff);
+    border: 1px solid var(--border-1, rgba(0, 0, 0, 0.08));
     border-radius: var(--radius-lg, 12px);
     padding: var(--space-5);
     display: flex;
@@ -545,7 +545,7 @@ const COMPETITORS = [
   .alt-link {
     font-size: var(--fs-xs);
     font-weight: 600;
-    color: var(--brand-primary, #6366f1);
+    color: var(--accent, #0071e3);
     text-decoration: none;
   }
 

@@ -670,7 +670,7 @@ const jsonLd = [
 
   /* Index Sections */
   .index-section {
-    margin-bottom: var(--space-14);
+    margin-bottom: var(--space-16);
     scroll-margin-top: 5rem;
   }
 
@@ -731,15 +731,18 @@ const jsonLd = [
     border: 1px solid var(--border-1);
     border-radius: var(--radius-card);
     background: var(--surface-1);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
   .benchmark-matrix {
     width: 100%;
+    min-width: 46rem;
     border-collapse: collapse;
     font-size: var(--fs-sm);
     text-align: left;
-    white-space: nowrap;
   }
+  .benchmark-matrix th, .benchmark-matrix td { overflow-wrap: anywhere; }
 
   .benchmark-matrix th {
     background: var(--surface-2);
@@ -797,7 +800,7 @@ const jsonLd = [
     font-size: var(--fs-lg);
     font-weight: 600;
     color: var(--ink-1);
-    margin-top: var(--space-4);
+    margin-top: var(--space-8);
     margin-bottom: var(--space-2);
   }
 
