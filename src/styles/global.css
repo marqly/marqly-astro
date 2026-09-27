@@ -1,10 +1,14 @@
+/* Global reset + base typography. Tokens live in tokens.css.
+   HARD RULE: @import must remain the first statement in this file — the CSS
+   spec voids an @import that appears after any rule, vite emits it verbatim,
+   and browsers silently drop it (2026-09-27 outage: a :root block prepended
+   here unstyled every LandingLayout page). */
+@import './tokens.css';
+
 :root {
   --link-accent: #0071e3;
   --link-accent-hover: #0077ed;
 }
-
-/* Global reset + base typography. Tokens live in tokens.css. */
-@import './tokens.css';
 
 *,
 *::before,

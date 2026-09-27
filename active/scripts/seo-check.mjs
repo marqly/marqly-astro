@@ -329,6 +329,18 @@ const noHub = pages
   .map((p) => p.url);
 check('every localized page renders a link hub', noHub.slice(0, 30), `${noHub.length} missing`);
 
+// --- 10. global.css token import order ----------------------------------
+// 2026-09-27 outage: a :root rule was prepended before `@import './tokens.css'`.
+// CSS voids an @import that follows any rule, vite emits it verbatim, browsers
+// silently drop it → every token vanished → all LandingLayout pages rendered unstyled.
+{
+  const g = readFileSync('src/styles/global.css', 'utf8');
+  const i = g.search(/@import\s+['"]\.\/tokens\.css['"]/);
+  const before = i < 0 ? null : g.slice(0, i).replace(/\/\*[\s\S]*?\*\//g, '').trim();
+  check('global.css: @import tokens.css is the first statement',
+    i < 0 ? ['global.css no longer imports tokens.css'] : (before ? ['import voided by preceding rule: ' + before.slice(0, 60)] : []));
+}
+
 // --- report -------------------------------------------------------------
 let failed = 0;
 for (const r of results) {
