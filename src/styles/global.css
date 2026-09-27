@@ -6,8 +6,8 @@
 @import './tokens.css';
 
 :root {
-  --link-accent: #0071e3;
-  --link-accent-hover: #0077ed;
+  --link-accent: var(--ink-3);
+  --link-accent-hover: var(--ink-1);
 }
 
 *,
@@ -281,9 +281,9 @@ input:focus-visible,
 /* Content links: the reset above strips all anchor styling (correct for nav,
    buttons, cards); bare inline links inside page content must read as links. */
 main a:not([class]) {
-  color: var(--link-accent, #0071e3) !important;
+  color: var(--link-accent, var(--ink-3)) !important;
   text-decoration: underline;
   text-underline-offset: 0.14em;
   text-decoration-thickness: 1px;
 }
-main a:not([class]):hover { color: var(--link-accent-hover, #0077ed); }
+main a:not([class]):hover { color: var(--link-accent-hover, var(--ink-1)); }

@@ -317,11 +317,11 @@ const jsonLd = [blogPosting, breadcrumb, softwareApp, organization(), ...(faqPag
   .post-body :global(li) { margin: var(--space-2) 0; }
   .post-body :global(li::marker) { color: var(--ink-4); }
   .post-body :global(a) {
-    color: var(--link-accent, #0071e3);
+    color: var(--link-accent, var(--ink-3));
     text-decoration: underline;
     text-underline-offset: 2px;
   }
-  .post-body :global(a:hover) { color: var(--link-accent-hover, #0077edary-hover); }
+  .post-body :global(a:hover) { color: var(--link-accent-hover, var(--ink-1)); }
   .post-body :global(strong) { color: var(--color-heading); font-weight: 600; }
   .post-body :global(img) {
     border-radius: var(--radius-md);
