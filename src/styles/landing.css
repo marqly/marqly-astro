@@ -43,6 +43,8 @@
 /* ----------------------------------------------------------- app tokens -- */
 
 :root {
+  --link-accent: #0071e3;
+  --link-accent-hover: #0077ed;
   /* Primitives (product) */
   --white: #ffffff;
   --black: #000000;
@@ -548,3 +550,13 @@ footer a:hover {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Content links: the reset strips anchor styling (correct for nav, buttons,
+   cards); bare inline links inside page content must read as links. */
+main a:not([class]) {
+  color: var(--link-accent, #0071e3) !important;
+  text-decoration: underline;
+  text-underline-offset: 0.14em;
+  text-decoration-thickness: 1px;
+}
+main a:not([class]):hover { color: var(--link-accent-hover, #0077ed); }

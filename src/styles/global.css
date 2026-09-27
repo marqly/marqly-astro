@@ -1,3 +1,8 @@
+:root {
+  --link-accent: #0071e3;
+  --link-accent-hover: #0077ed;
+}
+
 /* Global reset + base typography. Tokens live in tokens.css. */
 @import './tokens.css';
 
@@ -271,10 +276,10 @@ input:focus-visible,
 
 /* Content links: the reset above strips all anchor styling (correct for nav,
    buttons, cards); bare inline links inside page content must read as links. */
-main .container a:not([class]) {
-  color: var(--link-accent, #0071e3);
+main a:not([class]) {
+  color: var(--link-accent, #0071e3) !important;
   text-decoration: underline;
   text-underline-offset: 0.14em;
   text-decoration-thickness: 1px;
 }
-main .container a:not([class]):hover { color: var(--link-accent-hover, #0077ed); }
+main a:not([class]):hover { color: var(--link-accent-hover, #0077ed); }
