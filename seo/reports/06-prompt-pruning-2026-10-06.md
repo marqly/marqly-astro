@@ -9,3 +9,7 @@ The shared `isIndexable` decision drives all three surfaces. Integration fixed a
 Fresh build exits 0; all 25 SEO gates pass on 1,935 analysed pages. Kept and pruned pages both return local HTTP 200 with the correct robots meta, no horizontal overflow at 1440px and 390px, and readable settled content. An early screenshot captured the reveal animation mid-transition; settled/reduced-motion capture verifies visibility. Evidence is in ignored `active/tmp/prompt-pruning-invariants.json`, `prompt-visual-checks.json`, `seo-candidate-shots/prompt-*-settled.png`, and the dated build/gate logs. 400 affected URL rows are logged with pending deployment dates; live receipts follow after push.
 
 No new redirects and no numerical review ratings were introduced.
+
+## Live receipts
+
+Production normal fast-forward push: `1d22bf1d0c1648db949d54e84c519b261b1a68e5`. Cloudflare build completed successfully at 2026-10-06T11:49:46Z. Live checks at11:50:49Z verify1,092 sitemapURLs, keptdetail/hubs200indexable, pruneddetail200noindexandexcluded. BingIndexNow accepted all400 changedpromptURLs with HTTP200 at11:51:13Z, including noindexedpages. Receipt is notification acceptance, not proof of deindexing. All400 attribution rows now carry2026-10-06. Originfeat/seo-program-phase1 and isolatedcandidate branch are pushed; original dirtycheckout untouched.

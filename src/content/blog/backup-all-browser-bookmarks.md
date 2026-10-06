@@ -102,7 +102,7 @@ If the goal of consolidating is a library you can actually search, that is the p
 
 - **You are staying fully in one browser.** Sync plus occasional exports is a complete answer; a manager is a second place to keep things.
 - **You need one perfect merged file today.** Hand-merge (Route B) and keep it in a drive — no third-party import needed.
-- **Your saves live in read-it-later apps as much as browsers.** Run Pocket/Raindrop exports too (Marqly takes Pocket’s list.csv and Raindrop HTML — not Raindrop JSON); or if an app already does reading for you, compare honestly — [Pocket alternatives](/alternatives/pocket) and the [Raindrop comparison](/alternatives/raindrop) both say where each wins.
+- **Your saves live in read-it-later apps as much as browsers.** Run Pocket/Raindrop exports too (Marqly takes Pocket’s list.csv and Raindrop HTML — not Raindrop JSON); or if an app already does reading for you, compare honestly — [Pocket alternatives](/blog/best-pocket-alternatives-2027) and the [Raindrop comparison](/alternatives/raindrop) both say where each wins.
 - **You only need two daily links backed up.** The whole apparatus is overkill; your browser already has them.
 
 Researchers, students, and teachers accumulating across machines are the natural fit — see [for-researchers](/for-researchers), [for-students](/for-students), and [for-teachers](/for-teachers) for workflows that assume a merged, searchable pile rather than four silos.

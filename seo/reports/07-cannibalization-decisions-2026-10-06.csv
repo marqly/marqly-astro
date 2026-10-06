@@ -1,0 +1,45 @@
+query,decision,rationale
+bookmark alternative,KEEP,Broad discovery split across alternatives index comparison index vendor page and blog hub
+bookmark alternative for safari,KEEP,Generic hubs differ from Safari product landing
+pocket ai alternative,KEEP_OWNER_BLOG,English listicle owner; German locale has distinct language intent
+bookmarking tools,KEEP,Broad discovery split across blog alternatives comparison and research use case
+visual bookmarking tool,KEEP,Broad discovery hubs are not duplicate documents
+toby vs onetab,KEEP,Direct pairwise comparison differs from tab-manager listicle
+bookmark tool,KEEP,Chrome and Edge product landings differ from comparison and organizer pages
+bookmark organizer,KEEP,Transactional organizer landing differs from how-to guide
+raindrop vs pocket,KEEP,Raindrop alternatives differs from Pocket-vs-Raindrop comparison
+exportar marcadores chrome,KEEP,Portuguese and Spanish pages have distinct language intent
+instapaper alternative,KEEP,Editorial listicle and alternatives page both have demand and distinct roles
+pocket vs raindrop,KEEP,Direct comparison differs from Raindrop alternatives
+ai bookmark manager,KEEP,Direct FAQ differs from buyer guide and Chrome landing
+best bookmarking tool,KEEP,Broad hubs and free-bookmark list differ
+Korean YouTube transcript query,KEEP,Korean tool differs from Korean how-to guide; not a locale distinction
+research workflow query,KEEP,Research use case differs from buyer guides and comparison pages
+raindrop.io,NO_NEW_301,Legacy blog URL already redirects to comparison; alternatives page remains distinct
+recommended bookmark organizer for students,KEEP,Teacher landing differs from organization guide
+bookmark manager for schools,KEEP,Teacher and student audiences differ
+alternative to pocket,KEEP_OWNER_BLOG,Owner listicle versus demand-bearing alternatives page
+pocket app alternative,KEEP_OWNER_BLOG,English owner listicle versus German locale page
+karakeep alternative,KEEP,Vendor alternatives page differs from self-hosted Pocket article
+memex alternatives,KEEP,General hub and Diigo alternatives page are not duplicates
+pocket replacement,KEEP_OWNER_BLOG,Owner listicle versus demand-bearing alternatives page
+diigo momtl,KEEP,Diigo alternatives differs from Marqly-vs-Diigo comparison
+instapaper alternatives,KEEP,Editorial listicle and alternatives page both have demand and distinct roles
+wallabag alternative,KEEP,Wallabag alternatives differs from self-hosted Pocket article
+bookmarking tool,KEEP,Broad discovery pages differ by task and funnel
+hey pocket alternative,KEEP_OWNER_BLOG,English owner listicle versus German locale page
+raindrop alternative,KEEP,English and French language-specific alternatives pages
+symbaloo vs padlet,KEEP,Pairwise comparison intent differs from alternatives hub
+diigo alternatives,KEEP,Vendor alternatives page differs from comparison and hub
+symbaloo vs wakelet,KEEP,Pairwise comparison intent differs from alternatives hub
+research web-clipper query,KEEP,Research landing differs from named pairwise comparisons
+readwise alternatives,KEEP,Readwise and Readwise Reader are distinct products
+web based bookmarks,KEEP,Broad compare and blog hubs differ
+favorites organizer,KEEP,Organizer landing differs from instructional guide
+highlight the text,KEEP,Direct FAQ differs from detailed guide
+auto-tag bookmarked articles question,KEEP,Specific AI article differs from organization guide
+readwise alternative,KEEP,Readwise and Readwise Reader are distinct products
+bookmark integrations,KEEP,Sync landing differs from organization guide
+exportar favoritos chrome,KEEP,Portuguese and Spanish pages have distinct language intent
+linkwarden vs raindrop,KEEP,Direct comparison differs from vendor alternatives and free list
+instapaper pricing,KEEP,Pricing review differs from alternatives page
