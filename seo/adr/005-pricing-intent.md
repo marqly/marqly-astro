@@ -1,6 +1,6 @@
 # ADR-005: Competitor pricing intent — in-review sections, not new pages (for now)
 
-- **Status:** accepted (revisit after SERP check with a human)
+- **Status:** ACCEPTED — SERP check done 2026-10-06, evidence below
 - **Date:** 2026-10-05
 - **Phase:** 2.3
 
@@ -17,3 +17,13 @@ the one thing the marketing repo can't do offline (needs a human/Tier-2 SERP loo
 ## Consequence
 No new pricing pages this phase; reviews gain a verified price table + date. Re-evaluate dedicated pages
 once GSC/SERP confirms demand shape.
+
+## SERP evidence (2026-10-06, DDG organic harvest, seo/outreach/serp-targets-verified-2026-10-06.csv)
+Top-5 organic for "readwise pricing 2026" / "mymind pricing" / "raindrop pricing 2026": **0/5 pricing-dedicated
+pages** in each set → the ADR's trigger ("build dedicated pages only if top-5 ARE pricing pages") does NOT fire.
+Decision holds: in-review dated pricing sections (already live on readwise-reader/mymind reviews with official
+citations). No new /pricing-guides/* pages.
+
+## Bonus verified finding
+https://www.marqly.com/best-bookmark-manager ranks **#6 organic** for "best bookmark manager 2026" (head term;
+the pillar's sibling listicle page) — outside top-3, so CTR rewrites are permitted there under §1.5.

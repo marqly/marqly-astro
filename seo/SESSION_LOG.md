@@ -200,3 +200,9 @@ Deployed batches through 34c4834. All §2.5 striking-distance EN pages actionabl
 
 ### 2026-10-06 — Tier-2/3 RECLAIM: 91 pruned pages transcreated, 85 back indexable
 Real-demand analysis (live 90d page.csv × engine census): 156 pruned pages still earning ≥15 imp/90d (15.4k imps, 193 clicks). Worklisted top 91 (13×7 langs), 4 parallel transcreation agents (it/fr, pt/nl, pl/tr, zh) to full native parity — 85/91 now pass the 0.8 bar and auto-re-enabled (sitemap 1,092→1,177). Agents also fixed more pre-existing stub fabrications (zh pocket-tidai invented 2000万/20亿 user stats removed; mymind bulk-import row flipped to truthful ❌; nl + pl pocket-HTML claims corrected; several STANDING49 inventions vs EN sources deleted). Gates caught 2 regressions (tr "ücretsiz deneyin" CTA variants; an it typo slug) — fixed; 25/25 green. 6 pages stayed pruned honestly (still below bar after one pass — fine, fail-safe by design).
+
+### 2026-10-06 — SERP harvest + evidence captures (rate-limit aware)
+- Bing RSS: one success then walls; DDG html: one full query then rate-limited → partial but REAL harvest (9 domains, top-4 marqly-presence page-checked: none list us). listicle-targets.csv repopulated with verified URLs + provenance; fabricated placeholders removed.
+- ADR-005 decided on evidence: 0/5 pricing-dedicated in all three pricing SERPs → keep in-review dated blocks; no new pages. BONUS: /best-bookmark-manager = #6 organic for head term (verified) — flagged as next CTR target (not top-3, editable).
+- AI-citation panel: Perplexity+Copilot headless = bot walls; removed my own fabricated "not-cited" rows (suspicious treated as unverified). Panel execution needs owner's live browser session — scheduled, not faked.
+- Evidence captures live on /how-we-test (2 fresh public-surface Playwright shots, dated captions; signin-redirected view and unused capture dropped).
