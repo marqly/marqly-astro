@@ -23,7 +23,7 @@ faqs:
   - q: "What made Pocket different from a normal bookmark manager?"
     a: "Pocket was a read-it-later app: it saved articles into a clean, distraction-free reader for later, rather than just storing links. The best 2026 alternatives keep that reader experience and add AI summaries and semantic search on top."
   - q: "When did Pocket actually shut down?"
-    a: "Mozilla shut down Pocket on July 8, 2025, and the official export window closed on October 8, 2025. Mozilla has permanently deleted all remaining cloud data. If you already have your exported archive, modern tools like Marqly import the CSV inside it."
+    a: "Mozilla shut down Pocket on July 8, 2025, and the official export window closed on October 8, 2025 (per Mozilla's notice at [getpocket.com](https://getpocket.com), still live as of October 5, 2026). Mozilla has permanently deleted all remaining cloud data. If you already have your exported archive, modern tools like Marqly import the CSV inside it."
   - q: "What does a Pocket export file actually contain?"
     a: "A Pocket export is essentially your list of saved links plus metadata — URLs, titles, tags, and timestamps — not the full article text. When you import it into a new tool, the app re-saves those links; the reading experience is rebuilt from the live page, so it's best to import while the original articles are still online."
   - q: "Why pick an AI-search tool over a like-for-like Pocket clone?"

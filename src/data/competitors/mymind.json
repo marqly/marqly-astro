@@ -1,7 +1,10 @@
 {
   "name": "mymind",
   "slug": "mymind",
-  "aka": ["my-mind", "mymind-app"],
+  "aka": [
+    "my-mind",
+    "mymind-app"
+  ],
   "category": "visual",
   "status": "active",
   "shutdownNote": null,
@@ -9,11 +12,19 @@
   "tagline": "The extension of your mind — a private, visual home for everything you save",
   "pricing": {
     "free": true,
-    "paid": "The Bookmarker $4.99/mo; Student of Life $7.99/mo or $72/yr; Mastermind $12.99/mo or $129/yr",
+    "paid": "The Bookmarker $4.99/mo; Student of Life $7.99/mo or $79/yr; Mastermind $12.99/mo or $129/yr",
     "trial": null,
-    "notes": "Every account starts on a free \"guest plan\" capped at 100 cards — free forever, not a timed trial. AI tagging starts on Student of Life; AI summaries, reading mode, article backup, and the PDF analyzer require Mastermind. The Bookmarker tier has no AI features."
+    "notes": "Every account starts on a free \"guest plan\" capped at 100 cards — free forever, not a timed trial. AI tagging starts on Student of Life; AI summaries, reading mode, article backup, and the PDF analyzer require Mastermind. The Bookmarker tier has no AI features. Verified against mymind.com/pricing on Oct 5, 2026 (Student of Life yearly is $79, not $72)."
   },
-  "platforms": ["web", "chrome", "edge", "safari", "ios", "android", "mac"],
+  "platforms": [
+    "web",
+    "chrome",
+    "edge",
+    "safari",
+    "ios",
+    "android",
+    "mac"
+  ],
   "features": {
     "aiAutoTagging": true,
     "semanticSearch": true,
@@ -76,5 +87,5 @@
       "a": "Yes, with limits. From your account page you can download all your files — images and PDFs — plus a cards.csv containing your notes, quotes, bookmark links, and text highlights. Export only works from desktop Chrome or Edge, and there is no re-import format, so treat it as a one-way backup rather than a migration path."
     }
   ],
-  "lastVerified": "2026-08-02"
+  "lastVerified": "2026-10-05"
 }

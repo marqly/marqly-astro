@@ -357,3 +357,8 @@
 "PENDING-not-deployed","/es/blog/resena-marqly-2026","localization-parity-r5/6/7","455","1.21","","","2026-10-05 rounds5-7 (STANDING49 kept as real offer; stub fabrications purged)"
 "PENDING-not-deployed","/for-teachers","ctr-retarget(seoTitle/desc)","48","","","","was ""Lesson planning bookmark tool""; §2.5 demand is ""bookmark manager/organizer for teachers"" (2,396 imp pos 15.8)"
 "PENDING-not-deployed","/research/bookmark-import-fidelity","key-findings-tldr","—","","","","AEO/press TL;DR + reproduce line; 11 inbound parents"
+"PENDING-not-deployed","/blog/mymind-review-2026","refresh: price-drift fix $72->$79/yr, 3 verified cites, trial-claim removed","—","","","","source: mymind.com/pr fetched 2026-10-05"
+"PENDING-not-deployed","/blog/readwise-reader-review-2026","refresh: dated citation readwise.io/pricing","—","","","","fetched 2026-10-05"
+"PENDING-not-deployed","/blog/best-pocket-alternatives-2026","refresh: official shutdown citation getpocket.com","—","","","","fetched 2026-10-05"
+"PENDING-not-deployed","/blog/instapaper-alternatives-2026","refresh: verified Premium $5.99/$59.99 + citation","—","","","","fetched 2026-10-05"
+"PENDING-not-deployed","src/data/competitors/mymind.json","data-layer: paid yearly $72->$79, lastVerified 2026-10-05","—","","","","propagates to /alternatives/mymind + compare pages"

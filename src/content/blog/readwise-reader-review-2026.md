@@ -3,6 +3,7 @@ title: "Readwise Reader Review 2026: The Power Tool for People Who Read Everythi
 seoTitle: "Readwise Reader Review 2026 — Pricing & Verdict | Marqly"
 description: "An honest Readwise Reader review for 2026: verified pricing, Ghostreader AI, highlight sync, who the $9.99/month power tool fits — and who should skip it."
 pubDate: 2026-08-02
+updatedDate: 2026-10-05
 ogImage: "https://www.marqly.com/og/readwise-reader-review-2026.png"
 category: "Reviews"
 targetKeyword: "readwise reader review"
@@ -19,7 +20,7 @@ faqs:
   - q: "Is Readwise Reader worth it?"
     a: "For heavy readers who highlight and revisit what they read, yes — no other app combines a universal reading inbox (articles, RSS, newsletters, PDFs, EPUBs, YouTube) with highlighting and spaced-repetition review this well. At $9.99/month billed annually it's the most expensive tool in the category, so casual savers are paying for depth they won't use."
   - q: "Is Readwise Reader free?"
-    a: "No. There's a 30-day free trial (card required, auto-charges unless you cancel), but no permanent free tier. Reader is only sold as part of the full Readwise subscription: $9.99/month billed annually ($119.88/year) or $12.99/month billed monthly. Students and academics can get 50% off by contacting Readwise before subscribing."
+    a: "No. There's a 30-day free trial (card required, auto-charges unless you cancel), but no permanent free tier. Reader is only sold as part of the full Readwise subscription: $9.99/month billed annually ($119.88/year) or $12.99/month billed monthly — verified October 5, 2026, per [readwise.io/pricing](https://readwise.io/pricing). Students and academics can get 50% off by contacting Readwise before subscribing."
   - q: "What are the best Readwise Reader alternatives?"
     a: "Marqly if you want AI-first retrieval (semantic search, auto-tagging, summaries) at $72/year instead of $119.88. Instapaper if you just want a calm reading queue for less. Raindrop.io for a free all-purpose bookmark library. Karakeep or Linkwarden if you want an open-source, self-hosted option."
   - q: "Can you get Reader without a Readwise subscription?"
