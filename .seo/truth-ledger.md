@@ -167,3 +167,24 @@ window (competitor names are read from `src/data/competitors/*.json`).
   if 2,000 reappears in any Marqly-owned namespace.
 
 - 2026-09-26 (batch 7b): "Marqly imports Pocket export files directly" was FALSE for the HTML file — measured vs a genuine 261-item `ril_export.html` (0/261 parse; import fails safe). Approved truth: import `list.csv` from the export ZIP; titles/URLs/tags survive, `time_added`/`status` columns are dropped; the HTML preview file is not importable (its layout is UL/LI, not Netscape DL). Never restate the HTML claim for Marqly (competitor claims unverified — leave those rows alone). Corpus + hashes: `active/logs/benchmark/2026-09-26-import-fidelity/REAL-CORPUS.json`. Single render source: `src/data/migration-fidelity.ts`.
+
+- 2026-10-05 (Phase 1, gate 13): the batch-7b "Pocket HTML is NOT importable" truth had DRIFTED BACK into live pages. Found by a new `seo-check.mjs` gate 13 (window scan on `pocket-export.html`/`ril_export.html` + "Marqly" + an import/drag verb + no negation in ±140 chars). Offenders fixed at source:
+    · `/blog/pocket-replacements-2026` FAQ ("Marqly … directly accept old Pocket HTML") → Marqly reads `list.csv` inside the ZIP (Raindrop/Instapaper HTML support left as the competitor claim).
+    · `/blog/ko/pocket-daeche-2026` FAQ → same correction (ko).
+    · `/blog/pl/alternatywy-pocket-2026` import steps → `list.csv` AND removed a SECOND false claim: "linki, tagi i daty zostaną zaimportowane" — import does NOT preserve original dates (fact sheet); now states dates are not kept + auto-tag is Pro.
+    · The 11 new export/rescue posts: a `seo/drafts/_FACTS.md` I wrote this session WRONGLY listed "Pocket export HTML/CSV" as importable; corrected to `list.csv` (not the HTML) before/at promotion — my own error, caught by the gate + ledger cross-check, not shipped.
+  Regression guard: `seo-check.mjs` gate 13 now FAILS the build if the claim returns in any language. `<!-- VERIFY: -->` internal reviewer markers were also stripped from all promoted posts (they had leaked into dist until a post-cleanup pass).
+
+- 2026-10-05 (Phase 1 CTA sweep): the 2026-09-18 de-trial sweep fixed claims but left **868 CTA
+  labels across 9 languages (830 files) reading "try for free"** — the exact form the note calls out
+  ("免费试用/무료 체험") was still live as 免费体验/無料で試す/kostenlos testen/Prova gratis/Prueba
+  gratis/Essayer gratuitement/Wypróbuj/Probeer/ücretsiz deneyin + 53 EN "Try Marqly free". All
+  normalized to "get started free" in each language (schema defaults in content.config.ts too).
+  ALWAYS_WRONG gained a 3rd pattern catching these CTA forms in any language (gate 2). Residual
+  "free trial" comparison-table cells (Marqly column = "None") remain correct copy.
+- 2026-10-05: EN anchor article added for the 5-locale "articles you never read" family
+  (de/es/fr/it/pt existed since 2026-08-16 with NO English page → all five were hreflang-orphaned).
+  Pairing them made fr/it/pt face the Tier-2 0.8 parity bar (it/pt fell below → pruned by ADR-001);
+  fixed by deepening it/pt/fr to 0.95× rather than dropping the cluster. Lesson: adding a
+  TRANSLATIONS row changes the siblings' indexability — re-run isIndexable for every cluster member
+  after pairing.
