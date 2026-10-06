@@ -5,6 +5,30 @@
 
 /** @type {Record<string, Partial<Record<"es"|"pt"|"de"|"fr"|"it"|"ja"|"zh"|"ko"|"nl"|"pl"|"tr", string>>>} */
 const TRANSLATIONS = {
+  '/blog/export-pinterest-boards': {
+    de: '/de/blog/pinterest-pinnwande-exportieren-2026',
+    es: '/es/blog/como-exportar-tableros-de-pinterest-2026',
+    ja: '/ja/blog/export-pinterest-boards-2026',
+    ko: '/ko/blog/export-pinterest-boards-2026',
+  },
+  '/blog/export-threads-posts': {
+    de: '/de/blog/threads-gespeicherte-posts-exportieren-2026',
+    es: '/es/blog/como-exportar-posts-guardados-de-threads-2026',
+    ja: '/ja/blog/export-threads-posts-2026',
+    ko: '/ko/blog/export-threads-posts-2026',
+  },
+  '/blog/export-linkedin-saved-items': {
+    de: '/de/blog/linkedin-gespeicherte-items-exportieren-2026',
+    es: '/es/blog/como-exportar-items-guardados-de-linkedin-2026',
+    ja: '/ja/blog/export-linkedin-saved-items-2026',
+    ko: '/ko/blog/export-linkedin-saved-items-2026',
+  },
+  '/blog/export-tiktok-favorites': {
+    de: '/de/blog/tiktok-favoriten-exportieren-2026',
+    es: '/es/blog/como-exportar-favoritos-de-tiktok-2026',
+    ja: '/ja/blog/export-tiktok-favorites-2026',
+    ko: '/ko/blog/export-tiktok-favorites-2026',
+  },
   '/blog/why-you-save-articles-you-never-read': {
     de: '/de/blog/warum-du-artikel-speicherst-die-du-nie-liest',
     es: '/es/blog/por-que-guardas-articulos-que-nunca-lees',

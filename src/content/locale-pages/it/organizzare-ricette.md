@@ -12,6 +12,10 @@ crumbHome: "Home"
 trustLine: "Piano gratuito, senza carta · Chrome, Edge, Firefox, Safari e iOS"
 faqHeading: "Domande frequenti"
 faqs:
+  - q: "Marqly funziona con qualsiasi sito di ricette?"
+    a: "Sì. Marqly salva pagine web, quindi qualsiasi ricetta tu possa aprire in un browser può essere salvata — grandi siti di ricette, food blog personali, rubriche di cucina dei giornali. L'estensione copre Chrome, Edge, Firefox e Safari, e l'app iOS gestisce le ricette trovate dal telefono."
+  - q: "Posso trovare una ricetta senza ricordare nome o sito?"
+    a: "È la funzione centrale. La ricerca semantica lavora per significato: descrivi il piatto — «la pasta coi ceci croccanti» o «quel curry infrasettimanale con lo yogurt» — e trova il salvataggio senza il titolo, il nome del blog o le parole esatte. Copre titoli, contenuto delle pagine e le tue evidenziazioni."
   - q: "Posso salvare ricette da Instagram o TikTok?"
     a: "Puoi salvare il link del post e condividerlo a Marqly dal telefono. Così smette di esistere solo nei salvataggi di quell'app."
   - q: "Posso cercare per ingrediente?"
@@ -27,10 +31,12 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
-updatedDate: 2026-08-16
+updatedDate: 2026-10-06
 ---
 
-Le ricette sono l'esempio perfetto del perché salvare non serve a nulla se poi non ritrovi. Tutti ne hanno decine salvate, e tutti finiscono per cucinare sempre le stesse cose.
+L'hai cucinata una volta, a tutti è piaciuta, e adesso è sparita. Era una roba con la pasta — ceci croccanti, forse limone — e vive da qualche parte tra gli screenshot del telefono, tre food blog che non sapresti nominare sotto giuramento, e una cartella dei preferiti «ricette» con 212 link alla rinfusa. Questo è il vero lavoro di un organizzatore di ricette: non conservarle, lo fanno tutti, ma tirare fuori quella giusta dal frammento che ricordi.
+
+Marqly è costruito esattamente per questo. Salva ricette da qualsiasi sito con un clic, lascia che l'IA le etichetti da sola, e ritrova qualsiasi ricetta descrivendo il piatto — senza titolo, senza nome del blog, senza scorrere.
 
 ## Dove sono le tue ricette adesso
 
@@ -44,18 +50,23 @@ Sparse, di sicuro:
 
 Cinque posti, nessuno consultabile, e nessuno ti dice cosa c'era dentro. Giovedì alle otto, con fame, vincono le tre ricette che sai a memoria.
 
-## Un posto solo, senza classificare
+## Salvare da qualsiasi sito, inclusi i blog piccoli
 
-- **Un clic** per salvare qualsiasi pagina di ricetta.
-- **L'IA etichetta** da sola: tipo di piatto, ingredienti principali, tipo di cucina. Non crei cartelle.
-- **Riassunto automatico**, per sapere cosa contiene senza aprirla.
-- **Ricerca per significato**: scrivi ciò che ricordi.
+Le app di ricette che importano solo «siti supportati» falliscono in silenzio sulla lunga coda — ed è proprio la lunga coda che contiene le ricette buone: il blog personale con la ricetta di famiglia, l'archivio di una newsletter, la rubrica di cucina del giornale. Marqly salva pagine web, punto. Se si apre in un browser, si salva, con un pulsante a un clic nella barra degli strumenti di Chrome, Edge, Firefox o Safari.
+
+Sul telefono — dove la maggior parte delle ricette si scopre davvero — le app iOS e Android raccolgono i salvataggi lì. E quando una sessione di pianificazione della domenica ti lascia nove schede di ricette aperte, il salvatore di schede le prende tutte in un clic invece che nove.
+
+## Cercare il piatto che ricordi, non il titolo che non conosci
+
+Nessuno ricorda che la ricetta si chiamava «Pasta e ceci di settimana, ripensata». Tu ricordi pasta, ceci croccanti, pronta in 30 minuti. La ricerca per parole muore su questo buco; anche le cartelle muoiono lì, perché «italiana» vs «veloce» vs «legumi» è sempre stato un lancio della moneta.
+
+La ricerca semantica di Marqly parte dalla descrizione: scrivi ciò che ricordi del piatto e trova il salvataggio per significato, su titoli e contenuto delle pagine. «Quella zuppa con l'olio d'aglio fritto sopra» è una query legittima. Questa sola funzione è il motivo per cui il mucchio di 212 salvataggi alla rinfusa smette di essere un problema: il mucchio non deve essere ordinato per essere consultabile. Come funziona la ricerca per significato è spiegato in [cercare i preferiti con l'IA](/blog/how-to-search-bookmarks-with-ai), e se sei curioso del perché ordinare non ti avrebbe mai salvato, leggi [organizzare i segnalibri](/blog/how-to-organize-bookmarks).
+
+I tag esistono ancora — l'IA li aggiunge automaticamente a ogni salvataggio — solo, non devi mai essere tu a mantenerli.
 
 > «quella con pollo, limone e olive, tutto in una teglia sola»
 
-E compare, anche senza il nome del blog né del piatto.
-
-Se le tue ricette arrivano soprattutto dalla messaggistica, è sviluppato in [salva e leggi dopo](/it/salva-e-leggi-dopo).
+E compare, anche senza il nome del blog né del piatto. Se le tue ricette arrivano soprattutto dalla messaggistica, è sviluppato in [salva e leggi dopo](/it/salva-e-leggi-dopo).
 
 ## I video di cucina, risolti
 
@@ -67,22 +78,28 @@ Marqly mostra direttamente sulla pagina di YouTube:
 - **Trascrizione sincronizzata**, per saltare al passaggio mentre cucini.
 - **Chat sul video**, per chiedere «quanto in forno?» senza riavvolgere con le mani sporche.
 
-Al salvataggio la trascrizione viene allegata: mesi dopo ritrovi il video cercando un ingrediente solo **nominato** al suo interno. Da provare senza installare nulla: [riassunto YouTube](/it/strumenti/riassunto-video-youtube).
+Salvando il video con il pulsante di Marqly nella barra delle azioni di YouTube, la trascrizione arriva allegata: la tecnica spiegata a voce — mai scritta da nessuna parte — diventa testo consultabile. «Il video dove prima tosta le spezie nel burro» ora è una query che funziona. Mesi dopo ritrovi il video cercando un ingrediente solo **nominato** al suo interno. Da provare senza installare nulla: [riassunto YouTube](/it/strumenti/riassunto-video-youtube).
 
 ## Conservare la ricetta prima che la pagina cambi
 
-I blog di cucina vengono riorganizzati e a volte spariscono. Su **Chrome ed Edge** puoi archiviare la pagina come PDF con il layout reale, immagini comprese. Se una ricetta è venuta bene e la vuoi conservare esattamente così, è la strada.
+I blog di cucina vengono riorganizzati, finiscono dietro un paywall o spariscono, portandosi via la tua cena. Per le ricette che cucini davvero, il salvataggio in PDF di Marqly cattura la pagina come un PDF pulito, fedele al layout a schermo — foto incluse, perfino quelle caricate pigramente — elaborato localmente nel tuo browser. Se una ricetta è venuta bene e la vuoi conservare esattamente com'era il giorno in cui l'hai salvata, è la strada; i dettagli della cattura sono in [salvare una pagina web in PDF](/blog/save-webpage-as-pdf).
 
-Risolve anche il classico della ricetta sepolta sotto duemila parole di introduzione: evidenzi ingredienti e procedimento e torni direttamente lì.
+Risolve anche il classico della ricetta sepolta sotto duemila parole di introduzione: le evidenziazioni segnano le tue modifiche direttamente sulla pagina — «metà dello zucchero», «220 °C nel mio forno, non 200 » — in sei colori con note. Le evidenziazioni restano sulla pagina quando ci torni e si sincronizzano nella libreria: la tua versione della ricetta viaggia con la ricetta.
 
-## Bacheche per la settimana
+## Bacheche per la settimana e i classici di famiglia
 
-Una bacheca può chiamarsi «cene veloci», «quando arrivano ospiti» o «spesa di questa settimana». E poiché si pubblica come pagina pubblica, puoi passare la lista con un link a chi cucina con te — senza installare nulla né registrarsi.
-
-Sul telefono la apri dall'app iPhone, da quella Android o dal browser.
+Raggruppa i salvataggi in [bacheche](/faq/what-are-boards): cene veloci, dolci delle feste, «da provare», i grandi classici. Una bacheca tiene i link più le tue evidenziazioni di modifiche, e qualsiasi bacheca si pubblica come pagina pubblica — la tua famiglia consulta la collection da un link, senza creare un account Marqly. Il menù delle feste diventa un unico URL da mandare a tutti invece di sei screenshot. Sul telefono la apri dall'app iPhone, da quella Android o dal browser.
 
 ## Iniziare
 
-Account gratuito e senza carta su [app.marqly.com](https://app.marqly.com). Comincia riversando le ricette già nei preferiti — Marqly importa il file HTML dei preferiti — e salva le nuove con un clic. La prossima volta che non saprai cosa cucinare, cerca per ciò che ti va invece che per dove l'avevi messo.
+Crea un account gratuito su [app.marqly.com](https://app.marqly.com) — senza carta, e il piano gratuito è davvero utilizzabile (vedi [Marqly è gratis](/faq/is-marqly-free)). Installa l'estensione, prendi l'app iOS se è lì che scopri ricette, e comincia a salvare senza ordinare niente. Marqly importa anche l'HTML dei preferiti del browser, quindi riversa prima le ricette che hai già salvato. La prossima volta che non saprai cosa cucinare, cerca per ciò che ti va invece che per dove l'avevi messo — e la prima volta che «quella con i ceci croccanti» fa comparire la ricetta giusta, il sistema si è ripagato da sé.
 
 Se il tuo problema con i video va oltre la cucina: [salvare video di YouTube](/it/salvare-video-youtube).
+
+[Inizia gratis](https://app.marqly.com)
+
+## Per chi non è
+
+Marqly non è un'app di pianificazione dei pasti. Non genera liste della spesa, non raddoppia le dosi, non calcola i valori nutrizionali e non piazza le cene nel calendario — se è quel flusso che cerchi, un'app di cucina dedicata lo fa, e Marqly non finge di farlo. La lettura offline è una funzione Pro per le pagine contrassegnate, su un singolo dispositivo — non è un ricettario offline sincronizzato per il rifugio senza segnale.
+
+Il fit giusto: le tue ricette sono sparse nel web aperto, la collection è cresciuta più della tua memoria, e ciò che ti serve davvero è *trovare in fretta la ricetta giusta* dal dettaglio che è rimasto — un ingrediente, una tecnica, la sera in cui l'hai cucinata. Salvare da ovunque e cercare per significato è esattamente questo.

@@ -209,3 +209,9 @@ Real-demand analysis (live 90d page.csv × engine census): 156 pruned pages stil
 
 ### 2026-10-06 — Reclaim round 2: +63 pages, 60 re-enabled (sitemap 1177→1237)
 Second demand tier (≥10 imp) across fr/it/nl/pl/pt/tr/zh; two parallel agents; agents caught & fixed: fully-untranslated English body hidden inside /it/blog/recensione-mymind (Italianized), its invented "Pro 79 $/anno" price (→72 per data layer), an invented heroImage on /nl/para, more STANDING49 inventions, and Edge/Safari secondary-CTA mismatch (was "Add to Chrome" on both). Gate caught 2 fresh tr CTA variants → fixed. /best-bookmark-manager (verified #6 organic, head term) got a hook title + October date.
+
+### 2026-10-06 — Export cluster × Tier-1 + reclaim round 3 (deployed wave pending)
+- 16 NEW localized export guides (TikTok/LinkedIn/Threads/Pinterest × de/es/ja/ko) from the EN cluster, native keywords, official-doc citations carried, hreflang clusters wired (109 rows). German agent hit + fixed the 2026-08-17 ASCII-quote YAML trap mid-flight. ja/ko followed the existing EN-slug+2026 convention.
+- Reclaim r3: 56 more demand pages (pl/pt/tr/zh/fr/it/nl), incl. section-index trick for .astro locale tools whose h2s are HTML-only.
+- Gate13 false-positive on correct nl/pl negations ("niet/nie kunnen lezen") → extended gate NEG vocab rather than touch correct copy.
+- Sitemap 1,092 (turn start) → 1,309; 1,951 pages; 25/25 green.

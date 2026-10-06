@@ -5,26 +5,26 @@ import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } fr
 import { alternatesForPath } from '../../../i18n/routes';
 
 const path = '/pl/tools/youtube-podsumowanie';
-const title = 'Podsumowanie wideo YouTube AI – Darmowe streszczenie online | Marqly';
+const title = 'Darmowy podsumowywacz wideo YouTube — TL;DR każdego filmu';
 const description =
-  'Wklej link do wideo z YouTube i uzyskaj natychmiastowe streszczenie AI z kluczowymi punktami i osiami czasu. Bez rejestracji, za darmo i na podstawie faktycznych napisów.';
+  'Wklej link do filmu YouTube i dostan streszczenie AI z najważniejszymi punktami — za darmo. Podsumowania na samej stronie filmu, plus transkrypcja i czat, oferuje rozszerzenie Marqly.';
 
 const faqs = [
   {
     q: 'Jak działa narzędzie do podsumowywania YouTube?',
-    a: 'Narzędzie pobiera ścieżkę napisów z podanego filmu na YouTube, a zaawansowany model AI wyciąga z niej kluczowe wnioski i podsumowanie w punktach. Ponieważ analiza opiera się na faktycznych słowach z filmu, nie dajesz się nabrać na clickbaitowe tytuły.',
+    a: 'Pobiera ścieżkę napisów filmu, a model AI kondensuje ją do krótkiego TL;DR z najważniejszymi punktami. Podsumowanie opiera się na transkrypcji — streszcza to, co faktycznie powiedziano, a nie to, co obiecuje tytuł.',
   },
   {
-    q: 'Czy można streścić film bez napisów?',
-    a: 'Nie. Jeśli autor całkowicie wyłączył napisy i YouTube nie wygenerował napisów automatycznych, narzędzie nie ma skąd pobrać tekstu. Narzędzie radzi sobie jednak bez problemu z napisami automatycznymi.',
+    q: 'Czy działa z filmami bez napisów?',
+    a: 'Nie. Jeśli film ma wyłączone napisy, nie ma transkrypcji do streszczenia. Większość filmów na YouTube ma co najmniej napisy generowane automatycznie i tu działają one bez problemu.',
   },
   {
-    q: 'Czy jest limit długości filmu?',
-    a: 'Wersja online tworzy zwięzłe podsumowanie na podstawie pierwszych kilkudziesięciu minut wypowiedzi. Do wielogodzinnych wykładów i zadawania pytań filmowi zalecamy rozszerzenie przeglądarkowe Marqly.',
+    q: 'Czy jest limit długości?',
+    a: 'Bardzo długie filmy są streszczane z mniej więcej pierwszej godziny transkrypcji. Rozszerzenie Marqly ogarnia pełne długości filmów i dorzuca podział na sekcje, wymieniane książki oraz zakładkę czatu, która odpowiada na pytania z całej transkrypcji.',
   },
   {
-    q: 'Czy korzystanie z narzędzia jest naprawdę bezpłatne?',
-    a: 'Tak, w 100% bezpłatne bez konieczności zakładania konta czy podawania karty płatniczej.',
+    q: 'Czy to jest darmowe?',
+    a: 'Tak — bez rejestracji. To przedsmak tego, co rozszerzenie Marqly robi automatycznie na każdej stronie filmu YouTube: płynące podsumowanie AI, kluczowe sekcje, transkrypcja zsynchronizowana z odtwarzaniem i czat oparty na transkrypcji.',
   },
 ];
 
@@ -32,7 +32,7 @@ const jsonLd = [
   organization(),
   webSite('pl'),
   breadcrumbList([
-    { name: 'Strona główna', path: '/' },
+    { name: 'Strona główna', path: '/pl' },
     { name: 'Podsumowanie YouTube', path },
   ]),
   faqPage(faqs, 'pl'),
@@ -61,12 +61,12 @@ const jsonLd = [
     faqs={faqs}
     faqHeading="Często zadawane pytania"
     crumbs={[
-      { name: 'Strona główna', path: '/' },
+      { name: 'Strona główna', path: '/pl' },
       { name: 'Podsumowanie YouTube', path },
     ]}
-    ctaHeading="Chcesz podsumowania i transkrypcji bezpośrednio na YouTube?"
-    ctaSub="Rozszerzenie Marqly dodaje do każdego odtwarzacza YouTube panel z synchronizowaną transkrypcją, podsumowaniem AI i asystentem pytań."
-    ctaLabel="Rozpocznij za darmo z Marqly"
+    ctaHeading="Podsumowania przy każdym filmie — bez kopiowania linków"
+    ctaSub="Marqly dokłada płynące podsumowanie AI, kluczowe sekcje, transkrypcję i czat obok odtwarzacza na każdej stronie YouTube."
+    ctaLabel="Rozpocznij za darmo"
     ctaSecondaryLabel="Dodaj do Chrome"
     backHref={null}
   >
@@ -82,26 +82,37 @@ const jsonLd = [
     </form>
     <div class="tool-output hidden" id="ys-out" aria-live="polite"></div>
 
+    <!-- Sekcje tej strony (lustrzane odbicie nagłówków EN):
+## Jak streścić wideo z YouTube
+## Kiedy podsumowanie bije oglądanie
+    -->
     <Fragment slot="content">
-      <h2>Jak streścić wideo z YouTube za pomocą AI?</h2>
+      <h2>Jak streścić wideo z YouTube</h2>
       <ol>
-        <li>Skopiuj link do filmu na YouTube i wklej go w powyższym polu.</li>
-        <li>Kliknij <strong>Podsumuj</strong>.</li>
-        <li>Narzędzie pobierze transkrypcję, a AI w ciągu 30 sekund wygeneruje zwięzłe streszczenie z kluczowymi punktami.</li>
+        <li>Wklej adres URL filmu w polu powyżej i kliknij <strong>Podsumuj</strong>.</li>
+        <li>Narzędzie pobierze transkrypcję filmu i skondensuje ją za pomocą AI.</li>
+        <li>Przeczytaj TL;DR i najważniejsze punkty — zwykle poniżej 30 sekund dla dowolnego filmu.</li>
       </ol>
       <p>
-        Podsumowanie powstaje bezpośrednio z transkrypcji wypowiedzi twórcy, dzięki czemu otrzymujesz czyste fakty bez zbędnego lania wody.
+        Podsumowania powstają ze ścieżki napisów, więc oddają to, co mówca faktycznie powiedział.
+        To różnica między prawdziwym streszczeniem a zgadywanką na podstawie tytułu i miniaturki —
+        i dlatego filmów z wyłączonymi napisami nie da się podsumować.
       </p>
 
-      <h2>Kiedy warto korzystać z podsumowań wideo</h2>
+      <h2>Kiedy podsumowanie bije oglądanie</h2>
       <ul>
-        <li><strong>Wykłady i webinary</strong> — Przekształć godzinny wykład w szybkie notatki do powtórki.</li>
-        <li><strong>Długie podcasty</strong> — W 2 minuty dowiedz się, jakie konkretne porady padły w 90-minutowym wywiadzie.</li>
-        <li><strong>Poradniki techniczne</strong> — Upewnij się, czy wideo odpowiada na Twój problem przed obejrzeniem.</li>
-        <li><strong>Czyszczenie listy „Do obejrzenia”</strong> — Szybko zweryfikuj, które zapisane filmy naprawdę zasługują na Twój czas.</li>
+        <li><strong>Triage kolejki „Do obejrzenia”</strong> — w kilka sekund zdecyduj, które filmy są warte pełnej uwagi.</li>
+        <li><strong>Długie podcasty i wykłady</strong> — poznaj wywód bez oglądania 90 minut.</li>
+        <li><strong>Poradniki</strong> — sprawdź, czy film faktycznie rozwiązuje Twój problem, zanim się w niego wtopisz.</li>
       </ul>
       <p>
-        Jeśli potrzebujesz pełnego, nieskróconego tekstu wypowiedzi, skorzystaj z darmowego narzędzia
+        Jeśli selekcjonujesz filmy codziennie, rób to tam, gdzie one żyją:
+        <a href="/pl/podsumowanie-youtube">rozszerzenie Marqly</a> streamuje podsumowanie obok odtwarzacza
+        w chwili otwarcia strony filmu — z kluczowymi sekcjami, wymienianymi książkami,
+        <a href="/faq/how-do-i-get-a-youtube-transcript">zsynchronizowaną transkrypcją</a> oraz
+        <a href="/pl/blog/czat-z-filmami-youtube-2026">czatem opartym na transkrypcji</a>. Zapisane filmy
+        zachowują swoje transkrypcje, więc możesz do nich wracać i cytować je miesiące później.
+        Pełny, nieskrócony tekst wypowiedzi pobierzesz darmowym narzędziem
         <a href="/pl/tools/youtube-transkrypcja">Transkrypcja YouTube</a>.
       </p>
     </Fragment>
