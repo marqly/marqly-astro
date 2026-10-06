@@ -11,7 +11,7 @@ tags:
   - "notion read later"
   - "ai bookmark manager"
 ctaUrl: "https://app.marqly.com/lp/knowledge-base"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "Why is Notion's Web Clipper bad for reading articles?"
     a: "Notion is a note and database tool, not a reading tool. Its clipper has no reader mode, no semantic search over saves, no auto-tagging or summaries, and it clutters the workspace you use for real work. It's the wrong shape for capture-and-retrieve."

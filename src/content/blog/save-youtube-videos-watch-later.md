@@ -12,7 +12,7 @@ tags:
   - "save videos to watch later app"
   - "bookmark youtube videos"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "Why does YouTube's Watch Later never get watched?"
     a: "YouTube's Watch Later is one flat list with no tags, no folders, and weak search, so it grows into hundreds of videos you can't navigate. You also can't add a note for context, and it's locked inside YouTube — separate from the articles and links you save elsewhere. Videos go in, nothing comes out."

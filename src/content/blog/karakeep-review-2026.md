@@ -13,7 +13,7 @@ tags:
   - "open source bookmarks"
   - "ollama ai tagging"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "Is Karakeep worth it?"
     a: "If you're comfortable running Docker containers, yes — Karakeep is the best self-hosted bookmark manager for AI features, with auto-tagging, summaries, semantic search, OCR, and full-page archiving, all free and unlimited on your own hardware. If you don't want to be your own sysadmin, its cloud Pro plan ($4/month) is fair, but hosted competitors are more polished for similar money."

@@ -14,7 +14,7 @@ tags:
   - "read it later app"
   - "highlight sync"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "Is Readwise Reader worth it?"
     a: "For heavy readers who highlight and revisit what they read, yes — no other app combines a universal reading inbox (articles, RSS, newsletters, PDFs, EPUBs, YouTube) with highlighting and spaced-repetition review this well. At $9.99/month billed annually it's the most expensive tool in the category, so casual savers are paying for depth they won't use."
@@ -122,4 +122,4 @@ Who shouldn't: casual savers, budget-first users, and ex-Pocket users who just w
 
 ## Verdict
 
-**★ 4.5/5.** Readwise Reader is the best product in the read-it-later category and the most expensive, and both facts are the same fact: it's a professional tool, built deep, priced accordingly. It loses half a star only for the absence of any free tier and for a retrieval model that still assumes you remember what you're looking for. If reading is your craft, subscribe without guilt. If your actual problem is a growing pile of saves you can't find things in, that's a different, smaller problem with a cheaper answer — import your saves via our [Migration Center](/migrate) (or convert clean text with our [HTML to Markdown tool](/tools/html-to-markdown) from our [free tools directory](/tools)), [try Marqly free](https://app.marqly.com), and search your library by what you remember.
+**★ 4.5/5.** Readwise Reader is the best product in the read-it-later category and the most expensive, and both facts are the same fact: it's a professional tool, built deep, priced accordingly. It loses half a star only for the absence of any free tier and for a retrieval model that still assumes you remember what you're looking for. If reading is your craft, subscribe without guilt. If your actual problem is a growing pile of saves you can't find things in, that's a different, smaller problem with a cheaper answer — import your saves via our [Migration Center](/migrate) (or convert clean text with our [HTML to Markdown tool](/tools/html-to-markdown) from our [free tools directory](/tools)), [get started free](https://app.marqly.com), and search your library by what you remember.

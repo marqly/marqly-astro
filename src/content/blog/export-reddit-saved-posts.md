@@ -13,7 +13,7 @@ tags:
   - "backup reddit saves"
   - "reddit gdpr export"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "How do I export my saved posts from Reddit?"
     a: "Go to reddit.com/settings/data-request in a desktop browser, sign in, choose your full account history, and submit. Reddit prepares a ZIP of CSV files — including saved_posts.csv and saved_comments.csv — and sends a download link to your Reddit inbox and verified email. It's the only official export Reddit offers."

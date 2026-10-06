@@ -11,7 +11,7 @@ tags:
   - "marqly pricing"
   - "marqly app"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "What is Marqly?"
     a: "Marqly is an AI-powered bookmark manager and read-it-later app. You save articles, videos, threads, and links; Marqly auto-tags them, summarizes them, and — its defining feature — lets you search your library by meaning rather than keywords. It's available on web, iOS, and desktop."
@@ -96,7 +96,7 @@ At ~$6/mo, Marqly sits below premium tools like Readwise Reader ($12/mo) while o
 
 Marqly's bet is that the future of saving links is **retrieval, not storage** — and its semantic search delivers on that better than most. If your problem is "I save things and never find them again," it's worth a look. If you mainly want free storage or highlight-heavy study, other tools fit better.
 
-[Try Marqly free](https://app.marqly.com/lp/ai-search) — import your library and search it by meaning in minutes. No credit card.
+[Get started free](https://app.marqly.com/lp/ai-search) — import your library and search it by meaning in minutes. No credit card.
 
 ---
 

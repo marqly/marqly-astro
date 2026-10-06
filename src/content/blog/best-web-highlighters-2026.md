@@ -13,7 +13,7 @@ tags:
   - "glasp vs liner"
   - "weava alternative"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "What is the best web highlighter in 2026?"
     a: "Marqly is the best all-round web highlighter in 2026: six colors plus notes, highlights that persist on the page when you revisit, sync to a searchable library, a free tier, and Pro at $72/year. Readwise Reader is the pick for export-heavy power readers, and Hypothesis is the best fully free option for academic annotation."
@@ -40,6 +40,7 @@ We judged all six on the four things that actually matter in daily use: does the
 
 Prices checked against each tool's own pricing page or announcement in August 2026 — Glasp and LINER both raised or restructured pricing this year, so older roundups are stale.
 
+> **How we tested this list.** Every option here is evaluated against the same five criteria — import from Pocket, capture (including video/audio), how organisation works, whether you can retrieve a save by meaning, and pricing — and each tool’s features and prices were checked against its **official source between 2 August and 26 September 2026** (dates on our [testing method](/how-we-test) page). Where a competitor is the better fit for a job, we say so — Marqly is our own product and one pick among these.
 ## Marqly — best all-round highlighter (and the only one with meaning search)
 
 Marqly's highlighter does the fundamentals right: select text on any website, pick one of **six colors**, attach a note. When you revisit the page, your highlights are still there, painted on the live article. Every highlight also syncs to your Marqly library, where it's auto-tagged and — the part no one else here offers — **searchable by meaning**. You can find a highlight weeks later by describing it ("the stat about sleep and reaction time") without remembering the page it came from, because semantic search runs across titles, content, highlights, and even video transcripts.

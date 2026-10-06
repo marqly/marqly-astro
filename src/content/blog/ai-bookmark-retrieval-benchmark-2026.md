@@ -13,7 +13,7 @@ tags:
   - "readwise reader ai"
   - "benchmark"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 heroImage: ../../assets/blog/ai-bookmark-managers-semantic-search-compared.png
 heroAlt: "AI Bookmark Retrieval Benchmark 2026 — test protocol diagram"
 ogImage: "https://www.marqly.com/og/ai-bookmark-retrieval-benchmark-2026.png"

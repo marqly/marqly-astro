@@ -13,7 +13,7 @@ tags:
   - "karakeep"
   - "self-hosted bookmarks"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "What is the best free bookmark manager in 2026?"
     a: "Raindrop.io has the most generous classic free tier — unlimited bookmarks and collections on every platform. Marqly's free tier is a clean manual bookmark manager — saving, boards, highlights, keyword search — but all of its AI is Pro, so it is not the pick if free AI is what you want. Linkwarden and Karakeep are the best genuinely free options if you'll self-host, and browser bookmarks remain a fine baseline."
@@ -143,7 +143,7 @@ Practically, that means the cost of choosing "wrong" today is an afternoon, not 
 
 For full side-by-side feature tables, explore our complete [Compare directory](/compare), or take the [Bookmark Retrieval Benchmark protocol](/blog/ai-bookmark-retrieval-benchmark-2026) and test retrieval against the five saves you actually lost.
 
-A last honest note: "free" always has a shape. Raindrop's free is limited by features, Marqly's by tier, Linkwarden's and Karakeep's by your ops time, the browser's by scale. Pick the shape you can live with. If retrieval is the pain — you save plenty and find nothing — start with the free tier built around search-by-meaning: [try Marqly free](https://app.marqly.com), import your existing bookmarks, and search for something you saved months ago by describing it.
+A last honest note: "free" always has a shape. Raindrop's free is limited by features, Marqly's by tier, Linkwarden's and Karakeep's by your ops time, the browser's by scale. Pick the shape you can live with. If retrieval is the pain — you save plenty and find nothing — start with the free tier built around search-by-meaning: [get started free](https://app.marqly.com), import your existing bookmarks, and search for something you saved months ago by describing it.
 
 ---
 

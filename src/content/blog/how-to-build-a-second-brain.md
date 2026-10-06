@@ -11,7 +11,7 @@ tags:
   - "PARA method alternative"
   - "personal knowledge management"
 ctaUrl: "https://app.marqly.com/lp/knowledge-base"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "What is a second brain?"
     a: "A second brain is an external system that stores your knowledge — articles, notes, ideas, references — so you can retrieve it on demand instead of relying on memory. The magic isn't in the structure; it's in reliable retrieval. A second brain only pays off if, months later, you can actually find what you saved."

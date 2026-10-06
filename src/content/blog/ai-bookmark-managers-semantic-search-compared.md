@@ -11,7 +11,7 @@ tags:
   - "search bookmarks by meaning"
   - "best ai bookmark manager"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "Which AI bookmark managers actually have semantic search?"
     a: "Very few. Marqly is built around meaning-based search across your whole library. Readwise Reader and Recall offer partial AI retrieval through chat or related-items panels. Most others — Raindrop, Pocket-style apps, and many 'smart' tools — run keyword search with auto-tags and filters, which isn't semantic search at all."

@@ -12,7 +12,7 @@ tags:
   - "backup instagram saves"
   - "instagram data export"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 lang: "en"
 ogImage: "https://www.marqly.com/og/export-instagram-saved-posts.png"
 faqs:

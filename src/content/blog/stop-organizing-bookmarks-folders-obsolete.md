@@ -11,7 +11,7 @@ tags:
   - "bookmark folders"
   - "stop organizing bookmarks"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "Can you organize bookmarks without folders?"
     a: "Yes — and in 2026 you should. AI auto-tags every link the moment you save it, and semantic search finds anything by meaning, so you never decide where a link 'goes.' You save freely and retrieve by describing what you remember. Folders become optional, not the foundation."

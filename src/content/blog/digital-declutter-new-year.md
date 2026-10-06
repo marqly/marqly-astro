@@ -13,7 +13,7 @@ tags:
   - "bookmark cleanup"
   - "digital minimalism"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "What should a digital declutter checklist include?"
     a: "Five passes, in order of payoff: close your open tabs (after saving the keepers), consolidate and prune bookmarks, declare bankruptcy on the read-later backlog, unsubscribe from newsletters and unused paid subscriptions, and clean your phone's home screen. Finish by setting up a capture system so the clutter doesn't rebuild — that last step is the one that makes the other five stick."

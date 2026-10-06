@@ -12,7 +12,7 @@ tags:
   - "read it later app"
   - "pocket alternative"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 heroImage: ../../assets/blog/pocket-vs-marqly.png
 heroAlt: "Pocket Is Gone: The Best Replacements in 2026 — illustration"
 ogImage: "https://www.marqly.com/og/pocket-replacements-2026.png"
@@ -20,7 +20,7 @@ faqs:
   - q: "What officially replaced Pocket after Mozilla shut it down?"
     a: "Mozilla did not release an official direct replacement for Pocket. Former Pocket users have migrated to specialized tools depending on their workflow: Marqly for AI organization and semantic search, Instapaper for clean article reading, Raindrop.io for general bookmarking, Readwise Reader for power triage, and Karakeep for self-hosting."
   - q: "Can I still import my old Pocket saves?"
-    a: "Yes, provided you downloaded your export file before Mozilla permanently closed export access on October 8, 2025. Tools like Marqly, Raindrop.io, and Instapaper directly accept old Pocket HTML or CSV archives and restore your saves."
+    a: "Yes, provided you downloaded your export file before Mozilla permanently closed export access on October 8, 2025. Raindrop.io and Instapaper accept the old archive's HTML export; Marqly reads the list.csv file inside the Pocket export ZIP (details in our migration guide), so open the archive and import that rather than the preview page."
   - q: "What if I missed the Pocket export deadline?"
     a: "If you did not export your data before October 8, 2025, Mozilla has permanently deleted all Pocket cloud databases. However, if you had Pocket synced with Firefox or an offline browser profile, you can export your browser bookmarks as HTML and import those into Marqly."
   - q: "Which Pocket replacement is completely free?"
@@ -35,6 +35,7 @@ We compared seven prominent replacements across six key criteria: **export file 
 
 ---
 
+> **How we tested this list.** Every option here is evaluated against the same five criteria — import from Pocket, capture (including video/audio), how organisation works, whether you can retrieve a save by meaning, and pricing — and each tool’s features and prices were checked against its **official source between 2 August and 26 September 2026** (dates on our [testing method](/how-we-test) page). Where a competitor is the better fit for a job, we say so — Marqly is our own product and one pick among these.
 ## Quick Verdict: Best Pocket Replacements by Category
 
 | Category | Winner | Why It Wins | Free Tier |

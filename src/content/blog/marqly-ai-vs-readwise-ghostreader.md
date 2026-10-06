@@ -13,7 +13,7 @@ tags:
   - "readwise reader ai"
   - "semantic search"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "What is Readwise Ghostreader?"
     a: "Ghostreader is the built-in AI assistant inside Readwise Reader. It can summarize articles, generate flashcard questions, explain complex terms, translate languages, and help reformulate search queries across your reading queue."

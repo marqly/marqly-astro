@@ -1,0 +1,191 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import { organization, person, breadcrumbList, AUTHOR } from '../../lib/schema';
+
+const title = 'Bookmark Import Failures: What Exports Actually Load (2026)';
+const description =
+  'We ran real, public bookmark exports through an importer and measured what loads: 0/261 Pocket HTML, 43/43 Chrome, a Raindrop description bug, and lost dates. Method + data.';
+const canonical = 'https://www.marqly.com/research/bookmark-import-fidelity';
+const updated = '2026-10-05';
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: 'When bookmark exports do not import: measured results (2026)',
+  description,
+  inLanguage: 'en',
+  datePublished: '2026-10-05',
+  dateModified: updated,
+  author: person(),
+  publisher: { '@type': 'Organization', name: 'Marqly', url: 'https://www.marqly.com' },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
+};
+
+const jsonLd = [
+  articleSchema,
+  organization(),
+  breadcrumbList([{ name: 'Home', path: '/' }, { name: 'Research', path: '/research' }, { name: 'Bookmark import fidelity', path: '/research/bookmark-import-fidelity' }]),
+];
+---
+
+<LandingLayout title={title} description={description} canonical={canonical} jsonLd={jsonLd} ogType="article">
+  <article class="page">
+    <div class="wrap">
+      <header class="head">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/blog">Blog</a><span>/</span><span>Research</span></nav>
+        <h1>When your bookmark export won’t import: what we measured</h1>
+        <p class="byline">By <a href={AUTHOR.url}>{AUTHOR.name}</a>, founder of Marqly · <span class="updated">Updated <time datetime={updated}>Oct 5, 2026</time></span> · <a href="/how-we-test">how we test</a></p>
+        <p class="lede">
+          Switching bookmark tools always ends the same way: you export, you upload, and… the importer
+          says “no bookmarks found”, or it imports everything but your folders collapse and your dates
+          vanish. We stopped guessing. We ran <strong>real, publicly published export files</strong> through
+          a bookmark importer and measured exactly what loads and what breaks. The files, the parser, and
+          the run are reproducible and dated.
+        </p>
+      </header>
+
+      <section class="prose">
+        <div class="keyfindings">
+          <h2>Key findings</h2>
+          <ul>
+            <li><strong>0 of 261.</strong> Pocket's real <code>ril_export.html</code> parsed to nothing — it's a <code>&lt;ul&gt;</code> list, not the Netscape format importers read.</li>
+            <li><strong>43 of 43.</strong> Chrome's HTML export imported perfectly — folders intact, and zero tags (Chrome exports none).</li>
+            <li><strong>306 of 412.</strong> A Raindrop export parsed all items, but a description-attachment bug misplaced notes on ~74% of annotated saves — since fixed.</li>
+            <li><strong>Dates don't survive.</strong> Add-dates were read then discarded at insert — the export file remains the only chronology.</li>
+            <li><strong>Failing safe works.</strong> Bad files produced a clear error, never a half-imported library.</li>
+          </ul>
+          <p class="repro">Method: the deployed parser was copied verbatim into a jsdom harness and run against hash-pinned public exports — <code>node run.mjs</code> reproduces every number. Full protocol: <a href="/how-we-test">how we test</a>.</p>
+        </div>
+
+        <h2>The headline: “it’s HTML” is not enough</h2>
+        <p>
+          People assume any <code>.html</code> bookmarks file is interchangeable. It isn’t. There are
+          (at least) two different HTML shapes in the wild, and importers usually only read one of them.
+        </p>
+
+        <h2>What we tested</h2>
+        <p>
+          We parsed six real export files published publicly by their owners (pinned by SHA-256 so the
+          bytes are unambiguous) through the same Netscape-<code>&lt;DL&gt;</code> parser our product ships.
+          The corpus and hashes are downloadable below — we did not collect anyone’s data; we used files
+          people had already published in their own repos.
+        </p>
+
+        <div class="table-scroll">
+          <table>
+            <caption>Measured results (2026-09-26 run, Netscape-DL importer)</caption>
+            <thead><tr><th scope="col">Source app</th><th scope="col">File type</th><th scope="col">Items</th><th scope="col">What the importer did</th></tr></thead>
+            <tbody>
+              <tr><td>Chrome (extension export)</td><td>Netscape <code>&lt;DL&gt;</code></td><td>43</td><td><strong>43/43 parsed.</strong> Folders intact; Chrome carries no tags, so none arrived.</td></tr>
+              <tr><td>Raindrop.io (user export)</td><td>Netscape <code>&lt;DL&gt;</code></td><td>412</td><td><strong>412/412 parsed.</strong> But a description-attachment bug mis-set the note on <strong>306/412 (≈74%)</strong> of annotated items — since <em>fixed</em>; details below.</td></tr>
+              <tr><td>Pocket (official <code>ril_export.html</code>)</td><td>UL/LI list, not <code>&lt;DL&gt;</code></td><td>261</td><td><strong>0/261 parsed.</strong> The file is structurally valid HTML but not the bookmark format the importer reads. It fails safe with “no bookmarks found”.</td></tr>
+              <tr><td>Two mislabeled / corrupt archives</td><td>broken HTML</td><td>—</td><td>0 bookmarks + a clear validation error. No crash, no half-imported library.</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="cite">
+          Sources checked as of Oct 5, 2026: Raindrop’s own import help states it accepts
+          “<a href="https://help.raindrop.io/import/" rel="noopener">Pocket — export as HTML file</a>” —
+          which is true <em>for Raindrop’s parser</em>; it is a different importer from ours, and our point
+          is precisely that “HTML” spans multiple incompatible shapes. Firefox’s
+          <a href="https://support.mozilla.org/en-US/kb/export-firefox-bookmarks-to-backup-or-transfer" rel="noopener">export documentation</a>
+          describes the Netscape HTML we could read cleanly. We measured only our own importer; we have
+          <strong>not</strong> tested whether other vendors fail on the same files, and we don’t claim they do.
+        </p>
+
+        <h2>Three failures that are easy to miss</h2>
+        <ol>
+          <li>
+            <strong>The description landed on the wrong link.</strong> Raindrop’s export nests a
+            <code>&lt;DD&gt;</code> note under each bookmark. Our deployed parser attached some notes to the
+            neighbouring item — 306 of 412 records differed on the description field. A file can
+            “import fine” and still be subtly wrong, which is the worst kind of migration bug because you
+            don’t notice. The fix corrects it for 258/412 records; the rest legitimately have no note.
+          </li>
+          <li>
+            <strong>Original save dates are dropped.</strong> The parser <em>does</em> read
+            <code>ADD_DATE</code>/<code>created</code> timestamps — then our insert step discards them, so
+            every imported item takes the <em>import</em> date. The file is your only chronological record.
+            We say this plainly rather than let you discover it: import to Marqly does not preserve save
+            dates. (Raindrop’s own CSV spec, above, shows <code>created</code> is importable there — another
+            sign the formats and the tools differ.)
+          </li>
+          <li>
+            <strong>Failing safe is a feature.</strong> The 0/261 Pocket-HTML result and the corrupt-archive
+            runs produced “no bookmarks found”, not a partial write. Importers that silently import half a
+            library are more dangerous than ones that refuse.
+          </li>
+        </ol>
+
+        <h2>What this means if you’re moving tools</h2>
+        <ul>
+          <li>If you’re leaving <strong>Pocket</strong>, don’t hand an importer its <code>ril_export.html</code>
+            and assume it worked. Export the archive, find <code>list.csv</code>, and import that — or preview
+            either file first with our <a href="/tools/bookmark-file-viewer">Bookmark File Viewer</a> /
+            <a href="/tools/pocket-export-converter">Pocket Export Converter</a>. The mechanics are in
+            <a href="/blog/what-is-in-your-pocket-export-file">what’s actually in a Pocket export file</a>.</li>
+          <li>A browser’s <strong>Netscape HTML</strong> export (Chrome/Edge/Firefox/Safari) is the most
+            portable thing you can carry — it’s the format almost every tool, Marqly included, reads.</li>
+          <li>Whatever you choose, <strong>keep the export file.</strong> Dates and the exact original
+            structure rarely survive a round-trip.</li>
+        </ul>
+
+        <h2>Method & reproducibility</h2>
+        <p>
+          Protocol per our <a href="/how-we-test">testing standards</a>: the parser under test is a verbatim
+          copy of our production bookmark parser; fixtures are real, publicly published export files
+          (third-party dotfiles and corpora), identified by SHA-256 so the exact bytes are pinned; each
+          item was checked field-by-field (URL, title, tags, description, folder, date) against what the
+          file declared. This is a fidelity test of <em>one importer against real inputs</em>, not a vendor
+          bake-off. We will update this page with a dated change note if the corpus or method changes.
+        </p>
+        <p class="dl">
+          <a class="btn" href="/research/bookmark-export-corpus.csv">Download the corpus manifest (CSV, SHA-256 pinned)</a>
+        </p>
+
+        <h2>Want the library this fixes?</h2>
+        <p>
+          Marqly reads the browser HTML export and Pocket’s <code>list.csv</code>, then lets you find any
+          save by meaning with <a href="/blog/how-to-search-bookmarks-with-ai">AI semantic search</a>.
+          Guides: <a href="/migrate/pocket">migrate from Pocket</a>,
+          <a href="/migrate/raindrop">migrate from Raindrop</a>,
+          <a href="/migrate/browser-bookmarks">migrate browser bookmarks</a>.
+        </p>
+      </section>
+    </div>
+  </article>
+</LandingLayout>
+
+<style>
+  .page { background: var(--surface-1, #fff); }
+  .wrap { max-width: 46rem; margin: 0 auto; padding: var(--space-16, 4rem) var(--space-5, 1.25rem) var(--space-24, 6rem); }
+  .crumbs { font-size: var(--fs-sm, .875rem); color: var(--ink-3, #6b7280); margin-bottom: var(--space-4, 1rem); }
+  .crumbs a { color: inherit; text-decoration: none; }
+  h1 { font-size: var(--fs-h1, 2.4rem); line-height: 1.12; letter-spacing: -0.02em; margin: 0 0 var(--space-3, .75rem); color: var(--ink-1, #101014); }
+  .byline { font-size: var(--fs-sm, .875rem); color: var(--ink-3, #6b7280); }
+  .byline a { color: var(--ink-1, #101014); text-decoration: underline; text-underline-offset: 2px; }
+  .lede { font-size: var(--fs-lg, 1.125rem); line-height: 1.6; color: var(--ink-2, #374151); }
+  .prose h2 { font-size: var(--fs-h3, 1.35rem); margin: var(--space-10, 2.5rem) 0 var(--space-3, .75rem); color: var(--ink-1, #101014); }
+  .prose h3 { font-size: var(--fs-h4, 1.15rem); margin: var(--space-8, 2rem) 0 var(--space-2, .5rem); color: var(--ink-1, #101014); }
+  .prose p, .prose li { line-height: 1.65; color: var(--ink-2, #374151); }
+  .prose a { color: var(--ink-1, #101014); text-decoration: underline; text-underline-offset: 2px; }
+  .prose a:hover { color: var(--accent, #0071e3); }
+  .prose ol, .prose ul { padding-left: 1.25rem; }
+  .prose li { margin: .5rem 0; }
+  code { font-family: ui-monospace, monospace; background: var(--surface-2, #f3f4f6); padding: .1em .35em; border-radius: 4px; }
+  .cite { font-size: var(--fs-sm, .85rem); color: var(--ink-3, #6b7280); background: var(--surface-2, #f5f6f8); border-left: 3px solid var(--border-2, #d5d9e0); padding: var(--space-3, .75rem) var(--space-4, 1rem); border-radius: 0 var(--radius-inner, 8px) var(--radius-inner, 8px) 0; }
+  .cite a { color: inherit; }
+  .keyfindings { background: var(--surface-2, #f5f6f8); border: 1px solid var(--border-1, #e5e7eb); border-radius: var(--radius-card, 12px); padding: var(--space-5, 1.25rem) var(--space-6, 1.5rem); margin: var(--space-6, 1.5rem) 0 var(--space-2, .5rem); }
+  .keyfindings h2 { margin: 0 0 var(--space-3, .75rem); font-size: var(--fs-h4, 1.15rem); }
+  .keyfindings ul { margin: 0; padding-left: 1.15rem; }
+  .keyfindings li { margin: .45rem 0; }
+  .repro { font-size: var(--fs-xs, .8rem); margin: var(--space-4, 1rem) 0 0; }
+  .table-scroll { overflow-x: auto; margin: var(--space-6, 1.5rem) 0; }
+  table { border-collapse: collapse; width: 100%; font-size: var(--fs-sm, .9rem); }
+  caption { text-align: left; color: var(--ink-3, #6b7280); font-size: var(--fs-xs, .8rem); padding-bottom: .5rem; }
+  th, td { text-align: left; padding: .6rem .7rem; border-bottom: 1px solid var(--border-1, #eceef1); vertical-align: top; }
+  th { color: var(--ink-1, #101014); font-weight: 600; }
+  .dl { margin: var(--space-8, 2rem) 0; }
+  .btn { display: inline-block; background: var(--ink-1, #101014); color: #fff !important; text-decoration: none !important; padding: .7rem 1.1rem; border-radius: var(--radius-pill, 999px); font-weight: 600; }
+</style>

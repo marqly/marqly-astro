@@ -12,7 +12,7 @@ tags:
   - "find lost bookmark"
   - "ai bookmark search"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "How do I find a bookmark when I forgot the title?"
     a: "Describe what you remember in plain language instead of guessing keywords. Semantic AI search converts your description into meaning and matches it against the actual content of your saves, so a phrase like 'the article about coffee and afternoon focus' finds the right page even if those exact words never appear in its title."

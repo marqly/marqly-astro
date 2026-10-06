@@ -13,7 +13,7 @@ tags:
   - "raindrop pro features"
   - "bookmark manager review"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "Is Raindrop.io worth it?"
     a: "Yes — for most people Raindrop.io is worth it even at $0. The free plan includes unlimited bookmarks and collections with up to 3 highlights per bookmark across every platform. Pro at $27.99/year is one of the cheapest paid tiers in the category and adds full-text search, permanent page copies, annotations, and AI suggestions. The only reason to look elsewhere is if you need to find saves by describing them from memory — Raindrop's search is keyword-based, not semantic."

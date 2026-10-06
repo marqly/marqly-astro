@@ -13,7 +13,7 @@ tags:
   - "is mymind worth it"
   - "visual bookmark manager"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "Is mymind worth it in 2026?"
     a: "mymind is worth it if you're a visual thinker who saves images, quotes, and inspiration and values a private, ad-free space — it's the most beautiful tool in the category. It's a weaker fit if you mostly save long articles you need to find again by topic, or if you want a free tier: there isn't a permanent free plan."

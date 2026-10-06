@@ -12,7 +12,7 @@ tags:
   - "read it later app"
   - "ai bookmark manager"
 ctaUrl: "https://app.marqly.com/lp/replace-pocket"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "What is the best Pocket alternative in 2026?"
     a: "Marqly is the best Pocket alternative for most people in 2026: it imports your Pocket library in minutes and adds the semantic AI search Pocket never had, so you find saves by meaning instead of keywords. Raindrop.io is the best free option, and Readwise Reader is best for power readers who highlight."
@@ -41,6 +41,7 @@ The good news: the read-it-later category didn't die with Pocket. It grew up. Th
 
 Below are the eight best Pocket alternatives in 2026, tested and compared on the things that actually matter: how well they import your old Pocket library, whether they have a distraction-free reader, how good their search is, and what they cost.
 
+> **How we tested this list.** Every option here is evaluated against the same five criteria — import from Pocket, capture (including video/audio), how organisation works, whether you can retrieve a save by meaning, and pricing — and each tool’s features and prices were checked against its **official source between 2 August and 26 September 2026** (dates on our [testing method](/how-we-test) page). Where a competitor is the better fit for a job, we say so — Marqly is our own product and one pick among these.
 ## What is the Pocket shutdown timeline?
 
 Mozilla announced Pocket's shutdown in May 2025 and officially turned off servers on July 8, 2025. It provided an export window that ran through October 8, 2025. **All remaining Pocket data was permanently deleted after October 8, 2025.**
@@ -80,7 +81,7 @@ If Pocket's biggest weakness was that saving things was easy but *finding* them 
 - **Cons:** Newer than incumbents, so the community is smaller (growing fast).
 - **Price:** Free tier; Pro $72/yr (~$6/mo) or $9/mo.
 
-[Try Marqly free →](https://app.marqly.com/lp/replace-pocket)
+[Get started free →](https://app.marqly.com/lp/replace-pocket)
 
 ## 2. Raindrop.io — best free, general-purpose alternative
 

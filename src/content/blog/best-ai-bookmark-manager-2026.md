@@ -12,7 +12,7 @@ tags:
   - "semantic bookmark search"
   - "ai web clipper"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "What should an AI bookmark manager actually do?"
     a: "A real AI bookmark manager works in three layers: auto-tagging so you don't file links by hand, instant summaries so you can triage a backlog, and semantic search so you can find a save by describing what you remember. The query layer — semantic search — matters most."

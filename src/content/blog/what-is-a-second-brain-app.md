@@ -12,7 +12,7 @@ tags:
   - "build a second brain"
   - "knowledge management app"
 ctaUrl: "https://app.marqly.com/lp/knowledge-base"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "What is a second brain app?"
     a: "A second brain app is software that stores your knowledge — notes, articles, ideas, references — so you don't have to hold it all in your head. The good ones do three jobs: capture things quickly from anywhere, organize or tag what you save, and retrieve the right thing exactly when you need it."

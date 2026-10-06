@@ -13,7 +13,7 @@ tags:
   - "find bookmarks by meaning"
   - "search bookmarks by meaning"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "How do I search my bookmarks with AI?"
     a: "Use a bookmark manager with semantic search, then describe what you remember in a full sentence instead of typing keywords. The AI converts your description into meaning and ranks your saves by how closely each one matches, so you can find a page by its idea even when you've forgotten its title."

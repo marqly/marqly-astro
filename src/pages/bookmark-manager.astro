@@ -1,0 +1,172 @@
+---
+import LandingLayout from '../layouts/LandingLayout.astro';
+import {
+  softwareApplication, faqPage, breadcrumbList, organization, webSite, itemList, person, AUTHOR,
+} from '../lib/schema';
+
+const title = 'Bookmark Manager: The 2026 Guide to Choosing One';
+const description =
+  'What a bookmark manager actually is, the four kinds (browser, read-it-later, AI, self-hosted), how to choose, and how it beats the folders in your browser. Honest, with a decision table.';
+const canonical = 'https://www.marqly.com/bookmark-manager';
+const updated = '2026-10-05';
+
+const faqs = [
+  { q: 'What is a bookmark manager?', a: 'A bookmark manager is an app that saves the web pages, articles and videos you want to keep, then organises and retrieves them for you — usually with tags, full-text or semantic search, notes and highlighting, across every device. The browser’s own bookmark bar is the simplest kind; dedicated managers add organisation and retrieval that folders cannot.' },
+  { q: 'Is a bookmark manager better than browser bookmarks?', a: 'For anything you plan to come back to, yes. Browser bookmarks store a title and a URL in a folder you must file and later remember the name of. A dedicated manager fetches the page, tags and summarises it, and lets you find it by describing what it was about — which is the part folders never solve.' },
+  { q: 'What should I look for in a bookmark manager?', a: 'Five things: frictionless capture (one click from any page), search that works when you forget the exact words, organisation that doesn’t require manual filing, the ability to keep the actual content (highlights, notes, offline copies) and not just the link, and sync across browser and phone. AI semantic search and auto-tagging are the modern answers to the filing problem.' },
+  { q: 'Are there free bookmark managers?', a: 'Yes. Marqly’s free plan stores up to 100 bookmarks and lets you read and search your whole library with no card required; Raindrop.io has a generous free tier; self-hosted options like Linkwarden, Karakeep and Wallabag are free if you run them yourself. Most free plans cap either the item count or the AI features.' },
+  { q: 'Can I move my existing bookmarks into a manager?', a: 'Usually yes. The universal format is the browser’s “Netscape bookmark HTML” export, which almost every manager reads. Pocket’s own export needs the list.csv from inside its archive rather than its HTML preview. Our research page measures exactly which export files a real importer can and cannot read.' },
+];
+
+const kinds = [
+  { kind: 'Browser-native', who: 'Chrome/Edge/Firefox/Safari built-in bookmarks', good: 'Free, zero setup, everywhere you browse.', bad: 'Folders only; you file and recall manually; no content capture.', pick: 'You save a handful of pages and never lose them anyway.' },
+  { kind: 'Read-it-later', who: 'Pocket (now retired), Instapaper, Matter', good: 'Clean reading view, offline, a queue to actually get through.', bad: 'Organisation is thin; most retrieval is by title/keyword.', pick: 'Your problem is a backlog of articles to read, not to find.' },
+  { kind: 'AI / semantic', who: 'Marqly, mymind', good: 'Auto-tag + summarise on save; find by meaning, not keywords; highlight + transcript capture.', bad: 'Deeper AI features sit behind a paid tier.', pick: 'You save a lot and can never find it again — the filing-and-recall problem.' },
+  { kind: 'Self-hosted', who: 'Linkwarden, Karakeep, Wallabag, Obsidian Clipper', good: 'You own the data; archives full pages; no subscription.', bad: 'You run the server, backups and updates yourself.', pick: 'Privacy/control is the priority and you’ll maintain it.' },
+];
+
+const jsonLd = [
+  organization(), webSite(), softwareApplication(),
+  faqPage(faqs),
+  breadcrumbList([{ name: 'Home', path: '/' }, { name: 'Bookmark manager', path: '/bookmark-manager' }]),
+  itemList(kinds.map((k) => `${k.kind} bookmark manager`), '/bookmark-manager'),
+];
+---
+
+<LandingLayout title={title} description={description} canonical={canonical} jsonLd={jsonLd}>
+  <article class="page">
+    <div class="wrap">
+      <header class="head">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><span>Bookmark manager</span></nav>
+        <h1>Bookmark manager: the honest 2026 guide</h1>
+        <p class="byline">By <a href={AUTHOR.url}>{AUTHOR.name}</a> · <span><time datetime={updated}>Updated Oct 5, 2026</time></span> · <a href="/how-we-test">how we test</a></p>
+        <p class="lede">
+          A bookmark manager is software that saves pages and videos you want to keep <em>and</em> gets them
+          back when you need them. That second half is the whole point: your browser already saves links.
+          A real manager is the difference between a folder you’ll never reopen and a library you can
+          search from a half-memory. Here’s how to pick one, honestly — including when you shouldn’t pick Marqly.
+        </p>
+      </header>
+
+      <section class="prose">
+        <h2>The problem browser bookmarks can’t solve</h2>
+        <p>
+          Chrome, Edge, Firefox and Safari all have bookmarks, and they all hit the same wall: you save in
+          one click but organise by hand. Every item needs a folder decision at save time, and finding it
+          later means remembering the exact title you gave it — six months on, you don’t. The result is a
+          bar full of “interesting article 12” that never gets opened again. If your links are the problem,
+          not the reading, start with
+          <a href="/blog/how-to-organize-bookmarks">how to organize bookmarks without folders</a>.
+        </p>
+
+        <h2>The four kinds of bookmark manager</h2>
+        <p>
+          “Best” depends entirely on which job you’re actually trying to do. These are the four families,
+          what each is genuinely good at, and who should reach for it — this guide is about Marqly, so
+          we’re not neutral; the point is to match the tool to the problem, not to crown one.
+        </p>
+        <div class="table-scroll">
+          <table>
+            <caption>Choose by the problem you have, not by feature count</caption>
+            <thead><tr><th scope="col">Kind</th><th scope="col">Examples</th><th scope="col">Good at</th><th scope="col">Weak at</th><th scope="col">Pick it if…</th></tr></thead>
+            <tbody>
+              {kinds.map((k) => (
+                <tr>
+                  <th scope="row">{k.kind}</th>
+                  <td>{k.who}</td>
+                  <td>{k.good}</td>
+                  <td>{k.bad}</td>
+                  <td>{k.pick}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <h2>What a good one actually does for you</h2>
+        <ul>
+          <li><strong>Capture without a filing decision.</strong> One click saves the page; the organiser comes later, or automatically. Marqly’s <a href="/bookmark-organizer">AI bookmark organiser</a> tags and summarises each save so the library sorts itself.</li>
+          <li><strong>Search by meaning.</strong> “The piece about why sourdough starters fail” should surface it, even if those words aren’t in the title. That’s <a href="/blog/how-to-search-bookmarks-with-ai">semantic search</a>, and it’s the single feature that separates a manager from a folder tree.</li>
+          <li><strong>Keep the content, not just the link.</strong> Links rot. The ones worth trusting store highlights, notes, an archived copy or a PDF — see what we measured about <a href="/research/bookmark-import-fidelity">which exports actually survive a move</a>.</li>
+          <li><strong>Reach beyond text.</strong> Articles are half of it; videos and threads are the rest. Marqly adds <a href="/youtube-summarizer">YouTube summaries and transcripts</a> and <a href="/web-highlighter">highlights on any page</a>, so a saved video is searchable by what was <em>said</em>.</li>
+          <li><strong>Follow you across devices.</strong> A browser-only tool is one tab away from useless on your phone. Marqly runs as an extension, web app, and iOS/Android apps on one library.</li>
+        </ul>
+
+        <h2>Getting your current bookmarks in</h2>
+        <p>
+          Don’t start from zero. Export your browser’s bookmarks (the “Netscape HTML” file every browser
+          produces) or your Pocket/Raindrop archive and import it — Marqly reads browser HTML, Pocket’s
+          <code>list.csv</code>, and Raindrop’s HTML export. Walk through it per browser:
+          <a href="/bookmark-manager-for-chrome">Chrome</a>, or the
+          <a href="/migrate/browser-bookmarks">browser-bookmarks migration guide</a>; Pocket users start at
+          <a href="/migrate/pocket">migrate from Pocket</a>. One honesty note we measure rather than gloss:
+          imports take the <em>import</em> date, not the original save date, and auto-tagging imported items
+          is a Pro feature. Preview any file first with the free
+          <a href="/tools/bookmark-file-viewer">bookmark file viewer</a>.
+        </p>
+
+        <h2>When Marqly is <em>not</em> the right pick</h2>
+        <p>
+          If all you need is a clean reading queue with a mobile app, a read-it-later tool like Instapaper or
+          Matter is a better fit and Marqly’s reading view is not its centre of gravity. If you want to own
+          every byte and run your own server, self-hosted <a href="/alternatives/raindrop">Raindrop alternatives</a>
+          like Linkwarden or Karakeep beat any hosted app. If you genuinely never lose a bookmark, the free
+          folders in your browser are the right tool and cost nothing. Marqly earns its place for one specific
+          person: the saver who keeps everything and can never find it again — for whom
+          <a href="/second-brain">a searchable second brain</a> is the fix.
+        </p>
+
+        <h2>FAQ</h2>
+        <div class="faqs">
+          {faqs.map((f) => (
+            <details open={f === faqs[0]}>
+              <summary>{f.q}</summary>
+              <p>{f.a}</p>
+            </details>
+          ))}
+        </div>
+
+        <div class="cta">
+          <p>Save once, find it from any device, search it by meaning.</p>
+          <a class="btn" href="https://app.marqly.com" rel="noopener">Get started free</a>
+          <a class="btn ghost" href="/pricing">See free vs Pro</a>
+        </div>
+        <p class="fineprint">Marqly — spelled with a q — is built by Megamoon Ventures FZCO. Free plan up to 100 bookmarks; Pro $72/yr (about $6/mo billed annually, or $9/mo), no trial — you only pay when you upgrade.</p>
+      </section>
+    </div>
+  </article>
+</LandingLayout>
+
+<style>
+  .page { background: var(--surface-1, #fff); }
+  .wrap { max-width: 47rem; margin: 0 auto; padding: var(--space-16, 4rem) var(--space-5, 1.25rem) var(--space-24, 6rem); }
+  .crumbs { font-size: var(--fs-sm, .875rem); color: var(--ink-3, #6b7280); margin-bottom: var(--space-4, 1rem); }
+  .crumbs a { color: inherit; text-decoration: none; }
+  h1 { font-size: var(--fs-h1, 2.5rem); line-height: 1.1; letter-spacing: -0.02em; margin: 0 0 var(--space-3, .75rem); color: var(--ink-1, #101014); }
+  .byline { font-size: var(--fs-sm, .875rem); color: var(--ink-3, #6b7280); }
+  .byline a { color: var(--ink-1, #101014); text-decoration: underline; text-underline-offset: 2px; }
+  .lede { font-size: var(--fs-lg, 1.125rem); line-height: 1.6; color: var(--ink-2, #374151); margin-top: var(--space-4, 1rem); }
+  .prose h2 { font-size: var(--fs-h3, 1.4rem); margin: var(--space-12, 3rem) 0 var(--space-3, .75rem); color: var(--ink-1, #101014); }
+  .prose h3 { font-size: var(--fs-h4, 1.15rem); margin: var(--space-8, 2rem) 0 var(--space-2, .5rem); }
+  .prose p, .prose li { line-height: 1.65; color: var(--ink-2, #374151); }
+  .prose a { color: var(--ink-1, #101014); text-decoration: underline; text-underline-offset: 2px; }
+  .prose a:hover { color: var(--accent, #0071e3); }
+  .prose ul { list-style: disc; padding-left: 1.25rem; }
+  .prose li { margin: .5rem 0; }
+  .prose ol { list-style: decimal; padding-left: 1.25rem; }
+  code { font-family: ui-monospace, monospace; background: var(--surface-2, #f3f4f6); padding: .1em .35em; border-radius: 4px; }
+  .table-scroll { overflow-x: auto; margin: var(--space-6, 1.5rem) 0; }
+  table { border-collapse: collapse; width: 100%; font-size: var(--fs-sm, .88rem); }
+  caption { text-align: left; color: var(--ink-3, #6b7280); font-size: var(--fs-xs, .8rem); padding-bottom: .5rem; }
+  th, td { text-align: left; padding: .6rem .65rem; border-bottom: 1px solid var(--border-1, #eceef1); vertical-align: top; }
+  thead th { color: var(--ink-1, #101014); }
+  tbody th { color: var(--ink-1, #101014); white-space: nowrap; }
+  .faqs details { border: 1px solid var(--border-1, #eceef1); border-radius: var(--radius-inner, 10px); padding: var(--space-3, .75rem) var(--space-4, 1rem); margin-bottom: .6rem; }
+  .faqs summary { font-weight: 600; color: var(--ink-1, #101014); cursor: pointer; }
+  .faqs details p { margin: .6rem 0 0; }
+  .cta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-4, 1rem); margin: var(--space-12, 3rem) 0 var(--space-3, .75rem); padding: var(--space-6, 1.5rem); background: var(--surface-2, #f5f6f8); border: 1px solid var(--border-1, #eceef1); border-radius: var(--radius-card, 14px); }
+  .cta p { font-weight: 600; color: var(--ink-1, #101014); margin: 0 auto 0 0; }
+  .btn { display: inline-block; background: var(--ink-1, #101014); color: #fff !important; text-decoration: none !important; padding: .7rem 1.2rem; border-radius: var(--radius-pill, 999px); font-weight: 600; }
+  .btn.ghost { background: transparent; color: var(--ink-1, #101014) !important; border: 1px solid var(--border-2, #d5d9e0); }
+  .fineprint { font-size: var(--fs-xs, .8rem); color: var(--ink-3, #6b7280); }
+</style>

@@ -12,7 +12,7 @@ tags:
   - "youtube playlist export"
   - "watch later alternative"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 lang: "en"
 ogImage: "https://www.marqly.com/og/export-youtube-watch-later.png"
 faqs:

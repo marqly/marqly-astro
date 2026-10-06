@@ -12,7 +12,7 @@ tags:
   - "ai bookmark manager"
   - "organize bookmarks automatically"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "Can AI organize my bookmarks automatically?"
     a: "Yes. An AI bookmark manager auto-tags and summarizes each save as you add it, grouping related items by meaning without you creating folders. Combined with semantic search, this means you rarely need to organize anything by hand — you just save, and find things later by describing what you remember."

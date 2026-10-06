@@ -11,7 +11,7 @@ tags:
   - "wallabag alternative"
   - "open source pocket alternative"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "What is the best self-hosted Pocket alternative in 2026?"
     a: "Wallabag is the best self-hosted Pocket alternative for most people: it's mature, actively maintained, and built specifically for read-it-later with a clean reader. Pick Karakeep if you want AI tagging on your own server, Linkwarden for link-archiving with collections, and ArchiveBox to permanently preserve full pages."
@@ -109,4 +109,4 @@ Choose Wallabag if you want the most Pocket-like self-hosted reader, Karakeep if
 - **You want to never lose a page, ever:** ArchiveBox.
 - **You don't want to run a server and want AI search now:** a hosted app (Marqly).
 
-Whatever you land on, the meta-lesson of Pocket is the part worth internalizing: get your data into a format you control, and don't let a single vendor be a single point of failure. If you're a control-and-privacy purist, self-hosting is the better answer, full stop — start with Wallabag. If you've decided the maintenance isn't worth it and you want meaning-based search out of the box, [try Marqly free](https://app.marqly.com) and import your library in a couple of minutes. And if you're still weighing the whole field, including the simpler hosted readers, our [best Pocket alternatives for 2026](/blog/best-pocket-alternatives-2026) and [Instapaper alternatives](/blog/instapaper-alternatives-2026) guides cover the rest.
+Whatever you land on, the meta-lesson of Pocket is the part worth internalizing: get your data into a format you control, and don't let a single vendor be a single point of failure. If you're a control-and-privacy purist, self-hosting is the better answer, full stop — start with Wallabag. If you've decided the maintenance isn't worth it and you want meaning-based search out of the box, [get started free](https://app.marqly.com) and import your library in a couple of minutes. And if you're still weighing the whole field, including the simpler hosted readers, our [best Pocket alternatives for 2026](/blog/best-pocket-alternatives-2026) and [Instapaper alternatives](/blog/instapaper-alternatives-2026) guides cover the rest.

@@ -13,7 +13,7 @@ tags:
   - "self-hosted bookmarks"
   - "link archiving"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "Is Linkwarden worth it?"
     a: "Yes, if preservation or collaboration is your priority. Linkwarden archives every link in multiple formats (HTML, screenshot, PDF, readable view) so your library survives link rot, supports shared team collections, and costs either nothing (self-hosted) or $3/month billed annually (cloud). If your priority is finding saves by memory or AI-assisted triage, its keyword search and tag-only AI will feel thin."
@@ -118,4 +118,4 @@ Who shouldn't: people whose real problem is retrieval or triage. If your library
 
 ## Verdict
 
-**★ 4/5.** Linkwarden is the best preservation-first bookmark manager in the open-source world, with honest pricing, real collaboration, and a platform story that improved dramatically this year. It loses a star because the intelligence layer is thin — keyword-only retrieval and tag-only AI leave the finding-things-again problem unsolved. Keep Linkwarden as your vault if permanence is what you need. If what you need is to *find* what you saved, that's the other half of the problem — [try Marqly free](https://app.marqly.com), no card required, and search your library by what you remember.
+**★ 4/5.** Linkwarden is the best preservation-first bookmark manager in the open-source world, with honest pricing, real collaboration, and a platform story that improved dramatically this year. It loses a star because the intelligence layer is thin — keyword-only retrieval and tag-only AI leave the finding-things-again problem unsolved. Keep Linkwarden as your vault if permanence is what you need. If what you need is to *find* what you saved, that's the other half of the problem — [get started free](https://app.marqly.com), no card required, and search your library by what you remember.

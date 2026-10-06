@@ -13,7 +13,7 @@ tags:
   - "eightify alternative"
   - "notegpt alternative"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "What is the best YouTube summarizer in 2026?"
     a: "Marqly is the best for most people because the summary appears directly on the YouTube watch page — a streaming TL;DR with key sections, plus a synced transcript tab and a chat tab that answers questions from the video. NoteGPT is better for study materials like mind maps, and Recall is better for very long videos."

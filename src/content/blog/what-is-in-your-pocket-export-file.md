@@ -11,7 +11,7 @@ tags:
   - "open pocket export"
   - "pocket data export"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "What's actually inside a Pocket export file?"
     a: "A Pocket export contains your list of saved links plus metadata — the URL, title, tags, the time you added each item, and whether it was unread or archived. It does not contain the full article text. It's a record of what you saved, not a copy of what you read, so import it while the original pages are still online."
@@ -32,7 +32,7 @@ ogImage: "https://www.marqly.com/og/what-is-in-your-pocket-export-file.png"
 
 **A Pocket export file is your list of saved links plus their metadata — URLs, titles, tags, the time each item was added, and whether it was unread or archived.** It is not a copy of the articles themselves. It's usually a CSV (sometimes zipped, and split into several files for large libraries), and the practical takeaway is to import it while the original pages are still live, because the article text was never in the file.
 
-If you exported your library before Mozilla pulled the plug, you're now staring at a file — maybe `pocket-export.csv`, maybe a ZIP, maybe a folder of numbered CSVs — and wondering what's actually in it and whether it's safe to trust. This guide opens the box. We'll decode every column, explain the format and its quirks, flag the gotchas that trip up importers, and show you how to turn that file back into a working, searchable library. If you just want the broader "where do I move?" picture, the [best Pocket alternatives in 2026](/blog/best-pocket-alternatives-2026) covers the destinations; this post is about the file itself.
+If you exported your library before Mozilla pulled the plug, you're now staring at a file — maybe `pocket-export.csv`, maybe a ZIP, maybe a folder of numbered CSVs — and wondering what's actually in it and whether it's safe to trust. This guide opens the box. We'll decode every column, explain the format and its quirks, flag the gotchas that trip up importers, and show you how to turn that file back into a working, searchable library. (We actually measured which Pocket files import cleanly and which don't — [the bookmark-import fidelity study](/research/bookmark-import-fidelity) has the numbers.) If you just want the broader "where do I move?" picture, the [best Pocket alternatives in 2026](/blog/best-pocket-alternatives-2026) covers the destinations; this post is about the file itself.
 
 ## What does a Pocket export file contain?
 
@@ -106,4 +106,4 @@ That's the angle [Marqly](https://app.marqly.com) is built on. Import your saved
 
 A realistic expectation, since this whole guide is about setting them: no tool can resurrect the article text that was never in your export, and how cleanly tags and dates land depends on the file and the importer. What you're recovering is the *list* of what you saved — and with semantic search on top, that list finally becomes something you can actually use.
 
-[Try Marqly free →](https://app.marqly.com) · [Pocket Migration Guide](/migrate/pocket) · [Free Bookmark Tools](/tools)
+[Get started free →](https://app.marqly.com) · [Pocket Migration Guide](/migrate/pocket) · [Free Bookmark Tools](/tools)

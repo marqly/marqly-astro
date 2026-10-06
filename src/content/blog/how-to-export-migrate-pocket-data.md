@@ -11,7 +11,7 @@ tags:
   - "import pocket bookmarks"
   - "pocket shutdown what to do"
 ctaUrl: "https://app.marqly.com/lp/replace-pocket"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "Can I still export data directly from Pocket today?"
     a: "No. Pocket officially shut down on July 8, 2025, and Mozilla closed the export window on October 8, 2025, permanently deleting remaining server data. This guide helps users who downloaded their export file (.html or .csv) migrate their saves into Marqly, or recover saves synced to browser bookmarks."
@@ -52,14 +52,14 @@ Your export is portable, so the real question is *where* it should live. The thr
 
 ## Step 3: Import your library
 
-Most modern tools accept the Pocket HTML export directly. For a detailed walkthrough with screenshots and troubleshooting, follow our [Pocket to Marqly Migration Guide](/migrate/pocket) or visit our [Migration Center](/migrate). If you downloaded a CSV file instead of HTML, convert or inspect it first using our free [Pocket Export Converter](/tools/pocket-export-converter) and [Bookmark File Viewer](/tools/bookmark-file-viewer).
+A note on formats, because it trips people up: Pocket's `ril_export.html` is a plain `<ul>` list, not the standard browser-bookmark format, so most importers — **Marqly included** — cannot read it. The reliable file is `list.csv` inside the export archive — we [measured a genuine 261-item Pocket HTML export against our importer and it parses to zero saves](/research/bookmark-import-fidelity). If you grabbed a CSV (or the ZIP), you're set; if all you have is the HTML, convert or inspect it first with our free [Pocket Export Converter](/tools/pocket-export-converter) and [Bookmark File Viewer](/tools/bookmark-file-viewer). For a detailed walkthrough with troubleshooting, follow our [Pocket to Marqly Migration Guide](/migrate/pocket) or visit our [Migration Center](/migrate).
 
 In **Marqly**, for example:
 
 1. Create a free account.
 2. During onboarding (or in Settings → Import), choose **Import bookmarks**.
-3. Drag your `pocket-export.html` file into the importer.
-4. Your saves appear — titles and tags preserved — and Marqly begins auto-tagging and indexing them for AI search in the background.
+3. Open the Pocket export ZIP and drag the `list.csv` file into the importer (not the `.html` preview — Marqly reads the CSV).
+4. Your saves appear — titles and tags preserved — and Marqly begins indexing them for AI search in the background. (Auto-tagging on import is a Pro feature; on the free plan your links still import with any tags the file carries.)
 
 The whole import typically finishes in under two minutes for a few thousand items.
 

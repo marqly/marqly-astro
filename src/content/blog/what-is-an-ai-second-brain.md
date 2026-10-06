@@ -12,7 +12,7 @@ tags:
   - "ai knowledge management"
   - "ai note taking"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "What is an AI second brain?"
     a: "An AI second brain is a personal knowledge base that stores everything you save — articles, notes, videos, and bookmarks — and uses AI to organize, summarize, and search it by meaning. Unlike a traditional notes app, it can answer questions across your whole library instead of just storing files you have to find yourself."

@@ -13,7 +13,7 @@ tags:
   - "is instapaper good"
   - "read it later app"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "Is Instapaper worth it?"
     a: "If reading long articles in a calm, beautifully typeset environment is your main use case, yes — Instapaper is still the best pure reading experience in the category, and the free plan covers unlimited saves. Premium at $5.99/month is harder to justify: full-text search and a permanent archive are table stakes elsewhere at lower prices, and the price doubled in 2025 while the feature set barely moved."

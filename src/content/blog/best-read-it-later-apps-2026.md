@@ -11,7 +11,7 @@ tags:
   - "best reading app"
   - "ai read later app"
 ctaUrl: "https://app.marqly.com/lp/replace-pocket"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "What is the best read-it-later app in 2026?"
     a: "Marqly is the best overall read-it-later app in 2026 because it pairs one-click save, a clean reader, and cross-device sync with semantic AI search that finds articles by meaning. Readwise Reader is best for highlighters, Raindrop.io is the best free option, and Instapaper is best for minimalist reading."
@@ -28,6 +28,7 @@ ogImage: "https://www.marqly.com/og/best-read-it-later-apps-2026.png"
 
 A read-it-later app should do two things well: make saving frictionless, and make *coming back* worthwhile. Most apps nail the first and fail the second — which is why so many of us have thousands of saved articles we never reopen. With Pocket gone as of 2025, the category has reshuffled around AI. Here are the nine best read-it-later apps in 2026, ranked for how real people actually read.
 
+> **How we tested this list.** Every option here is evaluated against the same five criteria — import from Pocket, capture (including video/audio), how organisation works, whether you can retrieve a save by meaning, and pricing — and each tool’s features and prices were checked against its **official source between 2 August and 26 September 2026** (dates on our [testing method](/how-we-test) page). Where a competitor is the better fit for a job, we say so — Marqly is our own product and one pick among these.
 ## What separates a great read-it-later app in 2026
 
 Three things now define the best tools:
@@ -88,7 +89,7 @@ Saves pages into Notion databases. No reader mode or semantic search, but keeps 
 
 Don't ask "which app saves articles best" — they all do. Ask "which app lets me *find* the article I saved three months ago when I only half-remember it?" That's where most fall down and where AI search wins.
 
-[Try Marqly free](https://app.marqly.com/lp/replace-pocket), import your reading backlog via our [Migration Center](/migrate) (with dedicated guides for [Pocket](/migrate/pocket) and [Instapaper](/migrate/instapaper)), and search it by meaning. You can also estimate article lengths and convert pages with our [Reading Time Calculator](/tools/reading-time) and [HTML to Markdown tool](/tools/html-to-markdown) in our [free tools directory](/tools). No credit card — and it's the fastest way to feel which side of that line a tool is on.
+[Get started free](https://app.marqly.com/lp/replace-pocket), import your reading backlog via our [Migration Center](/migrate) (with dedicated guides for [Pocket](/migrate/pocket) and [Instapaper](/migrate/instapaper)), and search it by meaning. You can also estimate article lengths and convert pages with our [Reading Time Calculator](/tools/reading-time) and [HTML to Markdown tool](/tools/html-to-markdown) in our [free tools directory](/tools). No credit card — and it's the fastest way to feel which side of that line a tool is on.
 
 ---
 

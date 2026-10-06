@@ -1,0 +1,7 @@
+"file","source_app","format","items","sha256","origin","provenance"
+"raindrop_thetomcraig.html","Raindrop.io","HTML export","412","6f8a319b58ebb8b356a90d6c31933f8467f995bcb357fed2a4246cc0ed5062f9","github.com/thetomcraig/dotfiles (public dotfiles)","genuine user export (COVER attrs, Speed Dial folder, real URLs)"
+"pocket_kitahara_b.html","Pocket","ril_export.html","261","02c9e7240947df83804428c93e44e77776b92baf949c6a5522ef9f9821ee2a9b","github.com/kitahara-6355/RSS-feed/data","genuine user export (Douglas-Adams header, time_added+tags attrs)"
+"chrome_testexport_2024.html","Chrome (via bookmark-folder-exporter ext)","Netscape DL","43","46891418ac5811f84b0bcb0305058757355143b157c771760ddb16afd8114037","github.com/theo-armour/wikitheo bookmarks test corpus","extension-generated Chrome export (Chrome header comment)"
+"pocket_rick.html","unknown (named ril_export.html)","broken UL (unclosed anchors)","261","8321fb5377870ee973df58c60db4be6a5e1472b3a04c5f8e4ffb1720f4023e9f","github.com/RickGCartmanland/Pocket","robustness probe — mislabeled/corrupted export"
+"raindrop_diegoami.html","Raindrop.io via Gmail-saved page","mangled","","fed0a03671ae1d752daffddaa434201f2ae0bc081a2a9c8ba9beb7f459894c50","github.com/diegoami/IT-Notes","robustness probe — 'saved from url' wrapper"
+"refrax_*_Bookmarks_Export.html","Chrome/Firefox/Safari","Netscape DL","","","github.com/kageroumado/refrax-browser test resources","hand-authored test mini-exports (explicitly 'simplified for testing') — format-shape evidence only, NOT counted as genuine"

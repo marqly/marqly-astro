@@ -19,6 +19,9 @@ Key facts:
 ## Product
 
 - [Marqly home](https://www.marqly.com/): overview, features, interactive demo
+- [About Marqly](https://www.marqly.com/about): who builds it (Megamoon Ventures FZCO, Dubai), history since 2022, contact. Marqly — spelled with a q.
+- [How we test](https://www.marqly.com/how-we-test): the evaluation method behind every review, comparison and "best of" list
+- [Authors](https://www.marqly.com/authors): named authors (Amro Shahbari, founder) behind the editorial pages
 - [Pricing](https://www.marqly.com/pricing): transparent plans, free vs Pro features, student discounts
 - [Browser extension features](https://www.marqly.com/extension): full feature list and Chrome/Edge/Firefox/Safari availability
 - [Embed boards](https://www.marqly.com/embed): generate responsive embed widgets for Notion, blogs, and websites
@@ -40,6 +43,16 @@ Key facts:
 - [How to search bookmarks with AI](https://www.marqly.com/blog/how-to-search-bookmarks-with-ai): find saves by meaning
 - [Best AI bookmark manager 2026](https://www.marqly.com/blog/best-ai-bookmark-manager-2026): what "AI" should actually mean in a bookmark tool
 - [How to organize bookmarks](https://www.marqly.com/blog/how-to-organize-bookmarks): tags over folders
+
+## Export & rescue guides
+
+- [Backup all your browser bookmarks](https://www.marqly.com/blog/backup-all-browser-bookmarks): export Chrome, Edge, Firefox and Safari into one file
+- [Export Safari bookmarks](https://www.marqly.com/blog/export-safari-bookmarks) · [Export Edge favorites](https://www.marqly.com/blog/export-edge-bookmarks) · [Export Firefox bookmarks](https://www.marqly.com/blog/export-firefox-bookmarks) · [Export Brave bookmarks](https://www.marqly.com/blog/export-brave-bookmarks)
+- [Export Chrome bookmarks](https://www.marqly.com/blog/export-chrome-bookmarks) · [Export Raindrop.io bookmarks](https://www.marqly.com/blog/export-raindrop-bookmarks)
+- [Export Instagram saved posts](https://www.marqly.com/blog/export-instagram-saved-posts) · [Export Reddit saved posts](https://www.marqly.com/blog/export-reddit-saved-posts) · [Export X/Twitter bookmarks](https://www.marqly.com/blog/export-twitter-x-bookmarks)
+- [Export TikTok favorites](https://www.marqly.com/blog/export-tiktok-favorites) · [Export Facebook saved](https://www.marqly.com/blog/export-facebook-saved) · [Export Threads posts](https://www.marqly.com/blog/export-threads-posts) · [Export Pinterest boards](https://www.marqly.com/blog/export-pinterest-boards)
+- [Export LinkedIn saved items](https://www.marqly.com/blog/export-linkedin-saved-items) · [Export Google Keep notes](https://www.marqly.com/blog/export-google-keep)
+- [What's in your Pocket export file](https://www.marqly.com/blog/what-is-in-your-pocket-export-file) · [How to export and migrate Pocket data](https://www.marqly.com/blog/how-to-export-migrate-pocket-data)
 
 ## Comparisons
 

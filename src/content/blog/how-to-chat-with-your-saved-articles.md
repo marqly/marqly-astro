@@ -12,7 +12,7 @@ tags:
   - "ai second brain chat"
   - "question your saved content"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "Can I chat with my saved articles and bookmarks?"
     a: "Yes. AI bookmark managers let you ask questions in plain language and answer from your own saves rather than the open web. You can ask 'what did I save about pricing?' and get a synthesized response drawn from the relevant articles and notes in your library, with the sources cited."

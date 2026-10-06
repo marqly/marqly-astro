@@ -1,7 +1,7 @@
 ---
 title: "Marqly for Teachers"
-seoTitle: "Lesson planning bookmark tool for teachers | Marqly"
-description: "Marqly helps teachers collect lesson resources, save YouTube videos with transcripts, and share resource boards students can open without creating an account."
+seoTitle: "Bookmark Manager for Teachers (2026) | Marqly"
+description: "Save lesson articles, worksheets, and videos in one click. Marqly auto-tags, summarizes, and turns any unit into a board students open without accounts."
 kind: persona
 targetKeyword: "lesson planning bookmark tool"
 navLabel: "Teachers"

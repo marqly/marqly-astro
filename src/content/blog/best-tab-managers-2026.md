@@ -13,7 +13,7 @@ tags:
   - "too many tabs open"
   - "save tabs for later"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "What is the best tab manager in 2026?"
     a: "It depends on the job. Workona is the best workspace switcher for juggling projects, OneTab is the best free one-click declutter, Toby suits visual collection-builders, Session Buddy is crash insurance, and Marqly is the best tab saver — for tabs you're closing because you want to read them later and actually find them again."

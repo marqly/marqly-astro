@@ -13,7 +13,7 @@ tags:
   - "chrome sync internals"
   - "bookmark backup"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "Why did Chrome suddenly stop syncing my bookmarks?"
     a: "The most common cause is paused sync: after a Google password change or security event, Chrome silently pauses syncing until you sign in again, and it's easy to miss the small 'Sync is paused' notice. Other frequent causes are being signed into different Google accounts on different devices, and the Bookmarks toggle being off under 'Manage what you sync'."
@@ -114,7 +114,7 @@ If your bookmarks matter enough that you just spent twenty minutes in sync-inter
 - **Getting started is one file.** Export your bookmarks to HTML — the backup you already made in step zero — and [import it in a couple of minutes](/blog/how-to-import-chrome-bookmarks-to-ai). Marqly auto-tags everything on import, which handles the [organizing pass you were never going to do manually](/blog/how-to-organize-bookmarks).
 - **Findability improves, not just reliability.** Semantic search means "that article about negotiating a raise" finds the page even when the title says something else entirely — [a fundamentally different model from folder hierarchies](/blog/stop-organizing-bookmarks-folders-obsolete).
 
-Browser bookmarks are still fine for the toolbar dozen — the sites you open daily. But the hundreds of "I'll need this someday" saves deserve storage that doesn't depend on a background process staying quietly healthy. [Try Marqly free](https://app.marqly.com) — import that HTML backup and your bookmarks stop being hostage to sync state.
+Browser bookmarks are still fine for the toolbar dozen — the sites you open daily. But the hundreds of "I'll need this someday" saves deserve storage that doesn't depend on a background process staying quietly healthy. [Get started free](https://app.marqly.com) — import that HTML backup and your bookmarks stop being hostage to sync state.
 
 ## Quick recap
 

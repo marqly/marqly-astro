@@ -11,7 +11,7 @@ tags:
   - "import browser bookmarks"
   - "bookmark manager import"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "How do I import Chrome bookmarks into an AI bookmark manager?"
     a: "Open chrome://bookmarks, click the three-dot menu, and choose Export bookmarks to save an HTML file. Then open your AI bookmark manager, find its import option, and upload that HTML file. The tool reads your links, titles, and folders, and from there you search your collection by meaning instead of by exact title."

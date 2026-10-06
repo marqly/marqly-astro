@@ -13,7 +13,7 @@ tags:
   - "backup twitter bookmarks"
   - "twitter data archive"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "Does the X (Twitter) data archive include bookmarks?"
     a: "No. The official archive you request from Settings → Your account → Download an archive of your data contains your posts, likes, DMs, and follower lists — but not your bookmarks. That's a deliberate product decision, not a bug. To export bookmarks you need a browser-based exporter tool or the paid X API."

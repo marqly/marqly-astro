@@ -11,7 +11,7 @@ tags:
   - "read it later app"
   - "ai bookmark manager"
 ctaUrl: "https://app.marqly.com/lp/replace-pocket"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "What is the best Instapaper alternative in 2026?"
     a: "Marqly is the best Instapaper alternative for people who like the clean reader but are frustrated by retrieval. It keeps the distraction-free reading view and adds semantic AI search, auto-tagging, and summaries. It imports your existing library, has a free tier, and Pro is about $6/mo."

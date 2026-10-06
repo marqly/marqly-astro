@@ -13,7 +13,7 @@ tags:
   - "second brain"
   - "bookmark organization system"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "What is the PARA method for bookmarks?"
     a: "PARA organizes saves into four buckets by actionability, not topic: Projects (active efforts with deadlines), Areas (ongoing responsibilities), Resources (topics of interest), and Archives (everything inactive). Applied to bookmarks, each link is filed by the question 'which active project or responsibility does this serve?' rather than 'what subject is this about?'"

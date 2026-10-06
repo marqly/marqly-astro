@@ -12,7 +12,7 @@ tags:
   - "bookmark organization system"
   - "declutter bookmarks"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "What is the best way to organize bookmarks in 2026?"
     a: "Let AI organize them for you. Modern AI bookmark managers auto-tag everything you save and let you search by meaning, so organization happens automatically and retrieval doesn't depend on your filing. Instead of filing things to find them later, you save things and describe them later."

@@ -11,7 +11,7 @@ tags:
   - "second brain software"
   - "note taking app"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Try Marqly free"
+ctaLabel: "Get started free"
 faqs:
   - q: "What is the best second brain app in 2026?"
     a: "There's no single best second brain app — it depends on what you want. For building knowledge by hand, Obsidian and Notion win. For low-maintenance capture and AI retrieval of what you read, a lightweight tool like Marqly wins. Pick by how much upkeep you'll actually tolerate, not by feature count."
