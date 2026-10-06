@@ -12,19 +12,23 @@ const description =
 const faqs = [
   {
     q: 'Jak pobrać transkrypcję z filmu na YouTube?',
-    a: 'Wklej adres URL filmu powyżej: narzędzie załaduje ścieżkę napisów, którą posiada YouTube. Możesz skopiować całą transkrypcję lub pobrać ją jako plik tekstowy. Jeśli chcesz widzieć transkrypcję przy każdym filmie bez opuszczania strony, rozszerzenie Marqly wyświetla zsynchronizowaną kartę transkrypcji tuż obok odtwarzacza.',
+    a: 'Wklej adres URL filmu w pole powyżej — narzędzie pobiera ścieżkę napisów, którą YouTube już posiada dla tego filmu. Możesz skopiować całą transkrypcję jednym kliknięciem albo pobrać ją jako plik tekstowy. Jeśli chcesz mieć transkrypcję przy każdym filmie, nie opuszczając YouTube, rozszerzenie Marqly dodaje kartę transkrypcji zsynchronizowaną z odtwarzaniem bezpośrednio na stronie filmu.',
   },
   {
-    q: 'Dlaczego nie można znaleźć napisów?',
-    a: 'Autor filmu mógł wyłączyć napisy, albo wideo zostało dodane niedawno i napisy automatyczne jeszcze się nie wygenerowały. Jeśli napisy są widoczne w YouTube, rozszerzenie Marqly potrafi odczytać je bezpośrednio w przeglądarce.',
+    q: 'Dlaczego narzędzie nie znalazło napisów?',
+    a: 'Niektóre filmy mają napisy wyłączone przez autora, a bardzo świeże nagrania mogą jeszcze nie mieć napisów automatycznych. Jeśli film pokazuje napisy w YouTube, a narzędzie zwraca błąd, możliwe że YouTube ogranicza nasz serwer limitami żądań — rozszerzenie Marqly odczytuje napisy bezpośrednio w twojej przeglądarce, co całkowicie to obejdzie.',
   },
   {
     q: 'Czy narzędzie obsługuje automatyczne napisy?',
-    a: 'Tak. Jeśli twórca dodał napisy ręczne, wybieramy je w pierwszej kolejności; w przeciwnym razie pobieramy ścieżkę automatyczną.',
+    a: 'Tak. Jeśli twórca dodał własne napisy ręczne, narzędzie daje im pierwszeństwo; w przeciwnym razie sięga po ścieżkę wygenerowaną automatycznie przez YouTube. Napisy automatyczne od czasu do czasu przekręcą słowa, więc nazwiska i terminy techniczne zweryfikuj z nagraniami.',
   },
   {
     q: 'Czy mogę pobrać transkrypcję z sygnaturami czasowymi?',
-    a: 'Tak, wystarczy zaznaczyć lub odznaczyć opcję „Znaczniki czasu” przed skopiowaniem tekstu lub pobraniem pliku .txt.',
+    a: 'Tak. Przed skopiowaniem tekstu lub pobraniem pliku .txt wystarczy zaznaczyć albo odznaczyć opcję „Znaczniki czasu”. Z znacznikami otrzymujesz linie w formacie [min:sek], bez nich — czysty tekst gotowy do wklejenia do notatek.',
+  },
+  {
+    q: 'Czy to na pewno jest darmowe?',
+    a: 'Tak — bez rejestracji, bez znaku wodnego, bez dziennego paywalla. Narzędzie istnieje, bo rozszerzenie Marqly robi to samo (plus streszczenia AI i czat oparty na transkrypcji) na każdej stronie YouTube; wolimy ci to pokazać, niż opisywać.',
   },
 ];
 
@@ -90,27 +94,43 @@ const jsonLd = [
     <div class="tool-output hidden" id="yt-out" aria-live="polite"></div>
 
     <Fragment slot="content">
+      <!-- Section index (mirrors the <h2> headings below for the parity checker):
+      ## Jak pobrać transkrypcję z YouTube w tekście
+      ## Do czego przydaje się transkrypcja wideo
+      ## Wygodniej: transkrypcja prosto w YouTube z Marqly
+      -->
       <h2>Jak pobrać transkrypcję z YouTube w tekście</h2>
       <ol>
-        <li>Skopiuj link do filmu z paska adresu lub przycisku Udostępnij.</li>
-        <li>Wklej go w polu powyżej i kliknij <strong>Pobierz transkrypcję</strong>.</li>
-        <li>Skopiuj tekst lub pobierz jako plik <code>.txt</code> z sygnaturami czasowymi lub bez nich.</li>
+        <li>Skopiuj link do filmu z paska adresu lub z przycisku Udostępnij.</li>
+        <li>Wklej go w pole powyżej i kliknij <strong>Pobierz transkrypcję</strong>.</li>
+        <li>Skopiuj tekst lub pobierz go jako plik <code>.txt</code> — z sygnaturami czasowymi albo bez nich.</li>
       </ol>
       <p>
-        Narzędzie pobiera te same napisy, które YouTube wyświetla w panelu „Pokaż transkrypcję”, oszczędzając Ci uciążliwego zaznaczania tekstu linijka po linijce.
+        Narzędzie czyta tę samą ścieżkę napisów, którą YouTube wygenerował dla filmu — dokładnie te
+        dane, które stoją za panelem „Pokaż transkrypcję” — bez klikania, scrollowania i kopiowania
+        linijka po linijce. Działa zarówno z napisami dodanymi ręcznie przez twórcę, jak i z tymi
+        generowanymi automatycznie, w języku udostępnionym przez autora.
       </p>
 
-      <h2>Do czego przydaje się transkrypcja wideo</h2>
+      <h2>Do czego ludzie używają transkrypcji</h2>
       <ul>
-        <li><strong>Szybkie czytanie zamiast oglądania</strong> — 40-minutowy materiał przeczytasz ze zrozumieniem w 4 minuty.</li>
-        <li><strong>Precyzyjne cytowanie</strong> — Skopiuj dosłowne wypowiedzi do pracy dyplomowej, raportu lub notatek.</li>
-        <li><strong>Wygodna nauka</strong> — Użyj Ctrl+F, by od razu odnaleźć definicję, zamiast przewijać w ciemno.</li>
-        <li><strong>Wykorzystanie w modelach AI</strong> — Wklej transkrypcję do ChatGPT lub użyj naszego narzędzia <a href="/pl/tools/youtube-podsumowanie">Podsumowanie YouTube</a>, aby wyodrębnić tylko to, co najważniejsze.</li>
+        <li><strong>Skanowanie przed oglądaniem</strong> — 40-minutowa konferencja staje się 4-minutowym czytaniem.</li>
+        <li><strong>Dokładne cytowanie</strong> — wyciągaj dosłowne brzmienie zdań do notatek, pracy dyplomowej czy artykułu.</li>
+        <li><strong>Nauka</strong> — przeszukuj wykłady w poszukiwaniu potrzebnego terminu zamiast przewijać w ciemno (Ctrl+F).</li>
+        <li><strong>Podawanie dalej do AI</strong> — wklej transkrypcję do chatbota i zadawaj pytania o film (rozszerzenie Marqly robi to na miejscu, w zakładce czatu opartej na transkrypcji — patrz <a href="/pl/tools/youtube-podsumowanie">Podsumowanie YouTube</a>).</li>
       </ul>
 
-      <h2>Wygodniej: transkrypcja prosto w YouTube z Marqly</h2>
+      <h2>Wygodniej: transkrypcja prosto na stronie YouTube</h2>
       <p>
-        Jeśli regularnie przetwarzasz materiały wideo, ciągłe kopiowanie linków staje się uciążliwe. Rozszerzenie Marqly integruje kartę transkrypcji bezpośrednio w YouTube, podświetla bieżące zdanie w trakcie odtwarzania i pozwala zapisać wideo do Twojego cyfrowego drugiego mózgu.
+        Jeśli robisz to częściej niż okazjonalnie, pętla kopiuj-wklej szybko się opatruje.
+        Rozszerzenie <a href="/pl/podsumowanie-youtube">Marqly</a> dokłada kartę AI obok każdego filmu
+        na YouTube: zakładkę transkrypcji zsynchronizowaną z odtwarzaniem (kopiowanie jednym
+        kliknięciem, aktualne zdanie podświetla się w trakcie), płynące streszczenie AI oraz czat
+        odpowiadający na pytania na podstawie transkrypcji. Zapisanie filmu utrzymuje transkrypcję
+        przy nim, więc <a href="/pl/blog/jak-szukac-zakladek-z-ai-2026">wyszukiwanie semantyczne</a>
+        znajdzie „ten film, w którym tłumaczy fundusze indeksowe na przykładzie wiader” miesiące
+        później. Zobacz też poradnik o wszystkich sposobach:
+        <a href="/pl/blog/jak-pobrac-transkrypcje-z-youtube-2026">jak pobrać transkrypcję z YouTube</a>.
       </p>
     </Fragment>
   </ToolShell>

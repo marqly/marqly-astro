@@ -23,8 +23,8 @@ const faqs = [
     a: 'Sim. Se o criador subiu legendas manuais, usamos essas; senão, a ferramenta usa a faixa automática do YouTube. Legendas automáticas às vezes erram palavras, então confira nomes e termos técnicos com o vídeo.',
   },
   {
-    q: 'Dá para baixar a transcrição?',
-    a: 'Dá. Depois de buscar a transcrição, clique em "Baixar .txt" — com ou sem marcações de tempo. O YouTube não oferece download nativo da transcrição; esta ferramenta resolve isso em um clique, grátis.',
+    q: "Isso é realmente grátis?",
+    a: 'Sim — sem cadastro, sem marca d\'água, sem limite diário pago. Esta ferramenta existe porque a extensão do Marqly faz isso (mais resumos com IA e chat ancorado na transcrição) em toda página do YouTube, e preferimos mostrar a contar.',
   },
 ];
 
@@ -90,6 +90,11 @@ const jsonLd = [
     <div class="tool-output hidden" id="yt-out" aria-live="polite"></div>
 
     <Fragment slot="content">
+      <!-- Índice do conteúdo desta página:
+## Como pegar a transcrição de um vídeo do YouTube
+## Para que serve uma transcrição
+## O jeito mais rápido: a transcrição na página do vídeo
+-->
       <h2>Como pegar a transcrição de um vídeo do YouTube</h2>
       <ol>
         <li>Copie a URL do vídeo na barra de endereço ou no botão Compartilhar.</li>

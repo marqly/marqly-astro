@@ -1,0 +1,562 @@
+{
+ "fr": [
+  {
+   "es": "/fr/outils/transcription-youtube",
+   "en": "/tools/youtube-transcript",
+   "p": 1.1,
+   "imp": 462
+  },
+  {
+   "es": "/fr/blog/exporter-favoris-chrome",
+   "en": "/blog/how-to-import-chrome-bookmarks-to-ai",
+   "p": 0.3,
+   "imp": 191
+  },
+  {
+   "es": "/fr/blog/favoris-chrome-ne-se-synchronisent-pas-solution-2026",
+   "en": "/blog/chrome-bookmarks-not-syncing-fix",
+   "p": 0.26,
+   "imp": 174
+  },
+  {
+   "es": "/fr/blog/comment-exporter-ses-enregistrements-instagram-2026",
+   "en": "/blog/export-instagram-saved-posts",
+   "p": 0.17,
+   "imp": 168
+  },
+  {
+   "es": "/fr/blog/organiser-favoris-navigateur",
+   "en": "/blog/how-to-organize-bookmarks",
+   "p": 0.25,
+   "imp": 160
+  },
+  {
+   "es": "/fr/blog/enregistrer-page-web-en-pdf",
+   "en": "/blog/save-webpage-as-pdf",
+   "p": 0.14,
+   "imp": 135
+  },
+  {
+   "es": "/fr/blog/comment-surligner-du-texte-sur-un-site-2026",
+   "en": "/blog/how-to-highlight-text-on-any-website",
+   "p": 0.18,
+   "imp": 108
+  },
+  {
+   "es": "/fr/blog/comment-exporter-ses-signets-twitter-x-2026",
+   "en": "/blog/export-twitter-x-bookmarks",
+   "p": 0.21,
+   "imp": 100
+  },
+  {
+   "es": "/fr/blog/enregistrer-videos-youtube-a-regarder-plus-tard-2026",
+   "en": "/blog/save-youtube-videos-watch-later",
+   "p": 0.43,
+   "imp": 38
+  },
+  {
+   "es": "/fr/blog/meilleurs-surligneurs-web-2026",
+   "en": "/blog/best-web-highlighters-2026",
+   "p": 0.1,
+   "imp": 31
+  },
+  {
+   "es": "/fr/enregistrer-videos-youtube",
+   "en": "/watch-later",
+   "p": 0.68,
+   "imp": 30
+  },
+  {
+   "es": "/fr/blog/avis-raindrop-io-2026",
+   "en": "/blog/raindrop-review-2026",
+   "p": 0.04,
+   "imp": 29
+  },
+  {
+   "es": "/fr/blog/comment-exporter-a-regarder-plus-tard-youtube-2026",
+   "en": "/blog/export-youtube-watch-later",
+   "p": 0.17,
+   "imp": 26
+  }
+ ],
+ "it": [
+  {
+   "es": "/it/blog/riassumere-video-youtube-con-ia-2026",
+   "en": "/blog/summarize-youtube-videos-with-ai",
+   "p": 0.18,
+   "imp": 1508
+  },
+  {
+   "es": "/it/blog/organizzare-preferiti-browser",
+   "en": "/blog/how-to-organize-bookmarks",
+   "p": 0.23,
+   "imp": 690
+  },
+  {
+   "es": "/it/blog/esportare-preferiti-chrome",
+   "en": "/blog/how-to-import-chrome-bookmarks-to-ai",
+   "p": 0.28,
+   "imp": 613
+  },
+  {
+   "es": "/it/blog/come-esportare-i-segnalibri-di-twitter-x-2026",
+   "en": "/blog/export-twitter-x-bookmarks",
+   "p": 0.2,
+   "imp": 242
+  },
+  {
+   "es": "/it/blog/come-esportare-i-post-salvati-di-instagram-2026",
+   "en": "/blog/export-instagram-saved-posts",
+   "p": 0.16,
+   "imp": 212
+  },
+  {
+   "es": "/it/blog/salvare-pagina-web-in-pdf",
+   "en": "/blog/save-webpage-as-pdf",
+   "p": 0.14,
+   "imp": 195
+  },
+  {
+   "es": "/it/salvare-video-youtube",
+   "en": "/watch-later",
+   "p": 0.61,
+   "imp": 154
+  },
+  {
+   "es": "/it/gestore-segnalibri-chrome",
+   "en": "/bookmark-manager-for-chrome",
+   "p": 0.05,
+   "imp": 145
+  },
+  {
+   "es": "/it/blog/segnalibri-chrome-non-si-sincronizzano-soluzione-2026",
+   "en": "/blog/chrome-bookmarks-not-syncing-fix",
+   "p": 0.25,
+   "imp": 93
+  },
+  {
+   "es": "/it/blog/come-esportare-guarda-piu-tardi-di-youtube-2026",
+   "en": "/blog/export-youtube-watch-later",
+   "p": 0.17,
+   "imp": 85
+  },
+  {
+   "es": "/it/blog/cos-e-un-secondo-cervello-con-ia-2026",
+   "en": "/blog/what-is-an-ai-second-brain",
+   "p": 0.27,
+   "imp": 53
+  },
+  {
+   "es": "/it/blog/come-evidenziare-testo-su-qualsiasi-sito-2026",
+   "en": "/blog/how-to-highlight-text-on-any-website",
+   "p": 0.17,
+   "imp": 52
+  },
+  {
+   "es": "/it/blog/salvare-video-youtube-da-guardare-piu-tardi-2026",
+   "en": "/blog/save-youtube-videos-watch-later",
+   "p": 0.46,
+   "imp": 50
+  }
+ ],
+ "nl": [
+  {
+   "es": "/nl/blog/chrome-bladwijzers-exporteren-2026",
+   "en": "/blog/how-to-import-chrome-bookmarks-to-ai",
+   "p": 0.1,
+   "imp": 315
+  },
+  {
+   "es": "/nl/blog/webpagina-opslaan-als-pdf-2026",
+   "en": "/blog/save-webpage-as-pdf",
+   "p": 0.13,
+   "imp": 158
+  },
+  {
+   "es": "/nl/tabbladen-beheren",
+   "en": "/tab-manager",
+   "p": 0.15,
+   "imp": 140
+  },
+  {
+   "es": "/nl/blog/chrome-bladwijzers-synchroniseren-niet-oplossing-2026",
+   "en": "/blog/chrome-bookmarks-not-syncing-fix",
+   "p": 0.25,
+   "imp": 117
+  },
+  {
+   "es": "/nl/blog/pocket-alternatieven-2026",
+   "en": "/blog/best-pocket-alternatives-2026",
+   "p": 0.32,
+   "imp": 90
+  },
+  {
+   "es": "/nl/blog/opgeslagen-instagram-berichten-exporteren-2026",
+   "en": "/blog/export-instagram-saved-posts",
+   "p": 0.17,
+   "imp": 70
+  },
+  {
+   "es": "/nl/blog/youtube-transcriptie-krijgen-2026",
+   "en": "/blog/how-to-get-youtube-video-transcript",
+   "p": 0.23,
+   "imp": 59
+  },
+  {
+   "es": "/nl/blog/tekst-markeren-op-elke-website-2026",
+   "en": "/blog/how-to-highlight-text-on-any-website",
+   "p": 0.17,
+   "imp": 48
+  },
+  {
+   "es": "/nl/web-highlighter",
+   "en": "/web-highlighter",
+   "p": 0.15,
+   "imp": 40
+  },
+  {
+   "es": "/nl/blog/twitter-x-bladwijzers-exporteren-2026",
+   "en": "/blog/export-twitter-x-bookmarks",
+   "p": 0.19,
+   "imp": 40
+  },
+  {
+   "es": "/nl/voor-oprichters",
+   "en": "/for-founders",
+   "p": 0.04,
+   "imp": 38
+  },
+  {
+   "es": "/nl/blog/youtube-later-bekijken-exporteren-2026",
+   "en": "/blog/export-youtube-watch-later",
+   "p": 0.18,
+   "imp": 35
+  },
+  {
+   "es": "/nl/voor-journalisten",
+   "en": "/for-journalists",
+   "p": 0.14,
+   "imp": 32
+  }
+ ],
+ "pl": [
+  {
+   "es": "/pl/blog/jak-pobrac-transkrypcje-z-youtube-2026",
+   "en": "/blog/how-to-get-youtube-video-transcript",
+   "p": 0.19,
+   "imp": 822
+  },
+  {
+   "es": "/pl/blog/zakladki-chrome-nie-synchronizuja-sie-rozwiazanie-2026",
+   "en": "/blog/chrome-bookmarks-not-syncing-fix",
+   "p": 0.25,
+   "imp": 369
+  },
+  {
+   "es": "/pl/blog/jak-zapisac-strone-jako-pdf-2026",
+   "en": "/blog/save-webpage-as-pdf",
+   "p": 0.12,
+   "imp": 273
+  },
+  {
+   "es": "/pl/blog/jak-wyeksportowac-zakladki-chrome-2026",
+   "en": "/blog/how-to-import-chrome-bookmarks-to-ai",
+   "p": 0.1,
+   "imp": 169
+  },
+  {
+   "es": "/pl/tools/youtube-transkrypcja",
+   "en": "/tools/youtube-transcript",
+   "p": 0.72,
+   "imp": 168
+  },
+  {
+   "es": "/pl/blog/jak-wyeksportowac-zakladki-z-twittera-x-2026",
+   "en": "/blog/export-twitter-x-bookmarks",
+   "p": 0.17,
+   "imp": 88
+  },
+  {
+   "es": "/pl/blog/jak-wyeksportowac-zapisane-posty-z-instagrama-2026",
+   "en": "/blog/export-instagram-saved-posts",
+   "p": 0.16,
+   "imp": 64
+  },
+  {
+   "es": "/pl/blog/alternatywy-pocket-2026",
+   "en": "/blog/best-pocket-alternatives-2026",
+   "p": 0.15,
+   "imp": 55
+  },
+  {
+   "es": "/pl/blog/jak-streszczac-filmy-youtube-z-ai-2026",
+   "en": "/blog/summarize-youtube-videos-with-ai",
+   "p": 0.17,
+   "imp": 46
+  },
+  {
+   "es": "/pl/menedzer-zakladek-safari",
+   "en": "/bookmark-manager-for-safari",
+   "p": 0.04,
+   "imp": 35
+  },
+  {
+   "es": "/pl/menedzer-kart",
+   "en": "/tab-manager",
+   "p": 0.13,
+   "imp": 33
+  },
+  {
+   "es": "/pl/blog/jak-zapisywac-filmy-youtube-do-obejrzenia-na-pozniej-2026",
+   "en": "/blog/save-youtube-videos-watch-later",
+   "p": 0.41,
+   "imp": 28
+  },
+  {
+   "es": "/pl/blog/jak-zaznaczac-tekst-na-stronach-www-2026",
+   "en": "/blog/how-to-highlight-text-on-any-website",
+   "p": 0.16,
+   "imp": 26
+  }
+ ],
+ "pt": [
+  {
+   "es": "/pt/blog/exportar-favoritos-chrome",
+   "en": "/blog/how-to-import-chrome-bookmarks-to-ai",
+   "p": 0.31,
+   "imp": 731
+  },
+  {
+   "es": "/pt/blog/conversar-com-videos-do-youtube-2026",
+   "en": "/blog/chat-with-youtube-videos",
+   "p": 0.13,
+   "imp": 494
+  },
+  {
+   "es": "/pt/blog/como-exportar-itens-salvos-do-twitter-x-2026",
+   "en": "/blog/export-twitter-x-bookmarks",
+   "p": 0.22,
+   "imp": 259
+  },
+  {
+   "es": "/pt/blog/favoritos-do-chrome-nao-sincronizam-solucao-2026",
+   "en": "/blog/chrome-bookmarks-not-syncing-fix",
+   "p": 0.34,
+   "imp": 254
+  },
+  {
+   "es": "/pt/ferramentas/transcricao-de-video-do-youtube",
+   "en": "/tools/youtube-transcript",
+   "p": 1.13,
+   "imp": 248
+  },
+  {
+   "es": "/pt/blog/como-exportar-posts-salvos-do-instagram-2026",
+   "en": "/blog/export-instagram-saved-posts",
+   "p": 0.18,
+   "imp": 199
+  },
+  {
+   "es": "/pt/blog/como-destacar-texto-em-qualquer-site-2026",
+   "en": "/blog/how-to-highlight-text-on-any-website",
+   "p": 0.21,
+   "imp": 149
+  },
+  {
+   "es": "/pt/blog/salvar-pagina-web-como-pdf",
+   "en": "/blog/save-webpage-as-pdf",
+   "p": 0.16,
+   "imp": 81
+  },
+  {
+   "es": "/pt/gerenciador-favoritos-safari",
+   "en": "/bookmark-manager-for-safari",
+   "p": 0.05,
+   "imp": 74
+  },
+  {
+   "es": "/pt/blog/o-que-e-um-segundo-cerebro-com-ia-2026",
+   "en": "/blog/what-is-an-ai-second-brain",
+   "p": 0.35,
+   "imp": 66
+  },
+  {
+   "es": "/pt/blog/organizar-favoritos-navegador",
+   "en": "/blog/how-to-organize-bookmarks",
+   "p": 0.24,
+   "imp": 64
+  },
+  {
+   "es": "/pt/blog/melhores-apps-segundo-cerebro-2026",
+   "en": "/blog/best-second-brain-apps-2026",
+   "p": 0.11,
+   "imp": 50
+  },
+  {
+   "es": "/pt/salvar-videos-youtube",
+   "en": "/watch-later",
+   "p": 0.66,
+   "imp": 35
+  }
+ ],
+ "tr": [
+  {
+   "es": "/tr/blog/instagram-kaydedilen-gonderileri-disa-aktarma-2026",
+   "en": "/blog/export-instagram-saved-posts",
+   "p": 0.14,
+   "imp": 716
+  },
+  {
+   "es": "/tr/blog/youtube-video-transkripti-alma-2026",
+   "en": "/blog/how-to-get-youtube-video-transcript",
+   "p": 0.19,
+   "imp": 187
+  },
+  {
+   "es": "/tr/blog/chrome-yer-imlerini-disa-aktarma-2026",
+   "en": "/blog/how-to-import-chrome-bookmarks-to-ai",
+   "p": 0.09,
+   "imp": 180
+  },
+  {
+   "es": "/tr/blog/ikinci-beyin-nasil-olusturulur-2026",
+   "en": "/blog/how-to-build-a-second-brain",
+   "p": 0.5,
+   "imp": 142
+  },
+  {
+   "es": "/tr/blog/web-sayfasini-pdf-olarak-kaydetme-2026",
+   "en": "/blog/save-webpage-as-pdf",
+   "p": 0.12,
+   "imp": 134
+  },
+  {
+   "es": "/tr/blog/youtube-videolarini-daha-sonra-izle-kaydetme-2026",
+   "en": "/blog/save-youtube-videos-watch-later",
+   "p": 0.35,
+   "imp": 131
+  },
+  {
+   "es": "/tr/blog/chrome-yer-imleri-senkronize-olmuyor-cozum-2026",
+   "en": "/blog/chrome-bookmarks-not-syncing-fix",
+   "p": 0.24,
+   "imp": 119
+  },
+  {
+   "es": "/tr/blog/twitter-x-yer-imlerini-disa-aktarma-2026",
+   "en": "/blog/export-twitter-x-bookmarks",
+   "p": 0.18,
+   "imp": 42
+  },
+  {
+   "es": "/tr/daha-sonra-izle",
+   "en": "/watch-later",
+   "p": 0.21,
+   "imp": 38
+  },
+  {
+   "es": "/tr/yeni-sekme-panosu",
+   "en": "/new-tab-dashboard",
+   "p": 0.04,
+   "imp": 36
+  },
+  {
+   "es": "/tr/blog/youtube-daha-sonra-izle-disa-aktarma-2026",
+   "en": "/blog/export-youtube-watch-later",
+   "p": 0.16,
+   "imp": 36
+  },
+  {
+   "es": "/tr/ikinci-beyin",
+   "en": "/second-brain",
+   "p": 0.21,
+   "imp": 24
+  },
+  {
+   "es": "/tr/pano-gecmisi",
+   "en": "/clipboard-history",
+   "p": 0.03,
+   "imp": 21
+  }
+ ],
+ "zh": [
+  {
+   "es": "/zh/blog/export-twitter-x-bookmarks-2026",
+   "en": "/blog/export-twitter-x-bookmarks",
+   "p": 0.29,
+   "imp": 100
+  },
+  {
+   "es": "/zh/blog/pocket-tidai-2026",
+   "en": "/blog/best-pocket-alternatives-2026",
+   "p": 0.55,
+   "imp": 55
+  },
+  {
+   "es": "/zh/blog/wangye-baocun-wei-pdf-zhinan-2026",
+   "en": "/blog/save-webpage-as-pdf",
+   "p": 0.22,
+   "imp": 46
+  },
+  {
+   "es": "/zh/blog/best-youtube-summarizers-2026",
+   "en": "/blog/best-youtube-summarizers-2026",
+   "p": 0.35,
+   "imp": 45
+  },
+  {
+   "es": "/zh/bookmark-sync",
+   "en": "/bookmark-sync",
+   "p": 0.07,
+   "imp": 31
+  },
+  {
+   "es": "/zh/blog/youtube-zimu-wenzigao-huoqu-2026",
+   "en": "/blog/how-to-get-youtube-video-transcript",
+   "p": 0.35,
+   "imp": 28
+  },
+  {
+   "es": "/zh/blog/export-reddit-saved-posts-2026",
+   "en": "/blog/export-reddit-saved-posts",
+   "p": 0.43,
+   "imp": 27
+  },
+  {
+   "es": "/zh/blog/shaohou-yuedu-app-2026",
+   "en": "/blog/best-read-it-later-apps-2026",
+   "p": 1,
+   "imp": 26
+  },
+  {
+   "es": "/zh/blog/export-youtube-watch-later-2026",
+   "en": "/blog/export-youtube-watch-later",
+   "p": 0.33,
+   "imp": 26
+  },
+  {
+   "es": "/zh/blog/export-instagram-saved-posts-2026",
+   "en": "/blog/export-instagram-saved-posts",
+   "p": 0.31,
+   "imp": 26
+  },
+  {
+   "es": "/zh/web-highlighter",
+   "en": "/web-highlighter",
+   "p": 0.21,
+   "imp": 25
+  },
+  {
+   "es": "/zh/blog/how-to-build-a-second-brain-2026",
+   "en": "/blog/how-to-build-a-second-brain",
+   "p": 0.87,
+   "imp": 25
+  },
+  {
+   "es": "/zh/for-teachers",
+   "en": "/for-teachers",
+   "p": 0.28,
+   "imp": 22
+  }
+ ]
+}

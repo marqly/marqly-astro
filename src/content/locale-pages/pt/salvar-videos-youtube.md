@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
-updatedDate: 2026-08-16
+updatedDate: 2026-10-06
 ---
 
 Todo mundo tem uma lista de "Assistir mais tarde" com duzentos vídeos e todo mundo sabe que não vai assistir nenhum. Não é problema de força de vontade: é que a lista **não dá nenhuma informação** sobre o que tem dentro.
@@ -72,20 +72,32 @@ E ele aparece, mesmo que o título não diga nada disso e mesmo que você não l
 
 A lista pode crescer sem limite sem virar problema, porque deixou de ser uma fila: virou uma biblioteca consultável.
 
+## Quadros evitam que a fila vire uma pilha só
+
+Uma única lista de «assistir mais tarde» é uma gaveta de tranqueiras. Os quadros do Marqly deixam você agrupar salvamentos de propósito: um quadro para a série de marcenaria que você acompanha, outro para palestras de conferência, outro para o tema que está pesquisando este mês — vídeos e artigos lado a lado, porque os quadros seguram qualquer link mais destaques.
+
+Os quadros podem ser compartilhados como páginas públicas, visíveis sem cadastro — útil quando alguém pede «aquela lista de vídeos que você comentou». E se suas sessões de pesquisa no YouTube terminam com uma dúzia de abas abertas, o salvador de abas [captura todas as abas abertas de uma vez](/faq/how-do-i-save-all-my-open-tabs).
+
 ## Onde funciona especialmente bem
 
-- **Cursos e palestras**: achar o minuto em que se explica um conceito.
-- **Tutoriais técnicos**: encontrar o comando mencionado de passagem.
+- **Cursos e palestras**: achar o minuto em que se explica um conceito, em vez de revê-la inteira.
+- **Tutoriais técnicos**: encontrar o comando mencionado de passagem na transcrição, com timestamps sincronizados.
 - **Receitas**: pular para o passo sem rebobinar com a mão suja. Está detalhado em [organizar receitas](/pt/organizar-receitas).
-- **Entrevistas e coletivas**: recuperar uma declaração exata.
+- **Entrevistas e coletivas**: recuperar uma declaração exata e citar com as palavras certas.
 - **Vídeos de viagem**: extrair os lugares citados, como em [planejar viagens](/pt/planejar-viagens).
+- **Estudo e revisão**: a transcrição salva entra na busca semântica — revisar uma disciplina vira buscar, não rebobinar.
 
 ## O que ele não faz
 
-O Marqly **não baixa vídeos** nem permite assistir offline. O que é salvo é o vídeo, o resumo e a transcrição — não o arquivo.
+O Marqly **não baixa vídeos** nem permite assistir offline. O que é salvo é o link do vídeo, o resumo e a transcrição — não o arquivo. A leitura offline (Pro) cacheia páginas de artigo, não a reprodução: assistir continua sendo no YouTube, com conexão. E os recursos do YouTube pedem a extensão — se você assiste exclusivamente pelo app móvel do YouTube, o passo de captura não estará lá (o app de iOS e o web app servem para a sua biblioteca).
 
 ## Comece
 
-Conta grátis e sem cartão em [app.marqly.com](https://app.marqly.com), instale a extensão e teste com o próximo vídeo longo que você ia deixar para depois: leia o resumo primeiro. Na maioria das vezes você vai descobrir que não precisava assistir, e essa é metade do valor.
+1. Instale a extensão do Marqly para Chrome, Edge, Firefox ou Safari.
+2. Crie conta grátis e sem cartão em [app.marqly.com](https://app.marqly.com).
+3. Abra qualquer vídeo do YouTube e use o botão de favorito na fileira de ações.
+4. Da próxima vez que for salvar um vídeo, leia o resumo primeiro — metade das vezes ele responde a pergunta e economiza os 40 minutos.
 
-Se sua pilha também tem artigos, veja [salvar para ler depois](/pt/salvar-para-ler-depois) e [lista de leitura](/pt/lista-de-leitura).
+O plano gratuito cobre o fluxo central de salvar e triar; o Pro ($72/ano, uns $6/mês no faturamento anual, ou $9/mês) acrescenta a aba de chat e o Q&A por IA sobre seus salvamentos em geral.
+
+Se o problema real é uma lista Assistir mais tarde que você nunca processa — longa demais para encarar, impossível de buscar — salvar com transcrição e triar com resumo é a correção. O plano grátis é o teste de baixo risco. Se sua pilha também tem artigos, veja [salvar para ler depois](/pt/salvar-para-ler-depois) e [lista de leitura](/pt/lista-de-leitura).
