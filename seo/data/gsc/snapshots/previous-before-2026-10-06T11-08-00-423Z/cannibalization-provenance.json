@@ -1,0 +1,14 @@
+{
+  "source": "Google Search Console Search Analytics API",
+  "status": "live pull 2026-10-06",
+  "site": "sc-domain:marqly.com",
+  "startDate": "2026-07-06",
+  "endDate": "2026-10-03",
+  "generatedAt": "2026-10-06T11:02:06.141Z",
+  "coverage": "All rows available to this aggregate API request were paginated until exhaustion. This is not exhaustive Google search data: Search Console may omit anonymized/privacy-protected queries, drop some query/page rows, and returns at most 50,000 rows per day per search type.",
+  "windowDays": 90,
+  "analysisScope": "Paginated API-visible dataset; source omissions remain possible",
+  "inputRows": {
+    "query_page": 9320
+  }
+}

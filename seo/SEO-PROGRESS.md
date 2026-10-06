@@ -6,14 +6,14 @@ Mission: page-1 (pos 6–12) → top 3. Constraints in leverage order: authority
 
 | Phase | Days | State | Gate |
 |---|---|---|---|
-| 0 Instrumentation + baseline | 1–2 | genuine 90-day UI baseline ingested; 16-month API and query×page still blocked on Full grant. Capped exports cannot support pruning. See `reports/02-data-access-2026-10-06.md` | Gate 0 reported |
+| 0 Instrumentation + baseline | 1–2 | done: real 16-month API history + 90-day decision dataset, analysis and dated KPIs. See `reports/03-live-api-2026-10-06.md` | Gate 0 reported |
 | 1 Stop the bleeding | 3–7 | **largely DONE (local, gated).** Parity gate, E-E-A-T, titles/metas, hreflang cleanup, tools, ADRs, truth-fixes. GSC-dependent bits (prompt prune, FAQ merge-by-demand, top-100 title hand-tune) queued. | **Gate 1 report → `reports/01-gate-1.md`** |
 | 2 CTR blitz + striking-distance | 8–14 | partial (titles done; 6 tools expanded; 48 tier-1 localized upgraded). Per-page GSC strikes pending. | — |
 | 3 Money terms + clusters | 15–23 | started: `/bookmark-manager` pillar + `/research` study + homepage AEO + 11 export posts. | — |
 | 4 Authority engine | 3–28 (parallel) | **kit PREPARED** (`seo/outreach/`), owner-authorized sends. Study asset built locally; production verification pending. | — |
 | 5 AEO + measurement | 26–30 | scripts ready (`weekly-report.mjs`, `indexnow.mjs`); AI-citation tracking pending owner. | — |
 
-**NOT DEPLOYED.** All changes are local + pass 25 build gates. The 2026-10-06 handoff authorizes deployment via `git push marqly-astro feat/seo-program-phase1:main` after fresh build, gates, and visual checks. No deployment, outreach send, or GSC permission change has been completed in this continuation yet.
+**NOT DEPLOYED.** All changes are local + pass 25 build gates. The 2026-10-06 handoff authorizes deployment via `git push marqly-astro feat/seo-program-phase1:main` after fresh build, gates, and visual checks. Owner confirmed the Full GSC grant on 2026-10-06; API access is verified. Bing’s existing connection and canonical host are verified, sitemap resubmitted, and IndexNow key file prepared. No deployment or outreach send completed yet.
 
 ## KPI deltas (owner snapshot baseline → local after 2026-10-05)
 
@@ -29,14 +29,14 @@ Mission: page-1 (pos 6–12) → top 3. Constraints in leverage order: authority
 | On-strategy tools expanded (≥400w, WebApp schema) | — | **6** (1.1–2K words) | 9 |
 | Truth-bugs fixed (Pocket-HTML; pl dates) | live | **fixed + gate 13 added** | — |
 | Cannibalization consolidation (X-vs-Marqly→/compare) | — | verified already done (prior) | — |
-| Bing WMT + IndexNow | no | Google sign-in verified; GSC connection approval pending; no sites/key imported | yes |
+| Bing WMT + IndexNow | no | Existing GSC connection/site verified; sitemap resubmitted; public key prepared, dry run passed | yes |
 
 ## Task board
 
 ### Phase 0 — final
 - [x] repo map · data layer (6 scripts incl `gsc_ingest_ui.mjs` UI-export fallback) · fresh 1,914-URL crawl → `seo/data/crawl/` · redirect verification (all PASS) · ghost-query triage (no on-page source; needs query×page)
 - [x] Genuine UI fallback: six-month raw bundle preserved; exact 90-day query/page/country/device/date CSVs ingested with provenance and immutable snapshots. Query/page each reach 1,000 rows.
-- [ ] **BLOCKER:** confirm the prepared Full grant to `marqly-seo@concise-orb-346113.iam.gserviceaccount.com` on `sc-domain:marqly.com`. API still returns 403. Native UI bundle lacks query×page; complete opportunity, cannibalization, prompt pruning and full query KPIs remain pending.
+- [x] Owner granted Full access; both real API datasets collected (nine pulls each), query×page analysis and opportunity scoring generated. Canonical manifest is live API / complete. UI fallback remains archived. Bing’s existing read-only connection and apex/www registration verified; sitemap resubmitted and IndexNow key prepared.
 
 ### Phase 1 — remaining (GSC/data-dependent)
 - [ ] 1.2 prompt-gallery prune — ADR-002 ready; needs per-URL clicks. Do not treat URLs missing from the capped UI export as zero-demand.
@@ -59,7 +59,7 @@ _done 2026-10-05 (7 rounds)_; 3.2 remaining money-lander upgrades (read-it-later
 ### Phase 5 — measurement
 - [x] `weekly-report.mjs` (dated exposure cohorts; comparable-window deltas only) · `indexnow.mjs` (Bing/ChatGPT index ping, key via env)
 - [ ] AI-citation tracking (owner runs the fixed prompt set; log to `seo/data/ai-citations.csv`)
-- [ ] GSC API access for position tracking (BLOCKER above)
+- [x] GSC API access for position tracking, 16-month history and exact 90-day baseline (2026-10-06).
 
 ## Gates & deploy
 - `npm run seo:check` → **25 gates** (added: gate 11 ADR-001 parity 3-surface consistency; gate 12 SERP length ≤60/≤160; gate 13 Pocket-HTML truth). All negative-tested.
@@ -90,7 +90,7 @@ _done 2026-10-05 (7 rounds)_; 3.2 remaining money-lander upgrades (read-it-later
 - Script audit found 16-month/90-day window mismatch, silent rate-limit skip, absent live manifest, and predeployment cohort misclassification; corrections completed and validated in Phase B below.
 - Author headshot path requested; no image set. Day-30 outcomes remain unmeasured: no elapsed postdeployment observation window exists.
 
-## Continuation evidence — 2026-10-06, Phase B partial
+## Earlier continuation evidence — 2026-10-06, Phase B partial (superseded by API access below)
 
 - Real owner exports preserved under `seo/data/gsc/exports/2026-10-06/{6mo,90d}` with account, property, dates and SHA-256 records. Six-month window: 2026-04-04..2026-10-03. Current decision window: exactly 2026-07-06..2026-10-03 (90 days), not the UI's calendar three-month preset.
 - Canonical `MANIFEST.json` identifies genuine UI exports, partial completion, per-file windows and 1,000-row caps. Current rows: query 1,000; page 1,000; country 222; device 3; date 90. Earlier owner-snapshot evidence remains archived under `snapshots/`.
@@ -102,13 +102,22 @@ _done 2026-10-05 (7 rounds)_; 3.2 remaining money-lander upgrades (read-it-later
 
 ## Dated baseline and Day-30 measurements
 
-| Metric | Genuine baseline, 2026-07-06..2026-10-03 | Day 30 | Source / limitation |
+| Metric | API baseline, 2026-07-06..2026-10-03 | Day 30 | Source / limitation |
 |---|---|---|---|
 | Property clicks | 3,338 | Unmeasured | GSC UI daily chart; 90 rows |
 | Property impressions | 235,062 | Unmeasured | GSC UI daily chart; 90 rows |
 | US CTR | 0.68% (502 / 73,711) | Unmeasured | GSC UI country aggregate |
-| Full top-50 nonbrand query CTR | Unmeasured | Unmeasured | 1,000-row query export cannot establish full top-50 by impressions |
-| Full nonbrand top-3 count | Unmeasured | Unmeasured | Export contains 8 qualifying queries; observed lower bound only |
+| Top-50 API-visible nonbrand query CTR | 0.32% (64 / 20,255) | Unmeasured | Real paginated API dataset; ranked by impressions, brand/ghost noise excluded |
+| API-visible nonbrand top-3 count | 11 | Unmeasured | ≥10 impressions; brand/ghost noise excluded; Google may omit queries |
 | Top-50 **exported** nonbrand query CTR | 0.32% (partial sample) | Unmeasured | Exploratory sample metric, not the full KPI |
 
 Day 30 is not an elapsed postdeployment period. Future outcomes remain unmeasured; the weekly report at `reports/weekly-2026-10-06.md` records the current evidence.
+
+## Current continuation evidence — 2026-10-06, Phase B complete
+
+- Owner message confirms Full access. Real API history (2025-06-06..2026-10-03) published under `seo/data/gsc/history-16mo`; 90-day decision dataset (2026-07-06..2026-10-03) published under `seo/data/gsc`. All nine dimensions complete with available-row pagination; privacy/source omissions remain documented.
+- Current API rows: query 7,487; page 2,010; query×page 9,320; country 222; device 3; date 90; country×page 7,375; country×query 19,271; legacy-named page_country_date 7,375 (actual dimensions page/country recorded). Property and US totals match the genuine UI exports.
+- Complete analysis: 578 opportunity page rows, 412 query rows; 168 co-owner rows across 72 queries. Of these, 28 clusters are ghost noise and 44 are candidates for intent review. Co-ownership is not by itself proof that a redirect is warranted. Pocket’s listicle remains the intended owner; mixed-locale rows and distinct review/alternative/compare intents require care.
+- Bing existing connection `amroshahbari@gmail.com` verified; Google explicitly shows existing Search Console read-only access. Refreshed that same connection without adding scopes. GSC import found no new sites; manual www check returns **Site already added**. Bing already tracks www URLs in the apex-domain site. Marketing sitemap resubmitted at about 11:04Z and shown Submitted/Processing. App sitemap left untouched.
+- Generated a protocol-compatible public IndexNow key locally (not a private Bing Webmaster API credential), stored in ignored `.env`, and added its public text file. This corrects the handoff’s assumption that Settings exposes an IndexNow key; Settings’ API access is a different credential. Dry run exits 0 for 1,343 sitemap URLs. Real submission follows deployment and live key verification.
+- 12/12 tests, fresh build exit 0 and 25/25 SEO gates pass. Concurrent `src/data/competitors/mymind.json` edit appeared during this phase; preserved and excluded from this phase’s staging. Phase C next; deployment dates and Day-30 outcomes remain pending.

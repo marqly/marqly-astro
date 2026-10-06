@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 2,
+  "source": "Google Search Console Search Analytics API",
+  "status": "live pull 2026-10-06",
+  "completion": "complete",
+  "generatedAt": "2026-10-06T11:08:00.423Z",
+  "pullDate": "2026-10-06",
+  "site": "sc-domain:marqly.com",
+  "startDate": "2025-06-06",
+  "endDate": "2026-10-03",
+  "window": {
+    "kind": "default16mo",
+    "months": 16
+  },
+  "dimensions": {
+    "date": [
+      "date"
+    ]
+  },
+  "rowCounts": {
+    "date": 485
+  },
+  "pulls": {
+    "date": {
+      "file": "date.csv",
+      "dimensions": [
+        "date"
+      ],
+      "rows": 485,
+      "truncated": false,
+      "truncationScope": "No client-side row cap; Search Console API coverage limits still apply.",
+      "paginationExhausted": true,
+      "startDate": "2025-06-06",
+      "endDate": "2026-10-03"
+    }
+  },
+  "coverage": "All rows available to this aggregate API request were paginated until exhaustion. This is not exhaustive Google search data: Search Console may omit anonymized/privacy-protected queries, drop some query/page rows, and returns at most 50,000 rows per day per search type.",
+  "documentation": [
+    "https://developers.google.com/webmaster-tools/v1/searchanalytics/query",
+    "https://developers.google.com/webmaster-tools/v1/how-tos/all-your-data"
+  ]
+}

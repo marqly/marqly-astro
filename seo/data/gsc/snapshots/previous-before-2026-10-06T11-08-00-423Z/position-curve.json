@@ -1,0 +1,107 @@
+{
+  "generatedAt": "2026-10-06T11:02:27.185Z",
+  "provenance": {
+    "source": "Google Search Console Search Analytics API",
+    "status": "live pull 2026-10-06",
+    "site": "sc-domain:marqly.com",
+    "startDate": "2026-07-06",
+    "endDate": "2026-10-03",
+    "generatedAt": "2026-10-06T11:02:06.141Z",
+    "coverage": "All rows available to this aggregate API request were paginated until exhaustion. This is not exhaustive Google search data: Search Console may omit anonymized/privacy-protected queries, drop some query/page rows, and returns at most 50,000 rows per day per search type.",
+    "windowDays": 90,
+    "analysisScope": "Paginated API-visible dataset; source omissions remain possible",
+    "inputRows": {
+      "query": 7487,
+      "page": 2010
+    }
+  },
+  "model": "score = impressions × max(0, ctr(pos−3) − ctr(pos))",
+  "prior_ASSUMED": {
+    "1": 0.276,
+    "2": 0.158,
+    "3": 0.11,
+    "4": 0.084,
+    "5": 0.063,
+    "6": 0.049,
+    "8": 0.037,
+    "10": 0.031,
+    "12": 0.026,
+    "15": 0.02,
+    "20": 0.013,
+    "30": 0.007,
+    "50": 0.003
+  },
+  "empirical_buckets": {
+    "1": {
+      "imp": 300,
+      "clk": 9
+    },
+    "2": {
+      "imp": 343,
+      "clk": 25
+    },
+    "3": {
+      "imp": 452,
+      "clk": 11
+    },
+    "4": {
+      "imp": 761,
+      "clk": 34
+    },
+    "5": {
+      "imp": 1646,
+      "clk": 34
+    },
+    "6": {
+      "imp": 1559,
+      "clk": 23
+    },
+    "8": {
+      "imp": 5941,
+      "clk": 98
+    },
+    "10": {
+      "imp": 15333,
+      "clk": 85
+    },
+    "12": {
+      "imp": 4147,
+      "clk": 30
+    },
+    "15": {
+      "imp": 2560,
+      "clk": 21
+    },
+    "20": {
+      "imp": 5013,
+      "clk": 16
+    },
+    "30": {
+      "imp": 9575,
+      "clk": 13
+    },
+    "50": {
+      "imp": 14585,
+      "clk": 2
+    },
+    "60": {
+      "imp": 3672,
+      "clk": 1
+    }
+  },
+  "final_curve": {
+    "1": 0.2731,
+    "2": 0.1568,
+    "3": 0.1085,
+    "4": 0.0828,
+    "5": 0.0604,
+    "6": 0.047,
+    "8": 0.0331,
+    "10": 0.0217,
+    "12": 0.0217,
+    "15": 0.0189,
+    "20": 0.0114,
+    "30": 0.0054,
+    "50": 0.0019
+  }
+}

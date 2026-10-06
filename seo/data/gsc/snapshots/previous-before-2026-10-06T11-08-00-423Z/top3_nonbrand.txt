@@ -1,0 +1,11 @@
+"raindrop vs karakeep"	1.8076923076923077	26	7
+"karakeep vs raindrop"	1.7941176470588234	68	4
+"wallabag alternatives"	2.5	28	3
+"raindrop.io 후기"	2.2142857142857144	14	1
+"bookmarks apps"	1	16	0
+"compare matter studio's ai offerings with competitors"	2.9318181818181817	44	0
+"export instagram saved posts"	2.6363636363636367	11	0
+"prompts para ia de imagens profissionais de produtos"	1	14	0
+"teams using bookmark manager solutions to tag documents by jurisdiction and legal precedent references."	2.9176470588235297	85	0
+"website clipper gratis"	1	12	0
+"workana alternatives"	1	16	0

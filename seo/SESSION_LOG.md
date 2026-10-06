@@ -1,5 +1,20 @@
 # SESSION_LOG — append one entry per session (newest on top)
 
+## 2026-10-06 — Phase B complete after owner Full grant
+
+**Done / evidence**
+- Owner confirmed Full GSC access in chat. API history pull started 11:01:45Z and exited 0: all nine dimensions for 2025-06-06..2026-10-03, preserved under `seo/data/gsc/history-16mo`. Current 90-day pull started 11:02:06Z and exited 0: all nine dimensions for 2026-07-06..2026-10-03, canonical live API manifest and snapshots. Service-account key stayed outside repository.
+- Current rows: query 7,487; page 2,010; query×page 9,320. Ran `seo:cannibal` and `seo:score` successfully. 72 co-owner clusters / 168 rows (28 ghost-query clusters, 44 intent-review candidates); 578 page opportunities / 412 query opportunities.
+- API KPI baseline: top-50 nonbrand query CTR 64/20,255 = 0.32%; US CTR 502/73,711 = 0.68%; nonbrand top-3 count 11 with ≥10 impressions. Property total 3,338 clicks / 235,062 impressions matches genuine UI chart. API-visible counts do not recover omitted/private Google queries. Weekly report regenerated from real API data.
+- 11:03–11:07Z, personal Chrome `amroshahbari@gmail.com`, `https://www.bing.com/webmasters`: existing Marqly property and Google connection verified. Google explicitly lists existing View Search Console data / email / identity access; refreshed equivalent connection without new scope. Import returns no new sites; www manual check returns **Site already added**. Existing IndexNow history contains www Marqly URLs. No app/help property setting altered.
+- Marketing sitemap `https://www.marqly.com/sitemap-index.xml` submitted at approximately 11:04Z; UI verified 2026-10-06 Submitted / Processing. Existing app sitemap untouched.
+- Prepared public IndexNow verification file with locally generated 32-hex protocol key, stored runtime value only in ignored `.env`; no private Webmaster API key accessed or created. Dry run exits 0 for 1,343 sitemap URLs. See [official protocol](https://www.indexnow.org/documentation) and [Bing setup](https://www.bing.com/indexnow/getstarted). Real ping deferred until live key file is verified after C.
+- Focused tests 12/12; fresh build exit 0; 25/25 SEO gates PASS (1,935 analysed pages / 1,343 sitemap URLs). Evidence logs in `active/tmp/*gsc-access-2026-10-06.log`. Concurrent mymind fact-sheet edit appeared during the phase; preserved and not staged into the data/setup commit.
+
+**Next**
+- Phase C: fresh remote safety check, clean committed-source build and visual checks, authorized production push, live canonical/sitemap/noindex/redirect verification, deploy dates, IndexNow and GSC sitemap resubmit. Then D → E → F. No deployment or outreach has occurred yet. Owner headshot path still requested; Day-30 observation window does not exist yet.
+
+
 ## 2026-10-06 — Continuation, Phase B partial data recovery
 
 **Done / evidence**
