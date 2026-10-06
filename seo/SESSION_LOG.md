@@ -1,5 +1,13 @@
 # SESSION_LOG — append one entry per session (newest on top)
 
+## 2026-10-06 — Phase C live and indexing receipts
+
+- Published validated `132def5` to production with a normal fast-forward push after fresh fetch, build, 25 gates and desktop/mobile visual checks. Cloudflare build succeeded 11:34:27Z; verified live 11:34:45Z: required pages 200 + canonical, French noindex, sitemap 1,343, public key exact match. Redirect/chain checks pass. Candidate backed up on origin; original concurrent checkout remains untouched.
+- Search Console owner Chrome `amroshahbari@gmail.com` returned “Sitemap submitted successfully” for the marketing sitemap around 11:35Z. No app/help sitemap changed.
+- IndexNow central endpoint 403 was logged. Bing official endpoint accepted all 1,343 URLs with HTTP 200; script now supports `--engine=bing`. Receipt ≠ indexing.
+- Filled 511 pending deploy attribution rows with 2026-10-06; report `reports/05-live-deployment-2026-10-06.md`. Weekly postdeployment snapshot generated with Day-30 still unavailable.
+- Next: Phase D data-driven work, followed by actual product screenshots and logged owner-authorized outreach. Do not propagate the concurrent handwritten 1.12% CTR; measured by-impressions baseline is 0.32%.
+
 ## 2026-10-06 — Phase C candidate truth review
 
 - Removed numerical review ratings in twelve language groups; corrected substantive mymind/Readwise plan facts and Pocket export/deletion wording using dated JSON or official sources. Report: `reports/04-predeployment-truth-2026-10-06.md`. Import guidance now distinguishes Pocket list.csv from browser HTML and labels Marqly Pro features.

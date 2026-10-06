@@ -32,6 +32,7 @@ npm run seo:audit       # = crawl-audit.mjs [--force-fetch] — live crawl -> da
 npm run seo:pull -- --days 90 # exact decision window -> data/gsc/*.csv
 npm run seo:cannibal    # = cannibalization.mjs — query×page >=10% co-owners -> data/gsc/cannibalization.csv
 npm run seo:score       # = opportunity-score.mjs — impressions x CTR-uplift -> opportunities_*.csv + position-curve.json
+INDEXNOW_KEY=... node seo/scripts/indexnow.mjs --engine=bing # after live key verification
 npm run seo:redirects   # = check-redirects.mjs — live redirect assertions (exit!=0 on regression)
 ```
 
