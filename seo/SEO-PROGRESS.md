@@ -7,7 +7,7 @@ Mission: page-1 (pos 6–12) → top 3. Constraints in leverage order: authority
 | Phase | Days | State | Gate |
 |---|---|---|---|
 | 0 Instrumentation + baseline | 1–2 | done: real 16-month API history + 90-day decision dataset, analysis and dated KPIs. See `reports/03-live-api-2026-10-06.md` | Gate 0 reported |
-| 1 Stop the bleeding | 3–7 | **largely DONE (live, gated).** Parity gate, E-E-A-T, titles/metas, hreflang cleanup, tools, ADRs, truth-fixes. GSC-dependent bits (prompt prune, FAQ merge-by-demand, top-100 title hand-tune) queued. | **Gate 1 report → `reports/01-gate-1.md`** |
+| 1 Stop the bleeding | 3–7 | **largely DONE (live, gated).** Parity gate, E-E-A-T, titles/metas, hreflang cleanup, tools, ADRs, truth-fixes. GSC-dependent bits (FAQ merge-by-demand, top-100 title hand-tune) queued; prompt pruning validated for deployment. | **Gate 1 report → `reports/01-gate-1.md`** |
 | 2 CTR blitz + striking-distance | 8–14 | partial (titles done; 6 tools expanded; 48 tier-1 localized upgraded). Per-page GSC strikes pending. | — |
 | 3 Money terms + clusters | 15–23 | started: `/bookmark-manager` pillar + `/research` study + homepage AEO + 11 export posts. | — |
 | 4 Authority engine | 3–28 (parallel) | **kit PREPARED** (`seo/outreach/`), owner-authorized sends. Study asset live; production verified 2026-10-06. | — |
@@ -130,3 +130,7 @@ A concurrent process added `2ce9f22` and replaced canonical inputs with historic
 
 - Numerical review ratings removed; substantive plan/import/closure corrections completed across affected language versions. Official-source evidence recorded in `reports/04-predeployment-truth-2026-10-06.md`.
 - Data tests pass 13/13. Final candidate build and all 25 gates pass; five required surfaces visually inspected at desktop/mobile widths after fixing the study button overflow. 148 URLs logged. Production push complete; live checks and indexing receipts recorded in `reports/05-live-deployment-2026-10-06.md`.
+
+## Phase D1 candidate — 2026-10-06
+
+149/400 prompt details meet the exact 90-day demand bar; 251 receive noindex and leave sitemap/hreflang, while all ten category hubs plus their index remain. Shared decision and deleting-CSV rollback verified. Local sitemap: 1,092. All 25 gates pass; desktop/mobile kept and pruned visuals pass. 400 URLs logged pending live deployment. See `reports/06-prompt-pruning-2026-10-06.md`.

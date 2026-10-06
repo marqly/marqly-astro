@@ -357,14 +357,14 @@ check('every localized page renders a link hub', noHub.slice(0, 30), `${noHub.le
   const sitemapTxt = existsSync(join(DIST, 'sitemap-0.xml')) ? readFileSync(join(DIST, 'sitemap-0.xml'), 'utf8') : '';
   const sitemapSet = new Set([...sitemapTxt.matchAll(/<loc>([\s\S]*?)<\/loc>/g)]
     .map((m) => (m[1].replace(BASE, '') || '/')));
-  const localeOf = (u) => { const s = u.split('/')[1]; return LOCALES.includes(s) ? s : null; };
+  // /teams carries its own dark-launch noindex (TEAMS_PUBLIC) outside ADR-001.
+  const MANUAL = new Set(['/teams']);
 
   const notNoindexed = [];   // engine prunes, build is indexable  -> stub shipped
   const overPruned = [];     // engine keeps, build noindexed       -> real page buried
   const inSitemap = [];      // engine prunes, still in sitemap     -> noindex/sitemap contradiction
   for (const p of pages) {
-    const lang = localeOf(p.url);
-    if (!lang) continue;
+    if (MANUAL.has(p.url)) continue;
     const idx = isIndexable(p.url);
     const robots = (p.raw.match(/<meta[^>]+name=["']robots["'][^>]+content=["']([^"']+)["']/i) || [])[1] || '';
     const noindexed = /noindex/i.test(robots);
@@ -372,9 +372,9 @@ check('every localized page renders a link hub', noHub.slice(0, 30), `${noHub.le
     if (idx && noindexed) overPruned.push(p.url);
     if (!idx && sitemapSet.has(p.url)) inSitemap.push(p.url);
   }
-  check('ADR-001: every below-bar locale page is noindexed', notNoindexed.slice(0, 20), `${notNoindexed.length} stub(s) shipping`);
-  check('ADR-001: no above-bar locale page is wrongly buried', overPruned.slice(0, 20));
-  check('ADR-001: no pruned page appears in the sitemap', inSitemap.slice(0, 20));
+  check('ADR-001/002: every below-bar page (locale stub / low-demand prompt) is noindexed', notNoindexed.slice(0, 20), `${notNoindexed.length} stub(s) shipping`);
+  check('ADR-001/002: no above-bar page is wrongly buried', overPruned.slice(0, 20));
+  check('ADR-001/002: no pruned page appears in the sitemap', inSitemap.slice(0, 20));
 
   // sibling hreflang must not advertise a pruned twin (the cluster exclusion)
   const hreflangToPruned = [];
@@ -383,10 +383,10 @@ check('every localized page renders a link hub', noHub.slice(0, 30), `${noHub.le
     for (const m of head.matchAll(/<link[^>]+hreflang=["'](?![x])[^"']*["'][^>]*>/gi)) {
       const href = attr(m[0], 'href'); if (!href) continue;
       const target = href.replace(BASE, '') || '/';
-      if (localeOf(target) && !isIndexable(target)) hreflangToPruned.push(`${p.url} → ${target}`);
+      if (!isIndexable(target)) hreflangToPruned.push(`${p.url} → ${target}`);
     }
   }
-  check('ADR-001: no hreflang advertises a pruned locale page', hreflangToPruned.slice(0, 20), `${hreflangToPruned.length} bad links`);
+  check('ADR-001/002: no hreflang advertises a pruned page', hreflangToPruned.slice(0, 20), `${hreflangToPruned.length} bad links`);
 }
 
 // --- 12. SERP metadata length discipline (master §1.7 / §5) --------------

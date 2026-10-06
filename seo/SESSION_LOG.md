@@ -174,3 +174,14 @@ DISCLOSURE: two changes that predated this session rode into commit 9e86758 (the
 working-tree edits when I started): src/pages/teams.astro Product->SoftwareApplication schema rewrite,
 and _redirects legacy /year->/pricing, /terms-of-use->/terms. Not authored by me this session; they
 build clean and pass gates, kept for history integrity rather than rewritten. Split-out on request.
+
+### 2026-10-06 (later) — GSC LIVE + Phase 1.2 executed
+- Full grant ACTIVE (prior 403 now serves): pulled 16-mo + exact 90d (query/page/query×page/country×query etc., atomic publication per the Phase-B guard). Measured baselines committed: top-50 CTR 0.32% ranked by impressions (64/20,255; corrected from the unsourced 1.12% handwritten assertion), US 0.68%@15.6, non-brand top-3 = 11. Ghosts RESOLVED: 449 youtubeNNNN junk queries, 12,182 imp, 0 clicks, 59% one es page — no page defect, exclude from KPI math (script quarantines them).
+- Cannibalization first real map: 72 queries/168 rows. Observations logged: ai-bookmark-manager trio (FAQ owns pos 13.7 — leave), diigo/memex splits healthy; memex page REJECTED (105 imp, §6).
+- ADR-002 EXECUTED: prompt keep-list (≥1clk/≥20imp 90d + all hubs) → 160 kept, 251/400 noindexed+off-sitemap; sitemap 1,343→1,092; gate 11 generalized to ADR-002. 25/25.
+- Commits: 1459941 data, plus engine/gate/ADR commit below.
+
+### 2026-10-06 — Phase D1 candidate integration
+- Preserved concurrent commits1459941/b1e9e05 and both raw pull snapshots via normal merge; all nine canonical decision files match. Kept our manifest identifying the restored exact90day source; retained concurrent manifest separately. Corrected unsourced handwritten1.12% to measured0.32%.
+- Verified149 qualifying prompts,251 pruned details and11 forced category paths; corrected English hreflang exclusion and exact hub namespace. DeletingCSV rollback passes. Kept prompts gain truthful AI-conversation/extension links and explicit Pro semantic search; source dates unchanged.
+- Build exit0, all25 gates, kept/pruned desktop/mobile visibility/robots/overflow pass. Local sitemap1092;400 attribution rows pending deployment. D2 intent review and ghost-safe opportunity ranking underway.
