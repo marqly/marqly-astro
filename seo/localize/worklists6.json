@@ -1,0 +1,230 @@
+{
+ "de": [
+  {
+   "es": "/de/blog/lesezeichen-organisieren",
+   "en": "/blog/how-to-organize-bookmarks",
+   "p": 0.22
+  },
+  {
+   "es": "/de/blog/youtube-transkript-kopieren",
+   "en": "/blog/how-to-get-youtube-video-transcript",
+   "p": 0.22
+  },
+  {
+   "es": "/de/blog/gespeicherte-reddit-beitraege-exportieren-2026",
+   "en": "/blog/export-reddit-saved-posts",
+   "p": 0.23
+  },
+  {
+   "es": "/de/blog/ki-bookmark-manager-semantische-suche-vergleich-2026",
+   "en": "/blog/ai-bookmark-managers-semantic-search-compared",
+   "p": 0.23
+  },
+  {
+   "es": "/de/blog/kann-ki-meine-lesezeichen-organisieren-2026",
+   "en": "/blog/can-ai-organize-my-bookmarks-automatically",
+   "p": 0.25
+  },
+  {
+   "es": "/de/blog/mit-gespeicherten-artikeln-chatten-2026",
+   "en": "/blog/how-to-chat-with-your-saved-articles",
+   "p": 0.25
+  },
+  {
+   "es": "/de/blog/chrome-lesezeichen-exportieren",
+   "en": "/blog/how-to-import-chrome-bookmarks-to-ai",
+   "p": 0.27
+  },
+  {
+   "es": "/de/blog/chrome-lesezeichen-synchronisieren-nicht-losung-2026",
+   "en": "/blog/chrome-bookmarks-not-syncing-fix",
+   "p": 0.27
+  },
+  {
+   "es": "/de/blog/was-ist-ein-ki-zweites-gehirn-2026",
+   "en": "/blog/what-is-an-ai-second-brain",
+   "p": 0.28
+  },
+  {
+   "es": "/de/blog/pocket-daten-exportieren-migrieren-2026",
+   "en": "/blog/how-to-export-migrate-pocket-data",
+   "p": 0.4
+  },
+  {
+   "es": "/de/blog/notion-web-clipper-alternative-2026",
+   "en": "/blog/notion-web-clipper-alternative",
+   "p": 0.41
+  },
+  {
+   "es": "/de/blog/gespeicherten-artikel-finden-wenn-titel-vergessen-2026",
+   "en": "/blog/how-to-find-a-saved-article-you-forgot-the-title-of",
+   "p": 0.43
+  }
+ ],
+ "es": [
+  {
+   "es": "/es/blog/como-exportar-publicaciones-guardadas-de-reddit-2026",
+   "en": "/blog/export-reddit-saved-posts",
+   "p": 0.33
+  },
+  {
+   "es": "/es/blog/resena-marqly-2026",
+   "en": "/blog/marqly-review-2026",
+   "p": 0.35
+  },
+  {
+   "es": "/es/blog/puede-la-ia-organizar-mis-marcadores-2026",
+   "en": "/blog/can-ai-organize-my-bookmarks-automatically",
+   "p": 0.36
+  },
+  {
+   "es": "/es/blog/gestores-de-marcadores-con-ia-busqueda-semantica-comparativa-2026",
+   "en": "/blog/ai-bookmark-managers-semantic-search-compared",
+   "p": 0.36
+  },
+  {
+   "es": "/es/blog/como-chatear-con-articulos-guardados-2026",
+   "en": "/blog/how-to-chat-with-your-saved-articles",
+   "p": 0.39
+  },
+  {
+   "es": "/es/usos/disenadores",
+   "en": "/for-designers",
+   "p": 0.44
+  },
+  {
+   "es": "/es/blog/que-es-un-segundo-cerebro-con-ia-2026",
+   "en": "/blog/what-is-an-ai-second-brain",
+   "p": 0.46
+  },
+  {
+   "es": "/es/blog/como-encontrar-un-articulo-guardado-si-olvidaste-el-titulo-2026",
+   "en": "/blog/how-to-find-a-saved-article-you-forgot-the-title-of",
+   "p": 0.48
+  }
+ ],
+ "ja": [
+  {
+   "es": "/ja/blog/best-second-brain-apps-2026",
+   "en": "/blog/best-second-brain-apps-2026",
+   "p": 0.31
+  },
+  {
+   "es": "/ja/blog/stop-organizing-bookmarks-folders-obsolete-2026",
+   "en": "/blog/stop-organizing-bookmarks-folders-obsolete",
+   "p": 0.31
+  },
+  {
+   "es": "/ja/blog/best-tab-managers-2026",
+   "en": "/blog/best-tab-managers-2026",
+   "p": 0.32
+  },
+  {
+   "es": "/ja/for-marketers",
+   "en": "/for-marketers",
+   "p": 0.33
+  },
+  {
+   "es": "/ja/recipe-organizer",
+   "en": "/recipe-organizer",
+   "p": 0.33
+  },
+  {
+   "es": "/ja/research-organizer",
+   "en": "/research-organizer",
+   "p": 0.33
+  },
+  {
+   "es": "/ja/travel-planning",
+   "en": "/travel-planning",
+   "p": 0.33
+  },
+  {
+   "es": "/ja/for-teachers",
+   "en": "/for-teachers",
+   "p": 0.34
+  },
+  {
+   "es": "/ja/for-writers",
+   "en": "/for-writers",
+   "p": 0.34
+  },
+  {
+   "es": "/ja/for-content-creators",
+   "en": "/for-content-creators",
+   "p": 0.36
+  },
+  {
+   "es": "/ja/read-it-later",
+   "en": "/read-it-later",
+   "p": 0.36
+  },
+  {
+   "es": "/ja/blog/export-instagram-saved-posts-2026",
+   "en": "/blog/export-instagram-saved-posts",
+   "p": 0.37
+  }
+ ],
+ "ko": [
+  {
+   "es": "/ko/blog/stop-organizing-bookmarks-folders-obsolete-2026",
+   "en": "/blog/stop-organizing-bookmarks-folders-obsolete",
+   "p": 0.27
+  },
+  {
+   "es": "/ko/research-organizer",
+   "en": "/research-organizer",
+   "p": 0.29
+  },
+  {
+   "es": "/ko/for-content-creators",
+   "en": "/for-content-creators",
+   "p": 0.3
+  },
+  {
+   "es": "/ko/for-marketers",
+   "en": "/for-marketers",
+   "p": 0.3
+  },
+  {
+   "es": "/ko/recipe-organizer",
+   "en": "/recipe-organizer",
+   "p": 0.3
+  },
+  {
+   "es": "/ko/blog/best-tab-managers-2026",
+   "en": "/blog/best-tab-managers-2026",
+   "p": 0.3
+  },
+  {
+   "es": "/ko/read-it-later",
+   "en": "/read-it-later",
+   "p": 0.31
+  },
+  {
+   "es": "/ko/travel-planning",
+   "en": "/travel-planning",
+   "p": 0.31
+  },
+  {
+   "es": "/ko/for-teachers",
+   "en": "/for-teachers",
+   "p": 0.33
+  },
+  {
+   "es": "/ko/blog/export-twitter-x-bookmarks-2026",
+   "en": "/blog/export-twitter-x-bookmarks",
+   "p": 0.33
+  },
+  {
+   "es": "/ko/blog/export-instagram-saved-posts-2026",
+   "en": "/blog/export-instagram-saved-posts",
+   "p": 0.33
+  },
+  {
+   "es": "/ko/for-developers",
+   "en": "/for-developers",
+   "p": 0.34
+  }
+ ]
+}

@@ -10,9 +10,11 @@
  */
 import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs';
 import { join, relative } from 'node:path';
+import { isIndexable } from '../../src/lib/content-quality.mjs';
 
 const argv = process.argv.slice(2);
 const DIST = argv.includes('--dist') ? argv[argv.indexOf('--dist') + 1] : 'dist/client';
+const ROOT = process.cwd();
 const BASE = 'https://www.marqly.com';
 const LOCALES = ['es', 'pt', 'de', 'fr', 'it', 'ja', 'zh', 'ko', 'nl', 'pl', 'tr'];
 
@@ -84,6 +86,10 @@ check('no fabricated AggregateRating in JSON-LD', rated.map((p) => p.url),
 const ALWAYS_WRONG = [
   [/\b100 most recent\b[^.]{0,80}?(?:\bbrowse|\bsearch|\bsee|\bview|\bvisible|\baccess)|(?:(?:\bonly|\bjust|\bshows?|\bdisplays?|\bbrowses?|\bsearches?|\bsees?|\bviews?|\baccess(?:ible)?)[^.]{0,50}?\b100 most recent\b)/i, 'free-tier READ-wall was removed; whole library is searchable (an export cap of 100 is real — export copy must say "exports")'],
   [/\b3\s*[-–\s]?(?:days?|tage?n?|jours?|giorni|d[ií]as?)\b[^.<>]{0,35}\b(?:trial|test|testversion|testphase|prova|prueba|teste|essai|kostenlos|gratis|grátis)\b|\b(?:trial|test|testversion|testphase|prova|prueba|teste|essai)\b[^.<>]{0,35}\b3\s*[-–\s]?(?:days?|tage?n?|jours?|giorni|d[ií]as?)\b/i, 'Marqly sells no trial (retired 2026-09-18)'],
+  // The 2026-09-18 sweep de-trialed the copy but left ~868 CTA labels across 9
+  // languages saying "try for free" — normalized 2026-10-05; these exact CTA
+  // forms must never return (a "try" button implies a trial that doesn't exist).
+  [/\bTry Marqly free\b|Marqly kostenlos testen|無料で試す|免费体验|免费试用 Marqly|Prueba Marqly gratis|Prova Marqly gratis|Essayer Marqly gratuitement|Wypróbuj Marqly za darmo|Probeer Marqly gratis|ücretsiz deneyin/i, 'CTA must read "get started free" in each language, never "try for free" (no trial exists; sweep 2026-10-05)'],
 ];
 /**
  * Capabilities Marqly does NOT have (public API, self-hosting, file storage).
@@ -339,6 +345,139 @@ check('every localized page renders a link hub', noHub.slice(0, 30), `${noHub.le
   const before = i < 0 ? null : g.slice(0, i).replace(/\/\*[\s\S]*?\*\//g, '').trim();
   check('global.css: @import tokens.css is the first statement',
     i < 0 ? ['global.css no longer imports tokens.css'] : (before ? ['import voided by preceding rule: ' + before.slice(0, 60)] : []));
+}
+
+// --- 11. ADR-001 parity gate: layout noindex == sitemap exclusion == hreflang exclusion
+// The three surfaces are driven by ONE function (content-quality::isIndexable). This
+// gate is the drift detector: if the built HTML, the sitemap, or any sibling's hreflang
+// disagrees with the engine, a locale stub is shipping (or a real page got wrongly
+// buried). Catches the scaled-content liability at the deploy boundary.
+{
+  const byUrl = new Map(pages.map((p) => [p.url, p]));
+  const sitemapTxt = existsSync(join(DIST, 'sitemap-0.xml')) ? readFileSync(join(DIST, 'sitemap-0.xml'), 'utf8') : '';
+  const sitemapSet = new Set([...sitemapTxt.matchAll(/<loc>([\s\S]*?)<\/loc>/g)]
+    .map((m) => (m[1].replace(BASE, '') || '/')));
+  const localeOf = (u) => { const s = u.split('/')[1]; return LOCALES.includes(s) ? s : null; };
+
+  const notNoindexed = [];   // engine prunes, build is indexable  -> stub shipped
+  const overPruned = [];     // engine keeps, build noindexed       -> real page buried
+  const inSitemap = [];      // engine prunes, still in sitemap     -> noindex/sitemap contradiction
+  for (const p of pages) {
+    const lang = localeOf(p.url);
+    if (!lang) continue;
+    const idx = isIndexable(p.url);
+    const robots = (p.raw.match(/<meta[^>]+name=["']robots["'][^>]+content=["']([^"']+)["']/i) || [])[1] || '';
+    const noindexed = /noindex/i.test(robots);
+    if (!idx && !noindexed) notNoindexed.push(p.url);
+    if (idx && noindexed) overPruned.push(p.url);
+    if (!idx && sitemapSet.has(p.url)) inSitemap.push(p.url);
+  }
+  check('ADR-001: every below-bar locale page is noindexed', notNoindexed.slice(0, 20), `${notNoindexed.length} stub(s) shipping`);
+  check('ADR-001: no above-bar locale page is wrongly buried', overPruned.slice(0, 20));
+  check('ADR-001: no pruned page appears in the sitemap', inSitemap.slice(0, 20));
+
+  // sibling hreflang must not advertise a pruned twin (the cluster exclusion)
+  const hreflangToPruned = [];
+  for (const p of pages) {
+    const head = (p.raw.match(/<head\b[\s\S]*?<\/head>/i) || [''])[0];
+    for (const m of head.matchAll(/<link[^>]+hreflang=["'](?![x])[^"']*["'][^>]*>/gi)) {
+      const href = attr(m[0], 'href'); if (!href) continue;
+      const target = href.replace(BASE, '') || '/';
+      if (localeOf(target) && !isIndexable(target)) hreflangToPruned.push(`${p.url} → ${target}`);
+    }
+  }
+  check('ADR-001: no hreflang advertises a pruned locale page', hreflangToPruned.slice(0, 20), `${hreflangToPruned.length} bad links`);
+}
+
+// --- 12. SERP metadata length discipline (master §1.7 / §5) --------------
+// Titles <=60 and descriptions <=155 measured on the RENDERED text (entities
+// decoded) over the INDEXABLE set (sitemap == the pages that appear in SERPs).
+// The layouts clamp defensively; this gate is the regression net that the clamp
+// template edits (prompt titles, localized landers) actually hold — a silent
+// regression here directly costs CTR (constraint #2).
+{
+  const smTxt = existsSync(join(DIST, 'sitemap-0.xml')) ? readFileSync(join(DIST, 'sitemap-0.xml'), 'utf8') : '';
+  const smPaths = new Set([...smTxt.matchAll(/<loc>([\s\S]*?)<\/loc>/g)]
+    .map((m) => (m[1].replace(BASE, '') || '/')));
+  const unesc = (x) => x.replace(/&amp;/g, '&').replace(/&#39;|&apos;/g, "'")
+    .replace(/&quot;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&nbsp;/g, ' ');
+  const longT = [], longD = [];
+  for (const p of pages) {
+    if (!smPaths.has(p.url)) continue; // judge only indexable pages
+    const head = (p.raw.match(/<head\b[\s\S]*?<\/head>/i) || [p.raw])[0];
+    const t = unesc(((head.match(/<title>([\s\S]*?)<\/title>/i) || [])[1] || '').trim());
+    const dM = head.match(/<meta[^>]+name=["']description["'][^>]+content=["']([^"']*)["']/i)
+      || head.match(/<meta[^>]+content=["']([^"']*)["'][^>]+name=["']description["']/i);
+    const d = unesc((dM && dM[1]) || '');
+    if (t.length > 60) longT.push(`${p.url} (${t.length})`);
+    if (d.length > 160) longD.push(`${p.url} (${d.length})`);
+  }
+  check('SERP titles are <=60 chars on every indexable page', longT.slice(0, 20), `${longT.length} over`);
+  check('SERP descriptions are <=160 chars on every indexable page', longD.slice(0, 20), `${longD.length} over`);
+}
+
+// --- 13. Pocket-HTML import claim (truth-ledger 2026-09-26 batch 7b) -----
+// Measured: a genuine 261-item Pocket ril_export.html is <ul><li>, not Netscape
+// DL → 0/261 parse; Marqly imports Pocket's list.csv, NOT the HTML. The ledger
+// rule is "never restate the HTML claim". A sentence that pairs Pocket + HTML +
+// an import verb + Marqly must be NEGATED to be legal copy ("not", "does not",
+// "only the CSV", "list.csv" etc.), otherwise a page is re-asserting a false
+// capability we already corrected sitewide.
+{
+  // The forbidden claim is specifically "Marqly imports POCKET's HTML export"
+  // (measured 0/261 vs a real Pocket ril_export.html — it's UL/LI, not Netscape
+  // DL). We import Pocket's list.csv, never its HTML. Detect the two ways that
+  // claim can be written in ANY language, precisely, and let everything else
+  // (the correct "…Pocket exports, Raindrop collections, and HTML bookmark files"
+  // list, where other words separate Pocket from HTML) pass. No sentence-level
+  // negation — that mis-fires on "no conversion" / multilingual lists.
+  // Catch every form of the false "Marqly imports Pocket's HTML" claim:
+  //  - "Pocket HTML" / "Pocket export HTML" (whitespace)
+  //  - the literal filenames pocket-export.html / ril_export.html used as a
+  //    Marqly import source ("drag your pocket-export.html into the importer")
+  // Competitor claims ("Raindrop accepts the Pocket HTML export") stay legal
+  // copy — the sentence must ALSO mention Marqly to fire, and a negation
+  // ("not importable", "use list.csv", "0/261") clears it.
+  // Only the literal Pocket export FILENAME, offered as a Marqly import source,
+  // is the forbidden claim — that's what a false import-step instruction looks
+  // like. Multilingual legal lists ("…Pocket, … e file HTML di preferiti") keep
+  // many words between "Pocket" and "HTML" and must NOT fire, so we do not match
+  // loose adjacency — only the filename token or a tightly bound "Pocket HTML
+  // export". A ±140 window must contain Marqly + an import/drag verb + no negation.
+  const CLAIM = /pocket[-.\s]?export\.html|ril_export(?:\.html)?|\bpocket(?:['’\u2019]s)?\s+html\s+export\b/gi;
+  const MARQ = /marqly/i;
+  const IMPORTV = /\b(?:import\w*|takes|accepts|liest|importiert|importa\w*|arraste|arrastra|déposez|deposez|drag|sleep|ziehen|trascina|przeciągnij|przeciahgnij|drag-and-drop|içe aktar|끌어다|拖入|ドラッグ|uploads?|loads?)\b/i;
+  const NEG = /\b(?:not|nicht|no\b|nunca|pas|cannot|can'?t|never|won'?t|doesn'?t|does not|0\/|fails?|rejects?|instead|only|rather than|list\.csv|\bcsv\b|\bzip\b|できません|しない|でなく|而不是|não|아니|pas|keine)\b/i;
+  const offenders = [];
+  for (const p of pages) {
+    const text = toDom(p.raw).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
+    let m; CLAIM.lastIndex = 0;
+    while ((m = CLAIM.exec(text))) {
+      const win = text.slice(Math.max(0, m.index - 140), m.index + 140);
+      if (MARQ.test(win) && IMPORTV.test(win) && !NEG.test(win)) { offenders.push(`${p.url}: …${win.trim().slice(0, 120)}…`); break; }
+    }
+  }
+  check('no page claims Marqly imports Pocket HTML (measured 0/261)', offenders.slice(0, 20), `${offenders.length} offender(s)`);
+}
+
+// --- 14. og:image assets resolve (lab note 2026-09-23) ------------------
+// Build + gates never touch asset 404s. Any page whose og:image points at a
+// /og/*.png that isn't in public/og is serving a broken social/rich-result card.
+{
+  const missingOg = [];
+  const seen = new Set();
+  for (const p of pages) {
+    const head = (p.raw.match(/<head\b[\s\S]*?<\/head>/i) || [p.raw])[0];
+    const m = head.match(/property=["']og:image["']\s+content=["']([^"']+)["']/i)
+      || head.match(/content=["']([^"']+)["']\s+property=["']og:image["']/i);
+    if (!m) continue;
+    const url = m[1];
+    if (!/^https:\/\/www\.marqly\.com\/og\/.+\.png$/i.test(url)) continue;
+    const rel = url.replace(/^https:\/\/www\.marqly\.com/, '');
+    if (seen.has(rel)) continue; seen.add(rel);
+    if (!existsSync(join(ROOT, 'public' + rel))) missingOg.push(`${rel} (e.g. ${p.url})`);
+  }
+  check('every referenced /og/*.png exists (no broken social cards)', missingOg.slice(0, 20), `${missingOg.length} missing`);
 }
 
 // --- report -------------------------------------------------------------

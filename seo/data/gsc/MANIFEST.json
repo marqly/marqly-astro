@@ -1,0 +1,5 @@
+{
+ "source": "OWNER-VERIFIED GSC snapshot (master \u00a72), domain sc-domain:marqly.com, 3-mo, pull 2026-10-05",
+ "status": "REFERENCE BASELINE \u2014 live API still 403 (SA not on property). Files carry ONLY owner-provided \u00a72 numbers; nothing invented. Drives opportunity-score/position-curve now; the real 16-mo pull will supersede and add query_page (cannibalization) + full top-200.",
+ "note": "query.csv=\u00a72.5 striking/money/winners subset; page.csv=\u00a72.5 top-25; country/device=\u00a72.2"
+}

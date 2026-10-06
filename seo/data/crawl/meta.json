@@ -1,0 +1,214 @@
+{
+  "generatedAt": "2026-10-05T17:34:42.042Z",
+  "source": "live production crawl of sitemap-0.xml",
+  "total": 1914,
+  "status_hist": {
+    "200": 1914
+  },
+  "indexable": 1914,
+  "noindex_now": 0,
+  "kpi": {
+    "indexable_thin_lt300": 284,
+    "localized_stubs_parity_lt50": 798,
+    "unpaired_locale_pages": 10,
+    "titles_over60": 550,
+    "descs_over160": 194,
+    "descs_under70": 109,
+    "canonical_mismatch": 0,
+    "pages_without_main": 0,
+    "org_authored_with_dates": 536,
+    "person_authored": 0,
+    "zero_inbound": 0
+  },
+  "by_template": {
+    "home": {
+      "urls": 1,
+      "units_sum": 3353,
+      "thin": 0,
+      "stub": 0,
+      "unpaired": 0,
+      "en_only": 0,
+      "avg_units": 3353
+    },
+    "alternatives-index": {
+      "urls": 1,
+      "units_sum": 489,
+      "thin": 0,
+      "stub": 0,
+      "unpaired": 0,
+      "en_only": 0,
+      "avg_units": 489
+    },
+    "alternatives": {
+      "urls": 26,
+      "units_sum": 49698,
+      "thin": 0,
+      "stub": 0,
+      "unpaired": 0,
+      "en_only": 0,
+      "avg_units": 1911
+    },
+    "root-lander": {
+      "urls": 51,
+      "units_sum": 58493,
+      "thin": 1,
+      "stub": 0,
+      "unpaired": 0,
+      "en_only": 0,
+      "avg_units": 1147
+    },
+    "blog": {
+      "urls": 48,
+      "units_sum": 83198,
+      "thin": 0,
+      "stub": 0,
+      "unpaired": 0,
+      "en_only": 0,
+      "avg_units": 1733
+    },
+    "compare-index": {
+      "urls": 1,
+      "units_sum": 1876,
+      "thin": 0,
+      "stub": 0,
+      "unpaired": 0,
+      "en_only": 0,
+      "avg_units": 1876
+    },
+    "compare": {
+      "urls": 137,
+      "units_sum": 216640,
+      "thin": 0,
+      "stub": 0,
+      "unpaired": 0,
+      "en_only": 0,
+      "avg_units": 1581
+    },
+    "locale-home": {
+      "urls": 11,
+      "units_sum": 11874,
+      "thin": 0,
+      "stub": 11,
+      "unpaired": 0,
+      "en_only": 0,
+      "avg_units": 1079
+    },
+    "locale-lander": {
+      "urls": 620,
+      "units_sum": 331345,
+      "thin": 213,
+      "stub": 432,
+      "unpaired": 5,
+      "en_only": 0,
+      "avg_units": 534
+    },
+    "locale-blog-index": {
+      "urls": 11,
+      "units_sum": 23971,
+      "thin": 0,
+      "stub": 0,
+      "unpaired": 0,
+      "en_only": 0,
+      "avg_units": 2179
+    },
+    "locale-blog": {
+      "urls": 489,
+      "units_sum": 329214,
+      "thin": 61,
+      "stub": 355,
+      "unpaired": 5,
+      "en_only": 0,
+      "avg_units": 673
+    },
+    "locale-tool": {
+      "urls": 14,
+      "units_sum": 7126,
+      "thin": 0,
+      "stub": 0,
+      "unpaired": 0,
+      "en_only": 0,
+      "avg_units": 509
+    },
+    "faq-index": {
+      "urls": 1,
+      "units_sum": 2518,
+      "thin": 0,
+      "stub": 0,
+      "unpaired": 0,
+      "en_only": 0,
+      "avg_units": 2518
+    },
+    "faq": {
+      "urls": 63,
+      "units_sum": 27862,
+      "thin": 2,
+      "stub": 0,
+      "unpaired": 0,
+      "en_only": 0,
+      "avg_units": 442
+    },
+    "migrate-index": {
+      "urls": 1,
+      "units_sum": 583,
+      "thin": 0,
+      "stub": 0,
+      "unpaired": 0,
+      "en_only": 0,
+      "avg_units": 583
+    },
+    "migrate": {
+      "urls": 6,
+      "units_sum": 8343,
+      "thin": 0,
+      "stub": 0,
+      "unpaired": 0,
+      "en_only": 0,
+      "avg_units": 1391
+    },
+    "prompt-index": {
+      "urls": 1,
+      "units_sum": 2576,
+      "thin": 0,
+      "stub": 0,
+      "unpaired": 0,
+      "en_only": 0,
+      "avg_units": 2576
+    },
+    "prompt": {
+      "urls": 400,
+      "units_sum": 236926,
+      "thin": 0,
+      "stub": 0,
+      "unpaired": 0,
+      "en_only": 0,
+      "avg_units": 592
+    },
+    "prompt-category": {
+      "urls": 11,
+      "units_sum": 19885,
+      "thin": 1,
+      "stub": 0,
+      "unpaired": 0,
+      "en_only": 0,
+      "avg_units": 1808
+    },
+    "tools-index": {
+      "urls": 1,
+      "units_sum": 522,
+      "thin": 0,
+      "stub": 0,
+      "unpaired": 0,
+      "en_only": 0,
+      "avg_units": 522
+    },
+    "tool": {
+      "urls": 20,
+      "units_sum": 9811,
+      "thin": 6,
+      "stub": 0,
+      "unpaired": 0,
+      "en_only": 0,
+      "avg_units": 491
+    }
+  }
+}

@@ -22,7 +22,11 @@ import urllib.error
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from collections import Counter
 
-import certifi
+try:
+    import certifi  # macOS python.org builds ship without a wired system trust store
+    SSL_CTX = ssl.create_default_context(cafile=certifi.where())
+except ImportError:
+    SSL_CTX = ssl.create_default_context()
 
 BASE = "https://www.marqly.com"
 SITEMAP = f"{BASE}/sitemap-0.xml"
@@ -30,9 +34,6 @@ OUT = "active/tmp/crawl.json"
 CACHE = "active/tmp/html"
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/128.0 Safari/537.36 seo-crawl/1.0")
-
-# python.org macOS builds ship without a wired system trust store.
-SSL_CTX = ssl.create_default_context(cafile=certifi.where())
 
 
 def cache_path(url):
@@ -77,9 +78,16 @@ def crawl(url, use_cache=True):
     if use_cache and os.path.exists(cp):
         with open(cp) as fh:
             cached = json.load(fh)
-        rec.update(cached)
-        rec["from_cache"] = True
-        return rec
+        # cache written before an audit field existed -> re-fetch once, rewrite
+        if "jsonld_dates" not in cached:
+            try:
+                os.remove(cp)
+            except OSError:
+                pass
+        else:
+            rec.update(cached)
+            rec["from_cache"] = True
+            return rec
 
     t0 = time.time()
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "en"})
@@ -194,6 +202,36 @@ def crawl(url, use_cache=True):
                 stack.extend(node)
     rec["schema_types"] = sorted(set(ld_types))
     rec["schema_count"] = len(ld_types)
+
+    # article dates + author types (for E-E-A-T audit; Phase 0 addition)
+    dates, author_types = {}, set()
+    for block in re.findall(r'<script\b[^>]*type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
+                            body, flags=re.S | re.I):
+        try:
+            data = json.loads(block.strip())
+        except Exception:  # noqa: BLE001
+            continue
+        stack = [data]
+        while stack:
+            node = stack.pop()
+            if isinstance(node, dict):
+                for k in ("datePublished", "dateModified"):
+                    if isinstance(node.get(k), str) and k not in dates:
+                        dates[k] = node[k][:10]
+                a = node.get("author")
+                if a:
+                    for au in (a if isinstance(a, list) else [a]):
+                        if isinstance(au, dict):
+                            author_types.add(au.get("@type") or ("Person" if au.get("name") and au.get("url") else "unknown"))
+                        elif isinstance(au, str):
+                            author_types.add("Organization" if "marqly" in au.lower() else "unknown")
+                for v in node.values():
+                    if isinstance(v, (dict, list)):
+                        stack.append(v)
+            elif isinstance(node, list):
+                stack.extend(node)
+    rec["jsonld_dates"] = dates
+    rec["author_types"] = sorted(author_types)
 
     # --- headings (DOM only) ---
     h1s = [strip_tags(x).strip() for x in re.findall(r"<h1\b[^>]*>(.*?)</h1>", dom, flags=re.S | re.I)]

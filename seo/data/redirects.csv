@@ -1,0 +1,4 @@
+from_path,to_path,status,introduced_date,reason,evidence_url_or_gsc_row
+from_path,to_path,status,introduced_date,reason,evidence
+/about,/about (real page),301-removed,2026-10-05,about page now exists (Phase 1.6); old rule shadowed it like /Extension did,public/_redirects:27-31 removed
+# (no NEW slug-changing 301s introduced this session; /about shadow-removal is the only redirect change, logged above)

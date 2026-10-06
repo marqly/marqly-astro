@@ -1,0 +1,210 @@
+{
+ "de": [
+  {
+   "es": "/de/fuer-immobilienmakler",
+   "en": "/for-real-estate",
+   "p": 0.04
+  },
+  {
+   "es": "/de/fuer-wissenschaftler",
+   "en": "/for-academics",
+   "p": 0.04
+  },
+  {
+   "es": "/de/jobsuche-organisieren",
+   "en": "/job-search-organizer",
+   "p": 0.04
+  },
+  {
+   "es": "/de/lesezeichen-manager-chrome",
+   "en": "/bookmark-manager-for-chrome",
+   "p": 0.04
+  },
+  {
+   "es": "/de/lesezeichen-manager-firefox",
+   "en": "/bookmark-manager-for-firefox",
+   "p": 0.04
+  },
+  {
+   "es": "/de/lesezeichen-manager-safari",
+   "en": "/bookmark-manager-for-safari",
+   "p": 0.04
+  },
+  {
+   "es": "/de/lesezeichen-synchronisieren",
+   "en": "/bookmark-sync",
+   "p": 0.04
+  },
+  {
+   "es": "/de/fuer-anwaelte",
+   "en": "/for-lawyers",
+   "p": 0.05
+  },
+  {
+   "es": "/de/lesezeichen-manager-iphone",
+   "en": "/bookmark-manager-for-iphone",
+   "p": 0.05
+  },
+  {
+   "es": "/de/neuer-tab-dashboard",
+   "en": "/new-tab-dashboard",
+   "p": 0.05
+  }
+ ],
+ "es": [
+  {
+   "es": "/es/usos/inmobiliaria",
+   "en": "/for-real-estate",
+   "p": 0.06
+  },
+  {
+   "es": "/es/usos/ventas",
+   "en": "/for-sales",
+   "p": 0.06
+  },
+  {
+   "es": "/es/usos/abogados",
+   "en": "/for-lawyers",
+   "p": 0.07
+  },
+  {
+   "es": "/es/usos/gestor-marcadores-safari",
+   "en": "/bookmark-manager-for-safari",
+   "p": 0.07
+  },
+  {
+   "es": "/es/usos/product-managers",
+   "en": "/for-product-managers",
+   "p": 0.07
+  },
+  {
+   "es": "/es/usos/fundadores",
+   "en": "/for-founders",
+   "p": 0.09
+  },
+  {
+   "es": "/es/blog/mejores-resaltadores-web-2026",
+   "en": "/blog/best-web-highlighters-2026",
+   "p": 0.11
+  },
+  {
+   "es": "/es/blog/mejores-gestores-marcadores-gratis-2026",
+   "en": "/blog/best-free-bookmark-managers-2026",
+   "p": 0.11
+  },
+  {
+   "es": "/es/blog/resena-instapaper-2026",
+   "en": "/blog/instapaper-review-2026",
+   "p": 0.16
+  },
+  {
+   "es": "/es/blog/guardar-pagina-web-en-pdf",
+   "en": "/blog/save-webpage-as-pdf",
+   "p": 0.17
+  }
+ ],
+ "ja": [
+  {
+   "es": "/ja/for-product-managers",
+   "en": "/for-product-managers",
+   "p": 0.08
+  },
+  {
+   "es": "/ja/job-search-organizer",
+   "en": "/job-search-organizer",
+   "p": 0.08
+  },
+  {
+   "es": "/ja/youtube-summarizer",
+   "en": "/youtube-summarizer",
+   "p": 0.08
+  },
+  {
+   "es": "/ja/bookmark-manager-for-firefox",
+   "en": "/bookmark-manager-for-firefox",
+   "p": 0.09
+  },
+  {
+   "es": "/ja/bookmark-sync",
+   "en": "/bookmark-sync",
+   "p": 0.09
+  },
+  {
+   "es": "/ja/for-real-estate",
+   "en": "/for-real-estate",
+   "p": 0.09
+  },
+  {
+   "es": "/ja/for-recruiters",
+   "en": "/for-recruiters",
+   "p": 0.09
+  },
+  {
+   "es": "/ja/new-tab-dashboard",
+   "en": "/new-tab-dashboard",
+   "p": 0.09
+  },
+  {
+   "es": "/ja/swipe-file",
+   "en": "/swipe-file",
+   "p": 0.09
+  },
+  {
+   "es": "/ja/bookmark-manager-for-safari",
+   "en": "/bookmark-manager-for-safari",
+   "p": 0.1
+  }
+ ],
+ "ko": [
+  {
+   "es": "/ko/bookmark-manager-for-edge",
+   "en": "/bookmark-manager-for-edge",
+   "p": 0.07
+  },
+  {
+   "es": "/ko/bookmark-manager-for-iphone",
+   "en": "/bookmark-manager-for-iphone",
+   "p": 0.07
+  },
+  {
+   "es": "/ko/bookmark-organizer",
+   "en": "/bookmark-organizer",
+   "p": 0.07
+  },
+  {
+   "es": "/ko/for-real-estate",
+   "en": "/for-real-estate",
+   "p": 0.07
+  },
+  {
+   "es": "/ko/new-tab-dashboard",
+   "en": "/new-tab-dashboard",
+   "p": 0.07
+  },
+  {
+   "es": "/ko/save-page-as-pdf",
+   "en": "/save-page-as-pdf",
+   "p": 0.07
+  },
+  {
+   "es": "/ko/youtube-summarizer",
+   "en": "/youtube-summarizer",
+   "p": 0.07
+  },
+  {
+   "es": "/ko/bookmark-manager-for-chrome",
+   "en": "/bookmark-manager-for-chrome",
+   "p": 0.08
+  },
+  {
+   "es": "/ko/bookmark-manager-for-firefox",
+   "en": "/bookmark-manager-for-firefox",
+   "p": 0.08
+  },
+  {
+   "es": "/ko/bookmark-manager-for-safari",
+   "en": "/bookmark-manager-for-safari",
+   "p": 0.08
+  }
+ ]
+}

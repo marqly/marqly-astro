@@ -17,7 +17,13 @@
     "seo:analyze": "python3 active/scripts/seo-analyze.py",
     "seo:orphans": "python3 active/scripts/seo-orphans.py dist/client",
     "seo:check": "node active/scripts/seo-check.mjs",
-    "seo:baseline": "python3 active/scripts/seo-baseline.py"
+    "seo:baseline": "python3 active/scripts/seo-baseline.py",
+    "seo:pull": "node seo/scripts/gsc-pull.mjs",
+    "seo:audit": "node seo/scripts/crawl-audit.mjs",
+    "seo:cannibal": "node seo/scripts/cannibalization.mjs",
+    "seo:score": "node seo/scripts/opportunity-score.mjs",
+    "seo:redirects": "node seo/scripts/check-redirects.mjs",
+    "seo:ingest": "node seo/scripts/gsc_ingest_ui.mjs"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^14.2.1",

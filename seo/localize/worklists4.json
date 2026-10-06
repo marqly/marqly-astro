@@ -1,0 +1,210 @@
+{
+ "de": [
+  {
+   "es": "/de/swipe-file",
+   "en": "/swipe-file",
+   "p": 0.05
+  },
+  {
+   "es": "/de/youtube-zusammenfasser",
+   "en": "/youtube-summarizer",
+   "p": 0.05
+  },
+  {
+   "es": "/de/fuer-designer",
+   "en": "/for-designers",
+   "p": 0.06
+  },
+  {
+   "es": "/de/blog/beste-kostenlose-lesezeichen-manager-2026",
+   "en": "/blog/best-free-bookmark-managers-2026",
+   "p": 0.08
+  },
+  {
+   "es": "/de/blog/marqly-testbericht-2026",
+   "en": "/blog/marqly-review-2026",
+   "p": 0.09
+  },
+  {
+   "es": "/de/blog/beste-web-highlighter-2026",
+   "en": "/blog/best-web-highlighters-2026",
+   "p": 0.1
+  },
+  {
+   "es": "/de/blog/mit-youtube-videos-chatten-2026",
+   "en": "/blog/chat-with-youtube-videos",
+   "p": 0.11
+  },
+  {
+   "es": "/de/blog/beste-tab-manager-2026",
+   "en": "/blog/best-tab-managers-2026",
+   "p": 0.12
+  },
+  {
+   "es": "/de/blog/beste-instapaper-alternativen-2026",
+   "en": "/blog/instapaper-alternatives-2026",
+   "p": 0.12
+  },
+  {
+   "es": "/de/blog/webseite-als-pdf-speichern",
+   "en": "/blog/save-webpage-as-pdf",
+   "p": 0.13
+  }
+ ],
+ "es": [
+  {
+   "es": "/es/blog/organizar-marcadores-navegador",
+   "en": "/blog/how-to-organize-bookmarks",
+   "p": 0.26
+  },
+  {
+   "es": "/es/blog/como-resaltar-texto-en-cualquier-web-2026",
+   "en": "/blog/how-to-highlight-text-on-any-website",
+   "p": 0.26
+  },
+  {
+   "es": "/es/blog/metodo-para-para-marcadores-2026",
+   "en": "/blog/para-method-for-bookmarks",
+   "p": 0.28
+  },
+  {
+   "es": "/es/blog/obtener-transcripcion-youtube",
+   "en": "/blog/how-to-get-youtube-video-transcript",
+   "p": 0.29
+  },
+  {
+   "es": "/es/blog/como-exportar-marcadores-de-twitter-x-2026",
+   "en": "/blog/export-twitter-x-bookmarks",
+   "p": 0.29
+  },
+  {
+   "es": "/es/blog/resena-raindrop-io-2026",
+   "en": "/blog/raindrop-review-2026",
+   "p": 0.29
+  },
+  {
+   "es": "/es/blog/exportar-marcadores-chrome",
+   "en": "/blog/how-to-import-chrome-bookmarks-to-ai",
+   "p": 0.31
+  },
+  {
+   "es": "/es/blog/como-exportar-ver-mas-tarde-de-youtube-2026",
+   "en": "/blog/export-youtube-watch-later",
+   "p": 0.31
+  },
+  {
+   "es": "/es/blog/como-exportar-publicaciones-guardadas-de-reddit-2026",
+   "en": "/blog/export-reddit-saved-posts",
+   "p": 0.33
+  },
+  {
+   "es": "/es/blog/resena-marqly-2026",
+   "en": "/blog/marqly-review-2026",
+   "p": 0.35
+  }
+ ],
+ "ja": [
+  {
+   "es": "/ja/for-academics",
+   "en": "/for-academics",
+   "p": 0.1
+  },
+  {
+   "es": "/ja/for-founders",
+   "en": "/for-founders",
+   "p": 0.1
+  },
+  {
+   "es": "/ja/for-lawyers",
+   "en": "/for-lawyers",
+   "p": 0.1
+  },
+  {
+   "es": "/ja/save-page-as-pdf",
+   "en": "/save-page-as-pdf",
+   "p": 0.1
+  },
+  {
+   "es": "/ja/for-designers",
+   "en": "/for-designers",
+   "p": 0.11
+  },
+  {
+   "es": "/ja/blog/instapaper-alternatives-2026",
+   "en": "/blog/instapaper-alternatives-2026",
+   "p": 0.14
+  },
+  {
+   "es": "/ja/for-researchers",
+   "en": "/for-researchers",
+   "p": 0.2
+  },
+  {
+   "es": "/ja/blog/marqly-review-2026",
+   "en": "/blog/marqly-review-2026",
+   "p": 0.21
+  },
+  {
+   "es": "/ja/for-students",
+   "en": "/for-students",
+   "p": 0.22
+  },
+  {
+   "es": "/ja/blog/chrome-bookmark-import-guide-2026",
+   "en": "/blog/how-to-import-chrome-bookmarks-to-ai",
+   "p": 0.22
+  }
+ ],
+ "ko": [
+  {
+   "es": "/ko/for-academics",
+   "en": "/for-academics",
+   "p": 0.08
+  },
+  {
+   "es": "/ko/for-lawyers",
+   "en": "/for-lawyers",
+   "p": 0.08
+  },
+  {
+   "es": "/ko/swipe-file",
+   "en": "/swipe-file",
+   "p": 0.08
+  },
+  {
+   "es": "/ko/bookmark-sync",
+   "en": "/bookmark-sync",
+   "p": 0.09
+  },
+  {
+   "es": "/ko/for-designers",
+   "en": "/for-designers",
+   "p": 0.09
+  },
+  {
+   "es": "/ko/for-founders",
+   "en": "/for-founders",
+   "p": 0.09
+  },
+  {
+   "es": "/ko/blog/instapaper-alternatives-2026",
+   "en": "/blog/instapaper-alternatives-2026",
+   "p": 0.1
+  },
+  {
+   "es": "/ko/for-researchers",
+   "en": "/for-researchers",
+   "p": 0.19
+  },
+  {
+   "es": "/ko/for-students",
+   "en": "/for-students",
+   "p": 0.19
+  },
+  {
+   "es": "/ko/blog/chat-with-youtube-videos-2026",
+   "en": "/blog/chat-with-youtube-videos",
+   "p": 0.21
+  }
+ ]
+}

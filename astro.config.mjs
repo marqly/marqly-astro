@@ -8,6 +8,7 @@ import tailwindcss from '@tailwindcss/vite';
 import { readdirSync, readFileSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { isIndexable } from './src/lib/content-quality.mjs';
 
 const ROOT = fileURLToPath(new URL('.', import.meta.url));
 
@@ -141,8 +142,15 @@ export default defineConfig({
     react(),
     mdx(),
     sitemap({
+      // ADR-001: pruned locale pages (below parity bar) stay OUT of the sitemap,
+      // matching the noindex the layout emits. @astrojs/sitemap does NOT read the
+      // robots meta, so this filter is the enforcement, not a nicety.
       // Dark-launch guard: /teams stays out of the sitemap until TEAMS_PUBLIC.
-      filter: (page) => TEAMS_PUBLIC || !/\/teams\/?(\.html)?$/.test(page),
+      filter: (page) => {
+        if (!TEAMS_PUBLIC && /\/teams\/?(\.html)?$/.test(page)) return false;
+        const p = new URL(page).pathname.replace(/\.html$/, '');
+        return isIndexable(p);
+      },
       // Attach real per-URL lastmod from frontmatter. URLs with no mappable
       // source date are emitted without lastmod rather than with a fake one.
       serialize(item) {

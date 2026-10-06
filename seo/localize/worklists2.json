@@ -1,0 +1,210 @@
+{
+ "de": [
+  {
+   "es": "/de/fuer-doktoranden",
+   "en": "/for-phd-students",
+   "p": 0.03
+  },
+  {
+   "es": "/de/fuer-produktmanager",
+   "en": "/for-product-managers",
+   "p": 0.03
+  },
+  {
+   "es": "/de/fuer-recruiter",
+   "en": "/for-recruiters",
+   "p": 0.03
+  },
+  {
+   "es": "/de/fuer-vertrieb",
+   "en": "/for-sales",
+   "p": 0.03
+  },
+  {
+   "es": "/de/lesezeichen-manager-edge",
+   "en": "/bookmark-manager-for-edge",
+   "p": 0.03
+  },
+  {
+   "es": "/de/lesezeichen-organizer",
+   "en": "/bookmark-organizer",
+   "p": 0.03
+  },
+  {
+   "es": "/de/webseite-als-pdf-speichern",
+   "en": "/save-page-as-pdf",
+   "p": 0.03
+  },
+  {
+   "es": "/de/zwischenablage-verlauf",
+   "en": "/clipboard-history",
+   "p": 0.03
+  },
+  {
+   "es": "/de/content-curation",
+   "en": "/content-curation",
+   "p": 0.04
+  },
+  {
+   "es": "/de/fuer-gruender",
+   "en": "/for-founders",
+   "p": 0.04
+  }
+ ],
+ "es": [
+  {
+   "es": "/es/usos/organizador-de-marcadores",
+   "en": "/bookmark-organizer",
+   "p": 0.04
+  },
+  {
+   "es": "/es/usos/academicos",
+   "en": "/for-academics",
+   "p": 0.05
+  },
+  {
+   "es": "/es/usos/gestor-marcadores-chrome",
+   "en": "/bookmark-manager-for-chrome",
+   "p": 0.05
+  },
+  {
+   "es": "/es/usos/gestor-marcadores-iphone",
+   "en": "/bookmark-manager-for-iphone",
+   "p": 0.05
+  },
+  {
+   "es": "/es/usos/reclutadores",
+   "en": "/for-recruiters",
+   "p": 0.05
+  },
+  {
+   "es": "/es/usos/resumidor-youtube",
+   "en": "/youtube-summarizer",
+   "p": 0.05
+  },
+  {
+   "es": "/es/usos/swipe-file",
+   "en": "/swipe-file",
+   "p": 0.05
+  },
+  {
+   "es": "/es/usos/buscar-trabajo",
+   "en": "/job-search-organizer",
+   "p": 0.06
+  },
+  {
+   "es": "/es/usos/gestor-marcadores-edge",
+   "en": "/bookmark-manager-for-edge",
+   "p": 0.06
+  },
+  {
+   "es": "/es/usos/guardar-pagina-pdf",
+   "en": "/save-page-as-pdf",
+   "p": 0.06
+  }
+ ],
+ "ja": [
+  {
+   "es": "/ja/clipboard-history",
+   "en": "/clipboard-history",
+   "p": 0.07
+  },
+  {
+   "es": "/ja/for-phd-students",
+   "en": "/for-phd-students",
+   "p": 0.07
+  },
+  {
+   "es": "/ja/for-sales",
+   "en": "/for-sales",
+   "p": 0.07
+  },
+  {
+   "es": "/ja/for-ux-researchers",
+   "en": "/for-ux-researchers",
+   "p": 0.07
+  },
+  {
+   "es": "/ja/bookmark-manager-for-chrome",
+   "en": "/bookmark-manager-for-chrome",
+   "p": 0.08
+  },
+  {
+   "es": "/ja/bookmark-manager-for-edge",
+   "en": "/bookmark-manager-for-edge",
+   "p": 0.08
+  },
+  {
+   "es": "/ja/bookmark-manager-for-iphone",
+   "en": "/bookmark-manager-for-iphone",
+   "p": 0.08
+  },
+  {
+   "es": "/ja/bookmark-organizer",
+   "en": "/bookmark-organizer",
+   "p": 0.08
+  },
+  {
+   "es": "/ja/content-curation",
+   "en": "/content-curation",
+   "p": 0.08
+  },
+  {
+   "es": "/ja/for-consultants",
+   "en": "/for-consultants",
+   "p": 0.08
+  }
+ ],
+ "ko": [
+  {
+   "es": "/ko/for-consultants",
+   "en": "/for-consultants",
+   "p": 0.05
+  },
+  {
+   "es": "/ko/for-sales",
+   "en": "/for-sales",
+   "p": 0.05
+  },
+  {
+   "es": "/ko/clipboard-history",
+   "en": "/clipboard-history",
+   "p": 0.06
+  },
+  {
+   "es": "/ko/content-curation",
+   "en": "/content-curation",
+   "p": 0.06
+  },
+  {
+   "es": "/ko/for-phd-students",
+   "en": "/for-phd-students",
+   "p": 0.06
+  },
+  {
+   "es": "/ko/for-product-managers",
+   "en": "/for-product-managers",
+   "p": 0.06
+  },
+  {
+   "es": "/ko/for-recruiters",
+   "en": "/for-recruiters",
+   "p": 0.06
+  },
+  {
+   "es": "/ko/for-ux-researchers",
+   "en": "/for-ux-researchers",
+   "p": 0.06
+  },
+  {
+   "es": "/ko/job-search-organizer",
+   "en": "/job-search-organizer",
+   "p": 0.06
+  },
+  {
+   "es": "/ko/blog/marqly-review-2026",
+   "en": "/blog/marqly-review-2026",
+   "p": 0.06
+  }
+ ]
+}
