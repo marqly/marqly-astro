@@ -29,7 +29,7 @@ const blog = defineCollection({
       /** Absolute URL of the social/OG card image. */
       ogImage: z.string().optional(),
       ctaUrl: z.string().url().default('https://app.marqly.com'),
-      ctaLabel: z.string().default('Try Marqly free'),
+      ctaLabel: z.string().default('Get started free'),
       /** Answer-first Q&A → visible FAQ + FAQPage schema (high AI-citation value). */
       faqs: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
       draft: z.boolean().default(false),
@@ -73,7 +73,7 @@ const usecases = defineCollection({
     updatedDate: z.coerce.date(),
     faqs: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
     ctaUrl: z.string().url().default('https://app.marqly.com'),
-    ctaLabel: z.string().default('Try Marqly free'),
+    ctaLabel: z.string().default('Get started free'),
     draft: z.boolean().default(false),
   }),
 });
@@ -134,7 +134,7 @@ const prompts = defineCollection({
     faqs: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
     updatedDate: z.coerce.date(),
     ctaUrl: z.string().url().default('https://app.marqly.com'),
-    ctaLabel: z.string().default('Try Marqly free'),
+    ctaLabel: z.string().default('Get started free'),
     /** Absolute URL of the social/OG card image. */
     ogImage: z.string().optional(),
     draft: z.boolean().default(false),

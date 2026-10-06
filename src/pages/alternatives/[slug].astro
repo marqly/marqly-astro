@@ -19,11 +19,20 @@ const subject = competitors.find((c) => c.slug === slug)!;
 const ranked = rankAlternatives(subject, competitors, marqly);
 
 const path = `/alternatives/${subject.slug}`;
-const h1 = `Best ${subject.name} alternatives (2026)`;
-const title = `Best ${subject.name} Alternatives (2026) — ${ranked.length} Tools Compared`;
+// §1.5 cannibalization: a "best X alternatives" LISTICLE intent is owned by the
+// blog listicle (e.g. /blog/best-pocket-alternatives-2026). For a SHUT-DOWN tool
+// this data layer already knows about, this hub page instead owns the distinct
+// "how do I get OFF X / recover my X data" intent and hands the pure
+// "best alternatives" query to the blog — so the two don't compete. Non-shutdown
+// subjects keep the neutral "alternatives" framing.
+const isShutdown = subject.status === 'shutdown';
+const h1 = isShutdown ? `Switching from ${subject.name}? (2026)` : `Best ${subject.name} alternatives (2026)`;
+const title = isShutdown
+  ? `${subject.name} Is Shut Down: Switch & Import Guide | Marqly`
+  : `Best ${subject.name} Alternatives (2026) — ${ranked.length} Tools Compared`;
 const description =
   subject.status === 'shutdown'
-    ? `${subject.name} is gone — here are the ${ranked.length} best ${subject.name} alternatives in 2026, compared on features, pricing, and import paths.`
+    ? `${subject.name} shut down — here is how to recover your data and the ${ranked.length} replacements to move to in 2026, compared on features, pricing, and import paths.`
     : `Looking for a ${subject.name} alternative? The ${ranked.length} best options in 2026 compared on AI features, highlights, pricing, and imports.`;
 
 const edges = marqlyEdges(marqly, subject, 3);
@@ -77,6 +86,24 @@ const others = competitors.filter((c) => c.slug !== subject.slug);
         )}
       </p>
 
+      {isShutdown && (
+        <p class="recover-note">
+          First, get your data out: {MIGRATION_SLUGS.includes(subject.slug) ? (
+            <a href={`/migrate/${subject.slug}`}>the {subject.name} migration guide</a>
+          ) : (
+            <a href="/migrate">a migration guide</a>
+          )} walks the export-and-import path step by step.
+          {subject.slug === 'pocket' && (
+            <> See also <a href="/blog/what-is-in-your-pocket-export-file">what's actually in a Pocket
+            export file</a>, and for the full head-to-head ranking of the successors (rather than this
+            switch-and-recover guide) <a href="/blog/best-pocket-alternatives-2026">the best Pocket
+            alternatives, tested</a>. </>
+          )}
+          {subject.slug !== 'pocket' && <> For a full ranking of where the field has moved, see the
+          best <a href="/alternatives">bookmark-app alternatives index</a>. </>}
+        </p>
+      )}
+
       {subject.status !== 'shutdown' && (
         <section class="why-switch-box">
           <h2>Why users leave and switch from {subject.name}</h2>
@@ -122,7 +149,7 @@ const others = competitors.filter((c) => c.slug !== subject.slug);
             <p class="rank-price"><strong>Pricing:</strong> {pricingSentence(tool)}</p>
             {tool.slug === 'marqly' ? (
               <div class="marqly-actions">
-                <a class="btn btn--primary" href="https://app.marqly.com">Try Marqly free <span class="arrow">→</span></a>
+                <a class="btn btn--primary" href="https://app.marqly.com">Get started free <span class="arrow">→</span></a>
         {MIGRATION_SLUGS.includes(subject.slug) ? (
                   <a class="rank-link" href={`/migrate/${subject.slug}`}>How to migrate from {subject.name} →</a>
                 ) : (
@@ -193,6 +220,18 @@ const others = competitors.filter((c) => c.slug !== subject.slug);
   h2 { font-size: var(--fs-h3); font-weight: 600; color: var(--ink-1); margin-top: var(--space-12); margin-bottom: var(--space-4); letter-spacing: var(--tracking-tight); }
   .intro { margin-top: var(--space-5); font-size: var(--fs-base); line-height: var(--lh-base); color: var(--ink-2); }
   .intro strong { color: var(--ink-1); }
+  .recover-note {
+    margin-top: var(--space-4, 1rem);
+    padding: var(--space-4, 1rem) var(--space-5, 1.25rem);
+    background: var(--surface-2, #f5f6f8);
+    border: 1px solid var(--border-1, #eceef1);
+    border-left: 3px solid var(--ink-1, #101014);
+    border-radius: var(--radius-inner, 10px);
+    font-size: var(--fs-sm, 0.92rem);
+    line-height: 1.6;
+    color: var(--ink-2, #374151);
+  }
+  .recover-note a { color: var(--ink-1, #101014); text-decoration: underline; text-underline-offset: 2px; font-weight: 600; }
 
   .ranked { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: var(--space-5); counter-reset: none; }
   .rank-card {

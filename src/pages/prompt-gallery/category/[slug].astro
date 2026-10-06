@@ -5,6 +5,7 @@ import Breadcrumbs from '../../../components/seo/Breadcrumbs.astro';
 import CtaBox from '../../../components/seo/CtaBox.astro';
 import { breadcrumbList, itemList, organization, webSite } from '../../../lib/schema';
 import { aiToolsBySlug } from '../../../lib/ai-tools';
+import { brandTitle } from '../../../lib/seo-text.mjs';
 
 const CATEGORY_ORDER = [
   'Image & Photo',
@@ -40,7 +41,7 @@ const entries = all
   .filter((e) => e.data.category === category)
   .sort((a, b) => a.data.title.localeCompare(b.data.title));
 
-const title = `${category} AI Prompts — Copy-Paste for ChatGPT, Gemini, DeepSeek & More | Marqly`;
+const title = brandTitle(`${category} AI Prompts — Copy & Paste`);
 const description = `Browse ${entries.length} copy-pasteable ${category.toLowerCase()} prompts. Works with ChatGPT, Claude, Gemini, DeepSeek, Kimi, and more.`;
 const path = `/prompt-gallery/category/${slug}`;
 const jsonLd = [

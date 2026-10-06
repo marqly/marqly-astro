@@ -52,7 +52,7 @@ Group saves into [boards](/faq/what-are-boards): weeknight rotations, holiday ba
 
 Sign up free at [app.marqly.com](https://app.marqly.com) — no credit card, and the free tier is genuinely usable (see [is Marqly free](/faq/is-marqly-free)). Install the extension, grab the iOS app if that's where you find recipes, and start saving without organizing anything. The first time you type "that pasta with the crispy chickpeas" and the right recipe appears, the system has paid for itself.
 
-[Try Marqly free](https://app.marqly.com)
+[Get started free](https://app.marqly.com)
 
 ## Who this is not for
 

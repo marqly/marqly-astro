@@ -56,7 +56,7 @@ Create a free account at [app.marqly.com](https://app.marqly.com) (no card — p
 
 That's a complete curation pipeline, and it took an evening — not a platform migration.
 
-[Try Marqly free](https://app.marqly.com)
+[Get started free](https://app.marqly.com)
 
 ## Who this is not for
 

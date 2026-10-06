@@ -4,6 +4,7 @@ import LandingLayout from '../layouts/LandingLayout.astro';
 import Breadcrumbs from '../components/seo/Breadcrumbs.astro';
 import FaqAccordion from '../components/seo/FaqAccordion.astro';
 import CtaBox from '../components/seo/CtaBox.astro';
+import UpdatedDate from '../components/seo/UpdatedDate.astro';
 import { CHROME_STORE_URL, breadcrumbList, faqPage, organization, softwareApplication, webSite } from '../lib/schema';
 import { alternatesForPath } from '../i18n/routes';
 
@@ -62,6 +63,7 @@ const jsonLd = [
       <div class="prose">
         <Content />
       </div>
+      <UpdatedDate date={entry.data.updatedDate} />
 
       {entry.data.faqs.length > 0 && (
         <div class="faq-wrap">

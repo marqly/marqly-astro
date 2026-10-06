@@ -20,7 +20,7 @@ const crumbs = [
 const steps = [
   {
     name: 'Locate your Pocket export file',
-    text: 'Locate the ZIP you downloaded from Pocket before the shutdown and unzip it. You want list.csv — the rows of title, url, time_added, tags, status. The folder’s ril_export.html looks like a bookmark file, but it is NOT the format Marqly imports (measured: a real 261-item HTML export parses to zero saves). Skip it.',
+    text: 'Locate the ZIP you downloaded from Pocket before the shutdown and unzip it. You want list.csv — the rows of title, url, time_added, tags, status. The folder’s ril_export.html looks like a bookmark file, but it is NOT the format Marqly imports (measured: a real 261-item HTML export parses to zero saves). Skip it — [we measured a real 261-item Pocket HTML export: 0 saves parse](/research/bookmark-import-fidelity).',
     url: path,
   },
   {

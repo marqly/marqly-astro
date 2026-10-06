@@ -66,4 +66,4 @@ The free tier is enough to test the workflow. Pro is $72/year (about $6/month bi
 
 Honest scope check: Marqly is a personal research library, not a sales platform. There's no CRM integration (no public API), no team workspace, and no shared editing. If your team needs account research living inside Salesforce or a shared wiki, Marqly won't replace that layer.
 
-What it replaces is the tab chaos underneath it — the forty open tabs, the self-DMs, the bookmark folders you never reopen. If your research currently lives nowhere in particular, this is the fix. Try Marqly free at [app.marqly.com](https://app.marqly.com).
+What it replaces is the tab chaos underneath it — the forty open tabs, the self-DMs, the bookmark folders you never reopen. If your research currently lives nowhere in particular, this is the fix. Get started free at [app.marqly.com](https://app.marqly.com).

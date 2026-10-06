@@ -52,7 +52,7 @@ Boards also share as public pages — anyone with the link can view without sign
 
 Sign up free at [app.marqly.com](https://app.marqly.com) — no card required — and install the extension for Chrome, Edge, Firefox, or Safari. Then seed the file: the next five ads or pages that make you stop, save them, and highlight the one element that caused the stop. That highlighting habit is the entire discipline; everything else is automatic.
 
-[Try Marqly free](https://app.marqly.com)
+[Get started free](https://app.marqly.com)
 
 ## Who this is not for
 

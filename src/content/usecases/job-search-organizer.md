@@ -50,7 +50,7 @@ Two more AI layers help at crunch time. AI summaries triage long saves — a 3,0
 
 Create a free account at [app.marqly.com](https://app.marqly.com) — no card required, details in [is Marqly free](/faq/is-marqly-free) — and install the extension for Chrome, Edge, Firefox, or Safari. Start with the applications already in flight: save each posting today (PDF the important ones), make a board per company, and highlight as you research from here on. Ten minutes of setup, and the pile stops being a pile.
 
-[Try Marqly free](https://app.marqly.com)
+[Get started free](https://app.marqly.com)
 
 ## Who this is not for
 

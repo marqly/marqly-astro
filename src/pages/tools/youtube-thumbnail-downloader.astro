@@ -24,6 +24,14 @@ const faqs = [
     q: 'Can I reuse someone else’s thumbnail?',
     a: 'A public image is not automatically free to reuse. Download thumbnails you own, have permission to use, or are otherwise legally allowed to use.',
   },
+  {
+    q: 'Why is there no 1280 × 720 size for some videos?',
+    a: 'YouTube only publishes the largest version for videos it generated one for. Older uploads and low-resolution sources often have no maxresdefault file, which is why this tool probes every size and shows only the ones that actually exist.',
+  },
+  {
+    q: 'Why do some thumbnail sizes have black bars?',
+    a: 'The 120 × 90, 480 × 360, and 640 × 480 versions use a 4:3 frame, so widescreen videos get black bars above and below. The 320 × 180 and 1280 × 720 versions keep the native 16:9 ratio without bars.',
+  },
 ];
 const jsonLd = [
   organization(),
@@ -54,17 +62,130 @@ const jsonLd = [
     <div class="tool-grid hidden" id="yt-thumb-results" aria-live="polite"></div>
 
     <Fragment slot="content">
-      <h2>Every public YouTube thumbnail size</h2>
+      <h2>How this thumbnail downloader works</h2>
       <p>
-        YouTube stores several still images for each video. This tool checks the common maximum,
-        standard, high, medium, and default resolutions and only shows the images that exist.
-        Nothing is recompressed, resized, or watermarked by Marqly.
+        When you paste a link, the page first reads the 11-character video ID out of it — entirely in
+        your browser. Then it builds the standard image addresses YouTube uses
+        (<code>https://i.ytimg.com/vi/&lt;video-id&gt;/&lt;size&gt;.jpg</code>) and asks YouTube's public
+        image CDN for each size, one at a time. Your browser loads the image directly from YouTube;
+        nothing passes through a Marqly server. If a size was never generated, the CDN returns a small
+        gray placeholder instead of a real image, and the page detects that and hides the size — so you
+        only ever see thumbnails that actually exist. Pressing <strong>Download JPG</strong> fetches the
+        image in your browser and saves it to your machine; if your browser blocks the direct download,
+        the page opens the image in a new tab so you can save it yourself.
       </p>
-      <h2>Useful with transcripts and timestamps</h2>
+
+      <h2>How to download a YouTube thumbnail</h2>
+      <ol>
+        <li>Copy the video's link from YouTube — a watch page, a Short, a live stream, an embed URL, a youtu.be link, or just the bare 11-character video ID.</li>
+        <li>Paste it into the field above and press <strong>Get thumbnails</strong>.</li>
+        <li>The page checks each published size and shows one card for every thumbnail that exists.</li>
+        <li>Click <strong>Download JPG</strong> to save a copy, or <strong>Open image</strong> to view the full-resolution file first.</li>
+      </ol>
+
+      <h2>YouTube thumbnail sizes explained</h2>
       <p>
-        Need more than the cover? Open the <a href="/tools/youtube-transcript">YouTube transcript viewer</a>
-        to copy the spoken text, or create an exact share point with the
-        <a href="/tools/youtube-timestamp-link">YouTube timestamp link generator</a>.
+        For every video, YouTube's CDN serves several stills at fixed addresses. They differ in
+        resolution and in aspect ratio — three of them use an old 4:3 frame, which is why widescreen
+        videos show black bars in those versions.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Size</th>
+            <th scope="col">File name</th>
+            <th scope="col">Resolution</th>
+            <th scope="col">When it exists</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Maximum resolution</td>
+            <td><code>maxresdefault.jpg</code></td>
+            <td>1280 × 720 (16:9)</td>
+            <td>Only when YouTube generated a full-HD still. Older uploads and low-resolution sources often don't have it.</td>
+          </tr>
+          <tr>
+            <td>Standard definition</td>
+            <td><code>sddefault.jpg</code></td>
+            <td>640 × 480 (4:3)</td>
+            <td>Available for most videos; widescreen footage is letterboxed with black bars.</td>
+          </tr>
+          <tr>
+            <td>High quality</td>
+            <td><code>hqdefault.jpg</code></td>
+            <td>480 × 360 (4:3)</td>
+            <td>Available for nearly every video. This is the size many older embeds and third-party sites display.</td>
+          </tr>
+          <tr>
+            <td>Medium quality</td>
+            <td><code>mqdefault.jpg</code></td>
+            <td>320 × 180 (16:9)</td>
+            <td>Available for nearly every video; keeps the native widescreen ratio with no bars.</td>
+          </tr>
+          <tr>
+            <td>Small</td>
+            <td><code>default.jpg</code></td>
+            <td>120 × 90 (4:3)</td>
+            <td>The smallest published version; broadly available.</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        YouTube also publishes alternate frame grabs (<code>hq1.jpg</code> through <code>hq3.jpg</code>)
+        for some videos. This tool checks only the five canonical sizes above — it never shows you a
+        dead link.
+      </p>
+
+      <h2>Shorts, live streams, and other link shapes</h2>
+      <p>
+        Shorts and live streams are videos with the same 11-character IDs, and YouTube publishes their
+        thumbnails at the same <code>i.ytimg.com</code> addresses as ordinary uploads — so a
+        <code>youtube.com/shorts/...</code> or <code>youtube.com/live/...</code> link behaves exactly
+        like a watch link here. Sharing links (<code>youtu.be</code>), embed links, and tracking
+        parameters appended to any of them are all handled: the tool only needs the ID, and ignores
+        everything else in the URL.
+      </p>
+
+      <h2>What you get — and what you don't</h2>
+      <p>
+        The files you download are the rendered JPGs YouTube's CDN publishes, not the original image the
+        creator uploaded. YouTube re-encodes thumbnails, so a PNG source arrives here as a JPG, and
+        <code>maxresdefault</code> caps at 1280 × 720 even for 4K videos. For thumbnails and Shorts covers
+        there is no higher-quality public copy than the one this page shows you. The tool also never
+        recompresses, upscales, or watermarks anything on our side — you receive the CDN's bytes unchanged.
+      </p>
+
+      <h2>Privacy: what gets sent, and where</h2>
+      <p>
+        The video ID is extracted locally from the text you paste. It is never uploaded to, or logged by,
+        Marqly. The only network requests the tool makes are image fetches from
+        <code>i.ytimg.com</code>, issued by your own browser — the same kind of request any web page
+        makes when it displays an image, so YouTube sees a normal image request from your IP address. The
+        downloaded file goes straight to your computer's downloads folder. There is no account, no
+        watermark, and no server-side copy of anything.
+      </p>
+
+      <h2>Tips and edge cases</h2>
+      <ul>
+        <li>A bare 11-character video ID works — you don't need the full URL.</li>
+        <li>Private and deleted videos usually return no usable thumbnails. For an unlisted video the cover is still retrievable through its direct image URL, so treat thumbnails as effectively public.</li>
+        <li>Saved files are named <code>youtube-&lt;video-id&gt;-&lt;size&gt;.jpg</code>, so a batch of downloads stays sorted by source.</li>
+        <li>Prefer <code>mqdefault</code> or <code>maxresdefault</code> when you want the clean 16:9 frame, and <code>hqdefault</code> when you need the widest compatibility with older sites.</li>
+      </ul>
+
+      <h2>Related tools and guides</h2>
+      <p>
+        Grabbing the cover image is usually step one of working with the video itself. The
+        <a href="/tools/youtube-transcript">YouTube transcript viewer</a> copies the spoken text, the
+        <a href="/tools/youtube-timestamp-link">timestamp link generator</a> creates an exact share point,
+        and the <a href="/tools/youtube-chapter-generator">chapter generator</a> turns a transcript into
+        ready-to-paste chapters. For the video itself, see how to
+        <a href="/youtube-summarizer">summarize YouTube videos with AI</a>, or read the guide on
+        <a href="/blog/how-to-get-youtube-video-transcript">how to get a YouTube video transcript</a>.
+        If your thumbnails are bookmarks for videos you intend to watch later, Marqly's
+        <a href="/read-it-later">read-it-later</a> workflow saves the link with its transcript and
+        summary attached.
       </p>
     </Fragment>
   </ToolShell>

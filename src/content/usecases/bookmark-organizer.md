@@ -68,4 +68,4 @@ Pro is $72/year (about $6/month billed annually) or $9/month.
 
 Where this isn't your tool: if you want self-hosting or a public API, Marqly offers neither. And if you genuinely enjoy hand-curating a precise folder hierarchy, Marqly's automatic-first approach will feel like it's doing your hobby for you.
 
-For everyone whose bookmarks are a graveyard they're mildly ashamed of: the fix is deleting the filing step, not doing it better. Try Marqly free at [app.marqly.com](https://app.marqly.com).
+For everyone whose bookmarks are a graveyard they're mildly ashamed of: the fix is deleting the filing step, not doing it better. Get started free at [app.marqly.com](https://app.marqly.com).

@@ -48,7 +48,7 @@ Sign up free at [app.marqly.com](https://app.marqly.com) — no card — and ins
 
 The habit is the entire setup. If you want a fuller method for building the practice — what to capture, what to skip, how retrieval habits form — work through [how to build a second brain](/blog/how-to-build-a-second-brain).
 
-[Try Marqly free](https://app.marqly.com)
+[Get started free](https://app.marqly.com)
 
 ## Who this is not for
 

@@ -24,6 +24,14 @@ const faqs = [
     q: 'Why does the check run on your server instead of in my browser?',
     a: 'Browsers enforce CORS: JavaScript on this page is not allowed to read response statuses from other domains, so a purely client-side checker would report mostly false failures. Our server makes the requests and returns each URL’s real status. Only the URLs you submit are sent — nothing else.',
   },
+  {
+    q: 'Does the checker download whole pages?',
+    a: 'No. Each URL gets a HEAD request first — headers only, no page body — and only if a server refuses HEAD (status 405 or 501) does the checker retry it with GET. Redirects are followed hop by hop up to eight times, and the final destination is shown in the results. Anything that has not answered within about six seconds is reported as unreachable.',
+  },
+  {
+    q: 'Can I check more than 25 URLs, or run the tool more often?',
+    a: 'Yes — in batches. There is no account and no daily quota: the only limits are 25 URLs per run (anything past the 25th line is skipped and counted, never silently dropped) and a per-IP rate limit that keeps scripted abuse from slowing the tool down for everyone. If you see “too many requests”, wait a minute and run the next batch.',
+  },
 ];
 
 const jsonLd = [
@@ -81,6 +89,65 @@ const jsonLd = [
         question is how many.
       </p>
 
+      <h2>How the checker works</h2>
+      <p>
+        The requests are made from Marqly's server, not from your browser — and that is not a design
+        preference, it is the only way to get honest results. Browsers enforce CORS: a script on this
+        page is not allowed to read response statuses from other domains, so a purely client-side
+        checker would report most healthy links as failures. Instead, the URLs you paste go to
+        Marqly's own server on Cloudflare's infrastructure, which fetches each one and returns its
+        status. Per URL, the server:
+      </p>
+      <ul>
+        <li>
+          sends a <strong>HEAD request</strong> first — headers only, no page body — under a
+          declared user agent (<code>MarqlyLinkChecker/1.0</code>) that identifies the checker and
+          links back to this page;
+        </li>
+        <li>
+          <strong>retries with GET</strong> if the server refuses HEAD (status 405 or 501) — some
+          sites simply don't implement HEAD;
+        </li>
+        <li>
+          <strong>follows redirects hop by hop</strong>, up to eight, so the "redirects to" column
+          shows the final destination rather than the first hop;
+        </li>
+        <li>
+          <strong>gives up after about six seconds</strong> on a link that won't answer, reporting it
+          as unreachable instead of hanging the whole batch;
+        </li>
+        <li>
+          runs all URLs in the batch <strong>in parallel</strong>, which is why 25 links usually come
+          back within seconds.
+        </li>
+      </ul>
+      <p>
+        Only ordinary public web addresses are accepted — http or https on the standard ports, with
+        no embedded credentials, and never private or internal hosts. That keeps the free tool from
+        being pointed at machines it has no business touching; it also means intranet links cannot be
+        checked here, by design.
+      </p>
+
+      <h2>How to use it</h2>
+      <ol>
+        <li>
+          Gather URLs — from a document, or from your bookmarks: export them and pull the links out
+          as a searchable list with the <a href="/tools/bookmark-file-viewer">bookmark file
+          viewer</a>.
+        </li>
+        <li>Paste them above, one per line, up to 25 per run.</li>
+        <li>Press <strong>Check links</strong> and wait for the results table.</li>
+        <li>
+          Read each row: the verdict (live, gone, redirected, or "needs a human check"), a ✓/✗ for
+          whether the server answered successfully, and the final URL when the link redirected.
+        </li>
+        <li>
+          Act: delete or replace the 404/410s, verify the ambiguous ones in your own browser, and
+          check where a redirect now lands — a link that ends on the site's homepage has usually
+          lost its article even though nothing "failed".
+        </li>
+      </ol>
+
       <h2>How to read the results</h2>
       <ul>
         <li><strong>200-range</strong> — alive. A ✓ means the server answered successfully.</li>
@@ -102,21 +169,75 @@ const jsonLd = [
         </li>
       </ul>
 
+      <h2>HTTP status reference</h2>
+      <p>
+        The verdict in the results table comes from this mapping — the same logic you can audit in
+        any browser's developer tools:
+      </p>
+      <table>
+        <thead>
+          <tr><th>Status</th><th>What it means</th><th>Verdict here</th><th>What to do</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>200–299</td><td>Success — the server answered with content.</td><td>Live ✓</td><td>Nothing.</td></tr>
+          <tr><td>301 / 302 / 307 / 308</td><td>Redirect — the page answers from a different address now.</td><td>Redirected</td><td>Check the final URL is the article, not a homepage; update your link to the destination.</td></tr>
+          <tr><td>401</td><td>Login required.</td><td>Needs a human check</td><td>Probably fine for you if you have access; not link rot.</td></tr>
+          <tr><td>403</td><td>Forbidden — access denied to this request.</td><td>Needs a human check</td><td>Usually bot protection aimed at the checker; open it in your browser.</td></tr>
+          <tr><td>404</td><td>Not found — the server is alive, this page is not.</td><td>Gone</td><td>Delete it or find a replacement link.</td></tr>
+          <tr><td>410</td><td>Gone — the page was removed deliberately.</td><td>Gone</td><td>Delete it.</td></tr>
+          <tr><td>429</td><td>Too many requests — the target throttled us.</td><td>Rerun</td><td>Give the site a rest and re-check this batch later.</td></tr>
+          <tr><td>500 / 502 / 503 / 504</td><td>Server-side errors — something broke on their end.</td><td>Rerun</td><td>Downtime, not death. Check again another day.</td></tr>
+          <tr><td>999</td><td>LinkedIn's "stop asking" status for automated clients.</td><td>Needs a human check</td><td>Almost never genuinely dead; open in a browser.</td></tr>
+          <tr><td>unreachable</td><td>No HTTP response at all — DNS doesn't resolve, the connection was refused, or the ~6-second timeout expired.</td><td>Gone (verify)</td><td>Rerun once; a domain that fails twice is gone.</td></tr>
+        </tbody>
+      </table>
+
+      <h2>When to run a link audit</h2>
+      <ul>
+        <li><strong>Before republishing or recycling old content</strong> — a newsletter resending a five-year-old post with dead citations looks worse than the news it carries.</li>
+        <li><strong>After any CMS migration</strong> — yours or someone else's: the URLs in your bookmarks and notes may now point at a site that renamed everything.</li>
+        <li><strong>When pruning a bookmarks folder</strong> — delete the confirmed-dead first; the file shrinks fastest and syncs less junk.</li>
+        <li><strong>While verifying references in research or a reading list</strong> — a 404 on a citation is worth knowing before you build on it.</li>
+        <li><strong>Before migrating your whole library</strong> — see the <a href="/migrate/browser-bookmarks">browser-bookmarks migration guide</a>; a duplicate sweep with the <a href="/tools/duplicate-bookmark-finder">duplicate bookmark finder</a> and a dead-link pass with this tool are the two cheap wins.</li>
+      </ul>
+
+      <h2>Privacy: what is sent, what is stored</h2>
+      <p>
+        What is sent: the URLs you paste, from your browser to Marqly's server, and from there to
+        each target site carrying the checker's user agent. Nothing else from your machine or
+        session travels with them. What is stored: nothing that identifies you — there is no account,
+        no history, no saved batch; the response comes back marked no-store and the only counters
+        kept are edge rate limits that stop scripts hammering the tool. Two practical consequences:
+        the sites you check will see a request from Cloudflare's infrastructure, so do not paste
+        URLs whose access is itself sensitive; and private or internal addresses cannot be checked
+        here at all, because they are refused before any request is made.
+      </p>
+
       <h2>Honest limits</h2>
       <p>
         This tool checks <strong>up to 25 URLs per run</strong> — paste more and the extras are
-        skipped and counted, not silently ignored. It reports what the server said at this moment,
+        skipped and counted, not silently ignored. The cap exists because every URL is a real
+        request from our server: unbounded batches invite exactly the scripted abuse that would make
+        the tool slow for everyone else. There is no account and no daily quota, so a bigger list is
+        simply more batches. It reports what the server said at this moment,
         which is not always the truth about content: a page can return 200 while its text has been
         replaced by a domain-parking ad ("soft 404s" are undetectable from status codes alone).
         For auditing a whole bookmarks export, pull the URLs out first with the
         <a href="/tools/bookmark-file-viewer">bookmark file viewer</a> and feed them through in
         batches.
       </p>
+      <ul>
+        <li><strong>Slow sites look dead.</strong> The ~6-second timeout means a laggy but living page can come back "unreachable" — rerun before believing it.</li>
+        <li><strong>Bot walls look dead.</strong> A 403 or 999 is the site rejecting a robot, not refusing the page; verify those by hand.</li>
+        <li><strong>JavaScript-rendered pages answer before they render.</strong> A checker sees the HTTP response, not what your browser eventually paints.</li>
+        <li><strong>Living links die tomorrow.</strong> Status is a snapshot of this moment; a saved library is worth re-auditing every few months.</li>
+        <li><strong>Push too hard and you'll be paused.</strong> If you fire batch after batch quickly, the per-IP rate limit answers "too many requests" — wait a minute and continue.</li>
+      </ul>
 
       <h2>The deeper fix for rotting bookmarks</h2>
       <p>
         A link checker tells you a page died; it can't tell you what the page said. That's the
-        argument for saving more than the URL: Marqly attaches an AI summary and snapshot data to every save, so a
+        argument for saving more than the URL: Marqly attaches an AI summary to your saves, so a
         dead link in your library still carries its content's gist — and
         <a href="https://app.marqly.com">semantic search</a> still finds it by meaning.
       </p>
@@ -127,6 +248,16 @@ const jsonLd = [
         at the moment of saving so link rot never wipes out your knowledge. Your data stays yours either way; see
         <a href="/faq/can-i-export-my-data">can I export my data</a>.
       </p>
+
+      <h2>Related tools and guides</h2>
+      <ul>
+        <li><a href="/tools/duplicate-bookmark-finder">Remove double-saved links</a> before you audit — duplicates make the batch twice as long for no reason.</li>
+        <li><a href="/tools/bookmark-file-viewer">Open your bookmarks export as a searchable table</a> to pull URLs for checking.</li>
+        <li><a href="/migrate/browser-bookmarks">Switching browsers?</a> The migration walkthrough covers export, cleanup, and import end to end.</li>
+        <li><a href="/read-it-later">A read-it-later setup that keeps summaries</a> is the structural answer to link rot.</li>
+        <li><a href="/blog/how-to-organize-bookmarks">How to organize bookmarks</a> so a dead link costs you one entry, not a whole folder's worth of trust.</li>
+        <li><a href="/pricing">Marqly's free plan</a> — get started and save the next ten links with a summary attached.</li>
+      </ul>
     </Fragment>
   </ToolShell>
 </LandingLayout>

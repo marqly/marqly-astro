@@ -74,6 +74,7 @@ const jsonLd = [
 
     <Fragment slot="content">
       <h2>What's inside a Pocket export</h2>
+      <p>Short version: the file that matters is <code>list.csv</code>. The <code>ril_export.html</code> preview sits next to it and looks importable, but [we measured a genuine one against our importer: 0 of 261 bookmarks parse](/research/bookmark-import-fidelity) — it's a plain list, not the Netscape format bookmark tools read.</p>
       <p>
         Pocket's final export format was a ZIP archive containing one or more CSV files (large
         libraries were split into parts). Each row is one save with five columns:

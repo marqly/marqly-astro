@@ -34,4 +34,4 @@ Tags and semantic search are complementary layers. AI [auto-tagging](/faq/how-do
 
 ## Try it on a real memory
 
-The convincing test is personal: think of something you saved months ago, describe it from memory, and see if it comes back. [Try Marqly free](https://app.marqly.com) — import your existing bookmarks and search them by meaning.
+The convincing test is personal: think of something you saved months ago, describe it from memory, and see if it comes back. [Get started free](https://app.marqly.com) — import your existing bookmarks and search them by meaning.

@@ -24,6 +24,18 @@ const faqs = [
     q: 'Is my text stored anywhere?',
     a: 'No. Counting happens in your browser as you type — the text never leaves the page, there is no server call, and nothing persists after you close the tab. Paste unpublished drafts freely.',
   },
+  {
+    q: 'How exactly are words counted?',
+    a: 'The page splits your text at whitespace and counts the resulting chunks, so a URL, a code token, or a long hyphenated string each counts as one word. A raw character count, spaces included, is shown beside it so you can sanity-check the number.',
+  },
+  {
+    q: 'Does the estimate work for non-English text?',
+    a: 'It works for any language that separates words with spaces — the 238 wpm figure is an English-based average, so treat the result as a planning estimate elsewhere. Languages written without word spaces, such as Chinese, Japanese, or Thai, are undercounted by any whitespace-based counter, including this one, so the minute estimate is not meaningful for them.',
+  },
+  {
+    q: 'Can I use this for my blog’s “min read” label?',
+    a: 'Yes. The number is simply your word count divided by 238, and the calculator needs no account. Keep in mind that other platforms assume different speeds — anywhere from 180 to 300 wpm — so your label will not always match a competitor’s for the same article.',
+  },
 ];
 
 const jsonLd = [
@@ -109,6 +121,82 @@ const jsonLd = [
         on purpose: whitespace-separated words, one well-sourced speed, no image fudge factors.
       </p>
 
+      <h2>How to use the calculator</h2>
+      <ol>
+        <li>Paste an article, essay, script, or chapter into the box — the four counters update live as you type. There is no button to press.</li>
+        <li>Check the word count first. If it looks off, you probably pasted menus, captions, or code along with the prose; trim the text and the numbers recalculate instantly.</li>
+        <li>Read the default estimate at 238 wpm, then adjust for your actual reader with the speed table below — the arithmetic is just words ÷ speed.</li>
+        <li>Planning a course or a queue? Run each piece and add the minutes up; the rough planning speeds below are good enough for batching.</li>
+      </ol>
+
+      <h2>Reference: which reading speed to assume</h2>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Reader or mode</th>
+            <th scope="col">Assumed speed</th>
+            <th scope="col">Where the number comes from</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Adult silent reading, English non-fiction</td>
+            <td>238 wpm</td>
+            <td>This tool's default; the 2019 Brysbaert meta-analysis cited above.</td>
+          </tr>
+          <tr>
+            <td>English fiction</td>
+            <td>around 260 wpm</td>
+            <td>Same meta-analysis; narrative vocabulary is more predictable.</td>
+          </tr>
+          <tr>
+            <td>Other read-time widgets</td>
+            <td>180–300 wpm</td>
+            <td>The spread of published platform defaults — the reason estimates disagree between sites.</td>
+          </tr>
+          <tr>
+            <td>Narration and presentations</td>
+            <td>150 wpm</td>
+            <td>This page's speaking timer; a comfortable read-aloud pace.</td>
+          </tr>
+          <tr>
+            <td>Studying dense material</td>
+            <td>roughly half the default (~120 wpm)</td>
+            <td>Rule-of-thumb planning figure, not a measured rate.</td>
+          </tr>
+          <tr>
+            <td>Skimming for the gist</td>
+            <td>up to about 3× the default</td>
+            <td>Rule-of-thumb planning figure; reading research measures comprehension-based reading.</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Worked example: an 1,800-word essay is 1,800 ÷ 238 ≈ 7.6 minutes of silent reading — the page
+        renders it as “7 min 34 sec” — and 1,800 ÷ 150 = 12 minutes exactly if you read it aloud as a
+        script.
+      </p>
+
+      <h2>What counts as a word</h2>
+      <p>
+        The counter splits your text at whitespace and counts every resulting chunk, so a URL, a code
+        token, or a long hyphenated string each counts as one word. Anything you paste is measured:
+        headings, captions, cookie banners. Publishing platforms often treat non-prose content
+        differently, which is why their labels can differ even when they use a similar speed. The
+        character count is raw length — spaces and line breaks included — so you can sanity-check the
+        word count against it. For an article label, paste just the body prose.
+      </p>
+
+      <h2>Privacy and limits</h2>
+      <p>
+        Counting happens inside your browser as you type: no network request, no account, nothing
+        stored, nothing left after you close the tab — paste unpublished drafts freely. Two honest
+        limits. First, every result is an average-based estimate, not a stopwatch: real reading speed
+        swings with material and purpose, as above. Second, word-based counting only makes sense for
+        scripts that separate words with spaces. Chinese, Japanese, and Thai text will undercount words
+        badly — the character count still works, but the minute estimate does not.
+      </p>
+
       <h2>When the reading pile outgrows the reading time</h2>
       <p>
         Knowing an article is an 18-minute read is useful; having forty of them queued is the real
@@ -117,6 +205,20 @@ const jsonLd = [
         <a href="/read-it-later">read-it-later</a> page. Marqly's angle: AI summarizes every saved
         article, so you can triage the pile in minutes and spend your actual reading time on the
         pieces that deserve it.
+      </p>
+
+      <h2>Related tools and guides</h2>
+      <p>
+        Counting is one step in a larger reading workflow. Clean a messy page into plain prose with the
+        <a href="/tools/html-to-markdown">HTML to Markdown converter</a> before you time it; for video,
+        the <a href="/tools/youtube-transcript">YouTube transcript viewer</a> gets you the text behind it
+        — at the two rates on this page, reading a transcript takes notably less time than listening to
+        the same words aloud. Marqly's <a href="/web-highlighter">web highlighter</a> keeps your
+        annotations attached to the saved page, the <a href="/youtube-summarizer">YouTube
+        summarizer</a> condenses video before you commit to it, and the
+        <a href="/second-brain">second-brain</a> guide — alongside the longer
+        <a href="/blog/how-to-build-a-second-brain">how to build a second brain</a> walkthrough — covers
+        what to do with everything you have time for.
       </p>
     </Fragment>
   </ToolShell>

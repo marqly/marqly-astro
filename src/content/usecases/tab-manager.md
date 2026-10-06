@@ -52,7 +52,7 @@ Install the extension — Chrome, Edge, Firefox, or Safari — and sign up free 
 
 Then run the honest first test: take your current window, the one with all the tabs you've been afraid to close, and save it in one click. Watch the tags appear without your help. Close the window. A day later, try to pull one of those pages back by describing it. That round trip — save, close, retrieve — is the entire product pitch, and it takes about a minute to verify.
 
-[Try Marqly free](https://app.marqly.com)
+[Get started free](https://app.marqly.com)
 
 ## Who this is not for
 

@@ -11,6 +11,8 @@ const faqs = [
   { q: 'How do I install the generated bookmarklet?', a: 'Drag the generated button to your bookmarks bar. If drag-and-drop is unavailable, copy the bookmarklet URL and paste it into the URL field of a manually created bookmark.' },
   { q: 'Is the code executed by this generator?', a: 'No. This page only packages and displays the code. The generated button is prevented from running here; it executes only when you save it as a bookmark and click it on another page.' },
   { q: 'Are bookmarklets safe?', a: 'A bookmarklet can read and change the current page, so only use code you understand and trust. Some websites block bookmarklets with strict security policies.' },
+  { q: 'Does this generator send my script anywhere?', a: 'No. The page reads what you type, wraps it in a function, URL-encodes it, and displays the result — there is no server call in the generator, and the snippet is transformed entirely on your device.' },
+  { q: 'When should I use a userscript or an extension instead of a bookmarklet?', a: 'A bookmarklet runs once, on one page, only when you click it. If you need code that runs automatically on every visit, stores its own data, or works across sites in the background, a userscript manager or a browser extension fits better.' },
 ];
 const jsonLd = [organization(), webSite(), breadcrumbList([{ name: 'Home', path: '/' }, { name: 'Free tools', path: '/tools' }, { name: 'Bookmarklet maker', path }]), faqPage(faqs), freeWebApplication('Bookmarklet Maker', description, path)];
 ---
@@ -28,10 +30,119 @@ const jsonLd = [organization(), webSite(), breadcrumbList([{ name: 'Home', path:
       <textarea id="bm-output" class="mono" readonly></textarea>
     </div>
     <Fragment slot="content">
-      <h2>A tiny tool that lives in the bookmarks bar</h2>
-      <p>Bookmarklets are useful for page-specific actions: copying a formatted citation, toggling a reading view, extracting selected text, or opening the current URL in another service. They require no extension installation and keep the script inside a normal browser bookmark.</p>
+      <h2>What a bookmarklet actually is</h2>
+      <p>
+        A bookmarklet is an ordinary browser bookmark whose address starts with <code>javascript:</code>
+        instead of <code>https:</code>. Open a page, click the bookmark, and the browser runs your script
+        against that page instead of navigating anywhere. Bookmarklets are useful for page-specific
+        actions — copying a formatted citation, toggling a reading view, extracting selected text, or
+        opening the current URL in another service. They require no extension installation, request no
+        permissions, and live in the bookmarks bar like any other link.
+      </p>
+
+      <h2>How this generator works</h2>
+      <p>
+        The tool does two things to your snippet. First, it wraps the code in an immediately-invoked
+        function — <code>{'(() => { … })()'}</code> — so your variables can't collide with whatever the
+        target page already defines. Second, it percent-encodes the script, because a bookmark address
+        cannot safely contain raw spaces, quotes, or several other characters. The result is the long
+        <code>javascript:…</code> string you drag to the bar. All of this happens inside this page: the
+        generator never sends your code to a server.
+      </p>
+
+      <h2>How to make and install a bookmarklet</h2>
+      <ol>
+        <li>Give the bookmark a name and paste your JavaScript into the code box — or press <strong>Load page-title sample</strong> to see a finished example.</li>
+        <li>Press <strong>Create bookmarklet</strong>. The generated URL appears below.</li>
+        <li>Drag the dark button onto your bookmarks bar. If the bar is hidden, enable it from your browser's View menu first.</li>
+        <li>No drag-and-drop (touch devices, for instance)? Create a new bookmark manually and paste the generated URL into its address field. If a browser strips the <code>javascript:</code> prefix when you type in the address bar, the bookmark editor keeps it as entered.</li>
+        <li>Open any page and click the bookmark. The script runs once, against that page.</li>
+      </ol>
+
+      <h2>Common bookmarklet uses</h2>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Goal</th>
+            <th scope="col">What the script does</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Copy a citation</td>
+            <td>Writes the page title and URL to the clipboard — the sample built into this page.</td>
+          </tr>
+          <tr>
+            <td>Extract selected text</td>
+            <td>Reads the current selection and copies or reformats it.</td>
+          </tr>
+          <tr>
+            <td>Reveal hidden content</td>
+            <td>Overrides CSS that clips overflowing text so collapsed sections become visible.</td>
+          </tr>
+          <tr>
+            <td>Preview a style change</td>
+            <td>Temporarily recolors or restyles the page; a reload undoes it.</td>
+          </tr>
+          <tr>
+            <td>Send the page elsewhere</td>
+            <td>Opens the current URL in a search, translation, or archive service.</td>
+          </tr>
+          <tr>
+            <td>Audit the page</td>
+            <td>Counts elements — images, links, scripts — and reports the totals.</td>
+          </tr>
+        </tbody>
+      </table>
+
       <h2>Security matters</h2>
-      <p>Bookmarklets run with access to the current page. Review code before installing it, avoid snippets that load remote scripts, and never run an unknown bookmarklet on a page containing sensitive information.</p>
+      <p>
+        A bookmarklet runs with the same access the page's own scripts have: it can read and change
+        anything the page exposes. Review code before installing it, avoid snippets that load remote
+        scripts — a URL someone else controls can change after you install — and never run an unknown
+        bookmarklet on a page containing sensitive information. Pages served with a strict
+        Content-Security-Policy may refuse to run bookmarklets at all; that is the site protecting its
+        users, not a bug in this generator.
+      </p>
+
+      <h2>Bookmarklet vs userscript vs extension</h2>
+      <p>
+        The three look similar but answer different needs. A <strong>bookmarklet</strong> is one script
+        that runs once, on one page, when you click it — zero installation, and it travels with your
+        bookmarks. A <strong>userscript</strong> (managed by a userscript manager) attaches to matching
+        sites and can run automatically on every visit, keeping its own settings between pages. A
+        <strong>browser extension</strong> can do both of those and more — background work, network
+        interception, toolbar icons — at the cost of an install step and broad permissions that the
+        browser surfaces to you up front. Start with the bookmarklet; upgrade only when you hit its
+        limits.
+      </p>
+
+      <h2>Limits: when not to use a bookmarklet</h2>
+      <p>
+        A bookmarklet only runs when you click it, on one page at a time. It cannot keep state between
+        visits, act in the background, or modify every page automatically. Very long scripts technically
+        fit, but become unreadable bookmark URLs — at that size a userscript manager or extension is the
+        right tool. And if the job is "save this page with one click" rather than "run a snippet,"
+        a purpose-built <a href="/extension">browser extension</a> does it without maintaining code.
+      </p>
+
+      <h2>Privacy: where your code goes</h2>
+      <p>
+        Nowhere. The name, the snippet, and the generated URL never leave the page — there is no network
+        request involved in building a bookmarklet. One honest caveat: the finished bookmarklet is stored
+        as a normal bookmark, so if you sync bookmarks across devices, the script travels with your other
+        bookmarks and is visible to anything that can read that synced profile.
+      </p>
+
+      <h2>Related</h2>
+      <p>
+        Curious about the percent-encoding step the generator performs? Try the
+        <a href="/tools/url-encoder">URL encoder and decoder</a> on any string. For saving and working
+        with pages without writing script at all, see Marqly's <a href="/web-highlighter">web
+        highlighter</a>, the <a href="/bookmark-manager-for-chrome">bookmark manager for Chrome</a>, and
+        the <a href="/second-brain">second-brain</a> workflow — or read the guide on
+        <a href="/blog/how-to-organize-bookmarks">how to organize bookmarks</a>.
+      </p>
     </Fragment>
   </ToolShell>
 </LandingLayout>

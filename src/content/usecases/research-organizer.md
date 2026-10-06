@@ -52,7 +52,7 @@ Install the extension (Chrome, Edge, Firefox, or Safari) and create a free accou
 
 That's the whole methodology. No setup weekend, no taxonomy design. If you want the deeper system-building angle — research organization as a long-term knowledge practice — read [how to build a second brain](/blog/how-to-build-a-second-brain).
 
-[Try Marqly free](https://app.marqly.com)
+[Get started free](https://app.marqly.com)
 
 ## Who this is not for
 

@@ -3,6 +3,7 @@ import { getCollection, render } from 'astro:content';
 import LandingLayout from '../../layouts/LandingLayout.astro';
 import Breadcrumbs from '../../components/seo/Breadcrumbs.astro';
 import CtaBox from '../../components/seo/CtaBox.astro';
+import UpdatedDate from '../../components/seo/UpdatedDate.astro';
 import { breadcrumbList, organization, qaPage, webSite } from '../../lib/schema';
 
 export async function getStaticPaths() {
@@ -47,7 +48,7 @@ const jsonLd = [
   organization(),
   webSite(),
   breadcrumbList(crumbs),
-  qaPage(entry.data.question, entry.data.description, path),
+  qaPage(entry.data.question, entry.data.description, path, entry.data.updatedDate.toISOString()),
 ];
 
 const title = `${entry.data.question} | Marqly FAQ`;
@@ -65,6 +66,7 @@ const title = `${entry.data.question} | Marqly FAQ`;
       <p class="cat">{CATEGORY_LABELS[entry.data.category]}</p>
       <h1>{entry.data.question}</h1>
       <p class="short-answer">{entry.data.description}</p>
+      <UpdatedDate date={entry.data.updatedDate} />
 
       <div class="prose">
         <Content />

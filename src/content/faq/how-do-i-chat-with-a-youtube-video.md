@@ -2,7 +2,7 @@
 question: "How do I chat with a YouTube video?"
 description: "Open the Chat tab on Marqly's card on any YouTube watch page and ask questions — answers come straight from the video's transcript. A Marqly Pro feature."
 category: features
-updatedDate: 2026-08-02
+updatedDate: 2026-10-05
 related:
   - how-do-i-summarize-a-youtube-video
   - how-do-i-get-a-youtube-transcript
@@ -13,7 +13,7 @@ Open the video on YouTube with the Marqly extension installed and switch to the 
 
 ## Answers grounded in the transcript
 
-The Chat tab doesn't answer from general knowledge; it answers from the transcript of the video in front of you. That's the difference between "AI thinks podcasts usually say X" and "this speaker said X in this episode." And because the [Transcript tab](/faq/how-do-i-get-a-youtube-transcript) sits right next to Chat, you can verify any answer against the source in seconds.
+The Chat tab doesn't answer from general knowledge; it answers from the transcript of the video in front of you. That's the difference between "AI thinks podcasts usually say X" and "this speaker said X in this episode." And because the [Transcript tab](/faq/how-do-i-get-a-youtube-transcript) sits right next to Chat, you can verify any answer against the source in seconds — which is the habit worth building: treat an answer as a pointer to the passage, not a replacement for it.
 
 ## When chat beats scrubbing
 
@@ -21,10 +21,14 @@ The Chat tab doesn't answer from general knowledge; it answers from the transcri
 - **Tutorials** — ask for the one step you're stuck on instead of rewatching from the start.
 - **Talks and lectures** — pin down the claim you half-remember, with the wording the speaker actually used.
 
-The [AI Summary tab](/faq/how-do-i-summarize-a-youtube-video) tells you what the video covers; Chat is for the follow-up questions the summary raises.
+The [AI Summary tab](/faq/how-do-i-summarize-a-youtube-video) tells you what the video covers; Chat is for the follow-up questions the summary raises. Both workflows are laid out on the [YouTube summarizer page](/youtube-summarizer).
 
-## What you need
+## Chat with one video, Ask across your whole library
 
-Chat requires Marqly Pro: $72/year (about $6/month billed annually) or $9/month. See [what's in Marqly free vs Pro](/faq/whats-in-marqly-free-vs-pro) for the full breakdown.
+Chat is scoped to the video in front of you. When the question is bigger — everything you've saved on a topic — that's what **Ask** is for: Marqly's Pro assistant over your entire library. Ask is a multi-turn chat whose answers carry numbered citations back to your own saves, and it opens with ⌘J (Ctrl+J on Windows). Chat with the one video; Ask with the archive.
+
+## What you need, honestly
+
+Chat requires Marqly Pro: $72/year (about $6/month billed annually) or $9/month — see [pricing](/pricing) and [what's in Marqly free vs Pro](/faq/whats-in-marqly-free-vs-pro). On the free plan you can still save videos — the free plan holds up to 100 saves and your whole library is keyword-searchable — but the transcript-powered AI tabs sit on the Pro side of that line. If all you need is the raw text of one video, the standalone [YouTube transcript tool](/tools/youtube-transcript) covers that case without a subscription.
 
 For a longer walkthrough with example conversations, read [chat with YouTube videos](/blog/chat-with-youtube-videos).

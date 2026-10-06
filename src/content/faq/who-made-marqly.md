@@ -38,4 +38,4 @@ If you hit a bug or have a feature request, email support — a small team means
 
 An independent team lives or dies by whether the product is worth paying for — not by ad revenue or data deals. If you're evaluating whether to trust Marqly with years of saved research, that incentive structure is worth knowing, and you can dig deeper in [is Marqly safe](/faq/is-marqly-safe).
 
-Want to see what the team has built? [Try Marqly free](https://app.marqly.com) — signup takes a minute and no card is required.
+Want to see what the team has built? [Get started free](https://app.marqly.com) — signup takes a minute and no card is required.

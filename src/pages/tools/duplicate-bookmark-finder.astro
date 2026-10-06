@@ -22,7 +22,15 @@ const faqs = [
   },
   {
     q: 'What do I do with the deduplicated file?',
-    a: 'Import it back into your browser (after removing the old bookmarks, or into a fresh folder), or import it into Marqly, which reads standard bookmarks HTML directly and has AI tag and summarize every link so the cleaned pile actually becomes findable. Marqly is free to try, no card required.',
+    a: 'Import it back into your browser (after removing the old bookmarks, or into a fresh folder), or import it into Marqly, which reads standard bookmarks HTML directly — titles and tags come along with the file. On the Pro plan, Marqly also AI-tags imported links automatically, so the cleaned pile actually becomes findable. Marqly has a free plan you can start on.',
+  },
+  {
+    q: 'Why were two bookmarks for the same page not grouped?',
+    a: 'Matching happens on the normalized URL, and normalization is deliberately conservative: a different protocol (http vs https), a different subdomain (www vs m), or a query parameter that is not a known tracker is treated as a different page. The section “Which URLs count as duplicates” lists exactly what gets unified and what stays apart — check the misses there.',
+  },
+  {
+    q: 'Which of the duplicate copies does the download keep?',
+    a: 'The first occurrence of each unique page, in the order your export listed them, with its title, its saved date, and its URL exactly as you saved it — tracking parameters and all. The normalized URL is only the matching key; it is never written into the output file.',
   },
 ];
 
@@ -84,48 +92,202 @@ const jsonLd = [
         export where a meaningful slice of the file is the same pages under slightly different URLs.
       </p>
 
-      <h2>How the dedup logic works</h2>
+      <h2>How it works</h2>
       <p>
-        Exact string comparison would miss most real duplicates, so each URL is normalized first:
+        The whole pipeline runs inside this browser tab, with no server involved:
       </p>
-      <ul>
-        <li>Host lowercased — <code>Example.com</code> and <code>example.com</code> are one site.</li>
-        <li>Trailing slash stripped — <code>/article/</code> equals <code>/article</code>.</li>
+      <ol>
         <li>
-          Tracking parameters removed — <code>utm_*</code>, <code>fbclid</code>, and
-          <code>gclid</code> identify the click, not the page.
+          Your bookmarks HTML file is read locally and parsed as a document — every link it contains
+          is pulled out along with its title and saved-date attribute. Non-web links (anything that
+          isn't <code>http</code> or <code>https</code>) are skipped.
         </li>
-        <li><code>#fragments</code> ignored — they scroll the page, they don't change it.</li>
-      </ul>
+        <li>
+          Each URL is <strong>normalized</strong> — lowercased host, trailing slash removed, known
+          tracking parameters dropped, fragment ignored — and used as a matching key.
+        </li>
+        <li>
+          Bookmarks with the same key are <strong>grouped</strong>; any group with more than one
+          member appears in the results table, sorted by how many copies there are, with the
+          different titles the page was saved under.
+        </li>
+        <li>
+          The <strong>deduplicated download</strong> keeps one entry per unique page: the first
+          occurrence, with its original title, saved date, and URL as you saved it. The file is
+          generated in the tab and offered back to you as a download.
+        </li>
+      </ol>
+
+      <h2>How to use it</h2>
+      <ol>
+        <li>
+          Export your bookmarks from your browser: open the bookmarks manager and choose the export
+          option to save an HTML file. The menu paths for each browser are in
+          <a href="/faq/how-do-i-import-chrome-bookmarks">our export and import guide</a>.
+        </li>
+        <li>Choose that file above with the <strong>Bookmarks HTML file</strong> picker.</li>
+        <li>
+          The status line tells you the total checked, how many URLs were duplicated, and how many
+          copies are removable — and the table lists every duplicated URL.
+        </li>
+        <li>
+          Press <strong>Download deduplicated HTML</strong> to get a copy of the file with one entry
+          per unique page.
+        </li>
+        <li>
+          Replace the old set: import the clean file into a fresh folder (or clear the old
+          bookmarks first, then import) so you can verify the result before committing.
+        </li>
+      </ol>
+
+      <h2>Which URLs count as duplicates</h2>
       <p>
-        Bookmarks whose normalized URLs match are grouped, and every group with more than one entry
-        shows in the table with the titles it was saved under. Normalization is deliberately
-        conservative: meaningful query strings (a search, a product ID, a video ID) are kept, so
-        two genuinely different pages on the same domain never merge.
+        Matching happens on the normalized URL, never on the raw text. This is exactly what gets
+        unified — and what deliberately stays apart:
+      </p>
+      <table>
+        <thead>
+          <tr><th>Saved as</th><th>and also as</th><th>Result</th><th>Why</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Example.com/article</td><td>example.com/article</td>
+            <td>Grouped</td><td>The host is lowercased before comparing.</td>
+          </tr>
+          <tr>
+            <td>/article/</td><td>/article</td>
+            <td>Grouped</td><td>Trailing slashes are stripped — on deep paths and on the bare domain root.</td>
+          </tr>
+          <tr>
+            <td>?utm_source=newsletter</td><td>no parameter</td>
+            <td>Grouped</td><td><code>utm_*</code> identifies the click, not the page.</td>
+          </tr>
+          <tr>
+            <td>?fbclid=… / ?gclid=…</td><td>no parameter</td>
+            <td>Grouped</td><td>Facebook and Google click IDs are removed too.</td>
+          </tr>
+          <tr>
+            <td>#comments</td><td>no fragment</td>
+            <td>Grouped</td><td>Fragments scroll within the page; they don't change it.</td>
+          </tr>
+          <tr>
+            <td>?page=2</td><td>?page=3</td>
+            <td>Kept apart</td><td>Any query parameter that isn't a known tracker is preserved — it might change the page.</td>
+          </tr>
+          <tr>
+            <td>http://example.com/a</td><td>https://example.com/a</td>
+            <td>Kept apart</td><td>The protocol is not rewritten or upgraded.</td>
+          </tr>
+          <tr>
+            <td>www.example.com/a</td><td>m.example.com/a</td>
+            <td>Kept apart</td><td>Subdomains are not unified.</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        The conservatism is intentional: wrongly merging two genuinely different pages (a paginated
+        archive, two products on one domain) destroys information, while missing a stylistic
+        near-duplicate only leaves a bookmark you can delete by hand.
       </p>
 
-      <h2>What the deduplicated download contains</h2>
+      <h2>What the deduplicated file contains</h2>
       <p>
         A standard Netscape bookmarks HTML file — the same format browsers export — with one entry
-        per unique URL, keeping the first occurrence's title and saved date. It is a flat list:
-        folders are flattened, because merging "same URL, three different folders" into a tree has
-        no correct answer. Chrome, Firefox, Edge, and Safari all import it; the import steps are in
-        <a href="/faq/how-do-i-import-chrome-bookmarks">how do I import Chrome bookmarks</a>. To
-        inspect the file before or after, the
+        per unique URL. The surviving copy is the <strong>first occurrence</strong> in your file's
+        order, keeping its title, its saved date (when the export recorded one), and its URL exactly
+        as you saved it; the normalized URL is only a matching key and is never written into the
+        output. It is a flat list: folders are flattened, because merging "same URL, three different
+        folders" into a tree has no correct answer. Chrome, Firefox, Edge, and Safari all import it.
+        To inspect the file before or after, the
         <a href="/tools/bookmark-file-viewer">bookmark file viewer</a> opens it as a searchable
         table.
       </p>
+
+      <h2>When to run this</h2>
+      <ul>
+        <li>
+          <strong>Before a migration</strong> — moving to a new machine or browser profile: dedupe
+          first so you don't seed the fresh setup with years of sync dust. The
+          <a href="/migrate/browser-bookmarks">browser-bookmarks migration guide</a> covers the rest.
+        </li>
+        <li>
+          <strong>After sync has multiplied things</strong> — the classic "same tab twice" profile
+          built by merging old devices.
+        </li>
+        <li>
+          <strong>Before importing into any new manager</strong> — most tools have no duplicate
+          detection at import time, so a doubled file stays doubled forever. What a manager should do
+          <em>after</em> the cleanup is covered in our
+          <a href="/bookmark-organizer">bookmark organizer guide</a>.
+        </li>
+        <li>
+          <strong>On a research pile collected from many sources</strong> — newsletter links, search
+          results, and shared posts save the same pages under different campaign URLs. If the pile is
+          a reading queue rather than a link list, a
+          <a href="/read-it-later">read-it-later setup</a> is the better fit.
+        </li>
+      </ul>
+
+      <h2>Privacy: what happens to your file</h2>
+      <p>
+        Nothing leaves your computer. There is no server component to this tool: your file is read
+        into the page's memory, parsed, grouped, and re-generated entirely inside your browser tab.
+        No part of it is uploaded, no request carries its contents anywhere, there is no account and
+        no quota, and closing the tab discards everything — there is nothing retained because there
+        is nothing sent. If you want proof before you trust a bookmarks file to any web tool, open
+        your browser's network inspector before selecting the file: deduplication produces no
+        network requests at all.
+      </p>
+
+      <h2>Limits and edge cases</h2>
+      <ul>
+        <li>
+          <strong>Near-duplicates are not caught.</strong> Different subdomains, AMP variants,
+          protocol changes, and shortened URLs that expand elsewhere all stay as separate entries —
+          see the table above.
+        </li>
+        <li>
+          <strong>First copy wins.</strong> If the first saved copy has the worst title ("Untitled
+          page"), that is the survivor. Re-export, re-order, or fix titles after importing.
+        </li>
+        <li>
+          <strong>Folders are flattened</strong> in the download, by design. Treat the output as a
+          deduplicated link set, not a re-organized library.
+        </li>
+        <li>
+          <strong>Original save dates are kept in the downloaded file</strong> — but if you import
+          that file into Marqly, items take their import date; saves' original dates are not
+          preserved through an import. Titles and tags do come along.
+        </li>
+        <li>
+          <strong>Only http(s) bookmarks are processed.</strong> Other entries in the export are
+          ignored, which is why the counts can differ slightly from what the browser's manager
+          displays.
+        </li>
+      </ul>
 
       <h2>After the cleanup</h2>
       <p>
         Deduplication fixes the redundancy, not the findability — a flat list of two thousand
         unique links is still two thousand links. Importing the cleaned file into
-        <a href="https://app.marqly.com">Marqly</a> gets each one tagged and summarized by AI
-        automatically, and semantic search finds "that piece about negotiating a raise" without you
-        remembering its title or where you filed it. Marqly's <a href="/pricing">free tier</a> stores
-        up to 100 bookmarks with whole-library search; see our guide on
-        <a href="/faq/how-do-i-import-chrome-bookmarks">how to import Chrome bookmarks</a>.
+        <a href="https://app.marqly.com">Marqly</a> keeps its titles and tags, and on the Pro plan
+        AI tags each imported link automatically, while semantic search finds "that piece about
+        negotiating a raise" without you remembering its title or where you filed it. Marqly has a
+        <a href="/pricing">free plan</a> to get started on; see our guide on
+        <a href="/faq/how-do-i-import-chrome-bookmarks">how to import Chrome bookmarks</a>, or clean
+        the tracking parameters out of individual links with the
+        <a href="/tools/url-cleaner">URL cleaner</a> before you save them at all.
       </p>
+
+      <h2>Related tools and guides</h2>
+      <ul>
+        <li><a href="/tools/bookmark-file-viewer">Inspect any bookmarks export</a> as a searchable table — before this tool or after.</li>
+        <li><a href="/tools/dead-link-checker">Check the survivors for link rot</a> — deduplicating then batch-checking is the one-two pass for an old collection.</li>
+        <li><a href="/tools/url-cleaner">Strip tracking parameters</a> from a single link at a time.</li>
+        <li><a href="/migrate/browser-bookmarks">Move bookmarks between browsers</a> without carrying the junk along.</li>
+        <li><a href="/blog/how-to-organize-bookmarks">A bookmark-organizing system</a> that stops duplicates reappearing next year.</li>
+        <li><a href="/read-it-later">Turn the cleaned list into a working reading queue.</a></li>
+      </ul>
     </Fragment>
   </ToolShell>
 </LandingLayout>

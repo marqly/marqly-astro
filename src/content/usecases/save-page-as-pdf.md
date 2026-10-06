@@ -52,7 +52,7 @@ Install the Marqly extension — it's available for Chrome, Edge, Firefox, and S
 
 Then open the page you want to keep and save it as a PDF from the extension. The short version of the mechanics is in the FAQ: [how do I save a page as a PDF](/faq/how-do-i-save-a-page-as-pdf). That's the whole setup — there is no configuration step, no template to pick, no output settings to tune.
 
-[Try Marqly free](https://app.marqly.com)
+[Get started free](https://app.marqly.com)
 
 ## Who this is not for
 

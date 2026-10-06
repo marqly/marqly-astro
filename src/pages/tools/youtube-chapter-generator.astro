@@ -10,19 +10,27 @@ const description =
 const faqs = [
   {
     q: 'How does the chapter generator work?',
-    a: 'It reads the video’s caption track, then an AI model picks the natural section boundaries and names them. The timestamps come from the transcript itself, so every chapter points at a moment that actually exists in the video.',
+    a: 'Two steps. First, our server fetches the video’s caption track from YouTube and reads it into timestamped segments. Then an AI model reads that transcript and picks the natural section boundaries, giving each section a short title. The timestamps come from the transcript itself, so every chapter points at a moment that actually exists in the video.',
   },
   {
     q: 'Why does YouTube ignore my chapters?',
-    a: 'YouTube only turns timestamps into chapters when the first one is 00:00, there are at least three of them, and each is at least 10 seconds long. This tool always starts at 00:00, but if you edit the list afterwards, keep those three rules in mind.',
+    a: 'YouTube only turns timestamps into chapters when the first one is 00:00, there are at least three of them, each section runs at least 10 seconds, and the list is in ascending time order. This tool always starts at 00:00 and keeps the list ascending, but if you edit the list afterwards, keep those rules in mind.',
   },
   {
     q: 'Does it work on videos without captions?',
-    a: 'No. If the uploader disabled captions there is no transcript to work from. Most videos have at least auto-generated captions, which work fine here.',
+    a: 'No. If the uploader disabled captions there is no transcript to work from. Most videos have at least auto-generated captions, which work fine here — the tool prefers the uploader’s own caption track when one exists and falls back to auto-generated captions otherwise.',
   },
   {
     q: 'Can I use it on someone else’s video?',
     a: 'Yes — it is useful for taking notes on long talks and podcasts, not just for publishing. For your own videos, paste the output into the description; for other people’s, keep the chapter list with the video in your library.',
+  },
+  {
+    q: 'Can the AI invent timestamps that are not in the video?',
+    a: 'No. The model only decides where sections start and what to call them; every timestamp is taken from a real caption segment, and any time that does not line up with the transcript is discarded. The list is then forced to begin at 00:00, which is why the output passes YouTube’s chapter requirements as generated.',
+  },
+  {
+    q: 'Do I need an account? What happens to the URL I paste?',
+    a: 'No signup, and nothing is stored against your name — there is no name to store it against. Your video URL goes to Marqly’s own server, which fetches the caption track from YouTube and runs the section detection there. The endpoints are rate-limited to keep the free tool fast for everyone.',
   },
 ];
 
@@ -68,18 +76,112 @@ const jsonLd = [
     <div class="tool-output hidden" id="yc-out" aria-live="polite"></div>
 
     <Fragment slot="content">
+      <h2>How the generator works</h2>
+      <p>
+        When you submit a link, two things happen in sequence, both handled by Marqly's server:
+      </p>
+      <ul>
+        <li>
+          <strong>Fetching the transcript.</strong> The server reads the video's caption track from
+          YouTube and converts it into timestamped segments — lines of speech, each anchored to the
+          second it starts at. It prefers the uploader's own caption track and falls back to
+          auto-generated captions when that is all there is.
+        </li>
+        <li>
+          <strong>Finding the sections.</strong> A language model reads the timestamped transcript
+          and decides where the natural breaks are, producing four to ten chapters with short
+          titles. The model only picks boundaries and names: every timestamp in the output is taken
+          from a real caption segment, and any candidate time that does not match the transcript is
+          discarded. The list is ordered by time and forced to start at <code>00:00</code>, because
+          that is YouTube's hard requirement.
+        </li>
+      </ul>
+      <p>
+        Because nothing is invented, the result cannot point at a minute that does not exist — if a
+        chapter title is slightly off, the time it points to is still a real moment in the video.
+      </p>
+
       <h2>How to add chapters to a YouTube video</h2>
       <ol>
         <li>Paste the video URL above and press <strong>Generate chapters</strong>.</li>
+        <li>Wait for the two passes — reading the transcript, then finding the sections.</li>
         <li>Review the list — edit any title that misses the point of its section.</li>
-        <li>Paste the timestamps into the video description, each on its own line.</li>
+        <li>Press <strong>Copy chapters</strong>.</li>
+        <li>
+          Paste the timestamps into the video description, each on its own line. On your own video
+          that means the description field in YouTube Studio; on someone else's, keep the list with
+          the save in your library.        </li>
       </ol>
+
+      <h2>YouTube's chapter rules and timestamp formats</h2>
       <p>
-        YouTube turns a list of timestamps into clickable chapters automatically, but only if the
-        list follows its rules: the first entry must be <code>00:00</code>, there must be at least
-        three entries, and every section must run at least ten seconds. This tool always starts at
-        <code>00:00</code>, so the output is valid as generated.
+        YouTube turns a plain list of timestamps into clickable chapters automatically — but only
+        when the list satisfies every rule below. A single violation and the whole list renders as
+        inert text, which is the most common reason "my chapters don't work" threads exist.
       </p>
+      <table>
+        <thead>
+          <tr><th>Requirement</th><th>Detail</th><th>This tool</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>First timestamp</td>
+            <td>Must be <code>00:00</code>, or YouTube ignores the entire list.</td>
+            <td>Guaranteed — the first entry is always forced to <code>00:00</code>.</td>
+          </tr>
+          <tr>
+            <td>Minimum number</td>
+            <td>At least three chapters.</td>
+            <td>Generates four to ten.</td>
+          </tr>
+          <tr>
+            <td>Minimum duration</td>
+            <td>Each chapter must cover at least 10 seconds.</td>
+            <td>Section boundaries come from real transcript gaps, but if you merge or add entries by hand, keep the 10-second floor.</td>
+          </tr>
+          <tr>
+            <td>Order</td>
+            <td>Timestamps must ascend.</td>
+            <td>Guaranteed — out-of-order candidates are dropped.</td>
+          </tr>
+          <tr>
+            <td>Format</td>
+            <td>
+              <code>m:ss</code> (like <code>4:05</code>) for the first hour,
+              <code>h:mm:ss</code> (like <code>1:02:10</code>) for longer videos. Minutes-only
+              numbers are read as minutes, so <code>2:00</code> is two minutes in, not two hours.
+            </td>
+            <td>Stamps are emitted in exactly these formats.</td>
+          </tr>
+          <tr>
+            <td>Placement</td>
+            <td>Timestamps must be in the description; one chapter per line.</td>
+            <td>The copied block is one chapter per line, ready to paste.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Use cases</h2>
+      <ul>
+        <li>
+          <strong>Creators publishing long talks, tutorials, or podcast episodes</strong> — a chapter
+          list that took an hour of scrubbing to build by hand now takes one paste.
+        </li>
+        <li>
+          <strong>Students and researchers noting down lectures</strong> — the chapter titles map an
+          hour-long lecture into its arguments, and the timestamps let you jump back to the exact
+          passage when you cite it.
+        </li>
+        <li>
+          <strong>Sharing clips inside a team or family</strong> — a chapter list at the top of a
+          description tells people where "the part about pricing" starts instead of making them
+          scrub for it.
+        </li>
+        <li>
+          <strong>Triaging a watch-later pile</strong> — chapters reveal whether a 90-minute video
+          has ten minutes you actually need.
+        </li>
+      </ul>
 
       <h2>Why chapters are worth the two minutes</h2>
       <ul>
@@ -88,18 +190,76 @@ const jsonLd = [
         <li><strong>They double as notes</strong> — a chapter list of someone else's talk is the fastest summary of its argument.</li>
       </ul>
 
+      <h2>Privacy: what happens to the link you paste</h2>
+      <p>
+        The work is server-side, and it is worth being precise about what that means. The video URL
+        you enter is sent to Marqly's own server (running on Cloudflare's infrastructure), which
+        requests the caption track from YouTube and runs the chapter detection there; the transcript
+        segments are processed to produce your result and returned to your browser. There is no
+        account to attach anything to, and no video list, transcript, or result is saved against
+        you. Because the requests are anonymous but expensive, the endpoints are rate-limited per IP
+        — if you are told to wait a minute, that is the limit working, not a failure. The one thing
+        to know: this is a public-web tool. It can only read a caption track that YouTube serves
+        publicly; if the video is private or its captions are not published, there is nothing to
+        fetch and the tool says so.
+      </p>
+
+      <h2>Tips, limits, and edge cases</h2>
+      <ul>
+        <li>
+          <strong>Videos without captions fail.</strong> No caption track, no transcript, nothing to
+          chapter — the error says so. Uploaders who disabled captions are out of reach.
+        </li>
+        <li>
+          <strong>Very short videos are refused.</strong> If the transcript is only a handful of
+          segments, the tool reports the video as too short to chapter usefully rather than
+          inventing structure out of noise.
+        </li>
+        <li>
+          <strong>Long videos are partially covered.</strong> Extremely long transcripts are
+          analyzed only up to a point; the output then says so, and the chapters cover the first
+          portion. Re-run on the rest, or edit by hand.
+        </li>
+        <li>
+          <strong>Auto-generated captions lower the ceiling.</strong> Section titles are only as
+          good as the words they are derived from — an ASR track full of mishearings produces
+          vaguer titles than a human transcript does.
+        </li>
+        <li>
+          <strong>Language handling is pragmatic.</strong> The tool looks for an English caption
+          track first and otherwise takes what the video offers, so a non-English video returns
+          chapters titled in its own language.
+        </li>
+        <li>
+          <strong>Edit freely — but keep the rules.</strong> Start at <code>00:00</code>, keep three
+          or more, ten seconds apart at minimum, and your edited list will still render.
+        </li>
+      </ul>
+
       <h2>Chapters, summary, or transcript?</h2>
       <p>
         Chapters give you the shape of a video; a
         <a href="/tools/youtube-summarize">summary</a> gives you its argument; the
         <a href="/tools/youtube-transcript">full transcript</a> gives you the exact words to quote.
-        All three come from the same caption track, and all three are free here. If you find
-        yourself running videos through these tools regularly, the
-        <a href="/youtube-summarizer">Marqly extension</a> does it on the watch page itself — and
-        saving a video keeps its transcript attached, so
+        All three come from the same caption track, and all three are free here. If you want a
+        single deep-link into one section rather than a full table of contents, the
+        <a href="/tools/youtube-timestamp-link">timestamp link maker</a> builds a shareable URL that
+        starts at a chosen moment. If you find yourself running videos through these tools
+        regularly, the <a href="/youtube-summarizer">Marqly extension</a> does it on the watch page
+        itself — and saving a video keeps its transcript attached, so
         <a href="/blog/how-to-search-bookmarks-with-ai">semantic search</a> can find it months later
         from a half-remembered detail.
       </p>
+
+      <h2>Related tools and guides</h2>
+      <ul>
+        <li><a href="/tools/youtube-transcript">Pull the full transcript</a> of the same video when you need exact quotes, not just section titles.</li>
+        <li><a href="/tools/youtube-summarize">Summarize the video</a> instead of skimming its chapters.</li>
+        <li><a href="/tools/youtube-timestamp-link">Build a link that starts at one moment</a> — for sharing a single section rather than the whole table of contents.</li>
+        <li><a href="/extension">Save videos with the Marqly extension</a> so the transcript travels with the bookmark.</li>
+        <li><a href="/watch-later">A watch-later system</a> that tells you which half of a 90-minute talk you actually need.</li>
+        <li><a href="/pricing">Marqly's free plan</a> — get started and keep your next video save searchable by what it said.</li>
+      </ul>
     </Fragment>
   </ToolShell>
 </LandingLayout>

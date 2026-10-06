@@ -25,4 +25,4 @@ Auto-tagging isn't just for new saves. When you import existing collections — 
 
 ## Try it on your own saves
 
-The fastest way to evaluate auto-tagging is with your own messy bookmarks rather than a demo. [Try Marqly free](https://app.marqly.com) — no credit card required — import what you have, and see what the tags look like on your real library.
+The fastest way to evaluate auto-tagging is with your own messy bookmarks rather than a demo. [Get started free](https://app.marqly.com) — no credit card required — import what you have, and see what the tags look like on your real library.

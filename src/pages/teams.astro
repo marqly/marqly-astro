@@ -134,28 +134,39 @@ const faqs = [
 const jsonLd = [
   {
     '@context': 'https://schema.org',
-    '@type': 'Product',
+    '@type': 'SoftwareApplication',
     name: 'Marqly Teams',
+    applicationCategory: 'ProductivityApplication',
+    operatingSystem: 'Web',
     description:
       'A shared, AI-organised bookmark workspace for teams: shared boards and saves, a pooled AI allowance, role-based management, and one Owner-paid bill. 3-seat minimum.',
-    brand: { '@type': 'Brand', name: 'Marqly', url: 'https://www.marqly.com' },
+    author: { '@type': 'Organization', name: 'Marqly', url: 'https://www.marqly.com' },
     url: canonical,
-    offers: [
-      {
-        '@type': 'Offer',
-        price: '9',
-        priceCurrency: 'USD',
-        unitText: 'per seat per month',
-        availability: 'https://schema.org/PreOrder',
-      },
-      {
-        '@type': 'Offer',
-        price: '72',
-        priceCurrency: 'USD',
-        unitText: 'per seat per year',
-        availability: 'https://schema.org/PreOrder',
-      },
-    ],
+    offers: {
+      '@type': 'AggregateOffer',
+      priceCurrency: 'USD',
+      lowPrice: '9',
+      highPrice: '72',
+      offerCount: 2,
+      offers: [
+        {
+          '@type': 'Offer',
+          name: 'Marqly Teams monthly',
+          price: '9',
+          priceCurrency: 'USD',
+          description: 'Per seat per month in USD, with a 3-seat minimum.',
+          url: canonical,
+        },
+        {
+          '@type': 'Offer',
+          name: 'Marqly Teams yearly',
+          price: '72',
+          priceCurrency: 'USD',
+          description: 'Per seat per year in USD, with a 3-seat minimum.',
+          url: canonical,
+        },
+      ],
+    },
   },
   {
     '@context': 'https://schema.org',

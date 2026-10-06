@@ -2,7 +2,7 @@
 question: "How do I find a bookmark I forgot the title of?"
 description: "Describe what you remember — 'that video about sourdough starters' — and Marqly's semantic search matches meaning across titles, content, and transcripts."
 category: basics
-updatedDate: 2026-08-02
+updatedDate: 2026-10-05
 related:
   - what-is-semantic-search
   - how-do-i-search-my-bookmarks-by-meaning
@@ -17,12 +17,20 @@ Browser bookmark search and history search match literal text in titles and URLs
 
 ## What semantic search actually matches
 
-[Semantic search](/faq/what-is-semantic-search) compares the meaning of your query against the meaning of everything you've saved — not just titles, but the content of saved pages, the passages you highlighted, and the transcripts of saved videos. That last part matters more than it sounds: a video's title almost never contains the detail you remember from minute 23, but its transcript does.
+[Semantic search](/faq/what-is-semantic-search) compares the meaning of your query against the meaning of everything you've saved — not just titles, but the content of saved pages, the passages you highlighted, and the transcripts of saved videos. That last part matters more than it sounds: a video's title almost never contains the detail you remember from minute 23, but its transcript does. The mechanics — and what semantic matching does differently from a keyword engine — are laid out in [what is semantic search](/faq/what-is-semantic-search) and [how to search bookmarks with AI](/blog/how-to-search-bookmarks-with-ai).
 
 ## Writing a query that works
 
-Say what the thing was about, the way you'd describe it to a friend: topic, angle, any specific detail that stuck ("interview where the founder talked about firing himself"). Fragments are fine. If the first phrasing misses, describe a different aspect of the same save. There's a longer walkthrough with examples in [how to find a saved article when you've forgotten the title](/blog/how-to-find-a-saved-article-you-forgot-the-title-of).
+Say what the thing was about, the way you'd describe it to a friend: topic, angle, any specific detail that stuck ("interview where the founder talked about firing himself"). Fragments are fine. If the first phrasing misses, describe a different aspect of the same save — a different door into the same room often opens it. A longer walkthrough with worked examples: [how to find a saved article when you've forgotten the title](/blog/how-to-find-a-saved-article-you-forgot-the-title-of).
+
+## When one search isn't enough
+
+If a single query doesn't land it, **Ask** is the conversational version of the same hunt: Marqly's Pro assistant over your entire library, opened with ⌘J (Ctrl+J on Windows). It's a multi-turn chat — you keep describing the thing from a new angle until it surfaces — and its answers come with numbered citations back to the saves they were drawn from, so you can tell a real match from a plausible one.
+
+## The honest limits
+
+Semantic search and Ask are Pro features — see [what's in Marqly free vs Pro](/faq/whats-in-marqly-free-vs-pro). On the free plan, keyword search still covers your whole library, so the same hunt works when you can supply any exact word: a site name, a phrase, a tag you remember using. And one boundary no tier removes: search only covers what you actually saved — the article you read on your phone without bookmarking it isn't in any index.
 
 ## The prevention side
 
-Retrieval is half the battle; the other half happens at save time, automatically. Marqly [auto-tags every save with AI](/faq/how-does-ai-auto-tagging-work), so even a library you never manually organized stays searchable by topic as well as by meaning.
+Retrieval is half the battle; the other half happens at save time, automatically. Marqly [auto-tags every save with AI](/faq/how-does-ai-auto-tagging-work) (Pro), so even a library you never manually organized stays searchable by topic as well as by meaning.

@@ -3,9 +3,11 @@ import { getCollection, render } from 'astro:content';
 import LandingLayout from '../../layouts/LandingLayout.astro';
 import Breadcrumbs from '../../components/seo/Breadcrumbs.astro';
 import CtaBox from '../../components/seo/CtaBox.astro';
+import UpdatedDate from '../../components/seo/UpdatedDate.astro';
 import FaqAccordion from '../../components/seo/FaqAccordion.astro';
 import { breadcrumbList, faqPage, organization, webSite } from '../../lib/schema';
 import { aiToolsBySlug } from '../../lib/ai-tools';
+import { brandTitle } from '../../lib/seo-text.mjs';
 
 export async function getStaticPaths() {
   const entries = await getCollection('prompts', ({ data }) => !data.draft);
@@ -34,7 +36,7 @@ const jsonLd = [
   ...(data.faqs.length ? [faqPage(data.faqs)] : []),
 ];
 
-const title = `${data.title} | Marqly Prompt Gallery`;
+const title = brandTitle(data.title);
 const ogImage = data.ogImage ?? `https://www.marqly.com/og/seo/prompt-${entry.id}.png`;
 
 const toolLinks = data.tools
@@ -166,6 +168,8 @@ const categoryPath = `/prompt-gallery/category/${catSlug(data.category)}`;
           <FaqAccordion faqs={data.faqs} heading="Frequently asked questions" />
         </div>
       )}
+
+      <UpdatedDate date={data.updatedDate} />
 
       <CtaBox />
     </div>
