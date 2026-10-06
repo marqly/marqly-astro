@@ -188,3 +188,9 @@ build clean and pass gates, kept for history integrity rather than rewritten. Sp
 - Preserved concurrent commits1459941/b1e9e05 and both raw pull snapshots via normal merge; all nine canonical decision files match. Kept our manifest identifying the restored exact90day source; retained concurrent manifest separately. Corrected unsourced handwritten1.12% to measured0.32%.
 - Verified149 qualifying prompts,251 pruned details and11 forced category paths; corrected English hreflang exclusion and exact hub namespace. DeletingCSV rollback passes. Kept prompts gain truthful AI-conversation/extension links and explicit Pro semantic search; source dates unchanged.
 - Build exit0, all25 gates, kept/pruned desktop/mobile visibility/robots/overflow pass. Local sitemap1092;400 attribution rows pending deployment. D2 intent review and ghost-safe opportunity ranking underway.
+
+### 2026-10-06 evening — LIVE + measuring; D-tranches running
+- **DEPLOYED twice more** (f1ade6d batch-2, then batch-3): merge-with-remote handled Codex's live fact-corrections (mymind guest-plan truth adopted — data layer confirmed `free: True`; their ★-description removal kept, my price-hook title kept — both verified live). /about = 200 live, pruned prompts = 200+noindex live, sitemap 1,092 live, 25/25 gates on merged tree.
+- IndexNow ping #2 after batch pushes (HTTP 200, 1,092 URLs). AI-citation 30-prompt panel + tracking CSV created (runs need owner's chat accounts).
+- D3 tranches 2–3 live: instagram (Meta DYI help x2), summarize-youtube (YouTube captions help), self-hosted (3 GitHub repos), highlight guide (W3C annotation model + criteria + pillar link) — every cited URL curl-verified first; no Bing-organic scraping (bot wall), flagged unlinked-mention research as needing owner Chrome/API rather than faking results.
+- Refresh counter now 15/40; pillar has 107 main-content inbound.
