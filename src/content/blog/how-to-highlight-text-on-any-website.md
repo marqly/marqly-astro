@@ -3,6 +3,7 @@ title: "How to Highlight Text on Any Website (and Actually Keep It)"
 seoTitle: "Highlight Text on Any Website (and Keep It) | Marqly"
 description: "How to highlight text on any website with a web highlighter extension — highlights persist on the page, sync to one searchable library, and never get lost."
 pubDate: 2026-07-04
+updatedDate: 2026-10-06
 category: "Guides"
 targetKeyword: "highlight text on any website"
 tags:
@@ -56,6 +57,8 @@ Highlighting fixes the resolution problem. It saves at the level you actually th
 | Screenshots | ❌ No route back to the page | ❌ It's an image | ❌ No | Low, but piles up unsearchably |
 | Web highlighter | ✅ Anchored to the exact passage | ✅ Text plus your notes | ✅ Restored on revisit | Lowest — select, pick a color |
 
+Worth knowing the bar you're judging against: the W3C's [Web Annotation data model](https://www.w3.org/TR/annotation-model/) (checked October 6, 2026) formalises what "anchoring a highlight to a passage" means — selectors that point at a range inside a document, not a screenshot of where the text happened to sit. Almost no consumer highlighter stores real selectors; every tool, including ours, restores marks by re-finding the text. Knowing that, the feature to demand is not "standards-compliant anchoring" but its practical substitutes: resilient text matching, sync across devices, and export that doesn't trap your notes inside someone's app.
+
 ## What should a good web highlighter actually do?
 
 **Five things are non-negotiable: highlights that persist on revisit, multiple colors, attachable notes, one searchable home, and click-to-jump back to the passage.** Miss any one and the tool degrades into a prettier version of the workarounds above.
@@ -100,3 +103,5 @@ Bookmarks answer "where was that page?" Highlights answer the question you actua
 ---
 
 *Related: [How to Build a Second Brain](/blog/how-to-build-a-second-brain) · [What Is a Second Brain App?](/blog/what-is-a-second-brain-app) · [Save a Webpage as a PDF](/blog/save-webpage-as-pdf)*
+
+Start with the overview if you're still choosing a home for all this: [how to pick a bookmark manager](/bookmark-manager) — highlights only pay off when the library behind them is retrievable.
