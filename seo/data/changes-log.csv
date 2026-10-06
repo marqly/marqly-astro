@@ -1519,3 +1519,4 @@
 "2026-10-06 (exports-i18n)","/ko/blog/export-linkedin-saved-items-2026","NEW localized export guide (tier-1 demand)","-","full","-","-","tiktok/linkedin/threads/pinterest export cluster × de/es/ja/ko; hreflang cluster added"
 "2026-10-06 (exports-i18n)","/ko/blog/export-threads-posts-2026","NEW localized export guide (tier-1 demand)","-","full","-","-","tiktok/linkedin/threads/pinterest export cluster × de/es/ja/ko; hreflang cluster added"
 "2026-10-06 (exports-i18n)","/ko/blog/export-pinterest-boards-2026","NEW localized export guide (tier-1 demand)","-","full","-","-","tiktok/linkedin/threads/pinterest export cluster × de/es/ja/ko; hreflang cluster added"
+"2026-10-07","(engine)","ENGINE-FIX secParity 0/0 fallback","/fr/outils/*, /it/strumenti/*, /zh, /tr, /nl, /pl tools (8)","vacuous-pass when enH2=0","-","-","8 high-value locale tool pages mis-pruned incl. 464imp/23clk FR page; sitemap 1309->1316"

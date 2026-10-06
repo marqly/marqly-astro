@@ -173,7 +173,11 @@ export function isIndexable(url) {
     const v = true; cache.set(u, { index: v, why: 'unpaired' }); return v;
   }
   const parity = en.units ? loc.units / en.units : 0;
-  const secParity = en.h2 ? loc.h2 / en.h2 : (loc.h2 >= 2 ? 1 : 0);
+  // Section bar is a PARITY measure: when the EN source has no countable h2
+  // (headings render via components), it cannot be beaten — vacuous pass; the
+  // units bar is what actually guards against stubs. (2026-10-07: old fallback
+  // pruned 8 high-value tool pages, incl. a 23-click/90d FR page.)
+  const secParity = en.h2 ? loc.h2 / en.h2 : 1;
   const ok = parity >= PARITY_BAR && secParity >= SECTION_BAR;
   if (!ok) PRUNE_LOG.push({ url: u, lang: loc.lang, tier, units: loc.units, enUnits: en.units, parity: +parity.toFixed(2), h2: loc.h2, enH2: en.h2, secParity: +secParity.toFixed(2), en: enUrl, file: path.relative(ROOT, loc.file) });
   cache.set(u, { index: ok, parity, why: ok ? 'meets bar' : `below bar (parity ${parity.toFixed(2)}, sections ${secParity.toFixed(2)})` });
