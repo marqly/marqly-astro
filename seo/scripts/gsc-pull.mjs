@@ -155,9 +155,13 @@ export async function fetchPull(name, conf, window, {
 
 export async function runPull(args, dependencies = {}) {
   const site = String(args.site ?? 'sc-domain:marqly.com');
-  const out = args.out ? path.resolve(String(args.out)) : (process.env.GSC_OUT || DEFAULT_OUT);
   const now = dependencies.now ?? new Date();
   const window = { ...resolveWindow(args, now), site };
+  const windowDays = Math.round((Date.parse(window.endDate) - Date.parse(window.startDate)) / 86400000) + 1;
+  // A history refresh must not replace the current decision dataset by default.
+  const defaultOut = windowDays <= 93 ? DEFAULT_OUT : path.join(DEFAULT_OUT,
+    window.kind === 'default16mo' ? 'history-16mo' : `history-${window.startDate}-${window.endDate}`);
+  const out = args.out ? path.resolve(String(args.out)) : (process.env.GSC_OUT || defaultOut);
   const wanted = String(args.pulls ?? GSC_PULL_NAMES.join(',')).split(',').filter(Boolean);
   if (!wanted.length || new Set(wanted).size !== wanted.length) throw new Error('--pulls must contain unique pull names');
   for (const name of wanted) {

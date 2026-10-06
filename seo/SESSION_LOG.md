@@ -1,5 +1,13 @@
 # SESSION_LOG — append one entry per session (newest on top)
 
+## 2026-10-06 — Isolated continuation after concurrent writes
+
+- While Phase B was being committed, another process committed `2ce9f22` (four pricing/citation refreshes and mymind JSON), ran a date-only API pull and then a default 16-month pull into the canonical root. These source commits and all datasets are preserved; they were not reverted. The canonical dataset therefore no longer matched the 90-day analysis described in the first Phase B commit.
+- Created attached managed worktree `/Users/megamoon/.codex/worktrees/seo-deploy-candidate/marketing_site` from `038e477`, with integration branch `codex/seo-deploy-candidate`, to validate a fixed candidate independently. Original `feat/seo-program-phase1` checkout remains available to the concurrent process. Asked owner for authorization to coordinate with the other agent; response pending.
+- Restored all nine current 90-day inputs from the immutable successful API snapshot `previous-before-2026-10-06T11-08-00-423Z`, preserving later concurrent pulls in snapshots and the separate history directory. Regenerated complete cannibalization/opportunity outputs and weekly report in the isolated checkout. No API rows fabricated or altered.
+- Root review of concurrent source commit found pre-existing numerical review ratings in the mymind review that conflict with the handoff's hard rule; bounded read-only audit delegated before deployment. Production push still pending candidate validation.
+
+
 ## 2026-10-06 — Phase B complete after owner Full grant
 
 **Done / evidence**

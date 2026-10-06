@@ -27,8 +27,9 @@ Conventions (from the master prompt §1, enforced here):
 ## Scripts
 
 ```
-npm run seo:pull        # = node seo/scripts/gsc-pull.mjs — 9 dimension sets, 16mo window -> data/gsc/*.csv
+npm run seo:pull        # = node seo/scripts/gsc-pull.mjs — 9 dimension sets, 16mo window -> data/gsc/history-16mo/*.csv (preserves the 90d decision dataset)
 npm run seo:audit       # = crawl-audit.mjs [--force-fetch] — live crawl -> data/crawl/ (reuses active/scripts/seo-crawl.py)
+npm run seo:pull -- --days 90 # exact decision window -> data/gsc/*.csv
 npm run seo:cannibal    # = cannibalization.mjs — query×page >=10% co-owners -> data/gsc/cannibalization.csv
 npm run seo:score       # = opportunity-score.mjs — impressions x CTR-uplift -> opportunities_*.csv + position-curve.json
 npm run seo:redirects   # = check-redirects.mjs — live redirect assertions (exit!=0 on regression)

@@ -154,3 +154,12 @@ test('UI ingestion canonicalizes manifest casing and records per-file non-API pr
   assert.match(withCountry.dimensionValueFormats.country.country, /display label/);
   assert.match(fs.readFileSync(path.join(out, 'country.csv'), 'utf8'), /"United States"/);
 });
+
+test('default history refresh cannot overwrite the current decision dataset', async () => {
+  const outputs = [];
+  const dependencies = { now: new Date('2026-10-06T12:00:00.000Z'), fetcher: async () => ({ rows: [] }), publisher: (value) => outputs.push(value.out) };
+  await runPull({ pulls: 'date' }, dependencies);
+  await runPull({ pulls: 'date', days: '90' }, dependencies);
+  assert.equal(path.basename(outputs[0]), 'history-16mo');
+  assert.equal(path.dirname(outputs[0]), outputs[1]);
+});
