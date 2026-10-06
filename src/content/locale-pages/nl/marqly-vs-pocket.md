@@ -21,7 +21,7 @@ faqs:
   - q: "Wat zijn de kosten?"
     a: "Gratis tot 100 opgeslagen pagina's. Pro kost $72 per jaar ($49 eerste jaar met code STANDING49) of $9 per maand."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-26
 ---

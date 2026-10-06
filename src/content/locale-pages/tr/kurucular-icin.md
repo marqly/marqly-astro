@@ -19,7 +19,7 @@ faqs:
   - q: "Bootstrapped bir kurucu için Marqly'nin maliyeti nedir?"
     a: "100 yer imine kadar ücretsiz plan mevcuttur. Pro plan yıllık 72 $'dır (STANDING49 kuponuyla ilk yıl 49 $)."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 ctaSecondaryLabel: "Chrome'a ekle — ücretsiz"
 updatedDate: 2026-09-07
 ---

@@ -21,7 +21,7 @@ faqs:
   - q: "Czy warto używać obu narzędzi jednocześnie?"
     a: "Tak. Szybkie zbieranie materiałów, zakreślanie i transkrypcje wideo powierz Marqly, a ostateczne raporty i konspekty twórz w Notion."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"
 updatedDate: 2026-09-07
 ---

@@ -12,7 +12,7 @@ tags:
   - "稍后读应用 2026"
   - "AI 书签管理"
 ctaUrl: "https://app.marqly.com/lp/replace-pocket"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "2026 年综合体验最好的 Pocket 替代工具有哪些？"
@@ -71,7 +71,7 @@ Pocket 最根本的痛点是「收集轻而易举，检索宛如噩梦」。Marq
 - **不足**：相比老牌巨头创立时间较短，活跃社区正在极速扩张中。
 - **价格**：免费版支持 100 个收藏与全局检索；Pro 方案年付 $72（使用优惠券 `STANDING49` 首年仅需 $49）或月付 $9。
 
-[免费体验 Marqly →](https://app.marqly.com/lp/replace-pocket)
+[免费开始使用 Marqly →](https://app.marqly.com/lp/replace-pocket)
 
 ## 2. Raindrop.io — 免费全能的书签替代者
 

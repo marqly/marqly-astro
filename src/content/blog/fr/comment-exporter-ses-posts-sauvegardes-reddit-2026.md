@@ -12,7 +12,7 @@ tags:
   - "limite sauvegardes reddit"
   - "sauvegarde reddit"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Comment demander l'exportation de mes sauvegardes Reddit ?"
@@ -21,7 +21,6 @@ faqs:
     a: "Seulement deux colonnes : l'identifiant du post et son lien permanent. Aucun titre, aucun nom de subreddit ni date de sauvegarde n'y figurent."
   - q: "L'export récupère-t-il les éléments au-delà de la limite des 1 000 posts ?"
     a: "Oui, dans la grande majorité des cas. Alors que l'application ne fait défiler que les 1 000 plus récents, la demande légale RGPD extrait l'ensemble des données de la base."
-ogImage: "https://www.marqly.com/og/comment-exporter-ses-posts-sauvegardes-reddit-2026.png"
 ---
 
 La seule méthode officielle pour exporter vos posts enregistrés sur Reddit consiste à soumettre une demande d'accès aux données personnelles : accédez à **reddit.com/settings/data-request**, sélectionnez l'historique complet de votre compte et Reddit vous fournira sous peu une archive ZIP incluant `saved_posts.csv`.

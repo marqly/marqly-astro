@@ -12,7 +12,7 @@ tags:
   - "youtube video yedekleme"
   - "youtube video kaydetme"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 lang: "tr"
 faqs:
   - q: "Google Takeout «Daha Sonra İzle» listesini indirir mi?"
@@ -21,7 +21,6 @@ faqs:
     a: "Önemli videoları standart yeni bir oynatma listesine taşıyarak Takeout ile indirebilir veya Marqly ile transkriptleriyle birlikte kaydedebilirsiniz."
   - q: "Neden listede [Özel video] veya [Silinen video] şeklinde satırlar var?"
     a: "Kanal sahibi videoyu sildiğinde veya gizlediğinde, YouTube başlığı da sildiği için videonun ne olduğunu sonradan öğrenmek imkansız hale gelir."
-ogImage: "https://www.marqly.com/og/youtube-daha-sonra-izle-disa-aktarma-2026.png"
 ---
 
 Pek çok kullanıcının sonradan fark ettiği şaşırtıcı bir gerçek vardır: **Google Takeout, YouTube'un «Daha Sonra İzle» listesini dışa aktarmaz**. Oluşturduğunuz normal oynatma listelerini CSV olarak indirebilirsiniz ancak Daha Sonra İzle listesi bu pakete dahil edilmez.

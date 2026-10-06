@@ -14,7 +14,7 @@ tags:
   - "mymind deger mi"
   - "gorsel yer imi yoneticisi"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 faqs:
   - q: "2026'da mymind kullanmaya değer mi?"
     a: "mymind, görseller, alıntılar ve tasarım ilhamları kaydeden, reklamsız ve son derece şık bir kişisel alan arayan görsel düşünürler için harika bir tercihtir. Ancak ağırlıklı olarak uzun makaleler kaydediyor ve bunları konuya göre arıyorsanız veya kalıcı bir ücretsiz plan istiyorsanız pek uygun değildir."

@@ -23,7 +23,7 @@ faqs:
   - q: "Ile wynosi abonament?"
     a: "Do 100 zakładek bezpłatnie. Wersja Pro kosztuje 72 $/rok (z kuponem STANDING49 pierwszy rok za 49 $) lub 9 $/miesiąc."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"
 updatedDate: 2026-09-07
 ---

@@ -71,7 +71,7 @@ Wichtig: Raindrop ist auf verschachtelte Sammlungen ausgerichtet, Marqly stärke
 
 Suche zuerst nach fünf bekannten Titeln und fünf älteren Themen. Öffne Links aus einer obersten Sammlung und aus mindestens zwei verschachtelten Sammlungen. Prüfe außerdem Einträge mit Umlauten, langen Notizen, mehreren Tags und doppelten URLs.
 
-Marqly Free umfasst manuelles Speichern, Boards, Markierungen und Stichwortsuche in der gesamten Bibliothek. **KI-Tags, KI-Zusammenfassungen, semantische Suche, der AI Organizer und YouTube-KI sind Pro-Funktionen.** So bleibt klar, welche Funktionen du bereits kostenlos testen kannst.
+Marqly Free umfasst manuelles Speichern, Boards, Markierungen und Stichwortsuche in der gesamten Bibliothek. **KI-Tags, KI-Zusammenfassungen, semantische Suche, der AI Organizer und YouTube-KI sind Pro-Funktionen.** So bleibt klar, welche Funktionen du bereits kostenlos nutzen kannst.
 
 ## Häufige Probleme lösen
 

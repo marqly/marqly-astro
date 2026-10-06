@@ -11,7 +11,7 @@ tags:
   - "alternatives a pocket"
   - "importer favoris pocket"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Comment exporter ses sauvegardes depuis Pocket ?"
@@ -42,7 +42,7 @@ Suivez ce guide simple pour récupérer vos liens et leur redonner vie grâce à
 
 1. Créez un compte gratuit sur [Marqly](https://app.marqly.com).
 2. Rendez-vous dans **Paramètres → Importer**.
-3. Déposez votre fichier `pocket-export.html`.
+3. Ouvrez le ZIP et déposez le fichier `list.csv` (Marqly n'importe pas l'aperçu `.html`, il lit le `list.csv`).
 4. Tous vos articles apparaissent instantanément avec leurs étiquettes d'origine.
 
 Le plan gratuit de Marqly permet d'enregistrer jusqu'à 100 éléments. Le forfait Pro est proposé à 72 $/an (6 $/mois facturé annuellement ou 9 $/mois) avec le code promotionnel `STANDING49` (49 $ la première année).

@@ -11,7 +11,7 @@ tags:
   - "segnalibri ia"
   - "secondo cervello"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Quanto costa Marqly Pro?"

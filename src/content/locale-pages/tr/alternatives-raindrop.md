@@ -17,7 +17,7 @@ faqs:
   - q: "Marqly, Raindrop koleksiyonlarımı aktarabilir mi?"
     a: "Evet. Raindrop dışa aktarma dosyasını Marqly'ye yükleyerek tüm yer imlerinizi saniyeler içinde eksiksiz taşıyabilirsiniz."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Deneyin"
+ctaLabel: "Marqly'ye Ücretsiz Başlayın"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-08-16
 ---
@@ -37,4 +37,4 @@ Raindrop yalnızca tam anahtar kelime eşleşmesine bakar. Aylar önce okuduğun
 ## 3. Yapay zeka özetleri ve video içeriği yönetimi
 Raindrop makaleleri özetlemez ve YouTube videolarının içeriğini analiz edemez. Marqly ise otomatik makale özetleri sunar ve YouTube videolarını altyazılarıyla birlikte aramanıza olanak tanır.
 
-[Marqly'yi ücretsiz deneyin](https://app.marqly.com)
+[Marqly'ye ücretsiz başlayın](https://app.marqly.com)

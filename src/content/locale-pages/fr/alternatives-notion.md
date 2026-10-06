@@ -25,7 +25,7 @@ faqs:
   - q: "Puis-je migrer l'existant ?"
     a: "Marqly importe les exports Pocket, les collections Raindrop.io et les fichiers HTML de favoris."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-26
 ---

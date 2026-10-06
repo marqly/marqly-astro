@@ -11,7 +11,7 @@ tags:
   - "pocket yedek inceleme"
   - "yer imi ice aktarma"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 lang: "tr"
 faqs:
   - q: "Pocket yedek dosyası makalelerin tam metnini içerir mi?"

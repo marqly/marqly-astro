@@ -19,7 +19,7 @@ faqs:
   - q: "Tasarım referansı toplamak için Marqly ücretsiz mi?"
     a: "Evet, ücretsiz plan 100 yer imine kadar pano ve metin vurgulama desteği sunar. Pro plan (yıllık 72 $, STANDING49 kuponuyla ilk yıl 49 $) yapay zeka etiketleme ve semantik aramayı açar."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 ctaSecondaryLabel: "Chrome'a ekle — ücretsiz"
 updatedDate: 2026-09-07
 ---

@@ -19,7 +19,7 @@ faqs:
   - q: "Ele substitui os favoritos padrão do Chrome?"
     a: "Ele funciona junto: seus favoritos nativos continuam intactos. O Marqly sincroniza seus salvamentos na nuvem para você acessar no Safari, Edge, Firefox, iOS e na web."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-07
 ---

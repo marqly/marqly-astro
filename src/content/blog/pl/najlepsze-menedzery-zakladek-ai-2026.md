@@ -12,7 +12,7 @@ tags:
   - "wyszukiwanie semantyczne zakladek"
   - "drugi mozg ai"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Co powinien potrafić prawdziwy menedżer zakładek z AI?"

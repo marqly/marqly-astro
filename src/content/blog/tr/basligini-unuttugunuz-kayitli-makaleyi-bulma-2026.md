@@ -12,7 +12,7 @@ tags:
   - "kavramsal yer imi arama"
   - "kayip yer imi"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 lang: "tr"
 faqs:
   - q: "Başlığını unuttuğum bir yer imini nasıl bulabilirim?"
@@ -23,7 +23,6 @@ faqs:
     a: "Evet, anlamsal arama motorları tam da kısmi ve bulanık hatıralar için geliştirilmiştir. Sayfaları anlamsal yakınlıklarına göre sıralar."
 heroImage: ../../../assets/blog/how-to-find-a-saved-article-you-forgot-the-title-of.png
 heroAlt: "Başlığını Unuttuğunuz Kayıtlı Makaleyi Bulma Rehberi (2026) — illustration"
-ogImage: "https://www.marqly.com/og/basligini-unuttugunuz-kayitli-makaleyi-bulma-2026.png"
 ---
 
 Başlığını unuttuğunuz bir yer imini bulmak için kelimeleri tahmin etmeyi bırakın ve aklınızda kalan fikri tam bir cümleyle anlatın. Yapay zeka destekli anlamsal arama, harflerin birebir uyuşmasına bakmak yerine cümlenizin taşıdığı anlamı çözümler ve kaydettiğiniz tüm sayfaların içeriğiyle kıyaslar.

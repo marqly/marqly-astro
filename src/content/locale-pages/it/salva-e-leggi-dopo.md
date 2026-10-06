@@ -25,7 +25,7 @@ faqs:
   - q: "Vengo da Pocket: posso portare tutto?"
     a: "Sì, c'è l'importazione da Pocket, da Raindrop e dai file HTML dei preferiti del browser. Porti dentro l'archivio e da lì in poi lo cerchi per significato, non per titolo."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — è gratis"
 updatedDate: 2026-09-26
 ---

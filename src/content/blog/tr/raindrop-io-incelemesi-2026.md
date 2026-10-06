@@ -11,7 +11,7 @@ tags:
   - "raindrop vs marqly"
   - "yer imi yoneticisi"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 lang: "tr"
 faqs:
   - q: "Raindrop.io ücretsiz mi?"

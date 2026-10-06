@@ -14,7 +14,7 @@ tags:
   - "czyszczenie zakladek"
   - "cyfrowy minimalizm"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 faqs:
   - q: "Co powinna zawierać checklista cyfrowych porządków?"
     a: "Pięć kroków uszeregowanych według korzyści: zamknięcie otwartych kart (z uprzednim zapisaniem ważnych), połączenie i przejrzenie zakładek, wyczyszczenie zaległości na liście do przeczytania, rezygnację z nieużywanych subskrypcji i newsletterów oraz uporządkowanie ekranu telefonu. Na koniec wdrożenie narzędzia do szybkiego zapisywania."

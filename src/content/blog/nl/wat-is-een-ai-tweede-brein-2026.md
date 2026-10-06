@@ -12,7 +12,7 @@ tags:
   - "tweede brein app"
   - "ai kennisbeheer"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 lang: "nl"
 faqs:
   - q: "Wat is een AI tweede brein precies?"
@@ -23,7 +23,6 @@ faqs:
     a: "Ja, vooral voor artikelen en online bronnen. Zo raakt je notitie-app niet vervuild en vind je opgeslagen webkennis moeiteloos terug."
 heroImage: ../../../assets/blog/what-is-an-ai-second-brain.png
 heroAlt: "Wat is een AI tweede brein? Een duidelijke gids in begrijpelijke taal (2026) — illustration"
-ogImage: "https://www.marqly.com/og/wat-is-een-ai-tweede-brein-2026.png"
 ---
 
 Een AI tweede brein is een persoonlijke kennisbank die alles wat je online bewaart — artikelen, bladwijzers, video's en notities — verzamelt en kunstmatige intelligentie gebruikt om het te ordenen, samen te vatten en te doorzoeken op betekenis.

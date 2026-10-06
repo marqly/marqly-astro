@@ -11,7 +11,7 @@ tags:
   - "wallabag alternativa"
   - "salvare articoli server"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Conviene auto-ospitare un'alternativa a Pocket?"

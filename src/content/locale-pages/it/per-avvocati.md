@@ -19,7 +19,7 @@ faqs:
   - q: "Come ritrovo una sentenza o un articolo se ricordo solo la tesi difensiva?"
     a: "La ricerca semantica individua i contenuti per significato concettuale nei titoli, testi e note evidenziate, senza dipendere da parole chiave esatte."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-07
 ---

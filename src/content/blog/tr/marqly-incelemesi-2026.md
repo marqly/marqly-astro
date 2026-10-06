@@ -11,7 +11,7 @@ tags:
   - "yapay zeka yer imi"
   - "ikinci beyin"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 lang: "tr"
 faqs:
   - q: "Marqly ücreti ne kadar?"

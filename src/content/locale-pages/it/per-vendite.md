@@ -19,7 +19,7 @@ faqs:
   - q: "Quanto costa Marqly per i venditori?"
     a: "Gratis fino a 100 link. Pro a 72 $/anno (49 $ con coupon STANDING49)."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-07
 ---

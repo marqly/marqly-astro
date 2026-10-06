@@ -21,7 +21,7 @@ faqs:
   - q: "免费方案有什么额度限制？"
     a: "免费方案支持最多保存 100 条书签。Pro 专业版年费为 $72（使用优惠码 STANDING49 首年仅需 $49）。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

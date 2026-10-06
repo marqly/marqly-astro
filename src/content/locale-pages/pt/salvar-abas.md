@@ -25,7 +25,7 @@ faqs:
   - q: "É grátis?"
     a: "Salvar abas e sessões faz parte do uso normal do Marqly, e o plano grátis não pede cartão de crédito. O Pro, com chat sobre o que você salvou, custa US$ 9 por mês ou US$ 72 por ano."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Teste o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-08-16
 ---

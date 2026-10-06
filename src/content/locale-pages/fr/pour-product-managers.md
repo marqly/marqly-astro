@@ -19,7 +19,7 @@ faqs:
   - q: "En quoi la recherche sémantique aide-t-elle la veille concurrentielle ?"
     a: "Elle permet de chercher par sens conceptuel plutôt que par mots-clés stricts, retrouvant les bons documents instantanément."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-07
 ---

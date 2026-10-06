@@ -19,7 +19,7 @@ faqs:
   - q: "Marqly est-il gratuit pour les curateurs et créateurs ?"
     a: "Offre gratuite jusqu'à 100 éléments sans carte bancaire. Pro à 72 $/an (49 $ la 1ère année avec code STANDING49) pour les fonctionnalités IA complètes."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-07
 ---

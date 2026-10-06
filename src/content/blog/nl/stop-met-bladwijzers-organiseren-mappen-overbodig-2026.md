@@ -12,7 +12,7 @@ tags:
   - "bladwijzer mappen"
   - "stoppen met bladwijzers ordenen"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 lang: "nl"
 faqs:
   - q: "Kun je bladwijzers beheren zonder mappen aan te maken?"
@@ -23,7 +23,6 @@ faqs:
     a: "Nee, dat hoeft niet. Bewaar gerust een paar overzichtelijke snelkoppelingsmappen op je bladwijzerbalk, en importeer je volledige archief in Marqly om voortaan op betekenis te zoeken."
 heroImage: ../../../assets/blog/stop-organizing-bookmarks-folders-obsolete.png
 heroAlt: "Stop met bladwijzers organiseren: waarom mappen overbodig zijn in 2026 — illustration"
-ogImage: "https://www.marqly.com/og/stop-met-bladwijzers-organiseren-mappen-overbodig-2026.png"
 ---
 
 Je hoeft je bladwijzers niet langer in ingewikkelde mappenstructuren te sorteren. In 2026 voorziet kunstmatige intelligentie elke opgeslagen link automatisch van relevante tags, en dankzij semantisch zoeken vind je elk artikel terug door simpelweg te omschrijven wat je je herinnert. Diepe mappenbomen en tijdrovende opruimsessies zijn officieel verleden tijd.

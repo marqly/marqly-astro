@@ -12,7 +12,7 @@ tags:
   - "read it later app deutsch"
   - "ki lesezeichen verwalten"
 ctaUrl: "https://app.marqly.com/lp/replace-pocket"
-ctaLabel: "Marqly kostenlos testen"
+ctaLabel: "Marqly kostenlos starten"
 lang: "de"
 faqs:
   - q: "Was ist 2026 die beste Pocket-Alternative?"
@@ -83,7 +83,7 @@ Pockets größte Schwachstelle war stets dieselbe: Das Speichern ging per Klick,
 - **Nachteile:** Jünger als traditionelle Marktführer, wachsende Community.
 - **Preis:** Gratis-Tarif bis zu 100 Einträge mit Volltextsuche; Pro-Tarif für 72 $/Jahr (~6 $/Monat, mit Gutscheincode `STANDING49` im ersten Jahr nur 49 $) oder 9 $/Monat.
 
-[Marqly kostenlos testen →](https://app.marqly.com/lp/replace-pocket)
+[Marqly kostenlos starten →](https://app.marqly.com/lp/replace-pocket)
 
 ## 2. Raindrop.io — Die beste kostenlose Allround-Alternative
 

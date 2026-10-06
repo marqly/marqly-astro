@@ -21,7 +21,7 @@ faqs:
   - q: "YouTube videoları da listeye dahil edilebilir mi?"
     a: "Evet. Kaydedilen her video için otomatik olarak yapay zeka özeti ve transkript çıkarılır; bir saatlik videoyu izlemeden ne anlattığını saniyeler içinde anlarsınız."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Deneyin"
+ctaLabel: "Marqly'ye Ücretsiz Başlayın"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-26
 ---

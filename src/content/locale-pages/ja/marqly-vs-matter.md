@@ -21,7 +21,7 @@ faqs:
   - q: "両方を併用するのはありですか？"
     a: "とても合理的です。耳で聴きたい長文記事はMatterに入れ、仕事の資料や動画、技術記事のアーカイブはMarqlyに保管する使い分けが人気です。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqlyを無料で試す"
+ctaLabel: "Marqlyを無料で始める"
 ctaSecondaryLabel: "Chromeに追加 — 無料"
 updatedDate: 2026-09-07
 ---

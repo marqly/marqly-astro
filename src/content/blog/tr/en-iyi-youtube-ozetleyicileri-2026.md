@@ -13,7 +13,7 @@ tags:
   - "youtube transkript alma"
   - "eightify alternatifi"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Dene"
+ctaLabel: "Marqly'ye Ücretsiz Başla"
 lang: "tr"
 faqs:
   - q: "2026'da en iyi YouTube video özetleme aracı hangisidir?"

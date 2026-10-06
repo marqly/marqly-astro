@@ -12,7 +12,7 @@ tags:
   - "後で見る 保存 アプリ"
   - "youtube ブックマーク"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "Marqlyを無料で試す"
+ctaLabel: "Marqlyを無料で始める"
 lang: "ja"
 faqs:
   - q: "なぜYouTubeの「後で見る」は消化できないのですか？"

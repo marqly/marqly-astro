@@ -12,7 +12,7 @@ tags:
   - "organizzazione automatica segnalibri"
   - "gestore segnalibri ia"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Come fa l'IA a organizzare i segnalibri automaticamente?"

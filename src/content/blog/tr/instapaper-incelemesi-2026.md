@@ -11,7 +11,7 @@ tags:
   - "daha sonra oku"
   - "instapaper vs marqly"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 lang: "tr"
 faqs:
   - q: "Instapaper ücretsiz mi?"

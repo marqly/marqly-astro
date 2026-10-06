@@ -12,7 +12,7 @@ tags:
   - "odpowiedzi ai zakladki"
   - "ai drugi mozg"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Czy mogę rozmawiać ze swoimi zapisanymi artykułami i zakładkami?"
@@ -23,7 +23,6 @@ faqs:
     a: "Nie. Sztuczna inteligencja analizuje całą treść za Ciebie, co pozwala błyskawicznie wyciągać wnioski z długich tekstów odłożonych na później."
 heroImage: ../../../assets/blog/how-to-chat-with-your-saved-articles.png
 heroAlt: "Jak rozmawiać z zapisanymi artykułami i zakładkami w 2026 roku — illustration"
-ogImage: "https://www.marqly.com/og/jak-rozmawiac-z-zapisanymi-artykulami-2026.png"
 ---
 
 Rozmawianie z zapisanymi artykułami polega na zadawaniu pytań w języku naturalnym i otrzymywaniu syntezy wiedzy opartej wyłącznie na **Twoich własnych zakładkach, notatkach i zachowanych materiałach** — a nie na całym publicznym internecie.

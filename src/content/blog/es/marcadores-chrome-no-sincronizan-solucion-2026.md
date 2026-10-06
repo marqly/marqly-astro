@@ -11,7 +11,7 @@ tags:
   - "chrome sync fix"
   - "copia seguridad marcadores"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probar Marqly gratis"
+ctaLabel: "Empieza gratis con Marqly"
 lang: "es"
 faqs:
   - q: "¿Por qué Chrome deja de sincronizar mis marcadores de repente?"

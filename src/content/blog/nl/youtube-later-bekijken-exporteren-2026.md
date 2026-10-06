@@ -12,7 +12,7 @@ tags:
   - "youtube video backup"
   - "youtube video bewaren"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 lang: "nl"
 faqs:
   - q: "Bevat Google Takeout de lijst 'Later bekijken'?"
@@ -21,7 +21,6 @@ faqs:
     a: "Door waardevolle video's toe te voegen aan een normale afspeellijst of door geopende tabbladen in batch op te slaan in Marqly."
   - q: "Waarom staan er [Privévideo] of [Verwijderde video] regels in mijn lijst?"
     a: "Wanneer een maker een video offline haalt, bewaart YouTube de lege plek zonder titel, waardoor je niet meer weet welke video het was."
-ogImage: "https://www.marqly.com/og/youtube-later-bekijken-exporteren-2026.png"
 ---
 
 Een onaangename verrassing voor velen: **Google Takeout exporteert je 'Later bekijken'-lijst van YouTube niet**. Met Google Takeout kun je je eigen afspeellijsten, reacties en geschiedenis downloaden, maar de bewaarlijst wordt beschouwd als een interne systeemlijst en weggelaten.

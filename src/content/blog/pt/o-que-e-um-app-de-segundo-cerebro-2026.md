@@ -12,7 +12,7 @@ tags:
   - "construir segundo cerebro"
   - "gestao conhecimento pessoal"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Experimentar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 lang: "pt"
 faqs:
   - q: "O que faz um aplicativo de segundo cérebro?"
@@ -23,7 +23,6 @@ faqs:
     a: "Não. Ao importar seus favoritos no Marqly, a IA cuida de toda a indexação, tornando suas leituras acessíveis sem trabalho braçal."
 heroImage: ../../../assets/blog/what-is-a-second-brain-app.png
 heroAlt: "O que é um app de segundo cérebro? (E como criar um com seus favoritos em 2026) — illustration"
-ogImage: "https://www.marqly.com/og/o-que-e-um-app-de-segundo-cerebro-2026.png"
 ---
 
 Você consome artigos e novidades todos os dias, mas quando surge um projeto ou problema no trabalho, raramente consegue resgatar onde viu aquela solução genial.

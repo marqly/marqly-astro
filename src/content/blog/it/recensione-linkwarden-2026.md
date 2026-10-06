@@ -11,7 +11,7 @@ tags:
   - "archivio web"
   - "linkwarden vs marqly"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Come funziona Linkwarden?"

@@ -19,7 +19,7 @@ faqs:
   - q: "Meus destaques de texto permanecem na página original?"
     a: "Sim, ficam gravados no site original quando você revisita a página e são indexados na sua biblioteca."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-07
 ---

@@ -14,7 +14,7 @@ tags:
   - "is mymind het waard"
   - "visuele bladwijzer beheerder"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 faqs:
   - q: "Is mymind het waard in 2026?"
     a: "mymind is het waard als je een visuele denker of ontwerper bent die afbeeldingen, quotes en inspiratie bewaart in een rustige ruimte zonder advertenties. Het is minder geschikt als je vooral lange artikelen opslaat die je later op onderwerp wilt terugvinden of als je een permanente gratis versie zoekt."

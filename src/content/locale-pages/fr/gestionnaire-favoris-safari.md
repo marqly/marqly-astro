@@ -19,7 +19,7 @@ faqs:
   - q: "Que se passe-t-il si j'utilise un PC Windows au bureau ?"
     a: "C'est la grande force de Marqly : vos enregistrements Safari sur Mac ou iPhone sont immédiatement accessibles sous Windows via Chrome, Edge ou le Web."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-07
 ---

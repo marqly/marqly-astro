@@ -19,7 +19,7 @@ faqs:
   - q: "Ele substitui minha tela de nova aba atual?"
     a: "Sim. Ao instalar a extensão e ativar o Marqly Home, cada nova aba aberta exibirá seu painel personalizado com notas, tarefas e atalhos configurados por você."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-07
 ---

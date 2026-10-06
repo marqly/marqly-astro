@@ -12,7 +12,7 @@ tags:
   - "bladwijzers automatisch ordenen"
   - "ai bladwijzerbeheer"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 lang: "nl"
 faqs:
   - q: "Hoe organiseert AI mijn bladwijzers automatisch?"

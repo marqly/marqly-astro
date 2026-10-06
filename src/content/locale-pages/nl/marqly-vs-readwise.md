@@ -19,7 +19,7 @@ faqs:
   - q: "Wat is de rol van Marqly dan?"
     a: "Reader is een 'leeswachtrij'; Marqly is een 'AI-kennisarchief'. Het categoriseert automatisch alles wat je op het web tegenkomt zodat je het maanden later met één zoekopdracht terugvindt."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

@@ -19,7 +19,7 @@ faqs:
   - q: "Marqly sostituisce un software di gestione bibliografica come Zotero?"
     a: "No. Marqly non compila citazioni in formato accademico. Copre la fase di lettura: cattura dal web, evidenziazione attiva, sintesi con IA e ricerca semantica."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-07
 ---

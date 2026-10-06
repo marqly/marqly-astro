@@ -11,7 +11,7 @@ tags:
   - "raindrop vs marqly"
   - "gestore segnalibri"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Raindrop.io ha la ricerca semantica con IA?"

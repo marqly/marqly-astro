@@ -25,7 +25,7 @@ faqs:
   - q: "Si possono usare insieme?"
     a: "Sì. Uno schema comune: catturare e smistare in Marqly, scrivere in Obsidian citando ciò che hai trovato."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-26
 ---

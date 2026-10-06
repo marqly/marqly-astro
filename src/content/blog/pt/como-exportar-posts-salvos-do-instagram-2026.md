@@ -12,7 +12,7 @@ tags:
   - "saved_posts json"
   - "backup instagram"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Experimentar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 lang: "pt"
 faqs:
   - q: "Posso exportar meus posts salvos direto do aplicativo do Instagram?"
@@ -21,7 +21,6 @@ faqs:
     a: "Apenas o nome do perfil, o link do post e a data em que foi salvo. Não contém as fotos, vídeos ou legendas."
   - q: "O que acontece se o autor apagar a postagem salva?"
     a: "O link na sua exportação deixa de abrir. Daí a importância de transferir referências importantes para uma biblioteca própria no Marqly."
-ogImage: "https://www.marqly.com/og/como-exportar-posts-salvos-do-instagram-2026.png"
 ---
 
 O Instagram facilita o salvamento de publicações, mas **não oferece nenhuma ferramenta direta para exportar seus posts salvos**. Não existe botão para enviar uma coleção por e-mail nem para gerar uma planilha.

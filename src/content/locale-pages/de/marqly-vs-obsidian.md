@@ -25,7 +25,7 @@ faqs:
   - q: "Kann man beide nutzen?"
     a: "Ja. Ein verbreitetes Muster: in Marqly erfassen und sichten, in Obsidian schreiben und dabei zitieren."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly kostenlos testen"
+ctaLabel: "Marqly kostenlos starten"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
 updatedDate: 2026-09-26
 ---

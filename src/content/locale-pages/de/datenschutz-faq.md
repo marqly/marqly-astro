@@ -25,7 +25,7 @@ faqs:
   - q: "Warum kann ich Marqly nicht selbst hosten?"
     a: "Marqly ist ein gehosteter Dienst, es gibt kein Self-Hosting und keine öffentliche API. Wenn die Daten deine Infrastruktur nicht verlassen dürfen, sind quelloffene Projekte wie wallabag oder Karakeep die passendere Wahl – wir sagen das lieber ehrlich, als es dir nach der Einrichtung zu erklären."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly kostenlos testen"
+ctaLabel: "Marqly kostenlos starten"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
 updatedDate: 2026-09-26
 ---
@@ -79,4 +79,4 @@ Der ehrliche Verweis geht dann an die quelloffene Welt: **wallabag** speichert A
 | Offline-Modus? | Ja, auf Pro – markierte Seiten pro Gerät (Web-App & iOS) |
 | Verbindliche Angaben? | In der [Datenschutzerklärung](/privacypolicy) |
 
-Wenn dir das reicht, fang klein an: ein Konto ohne Kreditkarte, zehn gespeicherte Seiten, danach ein Testexport. Genau in dieser Reihenfolge prüft man ein Werkzeug, dem man später ein Archiv anvertraut. [Marqly kostenlos testen](https://app.marqly.com) – oder vorher noch [durchs Blog](/de/blog), zur [Startseite](/de) oder zum Vergleich [Marqly vs. Raindrop](/de/vergleich/marqly-vs-raindrop).
+Wenn dir das reicht, fang klein an: ein Konto ohne Kreditkarte, zehn gespeicherte Seiten, danach ein Testexport. Genau in dieser Reihenfolge prüft man ein Werkzeug, dem man später ein Archiv anvertraut. [Marqly kostenlos starten](https://app.marqly.com) – oder vorher noch [durchs Blog](/de/blog), zur [Startseite](/de) oder zum Vergleich [Marqly vs. Raindrop](/de/vergleich/marqly-vs-raindrop).

@@ -14,7 +14,7 @@ tags:
   - "vale a pena o mymind"
   - "gerenciador visual de favoritos"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 faqs:
   - q: "O mymind vale a pena em 2026?"
     a: "O mymind vale a pena se você é um pensador visual que salva imagens, citações e inspirações visuais e valoriza um espaço limpo sem anúncios. É a ferramenta mais elegante da categoria. Não é a melhor escolha se você salva muitos artigos longos de texto ou precisa de um plano gratuito permanente."

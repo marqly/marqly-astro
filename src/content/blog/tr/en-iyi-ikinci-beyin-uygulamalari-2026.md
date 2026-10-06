@@ -12,7 +12,7 @@ tags:
   - "notion obsidian karsilastirma"
   - "dijital not ve yer imi duzeni"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Deneyin"
+ctaLabel: "Marqly'ye Ücretsiz Başlayın"
 lang: "tr"
 faqs:
   - q: "2026'da en iyi ikinci beyin uygulaması hangisidir?"

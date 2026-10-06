@@ -19,7 +19,7 @@ faqs:
   - q: "Mes favoris seront-ils accessibles hors de Firefox ?"
     a: "Oui. Marqly stocke votre bibliothèque sur votre compte, accessible dans Chrome, Edge, Safari, sur iOS et le Web."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-07
 ---

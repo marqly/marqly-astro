@@ -23,7 +23,7 @@ faqs:
   - q: "Kullanım ücreti nedir?"
     a: "100 tarife kadar tamamen ücretsizdir. Pro plan yıllık 72 $ (STANDING49 koduyla ilk yıl 49 $) veya aylık 9 $'dır."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Dene"
+ctaLabel: "Marqly'ye Ücretsiz Başla"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

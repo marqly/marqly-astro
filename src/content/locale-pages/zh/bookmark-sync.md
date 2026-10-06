@@ -19,7 +19,7 @@ faqs:
   - q: "多设备同步需要额外付费吗？"
     a: "不需要。多浏览器和移动端的全平台同步在免费版中即可完整体验，无需绑定信用卡。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

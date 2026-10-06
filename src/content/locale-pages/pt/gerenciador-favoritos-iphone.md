@@ -19,7 +19,7 @@ faqs:
   - q: "Existe aplicativo para Android?"
     a: "Sim. O app Android está no Google Play: https://play.google.com/store/apps/details?id=com.marqly.android. É a mesma conta do app iOS."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-07
 ---

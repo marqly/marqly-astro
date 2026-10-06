@@ -19,7 +19,7 @@ faqs:
   - q: "Est-ce que cela remplace ma page d'accueil actuelle ?"
     a: "Oui. Dès que vous activez Marqly Home dans l'extension, chaque nouvel onglet affiche votre tableau de bord sur mesure avec vos raccourcis, notes adhésives et tâches en cours."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-07
 ---

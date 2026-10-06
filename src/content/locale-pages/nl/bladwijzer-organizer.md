@@ -19,7 +19,7 @@ faqs:
   - q: "Is Marqly gratis te gebruiken als bladwijzer organizer?"
     a: "Er is een gratis versie tot 100 items zonder creditcard. Pro kost 72 $/jaar (49 $ in het eerste jaar met code STANDING49)."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

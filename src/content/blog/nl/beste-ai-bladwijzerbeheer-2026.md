@@ -12,7 +12,7 @@ tags:
   - "semantisch zoeken bladwijzers"
   - "tweede brein ai"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 lang: "nl"
 faqs:
   - q: "Wat moet een echte AI-bladwijzerbeheerder kunnen?"

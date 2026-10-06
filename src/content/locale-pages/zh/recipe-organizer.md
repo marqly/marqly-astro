@@ -23,7 +23,7 @@ faqs:
   - q: "价格方案是怎样的？"
     a: "免费版可保存多达 100 条菜谱。Pro 专业版为 72 美元/年（首年使用折扣码 STANDING49 仅需 49 美元）或 9 美元/月。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

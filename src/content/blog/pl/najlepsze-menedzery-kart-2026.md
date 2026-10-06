@@ -13,7 +13,7 @@ tags:
   - "za dużo otwartych kart"
   - "zapisywanie kart chrome"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Jaki jest najlepszy menedżer kart w 2026 roku?"

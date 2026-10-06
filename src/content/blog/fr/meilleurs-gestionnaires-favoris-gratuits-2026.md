@@ -16,7 +16,7 @@ tags:
   - "karakeep"
   - "favoris navigateur"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Quel est le meilleur gestionnaire de favoris gratuit en 2026 ?"

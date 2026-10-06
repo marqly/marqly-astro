@@ -21,7 +21,7 @@ faqs:
   - q: "Ile kosztuje Marqly?"
     a: "Plan darmowy pozwala zapisać do 100 artykułów. Wersja Pro kosztuje 72 USD/rok (49 USD z kuponem STANDING49) lub 9 USD/miesięcznie."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"
 updatedDate: 2026-09-07
 ---

@@ -19,7 +19,7 @@ faqs:
   - q: "Ücretsiz bir alternatif var mı?"
     a: "Marqly ve Raindrop.io ücretsiz başlangıç planlarına sahiptir. Marqly 100 kayda kadar ücretsizdir."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Deneyin"
+ctaLabel: "Marqly'ye Ücretsiz Başlayın"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

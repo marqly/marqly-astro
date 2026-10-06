@@ -14,7 +14,7 @@ tags:
   - "conviene mymind"
   - "gestore visivo segnalibri"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 faqs:
   - q: "Conviene mymind nel 2026?"
     a: "mymind conviene se sei un pensatore visivo o un designer che salva immagini, citazioni e idee grafiche in uno spazio privato senza pubblicità. È meno indicato se salvi principalmente articoli lunghi da ritrovare per argomento o se cerchi un piano gratuito permanente."

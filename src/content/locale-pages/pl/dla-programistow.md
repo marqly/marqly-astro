@@ -21,7 +21,7 @@ faqs:
   - q: "Jakie są limity darmowego konta?"
     a: "Darmowy plan pozwala na zapisanie do 100 zakładek. Pakiet Pro kosztuje $72 rocznie (z kuponem STANDING49 tylko $49 w pierwszym roku)."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"
 updatedDate: 2026-09-07
 ---

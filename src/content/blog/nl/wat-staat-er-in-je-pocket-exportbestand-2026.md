@@ -11,7 +11,7 @@ tags:
   - "pocket backup"
   - "bladwijzers migreren"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 lang: "nl"
 faqs:
   - q: "Bevat het Pocket-bestand de volledige artikelteksten?"

@@ -3,27 +3,54 @@ lang: "ko"
 path: "/ko/bookmark-manager-for-edge"
 title: "Marqly: Microsoft Edge를 위한 AI 북마크 관리자"
 seoTitle: "Edge용 AI 북마크 관리자: 사이드바 & 시맨틱 검색 | Marqly"
-description: "Edge 즐겨찾기의 한계를 넘어섭니다. Microsoft Edge Add-ons의 Marqly 확장 기능은 AI 자동 태깅, 요약, 사이드패널 시맨틱 검색을 제공합니다."
+description: "Edge 즐겨찾기의 한계를 넘으세요. Microsoft Edge Add-ons 정식 등록 확장 프로그램이 AI 자동 태깅, 요약, 사이드패널 시맨틱 검색을 제공합니다. 카드 등록 없는 무료 플랜."
 eyebrow: "Edge"
 hero:
   heading: "Microsoft Edge 즐겨찾기를 AI로 스마트하게 업그레이드"
-  subheading: "Marqly는 Microsoft Edge Add-ons 스토어 공식 확장 프로그램을 제공합니다. 1클릭 저장, AI 자동 태그 및 요약, 의미 기반 시맨틱 검색을 바로 시작하세요."
+  subheading: "Marqly는 Microsoft Edge Add-ons 스토어에 전용 확장 프로그램을 공식 등록했습니다. 1클릭 저장, AI 자동 태그와 요약, 의미 기반 시맨틱 검색을 바로 시작하세요."
 crumbHome: "홈"
-trustLine: "무료 플랜, 카드 등록 없음 · Microsoft Edge Add-ons 지원"
+trustLine: "무료 플랜, 카드 등록 없음 · Microsoft Edge Add-ons 정식 등록"
 faqHeading: "자주 묻는 질문"
 faqs:
-  - q: "Edge 전용 공식 확장 프로그램이 있나요?"
-    a: "네, Microsoft Edge Add-ons 스토어에 공식 등록되어 있어 별도 설정 없이 바로 설치할 수 있습니다."
-  - q: "기존 Edge 즐겨찾기를 가져올 수 있나요?"
-    a: "네. Edge에서 HTML 파일로 내보낸 뒤 Marqly에 업로드하면 AI가 기존 모든 즐겨찾기에 태그를 부여합니다."
-  - q: "Edge 외 다른 브라우저와도 동기화되나요?"
-    a: "네. Marqly 계정을 통해 Chrome, Firefox, Safari, iOS 앱 및 웹 브라우저 전체에서 완전히 동기화됩니다."
+  - q: "Edge 전용 공식 확장 프로그램이 정말 있나요? 크롬 버전을 사이드로드해야 하나요?"
+    a: "있습니다. Marqly는 Microsoft Edge Add-ons 스토어에 전용 애드온으로 게시되어 있어, 목록에서 Get만 누르면 일반 Edge 애드온처럼 그대로 설치됩니다. '다른 스토어의 확장 프로그램 허용' 스위치를 켤 필요도, Edge를 Chrome 웹 스토어에 연결할 필요도 없습니다. 자세한 내용은 Edge 관련 FAQ를 참고하세요."
+  - q: "기존 Edge 즐겨찾기를 Marqly로 가져올 수 있나요?"
+    a: "네. Edge가 내보내는 표준 북마크 HTML 파일은 Chrome, Firefox, Safari와 같은 형식이고, Marqly는 이 파일을 그대로 가져옵니다. Pocket 내보내기 파일(list.csv)과 Raindrop.io 컬렉션도 같은 방식으로 옮겨집니다. 단, 가져온 항목에 대한 AI 자동 태깅은 Pro 기능이며 무료 플랜에서는 파일에 들어 있던 태그가 그대로 유지됩니다."
+  - q: "Edge 밖에서도 저장한 링크를 쓸 수 있나요?"
+    a: "네, 그게 Edge 즐겨찾기와의 핵심 차이입니다. Edge 즐겨찾기는 Microsoft 계정으로 동기화되어 다른 Edge 기기에만 닿지만, Marqly 저장본은 Marqly 계정에 담깁니다. 그래서 Chrome, Firefox, Safari 확장 프로그램과 모든 브라우저의 웹 앱, iPhone의 iOS 앱에서 같은 라이브러리를 쓸 수 있습니다. 계정 하나, 모든 기기."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly 무료로 시작하기"
-ctaSecondaryLabel: "Chrome에 추가 — 무료"
-updatedDate: 2026-09-07
+ctaSecondaryLabel: "확장 프로그램 설치 — 무료"
+updatedDate: 2026-10-05
 ---
 
-Edge 기본 즐겨찾기는 폴더 구조가 복잡해지면 원하는 페이지를 빠르게 찾기 어렵습니다.
+Edge는 종종 "다른 브라우저용 확장 프로그램이 대충 이식되는 곳"이고, 북마크 도구가 그중에서도 가장 형편없는 경우가 많습니다 — Chrome용 빌드를 뒤늦게 어설프게 이식하거나, 아예 없거나 하죠. Marqly는 다릅니다. [Microsoft Edge Add-ons 스토어](https://microsoftedge.microsoft.com/addons/detail/marqly-%E2%80%93-the-ultimate-boo/gojjglmdginjjpgajdnobmnkmcogngok)에 전용 확장 프로그램을 게시했습니다. 어떤 페이지든 1클릭으로 저장하고, AI가 자동으로 태그와 요약을 붙이며, "가격 심리에 관한 그 기사"처럼 의미로 찾아내는 AI 북마크 관리자입니다. 제목을 외우거나 즐겨찾기 폴더를 헤맬 필요가 없습니다.
 
-Marqly를 설치하면 브라우저 사이드패널에서 AI 자동 태깅과 자연어 시맨틱 검색으로 언제든 필요한 링크를 즉시 호출할 수 있습니다.
+## Edge 즐겨찾기의 빈틈
+
+Edge의 즐겨찾기 시스템은 전형적인 브라우저 설계 그대로입니다. 폴더 트리, 도구 모음의 즐겨찾기 바, 그리고 제목과 URL만 일치시키는 검색. 페이지가 무엇을 말하는지는 전혀 담지 않기 때문에, 찾느냐 못 찾느냐는 "무슨 이름으로 어디에 넣어 뒀는지" 기억하는 데 전부 걸려 있습니다. 즐겨찾기가 몇백 개를 넘는 순간 이 방식은 무너집니다. 당신이 정리를 못 해서가 아니라, 폴더 분류 체계는 반드시 부패하도록 설계돼 있기 때문입니다.
+
+동기화 경계는 또 다른 벽입니다. Edge 즐겨찾기는 Microsoft 계정으로 동기화되는데, 그건 Edge끼리 쓸 때까지 편리합니다. 가정용 노트북의 Chrome, iPhone의 Safari — 즐겨찾기는 따라가지 않습니다. 직장에선 Edge, 집에선 다른 브라우저를 쓰는 사람에게 이건 매일 발목을 잡는 사소한 고통입니다.
+
+## 정석적으로 설치하는 전용 확장 프로그램
+
+Marqly는 Microsoft 공식 스토어에 직접 게시하므로 설치가 완전히 정상 경로입니다. 목록을 열고 Get을 누르면 끝. 다른 스토어의 확장을 허용하는 설정을 건드릴 일도, 검증되지 않은 Chrome 이식판이 제대로 작동할지 걱정할 일도 없습니다.
+
+설치하면 도구 모음 버튼으로 현재 페이지를 1클릭 저장하고, 원하면 저장 시점에 태그를 직접 붙일 수도 있습니다. 탭 세이버는 리서치 세션 전체 — 열어 둔 탭 전부 — 를 한 번의 동작으로 라이브러리에 담습니다. 사이드패널 라이브러리는 지금 보고 있는 페이지 옆에서 저장본을 탐색하고 검색하게 해주니, "이거 이미 저장한 적 있지?"를 확인하는 데 탭 하나를 희생하지 않습니다.
+
+AI 레이어가 이걸 "UI만 예쁜 즐겨찾기 바"와 갈라놓습니다. 저장은 자동으로 AI 태그가 붙어 분류할 게 없고, 기사에는 AI 요약이 달려 몇 초 만에 스키밍이 가능합니다 — 요약 읽고, 정독할 가치인지 판단하고, 다음으로 넘어가는 식이죠. 예전에 서른 개 페이지를 다시 열어야 했던 백로그 점검이 사이드패널에서 10분 정리로 줄어듭니다. 하이라이터로 어떤 페이지든 텍스트를 6가지 색 중 하나로 메모와 함께 표시할 수 있고, 하이라이트는 재방문 시 제자리에 남고 라이브러리와도 동기화됩니다. YouTube에서는 AI 카드로 요약과 전사본을, Pro에서는 영상과의 대화 탭까지 제공하고, YouTube 동작 행의 북마크 버튼으로 영상을 전사본과 함께 저장할 수 있습니다. 그리고 시맨틱 검색이 이 모든 것을 하나로 묶습니다 — 제목, 본문, 하이라이트, 전사본을 넘어 당신이 기억하는 설명과 의미를 비교하죠. 실제 동작은 [AI로 북마크 검색하는 법](/ko/blog/ai-bookmark-geomsaek-2026)에서 확인하세요.
+
+## 즐겨찾기는 옮겨오고, 다른 브라우저도 그대로 쓰세요
+
+Edge는 즐겨찾기를 표준 북마크 HTML 파일로 내보내고, Marqly는 이를 직접 가져옵니다. 절차는 [Chrome 북마크 가져오기 가이드](/ko/blog/chrome-bookmark-gajyeoogi-2026)와 동일합니다. 가져오기 한 번으로 수년간의 즐겨찾기 이력에 태그가 붙는데(가져온 항목의 AI 자동 태깅은 Pro 기능이고, 무료 플랜에서는 파일의 기존 태그가 그대로 유지됩니다), 2023년에 관리하기를 멈춘 폴더 트리가 그날 오후에 검색 가능한 라이브러리로 바뀝니다. 아까운 링크는 보드로 이송하세요 — 프로젝트별로 링크와 하이라이트를 묶고, 어떤 보드든 회원가입 없이 열어 볼 수 있는 공개 페이지로 공유할 수 있습니다.
+
+그날부터 저장본은 특정 브라우저의 소유물이 아닙니다. 라이브러리는 Marqly 계정에 담기고 [기기 간에 동기화](/faq/can-i-sync-across-devices)됩니다. 같은 저장이 Chrome·Firefox·Safari 확장 프로그램에서, app.marqly.com 웹 앱으로 어떤 브라우저에서든, iPhone의 iOS 앱에서 그대로 나타납니다. 오후 4시에 책상에서 Edge로 저장한 링크를, 저녁 6시 전철 위에서 폰으로 여세요.
+
+## 시작하기
+
+1. [Microsoft Edge Add-ons의 Marqly 목록](https://microsoftedge.microsoft.com/addons/detail/marqly-%E2%80%93-the-ultimate-boo/gojjglmdginjjpgajdnobmnkmcogngok)을 열고 Get을 누르세요. (자세히: [Marqly는 Edge에서 작동하나요?](/faq/does-marqly-work-on-edge))
+2. [app.marqly.com](https://app.marqly.com)에서 무료로 가입하세요 — 카드 등록이 필요 없습니다. 원할 때 시작하는 Pro는 연 $72(연간 결제 시 월 약 $6) 또는 월 $9이며, 저장 내용에 대한 AI 질의응답 같은 기능이 열립니다.
+3. Edge 즐겨찾기를 HTML로 내보내 가져오면, AI가 쌓인 것을 정리할 수 있습니다.
+4. 다음에 흥미로운 페이지를 1클릭으로 저장하고, 하루 뒤 기억나는 설명만으로 검색해 보세요.
+
+정직한 적합성 노트: Edge만 고집한다면 — 회사 기기, 집 기기, 모바일까지 전부 Edge — 그리고 즐겨찾기가 성실히 가꾼 수십 개 수준이라면, Microsoft 기본 동기화가 정말로 충분할 수 있습니다. Marqly의 강점은 두 상황에서 뚜렷해집니다. 컬렉션이 제목 검색을 넘어섰을 때, 그리고 브라우징이 브라우저 경계를 넘나드는데 즐겨찾기가 한 브라우저에 갇힐 때. 둘 다 흔해서, 저희 [최고의 AI 북마크 관리자 비교](/ko/blog/best-ai-bookmark-manager-2026)는 크로스 브라우저 동기화를 기본기로 취급합니다. 무료 플랜은 카드가 필요 없으니, 가장 저렴한 시험법은 확장 프로그램을 설치해 실제 즐겨찾기로 일주일 써보는 것입니다.

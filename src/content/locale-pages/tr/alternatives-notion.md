@@ -19,7 +19,7 @@ faqs:
   - q: "Marqly sayfaları ne kadar aslına uygun kaydeder?"
     a: "Notion Clipper'dan çok daha sadıktır. Sayfa biçimlendirmesini korur ve Chrome/Edge'de eksiksiz PDF arşivleme imkanı sunar."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Deneyin"
+ctaLabel: "Marqly'ye Ücretsiz Başlayın"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

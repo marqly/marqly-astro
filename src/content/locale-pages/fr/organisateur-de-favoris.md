@@ -19,7 +19,7 @@ faqs:
   - q: "Marqly est-il gratuit pour organiser mes favoris ?"
     a: "L'offre gratuite permet de stocker jusqu'à 100 favoris sans carte bancaire. Pro coûte 72 $/an (49 $ la 1ère année avec le code STANDING49)."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-07
 ---

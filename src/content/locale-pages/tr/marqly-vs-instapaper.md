@@ -21,7 +21,7 @@ faqs:
   - q: "Instapaper'da yapay zeka özellikleri var mı?"
     a: "Hayır. Instapaper'da otomatik etiketleme, yapay zeka özetleri veya semantik arama bulunmaz."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Deneyin"
+ctaLabel: "Marqly'ye Ücretsiz Başlayın"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-26
 ---

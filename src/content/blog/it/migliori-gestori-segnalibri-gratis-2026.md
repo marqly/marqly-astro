@@ -16,7 +16,7 @@ tags:
   - "karakeep"
   - "segnalibri browser"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Qual è il miglior gestore di segnalibri gratuito nel 2026?"

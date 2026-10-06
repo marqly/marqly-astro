@@ -12,7 +12,7 @@ tags:
   - "yapay zeka yer imi cevaplari"
   - "yapay zeka ikinci beyin"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 lang: "tr"
 faqs:
   - q: "Kaydettiğim makalelerle ve yer imleriyle sohbet edebilir miyim?"
@@ -23,7 +23,6 @@ faqs:
     a: "Hayır. Yapay zeka tüm metni sizin için okuyup analiz eder, bu sayede okumaya vakit bulamadığınız uzun yazılardan hızla bilgi edinebilirsiniz."
 heroImage: ../../../assets/blog/how-to-chat-with-your-saved-articles.png
 heroAlt: "Kayıtlı Makaleleriniz ve Yer İmlerinizle Sohbet Etme Rehberi (2026) — illustration"
-ogImage: "https://www.marqly.com/og/kayitli-makalelerle-sohbet-etme-2026.png"
 ---
 
 Kayıtlı makalelerinizle sohbet etmek, genel internet araması yerine **bizzat kendi kaydettiğiniz yer imleri, notlar ve bağlantılar üzerinden** yapay zekaya sorular sormak ve hedefe yönelik cevaplar almak anlamına gelir.

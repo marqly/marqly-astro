@@ -21,7 +21,7 @@ faqs:
   - q: "是否支持团队协作？"
     a: "你可以将任意看板作为公开网页链接分享给他人，无需登录即可查看（只读）；多人需要共同编辑时，请使用 Marqly Teams。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

@@ -11,7 +11,7 @@ tags:
   - "kopia zapasowa zakładek"
   - "menedżer zakładek ai"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Jak wyeksportować zakładki z Google Chrome?"

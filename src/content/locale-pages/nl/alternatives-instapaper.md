@@ -19,7 +19,7 @@ faqs:
   - q: "Kan ik artikelen overzetten naar Marqly?"
     a: "Ja, Marqly ondersteunt imports van Pocket, Raindrop.io en standaard HTML-bladwijzerbestanden."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

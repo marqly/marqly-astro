@@ -19,7 +19,7 @@ faqs:
   - q: "那么 Marqly 解决的核心痛点是什么？"
     a: "Reader 是一个『待读队列』，而 Marqly 是一个『AI 个人智库』。它让你不必花费高昂年费，就能把看过的所有网页和视频轻松归档并秒速检索。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

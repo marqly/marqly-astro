@@ -13,7 +13,7 @@ tags:
   - "drugi mozg"
   - "system zarzadzania zakladkami"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Czym jest metoda PARA w odniesieniu do zakładek?"

@@ -12,7 +12,7 @@ tags:
   - "jak zbudowac drugi mozg"
   - "zarzadzanie wiedza osobista"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Czym jest aplikacja typu «drugi mózg»?"
@@ -23,7 +23,6 @@ faqs:
     a: "Importując swoje zakładki do Marqly: sztuczna inteligencja automatycznie je taguje i umożliwia wyszukiwanie semantyczne po znaczeniu."
 heroImage: ../../../assets/blog/what-is-a-second-brain-app.png
 heroAlt: "Czym jest aplikacja «Drugi Mózg»? (I jak zbudować go ze swoich zakładek w 2026 roku) — illustration"
-ogImage: "https://www.marqly.com/og/czym-jest-aplikacja-drugi-mozg-2026.png"
 ---
 
 Czytasz codziennie dziesiątki artykułów i analiz, ale gdy przychodzi moment realizacji projektu, trudno przypomnieć sobie, gdzie znajdowały się kluczowe wskazówki.

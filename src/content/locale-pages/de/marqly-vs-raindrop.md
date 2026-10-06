@@ -25,7 +25,7 @@ faqs:
   - q: "Kann ich beide parallel nutzen?"
     a: "Das geht. Manche behalten Raindrop als geordnetes Archiv und nutzen Marqly für laufende Recherche, Videos und alles, was schnell rein muss. Doppelte Pflege lohnt sich langfristig aber selten – irgendwann pflegst du nur noch eines."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly kostenlos testen"
+ctaLabel: "Marqly kostenlos starten"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
 updatedDate: 2026-09-26
 ---
@@ -87,4 +87,4 @@ Und der Preis: rund **28 $/Jahr (rund 26 €)** gegen **72 $/Jahr (rund 66 €)*
 
 Ein Wechsel ist in beide Richtungen unkompliziert: Raindrop exportiert schon in der kostenlosen Stufe, Marqly hat einen Raindrop-Import und liest jede Lesezeichen-HTML-Datei. Die einzelnen Schritte erklärt die [deutsche Raindrop-Migrationsanleitung](/de/migration/raindrop). Wenn du gerade generell umziehst, hilft der Überblick zu den [Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2026); Fragen zu Daten und Export beantworten die [Datenschutz-Fragen](/de/datenschutz-fragen).
 
-Am ehrlichsten entscheidest du mit den eigenen Lesezeichen: importieren, sieben Tage lang nur über Beschreibungen suchen und schauen, was hängen bleibt. [Marqly kostenlos testen](https://app.marqly.com).
+Am ehrlichsten entscheidest du mit den eigenen Lesezeichen: importieren, sieben Tage lang nur über Beschreibungen suchen und schauen, was hängen bleibt. [Marqly kostenlos starten](https://app.marqly.com).

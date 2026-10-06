@@ -21,7 +21,6 @@ faqs:
     a: "仅包含发布者账号、帖子永久链接（Permalink）和收藏时间戳。不包含图片、视频或正文文案。"
   - q: "如果收藏的原帖被博主删除或转为私密会怎样？"
     a: "导出的链接将失效。因此高价值的图文灵感应及早通过独立书签工具如Marqly进行带备注归档。"
-ogImage: "https://www.marqly.com/og/export-instagram-saved-posts-2026.png"
 ---
 
 在 Instagram 上随手点击“保存”非常方便，但 **Instagram 根本没有提供任何导出收藏夹的直接入口**。你无法直接把某个收藏专辑打包发到邮箱，也无法下载 CSV 表格。

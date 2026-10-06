@@ -19,7 +19,7 @@ faqs:
   - q: "Posso mostrare il mio archivio di ispirazione a un cliente?"
     a: "Certamente. Raggruppa le referenze in una bacheca e invia il link pubblico: il cliente visualizza la raccolta nel browser senza registrarsi."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-07
 ---

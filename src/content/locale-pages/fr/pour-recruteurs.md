@@ -19,7 +19,7 @@ faqs:
   - q: "Puis-je partager un benchmark avec un hiring manager sans inscription ?"
     a: "Oui. Vous pouvez regrouper des études et fiches de poste dans un tableau public consultable directement dans le navigateur sans création de compte."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-07
 ---

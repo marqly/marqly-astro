@@ -11,7 +11,7 @@ tags:
   - "pocket alternatieven"
   - "bladwijzers importeren"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 lang: "nl"
 faqs:
   - q: "Hoe download ik mijn Pocket-archief?"
@@ -42,7 +42,7 @@ In deze gids ontdek je hoe je jouw gegevens veiligstelt en importeert in een mod
 
 1. Maak een gratis account aan op [Marqly](https://app.marqly.com).
 2. Ga naar **Instellingen → Importeren**.
-3. Sleep je bestand `pocket-export.html` in het importvenster.
+3. Open het ZIP-archief en sleep het bestand `list.csv` in het importvenster (het `.html`-voorbeeldbestand leest Marqly niet).
 4. Binnen twee minuten is je complete bibliotheek beschikbaar.
 
 Marqly biedt een gratis versie tot 100 items; Pro kost $72/jaar ($6/mnd jaarlijks of $9/mnd) met kortingscode `STANDING49` ($49 voor het eerste jaar).

@@ -25,7 +25,7 @@ faqs:
   - q: "Kann ich mit Kommilitonen zusammenarbeiten?"
     a: "Dafür gibt es zwei Stufen: Du kannst ein Board als öffentliche Seite teilen, etwa eine Literaturliste für die Lerngruppe – die ist nur lesbar. Wer gemeinsam in einem geteilten Arbeitsbereich bearbeiten will, nutzt Marqly Teams."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly kostenlos testen"
+ctaLabel: "Marqly kostenlos starten"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
 updatedDate: 2026-09-26
 ---
@@ -74,4 +74,4 @@ Die kostenlose Stufe verlangt keine Kreditkarte – zum Ausprobieren über eine 
 
 Fair vorab: Offline-Lesen nur auf Pro (Web-App und iOS, pro Gerät), und Teilen ist im persönlichen Plan nur lesbar – für die gemeinsame Bearbeitung gibt es Marqly Teams. Was an Daten entsteht und wie du alles wieder herausbekommst, steht in den [Datenschutz-Fragen](/de/datenschutz-fragen); wie sich Marqly gegen einen klassischen Sammler schlägt, im Vergleich [Marqly vs. Raindrop](/de/vergleich/marqly-vs-raindrop).
 
-Fang mit der nächsten Seminararbeit an: Quellen rein, markieren, in Woche sieben einfach beschreiben, was du suchst. [Marqly kostenlos testen](https://app.marqly.com).
+Fang mit der nächsten Seminararbeit an: Quellen rein, markieren, in Woche sieben einfach beschreiben, was du suchst. [Marqly kostenlos starten](https://app.marqly.com).

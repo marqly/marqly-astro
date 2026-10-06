@@ -19,7 +19,7 @@ faqs:
   - q: "Marqly sostituisce i software gestionali per agenzie immobiliari?"
     a: "No. Marqly supporta il browsing quotidiano: organizzare le ricerche sui portali, confrontare prezzi di zona e condividere selezioni eleganti."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-07
 ---

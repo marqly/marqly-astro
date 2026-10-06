@@ -11,7 +11,7 @@ tags:
   - "wallabag alternatif"
   - "kendi sunucunda yer imi"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 lang: "tr"
 faqs:
   - q: "Pocket yerine kendi sunucumda ne çalıştırabilirim?"

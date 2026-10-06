@@ -19,7 +19,7 @@ faqs:
   - q: "Marqly 会替代房产中介公司的内部房源系统（ERP/MLS）吗？"
     a: "不会。Marqly 专门负责网络调研层面：抓取各平台公开房源、规划公报、学区划片与行情研报，并优雅地分享给购房客户。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

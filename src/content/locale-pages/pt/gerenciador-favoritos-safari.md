@@ -19,7 +19,7 @@ faqs:
   - q: "E se eu usar um PC com Windows no trabalho?"
     a: "É para isso que o Marqly foi criado. Seus links do Safari salvos no Mac ou iPhone ficam disponíveis imediatamente no Chrome, Edge ou web app no Windows."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-07
 ---

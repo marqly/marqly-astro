@@ -11,7 +11,7 @@ tags:
   - "recupero dati pocket"
   - "importazione pocket"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Il file di Pocket contiene il testo degli articoli?"

@@ -11,7 +11,7 @@ tags:
   - "ia recherche"
   - "gestionnaire de favoris ia"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Qu'est-ce que la recherche sémantique ?"

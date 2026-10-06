@@ -19,7 +19,7 @@ faqs:
   - q: "Czy korzystanie z Marqly jako organizatora zakładek jest darmowe?"
     a: "Darmowy plan pozwala zapisać do 100 pozycji bez podawania karty. Wersja Pro kosztuje 72 $/rok (49 $ w 1. roku z kodem STANDING49)."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"
 updatedDate: 2026-09-07
 ---

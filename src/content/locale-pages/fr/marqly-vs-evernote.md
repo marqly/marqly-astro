@@ -25,7 +25,7 @@ faqs:
   - q: "Evernote fonctionne-t-il hors ligne ?"
     a: "Oui, Evernote propose l'accès hors ligne et une application Android. Marqly propose aussi la lecture hors ligne, mais seulement avec Pro et par appareil : les pages marquées restent dans l'application web ou l'application iOS, et il n'y a pas de mode hors ligne sur Android ni dans les extensions."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-26
 ---

@@ -12,7 +12,7 @@ tags:
   - "limit zapisanych reddit"
   - "kopia zapasowa reddit"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "W jaki sposób mogę wyeksportować zapisane posty z Reddita?"
@@ -21,7 +21,6 @@ faqs:
     a: "Zawiera jedynie dwie kolumny: ID posta oraz jego bezpośredni link (permalink). Brak tam tytułów, nazw subredditów czy dat zapisania."
   - q: "Czy eksport obejmuje posty starsze niż limit 1000 pozycji?"
     a: "Tak, w przeważającej większości przypadków. Podczas gdy aplikacja wyświetla tylko około 1000 najnowszych pozycji, oficjalny wniosek RODO pobiera pełną bazę danych konta."
-ogImage: "https://www.marqly.com/og/jak-wyeksportowac-zapisane-posty-z-reddita-2026.png"
 ---
 
 Jedynym oficjalnym sposobem na wyeksportowanie zapisanych postów z Reddita jest złożenie wniosku o udostępnienie danych: wejdź na stronę **reddit.com/settings/data-request**, zaznacz pełną historię konta, a Reddit w ciągu kilku dni prześle Ci archiwum ZIP zawierające plik `saved_posts.csv`.

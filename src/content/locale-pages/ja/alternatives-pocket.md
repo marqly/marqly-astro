@@ -19,7 +19,7 @@ faqs:
   - q: "無料で使える乗り換え先はありますか？"
     a: "MarqlyとRaindrop.ioには無料プランがあります。Marqlyは無料枠で最大100件の保存と全文検索が可能です。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqlyを無料で試す"
+ctaLabel: "Marqlyを無料で始める"
 ctaSecondaryLabel: "Chromeに追加 — 無料"
 updatedDate: 2026-09-07
 ---

@@ -19,7 +19,7 @@ faqs:
   - q: "Semantik arama rakip araştırmasına nasıl yardımcı olur?"
     a: "'Rakiplerin kullanıcı başına fiyatlandırma modeli' gibi kavramsal aramalarla tam eşleşme olmadan doğru içeriği getirir."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 ctaSecondaryLabel: "Chrome'a ekle — ücretsiz"
 updatedDate: 2026-09-07
 ---

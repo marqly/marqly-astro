@@ -19,7 +19,7 @@ faqs:
   - q: "Vervangt Marqly de standaard bladwijzerbalk van Chrome?"
     a: "Het werkt naast elkaar: je vertrouwde bladwijzerbalk blijft actief. Marqly synchroniseert alles in je account voor Safari, Edge, Firefox, iOS en internet."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly gratis proberen"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

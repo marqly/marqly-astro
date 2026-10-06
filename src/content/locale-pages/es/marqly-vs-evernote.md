@@ -25,7 +25,7 @@ faqs:
   - q: "¿Evernote funciona sin conexión?"
     a: "Sí, Evernote tiene acceso sin conexión y app de Android. Marqly también lee sin conexión, pero solo en Pro y por dispositivo: las páginas marcadas se guardan en la app web o en la app de iOS, y no hay modo sin conexión en Android ni en las extensiones."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prueba Marqly gratis"
+ctaLabel: "Empieza gratis con Marqly"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
 updatedDate: 2026-09-26
 ---

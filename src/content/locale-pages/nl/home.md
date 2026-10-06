@@ -23,7 +23,7 @@ faqs:
   - q: "Wat doet Marqly beter dan gewone browserbladwijzers?"
     a: "Browserbladwijzers slaan alleen een titel en URL op, wat snel een onoverzichtelijke verzameling wordt. Marqly bewaart samenvattingen, tags, markeringen en notities en laat je zoeken op wat je je herinnert van de inhoud."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-08-16
 ---

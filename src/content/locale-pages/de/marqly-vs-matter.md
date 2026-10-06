@@ -25,7 +25,7 @@ faqs:
   - q: "Kann ich beide nutzen?"
     a: "Ja. Matter für das, was du hören oder in Ruhe lesen willst, Marqly als durchsuchbares Archiv für alles andere."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly kostenlos testen"
+ctaLabel: "Marqly kostenlos starten"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
 updatedDate: 2026-09-26
 ---

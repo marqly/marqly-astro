@@ -25,7 +25,7 @@ faqs:
   - q: "Quanto costano i due?"
     a: "Raindrop Pro costa circa 28 $/anno o 3 $/mese. Marqly Pro costa 72 $/anno (circa 69 €) oppure 9 $/mese (circa 8 €), e 48 $ il primo anno (circa 46 €) per gli studenti verificati."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — è gratis"
 updatedDate: 2026-09-26
 ---

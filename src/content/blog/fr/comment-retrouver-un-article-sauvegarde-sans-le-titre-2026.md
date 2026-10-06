@@ -12,7 +12,7 @@ tags:
   - "recherche semantique favoris"
   - "favori perdu"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Comment retrouver un favori quand on ne se souvient plus du titre ?"
@@ -23,7 +23,6 @@ faqs:
     a: "Oui. La recherche sémantique est conçue précisément pour les souvenirs partiels en classant vos liens selon leur proximité conceptuelle."
 heroImage: ../../../assets/blog/how-to-find-a-saved-article-you-forgot-the-title-of.png
 heroAlt: "Comment retrouver un article sauvegardé quand on a oublié le titre en 2026 — illustration"
-ogImage: "https://www.marqly.com/og/comment-retrouver-un-article-sauvegarde-sans-le-titre-2026.png"
 ---
 
 Pour retrouver un article sauvegardé dont vous avez oublié le titre, cessez de deviner des mots-clés au hasard et décrivez simplement ce dont vous vous souvenez dans une phrase complète. La recherche sémantique propulsée par l'IA interprète le sens profond de votre requête et le compare au contenu intégral de chaque lien enregistré.

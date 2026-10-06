@@ -19,7 +19,7 @@ faqs:
   - q: "Gdzie trafia zapisany plik PDF?"
     a: "Trafia bezpośrednio do Twojej biblioteki Marqly, gdzie sztuczna inteligencja przypisuje mu tagi i umożliwia wyszukiwanie semantyczne."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"
 updatedDate: 2026-09-07
 ---

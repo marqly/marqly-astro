@@ -19,7 +19,7 @@ faqs:
   - q: "La synchronisation multi-appareils est-elle payante ?"
     a: "Non. La synchronisation sur l'ensemble de vos navigateurs et sur iOS est incluse dès le forfait gratuit."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-07
 ---

@@ -19,7 +19,7 @@ faqs:
   - q: "Zijn mijn bladwijzers ook buiten Firefox beschikbaar?"
     a: "Ja. Anders dan Firefox Sync synchroniseert Marqly je complete collectie met Chrome, Edge, Safari, iOS en internet."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly gratis proberen"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

@@ -16,7 +16,7 @@ tags:
   - "karakeep"
   - "tarayici yer imleri"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Deneyin"
+ctaLabel: "Marqly'ye Ücretsiz Başlayın"
 lang: "tr"
 faqs:
   - q: "2026 yılında en iyi ücretsiz yer imi yöneticisi hangisidir?"

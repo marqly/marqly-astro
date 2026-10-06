@@ -25,7 +25,7 @@ faqs:
   - q: "Va bene anche per la maturità?"
     a: "Sì. Tieni in un posto solo i video di ripasso, le pagine e i PDF che ti passano i compagni, evidenzi quello che conta e ricostruisci ogni materia quando arriva il momento di ripassare."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — è gratis"
 updatedDate: 2026-09-26
 ---

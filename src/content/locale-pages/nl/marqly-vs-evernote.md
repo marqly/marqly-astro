@@ -19,7 +19,7 @@ faqs:
   - q: "Wat mis je als je Evernote verlaat?"
     a: "Vooral OCR van gescande documenten en offline synchronisatie. Als dit onmisbaar is, blijf dan bij Evernote."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

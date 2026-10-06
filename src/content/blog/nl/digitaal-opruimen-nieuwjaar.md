@@ -14,7 +14,7 @@ tags:
   - "bladwijzers opschonen"
   - "digitaal minimalisme"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 faqs:
   - q: "Wat hoort er op een checklist voor digitaal opruimen?"
     a: "Vijf gerichte rondes op volgorde van impact: open tabbladen sluiten (belangrijke eerst opslaan), bladwijzers consolideren en opschonen, een streep zetten door oude leeslijsten, ongebruikte betaalde abonnementen en nieuwsbrieven opzeggen, en je telefoon organiseren. Sluit af met een betrouwbaar capturesysteem."

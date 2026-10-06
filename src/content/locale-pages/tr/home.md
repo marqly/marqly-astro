@@ -3,7 +3,7 @@ lang: "tr"
 path: "/tr"
 title: "Yapay Zeka Destekli Yer İmi Yöneticisi & İkinci Beyin"
 seoTitle: "Marqly — Yapay Zeka Yer İmi Yöneticisi | Akıllıca Kaydet, Anında Bul"
-description: "Marqly yapay zeka destekli yer imi yöneticisidir: makaleleri ve videoları tek tıkla kaydedin, otomatik etiketleyin ve anlamsal arama ile anında bulun. Ücretsiz deneyin."
+description: "Marqly yapay zeka destekli yer imi yöneticisidir: makaleleri ve videoları tek tıkla kaydedin, otomatik etiketleyin ve anlamsal arama ile anında bulun. Ücretsiz başlayın."
 eyebrow: "Türkçe Marqly"
 hero:
   heading: "Kaydetmeyi herkes yapar. Marqly, her zaman geri bulmanızı sağlar."
@@ -23,7 +23,7 @@ faqs:
   - q: "Marqly standart tarayıcı yer imlerinden neden daha iyidir?"
     a: "Tarayıcı yer imleri sadece bir başlık ve URL kaydeder, bu da zamanla binlerce kaybolmuş linke dönüşür. Marqly ise sayfa özetini, yapay zeka etiketlerini, vurguları ve notları kaydeder; hatırladığınız detayları yazarak istediğiniz içeriği anında bulmanızı sağlar."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Deneyin"
+ctaLabel: "Marqly'ye Ücretsiz Başlayın"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-08-16
 ---

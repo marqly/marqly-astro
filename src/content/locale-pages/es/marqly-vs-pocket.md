@@ -25,7 +25,7 @@ faqs:
   - q: "¿Cuánto cuesta Marqly frente a lo que costaba Pocket Premium?"
     a: "Marqly tiene plan gratis sin tarjeta, y Pro cuesta 72 USD al año o 9 USD al mes. Los estudiantes verificados pagan 48 USD el primer año. Pocket ya no se vende a ningún precio."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prueba Marqly gratis"
+ctaLabel: "Empieza gratis con Marqly"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
 updatedDate: 2026-09-26
 ---

@@ -13,7 +13,7 @@ tags:
   - "segundo cerebro"
   - "sistema organizacao favoritos"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Experimentar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 lang: "pt"
 faqs:
   - q: "O que é o método PARA aplicado a favoritos?"

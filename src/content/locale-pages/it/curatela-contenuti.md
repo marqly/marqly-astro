@@ -19,7 +19,7 @@ faqs:
   - q: "Quanto costa Marqly per curatori di contenuti?"
     a: "Piano gratuito fino a 100 elementi senza carta di credito. Pro a 72 $/anno (49 $ il primo anno con STANDING49) con ricerca semantica e IA."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-07
 ---

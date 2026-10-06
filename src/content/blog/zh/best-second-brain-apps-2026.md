@@ -12,7 +12,7 @@ tags:
   - "notion obsidian 对比"
   - "如何建立第二大脑"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "2026 年哪款第二大脑软件最值得推荐？"

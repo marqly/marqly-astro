@@ -12,7 +12,7 @@ tags:
   - "reddit opgeslagen limiet"
   - "reddit backup"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 lang: "nl"
 faqs:
   - q: "Hoe vraag ik een export van mijn opgeslagen Reddit-berichten aan?"
@@ -21,7 +21,6 @@ faqs:
     a: "Slechts twee kolommen: de post-ID en de permalink. Er staan geen titels, subreddit-namen of datums in."
   - q: "Bevat de export ook berichten voorbij de grens van 1.000 opgeslagen posts?"
     a: "Ja, meestal wel. Terwijl de app slechts ongeveer 1.000 recente saves toont, haalt het wettelijke AVG-gegevensverzoek de volledige database-opslag op."
-ogImage: "https://www.marqly.com/og/opgeslagen-reddit-berichten-exporteren-2026.png"
 ---
 
 De enige officiële methode om je opgeslagen Reddit-berichten te exporteren is via een privacy-gegevensverzoek: open **reddit.com/settings/data-request**, selecteer je volledige accountgeschiedenis en Reddit stuurt je binnen enkele dagen een ZIP-bestand met daarin `saved_posts.csv`.

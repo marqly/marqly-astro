@@ -19,7 +19,7 @@ faqs:
   - q: "Il PDF finisce nella cartella download o nella libreria?"
     a: "Viene archiviato direttamente nella libreria Marqly, catalogato con tag IA e recuperabile con ricerca semantica."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-07
 ---

@@ -19,7 +19,7 @@ faqs:
   - q: "Marqly est-il un tableau de suivi des candidatures (type Kanban) ?"
     a: "Non. Marqly ne suit pas les colonnes d'étapes. C'est l'outil de veille et de recherche documentaire qui alimente votre préparation en profondeur."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-07
 ---

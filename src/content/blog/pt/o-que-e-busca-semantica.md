@@ -11,7 +11,7 @@ tags:
   - "ia para buscar"
   - "gerenciador de favoritos com ia"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Teste o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 lang: "pt"
 faqs:
   - q: "O que é busca semântica?"

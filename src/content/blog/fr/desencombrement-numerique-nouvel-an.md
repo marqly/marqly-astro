@@ -14,7 +14,7 @@ tags:
   - "nettoyer favoris"
   - "minimalisme numerique"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 faqs:
   - q: "Que doit contenir une checklist de désencombrement numérique ?"
     a: "Cinq étapes chronométrées : fermer les onglets ouverts (en sauvegardant l'essentiel), rassembler et élaguer les favoris, assainir la liste de lecture, résilier abonnements et newsletters inutiles, et alléger l'écran d'accueil du téléphone. Puis mettre en place un outil de capture fiable."

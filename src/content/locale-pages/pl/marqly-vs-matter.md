@@ -19,7 +19,7 @@ faqs:
   - q: "Czy warto używać obu narzędzi razem?"
     a: "Jak najbardziej. Matter do tekstów, które chcesz odsłuchać w wolnym czasie, a Marqly do gromadzenia źródeł, transkrypcji i artykułów branżowych."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"
 updatedDate: 2026-09-07
 ---

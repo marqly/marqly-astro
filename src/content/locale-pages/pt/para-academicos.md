@@ -19,7 +19,7 @@ faqs:
   - q: "O Marqly substitui gerenciadores de referências como Mendeley ou Zotero?"
     a: "Não. Ele não formata bibliografias. O Marqly foca na fase da leitura: capturar, marcar, resumir via IA e reencontrar aquele dado específico com busca semântica."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-07
 ---

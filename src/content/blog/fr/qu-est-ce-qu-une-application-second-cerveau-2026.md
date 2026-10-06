@@ -12,7 +12,7 @@ tags:
   - "construire un second cerveau"
   - "gestion des connaissances"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Qu'est-ce qu'une application de second cerveau ?"
@@ -23,7 +23,6 @@ faqs:
     a: "En transférant vos signets dans Marqly : l'IA analyse les textes, attribue des tags et vous permet de rechercher par le sens."
 heroImage: ../../../assets/blog/what-is-a-second-brain-app.png
 heroAlt: "Qu'est-ce qu'une application second cerveau ? (Et comment l'alimenter avec vos favoris, 2026) — illustration"
-ogImage: "https://www.marqly.com/og/qu-est-ce-qu-une-application-second-cerveau-2026.png"
 ---
 
 Vous lisez en permanence des analyses pointues, des documentations et des articles inspirants. Pourtant, au moment où une idée devient nécessaire pour un projet, il est presque impossible de la retrouver.

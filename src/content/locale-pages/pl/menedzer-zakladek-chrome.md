@@ -19,7 +19,7 @@ faqs:
   - q: "Czy Marqly zastępuje domyślny pasek zakładek w Chrome?"
     a: "Działa równolegle: gwiazdka i pasek zakładek Chrome pozostają bez zmian. Marqly synchronizuje dane w chmurze z Safari, Edge, Firefoxem i aplikacją iOS."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"
 updatedDate: 2026-09-07
 ---

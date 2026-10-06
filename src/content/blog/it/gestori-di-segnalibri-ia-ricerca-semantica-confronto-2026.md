@@ -11,7 +11,7 @@ tags:
   - "marqly vs raindrop"
   - "secondo cervello ia"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Cos'è la ricerca semantica nei segnalibri?"

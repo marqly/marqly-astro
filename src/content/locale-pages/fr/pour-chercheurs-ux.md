@@ -19,7 +19,7 @@ faqs:
   - q: "Mes surlignages restent-ils visibles sur l'article source ?"
     a: "Oui, ils restent ancrés sur la page web lors de vos futures visites et s'indexent dans votre bibliothèque."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-07
 ---

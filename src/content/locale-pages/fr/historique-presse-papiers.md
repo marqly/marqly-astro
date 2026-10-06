@@ -19,7 +19,7 @@ faqs:
   - q: "Mes extraits copiés sont-ils synchronisés entre plusieurs ordinateurs ?"
     a: "La capture locale est gratuite. Marqly Pro ajoute la synchronisation cloud sécurisée entre vos appareils pour 72 $/an."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-07
 ---

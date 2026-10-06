@@ -19,7 +19,7 @@ faqs:
   - q: "Ile kosztuje Marqly dla doktoranta?"
     a: "Darmowy plan bez karty na start. Wersja Pro kosztuje 72 $/rok (49 $ w pierwszym roku z kodem STANDING49)."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"
 updatedDate: 2026-09-07
 ---

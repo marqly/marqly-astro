@@ -25,7 +25,7 @@ faqs:
   - q: "Funktioniert Evernote offline?"
     a: "Ja, Evernote hat Offline-Zugriff mit Sync und eine Android-App. Die Android-App hat Marqly inzwischen auch; Offline-Lesen gibt es dort nur auf Pro – markierte Seiten, pro Gerät, in Web-App und iOS."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly kostenlos testen"
+ctaLabel: "Marqly kostenlos starten"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
 updatedDate: 2026-09-26
 ---

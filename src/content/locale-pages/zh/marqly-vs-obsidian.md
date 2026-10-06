@@ -21,7 +21,7 @@ faqs:
   - q: "Marqly 会把数据存在本地吗？"
     a: "不会。Marqly 采用云端托管架构。如果你的硬性指标是所有数据必须留在本地磁盘，Obsidian 是唯一正确答案。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

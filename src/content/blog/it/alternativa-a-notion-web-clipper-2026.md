@@ -12,7 +12,7 @@ tags:
   - "notion leggi dopo"
   - "gestore preferiti ia"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Perché Notion Web Clipper non è adatto alla lettura?"
@@ -23,7 +23,6 @@ faqs:
     a: "Certamente: usa Notion per scrivere documenti e progetti, e Marqly come libreria dedicata per archiviare e ritrovare le tue letture web."
 heroImage: ../../../assets/blog/notion-web-clipper-alternative.png
 heroAlt: "La migliore alternativa a Notion Web Clipper per salvare e ritrovare articoli (2026) — illustration"
-ogImage: "https://www.marqly.com/og/alternativa-a-notion-web-clipper-2026.png"
 ---
 
 Notion è un punto di riferimento per l'organizzazione personale e i progetti. Tuttavia, usarlo come strumento per leggere dopo tramite Notion Web Clipper mostra presto i suoi limiti: nessuna modalità lettura, ricerca limitata ai soli titoli letterali e database che diventano in fretta caotici.

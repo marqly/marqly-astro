@@ -12,7 +12,7 @@ tags:
   - "app secondo cervello"
   - "gestione conoscenza ia"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Cos'è esattamente un secondo cervello con IA?"
@@ -23,7 +23,6 @@ faqs:
     a: "Sì, perché consente di gestire la mole di letture dal web senza appesantire lo spazio di lavoro principale."
 heroImage: ../../../assets/blog/what-is-an-ai-second-brain.png
 heroAlt: "Cos'è un secondo cervello con IA? Guida semplice e pratica (2026) — illustration"
-ogImage: "https://www.marqly.com/og/cos-e-un-secondo-cervello-con-ia-2026.png"
 ---
 
 Un secondo cervello con IA è un archivio di conoscenza personale che conserva tutto ciò che salvi — articoli, segnalibri, video e appunti — e usa l'intelligenza artificiale per catalogarlo, sintetizzarlo e renderlo ricercabile per concetto.

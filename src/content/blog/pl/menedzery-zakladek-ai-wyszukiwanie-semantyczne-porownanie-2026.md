@@ -11,7 +11,7 @@ tags:
   - "marqly vs raindrop"
   - "drugi mozg"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Czym jest wyszukiwanie semantyczne w menedżerach zakładek?"

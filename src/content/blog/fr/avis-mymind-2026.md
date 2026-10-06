@@ -14,7 +14,7 @@ tags:
   - "mymind vaut-il le coup"
   - "gestionnaire visuel de favoris"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 faqs:
   - q: "mymind vaut-il le coup en 2026 ?"
     a: "mymind vaut le coup si vous êtes un penseur visuel qui sauvegarde des images, des citations et de l'inspiration graphique dans un espace privé sans publicité. Pour les articles longs ou si vous voulez une formule gratuite permanente, d'autres outils sont plus adaptés."

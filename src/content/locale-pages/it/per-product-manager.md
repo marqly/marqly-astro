@@ -19,7 +19,7 @@ faqs:
   - q: "Come aiuta la ricerca semantica?"
     a: "Trova i salvataggi descrivendo il problema, come 'modelli di pricing per utente', senza bisogno di ricordare il titolo."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-07
 ---

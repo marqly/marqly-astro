@@ -19,7 +19,7 @@ faqs:
   - q: "YouTube ders videolarını özetleyebilir miyim?"
     a: "Evet. YouTube'daki akademik dersleri AI özeti ve senkronize transkript ile arşivleyebilirsiniz."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Deneyin"
+ctaLabel: "Marqly'ye Ücretsiz Başlayın"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

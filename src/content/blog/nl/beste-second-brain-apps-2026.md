@@ -12,7 +12,7 @@ tags:
   - "notion obsidian alternatieven"
   - "notities en bronnen organiseren"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 lang: "nl"
 faqs:
   - q: "Wat is de beste second brain app in 2026?"

@@ -11,7 +11,7 @@ tags:
   - "kopia zapasowa pocket"
   - "import danych pocket"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Czy plik Pocket zawiera pełną treść artykułów?"

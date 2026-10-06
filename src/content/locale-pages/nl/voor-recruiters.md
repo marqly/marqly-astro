@@ -19,7 +19,7 @@ faqs:
   - q: "Wat kost Marqly voor recruiters?"
     a: "Gratis tot 100 items zonder creditcard. Pro voor 72 $/jaar (49 $ in het eerste jaar met code STANDING49) met AI Q&A over salarisrapporten."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

@@ -19,7 +19,7 @@ faqs:
   - q: "Jak wygląda wierność zapisu stron w Marqly?"
     a: "Znacznie lepiej niż w Notion Clipperze. Marqly wiernie zachowuje układ stron, a w Chrome i Edge pozwala na pełny zapis jako PDF."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"
 updatedDate: 2026-09-07
 ---

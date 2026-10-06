@@ -12,7 +12,7 @@ tags:
   - "kopia zapasowa youtube"
   - "zapisywanie filmow youtube"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Czy Google Takeout pozwala pobrać listę «Obejrzyj później»?"
@@ -21,7 +21,6 @@ faqs:
     a: "Przenosząc wartościowe filmy do zwykłej nowej playlisty lub zapisując otwarte karty hurtowo w menedżerze Marqly."
   - q: "Dlaczego na liście pojawiają się pozycje [Film prywatny] lub [Film usunięty]?"
     a: "Gdy twórca usunie materiał, YouTube zachowuje pusty wpis bez tytułu, co uniemożliwia odgadnięcie, jaki to był film."
-ogImage: "https://www.marqly.com/og/jak-wyeksportowac-obejrzyj-pozniej-z-youtube-2026.png"
 ---
 
 Fakt, który zaskakuje wielu internautów: **Google Takeout nie pobiera playlisty «Obejrzyj później» z serwisu YouTube**. Oficjalne narzędzie Google pozwala zapisać w plikach CSV własne playlisty, historię czy subskrypcje, ale najważniejsza lista zapisanych filmów zostaje całkowicie zignorowana.

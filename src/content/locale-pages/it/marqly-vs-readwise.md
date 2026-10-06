@@ -25,7 +25,7 @@ faqs:
   - q: "Quanto costa Marqly?"
     a: "Piano gratuito senza carta, e Pro a 9 $/mese (circa 8 €) o 72 $/anno (circa 69 €)."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-26
 ---
@@ -94,4 +94,4 @@ Conta quante ore a settimana leggi davvero in una coda di lettura.
 - Se sono parecchie e poi lavori sulle evidenziazioni, i 119,88 $ si giustificano e Marqly ti sembrerà poco sulla lettura.
 - Se salvi molto più di quanto leggi, e ciò che ti irrita è non ritrovare quello che avevi visto a marzo, stai pagando una sala di lettura mentre ti serve un motore di ricerca.
 
-Prova Marqly gratis e senza carta su [app.marqly.com](https://app.marqly.com). Se arrivi da Pocket: [alternative a Pocket](/it/alternative/pocket); per opzioni più economiche: [Marqly vs Raindrop](/it/confronto/marqly-vs-raindrop).
+Inizia gratis con Marqly e senza carta su [app.marqly.com](https://app.marqly.com). Se arrivi da Pocket: [alternative a Pocket](/it/alternative/pocket); per opzioni più economiche: [Marqly vs Raindrop](/it/confronto/marqly-vs-raindrop).

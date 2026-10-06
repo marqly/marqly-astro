@@ -25,7 +25,7 @@ faqs:
   - q: "Marqly funziona offline?"
     a: "Sì, ma solo su Pro: le pagine che contrassegni restano offline in app web e iOS, sul singolo dispositivo, senza sincronizzazione. Salvare, sincronizzare e usare le funzioni AI richiede la connessione; su Android e nelle estensioni l'offline non c'è."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — è gratis"
 updatedDate: 2026-09-26
 ---

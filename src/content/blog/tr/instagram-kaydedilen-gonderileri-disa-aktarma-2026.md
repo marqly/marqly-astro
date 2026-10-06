@@ -12,7 +12,7 @@ tags:
   - "saved_posts json"
   - "instagram yedekleme"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 lang: "tr"
 faqs:
   - q: "Instagram uygulamasından kaydedilen gönderiler doğrudan dışa aktarılabilir mi?"
@@ -21,7 +21,6 @@ faqs:
     a: "Yalnızca paylaşan hesap adı, gönderinin kalıcı bağlantısı (permalink) ve kaydedilme zamanı yer alır. Fotoğraf, video veya açıklama metni bulunmaz."
   - q: "Gönderiyi paylaşan kişi silerse ne olur?"
     a: "Bağlantı geçersiz kalır. Bu nedenle önemli görsel referansları ve notları bağımsız bir yer imi aracında saklamak gerekir."
-ogImage: "https://www.marqly.com/og/instagram-kaydedilen-gonderileri-disa-aktarma-2026.png"
 ---
 
 Instagram'da gönderileri kaydetmek çok kolay olsa da, **uygulama içinde kaydedilen gönderileri dışa aktaracak bir buton bulunmaz**. Koleksiyonları CSV olarak indirme veya e-posta ile gönderme seçeneği yoktur.

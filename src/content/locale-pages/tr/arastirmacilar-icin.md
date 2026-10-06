@@ -21,7 +21,7 @@ faqs:
   - q: "Ekip halinde ortak çalışma için uygun mu?"
     a: "Bir panoyu herkesin üye olmadan görebileceği herkese açık bir web sayfası olarak paylaşabilirsiniz. Ancak gerçek zamanlı çoklu düzenleme özellikleri bulunmaz."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Deneyin"
+ctaLabel: "Marqly'ye Ücretsiz Başlayın"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

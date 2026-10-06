@@ -21,7 +21,7 @@ faqs:
   - q: "Tellen opgeslagen YouTube-video's ook mee?"
     a: "Ja, bij elke opgeslagen video wordt direct een AI-samenvatting en de uitgeschreven tekst bewaard, zodat je een lezing van een uur in twee minuten kunt beoordelen."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-26
 ---

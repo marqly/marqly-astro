@@ -11,7 +11,7 @@ tags:
   - "marqly vs instapaper"
   - "zakladki ai"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Jaka jest najlepsza alternatywa dla Instapaper?"

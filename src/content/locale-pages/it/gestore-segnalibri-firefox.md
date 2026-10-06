@@ -19,7 +19,7 @@ faqs:
   - q: "Posso accedere ai miei segnalibri fuori da Firefox?"
     a: "Sì. La tua libreria Marqly è sincronizzata su Chrome, Edge, Safari, iOS e via browser web ovunque ti trovi."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-07
 ---

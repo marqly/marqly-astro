@@ -19,7 +19,7 @@ faqs:
   - q: "Synchroniseren mijn klemborditems tussen verschillende computers?"
     a: "Lokale opslag in de browser is gratis. Marqly Pro voegt cloudsynchronisatie tussen computers toe voor 72 $/jaar."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

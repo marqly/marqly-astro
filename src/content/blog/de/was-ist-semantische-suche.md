@@ -11,7 +11,7 @@ tags:
   - "ki suche"
   - "lesezeichenverwaltung mit ki"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly kostenlos testen"
+ctaLabel: "Marqly kostenlos starten"
 lang: "de"
 faqs:
   - q: "Was ist semantische Suche?"

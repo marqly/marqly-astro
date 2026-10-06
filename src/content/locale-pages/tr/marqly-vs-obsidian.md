@@ -21,7 +21,7 @@ faqs:
   - q: "Marqly verileri yerel diske mi kaydeder?"
     a: "Hayır, Marqly bulut tabanlı bir servistir. Verilerin yalnızca kendi cihazınızda durması şartsa Obsidian en doğru tercihtir."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Deneyin"
+ctaLabel: "Marqly'ye Ücretsiz Başlayın"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

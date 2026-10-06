@@ -12,7 +12,7 @@ tags:
   - "limite de salvos twitter"
   - "backup twitter"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Experimentar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 lang: "pt"
 faqs:
   - q: "O arquivo de dados oficial do X inclui itens salvos?"
@@ -21,7 +21,6 @@ faqs:
     a: "Na prática, cerca dos 800 a 1.000 mais recentes. O X não carrega itens além desse limite na interface web ou no aplicativo."
   - q: "Como manter os links salvos pesquisáveis no longo prazo?"
     a: "Utilizando um gerenciador externo como o Marqly: com um clique na extensão do navegador, o conteúdo é salvo, etiquetado por IA e recuperável por busca semântica."
-ogImage: "https://www.marqly.com/og/como-exportar-itens-salvos-do-twitter-x-2026.png"
 ---
 
 A realidade que muitos descobrem tarde demais: **o download oficial de dados do X (Twitter) não inclui seus itens salvos (bookmarks)**. O arquivo compactado traz suas postagens, curtidas, mensagens diretas e histórico de conta, mas deixa de fora toda a sua lista de links guardados.

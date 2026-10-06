@@ -12,7 +12,7 @@ tags:
   - "para methode alternatief"
   - "persoonlijk kennisbeheer"
 ctaUrl: "https://app.marqly.com/lp/knowledge-base"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 lang: "nl"
 faqs:
   - q: "Wat is een tweede brein?"

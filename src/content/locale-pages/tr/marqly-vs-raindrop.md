@@ -19,7 +19,7 @@ faqs:
   - q: "Raindrop'taki yer imlerimi Marqly'ye aktarabilir miyim?"
     a: "Evet. Marqly'nin doğrudan Raindrop içe aktarma aracı vardır ve birkaç dakika içinde tüm arşivinizi eksiksiz taşır."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Deneyin"
+ctaLabel: "Marqly'ye Ücretsiz Başlayın"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-08-16
 ---

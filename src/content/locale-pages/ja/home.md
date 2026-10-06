@@ -23,7 +23,7 @@ faqs:
   - q: "ブラウザ標準のブックマークと何が違うのですか？"
     a: "通常のブックマークはURLとタイトルを保存するだけですが、Marqlyは記事本文の要約、自動タグ、ハイライト、メモも保存します。タイトルを忘れても「睡眠と運動に関する記事」といった記憶の内容で即座に検索できます。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqlyを無料で試す"
+ctaLabel: "Marqlyを無料で始める"
 ctaSecondaryLabel: "Chromeに追加 — 無料"
 updatedDate: 2026-08-16
 ---

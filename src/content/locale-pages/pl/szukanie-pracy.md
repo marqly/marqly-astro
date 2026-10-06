@@ -19,7 +19,7 @@ faqs:
   - q: "Czy Marqly to tablica Kanban do śledzenia statusu aplikacji?"
     a: "Nie. Marqly nie służy do oznaczania etapów rekrutacji. Stanowi bazę merytoryczną: gromadzi ogłoszenia, raporty płacowe i analizy firm."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"
 updatedDate: 2026-09-07
 ---

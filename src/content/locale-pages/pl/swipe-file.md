@@ -19,7 +19,7 @@ faqs:
   - q: "Czy mogę udostępnić zebrane inspiracje klientowi bez logowania?"
     a: "Tak. Zgromadź przykłady na tablicy i wyślij publiczny link. Klient przegląda materiały w przeglądarce bez konieczności rejestracji."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"
 updatedDate: 2026-09-07
 ---

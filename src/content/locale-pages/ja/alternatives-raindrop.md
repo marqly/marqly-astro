@@ -19,7 +19,7 @@ faqs:
   - q: "Raindropの代替として完全無料のツールはありますか？"
     a: "ローカルで管理したい方にはObsidian Web Clipperが完全無料の選択肢です。クラウド管理ならMarqlyの100件無料プランがおすすめです。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqlyを無料で試す"
+ctaLabel: "Marqlyを無料で始める"
 ctaSecondaryLabel: "Chromeに追加 — 無料"
 updatedDate: 2026-08-16
 ---
@@ -39,4 +39,4 @@ Raindropの検索はキーワードの完全一致です。数ヶ月前に読ん
 ## 理由3：動画や長文の要約機能が欲しい
 RaindropにはAIによる要約やYouTube動画の文字起こし機能はありません。Marqlyなら保存と同時に要約が生成され、YouTubeの動画ページ上でもAIチャットや字幕検索が可能です。
 
-[Marqlyを無料で試す](https://app.marqly.com)
+[Marqlyを無料で始める](https://app.marqly.com)

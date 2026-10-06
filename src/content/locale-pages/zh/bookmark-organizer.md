@@ -19,7 +19,7 @@ faqs:
   - q: "作为主力书签整理器使用需要付费吗？"
     a: "提供永久可用的免费版，免信用卡支持最多 100 条收藏。Pro 每年 72 美元（首年使用 STANDING49 仅需 49 美元）。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

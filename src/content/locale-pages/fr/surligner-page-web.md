@@ -25,7 +25,7 @@ faqs:
   - q: "Le surligneur fonctionne-t-il hors ligne ?"
     a: "Non. L'extension a besoin d'une connexion pour enregistrer et synchroniser vos surlignages, vos notes et vos sauvegardes ; il n'y a pas de mode hors ligne dans l'extension. En revanche, avec Pro, les pages marquées restent enregistrées sur l'appareil et se lisent hors ligne dans l'application web ou l'application iOS."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — c'est gratuit"
 updatedDate: 2026-09-26
 ---

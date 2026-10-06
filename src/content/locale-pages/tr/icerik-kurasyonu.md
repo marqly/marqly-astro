@@ -19,7 +19,7 @@ faqs:
   - q: "İçerik kurasyonu için Marqly ücreti nedir?"
     a: "100 kayda kadar kredi kartsız ücretsiz plan sunulur. Pro sürüm yıllık 72 dolar (STANDING49 ile ilk yıl 49 dolar) olup yapay zeka özelliklerini açar."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Dene"
+ctaLabel: "Marqly'ye Ücretsiz Başla"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

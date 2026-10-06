@@ -19,7 +19,7 @@ faqs:
   - q: "网页是否会被上传到第三方服务器进行转换？"
     a: "绝不会。PDF 生成处理 100% 在您本地浏览器内完成，既保障了私密文档的绝对安全，又无需等待排队转换。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

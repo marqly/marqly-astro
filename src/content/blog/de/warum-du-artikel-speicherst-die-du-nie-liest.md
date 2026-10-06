@@ -11,7 +11,7 @@ tags:
   - "produktivität"
   - "informationsflut"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly kostenlos testen"
+ctaLabel: "Marqly kostenlos starten"
 lang: "de"
 faqs:
   - q: "Warum speichere ich Artikel und lese sie dann nicht?"

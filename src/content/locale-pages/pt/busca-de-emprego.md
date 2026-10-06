@@ -19,7 +19,7 @@ faqs:
   - q: "O Marqly é um gerenciador de candidaturas tipo Kanban?"
     a: "Não. Ele não possui colunas de etapas. Ele atua na camada de pesquisa profunda: salvar páginas, comparar salários e manter notas de estudo organizadas por empresa."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-07
 ---

@@ -25,7 +25,7 @@ faqs:
   - q: "Que perds-je en partant ?"
     a: "Surtout la numérisation de documents et les notes longues, et un hors ligne très différent : Evernote baisse des carnets entiers sur tous vos appareils, alors que Marqly n'enregistre hors ligne que les pages marquées, avec Pro, dans l'application web ou iOS."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-26
 ---

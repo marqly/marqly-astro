@@ -19,7 +19,7 @@ faqs:
   - q: "只记得某篇文章讨论过的争议焦点，记不清标题如何查找？"
     a: "Marqly 语义搜索会比对您的划线笔记和全文含义，只需输入例如“关于新规追溯力的论证”，即可准确定位当时阅读的文章。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

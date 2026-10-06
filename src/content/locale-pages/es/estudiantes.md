@@ -25,7 +25,7 @@ faqs:
   - q: "¿Marqly escribe mis trabajos por mí?"
     a: "No, y esa no es la idea. Marqly organiza y resume lo que tú guardas, y te deja preguntarle a tu propia biblioteca para encontrar la fuente correcta más rápido."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prueba Marqly gratis"
+ctaLabel: "Empieza gratis con Marqly"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
 updatedDate: 2026-08-16
 ---

@@ -12,7 +12,7 @@ tags:
   - "alternative methode para"
   - "gestion des connaissances personnelles"
 ctaUrl: "https://app.marqly.com/lp/knowledge-base"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Qu'est-ce qu'un second cerveau ?"

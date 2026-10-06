@@ -12,7 +12,7 @@ tags:
   - "alternatywy notion obsidian"
   - "organizacja notatek i linkow"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Jaka jest najlepsza aplikacja 'Drugi Mózg' w 2026 roku?"

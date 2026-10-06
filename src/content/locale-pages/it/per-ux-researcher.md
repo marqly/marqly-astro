@@ -19,7 +19,7 @@ faqs:
   - q: "Le evidenziazioni restano sulla pagina web originale?"
     a: "Sì, restano salvate sulla pagina quando la riapri e vengono sincronizzate nella tua libreria."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-07
 ---

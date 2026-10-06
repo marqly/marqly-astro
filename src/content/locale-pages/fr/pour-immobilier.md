@@ -19,7 +19,7 @@ faqs:
   - q: "Marqly remplace-t-il un logiciel de transaction immobilière ?"
     a: "Non. Marqly organise vos recherches sur le web : portails d'annonces, permis de construire, cartes scolaires et comparatifs d'estimation."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-07
 ---

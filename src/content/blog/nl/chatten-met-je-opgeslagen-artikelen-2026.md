@@ -12,7 +12,7 @@ tags:
   - "ai antwoord bladwijzers"
   - "ai tweede brein"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 lang: "nl"
 faqs:
   - q: "Kun je echt chatten met je eigen opgeslagen artikelen?"
@@ -23,7 +23,6 @@ faqs:
     a: "Nee. De AI leest de volledige tekst voor je, wat ideaal is om snel inzicht te krijgen in lange bewaarde artikelen die je nog niet had gelezen."
 heroImage: ../../../assets/blog/how-to-chat-with-your-saved-articles.png
 heroAlt: "Chatten met je opgeslagen artikelen en bladwijzers in 2026 — illustration"
-ogImage: "https://www.marqly.com/og/chatten-met-je-opgeslagen-artikelen-2026.png"
 ---
 
 Chatten met je opgeslagen artikelen betekent dat je vragen stelt in normale mensentaal en antwoorden krijgt die uitsluitend zijn gebaseerd op **jouw eigen opgeslagen links, notities en bronnen** — niet op het open internet.

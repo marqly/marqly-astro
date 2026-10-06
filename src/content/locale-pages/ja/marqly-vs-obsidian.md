@@ -21,7 +21,7 @@ faqs:
   - q: "Marqlyはデータをローカルに保存しますか？"
     a: "いいえ。Marqlyはクラウドベースのサービスです。すべてのデータをローカルMarkdownで手元に置くことが必須条件であればObsidianをおすすめします。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqlyを無料で試す"
+ctaLabel: "Marqlyを無料で始める"
 ctaSecondaryLabel: "Chromeに追加 — 無料"
 updatedDate: 2026-09-07
 ---

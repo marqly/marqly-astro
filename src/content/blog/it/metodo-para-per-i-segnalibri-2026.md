@@ -13,7 +13,7 @@ tags:
   - "secondo cervello"
   - "sistema organizzazione segnalibri"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Cos'è il metodo PARA applicato ai segnalibri?"

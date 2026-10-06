@@ -12,7 +12,7 @@ tags:
   - "收藏夹断舍离"
   - "AI 书签知识库"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "2026 年整理浏览器书签最高效的方法是什么？"

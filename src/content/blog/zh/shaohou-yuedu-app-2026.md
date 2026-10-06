@@ -12,7 +12,7 @@ tags:
   - "文章收藏工具"
   - "AI 知识库"
 ctaUrl: "https://app.marqly.com/lp/replace-pocket"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "2026 年综合评分最高的稍后读应用是哪一家？"
@@ -37,7 +37,7 @@ ogImage: "https://www.marqly.com/og/best-read-it-later-apps-2026.png"
 ## 2026 年度排行榜
 
 ### 1. Marqly — 兼顾收藏与召回的综合冠军
-Marqly 在做好基础阅读体验的同时，加入了传统工具普遍缺乏的**语义 AI 搜索**。无需记住确切标题，只要描述你的记忆即可秒找文章；配合保存时的自动打标和要点摘要，让你的资料库始终处于可调用状态。免费版支持 100 条；Pro 版年付折合约 $6/月起。[立即免费体验 →](https://app.marqly.com/lp/replace-pocket)
+Marqly 在做好基础阅读体验的同时，加入了传统工具普遍缺乏的**语义 AI 搜索**。无需记住确切标题，只要描述你的记忆即可秒找文章；配合保存时的自动打标和要点摘要，让你的资料库始终处于可调用状态。免费版支持 100 条；Pro 版年付折合约 $6/月起。[立即免费开始 →](https://app.marqly.com/lp/replace-pocket)
 
 ### 2. Readwise Reader — 学术与深度阅读标杆
 月费约 $12。批注划线与间隔重复复习系统无出其右，适合需要深度消化论文、书籍与通讯的用户。

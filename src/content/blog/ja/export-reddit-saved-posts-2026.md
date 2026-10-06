@@ -12,7 +12,7 @@ tags:
   - "Reddit 保存 上限"
   - "Reddit バックアップ"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqlyを無料で試す"
+ctaLabel: "Marqlyを無料で始める"
 lang: "ja"
 faqs:
   - q: "Redditの保存済み投稿はどうやってエクスポートしますか？"
@@ -21,7 +21,6 @@ faqs:
     a: "投稿IDとパーマリンクURLの2列のみです。投稿のタイトル、本文、サブレディット名、保存日は含まれていません。"
   - q: "1,000件の表示上限を超えた古い保存投稿もエクスポートに含まれますか？"
     a: "はい、通常は含まれます。アプリでは直近の約1,000件しか遡れませんが、データリクエストはサーバーの全記録から抽出されるためです。"
-ogImage: "https://www.marqly.com/og/export-reddit-saved-posts-2026.png"
 ---
 
 Redditで保存した投稿をエクスポートする唯一の公式な手段は、「個人データリクエスト」を利用することです。**reddit.com/settings/data-request** にアクセスし、アカウントの全期間履歴を選択してリクエストを送信すると、数日以内に `saved_posts.csv` を含むZIPファイルが届きます。

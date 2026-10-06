@@ -25,7 +25,7 @@ faqs:
   - q: "Serve il piano a pagamento?"
     a: "No, puoi iniziare con il piano gratuito e senza carta. Il piano Pro costa 72 $/anno (circa 69 €) oppure 9 $/mese (circa 8 €), e serve soprattutto per la chat con i tuoi salvataggi."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — è gratis"
 updatedDate: 2026-08-16
 ---

@@ -11,7 +11,7 @@ tags:
   - "alternative wallabag"
   - "sauvegarder articles serveur"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Quelle alternative open source choisir après Pocket ?"

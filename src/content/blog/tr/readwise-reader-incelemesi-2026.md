@@ -11,7 +11,7 @@ tags:
   - "okuma uygulamasi"
   - "readwise vs marqly"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 lang: "tr"
 faqs:
   - q: "Readwise Reader ücretsiz mi?"

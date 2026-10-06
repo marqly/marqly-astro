@@ -19,7 +19,7 @@ faqs:
   - q: "Sostituisce la barra dei preferiti di Chrome?"
     a: "Agisce in parallelo: i tuoi preferiti nativi continuano a funzionare. Marqly archivia i dati nel tuo account sincronizzato su Safari, Edge, Firefox, iOS e web."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-07
 ---

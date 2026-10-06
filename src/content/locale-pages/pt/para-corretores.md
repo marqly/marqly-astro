@@ -19,7 +19,7 @@ faqs:
   - q: "O Marqly substitui o CRM da imobiliária?"
     a: "Não. Ele cuida da navegação web diária: organizar portais, comparar valores por metro quadrado e compartilhar listas visuais com compradores."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-07
 ---

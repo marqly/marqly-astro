@@ -11,7 +11,7 @@ tags:
   - "marqly vs instapaper"
   - "favoris ia"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Quelle est la meilleure alternative à Instapaper ?"

@@ -19,7 +19,7 @@ faqs:
   - q: "Puis-je poser des questions à la vidéo ?"
     a: "Oui. L'onglet Chat permet de poser des questions précises et d'obtenir des réponses fondées sur la transcription du contenu. Inclus dans l'offre Pro."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-07
 ---

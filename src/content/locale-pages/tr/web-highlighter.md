@@ -21,7 +21,7 @@ faqs:
   - q: "Web vurgulayıcının ücreti nedir?"
     a: "Ücretsiz olarak kullanmaya başlayabilirsiniz. Sınırsız vurgu ve yapay zeka arama özellikleri sunan Pro plan yıllık 72 $ (ilk yıl STANDING49 kuponuyla 49 $) veya aylık 9 $'dır."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Deneyin"
+ctaLabel: "Marqly'ye Ücretsiz Başlayın"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

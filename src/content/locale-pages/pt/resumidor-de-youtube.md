@@ -19,7 +19,7 @@ faqs:
   - q: "A função de chat com o vídeo é gratuita?"
     a: "O chat é um recurso do plano Pro (72 $/ano ou 9 $/mês). O plano gratuito permite experimentar os resumos em vídeos reais sem inserir cartão."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-07
 ---

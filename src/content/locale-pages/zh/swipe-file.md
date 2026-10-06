@@ -19,7 +19,7 @@ faqs:
   - q: "可以把整理好的灵感画板直接发给客户查看吗？"
     a: "可以。将案例整理至专属画板并开启公开链接，客户无需注册即可在微信或浏览器中直接欣赏带高亮批注的参考案。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

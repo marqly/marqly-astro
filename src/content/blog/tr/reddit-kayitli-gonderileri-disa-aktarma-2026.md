@@ -12,7 +12,7 @@ tags:
   - "reddit kayit siniri"
   - "reddit yedekleme"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 lang: "tr"
 faqs:
   - q: "Reddit'te kaydettiğim gönderileri nasıl dışa aktarırım?"
@@ -21,7 +21,6 @@ faqs:
     a: "Yalnızca iki sütun bulunur: Gönderi ID'si ve kalıcı bağlantı (permalink). Başlık, subreddit adı veya kayıt tarihi yer almaz."
   - q: "Dışa aktarma 1.000 kayıt sınırını aşan eski gönderileri de kapsar mı?"
     a: "Evet, çoğu durumda kapsar. Uygulama yalnızca en güncel ~1.000 kaydı gösterirken, yasal veri talebi sunucudaki tüm geçmiş kayıtları çeker."
-ogImage: "https://www.marqly.com/og/reddit-kayitli-gonderileri-disa-aktarma-2026.png"
 ---
 
 Reddit'te kaydettiğiniz gönderileri dışa aktarmanın tek resmi yolu veri talebinde bulunmaktır: **reddit.com/settings/data-request** adresine gidin, tüm hesap geçmişinizi seçin; Reddit birkaç gün içinde `saved_posts.csv` dosyasını içeren bir ZIP bağlantısını mesaj kutunuza iletecektir.

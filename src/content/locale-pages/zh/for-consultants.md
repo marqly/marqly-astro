@@ -19,7 +19,7 @@ faqs:
   - q: "独立顾问的使用成本如何？"
     a: "免费版可存 100 条内容。Pro 方案年付72美元（首年使用 STANDING49 仅需49美元）。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加至 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

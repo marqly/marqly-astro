@@ -13,7 +13,7 @@ tags:
   - "youtube transcriptie"
   - "eightify alternatief"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 lang: "nl"
 faqs:
   - q: "Wat is de beste YouTube AI-samenvatter in 2026?"

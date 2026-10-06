@@ -12,7 +12,7 @@ tags:
   - "organisation automatique favoris"
   - "gestionnaire favoris ia"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Comment l'IA organise-t-elle les favoris automatiquement ?"

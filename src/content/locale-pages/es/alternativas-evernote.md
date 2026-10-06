@@ -25,7 +25,7 @@ faqs:
   - q: "¿Qué pierdo al salir de Evernote?"
     a: "Sobre todo el escaneo de documentos y las notas largas, y también un sin conexión distinto: Evernote baja libretas enteras a todos tus equipos, mientras que Marqly solo guarda sin conexión las páginas marcadas, en Pro y en el dispositivo donde las marcaste (app web o app de iOS)."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prueba Marqly gratis"
+ctaLabel: "Empieza gratis con Marqly"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
 updatedDate: 2026-09-26
 ---

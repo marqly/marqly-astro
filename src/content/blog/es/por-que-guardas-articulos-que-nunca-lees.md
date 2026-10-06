@@ -11,7 +11,7 @@ tags:
   - "productividad"
   - "sobrecarga de informacion"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prueba Marqly gratis"
+ctaLabel: "Empieza gratis con Marqly"
 lang: "es"
 faqs:
   - q: "¿Por qué guardo artículos que luego no leo?"

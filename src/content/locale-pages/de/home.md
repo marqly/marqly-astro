@@ -25,7 +25,7 @@ faqs:
   - q: "Was kann Marqly, das die Lesezeichen im Browser nicht können?"
     a: "Browser-Lesezeichen speichern eine URL und einen Titel. Marqly speichert zusätzlich Zusammenfassung, Tags, deine Markierungen und Notizen – und lässt dich danach suchen, indem du beschreibst, worum es ging. Dazu kommen Tab-Sitzungen, Boards zum Teilen und die KI-Karte auf YouTube."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly kostenlos testen"
+ctaLabel: "Marqly kostenlos starten"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
 updatedDate: 2026-09-26
 ---
@@ -91,4 +91,4 @@ Die kostenlose Stufe verlangt keine Kreditkarte. **Pro kostet 72 $/Jahr (rund 66
 
 Damit du es vor der Installation weißt und nicht danach: Offline-Lesen gibt es nur **auf Pro** (Web-App und iOS, pro Gerät, ohne Sync), es gibt **keine öffentliche API** und **kein Self-Hosting**. Wenn einer dieser Punkte für dich Bedingung ist, spar dir die Einrichtung. Was mit deinen Daten passiert – und was du exportieren kannst – steht in den [Datenschutz-Fragen](/de/datenschutz-fragen).
 
-Wenn dein Ordner „Lesen (wirklich)" gerade beim Lesen zuschaut: Leg ein Konto an, importiere deine Lesezeichen und such beim nächsten Mal einfach nach dem, woran du dich erinnerst. [Marqly kostenlos testen](https://app.marqly.com).
+Wenn dein Ordner „Lesen (wirklich)" gerade beim Lesen zuschaut: Leg ein Konto an, importiere deine Lesezeichen und such beim nächsten Mal einfach nach dem, woran du dich erinnerst. [Marqly kostenlos starten](https://app.marqly.com).

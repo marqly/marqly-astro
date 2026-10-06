@@ -19,7 +19,7 @@ faqs:
   - q: "可以把 Raindrop 数据导入 Marqly 吗？"
     a: "可以。Marqly 提供了针对 Raindrop 的一键导入工具，几分钟内即可无损迁移您的所有链接与收藏。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加至 Chrome — 免费"
 updatedDate: 2026-08-16
 ---

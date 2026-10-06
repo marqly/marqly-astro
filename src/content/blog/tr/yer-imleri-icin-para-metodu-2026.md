@@ -13,7 +13,7 @@ tags:
   - "ikinci beyin"
   - "yer imi organizasyon sistemi"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly’yi Ücretsiz Deneyin"
+ctaLabel: "Marqly’yi Ücretsiz Başlayın"
 lang: "tr"
 faqs:
   - q: "Yer imleri için PARA metodu nedir?"

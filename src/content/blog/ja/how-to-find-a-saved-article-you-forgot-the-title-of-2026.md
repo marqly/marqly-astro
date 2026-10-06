@@ -12,7 +12,7 @@ tags:
   - "セマンティック検索"
   - "ブックマーク 紛失"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqlyを無料で試す"
+ctaLabel: "Marqlyを無料で始める"
 lang: "ja"
 faqs:
   - q: "タイトルを忘れたブックマークをどうやって探せばいいですか？"
@@ -23,7 +23,6 @@ faqs:
     a: "はい。セマンティック検索は不完全な記憶を前提に設計されており、意味的な類似度によって関連ページを上位に並び替えます。"
 heroImage: ../../../assets/blog/how-to-find-a-saved-article-you-forgot-the-title-of.png
 heroAlt: "タイトルを忘れた保存済み記事を見つける方法（2026年最新） — illustration"
-ogImage: "https://www.marqly.com/og/how-to-find-a-saved-article-you-forgot-the-title-of-2026.png"
 ---
 
 保存した記事のタイトルを忘れてしまったときは、キーワードを適当に入力するのをやめ、覚えている内容をひとつの文章として入力してみましょう。AIによるセマンティック（意味）検索は、文字の一致ではなく文章の意味を理解し、保存されたすべての記事の本文と照合します。

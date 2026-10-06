@@ -12,7 +12,7 @@ tags:
   - "limite segnalibri twitter"
   - "backup twitter"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "L'archivio dati di X contiene anche i segnalibri salvati?"
@@ -21,7 +21,6 @@ faqs:
     a: "All'incirca tra gli 800 e i 1.000 più recenti. Gli elementi più datati smettono di caricarsi nella pagina web."
   - q: "Qual è il modo migliore per salvare stabilmente i post di X?"
     a: "Salvarli direttamente in un bookmark manager dedicato come Marqly, che genera tag intelligenti con l'IA e permette la ricerca semantica."
-ogImage: "https://www.marqly.com/og/come-esportare-i-segnalibri-di-twitter-x-2026.png"
 ---
 
 Una spiacevole sorpresa per molti utenti: **l'archivio dati ufficiale di X (Twitter) non include i segnalibri**. Puoi scaricare l'archivio completo con i tuoi post, i mi piace, i messaggi privati e le liste, ma i preziosi thread e gli articoli salvati nel tempo non sono presenti nel pacchetto.

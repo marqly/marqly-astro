@@ -14,7 +14,7 @@ tags:
   - "mymind 評判"
   - "ビジュアルブックマークマネージャー"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqlyを無料で試す"
+ctaLabel: "Marqlyを無料で始める"
 faqs:
   - q: "2026年にmymindを使う価値はありますか？"
     a: "画像や引用、デザインのインスピレーションを保存し、広告のない静かなプライベート空間を求めるビジュアル志向のユーザーには非常に魅力的です。一方、長文記事をテーマ別に検索したい人や永年無料プランを求める人には向きません。"
@@ -52,7 +52,7 @@ Two design decisions define the product. First, **no organizing, ever** — the 
 - **Mastermind-tier AI.** The $12.99/month plan adds AI summaries of saved articles, a reading mode, article backup, PDF analysis, video files up to 500MB, and "Same Vibe."
 - **Privacy by architecture.** Your mind is private, full stop. There's no way to share a board with anyone.
 
-What's *not* here matters too: no in-page highlighter (saving a quote means clipping it, not [highlighting text](/ja/blog/how-to-highlight-text-on-any-website-2026) directly on the live page), no YouTube summaries or transcripts, no public sharing, no team features, and no API.
+What's *not* here matters too: no in-page highlighter (saving a quote means clipping it, not [highlighting text](/blog/how-to-highlight-text-on-any-website) directly on the live page), no YouTube summaries or transcripts, no public sharing, no team features, and no API.
 
 ## 料金プラン（2026年8月検証）
 

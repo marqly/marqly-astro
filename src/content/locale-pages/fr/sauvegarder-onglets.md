@@ -25,7 +25,7 @@ faqs:
   - q: "Faut-il payer pour sauvegarder ses onglets ?"
     a: "Non, l'offre gratuite suffit et ne demande aucune carte bancaire. L'offre Pro coûte 72 $/an (environ 69 €) ou 9 $/mois (environ 8 €), et ajoute notamment le chat avec vos sauvegardes."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — c'est gratuit"
 updatedDate: 2026-09-26
 ---

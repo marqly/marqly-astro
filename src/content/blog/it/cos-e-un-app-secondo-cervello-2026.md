@@ -12,7 +12,7 @@ tags:
   - "costruire un secondo cervello"
   - "gestione conoscenza personale"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Cos'è un'app di secondo cervello?"
@@ -23,7 +23,6 @@ faqs:
     a: "Importando i tuoi link in Marqly: l'intelligenza artificiale li cataloga in automatico con riassunti e tag concettuali."
 heroImage: ../../../assets/blog/what-is-a-second-brain-app.png
 heroAlt: "Cos'è un'app di secondo cervello? (E come crearne uno con i tuoi segnalibri nel 2026) — illustration"
-ogImage: "https://www.marqly.com/og/cos-e-un-app-secondo-cervello-2026.png"
 ---
 
 Ogni giorno leggiamo articoli stimolanti e guide pratiche, ma quando ci troviamo a dover applicare quelle conoscenze, raramente riusciamo a recuperare le fonti.

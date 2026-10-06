@@ -19,7 +19,7 @@ faqs:
   - q: "博士生在有限科研经费下使用成本如何？"
     a: "提供无需绑定信用卡的免费版。Pro 版每年仅需 72 美元（首年使用优惠码 STANDING49 仅需 49 美元）。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

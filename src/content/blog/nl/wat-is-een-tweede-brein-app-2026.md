@@ -12,7 +12,7 @@ tags:
   - "tweede brein bouwen"
   - "persoonlijk kennisbeheer"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 lang: "nl"
 faqs:
   - q: "Wat doet een tweede brein-app?"
@@ -23,7 +23,6 @@ faqs:
     a: "Importeer je bestaande bladwijzers in Marqly: de AI leest de inhoud en maakt alles semantisch doorzoekbaar zonder handmatig sorteerwerk."
 heroImage: ../../../assets/blog/what-is-a-second-brain-app.png
 heroAlt: "Wat is een tweede brein-app? (En hoe je er een bouwt met je bladwijzers in 2026) — illustration"
-ogImage: "https://www.marqly.com/og/wat-is-een-tweede-brein-app-2026.png"
 ---
 
 We lezen dagelijks artikelen, analyses en nuttige handleidingen op internet. Maar zodra je die kennis weken later nodig hebt voor een project, blijkt bijna alles verdwenen.

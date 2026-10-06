@@ -19,7 +19,7 @@ faqs:
   - q: "可以用来整理YouTube公开课或网课吗？"
     a: "可以。Marqly自动提取字幕逐字稿并生成时间戳摘要，让你根据教授讲的一句话迅速定位播放节点。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

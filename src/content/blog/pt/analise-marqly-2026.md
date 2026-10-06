@@ -11,7 +11,7 @@ tags:
   - "marqly recursos"
   - "segundo cerebro ia"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 lang: "pt"
 faqs:
   - q: "O que é o Marqly?"

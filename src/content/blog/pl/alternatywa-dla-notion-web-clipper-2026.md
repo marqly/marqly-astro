@@ -12,7 +12,7 @@ tags:
   - "notion do przeczytania"
   - "menedzer zakladek ai"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Dlaczego Notion Web Clipper nie sprawdza się do czytania artykułów?"
@@ -23,7 +23,6 @@ faqs:
     a: "Tak, to rekomendowany model pracy: Notion służy do pisania i prowadzenia projektów, a Marqly jako zorganizowana baza wiedzy z przeczytanych artykułów."
 heroImage: ../../../assets/blog/notion-web-clipper-alternative.png
 heroAlt: "Najlepsza alternatywa dla Notion Web Clipper do zapisywania i wyszukiwania artykułów (2026) — illustration"
-ogImage: "https://www.marqly.com/og/alternatywa-dla-notion-web-clipper-2026.png"
 ---
 
 Notion to genialne środowisko do zarządzania projektami, notatkami i bazami danych. Jednak próba wykorzystania wtyczki Notion Web Clipper jako aplikacji do czytania na później szybko ujawnia wady: brak czytelnego trybu lektury, brak wyszukiwania semantycznego oraz zaśmiecanie baz danych setkami linków.

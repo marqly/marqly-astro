@@ -25,7 +25,7 @@ faqs:
   - q: "Dá para usar os dois juntos?"
     a: "Dá, e não é raro. Muita gente mantém o arquivo antigo no Raindrop e usa o Marqly para o que é ativo: pesquisa, videoaula e leitura da semana. Como os dois importam e exportam, você não fica preso a nenhum dos lados."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Teste o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-26
 ---
@@ -97,4 +97,4 @@ O Raindrop exporta em HTML e CSV mesmo no plano grátis, e o Marqly tem importa�
 
 Para ver o produto inteiro, comece por [Marqly em português](/pt). Rotinas específicas estão em [salvar para ler depois](/pt/salvar-para-ler-depois), [salvar abas](/pt/salvar-abas) e [marca-texto para sites](/pt/marca-texto-para-sites); quem estuda deve olhar [Marqly para estudantes](/pt/para-estudantes) e [Marqly para concurseiros](/pt/para-concurseiros). Se você está vindo do Pocket, o caminho está nas [alternativas ao Pocket em 2026](/pt/blog/alternativas-ao-pocket-2026), e há mais textos no [blog](/pt/blog).
 
-[Testar o Marqly grátis](https://app.marqly.com) — sem cartão de crédito.
+[Comece grátis com o Marqly](https://app.marqly.com) — sem cartão de crédito.

@@ -19,7 +19,7 @@ faqs:
   - q: "复制的片段可以在多台电脑之间同步吗？"
     a: "本地浏览器记录完全免费。升级到 Marqly Pro（每年72美元，首年优惠码 STANDING49 仅需49美元）可实现跨设备云同步。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

@@ -19,7 +19,7 @@ faqs:
   - q: "Quanto custa usar o Marqly como organizador principal?"
     a: "O plano gratuito é ilimitado em tempo para até 100 itens. O Pro custa 72 $/ano (49 $ no 1º ano com cupom STANDING49) com IA avançada."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-07
 ---

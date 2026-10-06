@@ -21,7 +21,7 @@ faqs:
   - q: "Wat zijn de limieten van het gratis abonnement?"
     a: "Het gratis abonnement biedt ruimte aan maximaal 100 saves. Marqly Pro kost $72/jaar (met coupon STANDING49 slechts $49 in het eerste jaar)."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

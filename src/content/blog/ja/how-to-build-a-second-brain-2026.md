@@ -12,7 +12,7 @@ tags:
   - "PARAメソッド 代替"
   - "ナレッジ管理 AI"
 ctaUrl: "https://app.marqly.com/lp/knowledge-base"
-ctaLabel: "Marqlyを無料で試す"
+ctaLabel: "Marqlyを無料で始める"
 lang: "ja"
 faqs:
   - q: "セカンドブレイン（第二の脳）とは何ですか？"

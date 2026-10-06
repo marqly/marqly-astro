@@ -19,7 +19,7 @@ faqs:
   - q: "Czy historia schowka synchronizuje się między moimi komputerami?"
     a: "Zapis lokalny w przeglądarce jest darmowy. Marqly Pro oferuje bezpieczną synchronizację w chmurze za 72 $/rok."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"
 updatedDate: 2026-09-07
 ---

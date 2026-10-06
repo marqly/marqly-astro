@@ -19,7 +19,7 @@ faqs:
   - q: "Come funziona la chat con il video?"
     a: "La chat risponde a qualsiasi tua domanda estraendo le informazioni direttamente dalla trascrizione. È inclusa nel piano Pro."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-07
 ---

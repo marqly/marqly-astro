@@ -19,7 +19,7 @@ faqs:
   - q: "Eski makalelerimi aktarabilir miyim?"
     a: "Evet, Pocket ve Raindrop dışa aktarma dosyalarını ve tarayıcı HTML yer imi arşivlerini doğrudan Marqly'ye yükleyebilirsiniz."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Deneyin"
+ctaLabel: "Marqly'ye Ücretsiz Başlayın"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

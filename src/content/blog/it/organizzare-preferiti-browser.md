@@ -11,7 +11,7 @@ tags:
   - "esportare preferiti"
   - "gestore di preferiti"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Come organizzo i preferiti di Chrome?"

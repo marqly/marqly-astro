@@ -19,7 +19,7 @@ faqs:
   - q: "Czy moje zakładki będą dostępne poza Firefoksem?"
     a: "Tak. Marqly przechowuje dane na Twoim koncie, zapewniając synchronizację z Chrome, Edge, Safari, iOS i przeglądarką internetową."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"
 updatedDate: 2026-09-07
 ---

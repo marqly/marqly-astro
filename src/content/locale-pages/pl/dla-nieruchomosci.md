@@ -19,7 +19,7 @@ faqs:
   - q: "Czy Marqly zastępuje systemy CRM dla biur nieruchomości?"
     a: "Nie. Marqly służy do codziennego przeglądania sieci: zapisywania ofert z wielu portali, planów zagospodarowania i tworzenia estetycznych zestawień."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"
 updatedDate: 2026-09-07
 ---

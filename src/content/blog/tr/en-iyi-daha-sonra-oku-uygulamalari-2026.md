@@ -12,7 +12,7 @@ tags:
   - "makale kaydetme"
   - "ai okuma"
 ctaUrl: "https://app.marqly.com/lp/replace-pocket"
-ctaLabel: "Marqly'yi Ücretsiz Deneyin"
+ctaLabel: "Marqly'ye Ücretsiz Başlayın"
 lang: "tr"
 faqs:
   - q: "2026'da genel olarak en iyi daha sonra oku uygulaması hangisidir?"
@@ -31,7 +31,7 @@ ogImage: "https://www.marqly.com/og/best-read-it-later-apps-2026.png"
 ### 1. Marqly — Kaydetmek ve anında geri bulmak için en iyisi
 Marqly; temiz, reklamsız okuma görünümü, otomatik yapay zeka özetleri ve **anlamsal arama motoruyla** öne çıkar. Makalenin tam adını hatırlamasanız bile konusunu yazarak hemen bulabilirsiniz.
 - Ücretsiz: 100 yer imine kadar.
-- Pro: Yıllık 72$ (ilk yıl 49$). [Ücretsiz Deneyin →](https://app.marqly.com/lp/replace-pocket)
+- Pro: Yıllık 72$ (ilk yıl 49$). [Ücretsiz Başlayın →](https://app.marqly.com/lp/replace-pocket)
 
 ### 2. Readwise Reader — Akademik araştırmalar için
 Gelişmiş metin vurgulama, spaced repetition ve ikinci beyin entegrasyonları. Aylık 12$.
@@ -54,4 +54,4 @@ Görsel ve linkleri klasör seçtirmeden yapay zekayla otomatik gruplar.
 | Raindrop.io | ❌ | ✅ | ✅ | 3$/ay |
 | Instapaper | ❌ | ✅ | ✅ | 3$/ay |
 
-Kaydettiğiniz bilgilerin kütüphanenizde kaybolmasına izin vermeyin. [Marqly'yi ücretsiz deneyin](https://app.marqly.com/lp/replace-pocket).
+Kaydettiğiniz bilgilerin kütüphanenizde kaybolmasına izin vermeyin. [Marqly'ye ücretsiz başlayın](https://app.marqly.com/lp/replace-pocket).

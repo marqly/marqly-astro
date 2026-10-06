@@ -25,7 +25,7 @@ faqs:
   - q: "Was kostet der Textmarker?"
     a: "Die kostenlose Stufe startet ohne Kreditkarte. Pro kostet 72 $/Jahr (rund 66 €) oder 9 $/Monat (rund 8 €) und schaltet unter anderem den Chat mit deinen Speicherungen frei. Studierende zahlen im ersten Jahr 48 $ (rund 44 €)."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly kostenlos testen"
+ctaLabel: "Marqly kostenlos starten"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
 updatedDate: 2026-09-26
 ---
@@ -88,4 +88,4 @@ Wie sich das gegen einen klassischen Bookmark-Manager schlägt, steht im Verglei
 
 Die kostenlose Stufe braucht keine Kreditkarte. Pro liegt bei **72 $/Jahr (rund 66 €)** oder **9 $/Monat (rund 8 €)**, für Studierende bei **48 $ (rund 44 €) im ersten Jahr**. Ehrlich dazugesagt: Markieren funktioniert nur mit Verbindung; Offline-Lesen gibt es auf Pro – markierte Seiten speicherst du in der Web-App oder iOS-App, auf dem jeweiligen Gerät.
 
-Installier die Erweiterung, markier die nächste Seite, die du liest – und schau in zwei Wochen nach, ob die Stelle noch da ist. [Marqly kostenlos testen](https://app.marqly.com) – mehr Lesestoff im [Blog](/de/blog).
+Installier die Erweiterung, markier die nächste Seite, die du liest – und schau in zwei Wochen nach, ob die Stelle noch da ist. [Marqly kostenlos starten](https://app.marqly.com) – mehr Lesestoff im [Blog](/de/blog).

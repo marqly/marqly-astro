@@ -19,7 +19,7 @@ faqs:
   - q: "Hoe vind ik een artikel terug als ik de titel vergeten ben?"
     a: "Semantisch zoeken herkent de juridische strekking in je opgeslagen teksten en markeringen, zodat een omschrijving van de stelling direct het juiste document oplevert."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

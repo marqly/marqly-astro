@@ -11,7 +11,7 @@ tags:
   - "favoris auto heberges"
   - "karakeep vs marqly"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Karakeep est-il gratuit ?"

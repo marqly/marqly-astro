@@ -23,7 +23,7 @@ faqs:
   - q: "Jak wygląda cennik?"
     a: "Darmowy pakiet pozwala na zapisanie do 100 elementów. Wersja Pro z nielimitowanymi rozmowami AI kosztuje 72 USD rocznie (49 USD z kuponem STANDING49) lub 9 USD miesięcznie."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"
 updatedDate: 2026-09-07
 ---

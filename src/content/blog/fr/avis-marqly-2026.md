@@ -11,7 +11,7 @@ tags:
   - "favoris ia"
   - "second cerveau ia"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Quel est le tarif de Marqly Pro ?"

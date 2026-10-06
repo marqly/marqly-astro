@@ -19,7 +19,7 @@ faqs:
   - q: "Marqly 的剪藏保真度如何？"
     a: "远超 Notion。不仅能精准保留复杂网页排版，在 Chrome 和 Edge 上还支持原生另存为高保真 PDF。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

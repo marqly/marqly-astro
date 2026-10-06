@@ -12,7 +12,7 @@ tags:
   - "zapisywanie filmow na pozniej"
   - "zakladki youtube"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Dlaczego lista 'Do obejrzenia' na YouTube rzadko jest oglądana?"

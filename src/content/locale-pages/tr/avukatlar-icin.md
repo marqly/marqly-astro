@@ -19,7 +19,7 @@ faqs:
   - q: "Başlığı hatırlayamadığımda yalnızca hukuki gerekçeyle arama yapabilir miyim?"
     a: "Evet. Anlamsal arama; başlıkları, metinleri ve vurgularınızı kavramsal olarak tarayarak hatırladığınız hukuki mantıkla tam eşleşen kaynağı ekrana getirir."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Dene"
+ctaLabel: "Marqly'ye Ücretsiz Başla"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

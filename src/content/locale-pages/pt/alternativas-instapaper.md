@@ -25,7 +25,7 @@ faqs:
   - q: "Dá para usar duas ao mesmo tempo?"
     a: "Sim, e é o mais razoável: Instapaper para o que você vai ler de verdade, Marqly como arquivo pesquisável de todo o resto."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Teste o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-26
 ---

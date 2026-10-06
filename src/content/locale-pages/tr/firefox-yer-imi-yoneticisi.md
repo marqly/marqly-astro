@@ -19,7 +19,7 @@ faqs:
   - q: "Kayıtlarım Firefox dışındaki cihazlarda da görünür mü?"
     a: "Evet. Firefox Sync yalnızca diğer Firefox tarayıcılarına ulaşırken, Marqly kayıtlarınızı Chrome, Edge, Safari, iOS ve web ile eşitler."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

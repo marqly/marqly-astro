@@ -14,7 +14,7 @@ tags:
   - "pulizia segnalibri"
   - "minimalismo digitale"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 faqs:
   - q: "Cosa dovrebbe includere una checklist di decluttering digitale?"
     a: "Cinque passaggi prioritari: chiudere le schede aperte (salvando quelle utili), unificare ed eliminare i segnalibri obsoleti, azzerare la coda di lettura, cancellare newsletter e abbonamenti a pagamento inutilizzati e pulire la schermata home del telefono. Infine, impostare un sistema di cattura in un clic."

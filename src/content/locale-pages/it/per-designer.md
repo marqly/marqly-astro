@@ -19,7 +19,7 @@ faqs:
   - q: "Marqly è gratuito per raccogliere idee e reference?"
     a: "Sì, il piano gratuito include fino a 100 preferiti, bacheche ed evidenziatore. Il piano Pro (72 $/anno, 49 $ il primo anno con codice STANDING49) aggiunge l'IA."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-07
 ---

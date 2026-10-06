@@ -11,7 +11,7 @@ tags:
   - "backup favoritos"
   - "migrar favoritos"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Teste o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 lang: "pt"
 faqs:
   - q: "Como exporto os favoritos do Chrome?"

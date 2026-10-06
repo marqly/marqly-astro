@@ -11,7 +11,7 @@ tags:
   - "Pocket 代替"
   - "ブックマーク 移行"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqlyを無料で試す"
+ctaLabel: "Marqlyを無料で始める"
 lang: "ja"
 faqs:
   - q: "Pocketのデータはどうやってエクスポートしますか？"
@@ -42,7 +42,7 @@ MozillaによるPocketの終了を受け、長年蓄積した保存記事を救�
 
 1. [Marqly](https://app.marqly.com) で無料アカウントを作成します。
 2. **設定 → インポート** を開きます。
-3. 保存した `pocket-export.html` をドラッグ＆ドロップします。
+3. エクスポートZIP内の `list.csv` をドラッグ＆ドロップします（`.html` プレビューはMarqlyで読み込めません）。
 4. 数千件の記事でも1〜2分でタグとともに取り込みが完了します。
 
 無料プランで最大100件まで保存可能。Proプランは年額$72（年払い時月額$6、または月額$9）で、クーポン「STANDING49」（初年度$49）が適用できます。

@@ -19,7 +19,7 @@ faqs:
   - q: "Evernote'u bırakınca neler eksilir?"
     a: "Fiziksel belge tarama OCR'ı ve çok sayfalı zengin metin düzenleme."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Deneyin"
+ctaLabel: "Marqly'ye Ücretsiz Başlayın"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

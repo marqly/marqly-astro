@@ -19,7 +19,7 @@ faqs:
   - q: "Ile kosztuje Marqly dla doradców?"
     a: "Darmowy plan do 100 zakładek. Pro za 72 $/rok (49 $ z kodem STANDING49)."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"
 updatedDate: 2026-09-07
 ---

@@ -19,7 +19,7 @@ faqs:
   - q: "Kan ik mijn bladwijzers overzetten van Raindrop naar Marqly?"
     a: "Ja. Marqly heeft een directe importfunctie voor Raindrop waarmee je je hele archief binnen enkele minuten overzet."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-08-16
 ---

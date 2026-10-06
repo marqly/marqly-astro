@@ -25,7 +25,7 @@ faqs:
   - q: "O que eu perco ao sair do Evernote?"
     a: "Principalmente a digitalização de documentos e as notas longas, e um offline bem diferente: o Evernote baixa cadernos inteiros em todos os aparelhos, e o Marqly só guarda no dispositivo as páginas marcadas, no Pro, pelo app web ou pelo app de iOS."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Teste o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-26
 ---

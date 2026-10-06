@@ -19,7 +19,7 @@ faqs:
   - q: "İşe alım yöneticisine üyelik istemeden piyasa araştırması gönderebilir miyim?"
     a: "Evet. Bir pano oluşturup herkese açık bağlantı paylaşabilirsiniz. İlgili yönetici hesap açmadan panoyu tarayıcısından inceler."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Dene"
+ctaLabel: "Marqly'ye Ücretsiz Başla"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

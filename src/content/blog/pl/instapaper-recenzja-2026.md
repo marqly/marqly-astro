@@ -11,7 +11,7 @@ tags:
   - "czytnik artykułów"
   - "instapaper vs marqly"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Czy Instapaper ma darmową wyszukiwarkę?"

@@ -12,7 +12,7 @@ tags:
   - "backup youtube"
   - "salvare video youtube"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Google Takeout esporta la playlist Guarda più tardi?"
@@ -21,7 +21,6 @@ faqs:
     a: "Spostando i video importanti in una playlist normale o salvandoli in batch in un gestore di segnalibri avanzato come Marqly."
   - q: "Perché vedo elementi come [Video privato] o [Video rimosso]?"
     a: "Quando un canale elimina o oscura un video, YouTube conserva la riga vuota eliminando titolo e canale, rendendo impossibile rintracciarlo."
-ogImage: "https://www.marqly.com/og/come-esportare-guarda-piu-tardi-di-youtube-2026.png"
 ---
 
 Molti utenti rimangono spiazzati: **Google Takeout non esporta la playlist «Guarda più tardi» di YouTube**. Anche richiedendo il backup completo del proprio profilo YouTube, le uniche playlist incluse nel pacchetto CSV sono quelle create manualmente dall'utente.

@@ -19,7 +19,7 @@ faqs:
   - q: "Blijven markeringen op de originele pagina staan?"
     a: "Ja, ze blijven zichtbaar wanneer je de website opnieuw bezoekt en synchroniseren met je bibliotheek."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

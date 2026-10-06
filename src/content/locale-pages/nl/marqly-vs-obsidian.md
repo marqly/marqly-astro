@@ -21,7 +21,7 @@ faqs:
   - q: "Slaat Marqly data lokaal op?"
     a: "Nee, Marqly is een cloudgebaseerde tool. Als lokale gegevensopslag een harde eis is, is Obsidian de aangewezen keuze."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

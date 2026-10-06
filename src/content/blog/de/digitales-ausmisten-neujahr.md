@@ -14,7 +14,7 @@ tags:
   - "lesezeichen aufraeumen"
   - "digitaler minimalismus"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly kostenlos testen"
+ctaLabel: "Marqly kostenlos starten"
 faqs:
   - q: "Was gehört auf eine Checkliste fürs digitale Ausmisten?"
     a: "Fünf Durchgänge nach Priorität: Offene Tabs schließen (wichtige vorher sichern), Lesezeichen zusammenführen und ausmisten, Lesestau radikal bereinigen, ungenutzte Abos und Newsletter kündigen und den Smartphone-Startbildschirm aufräumen. Abschließend ein schnelles Erfassungssystem installieren."

@@ -12,7 +12,7 @@ tags:
   - "notion daha sonra oku"
   - "yapay zeka yer imi yoneticisi"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 lang: "tr"
 faqs:
   - q: "Notion Web Clipper makale okumak için neden elverişli değil?"
@@ -23,7 +23,6 @@ faqs:
     a: "Evet, en verimli yöntem budur: Notion'ı yazma ve projeleriniz için kullanırken, Marqly'yi webden okuduklarınızı toplayıp anında aramak için kullanabilirsiniz."
 heroImage: ../../../assets/blog/notion-web-clipper-alternative.png
 heroAlt: "Makaleleri Kaydetmek ve Bulmak İçin En İyi Notion Web Clipper Alternatifi (2026) — illustration"
-ogImage: "https://www.marqly.com/og/notion-web-clipper-alternatifi-2026.png"
 ---
 
 Notion proje yönetimi, dokümantasyon ve ekip notları için mükemmel bir araçtır. Ancak Web Clipper eklentisiyle Notion'ı bir 'daha sonra oku' servisi gibi kullanmak kısa sürede sınırlarına ulaşır: okuma modu yoktur, yapay zeka destekli anlamsal arama bulunmaz ve yüzlerce bağlantı gerçek iş veritabanlarınızı doldurur.

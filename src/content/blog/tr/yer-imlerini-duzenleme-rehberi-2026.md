@@ -12,7 +12,7 @@ tags:
   - "yer imi temizleme"
   - "ikinci beyin"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Deneyin"
+ctaLabel: "Marqly'ye Ücretsiz Başlayın"
 lang: "tr"
 faqs:
   - q: "2026'da yer imlerini organize etmenin en iyi yolu nedir?"

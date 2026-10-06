@@ -12,7 +12,7 @@ tags:
   - "ikinci beyin uygulamasi"
   - "yapay zeka bilgi yonetimi"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 lang: "tr"
 faqs:
   - q: "Yapay zekalı ikinci beyin tam olarak nedir?"
@@ -23,7 +23,6 @@ faqs:
     a: "Evet. Not uygulamaları kişisel yazılarınız için idealken, yapay zekalı ikinci beyin internetten topladığınız okumaları kaybetmeden bulmanızı sağlar."
 heroImage: ../../../assets/blog/what-is-an-ai-second-brain.png
 heroAlt: "Yapay Zeka Destekli İkinci Beyin Nedir? Sade ve Anlaşılır Rehber (2026) — illustration"
-ogImage: "https://www.marqly.com/og/yapay-zeka-ikinci-beyin-nedir-2026.png"
 ---
 
 Yapay zeka destekli ikinci beyin, internette kaydettiğiniz tüm makaleleri, yer imlerini, videoları ve notları bir araya getiren ve yapay zekayı kullanarak bunları otomatik olarak düzenleyen, özetleyen ve anlamına göre aranabilir kılan **kişisel bir bilgi merkezidir**.

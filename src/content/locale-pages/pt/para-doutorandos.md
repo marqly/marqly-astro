@@ -19,7 +19,7 @@ faqs:
   - q: "Quanto custa o Marqly para quem tem bolsa de pós-graduação?"
     a: "Plano gratuito sem cartão para montar seu acervo. O Pro custa 72 $/ano (49 $ no primeiro ano com cupom STANDING49)."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-07
 ---

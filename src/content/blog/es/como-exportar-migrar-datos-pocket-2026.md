@@ -11,7 +11,7 @@ tags:
   - "alternativas a pocket"
   - "importar marcadores pocket"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probar Marqly gratis"
+ctaLabel: "Empieza gratis con Marqly"
 lang: "es"
 faqs:
   - q: "¿Cómo descargo mi copia de seguridad de Pocket?"
@@ -52,7 +52,7 @@ El importador de Marqly procesa miles de enlaces en cuestión de segundos:
 
 1. Crea tu cuenta gratuita en [Marqly](https://app.marqly.com).
 2. Ve a **Ajustes → Importar** (o selecciona el asistente de bienvenida).
-3. Arrastra tu archivo `pocket-export.html` directamente a la pantalla.
+3. Abre el ZIP y arrastra el archivo `list.csv` directamente a la pantalla (Marqly no importa el `.html` de vista previa, sino el `list.csv`).
 4. El sistema conservará tus títulos, URLs originales y etiquetas temáticas, comenzando a indexar el contenido para búsqueda semántica.
 
 El plan gratuito de Marqly admite hasta 100 elementos. Si cuentas con un archivo masivo de lecturas, Marqly Pro ofrece almacenamiento ilimitado por 72 $/año (6 $/mes anual o 9 $/mes mensual) con el código `STANDING49` (49 $ el primer año).

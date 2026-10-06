@@ -21,7 +21,7 @@ faqs:
   - q: "Kun je beide combineren?"
     a: "Ja. Verzamel webbronnen, markeringen en videotranscripties snel in Marqly, en gebruik Notion voor het uitwerken van definitieve projectplannen en documenten."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

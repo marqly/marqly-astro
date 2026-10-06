@@ -19,7 +19,7 @@ faqs:
   - q: "Ile kosztuje Marqly dla twórców i kuratorów?"
     a: "Darmowy plan do 100 zapisów bez podawania karty. Wersja Pro za 72 $/rok (49 $ w pierwszym roku z kuponem STANDING49)."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"
 updatedDate: 2026-09-07
 ---

@@ -12,7 +12,7 @@ tags:
   - "videos opslaan voor later app"
   - "youtube bladwijzers"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 lang: "nl"
 faqs:
   - q: "Waarom bekijken mensen hun 'Later bekijken'-lijst op YouTube zelden?"

@@ -15,7 +15,7 @@ tags:
   - "weava alternatifi"
   - "glasp karsilastirmasi"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Deneyin"
+ctaLabel: "Marqly'ye Ücretsiz Başlayın"
 lang: "tr"
 faqs:
   - q: "2026 yılında en iyi web metin vurgulayıcı hangisidir?"

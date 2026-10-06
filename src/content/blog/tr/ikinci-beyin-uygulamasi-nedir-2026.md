@@ -12,7 +12,7 @@ tags:
   - "ikinci beyin olusturma"
   - "kisisel bilgi yonetimi"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 lang: "tr"
 faqs:
   - q: "İkinci beyin uygulaması ne işe yarar?"
@@ -23,7 +23,6 @@ faqs:
     a: "Mevcut yer imlerinizi Marqly'ye içe aktararak: yapay zeka her sayfayı okur, özetler ve anlamsal olarak aratılabilir hale getirir."
 heroImage: ../../../assets/blog/what-is-a-second-brain-app.png
 heroAlt: "İkinci Beyin Uygulaması Nedir? (Yer İmlerinizle Kolayca Oluşturma Rehberi, 2026) — illustration"
-ogImage: "https://www.marqly.com/og/ikinci-beyin-uygulamasi-nedir-2026.png"
 ---
 
 Sürekli webde geziniyor, harika analizler ve rehberler okuyorsunuz. Ancak bir iş üretirken bu bilgileri hatırlamaya çalıştığınızda zihniniz boş kalıyorsa bir dış belleğe ihtiyacınız var demektir.

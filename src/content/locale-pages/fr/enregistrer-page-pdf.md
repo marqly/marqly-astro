@@ -19,7 +19,7 @@ faqs:
   - q: "Où est archivé le PDF généré ?"
     a: "Il s'intègre automatiquement à votre bibliothèque Marqly, étiqueté par l'IA et trouvable par recherche sémantique."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-07
 ---

@@ -14,7 +14,7 @@ tags:
   - "organizar favoritos"
   - "minimalismo digital"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 faqs:
   - q: "O que um checklist de limpeza digital deve incluir?"
     a: "Cinco passos prioritários: fechar abas abertas (salvando as importantes), consolidar e podar favoritos, declarar falência na lista de ler depois, cancelar newsletters e assinaturas não utilizadas, e organizar a tela do celular. Por fim, instalar um sistema de captura rápido."

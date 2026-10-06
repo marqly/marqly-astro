@@ -25,7 +25,7 @@ faqs:
   - q: "Kann man zwei parallel nutzen?"
     a: "Ja, und das ist am vernünftigsten: Instapaper für das, was du wirklich liest, Marqly als durchsuchbares Archiv für alles andere."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly kostenlos testen"
+ctaLabel: "Marqly kostenlos starten"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
 updatedDate: 2026-09-26
 ---

@@ -25,7 +25,7 @@ faqs:
   - q: "Gibt es kostenlose Alternativen?"
     a: "Ja. Marqly hat eine kostenlose Stufe ohne Karte, und Obsidians Clipper ist gratis, wenn du lokale Dateien bevorzugst."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly kostenlos testen"
+ctaLabel: "Marqly kostenlos starten"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
 updatedDate: 2026-09-26
 ---

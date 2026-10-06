@@ -11,7 +11,7 @@ tags:
   - "raindrop vs marqly"
   - "gestionnaire favoris"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Raindrop.io est-il gratuit ?"

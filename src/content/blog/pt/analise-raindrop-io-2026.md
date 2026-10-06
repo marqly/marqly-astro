@@ -11,7 +11,7 @@ tags:
   - "raindrop vs marqly"
   - "gerenciador de favoritos"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 lang: "pt"
 faqs:
   - q: "O Raindrop.io vale a pena?"

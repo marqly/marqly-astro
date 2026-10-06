@@ -13,7 +13,7 @@ tags:
   - "transcription youtube"
   - "alternative eightify"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Quel est le meilleur outil IA pour résumer des vidéos YouTube en 2026 ?"

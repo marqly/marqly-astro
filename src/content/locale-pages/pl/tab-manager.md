@@ -21,7 +21,7 @@ faqs:
   - q: "Ile to kosztuje?"
     a: "Plan darmowy pozwala zapisać do 100 elementów. Wersja Pro z nielimitowanymi funkcjami kosztuje 72 USD/rok (49 USD z kuponem STANDING49) lub 9 USD/miesiąc."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"
 updatedDate: 2026-09-07
 ---

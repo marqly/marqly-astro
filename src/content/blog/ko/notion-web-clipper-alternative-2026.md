@@ -23,7 +23,6 @@ faqs:
     a: "네, 많은 전문가들이 그렇게 사용합니다. 노션은 문서 작성과 프로젝트 관리에 전념하게 두고, 아티클 수집과 검색은 Marqly에 맡겨 워크스페이스를 깔끔하게 유지합니다."
 heroImage: ../../../assets/blog/notion-web-clipper-alternative.png
 heroAlt: "2026년 최적의 노션 웹 클리퍼(Notion Web Clipper) 대체 도구 — illustration"
-ogImage: "https://www.marqly.com/og/notion-web-clipper-alternative-2026.png"
 ---
 
 노션(Notion)은 문서 작성과 프로젝트 관리에 최고의 툴입니다. 하지만 웹 클리퍼를 이용해 읽을거리들을 노션으로 모으다 보면 곧 한계에 부딪힙니다. 깔끔한 읽기 모드가 없어 눈이 피로하고, 내용 기반의 스마트 검색이 지원되지 않으며, 작업 데이터베이스가 수많은 링크로 지저분해지기 때문입니다.

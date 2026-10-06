@@ -19,7 +19,7 @@ faqs:
   - q: "Serve un piano a pagamento per sincronizzare più computer?"
     a: "No, la sincronizzazione multi-browser e iOS è pienamente inclusa nell'offerta gratuita."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-07
 ---

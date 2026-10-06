@@ -12,7 +12,7 @@ tags:
   - "sauvegarde youtube"
   - "enregistrer videos youtube"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Google Takeout exporte-t-il la liste «À regarder plus tard» ?"
@@ -21,7 +21,6 @@ faqs:
     a: "En ajoutant les vidéos essentielles dans une playlist ordinaire ou en enregistrant vos onglets par lots dans un gestionnaire comme Marqly."
   - q: "Pourquoi certains éléments s'affichent-ils comme [Vidéo privée] ?"
     a: "Lorsqu'un créateur supprime ou rend privée une vidéo, YouTube supprime le titre et le contenu, rendant impossible toute recherche ultérieure."
-ogImage: "https://www.marqly.com/og/comment-exporter-a-regarder-plus-tard-youtube-2026.png"
 ---
 
 C'est une déconvenue fréquente pour les internautes : **Google Takeout n'inclut pas votre liste «À regarder plus tard» dans ses exports**. L'outil officiel de Google permet de récupérer vos playlists classiques en CSV, mais ignore totalement cette playlist système pourtant essentielle.

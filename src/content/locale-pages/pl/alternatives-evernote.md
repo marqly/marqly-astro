@@ -19,7 +19,7 @@ faqs:
   - q: "Co tracę przy rezygnacji z Evernote?"
     a: "Skanowanie dokumentów papierowych z OCR oraz rozbudowane formatowanie notatek."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"
 updatedDate: 2026-09-07
 ---

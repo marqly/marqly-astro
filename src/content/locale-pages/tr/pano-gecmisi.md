@@ -19,7 +19,7 @@ faqs:
   - q: "Kopyalanan içerikler bilgisayarlarım arasında eşitlenir mi?"
     a: "Tarayıcı içi yerel kayıt ücretsizdir. Marqly Pro, bilgisayarlar arası bulut eşitlemesini yıllık 72 dolara sunar."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Dene"
+ctaLabel: "Marqly'ye Ücretsiz Başla"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

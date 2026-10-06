@@ -19,7 +19,7 @@ faqs:
   - q: "Vervangt Marqly een makelaarspakket zoals Realworks?"
     a: "Nee. Marqly organiseert het open web: portalen, bestemmingsplannen, schoolratings en referentieprijzen als visueel archief."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

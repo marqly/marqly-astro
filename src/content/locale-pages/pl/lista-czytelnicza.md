@@ -21,7 +21,7 @@ faqs:
   - q: "Czy długie filmy z YouTube też można dodawać do listy?"
     a: "Oczywiście. Do każdego zapisanego filmu dołączane jest streszczenie AI i transkrypcja, więc nie musisz oglądać całego nagrania, by poznać jego treść."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"
 updatedDate: 2026-09-26
 ---

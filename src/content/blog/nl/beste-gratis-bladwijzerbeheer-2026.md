@@ -16,7 +16,7 @@ tags:
   - "karakeep"
   - "browser bladwijzers"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 lang: "nl"
 faqs:
   - q: "Wat is de beste gratis bookmark manager in 2026?"

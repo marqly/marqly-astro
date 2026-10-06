@@ -12,7 +12,7 @@ tags:
   - "anlamsal arama yer imi"
   - "ai ikinci beyin"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "Marqly'yi Ücretsiz Deneyin"
+ctaLabel: "Marqly'ye Ücretsiz Başlayın"
 lang: "tr"
 faqs:
   - q: "Gerçek bir yapay zekalı yer imi yöneticisi neler yapabilmelidir?"
@@ -37,7 +37,7 @@ Modern bir **yapay zeka yer imi yöneticisi**, internet bağlantılarını yaln�
 ### 1. Marqly — Anlamsal aramada tartışmasız lider
 Marqly, kaydedilen hiçbir bilginin unutulmaması için geliştirilmiştir. Web makalelerini, altyazılı YouTube videolarını depolar ve tüm arşivinizle yapay zeka üzerinden sohbet etmenizi sağlar.
 - Ücretsiz plan: 100 yer imine kadar tüm kütüphanede arama.
-- Pro plan: Yıllık 72$ (ilk yıl 49$) veya aylık 9$. [Ücretsiz Deneyin →](https://app.marqly.com/lp/ai-search)
+- Pro plan: Yıllık 72$ (ilk yıl 49$) veya aylık 9$. [Ücretsiz Başlayın →](https://app.marqly.com/lp/ai-search)
 
 ### 2. Readwise Reader — Akademik okuma ve vurgulama için
 PDF'ler, bültenler ve kitaplar için derinlemesine not alma desteği.
@@ -51,4 +51,4 @@ Makaleleri sesli kitaba dönüştürerek dinleme kolaylığı sağlar.
 ### 5. Raindrop.io (Pro etiket önerileri)
 Geleneksel klasör yapısını Pro sürümünde etiket önerileriyle destekler.
 
-[Marqly'yi hemen ücretsiz deneyin](https://app.marqly.com/lp/ai-search) ve dijital arşivinizi gerçek bir ikinci beyne dönüştürün.
+[Marqly'yi hemen ücretsiz başlayın](https://app.marqly.com/lp/ai-search) ve dijital arşivinizi gerçek bir ikinci beyne dönüştürün.

@@ -12,7 +12,7 @@ tags:
   - "limite salvati reddit"
   - "backup reddit"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Come richiedo l'esportazione dei miei post salvati su Reddit?"
@@ -21,7 +21,6 @@ faqs:
     a: "Soltanto due colonne: l'ID del post e il relativo permalink. Non sono inclusi titoli, subreddit o date di salvataggio."
   - q: "L'archivio include anche i salvataggi oltre il limite di 1.000 elementi?"
     a: "Sì, nella maggior parte dei casi. Mentre l'interfaccia si ferma a circa 1.000 post recenti, l'estrazione GDPR accede al database storico completo."
-ogImage: "https://www.marqly.com/og/come-esportare-i-post-salvati-di-reddit-2026.png"
 ---
 
 L'unico modo ufficiale per esportare i post salvati su Reddit è inviare una richiesta formale di accesso ai dati personali: vai su **reddit.com/settings/data-request**, seleziona la cronologia completa del tuo account e riceverai un archivio ZIP contenente `saved_posts.csv`.

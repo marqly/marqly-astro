@@ -19,7 +19,7 @@ faqs:
   - q: "Czy mogę przenieść kolekcje z Raindrop do Marqly?"
     a: "Tak, Marqly oferuje dedykowany importer z Raindrop, który przenosi zakładki i foldery w kilka minut."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"
 updatedDate: 2026-08-16
 ---

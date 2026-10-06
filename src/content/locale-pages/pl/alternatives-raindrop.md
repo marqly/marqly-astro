@@ -17,7 +17,7 @@ faqs:
   - q: "Czy Marqly obsługuje import kolekcji z Raindrop?"
     a: "Tak. Wystarczy wyeksportować plik z Raindrop i wgrać go do Marqly — zakładki, foldery i tagi zostaną bezbłędnie zaimportowane."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"
 updatedDate: 2026-08-16
 ---
@@ -37,4 +37,4 @@ W Raindrop musisz pamiętać dokładny tytuł lub własnoręcznie nadany tag. Je
 ## 3. Potrzebujesz prawdziwych narzędzi AI
 Raindrop nie tworzy podsumowań artykułów ani nie radzi sobie z wideo. Marqly generuje automatyczne streszczenia i pozwala przeszukiwać treść filmów na YouTube dzięki transkrypcjom.
 
-[Wypróbuj Marqly za darmo](https://app.marqly.com)
+[Rozpocznij za darmo z Marqly](https://app.marqly.com)

@@ -11,7 +11,7 @@ tags:
   - "archiwizacja stron"
   - "linkwarden vs marqly"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Czy Linkwarden zabezpiecza przed usunięciem strony?"

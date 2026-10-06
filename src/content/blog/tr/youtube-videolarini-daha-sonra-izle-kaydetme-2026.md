@@ -12,7 +12,7 @@ tags:
   - "sonra izle video kaydetme"
   - "youtube yer imleri"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "Marqly’yi Ücretsiz Deneyin"
+ctaLabel: "Marqly’yi Ücretsiz Başlayın"
 lang: "tr"
 faqs:
   - q: "YouTube 'Daha sonra izle' listesindeki videolar neden izlenmez?"

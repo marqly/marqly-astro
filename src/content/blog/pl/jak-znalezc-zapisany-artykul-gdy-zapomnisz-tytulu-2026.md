@@ -12,7 +12,7 @@ tags:
   - "semantyczne wyszukiwanie zakladek"
   - "zagubiona zakladka"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Jak znaleźć zakładkę, jeśli nie pamiętam dokładnego tytułu?"
@@ -23,7 +23,6 @@ faqs:
     a: "Tak, wyszukiwanie semantyczne zostało stworzone właśnie dla niepełnych wspomnień i porządkuje strony według pokrewieństwa tematycznego."
 heroImage: ../../../assets/blog/how-to-find-a-saved-article-you-forgot-the-title-of.png
 heroAlt: "Jak znaleźć zapisany artykuł, gdy zapomnisz tytułu w 2026 roku — illustration"
-ogImage: "https://www.marqly.com/og/jak-znalezc-zapisany-artykul-gdy-zapomnisz-tytulu-2026.png"
 ---
 
 Aby odnaleźć zapisany artykuł, którego tytułu nie pamiętasz, przestań zgadywać przypadkowe słowa kluczowe i opisz to, co pamiętasz, w jednym pełnym zdaniu. Wyszukiwanie semantyczne zasilane przez sztuczną inteligencję analizuje sens Twojego zapytania i porównuje go z całą treścią każdej zachowanej strony.

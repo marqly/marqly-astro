@@ -13,7 +13,7 @@ tags:
   - "trop donglets ouverts"
   - "sauvegarder onglets"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Quel est le meilleur gestionnaire d'onglets en 2026 ?"

@@ -52,7 +52,7 @@ Two design decisions define the product. First, **no organizing, ever** — the 
 - **Mastermind-tier AI.** The $12.99/month plan adds AI summaries of saved articles, a reading mode, article backup, PDF analysis, video files up to 500MB, and "Same Vibe."
 - **Privacy by architecture.** Your mind is private, full stop. There's no way to share a board with anyone.
 
-What's *not* here matters too: no in-page highlighter (saving a quote means clipping it, not [highlighting text](/zh/blog/how-to-highlight-text-on-any-website-2026) directly on the live page), no YouTube summaries or transcripts, no public sharing, no team features, and no API.
+What's *not* here matters too: no in-page highlighter (saving a quote means clipping it, not [highlighting text](/blog/how-to-highlight-text-on-any-website) directly on the live page), no YouTube summaries or transcripts, no public sharing, no team features, and no API.
 
 ## 价格方案（2026年8月核实）
 

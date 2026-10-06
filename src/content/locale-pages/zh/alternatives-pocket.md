@@ -19,7 +19,7 @@ faqs:
   - q: "有免费的替代工具吗？"
     a: "Marqly与Raindrop.io均提供永久免费版本。Marqly免费版支持保存多达100条链接，Pro版年付72美元（首年优惠码 STANDING49 为49美元）。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

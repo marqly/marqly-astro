@@ -21,7 +21,7 @@ faqs:
   - q: "长视频也能加入阅读列表吗？"
     a: "可以。收藏 YouTube 视频时会同步抓取 AI 摘要与文字稿，无需耗费几十分钟观看即可提炼要点。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-26
 ---

@@ -12,7 +12,7 @@ tags:
   - "artikelen bewaren"
   - "ai leesapp"
 ctaUrl: "https://app.marqly.com/lp/replace-pocket"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 lang: "nl"
 faqs:
   - q: "Wat is over het algemeen de beste later-lezen-app in 2026?"
@@ -73,4 +73,4 @@ Slaat pagina's direct op in je bestaande Notion-tabellen.
 | Matter | ◑ | ✅ | ✅ | ◑ | ca. $8/mnd |
 | Wallabag | ❌ | ✅ | ✅ | ✅ (zelf hosten) | — |
 
-Kies niet voor de app die het snelst opslaat, maar voor de app **waarmee je die ene pagina over drie maanden ook echt weer terugvindt**. [Probeer Marqly gratis](https://app.marqly.com/lp/replace-pocket) en ontdek het gemak van semantisch zoeken.
+Kies niet voor de app die het snelst opslaat, maar voor de app **waarmee je die ene pagina over drie maanden ook echt weer terugvindt**. [Gratis aan de slag met Marqly](https://app.marqly.com/lp/replace-pocket) en ontdek het gemak van semantisch zoeken.

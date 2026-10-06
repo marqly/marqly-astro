@@ -11,7 +11,7 @@ tags:
   - "marqly vs raindrop"
   - "segundo cerebro ia"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 lang: "pt"
 faqs:
   - q: "O que é busca semântica em gerenciadores de favoritos?"

@@ -12,7 +12,7 @@ tags:
   - "limite salvos reddit"
   - "backup reddit"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Experimentar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 lang: "pt"
 faqs:
   - q: "Como exporto meus posts salvos do Reddit?"
@@ -21,7 +21,6 @@ faqs:
     a: "Apenas duas colunas: o ID do post e o link permanente (permalink). Não há títulos, nomes de subreddits ou datas."
   - q: "A exportação recupera posts além do limite de 1.000 itens?"
     a: "Sim, na maioria das vezes. Enquanto o app só exibe os 1.000 mais recentes, o relatório de dados busca registros históricos completos no servidor."
-ogImage: "https://www.marqly.com/og/como-exportar-posts-salvos-do-reddit-2026.png"
 ---
 
 A única forma oficial de exportar seus posts salvos do Reddit é fazendo uma solicitação de dados: acesse **reddit.com/settings/data-request**, selecione o histórico completo da sua conta e o Reddit gerará um arquivo ZIP contendo `saved_posts.csv`.

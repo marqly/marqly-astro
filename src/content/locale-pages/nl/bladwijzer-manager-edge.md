@@ -19,7 +19,7 @@ faqs:
   - q: "Synchroniseren mijn saves ook buiten Edge?"
     a: "Ja. Je Marqly-bibliotheek synchroniseert met Chrome, Firefox, Safari, iOS en de browser via internet."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly gratis proberen"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

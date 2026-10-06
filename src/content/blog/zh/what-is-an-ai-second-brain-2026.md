@@ -23,7 +23,6 @@ faqs:
     a: "非常需要。笔记软件适合输出和写作，而AI第二大脑专注解决外部海量文章“存了找不到、看了记不住”的信息摄入痛点。"
 heroImage: ../../../assets/blog/what-is-an-ai-second-brain.png
 heroAlt: "什么是 AI 第二大脑？通俗易懂的完整指南（2026最新） — illustration"
-ogImage: "https://www.marqly.com/og/what-is-an-ai-second-brain-2026.png"
 ---
 
 AI 第二大脑是一个个人专属的知识中枢，它不仅完整收集你保存的深度文章、书签、视频与灵感片段，更通过人工智能自动完成打标、摘要提炼与概念索引。

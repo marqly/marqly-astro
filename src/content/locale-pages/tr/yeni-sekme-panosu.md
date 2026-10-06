@@ -19,7 +19,7 @@ faqs:
   - q: "Mevcut yeni sekme sayfamın yerini alır mı?"
     a: "Evet. Uzantıyı kurup Marqly Home'u etkinleştirdiğinizde, her yeni sekme açılışında notlarınız, görevleriniz ve kısayollarınızla dolu özel panonuz karşınıza çıkar."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

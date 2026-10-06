@@ -12,7 +12,7 @@ tags:
   - "pastas de favoritos"
   - "parar de organizar favoritos"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Experimentar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 lang: "pt"
 faqs:
   - q: "É possível organizar favoritos sem usar pastas?"

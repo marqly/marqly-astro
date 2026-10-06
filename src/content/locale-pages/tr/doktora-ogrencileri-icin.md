@@ -19,7 +19,7 @@ faqs:
   - q: "Doktora öğrencisi bütçesi için Marqly ücreti nedir?"
     a: "Kredi kartı istemeyen ücretsiz planla başlayabilirsiniz. Pro sürüm yıllık 72 dolardır (STANDING49 koduyla ilk yıl 49 dolar)."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Dene"
+ctaLabel: "Marqly'ye Ücretsiz Başla"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

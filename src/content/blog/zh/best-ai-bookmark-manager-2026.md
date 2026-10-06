@@ -12,7 +12,7 @@ tags:
   - "语义搜索书签"
   - "ai 第二大脑"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 lang: "zh"
 faqs:
   - q: "真正的 AI 书签管理器应该具备哪些能力？"
@@ -51,4 +51,4 @@ Marqly 围绕语义检索从底层设计，支持网页文章、带有逐字稿�
 ### 5. Raindrop.io（Pro 版标签推荐）
 老牌优秀书签工具，Pro 版本提供基础的标签推荐功能。
 
-别再花时间整理注定会荒废的文件夹了。[立即免费体验 Marqly](https://app.marqly.com/lp/ai-search)。
+别再花时间整理注定会荒废的文件夹了。[立即免费开始使用 Marqly](https://app.marqly.com/lp/ai-search)。

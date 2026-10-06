@@ -13,7 +13,7 @@ tags:
   - "te veel tabbladen"
   - "tabbladen opslaan"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 lang: "nl"
 faqs:
   - q: "Wat is de beste tabbladbeheerder in 2026?"

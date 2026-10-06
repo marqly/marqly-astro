@@ -25,7 +25,7 @@ faqs:
   - q: "Si possono usare due strumenti insieme?"
     a: "Sì, ed è la scelta più sensata: Instapaper per ciò che leggerai davvero, Marqly come archivio consultabile per tutto il resto."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-26
 ---

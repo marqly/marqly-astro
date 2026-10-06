@@ -25,7 +25,7 @@ faqs:
   - q: "Entrambi importano il mio export di Pocket?"
     a: "Sì, entrambi leggono il CSV dell'export di Pocket, purché tu l'abbia scaricato prima di ottobre 2025."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-26
 ---

@@ -3,7 +3,7 @@ lang: "zh"
 path: "/zh"
 title: "AI 智能书签管理器与知识检索库"
 seoTitle: "Marqly — AI 书签管理器 | 智能分类，按记忆检索"
-description: "Marqly 是一款由 AI 驱动的新一代书签管理器。一键保存、自动智能打标、按记忆描述即可找回网页的语义搜索。免费体验，无需信用卡。"
+description: "Marqly 是一款由 AI 驱动的新一代书签管理器。一键保存、自动智能打标、按记忆描述即可找回网页的语义搜索。免费开始使用，无需信用卡。"
 eyebrow: "Marqly 简体中文版"
 hero:
   heading: "收藏谁都会。Marqly 让你真正找得到。"
@@ -23,7 +23,7 @@ faqs:
   - q: "相比浏览器自带书签，Marqly 强在哪里？"
     a: "传统浏览器书签只记录 URL 和标题，容易沦为无法检索的链接坟场。Marqly 会提取正文摘要、自动打标、索引划线高亮与个人批注，并支持自然语言搜索，即便完全遗忘标题也能按内容含义瞬间定位。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-08-16
 ---

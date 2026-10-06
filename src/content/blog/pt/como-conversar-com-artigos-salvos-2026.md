@@ -12,7 +12,7 @@ tags:
   - "respostas ia favoritos"
   - "segundo cerebro ia"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Experimentar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 lang: "pt"
 faqs:
   - q: "É possível conversar com os artigos e links que salvei?"
@@ -23,7 +23,6 @@ faqs:
     a: "Não. A IA analisa o conteúdo integral por você, facilitando extrair aprendizados de artigos longos que estavam na sua lista de espera."
 heroImage: ../../../assets/blog/how-to-chat-with-your-saved-articles.png
 heroAlt: "Como conversar com seus artigos salvos e favoritos em 2026 — illustration"
-ogImage: "https://www.marqly.com/og/como-conversar-com-artigos-salvos-2026.png"
 ---
 
 Conversar com seus artigos salvos significa fazer perguntas em tom de conversa e obter respostas inteligentes formuladas a partir dos seus próprios links, anotações e leituras.

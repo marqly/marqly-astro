@@ -19,7 +19,7 @@ faqs:
   - q: "Marqly 是类似看板的求职投递进度追踪器吗？"
     a: "不是。Marqly 不跟踪投递状态，它专注于投递前后的深度调研层：保存职位JD、薪酬讨论帖和面试复盘笔记。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

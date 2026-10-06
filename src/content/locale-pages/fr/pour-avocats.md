@@ -19,7 +19,7 @@ faqs:
   - q: "Comment retrouver une analyse sans en connaître le titre exact ?"
     a: "La recherche sémantique compare le sens de votre requête avec le texte et vos surlignages, retrouvant l'article même avec des termes différents."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-07
 ---

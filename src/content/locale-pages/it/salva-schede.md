@@ -25,7 +25,7 @@ faqs:
   - q: "Quanto costa?"
     a: "Il piano gratuito è senza carta e basta per salvare schede e sessioni. Pro costa 72 $/anno (circa 69 €) oppure 9 $/mese (circa 8 €), e serve soprattutto per la chat con i tuoi salvataggi."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — è gratis"
 updatedDate: 2026-09-26
 ---

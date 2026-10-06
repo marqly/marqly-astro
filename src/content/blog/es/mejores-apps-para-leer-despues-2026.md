@@ -12,7 +12,7 @@ tags:
   - "read it later 2026"
   - "apps de lectura diferida"
 ctaUrl: "https://app.marqly.com/lp/replace-pocket"
-ctaLabel: "Prueba Marqly gratis"
+ctaLabel: "Empieza gratis con Marqly"
 lang: "es"
 faqs:
   - q: "¿Cuál es la mejor app para leer después en 2026?"
@@ -90,7 +90,7 @@ Envía páginas web directamente a tus bases de datos en Notion. Sin lector tipo
 
 No te preguntes «¿qué app guarda páginas más rápido?»: todas lo hacen en un segundo. La pregunta clave es: **«¿qué aplicación me permitirá encontrar dentro de cuatro meses aquel artículo del que solo recuerdo una idea general?»**. Ahí es donde la mayoría fracasa y donde la búsqueda con IA marca una diferencia abrumadora.
 
-[Prueba Marqly gratis](https://app.marqly.com/lp/replace-pocket), importa tu historial de lectura y empieza a buscar por significado. Sin tarjeta de crédito y hasta 100 marcadores gratis.
+[Empieza gratis con Marqly](https://app.marqly.com/lp/replace-pocket), importa tu historial de lectura y empieza a buscar por significado. Sin tarjeta de crédito y hasta 100 marcadores gratis.
 
 ---
 

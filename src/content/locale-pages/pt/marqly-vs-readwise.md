@@ -25,7 +25,7 @@ faqs:
   - q: "Quanto custa o Marqly?"
     a: "Plano grátis sem cartão, e Pro por 9 USD/mês ou 72 USD/ano. Estudantes verificados pagam 48 USD no primeiro ano."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Teste o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-26
 ---
@@ -94,4 +94,4 @@ Conte quantas horas por semana você realmente lê numa fila de leitura.
 - Se forem várias e você trabalha com os destaques depois, o Readwise Reader vale os 119,88 USD e o Marqly vai te parecer pouco em leitura.
 - Se você salva muito mais do que lê, e o que te irrita é não achar aquilo que viu em março, você está pagando por uma sala de leitura quando precisa de um buscador.
 
-Teste o Marqly grátis e sem cartão em [app.marqly.com](https://app.marqly.com). Se vem do Pocket, veja [as alternativas ao Pocket](/pt/alternativas/pocket); se compara com opções mais baratas, [Marqly vs Raindrop](/pt/comparar/marqly-vs-raindrop).
+Comece grátis com o Marqly e sem cartão em [app.marqly.com](https://app.marqly.com). Se vem do Pocket, veja [as alternativas ao Pocket](/pt/alternativas/pocket); se compara com opções mais baratas, [Marqly vs Raindrop](/pt/comparar/marqly-vs-raindrop).

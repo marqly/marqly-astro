@@ -21,7 +21,6 @@ faqs:
     a: "仅包含两列数据：帖子ID和对应链接（Permalink）。没有帖子标题、板块名称（Subreddit）或保存日期。"
   - q: "导出的数据是否包含超过1000条上限的旧收藏？"
     a: "绝大多数情况下包含。虽然客户端前端只能往回滚动展示约1000条，但基于数据合规的官方导出抓取的是后端全量数据库。"
-ogImage: "https://www.marqly.com/og/export-reddit-saved-posts-2026.png"
 ---
 
 导出 Reddit 收藏内容的唯一官方渠道是通过提交个人数据访问请求：在电脑浏览器打开 **reddit.com/settings/data-request**，选择全账户历史记录（Full account history），Reddit 就会在几天内将包含 `saved_posts.csv` 的 ZIP 压缩包发送给你。

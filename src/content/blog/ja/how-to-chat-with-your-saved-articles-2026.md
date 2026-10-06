@@ -12,7 +12,7 @@ tags:
   - "AIブックマーク回答"
   - "AIセカンドブレイン"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqlyを無料で試す"
+ctaLabel: "Marqlyを無料で始める"
 lang: "ja"
 faqs:
   - q: "保存した記事やブックマークと対話できますか？"
@@ -23,7 +23,6 @@ faqs:
     a: "いいえ。AIが記事本文を読み解いて質問に答えるため、「あとで読もう」とため込んだ長文記事の要点を素早く把握するのにも役立ちます。"
 heroImage: ../../../assets/blog/how-to-chat-with-your-saved-articles.png
 heroAlt: "保存した記事やブックマークとAIで対話（チャット）する方法【2026年最新】 — illustration"
-ogImage: "https://www.marqly.com/og/how-to-chat-with-your-saved-articles-2026.png"
 ---
 
 保存した記事と対話する（チャットする）とは、普段の日本語で問いかけるだけで、Web全体ではなく**「自分が保存したブックマークやメモの中身だけ」を根拠にAIが回答してくれる**機能のことです。

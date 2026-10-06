@@ -11,7 +11,7 @@ tags:
   - "bladwijzers herstellen"
   - "chrome sync fix"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 lang: "nl"
 faqs:
   - q: "Waarom synchroniseert Chrome mijn bladwijzers plots niet meer?"

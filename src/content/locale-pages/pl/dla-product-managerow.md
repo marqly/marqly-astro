@@ -19,7 +19,7 @@ faqs:
   - q: "Jak pomaga wyszukiwanie semantyczne?"
     a: "Umożliwia przeszukiwanie według intencji koncepcyjnej, np. 'jak konkurenci wyceniają plany na użytkownika'."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"
 updatedDate: 2026-09-07
 ---

@@ -19,7 +19,7 @@ faqs:
   - q: "两者可以配合使用吗？"
     a: "非常适合。把计划戴耳机收听的文章存入 Matter，而把技术资料、研究参考和视频讲座存入 Marqly 充当智库。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

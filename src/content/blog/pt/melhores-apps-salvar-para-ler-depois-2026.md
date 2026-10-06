@@ -12,7 +12,7 @@ tags:
   - "read it later 2026"
   - "gerenciador leitura ia"
 ctaUrl: "https://app.marqly.com/lp/replace-pocket"
-ctaLabel: "Teste o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 lang: "pt"
 faqs:
   - q: "Qual é o melhor app para salvar e ler depois em 2026?"
@@ -90,7 +90,7 @@ Salva links diretamente em tabelas e bases de dados do Notion. Não tem leitor t
 
 Não se pergunte «qual app salva artigos mais rápido?»: todos salvam em um piscar de olhos. A pergunta essencial é: **«qual aplicativo vai me permitir encontrar daqui a quatro meses aquela matéria da qual só lembro de forma vaga?»**. É nesse ponto que as ferramentas tradicionais travam, e é aí que a busca semântica com IA faz toda a diferença.
 
-[Teste o Marqly grátis](https://app.marqly.com/lp/replace-pocket), importe sua biblioteca de leitura e comece a pesquisar por significado. Até 100 favoritos gratuitos, sem pedir cartão de crédito.
+[Comece grátis com o Marqly](https://app.marqly.com/lp/replace-pocket), importe sua biblioteca de leitura e comece a pesquisar por significado. Até 100 favoritos gratuitos, sem pedir cartão de crédito.
 
 ---
 

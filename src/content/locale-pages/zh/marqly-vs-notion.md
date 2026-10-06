@@ -21,7 +21,7 @@ faqs:
   - q: "两者可以搭配使用吗？"
     a: "非常推荐。用 Marqly 承担快速收集、浏览高亮与视频文字稿提取，在 Notion 中撰写最终的项目文档与汇总报告。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

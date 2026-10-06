@@ -19,7 +19,7 @@ faqs:
   - q: "Quanto costa Marqly per consulenti?"
     a: "Gratis fino a 100 salvataggi. Pro a 72 $/anno (49 $ il primo anno con codice STANDING49)."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-07
 ---

@@ -12,7 +12,7 @@ tags:
   - "salvare video per dopo"
   - "segnalibri youtube"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Perché i video di 'Guarda più tardi' su YouTube non vengono mai guardati?"

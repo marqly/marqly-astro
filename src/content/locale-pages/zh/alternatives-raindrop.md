@@ -17,7 +17,7 @@ faqs:
   - q: "Marqly 可以直接导入 Raindrop 数据吗？"
     a: "可以。Marqly 支持一键解析导入 Raindrop 的导出文件，自动保留标签并生成 AI 智能摘要。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加至 Chrome — 免费"
 updatedDate: 2026-08-16
 ---
@@ -37,4 +37,4 @@ Raindrop 只匹配你写过的标签或标题字面。半年后你只记得“�
 ## 痛点 3：缺少对视频和长文的 AI 提炼
 Raindrop 不支持内容摘要和视频处理。Marqly 能在 YouTube 播放页面直接提供 AI 总结、对话提问并保存带时间戳的字幕文本。
 
-[立即免费体验 Marqly](https://app.marqly.com)
+[立即免费开始使用 Marqly](https://app.marqly.com)

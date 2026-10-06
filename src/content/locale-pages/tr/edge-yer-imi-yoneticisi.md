@@ -19,7 +19,7 @@ faqs:
   - q: "Kayıtlarım Edge dışındaki tarayıcılarda da görünür mü?"
     a: "Evet. Marqly kütüphaneniz Chrome, Firefox, Safari, iOS ve web ile kesintisiz eşitlenir."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

@@ -13,7 +13,7 @@ tags:
   - "troppe schede aperte"
   - "salvare schede chrome"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Qual è il miglior gestore di schede nel 2026?"

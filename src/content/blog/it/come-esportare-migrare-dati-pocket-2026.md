@@ -11,7 +11,7 @@ tags:
   - "alternative pocket"
   - "importare segnalibri pocket"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Come si esportano gli articoli da Pocket?"
@@ -42,7 +42,7 @@ Ecco come recuperare la tua collezione e spostarla su una piattaforma dotata di 
 
 1. Registrati gratuitamente su [Marqly](https://app.marqly.com).
 2. Vai su **Impostazioni → Importa**.
-3. Trascina il file `pocket-export.html`.
+3. Apri lo ZIP e trascina il file `list.csv` (l'anteprima `.html` non è importabile in Marqly).
 4. In pochi secondi tutti i tuoi salvataggi saranno sincronizzati.
 
 Il piano gratuito include fino a 100 elementi; la versione Pro costa 72 $/anno (6 $/mese annuale o 9 $/mese) con codice `STANDING49` (49 $ per il primo anno).

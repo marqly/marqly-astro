@@ -19,7 +19,7 @@ faqs:
   - q: "Quanto custa o Marqly para criadores e curadores?"
     a: "Plano grátis até 100 itens sem cartão de crédito. Pro por 72 $/ano (49 $ no primeiro ano com cupom STANDING49) com recursos completos de IA."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-07
 ---

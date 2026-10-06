@@ -19,7 +19,7 @@ faqs:
   - q: "Is Marqly gratis te gebruiken voor ontwerpers?"
     a: "Ja, met het gratis plan bewaar je tot 100 links met borden en markeerstift. Pro ($ 72/jaar of $ 49 eerste jaar met actiecode STANDING49) voegt AI-labels en semantisch zoeken toe."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

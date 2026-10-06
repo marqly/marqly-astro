@@ -25,7 +25,7 @@ faqs:
   - q: "Was kostet Marqly?"
     a: "Kostenlose Stufe ohne Karte, Pro kostet 9 $ (rund 8 €) im Monat oder 72 $ (rund 66 €) im Jahr. Verifizierte Studierende zahlen im ersten Jahr 48 $ (rund 44 €)."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly kostenlos testen"
+ctaLabel: "Marqly kostenlos starten"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
 updatedDate: 2026-09-26
 ---

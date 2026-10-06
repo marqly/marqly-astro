@@ -21,7 +21,7 @@ faqs:
   - q: "Is Marqly geschikt voor gezamenlijk teamonderzoek?"
     a: "Je kunt borden delen als een openbare webpagina zonder dat anderen hoeven in te loggen; die is alleen leesbaar. Voor samen bewerken in teamverband is er Marqly Teams."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

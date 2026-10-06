@@ -12,7 +12,7 @@ tags:
   - "application read it later"
   - "gestionnaire lecture ia"
 ctaUrl: "https://app.marqly.com/lp/replace-pocket"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Quelle est la meilleure application de lecture différée en 2026 ?"

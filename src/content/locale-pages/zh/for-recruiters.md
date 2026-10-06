@@ -19,7 +19,7 @@ faqs:
   - q: "能否把人才市场调研报告直接分享给用人部门负责人？"
     a: "可以。把岗位调研整理到公开画板，生成分享链接。业务部门主管无需注册账号即可在浏览器中一览无余。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

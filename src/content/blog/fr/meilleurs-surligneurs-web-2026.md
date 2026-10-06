@@ -15,7 +15,7 @@ tags:
   - "extension surligneur web"
   - "alternative weava"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Quel est le meilleur surligneur web en 2026 ?"

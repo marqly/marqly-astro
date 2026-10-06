@@ -19,7 +19,7 @@ faqs:
   - q: "Come accedo ai miei link da un PC Windows al lavoro?"
     a: "I preferiti di Marqly vivono nel tuo account cloud: apri la web app su Windows o usa l'estensione per Chrome/Edge per trovare tutto ciò che hai salvato in Safari."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-07
 ---

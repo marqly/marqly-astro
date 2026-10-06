@@ -23,7 +23,6 @@ faqs:
     a: "把浏览器或稍后读里的书签文件导入Marqly，AI会自动对文章全文进行概念分析和打标，让庞杂的书签瞬间变成可搜索的知识库。"
 heroImage: ../../../assets/blog/what-is-a-second-brain-app.png
 heroAlt: "什么是第二大脑应用？（以及如何在2026年用书签轻松构建它） — illustration"
-ogImage: "https://www.marqly.com/og/what-is-a-second-brain-app-2026.png"
 ---
 
 你每天都在浏览大量优质的技术解析、行业洞察与设计案例。但当你在实际工作中需要用到某项参考时，往往只能对着空白的搜索框叹气。

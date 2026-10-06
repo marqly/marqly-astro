@@ -16,7 +16,7 @@ tags:
   - "karakeep"
   - "zakladki przegladarki"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Jaki jest najlepszy darmowy menedżer zakładek w 2026 roku?"

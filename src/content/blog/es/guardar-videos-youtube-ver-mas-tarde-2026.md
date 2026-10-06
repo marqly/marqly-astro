@@ -12,7 +12,7 @@ tags:
   - "guardar videos para despues"
   - "marcar videos youtube"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "Probar Marqly gratis"
+ctaLabel: "Empieza gratis con Marqly"
 lang: "es"
 faqs:
   - q: "¿Por qué nunca vemos los videos de 'Ver más tarde' en YouTube?"

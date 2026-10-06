@@ -14,7 +14,7 @@ tags:
   - "limpiar marcadores"
   - "minimalismo digital"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probar Marqly gratis"
+ctaLabel: "Empieza gratis con Marqly"
 faqs:
   - q: "¿Qué debe incluir una lista de depuración digital?"
     a: "Cinco fases ordenadas por impacto: cerrar pestañas abiertas (guardando antes las que importan), consolidar y podar marcadores, declarar bancarrota en lecturas pendientes, cancelar suscripciones de pago y boletines no leídos, y limpiar la pantalla de inicio del móvil. Y finalmente, instalar un sistema de captura para que el desorden no vuelva."

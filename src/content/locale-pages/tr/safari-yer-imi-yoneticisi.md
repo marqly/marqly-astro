@@ -19,7 +19,7 @@ faqs:
   - q: "İş yerinde Windows bilgisayar kullanıyorsam ne olur?"
     a: "Marqly'nin en güçlü yönü budur. iCloud kısıtlamalarına takılmadan, Windows üzerinde Chrome, Edge veya web uygulamasıyla Safari kayıtlarınıza ulaşırsınız."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

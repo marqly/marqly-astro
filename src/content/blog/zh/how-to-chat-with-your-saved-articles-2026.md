@@ -23,7 +23,6 @@ faqs:
     a: "不需要。AI会自动阅读并理解全文，这正是清理“稍后读”积压文章、快速提取核心观点的最佳手段。"
 heroImage: ../../../assets/blog/how-to-chat-with-your-saved-articles.png
 heroAlt: "2026年如何与你保存的文章和书签对话（AI问答完整指南） — illustration"
-ogImage: "https://www.marqly.com/og/how-to-chat-with-your-saved-articles-2026.png"
 ---
 
 与保存的文章对话，意味着你可以直接用自然语言提问，并获得由**你自己收藏的书签、文章和笔记**所支撑的专属 AI 解答，而不是去全网大海捞针。

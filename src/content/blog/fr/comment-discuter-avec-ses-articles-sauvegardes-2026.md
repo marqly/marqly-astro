@@ -12,7 +12,7 @@ tags:
   - "reponse ia favoris"
   - "second cerveau ia"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Est-il possible de discuter avec ses favoris et articles sauvegardés ?"
@@ -23,7 +23,6 @@ faqs:
     a: "Non. L'IA analyse le texte intégral à votre place, ce qui permet de valoriser facilement de longues lectures en attente."
 heroImage: ../../../assets/blog/how-to-chat-with-your-saved-articles.png
 heroAlt: "Comment discuter avec ses articles sauvegardés et ses favoris en 2026 — illustration"
-ogImage: "https://www.marqly.com/og/comment-discuter-avec-ses-articles-sauvegardes-2026.png"
 ---
 
 Discuter avec vos articles sauvegardés vous permet de poser des questions en langage naturel et de recevoir des réponses étayées, générées à partir de votre bibliothèque personnelle de favoris et de notes.

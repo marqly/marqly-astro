@@ -25,7 +25,7 @@ faqs:
   - q: "Posso usarli entrambi?"
     a: "Sì. Matter per ciò che ascolterai o leggerai con calma, Marqly come archivio consultabile per tutto il resto."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-26
 ---
@@ -94,4 +94,4 @@ La domanda è cosa fai di ciò che salvi.
 
 Un dettaglio pratico: se scegli Matter, **abbonati sul web, non dall'App Store**. Sono 60 $ contro 79,99 $ l'anno per la stessa cosa.
 
-Prova Marqly gratis e senza carta su [app.marqly.com](https://app.marqly.com). Se arrivi da Pocket, parti da [le alternative a Pocket](/it/alternative/pocket).
+Inizia gratis con Marqly e senza carta su [app.marqly.com](https://app.marqly.com). Se arrivi da Pocket, parti da [le alternative a Pocket](/it/alternative/pocket).

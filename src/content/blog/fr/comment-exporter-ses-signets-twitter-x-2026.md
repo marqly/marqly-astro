@@ -12,7 +12,7 @@ tags:
   - "limite signets twitter"
   - "sauvegarde twitter"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "L'archive officielle de données de X contient-elle les signets ?"
@@ -21,7 +21,6 @@ faqs:
     a: "En pratique, environ 800 à 1 000 signets récents. Au-delà, l'interface cesse de faire défiler les anciens éléments."
   - q: "Comment conserver ses signets Twitter de manière pérenne ?"
     a: "En enregistrant directement les tweets importants dans un gestionnaire indépendant comme Marqly, qui indexe le contenu et le rend consultable par le sens."
-ogImage: "https://www.marqly.com/og/comment-exporter-ses-signets-twitter-x-2026.png"
 ---
 
 Voici la réalité décevante : **l'archive officielle de données de X (Twitter) n'inclut pas vos signets**. Vous pouvez télécharger vos posts, vos likes, vos messages privés et vos listes, mais les centaines de ressources et d'idées que vous avez marquées au fil des ans sont purement et simplement ignorées.

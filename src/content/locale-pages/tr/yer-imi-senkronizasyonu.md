@@ -19,7 +19,7 @@ faqs:
   - q: "Birden fazla bilgisayarda eşitleme yapmak ücretli mi?"
     a: "Hayır. Tarayıcılar ve cihazlar arası senkronizasyon ücretsiz planda tamamen kullanılabilir durumdadır."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Dene"
+ctaLabel: "Marqly'ye Ücretsiz Başla"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

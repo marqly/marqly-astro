@@ -19,7 +19,7 @@ faqs:
   - q: "Quel est le coût de Marqly avec un budget de recherche ?"
     a: "Offre gratuite sans carte bancaire. Pro à 72 $/an (49 $ la première année avec le code STANDING49)."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-07
 ---

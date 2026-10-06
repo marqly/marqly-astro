@@ -25,7 +25,7 @@ faqs:
   - q: "Os dois importam meu export do Pocket?"
     a: "Sim, os dois leem o CSV do export do Pocket, desde que você tenha baixado antes de outubro de 2025."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Teste o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-26
 ---

@@ -14,7 +14,7 @@ tags:
   - "lohnt sich mymind"
   - "visueller lesezeichen manager"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly kostenlos testen"
+ctaLabel: "Marqly kostenlos starten"
 faqs:
   - q: "Lohnt sich mymind im Jahr 2026?"
     a: "mymind lohnt sich für visuelle Denker, Designer und Kreative, die Bilder, Zitate und Inspirationen ohne manuelle Ordner ablegen möchten. Für textlastige Artikelarchive oder Nutzer, die einen dauerhaft kostenlosen Tarif suchen, ist es weniger geeignet."

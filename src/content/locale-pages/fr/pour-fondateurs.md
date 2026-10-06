@@ -19,7 +19,7 @@ faqs:
   - q: "Combien coûte Marqly pour une startup en amorçage ?"
     a: "Gratuit jusqu'à 100 éléments. Le plan Pro à 72 $/an (ou 49 $ la 1re année avec coupon STANDING49) débloque toute l'IA."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-07
 ---

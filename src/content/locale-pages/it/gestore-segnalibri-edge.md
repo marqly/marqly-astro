@@ -19,7 +19,7 @@ faqs:
   - q: "I segnalibri si sincronizzano anche su altri browser?"
     a: "Certamente. Marqly sincronizza il tuo archivio con Chrome, Firefox, Safari, l'app iOS e la piattaforma web."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-07
 ---

@@ -19,7 +19,7 @@ faqs:
   - q: "Czy mogę streszczać nagrania wykładów?"
     a: "Jeśli wykład znajduje się na YouTube, Marqly wygeneruje automatyczne streszczenie i transkrypcję z sygnaturami czasowymi."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"
 updatedDate: 2026-09-07
 ---

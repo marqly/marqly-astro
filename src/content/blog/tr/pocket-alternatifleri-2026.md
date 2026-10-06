@@ -12,7 +12,7 @@ tags:
   - "yer imi yoneticisi 2026"
   - "pocket gecis"
 ctaUrl: "https://app.marqly.com/lp/replace-pocket"
-ctaLabel: "Marqly'yi Ücretsiz Deneyin"
+ctaLabel: "Marqly'ye Ücretsiz Başlayın"
 lang: "tr"
 faqs:
   - q: "2026'da Pocket için en iyi genel alternatif hangisidir?"
@@ -64,4 +64,4 @@ Sayfaları doğrudan Notion veritabanlarınıza aktarır.
 2. [Marqly](https://app.marqly.com)'ye giriş yapıp **İçe Aktar** sekmesini açın.
 3. Dosyayı yükleyin; bağlantılarınız saniyeler içinde kütüphanenize eklensin.
 
-[Marqly'yi ücretsiz deneyin →](https://app.marqly.com/lp/replace-pocket)
+[Marqly'ye ücretsiz başlayın →](https://app.marqly.com/lp/replace-pocket)

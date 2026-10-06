@@ -19,7 +19,7 @@ faqs:
   - q: "Kan ik mijn swipe file delen met klanten zonder login?"
     a: "Ja. Bundel voorbeelden in een board en deel de openbare link. Klanten bekijken je referenties zonder dat ze een account hoeven aan te maken."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

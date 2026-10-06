@@ -19,7 +19,7 @@ faqs:
   - q: "Wat is het voordeel van semantisch zoeken?"
     a: "Zoeken op betekenis vindt concepten zoals 'prijzen per seat bij concurrenten' zonder exacte titelmatches."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

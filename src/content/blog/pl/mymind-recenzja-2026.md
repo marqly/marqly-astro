@@ -14,7 +14,7 @@ tags:
   - "czy warto kupic mymind"
   - "wizualny menedzer zakladek"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 faqs:
   - q: "Czy warto korzystać z mymind w 2026 roku?"
     a: "mymind jest warty uwagi, jeśli jesteś myślicielem wizualnym, projektantem lub twórcą gromadzącym grafiki, cytaty i inspiracje w prywatnej przestrzeni wolnej od reklam. Jest słabszym wyborem, jeśli gromadzisz długie artykuły tekstowe lub zależy Ci na stałym darmowym planie."

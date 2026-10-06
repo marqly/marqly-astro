@@ -19,7 +19,7 @@ faqs:
   - q: "Marqly 是否会替代 Zotero 或 EndNote 等引文管理软件？"
     a: "不会。Marqly 不负责格式化参考文献或导出 BibTeX。它解决的是引文管理之前更广泛的阅读阶段：网络文献收集、深度划线、AI 摘要速读以及基于语义概念的模糊寻回。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

@@ -19,7 +19,7 @@ faqs:
   - q: "Wat raak je kwijt bij het verlaten van Evernote?"
     a: "Met name het scannen van fysieke documenten en OCR op afbeeldingen."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

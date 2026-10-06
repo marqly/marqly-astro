@@ -23,7 +23,7 @@ faqs:
   - q: "Ile kosztuje Marqly?"
     a: "Darmowy pakiet pozwala na zapisanie do 100 elementów. Wersja Pro kosztuje 72 USD rocznie (49 USD w pierwszym roku z kodem STANDING49) lub 9 USD miesięcznie."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"
 updatedDate: 2026-09-07
 ---

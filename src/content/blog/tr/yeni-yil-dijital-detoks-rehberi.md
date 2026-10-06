@@ -14,7 +14,7 @@ tags:
   - "yer imi temizleme"
   - "dijital minimalizm"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 faqs:
   - q: "Bir dijital temizlik kontrol listesi neleri içermelidir?"
     a: "En yüksek fayda sırasına göre beş aşama: açık sekmeleri kapatmak (önemlileri kaydederek), yer imlerini birleştirip ayıklamak, okunacaklar listesini hafifletmek, gereksiz abonelik ve bültenleri iptal etmek ve telefon ekranını sadeleştirmek. Son olarak karmaşanın tekrarlamasını önleyecek tek tıkla kaydetme sistemi kurmak."

@@ -19,7 +19,7 @@ faqs:
   - q: "O halde Marqly'nin rolü nedir?"
     a: "Reader bir 'okuma kuyruğu'dur; Marqly ise 'yapay zekalı bilgi kütüphanesi'dir. Yüksek abonelik ücreti ödemeden internette gördüğünüz her şeyi kaydeder ve semantik aramayla anında bulmanızı sağlar."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Deneyin"
+ctaLabel: "Marqly'ye Ücretsiz Başlayın"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

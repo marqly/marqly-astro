@@ -12,7 +12,7 @@ tags:
   - "limit zakladek twitter"
   - "kopia zapasowa twitter"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Czy oficjalne archiwum danych X zawiera zapisane zakładki?"
@@ -21,7 +21,6 @@ faqs:
     a: "W praktyce około 800 do 1 000 najnowszych pozycji. Starsze wpisy przestają się ładować podczas przewijania strony."
   - q: "Jaki jest najbezpieczniejszy sposób na przechowywanie zakładek z X?"
     a: "Zapisywanie wartościowych wątków bezpośrednio w zewnętrznym menedżerze zakładek takim jak Marqly za pomocą rozszerzenia do przeglądarki."
-ogImage: "https://www.marqly.com/og/jak-wyeksportowac-zakladki-z-twittera-x-2026.png"
 ---
 
 Fakt, który zaskakuje większość użytkowników: **oficjalne archiwum danych X (Twittera) nie zawiera Twoich zakładek**. Pobierana paczka ZIP zawiera wpisy, polubienia i wiadomości prywatne, ale gromadzone przez lata cenne linki zostają całkowicie pominięte.

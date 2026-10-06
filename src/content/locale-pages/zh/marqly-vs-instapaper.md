@@ -19,7 +19,7 @@ faqs:
   - q: "两者的价格是多少？"
     a: "Instapaper Premium 订阅费用为每月 $5.99 或每年 $59.99。Marqly Pro 年费为 $72（使用优惠码 STANDING49 首年仅需 $49），并提供 100 条免费额度。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-26
 ---

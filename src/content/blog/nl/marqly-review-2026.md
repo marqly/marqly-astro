@@ -11,7 +11,7 @@ tags:
   - "ai bladwijzerbeheer"
   - "tweede brein"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 lang: "nl"
 faqs:
   - q: "Wat kost Marqly?"

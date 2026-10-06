@@ -25,7 +25,7 @@ faqs:
   - q: "Peut-on utiliser les deux ?"
     a: "Oui, et c'est courant pendant une phase d'essai. Raindrop reste l'armoire de rangement bien tenue, Marqly sert de mémoire cherchable pour ce que vous lisez au quotidien. Les deux importent depuis un fichier HTML de favoris, donc rien n'est irréversible."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — c'est gratuit"
 updatedDate: 2026-09-26
 ---

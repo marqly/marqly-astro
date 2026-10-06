@@ -12,7 +12,7 @@ tags:
   - "twitter bladwijzer limiet"
   - "twitter data export"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 lang: "nl"
 faqs:
   - q: "Zitten bladwijzers in het officiële gegevensarchief van X?"
@@ -21,7 +21,6 @@ faqs:
     a: "In de praktijk ongeveer je recentste 800 tot 1.000 items. Oudere bewaarde tweets laden niet meer in de interface."
   - q: "Wat is de veiligste manier om waardevolle tweets te bewaren?"
     a: "Sla ze direct op in een onafhankelijke bladwijzermanager zoals Marqly met één klik via de browserextensie, inclusief automatische AI-labels en semantisch zoeken."
-ogImage: "https://www.marqly.com/og/twitter-x-bladwijzers-exporteren-2026.png"
 ---
 
 Veel gebruikers ontdekken het pas als het te laat is: **het officiële gegevensarchief van X (Twitter) bevat jouw bladwijzers niet**. Je kunt je eigen posts, likes, privégesprekken en volgerslijsten downloaden, maar de waardevolle verzameling artikelen en threads die je door de jaren heen hebt gemarkeerd, ontbreekt volledig.

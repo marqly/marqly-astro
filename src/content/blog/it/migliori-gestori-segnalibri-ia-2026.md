@@ -12,7 +12,7 @@ tags:
   - "ricerca semantica segnalibri"
   - "secondo cervello ai"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Cosa dovrebbe fare un vero gestore di segnalibri con AI?"

@@ -12,7 +12,7 @@ tags:
   - "read it later 2026"
   - "gestore lettura ai"
 ctaUrl: "https://app.marqly.com/lp/replace-pocket"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Qual è la migliore app per leggere dopo nel 2026?"
@@ -90,7 +90,7 @@ Invia le pagine web direttamente alle tabelle e ai database di Notion. Non offre
 
 Non chiederti «quale app salva le pagine più rapidamente?»: lo fanno tutte all'istante. La vera domanda è: **«quale app mi permetterà di ritrovare tra sei mesi quell'articolo di cui ricordo a malapena il concetto generale?»**. È qui che le app tradizionali si bloccano, ed è qui che la ricerca semantica con AI fa la differenza.
 
-[Prova Marqly gratis](https://app.marqly.com/lp/replace-pocket), importa la tua coda di lettura e cerca per significato. Fino a 100 segnalibri gratis, senza inserire la carta di credito.
+[Inizia gratis con Marqly](https://app.marqly.com/lp/replace-pocket), importa la tua coda di lettura e cerca per significato. Fino a 100 segnalibri gratis, senza inserire la carta di credito.
 
 ---
 

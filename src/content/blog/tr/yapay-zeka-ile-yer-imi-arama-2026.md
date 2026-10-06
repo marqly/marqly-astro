@@ -12,7 +12,7 @@ tags:
   - "dogal dil ile yer imi bulma"
   - "anlama gore yer imi arama"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly’yi Ücretsiz Deneyin"
+ctaLabel: "Marqly’yi Ücretsiz Başlayın"
 lang: "tr"
 faqs:
   - q: "Anlamsal (semantik) yer imi araması nedir?"

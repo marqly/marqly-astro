@@ -12,7 +12,7 @@ tags:
   - "notion later lezen"
   - "ai bladwijzer manager"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 lang: "nl"
 faqs:
   - q: "Waarom is Notion Web Clipper minder geschikt voor artikelen?"
@@ -23,7 +23,6 @@ faqs:
     a: "Zeker, dat is zelfs de sterkste workflow: gebruik Notion voor projecten en notities, en Marqly voor het vangen, lezen en terugvinden van webcontent."
 heroImage: ../../../assets/blog/notion-web-clipper-alternative.png
 heroAlt: "Het beste Notion Web Clipper alternatief voor het opslaan en terugvinden van artikelen (2026) — illustration"
-ogImage: "https://www.marqly.com/og/notion-web-clipper-alternatief-2026.png"
 ---
 
 Notion is geweldig voor projecten, documenten en team-wiki's. Wie Notion echter probeert in te zetten als 'later lezen'-systeem via de Web Clipper, merkt snel de beperkingen: geen echte leesweergave, geen semantische AI-zoekfunctie en databases die snel vervuild raken met honderden losse links.

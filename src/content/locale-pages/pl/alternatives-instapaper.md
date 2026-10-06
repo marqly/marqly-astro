@@ -19,7 +19,7 @@ faqs:
   - q: "Czy mogę łatwo przenieść artykuły z innych aplikacji?"
     a: "Tak, Marqly obsługuje import z Pocket, Raindrop.io oraz standardowych plików HTML z zakładkami."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"
 updatedDate: 2026-09-07
 ---

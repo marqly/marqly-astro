@@ -19,7 +19,7 @@ faqs:
   - q: "Quanto custa o Marqly para consultores independentes?"
     a: "Plano grátis até 100 itens. Pro por 72 $/ano (49 $ no 1º ano com cupom STANDING49) com IA completa."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-07
 ---

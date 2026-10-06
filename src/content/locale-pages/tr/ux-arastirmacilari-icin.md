@@ -19,7 +19,7 @@ faqs:
   - q: "Vurguladığım metinler orijinal web sayfasında kalır mı?"
     a: "Evet, sayfayı bir sonraki ziyaretinizde renkli vurgularınız tam bıraktığınız yerde durur."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 ctaSecondaryLabel: "Chrome'a ekle — ücretsiz"
 updatedDate: 2026-09-07
 ---

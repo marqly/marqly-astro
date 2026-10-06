@@ -19,7 +19,7 @@ faqs:
   - q: "Is Marqly een sollicitatietracker met statuskolommen?"
     a: "Nee. Marqly beheert geen fasen van 'gesolliciteerd naar afgewezen'. Het is de inhoudelijke onderzoekslaag voor je vacatures en gespreksvoorbereiding."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

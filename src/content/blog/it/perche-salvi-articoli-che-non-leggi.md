@@ -11,7 +11,7 @@ tags:
   - "produttività"
   - "sovraccarico informativo"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Perché salvo articoli e poi non li leggo?"
@@ -26,11 +26,11 @@ faqs:
 
 Hai quattrocento articoli salvati. Ne hai letti, a essere generosi, trenta. Ogni volta che apri la lista arriva un misto di colpa e affanno, la chiudi — e quel pomeriggio ne salvi altri tre.
 
-È uno schema così universale che vale la pena capire perché accade. Perché la conclusione solita — «mi manca disciplina» — è falsa e non porta da nessuna parte.
+È uno schema così universale che vale la pena capire perché accade. Perché la conclusione solita — «mi manca disciplina» — è falsa, ed è il motivo per cui i rimedi standard falliscono.
 
 ## Salvare e leggere sono due atti diversi
 
-Salvare richiede un secondo e dà sollievo immediato: hai catturato qualcosa di prezioso e non ti sfuggirà più. Una transazione emotiva a basso costo.
+Salvare richiede un secondo e dà sollievo immediato: hai catturato qualcosa di prezioso e non ti sfuggirà più. Una transazione emotiva a basso costo che funziona: ecco perché continui a farlo.
 
 Leggere costa venti minuti di attenzione continua, e quell'attenzione non è quasi mai disponibile nel momento in cui trovi l'articolo, perché stavi facendo altro.
 
@@ -55,15 +55,17 @@ Il vero problema non è la dimensione della pila. È che **non puoi consultarla*
 
 Una libreria di quattrocento articoli che puoi percorrere per tema e cercare per contenuto è un asset notevole. La stessa libreria senza indice è un mucchio di link su cui ti senti in colpa.
 
+E la pila marcisce mentre la eviti: un articolo salvato può andare in 404, finire dietro un paywall o sparire con l'account che lo ospitava, mentre resta lì, non letto. Per questo esiste il nostro [controllo link rotti](/tools/dead-link-checker). Non è un magazzino neutro: è un asset che si svaluta, e nessuno lo guarda.
+
 Tutta la differenza è lì. Non serve leggere di più. Serve poter recuperare.
 
 ## Due cambiamenti che risolvono il novanta per cento
 
-**1. Smistare senza leggere.** Se ogni salvataggio arriva con un riassunto automatico, smaltisci cinquanta articoli accumulati in quindici minuti: questo lo leggo, di questo volevo solo il dato e ce l'ho, questo non serve più. La pila smette di crescere senza che tu legga di più.
+**1. Smistare senza leggere.** Se ogni salvataggio arriva con un riassunto automatico, smaltisci cinquanta articoli accumulati in quindici minuti: questo lo leggo, di questo volevo solo il dato e ce l'ho, questo non serve più. La pila smette di crescere senza che tu legga di più. Su Marqly è il livello IA di Pro; anche la ricerca per parole chiave gratuita copre titoli e tag, e già sgonfia metà dell'angoscia.
 
 **2. Cercare per significato.** Se puoi recuperare qualsiasi cosa descrivendola — «quella cosa sul perché le riunioni lunghe peggiorano le decisioni» — non conta se ci sono quattrocento o quattromila elementi. Trovi ciò che ti serve quando ti serve, ed è l'unico momento che conta.
 
-Con questi due pezzi, la dimensione della lista passa da fonte di ansia a vantaggio. Spiegato in [cos'è la ricerca semantica](/it/blog/cos-e-la-ricerca-semantica).
+Con questi due pezzi la dimensione smette di essere il problema: la lista passa da fonte d'ansia a vantaggio, perché accumuli a basso costo e recuperi con precisione. Spiegato in [cos'è la ricerca semantica](/it/blog/cos-e-la-ricerca-semantica).
 
 ## Cosa non funziona
 
@@ -73,7 +75,7 @@ Per esclusione, tre strategie popolari che falliscono:
 - **Darsi un limite di salvataggi.** Va contro la tua curiosità e non lo manterrai.
 - **Riservare due ore la domenica per recuperare.** Un paio di domeniche, sì. Poi no.
 
-Tutte e tre danno per scontato che il problema sia tu. Non lo sei.
+Tutte e tre danno per scontato che il problema sia tu. Non lo sei. Il problema è il disegno: un sistema che tratta i link da coda e ti chiede di fare il lettore.
 
 ## Come lasciare andare la colpa
 
@@ -81,11 +83,11 @@ Un cambio di cornice che funziona: **smetti di chiamarla «lista da leggere» e 
 
 Poi, il pratico:
 
-1. Non cancellare ciò che hai. Importalo.
-2. Salva senza filtrare e senza classificare.
-3. Smista con i riassunti quando ne hai voglia, non per obbligo.
-4. Cerca descrivendo quando ti serve qualcosa.
+1. Non cancellare ciò che hai. Importalo: i preferiti del browser (HTML), l'[export di Pocket](/it/blog/cosa-contiene-il-file-di-esportazione-pocket-2026) in `list.csv` e le raccolte Raindrop (in HTML) entrano tutti.
+2. Salva senza pre-classificare: è catalogare che rende costoso salvare, e ciò che costa viene evitato.
+3. Smista i riassunti quando ti viene curiosità, non per dovere: funziona solo restando a bassa pressione.
+4. Cerca descrivendo quando ti serve qualcosa, e lascia che sia la fiducia nel recupero a organizzare.
 
-Da impostare gratis e senza carta su [Marqly](https://app.marqly.com), che importa export di Pocket, raccolte di Raindrop e il file HTML dei preferiti.
+Si imposta gratis e senza carta su [Marqly](https://app.marqly.com): la pila che hai già diventa la misura — quattrocento link, una casella di ricerca, zero coda.
 
-E se buona parte della tua pila sono video che non guarderai mai, quel caso ha la sua soluzione in [salvare video di YouTube](/it/salvare-video-youtube). Sulla lista di lettura in sé: [lista di lettura](/it/lista-di-lettura).
+E se buona parte della tua pila sono video che non guarderai mai, quel caso ha la sua soluzione in [salvare video di YouTube](/it/salvare-video-youtube). E se sono le cartelle il vero disordine, c'è [come organizzare i preferiti](/it/blog/organizzare-preferiti-browser). Sulla lista di lettura in sé: [lista di lettura](/it/lista-di-lettura).

@@ -19,7 +19,7 @@ faqs:
   - q: "Preciso pagar para sincronizar entre trabalho e casa?"
     a: "Não. A sincronização entre navegadores e dispositivos móveis está incluída no plano gratuito."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-07
 ---

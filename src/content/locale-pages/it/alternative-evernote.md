@@ -25,7 +25,7 @@ faqs:
   - q: "Cosa perdo uscendo?"
     a: "Soprattutto la scansione documenti e le note lunghe: quelle Marqly non le ha. La lettura offline c'è solo su Pro, in app web e iOS, dispositivo per dispositivo."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-26
 ---

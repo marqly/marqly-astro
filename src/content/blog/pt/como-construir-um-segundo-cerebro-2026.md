@@ -12,7 +12,7 @@ tags:
   - "metodo para alternativa"
   - "gestao do conhecimento pessoal"
 ctaUrl: "https://app.marqly.com/lp/knowledge-base"
-ctaLabel: "Experimentar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 lang: "pt"
 faqs:
   - q: "O que é um segundo cérebro?"

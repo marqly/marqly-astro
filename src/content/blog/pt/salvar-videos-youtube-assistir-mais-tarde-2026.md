@@ -12,7 +12,7 @@ tags:
   - "salvar videos para depois"
   - "favoritos youtube"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "Experimentar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 lang: "pt"
 faqs:
   - q: "Por que a lista 'Assistir mais tarde' do YouTube nunca é assistida?"

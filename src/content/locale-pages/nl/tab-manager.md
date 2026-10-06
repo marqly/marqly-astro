@@ -21,7 +21,7 @@ faqs:
   - q: "Wat kost Marqly?"
     a: "Tot 100 opgeslagen links is Marqly gratis te gebruiken. Marqly Pro kost $72 per jaar ($49 eerste jaar met actiecode STANDING49) of $9 per maand."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

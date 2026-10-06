@@ -11,7 +11,7 @@ tags:
   - "yer imi esitleme"
   - "yer imi yedekleme"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 lang: "tr"
 faqs:
   - q: "Chrome yer imi eşitlemesi neden aniden durur?"

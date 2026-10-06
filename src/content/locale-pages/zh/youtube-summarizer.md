@@ -19,7 +19,7 @@ faqs:
   - q: "与视频对话功能需要付费吗？"
     a: "对话提问是Pro功能（年付72美元或月付9美元）。免费版即可直接体验AI摘要与字幕查看。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

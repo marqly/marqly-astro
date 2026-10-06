@@ -19,7 +19,7 @@ faqs:
   - q: "Puis-je partager une planche de références avec un client ?"
     a: "Oui. Rassemblez les exemples dans un tableau partagé par lien public. Votre client explore les pages et vos annotations sans avoir à s'inscrire."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-07
 ---

@@ -23,7 +23,7 @@ faqs:
   - q: "收费模式是怎样的？"
     a: "免费版最高保存100条内容。Pro版提供深度AI视频对话与无限制语义检索，年付72美元（首年优惠码 STANDING49 为49美元），月付9美元。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

@@ -19,7 +19,7 @@ faqs:
   - q: "Kan ik opgenomen colleges en video's samenvatten?"
     a: "Ja, voor educatieve video's op YouTube genereert Marqly direct een AI-samenvatting met gesynchroniseerde transcriptie."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

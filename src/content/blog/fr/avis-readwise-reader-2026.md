@@ -11,7 +11,7 @@ tags:
   - "surlignage web"
   - "readwise vs marqly"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Existe-t-il une version gratuite de Readwise Reader ?"

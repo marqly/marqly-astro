@@ -12,7 +12,7 @@ tags:
   - "cartelle segnalibri"
   - "smettere di organizzare segnalibri"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "È possibile organizzare i segnalibri senza creare cartelle?"
@@ -23,7 +23,6 @@ faqs:
     a: "La combinazione di auto-tagging al momento del salvataggio e ricerca per concetto. Non devi più decidere dove archiviare: descrivi ciò che ricordi e l'IA recupera il link."
 heroImage: ../../../assets/blog/stop-organizing-bookmarks-folders-obsolete.png
 heroAlt: "Smetti di organizzare i segnalibri: perché le cartelle sono obsolete nel 2026 — illustration"
-ogImage: "https://www.marqly.com/og/smetti-di-organizzare-i-segnalibri-cartelle-obsolete-2026.png"
 ---
 
 Non hai più bisogno di organizzare i tuoi segnalibri in complesse strutture di cartelle. Nel 2026, l'intelligenza artificiale assegna tag tematici a ogni pagina salvata all'istante, e la ricerca semantica ti consente di ritrovare qualsiasi articolo descrivendo ciò che ricordi. Le gerarchie di cartelle e le pulizie manuali sono ormai cosa del passato.

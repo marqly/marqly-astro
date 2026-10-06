@@ -19,7 +19,7 @@ faqs:
   - q: "Posso sincronizzare gli appunti copiati tra più computer?"
     a: "L'uso locale nel browser è gratuito. Marqly Pro aggiunge la sincronizzazione tra dispositivi a 72 $/anno."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-07
 ---

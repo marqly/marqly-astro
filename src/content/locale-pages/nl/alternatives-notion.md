@@ -19,7 +19,7 @@ faqs:
   - q: "Hoe betrouwbaar bewaart Marqly opmaak?"
     a: "Uitstekend. Waar Notion vaak opmaak en tabellen verknoeit, behoudt Marqly de visuele structuur en biedt het in Chrome en Edge volledige PDF-archivering."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

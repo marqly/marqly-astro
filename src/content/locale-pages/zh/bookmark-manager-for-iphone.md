@@ -19,7 +19,7 @@ faqs:
   - q: "有 Android 安卓版客户端吗？"
     a: "有。Android 应用已上架 Google Play：https://play.google.com/store/apps/details?id=com.marqly.android。与 iOS 应用使用同一账号。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

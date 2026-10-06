@@ -25,7 +25,7 @@ faqs:
   - q: "Quanto custa o Marqly?"
     a: "Plano grátis sem cartão, e o Pro custa 9 USD por mês ou 72 USD por ano. Estudantes verificados pagam 48 USD no primeiro ano."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Teste o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-26
 ---

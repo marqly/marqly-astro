@@ -11,7 +11,7 @@ tags:
   - "leggi dopo"
   - "instapaper vs marqly"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Instapaper supporta la ricerca nei testi?"

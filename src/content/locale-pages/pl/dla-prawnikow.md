@@ -19,7 +19,7 @@ faqs:
   - q: "Jak znaleźć artykuł, jeśli pamiętam jedynie zastosowaną argumentację?"
     a: "Wyszukiwanie semantyczne analizuje sens zapytania w odniesieniu do treści i Twoich zakreśleń, odnajdując właściwe materiały bez znajomości dokładnego tytułu."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"
 updatedDate: 2026-09-07
 ---

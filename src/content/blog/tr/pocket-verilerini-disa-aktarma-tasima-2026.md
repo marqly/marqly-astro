@@ -11,7 +11,7 @@ tags:
   - "pocket alternatifleri"
   - "pocket yer imi ice aktarma"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 lang: "tr"
 faqs:
   - q: "Pocket verilerimi nasıl indirebilirim?"
@@ -42,7 +42,7 @@ Bu adım adım kılavuzda verilerinizi nasıl güvenle dışa aktaracağınızı
 
 1. [Marqly](https://app.marqly.com) üzerinde ücretsiz bir hesap açın.
 2. **Ayarlar → İçe Aktar** menüsüne gidin.
-3. `pocket-export.html` dosyasını sürükleyip bırakın.
+3. ZIP'i açın ve `list.csv` dosyasını sürükleyip bırakın (Marqly `.html` önizlemesini değil `list.csv` dosyasını içe aktarır).
 4. Dosyanız saniyeler içinde işlenir ve kütüphaneniz hazır hale gelir.
 
 Marqly ücretsiz sürümünde 100 kayda kadar izin verir; Pro planı ise yıllık $72 (yıllık ödemede aylık $6 veya aylık $9), `STANDING49` kuponuyla ilk yıl $49'dır.

@@ -19,7 +19,7 @@ faqs:
   - q: "Como localizo uma tese quando só lembro do conceito jurídico?"
     a: "A busca semântica cruza o significado da sua consulta com o conteúdo das páginas e seus destaques, encontrando o artigo certo mesmo sem lembrar do título exato."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-07
 ---

@@ -21,7 +21,7 @@ faqs:
   - q: "Ile kosztuje rozszerzenie zakreślacza?"
     a: "Podstawowy plan jest darmowy. Pakiet Pro z nielimitowanymi zaznaczeniami i wyszukiwaniem semantycznym kosztuje 72 USD/rok (49 USD z kuponem STANDING49) lub 9 USD/miesięcznie."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"
 updatedDate: 2026-09-07
 ---

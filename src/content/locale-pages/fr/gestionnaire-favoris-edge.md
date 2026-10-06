@@ -19,7 +19,7 @@ faqs:
   - q: "Mes sauvegardes sont-elles synchronisées hors d'Edge ?"
     a: "Oui. Contrairement aux favoris Edge liés à votre compte Microsoft, Marqly synchronise vos liens sur Chrome, Firefox, Safari, iOS et le Web."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-07
 ---

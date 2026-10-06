@@ -21,7 +21,7 @@ faqs:
   - q: "InstapaperにAI機能はありますか？"
     a: "いいえ。Instapaperには自動タグ付け、AI要約、セマンティック検索はありません。手動でのフォルダー分けとテキスト一致検索が基本です。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqlyを無料で試す"
+ctaLabel: "Marqlyを無料で始める"
 ctaSecondaryLabel: "Chromeに追加 — 無料"
 updatedDate: 2026-09-26
 ---

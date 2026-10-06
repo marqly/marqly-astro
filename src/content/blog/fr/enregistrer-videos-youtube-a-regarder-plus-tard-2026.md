@@ -12,7 +12,7 @@ tags:
   - "sauvegarder videos pour plus tard"
   - "favoris youtube"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Pourquoi ne regarde-t-on jamais les vidéos de la liste 'À regarder plus tard' ?"

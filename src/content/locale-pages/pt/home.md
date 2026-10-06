@@ -25,7 +25,7 @@ faqs:
   - q: "O que exatamente a IA faz com o que eu salvo?"
     a: "Ela coloca tags automáticas, gera um resumo curto da página, indexa o conteúdo para a busca semântica e, no plano Pro, deixa você conversar com o que já salvou para lembrar de onde veio uma informação."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Teste o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-26
 ---

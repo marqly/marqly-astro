@@ -11,7 +11,7 @@ tags:
   - "exporter favoris"
   - "gestionnaire de favoris"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Comment organiser mes favoris Chrome ?"

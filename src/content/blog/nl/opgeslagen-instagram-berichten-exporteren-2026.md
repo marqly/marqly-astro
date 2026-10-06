@@ -12,7 +12,7 @@ tags:
   - "saved_posts json"
   - "instagram backup"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 lang: "nl"
 faqs:
   - q: "Kan ik opgeslagen berichten rechtstreeks in de Instagram-app exporteren?"
@@ -21,7 +21,6 @@ faqs:
     a: "Alleen de accountnaam, de permalink van het bericht en de datum/tijd waarop je het opsloeg. Er zitten geen foto's, video's of bijschriften in."
   - q: "Blijven links werken als de maker het bericht verwijdert?"
     a: "Nee, de link loopt dan dood. Bewaar waardevolle visuele ideeën en referenties daarom direct in een onafhankelijke tool zoals Marqly."
-ogImage: "https://www.marqly.com/og/opgeslagen-instagram-berichten-exporteren-2026.png"
 ---
 
 Posts opslaan op Instagram gaat met één tik, maar **Instagram biedt geen enkele knop om je opgeslagen verzamelingen te exporteren**. Er is geen exportoptie naar CSV en je kunt een collectie niet delen via een downloadlink.

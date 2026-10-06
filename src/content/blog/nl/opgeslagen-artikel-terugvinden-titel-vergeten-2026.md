@@ -12,7 +12,7 @@ tags:
   - "semantisch zoeken bladwijzers"
   - "verloren bladwijzer"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 lang: "nl"
 faqs:
   - q: "Hoe vind ik een bladwijzer terug als ik de titel niet meer weet?"
@@ -23,7 +23,6 @@ faqs:
     a: "Ja, semantisch zoeken is juist ontworpen voor vage herinneringen. Het rangschikt resultaten op inhoudelijke betekenisverwantschap."
 heroImage: ../../../assets/blog/how-to-find-a-saved-article-you-forgot-the-title-of.png
 heroAlt: "Opgeslagen artikel terugvinden als je de titel bent vergeten (2026) — illustration"
-ogImage: "https://www.marqly.com/og/opgeslagen-artikel-terugvinden-titel-vergeten-2026.png"
 ---
 
 Om een opgeslagen artikel terug te vinden waarvan je de titel bent vergeten, stop je met het raden van losse trefwoorden en omschrijf je de inhoud in een volledige zin. Een semantische AI-zoekfunctie analyseert de betekenis van je beschrijving in plaats van letterlijke overeenkomsten, en vergelijkt deze met de inhoud van al je opgeslagen links.

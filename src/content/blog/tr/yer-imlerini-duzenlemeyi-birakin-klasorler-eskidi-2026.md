@@ -12,7 +12,7 @@ tags:
   - "yer imi klasörleri"
   - "yer imi düzenleme"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 lang: "tr"
 faqs:
   - q: "Klasör kullanmadan yer imleri düzenli tutulabilir mi?"
@@ -23,7 +23,6 @@ faqs:
     a: "Hayır, silmeniz gerekmez. Tarayıcı çubuğunuzda sık kullandığınız birkaç klasörü tutabilir, tüm yer imi arşivinizi Marqly'ye aktararak anlamsal arama tabanlı sisteme geçebilirsiniz."
 heroImage: ../../../assets/blog/stop-organizing-bookmarks-folders-obsolete.png
 heroAlt: "Yer İmlerini Düzenlemeyi Bırakın: 2026'da Klasörlerin Eskimesinin Nedenleri — illustration"
-ogImage: "https://www.marqly.com/og/yer-imlerini-duzenlemeyi-birakin-klasorler-eskidi-2026.png"
 ---
 
 Yer imlerinizi karmaşık klasör ağaçlarına bölerek zaman kaybetmenize artık gerek yok. 2026 yılında yapay zeka, bir bağlantıyı kaydettiğiniz anda sayfa içeriğini okuyup otomatik etiketler atar ve anlamsal arama sayesinde hatırladığınız fikri tanımlayarak aradığınız içeriği anında bulmanızı sağlar.

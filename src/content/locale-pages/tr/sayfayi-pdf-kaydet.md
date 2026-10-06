@@ -19,7 +19,7 @@ faqs:
   - q: "Yakalanan PDF dosyası nereye kaydedilir?"
     a: "Doğrudan Marqly kütüphanenize eklenir; yapay zeka otomatik etiketler ve içeriği üzerinden anlamsal olarak aranabilir hale gelir."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Dene"
+ctaLabel: "Marqly'ye Ücretsiz Başla"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

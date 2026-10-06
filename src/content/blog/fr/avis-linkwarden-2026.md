@@ -11,7 +11,7 @@ tags:
   - "archivage liens web"
   - "linkwarden vs marqly"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Linkwarden empêche-t-il les liens morts ?"

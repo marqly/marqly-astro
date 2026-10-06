@@ -25,7 +25,7 @@ faqs:
   - q: "Marqly fonctionne-t-il hors ligne ?"
     a: "Cela dépend. Sauvegarder, synchroniser et faire tourner les fonctions d'IA demandent une connexion. La lecture hors ligne, elle, existe avec Pro : les pages marquées restent enregistrées sur l'appareil et se lisent sans réseau dans l'application web ou l'application iOS. Elles ne se synchronisent pas entre appareils, et il n'y a pas de mode hors ligne sur Android ni dans les extensions."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — c'est gratuit"
 updatedDate: 2026-09-26
 ---

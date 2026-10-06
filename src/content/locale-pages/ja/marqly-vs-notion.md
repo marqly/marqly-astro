@@ -21,7 +21,7 @@ faqs:
   - q: "両方を併用することはできますか？"
     a: "はい。Web上のリサーチや一時保存、動画の文字起こしはMarqlyで行い、執筆やプロジェクト管理はNotionにまとめる使い方が最も効率的です。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqlyを無料で試す"
+ctaLabel: "Marqlyを無料で始める"
 ctaSecondaryLabel: "Chromeに追加 — 無料"
 updatedDate: 2026-09-07
 ---

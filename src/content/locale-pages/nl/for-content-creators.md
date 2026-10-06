@@ -21,7 +21,7 @@ faqs:
   - q: "Wat zijn de tarieven?"
     a: "De gratis versie biedt ruimte voor 100 bladwijzers. Het Pro-abonnement kost $72/jaar ($49 eerste jaar met coupon STANDING49) of $9/maand."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

@@ -64,9 +64,9 @@ Zapisuje strony bezpośrednio do relacyjnych baz danych w Notion.
 
 ## Jak bezboleśnie przenieść dane z Pocket
 
-1. Znajdź pobrany wcześniej plik `pocket-export.html`.
+1. Otwórz pobrany wcześniej archiwum eksportu Pocket i znajdź w nim plik `list.csv` (to on, a nie podgląd `.html`, nadaje się do importu).
 2. Zaloguj się w [Marqly](https://app.marqly.com) i przejdź do sekcji **Import**.
-3. Wgraj plik — Twoje linki, tagi i daty zostaną zaimportowane w kilkadziesiąt sekund.
-4. AI automatycznie wygeneruje streszczenia i przygotuje indeks semantyczny.
+3. Wgraj plik `list.csv` — Twoje linki i tagi zostaną zaimportowane w kilkadziesiąt sekund. Uwaga: Marqly nie zachowuje oryginalnych dat zapisu (elementy przyjmują datę importu).
+4. Indeks semantyczny jest gotowy od razu; automatyczne tagowanie importowanych elementów to funkcja planu Pro.
 
 [Zacznij korzystać z Marqly za darmo →](https://app.marqly.com/lp/replace-pocket)

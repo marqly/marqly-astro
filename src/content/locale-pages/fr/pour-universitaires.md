@@ -19,7 +19,7 @@ faqs:
   - q: "Marqly remplace-t-il un gestionnaire de références comme Zotero ?"
     a: "Non. Marqly ne formate pas les citations. Il intervient en amont : collecte sur le web, annotation active, tri par résumés IA et recherche de souvenirs conceptuels."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-07
 ---

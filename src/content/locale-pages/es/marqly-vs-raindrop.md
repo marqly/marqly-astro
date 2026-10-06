@@ -25,7 +25,7 @@ faqs:
   - q: "¿Se pueden usar los dos a la vez?"
     a: "Sí, y mucha gente lo hace un tiempo mientras decide. Puedes mantener tu archivo histórico en Raindrop e ir guardando lo nuevo en Marqly para comparar cómo se siente buscar en cada uno."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prueba Marqly gratis"
+ctaLabel: "Empieza gratis con Marqly"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
 updatedDate: 2026-09-26
 ---

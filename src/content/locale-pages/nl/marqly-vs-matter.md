@@ -19,7 +19,7 @@ faqs:
   - q: "Is het verstandig om ze samen te gebruiken?"
     a: "Absoluut. Gebruik Matter voor artikelen die je wilt beluisteren, en Marqly voor het bewaren en semantisch doorzoeken van werkreferenties en video's."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

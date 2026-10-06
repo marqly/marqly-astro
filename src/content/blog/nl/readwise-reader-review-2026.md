@@ -11,7 +11,7 @@ tags:
   - "lezen en markeren"
   - "readwise vs marqly"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 lang: "nl"
 faqs:
   - q: "Is Readwise Reader gratis te gebruiken?"

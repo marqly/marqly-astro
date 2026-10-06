@@ -19,7 +19,7 @@ faqs:
   - q: "Czy zakreślenia tekstu zostają na oryginalnej stronie?"
     a: "Tak, pozostają widoczne przy kolejnych odwiedzinach witryny i są indeksowane w Marqly."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"
 updatedDate: 2026-09-07
 ---

@@ -25,7 +25,7 @@ faqs:
   - q: "Consigo trazer o que já está salvo em outro app?"
     a: "Sim. Dá para importar do Pocket, do Raindrop e de arquivos HTML de favoritos exportados do navegador. Também dá para trazer o que você salvou no X/Twitter."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Teste o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-26
 ---

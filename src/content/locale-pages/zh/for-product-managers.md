@@ -19,7 +19,7 @@ faqs:
   - q: "语义搜索如何助力竞品调研？"
     a: "输入'按席位计费的竞品模型'等自然语义，无需精准匹配标题字眼即可直接调出对应分析。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加至 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

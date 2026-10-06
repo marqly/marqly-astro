@@ -23,7 +23,6 @@ faqs:
     a: "네, 시맨틱 검색은 불완전하고 모호한 기억을 위해 설계되었으며, 개념적 유사도를 측정해 가장 관련성 높은 페이지를 상위에 배치합니다."
 heroImage: ../../../assets/blog/how-to-find-a-saved-article-you-forgot-the-title-of.png
 heroAlt: "제목이 기억나지 않는 저장된 아티클을 찾는 방법 (2026) — illustration"
-ogImage: "https://www.marqly.com/og/how-to-find-a-saved-article-you-forgot-the-title-of-2026.png"
 ---
 
 저장해둔 아티클의 제목이 전혀 기억나지 않을 때는 단편적인 키워드를 입력하지 말고, 기억나는 내용을 온전한 문장으로 설명해 보세요. AI 시맨틱(의미) 검색은 글자 그대로의 일치 대신 입력한 문장의 의미를 해석하고, 저장된 모든 페이지의 실제 본문 내용과 비교합니다.

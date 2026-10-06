@@ -12,7 +12,7 @@ tags:
   - "otomatik yer imi organizasyonu"
   - "yapay zeka yer imi yoneticisi"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly’yi Ücretsiz Deneyin"
+ctaLabel: "Marqly’yi Ücretsiz Başlayın"
 lang: "tr"
 faqs:
   - q: "Yapay zeka yer imlerini nasıl otomatik organize eder?"

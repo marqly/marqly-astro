@@ -19,7 +19,7 @@ faqs:
   - q: "Jak działa czat z filmem?"
     a: "Możesz zadać dowolne pytanie o treść filmu, a AI odpowie na podstawie pełnej transkrypcji. Funkcja dostępna w planie Pro."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"
 updatedDate: 2026-09-07
 ---

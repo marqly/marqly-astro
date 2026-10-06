@@ -21,7 +21,7 @@ faqs:
   - q: "利用料金はいくらですか？"
     a: "最大100件保存可能な無料プランがあります。Proプランは年額72ドル（初年度クーポンSTANDING49で49ドル）または月額9ドルです。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqlyを無料で試す"
+ctaLabel: "Marqlyを無料で始める"
 ctaSecondaryLabel: "Chromeに追加 — 無料"
 updatedDate: 2026-09-26
 ---

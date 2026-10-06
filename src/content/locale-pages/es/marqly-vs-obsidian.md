@@ -25,7 +25,7 @@ faqs:
   - q: "¿Se pueden usar juntos?"
     a: "Sí. Un patrón común es capturar y triar en Marqly, y escribir en Obsidian citando lo que encontraste."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prueba Marqly gratis"
+ctaLabel: "Empieza gratis con Marqly"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
 updatedDate: 2026-09-26
 ---

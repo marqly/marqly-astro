@@ -19,7 +19,7 @@ faqs:
   - q: "Moet ik betalen om op meerdere computers te synchroniseren?"
     a: "Nee. Synchronisatie tussen verschillende browsers en apparaten is inbegrepen in het gratis plan."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

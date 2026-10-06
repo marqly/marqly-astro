@@ -19,7 +19,7 @@ faqs:
   - q: "Vervangt Marqly referentiemanagers zoals Zotero of Mendeley?"
     a: "Nee. Marqly genereert geen citatiestijlen. Het dekt de voorfase: webbronnen verzamelen, actief markeren, triëren met AI-samenvattingen en semantisch zoeken."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

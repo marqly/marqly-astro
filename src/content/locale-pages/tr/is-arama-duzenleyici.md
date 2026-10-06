@@ -19,7 +19,7 @@ faqs:
   - q: "Marqly sütunlu bir iş başvuru takip programı (Kanban) mıdır?"
     a: "Hayır. Başvuru aşamalarını takip etmez. İlan metinlerini, maaş araştırmalarını ve şirket incelemelerini düzenleyen araştırma katmanıdır."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Dene"
+ctaLabel: "Marqly'ye Ücretsiz Başla"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

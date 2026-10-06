@@ -21,7 +21,7 @@ faqs:
   - q: "Czy narzędzie sprawdza się w pracy zespołowej?"
     a: "Możesz udostępnić tablicę jako publiczną stronę WWW dostępną bez rejestracji — jest tylko do oglądania. Do wspólnej edycji w zespole służy Marqly Teams."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"
 updatedDate: 2026-09-07
 ---

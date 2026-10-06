@@ -12,7 +12,7 @@ tags:
   - "para metodu alternatifi"
   - "kisisel bilgi yonetimi"
 ctaUrl: "https://app.marqly.com/lp/knowledge-base"
-ctaLabel: "Marqly’yi Ücretsiz Deneyin"
+ctaLabel: "Marqly’yi Ücretsiz Başlayın"
 lang: "tr"
 faqs:
   - q: "İkinci beyin (Second Brain) nedir?"

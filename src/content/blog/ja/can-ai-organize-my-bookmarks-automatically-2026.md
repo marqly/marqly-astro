@@ -12,7 +12,7 @@ tags:
   - "ブックマーク 自動化"
   - "AI ブックマークマネージャー"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqlyを無料で試す"
+ctaLabel: "Marqlyを無料で始める"
 lang: "ja"
 faqs:
   - q: "AIはどのようにブックマークを自動整理しますか？"

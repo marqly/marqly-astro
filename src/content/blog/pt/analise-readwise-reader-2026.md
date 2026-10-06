@@ -11,7 +11,7 @@ tags:
   - "readwise vs marqly"
   - "leitura e destaques"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 lang: "pt"
 faqs:
   - q: "O Readwise Reader tem plano gratuito?"

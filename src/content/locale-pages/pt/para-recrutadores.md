@@ -19,7 +19,7 @@ faqs:
   - q: "Posso compartilhar referências salariais com hiring managers sem forçar cadastro?"
     a: "Sim. Você pode criar um quadro com pesquisas de mercado e gerar uma página pública que o gestor da vaga abre no navegador sem login."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-07
 ---

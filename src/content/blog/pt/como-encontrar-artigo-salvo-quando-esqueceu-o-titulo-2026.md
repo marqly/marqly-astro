@@ -12,7 +12,7 @@ tags:
   - "busca semantica favoritos"
   - "favorito perdido"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Experimentar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 lang: "pt"
 faqs:
   - q: "Como acho um favorito se esqueci o título exato?"
@@ -23,7 +23,6 @@ faqs:
     a: "Sim. Motores de busca semântica foram criados exatamente para memórias parciais, ranqueando os links por proximidade de significado."
 heroImage: ../../../assets/blog/how-to-find-a-saved-article-you-forgot-the-title-of.png
 heroAlt: "Como encontrar um artigo salvo quando esqueceu o título em 2026 — illustration"
-ogImage: "https://www.marqly.com/og/como-encontrar-artigo-salvo-quando-esqueceu-o-titulo-2026.png"
 ---
 
 Para encontrar um artigo salvo quando você esqueceu o título, pare de tentar adivinhar palavras-chave soltas e descreva o que você lembra em uma frase completa. A busca semântica por inteligência artificial interpreta o significado da sua descrição, em vez de comparar apenas letras, cruzando os conceitos com o texto integral de cada link salvo.

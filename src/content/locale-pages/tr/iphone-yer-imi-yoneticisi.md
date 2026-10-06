@@ -19,7 +19,7 @@ faqs:
   - q: "Android uygulaması var mı?"
     a: "Evet. Android uygulaması Google Play'de: https://play.google.com/store/apps/details?id=com.marqly.android. iOS uygulamasıyla aynı hesabı kullanır."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

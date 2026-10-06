@@ -12,7 +12,7 @@ tags:
   - "aplikacje do czytania"
   - "ai czytnik"
 ctaUrl: "https://app.marqly.com/lp/replace-pocket"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Jaka jest obecnie najlepsza aplikacja read-it-later w 2026 roku?"
@@ -64,4 +64,4 @@ Bezpośredni zapis do baz wiedzy w Notion.
 | Instapaper | ❌ | ✅ | ✅ | $3/msc |
 | mymind | ✅ | ◑ | ❌ | $8/msc |
 
-Wybierz narzędzie, które nie pozwoli Twoim zakładkom przepaść w zapomnieniu. [Wypróbuj Marqly za darmo](https://app.marqly.com/lp/replace-pocket).
+Wybierz narzędzie, które nie pozwoli Twoim zakładkom przepaść w zapomnieniu. [Rozpocznij za darmo z Marqly](https://app.marqly.com/lp/replace-pocket).

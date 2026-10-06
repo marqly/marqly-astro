@@ -25,7 +25,7 @@ faqs:
   - q: "Was verliere ich beim Wechsel?"
     a: "Vor allem Dokumentenscan und lange Notizen – die hat Marqly nicht. Offline-Lesen gibt es nur auf Pro, in Web-App und iOS, pro Gerät."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly kostenlos testen"
+ctaLabel: "Marqly kostenlos starten"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
 updatedDate: 2026-09-26
 ---

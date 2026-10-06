@@ -19,7 +19,7 @@ faqs:
   - q: "Wat kost Marqly voor adviseurs?"
     a: "Gratis tot 100 saves. Pro kost $ 72/jaar ($ 49 eerste jaar met STANDING49)."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

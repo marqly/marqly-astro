@@ -11,7 +11,7 @@ tags:
   - "marqly vs raindrop"
   - "ikinci beyin"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 lang: "tr"
 faqs:
   - q: "Yer imlerinde anlamsal (semantik) arama nedir?"

@@ -11,7 +11,7 @@ tags:
   - "marqly vs instapaper"
   - "yapay zeka yer imi"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 lang: "tr"
 faqs:
   - q: "Instapaper yerine ne kullanılabilir?"

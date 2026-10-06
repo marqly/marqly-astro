@@ -23,7 +23,7 @@ faqs:
   - q: "W czym Marqly przewyższa tradycyjne zakładki w przeglądarce?"
     a: "Przeglądarka zapisuje jedynie tytuł i adres URL, co szybko prowadzi do chaosu w folderach. Marqly zapisuje treść, streszczenia, tagi i notatki, umożliwiając intuicyjne wyszukiwanie według tego, co pamiętasz z danego artykułu."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"
 updatedDate: 2026-08-16
 ---

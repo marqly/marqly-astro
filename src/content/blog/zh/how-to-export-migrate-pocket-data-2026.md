@@ -42,7 +42,7 @@ heroAlt: "Pocket数据导出与迁移指南插图"
 
 1. 注册并登录 [Marqly](https://app.marqly.com)。
 2. 进入 **设置 → 导入书签** 页面。
-3. 将下载的 `pocket-export.html` 文件拖入导入区域。
+3. 打开 ZIP 压缩包，将 `list.csv` 文件拖入导入区域（HTML 预览文件无法被 Marqly 导入）。
 4. 系统将在后台自动解析并在保留标签的同时建立 AI 语义索引。
 
 Marqly 免费计划支持 100 条收藏；Pro 计划年付 $72（折合 $6/月），结账时输入优惠码 `STANDING49` 首年仅需 $49。

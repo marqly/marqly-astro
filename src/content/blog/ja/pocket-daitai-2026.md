@@ -12,7 +12,7 @@ tags:
   - "あとで読む アプリ 2026"
   - "ai ブックマーク"
 ctaUrl: "https://app.marqly.com/lp/replace-pocket"
-ctaLabel: "Marqlyを無料で試す"
+ctaLabel: "Marqlyを無料で始める"
 lang: "ja"
 faqs:
   - q: "2026年において最もおすすめのPocket代替アプリは何ですか？"
@@ -77,7 +77,7 @@ Pocket最大の弱点は「保存するのは一瞬だが、あとで見つけ�
 - **デメリット**：老舗ツールに比べて歴史が浅く、コミュニティが急成長中。
 - **料金**：無料プラン（最大100件・全体検索対応）；Pro年額$72（月換算約$6、クーポン`STANDING49`で初年度$49）または月額$9。
 
-[Marqlyを無料で試す →](https://app.marqly.com/lp/replace-pocket)
+[Marqlyを無料で始める →](https://app.marqly.com/lp/replace-pocket)
 
 ## 2. Raindrop.io — 無料で使える万能ブックマーク代替
 

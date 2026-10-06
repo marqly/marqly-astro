@@ -11,7 +11,7 @@ tags:
   - "raindrop vs marqly"
   - "menedzer zakladek"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Czy Raindrop.io jest darmowy?"

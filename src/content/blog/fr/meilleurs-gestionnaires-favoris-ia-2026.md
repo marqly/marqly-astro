@@ -12,7 +12,7 @@ tags:
   - "recherche semantique favoris"
   - "second cerveau ia"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Que doit faire un véritable gestionnaire de favoris avec IA ?"

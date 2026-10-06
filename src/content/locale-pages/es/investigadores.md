@@ -25,7 +25,7 @@ faqs:
   - q: "¿Cuánto cuesta?"
     a: "Hay plan gratis sin tarjeta. Pro cuesta 9 USD al mes o 72 USD al año. Los estudiantes verificados pagan 48 USD el primer año."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prueba Marqly gratis"
+ctaLabel: "Empieza gratis con Marqly"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
 updatedDate: 2026-09-26
 ---

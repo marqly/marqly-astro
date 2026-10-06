@@ -12,7 +12,7 @@ tags:
   - "alternative notion obsidian"
   - "organizzare note e link"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Qual è la migliore app per un secondo cervello nel 2026?"

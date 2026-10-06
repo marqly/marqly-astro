@@ -12,7 +12,7 @@ tags:
   - "自然言語 ブックマーク検索"
   - "意味で検索するブックマーク"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqlyを無料で試す"
+ctaLabel: "Marqlyを無料で始める"
 lang: "ja"
 faqs:
   - q: "AIブックマーク検索とは何ですか？"

@@ -19,7 +19,7 @@ faqs:
   - q: "Marqly est-il gratuit pour collecter de l'inspiration ?"
     a: "Oui, le forfait gratuit accueille jusqu'à 100 éléments avec tableaux et surlignage web. Le forfait Pro (72 $/an ou 49 $ la 1re année avec code STANDING49) ajoute l'IA complète."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-07
 ---

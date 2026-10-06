@@ -19,7 +19,7 @@ faqs:
   - q: "İkisini birlikte kullanmak mantıklı mı?"
     a: "Evet. Dinlemek istediğiniz yazıları Matter'a, teknik dokümanları ve araştırma kaynaklarını Marqly'ye kaydetmek çok yaygın bir modeldir."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Deneyin"
+ctaLabel: "Marqly'ye Ücretsiz Başlayın"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

@@ -25,7 +25,7 @@ faqs:
   - q: "E o material que já está espalhado nos meus favoritos?"
     a: "Importe. O Marqly puxa de arquivos HTML de favoritos exportados do navegador, do Pocket e do Raindrop. Depois a IA vai etiquetando o que veio solto, e a busca já funciona em cima disso."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Teste o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-26
 ---

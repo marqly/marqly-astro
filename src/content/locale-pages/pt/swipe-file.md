@@ -19,7 +19,7 @@ faqs:
   - q: "Posso compartilhar referências com clientes sem exigir cadastro?"
     a: "Sim. Crie um quadro temático e compartilhe a URL pública. Seu cliente vê as páginas e anotações sem login."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-07
 ---

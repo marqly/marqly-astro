@@ -19,7 +19,7 @@ faqs:
   - q: "Marqly'yi yer imi düzenleyici olarak kullanmak ücretsiz mi?"
     a: "Kredi kartı gerektirmeyen 100 kayda kadar ücretsiz plan mevcuttur. Pro sürüm yıllık 72 dolar (STANDING49 koduyla ilk yıl 49 dolar)."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Dene"
+ctaLabel: "Marqly'ye Ücretsiz Başla"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

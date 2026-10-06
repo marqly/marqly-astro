@@ -19,7 +19,7 @@ faqs:
   - q: "Meus favoritos do Firefox sincronizam com outros navegadores?"
     a: "Sim. O Marqly sincroniza sua conta com o Chrome, Safari, Edge, aplicativo iOS e navegador web."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-07
 ---

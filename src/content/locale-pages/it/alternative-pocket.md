@@ -23,7 +23,7 @@ faqs:
   - q: "Quale alternativa importa meglio il file di Pocket?"
     a: "L'export di Pocket è un CSV dentro uno ZIP, un formato semplice che leggono quasi tutti. La differenza vera arriva dopo: in Marqly l'IA etichetta tutta la libreria importata — proprio ciò che un vecchio archivio Pocket non ha mai avuto."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-26
 ---

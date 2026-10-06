@@ -11,7 +11,7 @@ tags:
   - "menedzer zakladek ai"
   - "drugi mozg"
 ctaUrl: "https://app.marqly.com/lp/ai-search"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Ile kosztuje Marqly?"

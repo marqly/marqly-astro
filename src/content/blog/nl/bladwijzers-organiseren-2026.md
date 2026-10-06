@@ -12,7 +12,7 @@ tags:
   - "bladwijzers opruimen"
   - "bladwijzerbeheer"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 lang: "nl"
 faqs:
   - q: "Wat is de beste manier om bladwijzers te organiseren in 2026?"

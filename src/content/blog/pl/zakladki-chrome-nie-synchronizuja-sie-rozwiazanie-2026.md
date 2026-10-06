@@ -11,7 +11,7 @@ tags:
   - "naprawa synchronizacji"
   - "kopia zapasowa zakladek"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Dlaczego Chrome nagle przestał synchronizować zakładki?"

@@ -19,7 +19,7 @@ faqs:
   - q: "Czy mogę udostępnić zebrane analizy hiring managerowi bez logowania?"
     a: "Tak. Zgromadź materiały na tablicy i wyślij publiczny link, który menedżer otworzy w przeglądarce bez rejestracji."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"
 updatedDate: 2026-09-07
 ---

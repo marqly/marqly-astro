@@ -11,7 +11,7 @@ tags:
   - "lire plus tard"
   - "instapaper vs marqly"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Instapaper est-il payant ?"

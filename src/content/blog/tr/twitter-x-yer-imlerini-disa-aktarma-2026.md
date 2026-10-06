@@ -12,7 +12,7 @@ tags:
   - "twitter yer imi siniri"
   - "twitter yedekleme"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 lang: "tr"
 faqs:
   - q: "X'in resmi veri indirme dosyasında yer imleri var mı?"
@@ -21,7 +21,6 @@ faqs:
     a: "Uygulamada ve webde yaklaşık olarak en güncel 800 ila 1.000 kayıt görüntülenir. Daha eski yer imleri sayfada aşağı kaydırdıkça yüklenmez."
   - q: "Twitter yer imlerini kaybetmemenin en kalıcı yolu nedir?"
     a: "Değerli tweetleri Marqly gibi bağımsız bir yer imi yöneticisine tarayıcı eklentisiyle anında kaydedip yapay zeka etiketleriyle saklamaktır."
-ogImage: "https://www.marqly.com/og/twitter-x-yer-imlerini-disa-aktarma-2026.png"
 ---
 
 Çoğu kullanıcının ancak ihtiyaç duyduğunda fark ettiği can sıkıcı bir gerçek var: **X (Twitter) resmi veri arşivi yer imlerinizi içermez**. Gönderilerinizi, beğenilerinizi, doğrudan mesajlarınızı indirebilirsiniz ancak yıllardır biriktirdiğiniz faydalı bilgi zincirleri bu pakette yer almaz.

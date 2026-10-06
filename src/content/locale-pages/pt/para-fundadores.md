@@ -19,7 +19,7 @@ faqs:
   - q: "Qual o custo para fundadores em estágio inicial?"
     a: "Plano grátis até 100 itens. Plano Pro por 72 $/ano (ou 49 $ com cupom STANDING49) com IA completa."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-07
 ---

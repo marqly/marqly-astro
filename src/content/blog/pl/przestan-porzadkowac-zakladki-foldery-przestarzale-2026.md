@@ -12,7 +12,7 @@ tags:
   - "foldery zakładek"
   - "porządkowanie zakładek"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Czy można efektywnie zarządzać zakładkami bez tworzenia folderów?"
@@ -23,7 +23,6 @@ faqs:
     a: "Nie musisz. Możesz zostawić kilka podręcznych skrótów na pasku zakładek, a całą resztę zaimportować do Marqly, aby korzystać z inteligentnego wyszukiwania koncepcyjnego."
 heroImage: ../../../assets/blog/stop-organizing-bookmarks-folders-obsolete.png
 heroAlt: "Przestań porządkować zakładki: dlaczego foldery są przestarzałe w 2026 roku — illustration"
-ogImage: "https://www.marqly.com/og/przestan-porzadkowac-zakladki-foldery-przestarzale-2026.png"
 ---
 
 Nie musisz już tracić czasu na mozolne sortowanie zakładek w skomplikowane drzewa folderów. W 2026 roku sztuczna inteligencja automatycznie taguje każdy zapisany link, a wyszukiwanie semantyczne pozwala odnaleźć dowolny artykuł na podstawie zwykłego opisu tego, co pamiętasz. Konieczność ręcznego układania zakładek w katalogach stała się przeszłością.

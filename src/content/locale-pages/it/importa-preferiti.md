@@ -25,7 +25,7 @@ faqs:
   - q: "Quanto ci mette?"
     a: "Il caricamento del file dura pochi secondi. L'elaborazione AI di un archivio grande richiede un po' più di tempo e va avanti da sola: puoi chiudere la pagina e tornare dopo."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — è gratis"
 updatedDate: 2026-08-16
 ---

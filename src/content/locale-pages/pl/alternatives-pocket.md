@@ -19,7 +19,7 @@ faqs:
   - q: "Czy są darmowe alternatywy?"
     a: "Tak, zarówno Marqly, jak i Raindrop.io oferują pakiety darmowe. W Marqly zapiszesz do 100 artykułów bez podawania karty."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"
 updatedDate: 2026-09-07
 ---

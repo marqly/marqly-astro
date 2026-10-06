@@ -12,7 +12,7 @@ tags:
   - "saved_posts json"
   - "kopia zapasowa instagram"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Czy można pobrać zapisane posty bezpośrednio w aplikacji Instagram?"
@@ -21,7 +21,6 @@ faqs:
     a: "Jedynie nazwę profilu twórcy, bezpośredni link (permalink) oraz datę zapisania. Brak tam zdjęć, filmów czy treści podpisów."
   - q: "Co się stanie, jeśli autor usunie zapisany post?"
     a: "Wyeksportowany link przestanie działać. Dlatego cenne inspiracje warto opisywać i katalogować w Marqly."
-ogImage: "https://www.marqly.com/og/jak-wyeksportowac-zapisane-posty-z-instagrama-2026.png"
 ---
 
 Zapisywanie postów na Instagramie jest niezwykle proste, lecz **aplikacja nie oferuje żadnego przycisku do eksportu zapisanych kolekcji**. Nie ma możliwości pobrania pliku CSV ani przesłania albumu na e-mail.

@@ -13,7 +13,7 @@ tags:
   - "second cerveau"
   - "systeme organisation favoris"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Qu'est-ce que la méthode PARA pour les favoris ?"

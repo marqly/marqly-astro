@@ -19,7 +19,7 @@ faqs:
   - q: "放弃 Evernote 会损失哪些功能？"
     a: "主要包括扫描文档 OCR、长篇笔记编辑排版及离线模式。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

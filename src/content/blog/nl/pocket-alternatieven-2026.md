@@ -12,7 +12,7 @@ tags:
   - "later lezen app"
   - "ai bladwijzerbeheerder"
 ctaUrl: "https://app.marqly.com/lp/replace-pocket"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 lang: "nl"
 faqs:
   - q: "Wat is het beste Pocket-alternatief in 2026?"
@@ -71,7 +71,7 @@ Het grootste pijnpunt van Pocket was altijd: opslaan ging met één klik, maar *
 - **Nadelen**: Jonger dan de gevestigde namen, community groeit hard.
 - **Prijs**: Gratis tot 100 items; Pro voor $72/jaar (eerste jaar slechts $49 met code `STANDING49`) of $9/maand.
 
-[Probeer Marqly gratis →](https://app.marqly.com/lp/replace-pocket)
+[Gratis aan de slag met Marqly →](https://app.marqly.com/lp/replace-pocket)
 
 ## 2. Raindrop.io — de beste gratis allrounder
 

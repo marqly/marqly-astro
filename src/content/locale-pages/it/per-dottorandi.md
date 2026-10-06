@@ -19,7 +19,7 @@ faqs:
   - q: "Quanto costa Marqly per un dottorando con borsa di studio?"
     a: "Piano gratuito senza carta per iniziare. Pro a 72 $/anno (49 $ il primo anno con coupon STANDING49)."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-07
 ---

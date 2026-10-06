@@ -19,7 +19,7 @@ faqs:
   - q: "Sostituisce la mia pagina iniziale corrente?"
     a: "Sì. Installando l'estensione e attivando Marqly Home, ogni nuova scheda mostrerà il tuo pannello su misura con scorciatoie, promemoria e note visibili."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-07
 ---

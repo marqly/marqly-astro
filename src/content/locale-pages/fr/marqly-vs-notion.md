@@ -25,7 +25,7 @@ faqs:
   - q: "Combien coûte Marqly ?"
     a: "Offre gratuite sans carte. Pro coûte 9 $ (soit environ 8 €) par mois ou 72 $ (soit environ 69 €) par an."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-26
 ---

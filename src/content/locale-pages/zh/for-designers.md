@@ -19,7 +19,7 @@ faqs:
   - q: "收集设计灵感是免费的吗？"
     a: "是的。免费版支持最多保存 100 条内容，并包含画板与网页荧光笔高亮功能。Pro 版（年付72美元，首年使用优惠码 STANDING49 仅需49美元）解锁全套 AI 自动分类与语义搜索能力。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加至 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

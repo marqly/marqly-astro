@@ -21,7 +21,7 @@ faqs:
   - q: "价格与免费额度如何？"
     a: "免费版可存储多达100条内容。Pro版年付72美元（首年优惠码 STANDING49 为49美元）或月付9美元。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-26
 ---

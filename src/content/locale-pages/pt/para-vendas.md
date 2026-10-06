@@ -19,7 +19,7 @@ faqs:
   - q: "Qual o valor para profissionais de vendas?"
     a: "Grátis até 100 itens. Pro por 72 $/ano (49 $ com cupom STANDING49)."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-07
 ---

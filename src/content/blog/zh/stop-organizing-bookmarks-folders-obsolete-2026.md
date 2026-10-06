@@ -23,7 +23,6 @@ faqs:
     a: "不需要。你可以保留书签栏上日常最高频使用的几个快捷文件夹，将其余全部书签导入Marqly等AI工具，依靠语义搜索来调用。"
 heroImage: ../../../assets/blog/stop-organizing-bookmarks-folders-obsolete.png
 heroAlt: "别再整理书签文件夹了：为什么2026年文件夹已经过时 — illustration"
-ogImage: "https://www.marqly.com/og/stop-organizing-bookmarks-folders-obsolete-2026.png"
 ---
 
 你不再需要花时间把书签精心整理到层层文件夹中了。在2026年，AI可以在你点击保存的一瞬间自动分析网页并生成主题标签，而语义搜索能让你通过描述大致记忆就能精准找回内容。繁琐的文件夹层级、分类纠结和周末整理已经彻底过时。

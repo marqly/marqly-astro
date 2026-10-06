@@ -11,7 +11,7 @@ tags:
   - "sauvegarde favoris"
   - "migrer favoris"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Comment exporter les favoris de Chrome ?"

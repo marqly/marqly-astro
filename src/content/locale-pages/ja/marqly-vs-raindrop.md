@@ -19,7 +19,7 @@ faqs:
   - q: "RaindropからMarqlyへデータを移行できますか？"
     a: "はい。MarqlyにはRaindrop専用のインポート機能があり、既存のブックマークやタグを数分で引き継ぐことができます。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqlyを無料で試す"
+ctaLabel: "Marqlyを無料で始める"
 ctaSecondaryLabel: "Chromeに追加 — 無料"
 updatedDate: 2026-08-16
 ---

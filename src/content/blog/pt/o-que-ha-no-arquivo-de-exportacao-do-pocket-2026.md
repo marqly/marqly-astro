@@ -11,7 +11,7 @@ tags:
   - "recuperar links pocket"
   - "abrir backup pocket"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 lang: "pt"
 faqs:
   - q: "O arquivo de exportação do Pocket contém o texto dos artigos?"

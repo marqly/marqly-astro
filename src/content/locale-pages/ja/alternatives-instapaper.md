@@ -19,7 +19,7 @@ faqs:
   - q: "Instapaperの未読記事をMarqlyへ移行できますか？"
     a: "はい。Pocketや各ブラウザの標準エクスポート形式、HTMLブックマークファイルをそのままMarqlyにインポート可能です。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqlyを無料で試す"
+ctaLabel: "Marqlyを無料で始める"
 ctaSecondaryLabel: "Chromeに追加 — 無料"
 updatedDate: 2026-09-07
 ---

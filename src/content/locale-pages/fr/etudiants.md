@@ -25,7 +25,7 @@ faqs:
   - q: "Puis-je récupérer mes favoris déjà accumulés ?"
     a: "Oui. Marqly importe depuis Pocket, depuis Raindrop et depuis les fichiers HTML de favoris exportés par n'importe quel navigateur. Vos favoris X (Twitter) peuvent aussi être récupérés."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — c'est gratuit"
 updatedDate: 2026-09-26
 ---

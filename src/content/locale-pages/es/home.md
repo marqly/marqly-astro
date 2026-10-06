@@ -25,7 +25,7 @@ faqs:
   - q: "¿Marqly funciona sin conexión?"
     a: "Sí, con Pro: las páginas marcadas se guardan en ese dispositivo y las lees sin conexión en la app web o en la app de iOS. No se sincronizan entre dispositivos, y para guardar, sincronizar y usar la IA hace falta conexión; en Android y en las extensiones no hay modo sin conexión."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prueba Marqly gratis"
+ctaLabel: "Empieza gratis con Marqly"
 ctaSecondaryLabel: "Agregar a Chrome — gratis"
 updatedDate: 2026-09-26
 ---

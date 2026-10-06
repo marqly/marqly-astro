@@ -11,7 +11,7 @@ tags:
   - "tarayıcı yedekleme"
   - "ai yer imi"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Deneyin"
+ctaLabel: "Marqly'ye Ücretsiz Başlayın"
 lang: "tr"
 faqs:
   - q: "Chrome yer imleri nasıl dışa aktarılır?"

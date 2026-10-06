@@ -11,7 +11,7 @@ tags:
   - "alternatywy dla pocket"
   - "import zakladek pocket"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Jak pobrać kopię zapasową z Pocket?"
@@ -42,7 +42,7 @@ Poniższy poradnik poprowadzi Cię przez proces bezpiecznego przeniesienia bazy 
 
 1. Załóż darmowe konto w [Marqly](https://app.marqly.com).
 2. Przejdź do **Ustawienia → Import**.
-3. Przeciągnij i upuść plik `pocket-export.html`.
+3. Otwórz ZIP i przeciągnij plik `list.csv` (podgląd `.html` nie jest importowalny do Marqly).
 4. Import trwa zazwyczaj mniej niż dwie minuty.
 
 Darmowy plan Marqly pozwala zapisać do 100 elementów; plan Pro kosztuje 72 $/rok (6 $/mies. rocznie lub 9 $/mies.) z kodem `STANDING49` (49 $ za pierwszy rok).

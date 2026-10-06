@@ -19,7 +19,7 @@ faqs:
   - q: "离开 Evernote 会失去什么功能？"
     a: "纸质文档拍照 OCR、长篇富文本排版和离线编辑。如果这些是刚需，建议保留 Evernote。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

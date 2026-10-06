@@ -12,7 +12,7 @@ tags:
   - "alternatywa dla metody para"
   - "zarzadzanie wiedza osobista"
 ctaUrl: "https://app.marqly.com/lp/knowledge-base"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Czym jest drugi mózg (Second Brain)?"

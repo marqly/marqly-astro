@@ -23,7 +23,7 @@ faqs:
   - q: "收费模式是怎样的？"
     a: "免费版最高支持保存100个书签。Pro版提供无限AI搜索与全库对话，年付72美元（首年使用优惠码 STANDING49 仅需49美元），月付9美元。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

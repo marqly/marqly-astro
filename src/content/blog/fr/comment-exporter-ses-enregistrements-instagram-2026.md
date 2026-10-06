@@ -12,7 +12,7 @@ tags:
   - "saved_posts json"
   - "sauvegarde instagram"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Peut-on exporter ses enregistrements directement depuis l'application Instagram ?"
@@ -21,7 +21,6 @@ faqs:
     a: "Uniquement l'identifiant du compte, le lien permanent du post et la date d'enregistrement. Les photos, vidéos et légendes ne sont pas incluses."
   - q: "Les liens restent-ils accessibles si le compte devient privé ou supprime le post ?"
     a: "Non, le lien devient mort. D'où l'intérêt de conserver ses inspirations et notes dans une bibliothèque dédiée comme Marqly."
-ogImage: "https://www.marqly.com/og/comment-exporter-ses-enregistrements-instagram-2026.png"
 ---
 
 Instagram vous permet de sauvegarder des publications d'un simple geste, mais **n'offre aucun bouton d'exportation pour vos enregistrements**. Impossible d'exporter une collection au format CSV ou de la partager simplement.

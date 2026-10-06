@@ -19,7 +19,7 @@ faqs:
   - q: "Vervangt het mijn huidige startpagina?"
     a: "Ja. Na installatie en activering van Marqly Home toont elk nieuw geopend tabblad jouw eigen dashboard met notities, taken en favoriete mappen."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly gratis proberen"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

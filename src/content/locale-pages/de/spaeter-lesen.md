@@ -25,7 +25,7 @@ faqs:
   - q: "Was kostet das?"
     a: "Die kostenlose Stufe braucht keine Kreditkarte. Pro kostet 72 $/Jahr (rund 66 €) oder 9 $/Monat (rund 8 €). Studierende zahlen im ersten Jahr 48 $ (rund 44 €)."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly kostenlos testen"
+ctaLabel: "Marqly kostenlos starten"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
 updatedDate: 2026-09-26
 ---
@@ -90,4 +90,4 @@ Eines vorweg, damit du nicht enttäuscht wirst: Offline-Lesen gibt es nur auf Pr
 
 Die kostenlose Stufe verlangt keine Kreditkarte. Pro kostet **72 $/Jahr (rund 66 €)** oder **9 $/Monat (rund 8 €)**, für Studierende **48 $ (rund 44 €) im ersten Jahr**.
 
-Speicher die nächsten fünf Artikel, lies am Wochenende nur die Zusammenfassungen und behalte zwei davon. [Marqly kostenlos testen](https://app.marqly.com).
+Speicher die nächsten fünf Artikel, lies am Wochenende nur die Zusammenfassungen und behalte zwei davon. [Marqly kostenlos starten](https://app.marqly.com).

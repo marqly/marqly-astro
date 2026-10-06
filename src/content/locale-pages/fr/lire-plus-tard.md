@@ -25,7 +25,7 @@ faqs:
   - q: "Et pour les vidéos que je garde pour plus tard ?"
     a: "Sur chaque page YouTube, Marqly affiche une carte IA avec un résumé, un chat et une transcription synchronisée. Vous pouvez décider en une minute si la vidéo mérite quarante minutes, et la transcription reste attachée à la vidéo sauvegardée."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — c'est gratuit"
 updatedDate: 2026-09-26
 ---

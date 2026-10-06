@@ -19,7 +19,7 @@ faqs:
   - q: "Como a busca semântica auxilia no benchmark competitivo?"
     a: "Permite pesquisar pela intenção conceitual: 'como concorrentes cobram por assento' acha os materiais certos mesmo sem palavras exatas no título."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-07
 ---

@@ -23,7 +23,6 @@ faqs:
     a: "可以。语义搜索专门针对模糊、局部的记忆进行了算法优化，能根据概念相似度进行智能排序召回。"
 heroImage: ../../../assets/blog/how-to-find-a-saved-article-you-forgot-the-title-of.png
 heroAlt: "忘记标题时如何快速找到保存的文章（2026最新技巧） — illustration"
-ogImage: "https://www.marqly.com/og/how-to-find-a-saved-article-you-forgot-the-title-of-2026.png"
 ---
 
 当你忘记了某篇已保存文章的具体标题时，请停止盲目猜测关键词，转而用一整句话描述你所记住的内容。AI语义搜索能够理解查询背后的真实含义，而不仅仅是匹配字面字符，从而在全部已存页面的全文中找到最符合概念的内容。

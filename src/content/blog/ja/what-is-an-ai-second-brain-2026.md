@@ -12,7 +12,7 @@ tags:
   - "セカンドブレイン アプリ"
   - "AI 知識管理"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqlyを無料で試す"
+ctaLabel: "Marqlyを無料で始める"
 lang: "ja"
 faqs:
   - q: "AIセカンドブレインとは何ですか？"
@@ -23,7 +23,6 @@ faqs:
     a: "はい。特にWeb上の良質な記事や動画を大量にストックしている場合、探す手間がゼロになり情報活用度が飛躍的に高まります。"
 heroImage: ../../../assets/blog/what-is-an-ai-second-brain.png
 heroAlt: "AIセカンドブレイン（第二の脳）とは？初心者向け完全解説【2026年最新】 — illustration"
-ogImage: "https://www.marqly.com/og/what-is-an-ai-second-brain-2026.png"
 ---
 
 AIセカンドブレイン（第二の脳）とは、保存したWeb記事、ブックマーク、YouTube動画、メモをAIが自動で構造化・要約し、概念や意味によって瞬時に呼び出せるようにした**次世代の個人知識ベース**です。

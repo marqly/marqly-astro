@@ -19,7 +19,7 @@ faqs:
   - q: "İlham arşivimi müşterilerime üyeliksiz sunabilir miyim?"
     a: "Evet. Örnekleri bir panoda toplayıp herkese açık bağlantı oluşturun. Müşteriniz herhangi bir hesap açmadan referansları inceler."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Dene"
+ctaLabel: "Marqly'ye Ücretsiz Başla"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

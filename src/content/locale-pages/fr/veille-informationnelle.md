@@ -25,7 +25,7 @@ faqs:
   - q: "Puis-je archiver une page susceptible de disparaître ?"
     a: "Sur Chrome et Edge, Marqly enregistre la page en PDF, avec un traitement effectué en local sur votre machine. C'est utile pour les sources fragiles, les pages amenées à évoluer ou les contenus dépubliés."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — c'est gratuit"
 updatedDate: 2026-09-26
 ---

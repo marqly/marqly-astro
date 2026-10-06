@@ -25,7 +25,7 @@ faqs:
   - q: "Preciso pagar?"
     a: "Não para começar: o plano grátis não pede cartão de crédito. O Pro custa US$ 9 por mês ou US$ 72 por ano, e inclui o chat com o que você já salvou. Estudante verificado paga US$ 48 no primeiro ano."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Teste o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-26
 ---

@@ -25,7 +25,7 @@ faqs:
   - q: "Existe alternativa gratuita?"
     a: "Sim. O Marqly tem plano grátis sem cartão, e o clipper do Obsidian é gratuito se você prefere arquivos locais."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Teste o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-26
 ---

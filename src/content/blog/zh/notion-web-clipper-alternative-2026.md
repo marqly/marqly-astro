@@ -23,7 +23,6 @@ faqs:
     a: "是的。最佳工作流是将写作和项目放在Notion中，而将网络文章的采集、速读与检索交给Marqly，保持工作区轻盈整洁。"
 heroImage: ../../../assets/blog/notion-web-clipper-alternative.png
 heroAlt: "2026年最佳 Notion Web Clipper 替代工具：更优雅地保存与找回文章 — illustration"
-ogImage: "https://www.marqly.com/og/notion-web-clipper-alternative-2026.png"
 ---
 
 Notion 在项目管理、团队协作与个人维基方面体验极佳。但如果你尝试把 Notion 当作“稍后阅读”或书签工具，很快就会遇到阻碍：排版杂乱、没有沉浸阅读模式、缺乏智能搜索，并且成百上千篇网页会把真正重要的工作数据库塞得臃肿不堪。

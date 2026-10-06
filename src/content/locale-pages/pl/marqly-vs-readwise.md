@@ -19,7 +19,7 @@ faqs:
   - q: "Jaka jest rola Marqly?"
     a: "Reader to 'kolejka do przeczytania', a Marqly to 'cyfrowy skarbiec wiedzy'. AI automatycznie analizuje zapisane strony, byś mógł odnaleźć je po miesiącach jednym zapytaniem."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"
 updatedDate: 2026-09-07
 ---

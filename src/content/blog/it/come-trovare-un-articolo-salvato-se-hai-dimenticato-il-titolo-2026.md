@@ -12,7 +12,7 @@ tags:
   - "ricerca semantica segnalibri"
   - "segnalibro perso"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Come ritrovare un segnalibro se non ricordo il titolo esatto?"
@@ -23,7 +23,6 @@ faqs:
     a: "Sì. I motori semantici basati su vettori concettuali sono stati sviluppati proprio per gestire memorie incomplete e sfumate."
 heroImage: ../../../assets/blog/how-to-find-a-saved-article-you-forgot-the-title-of.png
 heroAlt: "Come trovare un articolo salvato se hai dimenticato il titolo nel 2026 — illustration"
-ogImage: "https://www.marqly.com/og/come-trovare-un-articolo-salvato-se-hai-dimenticato-il-titolo-2026.png"
 ---
 
 Per trovare un articolo salvato quando hai dimenticato il titolo, smetti di inserire parole chiave a casaccio e scrivi una frase completa che descriva ciò che ricordi. La ricerca semantica con IA comprende il significato profondo della tua richiesta anziché fare un semplice confronto letterale, analizzando l'intero contenuto delle pagine salvate.

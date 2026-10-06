@@ -19,7 +19,7 @@ faqs:
   - q: "Wat als ik op mijn werk een Windows-pc gebruik?"
     a: "Dat is precies waarom Marqly ideaal is: in plaats van iCloud-beperkingen open je gewoon de web-app of Chrome/Edge op Windows en heb je al je Safari-links direct bij de hand."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly gratis proberen"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

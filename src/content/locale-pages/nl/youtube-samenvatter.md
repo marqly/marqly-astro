@@ -19,7 +19,7 @@ faqs:
   - q: "Hoe werkt het chatten met een video?"
     a: "Via het tabblad Chat kun je vragen stellen die direct worden beantwoord op basis van het transcript. Dit is een Pro-functie."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly gratis proberen"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

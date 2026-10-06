@@ -15,7 +15,7 @@ tags:
   - "estensione evidenziatore web"
   - "alternative weava"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Qual è il miglior evidenziatore web nel 2026?"

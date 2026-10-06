@@ -11,7 +11,7 @@ tags:
   - "recuperer donnees pocket"
   - "importer archive pocket"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Le fichier Pocket inclut-il le texte intégral des articles ?"

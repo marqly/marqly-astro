@@ -12,7 +12,7 @@ tags:
   - "aplikacja drugi mozg"
   - "zarzadzanie wiedza ai"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Czym dokładnie jest drugi mózg zasilany przez AI?"
@@ -23,7 +23,6 @@ faqs:
     a: "Tak, szczególnie do gromadzenia wiedzy z sieci. Pozwala zachować porządek w notatkach i gwarantuje, że zapisane artykuły nie przepadną."
 heroImage: ../../../assets/blog/what-is-an-ai-second-brain.png
 heroAlt: "Czym jest drugi mózg z AI? Przystępny przewodnik (2026) — illustration"
-ogImage: "https://www.marqly.com/og/czym-jest-drugi-mozg-z-ai-2026.png"
 ---
 
 Drugi mózg z AI to osobiste cyfrowe repozytorium wiedzy, które gromadzi wszystko, co zapisujesz w sieci — artykuły, zakładki, filmy i notatki — i wykorzystuje sztuczną inteligencję do ich katalogowania, streszczania oraz wyszukiwania po znaczeniu.

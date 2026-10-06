@@ -25,7 +25,7 @@ faqs:
   - q: "Peut-on utiliser les deux ?"
     a: "Oui. Un schéma courant : capturer et trier dans Marqly, écrire dans Obsidian en citant ce que vous avez trouvé."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-26
 ---

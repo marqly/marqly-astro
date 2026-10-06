@@ -19,7 +19,7 @@ faqs:
   - q: "Co jeśli w pracy korzystam z komputera z Windows?"
     a: "To największy atut Marqly. Zamiast ograniczeń iCloud masz dostęp do swoich zakładek przez aplikację internetową lub rozszerzenie Chrome/Edge w Windows."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"
 updatedDate: 2026-09-07
 ---

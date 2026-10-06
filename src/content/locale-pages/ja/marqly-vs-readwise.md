@@ -21,7 +21,7 @@ faqs:
   - q: "学割や初回割引はありますか？"
     a: "Marqly Proは年額72ドルですが、初年度クーポンSTANDING49で49ドル、認証済み学生は初年度48ドルで利用可能です。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqlyを無料で試す"
+ctaLabel: "Marqlyを無料で始める"
 ctaSecondaryLabel: "Chromeに追加 — 無料"
 updatedDate: 2026-09-07
 ---

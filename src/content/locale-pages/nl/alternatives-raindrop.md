@@ -17,7 +17,7 @@ faqs:
   - q: "Kan ik mijn Raindrop-collecties importeren in Marqly?"
     a: "Ja, Marqly heeft een directe Raindrop-importer waarmee je bladwijzers binnen een paar minuten worden overgezet."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-08-16
 ---
@@ -37,4 +37,4 @@ Raindrop zoekt strikt op trefwoorden. Weet je na een half jaar alleen nog de str
 ## 3. Behoefte aan samenvattingen en YouTube-inzichten
 Raindrop vat geen artikelen samen en doet niets met videocontent. Marqly geeft direct een AI-samenvatting en voegt synchrone transcripties toe aan YouTube-video's.
 
-[Probeer Marqly gratis](https://app.marqly.com)
+[Gratis aan de slag met Marqly](https://app.marqly.com)

@@ -21,7 +21,7 @@ faqs:
   - q: "İkisini birlikte kullanabilir miyim?"
     a: "Evet. Hızlı web araştırmalarını, alıntıları ve video transkriptlerini Marqly'de toplayıp son raporları Notion'da hazırlayabilirsiniz."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Deneyin"
+ctaLabel: "Marqly'ye Ücretsiz Başlayın"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

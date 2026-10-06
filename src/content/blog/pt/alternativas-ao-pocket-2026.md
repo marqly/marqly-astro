@@ -12,7 +12,7 @@ tags:
   - "salvar para ler depois"
   - "gerenciador de favoritos com ia"
 ctaUrl: "https://app.marqly.com/lp/replace-pocket"
-ctaLabel: "Teste o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 lang: "pt"
 faqs:
   - q: "Qual é a melhor alternativa ao Pocket em 2026?"
@@ -83,7 +83,7 @@ Se o maior calcanhar de Aquiles do Pocket era salvar com facilidade mas **sofrer
 - **Contras:** Produto mais novo que os dinossauros do setor, comunidade em rápido crescimento.
 - **Preço:** Plano grátis com até 100 itens e busca na biblioteca inteira; Pro por US$ 72/ano (~US$ 6/mês, com cupom `STANDING49` a US$ 49 no primeiro ano) ou US$ 9/mês.
 
-[Teste o Marqly grátis →](https://app.marqly.com/lp/replace-pocket)
+[Comece grátis com o Marqly →](https://app.marqly.com/lp/replace-pocket)
 
 ## 2. Raindrop.io — a melhor alternativa gratuita completa
 

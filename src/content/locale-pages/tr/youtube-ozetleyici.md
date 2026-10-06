@@ -19,7 +19,7 @@ faqs:
   - q: "Videoyla sohbet özelliği ücretli mi?"
     a: "Transkript üzerinden videoya soru sorma Pro özelliğidir (yıllık 72$ veya aylık 9$). Ücretsiz planda özet kartını deneyebilirsiniz."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

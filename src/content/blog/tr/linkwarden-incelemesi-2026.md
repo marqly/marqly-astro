@@ -11,7 +11,7 @@ tags:
   - "web sayfa arsivleme"
   - "linkwarden vs marqly"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 lang: "tr"
 faqs:
   - q: "Linkwarden kırık linkleri nasıl engeller?"

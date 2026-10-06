@@ -19,7 +19,7 @@ faqs:
   - q: "Meus trechos copiados sincronizam entre computadores?"
     a: "A captura local é gratuita. O Marqly Pro adiciona sincronização segura em nuvem entre seus dispositivos por 72 $/ano."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-07
 ---

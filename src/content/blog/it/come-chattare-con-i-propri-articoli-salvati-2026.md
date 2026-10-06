@@ -12,7 +12,7 @@ tags:
   - "risposte ia segnalibri"
   - "secondo cervello ia"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Posso chattare con gli articoli che ho salvato nei segnalibri?"
@@ -23,7 +23,6 @@ faqs:
     a: "No. L'IA analizza il testo completo per te, consentendoti di estrarre concetti chiave anche da lunghe letture accumulate nella lista."
 heroImage: ../../../assets/blog/how-to-chat-with-your-saved-articles.png
 heroAlt: "Come chattare con i propri articoli salvati e segnalibri nel 2026 — illustration"
-ogImage: "https://www.marqly.com/og/come-chattare-con-i-propri-articoli-salvati-2026.png"
 ---
 
 Chattare con i tuoi articoli salvati significa porre domande in linguaggio quotidiano e ricevere risposte sintetiche elaborate esclusivamente sulla base dei tuoi segnalibri, delle tue note e dei tuoi contenuti preferiti.

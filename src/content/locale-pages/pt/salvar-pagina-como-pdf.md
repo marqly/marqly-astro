@@ -19,7 +19,7 @@ faqs:
   - q: "O arquivo PDF fica perdido na pasta de downloads?"
     a: "Não. Ele é integrado à sua biblioteca do Marqly, com tags aplicadas por IA e busca semântica por qualquer termo ou conceito do texto."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-07
 ---

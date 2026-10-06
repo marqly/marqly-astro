@@ -19,7 +19,7 @@ faqs:
   - q: "Wat kost Marqly voor een startende ondernemer?"
     a: "Gratis tot 100 items. Pro kost $ 72/jaar (of $ 49 eerste jaar met coupon STANDING49) inclusief alle AI-functionaliteiten."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

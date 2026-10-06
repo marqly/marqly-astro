@@ -12,7 +12,7 @@ tags:
   - "Notion あとで読む"
   - "AIブックマーク管理"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqlyを無料で試す"
+ctaLabel: "Marqlyを無料で始める"
 lang: "ja"
 faqs:
   - q: "なぜNotion Web Clipperは記事保存に向いていないのですか？"
@@ -23,7 +23,6 @@ faqs:
     a: "はい。執筆やプロジェクト管理にはNotionを使い、Web記事の保存・検索にはMarqlyを使うという役割分担が最も生産的です。"
 heroImage: ../../../assets/blog/notion-web-clipper-alternative.png
 heroAlt: "記事の保存と検索に最適なNotion Web Clipper代替ツール【2026年最新】 — illustration"
-ogImage: "https://www.marqly.com/og/notion-web-clipper-alternative-2026.png"
 ---
 
 Notionはドキュメント作成やプロジェクト管理において非常に強力なツールです。しかし、Notion Web Clipperを使ってWeb上の記事を保存しようとすると、すぐに限界を感じることになります。快適なリーダーモードがなく、保存した記事に対するAI意味検索もなく、大切な作業用データベースがWebクリップで埋め尽くされてしまうからです。

@@ -19,7 +19,7 @@ faqs:
   - q: "Meus salvamentos ficam disponíveis fora do Edge?"
     a: "Sim. Seus favoritos do Marqly sincronizam com Chrome, Firefox, Safari, iPhone (iOS) e navegador web."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-07
 ---

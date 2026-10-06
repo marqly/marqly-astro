@@ -19,7 +19,7 @@ faqs:
   - q: "Waar wordt het PDF-bestand bewaard?"
     a: "Direct in je Marqly-bibliotheek, automatisch gelabeld door de AI en direct vindbaar via semantische zoekopdrachten."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

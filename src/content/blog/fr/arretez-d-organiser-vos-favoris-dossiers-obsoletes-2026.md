@@ -12,7 +12,7 @@ tags:
   - "dossiers de favoris"
   - "arreter d organiser favoris"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Peut-on organiser ses favoris sans utiliser de dossiers ?"
@@ -23,7 +23,6 @@ faqs:
     a: "Pas nécessairement. Vous pouvez conserver quelques dossiers raccourcis sur votre barre de navigation. L'essentiel est de basculer vers un gestionnaire IA comme Marqly pour capturer librement et tout retrouver par description."
 heroImage: ../../../assets/blog/stop-organizing-bookmarks-folders-obsolete.png
 heroAlt: "Arrêtez d'organiser vos favoris : pourquoi les dossiers sont obsolètes en 2026 — illustration"
-ogImage: "https://www.marqly.com/og/arretez-d-organiser-vos-favoris-dossiers-obsoletes-2026.png"
 ---
 
 Vous n'avez plus besoin d'organiser vos favoris dans des dossiers. En 2026, l'intelligence artificielle étiquette chaque lien à la seconde où vous l'enregistrez, et la recherche sémantique retrouve n'importe quel contenu en décrivant simplement ce dont vous vous souvenez. L'arborescence rigide de dossiers, les décisions de tri fastidieuses et les nettoyages du week-end sont devenus obsolètes.

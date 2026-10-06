@@ -19,7 +19,7 @@ faqs:
   - q: "Zijn er gratis alternatieven?"
     a: "Marqly en Raindrop.io hebben beide een gratis versie. Bij Marqly bewaar je tot 100 artikelen kosteloos zonder creditcard."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-07
 ---

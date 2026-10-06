@@ -23,7 +23,7 @@ faqs:
   - q: "Funciona no Safari e no iPhone?"
     a: "A extensão existe para Chrome, Edge, Firefox e Safari. No iPhone e no iPad você usa o aplicativo do Marqly para salvar, ler e buscar o que já salvou; o app web funciona em qualquer navegador."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Teste o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-08-16
 ---

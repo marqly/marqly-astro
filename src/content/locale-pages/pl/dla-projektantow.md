@@ -19,7 +19,7 @@ faqs:
   - q: "Czy Marqly jest darmowy dla projektantów?"
     a: "Tak, darmowy plan obejmuje do 100 zakładek z tablicami i zakreślaczem. Wersja Pro (72 $/rok lub 49 $ w pierwszym roku z kodem STANDING49) dodaje tagowanie AI i wyszukiwanie semantyczne."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — za darmo"
 updatedDate: 2026-09-07
 ---

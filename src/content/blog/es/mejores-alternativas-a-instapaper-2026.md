@@ -11,7 +11,7 @@ tags:
   - "marqly vs instapaper"
   - "segundo cerebro ia"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probar Marqly gratis"
+ctaLabel: "Empieza gratis con Marqly"
 lang: "es"
 faqs:
   - q: "¿Cuál es la mejor alternativa a Instapaper en 2026?"

@@ -19,7 +19,7 @@ faqs:
   - q: "使用 Marqly 进行内容策展收费吗？"
     a: "提供无需信用卡绑定的免费版（最高可存 100 条内容）。Pro 版每年 72 美元（首年使用码 STANDING49 仅需 49 美元），含全套AI功能。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "免费体验 Marqly"
+ctaLabel: "免费开始使用 Marqly"
 ctaSecondaryLabel: "添加到 Chrome — 免费"
 updatedDate: 2026-09-07
 ---

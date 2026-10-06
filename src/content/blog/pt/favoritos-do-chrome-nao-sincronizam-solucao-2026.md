@@ -11,7 +11,7 @@ tags:
   - "chrome sync"
   - "backup favoritos"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 lang: "pt"
 faqs:
   - q: "Por que o Chrome parou de sincronizar meus favoritos?"

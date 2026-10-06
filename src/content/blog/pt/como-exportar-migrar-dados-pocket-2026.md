@@ -11,7 +11,7 @@ tags:
   - "alternativas pocket"
   - "importar favoritos pocket"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 lang: "pt"
 faqs:
   - q: "Como faço o download do meu arquivo do Pocket?"
@@ -46,7 +46,7 @@ Neste guia prático, você aprenderá a resgatar seu arquivo e importá-lo em um
 
 1. Crie sua conta gratuita no [Marqly](https://app.marqly.com).
 2. Acesse **Configurações → Importar**.
-3. Arraste seu arquivo `pocket-export.html` para a janela de importação.
+3. Abra o ZIP e arraste o arquivo `list.csv` (o `.html` de visualização não é importável pelo Marqly).
 4. Em poucos instantes, todos os seus links estarão disponíveis com suas respectivas tags.
 
 O Marqly oferece plano gratuito de até 100 itens. Para bibliotecas maiores, o Marqly Pro custa $72/ano ($6/mês cobrado anualmente ou $9/mês), com cupom `STANDING49` ($49 no primeiro ano).

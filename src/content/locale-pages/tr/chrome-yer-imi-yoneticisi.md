@@ -19,7 +19,7 @@ faqs:
   - q: "Chrome'un yerleşik yer imi çubuğunun yerini mi alır?"
     a: "Birlikte çalışır: standart Chrome yıldız butonu işlevini korur. Marqly kayıtlarınızı Safari, Edge, Firefox, iOS ve web üzerinden erişilebilir hale getirir."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi ücretsiz deneyin"
+ctaLabel: "Marqly'ye ücretsiz başlayın"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

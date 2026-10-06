@@ -21,7 +21,7 @@ faqs:
   - q: "Heeft Instapaper AI-functies?"
     a: "Nee. Instapaper biedt geen automatische AI-tags, samenvattingen of semantisch zoeken. Het draait puur om handmatige mappen en letterlijke trefwoorden."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Probeer Marqly gratis"
+ctaLabel: "Gratis aan de slag met Marqly"
 ctaSecondaryLabel: "Toevoegen aan Chrome — gratis"
 updatedDate: 2026-09-26
 ---

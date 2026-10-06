@@ -19,7 +19,7 @@ faqs:
   - q: "O Marqly é gratuito para colecionar referências?"
     a: "Sim, há um plano gratuito permanente para até 100 itens com quadros e marca-texto. O plano Pro (72 $/ano ou 49 $ no primeiro ano com cupom STANDING49) inclui toda a inteligência artificial."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
 updatedDate: 2026-09-07
 ---

@@ -19,7 +19,7 @@ faqs:
   - q: "Marqly remplace-t-il les favoris intégrés de Chrome ?"
     a: "Il fonctionne en complément : la barre de favoris habituelle reste en place. Marqly synchronise vos données dans votre compte, accessible sur Safari, Edge, Firefox, iOS et le Web."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
 updatedDate: 2026-09-07
 ---

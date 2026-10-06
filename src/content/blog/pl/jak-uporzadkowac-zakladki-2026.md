@@ -12,7 +12,7 @@ tags:
   - "organizacja zakladek"
   - "drugi mozg"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Jaki jest najskuteczniejszy sposób na porządek w zakładkach w 2026 roku?"

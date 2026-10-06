@@ -19,7 +19,7 @@ faqs:
   - q: "Marqly è un tracker di candidature con colonne di stato?"
     a: "No. Non gestisce scadenze o tabelle Kanban. È la base di studio e ricerca che conserva tutte le fonti web necessarie per superare le selezioni."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Prova Marqly gratis"
+ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — gratis"
 updatedDate: 2026-09-07
 ---

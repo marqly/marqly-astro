@@ -12,7 +12,7 @@ tags:
   - "beste lesemodus app"
   - "ki leseliste app"
 ctaUrl: "https://app.marqly.com/lp/replace-pocket"
-ctaLabel: "Marqly kostenlos testen"
+ctaLabel: "Marqly kostenlos starten"
 lang: "de"
 faqs:
   - q: "Was ist 2026 die beste Später-lesen-App?"

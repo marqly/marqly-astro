@@ -12,7 +12,7 @@ tags:
   - "backup youtube"
   - "salvar videos youtube"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Experimentar o Marqly grátis"
+ctaLabel: "Comece grátis com o Marqly"
 lang: "pt"
 faqs:
   - q: "O Google Takeout inclui a lista «Assistir mais tarde»?"
@@ -21,7 +21,6 @@ faqs:
     a: "Transferindo os vídeos que valem a pena para uma playlist convencional ou salvando lotes de abas abertas em um gerenciador externo como o Marqly."
   - q: "Por que aparecem vídeos privados ou excluídos na minha lista?"
     a: "Quando o autor remove o conteúdo ou muda a privacidade, o YouTube mantém a posição vazia sem o título original, tornando impossível descobrir o que era."
-ogImage: "https://www.marqly.com/og/como-exportar-assistir-mais-tarde-do-youtube-2026.png"
 ---
 
 Uma das maiores frustrações dos usuários de vídeo: **o Google Takeout não exporta sua playlist «Assistir mais tarde»**. O serviço oficial do Google extrai suas playlists comuns, comentários e histórico, mas ignora por completo a pasta de itens guardados para depois.

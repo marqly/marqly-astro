@@ -11,7 +11,7 @@ tags:
   - "chrome sync fix"
   - "sauvegarde favoris"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Pourquoi Chrome arrête-t-il soudainement de synchroniser mes favoris ?"

@@ -21,7 +21,7 @@ faqs:
   - q: "Czy Instapaper posiada funkcje AI?"
     a: "Nie. Instapaper nie oferuje automatycznego tagowania, generowania streszczeń ani wyszukiwania semantycznego."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Wypróbuj Marqly za darmo"
+ctaLabel: "Rozpocznij za darmo z Marqly"
 ctaSecondaryLabel: "Dodaj do Chrome — bezpłatnie"
 updatedDate: 2026-09-26
 ---

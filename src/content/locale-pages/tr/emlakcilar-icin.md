@@ -19,7 +19,7 @@ faqs:
   - q: "Marqly emlak ofisi CRM programlarının yerini mi alır?"
     a: "Hayır. Açık internetteki ilan portalları, imar planları ve mahalle analizleri gibi web araştırmalarınızı düzenlemek ve müşteriye sunmak için tasarlanmıştır."
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqly'yi Ücretsiz Dene"
+ctaLabel: "Marqly'ye Ücretsiz Başla"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
 updatedDate: 2026-09-07
 ---

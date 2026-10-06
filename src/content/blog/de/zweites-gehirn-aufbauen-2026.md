@@ -12,7 +12,7 @@ tags:
   - "para methode alternative"
   - "personal knowledge management"
 ctaUrl: "https://app.marqly.com/lp/knowledge-base"
-ctaLabel: "Marqly kostenlos testen"
+ctaLabel: "Marqly kostenlos starten"
 lang: "de"
 faqs:
   - q: "Was ist ein zweites Gehirn?"

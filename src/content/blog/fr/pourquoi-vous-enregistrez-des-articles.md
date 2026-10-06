@@ -11,7 +11,7 @@ tags:
   - "productivité"
   - "surcharge informationnelle"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Essayer Marqly gratuitement"
+ctaLabel: "Commencez gratuitement avec Marqly"
 lang: "fr"
 faqs:
   - q: "Pourquoi j'enregistre des articles sans les lire ensuite ?"
@@ -55,11 +55,13 @@ Le vrai problème n'est pas la taille de la pile. C'est que **vous ne pouvez pas
 
 Une bibliothèque de quatre cents articles que vous pouvez parcourir par thème et chercher par contenu est un actif considérable. La même bibliothèque sans index est un tas de liens qui vous culpabilise.
 
+Et la pile pourrit à force d'évitement : un article peut passer en 404, devenir payant ou disparaître, pendant qu'il reste là non lu. D'où notre [vérificateur de liens morts](/tools/dead-link-checker). L'encours n'est pas un entrepôt neutre : un actif déprécié, sans qu'on le regarde.
+
 Toute la différence est là. Il ne faut pas lire davantage. Il faut pouvoir récupérer.
 
 ## Deux changements qui règlent quatre-vingt-dix pour cent
 
-**1. Trier sans lire.** Si chaque enregistrement arrive avec un résumé automatique, vous expédiez cinquante articles accumulés en quinze minutes : celui-là je le lis, de celui-ci je ne voulais que le chiffre et je l'ai, celui-là ne sert plus. La pile cesse de croître sans que vous lisiez plus.
+**1. Trier sans lire.** Si chaque enregistrement arrive avec un résumé automatique, vous expédiez cinquante articles accumulés en quinze minutes : celui-là je le lis, de celui-ci je ne voulais que le chiffre et je l'ai, celui-là ne sert plus. La pile cesse de croître sans que vous lisiez plus. Chez Marqly c'est la couche IA de Pro ; la recherche par mots-clés gratuite couvre titres et tags et désamorce l'angoisse.
 
 **2. Chercher par le sens.** Si vous pouvez récupérer n'importe quoi en le décrivant — « le truc sur pourquoi les longues réunions dégradent les décisions » — peu importe qu'il y ait quatre cents ou quatre mille éléments. Vous trouvez ce qu'il vous faut quand il vous le faut, et c'est le seul moment qui compte.
 
@@ -73,7 +75,7 @@ Par élimination, trois stratégies populaires qui échouent :
 - **S'imposer une limite d'enregistrements.** Cela va contre votre curiosité et vous ne tiendrez pas.
 - **Réserver deux heures le dimanche pour rattraper.** Deux dimanches, oui. Ensuite, non.
 
-Les trois supposent que le problème, c'est vous. Ce n'est pas le cas.
+Les trois supposent que le problème, c'est vous. Ce n'est pas le cas. Le problème est le dessin : un système qui range les liens en file d'attente et exige un comportement de lecteur.
 
 ## Comment lâcher la culpabilité
 
@@ -81,11 +83,11 @@ Un changement de cadre qui fonctionne : **cessez de l'appeler « liste à lire �
 
 Ensuite, le pratique :
 
-1. Ne supprimez pas ce que vous avez. Importez-le.
-2. Enregistrez sans filtrer et sans classer.
+1. Ne supprimez rien : importez — favoris du navigateur (HTML), [l'export Pocket](/fr/blog/que-contient-le-fichier-d-export-pocket-2026) en `list.csv`, collections Raindrop (HTML).
+2. Enregistrez sans filtrer ni classer : c'est classer qui rend l'enregistrement coûteux, et ce qui coûte est évité.
 3. Triez avec les résumés quand l'envie vient, pas par obligation.
 4. Cherchez en décrivant quand vous avez besoin de quelque chose.
 
-À mettre en place gratuitement et sans carte sur [Marqly](https://app.marqly.com), qui importe les exports Pocket, les collections Raindrop et le HTML de favoris.
+Gratuitement et sans carte sur [Marqly](https://app.marqly.com) : votre pile sert de mesure — quatre cents liens, une barre de recherche, zéro file.
 
-Et si une bonne part de votre pile est faite de vidéos jamais regardées, ce cas a sa propre solution dans [enregistrer des vidéos YouTube](/fr/enregistrer-videos-youtube). Sur la liste de lecture elle-même : [liste de lecture](/fr/liste-de-lecture).
+Et si une bonne part de votre pile est faite de vidéos jamais regardées, ce cas a sa solution dans [enregistrer des vidéos YouTube](/fr/enregistrer-videos-youtube). Et si le désordre est dans les dossiers : [organiser ses favoris](/fr/blog/organiser-favoris-navigateur). Sur la liste de lecture elle-même : [liste de lecture](/fr/liste-de-lecture).

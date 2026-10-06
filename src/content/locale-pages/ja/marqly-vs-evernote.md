@@ -21,7 +21,7 @@ faqs:
   - q: "Evernoteから乗り換える際に失うものは？"
     a: "紙文書のスキャンOCR、長文リッチテキスト執筆、オフラインモードなどです。これらが必須ならEvernoteを維持すべきです。"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Marqlyを無料で試す"
+ctaLabel: "Marqlyを無料で始める"
 ctaSecondaryLabel: "Chromeに追加 — 無料"
 updatedDate: 2026-09-07
 ---
