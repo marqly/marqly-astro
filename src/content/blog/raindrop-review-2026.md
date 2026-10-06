@@ -64,6 +64,9 @@ The newest addition. Pro users get AI-suggested tags and collections when saving
 
 Public collections, shared collections with collaborators, and clean public pages. Free includes basic sharing; it's one of the better collaboration stories among personal bookmark tools.
 
+![Raindrop Discover as served publicly](/img/evidence/raindrop-discover-2026-10-06.png)
+<figcaption class="shot-cap">Captured from the product’s public view on October 6, 2026. Our method: <a href="/how-we-test">how we test</a>.</figcaption>
+
 ## Pricing
 
 verified against [raindrop.io](https://raindrop.io) on October 6, 2026. Raindrop's site advertises a ~20% discount for yearly billing; the numbers below are the current App Store prices, which historically match the web ones.

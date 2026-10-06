@@ -47,6 +47,9 @@ The honest counterweight: you become the sysadmin. Backups, updates, TLS certs, 
 
 The project pages behind every claim below are public and worth a look before you commit a weekend to self-hosting: [Wallabag on GitHub](https://github.com/wallabag/wallabag), [Linkwarden](https://github.com/linkwarden/linkwarden), and [Karakeep](https://github.com/karakeep-app/karakeep) (all checked October 6, 2026 — release cadence and open issues tell you more than any review can).
 
+![Wallabag official site view](/img/evidence/wallabag-site-2026-10-06.png)
+<figcaption class="shot-cap">Captured from the product’s public view on October 6, 2026. Our method: <a href="/how-we-test">how we test</a>.</figcaption>
+
 ## What are the best self-hosted Pocket alternatives?
 
 There are four open-source tools worth your attention in 2026, and they're not interchangeable — they sit on a spectrum from "clean reading app" to "full web archive." Here's the honest rundown, including where each one falls short.

@@ -3,6 +3,7 @@ title: "Linkwarden Review 2026: The Archivist's Open-Source Bookmark Manager"
 seoTitle: "Linkwarden Review 2026 — Open-Source Bookmarks | Marqly"
 description: "An honest Linkwarden review for 2026: full-page archiving, $3/month cloud pricing, AI tagging, team collections — and where the open-source tool stops short."
 pubDate: 2026-08-02
+updatedDate: 2026-10-06
 ogImage: "https://www.marqly.com/og/linkwarden-review-2026.png"
 category: "Reviews"
 targetKeyword: "linkwarden review"
@@ -58,6 +59,9 @@ Linkwarden can auto-tag new saves using AI, including via local models with Olla
 ### Search with operators, RSS, API, and sync
 
 Full-text search across your archived content with search operators for precision, RSS feed subscriptions, a documented API with access tokens, bulk actions, and browser-bookmark sync via Floccus. It's a well-rounded, developer-friendly toolkit.
+
+![Linkwarden dashboard on its public demo instance](/img/evidence/linkwarden-ui-2026-10-06.png)
+<figcaption class="shot-cap">Captured from the product’s public view on October 6, 2026. Our method: <a href="/how-we-test">how we test</a>.</figcaption>
 
 ## Pricing
 

@@ -3,6 +3,7 @@ title: "Karakeep Review 2026: The Self-Hosted Bookmark App With Real AI"
 seoTitle: "Karakeep Review 2026 — Self-Hosted Bookmarks | Marqly"
 description: "An honest Karakeep review for 2026: the open-source bookmark app with AI tagging, local Ollama support, and cloud pricing — plus what running it costs you."
 pubDate: 2026-08-02
+updatedDate: 2026-10-06
 ogImage: "https://www.marqly.com/og/karakeep-review-2026.png"
 category: "Reviews"
 targetKeyword: "karakeep review"
@@ -58,6 +59,9 @@ Native iOS and Android apps, extensions for Chrome, Firefox, and Safari, plus a 
 ### Rule engine and RSS
 
 A rule-based automation engine (auto-file, auto-tag, act on matches) and RSS ingestion for hoarding feeds. Importers cover Chrome, Pocket, Linkwarden, and Omnivore, plus browser-bookmark sync via Floccus. Between the rules, the API, and the webhooks, Karakeep is unusually automatable — the kind of tool where the community shares recipes, not just screenshots.
+
+![Karakeep product view from the official site](/img/evidence/karakeep-site-2026-10-06.png)
+<figcaption class="shot-cap">Captured from the product’s public view on October 6, 2026. Our method: <a href="/how-we-test">how we test</a>.</figcaption>
 
 ## Pricing
 

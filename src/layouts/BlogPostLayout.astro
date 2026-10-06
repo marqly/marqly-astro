@@ -313,6 +313,9 @@ const jsonLd = [blogPosting, breadcrumb, softwareApp, organization(), ...(faqPag
     border: 1px solid var(--color-border);
   }
   .hero :global(img) { width: 100%; height: auto; }
+  :global(figcaption.shot-cap), .post-body :global(img[src^="/img/evidence"]) { display: block; }
+  .post-body :global(img[src^="/img/evidence"]) { width: 100%; border-radius: 12px; border: 1px solid var(--border-1, #eceef1); margin-top: 1.5rem; }
+  .post-body :global(figcaption.shot-cap) { font-size: var(--fs-xs, .8rem); color: var(--ink-3, #6b7280); margin: .4rem 0 1rem; }
 
   /* Article body */
   .post-body {
