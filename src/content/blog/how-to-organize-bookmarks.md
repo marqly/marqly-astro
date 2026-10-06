@@ -3,7 +3,7 @@ title: "How to Organize Your Bookmarks in 2026 (The Complete Guide)"
 seoTitle: "How to Organize Bookmarks in 2026 — The Complete Guide | Marqly"
 description: "Drowning in bookmarks? Here's how to organize them for good in 2026 — folders vs tags vs AI, a clean system, and how to actually find what you saved."
 pubDate: 2026-03-24
-updatedDate: 2026-06-23
+updatedDate: 2026-10-06
 category: "Guides"
 targetKeyword: "how to organize bookmarks"
 tags:
@@ -48,6 +48,8 @@ The traditional model — nested folders in your browser — fails for three str
 3. **Search is weak.** Browser bookmark search matches titles and URLs only. If you forget the exact title, the link is effectively gone.
 
 So the pile grows, nothing is findable, and you stop trusting it. And once you stop trusting it, you stop opening it — which is the real cost. A bookmark you can't find is worse than not saving at all, because you *thought* you had it. The fix isn't more discipline. Discipline is exactly what folders demand and exactly what runs out the first busy week. The fix is a better system — one that doesn't depend on you being tidy. It's also the case for [why bookmark folders are obsolete](/blog/stop-organizing-bookmarks-folders-obsolete) in the first place.
+
+Each browser's own documentation covers its export/import paths: [Firefox](https://support.mozilla.org/en-US/kb/export-firefox-bookmarks-to-backup-or-transfer) and [Safari](https://support.apple.com/guide/safari/bookmarks-menu-ibrw1029/mac) (both checked October 6, 2026); Chrome and Edge expose the same export from their bookmark managers.
 
 ## Option 1: Clean up your browser bookmarks (the quick fix)
 
