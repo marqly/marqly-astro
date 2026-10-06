@@ -2,7 +2,7 @@
 a: linkwarden
 b: karakeep
 verdict: "The two strongest open-source bookmark managers, split cleanly: Linkwarden for collaboration and a stable, cheap managed cloud; Karakeep for deeper AI — summaries and semantic search — if Docker doesn't scare you."
-updatedDate: 2026-08-02
+updatedDate: 2026-10-06
 faqs:
   - q: "Which has better search, Linkwarden or Karakeep?"
     a: "Karakeep. Its Meilisearch-backed engine covers full text and added semantic and hybrid modes in 2026, so you can find saves by meaning as well as keywords. Linkwarden's search is keyword and full-text only — thorough across archived page content, but with no semantic layer, no summaries, and no chat."
@@ -27,3 +27,7 @@ This is the closest matchup in self-hosted bookmarking. Both are open source wit
 - Safari matters: Karakeep has an extension for it; Linkwarden covers Chrome, Firefox, and Edge.
 
 The hosted comparison is lopsided for now. Linkwarden Cloud is an established product; Karakeep Cloud remains a public beta whose free tier allows just 10 bookmarks, with Pro at $4/month. Both projects shipped mobile apps recently — Linkwarden's arrived in late 2025 and are still catching up to the web experience, while Karakeep added offline reading in 2026. Neither offers AI Q&A over your saves. Teams and anyone wanting a dependable hosted service should take Linkwarden today; solo self-hosters who want their bookmarks to file and summarize themselves should take Karakeep.
+
+**Sources checked** (October 6, 2026): [Linkwarden on GitHub](https://github.com/linkwarden/linkwarden) for product scope, licence and release cadence; [docs.karakeep.app](https://docs.karakeep.app) and [the Karakeep repository](https://github.com/karakeep-app/karakeep) for the AI stack, search modes and the rename from Hoarder. Pricing lines above match what those pages and each project's cloud sign-up state on that date; prices move — check the source before committing.
+
+**Migrating between them (or toward a hosted tool):** both are open archives by design — Linkwarden's UI exports its collections and Karakeep's settings export the library — and both accept the browser-style bookmark HTML that most tools produce, so the reliable cross-tool path is bookmark HTML or CSV with a URL column rather than a vendor-locked JSON. What survives any move: URLs, titles, folders (flattened one level or two) and tags. What does not, anywhere: original save dates — the import stamps the destination date, so keep the export file if chronology matters. If the reason you are moving is retrieval rather than custody, that is the one axis where a hosted AI manager is ahead of both (see [Marqly vs Linkwarden](/compare/marqly-vs-linkwarden) and [Marqly vs Karakeep](/compare/marqly-vs-karakeep)) — and see what we measured about import fidelity in [the bookmark-export study](/research/bookmark-import-fidelity).

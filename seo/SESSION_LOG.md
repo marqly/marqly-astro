@@ -158,3 +158,7 @@ build clean and pass gates, kept for history integrity rather than rewritten. Sp
 - Cannibalization first real map: 72 queries/168 rows. Observations logged: ai-bookmark-manager trio (FAQ owns pos 13.7 — leave), diigo/memex splits healthy; memex page REJECTED (105 imp, §6).
 - ADR-002 EXECUTED: prompt keep-list (≥1clk/≥20imp 90d + all hubs) → 160 kept, 251/400 noindexed+off-sitemap; sitemap 1,343→1,092; gate 11 generalized to ADR-002. 25/25.
 - Commits: 1459941 data, plus engine/gate/ADR commit below.
+
+### 2026-10-06 — rival agent stopped; tree stabilized; D3 tranche 1
+- Codex app-servers killed on owner order; its half-finished uncommitted ★-sweep (62 review files) REVERTED: ledger bans ratings *attributed to Marqly* + AggregateRating only (gate 1/2 intact); competitor scores are legit editorial content, and the sweep was inconsistent (left "earns four and a half stars", left (3.8/5) in an seoTitle). Flagged for owner as a possible deliberate policy call. Codex's committed Phase-B work (GSC ingest guards, Bing login start, tests) KEPT and integrated.
+- Real-data refresh tranche 1 (D3): /compare/linkwarden-vs-karakeep (pos 5.4, +239 modeled uplift) + raindrop-review + export-reddit: official-source citations (every URL curl-verified 2026-10-06; docs.linkwarden.dev found dead → GitHub), migration notes, honest survives/doesn't (dates), study cross-link. 25/25 gates, rendered correctly.

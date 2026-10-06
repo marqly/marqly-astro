@@ -3,6 +3,7 @@ title: "How to Export Your Reddit Saved Posts in 2026 (Data Request, Step by Ste
 seoTitle: "How to Export Reddit Saved Posts in 2026 — Marqly"
 description: "Export Reddit saved posts via the official data request: exact steps, what the CSV contains, the 1,000-save limit, and how to make your saves usable again."
 pubDate: 2026-08-02
+updatedDate: 2026-10-06
 ogImage: "https://www.marqly.com/og/export-reddit-saved-posts.png"
 category: "Guides"
 targetKeyword: "export reddit saved posts"
@@ -16,7 +17,7 @@ ctaUrl: "https://app.marqly.com"
 ctaLabel: "Get started free"
 faqs:
   - q: "How do I export my saved posts from Reddit?"
-    a: "Go to reddit.com/settings/data-request in a desktop browser, sign in, choose your full account history, and submit. Reddit prepares a ZIP of CSV files — including saved_posts.csv and saved_comments.csv — and sends a download link to your Reddit inbox and verified email. It's the only official export Reddit offers."
+    a: "Go to reddit.com/settings/data-request in a desktop browser, sign in, choose your full account history, and submit. Reddit prepares a ZIP of CSV files — including saved_posts.csv and saved_comments.csv — and sends a download link to your Reddit inbox and verified email. It's the only official export Reddit offers (see Reddit's help on [saved posts](https://www.reddit.com/help/saved-posts/), checked October 6, 2026)."
   - q: "How long does a Reddit data request take?"
     a: "Reddit states up to 30 days, but most requests finish much faster — often within hours to a few days. You can only submit one request every 30 days, so choose the full account history option rather than a narrow date range the first time."
   - q: "What's actually inside saved_posts.csv?"

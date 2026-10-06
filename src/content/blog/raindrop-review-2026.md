@@ -3,6 +3,7 @@ title: "Raindrop.io Review 2026: The Best Bookmark Manager Money Barely Buys"
 seoTitle: "Raindrop.io Review 2026 — Pricing, Pros & Cons | Marqly"
 description: "An honest Raindrop.io review for 2026: real pricing, the generous free plan, Pro's new AI features, where it shines, and where keyword search falls short."
 pubDate: 2026-08-02
+updatedDate: 2026-10-06
 ogImage: "https://www.marqly.com/og/raindrop-review-2026.png"
 category: "Reviews"
 targetKeyword: "raindrop.io review"
@@ -65,7 +66,7 @@ Public collections, shared collections with collaborators, and clean public page
 
 ## Pricing
 
-Verified August 2026. Raindrop's site advertises a ~20% discount for yearly billing; the numbers below are the current App Store prices, which historically match the web ones.
+verified against [raindrop.io](https://raindrop.io) on October 6, 2026. Raindrop's site advertises a ~20% discount for yearly billing; the numbers below are the current App Store prices, which historically match the web ones.
 
 | Plan | Price | What you get |
 | --- | --- | --- |
