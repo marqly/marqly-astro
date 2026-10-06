@@ -134,3 +134,16 @@ A concurrent process added `2ce9f22` and replaced canonical inputs with historic
 ## Phase D1 candidate — 2026-10-06
 
 149/400 prompt details meet the exact 90-day demand bar; 251 receive noindex and leave sitemap/hreflang, while all ten category hubs plus their index remain. Shared decision and deleting-CSV rollback verified. Local sitemap: 1,092. All 25 gates pass; desktop/mobile kept and pruned visuals pass. 400 URLs logged pending live deployment. See `reports/06-prompt-pruning-2026-10-06.md`.
+
+---
+
+## 2026-10-07 (autonomous wave) — engine fix + reclaim r3–r5 + Tier-1/2 export cluster
+
+- **Deploy chain today:** `b5c0604` (r3+exports×4) → `6ec9a2a` (secParity engine fix) → `410d3b9` (r4+exports×7) → `74200ca` (r5+Android sweep). All Workers-build-verified; live sitemap = **1,408** (turn-start 1,092 → 1,309 → 1,316 → 1,364 → 1,408). IndexNow re-pinged at each stage.
+- **Engine fix (highest leverage):** section-parity compared against headingless EN sources pruned 8 rich locale tool pages (incl. 464imp/23clk FR page); vacuous-pass when enH2=0 — this alone re-indexed 124 queued candidates. Lesson logged: measure bugs before translating around them.
+- **Reclaim r3/r4/r5:** 56+36+46 = 138 pages transcreated to ≥0.9 both bars (all agent-verified `isIndexable` pre-commit); demand-driven from live 90d GSC.
+- **Export cluster:** TikTok/LinkedIn/Threads/Pinterest now localized ×7 (de/es/fr/it/ja/ko/pt) + EN hub = 32 pages, full hreflang clusters.
+- **TRUTH SWEEP (12+19 files):** "Marqly has no Android app" removed from raindrop/karakeep/readwise/linkwarden review tables+prose across ALL locales (authority: product-facts L19 Play Store URL + marqly.json). `seo/data/changes-log.csv` fully attributed.
+- **Gates:** 25/25 at every deploy; 0 broken internal links (1408 URLs, 1,963 pages).
+- **Remaining r4/r5 candidates (144 pages, ~590 imp/90d):** below ROI bar pending next GSC pull.
+- **Blocked/owner:** headless SERP harvest still challenge-walled (DDG 202/14KB block page, Bing `challenge`) → needs logged-in browser; AI-panel runs, outreach sends, Bing UI approvals unchanged. Oct-13 cohort report on schedule.
