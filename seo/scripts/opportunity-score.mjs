@@ -3,18 +3,20 @@
 // opportunities_queries.csv, opportunities_pages.csv, top3_nonbrand.txt.
 import fs from 'node:fs';
 import path from 'node:path';
+import { parseCsv } from './lib/csv.mjs';
+import { analyticsProvenance } from './lib/gsc-provenance.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..', '..');
 const GSC = process.env.GSC_DIR || path.join(ROOT, 'seo/data/gsc');
 const BRAND = /marqly|markly/i;
 const IMPROVE_BY = Number(process.env.IMPROVE_BY ?? 3); // model: what we can move a page up in ranks
+let provenance;
+try { provenance = analyticsProvenance(GSC, ['query', 'page'], { allowPartial: process.argv.includes('--allow-partial') }); }
+catch (error) { console.error(error.message); process.exit(2); }
 
 function readCsv(file) {
   if (!fs.existsSync(file)) { console.error(`missing ${file} — run gsc-pull.mjs first`); process.exit(1); }
-  const lines = fs.readFileSync(file, 'utf8').trim().split('\n');
-  const head = lines[0].split(',').map((s) => s.replace(/"/g, ''));
-  const parse = (l) => { const out = []; let cur = '', q = false; for (const ch of l) { if (ch === '"') q = !q; else if (ch === ',' && !q) { out.push(cur); cur = ''; } else cur += ch; } out.push(cur); return out.map((s) => s.trim().replace(/^"|"$/g, '')); };
-  return lines.slice(1).map((l) => { const c = parse(l); return Object.fromEntries(head.map((h, i) => [h, c[i]])); });
+  return parseCsv(fs.readFileSync(file, 'utf8'));
 }
 
 // --- position -> CTR curve -----------------------------------------------------
@@ -73,6 +75,7 @@ const pages = readCsv(path.join(GSC, 'page.csv'));
 const { curve, agg } = calibrate(queries);
 fs.writeFileSync(path.join(GSC, 'position-curve.json'), JSON.stringify({
   generatedAt: new Date().toISOString(),
+  provenance,
   model: `score = impressions × max(0, ctr(pos−${IMPROVE_BY}) − ctr(pos))`,
   prior_ASSUMED: PRIOR,
   empirical_buckets: agg,
@@ -103,7 +106,7 @@ const top3 = nonBrand.filter((r) => +r.position <= 3 && +r.impressions >= 10);
 fs.writeFileSync(path.join(GSC, 'opportunities_queries.csv'), toCSV(score(nonBrand, 'query')));
 fs.writeFileSync(path.join(GSC, 'opportunities_pages.csv'), toCSV(score(pages, 'page')));
 fs.writeFileSync(path.join(GSC, 'ghost_noise_queries.csv'), toCSV(score(queries.filter((r) => NOISE.test(r.query)), 'query')));
-fs.writeFileSync(path.join(GSC, 'top3_nonbrand.txt'), top3.length ? top3.map((r) => `${r.query}\t${r.position}\t${r.impressions}\t${r.clicks}`).join('\n') + '\n' : '');
+fs.writeFileSync(path.join(GSC, 'top3_nonbrand.txt'), top3.length ? top3.map((r) => `${JSON.stringify(r.query)}\t${r.position}\t${r.impressions}\t${r.clicks}`).join('\n') + '\n' : '');
 
 function toCSV(rows) {
   if (!rows.length) return '';
@@ -113,7 +116,7 @@ function toCSV(rows) {
 }
 
 console.log(`curve buckets: ${JSON.stringify(curve)}`);
-console.log(`non-brand queries ≥10imp in top3: ${top3.length} (KPI baseline)`);
+console.log(`non-brand API/export-visible queries ≥10imp in top3: ${top3.length}; ${provenance.analysisScope}`);
 console.log(`brand share of queries: ${brandQ.length}/${queries.length} rows`);
 console.log(`wrote opportunities_{queries,pages}.csv (top ${Math.min(5, 200)} preview):`);
 for (const r of score(nonBrand, 'query').slice(0, 5)) console.log(`  ${String(r.uplift_clicks).padStart(4)}  pos ${String(r.position).padStart(4)}  ${r.query}`);

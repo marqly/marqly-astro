@@ -1,5 +1,20 @@
 {
-  "generatedAt": "2026-10-06T08:43:06.012Z",
+  "generatedAt": "2026-10-06T09:30:59.712Z",
+  "provenance": {
+    "source": "Google Search Console UI exports",
+    "status": "UI export ingestion 2026-10-06",
+    "site": "sc-domain:marqly.com",
+    "startDate": "2026-07-06",
+    "endDate": "2026-10-03",
+    "generatedAt": "2026-10-06T09:29:30.501Z",
+    "coverage": "Files were exported from the Search Console UI. Export limits and anonymized or privacy-protected data may omit rows; API pagination completeness is not claimed.",
+    "windowDays": 90,
+    "analysisScope": "Exploratory partial-data analysis; no pruning/redirect decisions or full KPI claims",
+    "inputRows": {
+      "query": 1000,
+      "page": 1000
+    }
+  },
   "model": "score = impressions × max(0, ctr(pos−3) − ctr(pos))",
   "prior_ASSUMED": {
     "1": 0.276,
@@ -17,56 +32,76 @@
     "50": 0.003
   },
   "empirical_buckets": {
-    "5": {
-      "imp": 818,
-      "clk": 13
+    "1": {
+      "imp": 42,
+      "clk": 9
     },
-    "8": {
-      "imp": 411,
+    "2": {
+      "imp": 130,
+      "clk": 25
+    },
+    "3": {
+      "imp": 194,
       "clk": 11
     },
+    "4": {
+      "imp": 464,
+      "clk": 34
+    },
+    "5": {
+      "imp": 1307,
+      "clk": 34
+    },
+    "6": {
+      "imp": 1060,
+      "clk": 23
+    },
+    "8": {
+      "imp": 4053,
+      "clk": 98
+    },
     "10": {
-      "imp": 6178,
-      "clk": 32
+      "imp": 12437,
+      "clk": 85
     },
     "12": {
-      "imp": 1749,
-      "clk": 7
+      "imp": 2910,
+      "clk": 30
     },
     "15": {
-      "imp": 873,
-      "clk": 6
+      "imp": 1833,
+      "clk": 21
     },
     "20": {
-      "imp": 11484,
-      "clk": 57
+      "imp": 3860,
+      "clk": 16
     },
     "30": {
-      "imp": 4881,
-      "clk": 24
+      "imp": 7490,
+      "clk": 13
     },
     "50": {
-      "imp": 13000,
-      "clk": 33
+      "imp": 10922,
+      "clk": 2
     },
     "60": {
-      "imp": 1200,
-      "clk": 2
+      "imp": 2680,
+      "clk": 1
     }
   },
   "final_curve": {
-    "1": 0.276,
-    "2": 0.158,
-    "3": 0.11,
-    "4": 0.084,
-    "5": 0.0615,
-    "6": 0.049,
-    "8": 0.0368,
-    "10": 0.0259,
-    "12": 0.0246,
-    "15": 0.0196,
-    "20": 0.0105,
-    "30": 0.0067,
-    "50": 0.0028
+    "1": 0.2759,
+    "2": 0.1582,
+    "3": 0.1096,
+    "4": 0.0838,
+    "5": 0.0612,
+    "6": 0.0479,
+    "8": 0.0352,
+    "10": 0.0232,
+    "12": 0.0232,
+    "15": 0.0194,
+    "20": 0.0118,
+    "30": 0.0058,
+    "50": 0.0021
   }
 }

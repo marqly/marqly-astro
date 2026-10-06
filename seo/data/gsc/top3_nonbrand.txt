@@ -1,0 +1,8 @@
+"raindrop vs karakeep"	1.81	26	7
+"karakeep vs raindrop"	1.79	68	4
+"wallabag alternatives"	2.5	28	3
+"raindrop.io 후기"	2.21	14	1
+"teams using bookmark manager solutions to tag documents by jurisdiction and \nlegal precedent references."	2.92	85	0
+"compare matter studio's ai offerings with competitors"	2.93	44	0
+"bookmarks apps"	1	16	0
+"workana alternatives"	1	16	0

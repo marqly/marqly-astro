@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "source": "Google Search Console UI exports",
+  "status": "UI export ingestion 2026-10-06",
+  "completion": "partial",
+  "generatedAt": "2026-10-06T09:29:30.490Z",
+  "pullDate": "2026-10-06",
+  "site": "sc-domain:marqly.com",
+  "startDate": "2026-07-06",
+  "endDate": "2026-10-03",
+  "window": {
+    "kind": "explicit"
+  },
+  "dimensions": {
+    "query": [
+      "query"
+    ],
+    "page": [
+      "page"
+    ],
+    "country": [
+      "country"
+    ],
+    "device": [
+      "device"
+    ]
+  },
+  "dimensionValueFormats": {
+    "country": {
+      "country": "GSC UI display label, preserved unmodified (for example, United States)"
+    }
+  },
+  "rowCounts": {
+    "query": 1000,
+    "page": 1000,
+    "country": 222,
+    "device": 3
+  },
+  "pulls": {
+    "query": {
+      "file": "query.csv",
+      "dimensions": [
+        "query"
+      ],
+      "rows": 1000,
+      "truncated": true,
+      "rowLimitReached": true,
+      "paginationExhausted": false,
+      "startDate": "2026-07-06",
+      "endDate": "2026-10-03",
+      "provenance": {
+        "source": "GSC UI export",
+        "importedAt": "2026-10-06T09:29:30.447Z",
+        "exportFile": "Queries.csv",
+        "windowRecorded": true,
+        "note": "Owner Chrome export via amroshahbari@gmail.com; native query/page exports reach 1,000-row cap; no query-page dataset is included."
+      },
+      "dimensionValueFormats": {}
+    },
+    "page": {
+      "file": "page.csv",
+      "dimensions": [
+        "page"
+      ],
+      "rows": 1000,
+      "truncated": true,
+      "rowLimitReached": true,
+      "paginationExhausted": false,
+      "startDate": "2026-07-06",
+      "endDate": "2026-10-03",
+      "provenance": {
+        "source": "GSC UI export",
+        "importedAt": "2026-10-06T09:29:30.465Z",
+        "exportFile": "Pages.csv",
+        "windowRecorded": true,
+        "note": "Owner Chrome export via amroshahbari@gmail.com; native query/page exports reach 1,000-row cap; no query-page dataset is included."
+      },
+      "dimensionValueFormats": {}
+    },
+    "country": {
+      "file": "country.csv",
+      "dimensions": [
+        "country"
+      ],
+      "rows": 222,
+      "truncated": null,
+      "rowLimitReached": false,
+      "paginationExhausted": false,
+      "startDate": "2026-07-06",
+      "endDate": "2026-10-03",
+      "provenance": {
+        "source": "GSC UI export",
+        "importedAt": "2026-10-06T09:29:30.479Z",
+        "exportFile": "Countries.csv",
+        "windowRecorded": true,
+        "note": "Owner Chrome export via amroshahbari@gmail.com; native query/page exports reach 1,000-row cap; no query-page dataset is included."
+      },
+      "dimensionValueFormats": {
+        "country": "GSC UI display label, preserved unmodified (for example, United States)"
+      }
+    },
+    "device": {
+      "file": "device.csv",
+      "dimensions": [
+        "device"
+      ],
+      "rows": 3,
+      "truncated": null,
+      "rowLimitReached": false,
+      "paginationExhausted": false,
+      "startDate": "2026-07-06",
+      "endDate": "2026-10-03",
+      "provenance": {
+        "source": "GSC UI export",
+        "importedAt": "2026-10-06T09:29:30.490Z",
+        "exportFile": "Devices.csv",
+        "windowRecorded": true,
+        "note": "Owner Chrome export via amroshahbari@gmail.com; native query/page exports reach 1,000-row cap; no query-page dataset is included."
+      },
+      "dimensionValueFormats": {}
+    }
+  },
+  "coverage": "Files were exported from the Search Console UI. Export limits and anonymized or privacy-protected data may omit rows; API pagination completeness is not claimed."
+}

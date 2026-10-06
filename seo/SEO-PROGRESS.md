@@ -6,7 +6,7 @@ Mission: page-1 (pos 6–12) → top 3. Constraints in leverage order: authority
 
 | Phase | Days | State | Gate |
 |---|---|---|---|
-| 0 Instrumentation + baseline | 1–2 | done except GSC-API pulls (owner grant pending); owner §2 snapshot used as VERIFIED reference. See `reports/00-baseline.md` | Gate 0 reported |
+| 0 Instrumentation + baseline | 1–2 | genuine 90-day UI baseline ingested; 16-month API and query×page still blocked on Full grant. Capped exports cannot support pruning. See `reports/02-data-access-2026-10-06.md` | Gate 0 reported |
 | 1 Stop the bleeding | 3–7 | **largely DONE (local, gated).** Parity gate, E-E-A-T, titles/metas, hreflang cleanup, tools, ADRs, truth-fixes. GSC-dependent bits (prompt prune, FAQ merge-by-demand, top-100 title hand-tune) queued. | **Gate 1 report → `reports/01-gate-1.md`** |
 | 2 CTR blitz + striking-distance | 8–14 | partial (titles done; 6 tools expanded; 48 tier-1 localized upgraded). Per-page GSC strikes pending. | — |
 | 3 Money terms + clusters | 15–23 | started: `/bookmark-manager` pillar + `/research` study + homepage AEO + 11 export posts. | — |
@@ -29,16 +29,17 @@ Mission: page-1 (pos 6–12) → top 3. Constraints in leverage order: authority
 | On-strategy tools expanded (≥400w, WebApp schema) | — | **6** (1.1–2K words) | 9 |
 | Truth-bugs fixed (Pocket-HTML; pl dates) | live | **fixed + gate 13 added** | — |
 | Cannibalization consolidation (X-vs-Marqly→/compare) | — | verified already done (prior) | — |
-| Bing WMT + IndexNow | no | script ready (`indexnow.mjs`), key = owner | yes |
+| Bing WMT + IndexNow | no | Google sign-in verified; GSC connection approval pending; no sites/key imported | yes |
 
 ## Task board
 
 ### Phase 0 — final
 - [x] repo map · data layer (6 scripts incl `gsc_ingest_ui.mjs` UI-export fallback) · fresh 1,914-URL crawl → `seo/data/crawl/` · redirect verification (all PASS) · ghost-query triage (no on-page source; needs query×page)
-- [ ] **BLOCKER (owner):** add SA `marqly-seo@concise-orb-346113.iam.gserviceaccount.com` as **Full** user on `sc-domain:marqly.com`, **or** export 4 GSC CSVs → `npm run seo:ingest`. Then: top-200 list, cannibalization map, top-3 baseline.
+- [x] Genuine UI fallback: six-month raw bundle preserved; exact 90-day query/page/country/device/date CSVs ingested with provenance and immutable snapshots. Query/page each reach 1,000 rows.
+- [ ] **BLOCKER:** confirm the prepared Full grant to `marqly-seo@concise-orb-346113.iam.gserviceaccount.com` on `sc-domain:marqly.com`. API still returns 403. Native UI bundle lacks query×page; complete opportunity, cannibalization, prompt pruning and full query KPIs remain pending.
 
 ### Phase 1 — remaining (GSC/data-dependent)
-- [ ] 1.2 prompt-gallery prune — ADR-002 ready; needs per-URL clicks. **Fallback if no GSC:** prune 0-inbound-internal + <400w prompts (owner pick).
+- [ ] 1.2 prompt-gallery prune — ADR-002 ready; needs per-URL clicks. Do not treat URLs missing from the capped UI export as zero-demand.
 - [ ] 1.3 FAQ merge-by-demand — 51 faq under 500 units are mostly legit QAPages; the 2 thin ones expanded. Merge only once GSC shows which cannibalise. (Not padded.)
 - [ ] 1.7 hand-tune top-100 titles beyond the ≤60 clamp — needs GSC impression ranking.
 - [x] Tier-1 parity work completed in the prior session: 0 indexable localized stubs; the earlier 222-stub task is superseded by rounds 5–7.
@@ -56,7 +57,7 @@ _done 2026-10-05 (7 rounds)_; 3.2 remaining money-lander upgrades (read-it-later
 - [ ] unlinked brand mentions (markly.me collision) — needs owner web search
 
 ### Phase 5 — measurement
-- [x] `weekly-report.mjs` (edited-vs-control cohort + KPI deltas) · `indexnow.mjs` (Bing/ChatGPT index ping, key via env)
+- [x] `weekly-report.mjs` (dated exposure cohorts; comparable-window deltas only) · `indexnow.mjs` (Bing/ChatGPT index ping, key via env)
 - [ ] AI-citation tracking (owner runs the fixed prompt set; log to `seo/data/ai-citations.csv`)
 - [ ] GSC API access for position tracking (BLOCKER above)
 
@@ -84,7 +85,30 @@ _done 2026-10-05 (7 rounds)_; 3.2 remaining money-lander upgrades (read-it-later
 
 - Clean branch at `dc89683`, 9 commits ahead of fetched `marqly-astro/main`; no remote-only production commits. GitHub active account verified as `marqly`.
 - Search Console `sc-domain:marqly.com` opens in personal Chrome under `amroshahbari@gmail.com`; Settings identifies a delegated owner. Users lists this account as Owner and `trymarqly@gmail.com` as verified Owner.
-- `npm run seo:pull` still exits 3 / HTTP 403; the service account has not yet been granted property access. Exact Full-access form prepared, awaiting the browser policy's action-time confirmation. CSV fallback remains available.
+- `npm run seo:pull` still exits 3 / HTTP 403; the service account has not yet been granted property access. Exact Full-access form prepared, awaiting the browser policy's action-time confirmation. Genuine CSV fallback ingested in Phase B below.
 - Fresh `npm run build` exited 0 (1,936 raw HTML files); prebuild gate run passed all 25 assertions on 1,935 analysed pages and 1,343 sitemap URLs. Postbuild gates passed 25/25 on 1,935 analysed pages / 1,343 sitemap URLs.
-- Script audit found 16-month/90-day window mismatch, silent rate-limit skip, absent live manifest, and predeployment cohort misclassification; corrections underway before accepting real GSC measurements.
+- Script audit found 16-month/90-day window mismatch, silent rate-limit skip, absent live manifest, and predeployment cohort misclassification; corrections completed and validated in Phase B below.
 - Author headshot path requested; no image set. Day-30 outcomes remain unmeasured: no elapsed postdeployment observation window exists.
+
+## Continuation evidence — 2026-10-06, Phase B partial
+
+- Real owner exports preserved under `seo/data/gsc/exports/2026-10-06/{6mo,90d}` with account, property, dates and SHA-256 records. Six-month window: 2026-04-04..2026-10-03. Current decision window: exactly 2026-07-06..2026-10-03 (90 days), not the UI's calendar three-month preset.
+- Canonical `MANIFEST.json` identifies genuine UI exports, partial completion, per-file windows and 1,000-row caps. Current rows: query 1,000; page 1,000; country 222; device 3; date 90. Earlier owner-snapshot evidence remains archived under `snapshots/`.
+- Exploratory scoring written with explicit partial-data provenance. Cannibalization exits 2 because query×page is missing; no pruning, redirect, title, or content decision was made from this sample.
+- Pull scripts now paginate available rows, retry the same failed page, publish atomically, preserve snapshots and separate history from current decision windows. Reporting excludes PENDING deployments and marks any in-window deployment as mixed exposure. Multiline CSV records are parsed correctly.
+- Bing sign-in via `amroshahbari@gmail.com` succeeded. Import panel requests persistent read-only GSC access; confirmation requested before the connection. No Marqly properties, sitemap, or IndexNow key imported yet.
+- Validation: 12/12 regression tests pass; fresh build exits 0; SEO checks 25/25 PASS, 1,935 analysed pages / 1,343 sitemap URLs.
+- Handoff order preserved: Phase C deployment awaits completion of Phase B. No production push or outreach send completed. Headshot request remains pending.
+
+## Dated baseline and Day-30 measurements
+
+| Metric | Genuine baseline, 2026-07-06..2026-10-03 | Day 30 | Source / limitation |
+|---|---|---|---|
+| Property clicks | 3,338 | Unmeasured | GSC UI daily chart; 90 rows |
+| Property impressions | 235,062 | Unmeasured | GSC UI daily chart; 90 rows |
+| US CTR | 0.68% (502 / 73,711) | Unmeasured | GSC UI country aggregate |
+| Full top-50 nonbrand query CTR | Unmeasured | Unmeasured | 1,000-row query export cannot establish full top-50 by impressions |
+| Full nonbrand top-3 count | Unmeasured | Unmeasured | Export contains 8 qualifying queries; observed lower bound only |
+| Top-50 **exported** nonbrand query CTR | 0.32% (partial sample) | Unmeasured | Exploratory sample metric, not the full KPI |
+
+Day 30 is not an elapsed postdeployment period. Future outcomes remain unmeasured; the weekly report at `reports/weekly-2026-10-06.md` records the current evidence.

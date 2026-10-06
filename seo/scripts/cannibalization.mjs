@@ -3,29 +3,30 @@
 // Rule (per master prompt §4.0.2): every page holding >=10% of a query's impressions is a co-owner.
 import fs from 'node:fs';
 import path from 'node:path';
+import { parseCsv } from './lib/csv.mjs';
+import { analyticsProvenance } from './lib/gsc-provenance.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..', '..');
 const GSC = process.env.GSC_DIR || path.join(ROOT, 'seo/data/gsc');
 const IN = path.join(GSC, 'query_page.csv');
 const OUT = path.join(GSC, 'cannibalization.csv');
 const BRAND = /marqly|markly/i;
+let provenance;
+try { provenance = analyticsProvenance(GSC, ['query_page']); }
+catch (error) { console.error(error.message); process.exit(2); }
 
 if (!fs.existsSync(IN)) { console.error(`missing ${path.relative(ROOT, IN)} — run gsc-pull first`); process.exit(1); }
 
-const lines = fs.readFileSync(IN, 'utf8').trim().split('\n');
-const head = lines[0].split(',').map((s) => s.replace(/"/g, '').trim());
-const iQ = head.indexOf('query'), iP = head.indexOf('page'), iI = head.indexOf('impressions'), iC = head.indexOf('clicks'), iPos = head.indexOf('position');
-if (Math.min(iQ, iP, iI) < 0) { console.error(`header mismatch in ${path.basename(IN)}: ${head.join(',')} — expected query,page,impressions,clicks[,position]`); process.exit(2); }
-const parse = (l) => { const out = []; let cur = '', q = false; for (const ch of l) { if (ch === '"') q = !q; else if (ch === ',' && !q) { out.push(cur); cur = ''; } else cur += ch; } out.push(cur); return out.map((s) => s.trim().replace(/^"|"$/g, '')); };
-
+const records = parseCsv(fs.readFileSync(IN, 'utf8'));
+if (records.length && !['query', 'page', 'impressions'].every((key) => key in records[0])) {
+  console.error(`header mismatch in ${path.basename(IN)} — expected query,page,impressions,clicks[,position]`); process.exit(2);
+}
 const byQuery = new Map();
-for (const l of lines.slice(1)) {
-  const c = parse(l);
-  const query = (c[iQ] || '').toLowerCase(), page = c[iP];
-  if (!query || !page) continue;
-  if (BRAND.test(query)) continue; // brand queries: multiple pages ranking is normal, not cannibalization
+for (const r of records) {
+  const query = (r.query || '').toLowerCase(), page = r.page;
+  if (!query || !page || BRAND.test(query)) continue;
   if (!byQuery.has(query)) byQuery.set(query, []);
-  byQuery.get(query).push({ page, imp: +c[iI] || 0, clicks: +c[iC] || 0, pos: +c[iPos] || 0 });
+  byQuery.get(query).push({ page, imp: +r.impressions || 0, clicks: +r.clicks || 0, pos: +r.position || 0 });
 }
 
 const out = [];
@@ -44,6 +45,7 @@ out.sort((a, b) => b.total_imp - a.total_imp || a.query.localeCompare(b.query));
 const cols = Object.keys(out[0] || { query: 1 });
 const esc = (v) => `"${String(v ?? '').replaceAll('"', '""')}"`;
 fs.writeFileSync(OUT, [cols.join(','), ...out.map((r) => cols.map((c) => esc(r[c])).join(','))].join('\n') + '\n');
+fs.writeFileSync(path.join(GSC, 'cannibalization-provenance.json'), JSON.stringify(provenance, null, 2) + '\n');
 
 const qcount = new Map();
 for (const r of out) qcount.set(r.query, (qcount.get(r.query) || 0) + 1);

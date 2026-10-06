@@ -1,0 +1,48 @@
+{
+  "source": "Google Search Console UI CSV download",
+  "account": "amroshahbari@gmail.com",
+  "site": "sc-domain:marqly.com",
+  "startDate": "2026-04-04",
+  "endDate": "2026-10-03",
+  "exportDate": "2026-10-06",
+  "downloadedVia": "owner personal Chrome session",
+  "queryPageAvailable": false,
+  "files": {
+    "Pages.csv": {
+      "rows": 1000,
+      "sha256": "fe17b095bb48376ed3d199e3b23ec9ee85beaccf3caf045dca6b4f9db089a16a",
+      "rowLimitReached": true
+    },
+    "Countries.csv": {
+      "rows": 222,
+      "sha256": "2d09745913920326dfb476cde1a18ac21d0e10f5611181f7837eea8b7c55c3b0",
+      "rowLimitReached": null
+    },
+    "Devices.csv": {
+      "rows": 3,
+      "sha256": "f8cac4d19839772ced312f5da89e12f12aba1a3274369125fc6a86fef13d851d",
+      "rowLimitReached": null
+    },
+    "Chart.csv": {
+      "rows": 183,
+      "sha256": "a719a32847fb37fb344544a9669d35aa3a5a1f4a6b0e8871e68d35d7ac17d42a",
+      "rowLimitReached": null
+    },
+    "Queries.csv": {
+      "rows": 1000,
+      "sha256": "b49c0cf33cc48680de80c7324329e85c1f9dc9d57bfea7ab517502edb0e7a935",
+      "rowLimitReached": true
+    },
+    "Filters.csv": {
+      "rows": 2,
+      "sha256": "6fbfc706a9c5f1e35cc52c1b2c405093706f486766681b15e6afd8ac387664a2",
+      "rowLimitReached": null
+    },
+    "Search appearance.csv": {
+      "rows": 2,
+      "sha256": "1655d348b2f7b95b9a1818a4c59f2e32f1d834260cce0ef5919284d4f0c8c957",
+      "rowLimitReached": null
+    }
+  },
+  "limitations": "Query and page exports reached 1,000 rows. No query-by-page export; do not infer zero demand for omitted URLs."
+}

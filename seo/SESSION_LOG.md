@@ -1,5 +1,22 @@
 # SESSION_LOG — append one entry per session (newest on top)
 
+## 2026-10-06 — Continuation, Phase B partial data recovery
+
+**Done / evidence**
+- Six-month GSC CSV download saved locally at 2026-10-06T09:21:50Z (download file timestamp) for `sc-domain:marqly.com` under personal Chrome account `amroshahbari@gmail.com`; window 2026-04-04..2026-10-03. Exact 90-day CSV download saved locally at 2026-10-06T09:23:35Z (download file timestamp), window 2026-07-06..2026-10-03. Source: `https://search.google.com/search-console/performance/search-analytics?resource_id=sc-domain:marqly.com`. Raw exports and SHA-256 provenance preserved at `seo/data/gsc/exports/2026-10-06/`. No secret key copied to the repository.
+- 09:29:30Z: ingested five supported 90-day dimensions into canonical dataset. Rows: query/page 1,000 each, country 222, device 3, date 90. Query/page hit export caps; no query×page file exists. Manifest says UI exports / partial, never live API. Old owner-snapshot files archived in immutable snapshots.
+- Genuine baseline: 3,338 property clicks / 235,062 impressions. US: 502 / 73,711 = 0.68% CTR. Full top-50 CTR and full nonbrand top-3 remain unknown; exported subset has 0.32% top-50 CTR and 8 qualifying top-3 queries, labeled sample/lower-bound.
+- Ran exploratory scoring with `--allow-partial`; `position-curve.json` records the input source/window/scope. Cannibalization deliberately exits 2 on missing `query_page`. No source URL was edited or pruned from incomplete data.
+- Fixed data scripts: Pacific calendar windows, exhaustive available-row pagination, bounded same-page retries, atomic publication, canonical manifest casing, source/window/truncation guards, multiline CSV, country-label handling, percentage normalization, and snapshot preservation. Root integrated delegated GSC changes and reporting fixes.
+- API re-probe log completed at 2026-10-06T09:29:56Z still returns 403 / exit 3. Verified SHA-256 of manifest plus all five current dimension files unchanged after failure. The exact Full grant remains unsubmitted pending action-time confirmation.
+- Bing Google login succeeded on 2026-10-06 (exact submission timestamp not captured) as `amroshahbari@gmail.com`: `https://www.bing.com/webmasters`. GSC Import panel requests persistent read-only access; connection approval requested. No property import, sitemap submission, or IndexNow key setup completed.
+- Focused regression tests: 12/12 pass. Fresh build exits 0 (1,936 raw HTML files); SEO checks exit 0 with 25/25 PASS on 1,935 analysed pages / 1,343 sitemap URLs. Logs: `active/tmp/{build,seo-check}-phase-b-2026-10-06.log`. Code/docs whitespace check passed; genuine CSV evidence retains whitespace inside quoted multiline fields. No production deploy, outreach send, account switch, analytics or Cloudflare zone change.
+
+**Next / blocking inputs**
+- Confirm prepared GSC Full grant and Bing persistent read-only connection, then collect 16-month history plus exact 90-day API dataset, run complete analysis, import both Marqly properties and prepare IndexNow.
+- Continue C → D → E → F after Phase B; maintain the handoff's order. Owner headshot path still requested; no photo chosen. Day-30 outcomes need a future observation window and are not fabricated.
+
+
 ## 2026-10-06 — Continuation, Phase A access discovery
 
 **Done / evidence**
