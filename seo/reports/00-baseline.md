@@ -37,7 +37,7 @@ By-template volume (units avg / thin / stub@strict): `blog` 1,733/0/0 · `blog-l
 - Prune-first candidates: 852 (section-aware) locale pages; 400 prompt pages await the clicks/impressions keep-rule (needs GSC); 63 FAQ + 20 tools have targeted upgrades instead (Phase 2.4).
 - Unpaired-locale list (ships with **zero hreflang**, 10 items — add rows to `TRANSLATIONS` or noindex): `/de/blog/warum-du-artikel-speicherst-die-du-nie-liest`, `/de/datenschutz-fragen`, `/es/blog/por-que-guardas-articulos-que-nunca-lees`, `/es/usos/guardar-links-redes`, `/fr/blog/pourquoi-vous-enregistrez-des-articles`, `/fr/veille-informationnelle`, `/it/blog/perche-salvi-articoli-che-non-leggi`, `/it/importa-preferiti`, `/pt/blog/por-que-voce-salva-artigos-que-nunca-le`, `/pt/para-concurseiros`.
 
-## 4. Ghost-query investigation (status: UNKNOWN → resolved by pull)
+## 4. Ghost-query investigation — RESOLVED 2026-10-06 (live 90-day API pull)
 
 No `youtube\d{2,}`-style tokens exist in `src/`, `public/`, or built `dist/` page text (`/tools/reading-time`, `/es/blog/chatear-con-videos-de-youtube-2026` checked) — so the 143 `^youtube\d+$` queries are **not** on-page text. Hypotheses: (a) Google **image/video search** query attribution (ytimg-style filenames), (b) Discover/AI-surface normalization. Resolution = `query_page.csv` filter `^youtube\d+$` (one line once the pull lands). Off-topic ("physics tuition singapore") follows the same path. Both excluded from KPI math regardless.
 
