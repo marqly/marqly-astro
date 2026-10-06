@@ -94,3 +94,12 @@
 - The collection `updatedDate` existed but was DISPLAYED on nothing except blog (REPO-MAP §8 gap). New `UpdatedDate.astro` (renders only a real date; ISO in `<time>` so visible + schema share one value). Wired: **FAQ** (+`dateModified` into qaPage → visible≡schema, verified `/faq/*` both 2026-08-02), **usecase landers**, **prompt detail** pages. Compare pages already fresh via SourceNote's dated verification block.
 - Deliberately NOT wired into LocaleLander — an English "Last updated" on a fr/ja/de/ko page breaks the localized-chrome rule (gate 8); verified 0 localized pages leaked it.
 - §4.3 gaps closed: `/blog/export-chrome-bookmarks` + `/blog/export-raindrop-bookmarks` (Raindrop grounded in live help.raindrop.io/export; Chrome path from chrome://bookmarks — Google's help 404s to bots so no citation invented). Chrome-sync guide → native ja/ko/zh at parity; **zh auto-re-enabled** (was pruned) purely by hitting the 0.8 bar — the ADR-001 re-enable path proven live. `/for-teachers` seoTitle retargeted off an invented keyword to the real §2.5 demand. Study: citable Key-findings TL;DR + 12 inbound parents. 25/25 gates; 1,343 sitemap URLs; 21 new EN pages.
+
+### Session 6b — work committed (branch feat/seo-program-phase1; nothing pushed to deploy remote)
+7 logical commits: fb95d7e engine+workspace · 4c328c3 E-E-A-T · 731431b EN content/study ·
+ab43c8b localization+CTA sweeps · 9e86758 tools/FAQ/cannibalization · 8fb4257 ledger+lab-notes ·
+ddd12dd OG assets. Rebuilt FROM the committed tree: 25/25 gates, 12/12 redirects.
+DISCLOSURE: two changes that predated this session rode into commit 9e86758 (they were uncommitted
+working-tree edits when I started): src/pages/teams.astro Product->SoftwareApplication schema rewrite,
+and _redirects legacy /year->/pricing, /terms-of-use->/terms. Not authored by me this session; they
+build clean and pass gates, kept for history integrity rather than rewritten. Split-out on request.
