@@ -1,5 +1,22 @@
 # SESSION_LOG — append one entry per session (newest on top)
 
+## 2026-10-06 — Continuation, Phase A access discovery
+
+**Done / evidence**
+- Read the handoff, CLAUDE lab notes, progress board, Gate 1, ADRs 001–006, outreach conventions and GSC manifest. Repository audit delegated read-only; no app repository, analytics configuration, or zone settings touched.
+- Starting tree clean at `dc89683` on `feat/seo-program-phase1`. `git fetch marqly-astro` succeeded: HEAD is 9 ahead / 0 behind production; `gh api user` = `marqly`.
+- Personal Chrome: opened `https://search.google.com/search-console?resource_id=sc-domain:marqly.com` at approximately 2026-10-06T09:14Z. Account `amroshahbari@gmail.com` can see property; Settings says delegated owner. Users lists Amro as Owner and `trymarqly@gmail.com` as Owner Verified. No account switching needed.
+- API probe: `npm run seo:pull` exits 3 with property-permission 403 (2025-06-06..2026-10-03). Existing snapshot files unchanged.
+- Prepared exact Full grant to `marqly-seo@concise-orb-346113.iam.gserviceaccount.com` in the UI; ADD has not been submitted. The CUA policy requires action-time confirmation for new access; requested asynchronously.
+- macOS denied reading Chrome Local State for the handoff's profile-copy fallback; continued through native UI without bypassing OS permissions. User switched Chrome windows during work; returned to the SEO window via the Window menu.
+- Fresh build exits 0: 1,936 raw HTML files. Gate run before rebuild: 25/25 PASS, 1,935 analysed pages / 1,343 sitemap URLs. Postbuild gate log: `active/tmp/seo-check-handoff-postbuild.log`.
+- Asked owner to choose an author headshot by full file path. No photo guessed.
+
+**Next**
+- Confirm/submit GSC grant or use UI CSV fallback; fix pull-window/provenance/retry safeguards before accepting live baselines.
+- Phase B → C → D → E → F remain queued in handoff order. No deploy, outreach, new account, or permission mutation completed yet. Day-30 metrics cannot be measured before an observation window exists.
+
+
 ## Session 3 (2026-10-05) — Phase 1/3 build-out, authorized to run end-to-end
 
 **Done (local + 25 build gates green; NOT deployed — production push is human-gated)**
