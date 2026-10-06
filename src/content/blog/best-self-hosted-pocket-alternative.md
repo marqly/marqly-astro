@@ -3,6 +3,7 @@ title: "The Best Self-Hosted Pocket Alternative in 2026 (and When a Hosted App W
 seoTitle: "Best Self-Hosted Pocket Alternative 2026 — Marqly"
 description: "The best self-hosted Pocket alternative in 2026, honestly compared: Wallabag, Karakeep, Linkwarden, and ArchiveBox — setup, search, and when a hosted app wins."
 pubDate: 2026-06-23
+updatedDate: 2026-10-06
 category: "Comparisons"
 targetKeyword: "self-hosted pocket alternative"
 tags:
@@ -43,6 +44,8 @@ Self-hosting a read-it-later app buys you three things a SaaS can't: **ownership
 That's the genuine upside, and it's a big one. If you've spent years building a reading archive, the idea that it can't be deleted out from under you is worth real effort. Self-hosters also tend to value the fact that an open-source tool can be forked, audited, and kept alive by a community even if the original maintainer walks away — which is more or less what happened when Hoarder became the community-run Karakeep.
 
 The honest counterweight: you become the sysadmin. Backups, updates, TLS certs, the occasional broken upgrade, and the security of your own box are now your job. That's a fair trade for a lot of people in this audience and a bad one for others. Be clear-eyed about which you are before you provision anything. If you're still deciding whether read-it-later is even the right category for you, our [best read-it-later apps overall](/blog/best-read-it-later-apps-2026) roundup covers the hosted field too.
+
+The project pages behind every claim below are public and worth a look before you commit a weekend to self-hosting: [Wallabag on GitHub](https://github.com/wallabag/wallabag), [Linkwarden](https://github.com/linkwarden/linkwarden), and [Karakeep](https://github.com/karakeep-app/karakeep) (all checked October 6, 2026 — release cadence and open issues tell you more than any review can).
 
 ## What are the best self-hosted Pocket alternatives?
 

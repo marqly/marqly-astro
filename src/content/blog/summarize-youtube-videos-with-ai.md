@@ -3,6 +3,7 @@ title: "How to Summarize YouTube Videos with AI (Right on the Watch Page)"
 seoTitle: "Summarize YouTube Videos with AI (2026 Guide) — Marqly"
 description: "The fastest way to summarize YouTube videos with AI is an extension that puts the summary on the watch page itself. Here's how — plus honest alternatives."
 pubDate: 2026-07-04
+updatedDate: 2026-10-06
 category: "Guides"
 targetKeyword: "summarize youtube videos with ai"
 tags:
@@ -31,6 +32,8 @@ ogImage: "https://www.marqly.com/og/summarize-youtube-videos-with-ai.png"
 To **summarize a YouTube video with AI**, you have three options: copy the transcript into ChatGPT, paste the URL into a summarizer website, or install a browser extension that generates the summary on the watch page itself. The extension route is fastest — the summary appears next to the video within seconds, with no copying and no tab-switching.
 
 The rest of this guide walks through all three methods honestly, including exactly how many steps each one costs you per video, and ends with what a good AI summary should actually look like.
+
+YouTube's own [captions & transcript help](https://support.google.com/youtube/answer/2734796) (checked October 6, 2026) is the reference for what the native transcript actually is — creator captions, community captions (retired), and auto-generated ones. Every summarization method here builds on that transcript, so when a video has none (mute uploads, live still running), no summarizer can invent one; that's a data limit, not a tool failure.
 
 ## Why summarize a YouTube video before watching it?
 

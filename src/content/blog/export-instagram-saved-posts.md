@@ -3,6 +3,7 @@ title: "How to Export Your Instagram Saved Posts in 2026 (Download Your Informat
 seoTitle: "How to Export Instagram Saved Posts in 2026 — Marqly"
 description: "Instagram has no export button for saves. Here's the Download Your Information route, what's actually inside saved_posts.json, and how to make those saves usable."
 pubDate: 2026-08-16
+updatedDate: 2026-10-06
 category: "Guides"
 targetKeyword: "export instagram saved posts"
 tags:
@@ -39,6 +40,8 @@ Instagram's Saved screen works fine until it doesn't. Three things go wrong as t
 - **Everything lives inside one app.** The recipes, the design references, the gear recommendations, the apartment inspiration — none of it can be pulled into whatever else you use to think.
 
 That last point is the [Pocket shutdown](/blog/how-to-export-migrate-pocket-data) lesson applied to a platform that's in no danger of shutting down: saves inside someone else's app are only as accessible as that app chooses to make them. Instagram chooses "barely." The same is true of [X bookmarks](/blog/export-twitter-x-bookmarks) and [Reddit saves](/blog/export-reddit-saved-posts) — this is a pattern, not a quirk.
+
+Before the steps: Meta documents this flow on its own help pages — [download your information](https://help.instagram.com/1662330571473) and the [access tool](https://www.instagram.com/accounts/accesstool/) (both reachable October 6, 2026). Menu labels shift between app versions; if a step below doesn't match your screen, search that help center for "download your information" rather than trusting this list.
 
 ## Step 1: Request the download
 
