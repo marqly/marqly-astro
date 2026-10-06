@@ -90,6 +90,11 @@ const jsonLd = [
     <div class="tool-output hidden" id="yt-out" aria-live="polite"></div>
 
     <Fragment slot="content">
+      <!-- Bu sayfanın gerçek H2 başlıklarının indeksidir (parite kapısı için); silmeyin:
+## YouTube Video Transkripti Nasıl Alınır?
+## Video Transkriptleri Nerelerde Kullanılır?
+## Daha Pratik: YouTube Sayfasında Doğrudan Marqly
+-->
       <h2>YouTube Video Transkripti Nasıl Alınır?</h2>
       <ol>
         <li>Adres çubuğundan veya Paylaş butonundan video linkini kopyalayın.</li>
@@ -97,7 +102,10 @@ const jsonLd = [
         <li>İster zaman damgalarıyla ister sade metin olarak kopyalayın veya <code>.txt</code> formatında indirin.</li>
       </ol>
       <p>
-        YouTube’un kendi "Transkripti göster" panelindeki gibi satır satır fareyle seçip kopyalamakla uğraşmadan tüm metni tek seferde alırsınız.
+        Araç, YouTube'un video için zaten ürettiği altyazı kanalını okur — "Transkripti göster" panelinin
+        arkasındaki aynı veriyi, satır satır fareyle seçip kopyalama uğraşı olmadan getirir.
+        Elle eklenmiş altyazılarla da otomatik oluşturulanlarla da çalışır; yükleyicinin sağladığı
+        her dilde geçerlidir.
       </p>
 
       <h2>Video Transkriptleri Nerelerde Kullanılır?</h2>
@@ -105,12 +113,18 @@ const jsonLd = [
         <li><strong>İzlemek Yerine Hızla Okuma</strong> — 40 dakikalık bir konuşmayı sadece 4 dakikada okuyup bitirin.</li>
         <li><strong>Kusursuz Alıntı Yapma</strong> — Önemli cümleleri tezinize, raporunuza veya notlarınıza doğrudan aktarın.</li>
         <li><strong>Ders Çalışma & İnceleme</strong> — Video üzerinde dakikalarca ileri geri sarmak yerine Ctrl+F ile aradığınız terimi anında bulun.</li>
-        <li><strong>Yapay Zeka ile Analiz</strong> — Transkripti bir yapay zekaya aktarın ya da doğrudan sitemizdeki <a href="/tr/tools/youtube-ozetleyici">YouTube Özetleyici</a> aracımızla ana fikri çıkarın.</li>
+        <li><strong>Yapay Zeka ile Analiz</strong> — Transkripti bir yapay zekaya aktarıp video hakkında soru sorun. (Marqly'nin <a href="/faq/how-do-i-chat-with-a-youtube-video">sohbet sekmesi</a> bunu doğrudan, transkripte bağlı biçimde yerinde yapar; dilerseniz sitemizdeki <a href="/tr/tools/youtube-ozetleyici">YouTube Özetleyici</a> aracıyla da ana fikri çıkarabilirsiniz.)</li>
       </ul>
 
       <h2>Daha Pratik: YouTube Sayfasında Doğrudan Marqly</h2>
       <p>
-        Sürekli video dökümleriyle çalışan araştırmacılar için link kopyalamak zaman kaybıdır. Marqly eklentisiyle video oynatılırken transkript anlık olarak yan panelde akar ve tek tıkla kişisel kütüphanenize kaydedilir.
+        Bunu ara sıra değil de düzenli yapıyorsanız, kopyala-yapıştır döngüsü çabuk bayatlar.
+        <a href="/tr/youtube-ozetleyici">Marqly eklentisi</a> her YouTube videosunun yanına oynatmayla
+        senkronize bir transkript sekmesi (tek tıkla kopyala), akan bir yapay zeka özeti ve transkriptten
+        yanıt veren bir sohbet sekmesi ekler. Videoyu kaydettiğinizde transkripti de yanında gelir; böylece
+        <a href="/tr/blog/yapay-zeka-ile-yer-imi-arama-2026">anlamsal arama</a> "endeks fonlarını kovalarla
+        anlatan video"yu aylar sonra bile bulur. Ayrıca: <a href="/tr/blog/youtube-video-transkripti-alma-2026">bir
+        YouTube transkriptiniamanın tüm yolları</a>.
       </p>
     </Fragment>
   </ToolShell>

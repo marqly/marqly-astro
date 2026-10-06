@@ -16,15 +16,19 @@ const faqs = [
   },
   {
     q: 'Waarom kan er geen transcript worden gevonden?',
-    a: 'Als de maker ondertitels heeft uitgeschakeld of de video net is geüpload en nog geen automatische ondertiteling heeft, is er geen tekst beschikbaar. Als YouTube wel ondertitels toont in de browser, kan de Marqly-extensie deze direct lokaal uitlezen.',
+    a: 'Sommige video\'s hebben ondertitels die de uploader heeft uitgeschakeld, en heel nieuwe uploads hebben soms nog geen automatische ondertiteling. Als YouTube in je browser wél ondertitels toont maar de tool faalt, beperkt YouTube mogelijk de server-request — de Marqly-extensie leest de ondertitels direct in je browser, wat dat geheel omzeilt.',
   },
   {
     q: 'Werkt dit ook met automatische ondertiteling?',
-    a: 'Ja. Als de uploader handmatige ondertitels heeft toegevoegd gebruiken we die, anders valt de tool terug op de automatische ondertiteling van YouTube.',
+    a: 'Ja. Als de uploader handmatige ondertitels heeft toegevoegd gebruiken we die, anders valt de tool terug op de automatische ondertiteling van YouTube. Automatische ondertitels horen soms woorden verkeerd, dus check namen en vaktermen nog even tegen de video.',
   },
   {
     q: 'Kan ik het transcript met tijdstempels downloaden?',
     a: 'Ja, vink simpelweg "Tijdstempels behouden" aan of uit naar wens voordat je op kopiëren of downloaden klikt.',
+  },
+  {
+    q: 'Is dit echt gratis?',
+    a: 'Ja — geen registratie, geen watermerk, geen dagelijkse betaalmuur. De tool bestaat omdat de extensie van Marqly dit doet (plus AI-samenvattingen en transcript-geankerde chat) op elke YouTube-pagina, en we laten het je liever zien dan vertellen.',
   },
 ];
 
@@ -51,6 +55,7 @@ const jsonLd = [
   jsonLd={jsonLd}
   lang="nl"
   alternates={alternatesForPath(path)}
+  ogImage="https://www.marqly.com/og/seo/tool-youtube-transcript.png"
   showLinkHub={false}
   localeLinkHub="nl"
 >
@@ -97,7 +102,7 @@ const jsonLd = [
         <li>Kopieer de volledige tekst of download het als <code>.txt</code>-bestand.</li>
       </ol>
       <p>
-        Dit leest dezelfde ondertitels uit als YouTube's eigen 'Transcript weergeven'-paneel, maar zonder eindeloos te scrollen en stukje bij beetje te selecteren.
+        Dit leest dezelfde ondertiteltrack uit als YouTube's eigen 'Transcript weergeven'-paneel, maar zonder eindeloos te scrollen en stukje bij beetje te selecteren. Het werkt met handmatige ondertitels én automatische, in elke taal die de uploader heeft voorzien.
       </p>
 
       <h2>Waarom transcripties zo handig zijn</h2>
@@ -110,7 +115,16 @@ const jsonLd = [
 
       <h2>Direct in YouTube met Marqly</h2>
       <p>
-        Wie regelmatig video's analyseert wil niet telkens links heen en weer kopiëren. Met de Marqly-extensie verschijnt het transcript automatisch naast elke afspelende video, compleet met zoekfunctie en one-click copy.
+        Wie vaker dan af en toe video's analyseert, heeft straks genoeg van het kopieer- plakcircuit.
+        De <a href="/nl/youtube-samenvatter">Marqly-extensie</a> voegt naast elke YouTube-video een
+        AI-kaart toe met een playback-gesynchroniseerde transcript-tab (one-click copy), een
+        streamende AI-samenvatting en een chat-tab die vragen uit het transcript beantwoordt
+        (<a href="/faq/how-do-i-chat-with-a-youtube-video">hoe dat werkt</a>). Bewaar je de video,
+        dan blijft de transcriptie eraan gekoppeld, zodat
+        <a href="/blog/how-to-search-bookmarks-with-ai">semantisch zoeken</a> maanden later nog
+        "die video waarin hij indexfondsen met emmers uitlegt" kan vinden. Zie ook:
+        <a href="/nl/blog/youtube-transcriptie-krijgen-2026">alle manieren om een YouTube-transcript
+        op te vragen</a> en onze <a href="/nl/tools/youtube-samenvatten">samenvattingstool</a>.
       </p>
     </Fragment>
   </ToolShell>

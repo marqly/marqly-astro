@@ -1,0 +1,394 @@
+{
+ "fr": [
+  {
+   "es": "/fr/blog/qu-est-ce-qu-un-second-cerveau-ia-2026",
+   "en": "/blog/what-is-an-ai-second-brain",
+   "p": 0.28,
+   "imp": 26
+  },
+  {
+   "es": "/fr/blog/discuter-avec-une-video-youtube-2026",
+   "en": "/blog/chat-with-youtube-videos",
+   "p": 0.13,
+   "imp": 24
+  },
+  {
+   "es": "/fr/blog/meilleurs-resumes-videos-youtube-ia-2026",
+   "en": "/blog/best-youtube-summarizers-2026",
+   "p": 0.2,
+   "imp": 22
+  },
+  {
+   "es": "/fr/blog/comment-exporter-migrer-donnees-pocket-2026",
+   "en": "/blog/how-to-export-migrate-pocket-data",
+   "p": 0.31,
+   "imp": 22
+  },
+  {
+   "es": "/fr/outils/resume-youtube",
+   "en": "/tools/youtube-summarize",
+   "p": 1.36,
+   "imp": 21
+  },
+  {
+   "es": "/fr/gestionnaire-favoris-edge",
+   "en": "/bookmark-manager-for-edge",
+   "p": 0.05,
+   "imp": 19
+  },
+  {
+   "es": "/fr/blog/resumer-videos-youtube-avec-ia-2026",
+   "en": "/blog/summarize-youtube-videos-with-ai",
+   "p": 0.18,
+   "imp": 19
+  },
+  {
+   "es": "/fr/blog/avis-instapaper-2026",
+   "en": "/blog/instapaper-review-2026",
+   "p": 0.02,
+   "imp": 18
+  },
+  {
+   "es": "/fr/gestionnaire-favoris-safari",
+   "en": "/bookmark-manager-for-safari",
+   "p": 0.04,
+   "imp": 15
+  }
+ ],
+ "it": [
+  {
+   "es": "/it/blog/ottenere-trascrizione-youtube",
+   "en": "/blog/how-to-get-youtube-video-transcript",
+   "p": 0.23,
+   "imp": 31
+  },
+  {
+   "es": "/it/strumenti/riassunto-video-youtube",
+   "en": "/tools/youtube-summarize",
+   "p": 1.29,
+   "imp": 25
+  },
+  {
+   "es": "/it/blog/migliori-riassunti-video-youtube-ia-2026",
+   "en": "/blog/best-youtube-summarizers-2026",
+   "p": 0.2,
+   "imp": 25
+  },
+  {
+   "es": "/it/blog/come-esportare-migrare-dati-pocket-2026",
+   "en": "/blog/how-to-export-migrate-pocket-data",
+   "p": 0.31,
+   "imp": 25
+  },
+  {
+   "es": "/it/gestore-segnalibri-safari",
+   "en": "/bookmark-manager-for-safari",
+   "p": 0.04,
+   "imp": 23
+  },
+  {
+   "es": "/it/blog/come-esportare-i-post-salvati-di-reddit-2026",
+   "en": "/blog/export-reddit-saved-posts",
+   "p": 0.25,
+   "imp": 22
+  },
+  {
+   "es": "/it/per-agenti-immobiliari",
+   "en": "/for-real-estate",
+   "p": 0.05,
+   "imp": 20
+  },
+  {
+   "es": "/it/blog/lia-puo-organizzare-i-miei-segnalibri-2026",
+   "en": "/blog/can-ai-organize-my-bookmarks-automatically",
+   "p": 0.27,
+   "imp": 20
+  },
+  {
+   "es": "/it/blog/recensione-mymind-2026",
+   "en": "/blog/mymind-review-2026",
+   "p": 0.69,
+   "imp": 19
+  }
+ ],
+ "nl": [
+  {
+   "es": "/nl/voor-marketeers",
+   "en": "/for-marketers",
+   "p": 0.16,
+   "imp": 29
+  },
+  {
+   "es": "/nl/voor-sales",
+   "en": "/for-sales",
+   "p": 0.03,
+   "imp": 29
+  },
+  {
+   "es": "/nl/blog/para-methode-voor-bladwijzers-2026",
+   "en": "/blog/para-method-for-bookmarks",
+   "p": 0.17,
+   "imp": 24
+  },
+  {
+   "es": "/nl/blog/chatten-met-youtube-videos-2026",
+   "en": "/blog/chat-with-youtube-videos",
+   "p": 0.12,
+   "imp": 22
+  },
+  {
+   "es": "/nl/blog/opgeslagen-reddit-berichten-exporteren-2026",
+   "en": "/blog/export-reddit-saved-posts",
+   "p": 0.23,
+   "imp": 22
+  },
+  {
+   "es": "/nl/blog/youtube-videos-opslaan-voor-later-2026",
+   "en": "/blog/save-youtube-videos-watch-later",
+   "p": 0.43,
+   "imp": 21
+  },
+  {
+   "es": "/nl/tools/youtube-transcriptie",
+   "en": "/tools/youtube-transcript",
+   "p": 0.73,
+   "imp": 20
+  },
+  {
+   "es": "/nl/recepten-organiseren",
+   "en": "/recipe-organizer",
+   "p": 0.15,
+   "imp": 18
+  },
+  {
+   "es": "/nl/blog/wat-is-een-ai-tweede-brein-2026",
+   "en": "/blog/what-is-an-ai-second-brain",
+   "p": 0.29,
+   "imp": 17
+  }
+ ],
+ "pl": [
+  {
+   "es": "/pl/menedzer-zakladek-chrome",
+   "en": "/bookmark-manager-for-chrome",
+   "p": 0.04,
+   "imp": 23
+  },
+  {
+   "es": "/pl/blog/jak-uporzadkowac-zakladki-2026",
+   "en": "/blog/how-to-organize-bookmarks",
+   "p": 0.09,
+   "imp": 23
+  },
+  {
+   "es": "/pl/blog/jak-wyeksportowac-obejrzyj-pozniej-z-youtube-2026",
+   "en": "/blog/export-youtube-watch-later",
+   "p": 0.16,
+   "imp": 21
+  },
+  {
+   "es": "/pl/planowanie-podrozy",
+   "en": "/travel-planning",
+   "p": 0.17,
+   "imp": 18
+  },
+  {
+   "es": "/pl/blog/czat-z-filmami-youtube-2026",
+   "en": "/blog/chat-with-youtube-videos",
+   "p": 0.11,
+   "imp": 18
+  },
+  {
+   "es": "/pl/blog/czym-jest-drugi-mozg-z-ai-2026",
+   "en": "/blog/what-is-an-ai-second-brain",
+   "p": 0.26,
+   "imp": 16
+  },
+  {
+   "es": "/pl/organizator-przepisow",
+   "en": "/recipe-organizer",
+   "p": 0.16,
+   "imp": 15
+  },
+  {
+   "es": "/pl/blog/jak-zbudowac-drugi-mozg-2026",
+   "en": "/blog/how-to-build-a-second-brain",
+   "p": 0.55,
+   "imp": 15
+  },
+  {
+   "es": "/pl/zaznaczanie-stron-www",
+   "en": "/web-highlighter",
+   "p": 0.14,
+   "imp": 14
+  }
+ ],
+ "pt": [
+  {
+   "es": "/pt/blog/como-exportar-assistir-mais-tarde-do-youtube-2026",
+   "en": "/blog/export-youtube-watch-later",
+   "p": 0.19,
+   "imp": 31
+  },
+  {
+   "es": "/pt/blog/salvar-videos-youtube-assistir-mais-tarde-2026",
+   "en": "/blog/save-youtube-videos-watch-later",
+   "p": 0.44,
+   "imp": 29
+  },
+  {
+   "es": "/pt/nova-aba",
+   "en": "/new-tab-dashboard",
+   "p": 0.06,
+   "imp": 27
+  },
+  {
+   "es": "/pt/ferramentas/resumidor-de-videos-do-youtube",
+   "en": "/tools/youtube-summarize",
+   "p": 1.34,
+   "imp": 24
+  },
+  {
+   "es": "/pt/swipe-file",
+   "en": "/swipe-file",
+   "p": 0.05,
+   "imp": 19
+  },
+  {
+   "es": "/pt/blog/resumir-videos-youtube-com-ia-2026",
+   "en": "/blog/summarize-youtube-videos-with-ai",
+   "p": 0.19,
+   "imp": 18
+  },
+  {
+   "es": "/pt/blog/como-exportar-migrar-dados-pocket-2026",
+   "en": "/blog/how-to-export-migrate-pocket-data",
+   "p": 0.38,
+   "imp": 18
+  },
+  {
+   "es": "/pt/resumidor-de-youtube",
+   "en": "/youtube-summarizer",
+   "p": 0.05,
+   "imp": 15
+  },
+  {
+   "es": "/pt/blog/melhores-gerenciadores-abas-2026",
+   "en": "/blog/best-tab-managers-2026",
+   "p": 0.14,
+   "imp": 15
+  }
+ ],
+ "tr": [
+  {
+   "es": "/tr/tools/youtube-transkript",
+   "en": "/tools/youtube-transcript",
+   "p": 0.65,
+   "imp": 20
+  },
+  {
+   "es": "/tr/blog/yapay-zeka-ikinci-beyin-nedir-2026",
+   "en": "/blog/what-is-an-ai-second-brain",
+   "p": 0.25,
+   "imp": 20
+  },
+  {
+   "es": "/tr/sayfayi-pdf-kaydet",
+   "en": "/save-page-as-pdf",
+   "p": 0.03,
+   "imp": 16
+  },
+  {
+   "es": "/tr/blog/en-iyi-youtube-ozetleyicileri-2026",
+   "en": "/blog/best-youtube-summarizers-2026",
+   "p": 0.17,
+   "imp": 13
+  },
+  {
+   "es": "/tr/blog/reddit-kayitli-gonderileri-disa-aktarma-2026",
+   "en": "/blog/export-reddit-saved-posts",
+   "p": 0.22,
+   "imp": 13
+  },
+  {
+   "es": "/tr/youtube-ozetleyici",
+   "en": "/youtube-summarizer",
+   "p": 0.04,
+   "imp": 12
+  },
+  {
+   "es": "/tr/blog/ikinci-beyin-uygulamasi-nedir-2026",
+   "en": "/blog/what-is-a-second-brain-app",
+   "p": 0.06,
+   "imp": 11
+  },
+  {
+   "es": "/tr/yazarlar-icin",
+   "en": "/for-writers",
+   "p": 0.18,
+   "imp": 10
+  },
+  {
+   "es": "/tr/yer-imi-senkronizasyonu",
+   "en": "/bookmark-sync",
+   "p": 0.03,
+   "imp": 10
+  }
+ ],
+ "zh": [
+  {
+   "es": "/zh/blog/youtube-shipin-ai-tiyao-2026",
+   "en": "/blog/summarize-youtube-videos-with-ai",
+   "p": 0.28,
+   "imp": 22
+  },
+  {
+   "es": "/zh/blog/how-to-export-migrate-pocket-data-2026",
+   "en": "/blog/how-to-export-migrate-pocket-data",
+   "p": 0.52,
+   "imp": 21
+  },
+  {
+   "es": "/zh/recipe-organizer",
+   "en": "/recipe-organizer",
+   "p": 0.25,
+   "imp": 20
+  },
+  {
+   "es": "/zh/blog/best-free-bookmark-manager-2026",
+   "en": "/blog/best-free-bookmark-managers-2026",
+   "p": 0.22,
+   "imp": 20
+  },
+  {
+   "es": "/zh/bookmark-manager-for-edge",
+   "en": "/bookmark-manager-for-edge",
+   "p": 0.07,
+   "imp": 19
+  },
+  {
+   "es": "/zh/bookmark-manager-for-safari",
+   "en": "/bookmark-manager-for-safari",
+   "p": 0.08,
+   "imp": 19
+  },
+  {
+   "es": "/zh/for-content-creators",
+   "en": "/for-content-creators",
+   "p": 0.25,
+   "imp": 19
+  },
+  {
+   "es": "/zh/blog/raindrop-review-2026",
+   "en": "/blog/raindrop-review-2026",
+   "p": 0.06,
+   "imp": 17
+  },
+  {
+   "es": "/zh/blog/best-self-hosted-pocket-alternative-2026",
+   "en": "/blog/best-self-hosted-pocket-alternative",
+   "p": 0.04,
+   "imp": 17
+  }
+ ]
+}

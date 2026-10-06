@@ -206,3 +206,6 @@ Real-demand analysis (live 90d page.csv × engine census): 156 pruned pages stil
 - ADR-005 decided on evidence: 0/5 pricing-dedicated in all three pricing SERPs → keep in-review dated blocks; no new pages. BONUS: /best-bookmark-manager = #6 organic for head term (verified) — flagged as next CTR target (not top-3, editable).
 - AI-citation panel: Perplexity+Copilot headless = bot walls; removed my own fabricated "not-cited" rows (suspicious treated as unverified). Panel execution needs owner's live browser session — scheduled, not faked.
 - Evidence captures live on /how-we-test (2 fresh public-surface Playwright shots, dated captions; signin-redirected view and unused capture dropped).
+
+### 2026-10-06 — Reclaim round 2: +63 pages, 60 re-enabled (sitemap 1177→1237)
+Second demand tier (≥10 imp) across fr/it/nl/pl/pt/tr/zh; two parallel agents; agents caught & fixed: fully-untranslated English body hidden inside /it/blog/recensione-mymind (Italianized), its invented "Pro 79 $/anno" price (→72 per data layer), an invented heroImage on /nl/para, more STANDING49 inventions, and Edge/Safari secondary-CTA mismatch (was "Add to Chrome" on both). Gate caught 2 fresh tr CTA variants → fixed. /best-bookmark-manager (verified #6 organic, head term) got a hook title + October date.

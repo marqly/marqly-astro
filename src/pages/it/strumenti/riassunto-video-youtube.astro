@@ -23,6 +23,10 @@ const faqs = [
     a: 'È lo stesso risultato senza la fatica: qui non devi aprire la trascrizione, copiarla riga per riga e scrivere il prompt. Incolli il link, leggi il riassunto. E con l’estensione Marqly il riassunto compare da solo, accanto al player, su ogni video che apri.',
   },
   {
+    q: 'C’è un limite di durata?',
+    a: 'I video molto lunghi vengono riassunti a partire più o meno dalla prima ora di trascrizione. L’estensione Marqly gestisce i video integrali e aggiunge la suddivisione in sezioni, i libri citati e una chat che risponde alle domande usando tutta la trascrizione.',
+  },
+  {
     q: 'È davvero gratis?',
     a: 'Sì — senza registrazione e senza limiti nascosti. È un assaggio di quello che l’estensione Marqly fa in automatico su ogni video di YouTube: riassunto istantaneo, sezioni chiave, trascrizione sincronizzata e chat con il video.',
   },
@@ -51,6 +55,7 @@ const jsonLd = [
   jsonLd={jsonLd}
   lang="it"
   alternates={alternatesForPath(path)}
+  ogImage="https://www.marqly.com/og/seo/tool-youtube-summarize.png"
   showLinkHub={false}
   localeLinkHub="it"
 >
@@ -106,11 +111,13 @@ const jsonLd = [
       <p>
         Ti serve il testo completo invece del riassunto? Usa la
         <a href="/it/strumenti/trascrizione-video-youtube">trascrizione dei video di YouTube</a>,
-        anche quella gratis. E se riassumi video tutti i giorni, fallo dove stanno i video:
-        l'estensione Marqly mostra il riassunto accanto al player appena apri un video, con le
-        sezioni chiave, la trascrizione sincronizzata e una chat che risponde alle domande
-        usando l'intera trascrizione. I video che salvi conservano la trascrizione — così li
-        ritrovi e li citi anche mesi dopo.
+        anche quella gratis. E se riassumi video ogni giorno, fallo dove stanno i video:
+        l'<a href="/it/riassunto-youtube">estensione Marqly</a> mostra il riassunto che si scrive
+        in diretta accanto al player appena apri un video, con le sezioni chiave, i libri citati,
+        la <a href="/faq/how-do-i-get-a-youtube-transcript">trascrizione sincronizzata</a> e una
+        <a href="/it/blog/chattare-con-video-youtube-2026">chat ancorata alla trascrizione</a> che
+        risponde alle domande usando l'intera trascrizione. I video che salvi conservano la
+        trascrizione — così li ritrovi e li citi anche mesi dopo.
       </p>
     </Fragment>
   </ToolShell>

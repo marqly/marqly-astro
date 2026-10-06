@@ -1,7 +1,7 @@
 ---
 title: "Recensione mymind 2026: Bello, Privato e non per Tutti"
 seoTitle: "Recensione mymind 2026: Prezzi, Pro e Contro"
-description: "Una recensione onesta di mymind per il 2026: prezzi verificati, cosa fa davvero l'IA, dove eccelle la bacheca visiva e dove mostra i suoi limiti."
+description: "Una recensione onesta di mymind per il 2026: prezzi verificati, cosa fa davvero la sua IA, dove la bacheca visiva calma eccelle e dove mostra i limiti."
 pubDate: 2026-08-02
 updatedDate: 2026-10-06
 lang: "it"
@@ -18,95 +18,112 @@ ctaUrl: "https://app.marqly.com"
 ctaLabel: "Inizia gratis con Marqly"
 faqs:
   - q: "Conviene mymind nel 2026?"
-    a: "mymind conviene se sei un pensatore visivo o un designer che salva immagini, citazioni e idee grafiche in uno spazio privato senza pubblicità. È meno indicato se salvi principalmente articoli lunghi da ritrovare per argomento o se cerchi un piano gratuito permanente."
+    a: "mymind conviene se sei un pensatore visivo che salva immagini, citazioni e ispirazione e apprezzi uno spazio privato senza pubblicità — è lo strumento più bello della categoria. È meno indicato se salvi soprattutto articoli lunghi da ritrovare per argomento, o se hai bisogno di più delle 100 schede del piano ospite gratuito."
   - q: "Quanto costa mymind?"
-    a: "mymind offre tre piani: The Bookmarker a 4,99 $/mese (senza IA), Student of Life a 7,99 $/mese o 79 $/anno (tag IA, spazi intelligenti) e Mastermind a 12,99 $/mese o 129 $/anno (riassunti IA, modalità lettura, backup articoli, analisi PDF). Piano Newton a 299 $/anno in arrivo. Scheda dati verificata l’ultima volta il 5 ottobre 2026."
+    a: "mymind ha tre piani attivi: The Bookmarker a 4,99 $/mese (senza IA), Student of Life a 7,99 $/mese o 79 $/anno (tag IA, spazi intelligenti) e Mastermind a 12,99 $/mese o 129 $/anno (riassunti IA, modalità lettura, backup articoli, analisi PDF). Un piano Newton da 299 $/anno è elencato come in arrivo. Verificato il 5 ottobre 2026 su [mymind.com/pricing](https://mymind.com/pricing)."
   - q: "mymind ha un piano gratuito?"
-    a: "Sì. Il piano ospite gratuito consente fino a 100 schede senza limiti di tempo. Le raccolte più grandi e le funzioni IA richiedono un piano a pagamento, a partire da 7,99 $/mese."
+    a: "Sì. Il suo piano ospite gratuito consente fino a 100 schede senza limite di tempo, secondo la scheda concorrente datata; i piani a pagamento rimuovono quel tetto — le funzioni IA che lo rendono interessante partono da 7,99 $/mese. Se un piano gratuito vero conta per te, guarda invece Raindrop o Marqly."
   - q: "Qual è la differenza tra mymind e Marqly?"
-    a: "mymind è una bacheca visiva privata con etichettatura automatica per immagini e note. Marqly punta sul recupero semantico per significato, evidenziatore web, riassunti YouTube e bacheche condivisibili. Marqly ha un piano gratuito (fino a 100 elementi) e Pro a 79 $/anno."
+    a: "mymind è una bacheca visiva privata: etichetta automaticamente ciò che salvi e lo ripropone come schede, ideale per immagini e ispirazione. Marqly è orientato al recupero: la ricerca semantica trova i salvataggi per significato, più evidenziazioni, riassunti YouTube e board. Marqly ha un piano gratuito e Pro costa 72 $/anno; i piani IA di mymind girano tra 79 e 129 $/anno."
 ---
 
-**Il verdetto in sintesi:** mymind è l'app di salvataggio più bella e curata sul piano visivo — una bacheca pulita con un auto-tagging basato su IA davvero efficace e zero cartelle da gestire. Il piano ospite gratuito è limitato a 100 schede; gli altri limiti sono l'aver relegato riassunti e backup al piano Mastermind da 12,99 $/mese, e le prestazioni limitate quando si tratta di ritrovare articoli lunghi descrivendone il contenuto.
+**La risposta breve:** mymind è adatto a collezioni visive e bacheche di ispirazione private. Il suo piano ospite gratuito è limitato a 100 schede; le funzioni IA e le librerie più grandi richiedono un piano a pagamento. Se salvi soprattutto articoli da recuperare in seguito, confronta il suo flusso di etichettatura con le funzioni di ricerca che ti servono prima di abbonarti.
+
+I dati chiave in un colpo d'occhio:
 
 | | mymind |
 | --- | --- |
 | **Ideale per** | Pensatori visivi, designer, collezionisti privati |
-| **Piano gratuito** | Piano ospite: fino a 100 schede, senza limiti di tempo |
+| **Piano gratuito** | Piano ospite: fino a 100 schede, senza limite di tempo |
 | **Piani con IA** | 7,99 $/mese (79 $/anno) o 12,99 $/mese (129 $/anno) |
-| **Punto forte** | Bacheca visiva senza cartelle, massima privacy |
-| **Punto debole** | Ricerca in articoli testuali lunghi; nessuna condivisione; prezzo |
+| **Punto di forza** | Bacheca visiva a organizzazione zero, forte impostazione privacy |
+| **Punto debole** | Recupero di articoli lunghi; niente collaborazione; prezzo |
+
+*Prezzi e dettagli dei piani: scheda concorrente datata, ultima verifica 5 ottobre 2026; [listino ufficiale](https://mymind.com/pricing).*
 
 ## Cos'è mymind?
 
-mymind calls itself "the extension for your mind" — a single private place where you throw everything you want to remember: images, articles, quotes, products, notes, screenshots. There are no folders, no tags to maintain, no filing decisions. The AI reads what you save, tags it automatically, and everything lives on one endless visual board of cards.
+mymind si definisce «l'estensione della tua mente» — un unico posto privato dove getti tutto ciò che vuoi ricordare: immagini, articoli, citazioni, prodotti, note, screenshot. Niente cartelle, niente tag da manutenere, nessuna decisione di archiviazione. L'IA legge ciò che salvi, lo etichetta automaticamente, e tutto vive su un'unica infinita bacheca visiva di schede.
 
-Two design decisions define the product. First, **no organizing, ever** — the founders treat manual filing as a bug, not a feature, and the app has no folder tree at all. Second, **absolute privacy** — no social layer, no sharing, no collaboration, no ads, no tracking. It's deliberately a party of one.
+Due decisioni di design definiscono il prodotto. Prima: **niente organizzazione, mai** — i fondatori trattano l'archiviazione manuale come un bug, non una funzione, e l'app non ha alcun albero di cartelle. Seconda: **privacy assoluta** — nessuno strato social, nessuna condivisione, nessuna collaborazione, niente pubblicità, niente tracciamento. È deliberatamente una festa di uno.
 
-## Caratteristiche principali
+Salvi tramite estensioni per browser e app mobili, e tutto si sincronizza con la web app. L'estetica è la più calma della categoria — più vicina a una moodboard che a un database.
 
-- **AI auto-tagging.** Save anything and mymind identifies what it is — a book, a product, a tweet, an article about typography — and tags it without your input.
-- **Text recognition in images.** Screenshot a quote and mymind reads the text inside the image, so it's searchable later. Genuinely useful for people who screenshot everything.
-- **Smart spaces.** Instead of folders you make, mymind assembles collections automatically around topics it detects.
-- **Serendipity.** A resurfacing mode that shows you old saves you'd forgotten.
-- **Mastermind-tier AI.** The $12.99/month plan adds AI summaries of saved articles, a reading mode, article backup, PDF analysis, video files up to 500MB, and "Same Vibe."
-- **Privacy by architecture.** Your mind is private, full stop. There's no way to share a board with anyone.
+## Funzioni principali
 
-What's *not* here matters too: no in-page highlighter (saving a quote means clipping it, not [highlighting text](/it/blog/come-evidenziare-testo-su-qualsiasi-sito-2026) directly on the live page), no YouTube summaries or transcripts, no public sharing, no team features, and no API.
+- **Etichettatura automatica IA.** Salva qualsiasi cosa e mymind identifica cos'è — un libro, un prodotto, un tweet, un articolo di tipografia — e la etichetta senza il tuo intervento. L'auto-tagging sostiene il suo approccio al salvare senza albero di cartelle.
+- **Riconoscimento testo nelle immagini.** Fai uno screenshot di una citazione e mymind legge il testo dentro l'immagine, così è ricercabile più tardi. utile davvero per chi riempie tutto di screenshot.
+- **Smart spaces.** Invece delle cartelle che crei tu, mymind assembla collezioni automaticamente attorno a temi che rileva. Puoi anche generare uno spazio da una ricerca.
+- **Serendipity.** Una modalità di riproposizione che ti mostra salvataggi vecchi dimenticati — gradevole, e ogni tanto davvero utile.
+- **IA del livello Mastermind.** Il piano da 12,99 $/mese aggiunge riassunti IA degli articoli salvati, una modalità lettura, il backup degli articoli (una copia salvata che sopravvive ai link morti), l'analisi PDF, file video fino a 500 MB e «Same Vibe», che trova schede visivamente simili.
+- **Privacy by architecture.** La tua mente è privata, punto. Non c'è modo di condividere una bacheca con chiunque — il che è una funzione o un ostacolo decisivo a seconda di chi sei.
+
+Ciò che *non* c'è conta altrettanto: nessun evidenziatore nelle pagine (salvare una citazione significa ritagliarla, non [evidenziarla sulla pagina](/it/blog/come-evidenziare-testo-su-qualsiasi-sito-2026)), nessun riassunto o trascrizione di YouTube, nessuna condivisione pubblica, nessuna funzione di team, e nessuna API.
 
 ## Prezzi (scheda dati verificata il 5 ottobre 2026)
 
-| Plan | Monthly | Yearly | Features |
+| Piano | Mensile | Annuale | Cosa ottieni |
 | --- | --- | --- | --- |
-| The Bookmarker | $4.99 | — | Visual bookmarking, **no AI features** |
-| Student of Life | $7.99 | $79 | Unlimited cards, AI tagging, image text recognition, smart spaces |
-| Mastermind | $12.99 | $129 | Everything above + AI summaries, reading mode, article backup, PDF analysis, Same Vibe |
-| Newton | — | $299 | Listed as "coming soon" |
+| The Bookmarker | 4,99 $ | — | Segnalibri visivi, **nessuna funzione IA** |
+| Student of Life | 7,99 $ | 79 $ | Schede illimitate, tag IA, riconoscimento testo nelle immagini, spazi intelligenti |
+| Mastermind | 12,99 $ | 129 $ | Tutto ciò che precede + riassunti IA, modalità lettura, backup articoli, analisi PDF, Same Vibe |
+| Newton | — | 299 $ | Elencato come «in arrivo» |
 
-The free guest plan allows up to 100 cards with no time limit. The Student of Life plan costs $79/year, while full AI with summaries and article backup requires Mastermind at $129/year.
+Il piano ospite gratuito ha un tetto di 100 schede, non un limite di tempo. Due differenze tra piani contano:
+
+1. **Il piano The Bookmarker è una trappola per questo prodotto.** Pagare 4,99 $/mese per mymind *senza* IA rimuove l'intera ragione per cui la filosofia senza cartelle funziona. O paghi Student of Life, o usi qualcos'altro.
+2. **Le funzioni che quasi tutti i concorrenti includono al prezzo base — riassunti, backup articoli — siedono nel livello da 129 $/anno.** È circa 1,8× ciò che costa Marqly Pro per anno (72 $) e 4,6× Raindrop Pro (28 $).
 
 ## Punti di forza
 
-- **The calmest, best-designed tool in the category.** Nothing else comes close visually.
-- **Auto-tagging that mostly delivers on "no organizing."** The AI classification is good enough that you stop thinking about filing.
-- **Excellent for visual material.** Images, screenshots, products, design inspiration — the card canvas and image text recognition make mymind a strong visual collector.
-- **A principled privacy position.** No ads, no tracking, no social layer.
-- **Fast capture.** The extension and mobile apps make saving nearly frictionless.
+- **Lo strumento più calmo e meglio progettato della categoria.** Nient'altro ci si avvicina visivamente. Se l'atmosfera incide sul fatto che usi davvero uno strumento, vale denaro reale.
+- **Un'etichettatura automatica che mantiene quasi del tutto la promessa di «niente organizzazione».** La classificazione IA è abbastanza buona da farti smettere di pensare all'archiviazione, che è tutta la promessa.
+- **Eccellente per il materiale visivo.** Immagini, screenshot, prodotti, ispirazione di design — la canvas a schede e il riconoscimento testo nelle immagini calzano sul suo layout visivo.
+- **Una posizione privacy di principio.** Niente pubblicità, niente tracciamento, nessuna funzione social, e un modello a abbonamento che significa che sei il cliente, non il prodotto.
+- **Cattura rapida.** L'estensione e le app mobili rendono il salvare quasi privo di attrito.
 
 ## Punti deboli
 
-- **Limited free library.** The guest plan supports up to 100 cards with no time limit; larger libraries and AI features require a paid plan.
-- **Retrieval leans on tags and visual memory, not meaning.** mymind's search is good at visual recall and weaker at finding long-form text by concept. Our roundup of [AI bookmark managers](/it/blog/migliori-gestori-segnalibri-ia-2026) covers why the semantic query layer is critical.
-- **Deliberately no collaboration or sharing.** You can't share a collection with a colleague or publish a board.
-- **The best AI costs $129/year.** Summaries and article backup are gated behind the highest tier.
-- **Import and export are thin.** Moving years of bookmarks into mymind is clumsy compared to tools built for [migrating existing saves](/it/blog/alternative-a-pocket-2026).
+- **Libreria gratuita limitata.** Il piano ospite si ferma a 100 schede; librerie più grandi e funzioni IA richiedono un piano a pagamento. Confronta quel tetto e le funzioni a pagamento con il tuo volume reale di salvataggi.
+- **Il recupero si appoggia su tag e memoria visiva, non sul significato.** La ricerca di mymind è brava a «mostrami quella scarpa rossa» e meno a «l'articolo che sosteneva che il lavoro da remoto richiede meno riunioni». Se la tua libreria è soprattutto testo lungo, lo sentirai entro pochi mesi. La nostra rassegna dei [gestori di segnalibri con IA](/it/blog/migliori-gestori-segnalibri-ia-2026) spiega perché il livello di query è tutta la partita.
+- **Deliberatamente niente collaborazione o condivisione.** Non puoi condividere una collezione con un collega né pubblicare una bacheca. Per alcuni utenti è il punto; per altri è squalificante.
+- **La IA migliore costa 129 $/anno.** Riassunti e backup articoli sono requisiti minimi altrove.
+- **Import ed export sono sottili.** mymind vuole che tu riparta da zero, il che è una filosofia genuina — ma se porti con te anni di storia di Pocket o Raindrop, trasferirti dentro è goffo rispetto a strumenti costruiti per [migrare i salvataggi esistenti](/it/blog/alternative-a-pocket-2026).
 
-## Confronto tra mymind e Marqly
+## Come mymind si confronta con Marqly
+
+Noi facciamo Marqly, quindi leggi questa sezione sapendolo — ma i due strumenti puntano genuinamente a persone diverse, e il confronto onesto lo mostra.
 
 | | mymind | Marqly |
 | --- | --- | --- |
-| Core idea | Private visual canvas | Find anything again by meaning |
-| AI tagging | Student of Life and above | Pro |
-| Semantic search | Tags + visual recall | Pro — across titles, content, highlights, transcripts |
-| AI summaries | Mastermind plan ($129/yr) | Pro |
-| Highlighter | No | 6 colors + notes, persists on the page |
-| YouTube tools | No | Summary, transcript, and chat on the watch page |
-| Sharing | None, by design | Public boards, no signup needed to view |
-| Free tier | Guest plan: up to 100 cards | Up to 100 saves with keyword search |
-| Paid price | $79–$129/yr | $72/yr (or $9/mo) |
+| Idea centrale | Bacheca visiva privata | Ritrovare tutto per significato |
+| Tag IA | Student of Life e superiori | Pro |
+| Ricerca semantica | Tag + memoria visiva | Pro — su titoli, contenuti, evidenziazioni, trascrizioni |
+| Riassunti IA | Piano Mastermind (129 $/anno) | Pro |
+| Evidenziatore | No | 6 colori + note, persiste sulla pagina |
+| Strumenti YouTube | No | Riassunto, trascrizione e chat sulla pagina di visione |
+| Condivisione | Nessuna, per design | Board pubbliche, nessuna registrazione per vederle |
+| Livello gratuito | Piano ospite: fino a 100 schede | Fino a 100 salvataggi, senza carta |
+| Prezzo a pagamento | 79–129 $/anno | 72 $/anno (o 9 $/mese) |
 
-Where **mymind wins**: visual material, aesthetic ambience, and strict privacy posture.
+Dove **vince mymind**: materiale visivo, atmosfera e la posizione privacy più rigorosa. Se i tuoi salvataggi sono moodboard, prodotti e screenshot, mymind è una casa più piacevole per loro, e Marqly non eguaglierà la sua canvas.
 
-Where **Marqly wins**: retrieval and text-heavy libraries. Pro semantic search means you can describe a half-remembered article and get it back; highlights stay on the page; YouTube videos come with summaries and transcripts.
+Dove **vince Marqly**: il recupero e le librerie ricche di testo. La ricerca semantica significa che puoi descrivere un articolo a metà ricordato e riaverlo; le evidenziazioni restano sulla pagina e si sincronizzano con la libreria; i video YouTube arrivano con riassunti e trascrizioni allegate. E il prodotto completo costa meno del livello intermedio di mymind.
 
 ## A chi serve mymind?
 
-**Get mymind if** you're a designer, creative, or visual thinker whose saves are mostly images, quotes, and visual inspiration, and you value a quiet, private space.
+**Prendi mymind se** sei un designer, uno scrittore o un pensatore visivo; i tuoi salvataggi sono soprattutto immagini, citazioni e ispirazione; le cartelle ti mettono genuinamente ansia; e pagherai volentieri per un software calmo e privato. Dentro quel profilo, è argomentabilmente il miglior strumento disponibile.
 
-**Skip mymind if** you need more than 100 cards for free, save long articles you'll need to re-find by topic, or want web highlights, transcripts, and summaries at an accessible price.
+**Prendi in considerazione alternative se** hai bisogno di più di 100 schede gratis, salvi soprattutto articoli lunghi da ritrovare per argomento, vuoi condividere collezioni con qualcuno, o vuoi evidenziazioni, trascrizioni e riassunti a un prezzo mainstream.
 
 ## Verdetto
 
-mymind is an original, beautifully crafted product for visual thinkers. Its limitations for broader bookmarking and knowledge management are the 100-card guest-plan limit, the $129/year cost for full AI, and tag-first retrieval.
+La bacheca visiva privata di mymind è una vestibilità utile per immagini, ispirazione e collezioni che non devi condividere. Il suo piano ospite gratuito supporta una libreria piccola, mentre il livello Mastermind da 129 $/anno fornisce riassunti e backup articoli. Scegliilo quando quel flusso visivo calza sul tuo materiale; confronta altri strumenti quando il recupero della libreria, la collaborazione o il prezzo contano di più.
 
-If you mostly save articles and want effortless semantic retrieval, [Marqly](https://app.marqly.com) provides free access with no card required, importing your existing history in minutes.
+Se hai letto questo e hai pensato «salvo soprattutto articoli e non li ritrovo mai», quello è il problema del recupero — ed è quello attorno a cui è costruito [Marqly](https://app.marqly.com). Gratis per iniziare, senza carta, e la tua storia di Pocket o Raindrop si importa in minuti.
+
+Per un'analisi più profonda, esplora il nostro confronto diretto [Marqly vs mymind](/it/confronto/marqly-vs-matter), vedi il confronto [mymind vs Anybox](/compare/mymind-vs-anybox), consulta il protocollo del [Bookmark Retrieval Benchmark](/blog/ai-bookmark-retrieval-benchmark-2026) e provalo sulla tua libreria, sfoglia le migliori [alternative a mymind nel 2026](/alternatives/mymind), o segui la nostra [guida di migrazione da mymind](/migrate/mymind) passo passo. Puoi anche ispezionare o deduplicare i tuoi archivi di export offline con il nostro [Bookmark File Viewer](/tools/bookmark-file-viewer) e il [Duplicate Bookmark Finder](/tools/duplicate-bookmark-finder) dal nostro [repertorio di strumenti gratuiti](/tools).
+
+---
+
+*I dettagli dei piani seguono la scheda concorrente verificata l'ultima volta il 5 ottobre 2026. Controlla il [listino ufficiale di mymind](https://mymind.com/pricing) prima di abbonarti.*
