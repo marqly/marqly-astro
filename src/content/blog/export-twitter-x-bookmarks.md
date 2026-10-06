@@ -1,6 +1,6 @@
 ---
 title: "How to Export Your X (Twitter) Bookmarks in 2026 (Every Route That Works)"
-seoTitle: "How to Export X (Twitter) Bookmarks in 2026 — Marqly"
+seoTitle: "How to Export X (Twitter) Bookmarks (2026, Every Method)"
 description: "X's official data archive doesn't include bookmarks. Here's how to actually export your X (Twitter) bookmarks in 2026 — and how to keep future saves findable."
 pubDate: 2026-08-02
 ogImage: "https://www.marqly.com/og/export-twitter-x-bookmarks.png"

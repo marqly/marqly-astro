@@ -1,6 +1,6 @@
 ---
 title: "Readwise Reader Review 2026: The Power Tool for People Who Read Everything"
-seoTitle: "Readwise Reader Review 2026 — Pricing & Verdict | Marqly"
+seoTitle: "Readwise Reader Pricing 2026: $9.99/mo — Full Review"
 description: "An honest Readwise Reader review for 2026: verified pricing, Ghostreader AI, highlight sync, who the $9.99/month power tool fits — and who should skip it."
 pubDate: 2026-08-02
 updatedDate: 2026-10-05

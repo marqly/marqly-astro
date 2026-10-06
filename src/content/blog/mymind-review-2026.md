@@ -1,6 +1,6 @@
 ---
 title: "mymind Review 2026: Beautiful, Private, and Not for Everyone"
-seoTitle: "mymind Review 2026: Pricing, Pros & Cons (3.8/5)"
+seoTitle: "mymind Pricing 2026: $79/yr Plans — Honest Review (3.8/5)"
 description: "An honest mymind review for 2026: verified pricing, what its AI actually does, where the calm visual canvas shines, and where it falls short. Rated 3.8/5."
 pubDate: 2026-08-02
 updatedDate: 2026-10-05

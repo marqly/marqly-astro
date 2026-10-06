@@ -1,6 +1,6 @@
 ---
 title: "The 8 Best Pocket Alternatives in 2026 (After Mozilla Shut It Down)"
-seoTitle: "8 Best Pocket Alternatives in 2026 (Tested) — Marqly"
+seoTitle: "Pocket Is Gone: 8 Best Alternatives (2026, Tested) — Marqly"
 description: "Pocket shut down in 2025. Here are the 8 best read-it-later and bookmark alternatives for 2026, compared on AI search, import, pricing, and apps."
 pubDate: 2026-05-12
 updatedDate: 2026-06-23
