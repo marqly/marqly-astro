@@ -2,12 +2,12 @@
 a: pocket
 b: instapaper
 verdict: "Instapaper — Pocket is gone (shut down July 2025), and Instapaper is its closest living relative: a free, typography-first reading queue that imports Pocket exports directly. Former Pocket readers lose almost nothing in the switch."
-updatedDate: 2026-08-02
+updatedDate: 2026-10-06
 faqs:
   - q: "What happened to Pocket, and where did its readers go?"
-    a: "Mozilla announced in May 2025 that it was ending Pocket to focus on Firefox; the service stopped working on July 8, 2025, exports closed October 8, 2025, and remaining data was deleted. Instapaper responded by adding a direct Pocket import tool and became one of the main destinations for former Pocket users."
+    a: "Mozilla announced in May 2025 that it was ending Pocket to focus on Firefox; the service stopped working on July 8, 2025, export access ended November 12, 2025, when Mozilla says deletion of remaining data began (see [Mozilla’s Pocket closure notice](https://support.mozilla.org/en-US/kb/future-of-pocket)). Instapaper responded by adding a direct Pocket import tool and became one of the main destinations for former Pocket users."
   - q: "Does Instapaper import Pocket exports?"
-    a: "Yes. After Pocket's shutdown, Instapaper added a dedicated import for Pocket export files, making it a natural landing spot for anyone who downloaded their archive before the October 2025 deadline. Your saved articles come across into Instapaper's queue, where the free tier covers unlimited saving, folders, and offline reading on mobile."
+    a: "Yes. After Pocket's shutdown, Instapaper added a dedicated import for Pocket export files, making it a natural landing spot for anyone who downloaded their archive before the November 12, 2025 deadline in [Mozilla’s Pocket closure notice](https://support.mozilla.org/en-US/kb/future-of-pocket). Your saved articles come across into Instapaper's queue, where the free tier covers unlimited saving, folders, and offline reading on mobile."
   - q: "Is Instapaper free the way Pocket was?"
     a: "Mostly. The free tier includes unlimited saves, folders, offline reading, and basic highlights — similar territory to free Pocket. Premium costs $5.99/month or $59.99/year and adds full-text search, a permanent archive, unlimited notes, send-to-Kindle, speed reading, and text-to-speech playlists. Like Pocket, free accounts cannot full-text search their own saves."
 ---
@@ -16,7 +16,7 @@ These two invented the category together — Read It Later (later Pocket) in 200
 
 **Choose Pocket if**
 
-- There is no scenario where you can — the service went offline on July 8, 2025, and any account data left unexported past October 8, 2025 was destroyed.
+- There is no scenario where you can — the service went offline on July 8, 2025, ; export access ended November 12, 2025, when Mozilla says deletion of remaining account data began (see [Mozilla’s Pocket closure notice](https://support.mozilla.org/en-US/kb/future-of-pocket)).
 - Even the mobile apps are gone from both app stores.
 
 **Choose Instapaper if**

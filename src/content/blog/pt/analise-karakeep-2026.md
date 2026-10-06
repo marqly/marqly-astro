@@ -18,6 +18,6 @@ faqs:
     a: "Sim, a versão auto-hospedada em Docker é totalmente gratuita e open source. A versão na nuvem custa $4/mês."
 ---
 
-**Nota: 4 / 5** — O Karakeep é fantástico para entusiastas de auto-hospedagem que desejam processamento com IA local via Ollama.
+O Karakeep é fantástico para entusiastas de auto-hospedagem que desejam processamento com IA local via Ollama.
 
 Para quem busca comodidade, extensões oficiais e busca semântica pronta para usar sem dores de cabeça com servidores, o [Marqly](https://app.marqly.com) é a escolha recomendada.

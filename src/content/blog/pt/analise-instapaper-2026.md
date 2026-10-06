@@ -18,6 +18,6 @@ faqs:
     a: "Sim, com limitações: artigos ilimitados e leitura offline são grátis, mas a busca e o arquivo permanente exigem o plano Premium ($5,99/mês)."
 ---
 
-**Nota: 3.5 / 5** — O Instapaper é lendário pelo seu modo de leitura sem distrações. No entanto, o aumento de preço recente sem inovações significativas pesa contra ele em 2026.
+O Instapaper é lendário pelo seu modo de leitura sem distrações. No entanto, o aumento de preço recente sem inovações significativas pesa contra ele em 2026.
 
 Sem recursos de busca semântica ou resumos por inteligência artificial, o aplicativo foca unicamente no conforto visual. Para quem precisa de recuperação inteligente de conteúdo, o [Marqly](https://app.marqly.com) representa uma evolução substancial.

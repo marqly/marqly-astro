@@ -15,7 +15,7 @@ ctaLabel: "Comece grátis com o Marqly"
 lang: "pt"
 faqs:
   - q: "Como faço o download do meu arquivo do Pocket?"
-    a: "A Mozilla encerrou o Pocket em 8 de julho de 2025 e o prazo final de exportação terminou em 8 de outubro de 2025. Quem já baixou o arquivo pode importar diretamente no Marqly o list.csv (.csv) que vem dentro dele — o HTML não é um formato que o importador lê."
+    a: "A Mozilla encerrou o Pocket em 8 de julho de 2025 e o prazo final de exportação terminou em 12 de novembro de 2025. Quem já baixou o arquivo pode importar diretamente no Marqly o list.csv (.csv) que vem dentro dele — o HTML não é um formato que o importador lê."
   - q: "Vou perder minhas tags ao mudar de aplicativo?"
     a: "Não. O Marqly preserva suas tags e títulos no import; datas de salvamento viram a data da importação."
   - q: "Qual é a melhor alternativa ao Pocket hoje?"

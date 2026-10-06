@@ -18,4 +18,4 @@ faqs:
     a: "Artikelen opslaan en offline lezen is gratis, maar zoeken vereist Premium ($5,99/maand)."
 ---
 
-**Score: 3.5 / 5** — Instapaper biedt ongeëvenaard typografisch leescomfort, maar vraagt $5,99 per maand voor basale zoekfuncties zonder AI-ondersteuning.
+Instapaper biedt ongeëvenaard typografisch leescomfort, maar vraagt $5,99 per maand voor basale zoekfuncties zonder AI-ondersteuning.

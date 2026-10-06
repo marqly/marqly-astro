@@ -28,7 +28,7 @@ heroAlt: "Reseña de Linkwarden 2026: el gestor de marcadores open source para a
 ogImage: "https://www.marqly.com/og/linkwarden-review-2026.png"
 ---
 
-**★ 4/5** — Linkwarden es el gestor de marcadores del archivista: cada enlace que guardas se preserva en varios formatos antes de que pueda pudrirse, todo es open source y el plan en la nube cuesta 3 $ al mes. Solo que no esperes que organice tu biblioteca por ti ni que encuentre cosas por significado.
+Linkwarden es el gestor de marcadores del archivista: cada enlace que guardas se preserva en varios formatos antes de que pueda pudrirse, todo es open source y el plan en la nube cuesta 3 $ al mes. Solo que no esperes que organice tu biblioteca por ti ni que encuentre cosas por significado.
 
 Divulgación: esta reseña aparece en el blog de Marqly, una herramienta de marcadores competidora (alojada y de código cerrado). La promesa central de Linkwarden —tus enlaces, preservados, en infraestructura que puedes poseer— es un terreno en el que no competimos, y esta reseña lo puntúa por lo que es: la herramienta más enfocada en preservación de su categoría.
 
@@ -121,4 +121,4 @@ Quién no debería: personas cuyo problema real es la recuperación o el triage.
 
 ## Veredicto
 
-**★ 4/5.** Linkwarden es el mejor gestor de marcadores preservación-first del mundo open source, con precios honestos, colaboración real y una historia de plataforma que mejoró muchísimo este año. Pierde una estrella porque su capa de inteligencia es fina: la recuperación solo por palabras clave y la IA solo-etiquetas dejan el problema de volver-a-encontrar sin resolver. Conserva Linkwarden como tu bóveda si eso es lo que necesitas: permanencia. Si lo que necesitas es *encontrar* lo que guardaste, esa es la otra mitad del problema: [empieza gratis con Marqly](https://app.marqly.com), sin tarjeta, y busca tu biblioteca por lo que recuerdas.
+Linkwarden es el mejor gestor de marcadores preservación-first del mundo open source, con precios honestos, colaboración real y una historia de plataforma que mejoró muchísimo este año. Su principal limitación es que su capa de inteligencia es fina: la recuperación solo por palabras clave y la IA solo-etiquetas dejan el problema de volver-a-encontrar sin resolver. Conserva Linkwarden como tu bóveda si eso es lo que necesitas: permanencia. Si lo que necesitas es *encontrar* lo que guardaste, esa es la otra mitad del problema: [empieza gratis con Marqly](https://app.marqly.com), sin tarjeta, y busca tu biblioteca por lo que recuerdas.

@@ -18,4 +18,4 @@ faqs:
     a: "Karakeep è il nuovo nome ufficiale del progetto open-source Hoarder."
 ---
 
-**Valutazione: 4 / 5** — Ottimo per chi ama Docker e i modelli IA locali. Per chi invece desidera un servizio pronto all'uso con ricerca semantica istantanea, [Marqly](https://app.marqly.com) è la scelta ideale.
+Ottimo per chi ama Docker e i modelli IA locali. Per chi invece desidera un servizio pronto all'uso con ricerca semantica istantanea, [Marqly](https://app.marqly.com) è la scelta ideale.

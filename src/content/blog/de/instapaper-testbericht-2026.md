@@ -27,7 +27,7 @@ faqs:
 ogImage: "https://www.marqly.com/og/instapaper-review-2026.png"
 ---
 
-**★ 3,5/5** — Instapaper bleibt der ruhigste, aufgeräumteste Ort im Internet, um die Artikel zu lesen, die man für später gespeichert hat. Aber der Preis hat sich 2025 verdoppelt, während das Produkt kaum Fortschritte machte — und 2026 ist „ein ruhiger Ort zum Lesen“ nur noch die halbe Anforderung an eine Artikel-Speicher-App.
+Instapaper bleibt der ruhigste, aufgeräumteste Ort im Internet, um die Artikel zu lesen, die man für später gespeichert hat. Aber der Preis hat sich 2025 verdoppelt, während das Produkt kaum Fortschritte machte — und 2026 ist „ein ruhiger Ort zum Lesen“ nur noch die halbe Anforderung an eine Artikel-Speicher-App.
 
 Volle Transparenz: Diese Rezension läuft im Blog von Marqly, einem konkurrierenden Read-it-Later-Tool. Wir haben fair bewertet — Instapaper macht eine Sache besser als fast alle anderen, und dieser Testbericht sagt das klar. Er hat auch Lücken, die eine ehrliche Rezension nicht übergehen kann.
 
@@ -113,7 +113,7 @@ Kontext, der zählt: 2025 hob Instapaper Premium von 2,99 $ auf 5,99 $ — die e
 | Hervorhebungen | Ja, Notizen im Free-Plan begrenzt | 6 Farben, bleiben auf der lebenden Seite |
 | Pocket-Import | Ja | Ja |
 
-Faire Lesart dieser Tabelle: Wenn Ihr Speichern-Leben das **Lesen** ist — lange Sessions, offline, vielleicht auf dem Kindle —, gewinnt Instapaper die Zeilen, die Ihnen zählen, und die Bewertung dieses Testberichts unterschätzt das noch. Wenn Ihr Speichern-Leben dagegen heißt, **mehr zu speichern als zu lesen und es dann zu verlieren**, zielt jede Marqly-Zeile genau darauf. Den direkten Vergleich zeigt [Marqly vs Instapaper](/compare/marqly-vs-instapaper), Schritt für Schritt unsere [Migrationsanleitung Instapaper zu Marqly](/migrate/instapaper). Eigentlich sind es fast komplementäre Produkte; die Überschneidung sind die 60–72 $ im Jahr, die Sie lieber nur einmal zahlen. [Testen Sie Marqlys Gratis-Plan](https://app.marqly.com) parallel zu Instapaper — und sehen Sie, welche Hälfte des Problems die Ihre ist.
+Faire Lesart dieser Tabelle: Wenn Ihr Speichern-Leben das **Lesen** ist — lange Sessions, offline, vielleicht auf dem Kindle —, gewinnt Instapaper die Zeilen, die Ihnen zählen, und selbst dieser Vergleich unterschätzt diesen Vorteil noch. Wenn Ihr Speichern-Leben dagegen heißt, **mehr zu speichern als zu lesen und es dann zu verlieren**, zielt jede Marqly-Zeile genau darauf. Den direkten Vergleich zeigt [Marqly vs Instapaper](/compare/marqly-vs-instapaper), Schritt für Schritt unsere [Migrationsanleitung Instapaper zu Marqly](/migrate/instapaper). Eigentlich sind es fast komplementäre Produkte; die Überschneidung sind die 60–72 $ im Jahr, die Sie lieber nur einmal zahlen. [Testen Sie Marqlys Gratis-Plan](https://app.marqly.com) parallel zu Instapaper — und sehen Sie, welche Hälfte des Problems die Ihre ist.
 
 ## Für wen eignet sich Instapaper?
 
@@ -126,4 +126,4 @@ Für wen nicht: alle, deren Rückstand das Problem ist. Wenn Sie 30 Artikel pro 
 
 ## Fazit
 
-**★ 3,5/5.** Instapaper ist 2026 ein wunderschönes, vertrauenswürdiges Ein-Zweck-Tool — zu einem Preis, der inzwischen unterstellt, es sei mehr als das. Das Leseerlebnis allein verdiente viereinhalb Sterne; der verdoppelte Preis, die statische Feature-Liste, die bezahlpflichtige Keyword-Suche und die komplett fehlende Intelligenz-Schicht ziehen die Gesamtwertung herunter. (Zum Lesen-Management lohnen auch unsere Werkzeuge [Lesezeitrechner](/tools/reading-time) und [HTML-zu-Markdown-Konverter](/tools/html-to-markdown) im [Verzeichnis der kostenlosen Tools](/tools).) Behalten Sie es, wenn Sie mehr lesen als speichern. Wenn Sie mehr speichern als lesen, reparieren Sie zuerst die Wiederfinden-Seite — [Marqly ist kostenlos nutzbar](https://app.marqly.com), importiert Ihre bestehende Bibliothek über unser [Migrationszentrum](/migrate) und durchsucht sie nach Bedeutung.
+Instapaper ist 2026 ein wunderschönes, vertrauenswürdiges Ein-Zweck-Tool — zu einem Preis, der inzwischen unterstellt, es sei mehr als das. Das Leseerlebnis selbst ist herausragend; seine Einschränkungen sind der verdoppelte Preis, die statische Feature-Liste, die bezahlpflichtige Keyword-Suche und die komplett fehlende Intelligenz-Schicht. (Zum Lesen-Management lohnen auch unsere Werkzeuge [Lesezeitrechner](/tools/reading-time) und [HTML-zu-Markdown-Konverter](/tools/html-to-markdown) im [Verzeichnis der kostenlosen Tools](/tools).) Behalten Sie es, wenn Sie mehr lesen als speichern. Wenn Sie mehr speichern als lesen, reparieren Sie zuerst die Wiederfinden-Seite — [Marqly ist kostenlos nutzbar](https://app.marqly.com), importiert Ihre bestehende Bibliothek über unser [Migrationszentrum](/migrate) und durchsucht sie nach Bedeutung.

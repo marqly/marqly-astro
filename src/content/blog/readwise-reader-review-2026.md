@@ -3,7 +3,7 @@ title: "Readwise Reader Review 2026: The Power Tool for People Who Read Everythi
 seoTitle: "Readwise Reader Pricing 2026: $9.99/mo — Full Review"
 description: "An honest Readwise Reader review for 2026: verified pricing, Ghostreader AI, highlight sync, who the $9.99/month power tool fits — and who should skip it."
 pubDate: 2026-08-02
-updatedDate: 2026-10-05
+updatedDate: 2026-10-06
 ogImage: "https://www.marqly.com/og/readwise-reader-review-2026.png"
 category: "Reviews"
 targetKeyword: "readwise reader review"
@@ -18,16 +18,16 @@ ctaUrl: "https://app.marqly.com"
 ctaLabel: "Get started free"
 faqs:
   - q: "Is Readwise Reader worth it?"
-    a: "For heavy readers who highlight and revisit what they read, yes — no other app combines a universal reading inbox (articles, RSS, newsletters, PDFs, EPUBs, YouTube) with highlighting and spaced-repetition review this well. At $9.99/month billed annually it's the most expensive tool in the category, so casual savers are paying for depth they won't use."
+    a: "Reader suits people who highlight and revisit articles, RSS, newsletters, PDFs, EPUBs and YouTube in one reading inbox. At $9.99/month billed annually, consider whether you will use that reading and review workflow regularly."
   - q: "Is Readwise Reader free?"
-    a: "No. There's a 30-day free trial (card required, auto-charges unless you cancel), but no permanent free tier. Reader is only sold as part of the full Readwise subscription: $9.99/month billed annually ($119.88/year) or $12.99/month billed monthly — verified October 5, 2026, per [readwise.io/pricing](https://readwise.io/pricing). Students and academics can get 50% off by contacting Readwise before subscribing."
+    a: "No. There's a 30-day free trial, but no permanent free tier. Reader is only sold as part of the full Readwise subscription: $9.99/month billed annually ($119.88/year) or $12.99/month billed monthly — as of October 6, 2026, per [readwise.io/pricing](https://readwise.io/pricing). Students and academics can get 50% off by contacting Readwise before subscribing."
   - q: "What are the best Readwise Reader alternatives?"
     a: "Marqly if you want AI-first retrieval (semantic search, auto-tagging, summaries) at $72/year instead of $119.88. Instapaper if you just want a calm reading queue for less. Raindrop.io for a free all-purpose bookmark library. Karakeep or Linkwarden if you want an open-source, self-hosted option."
   - q: "Can you get Reader without a Readwise subscription?"
     a: "No. Reader isn't sold standalone — it's bundled into the full Readwise plan at $9.99/month billed annually. The cheaper Lite plan ($5.59/month billed annually) covers only the original Readwise highlight-review service and does not include the Reader app."
 ---
 
-**★ 4.5/5** — Readwise Reader is the most capable reading app ever shipped: one inbox for articles, feeds, newsletters, PDFs, EPUBs, and YouTube, with the best highlighting workflow in the business — and at $119.88/year it is priced, accurately, as a professional tool for people whose job is reading.
+Readwise Reader brings articles, feeds, newsletters, PDFs, EPUBs and YouTube into one reading inbox with highlighting and review tools. Its Full subscription costs $119.88/year when billed annually. It suits frequent readers who need this workflow; people mainly saving links should weigh that cost against simpler bookmark managers.
 
 Disclosure first: this review lives on the blog of Marqly, a competitor. Reader is also, frankly, one of the best products in this space, and pretending otherwise would make everything else on this blog less believable. Here's the full picture.
 
@@ -65,13 +65,13 @@ Because Reader rides on Readwise's sync engine, every highlight can flow onward 
 
 ## Pricing
 
-Verified August 2026 on readwise.io:
+As of October 6, 2026, per [Readwise’s official pricing](https://readwise.io/pricing):
 
 | Plan | Price | What you get |
 | --- | --- | --- |
 | **Full (includes Reader)** | $9.99/month billed annually ($119.88/year), or $12.99/month monthly | Reader app + full Readwise highlight sync and review, early access to new features |
 | **Lite** | $5.59/month billed annually | Readwise highlight review only — **no Reader app** |
-| **Trial** | 30 days free | Full access; card auto-charges unless you cancel |
+| **Trial** | 30 days free | Full access |
 
 Two footnotes that matter. First, Reader is not sold separately — if you want the reading app, you're buying the whole ecosystem. Second, students and academics get 50% off (about $4.99/month annually) by emailing Readwise before subscribing — the biggest legitimate discount in this category.
 
@@ -103,8 +103,8 @@ Two footnotes that matter. First, Reader is not sold separately — if you want 
 | PDFs / EPUBs | **Yes, native reading** | Save pages as PDF; no EPUB |
 | Offline reading | **Yes (mobile)** | No |
 | Android | **Yes** | No (web app in browser) |
-| Library-wide semantic search | Partial (full-text + filters) | **Core feature — search by meaning** |
-| Auto-tagging | Limited | **Automatic on every save** |
+| Library-wide semantic search | Full-text + filters | **Pro — search by meaning** |
+| Auto-tagging | Limited | **Pro, including imports** |
 | AI on YouTube | Transcripts in-app | **Summary, chat, transcript on the watch page itself** |
 | Learning curve | Steep | Minimal |
 
@@ -123,4 +123,4 @@ Who shouldn't: casual savers, budget-first users, and ex-Pocket users who just w
 
 ## Verdict
 
-**★ 4.5/5.** Readwise Reader is the best product in the read-it-later category and the most expensive, and both facts are the same fact: it's a professional tool, built deep, priced accordingly. It loses half a star only for the absence of any free tier and for a retrieval model that still assumes you remember what you're looking for. If reading is your craft, subscribe without guilt. If your actual problem is a growing pile of saves you can't find things in, that's a different, smaller problem with a cheaper answer — import your saves via our [Migration Center](/migrate) (or convert clean text with our [HTML to Markdown tool](/tools/html-to-markdown) from our [free tools directory](/tools)), [get started free](https://app.marqly.com), and search your library by what you remember.
+Readwise Reader offers a broad reading and highlighting workflow at $119.88/year on the annual Full plan. Its limits include the absence of a permanent free tier and a retrieval model built around full-text search and document context. If reading is your craft, subscribe without guilt. If your actual problem is a growing pile of saves you can't find things in, that's a different, smaller problem with a cheaper answer — import your saves via our [Migration Center](/migrate) (or convert clean text with our [HTML to Markdown tool](/tools/html-to-markdown) from our [free tools directory](/tools)), [get started free](https://app.marqly.com), and search your library by what you remember.

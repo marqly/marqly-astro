@@ -15,7 +15,7 @@ faqs:
   - q: "Was ist die beste Pocket-Alternative?"
     a: "Das hängt von deiner Nutzung ab. Instapaper und Matter kommen dem reinen Reader am nächsten. Raindrop.io passt besser für große Lesezeichensammlungen. Marqly ist die Wahl, wenn du KI obendrauf willst: automatisches Tagging, Zusammenfassungen und Suche nach Bedeutung. Alle importieren einen Pocket-Export."
   - q: "Komme ich noch an meine Pocket-Daten?"
-    a: "Nein. Der Export schloss am 8. Oktober 2025 und Mozilla hat die restlichen Daten endgültig gelöscht. Nur ein vorher geladenes ZIP hilft."
+    a: "Nein. Der Export schloss am 12. November 2025 und Mozilla begann mit der Löschung der restlichen Daten (siehe [Mozilla-Hinweis](https://support.mozilla.org/en-US/kb/future-of-pocket)). Nur ein vorher geladenes ZIP hilft."
   - q: "Hat eine Alternative Offline-Lesen wie Pocket?"
     a: "Instapaper und Matter bieten Offline-Lesen auf allen Plattformen. Marqly offline nur auf Pro und nur in Web-App oder iOS, pro Gerät – wenn du ohne Pro oder auf Android offline brauchst, fang bei diesen beiden an."
   - q: "Gibt es kostenlose Alternativen?"
@@ -25,10 +25,10 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos starten"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
-updatedDate: 2026-09-26
+updatedDate: 2026-10-06
 ---
 
-Pocket wurde am **8. Juli 2025** abgeschaltet, und Mozilla hat die verbliebenen Daten nach dem **8. Oktober 2025** gelöscht. Wer eine Alternative sucht, muss zuerst akzeptieren: Es gibt keinen einzelnen Ersatz. Pocket erfüllte drei verschiedene Aufgaben, und jede Alternative deckt nur einen Teil ab.
+Pocket wurde am **8. Juli 2025** abgeschaltet, und Mozilla hat die verbliebenen Daten nach dem **12. November 2025** gelöscht. Wer eine Alternative sucht, muss zuerst akzeptieren: Es gibt keinen einzelnen Ersatz. Pocket erfüllte drei verschiedene Aufgaben, und jede Alternative deckt nur einen Teil ab.
 
 ## Kläre zuerst, was Pocket für dich war
 
@@ -89,7 +89,7 @@ Wenn dein Posteingang vor allem aus offenen Tabs entsteht, schau dir [Tabs speic
 
 ## Und wenn du den Export verpasst hast
 
-Dann gibt es nichts wiederherzustellen: Mozilla hat die Daten nach dem 8. Oktober 2025 endgültig gelöscht. Kein Werkzeug bringt sie zurück.
+Ein neuer Export lässt sich nicht mehr erzeugen: Mozilla deaktivierte ihn am 12. November 2025 und begann mit der Löschung der verbliebenen Daten (siehe [Mozilla-Hinweis](https://support.mozilla.org/en-US/kb/future-of-pocket)).
 
 Bleibt der Neuanfang — und dabei lohnt es sich, so zu wählen, dass sich das Problem nicht wiederholt. Ein zehn Jahre altes Pocket-Archiv war nicht wertlos, weil es groß war, sondern weil es keinen Index hatte. Ohne automatisches Tagging und Suche nach Bedeutung neu anzufangen führt an denselben Punkt, nur später.
 

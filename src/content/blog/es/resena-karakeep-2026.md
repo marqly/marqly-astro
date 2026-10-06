@@ -27,7 +27,7 @@ faqs:
     a: "Sí — es una de sus capacidades estrella. Karakeep soporta modelos locales a través de Ollama para etiquetado automático y resúmenes, de modo que tus marcadores nunca salen de tu servidor. También puedes apuntarlo a APIs compatibles con OpenAI si prefieres cambiar privacidad por calidad de modelo y ahorrarte la GPU."
 ---
 
-**★ 4/5** — Karakeep es el mejor gestor de marcadores autoalojado para quien quiere funciones de IA de verdad — autoetiquetado, resúmenes e incluso búsqueda semántica — sin entregar su biblioteca a nadie; el precio de entrada es que te conviertes en el equipo de operaciones.
+Karakeep es el mejor gestor de marcadores autoalojado para quien quiere funciones de IA de verdad — autoetiquetado, resúmenes e incluso búsqueda semántica — sin entregar su biblioteca a nadie; el precio de entrada es que te conviertes en el equipo de operaciones.
 
 Divulgación: esta reseña la publica Marqly, un competidor alojado (y no autoalojable). Karakeep sirve a un público al que estructuralmente no podemos alcanzar — si «mis datos no salen de mi hardware» es un requisito, Karakeep es probablemente tu respuesta y el resto de esta reseña es detalle. Puntuado en sus propios términos, es excelente.
 
@@ -121,4 +121,4 @@ Quién no debería: cualquiera que haya leído «proxy inverso» arriba y sentid
 
 ## Veredicto
 
-**★ 4/5.** Karakeep es el gestor de marcadores autoalojado más completo disponible en 2026 y el único donde la IA se siente nativa y no injertada. Pierde una estrella por el impuesto que toda herramienta autoalojada cobra — instalación, mantenimiento, turbulencias pre-1.0 y una calidad de IA que depende de qué le des — y nada de eso disuadirá lo más mínimo a su público real. Si quieres la experiencia de IA de Karakeep sin el servidor, [Marqly es la versión alojada de esa misma idea](https://app.marqly.com) — con plan gratuito, sin tarjeta, funcionando en los próximos dos minutos.
+Karakeep es el gestor de marcadores autoalojado más completo disponible en 2026 y el único donde la IA se siente nativa y no injertada. Sus principales contrapartidas son las que toda herramienta autoalojada impone — instalación, mantenimiento, turbulencias pre-1.0 y una calidad de IA que depende de qué le des — pero nada de eso disuadirá lo más mínimo a su público real. Si quieres la experiencia de IA de Karakeep sin el servidor, [Marqly es la versión alojada de esa misma idea](https://app.marqly.com) — con plan gratuito, sin tarjeta, funcionando en los próximos dos minutos.

@@ -3,6 +3,7 @@ title: "Recensione Readwise Reader 2026: Lo strumento definitivo per i lettori s
 seoTitle: "Recensione Readwise Reader 2026 — Prezzi e Valutazione | Marqly"
 description: "Recensione completa di Readwise Reader nel 2026: prezzi (9,99 $/mese), sincronizzazione evidenziazioni, Ghostreader IA e alternative."
 pubDate: 2026-08-02
+updatedDate: 2026-10-06
 category: "Recensioni"
 targetKeyword: "recensione readwise reader 2026"
 tags:
@@ -15,7 +16,7 @@ ctaLabel: "Inizia gratis con Marqly"
 lang: "it"
 faqs:
   - q: "Quanto costa Readwise Reader?"
-    a: "Costa 9,99 $/mese con fatturazione annuale (119,88 $/anno) o 12,99 $/mese."
+    a: "Readwise Reader offre una prova gratuita di 30 giorni, poi costa 9,99 $/mese con fatturazione annuale (119,88 $/anno) oppure 12,99 $/mese con fatturazione mensile."
 ---
 
-**Valutazione: 4.5 / 5** — Readwise Reader è insuperabile per chi evidenzia costantemente libri e saggi. Per chi cerca invece un archivio immediato e cercabile per concetto, [Marqly](https://app.marqly.com) rappresenta la scelta più indicata.
+Readwise Reader è insuperabile per chi evidenzia costantemente libri e saggi. Per chi cerca invece un archivio semplice, il piano gratuito di Marqly include 100 elementi e ricerca per parole chiave; [Marqly Pro](https://app.marqly.com) aggiunge la ricerca semantica.

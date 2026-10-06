@@ -18,6 +18,6 @@ faqs:
     a: "是的，Karakeep 是知名开源项目 Hoarder 更名后的官方新项目名。"
 ---
 
-**评分：4 / 5** — 对于热衷折腾 Docker 和本地 Ollama 大模型的极客用户，Karakeep 提供了极佳的数据隐私与 AI 功能结合点。
+对于热衷折腾 Docker 和本地 Ollama 大模型的极客用户，Karakeep 提供了极佳的数据隐私与 AI 功能结合点。
 
 若你希望免除服务器维护烦恼，获得开箱即用的语义检索和流畅移动端体验，[Marqly](https://app.marqly.com) 是更省心的生产力选择。

@@ -2,7 +2,7 @@
 a: pocket
 b: matter
 verdict: "Matter — Mozilla retired Pocket in mid-2025, and for iPhone-based readers Matter is the most polished successor, with category-best text-to-speech and a direct Pocket import. Android users must look elsewhere; Matter has no Android app."
-updatedDate: 2026-08-02
+updatedDate: 2026-10-06
 faqs:
   - q: "Is Matter a good replacement for Pocket?"
     a: "For Apple users, one of the best. Matter imports Pocket exports directly and absorbed many former Pocket users after the July 2025 shutdown. Its free tier covers an unlimited library, excellent article parsing, and unlimited tags, while its human-like text-to-speech turns a reading backlog into narration — a stronger version of what Pocket's Listen feature attempted."
@@ -16,7 +16,7 @@ Mozilla retired Pocket in mid-2025, which makes Matter the living option — and
 
 **Choose Pocket if**
 
-- You can't — the service shut off on July 8, 2025, and unexported data was deleted after that October.
+- You can't — the service shut off on July 8, 2025, and Mozilla says deletion of unexported data began on November 12, 2025 (see [Mozilla’s Pocket closure notice](https://support.mozilla.org/en-US/kb/future-of-pocket)).
 - There is no legacy mode, archive, or successor app from Mozilla.
 
 **Choose Matter if**

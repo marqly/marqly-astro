@@ -3,7 +3,7 @@ lang: "pt"
 path: "/pt/comparar/marqly-vs-pocket"
 title: "Marqly vs Pocket"
 seoTitle: "Marqly vs Pocket: o que usar agora que o Pocket fechou | Marqly"
-description: "O Pocket encerrou em 8 de julho de 2025 e os dados foram apagados em outubro. Comparamos o que o Pocket fazia, o que o Marqly faz e como importar seu export."
+description: "O Pocket encerrou em 8 de julho de 2025 e a exportação foi desativada em 12 de novembro de 2025 e a exclusão dos dados restantes começou. Comparamos o que o Pocket fazia, o que o Marqly faz e como importar seu export."
 eyebrow: "Comparação"
 hero:
   heading: "Marqly vs Pocket: a comparação honesta quando um dos dois não existe mais"
@@ -13,9 +13,9 @@ trustLine: "Plano grátis, sem cartão · Importa seu export do Pocket · Chrome
 faqHeading: "Perguntas frequentes"
 faqs:
   - q: "O que aconteceu com o Pocket?"
-    a: "A Mozilla encerrou o serviço. O anúncio foi em maio de 2025 e o app parou de funcionar em 8 de julho de 2025. Dava para exportar até 8 de outubro de 2025, e depois disso todos os dados restantes foram apagados de forma permanente. Quem pagava o Pocket Premium recebeu reembolso proporcional."
+    a: "A Mozilla encerrou o serviço. O anúncio foi em maio de 2025 e o app parou de funcionar em 8 de julho de 2025. Dava para exportar até 12 de novembro de 2025, ; nessa data a Mozilla desativou as exportações e iniciou a exclusão dos dados restantes (veja o [aviso da Mozilla](https://support.mozilla.org/en-US/kb/future-of-pocket)). Quem pagava o Pocket Premium recebeu reembolso proporcional."
   - q: "Ainda dá para exportar meus dados do Pocket?"
-    a: "Não. A janela de exportação fechou em 8 de outubro de 2025 e os dados foram apagados. Só serve o arquivo ZIP se você baixou antes dessa data."
+    a: "Não. A janela de exportação fechou em 12 de novembro de 2025 e a Mozilla colocou os dados restantes na fila de exclusão (veja o [aviso da Mozilla](https://support.mozilla.org/en-US/kb/future-of-pocket)). Só serve o arquivo ZIP se você baixou antes dessa data."
   - q: "O Marqly importa o export do Pocket?"
     a: "Sim. O Marqly importa exportações do Pocket, coleções do Raindrop.io e arquivos HTML de favoritos exportados do Chrome, Firefox, Edge ou Safari."
   - q: "O Marqly tem leitura offline como o Pocket tinha?"
@@ -27,10 +27,10 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
-updatedDate: 2026-09-26
+updatedDate: 2026-10-06
 ---
 
-Esta comparação tem um detalhe incômodo: **o Pocket não existe mais**. A Mozilla encerrou o serviço em 8 de julho de 2025 e apagou de forma permanente todos os dados restantes depois de 8 de outubro de 2025. Então a pergunta real não é "qual é melhor", e sim "o que o Pocket fazia por mim e quem faz isso agora".
+Esta comparação tem um detalhe incômodo: **o Pocket não existe mais**. A Mozilla encerrou o serviço em 8 de julho de 2025 ; em 12 de novembro de 2025 desativou as exportações e iniciou a exclusão dos dados restantes (veja o [aviso da Mozilla](https://support.mozilla.org/en-US/kb/future-of-pocket)). Então a pergunta real não é "qual é melhor", e sim "o que o Pocket fazia por mim e quem faz isso agora".
 
 ## O que aconteceu, na ordem
 
@@ -38,10 +38,10 @@ Esta comparação tem um detalhe incômodo: **o Pocket não existe mais**. A Moz
 | --- | --- |
 | Maio de 2025 | A Mozilla anuncia o encerramento |
 | 8 de julho de 2025 | App e extensões param de funcionar |
-| 8 de outubro de 2025 | Fecha a janela de exportação |
-| Depois disso | Os dados restantes são apagados |
+| 12 de novembro de 2025 | Fecha a janela de exportação |
+| A partir dessa data | Começa a exclusão dos dados restantes |
 
-Assinantes do Premium receberam reembolso proporcional automático. Se você baixou o ZIP antes de outubro de 2025, tem um CSV com seus salvamentos — e **isso ainda serve**: o Marqly importa.
+Assinantes do Premium receberam reembolso proporcional automático. Se você baixou o ZIP antes de 12 de novembro de 2025 (segundo o [aviso da Mozilla](https://support.mozilla.org/en-US/kb/future-of-pocket)), tem um CSV com seus salvamentos — e **isso ainda serve**: o Marqly importa.
 
 Se não baixou, não há o que recuperar. Nenhuma ferramenta devolve esses dados, e desconfie de quem disser o contrário.
 
@@ -100,7 +100,7 @@ O Marqly não tenta ser um leitor sem distrações. É um gerenciador de favorit
 
 ## Como migrar seu export
 
-1. Procure o ZIP que você baixou do Pocket antes de outubro de 2025 (tem um CSV dentro).
+1. Procure o ZIP que você baixou do Pocket antes de 12 de novembro de 2025 (segundo o [aviso da Mozilla](https://support.mozilla.org/en-US/kb/future-of-pocket)) (tem um CSV dentro).
 2. Crie uma conta grátis em [app.marqly.com](https://app.marqly.com) — não pede cartão.
 3. Importe o arquivo.
 4. Deixe a IA marcar tudo. Aqui está a diferença prática: uma biblioteca de anos do Pocket chegava sem tags úteis, porque ninguém sustenta marcar tudo à mão. No Marqly ela se organiza sozinha.

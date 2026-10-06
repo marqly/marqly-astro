@@ -2,10 +2,10 @@
 a: pocket
 b: evernote-web-clipper
 verdict: "Evernote Web Clipper — Pocket went dark on July 8, 2025, leaving Evernote's clipper the only one of the two still working. But it's a heavyweight note platform, not a read-it-later app, sustained use effectively costs $99+/year, and there's no Pocket import."
-updatedDate: 2026-08-02
+updatedDate: 2026-10-06
 faqs:
   - q: "Can Evernote import my Pocket saves?"
-    a: "No — Evernote has no Pocket importer, so the export ZIP you rescued before October 2025 won't migrate in cleanly. If preserving that archive matters, choose a tool with a dedicated Pocket import such as Raindrop.io, Instapaper, or Wallabag, and treat Evernote Web Clipper as a forward-looking capture tool rather than a migration destination."
+    a: "No — Evernote has no Pocket importer, so the export ZIP you rescued before November 12, 2025 (per [Mozilla’s Pocket closure notice](https://support.mozilla.org/en-US/kb/future-of-pocket)) won't migrate in cleanly. If preserving that archive matters, choose a tool with a dedicated Pocket import such as Raindrop.io, Instapaper, or Wallabag, and treat Evernote Web Clipper as a forward-looking capture tool rather than a migration destination."
   - q: "Is Evernote Web Clipper free to use?"
     a: "The extension is free, but it clips into Evernote, whose free plan allows only 50 notes, one notebook, and one device — enough to test, not to live in. Sustained clipping realistically requires Starter at $14.99/month ($99/year) or Advanced at $24.99/month ($249.99/year), among the most expensive plans in the category."
   - q: "What does Evernote offer that Pocket never did?"

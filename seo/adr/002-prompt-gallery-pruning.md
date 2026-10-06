@@ -15,9 +15,9 @@ Keep every **category hub** + any prompt page with **≥1 click OR ≥20 impress
 keep-list). Strengthen kept pages to tie into Marqly's AI features only where TRUE (the saved-AI-chats
 feature; NOT an invented "prompt library" product feature).
 
-## Why proposed, not accepted
+## Historical access dependency (resolved 2026-10-06)
 The keep rule is per-URL **clicks/impressions**, which live in `seo/data/gsc/query_page.csv` —
-BLOCKED on the service-account grant (`gsc-pull` returns 403 today). Applying it blind risks
+Previously blocked on the service-account grant (HTTP 403); Full access now verified. Applying it blind risks
 de-indexing pages that earn clicks. **Mechanism is ready** (`content-quality.mjs` + a `seo/data/gsc/prompt-keep.csv`);
 runs the moment GSC lands. Fallback if the grant never arrives: prune only prompts with 0 inbound internal
 links AND <400 units (safe, measurable from the crawl) — decided at Gate 1.
@@ -34,3 +34,5 @@ Delete `prompt-keep.csv` → all prompts indexable again.
   All pages stay live (follow) so they re-enable automatically when the keep-list refreshes with data.
 - Gate: 11 generalized to police ADR-001 AND ADR-002 prunings across all three surfaces; negative
   coverage already demonstrated. 25/25 green.
+
+- Candidate integration verified the same decision in HTML robots, sitemap and hreflang. Category exemptions use the exact hub namespace; deleting the CSV was tested in an isolated module process and restores indexability. Kept pages link to the existing AI-conversation FAQ and extension page; Pro semantic-search eligibility is explicit.

@@ -3,7 +3,7 @@ title: "Was wirklich in Ihrer Pocket-Exportdatei steht (und wie Sie sie nutzen)"
 seoTitle: "Pocket-Exportdatei: Inhalt & Import erklärt — Marqly"
 description: "Pocket-Export geöffnet und nur eine CSV gefunden? Das ist wirklich drin: URLs, Titel, Tags, Zeitstempel — was fehlt und wie der saubere Import gelingt."
 pubDate: 2026-06-23
-updatedDate: 2026-10-05
+updatedDate: 2026-10-06
 category: "Anleitungen"
 targetKeyword: "pocket exportdatei inhalt"
 tags:
@@ -26,7 +26,7 @@ faqs:
   - q: "Warum hat mein Pocket-Export mehrere Dateien?"
     a: "Bei großen Bibliotheken hat Pocket den Export in mehrere CSV-Dateien von jeweils rund zehntausend Zeilen aufgeteilt, damit jede Datei handhabbar bleibt. Das ist normal — es fehlen keine Daten. Beim Import legen Sie alle Dateien bei, denn jede enthält einen anderen Abschnitt Ihrer Saves."
   - q: "Kann ich 2026 noch einen Pocket-Export bekommen?"
-    a: "Nein. Mozilla hat Pocket am 8. Juli 2025 eingestellt und die Nutzerdaten am 12. November 2025 endgültig gelöscht. Einen neuen Export können Sie nicht mehr erzeugen. Wenn Sie Ihre Exportdatei vorher gespeichert haben, funktioniert sie weiter — diese Datei ist die einzige Kopie Ihrer Bibliothek, die existiert."
+    a: "Nein. Mozilla hat Pocket am 8. Juli 2025 eingestellt und die die Löschung der Nutzerdaten am 12. November 2025 begonnen. Einen neuen Export können Sie nicht mehr erzeugen. Wenn Sie Ihre Exportdatei vorher gespeichert haben, funktioniert sie weiter — diese Datei ist die einzige Kopie Ihrer Bibliothek, die existiert."
 heroImage: ../../../assets/blog/what-is-in-your-pocket-export-file.png
 heroAlt: "Was wirklich in Ihrer Pocket-Exportdatei steht — Illustration"
 ogImage: "https://www.marqly.com/og/what-is-in-your-pocket-export-file.png"
@@ -79,7 +79,7 @@ Die ehrliche Zusammenfassung: Ein Pocket-Export ist eine saubere, gut strukturie
 
 Der richtige Zug ist, **die Datei in ein Read-it-Later- oder Lesezeichen-Tool zu importieren, das jeden Link neu speichert und die Leseansicht aus der lebenden Seite rekonstruiert — und das zu tun, solange die Artikel noch online sind.** Weil der Export URLs trägt statt zwischengespeichertem Inhalt, hängt der wiedergewonnene Wert davon ab, dass diese URLs noch funktionieren. Jeder Monat Warten lässt mehr von ihnen verrotten. Die praktische Reihenfolge ist kurz:
 
-1. **Alle Dateien finden.** Prüfen Sie Ihren Download-Ordner und alte E-Mails auf den Export. Ist es ein ZIP, entpacken; sind es nummerierte CSVs, sammeln Sie alle. Pockets Daten wurden am 12. November 2025 endgültig gelöscht — diese Datei ist die einzige Kopie, die existiert. Sichern Sie sie, bevor Sie irgendetwas sonst tun.
+1. **Alle Dateien finden.** Prüfen Sie Ihren Download-Ordner und alte E-Mails auf den Export. Ist es ein ZIP, entpacken; sind es nummerierte CSVs, sammeln Sie alle. Der Pocket-Export wurde am 12. November 2025 deaktiviert und die Löschung der verbliebenen Daten begann (siehe [Mozilla-Hinweis](https://support.mozilla.org/en-US/kb/future-of-pocket)) — diese Datei ist die einzige Kopie, die existiert. Sichern Sie sie, bevor Sie irgendetwas sonst tun.
 2. **Reinschauen (optional).** Nutzen Sie unseren kostenlosen [Pocket-Export-Konverter](/tools/pocket-export-converter) oder den [Bookmark-File-Viewer](/tools/bookmark-file-viewer) aus unserem [Verzeichnis kostenloser Tools](/tools), um Ihre CSV-Archive zu inspizieren, zu durchsuchen oder in Browser-HTML umzuwandeln.
 3. **Ziel wählen und importieren.** Folgen Sie unserer Schritt-für-Schritt-[Migrationsanleitung Pocket zu Marqly](/migrate/pocket) oder besuchen Sie unser universelles [Migrationszentrum](/migrate). Öffnen Sie den Import-Screen Ihres neuen Tools und laden Sie die Datei hoch — bei geteilten Exporten jede einzelne. Das Tool liest Ihre Link-Liste, speichert sie neu und holt dann jede Seite aus dem lebenden Web, um eine lesbare Ansicht aufzubauen. Hier werden auch die gepackten Tags und Unix-Timestamps brauchbar gemacht — je nach Tool.
 4. **Stichproben-Check, und die Überlebenden neu sichern.** Kontrollieren Sie per Stichprobe, ob Saves ankamen. Jeder Link, der 404t, ist aus dem lebenden Web verschwunden — nicht nur aus Ihrer Bibliothek. Wenn er wichtig war: suchen Sie jetzt eine archivierte Kopie und speichern Sie sie neu.

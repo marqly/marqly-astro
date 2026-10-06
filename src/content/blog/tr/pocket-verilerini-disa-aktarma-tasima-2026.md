@@ -15,7 +15,7 @@ ctaLabel: "Marqly'ye ücretsiz başlayın"
 lang: "tr"
 faqs:
   - q: "Pocket verilerimi nasıl indirebilirim?"
-    a: "Mozilla, Pocket hizmetini 8 Temmuz 2025'te sonlandırdı ve dışa aktarma penceresi 8 Ekim 2025'te kapandı. Önceden indirdiği dışa aktarma arşivine sahip kullanıcılar, arşivdeki list.csv dosyasını doğrudan Marqly'ye aktarabilir (.html içe aktarıcının okuduğu biçim değildir)."
+    a: "Mozilla, Pocket hizmetini 8 Temmuz 2025'te sonlandırdı ve dışa aktarma penceresi 12 Kasım 2025'te kapandı. Önceden indirdiği dışa aktarma arşivine sahip kullanıcılar, arşivdeki list.csv dosyasını doğrudan Marqly'ye aktarabilir (.html içe aktarıcının okuduğu biçim değildir)."
   - q: "Taşıma sırasında etiketlerim kaybolur mu?"
     a: "Hayır. Marqly gibi modern araçlar tüm etiketleri ve başlıkları eksiksiz şekilde içe aktarır."
 heroImage: ../../../assets/blog/how-to-export-migrate-pocket-data.png

@@ -2,7 +2,7 @@
 a: pocket
 b: mymind
 verdict: "mymind — Pocket ceased operating in July 2025, so mymind wins unopposed, but it's a poor fit for classic Pocket refugees: there is no import at all, so your Pocket archive can't come with you. It suits visual thinkers starting fresh, not readers migrating a backlog."
-updatedDate: 2026-08-02
+updatedDate: 2026-10-06
 faqs:
   - q: "Can I import my Pocket export into mymind?"
     a: "No. mymind deliberately supports no mass import from anywhere — not Pocket, not Raindrop, not browser bookmarks — arguing that a fresh start beats migrating clutter. The read/write API that entered beta in mid-2026 makes a scripted import technically possible, but there is no official tool, so switching means starting over or writing code."

@@ -157,7 +157,7 @@ export function isIndexable(url) {
   const u = (url || '/').replace(/\.html$/, '').replace(/\/$/, '') || '/';
   if (cache.has(u)) return cache.get(u).index;
   // ADR-002 prompt branch: detail pages need a keep-list seat; hubs always pass.
-  if (PROMPT_KEEP && u.startsWith('/prompt-gallery/') && !u.startsWith('/prompt-gallery/category')) {
+  if (PROMPT_KEEP && u.startsWith('/prompt-gallery/') && u !== '/prompt-gallery/category' && !u.startsWith('/prompt-gallery/category/')) {
     const ok = PROMPT_KEEP.has(u);
     if (!ok) PRUNE_LOG.push({ url: u, lang: 'en', tier: 0, units: 0, enUnits: 0, parity: null, h2: 0, enH2: 0, secParity: null, en: null, file: 'seo/content/prompts' });
     cache.set(u, { index: ok, why: ok ? 'prompt keep-list' : 'prompt below 90d demand bar' });
@@ -180,10 +180,10 @@ export function isIndexable(url) {
   return ok;
 }
 
-/** True when a locale cluster member must be hidden from hreflang on siblings. */
+/** True when a pruned URL must be hidden from hreflang on siblings. */
 export function clusterHidden(url) {
   const seg = url.replace(SITE_RE, '').split('/').filter(Boolean);
-  return LOCALE_DIRS.includes(seg[0]) && !isIndexable('/' + seg.join('/'));
+  return !isIndexable('/' + seg.join('/'));
 }
 const SITE_RE = /^https?:\/\/[^/]+/;
 

@@ -18,6 +18,6 @@ faqs:
     a: "Ja, het gratis abonnement heeft onbeperkte bladwijzers en mappen op alle besturingssystemen."
 ---
 
-**Score: 4.5 / 5** — Raindrop.io is een uitzonderlijk goed afgewerkte bladwijzerbeheerder met een zeer genereus gratis abonnement.
+Raindrop.io is een uitzonderlijk goed afgewerkte bladwijzerbeheerder met een zeer genereus gratis abonnement.
 
 Het enige echte nadeel is dat het zoeken uitsluitend via exacte trefwoorden verloopt, terwijl [Marqly](https://app.marqly.com) semantisch zoekt op betekenis.

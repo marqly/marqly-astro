@@ -3,6 +3,7 @@ title: "Avaliação do Readwise Reader 2026: A ferramenta máxima para quem lê 
 seoTitle: "Avaliação do Readwise Reader 2026 — Vale o Preço? | Marqly"
 description: "Análise detalhada do Readwise Reader em 2026: preços ($9,99/mês), IA Ghostreader, sincronização com Notion/Obsidian e público-alvo."
 pubDate: 2026-08-02
+updatedDate: 2026-10-06
 category: "Avaliações"
 targetKeyword: "avaliacao readwise reader 2026"
 tags:
@@ -15,9 +16,9 @@ ctaLabel: "Comece grátis com o Marqly"
 lang: "pt"
 faqs:
   - q: "O Readwise Reader tem plano gratuito?"
-    a: "Não. Há apenas um teste gratuito de 30 dias com cartão de crédito obrigatório. A assinatura anual custa $119,88."
+    a: "Não. O Readwise Reader oferece um teste gratuito de 30 dias e depois custa $9,99/mês com cobrança anual ($119,88/ano) ou $12,99/mês com cobrança mensal."
 ---
 
-**Nota: 4.5 / 5** — O Readwise Reader é fantástico para acadêmicos e pesquisadores que passam horas destacando passagens de PDFs e newsletters.
+O Readwise Reader é fantástico para acadêmicos e pesquisadores que passam horas destacando passagens de PDFs e newsletters.
 
-Porém, com o preço de $119,88/ano, é excessivo para quem deseja apenas guardar e encontrar artigos sem esforço manual. Para esse perfil, o [Marqly](https://app.marqly.com) oferece busca semântica por significado a um custo muito mais acessível.
+Porém, com o preço de $119,88/ano, é excessivo para quem deseja apenas guardar e encontrar artigos sem esforço manual. Para esse perfil, o plano gratuito do Marqly inclui 100 itens e busca por palavra-chave; o [Marqly Pro](https://app.marqly.com) adiciona busca semântica.

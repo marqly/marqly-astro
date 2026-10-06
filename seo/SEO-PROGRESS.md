@@ -7,13 +7,13 @@ Mission: page-1 (pos 6–12) → top 3. Constraints in leverage order: authority
 | Phase | Days | State | Gate |
 |---|---|---|---|
 | 0 Instrumentation + baseline | 1–2 | done: real 16-month API history + 90-day decision dataset, analysis and dated KPIs. See `reports/03-live-api-2026-10-06.md` | Gate 0 reported |
-| 1 Stop the bleeding | 3–7 | **largely DONE (local, gated).** Parity gate, E-E-A-T, titles/metas, hreflang cleanup, tools, ADRs, truth-fixes. GSC-dependent bits (prompt prune, FAQ merge-by-demand, top-100 title hand-tune) queued. | **Gate 1 report → `reports/01-gate-1.md`** |
+| 1 Stop the bleeding | 3–7 | **largely DONE (live, gated).** Parity gate, E-E-A-T, titles/metas, hreflang cleanup, tools, ADRs, truth-fixes. GSC-dependent bits (FAQ merge-by-demand, top-100 title hand-tune) queued; prompt pruning validated for deployment. | **Gate 1 report → `reports/01-gate-1.md`** |
 | 2 CTR blitz + striking-distance | 8–14 | partial (titles done; 6 tools expanded; 48 tier-1 localized upgraded). Per-page GSC strikes pending. | — |
 | 3 Money terms + clusters | 15–23 | started: `/bookmark-manager` pillar + `/research` study + homepage AEO + 11 export posts. | — |
-| 4 Authority engine | 3–28 (parallel) | **kit PREPARED** (`seo/outreach/`), owner-authorized sends. Study asset built locally; production verification pending. | — |
+| 4 Authority engine | 3–28 (parallel) | **kit PREPARED** (`seo/outreach/`), owner-authorized sends. Study asset live; production verified 2026-10-06. | — |
 | 5 AEO + measurement | 26–30 | scripts ready (`weekly-report.mjs`, `indexnow.mjs`); AI-citation tracking pending owner. | — |
 
-**NOT DEPLOYED.** All changes are local + pass 25 build gates. The 2026-10-06 handoff authorizes deployment via `git push marqly-astro feat/seo-program-phase1:main` after fresh build, gates, and visual checks. Owner confirmed the Full GSC grant on 2026-10-06; API access is verified. Bing’s existing connection and canonical host are verified, sitemap resubmitted, and IndexNow key file prepared. No deployment or outreach send completed yet.
+**LIVE as of 2026-10-06 11:34 UTC.** Production `132def5`; Cloudflare build succeeded, required pages/canonicals/noindex/redirects and 1,343-URL sitemap verified live. Search Console confirmed manual marketing sitemap resubmission; Bing IndexNow accepted 1,343 URLs (HTTP 200). Deploy dates filled; indexing and Day-30 outcomes remain unmeasured. No outreach send completed yet. See `reports/05-live-deployment-2026-10-06.md`.
 
 ## KPI deltas (owner snapshot baseline → local after 2026-10-05)
 
@@ -24,12 +24,12 @@ Mission: page-1 (pos 6–12) → top 3. Constraints in leverage order: authority
 | Titles >60 (indexable) | **550** | **0** (≤60, entity-correct) | 0 |
 | Metas >160 | **194** | **0** | 0 |
 | EN editorial w/ named author + methodology | 0% | **100%** (blog + all 163 alt/compare via SourceNote) | 100% |
-| E-E-A-T pages (/about /how-we-test /authors /research) | absent | **built locally** | — |
+| E-E-A-T pages (/about /how-we-test /authors /research) | absent | **live** | — |
 | New EN pages (info-gain gated) | 0 | **20** (11 export + pillar + study + 4 trust + /authors index) | 20–25 |
 | On-strategy tools expanded (≥400w, WebApp schema) | — | **6** (1.1–2K words) | 9 |
 | Truth-bugs fixed (Pocket-HTML; pl dates) | live | **fixed + gate 13 added** | — |
 | Cannibalization consolidation (X-vs-Marqly→/compare) | — | verified already done (prior) | — |
-| Bing WMT + IndexNow | no | Existing GSC connection/site verified; sitemap resubmitted; public key prepared, dry run passed | yes |
+| Bing WMT + IndexNow | no | Existing GSC connection/site verified; sitemap resubmitted; public key verified live; Bing receipt HTTP 200 | yes |
 
 ## Task board
 
@@ -121,3 +121,16 @@ Day 30 is not an elapsed postdeployment period. Future outcomes remain unmeasure
 - Bing existing connection `amroshahbari@gmail.com` verified; Google explicitly shows existing Search Console read-only access. Refreshed that same connection without adding scopes. GSC import found no new sites; manual www check returns **Site already added**. Bing already tracks www URLs in the apex-domain site. Marketing sitemap resubmitted at about 11:04Z and shown Submitted/Processing. App sitemap left untouched.
 - Generated a protocol-compatible public IndexNow key locally (not a private Bing Webmaster API credential), stored in ignored `.env`, and added its public text file. This corrects the handoff’s assumption that Settings exposes an IndexNow key; Settings’ API access is a different credential. Dry run exits 0 for 1,343 sitemap URLs. Real submission follows deployment and live key verification.
 - 12/12 tests, fresh build exit 0 and 25/25 SEO gates pass. Concurrent `src/data/competitors/mymind.json` edit appeared during this phase; preserved and excluded from this phase’s staging. Phase C next; deployment dates and Day-30 outcomes remain pending.
+
+## Integration note — concurrent writes, 2026-10-06
+
+A concurrent process added `2ce9f22` and replaced canonical inputs with historical pulls during the Phase B commit. Fixed deployment candidate is isolated in the attached `seo-deploy-candidate` worktree on `codex/seo-deploy-candidate`; its canonical inputs are restored from the successful nine-dimension 90-day API snapshot and analysis regenerated. All concurrent commits/pulls remain preserved. Candidate truth audit, build and visual validation precede production push.
+
+## Phase C candidate review — 2026-10-06
+
+- Numerical review ratings removed; substantive plan/import/closure corrections completed across affected language versions. Official-source evidence recorded in `reports/04-predeployment-truth-2026-10-06.md`.
+- Data tests pass 13/13. Final candidate build and all 25 gates pass; five required surfaces visually inspected at desktop/mobile widths after fixing the study button overflow. 148 URLs logged. Production push complete; live checks and indexing receipts recorded in `reports/05-live-deployment-2026-10-06.md`.
+
+## Phase D1 candidate — 2026-10-06
+
+149/400 prompt details meet the exact 90-day demand bar; 251 receive noindex and leave sitemap/hreflang, while all ten category hubs plus their index remain. Shared decision and deleting-CSV rollback verified. Local sitemap: 1,092. All 25 gates pass; desktop/mobile kept and pruned visuals pass. 400 URLs logged pending live deployment. See `reports/06-prompt-pruning-2026-10-06.md`.

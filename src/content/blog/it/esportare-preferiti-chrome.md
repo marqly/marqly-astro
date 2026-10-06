@@ -3,6 +3,7 @@ title: "Come esportare i preferiti di Chrome (e cosa farne)"
 seoTitle: "Come Esportare i Preferiti di Chrome nel 2026 (Passo Passo) — Marqly"
 description: "Guida passo passo per esportare i preferiti da Chrome, Edge, Firefox e Safari, cosa contiene il file HTML e come importarlo altrove."
 pubDate: 2026-08-16
+updatedDate: 2026-10-06
 category: "Guide"
 targetKeyword: "esportare preferiti chrome"
 tags:
@@ -96,4 +97,4 @@ Se lo importi tale e quale altrove, stai traslocando il disordine. Due idee prim
 
 Fai l'esportazione **prima** di averne bisogno: prima di formattare, prima del portatile nuovo, prima di provare un nuovo strumento. È un minuto di lavoro ed è l'unica versione dei tuoi preferiti che non dipende dal fatto che un account continui a esistere.
 
-Chi aveva i preferiti su Pocket l'ha imparato nel modo peggiore: la finestra di esportazione si è chiusa a ottobre 2025 e i dati sono stati cancellati. Raccontato in [alternative a Pocket](/it/alternative/pocket).
+Chi aveva i preferiti su Pocket l'ha imparato nel modo peggiore: la finestra di esportazione si è chiusa il 12 novembre 2025 e Mozilla ha avviato la cancellazione dei dati rimanenti (vedi [l’avviso ufficiale](https://support.mozilla.org/en-US/kb/future-of-pocket)). Raccontato in [alternative a Pocket](/it/alternative/pocket).

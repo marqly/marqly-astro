@@ -9,7 +9,7 @@ const CASES = [
   { url: 'https://www.marqly.com/Pricing/', expect: 'https://www.marqly.com/pricing', why: 'uppercase + slash combo must not chain' },
   { url: 'https://www.marqly.com/Extension', expect: 'https://www.marqly.com/extension', why: 'legacy capital URL (backlink target)' },
   { url: 'https://www.marqly.com/T%26C', expect: 'https://www.marqly.com/terms', why: 'ampersand legal URL' },
-  { url: 'https://www.marqly.com/about', expect: 'https://www.marqly.com/', why: 'current behavior — REPONT to /about in Phase 1.6' },
+  { url: 'https://www.marqly.com/about', status: 200, why: 'published author/about page resolves without redirect' },
   { url: 'https://www.marqly.com/vs/raindrop', expect: 'https://www.marqly.com/compare/marqly-vs-raindrop', why: 'legacy vs-stub consolidation' },
   { url: 'https://www.marqly.com/sitemap.xml', expect: 'https://www.marqly.com/sitemap-index.xml', why: 'sitemap alias' },
   { url: 'https://www.marqly.com/nonexistent-page-xyz', expect: null, why: '404 should be 404 (not soft-redirect to home)' },
@@ -26,18 +26,19 @@ for (const c of CASES) {
   const r = await head(c.url);
   const loc = r.location && c.url.startsWith('https://www') ? r.location : r.location; // absolute compare
   let verdict = 'INFO';
-  if (c.expect) {
+  if (c.status) {
+    verdict = r.status === c.status && !r.location ? 'PASS' : `FAIL expected ${c.status} without redirect, got ${r.status}`;
+  } else if (c.expect) {
     const got = r.location ? new URL(r.location, c.url).href : null;
     const want = new URL(c.expect, 'https://www.marqly.com/').href;
     if (!PERM.has(r.status)) verdict = `FAIL status=${r.status} (expected 301/308)`;
     else if (got !== want) verdict = `FAIL target ${got} != ${want}`;
-    else if (c.url === 'https://www.marqly.com/about') verdict = 'PASS (temp)';
     else verdict = 'PASS';
   } else {
     verdict = r.status === 404 ? 'PASS' : `FAIL expected 404, got ${r.status}`;
   }
   if (verdict.startsWith('FAIL') || verdict === 'INFO') fails++;
-  console.log(`${verdict.padEnd(12)} ${r.status} ${c.url}\n${''.padEnd(13)}  -> ${r.location ?? '(none)'}  [${c.why}]${c.url === 'https://www.marqly.com/about' ? '  ← known: /about must be BUILT + repointed Phase 1.6' : ''}`);
+  console.log(`${verdict.padEnd(12)} ${r.status} ${c.url}\n${''.padEnd(13)}  -> ${r.location ?? '(none)'}  [${c.why}]`);
 }
 
 // chain depth for apex combos

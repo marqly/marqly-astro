@@ -27,7 +27,7 @@ faqs:
 ogImage: "https://www.marqly.com/og/karakeep-review-2026.png"
 ---
 
-**★ 4/5** — Karakeep ist der beste selbstgehostete Lesezeichen-Manager für alle, die echte KI-Funktionen wollen — Auto-Tags, Zusammenfassungen, sogar semantische Suche — ohne ihre Bibliothek aus der Hand zu geben; der Eintrittspreis ist, dass Sie selbst das Ops-Team sind.
+Karakeep ist der beste selbstgehostete Lesezeichen-Manager für alle, die echte KI-Funktionen wollen — Auto-Tags, Zusammenfassungen, sogar semantische Suche — ohne ihre Bibliothek aus der Hand zu geben; der Eintrittspreis ist, dass Sie selbst das Ops-Team sind.
 
 Transparenz: Dieser Testbericht stammt von Marqly, einem gehosteten (nicht self-hostbaren) Wettbewerber. Karakeep bedient eine Zielgruppe, die wir strukturell nicht erreichen können — wenn „meine Daten bleiben auf meiner Hardware“ ein K.-o.-Kriterium ist, ist Karakeep vermutlich Ihre Antwort, und der Rest dieser Rezension ist Detail. Auf eigenen Maßstäben gemessen: exzellent.
 
@@ -121,4 +121,4 @@ Für wen nicht: jeder, der oben „Reverse Proxy“ las und sich müde fühlte. 
 
 ## Fazit
 
-**★ 4/5.** Karakeep ist der vollständigste selbstgehostete Lesezeichen-Manager, den es 2026 gibt, und der einzige, bei dem KI nativ wirkt statt aufgepropft. Einen Stern verliert es für die Steuer, die jedes Self-Hosting-Tool erhebt — Einrichtung, Wartung, Pre-1.0-Turbulenzen und eine KI-Qualität, die davon abhängt, was Sie ihr verfüttern — und nichts davon wird die eigentliche Zielgruppe auch nur im Geringsten abschrecken. Wenn Sie Karakeeps KI-Erlebnis ohne den Server wollen: [Marqly ist die gehostete Version derselben Idee](https://app.marqly.com) — Gratis-Plan, keine Kreditkarte, in den nächsten zwei Minuten funktionsfähig.
+Karakeep ist der vollständigste selbstgehostete Lesezeichen-Manager, den es 2026 gibt, und der einzige, bei dem KI nativ wirkt statt aufgepropft. Seine Nachteile sind die Kosten jedes Self-Hosting-Tools — Einrichtung, Wartung, Pre-1.0-Turbulenzen und eine KI-Qualität, die davon abhängt, was Sie ihr verfüttern — doch nichts davon wird die eigentliche Zielgruppe auch nur im Geringsten abschrecken. Wenn Sie Karakeeps KI-Erlebnis ohne den Server wollen: [Marqly ist die gehostete Version derselben Idee](https://app.marqly.com) — Gratis-Plan, keine Kreditkarte, in den nächsten zwei Minuten funktionsfähig.

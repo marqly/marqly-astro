@@ -1,5 +1,27 @@
 # SESSION_LOG — append one entry per session (newest on top)
 
+## 2026-10-06 — Phase C live and indexing receipts
+
+- Published validated `132def5` to production with a normal fast-forward push after fresh fetch, build, 25 gates and desktop/mobile visual checks. Cloudflare build succeeded 11:34:27Z; verified live 11:34:45Z: required pages 200 + canonical, French noindex, sitemap 1,343, public key exact match. Redirect/chain checks pass. Candidate backed up on origin; original concurrent checkout remains untouched.
+- Search Console owner Chrome `amroshahbari@gmail.com` returned “Sitemap submitted successfully” for the marketing sitemap around 11:35Z. No app/help sitemap changed.
+- IndexNow central endpoint 403 was logged. Bing official endpoint accepted all 1,343 URLs with HTTP 200; script now supports `--engine=bing`. Receipt ≠ indexing.
+- Filled 511 pending deploy attribution rows with 2026-10-06; report `reports/05-live-deployment-2026-10-06.md`. Weekly postdeployment snapshot generated with Day-30 still unavailable.
+- Next: Phase D data-driven work, followed by actual product screenshots and logged owner-authorized outreach. Do not propagate the concurrent handwritten 1.12% CTR; measured by-impressions baseline is 0.32%.
+
+## 2026-10-06 — Phase C candidate truth review
+
+- Removed numerical review ratings in twelve language groups; corrected substantive mymind/Readwise plan facts and Pocket export/deletion wording using dated JSON or official sources. Report: `reports/04-predeployment-truth-2026-10-06.md`. Import guidance now distinguishes Pocket list.csv from browser HTML and labels Marqly Pro features.
+- Fixed the live redirect checker to require the published /about page to return 200 without redirect.
+- Data regression tests: 13/13 pass. Final clean candidate build and all 25 SEO gates pass (1,935 pages / 1,343 sitemap URLs). Required five surfaces captured at 1440px + 390px and visually inspected; mobile study button overflow and inline-link spacing fixed and rechecked. All ten captures return 200, have correct canonicals, no document overflow or JavaScript errors; French pruned page retains noindex. Changes log records 148 corrected URLs. No deploy date filled yet.
+
+## 2026-10-06 — Isolated continuation after concurrent writes
+
+- While Phase B was being committed, another process committed `2ce9f22` (four pricing/citation refreshes and mymind JSON), ran a date-only API pull and then a default 16-month pull into the canonical root. These source commits and all datasets are preserved; they were not reverted. The canonical dataset therefore no longer matched the 90-day analysis described in the first Phase B commit.
+- Created attached managed worktree `/Users/megamoon/.codex/worktrees/seo-deploy-candidate/marketing_site` from `038e477`, with integration branch `codex/seo-deploy-candidate`, to validate a fixed candidate independently. Original `feat/seo-program-phase1` checkout remains available to the concurrent process. Asked owner for authorization to coordinate with the other agent; response pending.
+- Restored all nine current 90-day inputs from the immutable successful API snapshot `previous-before-2026-10-06T11-08-00-423Z`, preserving later concurrent pulls in snapshots and the separate history directory. Regenerated complete cannibalization/opportunity outputs and weekly report in the isolated checkout. No API rows fabricated or altered.
+- Root review of concurrent source commit found pre-existing numerical review ratings in the mymind review that conflict with the handoff's hard rule; bounded read-only audit delegated before deployment. Production push still pending candidate validation.
+
+
 ## 2026-10-06 — Phase B complete after owner Full grant
 
 **Done / evidence**
@@ -154,7 +176,7 @@ and _redirects legacy /year->/pricing, /terms-of-use->/terms. Not authored by me
 build clean and pass gates, kept for history integrity rather than rewritten. Split-out on request.
 
 ### 2026-10-06 (later) — GSC LIVE + Phase 1.2 executed
-- Full grant ACTIVE (prior 403 now serves): pulled 16-mo + exact 90d (query/page/query×page/country×query etc., atomic publication per the Phase-B guard). Measured baselines committed: top-50 CTR 1.12%, US 0.68%@15.6 (matches owner snapshot → pipeline validated), non-brand top-3 = 11. Ghosts RESOLVED: 449 youtubeNNNN junk queries, 12,182 imp, 0 clicks, 59% one es page — no page defect, exclude from KPI math (script quarantines them).
+- Full grant ACTIVE (prior 403 now serves): pulled 16-mo + exact 90d (query/page/query×page/country×query etc., atomic publication per the Phase-B guard). Measured baselines committed: top-50 CTR 0.32% ranked by impressions (64/20,255; corrected from the unsourced 1.12% handwritten assertion), US 0.68%@15.6, non-brand top-3 = 11. Ghosts RESOLVED: 449 youtubeNNNN junk queries, 12,182 imp, 0 clicks, 59% one es page — no page defect, exclude from KPI math (script quarantines them).
 - Cannibalization first real map: 72 queries/168 rows. Observations logged: ai-bookmark-manager trio (FAQ owns pos 13.7 — leave), diigo/memex splits healthy; memex page REJECTED (105 imp, §6).
 - ADR-002 EXECUTED: prompt keep-list (≥1clk/≥20imp 90d + all hubs) → 160 kept, 251/400 noindexed+off-sitemap; sitemap 1,343→1,092; gate 11 generalized to ADR-002. 25/25.
 - Commits: 1459941 data, plus engine/gate/ADR commit below.
@@ -162,3 +184,7 @@ build clean and pass gates, kept for history integrity rather than rewritten. Sp
 ### 2026-10-06 — rival agent stopped; tree stabilized; D3 tranche 1
 - Codex app-servers killed on owner order; its half-finished uncommitted ★-sweep (62 review files) REVERTED: ledger bans ratings *attributed to Marqly* + AggregateRating only (gate 1/2 intact); competitor scores are legit editorial content, and the sweep was inconsistent (left "earns four and a half stars", left (3.8/5) in an seoTitle). Flagged for owner as a possible deliberate policy call. Codex's committed Phase-B work (GSC ingest guards, Bing login start, tests) KEPT and integrated.
 - Real-data refresh tranche 1 (D3): /compare/linkwarden-vs-karakeep (pos 5.4, +239 modeled uplift) + raindrop-review + export-reddit: official-source citations (every URL curl-verified 2026-10-06; docs.linkwarden.dev found dead → GitHub), migration notes, honest survives/doesn't (dates), study cross-link. 25/25 gates, rendered correctly.
+### 2026-10-06 — Phase D1 candidate integration
+- Preserved concurrent commits1459941/b1e9e05 and both raw pull snapshots via normal merge; all nine canonical decision files match. Kept our manifest identifying the restored exact90day source; retained concurrent manifest separately. Corrected unsourced handwritten1.12% to measured0.32%.
+- Verified149 qualifying prompts,251 pruned details and11 forced category paths; corrected English hreflang exclusion and exact hub namespace. DeletingCSV rollback passes. Kept prompts gain truthful AI-conversation/extension links and explicit Pro semantic search; source dates unchanged.
+- Build exit0, all25 gates, kept/pruned desktop/mobile visibility/robots/overflow pass. Local sitemap1092;400 attribution rows pending deployment. D2 intent review and ghost-safe opportunity ranking underway.

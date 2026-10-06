@@ -18,6 +18,6 @@ faqs:
     a: "Oui, en version auto-hébergée open source. La version cloud officielle coûte 4 $/mois."
 ---
 
-**Note : 4 / 5** — Karakeep brille par son intégration de modèles d'IA locaux via Ollama sur votre propre matériel.
+Karakeep brille par son intégration de modèles d'IA locaux via Ollama sur votre propre matériel.
 
 Pour une solution zéro maintenance avec recherche sémantique immédiate, [Marqly](https://app.marqly.com) offre une expérience beaucoup plus fluide.

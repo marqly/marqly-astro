@@ -3,7 +3,7 @@ title: "2026 Yılında En İyi 8 Pocket Alternatifi (Test Edildi)"
 seoTitle: "Pocket Alternatifleri 2026: En İyi 8 Uygulama — Marqly"
 description: "Mozilla'nın Pocket'ı kapatmasının ardından 2026'nın en iyi daha sonra oku ve yer imi alternatiflerini yapay zeka araması, içe aktarma ve fiyat açısından inceledik."
 pubDate: 2026-05-12
-updatedDate: 2026-06-23
+updatedDate: 2026-10-06
 category: "Karşılaştırmalar"
 targetKeyword: "pocket alternatifleri"
 tags:
@@ -22,7 +22,7 @@ faqs:
   - q: "Tamamen ücretsiz bir Pocket alternatifi var mı?"
     a: "Raindrop.io zengin bir ücretsiz plan sunar. Marqly ise 100 yer imine kadar tüm kütüphaneyi kapsayan arama özellikli ücretsiz bir plana sahiptir."
   - q: "Pocket tam olarak ne zaman kapandı?"
-    a: "Mozilla, Pocket'ın kapatılacağını 8 Temmuz 2025'te duyurarak yeni kaydetmeleri durdurdu ve 12 Kasım 2025'te kullanıcı verileri sunuculardan kalıcı olarak silindi."
+    a: "Mozilla, Pocket'ın kapatılacağını 8 Temmuz 2025'te duyurarak yeni kaydetmeleri durdurdu ve 12 Kasım 2025'te dışa aktarma devre dışı bırakıldı ve kalan kullanıcı verilerinin silinmesi başladı ([Mozilla duyurusu](https://support.mozilla.org/en-US/kb/future-of-pocket))."
 heroImage: ../../../assets/blog/best-pocket-alternatives-2026.png
 heroAlt: "2026 Yılında En İyi 8 Pocket Alternatifi — illüstrasyon"
 ogImage: "https://www.marqly.com/og/best-pocket-alternatives-2026.png"

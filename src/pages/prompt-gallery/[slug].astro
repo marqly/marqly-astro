@@ -8,6 +8,7 @@ import FaqAccordion from '../../components/seo/FaqAccordion.astro';
 import { breadcrumbList, faqPage, organization, webSite } from '../../lib/schema';
 import { aiToolsBySlug } from '../../lib/ai-tools';
 import { brandTitle } from '../../lib/seo-text.mjs';
+import { isIndexable } from '../../lib/content-quality.mjs';
 
 export async function getStaticPaths() {
   const entries = await getCollection('prompts', ({ data }) => !data.draft);
@@ -97,10 +98,14 @@ const categoryPath = `/prompt-gallery/category/${catSlug(data.category)}`;
               <div class="callout-text">
                 <strong>Organize your AI prompt library with Marqly</strong>
                 <p>
-                  Never lose high-performing prompts in chat history. Clip prompts directly from ChatGPT, Claude, and Gemini with the
-                  <a href="/extension">Marqly extension</a>, tag them by project, and find them with
-                  <a href="/faq/what-is-semantic-search">semantic search</a>.
+                  Never lose high-performing prompts in chat history. Clip prompts directly from ChatGPT, Claude, and Gemini with the{' '}
+                  <a href="/extension">Marqly extension</a>, tag them by project, and find them with{' '}
+                  <a href="/faq/what-is-semantic-search">Pro semantic search</a>.
                 </p>
+                {isIndexable(path) && <p>
+                  See <a href="/faq/can-i-save-chatgpt-claude-gemini-conversations">how to save AI conversations</a>{' '}
+                  and <a href="/extension">the extension’s capture features</a> to keep useful prompts beside your source material.
+                </p>}
               </div>
             </div>
           </div>
@@ -136,7 +141,7 @@ const categoryPath = `/prompt-gallery/category/${catSlug(data.category)}`;
             </p>
             <ul class="sidebar-benefits">
               <li>✓ One-click prompt clipping</li>
-              <li>✓ Semantic search across your library</li>
+              <li>✓ Pro semantic search across your library</li>
               <li>✓ Sync across Chrome, Edge, Firefox, & Safari</li>
               <li>✓ Free up to 100 saves</li>
             </ul>

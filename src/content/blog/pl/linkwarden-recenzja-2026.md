@@ -18,4 +18,4 @@ faqs:
     a: "Tak, zapisuje pełny kod HTML, zrzut ekranu oraz plik PDF każdej dodanej strony."
 ---
 
-**Ocena: 4 / 5** — Doskonałe narzędzie archiwizacyjne chroniące przed wygasaniem stron. Jeśli szukasz inteligentnego wyszukiwania semantycznego, wybierz [Marqly](https://app.marqly.com).
+Doskonałe narzędzie archiwizacyjne chroniące przed wygasaniem stron. Jeśli szukasz inteligentnego wyszukiwania semantycznego, wybierz [Marqly](https://app.marqly.com).

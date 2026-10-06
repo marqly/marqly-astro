@@ -27,7 +27,7 @@ faqs:
 ogImage: "https://www.marqly.com/og/linkwarden-review-2026.png"
 ---
 
-**★ 4/5** — Linkwarden ist der Lesezeichen-Manager für Archivare: Jeder Link wird in mehreren Formaten bewahrt, bevor er verrotten kann, alles ist Open Source, und der Cloud-Plan kostet 3 $ im Monat — nur sollten Sie nicht erwarten, dass das Tool Ihre Bibliothek für Sie sortiert oder Dinge nach Bedeutung findet.
+Linkwarden ist der Lesezeichen-Manager für Archivare: Jeder Link wird in mehreren Formaten bewahrt, bevor er verrotten kann, alles ist Open Source, und der Cloud-Plan kostet 3 $ im Monat — nur sollten Sie nicht erwarten, dass das Tool Ihre Bibliothek für Sie sortiert oder Dinge nach Bedeutung findet.
 
 Transparenz: Dieser Testbericht erscheint im Blog von Marqly, einem konkurrierenden (gehosteten, Closed-Source-)Lesezeichen-Tool. Linkwardens Kernversprechen — Ihre Links, bewahrt, auf Infrastruktur, die Ihnen gehören — ist eines, worin wir gar nicht mit Linkwarden konkurrieren. Wir bewerten es für das, was es ist: das bewahrungsfokussierteste Tool der Kategorie.
 
@@ -120,4 +120,4 @@ Für wen nicht: Menschen, deren echtes Problem Wiederfinden oder Vorsortieren is
 
 ## Fazit
 
-**★ 4/5.** Linkwarden ist der beste bewahrungszuerst-Lesezeichen-Manager in der Open-Source-Welt — mit ehrlichen Preisen, echter Zusammenarbeit und einer Plattform-Story, die sich in diesem Jahr dramatisch verbessert hat. Einen Stern verliert es, weil die Intelligenz-Schicht dünn ist: reine Keyword-Retrieval und KI nur zum Taggen lassen das Problem „Dinge wiederfinden“ ungelöst. Behalten Sie Linkwarden als Tresor, wenn Beständigkeit Ihr Bedürfnis ist. Wenn Sie dagegen *finden* müssen, was Sie gespeichert haben, ist das die andere Hälfte der Aufgabe — [starten Sie kostenlos mit Marqly](https://app.marqly.com), ohne Kreditkarte, und durchsuchen Sie Ihre Bibliothek nach dem, woran Sie sich erinnern.
+Linkwarden ist der beste bewahrungszuerst-Lesezeichen-Manager in der Open-Source-Welt — mit ehrlichen Preisen, echter Zusammenarbeit und einer Plattform-Story, die sich in diesem Jahr dramatisch verbessert hat. Seine wichtigste Einschränkung ist, dass die Intelligenz-Schicht dünn ist: reine Keyword-Retrieval und KI nur zum Taggen lassen das Problem „Dinge wiederfinden“ ungelöst. Behalten Sie Linkwarden als Tresor, wenn Beständigkeit Ihr Bedürfnis ist. Wenn Sie dagegen *finden* müssen, was Sie gespeichert haben, ist das die andere Hälfte der Aufgabe — [starten Sie kostenlos mit Marqly](https://app.marqly.com), ohne Kreditkarte, und durchsuchen Sie Ihre Bibliothek nach dem, woran Sie sich erinnern.

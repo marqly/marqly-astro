@@ -4,7 +4,7 @@
   "aka": ["mozilla-pocket", "getpocket", "read-it-later"],
   "category": "read-it-later",
   "status": "shutdown",
-  "shutdownNote": "Mozilla shut down Pocket on July 8, 2025. Saves could be exported until October 8, 2025, after which all user data was permanently deleted. Premium subscribers received prorated refunds.",
+  "shutdownNote": "Mozilla shut down Pocket on July 8, 2025. Export access and the API were disabled on November 12, 2025, and data deletion began then. Source: https://support.mozilla.org/en-US/kb/future-of-pocket (verified 2026-10-06). Premium subscribers received prorated refunds.",
   "website": "https://getpocket.com",
   "tagline": "Mozilla's read-it-later service, 2007–2025",
   "pricing": {
@@ -44,18 +44,18 @@
     "Discover surfaced genuinely good long-form recommendations"
   ],
   "cons": [
-    "Shut down on July 8, 2025 — the service no longer exists and all remaining user data was deleted after October 8, 2025",
+    "Shut down on July 8, 2025 — the service no longer exists and data deletion began on November 12, 2025",
     "Search was title-and-URL only unless you paid for Premium full-text search",
     "Tagging was fully manual; suggested tags were a Premium extra",
     "Highlights were capped at 3 per article on the free plan, with no notes or annotations"
   ],
-  "bestFor": "No one today — Pocket is gone. Former users need an alternative that can import the Pocket export file they downloaded before October 2025.",
+  "bestFor": "No one today — Pocket is gone. Former users need an alternative that can import the Pocket export file they downloaded before November 12, 2025.",
   "verdict": "A beloved read-it-later pioneer that no longer exists; the practical question is which alternative imports your Pocket export best.",
-  "overview": "Pocket was one of the most popular read-it-later services on the web. Launched in 2007 as Read It Later and acquired by Mozilla in 2017, it let people save articles, videos, and links from any browser or app, then read them later in a clean, distraction-free view — online or offline — on iOS, Android, and the web. A free tier covered core saving and reading, while Pocket Premium added a permanent article archive, full-text search, and suggested tags. Pocket was built into Firefox and grew a large audience around its editorial Discover recommendations. In May 2025 Mozilla announced it was discontinuing the service: Pocket stopped working on July 8, 2025, exports remained available until October 8, 2025, and remaining data was then permanently deleted. Anyone who kept a Pocket export ZIP can still import those saves into most modern bookmark managers and read-it-later apps.",
+  "overview": "Pocket was one of the most popular read-it-later services on the web. Launched in 2007 as Read It Later and acquired by Mozilla in 2017, it let people save articles, videos, and links from any browser or app, then read them later in a clean, distraction-free view — online or offline — on iOS, Android, and the web. A free tier covered core saving and reading, while Pocket Premium added a permanent article archive, full-text search, and suggested tags. Pocket was built into Firefox and grew a large audience around its editorial Discover recommendations. In May 2025 Mozilla announced it was discontinuing the service: Pocket stopped working on July 8, 2025, export access and the API were disabled on November 12, 2025, and data deletion began then. Source: https://support.mozilla.org/en-US/kb/future-of-pocket (verified 2026-10-06). Anyone who kept a Pocket export ZIP can still import those saves into most modern bookmark managers and read-it-later apps.",
   "faqs": [
     {
       "q": "What happened to Pocket?",
-      "a": "Mozilla shut Pocket down. The company announced the decision in May 2025, saying it wanted to focus on Firefox; the app and extensions stopped working on July 8, 2025. Users could export their saves until October 8, 2025, after which all remaining data was permanently deleted. Pocket Premium subscribers received automatic prorated refunds."
+      "a": "Mozilla shut Pocket down. The company announced the decision in May 2025, saying it wanted to focus on Firefox; the app and extensions stopped working on July 8, 2025. Export access and the API were disabled on November 12, 2025, when data deletion began. Pocket Premium subscribers received automatic prorated refunds."
     },
     {
       "q": "Is Pocket free?",
@@ -71,8 +71,8 @@
     },
     {
       "q": "Can I still export my data from Pocket?",
-      "a": "No. The export window closed on October 8, 2025, and Mozilla permanently deleted all remaining user data after that date. If you downloaded your export ZIP (which contains a CSV of your saves) before the deadline, most bookmark managers and read-it-later apps — including Marqly, Raindrop.io, and Instapaper — can import it."
+      "a": "No. The export window closed on November 12, 2025, when data deletion began. If you downloaded your export ZIP (which contains a CSV of your saves) before the deadline, most bookmark managers and read-it-later apps — including Marqly, Raindrop.io, and Instapaper — can import it."
     }
   ],
-  "lastVerified": "2026-08-02"
+  "lastVerified": "2026-10-06"
 }

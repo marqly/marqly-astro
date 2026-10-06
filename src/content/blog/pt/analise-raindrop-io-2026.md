@@ -20,7 +20,7 @@ faqs:
     a: "Custa $27,99 por ano (ou $2,99/mês), incluindo busca em texto completo e cópias permanentes de páginas."
 ---
 
-**Nota: 4.5 / 5** — O Raindrop.io é a referência em gerenciadores de favoritos clássicos. Possui aplicativos refinados para todas as plataformas, um plano gratuito sem limite de itens e um plano Pro com preço muito acessível.
+O Raindrop.io é a referência em gerenciadores de favoritos clássicos. Possui aplicativos refinados para todas as plataformas, um plano gratuito sem limite de itens e um plano Pro com preço muito acessível.
 
 Sua principal restrição reside na busca: ela é baseada estritamente em palavras-chave exatas.
 

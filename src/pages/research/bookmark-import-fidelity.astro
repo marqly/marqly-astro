@@ -6,7 +6,7 @@ const title = 'Bookmark Import Failures: What Exports Actually Load (2026)';
 const description =
   'We ran real, public bookmark exports through an importer and measured what loads: 0/261 Pocket HTML, 43/43 Chrome, a Raindrop description bug, and lost dates. Method + data.';
 const canonical = 'https://www.marqly.com/research/bookmark-import-fidelity';
-const updated = '2026-10-05';
+const updated = '2026-10-06';
 
 const articleSchema = {
   '@context': 'https://schema.org',
@@ -34,7 +34,7 @@ const jsonLd = [
       <header class="head">
         <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/blog">Blog</a><span>/</span><span>Research</span></nav>
         <h1>When your bookmark export won’t import: what we measured</h1>
-        <p class="byline">By <a href={AUTHOR.url}>{AUTHOR.name}</a>, founder of Marqly · <span class="updated">Updated <time datetime={updated}>Oct 5, 2026</time></span> · <a href="/how-we-test">how we test</a></p>
+        <p class="byline">By <a href={AUTHOR.url}>{AUTHOR.name}</a>, founder of Marqly · <span class="updated">Updated <time datetime={updated}>Oct 6, 2026</time></span> · <a href="/how-we-test">how we test</a></p>
         <p class="lede">
           Switching bookmark tools always ends the same way: you export, you upload, and… the importer
           says “no bookmarks found”, or it imports everything but your folders collapse and your dates
@@ -147,9 +147,9 @@ const jsonLd = [
         <h2>Want the library this fixes?</h2>
         <p>
           Marqly reads the browser HTML export and Pocket’s <code>list.csv</code>, then lets you find any
-          save by meaning with <a href="/blog/how-to-search-bookmarks-with-ai">AI semantic search</a>.
-          Guides: <a href="/migrate/pocket">migrate from Pocket</a>,
-          <a href="/migrate/raindrop">migrate from Raindrop</a>,
+          save by meaning with <a href="/blog/how-to-search-bookmarks-with-ai">Pro AI semantic search</a>.
+          Guides: <a href="/migrate/pocket">migrate from Pocket</a>,{' '}
+          <a href="/migrate/raindrop">migrate from Raindrop</a>,{' '}
           <a href="/migrate/browser-bookmarks">migrate browser bookmarks</a>.
         </p>
       </section>
@@ -187,5 +187,5 @@ const jsonLd = [
   th, td { text-align: left; padding: .6rem .7rem; border-bottom: 1px solid var(--border-1, #eceef1); vertical-align: top; }
   th { color: var(--ink-1, #101014); font-weight: 600; }
   .dl { margin: var(--space-8, 2rem) 0; }
-  .btn { display: inline-block; background: var(--ink-1, #101014); color: #fff !important; text-decoration: none !important; padding: .7rem 1.1rem; border-radius: var(--radius-pill, 999px); font-weight: 600; }
+  .btn { display: inline-block; background: var(--ink-1, #101014); color: #fff !important; text-decoration: none !important; padding: .7rem 1.1rem; border-radius: var(--radius-pill, 999px); font-weight: 600; max-inline-size: 100%; white-space: normal; box-sizing: border-box; text-align: center; }
 </style>

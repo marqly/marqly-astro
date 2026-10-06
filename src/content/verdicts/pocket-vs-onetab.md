@@ -2,7 +2,7 @@
 a: pocket
 b: onetab
 verdict: "OneTab is the only living option here — Pocket died in July 2025 — but it replaces just one sliver of it: parking open tabs. OneTab stores bare URLs in a single browser, so former Pocket readers still need a real read-it-later app."
-updatedDate: 2026-08-02
+updatedDate: 2026-10-06
 faqs:
   - q: "Is OneTab a replacement for Pocket?"
     a: "Only for tab overload. OneTab collapses every open tab into a local list — free, no account, one click — but it saves URLs and titles only. There's no article content, offline reading, highlighting, tagging, sync, or mobile app, so the core Pocket habit of reading saved articles on your phone has no equivalent in OneTab."

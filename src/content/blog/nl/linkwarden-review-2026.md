@@ -18,4 +18,4 @@ faqs:
     a: "Het bewaart automatisch screenshots en PDF's van elke link om dode links tegen te gaan."
 ---
 
-**Score: 4 / 5** — Dé oplossing tegen verbroken weblinks. Voor het snel terugvinden van artikelen op basis van betekenis is [Marqly](https://app.marqly.com) gebruiksvriendelijker.
+Dé oplossing tegen verbroken weblinks. Voor het snel terugvinden van artikelen op basis van betekenis is [Marqly](https://app.marqly.com) gebruiksvriendelijker.

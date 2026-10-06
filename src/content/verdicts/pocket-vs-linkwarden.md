@@ -2,7 +2,7 @@
 a: pocket
 b: linkwarden
 verdict: "Linkwarden — Pocket has been gone since July 2025, and Linkwarden answers the anxiety its shutdown created: every link you save is archived as a screenshot, PDF, and readable copy on infrastructure you can own. It's a preservation tool, though, not a reading app."
-updatedDate: 2026-08-02
+updatedDate: 2026-10-06
 faqs:
   - q: "Is Linkwarden a good Pocket replacement?"
     a: "For collectors, yes; for readers, no. Linkwarden imports Pocket exports and permanently archives every saved page — screenshot, PDF, and readable copy — which Pocket never did. But it has no reader queue, text-to-speech, or reading progress, because it's built for preserving references rather than working through articles. Reading-focused Pocket users should consider Instapaper or Matter."
