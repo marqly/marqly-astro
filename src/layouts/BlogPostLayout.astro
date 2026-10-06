@@ -1,7 +1,7 @@
 ---
 import LandingLayout from './LandingLayout.astro';
 import { Image } from 'astro:assets';
-import { organization } from '../lib/schema';
+import { organization, person, AUTHOR } from '../lib/schema';
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import { alternatesForPath } from '../i18n/routes';
@@ -49,10 +49,11 @@ const blogPosting = {
   inLanguage: lang,
   datePublished: data.pubDate.toISOString(),
   dateModified: (data.updatedDate ?? data.pubDate).toISOString(),
-  author: { '@type': 'Organization', name: 'Marqly', url: 'https://www.marqly.com' },
+  author: person(),
   publisher: {
     '@type': 'Organization',
     name: 'Marqly',
+    url: 'https://www.marqly.com',
     logo: { '@type': 'ImageObject', url: 'https://www.marqly.com/favicon.png' },
   },
   mainEntityOfPage: { '@type': 'WebPage', '@id': url },
@@ -137,7 +138,8 @@ const jsonLd = [blogPosting, breadcrumb, softwareApp, organization(), ...(faqPag
       <h1>{data.title}</h1>
       <p class="dek">{data.description}</p>
       <div class="byline">
-        <span>{ui.byline}</span>
+        <span>{ui.writtenBy}</span>
+        <a class="byline-author" href={AUTHOR.url}>{AUTHOR.name}</a>
         <span class="dot">·</span>
         <time datetime={data.pubDate.toISOString()}>{fmtDate(data.pubDate)}</time>
         {data.updatedDate && (
@@ -146,6 +148,8 @@ const jsonLd = [blogPosting, breadcrumb, softwareApp, organization(), ...(faqPag
             <span>{ui.updated} {fmtDate(data.updatedDate)}</span>
           </>
         )}
+        <span class="dot">·</span>
+        <a class="byline-method" href="/how-we-test">{ui.howWeTest}</a>
       </div>
     </header>
 
@@ -285,6 +289,22 @@ const jsonLd = [blogPosting, breadcrumb, softwareApp, organization(), ...(faqPag
     color: var(--color-text-muted);
   }
   .byline .dot { opacity: 0.5; }
+  /* Underline-on-ink, not a new accent (lab note 2026-09-27): the underline is
+     what makes a text-coloured link readable; hover deepens the same ink. */
+  .byline-author {
+    color: var(--ink-1, #101014);
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-color: color-mix(in srgb, currentColor 35%, transparent);
+  }
+  .byline-author:hover { color: var(--ink-1, #000); text-decoration-color: currentColor; }
+  .byline-method {
+    color: var(--color-text-muted, #6b7280);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .byline-method:hover { color: var(--ink-1, #101014); }
 
   .hero {
     margin: var(--space-12) 0;

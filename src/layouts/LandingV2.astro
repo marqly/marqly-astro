@@ -15,6 +15,7 @@ import AttributionCapture from '../components/landing/AttributionCapture.astro';
 import CtaTracking from '../components/landing/CtaTracking.astro';
 import MixpanelReplay from '../components/landing/MixpanelReplay.astro';
 import YouCalPromo from '../components/YouCalPromo.astro';
+import { clampTitle, clampDesc } from '../lib/seo-text.mjs';
 
 export interface Props {
   title: string;
@@ -49,6 +50,9 @@ const ogLocale = OG_LOCALES[lang] ?? 'en_US';
 
 const cleanPath = Astro.url.pathname.replace(/\.html$/, '').replace(/\/index$/, '/');
 const canonicalURL = canonical ?? new URL(cleanPath, Astro.site).href;
+// SERP length guard (see LandingLayout): title <=60, description <=155.
+const safeTitle = clampTitle(title);
+const safeDesc = clampDesc(description);
 ---
 
 <!doctype html>
@@ -56,8 +60,8 @@ const canonicalURL = canonical ?? new URL(cleanPath, Astro.site).href;
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <title>{title}</title>
-    <meta name="description" content={description} />
+    <title>{safeTitle}</title>
+    <meta name="description" content={safeDesc} />
     <link rel="canonical" href={canonicalURL} />
     {alternates.map((a) => (
       <link rel="alternate" hreflang={a.hreflang} href={a.href} />

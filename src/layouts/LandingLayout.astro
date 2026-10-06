@@ -14,6 +14,8 @@ import CtaTracking from '../components/landing/CtaTracking.astro';
 import MixpanelReplay from '../components/landing/MixpanelReplay.astro';
 import YouCalPromo from '../components/YouCalPromo.astro';
 import type { Locale } from '../i18n/routes';
+import { isIndexable } from '../lib/content-quality.mjs';
+import { clampTitle, clampDesc } from '../lib/seo-text.mjs';
 
 export interface Props {
   title: string;
@@ -36,6 +38,8 @@ export interface Props {
    * no internal PageRank and no crawl path from the locale root.
    */
   localeLinkHub?: Locale;
+  /** Force noindex regardless of ADR-001 parity (used by genuinely private pages). */
+  noindex?: boolean;
 }
 
 const OG_LOCALES: Record<string, string> = {
@@ -55,12 +59,21 @@ const {
   ogLocale = OG_LOCALES[lang] ?? 'en_US',
   showLinkHub = true,
   localeLinkHub,
+  noindex = false,
 } = Astro.props;
 
 // build.format:'file' leaks ".html" into pathname during prerender — normalize
 // so canonicals stay extensionless, matching served URLs and the sitemap.
 const cleanPath = Astro.url.pathname.replace(/\.html$/, '').replace(/\/index$/, '/');
 const canonicalURL = canonical ?? new URL(cleanPath, Astro.site).href;
+// ADR-001: parity below bar => noindex,follow, drop from sitemap + hreflang.
+// isIndexable is the single decision fn (also gates the sitemap + alternates).
+const pruned = noindex || !isIndexable(cleanPath);
+// SERP length guard (master §5): title <=60, description <=155. Applied at the
+// layout so no collection page — EN or locale — can ship an over-budget meta
+// again; the word-boundary cut keeps the query-first head intact.
+const safeTitle = clampTitle(title);
+const safeDesc = clampDesc(description);
 // The English hub and a localized hub are mutually exclusive: rendering both
 // would put an English-labelled block on a localized page.
 const showLocaleHub = Boolean(localeLinkHub) && localeLinkHub !== 'en';
@@ -71,13 +84,13 @@ const showLocaleHub = Boolean(localeLinkHub) && localeLinkHub !== 'en';
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <title>{title}</title>
-    <meta name="description" content={description} />
+    <title>{safeTitle}</title>
+    <meta name="description" content={safeDesc} />
     <link rel="canonical" href={canonicalURL} />
-    {alternates.map((a) => (
+    {!pruned && alternates.map((a) => (
       <link rel="alternate" hreflang={a.hreflang} href={a.href} />
     ))}
-    <meta name="robots" content="max-image-preview:large" />
+    <meta name="robots" content={pruned ? 'noindex, follow, max-image-preview:large' : 'max-image-preview:large'} />
     <meta name="theme-color" content="#ffffff" />
     <meta property="og:type" content={ogType} />
     <meta property="og:locale" content={ogLocale} />

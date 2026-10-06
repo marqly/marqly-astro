@@ -1,5 +1,6 @@
 ---
 import type { Competitor } from '../../lib/competitors';
+import { AUTHOR } from '../../lib/schema';
 
 interface Props {
   tools: Competitor[];
@@ -35,7 +36,7 @@ const verifiedLabel =
       </>
     ))}
   </span>
-  <span class="source-byline">Published by Marqly, the maker of one of the tools compared — where a competitor fits a job better, we say so; check any claim here against the sources above.</span>
+  <span class="source-byline">Written by <a class="src-author" href={AUTHOR.url}>{AUTHOR.name}</a>, founder of <a class="src-author" href="/about">Marqly</a> — one of the tools compared. Where a competitor fits a job better, we say so; check any claim here against the sources above. How we evaluate: <a class="src-method" href="/how-we-test">how we test</a>.</span>
 </aside>
 
 <style>

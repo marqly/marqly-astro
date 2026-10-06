@@ -1,0 +1,103 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import { getCollection } from 'astro:content';
+import { organization, breadcrumbList, AUTHOR, STORE_URLS } from '../../lib/schema';
+
+const title = 'Amro Shahbari — Author | Marqly';
+const description =
+  'Amro Shahbari is the founder of Marqly and the author of its reviews, comparisons and guides. Formerly a Senior Product Designer at Wix; now leads Marqly’s product and design.';
+const canonical = AUTHOR.url;
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft && data.lang === 'en'))
+  .sort((a, b) => (b.data.pubDate?.valueOf() ?? 0) - (a.data.pubDate?.valueOf() ?? 0))
+  .slice(0, 12);
+
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfilePage',
+  mainEntity: {
+    '@type': 'Person',
+    name: AUTHOR.name,
+    url: AUTHOR.url,
+    jobTitle: AUTHOR.jobTitle,
+    worksFor: { '@type': 'Organization', name: 'Marqly', url: 'https://www.marqly.com' },
+    ...(AUTHOR.sameAs.length ? { sameAs: AUTHOR.sameAs } : {}),
+  },
+};
+
+const jsonLd = [
+  personSchema,
+  organization(),
+  breadcrumbList([{ name: 'Home', path: '/' }, { name: 'Authors', path: '/authors' }, { name: AUTHOR.name, path: '/authors/amro-shahbari' }]),
+];
+
+const initials = 'AS';
+---
+
+<LandingLayout title={title} description={description} canonical={canonical} jsonLd={jsonLd}>
+  <article class="page">
+    <div class="wrap">
+      <header class="head">
+        <div class="id">
+          <span class="monogram" aria-hidden="true">{initials}</span>
+          <div>
+            <h1>{AUTHOR.name}</h1>
+            <p class="role">{AUTHOR.jobTitle} · Founder, Marqly</p>
+          </div>
+        </div>
+        <p class="bio">
+          I design and build Marqly, the AI bookmark manager, at Megamoon Ventures in Dubai. Before that
+          I spent years as a product designer — most recently a Senior Product Designer at Wix — working
+          on tools people use every day without thinking about how they’re built.
+        </p>
+        <p class="bio">
+          I write the reviews and guides on this site myself. Because Marqly is my product, I’m not a
+          neutral bystander in comparisons — so I state our limits plainly and say when a competitor fits
+          a job better. The method behind every verdict is on the <a href="/how-we-test">how-we-test page</a>,
+          and the company story is on <a href="/about">About</a>.
+        </p>
+      </header>
+
+      {posts.length > 0 && (
+        <section class="work">
+          <h2>Recent articles</h2>
+          <ul class="list">
+            {posts.map((p) => (
+              <li>
+                <a href={`/blog/${p.id}`}>{p.data.title}</a>
+                {p.data.pubDate && <time datetime={p.data.pubDate.toISOString()}>
+                  {p.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short' })}
+                </time>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      <p class="foot">
+        Reach me at <a href="mailto:amro@megamoon.com">amro@megamoon.com</a>, or corrections and support at
+        <a href="mailto:support@marqly.com">support@marqly.com</a>. Marqly — spelled with a q.
+      </p>
+    </div>
+  </article>
+</LandingLayout>
+
+<style>
+  .page { background: var(--surface-1, #fff); }
+  .wrap { max-width: 44rem; margin: 0 auto; padding: var(--space-16, 4rem) var(--space-5, 1.25rem) var(--space-24, 6rem); }
+  .id { display: flex; align-items: center; gap: var(--space-4, 1rem); margin-bottom: var(--space-4, 1rem); }
+  .monogram { display: inline-grid; place-items: center; width: 3.5rem; height: 3.5rem; border-radius: 50%; background: var(--ink-1, #101014); color: #fff; font-weight: 700; letter-spacing: .02em; flex: none; }
+  h1 { font-size: var(--fs-h1, 2rem); margin: 0; color: var(--ink-1, #101014); }
+  .role { margin: .15rem 0 0; color: var(--ink-3, #6b7280); font-size: var(--fs-sm, .9rem); }
+  .bio { line-height: 1.65; color: var(--ink-2, #374151); }
+  .bio a { color: var(--ink-1, #101014); text-decoration: underline; text-underline-offset: 2px; }
+  .work { margin-top: var(--space-10, 2.5rem); }
+  .work h2 { font-size: var(--fs-h3, 1.2rem); margin: 0 0 var(--space-3, .75rem); color: var(--ink-1, #101014); }
+  .list { list-style: none; padding: 0; margin: 0; }
+  .list li { display: flex; justify-content: space-between; gap: 1rem; padding: var(--space-3, .75rem) 0; border-bottom: 1px solid var(--border-1, #eceef1); }
+  .list a { color: var(--ink-1, #101014); text-decoration: none; }
+  .list a:hover { text-decoration: underline; text-underline-offset: 2px; }
+  .list time { color: var(--ink-3, #6b7280); font-size: var(--fs-sm, .85rem); white-space: nowrap; }
+  .foot { margin-top: var(--space-10, 2.5rem); font-size: var(--fs-xs, .8rem); color: var(--ink-3, #6b7280); }
+  .foot a { color: inherit; }
+</style>

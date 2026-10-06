@@ -27,8 +27,10 @@
 # Trust & crawl convenience routes
 /features   /extension  301
 /features/  /extension  301
-/about      /           301
-/about/     /           301
+# /about was a 301 to the homepage because no About page existed. A real
+# /about now ships (E-E-A-T, Phase 1.6), so the redirect is removed — leaving
+# it would shadow the page (first-match-wins) and keep dumping inbound brand
+# links on the homepage (the same trap that hit /Extension).
 
 # Embed convenience aliases
 /embed-board        /embed  301
@@ -113,12 +115,16 @@
 # 2026-08-08 Search Console 404 cleanup (real inbound URLs from the old
 # WordPress/Framer eras that currently dead-end):
 # /download carried extension-install intent; /sitemap_index.xml is the old
-# WordPress sitemap path probed by crawlers; /year is an old Framer one-off.
+# WordPress sitemap path probed by crawlers. Legacy billing paths lead to pricing.
 /download          /extension          301
 /download/         /extension          301
 /sitemap_index.xml /sitemap-index.xml  301
-/year              /                   301
-/year/             /                   301
+/terms-of-use     /terms              301
+/terms-of-use/    /terms              301
+/month            /pricing            301
+/month/           /pricing            301
+/year              /pricing            301
+/year/             /pricing            301
 
 # German post moved into the /de/ locale tree (i18n foundation, 2026-08).
 /blog/pocket-alternativen-2026  /de/blog/pocket-alternativen-2026  301

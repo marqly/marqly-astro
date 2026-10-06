@@ -1,0 +1,32 @@
+---
+/**
+ * Shared "Last updated" line. Renders only when a real updatedDate exists and is
+ * newer than the publish date (a copy edit that only bumps the date is exactly
+ * the abuse Google penalises, so the templates pass updatedDate only on
+ * substantive edits). The visible date and the JSON-LD dateModified MUST match
+ * (master §5) — so the value is formatted here once and reused by callers.
+ */
+interface Props {
+  date?: Date | null;
+  label?: string;
+  locale?: string;
+}
+const { date, label = 'Last updated', locale = 'en-US' } = Astro.props;
+const iso = date ? new Date(date).toISOString().slice(0, 10) : '';
+const shown = date
+  ? new Date(date).toLocaleDateString(locale, { year: 'numeric', month: 'long', day: 'numeric' })
+  : '';
+---
+{date && (
+  <p class="updated-date">
+    {label}: <time datetime={iso}>{shown}</time>
+  </p>
+)}
+
+<style>
+  .updated-date {
+    font-size: var(--fs-sm, 0.875rem);
+    color: var(--ink-3, #6b7280);
+    margin: var(--space-2, 0.5rem) 0 0;
+  }
+</style>

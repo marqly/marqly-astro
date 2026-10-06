@@ -1,0 +1,60 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import { organization, breadcrumbList, AUTHOR } from '../../lib/schema';
+
+const title = 'Authors | Marqly';
+const description = 'The people who write on Marqly — who they are and why their reviews and guides can be trusted.';
+const canonical = 'https://www.marqly.com/authors';
+
+const authors = [
+  {
+    name: AUTHOR.name,
+    slug: '/authors/amro-shahbari',
+    role: 'Founder & Product Design Lead, Marqly',
+    line: 'Designs and builds Marqly; writes the reviews, comparisons and guides.',
+  },
+];
+
+const jsonLd = [
+  organization(),
+  breadcrumbList([{ name: 'Home', path: '/' }, { name: 'Authors', path: '/authors' }]),
+];
+---
+
+<LandingLayout title={title} description={description} canonical={canonical} jsonLd={jsonLd}>
+  <section class="page">
+    <div class="wrap">
+      <h1>Authors</h1>
+      <p class="lede">Everything editorial on Marqly is written by a named person with hands-on product
+        experience — not an anonymous account. Our evaluation method is on the
+        <a href="/how-we-test">how-we-test page</a>.</p>
+      <ul class="list">
+        {authors.map((a) => (
+          <li>
+            <span class="mono" aria-hidden="true">{a.name.split(' ').map((n) => n[0]).join('')}</span>
+            <div>
+              <a class="nm" href={a.slug}>{a.name}</a>
+              <p class="rl">{a.role}</p>
+              <p class="ln">{a.line}</p>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+</LandingLayout>
+
+<style>
+  .page { background: var(--surface-1, #fff); }
+  .wrap { max-width: 44rem; margin: 0 auto; padding: var(--space-16, 4rem) var(--space-5, 1.25rem) var(--space-24, 6rem); }
+  h1 { font-size: var(--fs-h1, 2.25rem); color: var(--ink-1, #101014); margin: 0 0 var(--space-3, .75rem); }
+  .lede { line-height: 1.6; color: var(--ink-2, #374151); }
+  .lede a { color: var(--ink-1, #101014); text-decoration: underline; text-underline-offset: 2px; }
+  .list { list-style: none; padding: 0; margin: var(--space-8, 2rem) 0 0; display: grid; gap: var(--space-4, 1rem); }
+  .list li { display: flex; gap: var(--space-4, 1rem); align-items: flex-start; padding: var(--space-4, 1rem); border: 1px solid var(--border-1, #eceef1); border-radius: var(--radius-card, 12px); }
+  .mono { display: inline-grid; place-items: center; width: 2.75rem; height: 2.75rem; border-radius: 50%; background: var(--ink-1, #101014); color: #fff; font-weight: 700; flex: none; }
+  .nm { font-weight: 600; color: var(--ink-1, #101014); text-decoration: none; }
+  .nm:hover { text-decoration: underline; text-underline-offset: 2px; }
+  .rl { margin: .1rem 0 .2rem; color: var(--ink-3, #6b7280); font-size: var(--fs-sm, .85rem); }
+  .ln { margin: 0; color: var(--ink-2, #374151); font-size: var(--fs-sm, .9rem); line-height: 1.5; }
+</style>

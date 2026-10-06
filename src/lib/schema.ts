@@ -9,20 +9,63 @@ const SITE = 'https://www.marqly.com';
 export const CHROME_STORE_URL =
   'https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc';
 
+// Storefront + profile URLs that verifiably exist for Marqly today (grep-confirmed
+// in src/, docs/, public/ on 2026-10-05). Only Marqly's own properties — the
+// youcal iOS app is a different product and is deliberately NOT listed here.
+export const STORE_URLS = {
+  chrome: CHROME_STORE_URL,
+  firefox: 'https://addons.mozilla.org/en-US/firefox/addon/marqly/',
+  ios: 'https://apps.apple.com/us/app/marqly-ai-bookmark-manager/id6758905385',
+  android: 'https://play.google.com/store/apps/details?id=com.marqly.android',
+  producthunt: 'https://www.producthunt.com/products/marqly',
+  x: 'https://x.com/getmarqly',
+  linkedin: 'https://www.linkedin.com/company/marqly',
+};
+
+// The single named author of Marqly's editorial content. Bio facts are
+// OWNER-SUPPLIED (master prompt §Phase 1.6, 2026-10-05) — never invent beyond
+// this. Photo is not yet provided, so Person ships without an `image` rather
+// than a placeholder that would misrepresent a real person. `sameAs` is empty
+// on purpose: we have no VERIFIED personal profile URL for Amro — do not guess
+// one. Add real, confirmed profile URLs here before relying on them.
+export const AUTHOR = {
+  name: 'Amro Shahbari',
+  url: `${SITE}/authors/amro-shahbari`,
+  jobTitle: 'Founder & Product Design Lead',
+  worksFor: 'Marqly',
+  sameAs: [] as string[],
+};
+
+export function person() {
+  return {
+    '@type': 'Person',
+    name: AUTHOR.name,
+    url: AUTHOR.url,
+    jobTitle: AUTHOR.jobTitle,
+    worksFor: { '@type': 'Organization', name: 'Marqly', url: SITE },
+    ...(AUTHOR.sameAs.length ? { sameAs: AUTHOR.sameAs } : {}),
+  };
+}
+
 export function organization() {
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Marqly',
+    legalName: 'Megamoon Ventures FZCO',
     url: SITE,
     logo: `${SITE}/favicon.png`,
+    foundingDate: '2022',
     sameAs: [
       'https://twitter.com/getmarqly',
-      'https://x.com/getmarqly',
+      STORE_URLS.x,
       'https://www.facebook.com/profile.php?id=100088234261663',
-      'https://www.linkedin.com/company/marqly',
-      'https://www.producthunt.com/products/marqly',
-      'https://play.google.com/store/apps/details?id=com.marqly.android',
+      STORE_URLS.linkedin,
+      STORE_URLS.producthunt,
+      STORE_URLS.ios,
+      STORE_URLS.android,
+      STORE_URLS.chrome,
+      STORE_URLS.firefox,
     ],
     contactPoint: {
       '@type': 'ContactPoint',
@@ -112,7 +155,7 @@ export function faqPage(faqs: { q: string; a: string }[], lang = 'en') {
 }
 
 /** Publisher-authored, single-question FAQ page. */
-export function qaPage(question: string, answerText: string, path: string) {
+export function qaPage(question: string, answerText: string, path: string, dateModified?: string) {
   return {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
@@ -121,6 +164,7 @@ export function qaPage(question: string, answerText: string, path: string) {
       name: question,
       acceptedAnswer: { '@type': 'Answer', text: answerText, url: `${SITE}${path}` },
     },
+    ...(dateModified ? { dateModified } : {}),
   };
 }
 

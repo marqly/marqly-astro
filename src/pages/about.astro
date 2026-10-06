@@ -1,0 +1,133 @@
+---
+import LandingLayout from '../layouts/LandingLayout.astro';
+import { organization, webSite, breadcrumbList, STORE_URLS, AUTHOR } from '../lib/schema';
+
+const title = 'About Marqly — the AI Bookmark Manager';
+const description =
+  'Marqly is an AI bookmark manager built by Megamoon Ventures FZCO (Dubai). Who we are, why we built it, where the product has been since 2022, and how to reach us. Marqly — spelled with a q.';
+const canonical = 'https://www.marqly.com/about';
+const updated = '2026-10-05';
+
+const aboutSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'AboutPage',
+  name: 'About Marqly',
+  url: canonical,
+  dateModified: updated,
+  about: { '@type': 'Organization', name: 'Marqly' },
+};
+
+const jsonLd = [
+  organization(),
+  webSite(),
+  aboutSchema,
+  breadcrumbList([{ name: 'Home', path: '/' }, { name: 'About', path: '/about' }]),
+];
+---
+
+<LandingLayout title={title} description={description} canonical={canonical} jsonLd={jsonLd}>
+  <article class="page">
+    <div class="wrap">
+      <header class="head">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><span>About</span></nav>
+        <h1>About Marqly</h1>
+        <p class="lede">
+          Marqly is an AI bookmark manager for people who save a lot and refuse to lose it. You save an
+          article, a video, a thread; Marqly tags and summarises it, and months later you find it by
+          describing what you remember instead of the exact title. It runs on the web, as a browser
+          extension, and on iOS and Android.
+        </p>
+        <p class="disambig"><strong>Marqly</strong> — spelled with a <em>q</em>. We’re <a href="https://www.marqly.com">marqly.com</a>, not “Markly”,
+          “Markly.app” or “markly.me”, which are unrelated products.</p>
+        <p class="updated" data-date={updated}>Last updated: <time datetime={updated}>October 5, 2026</time></p>
+      </header>
+
+      <section class="prose">
+        <h2>Who we are</h2>
+        <p>
+          Marqly is built and operated by <strong>Megamoon Ventures FZCO</strong>, a company registered
+          in Dubai, United Arab Emirates. It is a small, product-led team — the same people design,
+          build and support it — rather than a large publisher.
+        </p>
+        <p>
+          The product is written about on this site by its founder,
+          <a href={AUTHOR.url}>{AUTHOR.name}</a> — a product designer who previously worked as a Senior
+          Product Designer at Wix and now leads Marqly’s design and product. Reviews and comparisons
+          follow the protocol on our <a href="/how-we-test">how-we-test page</a>.
+        </p>
+
+        <h2>Why Marqly exists</h2>
+        <p>
+          Bookmark folders fail for the same reason every year: you save something for a reason you can
+          no longer reconstruct, file it where it won’t be looked for, and rely on remembering the exact
+          words in a headline you half-read at midnight. Reading it later is easy; finding it later is
+          the actual problem. Marqly is built around that problem — search by meaning, not keywords — so
+          the saving stops being a filing chore you eventually give up on.
+        </p>
+
+        <h2>Where the product has been</h2>
+        <p>
+          Marqly has shipped continuously since 2022. Notable public milestones, verifiable on the
+          sources we link:
+        </p>
+        <ul>
+          <li><strong>2022</strong> — Marqly 1.0 launched and reached <strong>#1 Product of the Day</strong>
+            on Product Hunt (September 3, 2022).
+            <a href={STORE_URLS.producthunt} rel="noopener">Product Hunt ↗</a></li>
+          <li><strong>2026</strong> — Marqly 5.0 shipped (the AI-search and second-brain direction),
+            again charting on Product Hunt.</li>
+          <li>Today Marqly is available on the web, as extensions for Chrome, Edge, Firefox and Safari,
+            and as iOS and Android apps.</li>
+        </ul>
+
+        <h2>Where to get it</h2>
+        <ul class="stores">
+          <li><a href={STORE_URLS.chrome} rel="noopener">Chrome Web Store ↗</a></li>
+          <li><a href={STORE_URLS.firefox} rel="noopener">Firefox Add-ons ↗</a></li>
+          <li><a href={STORE_URLS.ios} rel="noopener">App Store (iOS) ↗</a></li>
+          <li><a href={STORE_URLS.android} rel="noopener">Google Play (Android) ↗</a></li>
+          <li><a href="https://app.marqly.com" rel="noopener">Marqly web app ↗</a></li>
+        </ul>
+
+        <h2>How we write about other products</h2>
+        <p>
+          We compare Marqly honestly, including where a competitor is the better fit, because a list that
+          always ranks its own author first isn’t a review. Our standards are on the
+          <a href="/how-we-test">how-we-test page</a>, and competitor pricing and features on our
+          comparison pages carry the date they were last verified.
+        </p>
+
+        <h2>Talk to us</h2>
+        <p>
+          Support and product questions: <a href="mailto:support@marqly.com">support@marqly.com</a>.
+          Corrections to anything on this site: same address — we’d rather fix it than be quietly wrong.
+          Press and partnerships: <a href="mailto:amro@megamoon.com">amro@megamoon.com</a>.
+        </p>
+      </section>
+
+      <p class="foot">Marqly is a trademark of Megamoon Ventures FZCO. Not “Markly”. See the
+        <a href="/privacypolicy">privacy policy</a> and <a href="/terms">terms of use</a>.</p>
+    </div>
+  </article>
+</LandingLayout>
+
+<style>
+  .page { background: var(--surface-1, #fff); }
+  .wrap { max-width: 46rem; margin: 0 auto; padding: var(--space-16, 4rem) var(--space-5, 1.25rem) var(--space-24, 6rem); }
+  .head { margin-bottom: var(--space-8, 2rem); }
+  .crumbs { font-size: var(--fs-sm, .875rem); color: var(--ink-3, #6b7280); margin-bottom: var(--space-4, 1rem); }
+  .crumbs a { color: inherit; text-decoration: none; }
+  h1 { font-size: var(--fs-h1, 2.5rem); line-height: 1.1; letter-spacing: -0.02em; margin: 0 0 var(--space-4, 1rem); color: var(--ink-1, #101014); }
+  .lede { font-size: var(--fs-lg, 1.125rem); line-height: 1.6; color: var(--ink-2, #374151); }
+  .disambig { font-size: var(--fs-sm, .875rem); line-height: 1.6; color: var(--ink-2, #374151); background: var(--surface-2, #f5f6f8); border: 1px solid var(--border-1, #e5e7eb); border-radius: var(--radius-card, 12px); padding: var(--space-4, 1rem) var(--space-5, 1.25rem); }
+  .updated { font-size: var(--fs-sm, .875rem); color: var(--ink-3, #6b7280); }
+  .prose h2 { font-size: var(--fs-h3, 1.35rem); margin: var(--space-10, 2.5rem) 0 var(--space-3, .75rem); color: var(--ink-1, #101014); }
+  .prose p, .prose li { line-height: 1.65; color: var(--ink-2, #374151); }
+  .prose a { color: var(--ink-1, #101014); text-decoration: underline; text-underline-offset: 2px; }
+  .prose a:hover { color: var(--accent, #0071e3); }
+  .prose ul { list-style: disc; padding-left: 1.25rem; }
+  .stores { list-style: none; padding-left: 0; }
+  .stores li { margin: .35rem 0; }
+  .foot { margin-top: var(--space-12, 3rem); padding-top: var(--space-5, 1.25rem); border-top: 1px solid var(--border-1, #e5e7eb); font-size: var(--fs-xs, .8rem); color: var(--ink-3, #6b7280); }
+  .foot a { color: inherit; }
+</style>

@@ -54,8 +54,13 @@ export const homeFaqs: HomeFaq[] = [
   },
   {
     q: 'Can I import my bookmarks from Pocket or Raindrop?',
-    a: 'Yes. Marqly imports Pocket export files, Raindrop.io collections, and the standard bookmark HTML that Chrome, Edge, Firefox, and Safari export. Everything you import is auto-tagged by AI on the way in, so your whole backlog becomes searchable by meaning immediately.',
+    a: 'Yes. Marqly imports the list.csv inside your Pocket export, Raindrop.io collections (as HTML), and the standard bookmark HTML that Chrome, Edge, Firefox, and Safari export. On Pro, AI auto-tags what you import and semantic search makes the whole backlog findable by meaning; on the free plan your imported links keep any tags that came in the file and are keyword-searchable. Import does not preserve the original save dates — items take the import date.',
     href: '/faq/how-do-i-import-from-pocket',
+  },
+  {
+    q: 'What is an AI bookmark manager?',
+    a: 'An AI bookmark manager saves the pages, videos, and links you come across and then uses AI to organize and retrieve them — auto-tagging each save, writing a summary, and letting you search by describing what you remember instead of typing the exact title or keyword. Marqly is an AI bookmark manager that runs in your browser, on iOS and Android, and adds highlights, transcripts, and saved AI chats to the same searchable library.',
+    href: '/bookmark-organizer',
   },
   {
     q: 'How do I get a YouTube video’s transcript?',
