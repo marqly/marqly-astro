@@ -3,7 +3,7 @@ title: "Web Sayfasını PDF Olarak Kaydetme (O Alışılmış Dağınıklık Olm
 seoTitle: "Web Sayfasını Bozulmadan PDF Kaydetme (3 Yol) | Marqly"
 description: "Ctrl+P, görseller boş çıkıp metin kesilene kadar işe yarar. Web sayfasını PDF kaydetmenin 3 yolu — ve gerçek sayfaya benzeyen bir kopya almanın yolu."
 pubDate: 2026-07-04
-updatedDate: 2026-10-06
+updatedDate: 2026-10-07
 category: "Rehberler"
 targetKeyword: "web sayfasini pdf olarak kaydetme"
 tags:
@@ -32,7 +32,7 @@ ogImage: "https://www.marqly.com/og/save-webpage-as-pdf.png"
 
 Bir web sayfasını PDF olarak kaydetmek için **Ctrl+P** (Mac'te **Cmd+P**) tuşlayıp hedef olarak **PDF Olarak Kaydet**'i seçin. Acil durumda iş görür. Gerçek sayfaya benzeyen bir yakalama için — görseller yüklü, hiçbir şey kesilmemiş — baskı düzeni yerine ekran düzeninin anlık görüntüsünü alan bir tarayıcı uzantısı kullanın.
 
-İkinci cümle çok iş yapıyor. Herkes yazdırma numarasını biliyor; bunu okuma sebebiniz sonucun sık yanlış görünmesi. Bu rehber bir web sayfasını PDF'e çevirmenin üç gerçek yolunu ele alıyor — yerleşik pencere, dönüştürücü siteler ve bir uzantı — ve her birinin nerede kırıldığını dürüstçe anlatıyor.
+İkinci cümle çok iş yapıyor. Herkes yazdırma numarasını biliyor; bunu okuma sebebiniz sonucun sık yanlış görünmesi. Arama kutusuna 'internet sayfasını pdf olarak indirme' ya da 'web sayfasını kesmeden pdf yapma' yazan herkes aynı yarayı görüyor: sayfayı PDF'e çevirmek bir tuş, ama çıkan dosyanın gördüğünüz sayfaya benzemesi ayrı bir iş. Bu rehber bir web sayfasını PDF'e çevirmenin üç gerçek yolunu ele alıyor — yerleşik pencere, dönüştürücü siteler ve bir uzantı — ve her birinin nerede kırıldığını dürüstçe anlatıyor.
 
 ## Yazdırma penceresiyle web sayfası PDF olarak nasıl kaydedilir?
 
@@ -43,6 +43,8 @@ Yerleşik yöntem Chrome, Edge, Firefox ve Safari'de, her işletim sisteminde, �
 3. **Hedef**'i **PDF Olarak Kaydet** olarak ayarlayın.
 4. **Daha fazla ayar** altında önizleme soluk görünüyorsa **Arka plan grafikleri**'ni açın; metin kenarlarda kesilişse ölçeği biraz küçültün.
 5. **Kaydet**'e tıklayıp bir konum seçin.
+
+İki küçük hijyen adımı genelde atlanır ama sonradan çok işe yarar: Türkiye dahil çoğu bölgede varsayılan kâğıt boyutu A4'tür, yabancı bir sitede kenar boşlukları tuhaflaşırsa ölçeği %90'a çekmek yetiyor; dosya adına da kaydetmeden önce elle kısa bir açıklama yazmazsanız, iki ay sonra indirmeler klasöründe üç aynı isimli "hesap-ozeti.pdf" arasından doğruyu hatırlamanız size kalır.
 
 Basit bir makale sayfası için — tek sütun, ağırlıkla metin — bu gerçekten yeterli ve varsayılanınız olmalı. Kurulacak bir şey yok, bir yere yüklenen bir şey yok ve oturumunuzu yakaladığı için giriş arkasında da çalışır.
 
@@ -67,6 +69,8 @@ Yazdırma önizlemesi doğru görünüyorsa kaydedin. Görmüyorsa, kenar boşlu
 
 Popup'lar ve çerez uyarıları dördüncü ve daha aptal bir mesele: katmanlar sayfanın diğer her öğesi gibi bir öğedir; önce kapatmazsanız onlar da yazdırılır.
 
+Yine de Ctrl+P kullanacaksanız iki alışkanlık hasarı yarıya indirir: yazdırmadan önce sayfanın en altına kadar kaydırıp tembel yüklenen tüm görselleri uyandırın, sonra da açık popup kalmadığını kontrol edip yazdırın. İkisi de sorunu kurala bağlamaz — çıktının sayfaya benzeme garantisi hâlâ yok — ama acil durumdaki çıkarımı gözle görülür biçimde iyileştirir.
+
 Tüm bunların çözümü aynı: sayfayı kâğıt için yeniden kurmasını istemek yerine **ekran düzenini** — tarayıcınızın fiilen çizdiği sayfayı — yakalamak.
 
 ## Çevrim içi web-PDF dönüştürücü kullanılmalı mı?
@@ -79,7 +83,7 @@ Dönüştürücü siteler adresi yapıştırıp PDF indirmenizi sağlar, kurulac
 - **Adresi üçüncü tarafa yüklüyorsunuz.** Hassasiyet taşıyan hiçbir şey için net hayır.
 - **Ücretsiz katmanlar reklamla dolu**, çıktı kalitesi siteden siteye fena halde değişiyor.
 
-Herkese açık, hassas olmayan, tek seferlik yakalamalar için kullanın. Geri kalan her şeyde yakalamayı kendi tarayıcınızda tutun.
+Bir de sürpriz kalite farkı var: dönüştürücünün sunucusu adresi kendi başına çeker ve site, sunucuya ya da bot profilinize sizin gördüğünüzden farklı bir düzen döndürebilir; yani çıkan PDF 'ben de böyle değildi' sürprizi üretmeye hep açık. Herkese açık, hassas olmayan, tek seferlik yakalamalar için kullanın. Geri kalan her şeyde yakalamayı kendi tarayıcınızda tutun.
 
 ## Gerçek sayfaya benzeyen PDF nasıl kaydedilir?
 
@@ -108,6 +112,8 @@ Küçümsenmesi kolay kısım: PDF ve yer imi birlikte seyahat eder. İndirilenl
 
 Kısa versiyon: basit makale sayfaları için yazdırma penceresi, kontrol edemediğiniz makinelerde tek seferlik herkese açık yakalamalar için dönüştürücü siteler, PDF gördüğünüz sayfaya benzemek zorundaysa uzantı.
 
+Tabloyu okumanın pratik yolu da şu: birinci satır 'gazete makalesinde yeterli mi' sorusunun cevabı; ikinci satır içinde bol grafik-tablolu rehber ve ürün sayfalarında can damarı; üçüncü satır kurum içi pano, sipariş onayı gibi giriş arkası sayfalar için tek geçerli yol; dördüncü satır ise altı ay sonra dosyayı değil cevabı arayacak olanlar için. Dört satırın dördü de aynı yöne işaret ediyorsa — yani gerçek sayfaya benzeyen, eksiksiz ve bulunabilir bir kopya istiyorsanız — tartışma bitmiştir.
+
 ## Ne zaman salt yer imi yerine PDF kaydetmeli?
 
 Bir **anı dondurmanız** gereken yerde PDF kaydedin. Yer imi canlı bir sayfaya işaret eder; sayfa değişebilir, ücretli duvarın arkasına geçebilir veya yok olabilir — ölü bağlantılar her yıl webin şaşırtıcı bir payını yutar. PDF, sayfanın kayıt gününde ne dediğinin kanıtıdır.
@@ -118,6 +124,8 @@ Bu yüzden PDF şu durumlarda doğru karardır:
 - **Rezervasyon ve booking detayları**
 - **Sonradan alıntılamanız gerekebilecek yönetmelikler, politikalar ve fiyatlandırma sayfaları**
 - **Düzenleneceğini veya kaldırılacağını beklediğiniz her şey**
+
+Bir Türkiye gerçeği de cabası: e-fatura ve e-arşiv mükellefiyetiniz varsa ya da kurumsal teklif, sözleşme ve fiyat listesi sayfalarıyla çalışıyorsanız, bu belgelerin dosya olarak diskte durması sekmede durmasından iyidir — ileride ibraz istenebilecek bir kaydı tarayıcı geçmişine emanet etmeyin.
 
 Geri kalan her şeyde — makaleler, referanslar, araştırmalar — yer imi daha iyidir, çünkü aranabilir ve güncel kalır. Daha da iyisi: sayfayı kaydedin ve [gerçekten önemli kısımları vurgulayın](/tr/blog/herhangi-bir-web-sitesinde-metin-vurgulama-2026); içgörüyü tutarsınız, dosya biriktirmezsiniz. Kayıt yığınınız ağırlıkla uzun okumalardan oluşuyorsa, düzgün bir [daha sonra okuma uygulaması](/tr/blog/en-iyi-daha-sonra-oku-uygulamalari-2026) bir klasör dolusu PDF'i ezerek geçer.
 

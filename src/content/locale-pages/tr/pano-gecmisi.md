@@ -25,7 +25,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'ye Ücretsiz Başla"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
-updatedDate: 2026-10-06
+updatedDate: 2026-10-07
 ---
 
 Sistem panosu tam olarak tek bir şey tutar. İkinciyi kopyalayın, birinci gider — uyarı yok, geri alma yok. Küçük, aptal versiyonunu herkes yapmıştır: adresi kopyala, bir şeyi kontrol için takip numarasını kopyala, adrese dönüp yapıştır, takip numarası yapışsın. Bir de gerçek zaman kaybettiren büyük versiyonu: otuz faydalı cümle kopyalayıp yalnızca sonuncusunda kaldığınız bir öğleden sonra araştırma.
@@ -36,7 +36,7 @@ Marqly'nin **Pano Geçmişi**, Chrome ve Edge eklentilerinin parçası olarak, t
 
 Bir web sayfasından metin kopyalayın ve Pano Geçmişi'nize otomatik düşer. Hatırlanacak bir 'bu parçayı kaydet' adımı yoktur — ki bu önemli, çünkü bir şeyi kopyaladığınız an onu geri isteyip istemeyeceğinizi henüz bilmiyorsunuzdur. Yakalama bedelsiz olmalı, yoksa gerçekleşmez.
 
-İçeri düşen şey, bir iş gününün bağ dokusu: bir makaleden alıntılar, bir adres, bir fiyat, bir kargo kodu, dokümantasyon sayfasından bir config satırı, sürekli yanlış yazdığınız bir isim, bir destek başlığında işi sonunda açıklayan ifade. Hiçbiri tam bir yer imini hak etmez. Hepsi kaybedilmesi sinir bozucu.
+İçeri düşen şey, bir iş gününün bağ dokusu: bir makaleden alıntılar, bir adres, bir fiyat, bir kargo kodu, dokümantasyon sayfasından bir config satırı, sürekli yanlış yazdığınız bir isim, bir destek başlığında işi sonunda açıklayan ifade. Alışkan olduğunuz bir versiyonunu daha sayalım: form doldururken kopyaladığınız IBAN, fatura numarası, rezervasyon kodu, ödeme sayfasındaki açıklama satırı — hiçbiri tam bir yer imini hak etmez, hepsi bir sonrakine ezilir. Kaybedilmesi en pahalı olanlar tam da bu 'basit' parçalar; çünkü yeniden bulmak için ilgili sayfaya dönüp formu baştan okumak zorunda kalırsınız.
 
 ## Ara, filtrele, etiketle, sabitle, favorile
 
@@ -50,6 +50,8 @@ Sadece kaydırabildiğiniz uzun bir pano geçmişi, hiç geçmişi olmaktan anca
 
 Sonuç, asla açmayacağınız bir arşiv değil, kitaplığınızın yanında küçük bir çalışan hafıza. Çoğu öğe zamanla değerini yitirir, sorun değil; etiketlediğiniz ya da sabitlediğiniz öğeler gerçekten tutmak istediklerinizdir.
 
+Kendi kendine çalışan bir eşik kuralı var: bir parçayı ikinci kez yapıştıracaksanız etiketleyin, üçüncü kez yapıştıracaksanız sabitleyin. O kuralı iki hafta sürdürün; panonuz kopyalama günlüğünden çıkıp sizin gerçek çalışma belleğiniz hâline gelir — geri kalanı zaten tarihi geçmiş malzemedir.
+
 ## Pano parçaları ile sayfa vurguları
 
 Marqly'nin metin tutmanın iki yolu var ve doğru olanı seçmek size sonradan sürtünme kazandırmaz.
@@ -59,6 +61,8 @@ Marqly'nin metin tutmanın iki yolu var ve doğru olanı seçmek size sonradan s
 **[Vurgular](/tr/blog/herhangi-bir-web-sitesinde-metin-vurgulama-2026) bağlamındaki metin içindir.** Sayfada bir pasaj seçin, altı renkten biriyle işaretleyin, bir not iliştirin — ve o sayfada kalır. Gelecek ay makaleyi açtığınızda işaretleriniz, notları dahil, yerlerinde durur. Bu, kaynağın *bir parçası olarak* yeniden bulmak isteyeceğiniz pasajların aracı; mekanizması [web sitesinde metin nasıl vurgulanır](/faq/how-do-i-highlight-text-on-a-website) yanıtında.
 
 Kaba kural: çevresindeki sayfayı kaybetmeye üzülürseniz, vurgula. Sadece kelimelere ihtiyacın varsa, kopyala ve panoya tuttur.
+
+İkisi rakip değil, aynı araştırma akışının iki perdesi: karşılaştırma yaparken beş sitenin fiyat satırlarını panoya topla, işin bitince karar verdiğin sayfayı vurgulayarak kitaplığa kaldır. Bir gün sonra rakamlar panoda, gerekçen sayfada duruyor — hangisini ararsan hangisi çıkacağı belli.
 
 ## Sakladığın her şeyin yanında durur
 
@@ -81,8 +85,8 @@ Senkron meselesi: yakalama her planda tarayıcıda çalışır ve **Marqly Pro p
 3. Bir gün normalce gezin ve her zamanki gibi şeyler kopyalayın.
 4. Pano çalışma alanını açın ve içindekilere bakın. İki öğeyi etiketleyin, birini sabitleyin ve dünkü kopyaladığınız bir şeyi aramayı deneyin.
 
-Son adım tüm test. Yarım hatırladığınız kopyalama beş saniyede geri geliyorsa, tek yuvanın panosu günlük vergi olmaktan çıkmıştır.
+Son adım tüm test. Yarım hatırladığınız kopyalama beş saniyede geri geliyorsa, tek yuvanın panosu günlük vergi olmaktan çıkmıştır. Bir günün sonunda çalışma alanını açıp 'bugün ne kopyaladım' diye yukarıdan aşağı kaydırmak da ayrı bir kazanç — fark etmeden kaçırdığınız tekrarları orada görür, ertesi günün iş akışını ona göre kurarsınız.
 
 ## Doğru seçim mi?
 
-Masaüstünüzdeki her uygulamanın peşinden giden bir pano yöneticisi istiyorsanız, bu o değil — siz bir işletim sistemi aracı istiyorsunuz. Kopyalamanız web'de, Chrome veya Edge'de oluyorsa ve bu parçalar kaydettiğiniz sayfaların yanında aranabilir kalsın istiyorsanız, Pano Geçmişi tam olarak bu işi yapar. Daha fazla detay [Marqly'nin Pano Geçmişi var mı](/faq/does-marqly-have-clipboard-history) yanıtında, ya da [app.marqly.com](https://app.marqly.com)'da ücretsiz başlayın.
+Masaüstünüzdeki her uygulamanın peşinden giden bir pano yöneticisi istiyorsanız, bu o değil — siz bir işletim sistemi aracı istiyorsunuz. Bu arada bilinen eşik de şu: Windows'un yerleşik pano geçmişi (Win+V) son birkaç düzine öğeyi tutar, sabitlenmeyen her şey yeniden başlatınca uçar ve içeride arama-etiket-kitaplık bağı yoktur; pratikte 'biraz daha uzun hafıza', pano yöneticisi değil. Kopyalamanız web'de, Chrome veya Edge'de oluyorsa ve bu parçalar kaydettiğiniz sayfaların yanında aranabilir kalsın istiyorsanız, Pano Geçmişi tam olarak bu işi yapar. Daha fazla detay [Marqly'nin Pano Geçmişi var mı](/faq/does-marqly-have-clipboard-history) yanıtında, ya da [app.marqly.com](https://app.marqly.com)'da ücretsiz başlayın.

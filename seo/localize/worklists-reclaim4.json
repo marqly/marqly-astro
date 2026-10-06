@@ -1,0 +1,304 @@
+{
+ "tr": [
+  {
+   "p": "/tr/blog/web-sayfasini-pdf-olarak-kaydetme-2026",
+   "es": "/blog/save-webpage-as-pdf",
+   "en": "/blog/save-webpage-as-pdf",
+   "slug": "blog/web-sayfasini-pdf-olarak-kaydetme-2026",
+   "imp": 134,
+   "clk": 1
+  },
+  {
+   "p": "/tr/yeni-sekme-panosu",
+   "es": "/new-tab-dashboard",
+   "en": "/new-tab-dashboard",
+   "slug": "yeni-sekme-panosu",
+   "imp": 36,
+   "clk": 0
+  },
+  {
+   "p": "/tr/ikinci-beyin",
+   "es": "/second-brain",
+   "en": "/second-brain",
+   "slug": "ikinci-beyin",
+   "imp": 24,
+   "clk": 1
+  },
+  {
+   "p": "/tr/pano-gecmisi",
+   "es": "/clipboard-history",
+   "en": "/clipboard-history",
+   "slug": "pano-gecmisi",
+   "imp": 21,
+   "clk": 1
+  },
+  {
+   "p": "/tr/blog/yeni-yil-dijital-detoks-rehberi",
+   "es": "/blog/digital-declutter-new-year",
+   "en": "/blog/digital-declutter-new-year",
+   "slug": "blog/yeni-yil-dijital-detoks-rehberi",
+   "imp": 8,
+   "clk": 0
+  },
+  {
+   "p": "/tr/blog/raindrop-io-incelemesi-2026",
+   "es": "/blog/raindrop-review-2026",
+   "en": "/blog/raindrop-review-2026",
+   "slug": "blog/raindrop-io-incelemesi-2026",
+   "imp": 7,
+   "clk": 0
+  }
+ ],
+ "zh": [
+  {
+   "p": "/zh/for-lawyers",
+   "es": "/for-lawyers",
+   "en": "/for-lawyers",
+   "slug": "for-lawyers",
+   "imp": 11,
+   "clk": 0
+  },
+  {
+   "p": "/zh/youtube-summarizer",
+   "es": "/youtube-summarizer",
+   "en": "/youtube-summarizer",
+   "slug": "youtube-summarizer",
+   "imp": 10,
+   "clk": 1
+  },
+  {
+   "p": "/zh/watch-later",
+   "es": "/watch-later",
+   "en": "/watch-later",
+   "slug": "watch-later",
+   "imp": 10,
+   "clk": 0
+  },
+  {
+   "p": "/zh/for-journalists",
+   "es": "/for-journalists",
+   "en": "/for-journalists",
+   "slug": "for-journalists",
+   "imp": 10,
+   "clk": 0
+  },
+  {
+   "p": "/zh/blog/readwise-reader-review-2026",
+   "es": "/blog/readwise-reader-review-2026",
+   "en": "/blog/readwise-reader-review-2026",
+   "slug": "blog/readwise-reader-review-2026",
+   "imp": 10,
+   "clk": 2
+  },
+  {
+   "p": "/zh/swipe-file",
+   "es": "/swipe-file",
+   "en": "/swipe-file",
+   "slug": "swipe-file",
+   "imp": 9,
+   "clk": 0
+  },
+  {
+   "p": "/zh/blog/karakeep-review-2026",
+   "es": "/blog/karakeep-review-2026",
+   "en": "/blog/karakeep-review-2026",
+   "slug": "blog/karakeep-review-2026",
+   "imp": 9,
+   "clk": 0
+  },
+  {
+   "p": "/zh/bookmark-manager-for-firefox",
+   "es": "/bookmark-manager-for-firefox",
+   "en": "/bookmark-manager-for-firefox",
+   "slug": "bookmark-manager-for-firefox",
+   "imp": 9,
+   "clk": 1
+  }
+ ],
+ "fr": [
+  {
+   "p": "/fr/blog/avis-mymind-2026",
+   "es": "/blog/mymind-review-2026",
+   "en": "/blog/mymind-review-2026",
+   "slug": "blog/avis-mymind-2026",
+   "imp": 10,
+   "clk": 0
+  },
+  {
+   "p": "/fr/blog/meilleurs-gestionnaires-favoris-ia-2026",
+   "es": "/blog/best-ai-bookmark-manager-2026",
+   "en": "/blog/best-ai-bookmark-manager-2026",
+   "slug": "blog/meilleurs-gestionnaires-favoris-ia-2026",
+   "imp": 10,
+   "clk": 0
+  },
+  {
+   "p": "/fr/blog/avis-readwise-reader-2026",
+   "es": "/blog/readwise-reader-review-2026",
+   "en": "/blog/readwise-reader-review-2026",
+   "slug": "blog/avis-readwise-reader-2026",
+   "imp": 9,
+   "clk": 0
+  },
+  {
+   "p": "/fr/organisateur-de-favoris",
+   "es": "/bookmark-organizer",
+   "en": "/bookmark-organizer",
+   "slug": "organisateur-de-favoris",
+   "imp": 9,
+   "clk": 1
+  },
+  {
+   "p": "/fr/blog/meilleurs-gestionnaires-favoris-gratuits-2026",
+   "es": "/blog/best-free-bookmark-managers-2026",
+   "en": "/blog/best-free-bookmark-managers-2026",
+   "slug": "blog/meilleurs-gestionnaires-favoris-gratuits-2026",
+   "imp": 9,
+   "clk": 0
+  },
+  {
+   "p": "/fr/gestionnaire-favoris-firefox",
+   "es": "/bookmark-manager-for-firefox",
+   "en": "/bookmark-manager-for-firefox",
+   "slug": "gestionnaire-favoris-firefox",
+   "imp": 8,
+   "clk": 0
+  },
+  {
+   "p": "/fr/blog/comment-creer-un-second-cerveau-2026",
+   "es": "/blog/how-to-build-a-second-brain",
+   "en": "/blog/how-to-build-a-second-brain",
+   "slug": "blog/comment-creer-un-second-cerveau-2026",
+   "imp": 8,
+   "clk": 2
+  },
+  {
+   "p": "/fr/blog/obtenir-transcription-youtube",
+   "es": "/blog/how-to-get-youtube-video-transcript",
+   "en": "/blog/how-to-get-youtube-video-transcript",
+   "slug": "blog/obtenir-transcription-youtube",
+   "imp": 8,
+   "clk": 0
+  }
+ ],
+ "pt": [
+  {
+   "p": "/pt/gerenciador-favoritos-firefox",
+   "es": "/bookmark-manager-for-firefox",
+   "en": "/bookmark-manager-for-firefox",
+   "slug": "gerenciador-favoritos-firefox",
+   "imp": 10,
+   "clk": 1
+  },
+  {
+   "p": "/pt/blog/como-encontrar-artigo-salvo-quando-esqueceu-o-titulo-2026",
+   "es": "/blog/how-to-find-a-saved-article-you-forgot-the-title-of",
+   "en": "/blog/how-to-find-a-saved-article-you-forgot-the-title-of",
+   "slug": "blog/como-encontrar-artigo-salvo-quando-esqueceu-o-titulo-2026",
+   "imp": 10,
+   "clk": 0
+  },
+  {
+   "p": "/pt/salvar-pagina-como-pdf",
+   "es": "/save-page-as-pdf",
+   "en": "/save-page-as-pdf",
+   "slug": "salvar-pagina-como-pdf",
+   "imp": 10,
+   "clk": 1
+  },
+  {
+   "p": "/pt/blog/metodo-para-para-favoritos-2026",
+   "es": "/blog/para-method-for-bookmarks",
+   "en": "/blog/para-method-for-bookmarks",
+   "slug": "blog/metodo-para-para-favoritos-2026",
+   "imp": 8,
+   "clk": 0
+  },
+  {
+   "p": "/pt/blog/analise-mymind-2026",
+   "es": "/blog/mymind-review-2026",
+   "en": "/blog/mymind-review-2026",
+   "slug": "blog/analise-mymind-2026",
+   "imp": 8,
+   "clk": 0
+  },
+  {
+   "p": "/pt/organizador-de-favoritos",
+   "es": "/bookmark-organizer",
+   "en": "/bookmark-organizer",
+   "slug": "organizador-de-favoritos",
+   "imp": 8,
+   "clk": 0
+  },
+  {
+   "p": "/pt/gerenciador-favoritos-edge",
+   "es": "/bookmark-manager-for-edge",
+   "en": "/bookmark-manager-for-edge",
+   "slug": "gerenciador-favoritos-edge",
+   "imp": 8,
+   "clk": 0
+  },
+  {
+   "p": "/pt/blog/a-ia-pode-organizar-meus-favoritos-2026",
+   "es": "/blog/can-ai-organize-my-bookmarks-automatically",
+   "en": "/blog/can-ai-organize-my-bookmarks-automatically",
+   "slug": "blog/a-ia-pode-organizar-meus-favoritos-2026",
+   "imp": 8,
+   "clk": 1
+  }
+ ],
+ "it": [
+  {
+   "p": "/it/blog/chattare-con-video-youtube-2026",
+   "es": "/blog/chat-with-youtube-videos",
+   "en": "/blog/chat-with-youtube-videos",
+   "slug": "blog/chattare-con-video-youtube-2026",
+   "imp": 9,
+   "clk": 0
+  },
+  {
+   "p": "/it/blog/recensione-readwise-reader-2026",
+   "es": "/blog/readwise-reader-review-2026",
+   "en": "/blog/readwise-reader-review-2026",
+   "slug": "blog/recensione-readwise-reader-2026",
+   "imp": 9,
+   "clk": 0
+  },
+  {
+   "p": "/it/blog/migliori-evidenziatori-web-2026",
+   "es": "/blog/best-web-highlighters-2026",
+   "en": "/blog/best-web-highlighters-2026",
+   "slug": "blog/migliori-evidenziatori-web-2026",
+   "imp": 6,
+   "clk": 0
+  }
+ ],
+ "nl": [
+  {
+   "p": "/nl/blog/beste-second-brain-apps-2026",
+   "es": "/blog/best-second-brain-apps-2026",
+   "en": "/blog/best-second-brain-apps-2026",
+   "slug": "blog/beste-second-brain-apps-2026",
+   "imp": 7,
+   "clk": 0
+  },
+  {
+   "p": "/nl/blog/wat-is-een-tweede-brein-app-2026",
+   "es": "/blog/what-is-a-second-brain-app",
+   "en": "/blog/what-is-a-second-brain-app",
+   "slug": "blog/wat-is-een-tweede-brein-app-2026",
+   "imp": 7,
+   "clk": 0
+  }
+ ],
+ "pl": [
+  {
+   "p": "/pl/blog/co-zawiera-plik-eksportu-z-pocket-2026",
+   "es": "/blog/what-is-in-your-pocket-export-file",
+   "en": "/blog/what-is-in-your-pocket-export-file",
+   "slug": "blog/co-zawiera-plik-eksportu-z-pocket-2026",
+   "imp": 6,
+   "clk": 0
+  }
+ ]
+}

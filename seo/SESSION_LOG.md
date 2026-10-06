@@ -215,3 +215,10 @@ Second demand tier (≥10 imp) across fr/it/nl/pl/pt/tr/zh; two parallel agents;
 - Reclaim r3: 56 more demand pages (pl/pt/tr/zh/fr/it/nl), incl. section-index trick for .astro locale tools whose h2s are HTML-only.
 - Gate13 false-positive on correct nl/pl negations ("niet/nie kunnen lezen") → extended gate NEG vocab rather than touch correct copy.
 - Sitemap 1,092 (turn start) → 1,309; 1,951 pages; 25/25 green.
+
+### 2026-10-07 — Engine secParity bug + reclaim round 4 + export cluster ×fr/it/pt
+- ENGINE FIX (deployed 6ec9a2a): section bar compared against a headingless EN source (h2s render via components) pruned 8 rich locale tool pages incl. /fr/outils/transcription-youtube (464imp/23clk/90d). secParity now vacuous-pass when enH2=0; units bar remains the stub guard. This alone re-indexed 124 of 347 r4 candidates — engine bugs beat translation labor.
+- Reclaim r4: 36 pages (tr6 zh8 fr8 pt8 it3 nl2 pl1) all ≥0.9 on both bars, agent-verified pre-commit. Agents also caught & fixed content-level truth drifts (fr/it/pt mymind $79→$72, nl stub removing unvetted table rows).
+- TRUTH FIX (12 locales): raindrop-review claimed Marqly has NO Android app — false per product-facts L19 (Play Store live) + marqly.json. Row, prose ("better on Android") and who-should bullet rewritten to desktop-apps (true differentiator) in en/de/es/fr/it/pt/nl/pl/tr/zh/ja/ko.
+- Export cluster now ×7 locales (+12 new fr/it/pt posts; hreflang clusters extended; og reuses verified EN cards).
+- Sitemap 1,309 → 1,316 (engine) → 1,364; pages 1,963; 25/25 + 0 broken links.

@@ -101,7 +101,7 @@ Ehrliche Tabelle — Raindrop gewinnt mehrere Zeilen klar:
 | --- | --- | --- |
 | Preis bezahlt | **27,99 $/Jahr — günstiger** | 72 $/Jahr (≈ 6 $/Monat) oder 9 $/Monat |
 | Gratis-Plan | **Unbegrenzte Lesezeichen, für immer** | Gratis-Plan, ohne Kreditkarte |
-| Android-App | **Ja** | Nein (Web-App im Android-Browser) |
+| Android-App | **Ja** | **Ja** |
 | Medientypen / Datei-Uploads | **Breitestes Sortiment der Kategorie** | Artikel, Videos, Links, PDFs |
 | Suche | Keyword + Volltext (Pro) | **Semantisch — Saves per Beschreibung finden** |
 | Auto-Tags | KI-Vorschläge beim Speichern (Pro) | **Automatisch bei jedem Speichern** |
@@ -111,12 +111,12 @@ Ehrliche Tabelle — Raindrop gewinnt mehrere Zeilen klar:
 | Hervorhebungen | Auf gespeicherten Kopien (Free 3/Speicher, Pro unbegrenzt) | Auf der lebenden Seite, 6 Farben, bleiben beim Wiederbesuch |
 | Wechselaufwand | — | **Marqly importiert Raindrop-Sammlungen direkt** |
 
-Die ehrliche Zusammenfassung: Raindrop ist günstiger, breiter und besser auf Android. Marqlys Daseinsgrund ist genau die Zeile, die Raindrop nicht füllen kann — Retrieval nach Bedeutung plus die KI-Schicht (Auto-Tags, Zusammenfassungen), die automatisch auf alles angewandt wird statt als Assistent hinter der Pro-Mauer. Wenn Sie nie ein altes Save vermisst haben: behalten Sie Raindrop und Ihre 20 $. Ist „ich weiß, dass ich das irgendwo gespeichert habe“ ein Wochengefühl, ist das genau das Problem, um das [Marqly](https://app.marqly.com) gebaut wurde — Prüfen Sie diese Behauptung mit Ihren eigenen Daten — ausführlich im Vergleich [Marqly vs Raindrop](/compare/marqly-vs-raindrop) und in der Schritt-für-Schritt-[Migrationsanleitung Raindrop zu Marqly](/migrate/raindrop).
+Die ehrliche Zusammenfassung: Raindrop ist günstiger und deckt mehr Medientypen ab. Marqlys Daseinsgrund ist genau die Zeile, die Raindrop nicht füllen kann — Retrieval nach Bedeutung plus die KI-Schicht (Auto-Tags, Zusammenfassungen), die automatisch auf alles angewandt wird statt als Assistent hinter der Pro-Mauer. Wenn Sie nie ein altes Save vermisst haben: behalten Sie Raindrop und Ihre 20 $. Ist „ich weiß, dass ich das irgendwo gespeichert habe“ ein Wochengefühl, ist das genau das Problem, um das [Marqly](https://app.marqly.com) gebaut wurde — Prüfen Sie diese Behauptung mit Ihren eigenen Daten — ausführlich im Vergleich [Marqly vs Raindrop](/compare/marqly-vs-raindrop) und in der Schritt-für-Schritt-[Migrationsanleitung Raindrop zu Marqly](/migrate/raindrop).
 
 ## Für wen eignet sich Raindrop?
 
 - **Bewusste Ordner**, die Freude an einer strukturierten, visuellen Bibliothek haben und verschachtelte Sammlungen tatsächlich pflegen.
-- **Android-Nutzer**, die eine vollwertige native App wollen.
+- **Nutzer auf Mac/Windows/Linux**, die native Desktop-Apps wollen.
 - **Sammler gemischter Medien** — Bilder, Dateien, PDFs, Video-Links —, nicht nur Artikel.
 - **Alle mit Budget-Bewusstsein.** Zwischen Gratis-Plan und 27,99 $/Jahr Pro kommt preislich nichts dagegen an.
 - **Ex-Pocket-Nutzer**, die ein stabiles, bewährtes Zuhause wollen — wer gerade migriert, vergleicht vorher das Feld im Ratgeber [die besten Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2026).

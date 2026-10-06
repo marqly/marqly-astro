@@ -100,7 +100,7 @@ Tableau honnête — Raindrop gagne plusieurs lignes haut la main :
 | --- | --- | --- |
 | Prix payant | **27,99 $/an — moins cher** | 72 $/an (≈6 $/mois) ou 9 $/mois |
 | Plan gratuit | **Favoris illimités, pour toujours** | Formule gratuite, sans carte |
-| Appli Android | **Oui** | Non (l'app web tourne dans les navigateurs Android) |
+| Appli Android | **Oui** | **Oui** |
 | Types de médias / fichiers | **Le plus large de la catégorie** | Articles, vidéos, liens, PDF |
 | Recherche | Mots-clés + texte intégral (Pro) | **Sémantique — retrouvez en décrivant** |
 | Étiquetage automatique | Suggestions IA à l'enregistrement (Pro) | **Automatique à chaque enregistrement** |
@@ -115,7 +115,7 @@ Le résumé honnête : Raindrop est moins cher, plus large et meilleur sur Andro
 ## Qui devrait utiliser Raindrop ?
 
 - **Les organiseurs volontaires** qui aiment entretenir une bibliothèque structurée et visuelle et utiliseront vraiment les collections imbriquées.
-- **Les utilisateurs Android** qui veulent une appli native de première classe.
+- **Les utilisateurs Mac/Windows/Linux** qui veulent des applis natives de bureau.
 - **Les collectionneurs de médias mixtes** — images, fichiers, PDF, liens vidéo — pas seulement des articles.
 - **N'importe qui avec un budget.** Entre le plan gratuit et un Pro à 27,99 $/an, personne ne l'approche sur le prix.
 - **Les ex-utilisateurs de Pocket** qui veulent une maison stable et éprouvée — même si vous êtes en pleine migration, comparez d'abord le champ dans notre guide des [meilleures alternatives à Pocket](/fr/blog/alternatives-a-pocket-2026).

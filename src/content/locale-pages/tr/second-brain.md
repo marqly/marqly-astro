@@ -25,7 +25,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'ye Ücretsiz Başlayın"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
-updatedDate: 2026-10-06
+updatedDate: 2026-10-07
 ---
 
 İkinci beyin isteyen herkes aynı şeyi ister: geniş oku, önemli olanı tut ve tam ihtiyaç duyduğunda yeniden karşına çıksın. Hemen hiç kimse çoğu ikinci beyin kurulumunun gerçekte talep ettiği şeyi istemez — klasör hiyerarşileri tasarlanarak geçen bir hafta sonu, sonra sessizce hobinin kendisine dönüşen haftalık bakım ritüeli.
@@ -38,17 +38,17 @@ Marqly'nin tezi, bakımın hiç mesele olmadığı: yakalama tek tık olmalı, o
 
 Marqly'nin yakalaması zaten okuduğunuz yerlere gömülü: tarayıcı araç çubuğundan tek tıkla kayıt (Chrome, Edge, Firefox ve Safari), telefonda kayıtlar için iOS uygulaması ve bir gezinme oturumu bittiğinde açık tüm sekmeleri kitaplığınıza süpüren sekme kaydedici. Vurgular da yakalamadır — herhangi bir sayfada metin seçin, altı renkten biriyle işaretleyin, bir not ekleyin; pasaj kitaplığınıza senkronlanır ve döndüğünüzde sayfada görünür kalır. YouTube videosu kaydedin, transkripti iliştirilir; böylece video bilgisi bile aranabilir metne dönüşür.
 
-Mevcut yığınınızı taşıyorsanız, içe aktarmalar Pocket dışa aktarımlarını, Raindrop.io koleksiyonlarını ve standart tarayıcı yer imi HTML dosyalarını karşılar — geçmişiniz sizinle gelir.
+Mevcut yığınınızı taşıyorsanız içe aktarma üç kapıdan girer: tarayıcıların standart yer imi HTML dosyaları (Chrome, Edge, Firefox, Safari), Raindrop.io HTML dışa aktarımı ve Pocket'ın ZIP içindeki `list.csv` dosyası — Pocket'ın HTML çıktısı maalesef format olarak okunmuyor, listenin CSV hâlini kullanın. Şeffaf olalım: aktarımda orijinal kayıt tarihleri taşınmaz, öğeler aktarıldığı günün tarihini alır; etiketler dosyada durduğu şekilde korunur, gelenlerin otomatik etiketlenmesi ise Pro özelliğidir.
 
 ## Düzenleme adımı artık sizin işiniz değil
 
 Elle kurulan sistemler burada çöküyor; Marqly da burada ayrışıyor. Notion ya da Obsidian'da kütüphaneci sizsiniz: her yakalamanın dosyalanması, bağlanması ya da şablonlanması gerekir ve kasanın kullanışlılığı disiplininizi takip eder. Üç haftayı atlayın, alışkanlığı sessizce öldüren, dosyalanmamış yakalama dolu bir gelen kutusuna dönersiniz. Ağır araçlar kendi yazınız için gerçekten daha güçlüdür — ama bakım bedeli odur ve çoğu kişi bir noktada ödemeyi bırakır.
 
-Marqly'de yapay zeka her kaydı indiği anda otomatik etiketler. Gelen kutusu yok, dosyalama kuyruğu yok, disiplininize işlemeyen bir bozulma eğrisi yok. Yapay zeka özetleri kütüphanecinin ikinci yarısını üstlenir: her kayıtlı makale bir özet alır, böylece birikimi elemek sayfa yeniden okumak değil özet taramaktır. Etiket tabanlı yaklaşımın klasör sistemleriyle genel karşılaştırması [yer imlerini düzenleme rehberi](/tr/blog/yer-imlerini-duzenleme-rehberi-2026) yazısında.
+Marqly'de yapay zeka her kaydı indiği anda otomatik etiketler. Gelen kutusu yok, dosyalama kuyruğu yok, disiplininize işlemeyen bir bozulma eğrisi yok. Yapay zeka özetleri kütüphanecinin ikinci yarısını üstlenir: her kayıtlı makale bir özet alır, böylece birikimi elemek sayfa yeniden okumak değil özet taramaktır — aylık 'yarın okurum' duasıyla büyüyen yığın, özetleri tarayıp gerçekten okunacak beş şeyi seçtiğiniz otuz dakikada erir. Etiket tabanlı yaklaşımın klasör sistemleriyle genel karşılaştırması [yer imlerini düzenleme rehberi](/tr/blog/yer-imlerini-duzenleme-rehberi-2026) yazısında.
 
 ## Hafıza gibi çalışan bir erişim
 
-İkinci beynin testi şu tür bir soru: 'şebeke etkilerinden neden daha güçlü olduğunu anlatan bir makale vardı — nerede?' Klasör sistemi yalnızca doğru ada koyduysanız yanıtlar. Anahtar kelime araması yalnızca başlığın birebir kelimelerini hatırlıyorsanız yanıtlar.
+İkinci beynin testi şu tür bir soru: 'değişim maliyetlerinin ağ etkilerinden neden daha güçlü olduğunu anlatan bir makale vardı — nerede?' Klasör sistemi yalnızca doğru ada koyduysanız yanıtlar. Anahtar kelime araması yalnızca başlığın birebir kelimelerini hatırlıyorsanız yanıtlar — ki hatırladığınız şey genelde başlık değil, fikrin kendisidir.
 
 Marqly'nin anlamsal araması anlamdan yanıtlar. Şeyi tarif edin — üstelik gevşek — kayıt bulunur; başlıklar, içerikler, sizin vurgularınız ve video transkriptleri boyunca aranır. Tüm sistemin yaslandığı özellik budur ve [yer imlerinde yapay zekayla arama](/tr/blog/yapay-zeka-ile-yer-imi-arama-2026) yazısında düzgünce anlatılıyor. Pro'da erişim bir adım öteye gidiyor: kayıtlarınız üzerinde AI soru-cevap; düz dille sorarsınız, cevap kendi kaydettiğiniz içerikten çekilir — kitaplığınız çok belirli bir okuma listesi olan bir araştırma asistanı gibi davranmaya başlar.
 
@@ -56,7 +56,7 @@ Marqly'nin anlamsal araması anlamdan yanıtlar. Şeyi tarif edin — üstelik g
 
 [app.marqly.com](https://app.marqly.com)'da kart olmadan ücretsiz kaydolun ve eklentiyi kurun. Sonra sistemi tasarladığınız adımı atlayın — çünkü tasarlanacak sistem yok. Saklamaya değer sonraki on şeyi kaydedin, onları değerli kılan pasajları vurgulayın ve etiketlerin kendi kendine birikmesine izin verin.
 
-Alışkanlığın kendisi kurulumun tamamıdır. Pratiği kurmanın daha dolu bir yöntemini istiyorsanız — ne yakalanır, ne atlanır, erişim alışkanlıkları nasıl oluşur — [ikinci beyin nasıl kurulur](/tr/blog/ikinci-beyin-nasil-olusturulur-2026) yazısını baştan sona okuyun.
+Alışkanlığın kendisi kurulumun tamamıdır. Tek bir beklenti notu düşelim: anlamla arama, kitaplık doldukça güçlenen bir kastır — ilk on kayıtla 'vay be' demezsiniz, iki yüzüncü kayıtla 'geçmişte bir yerde okumuştum' dediğiniz her şeyin size döndüğünü görürsünüz. Sistem, biriktirmeye başladığınız haftada değil, hatırlamaya çalıştığınız hafta kendini belli eder. Pratiği kurmanın daha dolu bir yöntemini istiyorsanız — ne yakalanır, ne atlanır, erişim alışkanlıkları nasıl oluşur — [ikinci beyin nasıl kurulur](/tr/blog/ikinci-beyin-nasil-olusturulur-2026) yazısını baştan sona okuyun.
 
 [Ücretsiz başlayın](https://app.marqly.com)
 

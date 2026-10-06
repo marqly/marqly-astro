@@ -447,7 +447,7 @@ check('every localized page renders a link hub', noHub.slice(0, 30), `${noHub.le
   const CLAIM = /pocket[-.\s]?export\.html|ril_export(?:\.html)?|\bpocket(?:['’\u2019]s)?\s+html\s+export\b/gi;
   const MARQ = /marqly/i;
   const IMPORTV = /\b(?:import\w*|takes|accepts|liest|importiert|importa\w*|arraste|arrastra|déposez|deposez|drag|sleep|ziehen|trascina|przeciągnij|przeciahgnij|drag-and-drop|içe aktar|끌어다|拖入|ドラッグ|uploads?|loads?)\b/i;
-  const NEG = /\b(?:not|nicht|no\b|nunca|pas|cannot|can'?t|never|won'?t|doesn'?t|does not|0\/|fails?|rejects?|instead|only|rather than|list\.csv|\bcsv\b|\bzip\b|できません|しない|でなく|而不是|não|아니|pas|keine)\b/i;
+  const NEG = /\b(?:not|niet|nie\b|nicht|no\b|nunca|pas|cannot|can'?t|never|won'?t|doesn'?t|does not|0\/|fails?|rejects?|instead|only|rather than|list\.csv|\bcsv\b|\bzip\b|できません|しない|でなく|而不是|não|아니|pas|keine)\b/i;
   const offenders = [];
   for (const p of pages) {
     const text = toDom(p.raw).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');

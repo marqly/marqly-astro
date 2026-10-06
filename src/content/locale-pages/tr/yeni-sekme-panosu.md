@@ -27,12 +27,14 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly'ye ücretsiz başlayın"
 ctaSecondaryLabel: "Chrome'a Ekle — Ücretsiz"
-updatedDate: 2026-10-06
+updatedDate: 2026-10-07
 ---
 
 Varsayılan yeni sekme sayfası, bir arama kutusu ve sizin seçmediğiniz küçük resim ızgarasıdır. Günde onlarca kez açarsınız ve size hiçbir şey vermez — yeni sekme eklentileri kategorisinin var olma sebebi bu, çoğunun güzel bir fotoğrafçılıkta durma sebebi de.
 
 **Marqly Home** aynı arsayı alır ve işe yarar kılar: kayıtlı kitaplığınız içinden aranabilir, kendi hızlı bağlantılarınız ve klasörleriniz koyduğunuz yerde durur; notlar, yapılacaklar, hava durumu ve kayıtlı oturumlar bir şey yazmaya başlamadan önce görüş alanındadır.
+
+Kategorinin uzun ömürlü olması tesadüf değil: tarayıcının kendi 'sık kullanılanlar' ızgarası bile aslında bir tahmin — hangi siteyi açacağınızı sizden iyi bildiğini iddia eden, görünmez bir sıralama algoritmasının küçültülmüş hâli. Oysa sabah kahvenizi alırken gözünüzün alıştığı gerçek panoyu kurmak on saniyelik bir iş; karşılığında her sekme açışta aradığınızı bulma süreniz kısalıyor. Fark, günde elli temasta biriken faiz olarak geri dönüyor.
 
 ## Kitaplığınızı boş sayfadan arayın
 
@@ -47,6 +49,8 @@ Pratik etki: sekme açıp adresi hafızadan yazma refleksi, sekme açıp gerçek
 Gerçekten kullandığınız siteleri ekleyin, çalışma şeklinize uyan sıraya sürükleyin ve kalanı klasörlerde gruplayın ki sayfa sakin kalsın. Ayarlanabilir bir **dock** sürekli uzandıklarınızı tutar, sizin seçtiğiniz bir **arka plan** sayfayı size ait kılar.
 
 Bunların hiçbiri tek başına devrimsel değil — mesele varsayılan yeni sekmenin hiçbirine izin vermemesi. On saniyelik düzenleme, göremediğiniz bir algoritmanın sıraladığı top-sites ızgarasını yener.
+
+Küçük bir yerleşim kuralı işi çok kolaylaştırıyor: hızlı bağlantıları 'her gün' ve 'proje bazlı' diye ikiye ayırın. Her gün açtığınız beş-altı site üste, sabit sırada; süresi olan işlerin linkleri (teklif takibi, seyahat planı, araştırma dosyaları) klasörlere. Klasörler zamanla eskiz defteri gibi dolar; proje bitince içini tek hamlede arşive devredebilirsiniz. Sayfanın sakin kalmasının sırrı az link değil, linkin hangi katmanda durduğunu bilmeniz.
 
 ## Görünür kalan notlar, yapılacaklar ve yapışkanlar
 
@@ -65,6 +69,8 @@ Değer şu ki bu malzeme *görünür* kalır. Küçük, geçici bağlamı bir no
 Düzenli olarak bir proje için sekme kümesinde çalışıyorsanız, grubu kaydedin ve sonradan panodan geri getirin; tarayıcı geçmişinden yeniden inşa etmek zorunda kalmazsınız. [Tüm açık sekmeleri tek tıkla kitaplığa kaydetme](/faq/how-do-i-save-all-my-open-tabs) ile birleşince sekme probleminin iki yarısını da kapatır: Perşembe döneceğiniz grup ve asla yeniden açıp kapatmaya kıyamadığınız kırk sekme.
 
 İkinci yarı hakkında daha fazlası [sekme yöneticisi](/tr/sekme-yoneticisi) sayfasında — bulmak kolaylaşınca pencere kapatmanın neden risk olmaktan çıktığını anlatır.
+
+En tipik kullanım iki sahne: araştırma yaparken on sekme açtığınız kaynak paketi ile iş saati bitip laptopu kapattığınız an; ve seyahat planında uçak-bilet sitesi, otel sekmeleri, harita ve rezervasyon formunun aynı grupta dondurulması. İkisinde de perşembe geri döndüğünüzde tarayıcı geçmişinden parça parça kazmak yerine tek tıkla masanın başına oturmuş gibi olursunuz.
 
 ## Eklentinin gerisi de tam orada
 
@@ -86,6 +92,8 @@ Google Play'de bir de [Android uygulaması](/faq/is-there-an-android-app) var; y
 4. Bir dahaki sefere bir kaydı bulmak için web uygulamasını açmak yerine yeni sekmeden arayın.
 
 Panonun bütün detayları [Yeni Sekme sayfasında Marqly Home nedir](/faq/what-is-marqly-home-new-tab) sıkça sorulan yanıtında.
+
+İlk haftanın ölçütü basit: kaç sekmede 'bunu daha önce bir yerde okumuştum' diye durdunuz? Kurulumdan sonra 'bunu daha önce okumuştum' anlarında panodaki kutuya yazıp cevabı beş saniyede alıyorsanız sistem tutmuş demektir; tutmadıysa sebebi genelde ikisinden biridir: kitaplığınızda henüz aranacak birikinti yok ya da refleksle hâlâ adres çubuğundan genel web araması yapıyorsunuz. İkisinin de çözümü panoyu kapatmak değil — birinci kitaplığı beslemeyi, ikinci refleksi bir hafta bilinçli kırmayı gerektirir.
 
 ## Kimin için değil
 
