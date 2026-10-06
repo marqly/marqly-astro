@@ -1,8 +1,9 @@
 ---
 title: "Reseña de mymind 2026: Visual, Privado y no para Todo el Mundo"
-seoTitle: "Reseña de mymind 2026: Precios, Pros y Contras (3.8/5)"
-description: "Una reseña honesta de mymind para 2026: precios verificados, qué hace realmente su IA, dónde brilla su lienzo visual y dónde se queda corto. Calificación 3.8/5."
+seoTitle: "Reseña de mymind 2026: Precios, Pros y Contras"
+description: "Una reseña honesta de mymind para 2026: precios verificados, qué hace realmente su IA, dónde brilla su lienzo visual y dónde se queda corto."
 pubDate: 2026-08-02
+updatedDate: 2026-10-06
 lang: "es"
 ogImage: "https://www.marqly.com/og/mymind-review-2026.png"
 category: "Reseñas"
@@ -19,21 +20,20 @@ faqs:
   - q: "¿Vale la pena mymind en 2026?"
     a: "mymind vale la pena si eres un pensador visual que guarda imágenes, citas e inspiración y valoras un espacio privado sin publicidad. Es la herramienta visual más bonita de la categoría. Es menos adecuada si guardas principalmente artículos largos que necesitas encontrar por tema, o si buscas un plan gratuito permanente: no tiene plan gratis."
   - q: "¿Cuánto cuesta mymind?"
-    a: "mymind tiene tres planes: The Bookmarker a 4,99 $/mes (sin IA), Student of Life a 7,99 $/mes o 72 $/año (etiquetado por IA, espacios inteligentes) y Mastermind a 12,99 $/mes o 129 $/año (resúmenes de IA, modo lectura, copia de seguridad de artículos, análisis de PDF). Se anuncia un plan Newton a 299 $/año próximamente. Verificado en agosto de 2026."
+    a: "mymind tiene tres planes: The Bookmarker a 4,99 $/mes (sin IA), Student of Life a 7,99 $/mes o 79 $/año (etiquetado por IA, espacios inteligentes) y Mastermind a 12,99 $/mes o 129 $/año (resúmenes de IA, modo lectura, copia de seguridad de artículos, análisis de PDF). Se anuncia un plan Newton a 299 $/año próximamente. Ficha de datos revisada por última vez el 5 de octubre de 2026."
   - q: "¿Tiene mymind un plan gratuito?"
-    a: "No tiene plan gratuito permanente. mymind ofrece una prueba gratuita y un modo de invitado limitado por espacio de almacenamiento en vez de tiempo, pero el producto completo requiere suscripción. Las funciones de IA comienzan en 7,99 $/mes. Si buscas un nivel gratuito real, revisa Raindrop o Marqly."
+    a: "Sí. El plan gratuito de invitado permite hasta 100 tarjetas sin límite de tiempo. Las bibliotecas más grandes y las funciones de IA requieren un plan de pago; los planes con IA comienzan en 7,99 $/mes."
   - q: "¿Cuál es la diferencia entre mymind y Marqly?"
-    a: "mymind es un lienzo visual privado: autoetiqueta lo que guardas y lo muestra como tarjetas, ideal para imágenes e inspiración. Marqly se enfoca en la recuperación y búsqueda semántica por significado, con resaltado de texto, resúmenes de YouTube y tableros. Marqly tiene un plan gratuito permanente (hasta 100 marcadores) y Pro cuesta 72 $/año; los planes de IA de mymind cuestan de 72 $ a 129 $/año."
+    a: "mymind es un lienzo visual privado: autoetiqueta lo que guardas y lo muestra como tarjetas, ideal para imágenes e inspiración. Marqly se enfoca en la recuperación y búsqueda semántica por significado, con resaltado de texto, resúmenes de YouTube y tableros. Marqly tiene un plan gratuito permanente (hasta 100 marcadores) y Pro cuesta 79 $/año; los planes de IA de mymind cuestan de 79 $ a 129 $/año."
 ---
 
-**La respuesta corta: mymind obtiene una puntuación de 3.8 sobre 5.** Es la aplicación de guardado más bella y con mayor personalidad del mercado: un lienzo visual privado con un etiquetado por IA sobresaliente y cero necesidad de organizar carpetas. Pierde puntos por no ofrecer un plan gratuito permanente, reservar su mejor IA para el plan Mastermind de 12,99 $/mes, y ser más débil en lo que la mayoría de usuarios necesita: encontrar un artículo específico describiendo de qué trataba. Si guardas imágenes, citas e inspiración de diseño, es una gozada. Si guardas artículos y necesitas encontrarlos por tema, hay mejores alternativas.
+**La respuesta corta:** mymind es la aplicación de guardado más bella y con mayor personalidad del mercado: un lienzo visual privado con un etiquetado por IA sobresaliente y cero necesidad de organizar carpetas. El plan gratuito de invitado está limitado a 100 tarjetas; otras limitaciones son reservar su mejor IA para el plan Mastermind de 12,99 $/mes, y ser más débil en lo que la mayoría de usuarios necesita: encontrar un artículo específico describiendo de qué trataba. Si guardas imágenes, citas e inspiración de diseño, es una gozada. Si guardas artículos y necesitas encontrarlos por tema, hay mejores alternativas.
 
 | | mymind |
 | --- | --- |
-| **Nuestra calificación** | 3.8 / 5 |
 | **Ideal para** | Pensadores visuales, diseñadores, coleccionistas privados |
-| **Plan gratuito** | No — solo prueba y modo invitado limitado por almacenamiento |
-| **Planes con IA** | 7,99 $/mes (72 $/año) o 12,99 $/mes (129 $/año) |
+| **Plan gratuito** | Plan de invitado: hasta 100 tarjetas, sin límite de tiempo |
+| **Planes con IA** | 7,99 $/mes (79 $/año) o 12,99 $/mes (129 $/año) |
 | **Punto fuerte** | Lienzo visual con cero organización manual, estricta privacidad |
 | **Punto débil** | Búsqueda de artículos largos; sin colaboración; precio elevado |
 
@@ -54,16 +54,16 @@ Two design decisions define the product. First, **no organizing, ever** — the 
 
 What's *not* here matters too: no in-page highlighter (saving a quote means clipping it, not [highlighting text](/es/blog/como-resaltar-texto-en-cualquier-web-2026) directly on the live page), no YouTube summaries or transcripts, no public sharing, no team features, and no API.
 
-## Precios (verificados en agosto de 2026)
+## Precios (ficha de datos revisada el 5 de octubre de 2026)
 
 | Plan | Monthly | Yearly | Features |
 | --- | --- | --- | --- |
 | The Bookmarker | $4.99 | — | Visual bookmarking, **no AI features** |
-| Student of Life | $7.99 | $72 | Unlimited cards, AI tagging, image text recognition, smart spaces |
+| Student of Life | $7.99 | $79 | Unlimited cards, AI tagging, image text recognition, smart spaces |
 | Mastermind | $12.99 | $129 | Everything above + AI summaries, reading mode, article backup, PDF analysis, Same Vibe |
 | Newton | — | $299 | Listed as "coming soon" |
 
-There's a free trial and a guest mode capped by storage, but no permanent free tier. The Student of Life plan costs $72/year, while full AI with summaries and article backup requires Mastermind at $129/year.
+The free guest plan allows up to 100 cards with no time limit. The Student of Life plan costs $79/year, while full AI with summaries and article backup requires Mastermind at $129/year.
 
 ## Fortalezas
 
@@ -75,7 +75,7 @@ There's a free trial and a guest mode capped by storage, but no permanent free t
 
 ## Debilidades
 
-- **No permanent free plan.** You cannot use mymind meaningfully without paying. Competitors like Raindrop and Marqly offer generous free tiers.
+- **Limited free library.** The guest plan supports up to 100 cards with no time limit; larger libraries and AI features require a paid plan.
 - **Retrieval leans on tags and visual memory, not meaning.** mymind's search is good at visual recall and weaker at finding long-form text by concept. Our roundup of [AI bookmark managers](/es/blog/mejores-gestores-marcadores-ia-2026) covers why the semantic query layer is critical.
 - **Deliberately no collaboration or sharing.** You can't share a collection with a colleague or publish a board.
 - **The best AI costs $129/year.** Summaries and article backup are gated behind the highest tier.
@@ -86,27 +86,27 @@ There's a free trial and a guest mode capped by storage, but no permanent free t
 | | mymind | Marqly |
 | --- | --- | --- |
 | Core idea | Private visual canvas | Find anything again by meaning |
-| AI tagging | Yes | Yes |
-| Semantic search | Partial — tags + visual recall | Yes — across titles, content, highlights, transcripts |
-| AI summaries | Mastermind plan ($129/yr) | Yes |
+| AI tagging | Student of Life and above | Pro |
+| Semantic search | Tags + visual recall | Pro — across titles, content, highlights, transcripts |
+| AI summaries | Mastermind plan ($129/yr) | Pro |
 | Highlighter | No | 6 colors + notes, persists on the page |
 | YouTube tools | No | Summary, transcript, and chat on the watch page |
 | Sharing | None, by design | Public boards, no signup needed to view |
-| Free tier | No (trial/guest mode) | Yes, up to 100 saves, no card required |
-| Paid price | $72–$129/yr | $72/yr (or $9/mo, $49 first year with coupon STANDING49) |
+| Free tier | Guest plan: up to 100 cards | Up to 100 saves with keyword search |
+| Paid price | $79–$129/yr | $72/yr (or $9/mo) |
 
 Where **mymind wins**: visual material, aesthetic ambience, and strict privacy posture.
 
-Where **Marqly wins**: retrieval and text-heavy libraries. Semantic search means you can describe a half-remembered article and get it back; highlights stay on the page; YouTube videos come with summaries and transcripts.
+Where **Marqly wins**: retrieval and text-heavy libraries. Pro semantic search means you can describe a half-remembered article and get it back; highlights stay on the page; YouTube videos come with summaries and transcripts.
 
 ## ¿Para quién es mymind?
 
 **Get mymind if** you're a designer, creative, or visual thinker whose saves are mostly images, quotes, and visual inspiration, and you value a quiet, private space.
 
-**Skip mymind if** you need a permanent free tier, save long articles you'll need to re-find by topic, or want web highlights, transcripts, and summaries at an accessible price.
+**Skip mymind if** you need more than 100 cards for free, save long articles you'll need to re-find by topic, or want web highlights, transcripts, and summaries at an accessible price.
 
-## Veredicto: 3.8 / 5
+## Veredicto
 
-mymind is an original, beautifully crafted product. For its target audience of visual thinkers it's a 4.5. Across the broader spectrum of bookmarking and knowledge management, the missing free tier, the $129/year cost for full AI, and the tag-first retrieval bring the overall score to **3.8 out of 5**.
+mymind is an original, beautifully crafted product for visual thinkers. Its limitations for broader bookmarking and knowledge management are the 100-card guest-plan limit, the $129/year cost for full AI, and tag-first retrieval.
 
 If you mostly save articles and want effortless semantic retrieval, [Marqly](https://app.marqly.com) provides free access with no card required, importing your existing history in minutes.

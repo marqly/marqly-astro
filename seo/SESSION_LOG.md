@@ -1,5 +1,11 @@
 # SESSION_LOG — append one entry per session (newest on top)
 
+## 2026-10-06 — Phase C candidate truth review
+
+- Removed numerical review ratings in twelve language groups; corrected substantive mymind/Readwise plan facts and Pocket export/deletion wording using dated JSON or official sources. Report: `reports/04-predeployment-truth-2026-10-06.md`. Import guidance now distinguishes Pocket list.csv from browser HTML and labels Marqly Pro features.
+- Fixed the live redirect checker to require the published /about page to return 200 without redirect.
+- Data regression tests: 13/13 pass. Final clean candidate build and all 25 SEO gates pass (1,935 pages / 1,343 sitemap URLs). Required five surfaces captured at 1440px + 390px and visually inspected; mobile study button overflow and inline-link spacing fixed and rechecked. All ten captures return 200, have correct canonicals, no document overflow or JavaScript errors; French pruned page retains noindex. Changes log records 148 corrected URLs. No deploy date filled yet.
+
 ## 2026-10-06 — Isolated continuation after concurrent writes
 
 - While Phase B was being committed, another process committed `2ce9f22` (four pricing/citation refreshes and mymind JSON), ran a date-only API pull and then a default 16-month pull into the canonical root. These source commits and all datasets are preserved; they were not reverted. The canonical dataset therefore no longer matched the 90-day analysis described in the first Phase B commit.

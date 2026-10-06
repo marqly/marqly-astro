@@ -23,11 +23,11 @@ faqs:
   - q: "Dá para usar os dois?"
     a: "Sim, e muita gente faz: Instapaper para o texto longo que você vai ler mesmo, Marqly como biblioteca pesquisável de todo o resto, incluindo vídeos e páginas de referência."
   - q: "Os dois importam meu export do Pocket?"
-    a: "Sim, os dois leem o CSV do export do Pocket, desde que você tenha baixado antes de outubro de 2025."
+    a: "Sim, os dois leem o CSV do export do Pocket, desde que você tenha baixado antes de 12 de novembro de 2025 (segundo o [aviso da Mozilla](https://support.mozilla.org/en-US/kb/future-of-pocket))."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
-updatedDate: 2026-09-26
+updatedDate: 2026-10-06
 ---
 
 Dá para resumir esta comparação em uma frase: **o Instapaper ganha em ler, o Marqly ganha em encontrar**. Não são a mesma ferramenta, e escolher a errada é o que faz as pessoas abandonarem as duas.

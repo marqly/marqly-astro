@@ -18,4 +18,4 @@ faqs:
     a: "Nie. Wyszukiwanie treści wymaga subskrypcji Premium (5,99 $/mies.)."
 ---
 
-**Ocena: 3.5 / 5** — Instapaper gwarantuje świetny tryb czytania, ale brak bezpłatnego wyszukiwania i integracji z AI obniża jego atrakcyjność w 2026 roku.
+Instapaper gwarantuje świetny tryb czytania, ale brak bezpłatnego wyszukiwania i integracji z AI obniża jego atrakcyjność w 2026 roku.

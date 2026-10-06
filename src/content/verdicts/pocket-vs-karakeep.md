@@ -2,10 +2,10 @@
 a: pocket
 b: karakeep
 verdict: "Karakeep — Mozilla closed Pocket in July 2025, and Karakeep (formerly Hoarder) is the most feature-complete self-hosted successor: AI tagging, summaries, semantic search, and full-page archiving, free forever on your own Docker server."
-updatedDate: 2026-08-02
+updatedDate: 2026-10-06
 faqs:
   - q: "Can Karakeep import a Pocket export?"
-    a: "Yes. Karakeep's importers cover Pocket exports alongside browser bookmark HTML, Omnivore, Instapaper, Linkwarden, and mymind files — one of the broadest import lists anywhere. You need the ZIP you downloaded before October 8, 2025, since Pocket itself deleted everything after that date. Imported saves get AI tags, summaries, and full-page archives automatically."
+    a: "Yes. Karakeep's importers cover Pocket exports alongside browser bookmark HTML, Omnivore, Instapaper, Linkwarden, and mymind files — one of the broadest import lists anywhere. You need the ZIP you downloaded before November 12, 2025, since Mozilla disabled Pocket exports and began deleting remaining data on that date (see [Mozilla’s Pocket closure notice](https://support.mozilla.org/en-US/kb/future-of-pocket)). Imported saves get AI tags, summaries, and full-page archives automatically."
   - q: "Is Karakeep free?"
     a: "The self-hosted app is completely free, fully featured, and open source; you supply a Docker server plus, for AI tagging and summaries, your own OpenAI-compatible API key or a local Ollama model. The hosted Karakeep Cloud, still in public beta, offers a free tier capped at 10 bookmarks and a Pro tier at $4/month."
   - q: "How hard is Karakeep to set up compared with Pocket?"

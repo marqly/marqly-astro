@@ -18,6 +18,6 @@ faqs:
     a: "Tak, darmowa wersja oferuje nielimitowaną liczbę zakładek i kolekcji na wszystkich platformach."
 ---
 
-**Ocena: 4.5 / 5** — Raindrop.io to wzorowy przykład dopracowanego menedżera zakładek dla zwolenników tradycyjnych folderów i tagów.
+Raindrop.io to wzorowy przykład dopracowanego menedżera zakładek dla zwolenników tradycyjnych folderów i tagów.
 
 Jeśli jednak Twoja biblioteka liczy tysiące wpisów i zapominasz dokładnych tytułów, wyszukiwanie semantyczne w [Marqly](https://app.marqly.com) okaże się znacznie bardziej pomocne.

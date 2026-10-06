@@ -18,4 +18,4 @@ faqs:
     a: "Solo per gli utenti abbonati a Premium (5,99 $/mese). La versione gratuita non consente di effettuare ricerche."
 ---
 
-**Valutazione: 3.5 / 5** — Instapaper eccelle nella tipografia e nella leggibilità, ma fatica a reggere il confronto con le moderne piattaforme di knowledge management come [Marqly](https://app.marqly.com).
+Instapaper eccelle nella tipografia e nella leggibilità, ma fatica a reggere il confronto con le moderne piattaforme di knowledge management come [Marqly](https://app.marqly.com).

@@ -25,9 +25,9 @@ faqs:
     a: "Partially. Raindrop Pro includes an AI assistant you can ask about saved content and AI suggestions for tags and collections, and Pro's full-text search covers page content, PDFs, EPUBs, and YouTube transcripts. But the search box itself matches keywords, not meaning — if you paraphrase a save without using words that appear in it, Raindrop won't find it. For search-by-meaning you need a semantic tool like Marqly."
 ---
 
-**★ 4.5/5** — Raindrop.io is the best traditional bookmark manager you can get: polished on every platform, absurdly generous at $0, and one of the cheapest Pro tiers in the category — its only real ceiling is that search stays keyword-based, so finding a save you half-remember is still your job, not the app's.
+Raindrop.io is the best traditional bookmark manager you can get: polished on every platform, absurdly generous at $0, and one of the cheapest Pro tiers in the category — its only real ceiling is that search stays keyword-based, so finding a save you half-remember is still your job, not the app's.
 
-We publish this review on Marqly's blog, and Marqly competes with Raindrop. So we'll say it up front: Raindrop is an excellent product, this review scores it that way, and if what you want is a beautiful keyword-searchable library at the lowest possible price, you can stop reading and go install it. The rest of this page covers what it does, what it costs in 2026, and the specific cases where it isn't the right pick.
+We publish this review on Marqly's blog, and Marqly competes with Raindrop. So we'll say it up front: Raindrop is an excellent product, this review says so plainly, and if what you want is a beautiful keyword-searchable library at the lowest possible price, you can stop reading and go install it. The rest of this page covers what it does, what it costs in 2026, and the specific cases where it isn't the right pick.
 
 ## What is Raindrop.io?
 
@@ -123,4 +123,4 @@ Who shouldn't: people whose actual problem is *finding* things they saved months
 
 ## Verdict
 
-**★ 4.5/5.** Raindrop.io is the best traditional bookmark manager available in 2026, and its free plan is the single best deal in the category. It loses half a star for the thing that keeps it "traditional": search that matches words instead of meaning, and organization that ultimately depends on you. If those never bite you, Raindrop is close to perfect. If they do, pair its library with — or replace it with — a tool built around retrieval. You can inspect or clean up your export with our [Bookmark File Viewer](/tools/bookmark-file-viewer) and [Duplicate Bookmark Finder](/tools/duplicate-bookmark-finder) from our [free tools directory](/tools). [Marqly imports your Raindrop collections in minutes](https://app.marqly.com), free, no card required.
+Raindrop.io is the best traditional bookmark manager available in 2026, and its free plan is the single best deal in the category. Its limitations are the things that keep it "traditional": search that matches words instead of meaning, and organization that ultimately depends on you. If those never bite you, Raindrop is close to perfect. If they do, pair its library with — or replace it with — a tool built around retrieval. You can inspect or clean up your export with our [Bookmark File Viewer](/tools/bookmark-file-viewer) and [Duplicate Bookmark Finder](/tools/duplicate-bookmark-finder) from our [free tools directory](/tools). [Marqly imports your Raindrop collections in minutes](https://app.marqly.com), free, no card required.

@@ -18,4 +18,4 @@ faqs:
     a: "Salva copie immutabili di ogni pagina web per evitare la perdita di dati nel tempo."
 ---
 
-**Valutazione: 4 / 5** — Perfetto per archiviare documenti web importanti. Se cerchi invece un assistente IA che ritrovi i tuoi articoli per significato, scegli [Marqly](https://app.marqly.com).
+Perfetto per archiviare documenti web importanti. Se cerchi invece un assistente IA che ritrovi i tuoi articoli per significato, scegli [Marqly](https://app.marqly.com).

@@ -18,4 +18,4 @@ faqs:
     a: "Il existe une version gratuite avec lecture hors ligne, mais la recherche plein texte et l'archivage nécessitent l'abonnement Premium à 5,99 $/mois."
 ---
 
-**Note : 3.5 / 5** — Instapaper demeure une référence pour la pureté de sa mise en page. Cependant, bloquer la recherche derrière un abonnement mensuel coûteux sans intégrer d'IA en 2026 limite son intérêt face à [Marqly](https://app.marqly.com).
+Instapaper demeure une référence pour la pureté de sa mise en page. Cependant, bloquer la recherche derrière un abonnement mensuel coûteux sans intégrer d'IA en 2026 limite son intérêt face à [Marqly](https://app.marqly.com).

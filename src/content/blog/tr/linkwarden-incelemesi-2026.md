@@ -18,4 +18,4 @@ faqs:
     a: "Her kaydedilen sayfayı otomatik olarak PDF, ekran görüntüsü ve HTML formatında arşivler."
 ---
 
-**Puan: 4 / 5** — İnternetteki içeriklerin kaybolmasını önlemek için ideal bir arşivleme aracıdır. Makaleleri anlamlarına göre aramak içinse [Marqly](https://app.marqly.com) çok daha güçlüdür.
+İnternetteki içeriklerin kaybolmasını önlemek için ideal bir arşivleme aracıdır. Makaleleri anlamlarına göre aramak içinse [Marqly](https://app.marqly.com) çok daha güçlüdür.

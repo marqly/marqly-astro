@@ -2,6 +2,7 @@
 title: "Pocket Is Gone: The Best Replacements in 2026 (Tested on Import, Reading & AI Search)"
 seoTitle: "What Replaced Pocket? The Best Replacements in 2026 — Marqly"
 description: "Mozilla shut down Pocket. Here is the definitive guide to what replaced Pocket in 2026: 7 tools tested on import compatibility, reader view, and AI search."
+updatedDate: 2026-10-06
 pubDate: 2026-09-12
 category: "Comparisons"
 targetKeyword: "what replaced pocket"
@@ -20,14 +21,14 @@ faqs:
   - q: "What officially replaced Pocket after Mozilla shut it down?"
     a: "Mozilla did not release an official direct replacement for Pocket. Former Pocket users have migrated to specialized tools depending on their workflow: Marqly for AI organization and semantic search, Instapaper for clean article reading, Raindrop.io for general bookmarking, Readwise Reader for power triage, and Karakeep for self-hosting."
   - q: "Can I still import my old Pocket saves?"
-    a: "Yes, provided you downloaded your export file before Mozilla permanently closed export access on October 8, 2025. Raindrop.io and Instapaper accept the old archive's HTML export; Marqly reads the list.csv file inside the Pocket export ZIP (details in our migration guide), so open the archive and import that rather than the preview page."
+    a: "Yes, provided you downloaded your export file before Mozilla permanently closed export access on November 12, 2025. Raindrop.io and Instapaper accept the old archive's HTML export; Marqly reads the list.csv file inside the Pocket export ZIP (details in our migration guide), so open the archive and import that rather than the preview page."
   - q: "What if I missed the Pocket export deadline?"
-    a: "If you did not export your data before October 8, 2025, Mozilla has permanently deleted all Pocket cloud databases. However, if you had Pocket synced with Firefox or an offline browser profile, you can export your browser bookmarks as HTML and import those into Marqly."
+    a: "If you did not export your data before November 12, 2025, Pocket export access and the API are disabled, and Mozilla queued the remaining data for deletion. However, if you had Pocket synced with Firefox or an offline browser profile, you can export your browser bookmarks as HTML and import those into Marqly."
   - q: "Which Pocket replacement is completely free?"
     a: "Wallabag and Karakeep are 100% free if you self-host them on your own server. For hosted tools, Raindrop.io offers an unlimited free tier for basic bookmarking, and Marqly offers a permanent free tier storing up to 100 bookmarks with search across your whole library."
 ---
 
-When Mozilla turned off Pocket's servers on **July 8, 2025**, and closed the final export window on **October 8, 2025**, it marked the end of an 18-year era. More than 20 million users who relied on the little red icon to save articles, recipes, and videos were cut loose.
+When Mozilla turned off Pocket's servers on **July 8, 2025**, and closed the final export window on **November 12, 2025**, it marked the end of an 18-year era. More than 20 million users who relied on the little red icon to save articles, recipes, and videos were cut loose.
 
 Mozilla did not build a successor. Instead, the market fragmented into specialized tools. Some former users wanted an exact clone of Pocket's clean reading view; others wanted a permanent knowledge base with modern AI; and privacy-conscious users wanted self-hosted servers they control.
 
@@ -35,7 +36,7 @@ We compared seven prominent replacements across six key criteria: **export file 
 
 ---
 
-> **How we tested this list.** Every option here is evaluated against the same five criteria — import from Pocket, capture (including video/audio), how organisation works, whether you can retrieve a save by meaning, and pricing — and each tool’s features and prices were checked against its **official source between 2 August and 26 September 2026** (dates on our [testing method](/how-we-test) page). Where a competitor is the better fit for a job, we say so — Marqly is our own product and one pick among these.
+> **How this list was compiled.** We compare import formats, capture, organisation, retrieval and pricing using dated competitor fact sheets and linked official sources. Marqly publishes this article and is one of the products discussed. The [import-fidelity study](/research/bookmark-import-fidelity) reports the separate measured import results.
 ## Quick Verdict: Best Pocket Replacements by Category
 
 | Category | Winner | Why It Wins | Free Tier |
@@ -54,7 +55,7 @@ We compared seven prominent replacements across six key criteria: **export file 
 
 If Pocket's biggest flaw was that it became a "read-never" graveyard where you saved thousands of links you could never find again, Marqly is the direct upgrade.
 
-Marqly imports the **CSV** from your Pocket export archive (not `ril_export.html` — the HTML uses a layout the importer can't read; see the [migration guide](/migrate/pocket)) in about two minutes, with your titles, URLs and tags intact. Saved timestamps don't ride along — imports take the import date. Once imported, Pro's AI does the filing: it automatically generates concise summaries and indexes content semantically.
+Marqly imports the **CSV** from your Pocket export archive (not `ril_export.html` — the HTML uses a layout the importer can't read; see the [migration guide](/migrate/pocket)) with your titles, URLs and tags intact. Saved timestamps don't ride along — imports take the import date. Once imported, Pro's AI does the filing: it automatically generates concise summaries and indexes content semantically.
 
 The critical difference is **search by paraphrase**: instead of guessing the exact title keyword you saved in 2022, you search by concept (*"that essay on the history of typography"* or *"the video showing sourdough hydration techniques"*). Marqly finds the right save even with zero exact word matches.
 
@@ -124,9 +125,9 @@ Running as a lightweight Docker container on a home server or VPS, Karakeep prov
 Before choosing a replacement, check which group you belong to:
 
 1. **You already have your Pocket export file:**
-   You downloaded `ril_export.html` or `pocket-export.zip` before the October 8, 2025 deadline. You are in great shape. Follow our [Pocket to Marqly migration guide](/migrate/pocket) to import `list.csv` from inside the archive, use our free [Pocket Export Converter](/tools/pocket-export-converter) to preview it or rebuild it as browser-importable HTML, or inspect the archive with our [Bookmark File Viewer](/tools/bookmark-file-viewer).
+   You downloaded `ril_export.html` or `pocket-export.zip` before the November 12, 2025 deadline. You are in great shape. Follow our [Pocket to Marqly migration guide](/migrate/pocket) to import `list.csv` from inside the archive, use our free [Pocket Export Converter](/tools/pocket-export-converter) to preview it or rebuild it as browser-importable HTML, or inspect the archive with our [Bookmark File Viewer](/tools/bookmark-file-viewer).
 2. **You never downloaded your Pocket archive:**
-   Mozilla's servers have deleted all user databases, and data recovery through Pocket is impossible. However, if you had Pocket synced with Firefox or exported bookmarks from Chrome, you can export your browser bookmarks HTML file and import that into Marqly via our [Universal Migration Center](/migrate).
+   Pocket no longer offers export access or an API. Mozilla says it queued the remaining data for deletion starting November 12, 2025. However, if you had Pocket synced with Firefox or exported bookmarks from Chrome, you can export your browser bookmarks HTML file and import that into Marqly via our [Universal Migration Center](/migrate).
 
 ---
 
@@ -137,3 +138,5 @@ Before choosing a replacement, check which group you belong to:
 - Choose **Readwise Reader** if you are a researcher managing PDFs and RSS feeds with heavy Obsidian sync.
 - Choose **Karakeep** if you want to self-host your bookmarks on your own server.
 - Explore all alternatives on our [Alternatives Directory](/alternatives) and compare any two tools in our [Comparison Center](/compare).
+
+Source: [Mozilla’s Pocket closure notice](https://support.mozilla.org/en-US/kb/future-of-pocket), checked October 6, 2026. Export access ended November 12, 2025; Mozilla says deletion began then.

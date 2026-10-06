@@ -2,10 +2,10 @@
 a: pocket
 b: wallabag
 verdict: "Wallabag — Pocket's July 2025 shutdown settled this one, and Wallabag is the ownership-first answer: open source since 2013, self-hostable for free or hosted at €11/year, with a Pocket importer built in. It can never disappear the way Pocket did."
-updatedDate: 2026-08-02
+updatedDate: 2026-10-06
 faqs:
   - q: "Can Wallabag import my old Pocket saves?"
-    a: "Yes. Wallabag ships a Pocket importer alongside importers for Instapaper, Readability, and browser bookmark HTML files. You'll need the export ZIP you downloaded before Mozilla's October 8, 2025 deadline — Pocket's servers and any unexported data are gone. Once imported, articles get Wallabag's clean reading view, tags, offline mobile apps, and ePub/PDF export."
+    a: "Yes. Wallabag ships a Pocket importer alongside importers for Instapaper, Readability, and browser bookmark HTML files. You'll need the export ZIP you downloaded before Mozilla's November 12, 2025 deadline — Pocket export access is disabled, and Mozilla says deletion of unexported data began then (see [Mozilla’s Pocket closure notice](https://support.mozilla.org/en-US/kb/future-of-pocket)). Once imported, articles get Wallabag's clean reading view, tags, offline mobile apps, and ePub/PDF export."
   - q: "Is Wallabag free like Pocket was?"
     a: "Freer, in a sense. Self-hosting costs nothing — Wallabag is open source — and the official hosted service at wallabag.it is €11/year with a 14-day trial and every feature included. Pocket's free tier was genuinely free but paywalled full-text search and suggested tags behind Premium; Wallabag has no feature gating on any plan."
   - q: "Why is Wallabag considered shutdown-proof?"
@@ -16,7 +16,7 @@ Both of these are Pocket-style reading queues at heart — save an article, get 
 
 **Choose Pocket if**
 
-- Not an option — the July 2025 shutdown was total, and data unexported by October 8, 2025 is unrecoverable.
+- Not an option — the July 2025 shutdown was total, and data unexported by November 12, 2025 is unrecoverable.
 - The comparison exists only to help its former users pick a successor.
 
 **Choose Wallabag if**

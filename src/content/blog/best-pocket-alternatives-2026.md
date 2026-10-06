@@ -3,7 +3,7 @@ title: "The 8 Best Pocket Alternatives in 2026 (After Mozilla Shut It Down)"
 seoTitle: "8 Best Pocket Alternatives in 2026 (Tested) — Marqly"
 description: "Pocket shut down in 2025. Here are the 8 best read-it-later and bookmark alternatives for 2026, compared on AI search, import, pricing, and apps."
 pubDate: 2026-05-12
-updatedDate: 2026-06-23
+updatedDate: 2026-10-06
 category: "Comparisons"
 targetKeyword: "pocket alternatives"
 tags:
@@ -17,13 +17,13 @@ faqs:
   - q: "What is the best Pocket alternative in 2026?"
     a: "Marqly is the best Pocket alternative for most people in 2026: it imports your Pocket library in minutes and adds the semantic AI search Pocket never had, so you find saves by meaning instead of keywords. Raindrop.io is the best free option, and Readwise Reader is best for power readers who highlight."
   - q: "Can I still import my Pocket data after the shutdown?"
-    a: "Yes. If you exported your Pocket data before or during the July 2025 shutdown, most modern tools — including Marqly, Raindrop, and Instapaper — import the CSV from that archive, preserving your saved links and tags. Marqly imports the CSV in about two minutes (its importer reads the CSV, not the HTML preview file — see the [tested matrix](/migrate/pocket))."
+    a: "Yes. If you exported your Pocket data before or during the July 2025 shutdown, most modern tools — including Marqly, Raindrop, and Instapaper — import the CSV from that archive, preserving your saved links and tags. Marqly imports list.csv from the archive (its importer reads the CSV, not the HTML preview file — see the [tested matrix](/migrate/pocket))."
   - q: "Is there a free Pocket alternative?"
     a: "Yes. Raindrop.io has the most generous free tier for general saving, Instapaper offers a free minimalist reader, and Marqly's free plan stores up to 100 bookmarks with search across the whole library — its AI layer (auto-tagging, summaries, semantic search) is part of Pro. Wallabag is completely free if you self-host it."
   - q: "What made Pocket different from a normal bookmark manager?"
     a: "Pocket was a read-it-later app: it saved articles into a clean, distraction-free reader for later, rather than just storing links. The best 2026 alternatives keep that reader experience and add AI summaries and semantic search on top."
   - q: "When did Pocket actually shut down?"
-    a: "Mozilla shut down Pocket on July 8, 2025, and the official export window closed on October 8, 2025 (per Mozilla's notice at [getpocket.com](https://getpocket.com), still live as of October 5, 2026). Mozilla has permanently deleted all remaining cloud data. If you already have your exported archive, modern tools like Marqly import the CSV inside it."
+    a: "Mozilla shut down Pocket on July 8, 2025, and the official export window closed on November 12, 2025 (per [Mozilla’s shutdown notice](https://support.mozilla.org/en-US/kb/future-of-pocket), checked October 6, 2026). Mozilla says remaining data was queued for permanent deletion from that date. If you already have your exported archive, modern tools like Marqly import the CSV inside it."
   - q: "What does a Pocket export file actually contain?"
     a: "A Pocket export is essentially your list of saved links plus metadata — URLs, titles, tags, and timestamps — not the full article text. When you import it into a new tool, the app re-saves those links; the reading experience is rebuilt from the live page, so it's best to import while the original articles are still online."
   - q: "Why pick an AI-search tool over a like-for-like Pocket clone?"
@@ -35,39 +35,39 @@ ogImage: "https://www.marqly.com/og/best-pocket-alternatives-2026.png"
 
 **The best Pocket alternative in 2026 is Marqly for most people:** it imports your Pocket export in minutes and adds semantic AI search, so you find saves by describing them instead of guessing keywords. Pick Raindrop.io if you want the best free option, and Readwise Reader if you're a power reader who highlights everything.
 
-When Mozilla shut down Pocket on July 8, 2025, it stranded more than 20 million people who had collectively saved over 2 billion articles. If you were one of them, you've spent the months since hunting for something that does what Pocket did — and ideally does it better. (If you already downloaded your Pocket export, here's how to [migrate your Pocket data to Marqly](/migrate/pocket).)
+Mozilla shut down Pocket on July 8, 2025. If you were one of them, you've spent the months since hunting for something that does what Pocket did — and ideally does it better. (If you already downloaded your Pocket export, here's how to [migrate your Pocket data to Marqly](/migrate/pocket).)
 
 The good news: the read-it-later category didn't die with Pocket. It grew up. The best tools in 2026 don't just store links — they use AI to summarize what you save, organize it automatically, and let you *search by meaning* instead of digging through folders. The "bookmark" became a searchable, intelligent knowledge base.
 
 Below are the eight best Pocket alternatives in 2026, tested and compared on the things that actually matter: how well they import your old Pocket library, whether they have a distraction-free reader, how good their search is, and what they cost.
 
-> **How we tested this list.** Every option here is evaluated against the same five criteria — import from Pocket, capture (including video/audio), how organisation works, whether you can retrieve a save by meaning, and pricing — and each tool’s features and prices were checked against its **official source between 2 August and 26 September 2026** (dates on our [testing method](/how-we-test) page). Where a competitor is the better fit for a job, we say so — Marqly is our own product and one pick among these.
+> **How this list was compiled.** We compare import formats, capture, organisation, retrieval and pricing using dated competitor fact sheets and linked official sources. Marqly publishes this article and is one of the products discussed. The [import-fidelity study](/research/bookmark-import-fidelity) reports the separate measured import results.
 ## What is the Pocket shutdown timeline?
 
-Mozilla announced Pocket's shutdown in May 2025 and officially turned off servers on July 8, 2025. It provided an export window that ran through October 8, 2025. **All remaining Pocket data was permanently deleted after October 8, 2025.**
+Mozilla announced Pocket's shutdown in May 2025 and officially turned off servers on July 8, 2025. It provided an export window that ran through November 12, 2025. **Mozilla says exports closed and remaining data was queued for deletion on November 12, 2025.**
 
 Here are the facts:
 
 1. **July 8, 2025 — shutdown.** Mozilla ended Pocket service and turned off new saves. The apps and extensions stopped syncing.
-2. **October 8, 2025 — export window closed.** The export window closed permanently, and Mozilla purged user databases.
+2. **November 12, 2025 — export window closed.** The export window closed permanently, and Mozilla began deleting accounts and user data.
 3. **Today — migration of existing exports.** If you already have your downloaded Pocket export archive, modern tools can import the CSV inside it. If you never exported, you're starting fresh with a new tool.
 
 ## How do the best Pocket alternatives compare?
 
-The Pocket alternatives split into three groups: AI-native tools that search by meaning (Marqly, mymind), polished classic read-it-later apps that don't (Raindrop.io, Instapaper, Readwise Reader, Matter), and self-hosted or hub options for people who want control (Wallabag, Notion). Note that mymind deliberately does not support bulk import. Here's the honest side-by-side.
+The Pocket alternatives serve different jobs: AI-assisted retrieval (Marqly, mymind), link organisation (Raindrop.io), reading workflows (Instapaper, Readwise Reader, Matter), and self-hosting or existing workspaces (Wallabag, Notion). Note that mymind deliberately does not support bulk import. Here's the honest side-by-side.
 
 | Tool | Best for | Free tier | AI / semantic search | Imports Pocket | Price |
 |---|---|---|---|---|---|
-| **Marqly** | AI search + second brain | Yes (100 saves, whole library searchable) | ✅ Semantic (Pro) | ✅ Yes | Free; Pro $72/yr (~$6/mo) or $9/mo |
+| **Marqly** | AI search + second brain | 100 saves; keyword search | ✅ Semantic (Pro) | ✅ Yes | Free; Pro $72/yr (~$6/mo) or $9/mo |
 | Raindrop.io | Free general-purpose saving | Generous | ❌ Keyword only | ✅ Yes | Free; Pro ~$3/mo |
-| Instapaper | Minimalist reading | Yes | ❌ Keyword only | ✅ Yes | Free; Premium ~$3/mo |
-| Readwise Reader | Power readers + highlights | No (trial) | ✅ Yes | ✅ Yes | ~$10–12/mo |
+| Instapaper | Minimalist reading | Yes | Keyword search; Premium AI voices | ✅ Yes | Free; Premium $5.99/mo or $59.99/yr |
+| Readwise Reader | Power readers + highlights | 30-day trial | Full-text search + AI reading tools | ✅ Yes | $9.99/mo billed annually; $12.99 monthly |
 | Wallabag | Self-hosters / open source | Free (self-host) | ❌ Basic | ✅ Yes | Free self-host; low-cost hosted |
 | Matter | Reading + listening | Limited | Partial | ✅ Yes | ~$8/mo |
 | mymind | Visual, zero-organizing | Guest plan (100 cards) | ✅ Yes | ❌ No (no bulk import) | From $7.99/mo |
 | Notion Web Clipper | Existing Notion users | Yes | ❌ Keyword only | ✅ Via import | Free; paid from ~$10/mo |
 
-A note on the table: "imports Pocket" means the tool accepts a standard Pocket export file and re-saves those links into your new library. Treat the prices as ballpark — vendors change them, and most read-it-later apps are cheaper billed annually.
+A note on the table: "imports Pocket" means the tool accepts a standard Pocket export file and re-saves those links into your new library. Prices follow dated competitor facts; [Instapaper Premium](https://www.instapaper.com/premium) and [Readwise pricing](https://readwise.io/pricing) were checked October 6, 2026.
 
 ## 1. Marqly — best for AI search and building a second brain
 
@@ -99,7 +99,7 @@ Where it stops short of the 2026 frontier: search is **keyword-based**, not sema
 
 Reader, from the Readwise team, is the premium choice for serious readers. It handles articles, PDFs, email newsletters, and ebooks, with best-in-class highlighting and a spaced-repetition review system that resurfaces your highlights over time. It has AI features too.
 
-The catch is price and complexity: at roughly **$10–12/month** with no permanent free tier, it's the most expensive option here, and it's built for heavy knowledge workers rather than casual savers.
+The catch is price and complexity: at **$9.99/month billed annually or $12.99/month billed monthly** with no permanent free tier, it's the most expensive option here, and it's built for heavy knowledge workers rather than casual savers.
 
 **Who it's best for:** researchers, students, and writers who highlight obsessively and want those highlights resurfaced over time. If you're choosing between Reader and an AI-search-first tool, the trade-off is depth of reading versus speed of retrieval — see [Readwise Reader vs Marqly](/compare/marqly-vs-readwise-reader) for the full breakdown. Skip Reader if you just want to save and find articles; it's more app than you need.
 
@@ -123,12 +123,12 @@ That simplicity is also the limit — no AI, no semantic search, and development
 
 mymind's pitch is "no organizing, ever." You save things — articles, images, quotes, products — and its AI tags and surfaces them automatically. It's beautiful and calm, with a strong visual emphasis.
 
-It's also opinionated: there are no folders or collections by design, which some Pocket users find freeing and others find limiting. No free tier.
+It's also opinionated: there are no folders or collections by design, which some Pocket users find freeing and others find limiting. A free guest account is limited to 100 cards.
 
 **Who it's best for:** visual thinkers and creatives who save a mix of images, quotes, products, and links and never want to file anything. If you bounced off Pocket because organizing felt like a chore, mymind's "just save it" philosophy clicks. It's weaker if you're reading-first — it's a memory tool more than a distraction-free reader.
 
 - **Pros:** Gorgeous, AI auto-organization, great for visual thinkers.
-- **Cons:** No folders by design, no free tier, less article-reading focused.
+- **Cons:** No folders by design, guest account limited to 100 cards, less article-reading focused.
 - **Price:** ~$8/mo.
 
 ## 6. Matter — best for reading + listening
@@ -176,7 +176,7 @@ Moving off Pocket is a three-part job: get your data out of Pocket as an export 
 
 Here's the general path that works for every tool in this guide:
 
-1. **Find or create your Pocket export.** If you exported during the 2025 shutdown window, that file is your source of truth — check your Downloads folder and old emails. Pocket's data was permanently deleted on November 12, 2025, so there's no re-exporting now; you're working from whatever file you saved. Follow our dedicated [Pocket to Marqly Migration Guide](/migrate/pocket) or read our [export-and-migrate walkthrough](/blog/how-to-export-migrate-pocket-data). If your file is a CSV or needs inspection, use our free [Pocket Export Converter](/tools/pocket-export-converter) or [Bookmark File Viewer](/tools/bookmark-file-viewer) from our [free tools directory](/tools).
+1. **Find or create your Pocket export.** If you exported during the 2025 shutdown window, that file is your source of truth — check your Downloads folder and old emails. Pocket’s export service closed on November 12, 2025, so there is no re-exporting now; you're working from whatever file you saved. Follow our dedicated [Pocket to Marqly Migration Guide](/migrate/pocket) or read our [export-and-migrate walkthrough](/blog/how-to-export-migrate-pocket-data). If your file is a CSV or needs inspection, use our free [Pocket Export Converter](/tools/pocket-export-converter) or [Bookmark File Viewer](/tools/bookmark-file-viewer) from our [free tools directory](/tools).
 2. **Pick your destination tool.** Use the table above. The honest shortcut: if "I can never find what I saved" is your pain, go AI-search-first; if you just want a reliable reader, a classic app is fine.
 3. **Run the import.** In your new tool, open its import or settings screen and upload the Pocket export file. The app reads your list of saved links and re-saves them into your library. Don't expect the full reading view to transfer — the export carries links and metadata, and the app rebuilds each article from the live page, so older saves to dead URLs may not render.
 4. **Verify and tidy up.** Spot-check that your saves came across and that tags landed where you expect. This is the moment to let an AI-native tool earn its keep — tools like Marqly auto-tag on import, so a messy Pocket pile arrives sorted instead of as one giant untagged list.

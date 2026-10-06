@@ -18,4 +18,4 @@ faqs:
     a: "Oui, grâce à la sauvegarde automatique en PDF, capture d'écran et HTML de chaque page."
 ---
 
-**Note : 4 / 5** — Une référence absolue pour archiver le web et collaborer en équipe. Pour chercher par le sens et résumer vos lectures avec l'IA, [Marqly](https://app.marqly.com) reste plus performant.
+Une référence absolue pour archiver le web et collaborer en équipe. Pour chercher par le sens et résumer vos lectures avec l'IA, [Marqly](https://app.marqly.com) reste plus performant.

@@ -3,7 +3,7 @@ title: "Readwise Reader Testbericht 2026: Das Profi-Werkzeug für alle, die alle
 seoTitle: "Readwise Reader Test 2026 — Preis & Fazit | Marqly"
 description: "Readwise Reader im Test 2026: verifizierte Kosten, Ghostreader-KI und Highlight-Sync nach Obsidian & Notion — für wen sich das Profi-Tool lohnt."
 pubDate: 2026-08-02
-updatedDate: 2026-10-05
+updatedDate: 2026-10-06
 category: "Testberichte"
 targetKeyword: "readwise reader testbericht 2026"
 tags:
@@ -19,15 +19,15 @@ faqs:
   - q: "Ist Readwise Reader sein Geld wert?"
     a: "Für Vielleser, die hervorheben und Wiederlesenes festhalten wollen: ja — keine andere App kombiniert einen universellen Lese-Eingang (Artikel, RSS, Newsletter, PDFs, EPUBs, YouTube) mit Hervorhebungen und Spaced-Review so gut. Mit 9,99 $/Monat bei jährlicher Abrechnung ist sie das teuerste Tool der Kategorie; Gelegenheits-Speicherer zahlen hier für eine Tiefe, die sie nie nutzen."
   - q: "Ist Readwise Reader kostenlos?"
-    a: "Nein. Es gibt 30 Tage kostenlosen Test (Kreditkarte nötig, automatische Abrechnung ohne Kündigung), aber keinen dauerhaften Gratis-Plan. Reader ist nur als Teil des vollen Readwise-Abos erhältlich: 9,99 $/Monat jährlich (119,88 $/Jahr) oder 12,99 $/Monat monatlich. Studierende und Wissenschaftler erhalten 50 % Rabatt, wenn sie Readwise vor dem Abschluss kontaktieren."
+    a: "Nein. Es gibt kostenlosen 30-Tage-Test, aber keinen dauerhaften Gratis-Plan. Reader ist nur als Teil des vollen Readwise-Abos erhältlich: 9,99 $/Monat jährlich (119,88 $/Jahr) oder 12,99 $/Monat monatlich. Studierende und Wissenschaftler erhalten 50 % Rabatt, wenn sie Readwise vor dem Abschluss kontaktieren."
   - q: "Was sind die besten Readwise-Reader-Alternativen?"
-    a: "Marqly, wenn Sie KI-zuerst-Retrieval wollen (semantische Suche, Auto-Tags, Zusammenfassungen) für 72 $/Jahr statt 119,88. Instapaper, wenn einfach nur eine ruhige Leseliste für weniger Geld gesucht ist. Raindrop.io für eine kostenlose Allzweck-Lesezeichen-Bibliothek. Karakeep oder Linkwarden, wenn Open Source und Self-Hosting gewünscht ist."
+    a: "Marqly, wenn Sie Marqly Pro mit semantischer Suche, Auto-Tags und Zusammenfassungen wollen für 72 $/Jahr statt 119,88. Instapaper, wenn einfach nur eine ruhige Leseliste für weniger Geld gesucht ist. Raindrop.io für eine kostenlose Allzweck-Lesezeichen-Bibliothek. Karakeep oder Linkwarden, wenn Open Source und Self-Hosting gewünscht ist."
   - q: "Gibt es Reader ohne Readwise-Abo?"
     a: "Nein. Reader wird nicht einzeln verkauft — es ist ins volle Readwise-Paket mit 9,99 $/Monat bei jährlicher Abrechnung eingebunden. Der günstigere Lite-Plan (5,59 $/Monat jährlich) umfasst nur den ursprünglichen Readwise-Highlight-Review-Dienst und enthält die Reader-App nicht."
 ogImage: "https://www.marqly.com/og/readwise-reader-review-2026.png"
 ---
 
-**★ 4,5/5** — Readwise Reader ist die leistungsfähigste Lese-App, die je ausgeliefert wurde: ein Eingang für Artikel, Feeds, Newsletter, PDFs, EPUBs und YouTube, mit dem besten Highlight-Workflow der Branche — und mit 119,88 $/Jahr wird sie korrekt bepreist: als Profi-Werkzeug für Menschen, deren Job das Lesen ist.
+Readwise Reader ist die leistungsfähigste Lese-App, die je ausgeliefert wurde: ein Eingang für Artikel, Feeds, Newsletter, PDFs, EPUBs und YouTube, mit dem besten Highlight-Workflow der Branche — und mit 119,88 $/Jahr wird sie korrekt bepreist: als Profi-Werkzeug für Menschen, deren Job das Lesen ist.
 
 Zuerst die Transparenz: Diese Rezension lebt im Blog von Marqly, einem Wettbewerber. Reader ist außerdem, offen gesagt, eines der besten Produkte dieses Feldes — so zu tun, als wäre das anders, würde den Rest dieses Blogs unglaubwürdiger machen. Hier ist das ganze Bild.
 
@@ -71,7 +71,7 @@ Verifiziert im August 2026 auf readwise.io:
 | --- | --- | --- |
 | **Full (inkl. Reader)** | 9,99 $/Monat jährlich (119,88 $/Jahr) oder 12,99 $/Monat monatlich | Reader-App + vollständiger Readwise-Highlight-Sync und Review, Early Access für neue Funktionen |
 | **Lite** | 5,59 $/Monat jährlich | Nur Readwise-Highlight-Review — **ohne Reader-App** |
-| **Testphase** | 30 Tage kostenlos | Voller Zugang; Karte wird automatisch belastet, wenn nicht gekündigt |
+| **Testphase** | 30 Tage kostenlos | Voller Zugang |
 
 Zwei Fußnoten, die zählen. Erstens: Reader wird nicht einzeln verkauft — wer die Lese-App will, kauft das ganze Ökosystem. Zweitens: Studierende und Wissenschaftler erhalten 50 % Rabatt (rund 4,99 $/Monat bei jährlicher Zahlung), wenn sie Readwise vor dem Abschluss per E-Mail schreiben — der größte legitime Rabatt dieser Kategorie.
 
@@ -97,14 +97,14 @@ Zwei Fußnoten, die zählen. Erstens: Reader wird nicht einzeln verkauft — wer
 | | Readwise Reader | Marqly |
 | --- | --- | --- |
 | Preis | 119,88 $/Jahr (jährlich) oder 12,99 $/Monat | **72 $/Jahr (≈ 6 $/Monat) oder 9 $/Monat** |
-| Gratis-Plan | Nur 30-Tage-Test | **Ja, ohne Kreditkarte** |
+| Gratis-Plan | Nur 30-Tage-Test | **Bis zu 100 Saves, Keyword-Suche** |
 | Hervorhebungen & Review | **Klasse für sich + Spaced Repetition** | 6-Farb-Markierer, bleibt auf lebenden Seiten |
 | RSS + Newsletter-Eingang | **Ja** | Nein |
 | PDFs / EPUBs | **Ja, nativ lesbar** | Seiten als PDF speichern; kein EPUB |
 | Offline-Lesen | **Ja (mobil)** | Nein |
 | Android | **Ja** | Nein (Web-App im Browser) |
-| Semantische Suche über die Bibliothek | Teilweise (Volltext + Filter) | **Kernfunktion — Suche nach Bedeutung** |
-| Auto-Tags | Begrenzt | **Automatisch bei jedem Speichern** |
+| Semantische Suche über die Bibliothek | Teilweise (Volltext + Filter) | **Pro — Suche nach Bedeutung** |
+| Auto-Tags | Begrenzt | **Pro — automatisch** |
 | KI bei YouTube | Transkripte in der App | **Zusammenfassung, Chat, Transkript direkt auf der Wiedergabeseite** |
 | Lernkurve | Steil | Minimal |
 
@@ -123,4 +123,4 @@ Für wen nicht: Gelegenheits-Speicherer, Budget-first-Nutzer und Ex-Pocket-Nutze
 
 ## Fazit
 
-**★ 4,5/5.** Readwise Reader ist das beste Produkt der Read-it-Later-Kategorie und das teuerste — und beide Fakten sind derselbe Fakt: Es ist ein Profi-Werkzeug, tief gebaut, entsprechend bepreist. Einen halben Stern verliert es nur für das Fehlen jedes Gratis-Plans und für ein Retrieval-Modell, das voraussetzt, dass Sie noch wissen, was Sie suchen. Wenn Lesen Ihr Handwerk ist, abonnieren Sie ohne schlechtes Gewissen. Wenn Ihr echtes Problem ein wachsender Save-Haufen ist, in dem Sie nichts wiederfinden, ist das ein anderes, kleineres Problem mit einer billigeren Antwort — importieren Sie Ihre Saves über unser [Migrationszentrum](/migrate) (oder reinigen Sie Text mit unserem [HTML-zu-Markdown-Tool](/tools/html-to-markdown) aus dem [Tools-Verzeichnis](/tools)), [starten Sie kostenlos mit Marqly](https://app.marqly.com) und durchsuchen Sie Ihre Bibliothek nach dem, woran Sie sich erinnern.
+Readwise Reader ist das beste Produkt der Read-it-Later-Kategorie und das teuerste — und beide Fakten sind derselbe Fakt: Es ist ein Profi-Werkzeug, tief gebaut, entsprechend bepreist. Seine Einschränkungen sind das Fehlen jedes Gratis-Plans und ein Retrieval-Modell, das voraussetzt, dass Sie noch wissen, was Sie suchen. Wenn Lesen Ihr Handwerk ist, abonnieren Sie ohne schlechtes Gewissen. Wenn Ihr echtes Problem ein wachsender Save-Haufen ist, in dem Sie nichts wiederfinden, ist das ein anderes, kleineres Problem mit einer billigeren Antwort — importieren Sie Ihre Saves über unser [Migrationszentrum](/migrate) (oder reinigen Sie Text mit unserem [HTML-zu-Markdown-Tool](/tools/html-to-markdown) aus dem [Tools-Verzeichnis](/tools)), [starten Sie kostenlos mit Marqly](https://app.marqly.com) und durchsuchen Sie Ihre Bibliothek nach dem, woran Sie sich erinnern.

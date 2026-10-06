@@ -21,13 +21,13 @@ faqs:
   - q: "Hat Matter KI-Suche?"
     a: "Nein. Es hat Volltextsuche, aber kein automatisches Tagging und keine semantische Suche. KI-Funktionen für Video gibt es dagegen schon."
   - q: "Was importiert meinen Pocket-Export?"
-    a: "Beide. Matter und Marqly lesen den Pocket-Export, sofern du ihn vor Oktober 2025 geladen hast."
+    a: "Beide. Matter und Marqly lesen den Pocket-Export, sofern du ihn vor dem 12. November 2025 (laut [Mozilla-Hinweis](https://support.mozilla.org/en-US/kb/future-of-pocket)) geladen hast."
   - q: "Kann ich beide nutzen?"
     a: "Ja. Matter für das, was du hören oder in Ruhe lesen willst, Marqly als durchsuchbares Archiv für alles andere."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly kostenlos starten"
 ctaSecondaryLabel: "Zu Chrome hinzufügen — kostenlos"
-updatedDate: 2026-09-26
+updatedDate: 2026-10-06
 ---
 
 Matter und Marqly überschneiden sich weniger, als es scheint. Matter will, dass du **konsumierst**, was du speicherst — lesend oder hörend — und macht das besser als fast alle. Marqly geht davon aus, dass du weit mehr speicherst, als du je konsumieren wirst, und konzentriert sich darauf, dass du zurückkommen kannst.

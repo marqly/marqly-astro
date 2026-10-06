@@ -3,7 +3,7 @@ title: "Pocket-Daten exportieren und migrieren in 2026 (Schritt-für-Schritt)"
 seoTitle: "Pocket-Daten exportieren & migrieren (Leitfaden 2026) — Marqly"
 description: "Pocket ist abgeschaltet und Ihre Saves sind in Gefahr. So exportieren Sie Ihre Pocket-Daten und migrieren sie in Minuten zu Marqly — Schritt für Schritt."
 pubDate: 2026-05-08
-updatedDate: 2026-10-05
+updatedDate: 2026-10-06
 category: "Anleitungen"
 targetKeyword: "pocket daten exportieren migrieren"
 tags:
@@ -16,19 +16,19 @@ ctaLabel: "Marqly kostenlos starten"
 lang: "de"
 faqs:
   - q: "Kann ich heute noch Daten direkt aus Pocket exportieren?"
-    a: "Nein. Pocket wurde am 8. Juli 2025 offiziell abgeschaltet, und Mozilla hat das Exportfenster am 8. Oktober 2025 geschlossen und verbliebene Serverdaten dauerhaft gelöscht. Dieser Leitfaden hilft Nutzern, die ihre Exportdatei (.html oder .csv) damals heruntergeladen haben, ihre Saves zu Marqly zu migrieren — oder Saves zurückzuholen, die mit Browser-Lesezeichen synchronisiert waren."
+    a: "Nein. Pocket wurde am 8. Juli 2025 offiziell abgeschaltet, und Mozilla hat das Exportfenster am 12. November 2025 geschlossen und verbliebene Serverdaten dauerhaft gelöscht. Dieser Leitfaden hilft Nutzern, die ihre Exportdatei (.html oder .csv) damals heruntergeladen haben, ihre Saves zu Marqly zu migrieren — oder Saves zurückzuholen, die mit Browser-Lesezeichen synchronisiert waren."
   - q: "Verliere ich meine Tags bei der Migration von Pocket?"
     a: "Nein. Der Pocket-Export enthält Tags, und gute Importeure erhalten sie. Marqly bildet sie automatisch ab, Ihre Saves erscheinen mit Titeln und Tags intakt. Der komplette Import ist für ein paar tausend Einträge meist in unter zwei Minuten fertig. Die ursprünglichen Speicherdaten gehen allerdings verloren — die Einträge bekommen das Importdatum."
   - q: "Brauche ich eine Kreditkarte für die Migration meiner Pocket-Bibliothek?"
     a: "Nein — bei Werkzeugen mit kostenlosem Plan reicht ein Konto ohne Karte. Sie können Ihre komplette Bibliothek importieren und durchstöbern, bevor Sie über eine Zahlung entscheiden. Marqly etwa: kostenloses Konto erstellen, Pocket-Export importieren, alles erkunden — ganz ohne Verpflichtung."
   - q: "Was, wenn ich die Pocket-Export-Frist verpasst habe?"
-    a: "Nach dem 8. Oktober 2025 können Mozilla-Server keinen Export mehr erzeugen. Aber wenn Sie Pocket mit Firefox synchronisiert hatten oder zuvor Browser-Lesezeichen exportiert haben, können Sie diese Browser-HTML-Datei direkt in Marqly importieren."
+    a: "Nach dem 12. November 2025 können Mozilla-Server keinen Export mehr erzeugen. Aber wenn Sie Pocket mit Firefox synchronisiert hatten oder zuvor Browser-Lesezeichen exportiert haben, können Sie diese Browser-HTML-Datei direkt in Marqly importieren."
 heroImage: ../../../assets/blog/how-to-export-migrate-pocket-data.png
 heroAlt: "Anleitung zum Exportieren und Migrieren von Pocket-Daten"
 ogImage: "https://www.marqly.com/og/how-to-export-migrate-pocket-data.png"
 ---
 
-Mozilla hat Pocket am 8. Juli 2025 offiziell abgeschaltet und das Exportfenster am 8. Oktober 2025 geschlossen. Wenn Sie Ihre Exportdatei, bevor die Server offline gingen, heruntergeladen haben, sind Ihre Saves gerettet — es fehlt nur ein modernes Zuhause. Dieser Leitfaden führt Sie durch die Migration Ihres Pocket-Archivs zu Marqly, wo Ihre alten Saves nach Bedeutung durchsuchbar werden.
+Mozilla hat Pocket am 8. Juli 2025 offiziell abgeschaltet und das Exportfenster am 12. November 2025 geschlossen. Wenn Sie Ihre Exportdatei, bevor die Server offline gingen, heruntergeladen haben, sind Ihre Saves gerettet — es fehlt nur ein modernes Zuhause. Dieser Leitfaden führt Sie durch die Migration Ihres Pocket-Archivs zu Marqly, wo Ihre alten Saves nach Bedeutung durchsuchbar werden.
 
 ## Schritt 1: Finden Sie Ihr Pocket-Export-Archiv
 
@@ -36,7 +36,7 @@ Weil Mozillas Export-Endpunkt abgeschaltet ist, arbeiten Sie mit der Sicherungsd
 
 1. Schauen Sie in Ihrem **Download**- oder **Dokumente**-Ordner nach `ril_export.html`, `pocket-export.html` oder einem `pocket-export.zip`-Archiv.
 2. Wenn Sie ein ZIP-Archiv haben, packen Sie es aus — darin liegen Ihre Pocket-Saves im HTML- oder CSV-Format.
-3. Falls Sie Ihr Pocket-Archiv nie vor Oktober 2025 heruntergeladen haben: prüfen Sie, ob Ihre Saves mit den Browser-Lesezeichen synchronisiert waren (z. B. Firefox). Sie können dann Ihre Browser-Lesezeichen als HTML-Datei exportieren und diese stattdessen importieren.
+3. Falls Sie Ihr Pocket-Archiv nie vor dem 12. November 2025 heruntergeladen (siehe [Mozilla-Hinweis](https://support.mozilla.org/en-US/kb/future-of-pocket)) haben: prüfen Sie, ob Ihre Saves mit den Browser-Lesezeichen synchronisiert waren (z. B. Firefox). Sie können dann Ihre Browser-Lesezeichen als HTML-Datei exportieren und diese stattdessen importieren.
 
 > **Datenschutz-Hinweis:** Ihre Pocket-Datei wird sicher verarbeitet. Sie können sie auch offline inspizieren oder konvertieren mit unserem kostenlosen Browser-Werkzeug: dem [Pocket Export Converter](/tools/pocket-export-converter).
 

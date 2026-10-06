@@ -18,4 +18,4 @@ faqs:
     a: "Kaydetme ücretsizdir ancak kütüphanede arama yapmak aylık 5,99 $'lık Premium abonelik gerektirir."
 ---
 
-**Puan: 3.5 / 5** — Instapaper dikkat dağıtmayan mükemmel bir okuma modu sunsa da, arama özelliğini ücret duvarının arkasına koyması ve yapay zeka çağına ayak uyduramaması nedeniyle sınırlı kalmaktadır.
+Instapaper dikkat dağıtmayan mükemmel bir okuma modu sunsa da, arama özelliğini ücret duvarının arkasına koyması ve yapay zeka çağına ayak uyduramaması nedeniyle sınırlı kalmaktadır.

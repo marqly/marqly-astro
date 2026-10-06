@@ -3,7 +3,7 @@ title: "De 8 beste Pocket-alternatieven in 2026 (na de sluiting door Mozilla)"
 seoTitle: "8 Beste Pocket Alternatieven in 2026 (Getest) — Marqly"
 description: "Pocket sloot in 2025 definitief de deuren. Ontdek de 8 beste later-lezen- en bladwijzer-alternatieven voor 2026, vergeleken op AI-zoeken, import, apps en prijzen."
 pubDate: 2026-05-12
-updatedDate: 2026-06-23
+updatedDate: 2026-10-06
 category: "Vergelijkingen"
 targetKeyword: "pocket alternatief"
 tags:
@@ -36,7 +36,7 @@ ogImage: "https://www.marqly.com/og/best-pocket-alternatives-2026.png"
 
 **Het beste Pocket-alternatief in 2026 voor de meeste mensen is Marqly:** het leest je Pocket-exportbestand in enkele minuten in en voegt semantisch zoeken met AI toe, zodat je artikelen terugvindt op basis van wat je je herinnert in plaats van titels te moeten raden. Kies Raindrop.io als je de beste gratis allrounder zoekt, of Readwise Reader als je een intensieve onderzoeker bent die alles markeert.
 
-Toen Mozilla op 8 juli 2025 de stekker uit Pocket trok, stonden meer dan 20 miljoen gebruikers met ruim 2 miljard opgeslagen artikelen ineens in de kou. Als jij een van hen was, ben je de afgelopen tijd waarschijnlijk op zoek geweest naar een waardige opvolger. (Voor het overzetten van oude bestanden kun je ook onze [handleiding voor het exporteren en migreren van Pocket-data](/blog/how-to-export-migrate-pocket-data) raadplegen).
+Toen Mozilla op 8 juli 2025 de stekker uit Pocket trok, moesten veel gebruikers een nieuw thuis zoeken voor hun opgeslagen artikelen. Als jij een van hen was, ben je de afgelopen tijd waarschijnlijk op zoek geweest naar een waardige opvolger. (Voor het overzetten van oude bestanden kun je ook onze [handleiding voor het exporteren en migreren van Pocket-data](/blog/how-to-export-migrate-pocket-data) raadplegen).
 
 Het goede nieuws: de 'read-it-later'-categorie is niet verdwenen, maar juist volwassen geworden. De toonaangevende apps van 2026 slaan niet zomaar losse links op: ze benutten AI om artikelen samen te vatten, automatisch van tags te voorzien en je te laten **zoeken op betekenis** in plaats van eindeloos door mappen te bladeren.
 

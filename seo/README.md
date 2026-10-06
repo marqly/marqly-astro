@@ -5,7 +5,7 @@ Conventions (from the master prompt §1, enforced here):
 - **Evidence labels:** VERIFIED (file:line / URL+fetch / API row) · ASSUMED · UNKNOWN. Never present ASSUMED as VERIFIED.
 - **Session protocol:** read `SEO-PROGRESS.md` + last 3 `SESSION_LOG.md` entries → pick next unblocked task → execute → update both → 5-line summary.
 - **Safety:** no slug change without 301 (log in `data/redirects.csv`); never touch top-3 URLs except links/fixes; every edited URL gets a before/after row in `data/changes-log.csv` keyed by deploy date; no date-bumps without substantive edits; no fabricated claims/test-results/ratings (precedent: fabricated aggregateRating removed, `src/lib/schema.ts:74-79`); every new/refreshed page names its info-gain element in its brief before writing.
-- **Human-in-the-loop:** outreach sending, account creation, analytics/GSC/app settings = prepare fully, hand over with exact steps (`reports/00-setup-steps.md` pattern).
+- **Authorization:** the owner’s 2026-10-06 handoff authorizes deployment, directory submissions and routine outreach from the owner account, with actual actions logged. Stop for passwords/passkeys/2FA and request the owner headshot. Browser action policies still apply to new grants and binding confirmations.
 
 ## Layout
 
@@ -22,7 +22,7 @@ Conventions (from the master prompt §1, enforced here):
 | `data/redirects.csv` | every 301 we introduce |
 | `briefs/` | per-page briefs (query, SERP, info-gain, outline, links, schema) |
 | `reports/` | gate reports + weeklies (approval checkpoints) |
-| `outreach/` | link-acquisition kit (user sends; we never do) |
+| `outreach/` | link-acquisition kit + owner-authorized execution logs |
 
 ## Scripts
 

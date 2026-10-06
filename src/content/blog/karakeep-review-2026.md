@@ -25,9 +25,9 @@ faqs:
     a: "Yes — this is one of its standout capabilities. Karakeep supports local models through Ollama for automatic tagging and summarization, so your bookmarks never leave your server. You can also point it at OpenAI-compatible APIs instead if you'd rather trade privacy for quality and skip the GPU."
 ---
 
-**★ 4/5** — Karakeep is the best self-hosted bookmark manager for people who want real AI features — auto-tagging, summaries, even semantic search — without handing their library to anyone; the price of admission is that you become the ops team.
+Karakeep is the best self-hosted bookmark manager for people who want real AI features — auto-tagging, summaries, even semantic search — without handing their library to anyone; the price of admission is that you become the ops team.
 
-Disclosure: this review is published by Marqly, a hosted (not self-hostable) competitor. Karakeep serves a crowd we structurally can't — if "my data stays on my hardware" is a requirement, Karakeep is probably your answer and the rest of this review is detail. Scored on its own terms, it's excellent.
+Disclosure: this review is published by Marqly, a hosted (not self-hostable) competitor. Karakeep serves a crowd we structurally can't — if "my data stays on my hardware" is a requirement, Karakeep is probably your answer and the rest of this review is detail. Its self-hosting model is a strong fit for that requirement.
 
 ## What is Karakeep?
 
@@ -119,4 +119,4 @@ Who shouldn't: anyone who read "reverse proxy" above and felt tired. There's no 
 
 ## Verdict
 
-**★ 4/5.** Karakeep is the most complete self-hosted bookmark manager available in 2026 and the only one where AI feels native rather than grafted on. It loses a star for the tax every self-hosted tool charges — setup, maintenance, pre-1.0 turbulence, and AI quality that depends on what you feed it — and none of that will deter its actual audience even slightly. If you want Karakeep's AI experience without the server, [Marqly is the hosted version of the same idea](https://app.marqly.com) — free tier, no card, working in the next two minutes.
+Karakeep is the most complete self-hosted bookmark manager available in 2026 and the only one where AI feels native rather than grafted on. Its tradeoffs are the costs every self-hosted tool imposes — setup, maintenance, pre-1.0 turbulence, and AI quality that depends on what you feed it — but none of that will deter its actual audience even slightly. If you want Karakeep's AI experience without the server, [Marqly is the hosted version of the same idea](https://app.marqly.com) — free tier, no card, working in the next two minutes.

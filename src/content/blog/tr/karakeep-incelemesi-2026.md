@@ -18,4 +18,4 @@ faqs:
     a: "Kendi sunucunuzda çalıştırdığınız sürece tamamen ücretsiz ve açık kaynaklıdır."
 ---
 
-**Puan: 4 / 5** — Kendi sunucusunda yerel yapay zeka çalıştırmak isteyenler için rakipsizdir. Ancak teknik bakımla uğraşmak istemeyenler için [Marqly](https://app.marqly.com) çok daha pratiktir.
+Kendi sunucusunda yerel yapay zeka çalıştırmak isteyenler için rakipsizdir. Ancak teknik bakımla uğraşmak istemeyenler için [Marqly](https://app.marqly.com) çok daha pratiktir.

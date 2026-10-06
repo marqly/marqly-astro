@@ -15,7 +15,7 @@ faqs:
   - q: "¿Cuál es la mejor alternativa a Pocket?"
     a: "Depende de para qué lo usabas. Instapaper y Matter son los reemplazos más cercanos al lector puro. Raindrop.io va mejor para colecciones grandes de marcadores. Marqly es la opción si quieres IA encima: etiquetado automático, resúmenes y búsqueda por significado. Todas importan un export de Pocket."
   - q: "¿Sigo a tiempo de sacar mis datos de Pocket?"
-    a: "No. La exportación cerró el 8 de octubre de 2025 y Mozilla borró los datos restantes de forma permanente. Solo sirve el ZIP si lo descargaste antes de esa fecha."
+    a: "No. La exportación cerró el 12 de noviembre de 2025 y Mozilla borró los datos restantes de forma permanente. Solo sirve el ZIP si lo descargaste antes de esa fecha."
   - q: "¿Alguna alternativa tiene lectura sin conexión como Pocket?"
     a: "Instapaper y Matter sí ofrecen lectura sin conexión en todo el acervo. Marqly también la tiene, pero solo en Pro: las páginas marcadas se guardan en ese dispositivo, en la app web o en la app de iOS. Si tu escenario era Android o la extensión, empieza por esas dos."
   - q: "¿Hay alguna alternativa gratis?"
@@ -28,7 +28,7 @@ ctaSecondaryLabel: "Agregar a Chrome — gratis"
 updatedDate: 2026-09-26
 ---
 
-Pocket cerró el **8 de julio de 2025** y Mozilla borró los datos que quedaban después del **8 de octubre de 2025**. Si buscas alternativa, lo primero es admitir que no hay un sustituto único: Pocket hacía tres cosas distintas y cada alternativa cubre una parte.
+Pocket cerró el **8 de julio de 2025** y Mozilla borró los datos que quedaban después del **12 de noviembre de 2025**. Si buscas alternativa, lo primero es admitir que no hay un sustituto único: Pocket hacía tres cosas distintas y cada alternativa cubre una parte.
 
 ## Primero decide qué era Pocket para ti
 
@@ -88,7 +88,7 @@ Si tu bandeja se llena sobre todo de pestañas abiertas, mira [guardar todas las
 
 ## Y si no descargaste tu export a tiempo
 
-No hay nada que recuperar: Mozilla borró los datos de forma permanente después del 8 de octubre de 2025. Ninguna herramienta puede devolvértelos.
+No hay nada que recuperar: Mozilla borró los datos de forma permanente después del 12 de noviembre de 2025. Ninguna herramienta puede devolvértelos.
 
 Lo único que queda es empezar de nuevo, y en ese caso vale la pena elegir pensando en cómo evitar repetir el problema. La razón por la que un archivo de Pocket de diez años era inservible no es que fuera grande: es que no tenía índice. Empezar otra vez sin etiquetado automático ni búsqueda por significado lleva al mismo sitio, solo que más tarde.
 

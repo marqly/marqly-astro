@@ -3,7 +3,7 @@ title: "Pocket 关停后 8 款最佳替代工具推荐【2026 深度评测】"
 seoTitle: "8 款最佳 Pocket 替代工具推荐（2026 亲测）— Marqly"
 description: "Mozilla 已于 2025 年彻底关停 Pocket。本文横向对比 2026 年最佳的 8 款稍后阅读与书签工具，涵盖 AI 语义搜索、数据导入、阅读体验与价格方案。"
 pubDate: 2026-05-12
-updatedDate: 2026-06-23
+updatedDate: 2026-10-06
 category: "深度对比"
 targetKeyword: "Pocket 替代品"
 tags:
@@ -24,7 +24,7 @@ faqs:
   - q: "Pocket 和普通浏览器书签到底有什么区别？"
     a: "Pocket 是一款「稍后读」应用：它会将网页转化为没有干扰、排版优雅的纯净阅读视图，而不仅是记录网址。2026 年优秀的替代品在继承纯净阅读体验的同时，引入了 AI 自动摘要和语义检索。"
   - q: "Pocket 是具体什么时候彻底终止服务的？"
-    a: "Mozilla 于 2025 年 7 月 8 日宣布关停 Pocket 并停止新增收藏，随后开放了导出窗口。2025 年 11 月 12 日，Pocket 官方服务器上的所有用户数据被永久删除。"
+    a: "Mozilla 于 2025 年 7 月 8 日宣布关停 Pocket 并停止新增收藏，随后开放了导出窗口。2025 年 11 月 12 日，Pocket 导出功能被停用，剩余用户数据开始进入删除流程（[Mozilla 官方说明](https://support.mozilla.org/en-US/kb/future-of-pocket)）。"
   - q: "Pocket 的导出文件里到底包含什么？"
     a: "Pocket 导出文件本质上是包含 URL、标题、标签和时间戳的列表，并不包含缓存的正文。导入新工具后，系统会访问原始链接重新生成专属的阅读排版。"
   - q: "为什么要选带 AI 搜索的工具，而不是普通的 Pocket 克隆版？"
@@ -46,7 +46,7 @@ ogImage: "https://www.marqly.com/og/best-pocket-alternatives-2026.png"
 
 1. **2025 年 7 月 8 日 — 官方关停声明发布**：Mozilla 宣布终止 Pocket，全面停用各端拓展和 App 的新增收藏功能。
 2. **数据抢救与导出期**：官方开放专用通道，允许用户下载包含所有收藏链接与标签的 HTML 存档。
-3. **2025 年 11 月 12 日 — 服务器数据永久销毁**：所有未导出的云端数据从官方服务器完全清除。
+3. **2025 年 11 月 12 日 — 导出功能停用**：剩余数据开始进入删除流程（[Mozilla 官方说明](https://support.mozilla.org/en-US/kb/future-of-pocket））。
 
 如果你电脑里还留存着当初导出的 HTML 文件，随时都可以一键搬家；如果这是你第一次搭建知识库，本文也将帮你直接选中最契合自身需求的工具。
 

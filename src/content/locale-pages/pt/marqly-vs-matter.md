@@ -21,13 +21,13 @@ faqs:
   - q: "O Matter tem busca com IA?"
     a: "Não. Ele tem busca em texto completo, mas não tem tags automáticas nem busca semântica. Tem, sim, recursos de IA para vídeo."
   - q: "Qual importa meu export do Pocket?"
-    a: "Os dois. Matter e Marqly leem o export do Pocket, desde que baixado antes de outubro de 2025."
+    a: "Os dois. Matter e Marqly leem o export do Pocket, desde que baixado antes de 12 de novembro de 2025 (segundo o [aviso da Mozilla](https://support.mozilla.org/en-US/kb/future-of-pocket))."
   - q: "Dá para usar os dois?"
     a: "Sim. Matter para o que você vai ouvir ou ler com calma, Marqly como arquivo pesquisável de todo o resto."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
-updatedDate: 2026-09-26
+updatedDate: 2026-10-06
 ---
 
 Matter e Marqly se sobrepõem menos do que parece. O Matter quer que você **consuma** o que salva — lendo ou ouvindo — e faz isso melhor que quase todo mundo. O Marqly parte do princípio de que você vai salvar muito mais do que vai consumir, e foca em você conseguir voltar.

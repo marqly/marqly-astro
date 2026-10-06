@@ -18,4 +18,4 @@ faqs:
     a: "Karakeep is de nieuwe naam van de open-source bladwijzerapplicatie Hoarder met lokale AI-ondersteuning."
 ---
 
-**Score: 4 / 5** — Uitstekend voor wie zelf een server beheert met Docker en lokale AI. Voor wie gemak en directe semantische zoekkracht zoekt, is [Marqly](https://app.marqly.com) de ideale oplossing.
+Uitstekend voor wie zelf een server beheert met Docker en lokale AI. Voor wie gemak en directe semantische zoekkracht zoekt, is [Marqly](https://app.marqly.com) de ideale oplossing.

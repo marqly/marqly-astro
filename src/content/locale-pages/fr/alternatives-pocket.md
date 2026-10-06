@@ -15,7 +15,7 @@ faqs:
   - q: "Quelle est la meilleure alternative à Pocket ?"
     a: "Cela dépend de votre usage. Instapaper et Matter sont les plus proches du lecteur pur. Raindrop.io convient mieux aux grandes collections de favoris. Marqly est le choix si vous voulez de l'IA par-dessus : tags automatiques, résumés et recherche par sens. Tous importent un export Pocket."
   - q: "Puis-je encore récupérer mes données Pocket ?"
-    a: "Non. L'export s'est fermé le 8 octobre 2025 et Mozilla a supprimé définitivement les données restantes. Seul un ZIP téléchargé avant cette date reste utilisable."
+    a: "Non. L'export s'est fermé le 12 novembre 2025 et Mozilla a commencé à supprimer les données restantes (voir [l’annonce de Mozilla](https://support.mozilla.org/en-US/kb/future-of-pocket)). Seul un ZIP téléchargé avant cette date reste utilisable."
   - q: "Une alternative propose-t-elle la lecture hors ligne ?"
     a: "Instapaper et Matter proposent la lecture hors ligne pour toute leur bibliothèque. Marqly la propose aussi, mais seulement avec Pro : les pages marquées restent enregistrées sur l'appareil, dans l'application web ou l'application iOS. Si l'essentiel pour vous tenait dans Android ou les extensions, commencez par les deux premières."
   - q: "Existe-t-il des alternatives gratuites ?"
@@ -25,10 +25,10 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — gratuit"
-updatedDate: 2026-09-26
+updatedDate: 2026-10-06
 ---
 
-Pocket a fermé le **8 juillet 2025**, et Mozilla a supprimé les données restantes après le **8 octobre 2025**. Si vous cherchez une alternative, il faut d'abord accepter qu'il n'en existe pas une seule : Pocket remplissait trois fonctions différentes, et chaque alternative n'en couvre qu'une partie.
+Pocket a fermé le **8 juillet 2025**, et Mozilla a supprimé les données restantes après le **12 novembre 2025**. Si vous cherchez une alternative, il faut d'abord accepter qu'il n'en existe pas une seule : Pocket remplissait trois fonctions différentes, et chaque alternative n'en couvre qu'une partie.
 
 ## Déterminez d'abord ce qu'était Pocket pour vous
 
@@ -89,7 +89,7 @@ Si votre boîte se remplit surtout d'onglets ouverts, voyez [sauvegarder les ong
 
 ## Et si vous n'avez pas récupéré l'export à temps
 
-Il n'y a rien à récupérer : Mozilla a supprimé les données définitivement après le 8 octobre 2025. Aucun outil ne les rendra.
+Il n’est plus possible de générer un nouvel export : Mozilla l’a désactivé le 12 novembre 2025 et commencé à supprimer les données restantes (voir [l’annonce de Mozilla](https://support.mozilla.org/en-US/kb/future-of-pocket)).
 
 Reste à repartir de zéro — et dans ce cas, il vaut la peine de choisir de façon à ne pas répéter le problème. Une archive Pocket de dix ans n'était pas inutile parce qu'elle était grande, mais parce qu'elle n'avait pas d'index. Recommencer sans tags automatiques ni recherche par sens mène au même endroit, simplement plus tard.
 

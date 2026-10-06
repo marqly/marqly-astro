@@ -125,3 +125,8 @@ Day 30 is not an elapsed postdeployment period. Future outcomes remain unmeasure
 ## Integration note — concurrent writes, 2026-10-06
 
 A concurrent process added `2ce9f22` and replaced canonical inputs with historical pulls during the Phase B commit. Fixed deployment candidate is isolated in the attached `seo-deploy-candidate` worktree on `codex/seo-deploy-candidate`; its canonical inputs are restored from the successful nine-dimension 90-day API snapshot and analysis regenerated. All concurrent commits/pulls remain preserved. Candidate truth audit, build and visual validation precede production push.
+
+## Phase C candidate review — 2026-10-06
+
+- Numerical review ratings removed; substantive plan/import/closure corrections completed across affected language versions. Official-source evidence recorded in `reports/04-predeployment-truth-2026-10-06.md`.
+- Data tests pass 13/13. Final candidate build and all 25 gates pass; five required surfaces visually inspected at desktop/mobile widths after fixing the study button overflow. 148 URLs logged. Production push pending.

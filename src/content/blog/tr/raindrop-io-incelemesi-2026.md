@@ -18,6 +18,6 @@ faqs:
     a: "Evet, ücretsiz planında sınırsız yer imi ve koleksiyon oluşturabilirsiniz."
 ---
 
-**Puan: 4.5 / 5** — Raindrop.io, klasik yer imi yönetimi araçları arasında en zarif ve güçlü seçeneklerden biridir.
+Raindrop.io, klasik yer imi yönetimi araçları arasında en zarif ve güçlü seçeneklerden biridir.
 
 Sorgularda tam kelime eşleşmesi aradığı için içeriğin fikrini hatırladığınız durumlarda yetersiz kalabilir. Anlamsal arama için [Marqly](https://app.marqly.com)'yi tercih edebilirsiniz.

@@ -2,7 +2,7 @@
 a: pocket
 b: obsidian-web-clipper
 verdict: "Obsidian Web Clipper — with Pocket discontinued in July 2025, Obsidian's free, open-source clipper is the stronger half of this pair for anyone who wants saved articles as Markdown they own forever. It builds a permanent vault, not a casual reading queue."
-updatedDate: 2026-08-02
+updatedDate: 2026-10-06
 faqs:
   - q: "Can Obsidian Web Clipper import my Pocket archive?"
     a: "No. The clipper captures pages as you browse — full pages, selections, or highlighted passages saved as Markdown — and offers no bulk import of Pocket exports or browser bookmarks. Your rescued Pocket file needs a different destination, such as Wallabag, Raindrop.io, or Instapaper, all of which ship dedicated Pocket importers."

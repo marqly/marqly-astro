@@ -25,9 +25,9 @@ faqs:
     a: "Yes — this is its signature feature. Every saved link is automatically preserved in multiple formats: the full HTML content, a screenshot, a PDF, and a readable text view, and Linkwarden can additionally submit the page to the Internet Archive's Wayback Machine. Even if the original site dies, your copies remain."
 ---
 
-**★ 4/5** — Linkwarden is the archivist's bookmark manager: every link you save is preserved in multiple formats before it can rot, the whole thing is open source, and the cloud plan costs $3 a month — just don't expect it to organize your library for you or find things by meaning.
+Linkwarden is the archivist's bookmark manager: every link you save is preserved in multiple formats before it can rot, the whole thing is open source, and the cloud plan costs $3 a month — just don't expect it to organize your library for you or find things by meaning.
 
-Disclosure: this review appears on the blog of Marqly, a competing (hosted, closed-source) bookmark tool. Linkwarden's core promise — your links, preserved, on infrastructure you can own — is one we don't compete on, and this review scores it for what it is: the most preservation-focused tool in the category.
+Disclosure: this review appears on the blog of Marqly, a competing (hosted, closed-source) bookmark tool. Linkwarden's core promise — your links, preserved, on infrastructure you can own — is one we don't compete on, and this review assesses it as the most preservation-focused tool in the category.
 
 ## What is Linkwarden?
 
@@ -118,4 +118,4 @@ Who shouldn't: people whose real problem is retrieval or triage. If your library
 
 ## Verdict
 
-**★ 4/5.** Linkwarden is the best preservation-first bookmark manager in the open-source world, with honest pricing, real collaboration, and a platform story that improved dramatically this year. It loses a star because the intelligence layer is thin — keyword-only retrieval and tag-only AI leave the finding-things-again problem unsolved. Keep Linkwarden as your vault if permanence is what you need. If what you need is to *find* what you saved, that's the other half of the problem — [get started free](https://app.marqly.com), no card required, and search your library by what you remember.
+Linkwarden is the best preservation-first bookmark manager in the open-source world, with honest pricing, real collaboration, and a platform story that improved dramatically this year. Its main limitation is that the intelligence layer is thin — keyword-only retrieval and tag-only AI leave the finding-things-again problem unsolved. Keep Linkwarden as your vault if permanence is what you need. If what you need is to *find* what you saved, that's the other half of the problem — [get started free](https://app.marqly.com), no card required, and search your library by what you remember.

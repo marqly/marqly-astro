@@ -3,7 +3,7 @@ title: "Die beste selbstgehostete Pocket-Alternative 2026 (und wann eine Cloud-A
 seoTitle: "Beste Self-Hosted Pocket-Alternative 2026 — Marqly"
 description: "Wallabag, Karakeep, Linkwarden & ArchiveBox ehrlich verglichen: Setup, Suche und der Moment, in dem eine gehostete Lesezeichen-App besser ist."
 pubDate: 2026-06-23
-updatedDate: 2026-10-05
+updatedDate: 2026-10-06
 category: "Vergleiche"
 targetKeyword: "beste self hosted pocket alternativen 2026"
 tags:
@@ -26,7 +26,7 @@ faqs:
   - q: "Wann nutze ich lieber eine gehostete App statt Self-Hosting?"
     a: "Eine gehostete App gewinnt, wenn Sie keinen Server betreiben oder patchen wollen, polierte Apps fürs Handy brauchen und semantische KI-Suche sofort erwarten. Self-Hosting gewinnt bei Kontrolle, Datenschutz und dem ausschlossenen Risiko, dass ein Anbieter den Dienst einstellt. Es ist ein echter Zielkonflikt — kein Sieg auf der ganzen Linie für die eine oder andere Seite."
   - q: "Warum brauchte überhaupt jemand eine Pocket-Alternative?"
-    a: "Mozilla hat Pocket am 8. Juli 2025 eingestellt und die Nutzerdaten am 12. November 2025 endgültig gelöscht. Genau dieses Ende ist das Kernargument für Self-Hosting: Wer den Server selbst besitzt, dessen Bibliothek kann kein Unternehmen löschen. Diese Kontrolle ist das Versprechen, das Open-Source-Read-it-Later-Apps halten."
+    a: "Mozilla hat Pocket am 8. Juli 2025 eingestellt und die die Löschung der Nutzerdaten am 12. November 2025 begonnen. Genau dieses Ende ist das Kernargument für Self-Hosting: Wer den Server selbst besitzt, dessen Bibliothek kann kein Unternehmen löschen. Diese Kontrolle ist das Versprechen, das Open-Source-Read-it-Later-Apps halten."
 heroImage: ../../../assets/blog/best-self-hosted-pocket-alternative.png
 heroAlt: "Die beste selbstgehostete Pocket-Alternative 2026 — Illustration"
 ogImage: "https://www.marqly.com/og/best-self-hosted-pocket-alternative.png"
@@ -34,7 +34,7 @@ ogImage: "https://www.marqly.com/og/best-self-hosted-pocket-alternative.png"
 
 **Die besten selbstgehosteten Pocket-Alternativen 2026 sind Wallabag, Karakeep (ehemals Hoarder), Linkwarden und ArchiveBox.** Wallabag ist die Empfehlung für die meisten: der reifste Ersatz für das klassische Read-it-Later-Leseerlebnis, der sauber auf einem kleinen Server läuft. Wenn Sie gar keinen Server betreiben oder warten möchten, ist eine gehostete App die ehrlichere Wahl — auch diesen Fall argumentieren wir hier sauber.
 
-Wer diesen Artikel liest, hostet vermutlich schon das eine oder andere selbst, und das Pocket-Aus hat ein Gefühl bestätigt, das Sie längst hatten: Wer seine Leseliste einer Firma anvertraut, überlässt ihr auch die Macht, sie zu löschen. Mozilla hat genau das getan — Pocket am 8. Juli 2025 eingestellt und die Nutzerdaten am 12. November 2025 unwiderruflich gelöscht. Die Frage lautet deshalb nicht really „Was ersetzt Pocket?“, sondern: „Wie stelle ich sicher, dass mir das nie wieder passiert?“
+Wer diesen Artikel liest, hostet vermutlich schon das eine oder andere selbst, und das Pocket-Aus hat ein Gefühl bestätigt, das Sie längst hatten: Wer seine Leseliste einer Firma anvertraut, überlässt ihr auch die Macht, sie zu löschen. Mozilla hat genau das getan — Pocket am 8. Juli 2025 eingestellt und am 12. November 2025 den Export deaktiviert und die Löschung der verbliebenen Daten begonnen (siehe [Mozilla-Hinweis](https://support.mozilla.org/en-US/kb/future-of-pocket)). Die Frage lautet deshalb nicht really „Was ersetzt Pocket?“, sondern: „Wie stelle ich sicher, dass mir das nie wieder passiert?“
 
 Self-Hosting ist die stärkste Antwort darauf. Es ist aber auch mehr Arbeit, als die Projekt-Websites zugeben. Dieser Leitfaden gibt die ehrliche Version: Welche Open-Source-Tools Ihre Zeit wirklich verdienen, worin jedes stark und schwach ist — und das schmale, aber reale Argument für eine gehostete App. Hier wird Ihnen kein Tool verkauft, unser eigenes nicht ausgenommen.
 

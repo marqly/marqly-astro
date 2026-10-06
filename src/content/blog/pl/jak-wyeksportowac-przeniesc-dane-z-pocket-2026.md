@@ -15,7 +15,7 @@ ctaLabel: "Rozpocznij za darmo z Marqly"
 lang: "pl"
 faqs:
   - q: "Jak pobrać kopię zapasową z Pocket?"
-    a: "Mozilla zamknęła usługę Pocket 8 lipca 2025 r., a oficjalne okno eksportu zakończyło się 8 października 2025 r. Użytkownicy z pobranym archiwum eksportu mogą bezpośrednio zaimportować do Marqly zawarty w nim plik list.csv (.csv) — plik .html to format, którego importer nie odczytuje."
+    a: "Mozilla zamknęła usługę Pocket 8 lipca 2025 r., a oficjalne okno eksportu zakończyło się 12 listopada 2025 r. Użytkownicy z pobranym archiwum eksportu mogą bezpośrednio zaimportować do Marqly zawarty w nim plik list.csv (.csv) — plik .html to format, którego importer nie odczytuje."
   - q: "Czy moje tagi z Pocket zostaną zachowane?"
     a: "Tak, nowoczesne aplikacje, takie jak Marqly, bez problemu importują i przypisują oryginalne tagi."
 heroImage: ../../../assets/blog/how-to-export-migrate-pocket-data.png

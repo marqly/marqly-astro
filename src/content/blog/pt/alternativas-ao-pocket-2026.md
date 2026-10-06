@@ -3,7 +3,7 @@ title: "As 8 melhores alternativas ao Pocket em 2026 (após o encerramento pela 
 seoTitle: "8 Melhores Alternativas ao Pocket em 2026 (Testadas) — Marqly"
 description: "O Pocket encerrou em 2025. Conheça as 8 melhores alternativas para salvar e ler depois em 2026, comparadas em busca com IA, importação, apps e preços."
 pubDate: 2026-05-12
-updatedDate: 2026-06-23
+updatedDate: 2026-10-06
 category: "Comparativos"
 targetKeyword: "alternativas ao pocket"
 tags:
@@ -24,7 +24,7 @@ faqs:
   - q: "O que tornava o Pocket diferente de um gerenciador de favoritos comum?"
     a: "O Pocket era um app de leitura posterior (read-it-later): salvava matérias em um leitor limpo, tipográfico e sem anúncios, em vez de apenas empilhar links. As melhores alternativas em 2026 preservam esse conforto de leitura e acrescentam resumos com IA e busca semântica."
   - q: "Quando o Pocket encerrou as atividades de fato?"
-    a: "A Mozilla anunciou o encerramento do Pocket em 8 de julho de 2025 e bloqueou novas adições no mesmo dia. Depois, abriu uma janela para os usuários baixarem seus dados. Todos os dados foram excluídos definitivamente dos servidores em 12 de novembro de 2025. Se você guardou seu arquivo de exportação, ainda pode migrá-lo perfeitamente."
+    a: "A Mozilla anunciou o encerramento do Pocket em 8 de julho de 2025 e bloqueou novas adições no mesmo dia. Depois, abriu uma janela para os usuários baixarem seus dados. Em 12 de novembro de 2025, a exportação foi desativada e a exclusão dos dados restantes começou (veja o [aviso da Mozilla](https://support.mozilla.org/en-US/kb/future-of-pocket)). Se você guardou seu arquivo de exportação, ainda pode migrá-lo perfeitamente."
   - q: "O que vem dentro do arquivo de exportação do Pocket?"
     a: "A exportação do Pocket contém a lista de links salvos acompanhada de metadados: URLs, títulos, tags e datas — e não o texto integral em cache das matérias. Ao importar em uma ferramenta nova, o app acessa as páginas originais para reconstruir a experiência de leitura."
   - q: "Por que escolher uma ferramenta com IA em vez de um clone idêntico do Pocket?"
@@ -36,7 +36,7 @@ ogImage: "https://www.marqly.com/og/best-pocket-alternatives-2026.png"
 
 **A melhor alternativa ao Pocket em 2026 para a maioria é o Marqly:** ele importa seu arquivo do Pocket em minutos e adiciona busca semântica com IA, permitindo reencontrar qualquer conteúdo descrevendo o que você lembra, sem precisar adivinhar palavras-chave. Escolha o Raindrop.io se quiser a melhor opção gratuita geral, ou o Readwise Reader se for um leitor voraz que grifa tudo.
 
-Quando a Mozilla encerrou o Pocket em 8 de julho de 2025, deixou órfãos mais de 20 milhões de usuários que somavam mais de 2 bilhões de matérias salvas. Se você fazia parte desse grupo, passou os últimos meses à procura de um aplicativo que fizesse o que o Pocket fazia — e de preferência melhor. (Se você ainda precisa resgatar seus links antigos, confira nosso guia sobre como [exportar e migrar seus dados do Pocket](/blog/how-to-export-migrate-pocket-data)).
+Quando a Mozilla encerrou o Pocket em 8 de julho de 2025, muitos usuários precisaram encontrar um novo lar para os artigos salvos. Se você fazia parte desse grupo, passou os últimos meses à procura de um aplicativo que fizesse o que o Pocket fazia — e de preferência melhor. (Se você ainda precisa resgatar seus links antigos, confira nosso guia sobre como [exportar e migrar seus dados do Pocket](/blog/how-to-export-migrate-pocket-data)).
 
 A boa notícia: o conceito de «salvar para ler depois» não morreu com o Pocket. Ele amadureceu. As ferramentas de ponta em 2026 não se limitam a guardar URLs: utilizam inteligência artificial para resumir conteúdos longos, atribuir tags automaticamente e permitir que você **busque por significado** em vez de se perder em pastas esquecidas. O favorito comum se transformou em uma base viva de conhecimento pessoal.
 
@@ -44,7 +44,7 @@ Abaixo estão as oito melhores alternativas ao Pocket em 2026, testadas e avalia
 
 ## Qual foi o cronograma de encerramento do Pocket?
 
-A Mozilla anunciou o fechamento definitivo do Pocket em 8 de julho de 2025 e bloqueou o salvamento de novos artigos imediatamente. Em seguida, disponibilizou um período de exportação para que todos pudessem resgatar seus arquivos antes do desligamento total. **Os dados dos usuários do Pocket foram apagados para sempre em 12 de novembro de 2025.** Se você fez o download do seu arquivo na época, tudo bem: todas as ferramentas desta lista conseguem importá-lo.
+A Mozilla anunciou o fechamento definitivo do Pocket em 8 de julho de 2025 e bloqueou o salvamento de novos artigos imediatamente. Em seguida, disponibilizou um período de exportação para que todos pudessem resgatar seus arquivos antes do desligamento total. **A exclusão dos dados do Pocket começou em 12 de novembro de 2025.** Se você fez o download do seu arquivo na época, tudo bem: todas as ferramentas desta lista conseguem importá-lo.
 
 As datas que marcaram o fim do serviço:
 

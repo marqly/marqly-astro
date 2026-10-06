@@ -2,7 +2,7 @@
 a: pocket
 b: notion-web-clipper
 verdict: "Notion Web Clipper — Pocket no longer exists (Mozilla ended it in July 2025), and Notion's free clipper is a workable substitute only if you already live in Notion. It saves pages into databases, but capture is bare-bones and there's no Pocket import."
-updatedDate: 2026-08-02
+updatedDate: 2026-10-06
 faqs:
   - q: "Can I move my Pocket library into Notion?"
     a: "Not cleanly. Notion has no Pocket importer; it can ingest browser-bookmark HTML files, but Pocket's export ZIP contained a CSV of saves, so migration is a manual project. Ex-Pocket users who want a one-click import should look at Raindrop.io, Instapaper, or Wallabag, all of which read Pocket export files directly."

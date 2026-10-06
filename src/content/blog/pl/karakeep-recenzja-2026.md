@@ -18,4 +18,4 @@ faqs:
     a: "Tak, Karakeep to oficjalna nowa nazwa popularnego projektu Hoarder."
 ---
 
-**Ocena: 4 / 5** — Genialne rozwiązanie dla entuzjastów Dockera i lokalnego AI. Jeśli wolisz uniknąć administrowania serwerem, sprawdź gotowe wyszukiwanie semantyczne w [Marqly](https://app.marqly.com).
+Genialne rozwiązanie dla entuzjastów Dockera i lokalnego AI. Jeśli wolisz uniknąć administrowania serwerem, sprawdź gotowe wyszukiwanie semantyczne w [Marqly](https://app.marqly.com).

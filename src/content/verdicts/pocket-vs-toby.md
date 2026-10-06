@@ -2,7 +2,7 @@
 a: pocket
 b: toby
 verdict: "Toby — Mozilla sunset Pocket in July 2025, so Toby wins on existence, but it's a different tool: a visual tab manager for saving and restoring browser sessions, not an article archive. Tab-hoarding teams gain; long-form readers should keep looking."
-updatedDate: 2026-08-02
+updatedDate: 2026-10-06
 faqs:
   - q: "Can Toby replace Pocket?"
     a: "Only if your Pocket use was really link-parking. Toby saves open tabs into visual collections, restores whole sessions, and shares spaces with teammates — but it stores links only. There's no page content, offline reading, highlighting, or full-text search, so nothing survives link rot, and Pocket's read-anywhere experience has no counterpart here."

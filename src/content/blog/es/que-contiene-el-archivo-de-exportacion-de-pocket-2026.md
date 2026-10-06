@@ -3,7 +3,7 @@ title: "Qué hay realmente dentro de tu archivo de exportación de Pocket (y có
 seoTitle: "Qué contiene tu exportación de Pocket (2026) | Marqly"
 description: "¿Abriste tu exportación de Pocket y viste un CSV? Esto hay dentro: URLs, títulos, etiquetas, marcas de tiempo — qué falta y cómo importarlo sin romper nada."
 pubDate: 2026-06-23
-updatedDate: 2026-10-05
+updatedDate: 2026-10-06
 category: "Guías"
 targetKeyword: "archivo de exportacion de pocket"
 tags:
@@ -26,7 +26,7 @@ faqs:
   - q: "¿Por qué mi exportación de Pocket tiene varios archivos?"
     a: "Para bibliotecas grandes, Pocket dividía la exportación en varios CSV de aproximadamente diez mil filas cada uno para mantener cada archivo manejable. Es normal: no falta nada. Al importar, añade todos los archivos, porque cada uno contiene un trozo distinto de tus guardados."
   - q: "¿Puedo conseguir aún un archivo de exportación de Pocket en 2026?"
-    a: "No. Mozilla cerró Pocket el 8 de julio de 2025 y borró permanentemente los datos de usuario el 12 de noviembre de 2025. Ya no hay forma de generar una exportación nueva. Si guardaste tu archivo antes de esa fecha, sigue sirviendo: ese archivo es la única copia de tu biblioteca que existe."
+    a: "No. Mozilla cerró Pocket el 8 de julio de 2025 y la eliminación de los datos comenzó el 12 de noviembre de 2025. Ya no hay forma de generar una exportación nueva. Si guardaste tu archivo antes de esa fecha, sigue sirviendo: ese archivo es la única copia de tu biblioteca que existe."
 heroImage: ../../../assets/blog/what-is-in-your-pocket-export-file.png
 heroAlt: "Qué hay dentro de tu archivo de exportación de Pocket — ilustración"
 ogImage: "https://www.marqly.com/og/what-is-in-your-pocket-export-file.png"
