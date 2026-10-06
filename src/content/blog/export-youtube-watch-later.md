@@ -3,6 +3,7 @@ title: "How to Export Your YouTube Watch Later in 2026 (Takeout Doesn't Include 
 seoTitle: "How to Export YouTube Watch Later in 2026 — Marqly"
 description: "Google Takeout excludes Watch Later from its YouTube playlists export. Here are the workarounds that still work in 2026, and why capturing forward beats archiving."
 pubDate: 2026-08-16
+updatedDate: 2026-10-06
 category: "Guides"
 targetKeyword: "export youtube watch later"
 tags:
@@ -29,6 +30,8 @@ faqs:
 ---
 
 Here's the short version: **Google Takeout will not export your Watch Later playlist.** Takeout gives you your regular playlists as CSV files, your subscriptions, and your history — but Watch Later is excluded, and there's no setting that changes that. If you want those videos out, every remaining route is manual. This post covers the workarounds that actually work in 2026, what each one costs you in effort, and why the better fix is upstream of the problem.
+
+Google’s own [Takeout documentation](https://support.google.com/accounts/answer/3024190) (checked October 6, 2026) is the source for what the archive contains and the expiry rules — download links and copies disappear after fixed windows, so grab and mirror immediately. Watch Later, as you’ll find, is not among the services Takeout exports; that omission is why this page exists.
 
 ## What Takeout does and doesn't give you
 

@@ -3,6 +3,7 @@ title: "How to Get the Transcript of a YouTube Video (3 Ways, 2026)"
 seoTitle: "How to Get a YouTube Video Transcript (3 Ways) — Marqly"
 description: "Three ways to get a YouTube video transcript in 2026: the built-in Show transcript panel, transcript sites, and a one-click copy that stays synced to playback."
 pubDate: 2026-07-04
+updatedDate: 2026-10-06
 category: "Guides"
 targetKeyword: "how to get youtube video transcript"
 tags:
@@ -33,6 +34,8 @@ ogImage: "https://www.marqly.com/og/how-to-get-youtube-video-transcript.png"
 To **get the transcript of a YouTube video**, click "…more" in the description below the video, then **Show transcript** — a timestamped panel opens next to the player. That's fine for grabbing a line or two. If you want the whole transcript copyable in one click and synced to playback, use a browser extension.
 
 A transcript turns a 40-minute video into something you can scan, quote, search, and feed to an AI. This guide walks through all three ways to get one — the free built-in method first — with an honest comparison so you can match the method to how often you actually do this.
+
+The mechanics below follow YouTube’s official [captions & transcript help](https://support.google.com/youtube/answer/2734796) (checked October 6, 2026): transcripts exist only where a caption track exists — creator-uploaded or auto-generated — and auto-captions carry errors that survive into any summary built on them.
 
 ## How do you get a transcript directly on YouTube?
 

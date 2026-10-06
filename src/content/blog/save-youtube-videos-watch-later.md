@@ -3,7 +3,7 @@ title: "How to Save YouTube Videos to Watch Later (and Actually Find Them)"
 seoTitle: "How to Save YouTube Videos to Watch Later (2026) — Marqly"
 description: "YouTube's Watch Later is a black hole. Here's how to save YouTube videos so you actually find and watch them — with tags, search, and a real system."
 pubDate: 2026-03-08
-updatedDate: 2026-07-04
+updatedDate: 2026-10-06
 category: "Guides"
 targetKeyword: "save youtube videos to watch later"
 tags:
@@ -28,6 +28,8 @@ ogImage: "https://www.marqly.com/og/save-youtube-videos-watch-later.png"
 ---
 
 YouTube's built-in "Watch Later" is where videos go to disappear. It's a single undifferentiated list with no tags, no folders, and search that barely works — so it grows into hundreds of videos you'll never watch. If you've ever saved a great tutorial and then completely lost it, here's how to save YouTube videos in a way that means you'll actually find and watch them.
+
+YouTube’s [captions help](https://support.google.com/youtube/answer/2734796) (checked October 6, 2026) is worth one read before building a video habit on top of it: auto-generated transcripts cover most videos but not all, and they are the raw material every transcription or summarization tool — including ours — is actually working from.
 
 ## Why YouTube's Watch Later fails
 
