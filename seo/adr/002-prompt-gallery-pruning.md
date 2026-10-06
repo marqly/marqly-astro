@@ -1,6 +1,6 @@
 # ADR-002: Prompt-gallery pruning
 
-- **Status:** proposed (execution gated on GSC per-URL data)
+- **Status:** ACCEPTED + executed 2026-10-06 (live 90-day API data)
 - **Date:** 2026-10-05
 - **Phase:** 1.2
 
@@ -24,3 +24,13 @@ links AND <400 units (safe, measurable from the crawl) — decided at Gate 1.
 
 ## Rollback
 Delete `prompt-keep.csv` → all prompts indexable again.
+
+## Execution record (2026-10-06)
+- Data: exact 90-day live API pull (page dimension, 2,010 rows). Keep rule applied: ≥1 click OR ≥20
+  impressions ⇒ 149 detail pages kept + 11 category hubs force-kept = keep-list of 160
+  (`seo/data/gsc/prompt-keep.csv`, with imp/click columns for audit).
+- Mechanism: `content-quality.mjs` prompt branch (delete the file ⇒ fail-open rollback, one line).
+- Effect: 251 of 400 detail prompts noindexed+off-sitemap; indexable sitemap 1,343 → 1,092.
+  All pages stay live (follow) so they re-enable automatically when the keep-list refreshes with data.
+- Gate: 11 generalized to police ADR-001 AND ADR-002 prunings across all three surfaces; negative
+  coverage already demonstrated. 25/25 green.

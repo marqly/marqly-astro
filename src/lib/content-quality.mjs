@@ -132,6 +132,23 @@ function enMeasure(enUrl) {
   return null;
 }
 
+/** ADR-002: prompt-gallery keep-list (Phase 1.2). Pages at /prompt-gallery/<slug>
+ * must appear in seo/data/gsc/prompt-keep.csv (≥1 click or ≥20 impressions over
+ * the last 90 days, or be a category hub) or they are pruned the same way as
+ * below-bar locale pages: noindex + off sitemap. If the file is absent, prompts
+ * are ALL kept — fail-open, so deleting the file is the one-line rollback. */
+function loadPromptKeep() {
+  const p = path.join(ROOT, 'seo/data/gsc/prompt-keep.csv');
+  if (!fs.existsSync(p)) return null;
+  const set = new Set();
+  for (const line of fs.readFileSync(p, 'utf8').split('\n').slice(1)) {
+    const m = line.match(/^\s*"([^"]+)"/);
+    if (m) set.add(m[1]);
+  }
+  return set.size ? set : null;
+}
+const PROMPT_KEEP = loadPromptKeep();
+
 const cache = new Map();
 const PRUNE_LOG = [];
 
@@ -139,6 +156,13 @@ const PRUNE_LOG = [];
 export function isIndexable(url) {
   const u = (url || '/').replace(/\.html$/, '').replace(/\/$/, '') || '/';
   if (cache.has(u)) return cache.get(u).index;
+  // ADR-002 prompt branch: detail pages need a keep-list seat; hubs always pass.
+  if (PROMPT_KEEP && u.startsWith('/prompt-gallery/') && !u.startsWith('/prompt-gallery/category')) {
+    const ok = PROMPT_KEEP.has(u);
+    if (!ok) PRUNE_LOG.push({ url: u, lang: 'en', tier: 0, units: 0, enUnits: 0, parity: null, h2: 0, enH2: 0, secParity: null, en: null, file: 'seo/content/prompts' });
+    cache.set(u, { index: ok, why: ok ? 'prompt keep-list' : 'prompt below 90d demand bar' });
+    return ok;
+  }
   const loc = localeMeasure(u);
   if (!loc) { const v = true; cache.set(u, { index: v }); return v; }
   const tier = TIERS[loc.lang] ?? 3;
