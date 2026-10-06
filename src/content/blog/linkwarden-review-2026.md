@@ -100,7 +100,7 @@ The cloud plan is among the cheapest hosted options in the entire category, and 
 | Team collaboration | **Shared collections, permissions** | No teams (public board sharing only) |
 | Price | **Free self-hosted; $3/mo cloud** | Free tier; $72/yr (≈$6/mo) Pro |
 | API | **Yes** | No public API |
-| Android | **Yes (new official app)** | No (web app in browser) |
+| Android | **Yes (new official app)** | **Yes** |
 | Search | Keyword + operators | **Semantic — find saves by describing them** |
 | Auto-tagging | Optional AI tagging | **Automatic on every save, zero config** |
 | AI summaries | No | **Yes** |

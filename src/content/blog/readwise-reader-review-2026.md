@@ -102,7 +102,7 @@ Two footnotes that matter. First, Reader is not sold separately — if you want 
 | RSS + newsletter inbox | **Yes** | No |
 | PDFs / EPUBs | **Yes, native reading** | Save pages as PDF; no EPUB |
 | Offline reading | **Yes (mobile)** | No |
-| Android | **Yes** | No (web app in browser) |
+| Android | **Yes** | **Yes** |
 | Library-wide semantic search | Full-text + filters | **Pro — search by meaning** |
 | Auto-tagging | Limited | **Pro, including imports** |
 | AI on YouTube | Transcripts in-app | **Summary, chat, transcript on the watch page itself** |

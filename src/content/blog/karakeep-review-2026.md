@@ -99,7 +99,7 @@ Paid cloud plans carry a 7-day money-back guarantee, and export is available any
 | Self-hosting / data ownership | **Yes — its whole reason to exist** | No |
 | Price (all-in) | **Free self-hosted; $6/mo cloud** | Free tier; $72/yr (≈$6/mo) Pro |
 | Setup required | Docker, config, maintenance | **None — sign up and save** |
-| Android app | **Yes** | No (web app in browser) |
+| Android app | **Yes** | **Yes** |
 | Local/private AI | **Yes, via Ollama** | No — hosted service |
 | API / CLI / webhooks | **Yes** | No public API |
 | AI auto-tagging | Yes (quality varies by model) | **Yes, consistent, zero config** |

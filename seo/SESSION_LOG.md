@@ -222,3 +222,8 @@ Second demand tier (≥10 imp) across fr/it/nl/pl/pt/tr/zh; two parallel agents;
 - TRUTH FIX (12 locales): raindrop-review claimed Marqly has NO Android app — false per product-facts L19 (Play Store live) + marqly.json. Row, prose ("better on Android") and who-should bullet rewritten to desktop-apps (true differentiator) in en/de/es/fr/it/pt/nl/pl/tr/zh/ja/ko.
 - Export cluster now ×7 locales (+12 new fr/it/pt posts; hreflang clusters extended; og reuses verified EN cards).
 - Sitemap 1,309 → 1,316 (engine) → 1,364; pages 1,963; 25/25 + 0 broken links.
+
+### 2026-10-07 (late) — Reclaim round 5 + site-wide Android truth sweep
+- r5: 46 pages (zh8 fr8+nl2 it8 pt7 pl8 tr3) all ≥0.9 both bars; sitemap 1,364→1,408.
+- ANDROID SWEEP: the raindrop-review "Marqly: no Android app" error had also propagated to karakeep/readwise-reader/linkwarden reviews → corrected 19 table rows in 19 files (en,de,es,it,ja,ko,tr,zh + it twin), zero residuals. Origin of error likely pre-launch product state; product-facts L19 (Play Store) + marqly.json androidApp:true are the authority.
+- r4+r5 candidates left: 144 pages / ~590 imps ≥2 — threshold now below program ROI bar; parking unless a new GSC pull raises them.

@@ -1,0 +1,368 @@
+{
+ "zh": [
+  {
+   "p": "/zh/blog/para-method-for-bookmarks-2026",
+   "en": "/blog/para-method-for-bookmarks",
+   "es": "/blog/para-method-for-bookmarks",
+   "slug": "blog/para-method-for-bookmarks-2026",
+   "imp": 9,
+   "clk": 0
+  },
+  {
+   "p": "/zh/tab-manager",
+   "en": "/tab-manager",
+   "es": "/tab-manager",
+   "slug": "tab-manager",
+   "imp": 9,
+   "clk": 1
+  },
+  {
+   "p": "/zh/blog/ai-bookmark-managers-semantic-search-compared-2026",
+   "en": "/blog/ai-bookmark-managers-semantic-search-compared",
+   "es": "/blog/ai-bookmark-managers-semantic-search-compared",
+   "slug": "blog/ai-bookmark-managers-semantic-search-compared-2026",
+   "imp": 8,
+   "clk": 0
+  },
+  {
+   "p": "/zh/blog/chrome-shuqian-daoru-zhinan-2026",
+   "en": "/blog/how-to-import-chrome-bookmarks-to-ai",
+   "es": "/blog/how-to-import-chrome-bookmarks-to-ai",
+   "slug": "blog/chrome-shuqian-daoru-zhinan-2026",
+   "imp": 8,
+   "clk": 0
+  },
+  {
+   "p": "/zh/blog/chat-with-youtube-videos-2026",
+   "en": "/blog/chat-with-youtube-videos",
+   "es": "/blog/chat-with-youtube-videos",
+   "slug": "blog/chat-with-youtube-videos-2026",
+   "imp": 8,
+   "clk": 0
+  },
+  {
+   "p": "/zh/bookmark-manager-for-chrome",
+   "en": "/bookmark-manager-for-chrome",
+   "es": "/bookmark-manager-for-chrome",
+   "slug": "bookmark-manager-for-chrome",
+   "imp": 8,
+   "clk": 0
+  },
+  {
+   "p": "/zh/blog/best-ai-bookmark-manager-2026",
+   "en": "/blog/best-ai-bookmark-manager-2026",
+   "es": "/blog/best-ai-bookmark-manager-2026",
+   "slug": "blog/best-ai-bookmark-manager-2026",
+   "imp": 8,
+   "clk": 1
+  },
+  {
+   "p": "/zh/for-researchers",
+   "en": "/for-researchers",
+   "es": "/for-researchers",
+   "slug": "for-researchers",
+   "imp": 7,
+   "clk": 0
+  }
+ ],
+ "pt": [
+  {
+   "p": "/pt/blog/melhores-marca-textos-web-2026",
+   "en": "/blog/best-web-highlighters-2026",
+   "es": "/blog/best-web-highlighters-2026",
+   "slug": "blog/melhores-marca-textos-web-2026",
+   "imp": 8,
+   "clk": 0
+  },
+  {
+   "p": "/pt/blog/gerenciadores-de-favoritos-com-ia-busca-semantica-comparativo-2026",
+   "en": "/blog/ai-bookmark-managers-semantic-search-compared",
+   "es": "/blog/ai-bookmark-managers-semantic-search-compared",
+   "slug": "blog/gerenciadores-de-favoritos-com-ia-busca-semantica-comparativo-2026",
+   "imp": 8,
+   "clk": 0
+  },
+  {
+   "p": "/pt/gerenciador-favoritos-chrome",
+   "en": "/bookmark-manager-for-chrome",
+   "es": "/bookmark-manager-for-chrome",
+   "slug": "gerenciador-favoritos-chrome",
+   "imp": 7,
+   "clk": 1
+  },
+  {
+   "p": "/pt/blog/analise-raindrop-io-2026",
+   "en": "/blog/raindrop-review-2026",
+   "es": "/blog/raindrop-review-2026",
+   "slug": "blog/analise-raindrop-io-2026",
+   "imp": 6,
+   "clk": 0
+  },
+  {
+   "p": "/pt/para-marketing",
+   "en": "/for-marketers",
+   "es": "/for-marketers",
+   "slug": "para-marketing",
+   "imp": 5,
+   "clk": 0
+  },
+  {
+   "p": "/pt/para-criadores-de-conteudo",
+   "en": "/for-content-creators",
+   "es": "/for-content-creators",
+   "slug": "para-criadores-de-conteudo",
+   "imp": 5,
+   "clk": 0
+  },
+  {
+   "p": "/pt/organizar-receitas",
+   "en": "/recipe-organizer",
+   "es": "/recipe-organizer",
+   "slug": "organizar-receitas",
+   "imp": 5,
+   "clk": 0
+  }
+ ],
+ "fr": [
+  {
+   "p": "/fr/blog/methode-para-pour-les-favoris-2026",
+   "en": "/blog/para-method-for-bookmarks",
+   "es": "/blog/para-method-for-bookmarks",
+   "slug": "blog/methode-para-pour-les-favoris-2026",
+   "imp": 7,
+   "clk": 0
+  },
+  {
+   "p": "/fr/synchroniser-favoris",
+   "en": "/bookmark-sync",
+   "es": "/bookmark-sync",
+   "slug": "synchroniser-favoris",
+   "imp": 6,
+   "clk": 0
+  },
+  {
+   "p": "/fr/historique-presse-papiers",
+   "en": "/clipboard-history",
+   "es": "/clipboard-history",
+   "slug": "historique-presse-papiers",
+   "imp": 6,
+   "clk": 0
+  },
+  {
+   "p": "/fr/blog/lia-peut-elle-organiser-mes-favoris-2026",
+   "en": "/blog/can-ai-organize-my-bookmarks-automatically",
+   "es": "/blog/can-ai-organize-my-bookmarks-automatically",
+   "slug": "blog/lia-peut-elle-organiser-mes-favoris-2026",
+   "imp": 6,
+   "clk": 0
+  },
+  {
+   "p": "/fr/blog/arretez-d-organiser-vos-favoris-dossiers-obsoletes-2026",
+   "en": "/blog/stop-organizing-bookmarks-folders-obsolete",
+   "es": "/blog/stop-organizing-bookmarks-folders-obsolete",
+   "slug": "blog/arretez-d-organiser-vos-favoris-dossiers-obsoletes-2026",
+   "imp": 6,
+   "clk": 0
+  },
+  {
+   "p": "/fr/blog/meilleures-alternatives-auto-hebergees-a-pocket-2026",
+   "en": "/blog/best-self-hosted-pocket-alternative",
+   "es": "/blog/best-self-hosted-pocket-alternative",
+   "slug": "blog/meilleures-alternatives-auto-hebergees-a-pocket-2026",
+   "imp": 6,
+   "clk": 0
+  },
+  {
+   "p": "/fr/planifier-voyage",
+   "en": "/travel-planning",
+   "es": "/travel-planning",
+   "slug": "planifier-voyage",
+   "imp": 5,
+   "clk": 0
+  },
+  {
+   "p": "/fr/gestionnaire-favoris-iphone",
+   "en": "/bookmark-manager-for-iphone",
+   "es": "/bookmark-manager-for-iphone",
+   "slug": "gestionnaire-favoris-iphone",
+   "imp": 5,
+   "clk": 0
+  }
+ ],
+ "it": [
+  {
+   "p": "/it/blog/migliori-gestori-segnalibri-gratis-2026",
+   "en": "/blog/best-free-bookmark-managers-2026",
+   "es": "/blog/best-free-bookmark-managers-2026",
+   "slug": "blog/migliori-gestori-segnalibri-gratis-2026",
+   "imp": 6,
+   "clk": 0
+  },
+  {
+   "p": "/it/salva-pagina-pdf",
+   "en": "/save-page-as-pdf",
+   "es": "/save-page-as-pdf",
+   "slug": "salva-pagina-pdf",
+   "imp": 6,
+   "clk": 0
+  },
+  {
+   "p": "/it/blog/recensione-linkwarden-2026",
+   "en": "/blog/linkwarden-review-2026",
+   "es": "/blog/linkwarden-review-2026",
+   "slug": "blog/recensione-linkwarden-2026",
+   "imp": 5,
+   "clk": 0
+  },
+  {
+   "p": "/it/gestore-segnalibri-edge",
+   "en": "/bookmark-manager-for-edge",
+   "es": "/bookmark-manager-for-edge",
+   "slug": "gestore-segnalibri-edge",
+   "imp": 5,
+   "clk": 0
+  },
+  {
+   "p": "/it/blog/migliori-gestori-segnalibri-ia-2026",
+   "en": "/blog/best-ai-bookmark-manager-2026",
+   "es": "/blog/best-ai-bookmark-manager-2026",
+   "slug": "blog/migliori-gestori-segnalibri-ia-2026",
+   "imp": 5,
+   "clk": 0
+  },
+  {
+   "p": "/it/gestore-segnalibri-firefox",
+   "en": "/bookmark-manager-for-firefox",
+   "es": "/bookmark-manager-for-firefox",
+   "slug": "gestore-segnalibri-firefox",
+   "imp": 5,
+   "clk": 1
+  },
+  {
+   "p": "/it/lista-di-lettura",
+   "en": "/reading-list",
+   "es": "/reading-list",
+   "slug": "lista-di-lettura",
+   "imp": 5,
+   "clk": 0
+  },
+  {
+   "p": "/it/blog/come-creare-un-secondo-cervello-2026",
+   "en": "/blog/how-to-build-a-second-brain",
+   "es": "/blog/how-to-build-a-second-brain",
+   "slug": "blog/come-creare-un-secondo-cervello-2026",
+   "imp": 5,
+   "clk": 0
+  }
+ ],
+ "pl": [
+  {
+   "p": "/pl/blog/jak-znalezc-zapisany-artykul-gdy-zapomnisz-tytulu-2026",
+   "en": "/blog/how-to-find-a-saved-article-you-forgot-the-title-of",
+   "es": "/blog/how-to-find-a-saved-article-you-forgot-the-title-of",
+   "slug": "blog/jak-znalezc-zapisany-artykul-gdy-zapomnisz-tytulu-2026",
+   "imp": 6,
+   "clk": 0
+  },
+  {
+   "p": "/pl/blog/readwise-reader-recenzja-2026",
+   "en": "/blog/readwise-reader-review-2026",
+   "es": "/blog/readwise-reader-review-2026",
+   "slug": "blog/readwise-reader-recenzja-2026",
+   "imp": 6,
+   "clk": 0
+  },
+  {
+   "p": "/pl/blog/metoda-para-dla-zakladek-2026",
+   "en": "/blog/para-method-for-bookmarks",
+   "es": "/blog/para-method-for-bookmarks",
+   "slug": "blog/metoda-para-dla-zakladek-2026",
+   "imp": 6,
+   "clk": 0
+  },
+  {
+   "p": "/pl/blog/jak-szukac-zakladek-z-ai-2026",
+   "en": "/blog/how-to-search-bookmarks-with-ai",
+   "es": "/blog/how-to-search-bookmarks-with-ai",
+   "slug": "blog/jak-szukac-zakladek-z-ai-2026",
+   "imp": 6,
+   "clk": 0
+  },
+  {
+   "p": "/pl/do-przeczytania-pozniej",
+   "en": "/read-it-later",
+   "es": "/read-it-later",
+   "slug": "do-przeczytania-pozniej",
+   "imp": 5,
+   "clk": 0
+  },
+  {
+   "p": "/pl/menedzer-zakladek-edge",
+   "en": "/bookmark-manager-for-edge",
+   "es": "/bookmark-manager-for-edge",
+   "slug": "menedzer-zakladek-edge",
+   "imp": 5,
+   "clk": 0
+  },
+  {
+   "p": "/pl/podsumowanie-youtube",
+   "en": "/youtube-summarizer",
+   "es": "/youtube-summarizer",
+   "slug": "podsumowanie-youtube",
+   "imp": 4,
+   "clk": 2
+  },
+  {
+   "p": "/pl/blog/najlepsze-aplikacje-do-czytania-na-pozniej-2026",
+   "en": "/blog/best-read-it-later-apps-2026",
+   "es": "/blog/best-read-it-later-apps-2026",
+   "slug": "blog/najlepsze-aplikacje-do-czytania-na-pozniej-2026",
+   "imp": 4,
+   "clk": 1
+  }
+ ],
+ "tr": [
+  {
+   "p": "/tr/tools/youtube-ozetleyici",
+   "en": "/tools/youtube-summarize",
+   "es": "/tools/youtube-summarize",
+   "slug": "tools/youtube-ozetleyici",
+   "imp": 6,
+   "clk": 0
+  },
+  {
+   "p": "/tr/gazeteciler-icin",
+   "en": "/for-journalists",
+   "es": "/for-journalists",
+   "slug": "gazeteciler-icin",
+   "imp": 5,
+   "clk": 0
+  },
+  {
+   "p": "/tr/seyahat-planlama",
+   "en": "/travel-planning",
+   "es": "/travel-planning",
+   "slug": "seyahat-planlama",
+   "imp": 5,
+   "clk": 0
+  }
+ ],
+ "nl": [
+  {
+   "p": "/nl/blog/stop-met-bladwijzers-organiseren-mappen-overbodig-2026",
+   "en": "/blog/stop-organizing-bookmarks-folders-obsolete",
+   "es": "/blog/stop-organizing-bookmarks-folders-obsolete",
+   "slug": "blog/stop-met-bladwijzers-organiseren-mappen-overbodig-2026",
+   "imp": 5,
+   "clk": 0
+  },
+  {
+   "p": "/nl/bladwijzer-manager-safari",
+   "en": "/bookmark-manager-for-safari",
+   "es": "/bookmark-manager-for-safari",
+   "slug": "bladwijzer-manager-safari",
+   "imp": 5,
+   "clk": 0
+  }
+ ]
+}

@@ -97,7 +97,7 @@ Bezahlte Cloud-Pläne haben eine 7-tägige Geld-zurück-Garantie, und der Export
 | Self-Hosting / Daten-Eigentum | **Ja — der Daseinszweck** | Nein |
 | Preis (all-in) | **Gratis self-hosted; 6 $/Monat Cloud** | Gratis-Plan; Pro 72 $/Jahr (≈ 6 $/Monat) |
 | Einrichtung nötig | Docker, Konfig, Wartung | **Keine — anmelden und speichern** |
-| Android-App | **Ja** | Nein (Web-App im Browser) |
+| Android-App | **Ja** | **Ja** |
 | Lokale/privates KI | **Ja, über Ollama** | Nein — gehosteter Dienst |
 | API / CLI / Webhooks | **Ja** | Keine öffentliche API |
 | KI-Auto-Tags | Ja (Qualität je nach Modell) | **Ja, konsistent, null Konfiguration** |

@@ -103,7 +103,7 @@ Dos notas al pie que importan. Primera: Reader no se vende por separado — si q
 | RSS + bandeja de newsletters | **Sí** | No |
 | PDF / EPUB | **Sí, lectura nativa** | Guarda páginas como PDF; sin EPUB |
 | Lectura sin conexión | **Sí (móvil)** | No |
-| Android | **Sí** | No (app web en el navegador) |
+| Android | **Sí** | **Sí** |
 | Búsqueda semántica en toda la biblioteca | Parcial (texto completo + filtros) | **Pro — busca por significado** |
 | Autoetiquetado | Limitado | **Pro — automático** |
 | IA en YouTube | Transcripciones dentro de la app | **Resumen, chat y transcripción en la propia página del vídeo** |

@@ -99,7 +99,7 @@ El plan en la nube está entre las opciones alojadas más baratas de toda la cat
 | Colaboración en equipo | **Colecciones compartidas, permisos** | Sin equipos (solo tableros públicos) |
 | Precio | **Gratis autoalojado; 3 $/mes en nube** | Plan gratuito; Pro 72 $/año (≈6 $/mes) |
 | API | **Sí** | Sin API pública |
-| Android | **Sí (app oficial nueva)** | No (app web en navegador) |
+| Android | **Sí (app oficial nueva)** | **Sí** |
 | Búsqueda | Palabras clave + operadores | **Semántica: encuentra guardados describiéndolos** |
 | Autoetiquetado | Etiquetado IA opcional | **Automático en cada guardado, sin configuración** |
 | Resúmenes con IA | No | **Sí** |

@@ -7,7 +7,7 @@ import { alternatesForPath } from '../../../i18n/routes';
 const path = '/tr/tools/youtube-ozetleyici';
 const title = 'YouTube Video Özetleyici Yapay Zeka – Ücretsiz ve Hızlı | Marqly';
 const description =
-  'YouTube video bağlantısını yapıştırın; yapay zeka saniyeler içinde kilit noktaları ve zaman damgalı özetleri çıkarsın. Ücretsiz, kayıtsız ve gerçek altyazılara dayalı.';
+  'YouTube bağlantısını yapıştırın; yapay zeka saniyeler içinde kilit noktaları ve özet çıkarsın. Ücretsiz, kayıtsız, doğrudan gerçek altyazılara dayalı.';
 
 const faqs = [
   {
@@ -23,8 +23,8 @@ const faqs = [
     a: 'Web aracı, çok uzun videolarda genellikle ilk 60 dakikalık altyazı üzerinden en önemli noktaları özetler. Saatler süren konferansların tamamını özetlemek veya videoyla soru-cevap yapmak için Marqly tarayıcı uzantısını kullanabilirsiniz.',
   },
   {
-    q: 'Bu araç gerçekten tamamen ücretsiz mi?',
-    a: 'Evet. Hesap açma veya kredi kartı gerekmeden sınırsızca ücretsiz kullanabilirsiniz.',
+    q: 'Bu araç gerçekten ücretsiz mi?',
+    a: 'Evet — hesap açmadan, kart girmeden kullanabilirsiniz. Bu, Marqly uzantısının her YouTube izleme sayfasında otomatik yaptığı işin bir tadımı: akan özet, önemli bölümler, oynatmayla senkronize transkript ve transkripte dayanan sohbet.',
   },
 ];
 
@@ -91,6 +91,8 @@ const jsonLd = [
       </ol>
       <p>
         Özet, videoda gerçekten konuşulan kelimeler taranarak oluşturulduğu için gereksiz dolambaçlı kısımlardan arındırılmış net bilgiler sunar.
+        Özet, videonun altyazı dosyası üzerinden üretildiğinden konuşmacının gerçekten söylediğini yansıtır. Bu, gerçek özet ile başlık ve
+        küçük resimden tahmin yürütme arasındaki farktır; altyazıları kapatılmış bir videonun özetlenememesinin nedeni de budur.
       </p>
 
       <h2>Video Özetlemenin En Çok İşe Yaradığı Alanlar</h2>
@@ -103,6 +105,14 @@ const jsonLd = [
       <p>
         Özet yerine videonun tüm kelime dökümüne ihtiyacınız varsa ücretsiz
         <a href="/tr/tools/youtube-transkript">YouTube Transkript Çıkarma</a> aracımızı kullanın.
+      </p>
+      <p>
+        Her gün video ayıklıyorsanız, bunu videoların yaşadığı yerde yapın: <a href="/tr/youtube-ozetleyici">Marqly uzantısı</a>, izleme
+        sayfasını açtığınız anda oynatıcının yanında özeti akıtır — önemli bölümler, videoda anılan kitaplar,
+        <a href="/tr/blog/youtube-video-transkripti-alma-2026">oynatmayla senkronize transkript</a> ve
+        <a href="/tr/blog/youtube-videolariyla-sohbet-etme-2026">transkripten yanıtlayan sohbet</a> ile. Kaydedilen videolar transkriptini
+        de yanında taşır; böylece aylar sonra bile söylediklerini arayıp alıntılayabilirsiniz. Uzun ders ve seminer videolarında okumak
+        izlemekten hep daha hızlıdır: kırk dakikalık bir oturumun dökümünü gözden geçirmek birkaç dakika sürer.
       </p>
     </Fragment>
   </ToolShell>

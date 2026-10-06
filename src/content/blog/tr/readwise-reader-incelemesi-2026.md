@@ -103,7 +103,7 @@ Reader, Readwise'ın senkronizasyon motorunun üzerinde seyrettiği için her vu
 | RSS + bülten gelen kutusu | **Evet** | Hayır |
 | PDF / EPUB | **Evet, yerleşik okuma** | Sayfaları PDF olarak kaydetme; EPUB yok |
 | Çevrimdışı okuma | **Evet (mobil)** | Hayır |
-| Android | **Evet** | Hayır (tarayıcıda web uygulaması) |
+| Android | **Evet** | **Evet** |
 | Kütüphane genelinde anlamsal arama | Tam metin + filtreler | **Pro — anlamla arama** |
 | Otomatik etiketleme | Sınırlı | **Pro, içe aktarmalar dahil** |
 | YouTube'da yapay zekâ | Uygulama içi transkriptler | **Özet, sohbet ve transkript videonun kendi sayfasında** |

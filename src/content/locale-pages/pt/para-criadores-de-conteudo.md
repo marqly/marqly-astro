@@ -3,13 +3,13 @@ lang: "pt"
 path: "/pt/para-criadores-de-conteudo"
 title: "Marqly para criadores de conteúdo"
 seoTitle: "Organizar referências e ideias de conteúdo com IA | Marqly"
-description: "Salve referências, threads, vídeos e anúncios que te inspiram. A IA marca e resume, e você acha a ideia exata na hora de criar. Plano grátis."
+description: "Salve referências, threads, vídeos e anúncios que te inspiram num só lugar: a IA marca e resume, e você acha a ideia exata na hora de criar."
 eyebrow: "Para criadores"
 hero:
   heading: "Você salvou aquela referência porque era ótima. Agora que precisa, ela não aparece"
   subheading: "O Marqly transforma sua pasta de salvos em algo consultável: tags automáticas, resumos e busca por significado, inclusive para vídeos."
 crumbHome: "Início"
-trustLine: "Plano grátis, sem cartão · Chrome, Edge, Firefox, Safari e iOS"
+trustLine: "Plano grátis, sem cartão · Chrome, Edge, Firefox, Safari, iOS e Android"
 faqHeading: "Perguntas frequentes"
 faqs:
   - q: "Dá para salvar coisas do Instagram, TikTok ou X?"
@@ -27,7 +27,7 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
-updatedDate: 2026-08-16
+updatedDate: 2026-10-07
 ---
 
 Criar conteúdo de forma constante depende menos de inspiração e mais de **ter referência à mão na hora de produzir**. E quase todo mundo usa o mesmo sistema: salvar coisas em cinco lugares diferentes e nunca voltar a nenhum.
@@ -79,6 +79,12 @@ Quando você salva uma página longa, o que serve costuma ser um parágrafo. Com
 | Roxo | Referência visual |
 | Laranja | Ideia concreta para um roteiro |
 
+## Pesquisa de tendência com meia-vida curta
+
+Pesquisa de tendência estraga rápido: o que você salvou na segunda precisa estar acessível quando o roteiro for escrito na quinta. A busca semântica cobre títulos, conteúdo, destaques e transcrições, então consultas de «cérebro roteirizando» funcionam: «aquele vídeo sobre por que canais sem rosto estão morrendo» encontra o salvamento sem título. Se você só conheceu busca por palavra-chave, [buscar favoritos com IA](/pt/blog/o-que-e-busca-semantica) mostra a diferença na prática.
+
+Os resumos de IA aceleram a varredura semanal — triagem de uma leva de posts de tendência e textos do setor em minutos, e você lê a fundo só o que merece. E o Q&A de IA do Pro sobre seus salvamentos é um assistente de pesquisa restrito à sua própria biblioteca: pergunte que ângulos você já colecionou sobre um tema antes de se vender o mesmo vídeo duas vezes. A pesquisa também acontece onde o feed te encontra: os apps de iOS e Android e o app web compartilham uma biblioteca só com a extensão, então a referência salva do celular à meia-noite está pesquisável na mesa de manhã. Durante a escrita, o painel lateral da extensão ganha o salário: busque o swipe file num painel ao lado do rascunho, em vez de alternar entre o doc e uma parede de abas de referência.
+
 ## Passar referências ao cliente
 
 Os quadros agrupam referências por projeto ou campanha e são publicados como página pública, que abre por link sem cadastro. Serve para mandar o moodboard, a seleção de exemplos ou a documentação de uma proposta sem anexar nada.
@@ -87,6 +93,14 @@ Não há edição colaborativa: é um quadro seu que outros podem ver.
 
 ## Comece
 
-Conta grátis e sem cartão em [app.marqly.com](https://app.marqly.com). Instale a extensão e, por uma semana, salve tudo o que chamar sua atenção sem organizar. Quando sentar para produzir, busque descrevendo o que lembra pela metade. Essa busca é o produto.
+1. Instale a extensão — Chrome, Edge, Firefox ou Safari.
+2. Importe a bagunça que você já tem: exportações HTML de favoritos do navegador, a exportação do Pocket (list.csv) e coleções do Raindrop.io (HTML) entram todas — a era «Assistir mais tarde» da sua pesquisa não se perde. As tags automáticas processam o acervo numa passada só, e ele vira swipe file pesquisável.
+3. Conta grátis e sem cartão em [app.marqly.com](https://app.marqly.com): salvamento, marca-texto e quadros são gratuitos; a busca semântica, as tags automáticas e os resumos vêm no Pro (72 USD/ano, com oferta recorrente de 49 USD no primeiro ano, ou 9 USD/mês).
+
+Por uma semana, salve tudo o que chamar sua atenção sem organizar. Quando sentar para produzir, busque descrevendo o que lembra pela metade. Essa busca é o produto.
+
+## O que o Marqly não é
+
+Para não deixar dúvida: o Marqly é a camada de pesquisa, não a stack de produção. Ele não agenda post, não edita vídeo, não gerencia calendário de conteúdo nem puxa analytics, e não tem colaboração de edição — um editor ou parceiro de escrita pode ver um quadro público, mas não trabalha dentro da sua biblioteca com você. Quem procura um hub de operações tudo-em-um deve olhar outro lugar; o panorama dos [melhores gerenciadores de favoritos com IA](/pt/blog/melhores-gerenciadores-favoritos-ia-2026) desenha o terreno com honestidade. Se o vazamento específico no seu processo são referências salvas que você nunca mais encontra, é isso que ele fecha.
 
 Se seu material vive em abas abertas, veja [salvar todas as abas](/pt/salvar-abas).

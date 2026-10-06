@@ -98,7 +98,7 @@ Der Cloud-Plan gehört zu den günstigsten gehosteten Optionen der gesamten Kate
 | Team-Zusammenarbeit | **Geteilte Sammlungen, Rechte** | Keine Teams (nur öffentliche Boards) |
 | Preis | **Gratis self-hosted; 3 $/Monat Cloud** | Gratis-Plan; Pro 72 $/Jahr (≈ 6 $/Monat) |
 | API | **Ja** | Keine öffentliche API |
-| Android | **Ja (neue offizielle App)** | Nein (Web-App im Browser) |
+| Android | **Ja (neue offizielle App)** | **Ja** |
 | Suche | Keywords + Operatoren | **Semantisch — Saves per Beschreibung finden** |
 | Automatische Tags | Optionales KI-Tagging | **Automatisch bei jedem Speichern, null Konfiguration** |
 | KI-Zusammenfassungen | Nein | **Ja** |

@@ -102,7 +102,7 @@ Zwei Fußnoten, die zählen. Erstens: Reader wird nicht einzeln verkauft — wer
 | RSS + Newsletter-Eingang | **Ja** | Nein |
 | PDFs / EPUBs | **Ja, nativ lesbar** | Seiten als PDF speichern; kein EPUB |
 | Offline-Lesen | **Ja (mobil)** | Nein |
-| Android | **Ja** | Nein (Web-App im Browser) |
+| Android | **Ja** | **Ja** |
 | Semantische Suche über die Bibliothek | Teilweise (Volltext + Filter) | **Pro — Suche nach Bedeutung** |
 | Auto-Tags | Begrenzt | **Pro — automatisch** |
 | KI bei YouTube | Transkripte in der App | **Zusammenfassung, Chat, Transkript direkt auf der Wiedergabeseite** |

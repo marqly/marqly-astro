@@ -97,7 +97,7 @@ Los planes de pago en la nube incluyen garantía de devolución de 7 días, y la
 | Autoalojo / propiedad de datos | **Sí — toda su razón de ser** | No |
 | Precio (todo incluido) | **Gratis autoalojado; nube 4 USD/mes** | Plan gratuito; Pro 72 USD/año (≈6 USD/mes) |
 | Configuración necesaria | Docker, ajustes, mantenimiento | **Ninguna — regístrate y guarda** |
-| App de Android | **Sí** | No (app web en el navegador) |
+| App de Android | **Sí** | **Sí** |
 | IA local/privada | **Sí, vía Ollama** | No — servicio alojado |
 | API / CLI / webhooks | **Sí** | Sin API pública |
 | Autoetiquetado con IA | Sí (calidad según modelo) | **Sí, consistente, sin configuración** |

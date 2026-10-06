@@ -103,7 +103,7 @@ Due note che contano. Prima: Reader non si compra a sé — se vuoi l'app di let
 | RSS + inbox newsletter | **Sì** | No |
 | PDF / EPUB | **Sì, lettura nativa** | Pagine salvate come PDF; niente EPUB |
 | Lettura offline | **Sì (mobile)** | No |
-| Android | **Sì** | No (app web nel browser) |
+| Android | **Sì** | **Sì** |
 | Ricerca semantica sull'intera libreria | Full-text + filtri | **Pro — cerca per significato** |
 | Auto-tagging | Limitato | **Pro, importati inclusi** |
 | IA su YouTube | Trascrizioni nell'app | **Riassunto, chat e trascrizione sulla pagina di riproduzione stessa** |
