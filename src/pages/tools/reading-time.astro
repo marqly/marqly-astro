@@ -58,20 +58,34 @@ const jsonLd = [
 <LandingLayout title={title} description={description} jsonLd={jsonLd} ogImage="https://www.marqly.com/og/seo/tool-reading-time.png">
   <ToolShell
     name="Reading time calculator"
-    heading="How long will it take to read?"
-    sub="Paste text and get word count, character count, reading time, and speaking time — live, as you type. Nothing leaves your browser."
+    heading="Reading Time & Word Count Calculator"
+    sub="Paste text to calculate reading and speaking time, word count, and character count in real time with customizable reading speeds. 100% private in your browser."
     faqs={faqs}
     ctaHeading="Reading list longer than your reading time?"
     ctaSub="Save articles to Marqly and AI summarizes them — triage a backlog in minutes, then read only what earns the time."
   >
     <label for="rt-in">Your text</label>
     <textarea id="rt-in" placeholder="Paste an article, essay, script, or chapter…"></textarea>
+
+    <div class="speed-controls" role="group" aria-label="Reading speed controls">
+      <div class="speed-presets">
+        <span class="speed-label">Reading pace:</span>
+        <button type="button" class="speed-btn" data-wpm="180">Slow (180 wpm)</button>
+        <button type="button" class="speed-btn is-active" data-wpm="238">Average (238 wpm)</button>
+        <button type="button" class="speed-btn" data-wpm="300">Fast (300 wpm)</button>
+      </div>
+      <div class="speed-custom">
+        <label for="rt-custom-wpm" class="custom-label">Custom WPM:</label>
+        <input id="rt-custom-wpm" type="number" min="50" max="1000" value="238" aria-label="Custom words per minute" />
+      </div>
+    </div>
+
     <div
       style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: var(--space-4); margin-top: var(--space-5);"
     >
       <div>
         <div id="rt-read" style="font-size: var(--fs-h3); font-weight: 600; color: var(--ink-1);">0 sec</div>
-        <div style="font-size: var(--fs-sm); color: var(--ink-3);">Reading time (238 wpm)</div>
+        <div id="rt-read-label" style="font-size: var(--fs-sm); color: var(--ink-3);">Reading time (238 wpm)</div>
       </div>
       <div>
         <div id="rt-speak" style="font-size: var(--fs-h3); font-weight: 600; color: var(--ink-1);">0 sec</div>
@@ -224,14 +238,79 @@ const jsonLd = [
   </ToolShell>
 </LandingLayout>
 
+<style>
+  .speed-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-4);
+    margin-top: var(--space-4);
+    padding-top: var(--space-4);
+    border-top: 1px solid var(--border-1);
+  }
+  .speed-presets {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-2);
+  }
+  .speed-label {
+    font-size: var(--fs-xs, 0.75rem);
+    font-weight: 500;
+    color: var(--ink-3);
+    margin-right: var(--space-1);
+  }
+  .speed-btn {
+    font: inherit;
+    font-size: var(--fs-xs, 0.75rem);
+    font-weight: 500;
+    padding: var(--space-1, 4px) var(--space-3, 10px);
+    border-radius: var(--radius-sm, 4px);
+    border: 1px solid var(--border-1);
+    background: var(--surface-2);
+    color: var(--ink-2);
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+  .speed-btn:hover {
+    color: var(--ink-1);
+    border-color: var(--ink-3);
+  }
+  .speed-btn.is-active {
+    background: var(--ink-1);
+    color: var(--surface-1, #fff);
+    border-color: var(--ink-1);
+  }
+  .speed-custom {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+  }
+  .custom-label {
+    margin-bottom: 0 !important;
+    font-size: var(--fs-xs, 0.75rem) !important;
+    color: var(--ink-3) !important;
+    white-space: nowrap;
+  }
+  #rt-custom-wpm {
+    width: 80px;
+    padding: var(--space-1, 4px) var(--space-2, 8px);
+    font-size: var(--fs-xs, 0.75rem);
+  }
+</style>
+
 <script>
   const input = document.getElementById('rt-in') as HTMLTextAreaElement;
   const readEl = document.getElementById('rt-read')!;
+  const readLabelEl = document.getElementById('rt-read-label')!;
   const speakEl = document.getElementById('rt-speak')!;
   const wordsEl = document.getElementById('rt-words')!;
   const charsEl = document.getElementById('rt-chars')!;
+  const customWpmInput = document.getElementById('rt-custom-wpm') as HTMLInputElement | null;
+  const presetBtns = document.querySelectorAll<HTMLButtonElement>('.speed-btn');
 
-  const READ_WPM = 238;
+  let readWpm = 238;
   const SPEAK_WPM = 150;
 
   function fmtDuration(minutes: number): string {
@@ -251,8 +330,40 @@ const jsonLd = [
     const words = text.trim() === '' ? 0 : text.trim().split(/\s+/).length;
     wordsEl.textContent = words.toLocaleString();
     charsEl.textContent = text.length.toLocaleString();
-    readEl.textContent = fmtDuration(words / READ_WPM);
+    readEl.textContent = fmtDuration(words / readWpm);
     speakEl.textContent = fmtDuration(words / SPEAK_WPM);
+  }
+
+  function setReadingSpeed(wpm: number, syncInput = true) {
+    if (isNaN(wpm) || wpm < 10) return;
+    readWpm = wpm;
+    if (readLabelEl) {
+      readLabelEl.textContent = `Reading time (${readWpm} wpm)`;
+    }
+    presetBtns.forEach(btn => {
+      const btnWpm = parseInt(btn.dataset.wpm || '0', 10);
+      btn.classList.toggle('is-active', btnWpm === readWpm);
+    });
+    if (syncInput && customWpmInput) {
+      customWpmInput.value = readWpm.toString();
+    }
+    update();
+  }
+
+  presetBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const wpm = parseInt(btn.dataset.wpm || '238', 10);
+      setReadingSpeed(wpm, true);
+    });
+  });
+
+  if (customWpmInput) {
+    customWpmInput.addEventListener('input', () => {
+      const val = parseInt(customWpmInput.value, 10);
+      if (!isNaN(val) && val >= 10 && val <= 2000) {
+        setReadingSpeed(val, false);
+      }
+    });
   }
 
   input.addEventListener('input', update);

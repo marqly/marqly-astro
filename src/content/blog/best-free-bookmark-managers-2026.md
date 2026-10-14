@@ -136,14 +136,14 @@ Practically, that means the cost of choosing "wrong" today is an afternoon, not 
 ## How to choose
 
 1. **You want unlimited free collecting with great apps** → Raindrop.io. (See our [Marqly vs Raindrop comparison](/compare/marqly-vs-raindrop)).
-2. **You want to find saves by describing them, without paying** → Marqly.
+2. **You want free highlights, tab saving, and whole-library keyword search with an AI upgrade path** → Marqly.
 3. **You want your archive to outlive every startup on this page** → Linkwarden, self-hosted. (See [Marqly vs Linkwarden](/compare/marqly-vs-linkwarden)).
 4. **You want AI features and full data ownership** → Karakeep, self-hosted. (See [Marqly vs Karakeep](/compare/marqly-vs-karakeep)).
 5. **You have 40 bookmarks and no pain** → your browser is fine. Bookmark this page for later.
 
 For full side-by-side feature tables, explore our complete [Compare directory](/compare), or take the [Bookmark Retrieval Benchmark protocol](/blog/ai-bookmark-retrieval-benchmark-2026) and test retrieval against the five saves you actually lost.
 
-A last honest note: "free" always has a shape. Raindrop's free is limited by features, Marqly's by tier, Linkwarden's and Karakeep's by your ops time, the browser's by scale. Pick the shape you can live with. If retrieval is the pain — you save plenty and find nothing — start with the free tier built around search-by-meaning: [get started free](https://app.marqly.com), import your existing bookmarks, and search for something you saved months ago by describing it.
+A last honest note: "free" always has a shape. Raindrop's free is limited by features, Marqly's by tier, Linkwarden's and Karakeep's by your ops time, the browser's by scale. Pick the shape you can live with. If you want structured manual organization with Web highlights and board collections without paying — and the option to add AI semantic search later on Pro — start with the free tier: [get started free](https://app.marqly.com), import your existing bookmarks, and organize up to 100 saves across devices.
 
 ---
 

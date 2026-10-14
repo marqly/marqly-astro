@@ -3,7 +3,7 @@ import LandingLayout from '../../layouts/LandingLayout.astro';
 import ToolShell from '../../components/seo/ToolShell.astro';
 import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../lib/schema';
 
-const title = 'Free YouTube Chapter Generator — Timestamps From Any Video';
+const title = 'YouTube Chapter Generator — Timestamps from Transcripts';
 const description =
   'Paste a YouTube link and get timestamped chapters you can paste straight into the description. Free, no signup — generated from the video’s own transcript.';
 
@@ -54,8 +54,8 @@ const jsonLd = [
 <LandingLayout title={title} description={description} jsonLd={jsonLd}>
   <ToolShell
     name="YouTube chapter generator"
-    heading="Generate YouTube chapters from any video"
-    sub="Paste a link, get timestamped chapters ready to paste into the description. Free, no signup — built from the video's own transcript."
+    heading="Generate YouTube chapters from video transcripts"
+    sub="Paste a link, get timestamped chapters ready to paste into the description. Free, no signup — built from the video's captions and transcript."
     faqs={faqs}
     ctaHeading="Keep the videos you learn from"
     ctaSub="Marqly saves YouTube videos with their transcript attached, adds an AI summary on the watch page, and finds them later when you only remember what they were about."

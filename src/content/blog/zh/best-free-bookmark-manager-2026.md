@@ -138,14 +138,14 @@ Chrome、Firefox、Safari、Edge 都自带书签管理器：免费、即时、�
 ## 怎么选
 
 1. **要无限量的免费收藏 + 优秀客户端** → Raindrop.io。（看我们的 [Marqly vs Raindrop 对比](/zh/compare/marqly-vs-raindrop)。）
-2. **想用描述找回收藏，且一分钱不花** → Marqly（语义搜索包含在 Pro 中，免费层先把全库关键词搜索用稳）。
+2. **免绑卡免费使用网页高亮、标签页保存与全库关键词搜索，并保留未来升级 AI 的路径** → Marqly。
 3. **要让存档比本页任何一家创业公司都活得久** → 自建 Linkwarden。（看 [Marqly vs Linkwarden](/compare/marqly-vs-linkwarden)。）
 4. **要 AI 能力，也要数据主权** → 自建 Karakeep。（看 [Marqly vs Karakeep](/compare/marqly-vs-karakeep)。）
 5. **只有 40 条书签，毫无痛感** → 浏览器就很好。把本页存个书签以后看。
 
 想要完整的并排功能表，翻遍我们的[对比目录](/compare)，或者拿[书签找回基准测试协议](/blog/ai-bookmark-retrieval-benchmark-2026)去实测——就用你真丢掉的那五条。
 
-最后再说一句诚实话：「免费」总有形状。Raindrop 的免费由功能设限，Marqly 的由额度分层，Linkwarden 与 Karakeep 的由你的运维时间买单，浏览器的由规模封顶。选一个你能长期共处的形状。如果你的痛点是*找回*——收藏很多、找到很少——就从以按含义搜索为核心的免费层开始：[免费开始使用](https://app.marqly.com)，导入现有书签，然后凭记忆描述，搜出一条几个月前存下的东西。
+最后再说一句诚实话：「免费」总有形状。Raindrop 的免费由功能设限，Marqly 的由额度分层，Linkwarden 与 Karakeep 的由你的运维时间买单，浏览器的由规模封顶。选一个你能长期共处的形状。如果你的痛点是「结构化整理与可靠的关键词搜索」，希望在零成本体验高亮与看板的同时保留升级 AI 语义搜索的可能，就从免绑卡的 Marqly 免费方案（上限 100 条）开始：[免费开始使用](https://app.marqly.com)，导入现有书签，体验全库搜索与跨设备高亮。
 
 ---
 

@@ -90,6 +90,14 @@ const ALWAYS_WRONG = [
   // languages saying "try for free" — normalized 2026-10-05; these exact CTA
   // forms must never return (a "try" button implies a trial that doesn't exist).
   [/\bTry Marqly free\b|Marqly kostenlos testen|無料で試す|免费体验|免费试用 Marqly|Prueba Marqly gratis|Prova Marqly gratis|Essayer Marqly gratuitement|Wypróbuj Marqly za darmo|Probeer Marqly gratis|ücretsiz deneyin/i, 'CTA must read "get started free" in each language, never "try for free" (no trial exists; sweep 2026-10-05)'],
+  // Truth sweep 2026-10-14: Free tier includes whole-library keyword search and
+  // web highlights up to 100 bookmarks; semantic search, AI auto-tagging, and
+  // AI summaries are strictly Pro features. Never promise AI on the Free tier.
+  [/(?:semantic search|search-by-meaning|ai auto-tagging|ai summaries)\s*(?:on the free (?:tier|plan)|for free without paying|included in (?:the )?free)|(?:free tier|free plan|without paying)\s*[^.]{0,40}?(?:includes?|gives you|lets you use|built around)\s*(?:semantic search|search-by-meaning|ai auto-tagging)|(?:돈\s*없이도|결제\s*없이도)[^.]{0,30}?(?:설명만으로|시맨틱)|(?:お金なしに|無料で)[^.]{0,30}?[「『]説明して/i, 'AI features (semantic search, auto-tagging, summaries) are Pro only; Free tier has keyword search and web highlights'],
+  // Stale 2,000 bookmark free tier limit (historical import promotion, retired).
+  [/\bmarqly\b[^.]{0,60}?\b(?:2[,.]?000|2000)\s*(?:free\s+bookmarks?|bookmarks?\s+free)|(?:2[,.]?000|2000)\s*(?:無料ブックマーク|무료 북마크)/i, 'Marqly free tier allows saving/accessing up to 100 bookmarks, not 2,000 (retired 2026-10-14)'],
+  // Stale $39 first-year coupon (introductory annual offer is $49 with code STANDING49).
+  [/\bmarqly\b[^.]{0,60}?(?:\$39|39\s*ドル)\s*(?:first year|coupon|初年度|クーポン)|(?:\$39|39\s*ドル)\s*(?:first year|coupon|初年度|クーポン)[^.]{0,60}?\bmarqly\b/i, 'Marqly introductory annual offer is $49 with code STANDING49, not $39 (retired 2026-10-14)'],
 ];
 /**
  * Capabilities Marqly does NOT have (public API, self-hosting, file storage).

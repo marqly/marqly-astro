@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
   "source": "Google Search Console Search Analytics API",
-  "status": "live pull 2026-10-06",
+  "status": "live pull 2026-10-14",
   "completion": "complete",
-  "generatedAt": "2026-10-06T11:01:45.418Z",
-  "pullDate": "2026-10-06",
+  "generatedAt": "2026-10-14T08:03:58.281Z",
+  "pullDate": "2026-10-14",
   "site": "sc-domain:marqly.com",
-  "startDate": "2025-06-06",
-  "endDate": "2026-10-03",
+  "startDate": "2025-06-14",
+  "endDate": "2026-10-11",
   "window": {
     "kind": "default16mo",
     "months": 16
@@ -46,15 +46,15 @@
     ]
   },
   "rowCounts": {
-    "query": 8063,
-    "page": 2037,
-    "query_page": 10335,
+    "query": 9028,
+    "page": 2105,
+    "query_page": 11628,
     "country": 225,
     "device": 3,
     "date": 485,
-    "country_page": 8363,
-    "country_query": 22456,
-    "page_country_date": 8363
+    "country_page": 9095,
+    "country_query": 25106,
+    "page_country_date": 9095
   },
   "pulls": {
     "query": {
@@ -62,24 +62,24 @@
       "dimensions": [
         "query"
       ],
-      "rows": 8063,
+      "rows": 9028,
       "truncated": false,
       "truncationScope": "No client-side row cap; Search Console API coverage limits still apply.",
       "paginationExhausted": true,
-      "startDate": "2025-06-06",
-      "endDate": "2026-10-03"
+      "startDate": "2025-06-14",
+      "endDate": "2026-10-11"
     },
     "page": {
       "file": "page.csv",
       "dimensions": [
         "page"
       ],
-      "rows": 2037,
+      "rows": 2105,
       "truncated": false,
       "truncationScope": "No client-side row cap; Search Console API coverage limits still apply.",
       "paginationExhausted": true,
-      "startDate": "2025-06-06",
-      "endDate": "2026-10-03"
+      "startDate": "2025-06-14",
+      "endDate": "2026-10-11"
     },
     "query_page": {
       "file": "query_page.csv",
@@ -87,12 +87,12 @@
         "query",
         "page"
       ],
-      "rows": 10335,
+      "rows": 11628,
       "truncated": false,
       "truncationScope": "No client-side row cap; Search Console API coverage limits still apply.",
       "paginationExhausted": true,
-      "startDate": "2025-06-06",
-      "endDate": "2026-10-03"
+      "startDate": "2025-06-14",
+      "endDate": "2026-10-11"
     },
     "country": {
       "file": "country.csv",
@@ -103,8 +103,8 @@
       "truncated": false,
       "truncationScope": "No client-side row cap; Search Console API coverage limits still apply.",
       "paginationExhausted": true,
-      "startDate": "2025-06-06",
-      "endDate": "2026-10-03"
+      "startDate": "2025-06-14",
+      "endDate": "2026-10-11"
     },
     "device": {
       "file": "device.csv",
@@ -115,8 +115,8 @@
       "truncated": false,
       "truncationScope": "No client-side row cap; Search Console API coverage limits still apply.",
       "paginationExhausted": true,
-      "startDate": "2025-06-06",
-      "endDate": "2026-10-03"
+      "startDate": "2025-06-14",
+      "endDate": "2026-10-11"
     },
     "date": {
       "file": "date.csv",
@@ -127,8 +127,8 @@
       "truncated": false,
       "truncationScope": "No client-side row cap; Search Console API coverage limits still apply.",
       "paginationExhausted": true,
-      "startDate": "2025-06-06",
-      "endDate": "2026-10-03"
+      "startDate": "2025-06-14",
+      "endDate": "2026-10-11"
     },
     "country_page": {
       "file": "country_page.csv",
@@ -136,12 +136,12 @@
         "country",
         "page"
       ],
-      "rows": 8363,
+      "rows": 9095,
       "truncated": false,
       "truncationScope": "No client-side row cap; Search Console API coverage limits still apply.",
       "paginationExhausted": true,
-      "startDate": "2025-06-06",
-      "endDate": "2026-10-03"
+      "startDate": "2025-06-14",
+      "endDate": "2026-10-11"
     },
     "country_query": {
       "file": "country_query.csv",
@@ -149,12 +149,12 @@
         "country",
         "query"
       ],
-      "rows": 22456,
+      "rows": 25106,
       "truncated": false,
       "truncationScope": "No client-side row cap; Search Console API coverage limits still apply.",
       "paginationExhausted": true,
-      "startDate": "2025-06-06",
-      "endDate": "2026-10-03"
+      "startDate": "2025-06-14",
+      "endDate": "2026-10-11"
     },
     "page_country_date": {
       "file": "page_country_date.csv",
@@ -162,12 +162,12 @@
         "page",
         "country"
       ],
-      "rows": 8363,
+      "rows": 9095,
       "truncated": false,
       "truncationScope": "No client-side row cap; Search Console API coverage limits still apply.",
       "paginationExhausted": true,
-      "startDate": "2025-06-06",
-      "endDate": "2026-10-03"
+      "startDate": "2025-06-14",
+      "endDate": "2026-10-11"
     }
   },
   "coverage": "All rows available to this aggregate API request were paginated until exhaustion. This is not exhaustive Google search data: Search Console may omit anonymized/privacy-protected queries, drop some query/page rows, and returns at most 50,000 rows per day per search type.",

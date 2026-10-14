@@ -108,7 +108,7 @@ It sounds tedious and it's the option most likely to leave you better off, becau
 
 `saved_posts.json` is structured, so a short script — or an AI assistant given the file's shape — can convert it into a **standard bookmarks HTML file**, the same `<DT><A HREF=...>` format every browser exports. That's the universal import format, and once you have one you can check it in a [bookmark file viewer](/tools/bookmark-file-viewer) before importing it anywhere.
 
-From there it imports like a [Chrome bookmarks export](/blog/how-to-import-chrome-bookmarks-to-ai): Marqly ingests standard bookmark HTML, fetches each page, then tags and indexes it. One limit, stated plainly — Marqly doesn't parse Instagram's `saved_posts.json` directly, and Instagram resists automated fetching, so what comes back is thinner than a normal article import.
+From there it imports like a [Chrome bookmarks export](/blog/how-to-import-chrome-bookmarks-to-ai): Marqly ingests standard bookmark HTML, fetches each page, and makes the full library searchable (with AI auto-tagging and semantic search on Pro). One limit, stated plainly — Marqly doesn't parse Instagram's `saved_posts.json` directly, and Instagram resists automated fetching, so what comes back is thinner than a normal article import.
 
 ### Option C: rebuild the collection deliberately
 
@@ -121,7 +121,7 @@ Exporting solves the past. The next thousand saves rebuild the same problem, bec
 The pattern that holds:
 
 - **Keep using Instagram's Save button** as a fast, in-feed inbox. It's good at that.
-- **Save the keepers out** when you recognize them. Share the post to your browser or open it and save it in one click — the link, plus a tag, plus a sentence of your own. Later, [describe what you remember](/faq/how-do-i-find-a-bookmark-i-forgot-the-title-of) and it comes back: "the video about fixing a squeaky door hinge" finds it without a caption, a handle, or a hashtag. That's [semantic search](/blog/how-to-search-bookmarks-with-ai) doing the job Instagram's saved grid never could.
+- **Save the keepers out** when you recognize them. Share the post to your browser or open it and save it in one click — the link, plus a tag, plus a sentence of your own. Later, [describe what you remember](/faq/how-do-i-find-a-bookmark-i-forgot-the-title-of) and it comes back: "the video about fixing a squeaky door hinge" finds it without a caption, a handle, or a hashtag. That's [semantic search](/blog/how-to-search-bookmarks-with-ai) (Pro) doing the job Instagram's saved grid never could.
 
 Instagram stays your discovery feed. The things you want in five years live somewhere with an export button.
 

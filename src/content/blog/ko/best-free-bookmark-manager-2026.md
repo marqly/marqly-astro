@@ -140,14 +140,14 @@ Chrome, Firefox, Safari, Edge 모두 북마크 관리자를 기본 탑재했습�
 ## 어떤 것을 고를까
 
 1. **무제한 무료 수집 + 완성도 높은 앱** → Raindrop.io. ([Marqly vs Raindrop 비교](/ko/compare/marqly-vs-raindrop)도 있습니다.)
-2. **돈 없이도 설명만으로 저장을 찾고 싶다** → Marqly.
+2. **카드 등록 없이 웹 하이라이트와 탭 저장을 무료로 쓰고, 나중에 AI 검색으로 확장하고 싶다** → Marqly.
 3. **이 페이지의 어느 스타트업보다 오래 살 아카이브** → Linkwarden, 셀프호스팅. ([Marqly vs Linkwarden](/compare/marqly-vs-linkwarden))
 4. **AI 기능 + 데이터 완전 소유** → Karakeep, 셀프호스팅. ([Marqly vs Karakeep](/compare/marqly-vs-karakeep))
 5. **북마크 40개, 고민 없음** → 브라우저로 충분합니다. 이 페이지는 나중에 볼 용도로 저장해 두세요.
 
 열어 놓고 비교하는 기능 표 전체는 [비교 디렉터리](/compare)에서 확인할 수 있고, [북마크 검색 벤치마크 프로토콜](/blog/ai-bookmark-retrieval-benchmark-2026)을 가져와 실제로 잃어버린 다섯 개에 대해 검색을 시험해 볼 수도 있습니다.
 
-마지막으로 정직한 한마디: '무료'에는 언제나 형태가 있습니다. Raindrop 무료는 기능으로 제한되고, Marqly 무료는 티어로, Linkwarden과 Karakeep은 운영 시간으로, 브라우저는 규모로 제한됩니다. 감당할 수 있는 형태를 고르세요. 아픔이 '검색' 그 자체라면 — 많이 저장하고 아무것도 못 찾는다면 — 의미 검색을 중심으로 만든 무료 티어부터 시작하세요. [Marqly를 무료로 시작](https://app.marqly.com)하고 기존 북마크를 가져온 뒤, 몇 달 전 저장한 것을 설명하는 말로 검색해 보세요.
+마지막으로 정직한 한마디: '무료'에는 언제나 형태가 있습니다. Raindrop 무료는 기능으로 제한되고, Marqly 무료는 티어로, Linkwarden과 Karakeep은 운영 시간으로, 브라우저는 규모로 제한됩니다. 감당할 수 있는 형태를 고르세요. 아픔이 '손쉬운 정리와 확실한 키워드 검색'에 있고, 하이라이트나 보드를 쓰면서 차후 AI 의미 검색 도입까지 고려한다면, 카드 등록 없는 Marqly 무료 플랜(최대 100개)부터 시작해 보세요. [Marqly를 무료로 시작](https://app.marqly.com)하고 기존 북마크를 가져와 라이브러리 전체 검색과 하이라이트를 시험해 보세요.
 
 ---
 

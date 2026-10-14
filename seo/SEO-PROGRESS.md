@@ -38,7 +38,11 @@ Mission: page-1 (pos 6–12) → top 3. Constraints in leverage order: authority
 - [x] Genuine UI fallback: six-month raw bundle preserved; exact 90-day query/page/country/device/date CSVs ingested with provenance and immutable snapshots. Query/page each reach 1,000 rows.
 - [x] Owner granted Full access; both real API datasets collected (nine pulls each), query×page analysis and opportunity scoring generated. Canonical manifest is live API / complete. UI fallback remains archived. Bing’s existing read-only connection and apex/www registration verified; sitemap resubmitted and IndexNow key prepared.
 
-### Phase 1 — remaining (GSC/data-dependent)
+### Phase 1 — remaining & completed
+- [x] **Product-truth regression sweep (2026-10-14)**: Disproved semantic search on Free tier across 7 surfaces (EN/JA/KO/ZH blog roundups, /migrate/raindrop, /migrate/mymind, /alternatives/[slug]). Extended Gate 2 in `active/scripts/seo-check.mjs` with 3 automated truth regression checks (free AI promises, 2,000 free bookmarks, $39 coupon).
+- [x] **Workstream A: Alternatives & Intent Differentiation (2026-10-14)**: Overhauled `/alternatives/pinterest` intent — replaced generic folder fatigue with authentic feed ad clutter, dead/scraper links switch drivers, and honest task-matching decision matrix (Creative Inspiration -> mymind/Are.na/Cosmos/Savee; Visual Bookmarking -> Raindrop/Marqly; Article Retrieval/Research -> Marqly).
+- [x] **Workstream D: Core High-Impression Tools (2026-10-14)**: Captured high-impression "thumbnail grabber" query on `/tools/youtube-thumbnail-downloader` (title/meta/H1/schema); removed overpromise on `/tools/youtube-chapter-generator` ("Timestamps from Transcripts"); expanded `/tools/reading-time` (title/H1 + interactive 180/238/300/custom WPM controls with dynamic recalculation).
+- [x] **Workstream C: International Intent (2026-10-14)**: Softened Korean and Japanese X/Twitter bookmark export ceiling (800–1,000 items) to observed infinite scroll rendering/API pagination limit; qualified AI features with `(Pro)`.
 - [ ] 1.2 prompt-gallery prune — ADR-002 ready; needs per-URL clicks. Do not treat URLs missing from the capped UI export as zero-demand.
 - [ ] 1.3 FAQ merge-by-demand — 51 faq under 500 units are mostly legit QAPages; the 2 thin ones expanded. Merge only once GSC shows which cannibalise. (Not padded.)
 - [ ] 1.7 hand-tune top-100 titles beyond the ≤60 clamp — needs GSC impression ranking.

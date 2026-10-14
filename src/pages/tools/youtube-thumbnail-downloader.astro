@@ -3,9 +3,9 @@ import LandingLayout from '../../layouts/LandingLayout.astro';
 import ToolShell from '../../components/seo/ToolShell.astro';
 import { breadcrumbList, faqPage, freeWebApplication, organization, webSite } from '../../lib/schema';
 
-const title = 'YouTube Thumbnail Downloader — Free HD, No Watermark';
+const title = 'YouTube Thumbnail Grabber & Downloader — Free HD Thumbnails';
 const description =
-  'Download available YouTube video and Shorts thumbnails in HD and standard sizes. Free, no signup, no watermark, and no server upload.';
+  'Download and grab YouTube video and Shorts thumbnails in HD and original sizes. Free in-browser thumbnail grabber with no watermark and no signup.';
 const path = '/tools/youtube-thumbnail-downloader';
 const faqs = [
   {
@@ -38,15 +38,15 @@ const jsonLd = [
   webSite(),
   breadcrumbList([{ name: 'Home', path: '/' }, { name: 'Free tools', path: '/tools' }, { name: 'YouTube thumbnail downloader', path }]),
   faqPage(faqs),
-  freeWebApplication('YouTube Thumbnail Downloader', description, path),
+  freeWebApplication('YouTube Thumbnail Grabber & Downloader', description, path),
 ];
 ---
 
 <LandingLayout title={title} description={description} jsonLd={jsonLd} ogImage="https://www.marqly.com/og/seo/tool-youtube-thumbnail-downloader.png">
   <ToolShell
-    name="YouTube thumbnail downloader"
-    heading="Download a YouTube thumbnail"
-    sub="Paste a video, Short, live, or youtu.be link. We show every thumbnail size YouTube actually has — no signup or watermark."
+    name="YouTube thumbnail grabber and downloader"
+    heading="YouTube Thumbnail Downloader & Grabber"
+    sub="Paste a video, Short, live stream, or youtu.be link. Instantly preview and download all available thumbnail sizes from YouTube — free, private, no signup."
     faqs={faqs}
     ctaHeading="Save the video behind the thumbnail"
     ctaSub="Marqly saves YouTube videos with their transcript, AI summary, and searchable context — not just the cover image."

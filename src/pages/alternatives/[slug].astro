@@ -38,7 +38,35 @@ const description =
 const edges = marqlyEdges(marqly, subject, 3);
 const marqlyWhy = `Marqly covers the core job — save, organize, retrieve — and adds ${
   edges.length ? edges.join(', ') : 'an AI organization layer'
-} that ${subject.name} ${subject.status === 'shutdown' ? 'never had' : "doesn't offer"}. Every save is auto-tagged and summarized, and semantic search finds things by meaning. Free tier, no card required.`;
+} that ${subject.name} ${subject.status === 'shutdown' ? 'never had' : "doesn't offer"}. On Pro, every save is auto-tagged and summarized, and semantic search finds things by meaning. Free plan available to start with up to 100 bookmarks, no card required.`;
+
+const switchReasons = subject.slug === 'pinterest' ? [
+  {
+    title: 'Ad saturation & sponsored pins',
+    text: 'Promoted pins appear roughly every 4–6 items with no paid way to remove them, turning personal boards into commercial feeds.',
+  },
+  {
+    title: 'Link rot & broken outbound links',
+    text: 'Pins frequently point to deleted blog posts, 404s, or spam redirects, with no permanent text capture or archive.',
+  },
+  {
+    title: 'Discovery over personal retrieval',
+    text: 'Pinterest is built for algorithmic discovery of public ideas, making it hard to search and retrieve your own notes, articles, and research.',
+  },
+] : [
+  {
+    title: 'Folder fatigue & filing friction',
+    text: 'Manual categorization into collections becomes unsustainable as your library grows into thousands of saves.',
+  },
+  {
+    title: 'Keyword search limits',
+    text: 'When you forget the exact title or tags, keyword search comes up empty. AI semantic search finds bookmarks by meaning.',
+  },
+  {
+    title: 'Missing AI workflows',
+    text: 'No automatic summaries, no YouTube transcript indexing, and no conversational chat across your library.',
+  },
+];
 
 const crumbs = [
   { name: 'Home', path: '/' },
@@ -111,18 +139,12 @@ const others = competitors.filter((c) => c.slug !== subject.slug);
             While {subject.name} has loyal users, power bookmarkers frequently switch due to common limitations:
           </p>
           <div class="why-switch-grid">
-            <div class="why-switch-card">
-              <h4>Folder fatigue &amp; filing friction</h4>
-              <p>Manual categorization into collections becomes unsustainable as your library grows into thousands of saves.</p>
-            </div>
-            <div class="why-switch-card">
-              <h4>Keyword search limits</h4>
-              <p>When you forget the exact title or tags, keyword search comes up empty. AI semantic search finds bookmarks by meaning.</p>
-            </div>
-            <div class="why-switch-card">
-              <h4>Missing AI workflows</h4>
-              <p>No automatic summaries, no YouTube transcript indexing, and no conversational chat across your library.</p>
-            </div>
+            {switchReasons.map((reason) => (
+              <div class="why-switch-card">
+                <h4>{reason.title}</h4>
+                <p>{reason.text}</p>
+              </div>
+            ))}
           </div>
           <p class="why-switch-meta">
             Want a second read on the whole space? See <a href="/blog/best-ai-bookmark-manager-2026">how the best AI bookmark managers stack up in 2026</a>, or run our <a href="/blog/ai-bookmark-retrieval-benchmark-2026">retrieval test</a> on your own library.
@@ -130,6 +152,32 @@ const others = competitors.filter((c) => c.slug !== subject.slug);
               <> Already downloaded your Raindrop backup? Audit your file with our free <a href="/tools/raindrop-export-analyzer">Raindrop Export Analyzer</a> before migrating.</>
             )}
           </p>
+        </section>
+      )}
+
+      {subject.slug === 'pinterest' && (
+        <section class="task-match-box">
+          <h2>Matching the right Pinterest alternative to your task</h2>
+          <p class="task-match-intro">
+            Pinterest blends discovery feeds, advertising, and bookmarking. Because those are very different tasks, the right alternative depends directly on what you are saving:
+          </p>
+          <div class="why-switch-grid">
+            <div class="why-switch-card">
+              <h4>🎨 Moodboards &amp; Creative Inspiration</h4>
+              <p style="margin-bottom: var(--space-2);"><strong>Top picks:</strong> mymind, Are.na, Cosmos, Savee</p>
+              <p>For designers and visual thinkers who want an ad-free canvas for imagery, color palettes, and typography without e-commerce interruptions.</p>
+            </div>
+            <div class="why-switch-card">
+              <h4>📌 Visual Bookmarking with Boards</h4>
+              <p style="margin-bottom: var(--space-2);"><strong>Top picks:</strong> Raindrop.io, Marqly</p>
+              <p>If you love Pinterest's board layout but want a clean personal bookmark manager with cards, nested collections, and public board sharing.</p>
+            </div>
+            <div class="why-switch-card">
+              <h4>🧠 Articles, Videos &amp; Research Notes</h4>
+              <p style="margin-bottom: var(--space-2);"><strong>Top picks:</strong> Marqly, Raindrop.io</p>
+              <p>Pinterest struggles with text content. Marqly provides full article reader mode, 6-color web highlights, YouTube transcript sync, and AI semantic retrieval by concept.</p>
+            </div>
+          </div>
         </section>
       )}
 
@@ -271,7 +319,7 @@ const others = competitors.filter((c) => c.slug !== subject.slug);
   @media (max-width: 800px) { .xlinks ul { grid-template-columns: 1fr 1fr; } }
   @media (max-width: 540px) { .xlinks ul { grid-template-columns: 1fr; } }
 
-  .why-switch-box {
+  .why-switch-box, .task-match-box {
     margin-top: var(--space-8);
     margin-bottom: var(--space-8);
     background: var(--surface-2);
@@ -279,12 +327,12 @@ const others = competitors.filter((c) => c.slug !== subject.slug);
     border-radius: var(--radius-card);
     padding: var(--space-6);
   }
-  .why-switch-box h2 {
+  .why-switch-box h2, .task-match-box h2 {
     margin-top: 0;
     margin-bottom: var(--space-2);
     font-size: var(--fs-h3);
   }
-  .why-switch-intro {
+  .why-switch-intro, .task-match-intro {
     font-size: var(--fs-base);
     color: var(--ink-2);
     margin-bottom: var(--space-4);

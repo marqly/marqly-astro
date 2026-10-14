@@ -1,5 +1,35 @@
 # SESSION_LOG — append one entry per session (newest on top)
 
+## 2026-10-14 — Product-Truth Integrity, Intent Matching & Core Tools (Phase 1 Execution)
+
+- **Product-Truth Integrity Sweep**: Verified ground truth in production repository (`marqly_2026_prod`): Free tier includes full-library keyword search and web highlights up to 100 bookmarks (`accessibleBookmarkLimit = 100`). All AI capabilities (semantic search, auto-tagging, AI summaries, ChatVault) are strictly Pro. Public introductory offer is $49/first year with code `STANDING49`, renewing at $72/year (legacy $39 coupon and 2,000-bookmark import promotions are retired).
+- **Corrected False Claims Across 7 Critical Surfaces**:
+  - `src/content/blog/best-free-bookmark-managers-2026.md` (EN): Replaced false claim "You want to find saves by describing them, without paying → Marqly" with accurate distinction: keyword search on Free, semantic search on Pro.
+  - `src/content/blog/ja/best-free-bookmark-manager-2026.md` (JA): Removed "お金なしに「説明して保存記事を見つける」" and aligned Free tier limits.
+  - `src/content/blog/ko/best-free-bookmark-manager-2026.md` (KO): Removed "돈 없이도 설명만으로 저장을 찾고 싶다" and aligned recommendation.
+  - `src/content/blog/zh/best-free-bookmark-manager-2026.md` (ZH): Corrected closing recommendation.
+  - `src/pages/migrate/raindrop.astro`: Fixed line 203 copy promising semantic search on Free.
+  - `src/pages/migrate/mymind.astro`: Fixed FAQ (line 53) and bottom CTA (line 164) falsely promising semantic search without paying.
+  - `src/pages/alternatives/[slug].astro`: Corrected `marqlyWhy` description across all 24 competitor pages to avoid conflating Free tier with Pro AI features.
+- **Added Truth Regression Gate**: Extended `active/scripts/seo-check.mjs` Gate 2 with 3 automated regex checks preventing visible text from claiming semantic search / AI on Free tier, claiming 2,000 free bookmarks for Marqly, or citing the stale $39 coupon.
+- **Workstream A (Pinterest Intent Differentiation)**:
+  - `src/pages/alternatives/[slug].astro`: Replaced generic "folder fatigue" copy with authentic Pinterest switch drivers (feed ads every 4–6 pins, link rot/scraper redirects, unsearchable visual silos). Added task-matching decision matrix (Creative Inspiration -> mymind/Are.na/Cosmos/Savee; Visual Bookmarking -> Raindrop/Marqly; Article Retrieval/Research -> Marqly).
+- **Workstream D (Core High-Impression Tools)**:
+  - `src/pages/tools/youtube-thumbnail-downloader.astro`: Targeted high-impression "thumbnail grabber" query (1,653 impressions, 4 clicks) by expanding `<title>` to `YouTube Thumbnail Grabber & Downloader — Free HD Thumbnails` (58 chars), updated meta description, H1, and WebApplication schema.
+  - `src/pages/tools/youtube-chapter-generator.astro`: Removed overpromise "From Any Video" -> "Timestamps from Transcripts" across `<title>` (54 chars), H1, and subtitle.
+  - `src/pages/tools/reading-time.astro`: Updated H1 to `Reading Time & Word Count Calculator`, added interactive reading speed controls (180 slow, 238 avg, 300 fast wpm + custom numeric input) with dynamic duration recalculation and responsive design system styling.
+- **Workstream C (Japanese & Korean International Intent)**:
+  - `src/content/blog/ko/export-twitter-x-bookmarks-2026.md`: Softened 800-1,000 bookmark export ceiling to reflect observed browser infinite scroll rendering / API pagination constraints rather than hard account quotas.
+  - `src/content/blog/ja/export-twitter-x-bookmarks-2026.md`: Softened scroll limit description and added explicit `(Pro)` qualification for AI features.
+- **Second Pass Refinements**:
+  - `src/pages/migrate/pocket.astro`: Refined `<title>` (55 chars) and meta description (160 chars) to prevent automatic clamp truncation while retaining core keywords.
+  - `src/content/blog/export-instagram-saved-posts.md`: Qualified semantic search and AI auto-tagging with `(Pro)` in body copy.
+  - `src/content/blog/{ja,ko,zh}/chrome-bookmarks-not-syncing-fix-2026.md`: Qualified semantic search with `(Pro)` across JA, KO, and ZH guides.
+  - `src/content/blog/ko/youtube-transcript-chuchul-guide-2026.md`: Directly targeted high-impression search query `자막 스크립트 복사 및 대본 추출` in meta description.
+  - `src/pages/tools/duplicate-bookmark-finder.astro`: Clarified Free keyword search vs Pro AI auto-tagging in CTA subhead.
+  - `src/pages/compare/[pair].astro`: Refined third-option section across all competitor comparisons to accurately distinguish managed cloud convenience vs self-hosted Docker (e.g., Karakeep) and preserve Free/Pro truth.
+- **Verification**: `npm run build` compiled 1,963 pages in 25s. All 25 SEO gates in `active/scripts/seo-check.mjs` passed (0 errors, <=60 title chars, <=160 meta chars, sitemap 1,408 URLs). Appended 20 total updated URLs to `seo/data/changes-log.csv`.
+
 ## 2026-10-06 — Phase C live and indexing receipts
 
 - Published validated `132def5` to production with a normal fast-forward push after fresh fetch, build, 25 gates and desktop/mobile visual checks. Cloudflare build succeeded 11:34:27Z; verified live 11:34:45Z: required pages 200 + canonical, French noindex, sitemap 1,343, public key exact match. Redirect/chain checks pass. Candidate backed up on origin; original concurrent checkout remains untouched.
