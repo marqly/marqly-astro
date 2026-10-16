@@ -19,7 +19,7 @@ import type { AnimationPlaybackControls } from 'framer-motion';
 export interface Testimonial {
   text: string;
   name: string;
-  role: string;
+  role?: string;
   image?: string;
 }
 
@@ -87,7 +87,7 @@ export const TestimonialsColumn = (props: {
                     <span
                       aria-hidden
                       className="grid h-10 w-10 shrink-0 place-items-center rounded-full text-sm font-semibold text-white"
-                      style={{ background: avatarVar(name + role) }}
+                      style={{ background: avatarVar(name + (role ?? '')) }}
                     >
                       {name.charAt(0).toUpperCase()}
                     </span>
@@ -96,7 +96,7 @@ export const TestimonialsColumn = (props: {
                     <span className="text-sm leading-5 font-medium tracking-tight text-foreground">
                       {name}
                     </span>
-                    <span className="text-xs leading-5 tracking-tight text-muted">{role}</span>
+                    {role && <span className="text-xs leading-5 tracking-tight text-muted">{role}</span>}
                   </span>
                 </figcaption>
               </figure>

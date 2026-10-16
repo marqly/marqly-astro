@@ -6,9 +6,13 @@
  *
  * Sources: the first four were carried over verbatim from the previous site;
  * the rest are public Chrome Web Store reviews (listing kcadneobjofkppmekgadodnaojoehemc),
- * shown under the reviewer's display name, dates dropped. Long reviews are
+ * shown under the reviewer's display name only (no source label, no
+ * location — never invent one), dates dropped. Long reviews are
  * trimmed to whole sentences in the reviewer's own words ("…" marks a cut
  * mid-review); only capitalization/punctuation and one typo were touched.
+ * The product is presented as a bookmark app, so trims avoid the word
+ * "extension"; where it could not be avoided the swap is shown as
+ * "[bookmark app]" (an edited quote must be marked, never silent).
  * Never pad this list with invented quotes or stock faces.
  *
  * Dealt round-robin into three columns of six. The marquee loops seamlessly
@@ -16,8 +20,6 @@
  * at least ~4 quotes per column if this list ever shrinks.
  */
 import { TestimonialsColumn, type Testimonial } from '../ui/testimonials-columns-1';
-
-const CWS = 'Chrome Web Store review';
 
 const testimonials: Testimonial[] = [
   {
@@ -37,50 +39,41 @@ const testimonials: Testimonial[] = [
   },
   {
     name: 'Pit Man',
-    role: CWS,
     text: "I've tried several bookmark managers over the years, and Marqly stands out because of its clean interface and powerful organization features.",
   },
   {
     name: 'Maya Tracey',
-    role: CWS,
-    text: 'This extension has helped me replace my cluttered browser bookmarks with a much better system. The search, boards, and tagging features make finding saved content effortless.',
+    text: "The search, boards, and tagging features make finding saved content effortless. It's simple to use yet packed with useful functionality.",
   },
   {
     name: 'Gracie Maddison',
-    role: CWS,
     text: 'An excellent tool for professionals, researchers, and teams who manage a large number of online resources.',
   },
-  { name: 'Tracy Sophia', role: CWS, text: 'Wow, very useful extension.' },
-  { name: 'Ryan Royce', role: CWS, text: 'Great extension, highly recommended.' },
-  { name: 'Calli Annni', role: CWS, text: 'Wow, Marqly is the best extension to use. Highly recommended.' },
+  { name: 'Tracy Sophia', text: 'Wow, very useful [bookmark app].' },
+  { name: 'Ryan Royce', text: 'Great [bookmark app], highly recommended.' },
+  { name: 'Calli Annni', text: 'Wow, Marqly is the best [bookmark app] to use. Highly recommended.' },
   {
     name: 'Damil ola',
-    role: CWS,
-    text: 'This extension does exactly what I need. Saving bookmarks is fast, and the organization features make it easy to manage a growing collection of links.',
+    text: "Saving bookmarks is fast, and the organization features make it easy to manage a growing collection of links. It's reliable and straightforward to use.",
   },
   {
     name: 'Jally Rose',
-    role: CWS,
     text: 'Marqly is a well-designed bookmark manager that makes organizing and retrieving saved resources incredibly efficient.',
   },
   {
     name: 'Joy Jerry',
-    role: CWS,
     text: "What impressed me most is how simple everything is. I didn't need any tutorial to get started.",
   },
   {
     name: 'Samin believe Bankole',
-    role: CWS,
-    text: 'Marqly has become one of my favorite Chrome extensions. It makes organizing bookmarks incredibly simple and keeps everything neatly categorized.',
+    text: 'It makes organizing bookmarks incredibly simple and keeps everything neatly categorized. The interface is modern, responsive, and easy to use.',
   },
   {
     name: 'Hammed Ogungbayibi',
-    role: CWS,
-    text: 'The extension makes organizing bookmarks, research materials, and project resources incredibly simple while maintaining excellent speed and reliability.',
+    text: "I've been thoroughly impressed with Marqly's functionality and overall user experience. … The attention to detail in both design and usability is evident.",
   },
   {
     name: '21evankate Florence',
-    role: CWS,
     text: 'Creating collections, organizing links, and retrieving saved content is effortless. It has become an essential part of my workflow.',
   },
   {
@@ -90,12 +83,10 @@ const testimonials: Testimonial[] = [
   },
   {
     name: 'Maruph Ibrahim',
-    role: CWS,
-    text: 'Marqly offers everything I need in a bookmark manager. … The user experience is smooth, and the extension continues to improve with new updates.',
+    text: 'Marqly offers everything I need in a bookmark manager. … I highly recommend it to anyone looking for a smarter way to organize their web content.',
   },
   {
     name: 'Bobby Sage',
-    role: CWS,
     text: 'Excellent bookmark manager with a modern design and useful features. … Everything syncs smoothly, making it easy to access my saved content across devices.',
   },
 ];
