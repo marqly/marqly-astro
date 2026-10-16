@@ -1,35 +1,106 @@
 ---
 /**
- * Reviews — the four testimonials carried over from the previous site,
- * verbatim. id="reviews" is a site-wide anchor (the header links to
- * /#reviews from every page). Avatars were dropped 2026-09-25; the grid is
- * 2×2 so two more REAL quotes (Play Store / email — never invented) can join
- * without breaking the rhythm.
+ * Reviews — REAL testimonials only, in scrolling columns
+ * (src/components/ui/testimonials-columns-1). id="reviews" is a site-wide
+ * anchor (the header links to /#reviews from every page).
+ *
+ * Sources: the first four were carried over verbatim from the previous site;
+ * the rest are public Chrome Web Store reviews (listing kcadneobjofkppmekgadodnaojoehemc),
+ * shown under the reviewer's display name, dates dropped. Long reviews are
+ * trimmed to whole sentences in the reviewer's own words ("…" marks a cut
+ * mid-review); only capitalization/punctuation and one typo were touched.
+ * Never pad this list with invented quotes or stock faces.
+ *
+ * Dealt round-robin into three columns of six. The marquee loops seamlessly
+ * only while ONE copy of a column is taller than the 600px viewport — keep
+ * at least ~4 quotes per column if this list ever shrinks.
  */
-const testimonials = [
+import { TestimonialsColumn, type Testimonial } from '../ui/testimonials-columns-1';
+
+const CWS = 'Chrome Web Store review';
+
+const testimonials: Testimonial[] = [
   {
     name: 'Chenten',
     role: 'Product Designer, Berlin',
-    quote:
-      'Great bookmarking tool with a user-friendly interface. Absolutely a great way to save your bookmarks.',
+    text: 'Great bookmarking tool with a user-friendly interface. Absolutely a great way to save your bookmarks.',
   },
   {
     name: 'Adrian',
     role: 'Indie founder, Lisbon',
-    quote:
-      'I love the simplicity of Marqly. It allows me to manage all of my bookmarks in a single place.',
-  },
-  {
-    name: 'Michael',
-    role: 'Researcher, Toronto',
-    quote: 'Fantastic way to organize bookmarks. Highly recommended!',
+    text: 'I love the simplicity of Marqly. It allows me to manage all of my bookmarks in a single place.',
   },
   {
     name: 'Tina',
     role: 'Editor, New York',
-    quote: 'The reader mode plus AI summaries save me hours every week. Worth every cent of Pro.',
+    text: 'The reader mode plus AI summaries save me hours every week. Worth every cent of Pro.',
+  },
+  {
+    name: 'Pit Man',
+    role: CWS,
+    text: "I've tried several bookmark managers over the years, and Marqly stands out because of its clean interface and powerful organization features.",
+  },
+  {
+    name: 'Maya Tracey',
+    role: CWS,
+    text: 'This extension has helped me replace my cluttered browser bookmarks with a much better system. The search, boards, and tagging features make finding saved content effortless.',
+  },
+  {
+    name: 'Gracie Maddison',
+    role: CWS,
+    text: 'An excellent tool for professionals, researchers, and teams who manage a large number of online resources.',
+  },
+  { name: 'Tracy Sophia', role: CWS, text: 'Wow, very useful extension.' },
+  { name: 'Ryan Royce', role: CWS, text: 'Great extension, highly recommended.' },
+  { name: 'Calli Annni', role: CWS, text: 'Wow, Marqly is the best extension to use. Highly recommended.' },
+  {
+    name: 'Damil ola',
+    role: CWS,
+    text: 'This extension does exactly what I need. Saving bookmarks is fast, and the organization features make it easy to manage a growing collection of links.',
+  },
+  {
+    name: 'Jally Rose',
+    role: CWS,
+    text: 'Marqly is a well-designed bookmark manager that makes organizing and retrieving saved resources incredibly efficient.',
+  },
+  {
+    name: 'Joy Jerry',
+    role: CWS,
+    text: "What impressed me most is how simple everything is. I didn't need any tutorial to get started.",
+  },
+  {
+    name: 'Samin believe Bankole',
+    role: CWS,
+    text: 'Marqly has become one of my favorite Chrome extensions. It makes organizing bookmarks incredibly simple and keeps everything neatly categorized.',
+  },
+  {
+    name: 'Hammed Ogungbayibi',
+    role: CWS,
+    text: 'The extension makes organizing bookmarks, research materials, and project resources incredibly simple while maintaining excellent speed and reliability.',
+  },
+  {
+    name: '21evankate Florence',
+    role: CWS,
+    text: 'Creating collections, organizing links, and retrieving saved content is effortless. It has become an essential part of my workflow.',
+  },
+  {
+    name: 'Michael',
+    role: 'Researcher, Toronto',
+    text: 'Fantastic way to organize bookmarks. Highly recommended!',
+  },
+  {
+    name: 'Maruph Ibrahim',
+    role: CWS,
+    text: 'Marqly offers everything I need in a bookmark manager. … The user experience is smooth, and the extension continues to improve with new updates.',
+  },
+  {
+    name: 'Bobby Sage',
+    role: CWS,
+    text: 'Excellent bookmark manager with a modern design and useful features. … Everything syncs smoothly, making it easy to access my saved content across devices.',
   },
 ];
+
+const columns = [0, 1, 2].map((c) => testimonials.filter((_, i) => i % 3 === c));
 ---
 
 <section id="reviews" class="bg-surface py-20 md:py-28">
@@ -43,24 +114,24 @@ const testimonials = [
       </h2>
     </div>
 
-    <div class="mt-10 grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-6">
-      {
-        testimonials.map((t, i) => (
-          <figure
-            class="flex flex-col rounded-3xl bg-background p-7 md:p-8"
-            data-reveal
-            style={`--reveal-delay: ${i * 60}ms`}
-          >
-            <blockquote class="flex-1 text-[16px] leading-relaxed text-foreground/85">
-              “{t.quote}”
-            </blockquote>
-            <figcaption class="mt-6 border-t border-separator pt-4">
-              <span class="block text-sm font-medium text-foreground">{t.name}</span>
-              <span class="block text-xs text-muted">{t.role}</span>
-            </figcaption>
-          </figure>
-        ))
-      }
+    <div
+      class="mt-10 flex max-h-[600px] justify-center gap-6 overflow-hidden [mask-image:linear-gradient(to_bottom,transparent,black_20%,black_80%,transparent)]"
+      data-reveal
+      style="--reveal-delay: 80ms"
+    >
+      <TestimonialsColumn client:visible testimonials={columns[0]} duration={34} />
+      <TestimonialsColumn
+        client:visible
+        testimonials={columns[1]}
+        duration={42}
+        className="hidden md:block"
+      />
+      <TestimonialsColumn
+        client:visible
+        testimonials={columns[2]}
+        duration={38}
+        className="hidden lg:block"
+      />
     </div>
   </div>
 </section>
