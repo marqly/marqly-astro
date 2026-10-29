@@ -20,20 +20,20 @@ const ranked = rankAlternatives(subject, competitors, marqly);
 
 const path = `/alternatives/${subject.slug}`;
 // §1.5 cannibalization: a "best X alternatives" LISTICLE intent is owned by the
-// blog listicle (e.g. /blog/best-pocket-alternatives-2026). For a SHUT-DOWN tool
+// blog listicle (e.g. /blog/best-pocket-alternatives-2027). For a SHUT-DOWN tool
 // this data layer already knows about, this hub page instead owns the distinct
 // "how do I get OFF X / recover my X data" intent and hands the pure
 // "best alternatives" query to the blog — so the two don't compete. Non-shutdown
 // subjects keep the neutral "alternatives" framing.
 const isShutdown = subject.status === 'shutdown';
-const h1 = isShutdown ? `Switching from ${subject.name}? (2026)` : `Best ${subject.name} alternatives (2026)`;
+const h1 = isShutdown ? `Switching from ${subject.name}? (2027)` : `Best ${subject.name} alternatives (2027)`;
 const title = isShutdown
   ? `${subject.name} Is Shut Down: Switch & Import Guide | Marqly`
-  : `Best ${subject.name} Alternatives (2026) — ${ranked.length} Tools Compared`;
+  : `Best ${subject.name} Alternatives (2027) — ${ranked.length} Tools Compared`;
 const description =
   subject.status === 'shutdown'
-    ? `${subject.name} shut down — here is how to recover your data and the ${ranked.length} replacements to move to in 2026, compared on features, pricing, and import paths.`
-    : `Looking for a ${subject.name} alternative? The ${ranked.length} best options in 2026 compared on AI features, highlights, pricing, and imports.`;
+    ? `${subject.name} shut down — here is how to recover your data and the ${ranked.length} replacements to move to in 2027, compared on features, pricing, and import paths.`
+    : `Looking for a ${subject.name} alternative? The ${ranked.length} best options in 2027 compared on AI features, highlights, pricing, and imports.`;
 
 const edges = marqlyEdges(marqly, subject, 3);
 const marqlyWhy = `Marqly covers the core job — save, organize, retrieve — and adds ${
@@ -103,12 +103,12 @@ const others = competitors.filter((c) => c.slug !== subject.slug);
         {subject.status === 'shutdown' ? (
           <>
             <strong>{subject.name} has shut down.</strong> {subject.shutdownNote} Here are the
-            best replacements in 2026, ranked by how well they cover what {subject.name} did —
+            best replacements in 2027, ranked by how well they cover what {subject.name} did —
             and what they add on top.
           </>
         ) : (
           <>
-            {subject.overview} Below are the strongest alternatives in 2026, ranked honestly:
+            {subject.overview} Below are the strongest alternatives in 2027, ranked honestly:
             each covers a different mix of jobs, and the right one depends on yours.
           </>
         )}
@@ -124,8 +124,8 @@ const others = competitors.filter((c) => c.slug !== subject.slug);
           {subject.slug === 'pocket' && (
             <> See also <a href="/blog/what-is-in-your-pocket-export-file">what's actually in a Pocket
             export file</a>, and for the full head-to-head ranking of the successors (rather than this
-            switch-and-recover guide) <a href="/blog/best-pocket-alternatives-2026">the best Pocket
-            alternatives, tested</a>. </>
+            switch-and-recover guide) <a href="/blog/best-pocket-alternatives-2027">the best Pocket
+            alternatives for 2027</a>. </>
           )}
           {subject.slug !== 'pocket' && <> For a full ranking of where the field has moved, see the
           best <a href="/alternatives">bookmark-app alternatives index</a>. </>}
@@ -147,7 +147,7 @@ const others = competitors.filter((c) => c.slug !== subject.slug);
             ))}
           </div>
           <p class="why-switch-meta">
-            Want a second read on the whole space? See <a href="/blog/best-ai-bookmark-manager-2026">how the best AI bookmark managers stack up in 2026</a>, or run our <a href="/blog/ai-bookmark-retrieval-benchmark-2026">retrieval test</a> on your own library.
+            Want a second read on the whole space? See <a href="/blog/best-ai-bookmark-manager-2027">how the best AI bookmark managers stack up in 2027</a>, or run our <a href="/blog/ai-bookmark-retrieval-benchmark-2027">retrieval protocol</a> on your own library.
             {subject.slug === 'raindrop' && (
               <> Already downloaded your Raindrop backup? Audit your file with our free <a href="/tools/raindrop-export-analyzer">Raindrop Export Analyzer</a> before migrating.</>
             )}
@@ -216,9 +216,9 @@ const others = competitors.filter((c) => c.slug !== subject.slug);
       <p class="deep-link">
         <a href={`/compare/marqly-vs-${subject.slug}`}>See the full Marqly vs {subject.name} comparison →</a>
         {MIGRATION_SLUGS.includes(subject.slug) ? (
-          <> · <a href={`/migrate/${subject.slug}`}>How to migrate from {subject.name} to Marqly →</a> · <a href="/best-bookmark-manager">2026 Bookmark Manager Index →</a> · <a href="/migrate">All migration guides →</a></>
+          <> · <a href={`/migrate/${subject.slug}`}>How to migrate from {subject.name} to Marqly →</a> · <a href="/best-bookmark-manager">2027 Bookmark Manager Index →</a> · <a href="/migrate">All migration guides →</a></>
         ) : (
-          <> · <a href="/best-bookmark-manager">2026 Bookmark Manager Index →</a> · <a href="/migrate">How to migrate to Marqly →</a></>
+          <> · <a href="/best-bookmark-manager">2027 Bookmark Manager Index →</a> · <a href="/migrate">How to migrate to Marqly →</a></>
         )}
       </p>
 

@@ -4,26 +4,28 @@ import {
   softwareApplication, faqPage, breadcrumbList, organization, webSite, itemList, person, AUTHOR,
 } from '../lib/schema';
 
-const title = 'Bookmark Manager: The 2026 Guide to Choosing One';
+const title = 'Bookmark Manager: The 2027 Guide to Choosing One';
 const description =
-  'What a bookmark manager actually is, the four kinds (browser, read-it-later, AI, self-hosted), how to choose, and how it beats the folders in your browser. Honest, with a decision table.';
+  'What a bookmark manager actually is, the four kinds (browser, read-it-later, AI, self-hosted), how to choose in 2027, and how it beats browser folders. With a decision table.';
 const canonical = 'https://www.marqly.com/bookmark-manager';
-const updated = '2026-10-05';
+const updated = '2026-10-29';
 
 const faqs = [
   { q: 'What is a bookmark manager?', a: 'A bookmark manager is an app that saves the web pages, articles and videos you want to keep, then organises and retrieves them for you — usually with tags, full-text or semantic search, notes and highlighting, across every device. The browser’s own bookmark bar is the simplest kind; dedicated managers add organisation and retrieval that folders cannot.' },
   { q: 'Is a bookmark manager better than browser bookmarks?', a: 'For anything you plan to come back to, yes. Browser bookmarks store a title and a URL in a folder you must file and later remember the name of. A dedicated manager fetches the page, tags and summarises it, and lets you find it by describing what it was about — which is the part folders never solve.' },
-  { q: 'What should I look for in a bookmark manager?', a: 'Five things: frictionless capture (one click from any page), search that works when you forget the exact words, organisation that doesn’t require manual filing, the ability to keep the actual content (highlights, notes, offline copies) and not just the link, and sync across browser and phone. AI semantic search and auto-tagging are the modern answers to the filing problem.' },
-  { q: 'Are there free bookmark managers?', a: 'Yes. Marqly’s free plan stores up to 100 bookmarks and lets you read and search your whole library with no card required; Raindrop.io has a generous free tier; self-hosted options like Linkwarden, Karakeep and Wallabag are free if you run them yourself. Most free plans cap either the item count or the AI features.' },
-  { q: 'Can I move my existing bookmarks into a manager?', a: 'Usually yes. The universal format is the browser’s “Netscape bookmark HTML” export, which almost every manager reads. Pocket’s own export needs the list.csv from inside its archive rather than its HTML preview. Our research page measures exactly which export files a real importer can and cannot read.' },
+  { q: 'What should I look for in a bookmark manager?', a: 'Five things: frictionless capture (one click from any page), search that works when you forget the exact words, organisation that doesn’t require manual filing, the ability to keep the actual content (highlights, notes, offline copies) and not just the link, and sync across browser and phone. In 2027 add a sixth: a tested export path, because two major tools shut down within eight months of each other.' },
+  { q: 'Are there free bookmark managers?', a: 'Yes. Marqly’s free plan stores up to 100 bookmarks and lets you read and search your whole library with no card required; Raindrop.io has a generous free tier with unlimited bookmarks; self-hosted options like Linkwarden, Karakeep and Wallabag are free if you run them yourself. Most free plans cap either the item count or the AI features — see the free-tier comparison for which cap applies where.' },
+  { q: 'Can I move my existing bookmarks into a manager?', a: 'Usually yes. The universal format is the browser’s “Netscape bookmark HTML” export, which almost every manager reads. Pocket’s own export needs the list.csv from inside its archive rather than its HTML preview file, which does not parse. Our research page measures exactly which export files a real importer can and cannot read.' },
+  { q: 'Which bookmark manager should a teacher or a student use?', a: 'Different constraints, different answers. Teachers need students to open a shared list with no account, which is why public boards matter, and Diigo is the only tool with a published free plan for verified educators. Students are price-constrained across a multi-year arc, so Raindrop.io’s unlimited free tier and Marqly’s $48 verified-student first year are the two realistic poles. Both get their own detailed comparison in the teacher and student guides.' },
 ];
 
 const kinds = [
   { kind: 'Browser-native', who: 'Chrome/Edge/Firefox/Safari built-in bookmarks', good: 'Free, zero setup, everywhere you browse.', bad: 'Folders only; you file and recall manually; no content capture.', pick: 'You save a handful of pages and never lose them anyway.' },
-  { kind: 'Read-it-later', who: 'Pocket (now retired), Instapaper, Matter', good: 'Clean reading view, offline, a queue to actually get through.', bad: 'Organisation is thin; most retrieval is by title/keyword.', pick: 'Your problem is a backlog of articles to read, not to find.' },
-  { kind: 'AI / semantic', who: 'Marqly, mymind', good: 'Auto-tag + summarise on save; find by meaning, not keywords; highlight + transcript capture.', bad: 'Deeper AI features sit behind a paid tier.', pick: 'You save a lot and can never find it again — the filing-and-recall problem.' },
-  { kind: 'Self-hosted', who: 'Linkwarden, Karakeep, Wallabag, Obsidian Clipper', good: 'You own the data; archives full pages; no subscription.', bad: 'You run the server, backups and updates yourself.', pick: 'Privacy/control is the priority and you’ll maintain it.' },
+  { kind: 'Read-it-later', who: 'Pocket (shut down July 2025), Instapaper, Matter, Wallabag', good: 'Clean reading view, offline, a queue to actually get through.', bad: 'Organisation is thin; most retrieval is by title/keyword.', pick: 'Your problem is a backlog of articles to read, not to find.' },
+  { kind: 'AI / semantic', who: 'Marqly, mymind, Karakeep', good: 'Auto-tag + summarise on save; find by meaning, not keywords; highlight + transcript capture.', bad: 'Deeper AI features sit behind a paid tier, and free tiers often have no AI at all.', pick: 'You save a lot and can never find it again — the filing-and-recall problem.' },
+  { kind: 'Self-hosted', who: 'Linkwarden, Karakeep, Wallabag, Obsidian Clipper', good: 'You own the data; archives full pages; no subscription; survives the vendor.', bad: 'You run the server, backups and updates yourself.', pick: 'Privacy/control is the priority and you’ll maintain it.' },
 ];
+
 
 const jsonLd = [
   organization(), webSite(), softwareApplication(),
@@ -38,13 +40,15 @@ const jsonLd = [
     <div class="wrap">
       <header class="head">
         <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><span>Bookmark manager</span></nav>
-        <h1>Bookmark manager: the honest 2026 guide</h1>
-        <p class="byline">By <a href={AUTHOR.url}>{AUTHOR.name}</a> · <span><time datetime={updated}>Updated Oct 5, 2026</time></span> · <a href="/how-we-test">how we test</a></p>
+        <h1>Bookmark manager: the honest 2027 guide</h1>
+        <p class="byline">By <a href={AUTHOR.url}>{AUTHOR.name}</a> · <span><time datetime={updated}>Updated Oct 29, 2026</time></span> · <a href="/how-we-test">how we test</a></p>
         <p class="lede">
           A bookmark manager is software that saves pages and videos you want to keep <em>and</em> gets them
           back when you need them. That second half is the whole point: your browser already saves links.
           A real manager is the difference between a folder you’ll never reopen and a library you can
-          search from a half-memory. Here’s how to pick one, honestly — including when you shouldn’t pick Marqly.
+          search from a half-memory. Here’s how to pick one in 2027, honestly — including when you shouldn’t
+          pick Marqly, and including a criterion nobody was asking about two years ago: whether the tool
+          will still exist when you need it.
         </p>
       </header>
 
@@ -92,6 +96,39 @@ const jsonLd = [
           <li><strong>Follow you across devices.</strong> A browser-only tool is one tab away from useless on your phone. Marqly runs as an extension, web app, and iOS/Android apps on one library.</li>
         </ul>
 
+        <h2>What changed for 2027: durability became a selection criterion</h2>
+        <p>
+          Two of the most-recommended tools in this category disappeared within eight months of each other.
+          <strong>Omnivore shut down in November 2024</strong> after its team was acqui-hired, with users given
+          until November 30 to export. <strong>Mozilla shut Pocket down on July 8, 2025</strong>, disabled export
+          access and the API on November 12, 2025, and says remaining data was queued for deletion from that
+          date. Pocket Premium subscribers got prorated refunds; the libraries of anyone who had not exported
+          did not survive.
+        </p>
+        <p>
+          The lesson is not “avoid free tools.” It is that three properties decide whether your library
+          outlives the vendor, and all three are checkable in ten minutes before you commit four thousand
+          links to anyone:
+        </p>
+        <ol>
+          <li><strong>An export path you have actually tested.</strong> Not “export is on the roadmap” — a file
+            you have produced and reopened. Open source tools win here by construction; hosted tools vary.
+            Marqly exports CSV carrying URL, title, description and tags, with a complete account copy
+            including highlights, notes and boards available from support.</li>
+          <li><strong>A revenue model that isn’t one decision away from ending.</strong> Paid plans with real
+            subscribers and long-lived open source projects with a hosted option funding development both
+            score better than free-with-no-revenue, which is precisely the shape that made Omnivore’s
+            shutdown possible.</li>
+          <li><strong>Whether the code is open source.</strong> Wallabag (MIT), Linkwarden (AGPL-3.0) and
+            Karakeep all survive their company. A proprietary tool that closes leaves you with whatever you
+            managed to export.</li>
+        </ol>
+        <p>
+          This is also why we publish the measured <a href="/research/bookmark-import-fidelity">import-fidelity
+          study</a> rather than a claim: if the day comes when you have to leave, the only thing that matters
+          is which file formats a real importer can actually read.
+        </p>
+
         <h2>Getting your current bookmarks in</h2>
         <p>
           Don’t start from zero. Export your browser’s bookmarks (the “Netscape HTML” file every browser
@@ -105,12 +142,75 @@ const jsonLd = [
           <a href="/tools/bookmark-file-viewer">bookmark file viewer</a>.
         </p>
 
+        <h2>Online, installed, or self-hosted?</h2>
+        <p>
+          A lot of searches for an “online bookmark manager” or a “bookmarking tool” are really asking one
+          structural question: where does the library live, and what do you have to install to reach it? The
+          three shapes have different trade-offs, and the right answer depends less on features than on how
+          many devices you use and how much you trust a vendor.
+        </p>
+        <ul>
+          <li><strong>Online / cloud (nothing to install).</strong> The library lives on the vendor’s servers
+            and you reach it from a browser, so a new machine or a borrowed laptop costs nothing. Marqly,
+            Raindrop.io, mymind and Notion all work this way. The trade is that your access depends on the
+            service being up and the company still existing — which is why the durability section above is
+            not optional reading. Marqly is a web app first, so every feature including boards, search and
+            highlighting is available in the browser with no install.</li>
+          <li><strong>Installed (native apps plus browser extensions).</strong> Same cloud library, but with a
+            native app or extension so capture and reading are faster and some things work offline. Marqly
+            ships extensions for Chrome, Edge, Firefox and Safari plus iOS and Android apps; Raindrop.io adds
+            Mac, Windows and Linux desktop apps; Readwise Reader and Evernote are app-first. Offline support
+            is narrower than people assume — in Marqly, offline reading is a Pro feature of the web and iOS
+            apps, cached per device rather than synced.</li>
+          <li><strong>Self-hosted.</strong> The library lives on a server you control. Linkwarden (AGPL-3.0),
+            Karakeep and Wallabag (MIT) are all free to run, and Karakeep can do AI tagging with a local
+            model so nothing leaves your hardware. The trade is that you are the operator: updates, backups
+            and uptime are your job, and “free” costs a server.</li>
+        </ul>
+        <p>
+          If you are specifically looking for something that works in a browser with no install and no
+          per-device setup, an online manager is the shape you want, and the
+          <a href="/best-bookmark-manager">2027 comparison index</a> scores seven of them on retrieval, filing
+          effort, capture, portability and price. If the browser-only constraint is what matters most,
+          Marqly’s <a href="/bookmark-manager-for-chrome">Chrome setup</a> and the
+          <a href="/bookmark-manager-for-safari">Safari</a>, <a href="/bookmark-manager-for-firefox">Firefox</a>
+          and <a href="/bookmark-manager-for-edge">Edge</a> equivalents are the fastest path.
+        </p>
+
+        <h2>Choosing by who is actually using it</h2>
+        <p>
+          The generic answer above gets you to a shortlist; the binding constraint is usually who the library
+          is for. Three groups have needs that change the ranking, and each has its own comparison:
+        </p>
+        <ul>
+          <li><strong>Teachers and educators</strong> need students to open a shared resource list with no
+            account, which makes public board sharing decisive, and they need a unit planned in November to
+            be findable next August. Diigo is the only tool with a published free plan for verified
+            educators. See <a href="/blog/best-bookmark-managers-for-teachers-2027">the best bookmark
+            managers for teachers</a>.</li>
+          <li><strong>Schools and departments</strong> are buying on seat minimums, admin roles, identity
+            support and what happens when a licence lapses — a different question entirely.
+            See <a href="/blog/best-bookmark-organizers-for-schools-2027">the schools and districts guide</a>.</li>
+          <li><strong>Students</strong> are optimising cost across a multi-year arc and need a source back at
+            citation time, which makes both the student discount and semantic search matter more than
+            features. See <a href="/blog/best-bookmark-managers-for-students-2027">the student roundup</a>.</li>
+        </ul>
+        <p>
+          If budget is the binding constraint rather than audience, the
+          <a href="/blog/best-free-bookmark-managers-2027">free-tier comparison</a> names what each free plan
+          actually caps, and if you are rescuing an old archive rather than starting fresh, the
+          <a href="/blog/best-pocket-alternatives-2027">Pocket alternatives guide</a> covers what survived the
+          shutdown and what did not.
+        </p>
+
         <h2>When Marqly is <em>not</em> the right pick</h2>
         <p>
           If all you need is a clean reading queue with a mobile app, a read-it-later tool like Instapaper or
           Matter is a better fit and Marqly’s reading view is not its centre of gravity. If you want to own
-          every byte and run your own server, self-hosted <a href="/alternatives/raindrop">Raindrop alternatives</a>
-          like Linkwarden or Karakeep beat any hosted app. If you genuinely never lose a bookmark, the free
+          every byte and run your own server, self-hosted tools like Linkwarden, Karakeep or Wallabag beat any
+          hosted app — see the <a href="/alternatives/raindrop">hosted-versus-self-hosted comparison</a> for how
+          that trade looks in practice. If you need unlimited free bookmarks, Raindrop.io’s free tier has no
+          cap and Marqly’s free plan stops at 100. If you genuinely never lose a bookmark, the free
           folders in your browser are the right tool and cost nothing. Marqly earns its place for one specific
           person: the saver who keeps everything and can never find it again — for whom
           <a href="/second-brain">a searchable second brain</a> is the fix.

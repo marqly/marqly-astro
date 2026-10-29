@@ -42,7 +42,7 @@ const VerdictContent = verdictEntry ? (await render(verdictEntry)).Content : nul
 const pairSlug = isMarqlyPair ? `marqly-vs-${b.slug}` : verdictEntry!.id;
 const path = `/compare/${pairSlug}`;
 const h1 = `${a.name} vs ${b.name}: Which is better? (2026)`;
-const title = `${a.name} vs ${b.name}: Which Is Better? (2026)`;
+const title = `${a.name} vs ${b.name}: Which Is Better? (2027)`;
 const description = isMarqlyPair
   ? `Detailed ${a.name} vs ${b.name} comparison: AI tagging, semantic search, highlights, YouTube AI, pricing, and imports — which fits your workflow in 2026.`
   : `${a.name} vs ${b.name} compared feature by feature — pricing, platforms, search, highlights — plus the AI-first option both sides overlook.`;
@@ -106,7 +106,7 @@ const tableTools = isMarqlyPair ? [marqly, b] : [a, b, marqly];
               <li><strong>Choose {b.name} if</strong> — {b.bestFor} {bEdgesList.length > 0 && `It offers ${bEdgesList.join(', ')}, which Marqly doesn't.`}</li>
             </ul>
             <p class="verdict-subnote" style="margin-top: var(--space-3); font-size: var(--fs-xs); color: var(--ink-3);">
-              Looking at the broader market? See our comprehensive benchmark of the <a href="/blog/best-ai-bookmark-manager-2026" style="color: var(--ink-1); text-decoration: underline;">best bookmark managers in 2026</a>.
+              Looking at the broader market? See our comprehensive benchmark of the <a href="/blog/best-ai-bookmark-manager-2027" style="color: var(--ink-1); text-decoration: underline;">best bookmark managers in 2026</a>.
             </p>
           </>
         ) : (

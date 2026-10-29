@@ -6,42 +6,55 @@ import FaqAccordion from '../components/seo/FaqAccordion.astro';
 import { breadcrumbList, faqPage, organization, webSite } from '../lib/schema';
 
 const path = '/best-bookmark-manager';
-const title = 'Best Bookmark Managers in 2026: 7 Compared, Matrix Inside';
+const title = 'Best Bookmark Managers in 2027: 7 Compared, Matrix Inside';
 const description =
-  'A transparent comparison of 7 bookmark managers in 2026, covering retrieval, filing effort, multimedia capture, portability, platform support, and price.';
+  'A transparent comparison of 7 bookmark managers in 2027, covering retrieval, filing effort, multimedia capture, portability, platform support, and price.';
 const canonical = 'https://www.marqly.com/best-bookmark-manager';
 
 const crumbs = [
   { name: 'Home', path: '/' },
-  { name: 'The 2026 Bookmark Manager Index', path },
+  { name: 'The 2027 Bookmark Manager Index', path },
 ];
 
 const faqs = [
   {
-    q: 'What is the best bookmark manager overall in 2026?',
-    a: 'There is no universal winner. Marqly is the strongest fit when semantic search and AI-assisted capture matter most. Raindrop.io is better for visual, nested collections and broad native-app coverage. Readwise Reader is built for intensive reading and highlight workflows. The right choice depends on which workflow you need to improve.',
+    q: 'What is the best bookmark manager overall in 2027?',
+    a: 'There is no universal winner. Marqly is the strongest fit when semantic search and AI-assisted capture matter most. Raindrop.io is better for visual, nested collections, broad native-app coverage, and an unlimited free tier. Readwise Reader is built for intensive reading and highlight workflows. The right choice depends on which workflow you need to improve.',
   },
   {
-    q: 'Why is semantic search so critical for bookmark managers in 2026?',
-    a: 'Traditional bookmark managers rely on exact keyword and tag matching. If you save an article titled "PostgreSQL MVCC Internals" and months later search for "database vacuum dead tuples", keyword search returns zero results. Semantic AI search maps conceptual meaning into vector space, allowing you to locate any saved link or highlighted snippet using natural language recall even when you cannot remember the exact title or domain.',
+    q: 'Why is semantic search so critical for bookmark managers in 2027?',
+    a: 'Traditional bookmark managers rely on exact keyword and tag matching. If you save an article titled "PostgreSQL MVCC Internals" and months later search for "database vacuum dead tuples", keyword search returns zero results. Semantic search indexes what a page is about rather than only the strings in it, so you can locate a saved link or highlighted snippet by describing it from memory. Note that it is a paid feature in every tool that offers it, including Marqly, where it is part of Pro.',
   },
   {
     q: 'How do I migrate my bookmarks from Raindrop.io without losing tags or folders?',
-    a: 'You can export your Raindrop library as an HTML or CSV file from Settings → Backups, then import it directly into modern tools like Marqly. Marqly preserves your existing collection structures and tag taxonomies while generating AI embeddings and summaries in the background. You can also analyze your export file first using our free Raindrop Export Analyzer tool.',
+    a: 'Export your Raindrop library as an HTML file from Settings → Backups and import it into the new tool. Marqly reads Raindrop\'s HTML export (not its JSON export), and titles, URLs, descriptions and tags carry across. Two limits to plan around rather than discover later: folder structure flattens to at most two board levels, and imported items take the import date rather than their original save date. Auto-tagging an import is a Pro feature, so a free import lands with your existing tags intact and no new ones. You can inspect the file first with the free Raindrop Export Analyzer.',
   },
   {
     q: 'Can I capture YouTube video transcripts and notes in a bookmark manager?',
-    a: 'Most legacy bookmark managers only save the YouTube URL and video thumbnail. Marqly provides a dedicated YouTube AI Watch Card directly inside the browser extension, capturing full timecoded transcripts, instant bullet-point summaries, and allowing in-context AI chat without leaving YouTube.',
+    a: 'Most bookmark managers save only the YouTube URL and thumbnail. Marqly adds an AI card to the YouTube watch page itself with three tabs: a streaming summary with key sections, a playback-synced transcript you can copy in one click, and a chat tab that answers questions from that transcript on Pro. Saving the video from YouTube\'s own action row keeps the transcript attached to the bookmark, so the video stays searchable by what was said in it.',
   },
   {
     q: 'Is a free bookmark manager sufficient, or do I need a paid plan?',
-    a: 'A free plan is often enough for basic saving and manual organization. Marqly Free stores up to 100 bookmarks with whole-library keyword search. Marqly\'s AI summaries, semantic search, AI Organizer, and YouTube AI features require Pro, which is $72 per year or $9 monthly, with a standing $49 first-year annual offer.',
+    a: 'A free plan is often enough for basic saving and manual organization, and Raindrop.io is unlimited on free. Marqly Free stores up to 100 bookmarks with whole-library keyword search and includes boards, six-colour highlighting and public board sharing. Marqly\'s AI summaries, semantic search, AI Organizer and YouTube chat require Pro, which is $72 per year or $9 monthly, with a standing $49 first-year offer and $48 for verified students.',
   },
   {
     q: 'What happens if I decide to switch tools later (data portability)?',
-    a: 'Never choose a bookmark tool that locks your data into a proprietary silo. Top-tier tools adhere to the standard Netscape bookmark HTML specification and provide JSON/CSV exports. Marqly supports complete one-click exports of all bookmarks, tags, boards, notes, and highlights so you maintain 100% data ownership.',
+    a: 'Never choose a bookmark tool you cannot leave. Marqly has a CSV export button (sidebar or profile menu → Export): the free plan exports the 100 most recent bookmarks, and Pro exports the whole library, with an option to limit the file to items added since your last export. That CSV carries URL, title, description and tags. Highlights, notes and boards are not in the CSV — for a complete copy of your account including those, email support@marqly.com. Test any export on day one rather than at the moment you need it; that habit is the real lesson of the Pocket and Omnivore shutdowns.',
+  },
+  {
+    q: 'What is the best bookmarking tool in 2027?',
+    a: '"Bookmarking tool" covers three different shapes, and the best one depends on which you mean. For an online tool with nothing to install, Marqly and Raindrop.io both run entirely in a browser alongside their apps. For organising a large existing library, Raindrop.io has the strongest free tier and the best nested collections. For finding something again from a half-memory, Marqly is the strongest because semantic search is its core design rather than an add-on. For owning your data outright, Linkwarden or Karakeep self-hosted. There is no single winner across all four jobs.',
+  },
+  {
+    q: 'What is the best online bookmark manager, with nothing to install?',
+    a: 'Marqly and Raindrop.io are the two strongest browser-first options. Both keep the library in the cloud and work fully from a web app, so a new machine costs nothing to set up; both also ship extensions and mobile apps if you later want faster capture. Marqly adds public boards that open as a plain web page with no signup for the viewer, which is free on every plan. The trade-off of any online manager is that your access depends on the vendor, which is why the durability criteria below matter.',
+  },
+  {
+    q: 'Will my bookmark manager still exist in a few years?',
+    a: 'It is a fair question now, because two widely recommended tools disappeared within eight months: Omnivore shut down in November 2024 after its team was acqui-hired, and Mozilla shut Pocket down on July 8, 2025 with its export window closing on November 12, 2025. Three things predict survival — an export path you have actually tested, a revenue model that is not free-with-no-revenue, and open-source code that survives the company. Wallabag (MIT), Linkwarden (AGPL-3.0) and Karakeep score best on the third; every hosted tool, Marqly included, is weaker there.',
   },
 ];
+
 
 const jsonLd = [
   organization(),
@@ -62,17 +75,17 @@ const jsonLd = [
       <Breadcrumbs items={crumbs} />
 
       <header class="hero-header">
-        <div class="badge-pill">2026 Editorial Comparison</div>
-        <h1 class="page-title">Best Bookmark Managers in 2026</h1>
+        <div class="badge-pill">2027 Editorial Comparison</div>
+        <h1 class="page-title">Best Bookmark Managers in 2027</h1>
         <p class="hero-sub">
           {description}
         </p>
         <div class="meta-bar">
           <span><strong>Published:</strong> September 2026</span>
           <span class="sep">•</span>
-          <span><strong>Updated:</strong> October 2026</span>
+          <span><strong>Updated:</strong> October 29, 2026</span>
           <span class="sep">•</span>
-          <span><strong>Scope:</strong> 7 tools across 6 decision criteria</span>
+          <span><strong>Scope:</strong> 7 tools across 7 decision criteria</span>
         </div>
       </header>
 
@@ -81,13 +94,15 @@ const jsonLd = [
         <div class="toc-title">Table of Contents & Quick Navigation</div>
         <ol class="toc-grid">
           <li><a href="#methodology">1. How this comparison works</a></li>
-          <li><a href="#comparative-matrix">2. 2026 feature matrix</a></li>
-          <li><a href="#retrieval-battery">3. Retrieval & semantic search</a></li>
-          <li><a href="#filing-latency">4. Filing effort</a></li>
-          <li><a href="#multimedia">5. Multimedia & video capture</a></li>
-          <li><a href="#portability">6. Portability & export fidelity</a></li>
-          <li><a href="#tool-profiles">7. Tool profiles</a></li>
-          <li><a href="#faq">8. Frequently Asked Questions</a></li>
+          <li><a href="#durability">2. What changed for 2027: durability</a></li>
+          <li><a href="#comparative-matrix">3. 2027 feature matrix</a></li>
+          <li><a href="#retrieval-battery">4. Retrieval & semantic search</a></li>
+          <li><a href="#filing-latency">5. Filing effort</a></li>
+          <li><a href="#multimedia">6. Multimedia & video capture</a></li>
+          <li><a href="#portability">7. Portability & export fidelity</a></li>
+          <li><a href="#by-audience">8. Choosing by audience</a></li>
+          <li><a href="#tool-profiles">9. Tool profiles</a></li>
+          <li><a href="#faq">10. Frequently Asked Questions</a></li>
         </ol>
       </nav>
 
@@ -95,10 +110,10 @@ const jsonLd = [
       <section id="methodology" class="index-section">
         <h2>How this comparison works</h2>
         <p>
-          Bookmark managers entered a fundamental paradigm shift in 2026. For twenty years, personal web curation relied on manual folders and tags. Users spent seconds on every save deciding taxonomy, only to abandon organizational hygiene when collections grew past 500 links. In practice, traditional bookmark folders become "write-only" link cemeteries.
+          Bookmark managers entered a fundamental paradigm shift across 2025 and 2026, and 2027 is the first year the shift is settled rather than in progress. For twenty years, personal web curation relied on manual folders and tags. Users spent seconds on every save deciding taxonomy, only to abandon organizational hygiene when collections grew past 500 links. In practice, traditional bookmark folders become "write-only" link cemeteries. Two shutdowns then removed the default answers — Omnivore in November 2024 and Pocket in July 2025 — which is why durability is now a seventh criterion rather than an afterthought.
         </p>
         <p>
-          This index compares seven established bookmark and read-it-later tools using six practical decision criteria: retrieval, filing effort, multimedia capture, data portability, reading and archive features, and platform/privacy trade-offs. The matrix is a feature comparison based on documented product capabilities and our maintained competitor records. It is <strong>not a laboratory performance test</strong>, so we do not publish synthetic precision scores or pretend one tool wins every workflow.
+          This index compares seven established bookmark and read-it-later tools using seven practical decision criteria: retrieval, filing effort, multimedia capture, data portability, reading and archive features, platform/privacy trade-offs, and durability. The matrix is a feature comparison based on documented product capabilities and our maintained competitor records, last re-verified in October 2026. It is <strong>not a laboratory performance test</strong>, so we do not publish synthetic precision scores or pretend one tool wins every workflow.
         </p>
 
         <div class="framework-grid">
@@ -116,7 +131,7 @@ const jsonLd = [
           </div>
           <div class="framework-card">
             <h3>4. Data Portability</h3>
-            <p>Availability of standard exports and how clearly users can move their library elsewhere.</p>
+            <p>What the export actually contains, and how clearly users can move their library elsewhere.</p>
           </div>
           <div class="framework-card">
             <h3>5. Reading & Archive</h3>
@@ -126,12 +141,35 @@ const jsonLd = [
             <h3>6. Privacy & Sync</h3>
             <p>Native-app coverage, hosting model, collaboration, and meaningful privacy controls.</p>
           </div>
+          <div class="framework-card">
+            <h3>7. Durability</h3>
+            <p>Whether the tool and your library survive the vendor: licence, revenue model, tested export path.</p>
+          </div>
         </div>
+      </section>
+
+      <!-- Section 2: Durability (new for the 2027 edition) -->
+      <section id="durability" class="index-section">
+        <h2>What changed for 2027: durability became a criterion</h2>
+        <p>
+          Nobody evaluating bookmark managers in 2024 was asking whether the product would still exist. In 2027 that question has an evidence base. <strong>Omnivore shut down in November 2024</strong> after its team was acqui-hired by ElevenLabs; users had until November 30, 2024 to export before deletion. Omnivore had been completely free with no paid plan at any point — a model that is exactly what made the shutdown possible. <strong>Mozilla shut Pocket down on July 8, 2025</strong>, disabled export access and the API on November 12, 2025, and states that remaining data was queued for permanent deletion from that date. Premium subscribers received prorated refunds; unexported libraries did not survive.
+        </p>
+        <p>
+          Three properties predict whether your library outlives the vendor, and all three are checkable in ten minutes:
+        </p>
+        <ul>
+          <li><strong>An export path you have actually tested.</strong> Not a documented feature — a file you produced and reopened. The detail that matters is what the export <em>contains</em>: Marqly's CSV carries URL, title, description and tags, while highlights, notes and boards require a support request for a complete account copy. A tool whose export omits half your work is a partial exit.</li>
+          <li><strong>A revenue model that is not free-with-no-revenue.</strong> Paid plans with real subscribers, and long-lived open source projects with a hosted option funding development, both outlast a free product with no income.</li>
+          <li><strong>An open-source licence.</strong> Wallabag (MIT, maintained continuously since 2013), Linkwarden (AGPL-3.0, all features included when self-hosted) and Karakeep all survive their company as forks. Proprietary tools leave you with whatever you exported.</li>
+        </ul>
+        <p>
+          This is the reason we publish the measured <a href="/research/bookmark-import-fidelity">import-fidelity study</a> instead of asserting fidelity: the study records which real export files a real importer can and cannot read, including the finding that Pocket's HTML preview file does not parse and that the <code>list.csv</code> inside the archive is what works.
+        </p>
       </section>
 
       <!-- Section 2: Comparative Matrix -->
       <section id="comparative-matrix" class="index-section">
-        <h2>2026 feature matrix</h2>
+        <h2>2027 feature matrix</h2>
         <p>
           Start with the workflow you care about. “Best” here means best fit for that job, not the highest invented score.
         </p>
@@ -293,7 +331,7 @@ const jsonLd = [
       <section id="multimedia" class="index-section">
         <h2>Multimedia & video capture</h2>
         <p>
-          In 2026, research is inherently multimedia. Software developers, analysts, and students spend as much time watching conference talks, tutorials, and YouTube lectures as reading essays. We evaluated how each bookmark manager handles video content.
+          In 2027, research is inherently multimedia. Software developers, analysts, and students spend as much time watching conference talks, tutorials, and YouTube lectures as reading essays. We evaluated how each bookmark manager handles video content.
         </p>
 
         <div class="multimedia-compare">
@@ -328,12 +366,46 @@ const jsonLd = [
             If you are currently using Raindrop.io and considering an upgrade, you can inspect your export file using our free <a href="/tools/raindrop-export-analyzer">Raindrop Export Analyzer</a>. It audits your collections, broken URLs, and duplicate tags in seconds.
           </p>
           <p>
-            When you are ready to switch, our detailed <a href="/migrate/raindrop">Raindrop Migration Guide</a> walks you through importing your entire taxonomy into Marqly in less than 2 minutes.
+            When you are ready to switch, our detailed <a href="/migrate/raindrop">Raindrop Migration Guide</a> walks you through importing a Raindrop HTML export into Marqly. Plan around two documented limits rather than discovering them afterwards: folder structure flattens to at most two board levels, and imported items take the import date instead of their original save date. Auto-tagging an import is a Pro feature.
           </p>
         </div>
       </section>
 
-      <!-- Section 7: Individual Tool Profiles -->
+      <!-- Section 8: Choosing by audience (new for the 2027 edition) -->
+      <section id="by-audience" class="index-section">
+        <h2>Choosing by audience</h2>
+        <p>
+          The matrix above answers "which tool is best" generically, and the honest answer is that the binding constraint is usually <em>who the library is for</em>. Three audiences have requirements that reorder this whole table, and each has a dedicated comparison written against its actual decision criteria.
+        </p>
+        <div class="framework-grid">
+          <div class="framework-card">
+            <h3>Teachers & educators</h3>
+            <p>
+              The decisive question is whether students can open a shared resource list with no account. Marqly's public boards do that free on every plan; Diigo is the only tool here with a published free plan for verified educators; and Marqly publishes no educator discount at all.
+              <a href="/blog/best-bookmark-managers-for-teachers-2027">The teacher comparison →</a>
+            </p>
+          </div>
+          <div class="framework-card">
+            <h3>Schools & departments</h3>
+            <p>
+              Institutional buying turns on seat minimums, one bill, admin roles, SSO/SCIM and what happens when a licence lapses. Marqly Teams needs three seats and has neither SSO nor SCIM — a hard blocker for some districts — but cancellation turns the workspace read-only and deletes nothing.
+              <a href="/blog/best-bookmark-organizers-for-schools-2027">The schools comparison →</a>
+            </p>
+          </div>
+          <div class="framework-card">
+            <h3>Students</h3>
+            <p>
+              Cost across a multi-year arc plus retrieval at citation time. Raindrop.io is unlimited on free; Marqly charges verified students $48 for the first year; Weava offers 70% off with an education email but carries real maintenance risk.
+              <a href="/blog/best-bookmark-managers-for-students-2027">The student comparison →</a>
+            </p>
+          </div>
+        </div>
+        <p>
+          Two adjacent questions come up often enough to link directly. If budget is the binding constraint, <a href="/blog/best-free-bookmark-managers-2027">the free-tier comparison</a> names what each free plan actually caps and which "free" tools are really demos. If you are rescuing an old archive rather than starting fresh, <a href="/blog/best-pocket-alternatives-2027">the Pocket alternatives guide</a> covers which export file works and what to do if you never exported. For the AI question specifically, <a href="/blog/best-ai-bookmark-manager-2027">the AI bookmark manager guide</a> publishes six tests that separate real semantic search from marketing.
+        </p>
+      </section>
+
+      <!-- Section 9: Individual Tool Profiles -->
       <section id="tool-profiles" class="index-section">
             <h2>Tool profiles by best fit</h2>
         <p>
