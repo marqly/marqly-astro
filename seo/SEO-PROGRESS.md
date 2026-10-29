@@ -15,6 +15,55 @@ Mission: page-1 (pos 6–12) → top 3. Constraints in leverage order: authority
 
 **LIVE as of 2026-10-06 11:34 UTC.** Production `132def5`; Cloudflare build succeeded, required pages/canonicals/noindex/redirects and 1,343-URL sitemap verified live. Search Console confirmed manual marketing sitemap resubmission; Bing IndexNow accepted 1,343 URLs (HTTP 200). Deploy dates filled; indexing and Day-30 outcomes remain unmeasured. No outreach send completed yet. See `reports/05-live-deployment-2026-10-06.md`.
 
+## 2027 program (2026-10-29, local only — NOT deployed)
+
+Owner-authorized. Architecture in **ADR-007**; briefs in `seo/briefs/2027-program.md` and
+`seo/briefs/2027-parity-repair.md`; session detail in `SESSION_LOG.md` (2026-10-29); guard rules in
+`.seo/truth-ledger.md` (2026-10-29).
+
+**Why:** the "best bookmark" family = 47 queries, **1,054 impressions, 0 clicks** at pos 8–26, with
+the ≈612-impression teacher/educator/school/student block owned by a single-vendor persona lander
+(`/for-teachers`) — a page-shape mismatch against a comparison intent. And **494 files were
+`-2026`-stamped with zero `-2027`**, including the site's largest page (10,521 imp).
+
+| Workstream | State | Evidence |
+|---|---|---|
+| Wave 1 — teacher/school/student cluster | **done**: 3 EN + 33 localized, all 11 locales at equal depth | 3,061–3,282 EN units; localized 2,850–5,939; 3 hreflang clusters wired |
+| Wave 2 — EN year rollover | **done**: 17 rolled + 1 consolidated (cannibalization), 36 redirect rules, 16 hreflang rows rekeyed, 18 files deleted, 509 links rewritten | 613–2,621 units → **1,632–6,540** |
+| Wave 2 — Tier-1 localized siblings | **done**: de/es/ja/ko × the 3 highest-demand clusters (12 pages) | covers ≈13.5k impressions |
+| Wave 3 — evergreen pages in place | **done**: `/bookmark-manager`, `/best-bookmark-manager`, `compare/[pair]` (**137**), `alternatives/[slug]` (**24**), 6 `/migrate/*`, 2 hubs | length-neutral title swap; ≤60 gate cannot regress |
+| Wave 4 — gap queries | **done**: `best bookmarking tool` (96 imp) + `best online bookmark manager` (37 imp) answered on their owning pages, no thin competitors added | ADR-006 pillar protected from cannibalization |
+| Truth audit | **done**: 13 false claims fixed in live content | incl. `/for-teachers` "no collaboration features" (false since Teams went public 2026-09-25) and `/best-bookmark-manager`'s export/import overclaims |
+| Competitor data layer | **done**: 5 JSONs corrected from live vendor pages, `lastVerified: 2026-10-29` | propagates to 137 compare + 24 alternatives pages |
+| Parity repair (56 localized pages) | **done**: all 56 of 56 repaired and wired at full parity | 0 regressions, sitemap restored to 1,457 URLs |
+
+**Parity repair — 56 of 56 COMPLETE.** Expanding the EN sources silently re-pruned **56**
+Tier-2/3 localized siblings (fr 11, it 11, zh 10, pt 9, tr 6, pl 5, nl 4): parity is measured against
+the *current* EN source, so ~79% EN growth pushed them under the 0.8 bar → auto-noindexed, out of the
+sitemap, out of hreflang. **Every gate passed and the build was green**; the canary was the sitemap URL
+count falling 1,408 → 1,401 while the page count *rose* 1,963 → 2,010. Detected with
+`localeParityCensus()` diffed against git-HEAD EN lengths (`active/tmp/parity-regression.mjs`), then
+repaired per locale against measured unit floors (`active/tmp/parity-regressions.json`) and wired with
+`active/tmp/wire-repair.mjs --write`.
+
+All 56 pages across all 7 affected locales (including the final 3 Italian pages) are transcreated,
+verified, and wired:
+- `/it/blog/alternative-a-pocket-2027` (4,877 units / 16 H2 vs 3,757 floor)
+- `/it/blog/migliori-gestori-segnalibri-gratis-2027` (3,873 units / 14 H2 vs 2,953 floor)
+- `/it/blog/migliori-gestori-segnalibri-ia-2027` (3,755 units / 13 H2 vs 3,055 floor)
+
+Regressions went 56 → 0, and sitemap URLs recovered 1,401 → **1,457** (surpassing the 1,408 baseline).
+
+**Verification (final, local):** `npm run build` green at **2,010 pages**; **ALL 25 SEO GATES
+PASSED**; sitemap **1,457 URLs**; `parity-regression.mjs` **0 regressions**;
+`check-links.mjs` 0 broken internal hrefs; **0 broken hreflang targets** across **112 clusters**;
+all 301 redirect rules verified with catch-all still last.
+**Not deployed** — needs owner authorization.
+
+**Deliberately out of scope:** ~415 localized `-2026` pages (34,155 imp / 702 clicks). Their
+highest-demand members are how-to and export guides, not the listicles rolled here, and many hold
+pos 5–8 — a separate evidence-led program. They remain live and hreflang-paired to the new EN pages.
+
 ## KPI deltas (owner snapshot baseline → local after 2026-10-05)
 
 | KPI | Baseline | Now (local build) | Target |

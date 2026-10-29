@@ -1,5 +1,134 @@
 # SESSION_LOG — append one entry per session (newest on top)
 
+## 2026-10-29 — The 2027 program: year rollover, teacher cluster, and a truth audit
+
+Owner-authorized 8-hour content program targeting "best bookmarks of 2027". Three architecture
+decisions confirmed by the owner up front: (D1) new `-2027` slugs + 301 from the `-2026` URLs,
+(D2) teachers/educators cluster first, (D3) all 11 locales at equal depth. Recorded as **ADR-007**.
+Authoritative brief: `seo/briefs/2027-program.md`; repair brief: `seo/briefs/2027-parity-repair.md`.
+
+**The demand case (real GSC, `seo/data/gsc/`, 90d 2026-07-06..10-03).** The "best bookmark" family =
+47 queries, **1,054 impressions, ZERO clicks**, at pos 8–26. The teachers/educators/schools/students
+sub-block alone is **≈612 impressions with no clicks**, all owned by `/for-teachers` — a
+single-vendor persona lander answering a comparison intent. That page-shape mismatch, not ranking, is
+why CTR is zero. Separately: **494 files carried `2026` in the name and zero carried `2027`**, while
+the largest page on the site (`/blog/best-pocket-alternatives-2026`, 10,521 imp) read as stale for
+all of 2027.
+
+### Wave 1 — new money pages for the 612-impression cluster (3 EN + 33 localized)
+- `/blog/best-bookmark-managers-for-teachers-2027` (3,282 units / 10 H2) — owns the 444-imp
+  teachers+educators block. Info-gain: scoring on whether students can open a shared list with **no
+  account**, video handling, filing load, and ten-month retrieval lag.
+- `/blog/best-bookmark-organizers-for-schools-2027` (3,061 / 9) — distinct institutional audience.
+  Info-gain: a deployment-reality table (seat minimum, one bill, admin roles, SSO/SCIM, and what
+  survives cancellation).
+- `/blog/best-bookmark-managers-for-students-2027` (~3,300 / 10) — Info-gain: four-year cost and the
+  student discounts that are *actually published*, plus a scope note that Zotero/Mendeley are
+  reference managers and are not in the verified data layer (so they are not compared).
+- All 33 localized siblings written to **equal depth**, not stubs: Latin-script locales 2,850–3,818
+  units, CJK 4,533–5,939 (ja/zh/ko measure as 0.6 × non-whitespace chars). 3 hreflang clusters wired
+  and verified — 36 pages, every target resolving to a real source file.
+
+### Wave 2 — year rollover of the EN money pages (17 rolled + 1 consolidated)
+Rolled with substantive refreshes, not digit swaps (the safety rail forbids date-bumps). Sizes went
+from 613–2,621 units to **1,632–6,540**. `pocket-replacements-2026` was **consolidated** rather than
+rolled: it competed with `best-pocket-alternatives` for the same queries including the 2,161-imp head
+term, on 150 imp vs 10,524, and its two unique sections are now covered by the 2027 post.
+36 redirect rules added above the `/*/  /:splat  301` catch-all; 16 TRANSLATIONS rows rekeyed;
+18 superseded EN files deleted; 509 internal links rewritten across 293 files.
+Tier-1 localized siblings (de/es/ja/ko × the 3 highest-demand clusters = 12 pages) also rolled.
+
+### Wave 3 — evergreen-URL pages updated in place (no 301, authority preserved)
+`/bookmark-manager`, `/best-bookmark-manager`, and 9 templates: `compare/[pair]` (**137 pages**),
+`alternatives/[slug]` (**24 pages**), 6 `/migrate/*` guides and both hubs. The `(2026)`→`(2027)` swap
+is length-neutral, so the ≤60 title gate cannot regress (the longest generated compare title is
+exactly 60 today). New sections: durability (the two shutdowns → three checkable survival
+properties), online-vs-installed-vs-self-hosted, and choosing-by-audience linking the Wave 1 cluster.
+
+### Wave 4 — gap queries answered without new pages
+`best bookmarking tool` (96 imp, pos 26.5) and `best online bookmark manager` (37 imp, pos 25.9) were
+covered by strengthening the pages that already own them — a new "Online, installed, or self-hosted?"
+section on `/bookmark-manager` and two new FAQs on `/best-bookmark-manager`. A third near-duplicate
+page would have cannibalised the ADR-006 pillar.
+
+### Truth audit — 13 false claims found in LIVE content, all fixed
+The audit was the highest-value part of the session. Fixed: `/best-bookmark-manager` claiming CSV
+export includes "boards, notes, and highlights" (it carries URL/title/description/tags only) and that
+import "preserves your existing collection structures" (folders flatten to ≤2 levels; dates are not
+preserved; import auto-tagging is Pro); `/for-teachers` claiming Marqly has "**no collaboration
+features**" — false since Teams went public 2026-09-25 (`TEAMS_PUBLIC = true`,
+`src/components/landing/data.ts:354`, `/teams` indexed and in the sitemap); two pages listing Marqly
+as "web, iOS, and Chrome" (it is web, Chrome, Edge, Firefox, Safari, iOS **and Android**);
+Instapaper Premium quoted at "~$3/mo" (it doubled to $5.99/mo or $59.99/yr in **late 2023**);
+"mymind has no permanent free plan" (its guest plan is free forever at 100 cards); unverifiable
+"19k+/24k+ GitHub stars"; and the benchmark page's stale "**Target: complete by mid-October 2026**",
+replaced with a plain statement that the run was not completed. Sweeps confirmed the first two classes
+were not systemic — every other "no collaboration"/"no Android" hit is competitor-attributed, i.e.
+correct copy.
+
+### Competitor data layer corrected from live vendor pages (highest reach of any change)
+`src/data/competitors/*.json` renders 137 compare + 24 alternatives pages. Verified 2026-10-29 and
+applied with `lastVerified: 2026-10-29`: **Readwise 50% off** for students/academia (email before
+subscribing); **Glasp 40% off** Pro for students and educators, with Pro correctly restated as
+$12.50/mo billed yearly vs $15/mo monthly; **Weava 70% off** Premium for students via
+education@weavatools.com; **Notion's free Education Plan excludes K-12** — verbatim "You're not
+eligible if: You're a K-12 student or K-12 educator", which materially changes the teacher advice;
+Readwise Lite `$4.49` → **$5.59**. Six further agent-reported items were deliberately **not** applied
+and are logged as UNKNOWN in the truth ledger.
+
+### Two process failures, both caught before ship — see `.seo/truth-ledger.md` (2026-10-29)
+1. **A false "vendor is dead" claim nearly shipped in 12 languages.** A research subagent reported
+   Weava's domain as non-resolving. A warning was written into the EN students article and briefed
+   for propagation into 33 localized files. It was false: the agent fetched `weavatool.com` (singular)
+   while the vendor is **`weavatools.com`** (plural), HTTP 200, with the 70% discount published
+   verbatim. Re-fetched personally, propagation agent stood down, EN copy corrected. New rule: a
+   subagent's negative-existence finding is never actionable without an independent re-fetch, and the
+   domain comes from the data layer's `website` field.
+2. **Growing the EN sources silently re-pruned 56 localized pages.** Parity is measured against the
+   *current* EN source, so expanding EN by ~79% dropped fr/it/zh/pt/tr/pl/nl siblings below the 0.8
+   bar → auto-noindexed, out of the sitemap, out of hreflang. **Every gate passed and the build was
+   green.** The canary was the sitemap URL count falling 1,408 → 1,401 while the page count *rose*
+   1,963 → 2,010. Detected with `localeParityCensus()` diffed against git-HEAD EN lengths
+   (`active/tmp/parity-regression.mjs`); repair dispatched per locale with measured unit floors
+   (`active/tmp/parity-regressions.json`). New rule recorded: any material EN growth requires a
+   parity-census diff of every cluster it anchors.
+
+Also re-hit two documented traps: a `while (re.exec())` loop without `/g` infinite-looped the
+validator for 5 minutes (CLAUDE.md 2026-10-05), and an unanchored `/blog/x-2026` regex rewrote the
+tails of localized paths (122 broken hreflang targets) and of `assets/blog/*.png` paths (6 hero
+images renamed out from under Astro → `ImageNotFound` build failure). Both repaired; the anchoring
+rule is now in the ledger.
+
+### Verification
+`npm run build` green (2,010 pages, ~19s). **ALL 25 SEO GATES PASSED.** `parity-regression.mjs`:
+**0 regressions** across all locales (all 56 Tier-2/3 pages restored to full ≥0.8 parity).
+Sitemap: **1,457 URLs** (recovered from 1,401 and surpassing the 1,408 baseline).
+`check-links.mjs`: 2,011 pages, 387,865 internal hrefs, **0 broken**. 20 new OG cards generated
+with zero churn on the 64 existing ones. 1,313 hreflang targets across 112 clusters verified resolving.
+Baseline before the session was 1,963 pages / 1,408 sitemap URLs / 25 gates green, so the comparison
+is like-for-like.
+
+**Not deployed** — no `marqly-astro` push was made; that needs owner authorization. `changes-log.csv`
+rows therefore carry `deploy_date = PENDING` per house convention.
+
+### Deliberately out of scope (recorded so it is not mistaken for done)
+~415 localized `-2026` pages (34,155 imp / 702 clicks across 427 URLs) were **not** rolled. Their
+highest-demand members are how-to and export guides (`/es/blog/chatear-con-videos-de-youtube-2026`,
+7,307 imp) rather than the listicles this program rolled, and many hold pos 5–8 — rolling them is a
+separate evidence-led program. They remain live and hreflang-paired to the new EN 2027 pages.
+
+### New tooling (all under `active/tmp/`)
+`validate-2027.mjs` (pre-build truth/parity/link gate on the project's own `units()` engine),
+`wire-hreflang.mjs`, `upgrade-locale-values.mjs`, `rewrite-links-2027.mjs`, `fix-links-2027.mjs`,
+`repair-locale-links.mjs`, `cutover-2027.mjs`, `patch-competitors.mjs`, `parity-regression.mjs`,
+`gen-parity-worklist.mjs`, `wire-repair.mjs`, `log-2027.mjs`, `analyze-2027.mjs`,
+`locale-2026-demand.mjs`, `rank-2026.mjs`, `verify-links.mjs`, `factsheet.mjs`.
+
+Also repaired the local toolchain: `node_modules/@cloudflare/workerd-darwin-{64,arm64}/bin/` were both
+empty, killing `npm run build`. `rm -rf` those plus `node_modules/workerd` and `npm install` restored
+the arm64 binary — the same failure the 2026-08-16 lab note describes, where the "wrong platform"
+wording is a red herring.
+
 ## 2026-10-14 — Product-Truth Integrity, Intent Matching & Core Tools (Phase 1 Execution)
 
 - **Product-Truth Integrity Sweep**: Verified ground truth in production repository (`marqly_2026_prod`): Free tier includes full-library keyword search and web highlights up to 100 bookmarks (`accessibleBookmarkLimit = 100`). All AI capabilities (semantic search, auto-tagging, AI summaries, ChatVault) are strictly Pro. Public introductory offer is $49/first year with code `STANDING49`, renewing at $72/year (legacy $39 coupon and 2,000-bookmark import promotions are retired).
