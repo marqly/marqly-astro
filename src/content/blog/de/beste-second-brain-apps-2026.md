@@ -27,7 +27,7 @@ faqs:
     a: "Achten Sie auf reibungsloses Einstopp-Erfassen, automatische Organisation (damit Sie nie von Hand ablegen) und semantische Suche, die auch dann nach Bedeutung findet, wenn Sie den Titel vergessen haben. Wenn sie dazu über Web, Handy und Desktop funktioniert und Ihre bestehenden Lesezeichen importiert, umso besser. Diese Eigenschaften sagen voraus, ob Sie die App nächsten Monat noch nutzen."
   - q: "Ist eine leichtgewichtige Second-Brain-App so gut wie Notion oder Obsidian?"
     a: "Für eigenes Schreiben und tiefe Synthese: nein — schwere PKM-Werkzeuge sind stärker. Aber für die Aufgabe, die die meisten wirklich wollen, nämlich aufhören, Gelesenes zu verlieren, ist eine leichtgewichtige Erfassen-und-Wiederfinden-App meist besser, weil sie eine stressige Woche übersteht, statt an vernachlässigter Pflege zu verrotten."
-heroImage: ../../../assets/blog/best-second-brain-apps-2026.png
+heroImage: ../../../assets/blog/best-second-brain-apps-2027.png
 heroAlt: "Die besten Second-Brain-Apps 2026 — Illustration"
 ogImage: "https://www.marqly.com/og/best-second-brain-apps-2026.png"
 ---
@@ -116,7 +116,7 @@ Das ist das leichtgewichtige, erfassungszuerst-Ende des Spektrums — und die eh
 - **Am besten für:** Leser, die viel aus dem Web speichern und es einfach wiederfinden wollen — ohne Wartung. Es importiert Ihre bestehenden Pocket-, Raindrop- und Browser-Lesezeichen für eine sofortige Auffüllung, damit Ihre Bibliothek ab Tag eins durchsuchbar ist.
 - **Überspringen, wenn:** Ihr Ziel eigenes Langtext-Schreiben und tiefe Synthese von Hand ist — dafür sind Obsidian, Notion und Tana wirklich gebaut. Marqly ist um gespeichertes Material gebaut, nicht um verfasste Notizen.
 
-Wenn der leichtgewichtige Pfad richtig klingt: [So bauen Sie ein zweites Gehirn aus Ihren Lesezeichen](/de/blog/zweites-gehirn-aufbauen-2026) geht die exakte Vier-Schritte-Einrichtung durch, und [die besten KI-Lesezeichen-Manager 2026](/de/blog/beste-ai-lesezeichen-manager-2026) vergleicht die Werkzeuge in dieser Spur.
+Wenn der leichtgewichtige Pfad richtig klingt: [So bauen Sie ein zweites Gehirn aus Ihren Lesezeichen](/de/blog/zweites-gehirn-aufbauen-2026) geht die exakte Vier-Schritte-Einrichtung durch, und [die besten KI-Lesezeichen-Manager 2026](/de/blog/beste-ai-lesezeichen-manager-2027) vergleicht die Werkzeuge in dieser Spur.
 
 ## Welche Second-Brain-App sollten Sie tatsächlich wählen?
 
@@ -140,4 +140,4 @@ Zum Starten gibt es einen Gratis-Plan ohne Kreditkarte, und Pro kostet 72 $/Jahr
 
 ---
 
-*Verwandt: [Was ist eine Second-Brain-App?](/de/blog/was-ist-eine-second-brain-app-2026) · [Was ist ein KI-gestütztes zweites Gehirn?](/de/blog/was-ist-ein-ki-zweites-gehirn-2026) · [Der beste KI-Lesezeichen-Manager 2026](/de/blog/beste-ai-lesezeichen-manager-2026)*
+*Verwandt: [Was ist eine Second-Brain-App?](/de/blog/was-ist-eine-second-brain-app-2026) · [Was ist ein KI-gestütztes zweites Gehirn?](/de/blog/was-ist-ein-ki-zweites-gehirn-2026) · [Der beste KI-Lesezeichen-Manager 2026](/de/blog/beste-ai-lesezeichen-manager-2027)*

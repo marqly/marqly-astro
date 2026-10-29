@@ -47,7 +47,7 @@ Ci sono tre parti mobili, tutte automatiche:
 - **Riassunzione** — genera un riassunto di una o due righe per capire di cosa parla un salvataggio a colpo d'occhio, settimane dopo.
 - **Raggruppamento semantico** — invece di forzare gli elementi in una sola cartella, l'IA comprende il significato, così un salvataggio può riguardare più temi insieme.
 
-[Marqly](https://app.marqly.com) fa tutte e tre le cose alla cattura: salva un articolo, un video o una nota e lui li etichetta e riassume automaticamente, poi rende l'intera libreria consultabile per significato — e una volta etichettati, puoi [ritrovarli con la ricerca IA](/blog/how-to-search-bookmarks-with-ai). (Se stai confrontando strumenti, vedi la nostra rassegna dei [migliori gestori di segnalibri con IA del 2026](/it/blog/migliori-gestori-segnalibri-ia-2026).)
+[Marqly](https://app.marqly.com) fa tutte e tre le cose alla cattura: salva un articolo, un video o una nota e lui li etichetta e riassume automaticamente, poi rende l'intera libreria consultabile per significato — e una volta etichettati, puoi [ritrovarli con la ricerca IA](/blog/how-to-search-bookmarks-with-ai). (Se stai confrontando strumenti, vedi la nostra rassegna dei [migliori gestori di segnalibri con IA del 2026](/it/blog/migliori-gestori-segnalibri-ia-2027).)
 
 ## Servono ancora le cartelle?
 

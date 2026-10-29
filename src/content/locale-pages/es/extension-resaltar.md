@@ -102,7 +102,7 @@ En Chrome y Edge puedes archivar una página como PDF. El procesamiento ocurre l
 
 Aquí es donde el resaltador deja de ser un marcador de colores y se vuelve memoria. Tus marcas y notas entran en el mismo índice que tus páginas guardadas, así que la **búsqueda semántica** las encuentra por idea: escribes "lo que subrayé sobre precios psicológicos" y aparece, aunque nunca hayas escrito esas palabras exactas. Con Pro, además, puedes chatear con todo lo guardado.
 
-Si vienes de otra herramienta, la extensión importa desde Pocket, desde Raindrop y desde archivos HTML de marcadores. Antes de mover nada, quizá te sirva el repaso de [alternativas a Pocket](/es/blog/alternativas-a-pocket-2026) o la [comparación con Raindrop](/es/comparar/marqly-vs-raindrop).
+Si vienes de otra herramienta, la extensión importa desde Pocket, desde Raindrop y desde archivos HTML de marcadores. Antes de mover nada, quizá te sirva el repaso de [alternativas a Pocket](/es/blog/alternativas-a-pocket-2027) o la [comparación con Raindrop](/es/comparar/marqly-vs-raindrop).
 
 ## Instálala y prueba con la página que tienes abierta
 

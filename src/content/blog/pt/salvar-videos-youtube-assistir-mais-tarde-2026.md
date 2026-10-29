@@ -53,7 +53,7 @@ Isso ajuda um pouco, mas playlists são pastas com outro nome — e pastas não 
 
 ## Opção 2: salve os vídeos numa biblioteca unificada e pesquisável (o jeito melhor)
 
-A abordagem mais limpa: salvar vídeos do YouTube no mesmo lugar onde você salva artigos e links — uma ferramenta dedicada com **tags e busca por IA**. Assim todo o seu «consumir depois» mora numa única casa pesquisável, e você encontra um vídeo descrevendo aquilo. (Vários dos [melhores apps de ler depois](/pt/blog/melhores-apps-salvar-para-ler-depois-2026) hoje dão conta de vídeo junto com artigo, então você não precisa de um silo separado para cada tipo.)
+A abordagem mais limpa: salvar vídeos do YouTube no mesmo lugar onde você salva artigos e links — uma ferramenta dedicada com **tags e busca por IA**. Assim todo o seu «consumir depois» mora numa única casa pesquisável, e você encontra um vídeo descrevendo aquilo. (Vários dos [melhores apps de ler depois](/pt/blog/melhores-apps-salvar-para-ler-depois-2027) hoje dão conta de vídeo junto com artigo, então você não precisa de um silo separado para cada tipo.)
 
 Com uma ferramenta como o **Marqly**:
 

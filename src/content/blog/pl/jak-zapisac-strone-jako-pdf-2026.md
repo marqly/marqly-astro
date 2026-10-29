@@ -119,7 +119,7 @@ Dlatego PDF-y są właściwym wyborem dla:
 - **Regulaminów, polityk i stron cen**, które być może będziesz musiał później zacytować
 - **Wszystkiego, co — jak przewidujesz — zostanie zmienione albo usunięte**
 
-Do reszty — artykułów, referencji, badań — lepsza jest zakładka, bo pozostaje przeszukiwalna i aktualna. Jeszcze lepiej: zapisz stronę i [podświetl fragmenty, które naprawdę znaczą](/pl/blog/jak-zaznaczac-tekst-na-stronach-www-2026), żeby zachować wniosek, a nie hołdować pliki. Jeśli twoja kupka zapisów to głównie długie czytania, porządna [aplikacja do czytania na później](/pl/blog/najlepsze-aplikacje-do-czytania-na-pozniej-2026) z kretesem bije folder pełen PDF-ów.
+Do reszty — artykułów, referencji, badań — lepsza jest zakładka, bo pozostaje przeszukiwalna i aktualna. Jeszcze lepiej: zapisz stronę i [podświetl fragmenty, które naprawdę znaczą](/pl/blog/jak-zaznaczac-tekst-na-stronach-www-2026), żeby zachować wniosek, a nie hołdować pliki. Jeśli twoja kupka zapisów to głównie długie czytania, porządna [aplikacja do czytania na później](/pl/blog/najlepsze-aplikacje-do-czytania-na-pozniej-2027) z kretesem bije folder pełen PDF-ów.
 
 Schemat, który sprawdza się na lata: domyślnie zakładka, PDF dla niepodrabialnych rzeczy, i obie w jednym przeszukiwalnym miejscu — to nudne, niezawodne jądro [porządkowania zakładek](/pl/blog/jak-uporzadkowac-zakladki-2026), żeby były znajdowalne później, i pierwszy uczciwy krok ku [budowie drugiego mózgu](/pl/blog/jak-zbudowac-drugi-mozg-2026) zamiast szuflady na graty.
 
@@ -131,4 +131,4 @@ Ctrl+P zawsze będzie pod ręką i dla zwykłego artykułu wystarczy. Ale dnia, 
 
 ---
 
-*Powiązane: [Jak uporządkować zakładki, żeby je faktycznie znajdować](/pl/blog/jak-uporzadkowac-zakladki-2026) · [Najlepsze aplikacje do czytania na później w 2026](/pl/blog/najlepsze-aplikacje-do-czytania-na-pozniej-2026)*
+*Powiązane: [Jak uporządkować zakładki, żeby je faktycznie znajdować](/pl/blog/jak-uporzadkowac-zakladki-2026) · [Najlepsze aplikacje do czytania na później w 2026](/pl/blog/najlepsze-aplikacje-do-czytania-na-pozniej-2027)*

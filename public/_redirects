@@ -87,8 +87,8 @@
 /import-pocket/                  /migrate/pocket              301
 /blog/marqly-vs-pocket-which-save-for-later-tool-is-better-in-2026  /compare/marqly-vs-pocket  301
 /blog/marqly-vs-notion-for-bookmarks-which-should-you-use-in-2026  /blog/notion-web-clipper-alternative  301
-/blog/what-is-an-ai-bookmark-manager-complete-guide-for-2026  /blog/best-ai-bookmark-manager-2026  301
-/blog/what-is-bookmark-manager-how-it-works-2026-guide  /blog/best-ai-bookmark-manager-2026  301
+/blog/what-is-an-ai-bookmark-manager-complete-guide-for-2026  /blog/best-ai-bookmark-manager-2027  301
+/blog/what-is-bookmark-manager-how-it-works-2026-guide  /blog/best-ai-bookmark-manager-2027  301
 
 # Direct high-intent alternative aliases (resolving 404s for common direct queries)
 /pocket-alternative    /alternatives/pocket           301
@@ -97,16 +97,16 @@
 /raindrop-alternatives /alternatives/raindrop         301
 /readwise-alternative  /alternatives/readwise-reader  301
 /readwise-alternatives /alternatives/readwise-reader  301
-/blog/beyond-browser-bookmarks-why-a-dedicated-manager-like-marqly-is-your-productivity-secret-weapon  /blog/best-ai-bookmark-manager-2026  301
+/blog/beyond-browser-bookmarks-why-a-dedicated-manager-like-marqly-is-your-productivity-secret-weapon  /blog/best-ai-bookmark-manager-2027  301
 /blog/how-to-organize-bookmarks-the-ultimate-guide-for-2026  /blog/how-to-organize-bookmarks  301
 /blog/how-to-manage-bookmarks-efficiently-a-step-by-step-guide  /blog/how-to-organize-bookmarks  301
 /blog/how-to-sync-bookmarks-across-all-your-devices-in-2026  /blog/how-to-organize-bookmarks  301
 /blog/how-to-manage-your-internet-info-like-a-pro-in-2025  /blog/how-to-build-a-second-brain  301
-/blog/top-5-bookmark-managers-in-2025  /blog/best-read-it-later-apps-2026  301
-/blog/why-marqly-is-the-best-bookmark-manager-for-2025  /blog/marqly-review-2026  301
-/blog/7-best-chrome-bookmark-extensions-2026-tested-ranked  /blog/best-ai-bookmark-manager-2026  301
-/blog/7-best-chrome-bookmark-extensions-in-2026-(tested-ranked)  /blog/best-ai-bookmark-manager-2026  301
-/blog/7-best-chrome-bookmark-extensions-in-2026-(tested-ranked)-copy  /blog/best-ai-bookmark-manager-2026  301
+/blog/top-5-bookmark-managers-in-2025  /blog/best-read-it-later-apps-2027  301
+/blog/why-marqly-is-the-best-bookmark-manager-for-2025  /blog/marqly-review-2027  301
+/blog/7-best-chrome-bookmark-extensions-2026-tested-ranked  /blog/best-ai-bookmark-manager-2027  301
+/blog/7-best-chrome-bookmark-extensions-in-2026-(tested-ranked)  /blog/best-ai-bookmark-manager-2027  301
+/blog/7-best-chrome-bookmark-extensions-in-2026-(tested-ranked)-copy  /blog/best-ai-bookmark-manager-2027  301
 
 # Cannibalization fix: duplicate AI-search post consolidated into the canonical survivor.
 /blog/search-bookmarks-by-meaning   /blog/how-to-search-bookmarks-with-ai   301
@@ -138,4 +138,198 @@
 # consolidates link signals through far less reliably than a 301. The status is not
 # configurable on that automatic redirect, so pre-empt it here with a real 301.
 # `/` itself has only one slash and cannot match `/*/`, so the homepage is untouched.
+
+# 2027 program (owner-authorized 2026-10-29): year rollover of EN money pages.
+# New -2027 slug is canonical; the -2026 URL 301s into it. Precedent: the
+# 2025->2026 rollover already in this file. pocket-replacements consolidates
+# into best-pocket-alternatives (same queries, 150 imp vs 10,524).
+/blog/best-pocket-alternatives-2026            /blog/best-pocket-alternatives-2027    301
+/blog/best-pocket-alternatives-2026/           /blog/best-pocket-alternatives-2027    301
+/blog/best-free-bookmark-managers-2026            /blog/best-free-bookmark-managers-2027    301
+/blog/best-free-bookmark-managers-2026/           /blog/best-free-bookmark-managers-2027    301
+/blog/best-ai-bookmark-manager-2026            /blog/best-ai-bookmark-manager-2027    301
+/blog/best-ai-bookmark-manager-2026/           /blog/best-ai-bookmark-manager-2027    301
+/blog/mymind-review-2026            /blog/mymind-review-2027    301
+/blog/mymind-review-2026/           /blog/mymind-review-2027    301
+/blog/raindrop-review-2026            /blog/raindrop-review-2027    301
+/blog/raindrop-review-2026/           /blog/raindrop-review-2027    301
+/blog/readwise-reader-review-2026            /blog/readwise-reader-review-2027    301
+/blog/readwise-reader-review-2026/           /blog/readwise-reader-review-2027    301
+/blog/best-read-it-later-apps-2026            /blog/best-read-it-later-apps-2027    301
+/blog/best-read-it-later-apps-2026/           /blog/best-read-it-later-apps-2027    301
+/blog/best-second-brain-apps-2026            /blog/best-second-brain-apps-2027    301
+/blog/best-second-brain-apps-2026/           /blog/best-second-brain-apps-2027    301
+/blog/best-tab-managers-2026            /blog/best-tab-managers-2027    301
+/blog/best-tab-managers-2026/           /blog/best-tab-managers-2027    301
+/blog/best-web-highlighters-2026            /blog/best-web-highlighters-2027    301
+/blog/best-web-highlighters-2026/           /blog/best-web-highlighters-2027    301
+/blog/best-youtube-summarizers-2026            /blog/best-youtube-summarizers-2027    301
+/blog/best-youtube-summarizers-2026/           /blog/best-youtube-summarizers-2027    301
+/blog/karakeep-review-2026            /blog/karakeep-review-2027    301
+/blog/karakeep-review-2026/           /blog/karakeep-review-2027    301
+/blog/linkwarden-review-2026            /blog/linkwarden-review-2027    301
+/blog/linkwarden-review-2026/           /blog/linkwarden-review-2027    301
+/blog/instapaper-review-2026            /blog/instapaper-review-2027    301
+/blog/instapaper-review-2026/           /blog/instapaper-review-2027    301
+/blog/instapaper-alternatives-2026            /blog/instapaper-alternatives-2027    301
+/blog/instapaper-alternatives-2026/           /blog/instapaper-alternatives-2027    301
+/blog/marqly-review-2026            /blog/marqly-review-2027    301
+/blog/marqly-review-2026/           /blog/marqly-review-2027    301
+/blog/ai-bookmark-retrieval-benchmark-2026            /blog/ai-bookmark-retrieval-benchmark-2027    301
+/blog/ai-bookmark-retrieval-benchmark-2026/           /blog/ai-bookmark-retrieval-benchmark-2027    301
+/blog/pocket-replacements-2026            /blog/best-pocket-alternatives-2027    301
+/blog/pocket-replacements-2026/           /blog/best-pocket-alternatives-2027    301
+
+
+# 2027 program, parity repair (2026-10-29): localized siblings of the rolled EN
+# money pages, re-expanded to the 0.8 parity bar against their longer 2027 EN source.
+# Without this they were auto-noindexed and stripped from the sitemap (ADR-001).
+/it/blog/migliori-app-salva-e-leggi-dopo-2026            /it/blog/migliori-app-salva-e-leggi-dopo-2027    301
+/it/blog/migliori-app-salva-e-leggi-dopo-2026/           /it/blog/migliori-app-salva-e-leggi-dopo-2027    301
+/it/blog/migliori-riassunti-video-youtube-ia-2026            /it/blog/migliori-riassunti-video-youtube-ia-2027    301
+/it/blog/migliori-riassunti-video-youtube-ia-2026/           /it/blog/migliori-riassunti-video-youtube-ia-2027    301
+/it/blog/recensione-linkwarden-2026            /it/blog/recensione-linkwarden-2027    301
+/it/blog/recensione-linkwarden-2026/           /it/blog/recensione-linkwarden-2027    301
+/nl/blog/instapaper-review-2026            /nl/blog/instapaper-review-2027    301
+/nl/blog/instapaper-review-2026/           /nl/blog/instapaper-review-2027    301
+/nl/blog/beste-second-brain-apps-2026            /nl/blog/beste-second-brain-apps-2027    301
+/nl/blog/beste-second-brain-apps-2026/           /nl/blog/beste-second-brain-apps-2027    301
+/nl/blog/mymind-review-2026            /nl/blog/mymind-review-2027    301
+/nl/blog/mymind-review-2026/           /nl/blog/mymind-review-2027    301
+/zh/blog/mymind-review-2026            /zh/blog/mymind-review-2027    301
+/zh/blog/mymind-review-2026/           /zh/blog/mymind-review-2027    301
+
+
+# 2027 program, parity repair (2026-10-29): localized siblings of the rolled EN
+# money pages, re-expanded to the 0.8 parity bar against their longer 2027 EN source.
+# Without this they were auto-noindexed and stripped from the sitemap (ADR-001).
+/fr/blog/meilleures-applications-lecture-differee-2026            /fr/blog/meilleures-applications-lecture-differee-2027    301
+/fr/blog/meilleures-applications-lecture-differee-2026/           /fr/blog/meilleures-applications-lecture-differee-2027    301
+/fr/blog/meilleurs-surligneurs-web-2026            /fr/blog/meilleurs-surligneurs-web-2027    301
+/fr/blog/meilleurs-surligneurs-web-2026/           /fr/blog/meilleurs-surligneurs-web-2027    301
+/fr/blog/avis-instapaper-2026            /fr/blog/avis-instapaper-2027    301
+/fr/blog/avis-instapaper-2026/           /fr/blog/avis-instapaper-2027    301
+/fr/blog/meilleurs-resumes-videos-youtube-ia-2026            /fr/blog/meilleurs-resumes-videos-youtube-ia-2027    301
+/fr/blog/meilleurs-resumes-videos-youtube-ia-2026/           /fr/blog/meilleurs-resumes-videos-youtube-ia-2027    301
+/fr/blog/meilleures-applications-second-cerveau-2026            /fr/blog/meilleures-applications-second-cerveau-2027    301
+/fr/blog/meilleures-applications-second-cerveau-2026/           /fr/blog/meilleures-applications-second-cerveau-2027    301
+/fr/blog/avis-readwise-reader-2026            /fr/blog/avis-readwise-reader-2027    301
+/fr/blog/avis-readwise-reader-2026/           /fr/blog/avis-readwise-reader-2027    301
+/fr/blog/avis-mymind-2026            /fr/blog/avis-mymind-2027    301
+/fr/blog/avis-mymind-2026/           /fr/blog/avis-mymind-2027    301
+/fr/blog/avis-raindrop-io-2026            /fr/blog/avis-raindrop-io-2027    301
+/fr/blog/avis-raindrop-io-2026/           /fr/blog/avis-raindrop-io-2027    301
+/fr/blog/alternatives-a-pocket-2026            /fr/blog/alternatives-a-pocket-2027    301
+/fr/blog/alternatives-a-pocket-2026/           /fr/blog/alternatives-a-pocket-2027    301
+/it/blog/migliori-evidenziatori-web-2026            /it/blog/migliori-evidenziatori-web-2027    301
+/it/blog/migliori-evidenziatori-web-2026/           /it/blog/migliori-evidenziatori-web-2027    301
+/nl/blog/pocket-alternatieven-2026            /nl/blog/pocket-alternatieven-2027    301
+/nl/blog/pocket-alternatieven-2026/           /nl/blog/pocket-alternatieven-2027    301
+/pt/blog/melhores-apps-salvar-para-ler-depois-2026            /pt/blog/melhores-apps-salvar-para-ler-depois-2027    301
+/pt/blog/melhores-apps-salvar-para-ler-depois-2026/           /pt/blog/melhores-apps-salvar-para-ler-depois-2027    301
+/pt/blog/melhores-resumidores-youtube-ia-2026            /pt/blog/melhores-resumidores-youtube-ia-2027    301
+/pt/blog/melhores-resumidores-youtube-ia-2026/           /pt/blog/melhores-resumidores-youtube-ia-2027    301
+/pt/blog/melhores-apps-segundo-cerebro-2026            /pt/blog/melhores-apps-segundo-cerebro-2027    301
+/pt/blog/melhores-apps-segundo-cerebro-2026/           /pt/blog/melhores-apps-segundo-cerebro-2027    301
+/pt/blog/analise-readwise-reader-2026            /pt/blog/analise-readwise-reader-2027    301
+/pt/blog/analise-readwise-reader-2026/           /pt/blog/analise-readwise-reader-2027    301
+/pt/blog/analise-mymind-2026            /pt/blog/analise-mymind-2027    301
+/pt/blog/analise-mymind-2026/           /pt/blog/analise-mymind-2027    301
+/pt/blog/melhores-gerenciadores-abas-2026            /pt/blog/melhores-gerenciadores-abas-2027    301
+/pt/blog/melhores-gerenciadores-abas-2026/           /pt/blog/melhores-gerenciadores-abas-2027    301
+/pt/blog/analise-raindrop-io-2026            /pt/blog/analise-raindrop-io-2027    301
+/pt/blog/analise-raindrop-io-2026/           /pt/blog/analise-raindrop-io-2027    301
+/tr/blog/en-iyi-youtube-ozetleyicileri-2026            /tr/blog/en-iyi-youtube-ozetleyicileri-2027    301
+/tr/blog/en-iyi-youtube-ozetleyicileri-2026/           /tr/blog/en-iyi-youtube-ozetleyicileri-2027    301
+/tr/blog/mymind-incelemesi-2026            /tr/blog/mymind-incelemesi-2027    301
+/tr/blog/mymind-incelemesi-2026/           /tr/blog/mymind-incelemesi-2027    301
+/tr/blog/en-iyi-ikinci-beyin-uygulamalari-2026            /tr/blog/en-iyi-ikinci-beyin-uygulamalari-2027    301
+/tr/blog/en-iyi-ikinci-beyin-uygulamalari-2026/           /tr/blog/en-iyi-ikinci-beyin-uygulamalari-2027    301
+/tr/blog/readwise-reader-incelemesi-2026            /tr/blog/readwise-reader-incelemesi-2027    301
+/tr/blog/readwise-reader-incelemesi-2026/           /tr/blog/readwise-reader-incelemesi-2027    301
+/zh/blog/shaohou-yuedu-app-2026            /zh/blog/shaohou-yuedu-app-2027    301
+/zh/blog/shaohou-yuedu-app-2026/           /zh/blog/shaohou-yuedu-app-2027    301
+/zh/blog/best-youtube-summarizers-2026            /zh/blog/best-youtube-summarizers-2027    301
+/zh/blog/best-youtube-summarizers-2026/           /zh/blog/best-youtube-summarizers-2027    301
+/zh/blog/karakeep-review-2026            /zh/blog/karakeep-review-2027    301
+/zh/blog/karakeep-review-2026/           /zh/blog/karakeep-review-2027    301
+/zh/blog/best-second-brain-apps-2026            /zh/blog/best-second-brain-apps-2027    301
+/zh/blog/best-second-brain-apps-2026/           /zh/blog/best-second-brain-apps-2027    301
+/zh/blog/readwise-reader-review-2026            /zh/blog/readwise-reader-review-2027    301
+/zh/blog/readwise-reader-review-2026/           /zh/blog/readwise-reader-review-2027    301
+/zh/blog/best-tab-managers-2026            /zh/blog/best-tab-managers-2027    301
+/zh/blog/best-tab-managers-2026/           /zh/blog/best-tab-managers-2027    301
+/zh/blog/raindrop-review-2026            /zh/blog/raindrop-review-2027    301
+/zh/blog/raindrop-review-2026/           /zh/blog/raindrop-review-2027    301
+/zh/blog/best-free-bookmark-manager-2026            /zh/blog/best-free-bookmark-manager-2027    301
+/zh/blog/best-free-bookmark-manager-2026/           /zh/blog/best-free-bookmark-manager-2027    301
+/zh/blog/best-ai-bookmark-manager-2026            /zh/blog/best-ai-bookmark-manager-2027    301
+/zh/blog/best-ai-bookmark-manager-2026/           /zh/blog/best-ai-bookmark-manager-2027    301
+
+
+# 2027 program, parity repair (2026-10-29): localized siblings of the rolled EN
+# money pages, re-expanded to the 0.8 parity bar against their longer 2027 EN source.
+# Without this they were auto-noindexed and stripped from the sitemap (ADR-001).
+/fr/blog/meilleurs-gestionnaires-favoris-gratuits-2026            /fr/blog/meilleurs-gestionnaires-favoris-gratuits-2027    301
+/fr/blog/meilleurs-gestionnaires-favoris-gratuits-2026/           /fr/blog/meilleurs-gestionnaires-favoris-gratuits-2027    301
+/fr/blog/meilleurs-gestionnaires-favoris-ia-2026            /fr/blog/meilleurs-gestionnaires-favoris-ia-2027    301
+/fr/blog/meilleurs-gestionnaires-favoris-ia-2026/           /fr/blog/meilleurs-gestionnaires-favoris-ia-2027    301
+/pt/blog/melhores-marca-textos-web-2026            /pt/blog/melhores-marca-textos-web-2027    301
+/pt/blog/melhores-marca-textos-web-2026/           /pt/blog/melhores-marca-textos-web-2027    301
+/pt/blog/alternativas-ao-pocket-2026            /pt/blog/alternativas-ao-pocket-2027    301
+/pt/blog/alternativas-ao-pocket-2026/           /pt/blog/alternativas-ao-pocket-2027    301
+
+
+# 2027 program, parity repair (2026-10-29): localized siblings of the rolled EN
+# money pages, re-expanded to the 0.8 parity bar against their longer 2027 EN source.
+# Without this they were auto-noindexed and stripped from the sitemap (ADR-001).
+/pl/blog/najlepsze-narzedzia-do-podsumowan-youtube-2026            /pl/blog/najlepsze-narzedzia-do-podsumowan-youtube-2027    301
+/pl/blog/najlepsze-narzedzia-do-podsumowan-youtube-2026/           /pl/blog/najlepsze-narzedzia-do-podsumowan-youtube-2027    301
+/tr/blog/en-iyi-sekme-yoneticileri-2026            /tr/blog/en-iyi-sekme-yoneticileri-2027    301
+/tr/blog/en-iyi-sekme-yoneticileri-2026/           /tr/blog/en-iyi-sekme-yoneticileri-2027    301
+/tr/blog/raindrop-io-incelemesi-2026            /tr/blog/raindrop-io-incelemesi-2027    301
+/tr/blog/raindrop-io-incelemesi-2026/           /tr/blog/raindrop-io-incelemesi-2027    301
+
+
+# 2027 program, parity repair (2026-10-29): localized siblings of the rolled EN
+# money pages, re-expanded to the 0.8 parity bar against their longer 2027 EN source.
+# Without this they were auto-noindexed and stripped from the sitemap (ADR-001).
+/pl/blog/najlepsze-aplikacje-do-czytania-na-pozniej-2026            /pl/blog/najlepsze-aplikacje-do-czytania-na-pozniej-2027    301
+/pl/blog/najlepsze-aplikacje-do-czytania-na-pozniej-2026/           /pl/blog/najlepsze-aplikacje-do-czytania-na-pozniej-2027    301
+
+
+# 2027 program, parity repair (2026-10-29): localized siblings of the rolled EN
+# money pages, re-expanded to the 0.8 parity bar against their longer 2027 EN source.
+# Without this they were auto-noindexed and stripped from the sitemap (ADR-001).
+/it/blog/migliori-app-secondo-cervello-2026            /it/blog/migliori-app-secondo-cervello-2027    301
+/it/blog/migliori-app-secondo-cervello-2026/           /it/blog/migliori-app-secondo-cervello-2027    301
+/it/blog/recensione-readwise-reader-2026            /it/blog/recensione-readwise-reader-2027    301
+/it/blog/recensione-readwise-reader-2026/           /it/blog/recensione-readwise-reader-2027    301
+/it/blog/recensione-mymind-2026            /it/blog/recensione-mymind-2027    301
+/it/blog/recensione-mymind-2026/           /it/blog/recensione-mymind-2027    301
+/it/blog/recensione-raindrop-io-2026            /it/blog/recensione-raindrop-io-2027    301
+/it/blog/recensione-raindrop-io-2026/           /it/blog/recensione-raindrop-io-2027    301
+/pl/blog/readwise-reader-recenzja-2026            /pl/blog/readwise-reader-recenzja-2027    301
+/pl/blog/readwise-reader-recenzja-2026/           /pl/blog/readwise-reader-recenzja-2027    301
+
+
+# 2027 program, parity repair (2026-10-29): localized siblings of the rolled EN
+# money pages, re-expanded to the 0.8 parity bar against their longer 2027 EN source.
+# Without this they were auto-noindexed and stripped from the sitemap (ADR-001).
+/pl/blog/mymind-recenzja-2026            /pl/blog/mymind-recenzja-2027    301
+/pl/blog/mymind-recenzja-2026/           /pl/blog/mymind-recenzja-2027    301
+/pl/blog/alternatywy-pocket-2026            /pl/blog/alternatywy-pocket-2027    301
+/pl/blog/alternatywy-pocket-2026/           /pl/blog/alternatywy-pocket-2027    301
+
+
+# 2027 program, parity repair (2026-10-29): localized siblings of the rolled EN
+# money pages, re-expanded to the 0.8 parity bar against their longer 2027 EN source.
+# Without this they were auto-noindexed and stripped from the sitemap (ADR-001).
+/it/blog/alternative-a-pocket-2026            /it/blog/alternative-a-pocket-2027    301
+/it/blog/alternative-a-pocket-2026/           /it/blog/alternative-a-pocket-2027    301
+/it/blog/migliori-gestori-segnalibri-gratis-2026            /it/blog/migliori-gestori-segnalibri-gratis-2027    301
+/it/blog/migliori-gestori-segnalibri-gratis-2026/           /it/blog/migliori-gestori-segnalibri-gratis-2027    301
+/it/blog/migliori-gestori-segnalibri-ia-2026            /it/blog/migliori-gestori-segnalibri-ia-2027    301
+/it/blog/migliori-gestori-segnalibri-ia-2026/           /it/blog/migliori-gestori-segnalibri-ia-2027    301
+
 /*/  /:splat  301

@@ -27,4 +27,4 @@ That combination is what separates an [AI bookmark manager](/faq/what-is-an-ai-b
 
 ## Where Marqly fits
 
-Marqly is an AI bookmark manager: one-click save from Chrome, Edge, Firefox, or Safari, automatic AI tagging on every save, AI summaries of saved articles, and semantic search across everything in your library. It also imports the standard bookmark HTML file every major browser exports, so an existing collection comes along. If you're evaluating the category, [the best AI bookmark managers of 2026](/blog/best-ai-bookmark-manager-2026) compares the main options.
+Marqly is an AI bookmark manager: one-click save from Chrome, Edge, Firefox, or Safari, automatic AI tagging on every save, AI summaries of saved articles, and semantic search across everything in your library. It also imports the standard bookmark HTML file every major browser exports, so an existing collection comes along. If you're evaluating the category, [the best AI bookmark managers of 2026](/blog/best-ai-bookmark-manager-2027) compares the main options.

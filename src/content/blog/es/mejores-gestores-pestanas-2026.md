@@ -124,7 +124,7 @@ Lo que Marqly sí resuelve es el *otro* problema de pestañas: las 30 abiertas p
 - Sin instantáneas de sesión al estilo Session Buddy
 - La IA es el argumento; si solo quieres una lista plana, OneTab es más simple
 
-Si tu montaña de pestañas es en realidad una cola de lectura disfrazada, ese terreno lo pisa nuestra guía de [alternativas a Pocket](/es/blog/alternativas-a-pocket-2026) — y la razón por la que un [gestor de marcadores con IA y búsqueda de verdad](/es/blog/mejores-gestores-marcadores-ia-2026) le gana a otra lista más.
+Si tu montaña de pestañas es en realidad una cola de lectura disfrazada, ese terreno lo pisa nuestra guía de [alternativas a Pocket](/es/blog/alternativas-a-pocket-2027) — y la razón por la que un [gestor de marcadores con IA y búsqueda de verdad](/es/blog/mejores-gestores-marcadores-ia-2027) le gana a otra lista más.
 
 ## ¿Se pueden combinar?
 

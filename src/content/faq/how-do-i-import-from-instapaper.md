@@ -27,7 +27,7 @@ Instapaper's model is a clean reading queue. The failure mode most people hit is
 - **AI summaries** let you triage a backlog fast instead of reading linearly
 - **Semantic search (Pro)** finds saves by meaning: describe the article, get the article
 
-If you're still choosing your next tool, the wider field is covered in [the best Instapaper alternatives in 2026](/blog/instapaper-alternatives-2026), and the category basics are in [what is a read-it-later app](/faq/what-is-a-read-it-later-app).
+If you're still choosing your next tool, the wider field is covered in [the best Instapaper alternatives in 2026](/blog/instapaper-alternatives-2027), and the category basics are in [what is a read-it-later app](/faq/what-is-a-read-it-later-app).
 
 ## Consolidating multiple services
 

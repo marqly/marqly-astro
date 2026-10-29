@@ -153,7 +153,7 @@ La ruta DIY: toma la transcripción del video, pégala en ChatGPT (o Claude o Ge
 
 La cuenta de los niveles gratuitos importa aquí también. Si resumirás un video al día, el tope de 3 por semana de Eightify y la bolsa de 10 al mes de Recall se agotan en la primera semana; los 3 diarios de Glasp aguantan; y la ruta manual con ChatGPT te cuesta unos minutos de faena con la transcripción por video. Ponle precio a tu volumen real antes de dar por hecho que gratis es gratis.
 
-Un filtro más que conviene aplicar: pregunta qué le pasa al resumen *después*. Si la respuesta es «se evapora», estarás re-resumiendo los mismos videos el año que viene. La respuesta de Marqly — el video, la transcripción y el resumen aterrizan en una biblioteca en la que puedes [buscar por significado](/es/blog/mejores-gestores-marcadores-ia-2026) — es la razón por la que lo construimos así. [Empieza gratis](https://app.marqly.com); la pestaña de resumen funciona sin tarjeta.
+Un filtro más que conviene aplicar: pregunta qué le pasa al resumen *después*. Si la respuesta es «se evapora», estarás re-resumiendo los mismos videos el año que viene. La respuesta de Marqly — el video, la transcripción y el resumen aterrizan en una biblioteca en la que puedes [buscar por significado](/es/blog/mejores-gestores-marcadores-ia-2027) — es la razón por la que lo construimos así. [Empieza gratis](https://app.marqly.com); la pestaña de resumen funciona sin tarjeta.
 
 ---
 

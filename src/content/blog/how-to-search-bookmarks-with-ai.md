@@ -40,7 +40,7 @@ The practical effect: searching "why mornings feel productive" can find an artic
 
 ## How do I search my bookmarks with AI, step by step?
 
-1. **Pick a tool with real semantic search.** Not every "AI" label is genuine — see the test below, or start from our shortlist of [the best AI bookmark managers](/blog/best-ai-bookmark-manager-2026).
+1. **Pick a tool with real semantic search.** Not every "AI" label is genuine — see the test below, or start from our shortlist of [the best AI bookmark managers](/blog/best-ai-bookmark-manager-2027).
 2. **Describe, don't keyword.** Write a sentence: "the guide on negotiating a higher salary at a startup."
 3. **Include any detail you recall.** A name, a number, a tone, a topic — each one sharpens the ranking.
 4. **Scan the top results.** Because they're ranked by relevance to your idea, the right save is usually in the first two or three.
@@ -73,7 +73,7 @@ A lot of apps slap "AI" on keyword search dressed up with filters. Run this test
 - Wait a day so you forget the wording.
 - Search by paraphrasing one of them using **none** of its title words.
 
-If the right article surfaces near the top, the semantic search is real. If you get nothing, it's keyword matching with marketing on top. Our [documentation-level breakdown of which tools actually do semantic search](/blog/ai-bookmark-managers-semantic-search-compared) shows how each is built, and the [retrieval benchmark protocol](/blog/ai-bookmark-retrieval-benchmark-2026) makes the judgment call yours to run.
+If the right article surfaces near the top, the semantic search is real. If you get nothing, it's keyword matching with marketing on top. Our [documentation-level breakdown of which tools actually do semantic search](/blog/ai-bookmark-managers-semantic-search-compared) shows how each is built, and the [retrieval benchmark protocol](/blog/ai-bookmark-retrieval-benchmark-2027) makes the judgment call yours to run.
 
 ## Get more out of AI search
 

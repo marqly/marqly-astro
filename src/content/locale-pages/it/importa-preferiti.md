@@ -59,7 +59,7 @@ Poi in Marqly apri le impostazioni di importazione, carichi il file e aspetti ch
 
 Pocket ha chiuso nel luglio 2025. Se all'epoca hai scaricato il tuo export, tienilo da conto: Marqly lo importa direttamente e ti restituisce l'archivio in forma cercabile. Se invece non l'hai mai scaricato, non c'è nessun trucco per recuperarlo — ed è la ragione per cui vale la pena esportare i propri dati quando tutto funziona ancora, non quando serve.
 
-Se stai ancora decidendo dove trasferirti, il confronto sulle [alternative a Pocket nel 2026](/it/blog/alternative-a-pocket-2026) mette in fila le opzioni reali, compresi i casi in cui Marqly non è la scelta giusta.
+Se stai ancora decidendo dove trasferirti, il confronto sulle [alternative a Pocket nel 2026](/it/blog/alternative-a-pocket-2027) mette in fila le opzioni reali, compresi i casi in cui Marqly non è la scelta giusta.
 
 ## 3. Raindrop
 

@@ -13,7 +13,7 @@ Yes. Marqly generates AI summaries of the articles you save, so you can see what
 
 ## Summaries are for triage
 
-A read-it-later queue fails when the only way to assess an article is to read it — the backlog compounds and eventually you declare bankruptcy. Summaries break that cycle. Twenty saved articles become twenty short digests you can scan in a few minutes, sorting the must-reads from the skims from the deletes. It's the difference between a library you use and [a queue you feel guilty about](/blog/best-read-it-later-apps-2026).
+A read-it-later queue fails when the only way to assess an article is to read it — the backlog compounds and eventually you declare bankruptcy. Summaries break that cycle. Twenty saved articles become twenty short digests you can scan in a few minutes, sorting the must-reads from the skims from the deletes. It's the difference between a library you use and [a queue you feel guilty about](/blog/best-read-it-later-apps-2027).
 
 ## YouTube videos too
 

@@ -16,7 +16,7 @@ lang: "zh"
 faqs:
   - q: "Marqly 的收费标准如何？"
     a: "提供多达 100 条收藏的永久免费版；Pro 版年付仅需 $72（折合 $6/月），结账输入 STANDING49 首年立减至 $49。"
-heroImage: ../../../assets/blog/marqly-review-2026.png
+heroImage: ../../../assets/blog/marqly-review-2027.png
 heroAlt: "Marqly 深度评测 2026"
 ---
 

@@ -27,7 +27,7 @@ faqs:
     a: "摩擦のないワンクリック保存、自動整理（手で分類しなくて済む）、タイトルを忘れても意味で探せるセマンティック検索です。さらにWeb・スマホ・デスクトップを横断し、既存のブックマークをインポートできれば万々歳。これらの特性が「来月も使えているか」を予測します。"
   - q: "軽量のセカンドブレインアプリはNotionやObsidianと同等ですか？"
     a: "オリジナルの執筆と深い統合では同等ではありません。重厚なPKMツールの方が強い。ただし、ほとんどの人が本当にほしい仕事——読んだものを失わなくすること——なら、キャプチャ＆検索型の軽量アプリの方が多くの場合優れています。忙しい週を越えても維持コストの放置で腐らないからです。"
-heroImage: ../../../assets/blog/best-second-brain-apps-2026.png
+heroImage: ../../../assets/blog/best-second-brain-apps-2027.png
 heroAlt: "2026年おすすめのセカンドブレインアプリ7選 — イラスト"
 ogImage: "https://www.marqly.com/og/best-second-brain-apps-2026.png"
 ---
@@ -116,7 +116,7 @@ Tanaは、「構造を最初から備えたPKM」が欲しい人に最良のセ�
 - **向いている人：** Webから大量に保存して、ただ再検索したい人。世話は不要。Pocket、Raindrop、ブラウザの既存ブックマークをインポートして一発でライブラリを埋め戻せるので、初日から検索可能です。
 - **避けるべき：** 目的が長文のオリジナル執筆と手でやる深い総合なら——それはまさにObsidian、Notion、Tanaのための仕事。Marqlyは「保存した素材」中心で、「執筆したノート」中心ではありません。
 
-軽量ルートが正しそうに思えたら、[ブックマークからセカンドブレインを作る方法](/ja/blog/how-to-build-a-second-brain-2026)で正確な4ステップの手順を、[2026年ベストAIブックマークマネージャー](/ja/blog/best-ai-bookmark-manager-2026)で同カテゴリのアプリ比較を確認してください。
+軽量ルートが正しそうに思えたら、[ブックマークからセカンドブレインを作る方法](/ja/blog/how-to-build-a-second-brain-2026)で正確な4ステップの手順を、[2026年ベストAIブックマークマネージャー](/ja/blog/best-ai-bookmark-manager-2027)で同カテゴリのアプリ比較を確認してください。
 
 ## 実際にどのセカンドブレインアプリを選ぶべきか
 
@@ -140,4 +140,4 @@ Tanaは、「構造を最初から備えたPKM」が欲しい人に最良のセ�
 
 ---
 
-*関連：[セカンドブレインアプリとは何か](/ja/blog/what-is-a-second-brain-app-2026)・[AIセカンドブレインとは何か](/ja/blog/what-is-an-ai-second-brain-2026)・[2026年ベストAIブックマークマネージャー](/ja/blog/best-ai-bookmark-manager-2026)*
+*関連：[セカンドブレインアプリとは何か](/ja/blog/what-is-a-second-brain-app-2026)・[AIセカンドブレインとは何か](/ja/blog/what-is-an-ai-second-brain-2026)・[2026年ベストAIブックマークマネージャー](/ja/blog/best-ai-bookmark-manager-2027)*

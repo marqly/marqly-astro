@@ -32,7 +32,7 @@ When "later" arrives, you're not staring at a wall of identical links. Saves are
 
 This is the piece most read-it-later apps never had. Marqly generates AI summaries of your saved articles, which changes the daily interaction: instead of scrolling a list of titles wondering what's behind each one, you skim summaries and sort your queue into three piles — read now, read on the weekend, never (archive without opening).
 
-The guilt pile was always a decision problem in disguise. A backlog of 200 unread articles is unmanageable; 200 summaries is twenty minutes of triage. For how Marqly compares to other apps in the category — including on this point — see [the best read-it-later apps in 2026](/blog/best-read-it-later-apps-2026).
+The guilt pile was always a decision problem in disguise. A backlog of 200 unread articles is unmanageable; 200 summaries is twenty minutes of triage. For how Marqly compares to other apps in the category — including on this point — see [the best read-it-later apps in 2026](/blog/best-read-it-later-apps-2027).
 
 ## Read actively: highlight and keep what mattered
 

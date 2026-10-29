@@ -105,6 +105,6 @@ Vale lembrar do que o Marqly **não** faz, para você não se planejar errado: a
 3. Leitura obrigatória? Grife só o que você usaria numa prova.
 4. Revisão? Busque descrevendo — não procurando.
 
-Comece pela matéria mais bagunçada do semestre. Se você está migrando de outro app, veja as [alternativas ao Pocket em 2026](/pt/blog/alternativas-ao-pocket-2026); a visão geral do produto fica em [Marqly em português](/pt).
+Comece pela matéria mais bagunçada do semestre. Se você está migrando de outro app, veja as [alternativas ao Pocket em 2026](/pt/blog/alternativas-ao-pocket-2027); a visão geral do produto fica em [Marqly em português](/pt).
 
 [Criar conta grátis e ativar o desconto de estudante](https://app.marqly.com)

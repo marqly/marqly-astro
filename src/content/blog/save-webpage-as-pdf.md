@@ -117,7 +117,7 @@ That makes PDFs the right call for:
 - **Terms, policies, and pricing pages** you might need to cite later
 - **Anything you expect to be edited or taken down**
 
-For everything else — articles, references, research — a bookmark is better, because it stays searchable and current. Better still, bookmark it and [highlight the parts that actually matter](/blog/how-to-highlight-text-on-any-website), so you keep the insight without hoarding a file. If your saved pile is mostly long reads, a proper [read-it-later app](/blog/best-read-it-later-apps-2026) beats a folder of PDFs by a mile.
+For everything else — articles, references, research — a bookmark is better, because it stays searchable and current. Better still, bookmark it and [highlight the parts that actually matter](/blog/how-to-highlight-text-on-any-website), so you keep the insight without hoarding a file. If your saved pile is mostly long reads, a proper [read-it-later app](/blog/best-read-it-later-apps-2027) beats a folder of PDFs by a mile.
 
 The workflow that holds up long-term: bookmark by default, PDF the irreplaceable stuff, and keep both in one searchable place — that's the boring, reliable core of [organizing your bookmarks](/blog/how-to-organize-bookmarks) so they're findable later, and the first honest step toward [building a second brain](/blog/how-to-build-a-second-brain) instead of a junk drawer.
 
@@ -129,4 +129,4 @@ Ctrl+P will always be there, and for a plain article it's all you need. But the 
 
 ---
 
-*Related: [How to organize bookmarks so you can actually find them](/blog/how-to-organize-bookmarks) · [The best read-it-later apps in 2026](/blog/best-read-it-later-apps-2026)*
+*Related: [How to organize bookmarks so you can actually find them](/blog/how-to-organize-bookmarks) · [The best read-it-later apps in 2026](/blog/best-read-it-later-apps-2027)*

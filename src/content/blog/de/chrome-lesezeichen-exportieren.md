@@ -70,7 +70,7 @@ Der allgemeine Ablauf ist bei nahezu jedem Tool derselbe:
 3. **Den Haufen verarbeiten lassen.** Das ist der Teil, der dir von Hand Tage gekostet hätte: Die KI liest jede gespeicherte Seite und hängt automatisch Tags an. Bei großen Sammlungen ein paar Minuten Geduld, dann zurückkommen.
 4. **Wiederauffinden testen, bevor du vertraust.** Such drei Links, an die du dich ans Speichern erinnerst, und finde sie durch *Beschreiben* des Themas — nicht über ihre Titel. Tauchen sie auf, hat der Import funktioniert.
 
-Wenn deine Links aktuell in einer Read-it-later-App liegen statt (oder zusätzlich) in Chrome, schau in unser [Migrationszentrum](/migrate) mit Schritt-für-Schritt-Anleitungen für [Pocket](/migrate/pocket), [Raindrop](/de/migration/raindrop), [mymind](/migrate/mymind) und [Instapaper](/migrate/instapaper). Vor dem Import kannst du deine HTML-Datei mit unserem kostenlosen [Lesezeichen-Datei-Viewer](/tools/bookmark-file-viewer) inspizieren und mit dem [Duplikat-Finder](/tools/duplicate-bookmark-finder) aus dem [kostenlosen Tool-Verzeichnis](/tools) aufräumen. Spezifisch von Pocket migrieren? Folge [wie du deine Pocket-Daten exportierst und migrierst](/de/blog/pocket-daten-exportieren-migrieren-2026) — Marqly importiert dort die `list.csv` — nicht das Pocket-HTML —, und wenn du noch suchst, wo du landest, zeigen die [besten Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2026) die Optionen.
+Wenn deine Links aktuell in einer Read-it-later-App liegen statt (oder zusätzlich) in Chrome, schau in unser [Migrationszentrum](/migrate) mit Schritt-für-Schritt-Anleitungen für [Pocket](/migrate/pocket), [Raindrop](/de/migration/raindrop), [mymind](/migrate/mymind) und [Instapaper](/migrate/instapaper). Vor dem Import kannst du deine HTML-Datei mit unserem kostenlosen [Lesezeichen-Datei-Viewer](/tools/bookmark-file-viewer) inspizieren und mit dem [Duplikat-Finder](/tools/duplicate-bookmark-finder) aus dem [kostenlosen Tool-Verzeichnis](/tools) aufräumen. Spezifisch von Pocket migrieren? Folge [wie du deine Pocket-Daten exportierst und migrierst](/de/blog/pocket-daten-exportieren-migrieren-2026) — Marqly importiert dort die `list.csv` — nicht das Pocket-HTML —, und wenn du noch suchst, wo du landest, zeigen die [besten Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2027) die Optionen.
 
 ## Was überlebt den Import tatsächlich?
 
@@ -109,7 +109,7 @@ Jedes System tauscht Aufwand gegen Auffindbarkeit. Chrome-Lesezeichen verlangen 
 | Skaliert über hunderte Saves | ❌ Wird zum Haufen | ✅ Bleibt durchsuchbar |
 | Findet einen Save per Beschreibung | ❌ Exakter Titel nötig | ✅ In Alltagssprache beschreiben |
 
-Von oben nach unten gelesen ist der Trend klar: Jede Zeile wird besser, sobald ein Tool das Organisieren und Suchen für dich übernimmt. Der Import bringt deine bestehenden Links über diese Linie — und wenn du vorher die Tools vergleichen willst, die das gut können, zeigt unser Roundup des [besten KI-Lesezeichen-Managers 2026](/de/blog/beste-ai-lesezeichen-manager-2026) die echten Kandidaten.
+Von oben nach unten gelesen ist der Trend klar: Jede Zeile wird besser, sobald ein Tool das Organisieren und Suchen für dich übernimmt. Der Import bringt deine bestehenden Links über diese Linie — und wenn du vorher die Tools vergleichen willst, die das gut können, zeigt unser Roundup des [besten KI-Lesezeichen-Managers 2026](/de/blog/beste-ai-lesezeichen-manager-2027) die echten Kandidaten.
 
 ## Hol deine Chrome-Lesezeichen zu Marqly
 
@@ -119,4 +119,4 @@ Exportiere deine Lesezeichen aus Chrome, importiere die HTML-Datei und durchsuch
 
 ---
 
-*Verwandt: [Vergleiche nebeneinander](/compare) · [Bester KI-Lesezeichen-Manager 2026](/de/blog/beste-ai-lesezeichen-manager-2026) · [Migrationszentrum](/migrate) · [Kostenlose Lesezeichen-Tools](/tools)*
+*Verwandt: [Vergleiche nebeneinander](/compare) · [Bester KI-Lesezeichen-Manager 2026](/de/blog/beste-ai-lesezeichen-manager-2027) · [Migrationszentrum](/migrate) · [Kostenlose Lesezeichen-Tools](/tools)*

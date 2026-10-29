@@ -117,7 +117,7 @@ Bu kadar — ciddiye alınacak dört adım, ama kısa bir liste. Tasarlanacak ta
 
 ## İkinci beyin uygulamasında neye bakmalı?
 
-Sürtünmesiz tek tık yakalamaya, manuel klasörler yerine otomatik yapay zeka düzenlemesine ve şeyleri anlama göre bulan anlamsal aramaya bakın. Bu üçü pazarlıksız. Ötesinde, yapay zeka özetleri birikinti triage'ında yardımcı olur ve cihazlar arası kapsam aracın gerçekten okuduğunuz her yerde — web, telefon, masaüstü — çalışmasını garanti eder. Direkt kısa listeye atlamak isterseniz, [en iyi ikinci beyin uygulamaları](/tr/blog/en-iyi-ikinci-beyin-uygulamalari-2026) derlememiz tam bu kriterlere göre sıralıyor.
+Sürtünmesiz tek tık yakalamaya, manuel klasörler yerine otomatik yapay zeka düzenlemesine ve şeyleri anlama göre bulan anlamsal aramaya bakın. Bu üçü pazarlıksız. Ötesinde, yapay zeka özetleri birikinti triage'ında yardımcı olur ve cihazlar arası kapsam aracın gerçekten okuduğunuz her yerde — web, telefon, masaüstü — çalışmasını garanti eder. Direkt kısa listeye atlamak isterseniz, [en iyi ikinci beyin uygulamaları](/tr/blog/en-iyi-ikinci-beyin-uygulamalari-2027) derlememiz tam bu kriterlere göre sıralıyor.
 
 Bir aracı ikinci beyin ilan etmeden önce, yani parayı ve alışkanlığı bağlamadan önce, bu kontrol listesinden geçirin; altı maddenin altısı da elenirse sistem üç ay içinde bir daha açılmayacağı yere gömülmüş olur:
 

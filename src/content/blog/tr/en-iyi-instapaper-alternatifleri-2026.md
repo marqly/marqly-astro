@@ -16,7 +16,7 @@ lang: "tr"
 faqs:
   - q: "Instapaper yerine ne kullanılabilir?"
     a: "Temiz okuma modunu yapay zeka destekli anlamsal aramayla birleştiren Marqly en iyi alternatiftir."
-heroImage: ../../../assets/blog/instapaper-alternatives-2026.png
+heroImage: ../../../assets/blog/instapaper-alternatives-2027.png
 heroAlt: "En iyi Instapaper alternatifleri 2026"
 ---
 

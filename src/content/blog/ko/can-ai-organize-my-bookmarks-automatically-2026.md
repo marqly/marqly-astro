@@ -47,7 +47,7 @@ ogImage: "https://www.marqly.com/og/can-ai-organize-my-bookmarks-automatically.p
 - **요약** — 한두 줄 요약이 생성되어, 몇 주 뒤에도 그 저장이 무엇이었는지 한눈에 알 수 있습니다.
 - **시맨틱 그룹화** — 항목을 하나의 폴더에 강제로 넣는 대신, 의미가 이해되므로 한 저장이 여러 주제와 동시에 관련될 수 있습니다.
 
-[Marqly](https://app.marqly.com)는 세 가지를 캡처 순간에 합니다: 아티클, 영상, 메모를 저장하면 자동 태깅·요약되고, 라이브러리 전체가 의미로 검색 가능해지며 — 태깅된 뒤에는 [AI 검색으로 다시 찾기](/ko/blog/ai-bookmark-geomsaek-2026)까지 이어집니다. 도구 비교 중이라면 [2026 베스트 AI 북마크 관리자](/ko/blog/best-ai-bookmark-manager-2026) 정리글도 참고하세요. (수동 태깅만 제공하는 도구에서 시맨틱 검색을 고르는 법은 [별도 비교](/ko/blog/ai-bookmark-managers-semantic-search-compared-2026)에서 다룹니다.)
+[Marqly](https://app.marqly.com)는 세 가지를 캡처 순간에 합니다: 아티클, 영상, 메모를 저장하면 자동 태깅·요약되고, 라이브러리 전체가 의미로 검색 가능해지며 — 태깅된 뒤에는 [AI 검색으로 다시 찾기](/ko/blog/ai-bookmark-geomsaek-2026)까지 이어집니다. 도구 비교 중이라면 [2026 베스트 AI 북마크 관리자](/ko/blog/best-ai-bookmark-manager-2027) 정리글도 참고하세요. (수동 태깅만 제공하는 도구에서 시맨틱 검색을 고르는 법은 [별도 비교](/ko/blog/ai-bookmark-managers-semantic-search-compared-2026)에서 다룹니다.)
 
 ## 그래도 폴더가 필요한가요?
 

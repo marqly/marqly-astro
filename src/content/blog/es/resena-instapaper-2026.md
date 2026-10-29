@@ -91,9 +91,9 @@ Contexto que importa: en 2025 Instapaper subió Premium de 2,99 a 5,99 USD al me
 ## Dónde se queda corto Instapaper
 
 - **El precio se duplicó; el producto no.** 59,99 USD/año ahora se solapa con herramientas que hacen muchísimo más — Pro de Marqly son 72 USD/año, y el conjunto de funciones enormemente más profundo de Readwise Reader arranca en 9,99 USD/mes.
-- **La organización son carpetas, punto.** Sin etiquetas, sin auto-organización, nada hecho por ti. Cada artículo que guardas cae en un montón a menos que lo archives a mano — el patrón exacto que convierte apps de lectura diferida en cementerios de [leer-que-nunca](/es/blog/alternativas-a-pocket-2026).
+- **La organización son carpetas, punto.** Sin etiquetas, sin auto-organización, nada hecho por ti. Cada artículo que guardas cae en un montón a menos que lo archives a mano — el patrón exacto que convierte apps de lectura diferida en cementerios de [leer-que-nunca](/es/blog/alternativas-a-pocket-2027).
 - **La búsqueda está tras el muro de pago y es literal.** Los usuarios gratis no pueden buscar el texto de los artículos en absoluto. La búsqueda de Premium empareja palabras clave — si no recuerdas las palabras, no encuentras el artículo.
-- **Ninguna capa de IA de la que hablar.** Sin resúmenes con los que hacer triage del pendiente, sin autoetiquetado, sin recuperación semántica. Las adiciones de 2025-26 (voces IA, lectura rápida) pulen el consumo, no la organización ni la recuperación — los dos problemas que de verdad matan el hábito de guardar artículos, como desglosamos en nuestra [guía de gestores de marcadores con IA](/es/blog/mejores-gestores-marcadores-ia-2026).
+- **Ninguna capa de IA de la que hablar.** Sin resúmenes con los que hacer triage del pendiente, sin autoetiquetado, sin recuperación semántica. Las adiciones de 2025-26 (voces IA, lectura rápida) pulen el consumo, no la organización ni la recuperación — los dos problemas que de verdad matan el hábito de guardar artículos, como desglosamos en nuestra [guía de gestores de marcadores con IA](/es/blog/mejores-gestores-marcadores-ia-2027).
 - **Ritmo de desarrollo lento.** La estabilidad de Instapaper es en parte estática. La velocidad de funciones ha sido modesta durante años, y los elementos de la hoja de ruta que los usuarios más piden — resumen, organización automática — siguen «planificados».
 
 ## Cómo se compara con Marqly
@@ -120,7 +120,7 @@ Lectura justa de esa tabla: si tu vida de artículos guardados es *leer* — ses
 - **Lectores de texto largo** que quieren la mejor tipografía y una cola libre de distracciones.
 - **Dueños de Kindle** — solo los envíos programados pueden justificar Premium.
 - **Pendulares y viajeros** que necesitan lectura offline fiable.
-- **Refugiados de Pocket** que quieren el punto de aterrizaje más parecido posible y valoran un historial de 18 años — aunque vale la pena escanear el [campo completo de alternativas a Pocket](/es/blog/alternativas-a-pocket-2026) antes de asentarse, y nuestra [lista de alternativas a Instapaper](/es/blog/mejores-alternativas-a-instapaper-2026) si ya se te quedó corto.
+- **Refugiados de Pocket** que quieren el punto de aterrizaje más parecido posible y valoran un historial de 18 años — aunque vale la pena escanear el [campo completo de alternativas a Pocket](/es/blog/alternativas-a-pocket-2027) antes de asentarse, y nuestra [lista de alternativas a Instapaper](/es/blog/mejores-alternativas-a-instapaper-2026) si ya se te quedó corto.
 
 Quién no debería: cualquiera cuyo problema sea el pendiente. Si guardas 30 artículos por semana y lees 3, Instapaper organizará tu culpa con hermosura. No resumirá el montón, no lo etiquetará, y no encontrará aquel artículo recordado a medias de marzo. También es la herramienta equivocada para quien guarda cosas que no son artículos — videos, PDFs más allá de lo básico, imágenes y enlaces de referencia — todos incómodos en una cola diseñada para prosa.
 

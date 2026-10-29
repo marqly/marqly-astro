@@ -37,7 +37,7 @@ Una nota para calibrar expectativas: esto es una herramienta de pregunta-y-respu
 
 ## ¿Puedo chatear con mis artículos guardados?
 
-Sí — si tu gestor de marcadores tiene preguntas y respuestas con IA sobre la biblioteca. Es una función de [un gestor de marcadores con IA](/es/blog/mejores-gestores-marcadores-ia-2026) y no de uno tradicional: en vez de devolverte una lista de guardados para que los abras y leas, responde tu pregunta directamente, usando el contenido de los guardados relevantes.
+Sí — si tu gestor de marcadores tiene preguntas y respuestas con IA sobre la biblioteca. Es una función de [un gestor de marcadores con IA](/es/blog/mejores-gestores-marcadores-ia-2027) y no de uno tradicional: en vez de devolverte una lista de guardados para que los abras y leas, responde tu pregunta directamente, usando el contenido de los guardados relevantes.
 
 O sea, haces una pregunta real —"¿cuáles eran los principales argumentos contra las oficinas abiertas?"— y recibes una respuesta sintetizada extraída de los artículos que guardaste sobre el tema, con las fuentes adjuntas. En Marqly esto forma parte de ChatVault, una función del plan Pro.
 

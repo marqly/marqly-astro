@@ -68,7 +68,7 @@ The general flow looks like this in nearly every tool:
 3. **Let it process the pile.** This is the part that would have taken you days by hand: the AI reads each saved page and attaches tags automatically. Give it a few minutes for a large collection, then come back.
 4. **Test retrieval before you trust it.** Pick three links you remember saving and search for them by *describing* what they were about — not by their titles. If they surface, the import worked and you can rely on it.
 
-If your links currently live in a read-later app instead of (or in addition to) Chrome, check our dedicated [Migration Center](/migrate) with step-by-step guides for [Pocket](/migrate/pocket), [Raindrop](/migrate/raindrop), [mymind](/migrate/mymind), and [Instapaper](/migrate/instapaper). Before importing, you can inspect or clean up your HTML file using our free [Bookmark File Viewer](/tools/bookmark-file-viewer) and [Duplicate Bookmark Finder](/tools/duplicate-bookmark-finder) from our [free tools directory](/tools). Migrating off Pocket specifically? Follow [how to export and migrate your Pocket data](/blog/how-to-export-migrate-pocket-data), and if you're shopping for where to land, the [best Pocket alternatives for 2026](/blog/best-pocket-alternatives-2026) covers the options.
+If your links currently live in a read-later app instead of (or in addition to) Chrome, check our dedicated [Migration Center](/migrate) with step-by-step guides for [Pocket](/migrate/pocket), [Raindrop](/migrate/raindrop), [mymind](/migrate/mymind), and [Instapaper](/migrate/instapaper). Before importing, you can inspect or clean up your HTML file using our free [Bookmark File Viewer](/tools/bookmark-file-viewer) and [Duplicate Bookmark Finder](/tools/duplicate-bookmark-finder) from our [free tools directory](/tools). Migrating off Pocket specifically? Follow [how to export and migrate your Pocket data](/blog/how-to-export-migrate-pocket-data), and if you're shopping for where to land, the [best Pocket alternatives for 2026](/blog/best-pocket-alternatives-2027) covers the options.
 
 ## What actually carries over when you import?
 
@@ -107,7 +107,7 @@ Each system trades effort against findability. Chrome's bookmarks demand manual 
 | Scales past hundreds of saves | ❌ Becomes a pile | ✅ Stays searchable |
 | Finds a save by describing it | ❌ Need the exact title | ✅ Describe it in plain language |
 
-Read it top to bottom and the trend is clear: every row improves once a tool is doing the organizing and the searching for you. The import is what gets your existing links across that line — and if you want to compare the tools that do this well first, our roundup of the [best AI bookmark manager for 2026](/blog/best-ai-bookmark-manager-2026) lays out the real contenders.
+Read it top to bottom and the trend is clear: every row improves once a tool is doing the organizing and the searching for you. The import is what gets your existing links across that line — and if you want to compare the tools that do this well first, our roundup of the [best AI bookmark manager for 2026](/blog/best-ai-bookmark-manager-2027) lays out the real contenders.
 
 ## Bring your Chrome bookmarks into Marqly
 
@@ -117,4 +117,4 @@ Export your bookmarks from Chrome, import the HTML file, and search your whole p
 
 ---
 
-*Related: [Side-by-Side Comparison Directory](/compare) · [Best AI Bookmark Manager 2026](/blog/best-ai-bookmark-manager-2026) · [Migration Center](/migrate) · [Free Bookmark Tools](/tools)*
+*Related: [Side-by-Side Comparison Directory](/compare) · [Best AI Bookmark Manager 2026](/blog/best-ai-bookmark-manager-2027) · [Migration Center](/migrate) · [Free Bookmark Tools](/tools)*

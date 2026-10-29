@@ -32,7 +32,7 @@ Le tableur concurrent est là où meurt la discipline du fondateur — alimenté
 
 L'arme sous-estimée est l'enregistrement en PDF. Les pages tarifaires des concurrents changent sans annonce, et l'ancienne version disparaît avec la preuve. Marqly capture n'importe quelle page en un PDF propre, fidèle à la mise en page à l'écran — images à chargement paresseux incluses, traité localement dans votre navigateur — donc vous accumulez des instantanés datés de ce que les rivaux facturaient et affirmaient, trimestre après trimestre. Quand quelqu'un demande « ils n'avaient pas une offre gratuite avant ? », vous avez les reçus.
 
-Nous sommes nous-mêmes concurrents dans cette catégorie, pour ce que ça vaut — [notre comparatif des gestionnaires de favoris IA](/fr/blog/meilleurs-gestionnaires-favoris-ia-2026) est écrit comme on aimerait qu'un concurrent écrive le nôtre : en concédant les lignes que les autres gagnent.
+Nous sommes nous-mêmes concurrents dans cette catégorie, pour ce que ça vaut — [notre comparatif des gestionnaires de favoris IA](/fr/blog/meilleurs-gestionnaires-favoris-ia-2027) est écrit comme on aimerait qu'un concurrent écrive le nôtre : en concédant les lignes que les autres gagnent.
 
 ## Une veille de marché qui capitalise au lieu de s'évaporer
 

@@ -92,6 +92,6 @@ Dati Raindrop verificati ad agosto 2026; i prezzi possono cambiare.
 
 Hanno entrambi un piano gratuito, quindi il test vero lo fai tu: salva le stesse dieci pagine in tutti e due, aspetta una settimana e prova a ritrovarne una descrivendola a parole tue, senza usare il titolo. È il confronto che conta.
 
-Se decidi di spostarti, Raindrop esporta in HTML e CSV anche dal piano gratuito e Marqly ha un'importazione dedicata: i passaggi sono in [come importare i preferiti](/it/importa-preferiti). E se stai valutando l'intera categoria — magari perché venivi da Pocket — leggi le [alternative a Pocket nel 2026](/it/blog/alternative-a-pocket-2026).
+Se decidi di spostarti, Raindrop esporta in HTML e CSV anche dal piano gratuito e Marqly ha un'importazione dedicata: i passaggi sono in [come importare i preferiti](/it/importa-preferiti). E se stai valutando l'intera categoria — magari perché venivi da Pocket — leggi le [alternative a Pocket nel 2026](/it/blog/alternative-a-pocket-2027).
 
 Per il resto: la [panoramica di Marqly](/it) spiega tutte le funzioni, l'[evidenziatore](/it/evidenziatore-web) e il [riassunto dei video di YouTube](/it/strumenti/riassunto-video-youtube) si provano subito, e il [blog in italiano](/it/blog) approfondisce il metodo. Quando vuoi iniziare: [crea un account gratuito su app.marqly.com](https://app.marqly.com).

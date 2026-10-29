@@ -23,7 +23,7 @@ faqs:
     a: "Instapaperを離れる理由は読書ではなく「発見」だからです。数年分の、取り出せない保存が積み上がっている人にとって、セマンティック検索は「覚えている言葉」を打てば記事が返ってくる仕組みで、Instapaperが必要とする正確なタイトル探しから解放されます。"
   - q: "AI検索付きの無料Instapaper代替はある？"
     a: "あります。Marqlyの無料プランは最大100ブックマークを保存でき、ライブラリ全体の検索がそのまま動きます。AI機能——自動タグ付け、要約、意味での検索——はProに含まれます。なおRaindrop.ioも余裕のある無料プランを持ちますが、検索はキーワード方式でAIレイヤーはありません。"
-heroImage: ../../../assets/blog/instapaper-alternatives-2026.png
+heroImage: ../../../assets/blog/instapaper-alternatives-2027.png
 heroAlt: "2026年におけるInstapaper代替ツールの比較 — イラスト"
 ogImage: "https://www.marqly.com/og/instapaper-alternatives-2026.png"
 ---
@@ -80,4 +80,4 @@ Instapaperを離れる理由は読書ではなく、*発見*です。タイト�
 
 ---
 
-*関連：[Pocket代替アプリおすすめ8選【2026年】](/ja/blog/pocket-daitai-2026) · [AIブックマークマネージャーおすすめ5選](/ja/blog/best-ai-bookmark-manager-2026)*
+*関連：[Pocket代替アプリおすすめ8選【2026年】](/ja/blog/pocket-daitai-2027) · [AIブックマークマネージャーおすすめ5選](/ja/blog/best-ai-bookmark-manager-2027)*

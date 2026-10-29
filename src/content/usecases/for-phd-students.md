@@ -48,7 +48,7 @@ A literature review is ultimately written from passages, not papers. Marqly's hi
 
 Semantic search finds saves by meaning across titles, content, highlights, and transcripts — the technical background is in [what is semantic search](/faq/what-is-semantic-search). For a PhD student this is the difference between "search works" and "search doesn't": your queries at thesis stage are almost never titles. They're things like "the study where the effect disappeared after controlling for cohort" — and that query works here. [How to search bookmarks with AI](/blog/how-to-search-bookmarks-with-ai) has concrete examples worth stealing.
 
-AI summaries earn their keep during screening: when a supervisor forwards eleven "you should probably read this" links, summaries let you triage in minutes and reserve deep reads for what's actually relevant. Independent comparisons of the category, like [the best AI bookmark managers in 2026](/blog/best-ai-bookmark-manager-2026), cover how Marqly's approach stacks up against alternatives.
+AI summaries earn their keep during screening: when a supervisor forwards eleven "you should probably read this" links, summaries let you triage in minutes and reserve deep reads for what's actually relevant. Independent comparisons of the category, like [the best AI bookmark managers in 2026](/blog/best-ai-bookmark-manager-2027), cover how Marqly's approach stacks up against alternatives.
 
 ## Getting started
 

@@ -88,11 +88,11 @@ Le metà sono due, e si rafforzano a vicenda.
 
 Il modello mentale è questo: invece di *archiviare* le cose per ritrovarle dopo, *salvi* le cose e le *descrivi* dopo. Digiti «quell'articolo su sonno e concentrazione» e la ricerca semantica lo fa emergere — senza cartella, senza titolo esatto.
 
-Questo ribalta l'intero problema. I preferiti diventano un disastro perché organizzare è lavoro e cercare è debole. Togli entrambi — auto-organizzazione + ricerca per significato — e il disastro non può formarsi. Sei libero di essere un salvatore sciatto, perché la sciatteria non ha più un costo. È questa la vera promessa di *organizzare meno, cercare di più*: non che l'organizzazione smetta di contare, ma che la macchina la faccia così bene da non farti mai pensare a lei. Se vuoi il panorama completo degli strumenti che lo fanno, la nostra panoramica del [miglior gestore di preferiti con IA per il 2026](/it/blog/migliori-gestori-segnalibri-ia-2026) confronta i candidati veri.
+Questo ribalta l'intero problema. I preferiti diventano un disastro perché organizzare è lavoro e cercare è debole. Togli entrambi — auto-organizzazione + ricerca per significato — e il disastro non può formarsi. Sei libero di essere un salvatore sciatto, perché la sciatteria non ha più un costo. È questa la vera promessa di *organizzare meno, cercare di più*: non che l'organizzazione smetta di contare, ma che la macchina la faccia così bene da non farti mai pensare a lei. Se vuoi il panorama completo degli strumenti che lo fanno, la nostra panoramica del [miglior gestore di preferiti con IA per il 2026](/it/blog/migliori-gestori-segnalibri-ia-2027) confronta i candidati veri.
 
 ### Come configurarlo
 
-1. **Scegli uno strumento con etichettatura IA automatica + ricerca semantica** — vedi la nostra selezione dei [migliori gestori di preferiti con IA](/it/blog/migliori-gestori-segnalibri-ia-2026). (Provalo: salva 3 link, aspetta un giorno, cercane uno parafrasandolo senza il titolo. Se salta fuori, l'IA è vera.)
+1. **Scegli uno strumento con etichettatura IA automatica + ricerca semantica** — vedi la nostra selezione dei [migliori gestori di preferiti con IA](/it/blog/migliori-gestori-segnalibri-ia-2027). (Provalo: salva 3 link, aspetta un giorno, cercane uno parafrasandolo senza il titolo. Se salta fuori, l'IA è vera.)
 2. **Importa i preferiti esistenti** — export del browser, export di Pocket, ecc. Riempimento istantaneo dell'archivio.
 3. **Salva con un clic mentre navighi.** Non ordinare.
 4. **Trova descrivendo.** Quando ti serve qualcosa, descrivilo a parole tue.

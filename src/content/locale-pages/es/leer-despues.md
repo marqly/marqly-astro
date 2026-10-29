@@ -92,7 +92,7 @@ Buena parte de la cola de "después" no son artículos: son videos de 45 minutos
 
 Marqly importa desde **Pocket**, desde **Raindrop** y desde **archivos HTML de marcadores** exportados de cualquier navegador. También puedes traer tus marcadores de X (Twitter), que suelen ser la cola de lectura más olvidada de todas.
 
-Si venías de Pocket y sigues buscando dónde aterrizar, revisa el repaso de [alternativas a Pocket en 2026](/es/blog/alternativas-a-pocket-2026). Y si tu duda es entre Marqly y Raindrop, la [comparación función por función](/es/comparar/marqly-vs-raindrop) dice también dónde gana Raindrop.
+Si venías de Pocket y sigues buscando dónde aterrizar, revisa el repaso de [alternativas a Pocket en 2026](/es/blog/alternativas-a-pocket-2027). Y si tu duda es entre Marqly y Raindrop, la [comparación función por función](/es/comparar/marqly-vs-raindrop) dice también dónde gana Raindrop.
 
 ## Cómo hacer que esta vez sí funcione
 

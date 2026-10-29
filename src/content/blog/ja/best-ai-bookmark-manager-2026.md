@@ -28,7 +28,7 @@ faqs:
     a: "Raindrop.ioは無料プランの懐深さ含め優れたブックマークマネージャーですが、検索はキーワードベースでセマンティックではありません。言い換えたクエリでは保存物を見つけられません。「意味でリンクを探す」ことが欲しいなら、Raindropにセマンティックツールを併用するか、意味検索中心のツールに移るのが手です。"
   - q: "AIブックマークマネージャーは既存のブックマークでも使えますか？"
     a: "できるツールなら数分で取り込めます。MarqlyはPocketのエクスポート（list.csv）、Raindrop.ioのコレクション（HTML）、標準のブラウザブックマークエクスポート（HTML）をインポートでき、Proなら入りの段階で自動タグ付けまで走ります。ゼロから始めず、古い山が着地の瞬間に「意味で探せる」ライブラリになります。"
-heroImage: ../../../assets/blog/best-ai-bookmark-manager-2026.png
+heroImage: ../../../assets/blog/best-ai-bookmark-manager-2027.png
 heroAlt: "AIブックマークマネージャーおすすめ5選【2026年最新】— イラスト"
 ogImage: "https://www.marqly.com/og/best-ai-bookmark-manager-2026.png"
 ---
@@ -127,9 +127,9 @@ Matterはクリーンなリーダーと高品質TTSの組み合わせで、山�
 4. **全部に注釈を付けるヘビーリーダー** → Readwise Reader、特にReadwiseエコシステムに既に住んでいるなら。
 5. **無料できれいなライブラリが欲しい、意味検索はまだ不要** → Raindrop.io。ただしライブラリが増えれば[検索の天井](/ja/compare/marqly-vs-raindrop)を感じます。
 6. **読むより聴く人** → Matter（TTSのため）。
-7. **Pocketを離れる、ソフトランディングが欲しい** → まず[Pocket代替アプリ8選](/ja/blog/pocket-daitai-2026)。MarqlyはPocketのエクスポートを直接読み、Pocketが最後まで持たなかった意味検索を足します。
+7. **Pocketを離れる、ソフトランディングが欲しい** → まず[Pocket代替アプリ8選](/ja/blog/pocket-daitai-2027)。MarqlyはPocketのエクスポートを直接読み、Pocketが最後まで持たなかった意味検索を足します。
 
-二つが紙面上同票なら、[Bookmark Retrieval Benchmark 2026](/blog/ai-bookmark-retrieval-benchmark-2026)の手順書を自分の「見失った5保存」で回すか、上の2分テストを実行してください。
+二つが紙面上同票なら、[Bookmark Retrieval Benchmark 2026](/blog/ai-bookmark-retrieval-benchmark-2027)の手順書を自分の「見失った5保存」で回すか、上の2分テストを実行してください。
 
 ## 「AI」ブックマークツールを素早く見極めるには
 
@@ -137,7 +137,7 @@ Matterはクリーンなリーダーと高品質TTSの組み合わせで、山�
 
 ## 結論
 
-2026年、使う価値のあるブックマークマネージャーは、保管でなく**リトリーバルを解く**ツールです。オーガナイズ層とサマリー層は良い——クエリ層だけが、保存済み知識の実使いを変えます。Pocketを離れるなら、[Pocket代替アプリ8選](/ja/blog/pocket-daitai-2026)が着地先を、[既存ブックマークの整理ガイド](/ja/blog/bookmark-seiri-guide-2026)が持参する山の扱いを扱っています。
+2026年、使う価値のあるブックマークマネージャーは、保管でなく**リトリーバルを解く**ツールです。オーガナイズ層とサマリー層は良い——クエリ層だけが、保存済み知識の実使いを変えます。Pocketを離れるなら、[Pocket代替アプリ8選](/ja/blog/pocket-daitai-2027)が着地先を、[既存ブックマークの整理ガイド](/ja/blog/bookmark-seiri-guide-2026)が持参する山の扱いを扱っています。
 
 移行前に、エクスポートファイルの確認・重複処理には[Bookmark File Viewer](/tools/bookmark-file-viewer)と[重複ブックマーク検出](/tools/duplicate-bookmark-finder)（[無料ツール集](/tools)）が使えます。20以上の競合との完全横断比較は[比較ディレクトリ](/compare)へ。
 

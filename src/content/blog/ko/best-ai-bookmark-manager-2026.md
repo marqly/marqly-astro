@@ -14,7 +14,7 @@ tags:
 ctaUrl: "https://app.marqly.com/lp/ai-search"
 ctaLabel: "Marqly 무료로 시작하기"
 lang: "ko"
-heroImage: ../../../assets/blog/best-ai-bookmark-manager-2026.png
+heroImage: ../../../assets/blog/best-ai-bookmark-manager-2027.png
 heroAlt: "2026년 최고의 AI 북마크 관리자 — 일러스트"
 ogImage: "https://www.marqly.com/og/best-ai-bookmark-manager-2026.png"
 faqs:
@@ -126,9 +126,9 @@ Matter는 깔끔한 리더와 고품질 TTS를 짝지어 산책이나 출근 길
 4. **뭐든 주석 다는 헤비 리더-하이라이터** → Readwise Reader, 이미 Readwise 생태계에 산다면 특히.
 5. **무료로 아름다운 라이브러리, 의미 검색은 아직 필요 없음** → Raindrop.io. 다만 라이브러리 커지면 [검색의 천장을 느끼게](/ko/compare/marqly-vs-raindrop) 될 것임을 알아 두세요.
 6. **읽기보다 듣기** → Matter, TTS 때문.
-7. **Pocket을 떠나며 순한 착륙지 필요** → [최고의 Pocket 대체제](/ko/blog/pocket-daeche-2026)에서 시작. Marqly은 Pocket 내보내기(list.csv)를 직접 가져오고 Pocket에 없던 의미 검색을 더합니다.
+7. **Pocket을 떠나며 순한 착륙지 필요** → [최고의 Pocket 대체제](/ko/blog/pocket-daeche-2027)에서 시작. Marqly은 Pocket 내보내기(list.csv)를 직접 가져오고 Pocket에 없던 의미 검색을 더합니다.
 
-두 도구가 서류상 동률이면, 당신 '잃어버린 저장본 5개'로 [Bookmark Retrieval Benchmark 2026](/blog/ai-bookmark-retrieval-benchmark-2026)(영문) 프로토콜을 돌리거나 위 2분 테스트를 하세요.
+두 도구가 서류상 동률이면, 당신 '잃어버린 저장본 5개'로 [Bookmark Retrieval Benchmark 2026](/blog/ai-bookmark-retrieval-benchmark-2027)(영문) 프로토콜을 돌리거나 위 2분 테스트를 하세요.
 
 ## 'AI' 북마크 도구를 빠르게 평가하는 법
 
@@ -136,7 +136,7 @@ Matter는 깔끔한 리더와 고품질 TTS를 짝지어 산책이나 출근 길
 
 ## 최종 결론
 
-2026년 쓸 만한 북마크 관리는 회상을 고치는 것이지 저장만 고치는 게 아닙니다. 정리·요약 레이어는 좋은 정도이고, 당신이 저장한 지식을 실제로 쓰는 방식을 바꾸는 건 **쿼리 레이어**입니다. Pocket을 떠나는 중이라면 [최고의 Pocket 대체제](/ko/blog/pocket-daeche-2026)가 착륙지를, [이미 가진 북마크 정리법](/ko/blog/bookmark-jeongri-guide-2026)이 가져갈 더미 다스리기를 커버합니다.
+2026년 쓸 만한 북마크 관리는 회상을 고치는 것이지 저장만 고치는 게 아닙니다. 정리·요약 레이어는 좋은 정도이고, 당신이 저장한 지식을 실제로 쓰는 방식을 바꾸는 건 **쿼리 레이어**입니다. Pocket을 떠나는 중이라면 [최고의 Pocket 대체제](/ko/blog/pocket-daeche-2027)가 착륙지를, [이미 가진 북마크 정리법](/ko/blog/bookmark-jeongri-guide-2026)이 가져갈 더미 다스리기를 커버합니다.
 
 이사 전에 내보내기 파일은 [Bookmark File Viewer](/tools/bookmark-file-viewer)와 [중복 북마크 탐지기](/tools/duplicate-bookmark-finder)([무료 도구](/tools))로 점검·정리할 수 있고, 20+ 경쟁사 전체 대비는 [비교 디렉토리](/compare)에 있습니다.
 

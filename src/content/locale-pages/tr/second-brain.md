@@ -62,7 +62,7 @@ Alışkanlığın kendisi kurulumun tamamıdır. Tek bir beklenti notu düşelim
 
 ## Kimin için değil
 
-İkinci beyniniz ağırlıkla bir *yazma* sistemiyse — uzun özgün notlar, backlink'ler, graph görünümleri, günlük journal'lar — doğru araç Obsidian ya da Notion'dur ve Marqly onun yerini almaz. Marqly web'den yakaladıklarınızı tutar, sıfırdan yazdığınız denemeleri değil. Birçok kişi ikisini birden çalıştırıyor: Marqly web içeriği için yakala-ve-bul katmanı, bir not uygulaması kendi düşünceniz için. Kategori boyunca, ağır araçların kazandığı yerler dahil dürüst karşılaştırma [2026'nın en iyi ikinci beyin uygulamaları](/tr/blog/en-iyi-ikinci-beyin-uygulamalari-2026) yazısında.
+İkinci beyniniz ağırlıkla bir *yazma* sistemiyse — uzun özgün notlar, backlink'ler, graph görünümleri, günlük journal'lar — doğru araç Obsidian ya da Notion'dur ve Marqly onun yerini almaz. Marqly web'den yakaladıklarınızı tutar, sıfırdan yazdığınız denemeleri değil. Birçok kişi ikisini birden çalıştırıyor: Marqly web içeriği için yakala-ve-bul katmanı, bir not uygulaması kendi düşünceniz için. Kategori boyunca, ağır araçların kazandığı yerler dahil dürüst karşılaştırma [2026'nın en iyi ikinci beyin uygulamaları](/tr/blog/en-iyi-ikinci-beyin-uygulamalari-2027) yazısında.
 
 Ayrıca bilinmesi gereken: çevrimdışı okuma Pro ve cihaz başına, kişisel plan tek kişilik bir araç — paylaşılan, çok editörlü çalışma alanı [Marqly Teams](/teams) tarafında yaşar.
 

@@ -117,7 +117,7 @@ Dat is het. Geen taxonomie om te ontwerpen, geen dagelijks review-ritueel om te 
 
 ## Waar moet je op letten bij een tweede brein-app?
 
-Let op frictieloze één-klik-capture, automatische AI-organisatie in plaats van handmatige mappen, en semantisch zoeken dat dingen op betekenis vindt. Die drie zijn niet onderhandelbaar. Daarboven helpen AI-samenvattingen om een backlog te triëren, en dekking over apparaten heen zorgt dat de tool werkt waar je werkelijk leest — web, telefoon en desktop. Wil je door naar een shortlist, dan zet onze vergelijking van [de beste tweede brein apps](/nl/blog/beste-second-brain-apps-2026) de kandidaten tegen precies deze criteria af.
+Let op frictieloze één-klik-capture, automatische AI-organisatie in plaats van handmatige mappen, en semantisch zoeken dat dingen op betekenis vindt. Die drie zijn niet onderhandelbaar. Daarboven helpen AI-samenvattingen om een backlog te triëren, en dekking over apparaten heen zorgt dat de tool werkt waar je werkelijk leest — web, telefoon en desktop. Wil je door naar een shortlist, dan zet onze vergelijking van [de beste tweede brein apps](/nl/blog/beste-second-brain-apps-2027) de kandidaten tegen precies deze criteria af.
 
 Loop elke kandidaat door deze checklist voordat je je commit:
 
@@ -138,4 +138,4 @@ Er is een gratis plan om mee te beginnen, zonder creditcard, en Pro is $72/jaar 
 
 ---
 
-*Verder lezen: [De beste AI-bladwijzerbeheerder in 2026](/nl/blog/beste-ai-bladwijzerbeheer-2026) · [Beste Pocket-alternatieven](/nl/blog/pocket-alternatieven-2026)*
+*Verder lezen: [De beste AI-bladwijzerbeheerder in 2026](/nl/blog/beste-ai-bladwijzerbeheer-2026) · [Beste Pocket-alternatieven](/nl/blog/pocket-alternatieven-2027)*

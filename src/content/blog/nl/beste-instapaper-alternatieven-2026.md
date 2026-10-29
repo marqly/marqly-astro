@@ -16,7 +16,7 @@ lang: "nl"
 faqs:
   - q: "Wat is het beste alternatief voor Instapaper?"
     a: "Marqly combineert rustig lezen met semantisch zoeken op betekenis en automatische samenvattingen."
-heroImage: ../../../assets/blog/instapaper-alternatives-2026.png
+heroImage: ../../../assets/blog/instapaper-alternatives-2027.png
 heroAlt: "De beste Instapaper-alternatieven in 2026"
 ---
 

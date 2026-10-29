@@ -29,4 +29,4 @@ There's no trial — you unlock the AI by upgrading to Pro, billed from that mom
 
 ## Bottom line
 
-Free is genuinely free: no card, no time limit on the plan itself, and your saves are always yours to export. Current pricing is always on the [pricing page](/pricing). If you're comparing options before committing, the [best AI bookmark managers of 2026](/blog/best-ai-bookmark-manager-2026) roundup shows where Marqly's free tier stands against alternatives.
+Free is genuinely free: no card, no time limit on the plan itself, and your saves are always yours to export. Current pricing is always on the [pricing page](/pricing). If you're comparing options before committing, the [best AI bookmark managers of 2026](/blog/best-ai-bookmark-manager-2027) roundup shows where Marqly's free tier stands against alternatives.

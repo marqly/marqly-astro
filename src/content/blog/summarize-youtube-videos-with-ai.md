@@ -39,7 +39,7 @@ YouTube's own [captions & transcript help](https://support.google.com/youtube/an
 
 Because video hides its value behind a scrub bar. A 40-minute podcast might have eight minutes you care about. A 25-minute tutorial might bury the actual fix at 19:40. The thumbnail and title are marketing; they tell you what the creator wants you to click, not what the video delivers.
 
-Text doesn't have this problem. You can skim an article's intro and headers in fifteen seconds and know whether to commit — it's why [read-it-later apps](/blog/best-read-it-later-apps-2026) work so well for written content. Video gives you nothing to skim. Chapters help when creators bother to add them; most don't.
+Text doesn't have this problem. You can skim an article's intro and headers in fifteen seconds and know whether to commit — it's why [read-it-later apps](/blog/best-read-it-later-apps-2027) work so well for written content. Video gives you nothing to skim. Chapters help when creators bother to add them; most don't.
 
 An AI summary restores the triage step. Thirty seconds of reading tells you whether to watch the whole thing, jump to one section, or close the tab. Multiply that across a watch-later backlog and it's hours back per week — you stop paying 40 minutes to find out a video wasn't worth 40 minutes.
 

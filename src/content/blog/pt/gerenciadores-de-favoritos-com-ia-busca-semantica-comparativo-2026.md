@@ -95,7 +95,7 @@ Porque **a maioria das pessoas salva muito mais do que jamais revisita** — os 
 
 Se você está comprando um gerenciador de favoritos com IA pela *IA*, a única pergunta que importa é se ele busca por significado. A maioria não — etiqueta, filtra e torce para você não notar a diferença. Alguns fazem isso parcialmente via chat. Um, o Marqly, é construído em torno dele como prato principal. Rode o teste de dois minutos em qualquer ferramenta que estiver considerando e fique com a que encontrar seu salvamento parafraseado; as restantes são organizadores vestindo um rótulo de IA.
 
-Para rodar um head-to-head justo e reproduzível na sua própria biblioteca, pegue o protocolo do nosso [Bookmark Retrieval Benchmark 2026](/blog/ai-bookmark-retrieval-benchmark-2026). Se estiver pronto para trocar, nosso [Centro de Migração](/migrate) tem guias passo a passo de Pocket, Raindrop e mymind, e você pode inspecionar ou deduplicar os arquivos de exportação com o [Bookmark File Viewer](/tools/bookmark-file-viewer) e as [ferramentas gratuitas para navegador](/tools).
+Para rodar um head-to-head justo e reproduzível na sua própria biblioteca, pegue o protocolo do nosso [Bookmark Retrieval Benchmark 2026](/blog/ai-bookmark-retrieval-benchmark-2027). Se estiver pronto para trocar, nosso [Centro de Migração](/migrate) tem guias passo a passo de Pocket, Raindrop e mymind, e você pode inspecionar ou deduplicar os arquivos de exportação com o [Bookmark File Viewer](/tools/bookmark-file-viewer) e as [ferramentas gratuitas para navegador](/tools).
 
 Se prefere só sentir a diferença, [importe sua biblioteca para o Marqly](https://app.marqly.com) e busque algo que você salvou há meses — por significado, não por palavras-chave. Grátis, sem cartão, na web, no iOS e no Android.
 

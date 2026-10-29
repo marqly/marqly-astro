@@ -91,11 +91,11 @@ Das hat zwei Hälften, die sich gegenseitig verstärken.
 
 Hier ist das Mentalmodell: Statt Dinge zu *akten*, um sie später zu finden, *speicherst* du Dinge und *beschreibst* sie später. Du tippst „der Artikel über Schlaf und Fokus", und die semantische Suche wirft ihn aus — kein Ordner, kein exakter Titel nötig.
 
-Das dreht das ganze Problem um. Der Grund, warum Lesezeichen zum Chaos werden, ist: Organisieren ist Arbeit, und Suche ist schwach. Nimm beides weg — automatisch organisieren plus Suche nach Bedeutung —, und das Chaos kann nicht entstehen. Du darfst ein nachlässiger Speicherer sein, weil Nachlässigkeit keine Konsequenz mehr hat. Das ist das echte Versprechen von *weniger organisieren, mehr suchen*: Nicht dass Organisation egal wird — die Maschine erledigt sie so gut, dass du nie wieder daran denken musst. Wenn du die volle Werkzeug-Landschaft sehen willst, die das kann, vergleicht unser Roundup der [besten KI-Lesezeichen-Manager 2026](/de/blog/beste-ai-lesezeichen-manager-2026) die echten Kandidaten.
+Das dreht das ganze Problem um. Der Grund, warum Lesezeichen zum Chaos werden, ist: Organisieren ist Arbeit, und Suche ist schwach. Nimm beides weg — automatisch organisieren plus Suche nach Bedeutung —, und das Chaos kann nicht entstehen. Du darfst ein nachlässiger Speicherer sein, weil Nachlässigkeit keine Konsequenz mehr hat. Das ist das echte Versprechen von *weniger organisieren, mehr suchen*: Nicht dass Organisation egal wird — die Maschine erledigt sie so gut, dass du nie wieder daran denken musst. Wenn du die volle Werkzeug-Landschaft sehen willst, die das kann, vergleicht unser Roundup der [besten KI-Lesezeichen-Manager 2026](/de/blog/beste-ai-lesezeichen-manager-2027) die echten Kandidaten.
 
 ### So richtest du es ein
 
-1. **Wähle ein Werkzeug mit KI-Auto-Tagging + semantischer Suche** — siehe unsere Shortlist der [besten KI-Lesezeichen-Manager](/de/blog/beste-ai-lesezeichen-manager-2026). (Teste es: speichere 3 Links, warte einen Tag, suche einen davon umschreibend ohne den Titel. Findet es ihn, ist die KI echt.)
+1. **Wähle ein Werkzeug mit KI-Auto-Tagging + semantischer Suche** — siehe unsere Shortlist der [besten KI-Lesezeichen-Manager](/de/blog/beste-ai-lesezeichen-manager-2027). (Teste es: speichere 3 Links, warte einen Tag, suche einen davon umschreibend ohne den Titel. Findet es ihn, ist die KI echt.)
 2. **Importiere deine bestehenden Lesezeichen** — Browser-Export, Pocket-list.csv, Raindrop-HTML etc. Sofortiger Backfill. Wichtig: Beim Import geht das ursprüngliche Speicherdatum verloren — die Items bekommen das Importdatum.
 3. **Speichere beim Surfen mit einem Klick.** Nicht sortieren.
 4. **Finde durch Beschreiben.** Wenn du etwas brauchst, beschreibe es in normaler Sprache.

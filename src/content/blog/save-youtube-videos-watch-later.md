@@ -52,7 +52,7 @@ This helps a little, but playlists are just folders by another name — and fold
 
 ## Option 2: Save videos into a unified, searchable library (the better way)
 
-The cleaner approach: save YouTube videos into the same place you save articles and links — a dedicated tool with **tags and AI search**. Then all your "to consume" lives in one searchable home, and you can find a video by describing it. (Many of [the best read-it-later apps](/blog/best-read-it-later-apps-2026) now handle video alongside articles, so you don't need a separate silo for each.)
+The cleaner approach: save YouTube videos into the same place you save articles and links — a dedicated tool with **tags and AI search**. Then all your "to consume" lives in one searchable home, and you can find a video by describing it. (Many of [the best read-it-later apps](/blog/best-read-it-later-apps-2027) now handle video alongside articles, so you don't need a separate silo for each.)
 
 With a tool like **Marqly**:
 

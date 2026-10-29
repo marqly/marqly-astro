@@ -83,7 +83,7 @@ Puedes probarlo sin instalar nada con el [resumidor de videos de YouTube](/es/he
 
 ## Trae lo que ya tienes
 
-No empiezas de cero. Marqly importa desde **Pocket**, desde **Raindrop** y desde cualquier **archivo HTML de marcadores** que exportes de tu navegador. Si venías de Pocket y quedaste a la deriva, el repaso de [alternativas a Pocket en 2026](/es/blog/alternativas-a-pocket-2026) compara las opciones reales antes de que muevas nada. Y si estás comparando en serio, tenemos una [comparación honesta entre Marqly y Raindrop](/es/comparar/marqly-vs-raindrop), incluyendo dónde Raindrop es mejor.
+No empiezas de cero. Marqly importa desde **Pocket**, desde **Raindrop** y desde cualquier **archivo HTML de marcadores** que exportes de tu navegador. Si venías de Pocket y quedaste a la deriva, el repaso de [alternativas a Pocket en 2026](/es/blog/alternativas-a-pocket-2027) compara las opciones reales antes de que muevas nada. Y si estás comparando en serio, tenemos una [comparación honesta entre Marqly y Raindrop](/es/comparar/marqly-vs-raindrop), incluyendo dónde Raindrop es mejor.
 
 ## Casos de uso frecuentes
 

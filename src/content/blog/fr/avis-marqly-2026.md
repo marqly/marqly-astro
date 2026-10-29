@@ -16,7 +16,7 @@ lang: "fr"
 faqs:
   - q: "Quel est le tarif de Marqly Pro ?"
     a: "Le forfait Pro est à 72 $/an (6 $/mois annuel ou 9 $/mois) avec le coupon STANDING49 (49 $ la première année)."
-heroImage: ../../../assets/blog/marqly-review-2026.png
+heroImage: ../../../assets/blog/marqly-review-2027.png
 heroAlt: "Avis Marqly 2026"
 ---
 

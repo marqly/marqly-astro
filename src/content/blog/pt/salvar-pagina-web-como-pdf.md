@@ -119,7 +119,7 @@ Isso faz dos PDFs a escolha certa para:
 - **Termos, políticas e páginas de preço** que você talvez precise citar depois
 - **Qualquer coisa que você espera ver editada ou removida**
 
-Para todo o resto — artigos, referências, pesquisa — um favorito é melhor, porque continua pesquisável e atual. Melhor ainda: favorite a página e [destaque as partes que realmente importam](/pt/blog/como-destacar-texto-em-qualquer-site-2026), assim você fica com a sacada sem acumular arquivo. Se sua pilha de salvos é feita sobretudo de leituras longas, um app de ler depois de verdade — como os das [melhores apps de salvar para ler depois em 2026](/pt/blog/melhores-apps-salvar-para-ler-depois-2026) — ganha de longe de uma pasta de PDFs.
+Para todo o resto — artigos, referências, pesquisa — um favorito é melhor, porque continua pesquisável e atual. Melhor ainda: favorite a página e [destaque as partes que realmente importam](/pt/blog/como-destacar-texto-em-qualquer-site-2026), assim você fica com a sacada sem acumular arquivo. Se sua pilha de salvos é feita sobretudo de leituras longas, um app de ler depois de verdade — como os das [melhores apps de salvar para ler depois em 2026](/pt/blog/melhores-apps-salvar-para-ler-depois-2027) — ganha de longe de uma pasta de PDFs.
 
 O fluxo que se sustenta no longo prazo: favoritar por padrão, PDF para o insubstituível, e manter os dois em um único lugar pesquisável — esse é o núcleo sem graça, confiável, de [organizar seus favoritos](/pt/blog/organizar-favoritos-navegador) para que continuem encontráveis depois, e o primeiro passo honesto para [construir um segundo cérebro](/pt/blog/como-construir-um-segundo-cerebro-2026) em vez de uma gaveta de bugigangas.
 
@@ -131,4 +131,4 @@ O Ctrl+P estará sempre lá, e para um artigo puro é tudo o que você precisa. 
 
 ---
 
-*Relacionado: [Como organizar favoritos para você achar de verdade](/pt/blog/organizar-favoritos-navegador) · [As melhores apps de salvar para ler depois em 2026](/pt/blog/melhores-apps-salvar-para-ler-depois-2026)*
+*Relacionado: [Como organizar favoritos para você achar de verdade](/pt/blog/organizar-favoritos-navegador) · [As melhores apps de salvar para ler depois em 2026](/pt/blog/melhores-apps-salvar-para-ler-depois-2027)*

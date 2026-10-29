@@ -107,7 +107,7 @@ To build a second brain from your bookmarks, pick a tool with AI capture and ret
 
 You don't need to start from scratch or migrate to a complex note system. The fastest second brain is built from the reading you already do, in four steps:
 
-1. **Pick a tool that captures and retrieves with AI.** You want one-click saving, automatic tagging, and semantic search — so you can ask for things by meaning, not exact title. This combination is what separates a real second brain from a folder of dead links; the [best AI bookmark managers in 2026](/blog/best-ai-bookmark-manager-2026) are built around exactly these three capabilities. The same tooling that lets you [organize the bookmarks behind it](/blog/how-to-organize-bookmarks) is what turns a pile of saves into a brain.
+1. **Pick a tool that captures and retrieves with AI.** You want one-click saving, automatic tagging, and semantic search — so you can ask for things by meaning, not exact title. This combination is what separates a real second brain from a folder of dead links; the [best AI bookmark managers in 2026](/blog/best-ai-bookmark-manager-2027) are built around exactly these three capabilities. The same tooling that lets you [organize the bookmarks behind it](/blog/how-to-organize-bookmarks) is what turns a pile of saves into a brain.
 2. **Import what you already have.** If you've used Pocket, Raindrop, or browser bookmarks, import the lot — it's an instant backfill of your "brain." Years of saved reading become searchable on day one, instead of starting from an empty database that takes months to feel useful.
 3. **Save as you read, with one click.** Don't sort. Don't pick a folder. Don't write a note. Just save and let the AI tag it. The whole point is to make capture so cheap that you do it reflexively, the way you'd glance at a headline.
 4. **Retrieve by asking.** When you need that half-remembered article — "the one about sleep and decision-making" — describe it. Semantic search finds it by meaning, even if your wording doesn't match a single word in the original. No folder spelunking, no trying to reconstruct what you titled it.
@@ -116,7 +116,7 @@ That's it. No taxonomy to design, no daily review ritual to maintain. The system
 
 ## What should you look for in a second brain app?
 
-Look for frictionless one-click capture, automatic AI organization instead of manual folders, and semantic search that finds things by meaning. Those three are non-negotiable. Beyond them, AI summaries help you triage a backlog, and cross-device coverage ensures the tool works everywhere you actually read — web, phone, and desktop. If you'd rather skip straight to a shortlist, our roundup of [the best second brain apps](/blog/best-second-brain-apps-2026) ranks the contenders against exactly these criteria.
+Look for frictionless one-click capture, automatic AI organization instead of manual folders, and semantic search that finds things by meaning. Those three are non-negotiable. Beyond them, AI summaries help you triage a backlog, and cross-device coverage ensures the tool works everywhere you actually read — web, phone, and desktop. If you'd rather skip straight to a shortlist, our roundup of [the best second brain apps](/blog/best-second-brain-apps-2027) ranks the contenders against exactly these criteria.
 
 Run any candidate through this checklist before you commit:
 
@@ -137,4 +137,4 @@ There's a free tier to start with no credit card, and Pro is $72/yr (about $6/mo
 
 ---
 
-*Related: [The Best AI Bookmark Manager in 2026](/blog/best-ai-bookmark-manager-2026) · [8 Best Pocket Alternatives](/blog/best-pocket-alternatives-2026)*
+*Related: [The Best AI Bookmark Manager in 2026](/blog/best-ai-bookmark-manager-2027) · [8 Best Pocket Alternatives](/blog/best-pocket-alternatives-2027)*

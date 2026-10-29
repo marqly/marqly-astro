@@ -118,9 +118,9 @@ El resumen honesto: Raindrop es más barato y admite más tipos de contenido. La
 - **Usuarios de Mac/Windows/Linux** que quieren apps nativas de escritorio.
 - **Coleccionistas de medios mixtos**: imágenes, archivos, PDF, enlaces de vídeo, no solo artículos.
 - **Cualquiera con un presupuesto ajustado.** Entre el plan gratuito y un Pro de 27,99 $/año, nada lo iguala en precio.
-- **Exusuarios de Pocket** que quieren una casa estable y probada, aunque si estás en plena migración, compara primero el mercado en nuestra guía de las [mejores alternativas a Pocket](/es/blog/alternativas-a-pocket-2026).
+- **Exusuarios de Pocket** que quieren una casa estable y probada, aunque si estás en plena migración, compara primero el mercado en nuestra guía de las [mejores alternativas a Pocket](/es/blog/alternativas-a-pocket-2027).
 
-Quién no debería: la gente cuyo problema real es *encontrar* cosas que guardó hace meses, y la gente que quiere que la app haga la organización por ella. Las dos son problemas de recuperación, y la recuperación es la única capa que Raindrop no ha resuelto: el mismo hueco que mapeamos en todo el mercado en nuestra guía del [mejor gestor de marcadores con IA](/es/blog/mejores-gestores-marcadores-ia-2026).
+Quién no debería: la gente cuyo problema real es *encontrar* cosas que guardó hace meses, y la gente que quiere que la app haga la organización por ella. Las dos son problemas de recuperación, y la recuperación es la única capa que Raindrop no ha resuelto: el mismo hueco que mapeamos en todo el mercado en nuestra guía del [mejor gestor de marcadores con IA](/es/blog/mejores-gestores-marcadores-ia-2027).
 
 ## Veredicto
 

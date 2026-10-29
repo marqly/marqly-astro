@@ -32,7 +32,7 @@ ogImage: "https://www.marqly.com/og/ai-bookmark-managers-semantic-search-compare
 
 Most "AI bookmark managers" don't actually search by meaning. They auto-tag your saves, add filters, and call it AI. Only a handful do real **semantic search** — converting your query and your saves into meaning and matching on concept. Across the eight tools below, **Marqly** is the standout built around it; most of the rest fake it convincingly.
 
-This post is about one dimension only: **does the search understand meaning, or just words?** Not the reading experience, not the highlighting, not the canvas — just whether you can find a save by describing it. That's the line that separates a genuine AI bookmark manager from a folder system with a sparkle icon, and it's the line almost every comparison glosses over. (For the wider picture — auto-tagging, summaries, imports — start with our guide to [the best AI bookmark manager](/blog/best-ai-bookmark-manager-2026).)
+This post is about one dimension only: **does the search understand meaning, or just words?** Not the reading experience, not the highlighting, not the canvas — just whether you can find a save by describing it. That's the line that separates a genuine AI bookmark manager from a folder system with a sparkle icon, and it's the line almost every comparison glosses over. (For the wider picture — auto-tagging, summaries, imports — start with our guide to [the best AI bookmark manager](/blog/best-ai-bookmark-manager-2027).)
 
 ## What counts as real semantic search?
 
@@ -75,7 +75,7 @@ A few honest caveats. **"Partial"** means the tool has *some* meaning-aware retr
 
 ## What's each tool actually best for?
 
-- **Marqly — best for searching by meaning.** Built around the query layer first: save from web, iOS, or Chrome and find anything later by describing it, across your whole library. Auto-tags and summaries come along on the way in. It's the only tool here where paraphrase search is the headline feature rather than a bolt-on. Free tier; Pro is $72/yr (about $6/mo billed annually) or $9/mo. See [our full Marqly review](/blog/marqly-review-2026) for the deep dive.
+- **Marqly — best for searching by meaning.** Built around the query layer first: save from web, iOS, or Chrome and find anything later by describing it, across your whole library. Auto-tags and summaries come along on the way in. It's the only tool here where paraphrase search is the headline feature rather than a bolt-on. Free tier; Pro is $72/yr (about $6/mo billed annually) or $9/mo. See [our full Marqly review](/blog/marqly-review-2027) for the deep dive.
 - **mymind — best for visual collectors.** A calm, image-led canvas with strong auto-tagging. Retrieval leans on visual recall and tags more than paraphrase search, so it shines for designers gathering inspiration, less for people hunting long-form articles by argument.
 - **Recall — best for summarizing and connecting saves.** Strong at auto-summaries and building a knowledge graph you can chat with. Treat it as a synthesis-and-browse tool; its retrieval is more "ask the graph" than "search by meaning."
 - **Readwise Reader — best for heavy highlighters.** A best-in-class reading and highlighting stack with AI chat layered on. The AI is an add-on to a keyword core, and the price targets power users — see [Readwise Reader vs Marqly](/compare/marqly-vs-readwise-reader) for where each wins.
@@ -93,10 +93,10 @@ This is also why "AI bookmark manager" is really shorthand for "a bookmark manag
 
 If you're buying an AI bookmark manager for the *AI*, the only question that matters is whether it searches by meaning. Most don't — they auto-tag, filter, and hope you don't notice the difference. A few do it partially through chat. One, Marqly, is built around it as the main event. Run the two-minute test on any tool you're considering and keep whichever one finds your paraphrased save; the rest are organizers wearing an AI label.
 
-To run a fair, reproducible head-to-head on your own library, take the protocol from our [Bookmark Retrieval Benchmark 2026](/blog/ai-bookmark-retrieval-benchmark-2026). If you're ready to switch, our [Migration Center](/migrate) has step-by-step guides for Pocket, Raindrop, and mymind, and you can inspect or deduplicate your export files using our [Bookmark File Viewer](/tools/bookmark-file-viewer) and [free browser tools](/tools).
+To run a fair, reproducible head-to-head on your own library, take the protocol from our [Bookmark Retrieval Benchmark 2026](/blog/ai-bookmark-retrieval-benchmark-2027). If you're ready to switch, our [Migration Center](/migrate) has step-by-step guides for Pocket, Raindrop, and mymind, and you can inspect or deduplicate your export files using our [Bookmark File Viewer](/tools/bookmark-file-viewer) and [free browser tools](/tools).
 
 If you'd rather just feel the difference, [import your library into Marqly](https://app.marqly.com) and search for something you saved months ago — by meaning, not keywords. Free, no credit card, on web, iOS, and Chrome.
 
 ---
 
-*Related: [Side-by-Side Comparison Directory](/compare) · [Best AI Bookmark Manager 2026](/blog/best-ai-bookmark-manager-2026) · [Migration Center](/migrate)*
+*Related: [Side-by-Side Comparison Directory](/compare) · [Best AI Bookmark Manager 2026](/blog/best-ai-bookmark-manager-2027) · [Migration Center](/migrate)*

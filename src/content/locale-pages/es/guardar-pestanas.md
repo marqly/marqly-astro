@@ -103,7 +103,7 @@ Todo esto vive en la [extensión de Marqly](/es/extension), que además trae res
 
 ## Trae lo que ya tenías guardado
 
-Si vienes con años de marcadores acumulados, Marqly importa desde Pocket, desde Raindrop y desde archivos HTML de marcadores exportados del navegador. Si estabas evaluando alternativas, revisa el repaso de [alternativas a Pocket](/es/blog/alternativas-a-pocket-2026) y la [comparación entre Marqly y Raindrop](/es/comparar/marqly-vs-raindrop).
+Si vienes con años de marcadores acumulados, Marqly importa desde Pocket, desde Raindrop y desde archivos HTML de marcadores exportados del navegador. Si estabas evaluando alternativas, revisa el repaso de [alternativas a Pocket](/es/blog/alternativas-a-pocket-2027) y la [comparación entre Marqly y Raindrop](/es/comparar/marqly-vs-raindrop).
 
 ## Prueba con las pestañas que tienes abiertas ahora
 

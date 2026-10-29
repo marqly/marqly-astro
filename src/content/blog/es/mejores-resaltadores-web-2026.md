@@ -64,7 +64,7 @@ El resaltador de Marqly hace bien lo básico: selecciona texto en cualquier siti
 - No hay sistema de repaso espaciado como el de Readwise
 - Herramienta más nueva; comunidad más pequeña que las establecidas
 
-Si tu frustración es «resalto cosas y nunca las vuelvo a ver», esta es la herramienta construida alrededor de ese problema exacto — el mismo pensamiento centrado en la recuperación detrás de nuestra [comparativa de gestores de marcadores con IA](/es/blog/mejores-gestores-marcadores-ia-2026).
+Si tu frustración es «resalto cosas y nunca las vuelvo a ver», esta es la herramienta construida alrededor de ese problema exacto — el mismo pensamiento centrado en la recuperación detrás de nuestra [comparativa de gestores de marcadores con IA](/es/blog/mejores-gestores-marcadores-ia-2027).
 
 ## Readwise Reader — el mejor para exportación y repaso espaciado
 

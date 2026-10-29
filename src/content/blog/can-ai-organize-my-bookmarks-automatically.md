@@ -45,7 +45,7 @@ There are three moving parts, all automatic:
 - **Summarizing** — it generates a one- or two-line summary so you can tell what a save is about at a glance, weeks later.
 - **Semantic grouping** — instead of forcing items into one folder, the AI understands meaning, so a save can relate to several topics at once.
 
-[Marqly](https://app.marqly.com) does all three on capture: save an article, video, or note and it auto-tags and summarizes it, then makes the whole library searchable by meaning — and once it's tagged, you can [find them again with AI search](/blog/how-to-search-bookmarks-with-ai). (If you're comparing tools, see our rundown of [the best AI bookmark managers in 2026](/blog/best-ai-bookmark-manager-2026).)
+[Marqly](https://app.marqly.com) does all three on capture: save an article, video, or note and it auto-tags and summarizes it, then makes the whole library searchable by meaning — and once it's tagged, you can [find them again with AI search](/blog/how-to-search-bookmarks-with-ai). (If you're comparing tools, see our rundown of [the best AI bookmark managers in 2026](/blog/best-ai-bookmark-manager-2027).)
 
 ## Do I still need folders?
 

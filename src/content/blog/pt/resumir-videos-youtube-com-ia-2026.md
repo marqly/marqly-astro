@@ -40,7 +40,7 @@ A [central de ajuda de legendas e transcrições](https://support.google.com/you
 
 Porque o vídeo esconde o valor atrás da barra de progresso. Um podcast de 40 minutos pode ter oito minutos que te interessam. Um tutorial de 25 minutos pode enterrar o conserto real no minuto 19. A thumbnail e o título são marketing; eles dizem o que o criador quer que você clique, não o que o vídeo entrega.
 
-Texto não tem esse problema. Você escaneia a introdução e os intertítulos de um artigo em quinze segundos e sabe se vale se comprometer — é por isso que os [apps de ler depois](/pt/blog/melhores-apps-salvar-para-ler-depois-2026) funcionam tão bem para conteúdo escrito. Vídeo não te dá nada para escanear. Capítulos ajudam quando o criador se dá o trabalho de adicionar; a maioria não.
+Texto não tem esse problema. Você escaneia a introdução e os intertítulos de um artigo em quinze segundos e sabe se vale se comprometer — é por isso que os [apps de ler depois](/pt/blog/melhores-apps-salvar-para-ler-depois-2027) funcionam tão bem para conteúdo escrito. Vídeo não te dá nada para escanear. Capítulos ajudam quando o criador se dá o trabalho de adicionar; a maioria não.
 
 O resumo com IA devolve o passo de triagem. Trinta segundos de leitura dizem se você assiste tudo, pula numa seção, ou fecha a aba. Multiplique isso por um acúmulo de «Assistir mais tarde» e são horas de volta por semana — você para de pagar 40 minutos para descobrir que o vídeo não valia os 40 minutos.
 

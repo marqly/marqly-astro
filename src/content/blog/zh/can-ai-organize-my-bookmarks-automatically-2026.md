@@ -47,7 +47,7 @@ ogImage: "https://www.marqly.com/og/can-ai-organize-my-bookmarks-automatically.p
 - **生成摘要**——为一保存产出一两行的摘要，几周后你扫一眼仍知道它讲什么。
 - **语义聚合**——AI 不把条目硬塞进某一个文件夹，而是理解含义，所以一条保存可以同时关联多个主题。
 
-[Marqly](https://app.marqly.com) 在保存的那一刻三件事全做：存一篇文章、视频或笔记，它自动打标、自动摘要，随后让整座库可按含义搜索——打过标的收藏，你可以[用 AI 搜索把它们找回来](/zh/blog/ai-shuqian-sousuo-2026)。（如果你在比价工具，看我们这篇[2026 最佳 AI 书签管理器](/zh/blog/best-ai-bookmark-manager-2026)横评。）
+[Marqly](https://app.marqly.com) 在保存的那一刻三件事全做：存一篇文章、视频或笔记，它自动打标、自动摘要，随后让整座库可按含义搜索——打过标的收藏，你可以[用 AI 搜索把它们找回来](/zh/blog/ai-shuqian-sousuo-2026)。（如果你在比价工具，看我们这篇[2026 最佳 AI 书签管理器](/zh/blog/best-ai-bookmark-manager-2027)横评。）
 
 ## 我还需要文件夹吗？
 

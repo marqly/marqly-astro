@@ -70,7 +70,7 @@ faqs:
 3. **더미 처리를 기다리기.** 손으로 했다면 며칠 걸렸을 일 — AI가 각 저장 페이지를 읽고 자동 태그를 답니다. 크면 몇 분 뒤 돌아오세요. (Marqly 기준 자동 태깅은 Pro 기능이고, 무료 플랜은 내보내기에 딸려 온 태그를 그대로 살립니다. 원래 저장 날짜는 가져온 날짜로 들어오니 참고하세요.)
 4. **신뢰 전에 회상 시험.** 저장한 기억이 있는 링크 3개를, 제목이 아니라 *주제 설명*으로 검색. 나오면 import 성공, 걸어다니듯 신뢰하세요.
 
-링크가 크롬 말고(또 함께) 나중에 읽기 앱에 있다면 단계별 가이드가 있는 [마이그레이션 센터](/migrate)(영문)를 보세요 — [Pocket](/migrate/pocket), [Raindrop](/migrate/raindrop), [mymind](/migrate/mymind), [Instapaper](/migrate/instapaper). 가져오기 전에 HTML은 무료 [Bookmark File Viewer](/tools/bookmark-file-viewer)와 [중복 북마크 탐지기](/tools/duplicate-bookmark-finder)([무료 도구 모음](/tools))로 점검·정리할 수 있어요. Pocket에서 이사 중이라면 [Pocket 데이터 내보내기·이전](/ko/blog/how-to-export-migrate-pocket-data-2026)을 따르고, 착륙지 쇼핑 중이라면 [2026년 최고 Pocket 대체제](/ko/blog/pocket-daeche-2026)가 옵션을 커버합니다.
+링크가 크롬 말고(또 함께) 나중에 읽기 앱에 있다면 단계별 가이드가 있는 [마이그레이션 센터](/migrate)(영문)를 보세요 — [Pocket](/migrate/pocket), [Raindrop](/migrate/raindrop), [mymind](/migrate/mymind), [Instapaper](/migrate/instapaper). 가져오기 전에 HTML은 무료 [Bookmark File Viewer](/tools/bookmark-file-viewer)와 [중복 북마크 탐지기](/tools/duplicate-bookmark-finder)([무료 도구 모음](/tools))로 점검·정리할 수 있어요. Pocket에서 이사 중이라면 [Pocket 데이터 내보내기·이전](/ko/blog/how-to-export-migrate-pocket-data-2026)을 따르고, 착륙지 쇼핑 중이라면 [2026년 최고 Pocket 대체제](/ko/blog/pocket-daeche-2027)가 옵션을 커버합니다.
 
 ## 가져오기에서 실제로 옮겨지는 것
 
@@ -109,7 +109,7 @@ HTML 북마크 내보내기엔 세 가지가 있습니다: 링크(URL), 제목, 
 | 저장 수백 개 너머 | ❌ 더미가 됨 | ✅ 검색 가능한 채 유지 |
 | 설명만으로 찾기 | ❌ 정확한 제목 필요 | ✅ 평범한 말로 설명 |
 
-위에서 아래로 읽으면 추세 명확: 도구 대신 정리하고 찾아주는 순간 모든 행이 좋아집니다. 가져오기가 당신 기존 링크를 그 선 너머로 데려가고 — 잘하는 도구를 먼저 비교하고 싶다면 [2026년 최고의 AI 북마크 관리자](/ko/blog/best-ai-bookmark-manager-2026)가 후보를 펼쳐 둡니다.
+위에서 아래로 읽으면 추세 명확: 도구 대신 정리하고 찾아주는 순간 모든 행이 좋아집니다. 가져오기가 당신 기존 링크를 그 선 너머로 데려가고 — 잘하는 도구를 먼저 비교하고 싶다면 [2026년 최고의 AI 북마크 관리자](/ko/blog/best-ai-bookmark-manager-2027)가 후보를 펼쳐 둡니다.
 
 ## 크롬 북마크를 Marqly로
 
@@ -119,4 +119,4 @@ HTML 북마크 내보내기엔 세 가지가 있습니다: 링크(URL), 제목, 
 
 ---
 
-*관련: [비교 디렉토리](/compare) · [2026년 최고의 AI 북마크 관리자](/ko/blog/best-ai-bookmark-manager-2026) · [마이그레이션 센터](/migrate) · [무료 북마크 도구](/tools)*
+*관련: [비교 디렉토리](/compare) · [2026년 최고의 AI 북마크 관리자](/ko/blog/best-ai-bookmark-manager-2027) · [마이그레이션 센터](/migrate) · [무료 북마크 도구](/tools)*

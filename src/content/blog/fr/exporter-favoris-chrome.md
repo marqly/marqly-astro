@@ -67,7 +67,7 @@ Le flux général ressemble à ceci dans quasiment tous les outils :
 3. **Laissez traiter le stock.** C’est la partie qui vous aurait pris des jours à la main : l’IA lit chaque page enregistrée et y attache des étiquettes toute seule. Pour une grande collection, comptez quelques minutes puis revenez.
 4. **Testez la récupération avant de faire confiance.** Choisissez trois liens dont vous vous souvenez et cherchez-les en *décrivant* de quoi ils parlaient — pas par leur titre. S’ils remontent, l’import a fonctionné et vous pouvez vous appuyer dessus.
 
-Si vos liens vivent dans une application de lecture différée au lieu de (ou en plus de) Chrome, consultez notre [Migration Center](/migrate) avec des guides pas à pas pour [Pocket](/migrate/pocket), [Raindrop](/fr/migration/raindrop), [mymind](/migrate/mymind) et [Instapaper](/migrate/instapaper). Avant d’importer, vous pouvez inspecter ou nettoyer votre fichier HTML avec nos outils gratuits [Bookmark File Viewer](/tools/bookmark-file-viewer) et [Duplicate Bookmark Finder](/tools/duplicate-bookmark-finder), depuis notre [répertoire d’outils gratuits](/tools). Vous quittez Pocket en particulier ? Suivez [comment exporter et migrer ses données Pocket](/fr/blog/comment-exporter-migrer-donnees-pocket-2026), et si vous cherchez où atterrir, notre comparatif des [meilleures alternatives à Pocket en 2026](/fr/blog/alternatives-a-pocket-2026) passe les options en revue.
+Si vos liens vivent dans une application de lecture différée au lieu de (ou en plus de) Chrome, consultez notre [Migration Center](/migrate) avec des guides pas à pas pour [Pocket](/migrate/pocket), [Raindrop](/fr/migration/raindrop), [mymind](/migrate/mymind) et [Instapaper](/migrate/instapaper). Avant d’importer, vous pouvez inspecter ou nettoyer votre fichier HTML avec nos outils gratuits [Bookmark File Viewer](/tools/bookmark-file-viewer) et [Duplicate Bookmark Finder](/tools/duplicate-bookmark-finder), depuis notre [répertoire d’outils gratuits](/tools). Vous quittez Pocket en particulier ? Suivez [comment exporter et migrer ses données Pocket](/fr/blog/comment-exporter-migrer-donnees-pocket-2026), et si vous cherchez où atterrir, notre comparatif des [meilleures alternatives à Pocket en 2026](/fr/blog/alternatives-a-pocket-2027) passe les options en revue.
 
 ## Que reprend réellement un import ?
 
@@ -106,7 +106,7 @@ Chaque système échange l’effort contre la récupérabilité. Les favoris Chr
 | Au-delà de centaines d’enregistrements | ❌ Devient un stock mort | ✅ Reste interrogeable |
 | Retrouver un lien en le décrivant | ❌ Il faut le titre exact | ✅ Décrivez-le avec vos mots |
 
-Lisez le tableau de haut en bas : la tendance est claire, chaque ligne s’améliore dès qu’un outil organise et cherche à votre place. L’import fait passer vos liens existants de ce côté de la ligne — et si vous voulez d’abord comparer les outils qui font cela bien, notre panorama du [meilleur gestionnaire de favoris IA 2026](/fr/blog/meilleurs-gestionnaires-favoris-ia-2026) détaille les candidats réels.
+Lisez le tableau de haut en bas : la tendance est claire, chaque ligne s’améliore dès qu’un outil organise et cherche à votre place. L’import fait passer vos liens existants de ce côté de la ligne — et si vous voulez d’abord comparer les outils qui font cela bien, notre panorama du [meilleur gestionnaire de favoris IA 2026](/fr/blog/meilleurs-gestionnaires-favoris-ia-2027) détaille les candidats réels.
 
 ## Importez vos favoris Chrome dans Marqly
 
@@ -116,4 +116,4 @@ Exportez vos favoris de Chrome, importez le fichier HTML et interrogez tout votr
 
 ---
 
-*À lire aussi : [Annuaire des comparatifs côte à côte](/compare) · [Meilleur gestionnaire de favoris IA 2026](/fr/blog/meilleurs-gestionnaires-favoris-ia-2026) · [Migration Center](/migrate) · [Outils gratuits pour favoris](/tools)*
+*À lire aussi : [Annuaire des comparatifs côte à côte](/compare) · [Meilleur gestionnaire de favoris IA 2026](/fr/blog/meilleurs-gestionnaires-favoris-ia-2027) · [Migration Center](/migrate) · [Outils gratuits pour favoris](/tools)*

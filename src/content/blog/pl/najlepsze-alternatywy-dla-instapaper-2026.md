@@ -16,7 +16,7 @@ lang: "pl"
 faqs:
   - q: "Jaka jest najlepsza alternatywa dla Instapaper?"
     a: "Marqly to najlepszy wybór łączący wygodny tryb czytania z wyszukiwaniem semantycznym i automatycznymi streszczeniami AI."
-heroImage: ../../../assets/blog/instapaper-alternatives-2026.png
+heroImage: ../../../assets/blog/instapaper-alternatives-2027.png
 heroAlt: "Najlepsze alternatywy dla Instapaper w 2026"
 ---
 

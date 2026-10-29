@@ -64,7 +64,7 @@ Boa parte do que a gente salva não merecia ser lido — e tudo bem. O resumo te
 - **Pesquisa inteira aberta**: salve todas as abas de uma vez — veja [salvar abas](/pt/salvar-abas).
 - **Vindo de outro serviço**: importe do Pocket, do Raindrop e de arquivos HTML de favoritos, além dos favoritos do X/Twitter.
 
-Se você está justamente saindo do Pocket, a comparação está nas [alternativas ao Pocket em 2026](/pt/blog/alternativas-ao-pocket-2026), e há um comparativo direto em [Marqly vs Raindrop](/pt/comparar/marqly-vs-raindrop).
+Se você está justamente saindo do Pocket, a comparação está nas [alternativas ao Pocket em 2026](/pt/blog/alternativas-ao-pocket-2027), e há um comparativo direto em [Marqly vs Raindrop](/pt/comparar/marqly-vs-raindrop).
 
 ## Ler de verdade: grifar, anotar e salvar o trecho
 

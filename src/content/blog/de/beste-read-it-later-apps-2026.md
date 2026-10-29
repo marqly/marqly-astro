@@ -23,7 +23,7 @@ faqs:
     a: "Drei Eigenschaften definieren die besten Apps 2026: Reibungslose Erfassung per Klick, ein angenehmer ablenkungsfreier Lesemodus und intelligente Wiederauffindbarkeit. Semantische KI-Suche, die Inhalte nach Sinn statt nach exakten Stichwörtern findet, ist das entscheidende Unterscheidungsmerkmal."
   - q: "Welche App eignet sich am besten für intensives Markieren und Recherchieren?"
     a: "Readwise Reader ist die beste Wahl für Rechercheure und Vielleser. Für rund 12 $ im Monat bietet es das fortschrittlichste System für Markierungen und Spaced Repetition und verarbeitet PDFs, Newsletter und E-Books."
-heroImage: ../../../assets/blog/best-read-it-later-apps-2026.png
+heroImage: ../../../assets/blog/best-read-it-later-apps-2027.png
 heroAlt: "Die 9 besten Später-lesen-Apps 2026 — Illustration"
 ogImage: "https://www.marqly.com/og/best-read-it-later-apps-2026.png"
 ---
@@ -50,7 +50,7 @@ Premium-Lösung (~12 $/Mon.) mit dem stärksten System für Hervorhebungen und S
 Großzügiger Gratis-Tarif, speichert alle Medientypen, sauber gestaltet. Stichwortsuche statt semantischer Suche, aber hervorragend, wenn du nichts bezahlen möchtest und gern manuell ordnest.
 
 ### 4. Instapaper — Der minimalistische Leseklassiker
-Das klassische, pure Leseerlebnis. Schnell, einfach, zuverlässig — aber ohne KI oder semantische Suche und mit sehr wenig Weiterentwicklung. Wer Instapaper verlassen möchte, findet in unserem Leitfaden zu den [Instapaper-Alternativen](/blog/instapaper-alternatives-2026) moderne Optionen.
+Das klassische, pure Leseerlebnis. Schnell, einfach, zuverlässig — aber ohne KI oder semantische Suche und mit sehr wenig Weiterentwicklung. Wer Instapaper verlassen möchte, findet in unserem Leitfaden zu den [Instapaper-Alternativen](/blog/instapaper-alternatives-2027) moderne Optionen.
 
 ### 5. mymind — Die visuelle Gedächtnisstütze
 „Nie wieder sortieren“. Die KI analysiert und verschlagwortet alles automatisch. Ästhetisch und ruhig gestaltet. Keine Ordnerstrukturen, kein kostenloser Tarif (~8 $/Mon.).
@@ -94,4 +94,4 @@ Frage dich nicht: „Welche App speichert Artikel am schnellsten?“ — speiche
 
 ---
 
-*Weiterführend: [Die 8 besten Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2026) · [Bester KI-Lesezeichen-Manager 2026](/blog/best-ai-bookmark-manager-2026)*
+*Weiterführend: [Die 8 besten Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2027) · [Bester KI-Lesezeichen-Manager 2026](/blog/best-ai-bookmark-manager-2027)*

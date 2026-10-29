@@ -14,7 +14,7 @@ tags:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Marqly 무료로 시작하기"
 lang: "ko"
-heroImage: ../../../assets/blog/best-second-brain-apps-2026.png
+heroImage: ../../../assets/blog/best-second-brain-apps-2027.png
 heroAlt: "2026 최고의 세컨드 브레인 앱 7종 비교 — 일러스트"
 ogImage: "https://www.marqly.com/og/best-second-brain-apps-2026.png"
 faqs:
@@ -116,7 +116,7 @@ Obsidian은 원작 글쓰기와 연결된 사고, 특히 비공개성이 중요�
 - **맞는 사람:** 웹에서 많이 저장하고 그냥 다시 찾고 싶은 독자, 관리 없이. 기존 Pocket, Raindrop, 브라우저 북마크를 가져와 즉시 채울 수 있어, 라이브러리가 첫날부터 검색 가능합니다.
 - **건너뛰세요:** 목적이 길게 원작하고 손으로 깊이 종합하는 것이라면 — 그건 정말로 Obsidian, Notion, Tana의 일입니다. Marqly는 직접 쓴 노트가 아니라 저장한 자료를 중심으로 설계됐습니다.
 
-가벼운 길이 맞다면, [북마크로 세컨드 브레인 만드는 법](/ko/blog/how-to-build-a-second-brain-2026)이 정확한 4단계 설정을 안내하고, [2026년 최고의 AI 북마크 관리자](/ko/blog/best-ai-bookmark-manager-2026)가 그 레인의 도구들을 비교합니다.
+가벼운 길이 맞다면, [북마크로 세컨드 브레인 만드는 법](/ko/blog/how-to-build-a-second-brain-2026)이 정확한 4단계 설정을 안내하고, [2026년 최고의 AI 북마크 관리자](/ko/blog/best-ai-bookmark-manager-2027)가 그 레인의 도구들을 비교합니다.
 
 ## 실제로 어떤 세컨드 브레인 앱을 고를까
 
@@ -140,4 +140,4 @@ Obsidian은 원작 글쓰기와 연결된 사고, 특히 비공개성이 중요�
 
 ---
 
-*관련 글: [세컨드 브레인 앱이란?](/ko/blog/what-is-a-second-brain-app-2026) · [AI 세컨드 브레인이란?](/ko/blog/what-is-an-ai-second-brain-2026) · [2026년 최고의 AI 북마크 관리자](/ko/blog/best-ai-bookmark-manager-2026)*
+*관련 글: [세컨드 브레인 앱이란?](/ko/blog/what-is-a-second-brain-app-2026) · [AI 세컨드 브레인이란?](/ko/blog/what-is-an-ai-second-brain-2026) · [2026년 최고의 AI 북마크 관리자](/ko/blog/best-ai-bookmark-manager-2027)*

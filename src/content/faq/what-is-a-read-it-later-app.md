@@ -17,7 +17,7 @@ Save, queue, read, archive. The loop works because saving is instant — you don
 
 ## The category after Pocket
 
-Pocket's shutdown did more than orphan its users — it reset expectations. A plain reading queue is no longer enough; the tools competing for former Pocket users differentiate on triage (can the app tell you what's in the backlog?) and retrieval (can you find that article from March without remembering its title?). [The best read-it-later apps of 2026](/blog/best-read-it-later-apps-2026) surveys the current field, and [the best Pocket alternatives](/blog/best-pocket-alternatives-2026) focuses on where Pocket refugees actually landed.
+Pocket's shutdown did more than orphan its users — it reset expectations. A plain reading queue is no longer enough; the tools competing for former Pocket users differentiate on triage (can the app tell you what's in the backlog?) and retrieval (can you find that article from March without remembering its title?). [The best read-it-later apps of 2026](/blog/best-read-it-later-apps-2027) surveys the current field, and [the best Pocket alternatives](/blog/best-pocket-alternatives-2027) focuses on where Pocket refugees actually landed.
 
 ## Where Marqly fits
 

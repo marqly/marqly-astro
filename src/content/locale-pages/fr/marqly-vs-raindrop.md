@@ -91,7 +91,7 @@ Si votre bibliothèque est déjà bien rangée et que vous retrouvez sans peine 
 
 Rien n'est bloqué. Raindrop exporte en HTML et en CSV, y compris sur son offre gratuite, et Marqly propose un import dédié pour Raindrop, pour Pocket et pour n'importe quel fichier HTML de favoris. Un essai réaliste consiste à importer, puis à sauvegarder tout ce que vous croisez pendant une semaine sans rien classer, avant de chercher trois pages en les décrivant.
 
-Pour aller plus loin&nbsp;: la [page d'accueil de Marqly](/fr) détaille le fonctionnement, les [alternatives à Pocket en 2026](/fr/blog/alternatives-a-pocket-2026) élargissent la comparaison, et les usages concrets sont décrits sur [sauvegarder ses onglets](/fr/sauvegarder-onglets), [lire plus tard](/fr/lire-plus-tard), [surligner une page web](/fr/surligner-page-web) et [veille informationnelle](/fr/veille-informationnelle).
+Pour aller plus loin&nbsp;: la [page d'accueil de Marqly](/fr) détaille le fonctionnement, les [alternatives à Pocket en 2026](/fr/blog/alternatives-a-pocket-2027) élargissent la comparaison, et les usages concrets sont décrits sur [sauvegarder ses onglets](/fr/sauvegarder-onglets), [lire plus tard](/fr/lire-plus-tard), [surligner une page web](/fr/surligner-page-web) et [veille informationnelle](/fr/veille-informationnelle).
 
 ## Essayez, puis tranchez
 

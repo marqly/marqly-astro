@@ -108,6 +108,6 @@ No es "cuál tiene más funciones". Es **en qué momento se rompe tu sistema**.
 
 Raindrop exporta en HTML o CSV desde el plan gratis, y Marqly tiene importación directa desde Raindrop, desde Pocket y desde archivos HTML de marcadores del navegador. Ninguno de los dos te retiene los datos, así que la decisión es reversible: prueba unas semanas y quédate con el que te haga volver a lo que guardaste.
 
-Si además estás evaluando otras opciones, el repaso de [alternativas a Pocket en 2026](/es/blog/alternativas-a-pocket-2026) cubre el resto de la categoría, y en [la página principal en español](/es) está todo lo que hace Marqly.
+Si además estás evaluando otras opciones, el repaso de [alternativas a Pocket en 2026](/es/blog/alternativas-a-pocket-2027) cubre el resto de la categoría, y en [la página principal en español](/es) está todo lo que hace Marqly.
 
 La forma honesta de decidir es probar. Marqly tiene plan gratis sin tarjeta: importa tu biblioteca de Raindrop, busca cinco cosas describiéndolas con tus palabras y mira qué pasa. [Empieza gratis en app.marqly.com](https://app.marqly.com).

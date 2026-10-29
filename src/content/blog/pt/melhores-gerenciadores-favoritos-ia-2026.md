@@ -19,7 +19,7 @@ faqs:
     a: "Um gerenciador com IA real atua em três camadas: auto-etiquetagem para você não organizar pastas manualmente, resumos automáticos para triagem rápida e busca semântica para encontrar qualquer página descrevendo o que você lembra."
   - q: "O que é busca semântica de favoritos?"
     a: "A busca semântica encontra conteúdos pelo conceito, sem exigir palavras exatas do título. Se você digitar 'aquele artigo sobre confiança em equipes remotas', o Marqly encontra a página certa mesmo que o título seja totalmente diferente."
-heroImage: ../../../assets/blog/best-ai-bookmark-manager-2026.png
+heroImage: ../../../assets/blog/best-ai-bookmark-manager-2027.png
 heroAlt: "Os Melhores Gerenciadores de Favoritos com IA em 2026 — ilustração"
 ogImage: "https://www.marqly.com/og/best-ai-bookmark-manager-2026.png"
 ---

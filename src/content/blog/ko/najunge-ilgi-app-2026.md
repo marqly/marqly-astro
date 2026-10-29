@@ -21,7 +21,7 @@ faqs:
     a: "네. Raindrop.io의 무료 플랜이 매우 충실하며, Instapaper 역시 텍스트 위주의 무료 리더를 지원합니다. Marqly도 100개 링크까지 보관할 수 있는 무료 플랜을 제공합니다."
   - q: "2026년 훌륭한 리드잇레이터 도구의 기준은 무엇인가요?"
     a: "원클릭 무마찰 저장, 광고와 배너가 없는 편안한 독서 모드, 그리고 저장한 글을 기억 속 문맥으로 찾아내는 AI 지능형 검색의 결합입니다."
-heroImage: ../../../assets/blog/best-read-it-later-apps-2026.png
+heroImage: ../../../assets/blog/best-read-it-later-apps-2027.png
 heroAlt: "나중에 읽기 앱 추천 9선 (2026년) — 일러스트"
 ogImage: "https://www.marqly.com/og/best-read-it-later-apps-2026.png"
 ---

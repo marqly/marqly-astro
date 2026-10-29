@@ -29,7 +29,7 @@ faqs:
 
 **Die kurze Antwort:** Welcher kostenlose Lesezeichen-Manager 2026 der beste ist, hängt davon ab, was „kostenlos“ alles abdecken muss. **Raindrop.io** hat den großzügigsten klassischen Gratis-Tarif — unbegrenzte Lesezeichen, Sammlungen und Apps auf jeder Plattform. **Marqly** hat eine kostenlose Stufe ohne Kreditkarte, die bis zu 100 Lesezeichen mit Suche über die gesamte Bibliothek abdeckt (während KI-Auto-Tagging, Zusammenfassungen und semantische Suche in Pro liegen). **Linkwarden** und **Karakeep** sind dauerhaft kostenlos, wenn du bereit bist selbst zu hosten — und **die eingebauten Browser-Lesezeichen** sind die Basis, die lange gut geht, bis sie es nicht mehr tut. Keines dieser Tools ist eine verkleidete Testphase; alle fünf sind bei 0 $ wirklich nutzbar.
 
-Laut ausgesprochen: Das Zeitalter von „nimm halt Pocket“ ist vorbei — Mozilla hat Pocket 2025 abgeschaltet. Deshalb ist die Diskussion um [Pocket-Alternativen](/de/blog/pocket-alternativen-2026) so laut, und deshalb zählen Gratis-Stufen als Landeplatz mehr denn je.
+Laut ausgesprochen: Das Zeitalter von „nimm halt Pocket“ ist vorbei — Mozilla hat Pocket 2025 abgeschaltet. Deshalb ist die Diskussion um [Pocket-Alternativen](/de/blog/pocket-alternativen-2027) so laut, und deshalb zählen Gratis-Stufen als Landeplatz mehr denn je.
 
 | Tool | Kostenlose Stufe | KI (Tagging/Suche) | Selbst hostbar | Plattformen | Upgrade (verifiziert Aug 2026) |
 | --- | --- | --- | --- | --- | --- |
@@ -45,7 +45,7 @@ Was hier als „echt kostenlos“ zählt: eine Stufe, auf der du unbegrenzt lebe
 
 Raindrops Gratis-Tarif ist der Benchmark der Kategorie: **unbegrenzte Lesezeichen, unbegrenzte Sammlungen, Tags und jede App** — Web, iOS, Android, Desktop, Extensions — ohne Ablaufdatum. Für reines Links-Sammeln mit manueller Organisation geht kostenlos nichts polierteres.
 
-Der ehrliche Vorbehalt betrifft das, was *nicht* im Gratis-Tarif liegt: **Volltextsuche, dauerhafte Kopien gespeicherter Seiten, KI-Tag-Vorschläge und der Duplikat-Finder stecken alle in Pro** (28 $/Jahr — immerhin günstig). Und selbst Pro sucht nur stichwortbasiert, nicht semantisch — du findest Sicherungen über Wörter *darin*, nicht über eine Beschreibung. Genau dieser Unterschied ist die Kernthese unseres [KI-Lesezeichen-Manager-Ratgebers](/de/blog/beste-ai-lesezeichen-manager-2026).
+Der ehrliche Vorbehalt betrifft das, was *nicht* im Gratis-Tarif liegt: **Volltextsuche, dauerhafte Kopien gespeicherter Seiten, KI-Tag-Vorschläge und der Duplikat-Finder stecken alle in Pro** (28 $/Jahr — immerhin günstig). Und selbst Pro sucht nur stichwortbasiert, nicht semantisch — du findest Sicherungen über Wörter *darin*, nicht über eine Beschreibung. Genau dieser Unterschied ist die Kernthese unseres [KI-Lesezeichen-Manager-Ratgebers](/de/blog/beste-ai-lesezeichen-manager-2027).
 
 **Vorteile:**
 
@@ -143,7 +143,7 @@ Praktisch heißt das: Der Preis einer heutigen „falschen“ Wahl ist ein Nachm
 4. **Du willst KI-Funktionen und volle Daten-Hoheit** → Karakeep, selbst gehostet. (Siehe [Marqly vs Karakeep](/compare/marqly-vs-karakeep)).
 5. **Du hast 40 Lesezeichen und keinen Schmerz** → dein Browser reicht. Lesezeichen für diese Seite anlegen.
 
-Für vollständige Feature-Tabellen nebeneinander: Schau in unser komplettes [Vergleichsverzeichnis](/compare), oder nimm das [Bookmark-Retrieval-Benchmark-Protokoll](/blog/ai-bookmark-retrieval-benchmark-2026) und teste den Abruf gegen die fünf Sicherungen, die du tatsächlich verloren hast.
+Für vollständige Feature-Tabellen nebeneinander: Schau in unser komplettes [Vergleichsverzeichnis](/compare), oder nimm das [Bookmark-Retrieval-Benchmark-Protokoll](/blog/ai-bookmark-retrieval-benchmark-2027) und teste den Abruf gegen die fünf Sicherungen, die du tatsächlich verloren hast.
 
 Zum Schluss eine ehrliche Anmerkung: „Kostenlos“ hat immer eine Form. Raindrops Gratis ist durch Funktionen begrenzt, Marqlys durch die Stufengrenze, Linkwardens und Karakeeps durch deine Ops-Zeit, der Browser durch den Maßstab. Wähl die Form, mit der du leben kannst. Wenn der Abruf dein Schmerz ist — du speicherst reichlich und findest nichts — starte mit der kostenlosen Stufe, die um Suche-per-Bedeutung gebaut werden kann: [Marqly kostenlos starten](https://app.marqly.com), bestehende Lesezeichen importieren und etwas wiederfinden, das du vor Monaten gespeichert hast, indem du es beschreibst.
 

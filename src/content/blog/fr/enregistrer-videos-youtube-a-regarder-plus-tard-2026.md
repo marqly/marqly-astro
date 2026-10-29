@@ -53,7 +53,7 @@ Cela aide un peu, mais les playlists ne sont que des dossiers sous un autre nom 
 
 ## Solution 2 : enregistrer les vidéos dans une bibliothèque unifiée et consultable (la meilleure voie)
 
-L'approche plus propre : enregistrez les vidéos YouTube au même endroit que vos articles et vos liens — un outil dédié avec **tags et recherche par IA**. Tout votre « à consommer » vit alors dans une seule maison consultable, et vous pouvez retrouver une vidéo en la décrivant. (Beaucoup des [meilleures applications de lecture différée](/fr/blog/meilleures-applications-lecture-differee-2026) gèrent désormais la vidéo à côté des articles, si bien qu'il ne faut pas un silo séparé pour chaque média.)
+L'approche plus propre : enregistrez les vidéos YouTube au même endroit que vos articles et vos liens — un outil dédié avec **tags et recherche par IA**. Tout votre « à consommer » vit alors dans une seule maison consultable, et vous pouvez retrouver une vidéo en la décrivant. (Beaucoup des [meilleures applications de lecture différée](/fr/blog/meilleures-applications-lecture-differee-2027) gèrent désormais la vidéo à côté des articles, si bien qu'il ne faut pas un silo séparé pour chaque média.)
 
 Avec un outil comme **Marqly** :
 

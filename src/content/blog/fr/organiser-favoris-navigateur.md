@@ -88,11 +88,11 @@ Il y a deux moitiés, et elles se renforcent.
 
 Le modèle mental : au lieu de *classer* des choses pour les retrouver plus tard, vous *enregistrez* des choses et vous les *décrivez* plus tard. Vous tapez « l’article sur le sommeil et la concentration » et la recherche sémantique le fait remonter — sans dossier, sans titre exact.
 
-Cela inverse tout le problème. Si les favoris partent en désordre, c’est que s’organiser est un travail et que chercher est faible. Supprimez les deux — auto-organisation + recherche par le sens — et le désordre ne peut pas se former. Vous êtes libre d’être un enregistreur négligent, car la négligence n’a plus de coût. C’est la vraie promesse de l’*organiser moins, chercher plus* : ce n’est pas que l’organisation cesse de compter, c’est que la machine la fait si bien que vous n’y pensez plus. Si vous voulez le paysage complet des outils qui le font, notre panorama du [meilleur gestionnaire de favoris IA 2026](/fr/blog/meilleurs-gestionnaires-favoris-ia-2026) compare les candidats réels.
+Cela inverse tout le problème. Si les favoris partent en désordre, c’est que s’organiser est un travail et que chercher est faible. Supprimez les deux — auto-organisation + recherche par le sens — et le désordre ne peut pas se former. Vous êtes libre d’être un enregistreur négligent, car la négligence n’a plus de coût. C’est la vraie promesse de l’*organiser moins, chercher plus* : ce n’est pas que l’organisation cesse de compter, c’est que la machine la fait si bien que vous n’y pensez plus. Si vous voulez le paysage complet des outils qui le font, notre panorama du [meilleur gestionnaire de favoris IA 2026](/fr/blog/meilleurs-gestionnaires-favoris-ia-2027) compare les candidats réels.
 
 ### Comment le mettre en place
 
-1. **Choisissez un outil avec étiquetage IA automatique + recherche sémantique** — voir notre sélection des [meilleurs gestionnaires de favoris IA](/fr/blog/meilleurs-gestionnaires-favoris-ia-2026). (Testez : enregistrez 3 liens, attendez un jour, cherchez-en un en le paraphrasant sans son titre. S’il ressort, l’IA est réelle.)
+1. **Choisissez un outil avec étiquetage IA automatique + recherche sémantique** — voir notre sélection des [meilleurs gestionnaires de favoris IA](/fr/blog/meilleurs-gestionnaires-favoris-ia-2027). (Testez : enregistrez 3 liens, attendez un jour, cherchez-en un en le paraphrasant sans son titre. S’il ressort, l’IA est réelle.)
 2. **Importez vos favoris existants** — export navigateur, export Pocket, etc. Reconstitution instantanée de l’historique.
 3. **Enregistrez d’un clic en naviguant.** Ne triez pas.
 4. **Retrouvez en décrivant.** Quand vous cherchez quelque chose, décrivez-le avec vos mots.

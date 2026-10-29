@@ -14,7 +14,7 @@ tags:
 ctaUrl: "https://app.marqly.com/lp/replace-pocket"
 ctaLabel: "Marqly kostenlos starten"
 lang: "de"
-heroImage: ../../../assets/blog/instapaper-alternatives-2026.png
+heroImage: ../../../assets/blog/instapaper-alternatives-2027.png
 heroAlt: "Die besten Instapaper-Alternativen 2026 (Wenn Minimalismus nicht mehr reicht) — Illustration"
 ogImage: "https://www.marqly.com/og/instapaper-alternatives-2026.png"
 faqs:
@@ -80,4 +80,4 @@ Du vergleichst noch das breitere Feld? Unser Rundum-Vergleich der [besten Read-i
 
 ---
 
-*Verwandt: [Die 8 besten Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2026) · [Der beste KI-Lesezeichen-Manager](/de/blog/beste-ai-lesezeichen-manager-2026)*
+*Verwandt: [Die 8 besten Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2027) · [Der beste KI-Lesezeichen-Manager](/de/blog/beste-ai-lesezeichen-manager-2027)*

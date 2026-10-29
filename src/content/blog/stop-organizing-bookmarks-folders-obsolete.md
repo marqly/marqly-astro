@@ -82,7 +82,7 @@ The two approaches aren't close. One asks you for work on every save and every s
 | Scaling past 500 saves | Collapses into chaos | Gets *more* useful, not less |
 | Who does the work | You, forever | The machine, automatically |
 
-The bottom row is the one that settles it: with folders, *you* are the system, and the system fails the first busy week. With save-and-search, the machine is the system, and it doesn't get tired. That's why this isn't a marginal upgrade — it's the reason folders are obsolete rather than merely outdated. If you want to see how the leading tools stack up on exactly these axes, our [best AI bookmark manager for 2026](/blog/best-ai-bookmark-manager-2026) roundup compares the real contenders, and our deep dive on [AI bookmark managers with semantic search](/blog/ai-bookmark-managers-semantic-search-compared) shows which ones actually find links by meaning versus just claiming to.
+The bottom row is the one that settles it: with folders, *you* are the system, and the system fails the first busy week. With save-and-search, the machine is the system, and it doesn't get tired. That's why this isn't a marginal upgrade — it's the reason folders are obsolete rather than merely outdated. If you want to see how the leading tools stack up on exactly these axes, our [best AI bookmark manager for 2026](/blog/best-ai-bookmark-manager-2027) roundup compares the real contenders, and our deep dive on [AI bookmark managers with semantic search](/blog/ai-bookmark-managers-semantic-search-compared) shows which ones actually find links by meaning versus just claiming to.
 
 ## Try saving without folders
 

@@ -20,7 +20,7 @@ faqs:
     a: "Quédate si tu único objetivo es guardar artículos ocasionales y leerlos sin formato. Cambia si acumulas cientos de lecturas que nunca vuelves a encontrar o si deseas buscar por conceptos en lenguaje natural."
   - q: "¿Existe alguna alternativa gratuita a Instapaper con IA?"
     a: "Sí. Marqly ofrece un plan gratuito permanente para hasta 100 marcadores, con funciones completas de búsqueda y lectura."
-heroImage: ../../../assets/blog/instapaper-alternatives-2026.png
+heroImage: ../../../assets/blog/instapaper-alternatives-2027.png
 heroAlt: "Mejores alternativas a Instapaper en 2026"
 ---
 

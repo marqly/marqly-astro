@@ -16,7 +16,7 @@ lang: "pt"
 faqs:
   - q: "Qual a melhor alternativa ao Instapaper hoje?"
     a: "O Marqly é a alternativa mais recomendada para quem deseja manter um modo leitura limpo e ganhar busca semântica por significado e resumos automáticos."
-heroImage: ../../../assets/blog/instapaper-alternatives-2026.png
+heroImage: ../../../assets/blog/instapaper-alternatives-2027.png
 heroAlt: "Melhores alternativas ao Instapaper em 2026"
 ---
 

@@ -19,7 +19,7 @@ faqs:
     a: "Marqly is de beste allround later-lezen-app in 2026: het combineert opslaan met één klik, een schone leesmodus en synchronisatie tussen apparaten met semantische AI-zoekopdrachten waarmee je artikelen terugvindt op betekenis. Readwise Reader is het beste voor markeren en Raindrop.io is de beste gratis keuze."
   - q: "Zijn er gratis apps om artikelen later te lezen?"
     a: "Ja. Raindrop.io biedt een zeer ruime gratis versie en Instapaper heeft een kosteloze minimalistische tekstlezer. Marqly heeft een gratis abonnement tot 100 bladwijzers met volledige zoekmogelijkheden."
-heroImage: ../../../assets/blog/best-read-it-later-apps-2026.png
+heroImage: ../../../assets/blog/best-read-it-later-apps-2027.png
 heroAlt: "De 9 beste later-lezen-apps in 2026 — illustratie"
 ogImage: "https://www.marqly.com/og/best-read-it-later-apps-2026.png"
 ---

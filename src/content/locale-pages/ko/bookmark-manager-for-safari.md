@@ -57,4 +57,4 @@ iPhone에서는 [Marqly iOS 앱](https://apps.apple.com/us/app/marqly-ai-bookmar
 3. [App Store에서 iOS 앱](https://apps.apple.com/us/app/marqly-ai-bookmark-manager/id6758905385)을 설치하고 같은 계정으로 로그인하세요.
 4. Safari 북마크를 HTML로 내보내 가져오면, 모아 둔 것을 AI가 정리할 수 있습니다.
 
-정직한 적합성 노트: 손대거리는 기기가 전부 Apple 로고를 달고 있고 북마크 수도 적다면, iCloud의 무음 동기화는 정말 대적할 상대가 없습니다 — 무료, 네이티브, 유지보수 0. Marqly의 근거는 iCloud가 영영 하지 않을 두 가지에 걸려 있습니다. 저장본을 의미로 검색하는 것, 그리고 Apple이 아닌 기기를 따라가는 것. 둘 중 하나가 주마다 당신을 답답하게 한다면, 무료 플랜으로 해법을 부담 없이 시험해 보세요. 카테고리 전체를 먼저 둘러보는 중이라면 [2026년 최고의 AI 북마크 관리자 비교](/ko/blog/best-ai-bookmark-manager-2026)가 Marqly를 포함해 모든 도구의 승패를 정리해 둡니다.
+정직한 적합성 노트: 손대거리는 기기가 전부 Apple 로고를 달고 있고 북마크 수도 적다면, iCloud의 무음 동기화는 정말 대적할 상대가 없습니다 — 무료, 네이티브, 유지보수 0. Marqly의 근거는 iCloud가 영영 하지 않을 두 가지에 걸려 있습니다. 저장본을 의미로 검색하는 것, 그리고 Apple이 아닌 기기를 따라가는 것. 둘 중 하나가 주마다 당신을 답답하게 한다면, 무료 플랜으로 해법을 부담 없이 시험해 보세요. 카테고리 전체를 먼저 둘러보는 중이라면 [2026년 최고의 AI 북마크 관리자 비교](/ko/blog/best-ai-bookmark-manager-2027)가 Marqly를 포함해 모든 도구의 승패를 정리해 둡니다.

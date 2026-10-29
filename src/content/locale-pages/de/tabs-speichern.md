@@ -87,7 +87,7 @@ Nach zwei, drei Wochen kippt das Verhältnis: Ein Tab bleibt nur noch offen, wei
 
 ## Umsteigen und Grenzen
 
-Wenn du deine Tabs bisher in Pocket oder Raindrop geparkt hast: Marqly importiert aus beiden sowie aus jeder Lesezeichen-HTML-Datei, die dein Browser exportiert. Passend dazu die [Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2026) und der Vergleich [Marqly vs. Raindrop](/de/vergleich/marqly-vs-raindrop).
+Wenn du deine Tabs bisher in Pocket oder Raindrop geparkt hast: Marqly importiert aus beiden sowie aus jeder Lesezeichen-HTML-Datei, die dein Browser exportiert. Passend dazu die [Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2027) und der Vergleich [Marqly vs. Raindrop](/de/vergleich/marqly-vs-raindrop).
 
 Ehrlich dazu: Offline-Lesen gibt es nur **auf Pro** (Web-App und iOS, pro Gerät), und das Teilen im persönlichen Board ist nur lesbar – gemeinsam bearbeitet wird in Marqly Teams. Wiederherstellen setzt eine Verbindung voraus. Was an Daten entsteht, steht in den [Datenschutz-Fragen](/de/datenschutz-fragen).
 

@@ -194,4 +194,4 @@ Pocket 关停的教训不只是「换个新 App」——而是：保存链接从
 
 如果这一点说中了你，[Marqly 正是为此而生](https://app.marqly.com/lp/replace-pocket)——导入你的 Pocket 库，从此按含义搜索你保存过的一切。也可以看 [Pocket vs Marqly 对比](/zh/compare/marqly-vs-pocket)，或访问[迁移中心](/migrate)零损失搬家。注册免费，无需信用卡。
 
-如果你权衡的是整个赛道而非只找 Pocket 接班者，下单前值得再对比[2026 年最佳稍后读应用](/zh/blog/shaohou-yuedu-app-2026)与[最佳 AI 书签管理器](/zh/blog/best-ai-bookmark-manager-2026)。
+如果你权衡的是整个赛道而非只找 Pocket 接班者，下单前值得再对比[2026 年最佳稍后读应用](/zh/blog/shaohou-yuedu-app-2027)与[最佳 AI 书签管理器](/zh/blog/best-ai-bookmark-manager-2027)。

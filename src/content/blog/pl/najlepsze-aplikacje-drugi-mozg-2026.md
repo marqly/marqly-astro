@@ -21,7 +21,7 @@ faqs:
     a: "Ponieważ wysiłek wkładany w ręczną kategoryzację przewyższa korzyści. Gdy brakuje czasu, żmudne tagowanie zostaje zaniechane i cały system upada."
   - q: "Czy muszę korzystać z Notion lub Obsidiana?"
     a: "Nie. Dla większości osób najważniejszą wiedzą są przeczytane artykuły, analizy i wykłady wideo, które Marqly porządkuje automatycznie bez ręcznej pracy."
-heroImage: ../../../assets/blog/best-second-brain-apps-2026.png
+heroImage: ../../../assets/blog/best-second-brain-apps-2027.png
 heroAlt: "Najlepsze aplikacje Drugi Mózg w 2026 roku — ilustracja"
 ogImage: "https://www.marqly.com/og/best-second-brain-apps-2026.png"
 ---

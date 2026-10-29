@@ -61,7 +61,7 @@ When the memory is really faint, give the search more to work with:
 - **Combine fragments.** "The long essay about a founder who quit and moved to a farm" beats searching "farm" alone.
 - **Use sensory or emotional details.** "The scary article about phone addiction in kids" works because the content carries that tone.
 - **Don't worry about being wrong.** Semantic search degrades gracefully — a partly-wrong description still ranks the right save near the top.
-- **Search across formats.** A good tool searches notes, saved videos, and PDFs the same way it searches articles, so you don't have to remember *where* you saved it either. (For a shortlist of [an AI bookmark manager that does this](/blog/best-ai-bookmark-manager-2026), see our 2026 roundup.)
+- **Search across formats.** A good tool searches notes, saved videos, and PDFs the same way it searches articles, so you don't have to remember *where* you saved it either. (For a shortlist of [an AI bookmark manager that does this](/blog/best-ai-bookmark-manager-2027), see our 2026 roundup.)
 
 ## Find it by meaning, not memory
 

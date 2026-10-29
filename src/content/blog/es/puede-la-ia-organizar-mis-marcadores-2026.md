@@ -47,7 +47,7 @@ Hay tres piezas móviles, todas automáticas:
 - **Resúmenes** — genera un resumen de una o dos líneas para que sepas de qué va un guardado de un vistazo, semanas después.
 - **Agrupación semántica** — en vez de encajar cada elemento en una única carpeta, la IA entiende el significado, así que un guardado puede relacionarse con varios temas a la vez.
 
-[Marqly](https://app.marqly.com) hace las tres cosas al capturar: guarda un artículo, un vídeo o una nota y lo etiqueta y resume automáticamente, luego hace toda la biblioteca buscable por significado — y una vez etiquetado, puedes [volver a encontrarlo con la búsqueda por IA](/blog/how-to-search-bookmarks-with-ai). (La etiqueta automática de las importaciones es una función de Pro: el plan gratuito conserva las etiquetas propias de tus archivos.) Si estás comparando herramientas, mira nuestro repaso de [los mejores gestores de marcadores con IA de 2026](/es/blog/mejores-gestores-marcadores-ia-2026).
+[Marqly](https://app.marqly.com) hace las tres cosas al capturar: guarda un artículo, un vídeo o una nota y lo etiqueta y resume automáticamente, luego hace toda la biblioteca buscable por significado — y una vez etiquetado, puedes [volver a encontrarlo con la búsqueda por IA](/blog/how-to-search-bookmarks-with-ai). (La etiqueta automática de las importaciones es una función de Pro: el plan gratuito conserva las etiquetas propias de tus archivos.) Si estás comparando herramientas, mira nuestro repaso de [los mejores gestores de marcadores con IA de 2026](/es/blog/mejores-gestores-marcadores-ia-2027).
 
 ## ¿Sigo necesitando carpetas?
 

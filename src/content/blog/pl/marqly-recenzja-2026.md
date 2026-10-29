@@ -16,7 +16,7 @@ lang: "pl"
 faqs:
   - q: "Ile kosztuje Marqly?"
     a: "Plan darmowy do 100 zapisów; Pro wynosi 72 $/rok (6 $/mies.) z kodem STANDING49 (49 $ za pierwszy rok)."
-heroImage: ../../../assets/blog/marqly-review-2026.png
+heroImage: ../../../assets/blog/marqly-review-2027.png
 heroAlt: "Recenzja Marqly 2026"
 ---
 

@@ -50,7 +50,7 @@ Ihr Export ist portabel, die eigentliche Frage ist also, *wo* die Library künft
 - **Raindrop.io** — wenn Sie einen kostenlosen, allgemeinen Lesezeichen-Manager wollen.
 - **Instapaper** — wenn Sie schlicht [eine Read-it-later-App](/de/blog/beste-read-it-later-apps-2026) fürs minimalistische, schnörkellose Lesen suchen.
 
-(Für die komplette Aufschlüsselung: [Die 8 besten Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2026).)
+(Für die komplette Aufschlüsselung: [Die 8 besten Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2027).)
 
 ## Schritt 3: Importieren Sie Ihre Bibliothek
 

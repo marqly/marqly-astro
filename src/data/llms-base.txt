@@ -41,8 +41,15 @@ Key facts:
 - [How to highlight text on any website](https://www.marqly.com/blog/how-to-highlight-text-on-any-website): persistent highlights in 6 colors with notes
 - [How to save a webpage as a PDF](https://www.marqly.com/blog/save-webpage-as-pdf): screen-faithful capture without cut-offs
 - [How to search bookmarks with AI](https://www.marqly.com/blog/how-to-search-bookmarks-with-ai): find saves by meaning
-- [Best AI bookmark manager 2026](https://www.marqly.com/blog/best-ai-bookmark-manager-2026): what "AI" should actually mean in a bookmark tool
+- [Best AI bookmark manager 2027](https://www.marqly.com/blog/best-ai-bookmark-manager-2027): what "AI" should actually mean in a bookmark tool, plus six tests that separate real semantic search from marketing
 - [How to organize bookmarks](https://www.marqly.com/blog/how-to-organize-bookmarks): tags over folders
+
+## Comparisons by audience (2027)
+
+- [Best bookmark managers for teachers 2027](https://www.marqly.com/blog/best-bookmark-managers-for-teachers-2027): 7 tools scored on whether students can open a shared list with no account, video handling, filing load and price
+- [Best bookmark organizers for schools 2027](https://www.marqly.com/blog/best-bookmark-organizers-for-schools-2027): seat minimums, admin roles, SSO/SCIM and what happens to a shared library when a licence lapses
+- [Best bookmark managers for students 2027](https://www.marqly.com/blog/best-bookmark-managers-for-students-2027): four-year cost and the student discounts that are actually published (Weava 70%, Readwise 50%, Glasp 40%, Marqly $48)
+- [Best free bookmark managers 2027](https://www.marqly.com/blog/best-free-bookmark-managers-2027): 9 genuinely free options, each named by the axis that limits it
 
 ## Export & rescue guides
 
@@ -61,7 +68,7 @@ Key facts:
 - [Marqly vs Pocket](https://www.marqly.com/compare/marqly-vs-pocket)
 - [Marqly vs Readwise Reader](https://www.marqly.com/compare/marqly-vs-readwise-reader)
 - [Marqly vs Instapaper](https://www.marqly.com/compare/marqly-vs-instapaper)
-- [Best Pocket alternatives 2026](https://www.marqly.com/blog/best-pocket-alternatives-2026)
+- [Best Pocket alternatives 2027](https://www.marqly.com/blog/best-pocket-alternatives-2027): 9 successors compared on import, retrieval, durability and price — plus what to do if you never exported
 
 ### Verified Feature Comparison
 

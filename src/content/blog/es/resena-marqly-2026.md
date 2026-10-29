@@ -23,7 +23,7 @@ faqs:
     a: "Para gente con un backlog grande y desordenado de marcadores que no encuentra, ex usuarios de Pocket que quieren la búsqueda con IA que Pocket nunca tuvo, y cualquiera que construya un segundo cerebro a partir de lo que lee sin mantenimiento. Encaja menos con lectores intensivos que viven de los resaltados o con quien sobre todo escribe notas propias."
   - q: "¿Cuáles son los principales inconvenientes de Marqly?"
     a: "Con honestidad: Marqly es más nuevo que los establecidos, así que su comunidad es más pequeña que la de Raindrop o Readwise (aunque crece rápido). No es una herramienta de toma de notas —combínalo con Obsidian o Notion para escribir— y sus resaltados son básicos comparados con el sistema de repetición espaciada de Readwise Reader."
-heroImage: ../../../assets/blog/marqly-review-2026.png
+heroImage: ../../../assets/blog/marqly-review-2027.png
 heroAlt: "Reseña de Marqly 2026: funciones, precios, pros y contras — ilustración"
 ogImage: "https://www.marqly.com/og/marqly-review-2026.png"
 ---
@@ -85,7 +85,7 @@ A ~6 $/mes, Marqly queda por debajo de herramientas premium como Readwise Reader
 ## Para quién es Marqly
 
 - Gente con un backlog grande y desordenado de marcadores que no encuentra.
-- Ex usuarios de Pocket que quieren la búsqueda con IA que Pocket nunca tuvo (si sigues comparando, mira primero las [alternativas a Pocket](/es/blog/alternativas-a-pocket-2026)).
+- Ex usuarios de Pocket que quieren la búsqueda con IA que Pocket nunca tuvo (si sigues comparando, mira primero las [alternativas a Pocket](/es/blog/alternativas-a-pocket-2027)).
 - Cualquiera que construya un "segundo cerebro" a partir de lo que lee, sin mantenimiento.
 
 ## Para quién no es
@@ -102,4 +102,4 @@ La apuesta de Marqly es que el futuro de guardar enlaces es **recuperación, no 
 
 ---
 
-*Relacionado: [Mejor gestor de marcadores con IA 2026](/es/blog/mejores-gestores-marcadores-ia-2026) · [Pocket vs Marqly](/es/comparar/marqly-vs-pocket) · [Raindrop vs Marqly](/es/comparar/marqly-vs-raindrop)*
+*Relacionado: [Mejor gestor de marcadores con IA 2026](/es/blog/mejores-gestores-marcadores-ia-2027) · [Pocket vs Marqly](/es/comparar/marqly-vs-pocket) · [Raindrop vs Marqly](/es/comparar/marqly-vs-raindrop)*

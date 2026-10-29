@@ -27,7 +27,7 @@ faqs:
     a: "Busca captura sin fricción a un clic, organización automática (para no archivar a mano) y búsqueda semántica que encuentre cosas por significado aunque hayas olvidado el título. Si además funciona en web, teléfono y escritorio e importa tus marcadores existentes, mejor aún. Esos rasgos predicen si seguirás usándola el mes que viene."
   - q: "¿Una app ligera de segundo cerebro es tan buena como Notion u Obsidian?"
     a: "Para escritura original y síntesis profunda, no: las herramientas pesadas son más fuertes. Pero para el trabajo que la mayoría quiere de verdad, que es dejar de perder lo que lee, una app ligera de captura y recuperación suele ser mejor, porque sobrevive a una semana intensa en lugar de pudrirse por mantenimiento descuidado."
-heroImage: ../../../assets/blog/best-second-brain-apps-2026.png
+heroImage: ../../../assets/blog/best-second-brain-apps-2027.png
 heroAlt: "Las 7 mejores apps de segundo cerebro en 2026 — ilustración"
 ogImage: "https://www.marqly.com/og/best-second-brain-apps-2026.png"
 ---
@@ -116,7 +116,7 @@ Este es el extremo ligero y de captura primero del espectro, y es la respuesta h
 - **Ideal para:** lectores que guardan mucho de la web y solo quieren volver a encontrarlo, sin mantenimiento. Importa tus marcadores existentes de Pocket, Raindrop y el navegador para un relleno instantáneo, así que tu biblioteca es buscable desde el día uno.
 - **Pásala si:** tu meta es escritura original larga y síntesis profunda a mano: eso es genuinamente para qué son Obsidian, Notion y Tana. Marqly está construido alrededor de material guardado, no de notas autorales.
 
-Si el camino ligero suena correcto, [cómo construir un segundo cerebro desde tus marcadores](/es/blog/como-construir-un-segundo-cerebro-2026) recorre la configuración exacta de cuatro pasos, y [los mejores gestores de marcadores con IA de 2026](/es/blog/mejores-gestores-marcadores-ia-2026) compara las herramientas de ese carril.
+Si el camino ligero suena correcto, [cómo construir un segundo cerebro desde tus marcadores](/es/blog/como-construir-un-segundo-cerebro-2026) recorre la configuración exacta de cuatro pasos, y [los mejores gestores de marcadores con IA de 2026](/es/blog/mejores-gestores-marcadores-ia-2027) compara las herramientas de ese carril.
 
 ## ¿Qué app de segundo cerebro deberías elegir de verdad?
 
@@ -140,4 +140,4 @@ Hay un plan gratuito para empezar sin tarjeta de crédito, y Pro cuesta 72 $/añ
 
 ---
 
-*Relacionado: [¿Qué es una app de segundo cerebro?](/es/blog/que-es-una-app-de-segundo-cerebro-2026) · [¿Qué es un segundo cerebro con IA?](/es/blog/que-es-un-segundo-cerebro-con-ia-2026) · [El mejor gestor de marcadores con IA de 2026](/es/blog/mejores-gestores-marcadores-ia-2026)*
+*Relacionado: [¿Qué es una app de segundo cerebro?](/es/blog/que-es-una-app-de-segundo-cerebro-2026) · [¿Qué es un segundo cerebro con IA?](/es/blog/que-es-un-segundo-cerebro-con-ia-2026) · [El mejor gestor de marcadores con IA de 2026](/es/blog/mejores-gestores-marcadores-ia-2027)*

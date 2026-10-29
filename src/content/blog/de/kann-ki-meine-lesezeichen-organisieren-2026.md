@@ -46,7 +46,7 @@ Es gibt drei bewegliche Teile, alle automatisch:
 - **Zusammenfassen** — sie erzeugt eine ein-, zwei-zeilige Zusammenfassung, damit du Wochen später auf einen Blick weißt, worum es in einem Save ging.
 - **Semantisches Gruppieren** — statt Inhalte in einen einzigen Ordner zu zwingen, versteht die KI Bedeutung; ein Save kann gleichzeitig zu mehreren Themen gehören.
 
-[Marqly](https://app.marqly.com) macht alle drei beim Erfassen: Speichere einen Artikel, ein Video oder eine Notiz, und es wird automatisch getaggt und zusammengefasst — danach ist die ganze Bibliothek nach Bedeutung durchsuchbar, und sobald das erledigt ist, kannst du [sie mit KI-Suche wiederfinden](/de/blog/was-ist-semantische-suche). (Wenn du Tools vergleichst, siehe unsere Übersicht der [besten KI-Lesezeichen-Manager 2026](/de/blog/beste-ai-lesezeichen-manager-2026).)
+[Marqly](https://app.marqly.com) macht alle drei beim Erfassen: Speichere einen Artikel, ein Video oder eine Notiz, und es wird automatisch getaggt und zusammengefasst — danach ist die ganze Bibliothek nach Bedeutung durchsuchbar, und sobald das erledigt ist, kannst du [sie mit KI-Suche wiederfinden](/de/blog/was-ist-semantische-suche). (Wenn du Tools vergleichst, siehe unsere Übersicht der [besten KI-Lesezeichen-Manager 2026](/de/blog/beste-ai-lesezeichen-manager-2027).)
 
 ## Brauche ich noch Ordner?
 

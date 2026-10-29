@@ -26,7 +26,7 @@ The competitor spreadsheet is where founder discipline goes to die — updated e
 
 The underrated weapon is save-as-PDF. Competitor pricing pages change without announcements, and the old version disappears with the evidence. Marqly captures any page as a clean PDF matching the on-screen layout — lazy-loaded images included, processed locally in your browser — so you accumulate dated snapshots of what rivals charged and claimed, quarter over quarter. When someone asks "didn't they use to have a free tier?", you have receipts.
 
-We compete in this category ourselves, for what it's worth — [our comparison of AI bookmark managers](/blog/best-ai-bookmark-manager-2026) is written the way we'd want a competitor's to be: conceding the rows others win.
+We compete in this category ourselves, for what it's worth — [our comparison of AI bookmark managers](/blog/best-ai-bookmark-manager-2027) is written the way we'd want a competitor's to be: conceding the rows others win.
 
 ## Market research that compounds instead of evaporating
 

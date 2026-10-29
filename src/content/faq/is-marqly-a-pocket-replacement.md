@@ -25,4 +25,4 @@ Pocket auto-downloaded your queue to every device; Marqly's offline reading is n
 
 ## How they compare in detail
 
-The full [Pocket vs Marqly](/compare/marqly-vs-pocket) comparison goes row by row and is candid about which rows each tool wins. If you're surveying the whole field rather than one candidate, [the best Pocket alternatives of 2026](/blog/best-pocket-alternatives-2026) covers the other options former Pocket users are choosing between.
+The full [Pocket vs Marqly](/compare/marqly-vs-pocket) comparison goes row by row and is candid about which rows each tool wins. If you're surveying the whole field rather than one candidate, [the best Pocket alternatives of 2026](/blog/best-pocket-alternatives-2027) covers the other options former Pocket users are choosing between.

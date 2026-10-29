@@ -62,7 +62,7 @@ Wenn die Erinnerung wirklich dünn ist, geben Sie der Suche mehr Material:
 - **Kombinieren Sie Fragmente.** „Der lange Essay über den Gründer, der hinwarf und auf einen Bauernhof zog“ schlägt die Suche „Bauernhof“ allein.
 - **Nutzen Sie sinnliche oder emotionale Details.** „Der gruselige Artikel über Smartphone-Sucht bei Kindern“ funktioniert, weil der Inhalt diesen Ton trägt.
 - **Sorgen Sie sich nicht ums Falschliegen.** Semantische Suche degradiert sanft — eine teilweise falsche Beschreibung reiht den richtigen Save trotzdem weit oben.
-- **Suchen Sie über Formate hinweg.** Ein gutes Tool durchsucht Notizen, gespeicherte Videos und PDFs so wie Artikel — Sie müssen sich also auch nicht merken, *wo* Sie es gespeichert haben. (Eine Shortlist [eines KI-Lesezeichen-Managers, der das kann](/de/blog/beste-ai-lesezeichen-manager-2026), steht in unserem 2026-Roundup.)
+- **Suchen Sie über Formate hinweg.** Ein gutes Tool durchsucht Notizen, gespeicherte Videos und PDFs so wie Artikel — Sie müssen sich also auch nicht merken, *wo* Sie es gespeichert haben. (Eine Shortlist [eines KI-Lesezeichen-Managers, der das kann](/de/blog/beste-ai-lesezeichen-manager-2027), steht in unserem 2026-Roundup.)
 
 ## Nach Bedeutung finden, nicht nach Gedächtnis
 

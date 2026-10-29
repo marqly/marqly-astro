@@ -32,7 +32,7 @@ La hoja de cálculo de competidores es donde muere la disciplina del fundador �
 
 El arma infravalorada es Guardar como PDF. Las páginas de precios de la competencia cambian sin anuncios, y la versión vieja desaparece con la evidencia. Marqly captura cualquier página como un PDF limpio que respeta el diseño de pantalla — con las imágenes de carga diferida incluidas, procesado localmente en tu navegador —, así que acumulas capturas fechadas de lo que los rivales cobraban y prometían, trimestre a trimestre. Cuando alguien pregunte «¿no tenían antes un plan gratis?», tienes los recibos.
 
-Nosotros competimos en esta categoría, para que conste — [nuestra comparativa de gestores de marcadores con IA](/es/blog/mejores-gestores-marcadores-ia-2026) está escrita como nos gustaría que un competidor escribiera la suya: concediendo las filas que ganan otros.
+Nosotros competimos en esta categoría, para que conste — [nuestra comparativa de gestores de marcadores con IA](/es/blog/mejores-gestores-marcadores-ia-2027) está escrita como nos gustaría que un competidor escribiera la suya: concediendo las filas que ganan otros.
 
 ## Investigación de mercado que se acumula en vez de evaporarse
 

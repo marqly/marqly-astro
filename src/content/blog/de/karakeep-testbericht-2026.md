@@ -107,7 +107,7 @@ Bezahlte Cloud-Pläne haben eine 7-tägige Geld-zurück-Garantie, und der Export
 | Seiten-Capture | Monolith-Archiv | Als PDF speichern, im Layout wie am Bildschirm |
 | Wer es pflegt | **Sie** | Marqly |
 
-Diese Entscheidung ist ehrlich gesagt simpel: die entscheidende Zeile ist die letzte. Karakeep gibt Ihnen alles, wofür Marqly Geld nimmt, gratis — plus Eigentum, das Marqly nicht bieten kann — im Tausch gegen Ihre Abendstunden und Ihre Uptime. Marqly gibt Ihnen das KI-Lesezeichen-Erlebnis — semantische Suche, Auto-Tags, Zusammenfassungen, [YouTube-Werkzeuge](/de/blog/beste-ai-lesezeichen-manager-2026) —, das in Minute eins genauso funktioniert wie in Minute eine Million, ohne dass jemand es pflegen muss. Self-Hoster brauchen uns nicht, um zu wissen, wer sie sind. Wenn Sie nur *self-hosting-neugierig* sind: Rechnen Sie durch, was eine Always-on-Maschine plus Ihre Zeit wirklich kostet — gegen [6 $/Monat](https://app.marqly.com).
+Diese Entscheidung ist ehrlich gesagt simpel: die entscheidende Zeile ist die letzte. Karakeep gibt Ihnen alles, wofür Marqly Geld nimmt, gratis — plus Eigentum, das Marqly nicht bieten kann — im Tausch gegen Ihre Abendstunden und Ihre Uptime. Marqly gibt Ihnen das KI-Lesezeichen-Erlebnis — semantische Suche, Auto-Tags, Zusammenfassungen, [YouTube-Werkzeuge](/de/blog/beste-ai-lesezeichen-manager-2027) —, das in Minute eins genauso funktioniert wie in Minute eine Million, ohne dass jemand es pflegen muss. Self-Hoster brauchen uns nicht, um zu wissen, wer sie sind. Wenn Sie nur *self-hosting-neugierig* sind: Rechnen Sie durch, was eine Always-on-Maschine plus Ihre Zeit wirklich kostet — gegen [6 $/Monat](https://app.marqly.com).
 
 ## Für wen eignet sich Karakeep?
 
@@ -115,7 +115,7 @@ Diese Entscheidung ist ehrlich gesagt simpel: die entscheidende Zeile ist die le
 - **Privacy-first-Nutzer**, die KI-Funktionen wollen, ohne irgendeine Cloud im Loop.
 - **Data-Hoarder** — Seiten-Archive, Video-Archive, OCR-gescannte Screenshots, RSS-Aufnahme. Es steckt in der DNA.
 - **Tinkerer und Entwickler**, die API, CLI und Regel-Engine tatsächlich nutzen.
-- **Ex-Pocket-Nutzer, die sich mit Docker wohlfühlen** — sehen Sie im [Ratgeber zu den besten selbstgehosteten Pocket-Alternativen](/de/blog/beste-self-hosted-pocket-alternativen-2026), wie es gegen die andere Option abschneidet, oder im breiteren [Pocket-Alternativen-Überblick](/de/blog/pocket-alternativen-2026), wenn Self-Hosting verhandelbar ist.
+- **Ex-Pocket-Nutzer, die sich mit Docker wohlfühlen** — sehen Sie im [Ratgeber zu den besten selbstgehosteten Pocket-Alternativen](/de/blog/beste-self-hosted-pocket-alternativen-2026), wie es gegen die andere Option abschneidet, oder im breiteren [Pocket-Alternativen-Überblick](/de/blog/pocket-alternativen-2027), wenn Self-Hosting verhandelbar ist.
 
 Für wen nicht: jeder, der oben „Reverse Proxy“ las und sich müde fühlte. Das ist keine Schande — Wartung ist ein realer Kostenfaktor, und jemandem 4 $/Monat zu zahlen, damit er verschwindet, ist ein rationaler Tausch.
 

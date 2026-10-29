@@ -89,7 +89,7 @@ Dos notas al pie que importan. Primera: Reader no se vende por separado — si q
 - **El precio.** 119,88 USD/año es 2-4 veces la categoría. Reader merece la pena *para su usuario objetivo* — pero ese usuario lee de forma profesional o muy cerca de ello.
 - **Sin plan gratuito.** Pasados 30 días pagas o te vas. El usuario ocasional nunca tiene oportunidad de crecer dentro de la app.
 - **Complejidad.** El paradigma de bandeja, el vocabulario de atajos, la profundidad de ajustes — Reader exige un esfuerzo de onboarding propio de las herramientas profesionales. Quien solo quiere «guardar artículo, encontrar artículo» sentirá que ha comprado la cabina de un avión.
-- **La recuperación es documento-céntrica, no memoria-céntrica.** El buscador es un texto completo sólido con filtros, y Ghostreader interroga el documento que tienes delante. Pero el problema de «guardé algo sobre X hace meses y no recuerdo cómo se llamaba» — buscar en toda la biblioteca por *significado* — no es el flujo para el que Reader fue diseñada. Esa distinción es el núcleo de nuestra [guía de gestores de marcadores con IA](/es/blog/mejores-gestores-marcadores-ia-2026).
+- **La recuperación es documento-céntrica, no memoria-céntrica.** El buscador es un texto completo sólido con filtros, y Ghostreader interroga el documento que tienes delante. Pero el problema de «guardé algo sobre X hace meses y no recuerdo cómo se llamaba» — buscar en toda la biblioteca por *significado* — no es el flujo para el que Reader fue diseñada. Esa distinción es el núcleo de nuestra [guía de gestores de marcadores con IA](/es/blog/mejores-gestores-marcadores-ia-2027).
 - **El bundle corta en las dos direcciones.** Que no exista un plan Reader independiente significa que no hay una vía barata para quien quiere la app de lectura sin el sistema de repaso.
 - **Puede convertirse en un segundo trabajo.** Una metáfora de bandeja implica presión de bandeja. Algunos usuarios cuentan que Reader convirtió su hábito de lectura relajado en una obligación de triaje — es una observación sobre el flujo, no un defecto, pero conoce tu temperamento antes de verter seis mangueras de contenido en una sola cola.
 
@@ -109,7 +109,7 @@ Dos notas al pie que importan. Primera: Reader no se vende por separado — si q
 | IA en YouTube | Transcripciones dentro de la app | **Resumen, chat y transcripción en la propia página del vídeo** |
 | Curva de aprendizaje | Empinada | Mínima |
 
-La lectura honesta: estas dos herramientas discrepan sobre cuál es el trabajo. Reader cree que el trabajo es *leer más, mejor y recordarlo* — y gana en cada fila que sirve a eso. Marqly cree que el trabajo es *encontrar lo que guardaste cuando lo necesitas* — y gana en recuperación, sencillez y precio. Mucha gente necesita de verdad la profundidad de Reader; tienes una comparación completa en nuestro análisis de [Readwise Reader vs Marqly](/es/comparar/marqly-vs-readwise), y el [Benchmark de Recuperación de Marcadores con IA 2026](/blog/ai-bookmark-retrieval-benchmark-2026) te da el protocolo para probar la recuperación en lenguaje natural sobre tu propia biblioteca. Si no tienes claro en qué bando estás, el orden barato de experimentos es el [plan gratuito](https://app.marqly.com) de Marqly primero, y la prueba de 30 días de Reader después.
+La lectura honesta: estas dos herramientas discrepan sobre cuál es el trabajo. Reader cree que el trabajo es *leer más, mejor y recordarlo* — y gana en cada fila que sirve a eso. Marqly cree que el trabajo es *encontrar lo que guardaste cuando lo necesitas* — y gana en recuperación, sencillez y precio. Mucha gente necesita de verdad la profundidad de Reader; tienes una comparación completa en nuestro análisis de [Readwise Reader vs Marqly](/es/comparar/marqly-vs-readwise), y el [Benchmark de Recuperación de Marcadores con IA 2026](/blog/ai-bookmark-retrieval-benchmark-2027) te da el protocolo para probar la recuperación en lenguaje natural sobre tu propia biblioteca. Si no tienes claro en qué bando estás, el orden barato de experimentos es el [plan gratuito](https://app.marqly.com) de Marqly primero, y la prueba de 30 días de Reader después.
 
 ## ¿Para quién es Reader?
 
@@ -120,7 +120,7 @@ La lectura honesta: estas dos herramientas discrepan sobre cuál es el trabajo. 
 - **Suscriptores actuales de Readwise** — Reader ya es tuyo; úsalo.
 - **Usuarios de Obsidian, Notion y Roam** que quieren ver sus subrayados en la bóveda sin mover un dedo — el solo pipeline de exportación puede justificar la suscripción para quienes toman notas en serio.
 
-Quién no debería: guardianes ocasionales, usuarios de presupuesto primero y ex usuarios de Pocket que solo quieren un archivo sencillo donde encontrar cosas — para ese perfil, nuestra [guía de alternativas a Pocket](/es/blog/alternativas-a-pocket-2026) cubre aterrizajes más suaves.
+Quién no debería: guardianes ocasionales, usuarios de presupuesto primero y ex usuarios de Pocket que solo quieren un archivo sencillo donde encontrar cosas — para ese perfil, nuestra [guía de alternativas a Pocket](/es/blog/alternativas-a-pocket-2027) cubre aterrizajes más suaves.
 
 ## Veredicto
 

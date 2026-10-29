@@ -119,7 +119,7 @@ Per questo i PDF sono la scelta giusta per:
 - **Termini, informative e pagine dei prezzi** che potresti dover citare dopo
 - **Tutto ciò che ti aspetti venga modificato o rimosso**
 
-Per tutto il resto — articoli, riferimenti, ricerca — il preferito è meglio, perché resta ricercabile e aggiornato. Meglio ancora, salvalo nei preferiti e [evidenzia le parti che contano davvero](/it/blog/come-evidenziare-testo-su-qualsiasi-sito-2026), così conservi l'insight senza accumulazione di file. Se la tua pila di salvataggi è fatta soprattutto di letture lunghe, una vera [app salva-e-leggi-dopo](/it/blog/migliori-app-salva-e-leggi-dopo-2026) batte una cartella di PDF di un miglio.
+Per tutto il resto — articoli, riferimenti, ricerca — il preferito è meglio, perché resta ricercabile e aggiornato. Meglio ancora, salvalo nei preferiti e [evidenzia le parti che contano davvero](/it/blog/come-evidenziare-testo-su-qualsiasi-sito-2026), così conservi l'insight senza accumulazione di file. Se la tua pila di salvataggi è fatta soprattutto di letture lunghe, una vera [app salva-e-leggi-dopo](/it/blog/migliori-app-salva-e-leggi-dopo-2027) batte una cartella di PDF di un miglio.
 
 Il flusso di lavoro che tiene alla lunga: preferiti come default, PDF per ciò che è insostituibile, e entrambi tenuti in un unico posto ricercabile — è il nucleo noioso e affidabile di [come organizzare i preferiti](/it/blog/organizzare-preferiti-browser) perché siano ritrovabili, e il primo passo onesto verso [costruire un secondo cervello](/it/blog/come-creare-un-secondo-cervello-2026) invece di un cassetto della spazzatura.
 
@@ -131,4 +131,4 @@ Ctrl+P ci sarà sempre, e per un articolo semplice è tutto ciò che serve. Ma i
 
 ---
 
-*Correlato: [Come organizzare i preferiti per ritrovarli davvero](/it/blog/organizzare-preferiti-browser) · [Le migliori app salva-e-leggi-dopo del 2026](/it/blog/migliori-app-salva-e-leggi-dopo-2026)*
+*Correlato: [Come organizzare i preferiti per ritrovarli davvero](/it/blog/organizzare-preferiti-browser) · [Le migliori app salva-e-leggi-dopo del 2026](/it/blog/migliori-app-salva-e-leggi-dopo-2027)*

@@ -54,7 +54,7 @@ Ein Literaturüberblick wird am Ende aus Passagen geschrieben, nicht aus Papers.
 
 Semantische Suche findet Saves nach Bedeutung — über Titel, Seiteninhalt, Highlights und Transkripte hinweg; den technischen Hintergrund liefert [Was ist semantische Suche](/de/blog/was-ist-semantische-suche). Für Doktorandinnen ist das der Unterschied zwischen „Suche funktioniert" und „Suche nicht": Ihre Queries beim Schreiben sind fast nie Titel. Es sind Sätze wie „die Studie, bei der der Effekt nach Kontrolle des Geburtsjahrgangs verschwand" — und genau diese Query zieht hier. [Wie Sie gespeicherte Artikel wiederfinden, wenn Sie den Titel vergessen haben](/de/blog/gespeicherten-artikel-finden-wenn-titel-vergessen-2026) hat konkrete Beispiele, die Sie übernehmen können.
 
-KI-Zusammenfassungen verdienen sich ihren Platz im Screening: Wenn die Betreuerin elf „solltest du vielleicht lesen"-Links weiterleitet, erlaubt Ihnen die Zusammenfassung, den Stapel in Minuten zu sichten und die tiefe Lektüre den tatsächlich relevanten Texten vorzubehalten. Unabhängige Vergleiche der Kategorie wie [die besten KI-Lesezeichen-Manager 2026](/de/blog/beste-ai-lesezeichen-manager-2026) zeigen, wie Marqlys Ansatz gegen Alternativen abschneidet.
+KI-Zusammenfassungen verdienen sich ihren Platz im Screening: Wenn die Betreuerin elf „solltest du vielleicht lesen"-Links weiterleitet, erlaubt Ihnen die Zusammenfassung, den Stapel in Minuten zu sichten und die tiefe Lektüre den tatsächlich relevanten Texten vorzubehalten. Unabhängige Vergleiche der Kategorie wie [die besten KI-Lesezeichen-Manager 2026](/de/blog/beste-ai-lesezeichen-manager-2027) zeigen, wie Marqlys Ansatz gegen Alternativen abschneidet.
 
 ## So starten Sie
 

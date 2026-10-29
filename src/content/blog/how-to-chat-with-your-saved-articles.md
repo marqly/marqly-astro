@@ -35,7 +35,7 @@ One thing worth setting expectations on: this is a question-and-answer tool, not
 
 ## Can I chat with my saved articles?
 
-Yes — if your bookmark manager has AI Q&A over your library. This is a feature of [an AI bookmark manager](/blog/best-ai-bookmark-manager-2026) rather than a traditional one: instead of returning a list of saves for you to open and read, it answers your question directly, using the content of the saves that are relevant.
+Yes — if your bookmark manager has AI Q&A over your library. This is a feature of [an AI bookmark manager](/blog/best-ai-bookmark-manager-2027) rather than a traditional one: instead of returning a list of saves for you to open and read, it answers your question directly, using the content of the saves that are relevant.
 
 So you ask a real question — "what were the main arguments against open-plan offices?" — and get a synthesized answer pulled from the articles you saved on the topic, with sources attached.
 

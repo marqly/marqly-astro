@@ -93,6 +93,6 @@ E se as suas abas viraram um monte de conversa com IA aberta, a captura de conve
 
 Sério: olhe para a sua janela neste momento. Salve tudo, feche e siga o dia. Amanhã, procure uma daquelas páginas descrevendo o assunto. Quando ela aparecer, fechar aba deixa de ser uma decisão difícil.
 
-Está migrando de outra ferramenta? O Marqly importa do Pocket, do Raindrop e de arquivos HTML de favoritos — veja as [alternativas ao Pocket em 2026](/pt/blog/alternativas-ao-pocket-2026), a comparação [Marqly vs Raindrop](/pt/comparar/marqly-vs-raindrop) e a visão geral em [Marqly em português](/pt).
+Está migrando de outra ferramenta? O Marqly importa do Pocket, do Raindrop e de arquivos HTML de favoritos — veja as [alternativas ao Pocket em 2026](/pt/blog/alternativas-ao-pocket-2027), a comparação [Marqly vs Raindrop](/pt/comparar/marqly-vs-raindrop) e a visão geral em [Marqly em português](/pt).
 
 [Criar conta grátis no Marqly](https://app.marqly.com) — plano grátis, sem cartão.

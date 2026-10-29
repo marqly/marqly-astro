@@ -94,7 +94,7 @@ La lecture hors ligne existe, mais seulement avec Pro et par appareil (pages mar
 
 - Trier ce que vous mettez de côté sans jamais l'ouvrir&nbsp;: [lire plus tard](/fr/lire-plus-tard).
 - Suivre un sujet sur toute l'année&nbsp;: [veille informationnelle](/fr/veille-informationnelle).
-- Vous veniez de Pocket&nbsp;? Les [alternatives à Pocket en 2026](/fr/blog/alternatives-a-pocket-2026).
+- Vous veniez de Pocket&nbsp;? Les [alternatives à Pocket en 2026](/fr/blog/alternatives-a-pocket-2027).
 - Vous comparez avec un autre outil&nbsp;? Le [comparatif Marqly vs Raindrop](/fr/comparer/marqly-vs-raindrop).
 
 ## Essayez sur votre prochain devoir

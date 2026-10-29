@@ -76,10 +76,10 @@ The free guest plan allows up to 100 cards with no time limit. The Student of Li
 ## Schwächen
 
 - **Limited free library.** The guest plan supports up to 100 cards with no time limit; larger libraries and AI features require a paid plan.
-- **Retrieval leans on tags and visual memory, not meaning.** mymind's search is good at visual recall and weaker at finding long-form text by concept. Our roundup of [AI bookmark managers](/de/blog/beste-ai-lesezeichen-manager-2026) covers why the semantic query layer is critical.
+- **Retrieval leans on tags and visual memory, not meaning.** mymind's search is good at visual recall and weaker at finding long-form text by concept. Our roundup of [AI bookmark managers](/de/blog/beste-ai-lesezeichen-manager-2027) covers why the semantic query layer is critical.
 - **Deliberately no collaboration or sharing.** You can't share a collection with a colleague or publish a board.
 - **The best AI costs $129/year.** Summaries and article backup are gated behind the highest tier.
-- **Import and export are thin.** Moving years of bookmarks into mymind is clumsy compared to tools built for [migrating existing saves](/de/blog/pocket-alternativen-2026).
+- **Import and export are thin.** Moving years of bookmarks into mymind is clumsy compared to tools built for [migrating existing saves](/de/blog/pocket-alternativen-2027).
 
 ## mymind im Vergleich zu Marqly
 

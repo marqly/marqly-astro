@@ -28,6 +28,6 @@ Paying annually saves you roughly 33% compared to twelve monthly payments (and w
 
 ## How it compares
 
-At $72/year, Marqly sits in the same range as most paid bookmark managers and read-it-later apps, but the subscription covers AI features — automatic tagging, summaries, and semantic search — that run on every save. The [Marqly review for 2026](/blog/marqly-review-2026) walks through whether the price is justified for different kinds of users.
+At $72/year, Marqly sits in the same range as most paid bookmark managers and read-it-later apps, but the subscription covers AI features — automatic tagging, summaries, and semantic search — that run on every save. The [Marqly review for 2026](/blog/marqly-review-2027) walks through whether the price is justified for different kinds of users.
 
 Current pricing is always listed on the [pricing page](/pricing) — if anything here ever conflicts with that page, the pricing page wins.

@@ -70,7 +70,7 @@ El flujo genérico es casi idéntico en todas las herramientas:
 3. **Deja que procese el montón.** Esta es la parte que a mano te habría costado días: la IA lee cada página guardada y le pega etiquetas automáticamente —en Marqly, el etiquetado automático de lo importado es una función de Pro—. Dale unos minutos si la colección es grande y vuelve.
 4. **Prueba la recuperación antes de confiar.** Elige tres enlaces que recuerdes haber guardado y búscalos *describiendo* de qué iban, no por su título. Si aparecen, la importación funcionó y puedes apoyarte en ella.
 
-Si hoy tus enlaces viven en una app de leer-después además de (o en lugar de) Chrome, revisa nuestro [Centro de migración](/migrate) con guías paso a paso para [Pocket](/migrate/pocket), [Raindrop](/migrate/raindrop), [mymind](/migrate/mymind) e [Instapaper](/migrate/instapaper). Antes de importar, puedes inspeccionar o limpiar tu HTML con el [visor de archivos de marcadores](/tools/bookmark-file-viewer) y el [buscador de marcadores duplicados](/tools/duplicate-bookmark-finder), ambos de nuestro [directorio de herramientas gratuitas](/tools). ¿Migración desde Pocket en concreto? Sigue [cómo exportar y migrar tus datos de Pocket](/es/blog/como-exportar-migrar-datos-pocket-2026), y si estás eligiendo destino, las [mejores alternativas a Pocket de 2026](/es/blog/alternativas-a-pocket-2026) cubren las opciones.
+Si hoy tus enlaces viven en una app de leer-después además de (o en lugar de) Chrome, revisa nuestro [Centro de migración](/migrate) con guías paso a paso para [Pocket](/migrate/pocket), [Raindrop](/migrate/raindrop), [mymind](/migrate/mymind) e [Instapaper](/migrate/instapaper). Antes de importar, puedes inspeccionar o limpiar tu HTML con el [visor de archivos de marcadores](/tools/bookmark-file-viewer) y el [buscador de marcadores duplicados](/tools/duplicate-bookmark-finder), ambos de nuestro [directorio de herramientas gratuitas](/tools). ¿Migración desde Pocket en concreto? Sigue [cómo exportar y migrar tus datos de Pocket](/es/blog/como-exportar-migrar-datos-pocket-2026), y si estás eligiendo destino, las [mejores alternativas a Pocket de 2026](/es/blog/alternativas-a-pocket-2027) cubren las opciones.
 
 ## ¿Qué pasa realmente al importar?
 
@@ -110,7 +110,7 @@ Cada sistema cambia esfuerzo por localizabilidad. Los marcadores de Chrome exige
 | Escala más allá de cientos de guardados | ❌ Se convierte en un montón | ✅ Sigue buscable |
 | Encuentra un guardado describiéndolo | ❌ Necesitas el título exacto | ✅ Descríbelo en lenguaje natural |
 
-Léelo de arriba abajo y la tendencia es clara: cada fila mejora en cuanto una herramienta hace la organización y la búsqueda por ti. La importación es lo que cruza tus enlaces actuales esa línea, y si antes quieres comparar las herramientas que lo hacen bien, nuestra selección del [mejor gestor de marcadores con IA de 2026](/es/blog/mejores-gestores-marcadores-ia-2026) expone las contendientes reales.
+Léelo de arriba abajo y la tendencia es clara: cada fila mejora en cuanto una herramienta hace la organización y la búsqueda por ti. La importación es lo que cruza tus enlaces actuales esa línea, y si antes quieres comparar las herramientas que lo hacen bien, nuestra selección del [mejor gestor de marcadores con IA de 2026](/es/blog/mejores-gestores-marcadores-ia-2027) expone las contendientes reales.
 
 ## Lleva tus marcadores de Chrome a Marqly
 
@@ -120,4 +120,4 @@ Exporta tus marcadores desde Chrome, sube el HTML y busca en tu montón entero e
 
 ---
 
-*Relacionado: [Directorio de comparativas lado a lado](/compare) · [Mejor gestor de marcadores con IA 2026](/es/blog/mejores-gestores-marcadores-ia-2026) · [Centro de migración](/migrate) · [Herramientas gratuitas de marcadores](/tools)*
+*Relacionado: [Directorio de comparativas lado a lado](/compare) · [Mejor gestor de marcadores con IA 2026](/es/blog/mejores-gestores-marcadores-ia-2027) · [Centro de migración](/migrate) · [Herramientas gratuitas de marcadores](/tools)*

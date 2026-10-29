@@ -124,7 +124,7 @@ Was Marqly stattdessen löst, ist das *andere* Tab-Problem — die 30 Tabs, die 
 - Kein Session-Snapshot/Restore wie Session Buddy
 - Die KI-Funktionen sind der Punkt; wer nur eine flache Liste will, fährt mit OneTab schlichter
 
-Wenn dein Tab-Haufen in Wahrheit eine Leseliste in Verkleidung ist, das ist das Terrain unseres [Pocket-Alternativen-Vergleichs](/de/blog/pocket-alternativen-2026) — und der Grund, warum ein [Lesezeichen-Manager mit echter KI-Suche](/de/blog/beste-ai-lesezeichen-manager-2026) eine weitere Liste schlägt.
+Wenn dein Tab-Haufen in Wahrheit eine Leseliste in Verkleidung ist, das ist das Terrain unseres [Pocket-Alternativen-Vergleichs](/de/blog/pocket-alternativen-2027) — und der Grund, warum ein [Lesezeichen-Manager mit echter KI-Suche](/de/blog/beste-ai-lesezeichen-manager-2027) eine weitere Liste schlägt.
 
 ## Kann man kombinieren?
 

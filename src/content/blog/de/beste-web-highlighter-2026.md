@@ -62,7 +62,7 @@ Marqlys Highlighter macht das Fundament richtig: Text auf irgendeiner Webseite a
 - Kein Spaced-Repetition-Review-System wie bei Readwise
 - Jüngeres Tool; kleinere Community als die Etablierten
 
-Wenn dein Ärger lautet „ich markiere Sachen und sehe sie nie wieder“, ist das das Werkzeug, das um genau dieses Problem gebaut ist — dieselbe Abruf-zuerst-Denkweise wie in unserem [KI-Lesezeichen-Manager-Vergleich](/de/blog/beste-ai-lesezeichen-manager-2026).
+Wenn dein Ärger lautet „ich markiere Sachen und sehe sie nie wieder“, ist das das Werkzeug, das um genau dieses Problem gebaut ist — dieselbe Abruf-zuerst-Denkweise wie in unserem [KI-Lesezeichen-Manager-Vergleich](/de/blog/beste-ai-lesezeichen-manager-2027).
 
 ## Readwise Reader — bester für Export und Spaced Repetition
 

@@ -66,7 +66,7 @@ Details dazu: [YouTube-Zusammenfassung](/de/tools/youtube-zusammenfassung) und [
 - **Seite als PDF sichern.** In Chrome und Edge lokal verarbeitet. Hilft, wenn eine Quelle nach dem Semester nicht mehr online ist.
 - **KI-Chats erfassen.** Unterhaltungen mit ChatGPT, Claude oder Gemini lassen sich in Chrome, Edge und Firefox speichern – die gute Erklärung landet im Archiv statt im Chatverlauf.
 - **Neuer-Tab-Seite mit Widgets.** In Chrome, Edge und Firefox startest du nicht mehr auf einer leeren Seite.
-- **Import.** Aus Pocket, aus Raindrop und aus jeder Lesezeichen-HTML-Datei; auch X/Twitter-Lesezeichen lassen sich sichern. Wer gerade Pocket ersetzt: [Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2026).
+- **Import.** Aus Pocket, aus Raindrop und aus jeder Lesezeichen-HTML-Datei; auch X/Twitter-Lesezeichen lassen sich sichern. Wer gerade Pocket ersetzt: [Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2027).
 
 ## Preis für Studierende
 

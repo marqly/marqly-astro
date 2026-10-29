@@ -55,4 +55,4 @@ Marqly 保留了 Chrome 做对的部分——保存必须瞬间完成——然�
 
 ## 适合谁，不适合谁
 
-一句诚实的适配说明：如果你的书签只有二三十条、文件夹树用得心顺手，Chrome 原生方案零成本，请继续用它。Marqly 成立的时点，是存量已经大到手无法归档、标题搜索开始背叛你的时候——对多数 Chrome 老用户，那一刻早已过去。而且它会跟着你走：账号[跨设备、跨浏览器同步](/faq/can-i-sync-across-devices)，在 Chrome 里的收藏正在 Edge、Firefox、Safari、网页版和 iOS / Android App 里等你。想看 Marqly 在整个赛道中的位置，我们的[2026 最佳 AI 书签管理器横评](/zh/blog/best-ai-bookmark-manager-2026)对各家的胜场毫不讳言。用免费方案开始，把它摆在 Chrome 星标旁边跑一周——通常侧边栏会替你做出决定。
+一句诚实的适配说明：如果你的书签只有二三十条、文件夹树用得心顺手，Chrome 原生方案零成本，请继续用它。Marqly 成立的时点，是存量已经大到手无法归档、标题搜索开始背叛你的时候——对多数 Chrome 老用户，那一刻早已过去。而且它会跟着你走：账号[跨设备、跨浏览器同步](/faq/can-i-sync-across-devices)，在 Chrome 里的收藏正在 Edge、Firefox、Safari、网页版和 iOS / Android App 里等你。想看 Marqly 在整个赛道中的位置，我们的[2026 最佳 AI 书签管理器横评](/zh/blog/best-ai-bookmark-manager-2027)对各家的胜场毫不讳言。用免费方案开始，把它摆在 Chrome 星标旁边跑一周——通常侧边栏会替你做出决定。

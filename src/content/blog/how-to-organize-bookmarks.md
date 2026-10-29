@@ -92,11 +92,11 @@ There are two halves to this, and they reinforce each other.
 
 Here's the mental model: instead of *filing* things so you can find them later, you *save* things and *describe* them later. You type "that article about sleep and focus" and semantic search surfaces it — no folder, no exact title needed.
 
-This inverts the whole problem. The reason bookmarks become a mess is that organizing is work and search is weak. Remove both — auto-organize + search-by-meaning — and the mess can't form. You're free to be a sloppy saver, because sloppiness no longer has a cost. That's the real promise of *organize less, search more*: it's not that organization stops mattering, it's that the machine does it so well you never have to think about it. If you want the full landscape of tools that do this, our roundup of the [best AI bookmark manager for 2026](/blog/best-ai-bookmark-manager-2026) compares the real contenders.
+This inverts the whole problem. The reason bookmarks become a mess is that organizing is work and search is weak. Remove both — auto-organize + search-by-meaning — and the mess can't form. You're free to be a sloppy saver, because sloppiness no longer has a cost. That's the real promise of *organize less, search more*: it's not that organization stops mattering, it's that the machine does it so well you never have to think about it. If you want the full landscape of tools that do this, our roundup of the [best AI bookmark manager for 2026](/blog/best-ai-bookmark-manager-2027) compares the real contenders.
 
 ### How to set it up
 
-1. **Pick a tool with AI auto-tagging + semantic search** — see our shortlist of [the best AI bookmark managers](/blog/best-ai-bookmark-manager-2026). (Test it: save 3 links, wait a day, search by paraphrasing one without its title. If it's found, the AI is real.)
+1. **Pick a tool with AI auto-tagging + semantic search** — see our shortlist of [the best AI bookmark managers](/blog/best-ai-bookmark-manager-2027). (Test it: save 3 links, wait a day, search by paraphrasing one without its title. If it's found, the AI is real.)
 2. **Import your existing bookmarks** — browser export, Pocket export, etc. Instant backfill.
 3. **Save with one click as you browse.** Don't sort.
 4. **Find by describing.** When you need something, describe it in plain language.

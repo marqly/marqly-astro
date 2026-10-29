@@ -40,7 +40,7 @@ Oficjalna pomoc YouTube o [napisach i transkrypcjach](https://support.google.com
 
 Bo wideo chowa swoją wartość za paskiem przewijania. 40-minutowy podcast może mieć osiem minut, które obchodzą cię realnie. 25-minutowy poradnik może grzebać właściwe rozwiązanie pod 19:40. Miniaturka i tytuł to marketing; mówią, w co twórca chce, żebyś kliknął, nie co film dowozi.
 
-Tekst nie ma tego problemu. Wstęp i nagłówki artykułu przejrzysz w piętnaście sekund i wiesz, czy się angażować — dlatego [aplikacje do czytania na później](/pl/blog/najlepsze-aplikacje-do-czytania-na-pozniej-2026) tak dobrze działają z treścią pisaną. Wideo nie daje nic do skanowania. Rozdziały pomagają, gdy twórca raczył je dodać; większość nie dodaje.
+Tekst nie ma tego problemu. Wstęp i nagłówki artykułu przejrzysz w piętnaście sekund i wiesz, czy się angażować — dlatego [aplikacje do czytania na później](/pl/blog/najlepsze-aplikacje-do-czytania-na-pozniej-2027) tak dobrze działają z treścią pisaną. Wideo nie daje nic do skanowania. Rozdziały pomagają, gdy twórca raczył je dodać; większość nie dodaje.
 
 Streszczenie AI przywraca krok triażu. Trzydzieści sekund czytania mówi, czy obejrzeć całość, przeskoczyć do jednej sekcji, czy zamknąć kartę. Pomnóż to przez zaległości z „obejrzyj później”, a odzyskujesz godziny tygodniowo — przestajesz płacić 40 minut, żeby odkryć, że film nie był wart 40 minut.
 

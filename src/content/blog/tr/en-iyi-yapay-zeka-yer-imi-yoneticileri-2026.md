@@ -19,7 +19,7 @@ faqs:
     a: "Gerçek bir yapay zeka aracı üç katmanda çalışır: manuel klasörlemeyi bitiren 'otomatik etiketleme', hızlı göz gezdirme sağlayan 'anında özetler' ve sayfayı aklınızda kalan detaylarla bulduran 'anlamsal arama'."
   - q: "Yer imlerinde anlamsal arama nedir?"
     a: "Başlıktaki tam kelimelere bağlı kalmadan içeriğin anlamı üzerinden arama yapabilmektir. 'Uzaktan çalışan ekiplerde güven konusu hakkındaki makale' yazdığınızda, başlıkta bu kelimeler geçmese bile doğru sayfayı anında bulur."
-heroImage: ../../../assets/blog/best-ai-bookmark-manager-2026.png
+heroImage: ../../../assets/blog/best-ai-bookmark-manager-2027.png
 heroAlt: "2026'nın En İyi Yapay Zeka Yer İmi Yöneticileri — illüstrasyon"
 ogImage: "https://www.marqly.com/og/best-ai-bookmark-manager-2026.png"
 ---

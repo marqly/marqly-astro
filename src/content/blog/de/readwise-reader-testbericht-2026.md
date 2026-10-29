@@ -88,7 +88,7 @@ Zwei Fußnoten, die zählen. Erstens: Reader wird nicht einzeln verkauft — wer
 - **Der Preis.** 119,88 $/Jahr ist das Zwei- bis Vierfache der Kategorie. Reader lohnt sich **für seine Zielgruppe** — aber die liest beruflich oder sehr nah daran.
 - **Kein Gratis-Plan.** Nach 30 Tagen zahlen oder gehen. Gelegenheitsnutzer kommen nie in die Verlegenheit, hineinzuwachsen.
 - **Komplexität.** Das Inbox-Paradigma, der Shortcut-Wortschatz, die Einstellungen-Tiefe — Reader verlangt Onboarding-Aufwand wie ein Profi-Werkzeug. Wer nur „Artikel speichern, Artikel wiederfinden“ will, fühlt sich, als hätte er ein Cockpit gekauft.
-- **Retrieval ist dokument-zuerst, nicht erinnerungs-zuerst.** Die Suche ist solider Volltext mit Filtern, und Ghostreader befragt das offene Dokument. Aber das Problem „ich habe vor Monaten etwas über X gespeichert und erinnere nicht den Titel“ — die **gesamte Bibliothek nach Bedeutung** durchsuchen — ist nicht der Workflow, um den Reader gebaut ist. Diese Unterscheidung ist der Kern unseres [KI-Lesezeichen-Manager-Ratgebers](/de/blog/beste-ai-lesezeichen-manager-2026).
+- **Retrieval ist dokument-zuerst, nicht erinnerungs-zuerst.** Die Suche ist solider Volltext mit Filtern, und Ghostreader befragt das offene Dokument. Aber das Problem „ich habe vor Monaten etwas über X gespeichert und erinnere nicht den Titel“ — die **gesamte Bibliothek nach Bedeutung** durchsuchen — ist nicht der Workflow, um den Reader gebaut ist. Diese Unterscheidung ist der Kern unseres [KI-Lesezeichen-Manager-Ratgebers](/de/blog/beste-ai-lesezeichen-manager-2027).
 - **Das Bundling hat zwei Seiten.** Kein eigenständiger Reader-Plan heißt: kein günstiger Weg für alle, die die Lese-App ohne das Review-System wollen.
 - **Es kann ein zweiter Job werden.** Eine Inbox-Metapher bedeutet Inbox-Druck. Manche Nutzer berichten, dass Reader ein entspanntes Lese-Hobby in eine Triage-Bringschuld verwandelt hat — eher eine Workflow-Beobachtung als ein Defekt, aber kennen Sie Ihr Temperament, bevor Sie sechs Content-Feuerschläuche in eine Warteschlange gießen.
 
@@ -108,7 +108,7 @@ Zwei Fußnoten, die zählen. Erstens: Reader wird nicht einzeln verkauft — wer
 | KI bei YouTube | Transkripte in der App | **Zusammenfassung, Chat, Transkript direkt auf der Wiedergabeseite** |
 | Lernkurve | Steil | Minimal |
 
-Die ehrliche Lesart: Diese Werkzeuge sind sich nicht einig, worin die Aufgabe besteht. Reader glaubt, die Aufgabe sei **mehr, besser lesen und es behalten** — und gewinnt jede Zeile, die dem dient. Marqly glaubt, die Aufgabe sei **finden, was Sie gespeichert haben, wenn Sie es brauchen** — und gewinnt Retrieval, Einfachheit und Preis. Viele Menschen brauchen Readers Tiefe wirklich; den vollständigen Vergleich zeigt unser Beitrag [Readwise Reader vs Marqly](/compare/marqly-vs-readwise-reader), und der [Bookmark-Retrieval-Benchmark 2026](/blog/ai-bookmark-retrieval-benchmark-2026) liefert das Protokoll, um die Suche in natürlicher Sprache an Ihrer eigenen Bibliothek zu testen. Wenn Sie nicht wissen, in welchem Lager Sie sind: Die billige Experimentier-Reihenfolge ist erst Marqlys [Gratis-Plan](https://app.marqly.com), dann Readers 30-Tage-Test.
+Die ehrliche Lesart: Diese Werkzeuge sind sich nicht einig, worin die Aufgabe besteht. Reader glaubt, die Aufgabe sei **mehr, besser lesen und es behalten** — und gewinnt jede Zeile, die dem dient. Marqly glaubt, die Aufgabe sei **finden, was Sie gespeichert haben, wenn Sie es brauchen** — und gewinnt Retrieval, Einfachheit und Preis. Viele Menschen brauchen Readers Tiefe wirklich; den vollständigen Vergleich zeigt unser Beitrag [Readwise Reader vs Marqly](/compare/marqly-vs-readwise-reader), und der [Bookmark-Retrieval-Benchmark 2026](/blog/ai-bookmark-retrieval-benchmark-2027) liefert das Protokoll, um die Suche in natürlicher Sprache an Ihrer eigenen Bibliothek zu testen. Wenn Sie nicht wissen, in welchem Lager Sie sind: Die billige Experimentier-Reihenfolge ist erst Marqlys [Gratis-Plan](https://app.marqly.com), dann Readers 30-Tage-Test.
 
 ## Für wen eignet sich Reader?
 
@@ -119,7 +119,7 @@ Die ehrliche Lesart: Diese Werkzeuge sind sich nicht einig, worin die Aufgabe be
 - **Bestehende Readwise-Abonnenten** — Reader gehört Ihnen bereits; nutzen Sie es.
 - **Obsidian-, Notion- und Roam-Nutzer**, deren Highlights ohne Handgriff im Vault landen soll — allein die Export-Pipeline kann das Abo für ernsthafte Notizmenschen rechtfertigen.
 
-Für wen nicht: Gelegenheits-Speicherer, Budget-first-Nutzer und Ex-Pocket-Nutzer, die einfach ein simples, auffindbares Archiv wollen — für diese Gruppe zeigt unser [Pocket-Alternativen-Ratgeber](/de/blog/pocket-alternativen-2026) sanftere Landestellen.
+Für wen nicht: Gelegenheits-Speicherer, Budget-first-Nutzer und Ex-Pocket-Nutzer, die einfach ein simples, auffindbares Archiv wollen — für diese Gruppe zeigt unser [Pocket-Alternativen-Ratgeber](/de/blog/pocket-alternativen-2027) sanftere Landestellen.
 
 ## Fazit
 

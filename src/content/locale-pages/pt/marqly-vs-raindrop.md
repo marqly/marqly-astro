@@ -95,6 +95,6 @@ Duas coisas para deixar claras: o Marqly é mais caro e não tem API pública. S
 
 O Raindrop exporta em HTML e CSV mesmo no plano grátis, e o Marqly tem importação dedicada do Raindrop, além do Pocket e de arquivos HTML de favoritos do navegador. Dá para testar sem drama: importe, use uma semana e veja se a busca por descrição muda a sua rotina. Se não mudar, você não perdeu nada.
 
-Para ver o produto inteiro, comece por [Marqly em português](/pt). Rotinas específicas estão em [salvar para ler depois](/pt/salvar-para-ler-depois), [salvar abas](/pt/salvar-abas) e [marca-texto para sites](/pt/marca-texto-para-sites); quem estuda deve olhar [Marqly para estudantes](/pt/para-estudantes) e [Marqly para concurseiros](/pt/para-concurseiros). Se você está vindo do Pocket, o caminho está nas [alternativas ao Pocket em 2026](/pt/blog/alternativas-ao-pocket-2026), e há mais textos no [blog](/pt/blog).
+Para ver o produto inteiro, comece por [Marqly em português](/pt). Rotinas específicas estão em [salvar para ler depois](/pt/salvar-para-ler-depois), [salvar abas](/pt/salvar-abas) e [marca-texto para sites](/pt/marca-texto-para-sites); quem estuda deve olhar [Marqly para estudantes](/pt/para-estudantes) e [Marqly para concurseiros](/pt/para-concurseiros). Se você está vindo do Pocket, o caminho está nas [alternativas ao Pocket em 2026](/pt/blog/alternativas-ao-pocket-2027), e há mais textos no [blog](/pt/blog).
 
 [Comece grátis com o Marqly](https://app.marqly.com) — sem cartão de crédito.

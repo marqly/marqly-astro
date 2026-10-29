@@ -54,7 +54,7 @@ Una revisión de literatura se escribe, al final, desde pasajes, no desde papers
 
 La búsqueda semántica encuentra guardados por significado en títulos, contenido, resaltados y transcripciones: el trasfondo técnico está en [qué es la búsqueda semántica](/faq/what-is-semantic-search). Para un doctorando esto es la diferencia entre «la búsqueda funciona» y «la búsqueda no funciona»: tus consultas en la etapa de tesis casi nunca son títulos. Son cosas como «el estudio donde el efecto desaparecía tras controlar por cohorte», y esa consulta aquí funciona. [Cómo buscar marcadores con IA](/blog/how-to-search-bookmarks-with-ai) tiene ejemplos concretos que vale la pena robar.
 
-Los resúmenes con IA ganan su sueldo durante el cribado: cuando tu director te reenvía once enlaces de «probablemente deberías leer esto», los resúmenes te dejan triar en minutos y reservar la lectura profunda para lo que de verdad es relevante. Comparaciones independientes de la categoría, como [los mejores gestores de marcadores con IA de 2026](/es/blog/mejores-gestores-marcadores-ia-2026), cubren cómo se mide el enfoque de Marqly frente a las alternativas.
+Los resúmenes con IA ganan su sueldo durante el cribado: cuando tu director te reenvía once enlaces de «probablemente deberías leer esto», los resúmenes te dejan triar en minutos y reservar la lectura profunda para lo que de verdad es relevante. Comparaciones independientes de la categoría, como [los mejores gestores de marcadores con IA de 2026](/es/blog/mejores-gestores-marcadores-ia-2027), cubren cómo se mide el enfoque de Marqly frente a las alternativas.
 
 ## Cómo empezar
 

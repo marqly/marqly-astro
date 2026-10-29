@@ -40,7 +40,7 @@ La guida di YouTube su [sottotitoli e trascrizioni](https://support.google.com/y
 
 Perché il video nasconde il suo valore dietro una barra di avanzamento. Un podcast da 40 minuti può avere otto minuti che ti interessano. Un tutorial da 25 minuti può seppellire la soluzione vera a 19:40. Miniatura e titolo sono marketing: ti dicono cosa il creator vuole che clicchi, non cosa il video consegna.
 
-Il testo non ha questo problema. Puoi scansionare introduzione e titoli di un articolo in quindici secondi e sapere se impegnarti — è per questo che le [app salva-e-leggi-dopo](/it/blog/migliori-app-salva-e-leggi-dopo-2026) funzionano così bene con il testo scritto. Il video non ti dà nulla da scansionare. I capitoli aiutano quando i creator si prendono la briga di aggiungerli; la maggior parte no.
+Il testo non ha questo problema. Puoi scansionare introduzione e titoli di un articolo in quindici secondi e sapere se impegnarti — è per questo che le [app salva-e-leggi-dopo](/it/blog/migliori-app-salva-e-leggi-dopo-2027) funzionano così bene con il testo scritto. Il video non ti dà nulla da scansionare. I capitoli aiutano quando i creator si prendono la briga di aggiungerli; la maggior parte no.
 
 Un riassunto IA ripristina il passo di triage. Trenta secondi di lettura ti dicono se guardare tutto, saltare a una sezione, o chiudere la scheda. Moltiplicalo su un arretrato di «Guarda più tardi» e sono ore recuperate ogni settimana — smetti di pagare 40 minuti per scoprire che un video non valeva 40 minuti.
 

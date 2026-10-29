@@ -22,7 +22,7 @@ faqs:
     a: "찾을 수 없는 북마크 백로그가 산처럼 쌓인 사람, Pocket이 끝내 주지 못했던 AI 검색을 원하는 전 Pocket 사용자, 유지보수 부담 없이 읽은 것으로 세컨드 브레인을 만들려는 사람에게 맞습니다. 하이라이트 중심의 헤비 리더라고 원본 노트 작성이 주 목적이라면 덜 맞습니다."
   - q: "Marqly의 주요 단점은 무엇인가요?"
     a: "솔직하게: Marqly는 기존 강자들보다 신생이라 커뮤니티가 Raindrop이나 Readwise보다 작습니다(성장 속도는 빠르지만). 노트 작성 도구는 아닙니다 — 글 쓰기와 링크 걸기는 Obsidian이나 Notion과 짝지어 쓰세요. 하이라이트는 Readwise Reader의 간격 반복 시스템에 견주면 기본기에 가깝습니다."
-heroImage: ../../../assets/blog/marqly-review-2026.png
+heroImage: ../../../assets/blog/marqly-review-2027.png
 heroAlt: "Marqly 리뷰 2026: 기능, 요금, 장단점 — 일러스트"
 ogImage: "https://www.marqly.com/og/marqly-review-2026.png"
 updatedDate: 2026-10-05
@@ -85,7 +85,7 @@ Marqly는 **AI 기반 북마크 매니저이자 read-it-later 앱**입니다. �
 ## Marqly가 맞는 사람
 
 - 찾을 수 없는 지저분한 북마크 백로그가 산처럼 쌓인 사람.
-- Pocket이 끝내 제공하지 못했던 AI 검색을 원하는 전 Pocket 사용자 — 아직 비교 중이라면 [Pocket 대체제](/ko/blog/pocket-daeche-2026)를 먼저 보세요.
+- Pocket이 끝내 제공하지 못했던 AI 검색을 원하는 전 Pocket 사용자 — 아직 비교 중이라면 [Pocket 대체제](/ko/blog/pocket-daeche-2027)를 먼저 보세요.
 - 유지보수 없이 읽은 것으로 “세컨드 브레인”을 만들려는 사람.
 
 ## 아닌 사람
@@ -102,4 +102,4 @@ Marqly의 베팅은 이렇습니다: 링크 저장의 미래는 **보관이 아�
 
 ---
 
-*관련 글: [2026년 최고 AI 북마크 매니저](/ko/blog/best-ai-bookmark-manager-2026) · [Pocket vs Marqly](/ko/compare/marqly-vs-pocket) · [Raindrop vs Marqly](/ko/compare/marqly-vs-raindrop)*
+*관련 글: [2026년 최고 AI 북마크 매니저](/ko/blog/best-ai-bookmark-manager-2027) · [Pocket vs Marqly](/ko/compare/marqly-vs-pocket) · [Raindrop vs Marqly](/ko/compare/marqly-vs-raindrop)*

@@ -44,7 +44,7 @@ Gdy nadejdzie owe „później”, nie wpatrujesz się w ścianę identycznych l
 
 To element, którego nigdy nie miała większość aplikacji read-it-later. Marqly generuje streszczenia AI zapisanych artykułów (na planie Pro), co zmienia codzienny obieg: zamiast scrollować listę tytułów i zgadywać, co stoi za każdym, przeglądasz streszczenia i sortujesz kolejkę na trzy kupki — przeczytać teraz, przeczytać w weekend, nigdy (archiwizuj bez otwierania).
 
-Sterta wyrzutów sumienia zawsze była problemem decyzyjnym przebranym za problem objętości. Kolejka dwustu nieprzeczytanych artykułów jest nie do ogarnięcia; dwieście streszczeń to dwadzieścia minut selekcji. Jak Marqly wypada na tle innych aplikacji tej kategorii — także w tym punkcie — pokazujemy w rankingu [najlepsze aplikacje do czytania na później w 2026](/pl/blog/najlepsze-aplikacje-do-czytania-na-pozniej-2026).
+Sterta wyrzutów sumienia zawsze była problemem decyzyjnym przebranym za problem objętości. Kolejka dwustu nieprzeczytanych artykułów jest nie do ogarnięcia; dwieście streszczeń to dwadzieścia minut selekcji. Jak Marqly wypada na tle innych aplikacji tej kategorii — także w tym punkcie — pokazujemy w rankingu [najlepsze aplikacje do czytania na później w 2026](/pl/blog/najlepsze-aplikacje-do-czytania-na-pozniej-2027).
 
 ## Czytaj aktywnie: podkreślaj i zatrzymaj to, co ważne
 

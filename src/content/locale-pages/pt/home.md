@@ -101,7 +101,7 @@ O marca-texto do Marqly tem 6 cores e as notas continuam ancoradas na página: v
 - **Quem vive com 40 abas abertas**: [salvar abas](/pt/salvar-abas) resolve a janela inteira de uma vez.
 - **Quem salva e nunca lê**: [salvar para ler depois](/pt/salvar-para-ler-depois) usa resumo de IA para você triar em segundos.
 
-Está saindo do Pocket ou comparando ferramentas? Leia as [alternativas ao Pocket em 2026](/pt/blog/alternativas-ao-pocket-2026) e a comparação [Marqly vs Raindrop](/pt/comparar/marqly-vs-raindrop).
+Está saindo do Pocket ou comparando ferramentas? Leia as [alternativas ao Pocket em 2026](/pt/blog/alternativas-ao-pocket-2027) e a comparação [Marqly vs Raindrop](/pt/comparar/marqly-vs-raindrop).
 
 ## Comece hoje
 

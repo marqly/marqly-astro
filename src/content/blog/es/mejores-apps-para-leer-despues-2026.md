@@ -23,7 +23,7 @@ faqs:
     a: "Tres factores clave: captura instantánea en un clic o menú compartir, un modo de lectura limpio y cómodo, y recuperación inteligente con búsqueda semántica que encuentra artículos describiendo lo que recuerdas."
   - q: "¿Qué app conviene a quienes leen y subrayan intensamente?"
     a: "Readwise Reader es la referencia para lectores intensivos e investigadores. Por unos 12 $ al mes incluye el mejor sistema de subrayado y repaso espaciado para artículos, PDFs, boletines y libros digitales."
-heroImage: ../../../assets/blog/best-read-it-later-apps-2026.png
+heroImage: ../../../assets/blog/best-read-it-later-apps-2027.png
 heroAlt: "Las 9 mejores apps para leer después en 2026 — ilustración"
 ogImage: "https://www.marqly.com/og/best-read-it-later-apps-2026.png"
 ---
@@ -50,7 +50,7 @@ Opción premium (~12 $/mes) con el mejor sistema de subrayados y repaso espaciad
 Plan gratuito muy amplio, admite páginas web, imágenes, documentos y vídeos. Su búsqueda es solo por palabras clave, pero resulta ideal si buscas una herramienta gratuita y disfrutas organizando colecciones a mano.
 
 ### 4. Instapaper — la mejor para lectura minimalista
-La experiencia pura y clásica de lectura. Sencillo, rápido y sin adornos innecesarios — pero carece de IA y de búsqueda semántica. Si buscas opciones más modernas, revisa nuestra guía de [alternativas a Instapaper](/blog/instapaper-alternatives-2026).
+La experiencia pura y clásica de lectura. Sencillo, rápido y sin adornos innecesarios — pero carece de IA y de búsqueda semántica. Si buscas opciones más modernas, revisa nuestra guía de [alternativas a Instapaper](/blog/instapaper-alternatives-2027).
 
 ### 5. mymind — la mejor para guardar ideas visuales
 «No vuelvas a ordenar nada». La IA etiqueta imágenes, citas y enlaces automáticamente en un entorno visual muy estético. No tiene carpetas por filosofía ni versión gratuita permanente (~8 $/mes).
@@ -94,4 +94,4 @@ No te preguntes «¿qué app guarda páginas más rápido?»: todas lo hacen en 
 
 ---
 
-*Artículos relacionados: [Las 8 mejores alternativas a Pocket en 2026](/es/blog/alternativas-a-pocket-2026) · [El mejor gestor de marcadores con IA 2026](/blog/best-ai-bookmark-manager-2026)*
+*Artículos relacionados: [Las 8 mejores alternativas a Pocket en 2026](/es/blog/alternativas-a-pocket-2027) · [El mejor gestor de marcadores con IA 2026](/blog/best-ai-bookmark-manager-2027)*

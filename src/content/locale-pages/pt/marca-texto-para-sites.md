@@ -98,7 +98,7 @@ Grifos e páginas salvas podem ser organizados em boards, e qualquer board vira 
 - **Pesquisa com muitas abas**: grifou, salvou e fechou tudo com [salvar abas](/pt/salvar-abas).
 - **Fila de leitura**: grifar na hora e triar depois com [salvar para ler depois](/pt/salvar-para-ler-depois).
 
-Se você está comparando ferramentas de marcação e favoritos, dê uma olhada em [Marqly vs Raindrop](/pt/comparar/marqly-vs-raindrop) e nas [alternativas ao Pocket em 2026](/pt/blog/alternativas-ao-pocket-2026). Outros textos ficam no [blog](/pt/blog), e a visão geral do produto está no [Marqly em português](/pt).
+Se você está comparando ferramentas de marcação e favoritos, dê uma olhada em [Marqly vs Raindrop](/pt/comparar/marqly-vs-raindrop) e nas [alternativas ao Pocket em 2026](/pt/blog/alternativas-ao-pocket-2027). Outros textos ficam no [blog](/pt/blog), e a visão geral do produto está no [Marqly em português](/pt).
 
 ## Comece a grifar hoje
 

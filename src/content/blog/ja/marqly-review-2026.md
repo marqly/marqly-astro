@@ -24,7 +24,7 @@ faqs:
     a: "山のように溜まって見つけられないブックマークを持つ人、PocketにはなかったAI検索を望む元Pocketユーザー、維持管理なしに読書から第二の脳を育てたい人——これらに当てはまるならMarqlyです。逆に、ハイライト主体のパワーリーダーや、自分でオリジナルのノートを書くことが主目的の人には、やや不向きです。"
   - q: "Marqlyの主な弱点は？"
     a: "率直に：Marqlyは既存勢力より新しく、コミュニティはRaindropやReadwiseより小さい（成長は速いものの、注記として）。ノート作成ツールではない——書く用途はObsidianやNotionとの併用が前提で、ハイライト機能はReadwise Readerの間隔反復システムと比べればシンプルです。"
-heroImage: ../../../assets/blog/marqly-review-2026.png
+heroImage: ../../../assets/blog/marqly-review-2027.png
 heroAlt: "Marqly レビュー 2026年：機能・料金・長所と短所 — イラスト"
 ogImage: "https://www.marqly.com/og/marqly-review-2026.png"
 ---
@@ -86,7 +86,7 @@ Pocketのエクスポート、Raindrop.ioのエクスポート、ブラウザの
 ## Marqlyが向いている人
 
 - 山のように溜まって見つけられない、散らばったブックマークを持つ人。
-- Pocketにはついぞ無かったAI検索を望む元Pocketユーザー。乗り先を広く比較するなら、まず[Pocket代替アプリおすすめ8選](/ja/blog/pocket-daitai-2026)を。
+- Pocketにはついぞ無かったAI検索を望む元Pocketユーザー。乗り先を広く比較するなら、まず[Pocket代替アプリおすすめ8選](/ja/blog/pocket-daitai-2027)を。
 - 読書から「第二の脳」を作りたいが、維持管理に時間を溶かしたくない人。
 
 ## 向いていない人
@@ -103,4 +103,4 @@ Marqlyの賭け金は、「リンク保存の未来は*保管*ではなく*取�
 
 ---
 
-*関連：[AIブックマークマネージャーおすすめ5選](/ja/blog/best-ai-bookmark-manager-2026) · [Pocket vs Marqly](/ja/compare/marqly-vs-pocket) · [Raindrop vs Marqly](/ja/compare/marqly-vs-raindrop)*
+*関連：[AIブックマークマネージャーおすすめ5選](/ja/blog/best-ai-bookmark-manager-2027) · [Pocket vs Marqly](/ja/compare/marqly-vs-pocket) · [Raindrop vs Marqly](/ja/compare/marqly-vs-raindrop)*

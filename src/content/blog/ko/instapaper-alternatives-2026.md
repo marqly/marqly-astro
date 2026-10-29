@@ -23,7 +23,7 @@ faqs:
     a: "떠나는 이유가 읽기가 아니라 찾기 때문입니다. 찾을 수 없는 저장본을 몇 년 치 쌓아 왔다면, 시맨틱 검색은 기억나는 설명을 입력해 글을 되찾게 해 줍니다. Instapaper가 요구하는 정확한 제목 검색이 아니라요."
   - q: "AI 검색이 있는 무료 Instapaper 대체 앱이 있나요?"
     a: "있습니다. Marqly는 무료 플랜으로 최대 100건을 저장하고 라이브러리 전체를 검색할 수 있고, AI, 즉 자동 태깅과 요약과 의미 검색은 전부 Pro에 속합니다. Raindrop.io도 무료 플랜이 넉넉한 편이지만 시맨틱이 아니라 키워드 검색이고 AI 층이 없습니다."
-heroImage: ../../../assets/blog/instapaper-alternatives-2026.png
+heroImage: ../../../assets/blog/instapaper-alternatives-2027.png
 heroAlt: "2026년 최고의 Instapaper 대체 앱 비교 일러스트"
 ogImage: "https://www.marqly.com/og/instapaper-alternatives-2026.png"
 ---
@@ -79,4 +79,4 @@ Instapaper를 떠나는 이유는 읽기가 아니라 *찾기*입니다. 찾을 
 
 ---
 
-*관련 글: [2026년 최고의 Pocket 대체 앱](/ko/blog/pocket-daeche-2026) · [2026년 최고의 AI 북마크 관리자](/ko/blog/best-ai-bookmark-manager-2026)*
+*관련 글: [2026년 최고의 Pocket 대체 앱](/ko/blog/pocket-daeche-2027) · [2026년 최고의 AI 북마크 관리자](/ko/blog/best-ai-bookmark-manager-2027)*

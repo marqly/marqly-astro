@@ -19,7 +19,7 @@ faqs:
     a: "Een echte AI-bladwijzertool werkt op drie niveaus: automatische tags zonder handmatig sorteren, directe samenvattingen en semantisch zoeken waarmee je pagina's terugvindt op betekenis in plaats van letterlijke woorden."
   - q: "Wat is semantisch zoeken in bladwijzers?"
     a: "Semantisch zoeken herkent concepten. Typ 'het artikel over vertrouwen in remote teams' en de juiste pagina verschijnt direct, zelfs als die letterlijke woorden nergens in de titel staan."
-heroImage: ../../../assets/blog/best-ai-bookmark-manager-2026.png
+heroImage: ../../../assets/blog/best-ai-bookmark-manager-2027.png
 heroAlt: "Het beste AI-bladwijzerbeheer in 2026 — illustratie"
 ogImage: "https://www.marqly.com/og/best-ai-bookmark-manager-2026.png"
 ---

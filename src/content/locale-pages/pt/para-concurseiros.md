@@ -100,6 +100,6 @@ Plano grátis, sem cartão de crédito. Pro por US$ 9 ao mês ou US$ 72 ao ano. 
 
 Escolha a matéria em que você mais perde tempo procurando material e monte só ela no Marqly esta semana. Se a busca te devolver na revisão algo que você teria demorado meia hora para achar, o resto do edital vem junto naturalmente.
 
-Se você salva muito conteúdo para ler depois, vale ver [salvar para ler depois](/pt/salvar-para-ler-depois) e as [alternativas ao Pocket em 2026](/pt/blog/alternativas-ao-pocket-2026). A visão geral está em [Marqly em português](/pt).
+Se você salva muito conteúdo para ler depois, vale ver [salvar para ler depois](/pt/salvar-para-ler-depois) e as [alternativas ao Pocket em 2026](/pt/blog/alternativas-ao-pocket-2027). A visão geral está em [Marqly em português](/pt).
 
 [Criar conta grátis no Marqly](https://app.marqly.com)

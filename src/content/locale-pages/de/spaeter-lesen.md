@@ -84,7 +84,7 @@ Ein 45-Minuten-Video ist der Artikel, den du am ehesten aufschiebst. Marqly blen
 
 ## Umziehen und Grenzen
 
-Seit dem Ende von Pocket suchen viele Ersatz. Marqly importiert aus **Pocket**, aus **Raindrop** und aus jeder **Lesezeichen-HTML-Datei**; einen Überblick über das Feld gibt der Beitrag zu den [Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2026), einen direkten Vergleich [Marqly vs. Raindrop](/de/vergleich/marqly-vs-raindrop).
+Seit dem Ende von Pocket suchen viele Ersatz. Marqly importiert aus **Pocket**, aus **Raindrop** und aus jeder **Lesezeichen-HTML-Datei**; einen Überblick über das Feld gibt der Beitrag zu den [Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2027), einen direkten Vergleich [Marqly vs. Raindrop](/de/vergleich/marqly-vs-raindrop).
 
 Eines vorweg, damit du nicht enttäuscht wirst: Offline-Lesen gibt es nur auf Pro – markierte Seiten, pro Gerät, in Web-App oder iOS-App; ohne Pro, auf Android oder in den Erweiterungen brauchst du Verbindung. Was an Daten entsteht und wie du sie exportierst, steht in den [Datenschutz-Fragen](/de/datenschutz-fragen).
 

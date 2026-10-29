@@ -48,9 +48,9 @@ Votre export est portable, donc la vraie question est *où* il doit atterrir. Le
 
 - **Marqly** — si vous voulez une bibliothèque consultable par le sens (recherche IA sur Pro), avec étiquetage automatique et résumés sur Pro. Importe votre fichier Pocket avec ses tags intacts. (Voir exactement comment il se défend dans [Pocket vs Marqly](/fr/comparer/marqly-vs-pocket).)
 - **Raindrop.io** — si vous voulez un gestionnaire de favoris généraliste et gratuit.
-- **Instapaper** — si vous voulez simplement [une application de lecture différée](/fr/blog/meilleures-applications-lecture-differee-2026) minimaliste, sans artifice.
+- **Instapaper** — si vous voulez simplement [une application de lecture différée](/fr/blog/meilleures-applications-lecture-differee-2027) minimaliste, sans artifice.
 
-(Pour une analyse complète, voir [les 8 meilleures alternatives à Pocket en 2026](/fr/blog/alternatives-a-pocket-2026).)
+(Pour une analyse complète, voir [les 8 meilleures alternatives à Pocket en 2026](/fr/blog/alternatives-a-pocket-2027).)
 
 ## Étape 3 : importer votre bibliothèque
 

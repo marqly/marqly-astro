@@ -63,7 +63,7 @@ Cuando la memoria es realmente tenue, dale a la búsqueda más material con el q
 - **Combina fragmentos.** "El ensayo largo sobre el fundador que lo dejó todo y se fue a una granja" gana a buscar solo "granja".
 - **Usa detalles sensoriales o emocionales.** "El artículo de miedo sobre la adicción al móvil en niños" funciona porque el contenido carga ese tono.
 - **No te preocupes por fallar.** La búsqueda semántica se degrada con elegancia: una descripción a medias incorrecta sigue colocando el guardado correcto cerca del primer puesto.
-- **Busca en todos los formatos.** Una buena herramienta busca en notas, vídeos guardados y PDFs igual que en artículos, así que tampoco tienes que recordar *dónde* lo guardaste. (Para una selección de [un gestor de marcadores con IA que hace esto](/es/blog/mejores-gestores-marcadores-ia-2026), mira nuestra comparativa 2026.)
+- **Busca en todos los formatos.** Una buena herramienta busca en notas, vídeos guardados y PDFs igual que en artículos, así que tampoco tienes que recordar *dónde* lo guardaste. (Para una selección de [un gestor de marcadores con IA que hace esto](/es/blog/mejores-gestores-marcadores-ia-2027), mira nuestra comparativa 2026.)
 
 ## Encuéntralo por significado, no por memoria
 

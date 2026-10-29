@@ -19,7 +19,7 @@ faqs:
     a: "Marqly, temiz okuma modunu yapay zekalı anlamsal aramayla birleştirerek kaydedilen makalelerin unutulmasını önleyen en güçlü all-in-one çözümdür."
   - q: "Makaleleri daha sonra okumak için ücretsiz araçlar var mı?"
     a: "Evet. Raindrop.io ve Instapaper ücretsiz planlar sunar. Marqly de 100 yer imine kadar ücretsiz plan içerir."
-heroImage: ../../../assets/blog/best-read-it-later-apps-2026.png
+heroImage: ../../../assets/blog/best-read-it-later-apps-2027.png
 heroAlt: "2026 Yılının En İyi 9 Daha Sonra Oku Uygulaması — illüstrasyon"
 ogImage: "https://www.marqly.com/og/best-read-it-later-apps-2026.png"
 ---

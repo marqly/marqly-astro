@@ -84,7 +84,7 @@ Attention toutefois&nbsp;: dans votre espace personnel, le partage est une publi
 
 ## Reprendre une veille existante
 
-Vos archives ne restent pas dehors&nbsp;: Marqly importe depuis Pocket, depuis Raindrop et depuis n'importe quel fichier HTML de favoris. Si votre dispositif reposait sur Pocket, lisez d'abord les [alternatives à Pocket en 2026](/fr/blog/alternatives-a-pocket-2026)&nbsp;; si vous hésitez avec un gestionnaire classique, le [comparatif Marqly vs Raindrop](/fr/comparer/marqly-vs-raindrop) dit aussi où Raindrop est meilleur.
+Vos archives ne restent pas dehors&nbsp;: Marqly importe depuis Pocket, depuis Raindrop et depuis n'importe quel fichier HTML de favoris. Si votre dispositif reposait sur Pocket, lisez d'abord les [alternatives à Pocket en 2026](/fr/blog/alternatives-a-pocket-2027)&nbsp;; si vous hésitez avec un gestionnaire classique, le [comparatif Marqly vs Raindrop](/fr/comparer/marqly-vs-raindrop) dit aussi où Raindrop est meilleur.
 
 ## Les limites, sans détour
 

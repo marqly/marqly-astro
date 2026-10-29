@@ -152,7 +152,7 @@ Der DIY-Weg: Transkript des Videos holen, in ChatGPT (oder Claude oder Gemini) e
 
 Die Gratis-Stufen-Rechnung zählt hier ebenfalls. Wenn du ein Video pro Tag zusammenfasst, sind Eightifys 3-pro-Woche-Deckel und Recalls 10-pro-Monat-Kontingent in der ersten Woche weg, Glasps 3 pro Tag halten, und der manuelle ChatGPT-Weg kostet dich ein paar Minuten Transkript-Gefummel pro Video. Rechne dein tatsächliches Volumen durch, bevor du unterstellst, gratis sei gratis.
 
-Noch ein Filter, den es lohnt anzuwenden: Frag, was mit der Zusammenfassung *danach* passiert. Wenn die Antwort „sie verdampft“ lautet, wirst du dieselben Videos nächstes Jahr erneut zusammenfassen. Marqlys Antwort – Video, Transkript und Zusammenfassung landen in einer Bibliothek, die du [nach Bedeutung durchsuchen kannst](/de/blog/beste-ai-lesezeichen-manager-2026) – ist der Grund, warum wir es so gebaut haben. [Jetzt kostenlos bei Marqly starten](https://app.marqly.com); der Zusammenfassungs-Reiter funktioniert ohne Kreditkarte.
+Noch ein Filter, den es lohnt anzuwenden: Frag, was mit der Zusammenfassung *danach* passiert. Wenn die Antwort „sie verdampft“ lautet, wirst du dieselben Videos nächstes Jahr erneut zusammenfassen. Marqlys Antwort – Video, Transkript und Zusammenfassung landen in einer Bibliothek, die du [nach Bedeutung durchsuchen kannst](/de/blog/beste-ai-lesezeichen-manager-2027) – ist der Grund, warum wir es so gebaut haben. [Jetzt kostenlos bei Marqly starten](https://app.marqly.com); der Zusammenfassungs-Reiter funktioniert ohne Kreditkarte.
 
 ---
 

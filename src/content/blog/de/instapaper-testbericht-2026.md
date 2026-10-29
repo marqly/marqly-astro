@@ -91,9 +91,9 @@ Kontext, der zählt: 2025 hob Instapaper Premium von 2,99 $ auf 5,99 $ — die e
 ## Wo Instapaper Schwächen hat
 
 - **Der Preis verdoppelte sich, das Produkt nicht.** 59,99 $/Jahr überlappen inzwischen mit Tools, die dramatisch mehr können — Marqly Pro kostet 72 $/Jahr, und Readwise Reader mit dem sehr viel tieferen Funktionsumfang startet bei 9,99 $/Monat.
-- **Organisation heißt Ordner, Punkt.** Keine Tags, keine Auto-Organisation, nichts arbeitet für Sie. Jeder gespeicherte Artikel landet in einem Haufen, sofern Sie nicht per Hand ablegen — exakt das Muster, aus dem Read-it-Later-Apps [read-it-never-Friedhöfe](/de/blog/pocket-alternativen-2026) werden.
+- **Organisation heißt Ordner, Punkt.** Keine Tags, keine Auto-Organisation, nichts arbeitet für Sie. Jeder gespeicherte Artikel landet in einem Haufen, sofern Sie nicht per Hand ablegen — exakt das Muster, aus dem Read-it-Later-Apps [read-it-never-Friedhöfe](/de/blog/pocket-alternativen-2027) werden.
 - **Suche ist hinter der Paywall und wörtlich.** Free-Nutzer können den Artikeltext gar nicht durchsuchen. Premium-Suche ist Keyword-Matching — wenn Sie die Wörter nicht erinnern, finden Sie den Artikel nicht.
-- **Keine KI-Schicht, die den Namen verdient.** Keine Zusammenfassungen zum Vorsortieren des Rückstands, kein Auto-Tagging, keine semantische Suche. Die Zugaben 2025/26 (KI-Stimmen, Speed Reading) polieren den Konsum, nicht Organisation oder Wiederfinden — die zwei Probleme, die Artikel-Speicher-Gewohnheiten tatsächlich töten, wie unser [KI-Lesezeichen-Manager-Ratgeber](/de/blog/beste-ai-lesezeichen-manager-2026) aufschlüsselt.
+- **Keine KI-Schicht, die den Namen verdient.** Keine Zusammenfassungen zum Vorsortieren des Rückstands, kein Auto-Tagging, keine semantische Suche. Die Zugaben 2025/26 (KI-Stimmen, Speed Reading) polieren den Konsum, nicht Organisation oder Wiederfinden — die zwei Probleme, die Artikel-Speicher-Gewohnheiten tatsächlich töten, wie unser [KI-Lesezeichen-Manager-Ratgeber](/de/blog/beste-ai-lesezeichen-manager-2027) aufschlüsselt.
 - **Langames Entwicklungstempo.** Instapapers Stabilität ist auch Stillstand. Die Funktions-Geschwindigkeit ist seit Jahren bescheiden, und die meistgewünschten Roadmap-Punkte — Zusammenfassungen, automatische Organisation — bleiben „geplant“.
 
 ## Wie es sich zu Marqly verhält
@@ -120,7 +120,7 @@ Faire Lesart dieser Tabelle: Wenn Ihr Speichern-Leben das **Lesen** ist — lang
 - **Langform-Leser**, die die beste Typografie und eine ablenkungsfreie Leseliste wollen.
 - **Kindle-Besitzer** — die geplanten Sende-Batches allein können Premium rechtfertigen.
 - **Pendler und Reisende**, die zuverlässiges Offline-Lesen brauchen.
-- **Pocket-Refugees**, die die ähnlichste Landestelle wollen und eine 18-Jahre-Bilanz schätzen — ein Blick ins [gesamte Feld der Pocket-Alternativen](/de/blog/pocket-alternativen-2026) lohnt sich vor der Festlegung, ebenso unser [Instapaper-Alternativen-Überblick](/de/blog/beste-instapaper-alternativen-2026), falls Sie herausgewachsen sind.
+- **Pocket-Refugees**, die die ähnlichste Landestelle wollen und eine 18-Jahre-Bilanz schätzen — ein Blick ins [gesamte Feld der Pocket-Alternativen](/de/blog/pocket-alternativen-2027) lohnt sich vor der Festlegung, ebenso unser [Instapaper-Alternativen-Überblick](/de/blog/beste-instapaper-alternativen-2026), falls Sie herausgewachsen sind.
 
 Für wen nicht: alle, deren Rückstand das Problem ist. Wenn Sie 30 Artikel pro Woche speichern und 3 lesen, sortiert Instapaper Ihr schlechtes Gewissen wunderschön. Es wird den Haufen nicht zusammenfassen, nicht taggen und halberinnerte März-Texte nicht finden. Es ist auch das falsche Werkzeug für alle, die anderes als Artikel speichern — Videos, PDFs über Basics hinaus, Bilder und Referenz-Links sitzen unbequem in einer für Prosa gebauten Warteschlange.
 

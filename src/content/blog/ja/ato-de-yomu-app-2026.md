@@ -21,7 +21,7 @@ faqs:
     a: "はい。Raindrop.ioは無料プランで幅広いメディアを保存でき、Instapaperも無料のミニマルリーダーを備えています。Marqlyも最大100件保存可能な無料プランがあり、ライブラリ全体の検索に対応しています。"
   - q: "2026年に優れたあとで読むアプリを選ぶ基準は何ですか？"
     a: "摩擦のない保存、広告のない快適なリーダー表示、そして「保存したものをあとで確実に探し出せるAI検索」の3点です。"
-heroImage: ../../../assets/blog/best-read-it-later-apps-2026.png
+heroImage: ../../../assets/blog/best-read-it-later-apps-2027.png
 heroAlt: "あとで読むアプリおすすめ9選（2026年）— イラスト"
 ogImage: "https://www.marqly.com/og/best-read-it-later-apps-2026.png"
 ---

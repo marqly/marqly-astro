@@ -16,7 +16,7 @@ lang: "zh"
 faqs:
   - q: "为什么需要寻找 Instapaper 的替代品？"
     a: "Instapaper 的搜索依赖精确关键词且需要付费，缺乏智能分类与语义检索，大量存件极易沦为信息死库。"
-heroImage: ../../../assets/blog/instapaper-alternatives-2026.png
+heroImage: ../../../assets/blog/instapaper-alternatives-2027.png
 heroAlt: "Instapaper 最佳替代工具对比 2026"
 ---
 

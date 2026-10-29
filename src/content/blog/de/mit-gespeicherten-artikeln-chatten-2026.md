@@ -36,7 +36,7 @@ Vorab zur Erwartungspflege: Das ist ein Frage-Antwort-Werkzeug, keine offene Kon
 
 ## Kann ich mit meinen gespeicherten Artikeln chatten?
 
-Ja — sofern Ihr Lesezeichen-Manager KI-Q&A über Ihre Bibliothek hinweg hat. Das ist eine Funktion eines [KI-Lesezeichen-Managers](/de/blog/beste-ai-lesezeichen-manager-2026), nicht eines traditionellen: Statt eine Liste von Saves zurückzugeben, die Sie selbst öffnen und lesen müssen, beantwortet er Ihre Frage direkt — anhand des Inhalts der relevanten Saves.
+Ja — sofern Ihr Lesezeichen-Manager KI-Q&A über Ihre Bibliothek hinweg hat. Das ist eine Funktion eines [KI-Lesezeichen-Managers](/de/blog/beste-ai-lesezeichen-manager-2027), nicht eines traditionellen: Statt eine Liste von Saves zurückzugeben, die Sie selbst öffnen und lesen müssen, beantwortet er Ihre Frage direkt — anhand des Inhalts der relevanten Saves.
 
 Sie stellen also eine echte Frage — „Was waren die Hauptargumente gegen Großraumbüros?“ — und bekommen eine synthetisierte Antwort aus den Artikeln, die Sie zu dem Thema gespeichert haben, mit Quellenanhang.
 

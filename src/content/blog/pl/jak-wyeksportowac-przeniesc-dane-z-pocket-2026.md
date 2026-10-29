@@ -48,9 +48,9 @@ Twój eksport jest przenośny, więc prawdziwe pytanie brzmi, *gdzie* ma zamiesz
 
 - **Marqly** — jeśli chcesz, żeby biblioteka była przeszukiwalna po znaczeniu (wyszukiwanie AI Pro), z auto-tagowaniem i streszczeniami Pro. Importuje Twój plik z Pocket z nietkniętymi tagami. (Zobacz dokładnie, jak to się rozkłada w [Pocket vs Marqly](/pl/porownanie/marqly-vs-pocket).)
 - **Raindrop.io** — jeśli chcesz darmowy, ogólnego przeznaczenia menedżer zakładek.
-- **Instapaper** — jeśli po prostu chcesz [aplikację read-it-later](/pl/blog/najlepsze-aplikacje-do-czytania-na-pozniej-2026) z minimalistycznym czytaniem bez fajerwerków.
+- **Instapaper** — jeśli po prostu chcesz [aplikację read-it-later](/pl/blog/najlepsze-aplikacje-do-czytania-na-pozniej-2027) z minimalistycznym czytaniem bez fajerwerków.
 
-(Pełny rozkład znajdziesz w [8 najlepszych alternatyw dla Pocket w 2026](/pl/blog/alternatywy-pocket-2026).)
+(Pełny rozkład znajdziesz w [8 najlepszych alternatyw dla Pocket w 2026](/pl/blog/alternatywy-pocket-2027).)
 
 ## Krok 3: Zaimportuj swoją bibliotekę
 

@@ -119,9 +119,9 @@ Die ehrliche Zusammenfassung: Raindrop ist günstiger und deckt mehr Medientypen
 - **Nutzer auf Mac/Windows/Linux**, die native Desktop-Apps wollen.
 - **Sammler gemischter Medien** — Bilder, Dateien, PDFs, Video-Links —, nicht nur Artikel.
 - **Alle mit Budget-Bewusstsein.** Zwischen Gratis-Plan und 27,99 $/Jahr Pro kommt preislich nichts dagegen an.
-- **Ex-Pocket-Nutzer**, die ein stabiles, bewährtes Zuhause wollen — wer gerade migriert, vergleicht vorher das Feld im Ratgeber [die besten Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2026).
+- **Ex-Pocket-Nutzer**, die ein stabiles, bewährtes Zuhause wollen — wer gerade migriert, vergleicht vorher das Feld im Ratgeber [die besten Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2027).
 
-Für wen nicht: Menschen, deren echtes Problem das Wiederfinden Monate alter Saves ist, und Menschen, die wollen, dass die App das Ordnen übernimmt. Beides sind Retrieval-Probleme, und Retrieval ist die eine Schicht, die Raindrop nicht gelöst hat — dieselbe Lücke, die wir im [KI-Lesezeichen-Manager-Ratgeber](/de/blog/beste-ai-lesezeichen-manager-2026) quer durch den Markt kartieren.
+Für wen nicht: Menschen, deren echtes Problem das Wiederfinden Monate alter Saves ist, und Menschen, die wollen, dass die App das Ordnen übernimmt. Beides sind Retrieval-Probleme, und Retrieval ist die eine Schicht, die Raindrop nicht gelöst hat — dieselbe Lücke, die wir im [KI-Lesezeichen-Manager-Ratgeber](/de/blog/beste-ai-lesezeichen-manager-2027) quer durch den Markt kartieren.
 
 ## Fazit
 

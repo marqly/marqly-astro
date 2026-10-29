@@ -16,7 +16,7 @@ tags:
   - "karakeep"
   - "favoritos navegador"
 ctaUrl: "https://app.marqly.com"
-ctaLabel: "Testar Marqly grátis"
+ctaLabel: "Comece grátis"
 lang: "pt"
 faqs:
   - q: "Qual o melhor gerenciador de favoritos gratuito em 2026?"

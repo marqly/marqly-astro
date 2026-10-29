@@ -32,7 +32,7 @@ Competitor pages have one more failure mode: they change. Save-as-PDF captures a
 
 ## Retrieval that keeps up with campaign season
 
-The payoff moment comes at planning time: "what was that B2B campaign built entirely around a calculator?" Marqly's semantic search answers questions phrased exactly like that, matching meaning across titles, page content, highlights, and video transcripts rather than keywords. The competitor comparison you half-remember from Q1 comes back in seconds; technique examples are in the wider roundup of [the best AI bookmark managers of 2026](/blog/best-ai-bookmark-manager-2026).
+The payoff moment comes at planning time: "what was that B2B campaign built entirely around a calculator?" Marqly's semantic search answers questions phrased exactly like that, matching meaning across titles, page content, highlights, and video transcripts rather than keywords. The competitor comparison you half-remember from Q1 comes back in seconds; technique examples are in the wider roundup of [the best AI bookmark managers of 2026](/blog/best-ai-bookmark-manager-2027).
 
 The side-panel library keeps research inside the flow of browsing — while you're on a competitor's site, you can check what you've already captured from them without opening another tab. AI summaries compress the industry-reading treadmill — save the week's think pieces, skim the summaries, deep-read the two that matter. And on Pro, AI Q&A over your saves works like a strategist with perfect recall of your research: "what have I saved about pricing page psychology?" gets an answer sourced from your own library.
 

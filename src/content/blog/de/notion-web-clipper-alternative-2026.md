@@ -47,7 +47,7 @@ Das sauberste Setup, bei dem die meisten landen: **Notion bleibt fürs Schreiben
 
 ### Marqly — die dedizierte Lese- + KI-Such-Schicht
 
-Marqly ist genau für den Job gebaut, den Notions Clipper nicht kann: Ein-Klick-Speichern, ein cleaner Reader, **KI-Auto-Tagging**, **Zusammenfassungen** und **semantische Suche**, damit Sie jeden Save nach Bedeutung finden. Die Feature-Aufschlüsselung steht in [Marqly vs Notion Web Clipper](/de/vergleich/marqly-vs-notion), und unser Leitfaden zu den besten [Notion-Web-Clipper-Alternativen](/de/alternativen/notion) vergleicht das Feld. Als [KI-Lesezeichen-Manager](/de/blog/beste-ai-lesezeichen-manager-2026) wird Ihre Lektüre zur durchsuchbaren Wissensbasis — im Effekt eine [Second-Brain-App](/de/blog/was-ist-eine-second-brain-app-2026) für das, was Sie lesen — ohne Notion aufzublähen. Web, iOS, Desktop. Free-Tier; Pro ~$6/Monat. [Jetzt kostenlos starten →](https://app.marqly.com/lp/knowledge-base)
+Marqly ist genau für den Job gebaut, den Notions Clipper nicht kann: Ein-Klick-Speichern, ein cleaner Reader, **KI-Auto-Tagging**, **Zusammenfassungen** und **semantische Suche**, damit Sie jeden Save nach Bedeutung finden. Die Feature-Aufschlüsselung steht in [Marqly vs Notion Web Clipper](/de/vergleich/marqly-vs-notion), und unser Leitfaden zu den besten [Notion-Web-Clipper-Alternativen](/de/alternativen/notion) vergleicht das Feld. Als [KI-Lesezeichen-Manager](/de/blog/beste-ai-lesezeichen-manager-2027) wird Ihre Lektüre zur durchsuchbaren Wissensbasis — im Effekt eine [Second-Brain-App](/de/blog/was-ist-eine-second-brain-app-2026) für das, was Sie lesen — ohne Notion aufzublähen. Web, iOS, Desktop. Free-Tier; Pro ~$6/Monat. [Jetzt kostenlos starten →](https://app.marqly.com/lp/knowledge-base)
 
 ### Weitere Optionen
 

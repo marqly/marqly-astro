@@ -31,7 +31,7 @@ faqs:
 
 **La respuesta corta:** el mejor gestor de marcadores gratuito en 2026 depende de lo que «gratis» tenga que incluir. **Raindrop.io** tiene el plan gratis clásico más generoso — marcadores, colecciones y apps ilimitadas en todas las plataformas. **Marqly** tiene un plan gratis sin tarjeta que cubre hasta 100 marcadores con búsqueda en toda la biblioteca (mientras el autoetiquetado con IA, los resúmenes y la búsqueda semántica viven en Pro). **Linkwarden** y **Karakeep** son gratis para siempre si aceptas autoalojarlas, y **los marcadores integrados de tu navegador** son esa línea base que funciona hasta que no. Ninguna de estas es una prueba disfrazada; las cinco son genuinamente utilizables con 0 USD.
 
-Vale la pena decirlo en voz alta: la era de «usa Pocket y ya» se acabó — Mozilla cerró Pocket en 2025, y por eso la conversación sobre [alternativas a Pocket](/es/blog/alternativas-a-pocket-2026) se ha vuelto tan ruidosa, y por eso los planes gratis importan más que nunca como punto de aterrizaje.
+Vale la pena decirlo en voz alta: la era de «usa Pocket y ya» se acabó — Mozilla cerró Pocket en 2025, y por eso la conversación sobre [alternativas a Pocket](/es/blog/alternativas-a-pocket-2027) se ha vuelto tan ruidosa, y por eso los planes gratis importan más que nunca como punto de aterrizaje.
 
 | Herramienta | Plan gratis | IA (etiquetado/búsqueda) | Autoalojable | Plataformas | Mejora de pago (verificado ago 2026) |
 | --- | --- | --- | --- | --- | --- |
@@ -47,7 +47,7 @@ Lo que cuenta como «genuinamente gratis» aquí: un plan en el que puedes vivir
 
 El plan gratis de Raindrop es la referencia de la categoría: **marcadores ilimitados, colecciones ilimitadas, etiquetas y todas las apps** — web, iOS, Android, escritorio, extensiones — sin fecha de caducidad. Para pura recolección de enlaces con organización manual, nada gratis le llega a su pulido.
 
-La advertencia honesta es lo que *no* está en el plan gratis: **la búsqueda de texto completo, las copias permanentes de las páginas guardadas, las sugerencias de etiquetas por IA y el detector de duplicados viven todos en Pro** (28 USD/año — barato, siendo justos). Y hasta la búsqueda de Pro es por palabras clave, no semántica — encuentras guardados por las palabras que contienen, no por describirlos. Esa distinción es toda la tesis de nuestra [guía de gestores de marcadores con IA](/es/blog/mejores-gestores-marcadores-ia-2026).
+La advertencia honesta es lo que *no* está en el plan gratis: **la búsqueda de texto completo, las copias permanentes de las páginas guardadas, las sugerencias de etiquetas por IA y el detector de duplicados viven todos en Pro** (28 USD/año — barato, siendo justos). Y hasta la búsqueda de Pro es por palabras clave, no semántica — encuentras guardados por las palabras que contienen, no por describirlos. Esa distinción es toda la tesis de nuestra [guía de gestores de marcadores con IA](/es/blog/mejores-gestores-marcadores-ia-2027).
 
 **Pros:**
 
@@ -145,7 +145,7 @@ En la práctica, eso significa que el coste de elegir «mal» hoy es una tarde, 
 4. **Quieres funciones de IA y propiedad total de tus datos** → Karakeep, autoalojado. (Mira [Marqly vs Karakeep](/compare/marqly-vs-karakeep)).
 5. **Tienes 40 marcadores y ningún dolor** → tu navegador está bien. Guarda esta página para después.
 
-Para tablas de características lado a lado, explora nuestro [directorio Comparar](/compare) completo, o toma el [protocolo del Benchmark de Recuperación de Marcadores](/blog/ai-bookmark-retrieval-benchmark-2026) y prueba la recuperación contra los cinco guardados que de verdad perdiste.
+Para tablas de características lado a lado, explora nuestro [directorio Comparar](/compare) completo, o toma el [protocolo del Benchmark de Recuperación de Marcadores](/blog/ai-bookmark-retrieval-benchmark-2027) y prueba la recuperación contra los cinco guardados que de verdad perdiste.
 
 Una última nota honesta: «gratis» siempre tiene una forma. El gratis de Raindrop está limitado por funciones, el de Marqly por plan, los de Linkwarden y Karakeep por tu tiempo de operaciones, y el del navegador por escala. Elige la forma con la que puedas vivir. Si el dolor es la recuperación — guardas mucho y no encuentras nada — empieza por el plan gratis construido alrededor de buscar por significado: [empieza gratis con Marqly](https://app.marqly.com), importa tus marcadores actuales y busca algo que guardaste hace meses describiéndolo.
 

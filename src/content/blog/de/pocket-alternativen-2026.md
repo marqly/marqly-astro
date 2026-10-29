@@ -113,7 +113,7 @@ Der Nachteil liegt im Preis und in der Komplexität: Mit rund **10–12 $/Monat*
 
 Instapaper ist der Klassiker unter den Später-lesen-Diensten. Wer nichts weiter möchte, als Artikel per Klick zu sichern und sie später in einer sauberen, gut lesbaren Schriftansicht ohne Ablenkung zu konsumieren, bekommt genau das geboten.
 
-Diese Einfachheit markiert gleichzeitig die Grenze: Es gibt weder semantische Suche noch KI-Zusammenfassungen, und die Weiterentwicklung verläuft seit Jahren sehr gemächlich. Wer von Instapaper wegwechseln möchte, findet in unserer Übersicht zu den [Instapaper-Alternativen](/blog/instapaper-alternatives-2026) moderne Optionen.
+Diese Einfachheit markiert gleichzeitig die Grenze: Es gibt weder semantische Suche noch KI-Zusammenfassungen, und die Weiterentwicklung verläuft seit Jahren sehr gemächlich. Wer von Instapaper wegwechseln möchte, findet in unserer Übersicht zu den [Instapaper-Alternativen](/blog/instapaper-alternatives-2027) moderne Optionen.
 
 **Für wen es ideal ist:** Minimalisten mit kurzen Leselisten, die Gespeichertes meist innerhalb weniger Tage durchlesen. Wer Tausende Artikel über Jahre hinweg archivieren will, kann diese ohne KI-Suche später kaum sinnvoll nutzen.
 
@@ -190,4 +190,4 @@ Hier verläuft die entscheidende Trennlinie im Jahr 2026. Traditionelle Werkzeug
 
 Wer genau dieses System sucht, findet in [Marqly die ideale Plattform](https://app.marqly.com/lp/replace-pocket) — Pocket-Daten importieren und Gespeichertes sofort in natürlicher Sprache durchsuchen. Der Einstieg ist kostenlos für bis zu 100 Lesezeichen und erfordert keine Kreditkarte.
 
-Und wer neben Texten auch viele Lehr- und Informationsvideos speichert, findet in unseren Leitfäden zu [den besten Später-lesen-Apps 2026](/blog/best-read-it-later-apps-2026) und [den besten KI-Lesezeichen-Managern](/blog/best-ai-bookmark-manager-2026) weitere vertiefende Einblicke.
+Und wer neben Texten auch viele Lehr- und Informationsvideos speichert, findet in unseren Leitfäden zu [den besten Später-lesen-Apps 2026](/blog/best-read-it-later-apps-2027) und [den besten KI-Lesezeichen-Managern](/blog/best-ai-bookmark-manager-2027) weitere vertiefende Einblicke.

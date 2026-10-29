@@ -85,7 +85,7 @@ Marqly vise l'autre moitié du problème&nbsp;: la mémoire de ce que vous avez 
 
 ## Récupérez votre file existante
 
-Vous ne repartez pas de zéro&nbsp;: import depuis Pocket, depuis Raindrop et depuis n'importe quel fichier HTML de favoris. Si vous cherchez encore un port d'attache depuis la fermeture de Pocket, commencez par les [alternatives à Pocket en 2026](/fr/blog/alternatives-a-pocket-2026).
+Vous ne repartez pas de zéro&nbsp;: import depuis Pocket, depuis Raindrop et depuis n'importe quel fichier HTML de favoris. Si vous cherchez encore un port d'attache depuis la fermeture de Pocket, commencez par les [alternatives à Pocket en 2026](/fr/blog/alternatives-a-pocket-2027).
 
 ## Le prix
 

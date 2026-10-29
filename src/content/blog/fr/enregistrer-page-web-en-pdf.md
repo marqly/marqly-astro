@@ -119,7 +119,7 @@ Cela fait du PDF le bon choix pour :
 - **Conditions, politiques et pages de tarifs** que vous devrez peut-être citer plus tard
 - **Tout ce dont vous attendez qu'il soit modifié ou retiré**
 
-Pour tout le reste — articles, références, recherche — le favori est meilleur, car il reste consultable et à jour. Mieux : enregistrez en favori et [surlignez ce qui compte vraiment](/fr/blog/comment-surligner-du-texte-sur-un-site-2026), pour garder l'idée sans stocker un fichier. Si votre pile d'enregistrements est surtout faite de longues lectures, une vraie [application de lecture différée](/fr/blog/meilleures-applications-lecture-differee-2026) écrase un dossier de PDF de loin.
+Pour tout le reste — articles, références, recherche — le favori est meilleur, car il reste consultable et à jour. Mieux : enregistrez en favori et [surlignez ce qui compte vraiment](/fr/blog/comment-surligner-du-texte-sur-un-site-2026), pour garder l'idée sans stocker un fichier. Si votre pile d'enregistrements est surtout faite de longues lectures, une vraie [application de lecture différée](/fr/blog/meilleures-applications-lecture-differee-2027) écrase un dossier de PDF de loin.
 
 Le flux de travail qui tient dans la durée : favori par défaut, PDF pour l'irremplaçable, et l'on garde les deux dans un seul endroit consultable — c'est le noyau ennuyeux et fiable de [l'organisation des favoris](/fr/blog/organiser-favoris-navigateur) pour qu'ils restent retrouvables, et le premier pas honnête vers [construire un second cerveau](/fr/blog/comment-creer-un-second-cerveau-2026) au lieu d'un tiroir à fourre-tout.
 
@@ -131,4 +131,4 @@ Ctrl+P sera toujours là, et pour un article simple il suffit. Mais le jour où 
 
 ---
 
-*À lire aussi : [Organiser ses favoris pour vraiment les retrouver](/fr/blog/organiser-favoris-navigateur) · [Les meilleures applications de lecture différée en 2026](/fr/blog/meilleures-applications-lecture-differee-2026)*
+*À lire aussi : [Organiser ses favoris pour vraiment les retrouver](/fr/blog/organiser-favoris-navigateur) · [Les meilleures applications de lecture différée en 2026](/fr/blog/meilleures-applications-lecture-differee-2027)*

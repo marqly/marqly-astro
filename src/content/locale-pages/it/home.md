@@ -84,7 +84,7 @@ Puoi provarlo senza installare niente con il [riassunto dei video di YouTube](/i
 
 ## Porta con te quello che hai già
 
-Non si riparte da zero. Marqly importa da **Pocket**, da **Raindrop** e da qualsiasi **file HTML dei preferiti** esportato dal browser: la procedura passo per passo è in [come importare i preferiti in Marqly](/it/importa-preferiti). Se venivi da Pocket e sei rimasto a piedi, il confronto sulle [alternative a Pocket nel 2026](/it/blog/alternative-a-pocket-2026) mette in fila le opzioni vere prima che tu sposti qualcosa. E se stai valutando sul serio, c'è un [confronto onesto tra Marqly e Raindrop](/it/confronto/marqly-vs-raindrop), compreso dove Raindrop è più forte.
+Non si riparte da zero. Marqly importa da **Pocket**, da **Raindrop** e da qualsiasi **file HTML dei preferiti** esportato dal browser: la procedura passo per passo è in [come importare i preferiti in Marqly](/it/importa-preferiti). Se venivi da Pocket e sei rimasto a piedi, il confronto sulle [alternative a Pocket nel 2026](/it/blog/alternative-a-pocket-2027) mette in fila le opzioni vere prima che tu sposti qualcosa. E se stai valutando sul serio, c'è un [confronto onesto tra Marqly e Raindrop](/it/confronto/marqly-vs-raindrop), compreso dove Raindrop è più forte.
 
 ## Le situazioni in cui serve davvero
 

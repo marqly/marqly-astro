@@ -70,7 +70,7 @@ HTMLファイルが手元にあれば、以降はインポート画面を探し�
 3. **溜まりの処理を待つ。** 手動なら数日かかっていた工程——AIが各保存ページを読み、タグを自動で貼り付けます。大量コレクションなら数分置いて、戻ってきてください。
 4. **信頼する前にリトリーバルをテスト。** 保存を覚えているリンクを3本選び、タイトルではなく*どんな内容だったかの説明*で検索してみてください。表面化したら、インポートは成功で、頼って構いません。
 
-リンクが今Chromeではなく（あるいはChromeに加えて）「あとで読む」アプリに住んでいるなら、手順ガイドをそろえた[移行センター](/migrate)を見てください——[Pocket](/migrate/pocket)、[Raindrop](/migrate/raindrop)、[mymind](/migrate/mymind)、[Instapaper](/migrate/instapaper)それぞれのガイドがあります。インポート前には、HTMLファイルを確かめたり掃除したりもできます——無料の[ブックマークHTMLファイルビューア](/tools/bookmark-file-viewer)と[重複ブックマークファインダー](/tools/duplicate-bookmark-finder)（[無料ツール一覧](/tools)収録）がそのまま使えます。特にPocketからの移行なら、[Pocketデータのエクスポートと移行手順](/ja/blog/how-to-export-migrate-pocket-data-2026)を、着地点を広く比較するなら[2026年最新Pocket代替アプリおすすめ8選](/ja/blog/pocket-daitai-2026)を。
+リンクが今Chromeではなく（あるいはChromeに加えて）「あとで読む」アプリに住んでいるなら、手順ガイドをそろえた[移行センター](/migrate)を見てください——[Pocket](/migrate/pocket)、[Raindrop](/migrate/raindrop)、[mymind](/migrate/mymind)、[Instapaper](/migrate/instapaper)それぞれのガイドがあります。インポート前には、HTMLファイルを確かめたり掃除したりもできます——無料の[ブックマークHTMLファイルビューア](/tools/bookmark-file-viewer)と[重複ブックマークファインダー](/tools/duplicate-bookmark-finder)（[無料ツール一覧](/tools)収録）がそのまま使えます。特にPocketからの移行なら、[Pocketデータのエクスポートと移行手順](/ja/blog/how-to-export-migrate-pocket-data-2026)を、着地点を広く比較するなら[2026年最新Pocket代替アプリおすすめ8選](/ja/blog/pocket-daitai-2027)を。
 
 ## インポートで本当に移行するものは何か？
 
@@ -109,7 +109,7 @@ HTML形式のブックマークエクスポートに載るのは3つ——リン
 | 数百件を超えて育つか | ❌ 山になる | ✅ 検索可能を保つ |
 | 説明だけで見つかるか | ❌ 正確なタイトルが必須 | ✅ 自然な言葉の説明でヒット |
 
-上から下まで読むと傾向は明白です——整理も検索も道具が引き受けた時点で、全行が改善します。あなたの既存リンクをその向こう側へ渡すのがインポートで、「このやり方をうまくやる道具」を先に比較したいなら、[2026年AIブックマークマネージャーおすすめ5選](/ja/blog/best-ai-bookmark-manager-2026)が実在する候補を並べています。
+上から下まで読むと傾向は明白です——整理も検索も道具が引き受けた時点で、全行が改善します。あなたの既存リンクをその向こう側へ渡すのがインポートで、「このやり方をうまくやる道具」を先に比較したいなら、[2026年AIブックマークマネージャーおすすめ5選](/ja/blog/best-ai-bookmark-manager-2027)が実在する候補を並べています。
 
 ## ChromeのブックマークをMarqlyへ持ってくる
 
@@ -119,4 +119,4 @@ Chromeからエクスポートし、HTMLファイルをインポートし、数�
 
 ---
 
-*関連：[比較ツール一覧](/compare) · [AIブックマークマネージャーおすすめ5選（2026）](/ja/blog/best-ai-bookmark-manager-2026) · [移行センター](/migrate) · [無料ブックマークツール集](/tools)*
+*関連：[比較ツール一覧](/compare) · [AIブックマークマネージャーおすすめ5選（2026）](/ja/blog/best-ai-bookmark-manager-2027) · [移行センター](/migrate) · [無料ブックマークツール集](/tools)*

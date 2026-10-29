@@ -48,7 +48,7 @@ Pocket 历史上的 HTML 预览是一份普通列表，而不是浏览器书签 
 
 - **Marqly**——希望文库可以按含义搜索（Pro 的 AI 搜索）、并拥有 Pro 自动打标签与摘要。导入你的 Pocket 文件且标签完整保留。（想看它如何与 Pocket 正面对比，见 [Pocket vs Marqly](/zh/compare/marqly-vs-pocket)。）
 - **Raindrop.io**——想要一个免费、通用的书签管理器。
-- **Instapaper**——只想要一款极简、无附加功能的[稍后读应用](/zh/blog/shaohou-yuedu-app-2026)。
+- **Instapaper**——只想要一款极简、无附加功能的[稍后读应用](/zh/blog/shaohou-yuedu-app-2027)。
 
 （完整分析见[2026 年 8 款最佳 Pocket 替代品](/zh/blog/pocket-tidai-2026)。）
 

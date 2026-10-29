@@ -81,7 +81,7 @@ Der Unterschied zum klassischen Bookmark-Manager: Du investierst die Arbeit nich
 
 ## Umziehen ist kein Projekt
 
-Wer schon länger sammelt, hat seine Sachen selten an einem Ort. Marqly importiert aus **Pocket**, aus **Raindrop** und aus jeder **Lesezeichen-HTML-Datei**, die Chrome, Edge, Firefox oder Safari exportieren. Auch **X/Twitter-Lesezeichen** lassen sich sichern, bevor sie in der Zeitleiste versinken. Wenn du gerade Pocket ersetzt, hilft der Überblick über die [Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2026); wenn du zwischen Werkzeugen schwankst, steht der ehrliche Vergleich [Marqly vs. Raindrop](/de/vergleich/marqly-vs-raindrop) bereit.
+Wer schon länger sammelt, hat seine Sachen selten an einem Ort. Marqly importiert aus **Pocket**, aus **Raindrop** und aus jeder **Lesezeichen-HTML-Datei**, die Chrome, Edge, Firefox oder Safari exportieren. Auch **X/Twitter-Lesezeichen** lassen sich sichern, bevor sie in der Zeitleiste versinken. Wenn du gerade Pocket ersetzt, hilft der Überblick über die [Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2027); wenn du zwischen Werkzeugen schwankst, steht der ehrliche Vergleich [Marqly vs. Raindrop](/de/vergleich/marqly-vs-raindrop) bereit.
 
 ## Was Marqly kostet
 

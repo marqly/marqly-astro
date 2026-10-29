@@ -118,7 +118,7 @@ ogImage: "https://www.marqly.com/og/save-webpage-as-pdf.png"
 - **日后可能需要举证的条款、政策、定价页**
 - **任何你预感会被修改或下架的内容**
 
-其他一切——文章、参考资料、研究材料——书签更好，因为它保持可搜索、保持最新。更好的做法是收藏下来并[把真正重要的部分划线标记](/zh/blog/how-to-highlight-text-on-any-website-2026)，留住洞见而不囤文件。如果你的收藏堆以长文为主，一个像样的[稍后读应用](/zh/blog/shaohou-yuedu-app-2026)甩 PDF 文件夹几条街。
+其他一切——文章、参考资料、研究材料——书签更好，因为它保持可搜索、保持最新。更好的做法是收藏下来并[把真正重要的部分划线标记](/zh/blog/how-to-highlight-text-on-any-website-2026)，留住洞见而不囤文件。如果你的收藏堆以长文为主，一个像样的[稍后读应用](/zh/blog/shaohou-yuedu-app-2027)甩 PDF 文件夹几条街。
 
 长期站得住的工作流是：默认收藏、只给不可替代的东西存 PDF、两者放进同一个可搜索的地方——这就是[整理书签](/zh/blog/shuqian-zhengli-zhinan-2026)让它们日后找得到的无聊但可靠的内核，也是迈向[构建第二大脑](/zh/blog/how-to-build-a-second-brain-2026)而非杂物抽屉的第一个诚实步骤。
 
@@ -130,4 +130,4 @@ Ctrl+P 永远都在，对付朴素文章它是全部所需。但当你需要*原
 
 ---
 
-*相关阅读：[如何整理书签，让它们真的找得到](/zh/blog/shuqian-zhengli-zhinan-2026) · [2026 年最佳稍后读应用](/zh/blog/shaohou-yuedu-app-2026)*
+*相关阅读：[如何整理书签，让它们真的找得到](/zh/blog/shuqian-zhengli-zhinan-2026) · [2026 年最佳稍后读应用](/zh/blog/shaohou-yuedu-app-2027)*

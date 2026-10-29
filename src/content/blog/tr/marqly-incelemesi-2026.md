@@ -16,7 +16,7 @@ lang: "tr"
 faqs:
   - q: "Marqly ücreti ne kadar?"
     a: "100 kayda kadar ücretsiz plan; Pro plan yıllık $72 (aylık $6), STANDING49 kuponuyla ilk yıl $49."
-heroImage: ../../../assets/blog/marqly-review-2026.png
+heroImage: ../../../assets/blog/marqly-review-2027.png
 heroAlt: "Marqly İncelemesi 2026"
 ---
 

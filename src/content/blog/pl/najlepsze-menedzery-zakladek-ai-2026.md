@@ -19,7 +19,7 @@ faqs:
     a: "Prawdziwe narzędzie AI działa w 3 wymiarach: automatyczne tagowanie bez ręcznych folderów, natychmiastowe streszczenia artykułów oraz semantyczne wyszukiwanie, które pozwala odnaleźć zapisany link na podstawie opisu jego treści."
   - q: "Czym jest semantyczne wyszukiwanie w zakładkach?"
     a: "Pozwala znaleźć stronę po jej znaczeniu, a nie dokładnych słowach z tytułu. Wpisując 'artykuł o zaufaniu w zespołach zdalnych', odnajdziesz właściwy tekst, nawet jeśli jego tytuł brzmi zupełnie inaczej."
-heroImage: ../../../assets/blog/best-ai-bookmark-manager-2026.png
+heroImage: ../../../assets/blog/best-ai-bookmark-manager-2027.png
 heroAlt: "Najlepsze menedżery zakładek z AI w 2026 roku — ilustracja"
 ogImage: "https://www.marqly.com/og/best-ai-bookmark-manager-2026.png"
 ---

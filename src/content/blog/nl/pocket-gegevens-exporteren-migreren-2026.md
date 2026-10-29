@@ -50,7 +50,7 @@ Je export is draagbaar, dus de echte vraag is *waar* hij moet wonen. De drie mee
 - **Raindrop.io** — als je een gratis, algemeen bladwijzerbeheer wilt.
 - **Instapaper** — als je gewoon [een read-it-later-app](/nl/blog/beste-read-it-later-apps-2026) wilt met minimalistisch, no-nonsense lezen.
 
-(Voor de volledige uitwerking, zie [De 8 beste Pocket-alternatieven in 2026](/nl/blog/pocket-alternatieven-2026).)
+(Voor de volledige uitwerking, zie [De 8 beste Pocket-alternatieven in 2026](/nl/blog/pocket-alternatieven-2027).)
 
 ## Stap 3: Importeer je bibliotheek
 

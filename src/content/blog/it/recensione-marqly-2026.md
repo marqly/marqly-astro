@@ -16,7 +16,7 @@ lang: "it"
 faqs:
   - q: "Quanto costa Marqly Pro?"
     a: "Costa 72 $/anno (6 $/mese annuale o 9 $/mese) con coupon STANDING49 (49 $ il primo anno)."
-heroImage: ../../../assets/blog/marqly-review-2026.png
+heroImage: ../../../assets/blog/marqly-review-2027.png
 heroAlt: "Recensione Marqly 2026"
 ---
 

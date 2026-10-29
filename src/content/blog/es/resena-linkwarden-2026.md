@@ -84,7 +84,7 @@ El plan en la nube está entre las opciones alojadas más baratas de toda la cat
 
 ## Dónde Linkwarden se queda corto
 
-- **La recuperación corre por tu cuenta.** La búsqueda es por palabras clave y operadores. Si no recuerdas palabras que aparecen en la página, todos los formatos archivados del mundo no la sacarán a la superficie. No hay búsqueda semántica: el hueco que medimos entre herramientas en nuestra [guía de gestores de marcadores con IA](/es/blog/mejores-gestores-marcadores-ia-2026).
+- **La recuperación corre por tu cuenta.** La búsqueda es por palabras clave y operadores. Si no recuerdas palabras que aparecen en la página, todos los formatos archivados del mundo no la sacarán a la superficie. No hay búsqueda semántica: el hueco que medimos entre herramientas en nuestra [guía de gestores de marcadores con IA](/es/blog/mejores-gestores-marcadores-ia-2027).
 - **La IA se detiene en el etiquetado.** Sin resúmenes para triar una pila de pendientes, sin preguntas y respuestas sobre tu biblioteca. Frente a Karakeep, su rival open source más cercano, la capa de inteligencia de Linkwarden está claramente un paso por detrás.
 - **La experiencia de lectura es funcional, no deliciosa.** Correcta para lectura ocasional; los lectores intensivos querrán una app de lectura dedicada junto a ella.
 - **El autoalojamiento tiene un apetito real.** La preservación en múltiples formatos implica un navegador headless haciendo capturas y un almacenamiento que crece rápido. Pide un servidor decente, no el VPS más barato que encuentres.
@@ -115,7 +115,7 @@ El resumen justo: Linkwarden y Marqly optimizan extremos opuestos de la vida de 
 - **Equipos y colaboradores** que comparten colecciones de enlaces curadas con permisos.
 - **Quienes autoalojan** y quieren una herramienta pulida y en desarrollo activo: compárala con Karakeep en nuestra [guía de alternativas autoalojadas a Pocket](/es/blog/mejores-alternativas-autoalojadas-a-pocket-2026) antes de comprometerte, porque las dos lideran ese terreno por razones distintas.
 - **Usuarios priorizando presupuesto**: 3 $/mes alojado es casi imbatible.
-- **Ex usuarios de Pocket que priorizan la propiedad**, aunque conviene escanear el panorama en nuestra [lista de alternativas a Pocket](/es/blog/alternativas-a-pocket-2026).
+- **Ex usuarios de Pocket que priorizan la propiedad**, aunque conviene escanear el panorama en nuestra [lista de alternativas a Pocket](/es/blog/alternativas-a-pocket-2027).
 
 Quién no debería: personas cuyo problema real es la recuperación o el triage. Si el modo de falla de tu biblioteca es «lo guardé y nunca volví a encontrarlo», archivarlo en cuatro formatos no lo resuelve.
 

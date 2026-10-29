@@ -47,7 +47,7 @@ Zwei Funktionen sind bewusst lokal gehalten: Das **Sichern einer Seite als PDF**
 
 ## Die drei Fragen, auf die es ankommt
 
-**Kommst du wieder heraus?** Ja. Du kannst deine Sammlung exportieren. Der Import funktioniert in dieselbe Richtung – aus Pocket, aus Raindrop, aus jeder Lesezeichen-HTML-Datei. Ein Werkzeug, das den Ausgang versperrt, verdient dein Archiv nicht; wer gerade das Feld sondiert, findet im Beitrag zu den [Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2026) den Überblick.
+**Kommst du wieder heraus?** Ja. Du kannst deine Sammlung exportieren. Der Import funktioniert in dieselbe Richtung – aus Pocket, aus Raindrop, aus jeder Lesezeichen-HTML-Datei. Ein Werkzeug, das den Ausgang versperrt, verdient dein Archiv nicht; wer gerade das Feld sondiert, findet im Beitrag zu den [Pocket-Alternativen 2026](/de/blog/pocket-alternativen-2027) den Überblick.
 
 **Werden deine Daten verkauft?** Nein. Deine Speicherungen werden nicht verkauft und nicht zu Werbezwecken weitergegeben. Das Geschäftsmodell ist ein Abonnement: **72 $/Jahr (rund 66 €)** oder **9 $/Monat (rund 8 €)**, für Studierende **48 $ (rund 44 €) im ersten Jahr**. Diese Klarheit ist auch ein Grund, warum es die kostenlose Stufe ohne Kreditkarte gibt und keine Datensammlung als Gegenleistung.
 

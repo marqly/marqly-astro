@@ -40,7 +40,7 @@ La page d'aide officielle de YouTube sur [les sous-titres et la transcription](h
 
 Parce que la vidéo cache sa valeur derrière une barre de progression. Un podcast de 40 minutes peut contenir huit minutes qui vous intéressent. Un tutoriel de 25 minutes peut enterrer le vrai correctif à 19:40. La miniature et le titre sont du marketing : ils disent ce que le créateur veut vous faire cliquer, pas ce que la vidéo livre réellement.
 
-Le texte n'a pas ce problème. Vous pouvez survoler l'intro et les titres d'un article en quinze secondes et savoir s'il faut vous engager — c'est pourquoi les [applications de lecture différée](/fr/blog/meilleures-applications-lecture-differee-2026) marchent si bien avec l'écrit. La vidéo ne donne rien à survoler. Les chapitres aident quand les créateurs prennent la peine d'en mettre ; la plupart n'en mettent pas.
+Le texte n'a pas ce problème. Vous pouvez survoler l'intro et les titres d'un article en quinze secondes et savoir s'il faut vous engager — c'est pourquoi les [applications de lecture différée](/fr/blog/meilleures-applications-lecture-differee-2027) marchent si bien avec l'écrit. La vidéo ne donne rien à survoler. Les chapitres aident quand les créateurs prennent la peine d'en mettre ; la plupart n'en mettent pas.
 
 Le résumé IA restaure l'étape de triage. Trente secondes de lecture vous disent s'il faut regarder tout, sauter à une section, ou fermer l'onglet. Multipliez ça sur une file « à regarder plus tard » et ce sont des heures récupérées par semaine — vous cessez de payer 40 minutes pour découvrir qu'une vidéo ne valait pas 40 minutes.
 

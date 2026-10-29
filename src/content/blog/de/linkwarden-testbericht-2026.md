@@ -83,7 +83,7 @@ Der Cloud-Plan gehört zu den günstigsten gehosteten Optionen der gesamten Kate
 
 ## Wo Linkwarden Schwächen hat
 
-- **Wiederfinden bleibt völlig Ihre Sache.** Die Suche arbeitet mit Keywords und Operatoren. Wenn Sie sich an kein Wort erinnern, das auf der Seite vorkommt, bringt Ihnen auch kein archiviertes Format den Treffer. Semantische Suche fehlt — die Lücke, die wir in unserem [KI-Lesezeichen-Manager-Ratgeber](/de/blog/beste-ai-lesezeichen-manager-2026) quer durch alle Tools vermessen.
+- **Wiederfinden bleibt völlig Ihre Sache.** Die Suche arbeitet mit Keywords und Operatoren. Wenn Sie sich an kein Wort erinnern, das auf der Seite vorkommt, bringt Ihnen auch kein archiviertes Format den Treffer. Semantische Suche fehlt — die Lücke, die wir in unserem [KI-Lesezeichen-Manager-Ratgeber](/de/blog/beste-ai-lesezeichen-manager-2027) quer durch alle Tools vermessen.
 - **Die KI endet beim Taggen.** Keine Zusammenfassungen zum Vorsortieren eines Rückstands, kein Q&A über Ihre Bibliothek. Verglichen mit Karakeep — dem nächsten Open-Source-Rivalen — ist Linkwardens Intelligenz-Schicht eine klare Stufe dahinter.
 - **Leseerlebnis funktional, nicht beglückend.** Für gelegentliches Lesen fein; Vielleser wollen parallel eine dedizierte Reader-App.
 - **Self-Hosting hat echten Appetit.** Mehrfach-Archivierung heißt: ein Headless-Browser macht die Captures, und der Speicher wächst schnell. Das Tool will einen richtigen Server, nicht den kleinsten VPS, den Sie finden.
@@ -114,7 +114,7 @@ Die faire Zusammenfassung: Linkwarden und Marqly optimieren die beiden entgegeng
 - **Teams und Kollaborateure**, die kuratierte Link-Sammlungen mit Rechten teilen.
 - **Self-Hoster**, die ein poliertes, aktiv entwickeltes Tool wollen — vergleichen Sie es mit Karakeep in unserem [Ratgeber zu den besten selbstgehosteten Pocket-Alternativen](/de/blog/beste-self-hosted-pocket-alternativen-2026), bevor Sie sich festlegen, denn die beiden führen dieses Feld aus unterschiedlichen Gründen an.
 - **Budget-first-Nutzer** — 3 $/Monat gehostet ist fast unschlagbar.
-- **Ex-Pocket-Nutzer, für die Eigentum zählt** — einen Blick ins weitere Feld lohnt unser [Pocket-Alternativen-Überblick](/de/blog/pocket-alternativen-2026).
+- **Ex-Pocket-Nutzer, für die Eigentum zählt** — einen Blick ins weitere Feld lohnt unser [Pocket-Alternativen-Überblick](/de/blog/pocket-alternativen-2027).
 
 Für wen nicht: Menschen, deren echtes Problem Wiederfinden oder Vorsortieren ist. Wenn Ihre Bibliothek den Fehler „gespeichert und nie wieder gefunden“ hat, löst es nicht, sie in vier Formaten zu archivieren.
 

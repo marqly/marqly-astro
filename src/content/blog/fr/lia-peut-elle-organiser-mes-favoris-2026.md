@@ -46,7 +46,7 @@ Trois rouages, tous automatiques :
 - **Résumés** — elle génère une synthèse d'une ou deux phrases pour comprendre de quoi parle une sauvegarde en un coup d'œil, des semaines plus tard.
 - **Regroupement sémantique** — au lieu de forcer un élément dans un seul dossier, l'IA saisit le sens, et une sauvegarde peut se rattacher à plusieurs thèmes à la fois.
 
-Ces trois fonctions sont des fonctionnalités Marqly Pro chez [Marqly](https://app.marqly.com) : vous enregistrez un article, une vidéo ou une note, l'IA l'étiquette et la résume à la capture, puis rend toute la bibliothèque interrogeable par le sens — une fois étiqueté, vous retrouvez tout avec [la recherche de favoris par IA](/fr/blog/quest-ce-que-la-recherche-semantique). Si vous comparez les outils, notre synthèse des [meilleurs gestionnaires de favoris avec IA en 2026](/fr/blog/meilleurs-gestionnaires-favoris-ia-2026) fait le tour du sujet.
+Ces trois fonctions sont des fonctionnalités Marqly Pro chez [Marqly](https://app.marqly.com) : vous enregistrez un article, une vidéo ou une note, l'IA l'étiquette et la résume à la capture, puis rend toute la bibliothèque interrogeable par le sens — une fois étiqueté, vous retrouvez tout avec [la recherche de favoris par IA](/fr/blog/quest-ce-que-la-recherche-semantique). Si vous comparez les outils, notre synthèse des [meilleurs gestionnaires de favoris avec IA en 2026](/fr/blog/meilleurs-gestionnaires-favoris-ia-2027) fait le tour du sujet.
 
 ## Ai-je encore besoin de dossiers ?
 

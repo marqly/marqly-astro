@@ -16,7 +16,7 @@ lang: "it"
 faqs:
   - q: "Perché passare da Instapaper a Marqly?"
     a: "Perché Marqly permette di ritrovare qualsiasi articolo descrivendone il concetto a memoria, oltre a riassumerlo e organizzarlo automaticamente con l'IA."
-heroImage: ../../../assets/blog/instapaper-alternatives-2026.png
+heroImage: ../../../assets/blog/instapaper-alternatives-2027.png
 heroAlt: "Migliori alternative a Instapaper nel 2026"
 ---
 

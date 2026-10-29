@@ -107,7 +107,7 @@ Los planes de pago en la nube incluyen garantía de devolución de 7 días, y la
 | Captura de página | Archivo monolith | Guardar como PDF, fiel al diseño en pantalla |
 | Quién lo mantiene | **Tú** | Marqly |
 
-Este es honestamente simple: la fila decisiva es la última. Karakeep te da todo por lo que Marqly cobra, gratis, más una propiedad de datos que Marqly no puede ofrecer — a cambio de tus noches y tu tiempo de actividad. Marqly te da la experiencia de marcadores con IA — búsqueda semántica, autoetiquetado, resúmenes, [herramientas de YouTube](/es/blog/mejores-gestores-marcadores-ia-2026) — funcionando igual de bien en el minuto uno que en el millón, sin nadie a quien mantener. Los self-hosters no necesitan que les digamos cuáles son. Si solo te pica la curiosidad por autoalojarte, haz la cuenta de lo que cuesta de verdad una máquina siempre encendida más tu tiempo, frente a un [plan gratuito](https://app.marqly.com) y 6 USD/mes si luego quieres Pro.
+Este es honestamente simple: la fila decisiva es la última. Karakeep te da todo por lo que Marqly cobra, gratis, más una propiedad de datos que Marqly no puede ofrecer — a cambio de tus noches y tu tiempo de actividad. Marqly te da la experiencia de marcadores con IA — búsqueda semántica, autoetiquetado, resúmenes, [herramientas de YouTube](/es/blog/mejores-gestores-marcadores-ia-2027) — funcionando igual de bien en el minuto uno que en el millón, sin nadie a quien mantener. Los self-hosters no necesitan que les digamos cuáles son. Si solo te pica la curiosidad por autoalojarte, haz la cuenta de lo que cuesta de verdad una máquina siempre encendida más tu tiempo, frente a un [plan gratuito](https://app.marqly.com) y 6 USD/mes si luego quieres Pro.
 
 ## ¿Para quién es Karakeep?
 
@@ -115,7 +115,7 @@ Este es honestamente simple: la fila decisiva es la última. Karakeep te da todo
 - **Usuarios de privacidad primero** que quieren funciones de IA sin ninguna nube de por medio.
 - **Acaparadores de datos** — archivos de páginas, archivos de vídeo, capturas con OCR, ingesta RSS. Está en el ADN.
 - **Tinkerers y desarrolladores** que de verdad usarán la API, la CLI y el motor de reglas.
-- **Ex usuarios de Pocket cómodos con Docker** — mira cómo se bate con la otra opción en nuestra [guía de alternativas autoalojadas a Pocket](/es/blog/mejores-alternativas-autoalojadas-a-pocket-2026), o el recopilatorio más amplio de [alternativas a Pocket](/es/blog/alternativas-a-pocket-2026) si autoalojarse es negociable.
+- **Ex usuarios de Pocket cómodos con Docker** — mira cómo se bate con la otra opción en nuestra [guía de alternativas autoalojadas a Pocket](/es/blog/mejores-alternativas-autoalojadas-a-pocket-2026), o el recopilatorio más amplio de [alternativas a Pocket](/es/blog/alternativas-a-pocket-2027) si autoalojarse es negociable.
 
 Quién no debería: cualquiera que haya leído «proxy inverso» arriba y sentido sueño. No hay vergüenza — el mantenimiento es un coste real, y pagar 4 USD/mes a alguien para que desaparezca es un intercambio racional.
 

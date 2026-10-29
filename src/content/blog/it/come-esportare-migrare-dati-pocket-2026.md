@@ -48,9 +48,9 @@ Il tuo export è portabile, quindi la vera domanda è *dove* deve finire. Le tre
 
 - **Marqly** — se vuoi che la tua libreria sia consultabile per significato (ricerca IA su Pro), con etichettatura automatica e riassunti su Pro. Importa il tuo file Pocket con i tag intatti. (Vedi esattamente come se la cava in [Pocket vs Marqly](/it/confronto/marqly-vs-pocket).)
 - **Raindrop.io** — se vuoi un gestore di segnalibri generico e gratuito.
-- **Instapaper** — se vuoi semplicemente [un'app di lettura differita](/it/blog/migliori-app-salva-e-leggi-dopo-2026) minimalista, senza fronzoli.
+- **Instapaper** — se vuoi semplicemente [un'app di lettura differita](/it/blog/migliori-app-salva-e-leggi-dopo-2027) minimalista, senza fronzoli.
 
-(Per un'analisi completa, vedi [le 8 migliori alternative a Pocket nel 2026](/it/blog/alternative-a-pocket-2026).)
+(Per un'analisi completa, vedi [le 8 migliori alternative a Pocket nel 2026](/it/blog/alternative-a-pocket-2027).)
 
 ## Passaggio 3: importa la tua libreria
 

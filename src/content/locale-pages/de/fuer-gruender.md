@@ -32,7 +32,7 @@ Das Konkurrenz-Spreadsheet ist der Ort, an dem Gründer-Disziplin stirbt: zwei W
 
 Die unterschätzte Waffe ist Speichern-als-PDF. Preisseiten der Konkurrenz ändern sich ohne Ankündigung, und die alte Version verschwindet mitsamt dem Beweis. Marqly erfasst jede Seite als sauberes PDF im Bildschirm-Layout — nachgeladene Bilder inklusive, lokal in Ihrem Browser verarbeitet — sodass Sie datierte Schnappschüsse davon ansammeln, was Rivalen Quartal für Quartal verlangt und behauptet haben. Wenn jemand fragt „hatten die nicht früher ein Free Tier?", haben Sie die Belege.
 
-Wir stehen in dieser Kategorie selbst im Wettbewerb, der Vollständigkeit halber — [unser Vergleich der KI-Lesezeichen-Manager](/de/blog/beste-ai-lesezeichen-manager-2026) ist geschrieben, wie wir den eines Konkurrenten lesen wollen: mit Zugeständnis bei den Zeilen, die andere gewinnen.
+Wir stehen in dieser Kategorie selbst im Wettbewerb, der Vollständigkeit halber — [unser Vergleich der KI-Lesezeichen-Manager](/de/blog/beste-ai-lesezeichen-manager-2027) ist geschrieben, wie wir den eines Konkurrenten lesen wollen: mit Zugeständnis bei den Zeilen, die andere gewinnen.
 
 ## Marktforschung, die sich vermehrt statt verdunstet
 

@@ -14,7 +14,7 @@ tags:
 ctaUrl: "https://app.marqly.com/lp/ai-search"
 ctaLabel: "Marqly kostenlos starten"
 lang: "de"
-heroImage: ../../../assets/blog/marqly-review-2026.png
+heroImage: ../../../assets/blog/marqly-review-2027.png
 heroAlt: "Marqly Testbericht 2026 — Illustration"
 ogImage: "https://www.marqly.com/og/marqly-review-2026.png"
 faqs:
@@ -85,7 +85,7 @@ Mit ~6 $/Monat liegt Marqly unter Premium-Tools wie Readwise Reader (12 $/Monat)
 ## Für wen Marqly passt
 
 - Menschen mit einem großen, unordentlichen Lesezeichen-Bestand, den sie nicht wiederfinden.
-- Ehemalige Pocket-Nutzer, die die KI-Suche wollen, die Pocket nie hatte (falls du dich noch umschaust: vergleiche zuerst die [Pocket-Alternativen](/de/blog/pocket-alternativen-2026)).
+- Ehemalige Pocket-Nutzer, die die KI-Suche wollen, die Pocket nie hatte (falls du dich noch umschaust: vergleiche zuerst die [Pocket-Alternativen](/de/blog/pocket-alternativen-2027)).
 - Alle, die aus dem Gelesenen ein „zweites Gehirn“ bauen — ohne den Pflegeaufwand.
 
 ## Für wen es nicht passt
@@ -102,4 +102,4 @@ Marqlys Wette ist, dass die Zukunft des Link-Speicherns **Abruf statt Lagerung**
 
 ---
 
-*Verwandt: [Der beste KI-Lesezeichen-Manager 2026](/de/blog/beste-ai-lesezeichen-manager-2026) · [Pocket vs Marqly](/de/vergleich/marqly-vs-pocket) · [Raindrop vs Marqly](/de/vergleich/marqly-vs-raindrop)*
+*Verwandt: [Der beste KI-Lesezeichen-Manager 2026](/de/blog/beste-ai-lesezeichen-manager-2027) · [Pocket vs Marqly](/de/vergleich/marqly-vs-pocket) · [Raindrop vs Marqly](/de/vergleich/marqly-vs-raindrop)*

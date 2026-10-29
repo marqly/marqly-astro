@@ -23,7 +23,7 @@ faqs:
     a: "Raindrop.io zengin bir ücretsiz plan sunar. Marqly ise 100 yer imine kadar tüm kütüphaneyi kapsayan arama özellikli ücretsiz bir plana sahiptir."
   - q: "Pocket tam olarak ne zaman kapandı?"
     a: "Mozilla, Pocket'ın kapatılacağını 8 Temmuz 2025'te duyurarak yeni kaydetmeleri durdurdu ve 12 Kasım 2025'te dışa aktarma devre dışı bırakıldı ve kalan kullanıcı verilerinin silinmesi başladı ([Mozilla duyurusu](https://support.mozilla.org/en-US/kb/future-of-pocket))."
-heroImage: ../../../assets/blog/best-pocket-alternatives-2026.png
+heroImage: ../../../assets/blog/best-pocket-alternatives-2027.png
 heroAlt: "2026 Yılında En İyi 8 Pocket Alternatifi — illüstrasyon"
 ogImage: "https://www.marqly.com/og/best-pocket-alternatives-2026.png"
 ---
