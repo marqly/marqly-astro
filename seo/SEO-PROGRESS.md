@@ -15,11 +15,11 @@ Mission: page-1 (pos 6–12) → top 3. Constraints in leverage order: authority
 
 **LIVE as of 2026-10-06 11:34 UTC.** Production `132def5`; Cloudflare build succeeded, required pages/canonicals/noindex/redirects and 1,343-URL sitemap verified live. Search Console confirmed manual marketing sitemap resubmission; Bing IndexNow accepted 1,343 URLs (HTTP 200). Deploy dates filled; indexing and Day-30 outcomes remain unmeasured. No outreach send completed yet. See `reports/05-live-deployment-2026-10-06.md`.
 
-## 2027 program (2026-10-29, local only — NOT deployed)
+## 2027 program (2026-10-30 — LIVE & DEPLOYED)
 
 Owner-authorized. Architecture in **ADR-007**; briefs in `seo/briefs/2027-program.md` and
-`seo/briefs/2027-parity-repair.md`; session detail in `SESSION_LOG.md` (2026-10-29); guard rules in
-`.seo/truth-ledger.md` (2026-10-29).
+`seo/briefs/2027-parity-repair.md`; session detail in `SESSION_LOG.md` (2026-10-30); guard rules in
+`.seo/truth-ledger.md` (2026-10-29); deployment report in `reports/06-live-deployment-2026-10-30.md`.
 
 **Why:** the "best bookmark" family = 47 queries, **1,054 impressions, 0 clicks** at pos 8–26, with
 the ≈612-impression teacher/educator/school/student block owned by a single-vendor persona lander
@@ -54,21 +54,24 @@ verified, and wired:
 
 Regressions went 56 → 0, and sitemap URLs recovered 1,401 → **1,457** (surpassing the 1,408 baseline).
 
-**Verification (final, local):** `npm run build` green at **2,010 pages**; **ALL 25 SEO GATES
+**Verification (final, deployed):** `npm run build` green at **2,010 pages**; **ALL 25 SEO GATES
 PASSED**; sitemap **1,457 URLs**; `parity-regression.mjs` **0 regressions**;
 `check-links.mjs` 0 broken internal hrefs; **0 broken hreflang targets** across **112 clusters**;
 all 301 redirect rules verified with catch-all still last.
-**Not deployed** — needs owner authorization.
+**LIVE IN PRODUCTION:** Deployed via Cloudflare Workers (Version `7dd4b17b-e5b1-4a79-9f9f-6ac876f97600`).
+Live HTTP 200 responses verified on money pages, teacher clusters, and live sitemap; 301 redirects
+verified live. IndexNow protocol pinged: **1,457 URLs** accepted by IndexNow central and Bing (HTTP 200).
+`changes-log.csv` 180 rows updated to `2026-10-30`. Full report in `seo/reports/06-live-deployment-2026-10-30.md`.
 
 **Deliberately out of scope:** ~415 localized `-2026` pages (34,155 imp / 702 clicks). Their
 highest-demand members are how-to and export guides, not the listicles rolled here, and many hold
 pos 5–8 — a separate evidence-led program. They remain live and hreflang-paired to the new EN pages.
 
-## KPI deltas (owner snapshot baseline → local after 2026-10-05)
+## KPI deltas (owner snapshot baseline → live production after 2026-10-30)
 
-| KPI | Baseline | Now (local build) | Target |
+| KPI | Baseline | Now (live production) | Target |
 |---|---|---|---|
-| Sitemap URLs | 1,914 | **1,343** (current verified local sitemap) | quality↑ |
+| Sitemap URLs | 1,914 | **1,457** (live verified sitemap) | quality↑ |
 | Indexable localized stubs (<50% parity) | **798** | **0** (tier-2/3 pruned; 168 tier-1 pages transcreated to full parity, rounds 1-7) | 0 |
 | Titles >60 (indexable) | **550** | **0** (≤60, entity-correct) | 0 |
 | Metas >160 | **194** | **0** | 0 |

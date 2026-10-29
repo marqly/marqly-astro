@@ -108,8 +108,12 @@ with zero churn on the 64 existing ones. 1,313 hreflang targets across 112 clust
 Baseline before the session was 1,963 pages / 1,408 sitemap URLs / 25 gates green, so the comparison
 is like-for-like.
 
-**Not deployed** — no `marqly-astro` push was made; that needs owner authorization. `changes-log.csv`
-rows therefore carry `deploy_date = PENDING` per house convention.
+**Deployed to production 2026-10-30** — pushed to `origin/main` and `marqly-astro/main`.
+Cloudflare Worker deployed (Version ID `7dd4b17b-e5b1-4a79-9f9f-6ac876f97600`).
+Live verification completed: HTTP 200 on new 2027 pages and sitemap (1,457 URLs); HTTP 301
+redirects verified live. IndexNow protocol pinged: 1,457 URLs accepted with HTTP 200 by both
+central IndexNow and Bing. `changes-log.csv` 180 rows updated to `2026-10-30`. Full deployment
+report in `seo/reports/06-live-deployment-2026-10-30.md`.
 
 ### Deliberately out of scope (recorded so it is not mistaken for done)
 ~415 localized `-2026` pages (34,155 imp / 702 clicks across 427 URLs) were **not** rolled. Their
