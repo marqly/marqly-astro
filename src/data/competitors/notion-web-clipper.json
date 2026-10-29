@@ -1,7 +1,10 @@
 {
   "name": "Notion Web Clipper",
   "slug": "notion-web-clipper",
-  "aka": ["notion", "notion-clipper"],
+  "aka": [
+    "notion",
+    "notion-clipper"
+  ],
   "category": "notes",
   "status": "active",
   "shutdownNote": null,
@@ -11,9 +14,17 @@
     "free": true,
     "paid": "Clipper: free. Notion Plus $10/member/mo, Business $20/member/mo (billed annually)",
     "trial": null,
-    "notes": "The clipper works with any Notion account, including the generous free plan. Full Notion AI — chat, summaries, AI search — is bundled only with Business and above; Free and Plus get a trial. Monthly billing costs more than the annual rates shown."
+    "notes": "The clipper works with any Notion account, including the generous free plan. Full Notion AI — chat, summaries, AI search — is bundled only with Business and above; Free and Plus get a trial. Monthly billing costs more than the annual rates shown. EDUCATION PLAN (verified verbatim on notion.com/help/notion-for-education 2026-10-29): free for individual students and teachers at ACCREDITED COLLEGES AND UNIVERSITIES ONLY. Explicitly NOT eligible: \"You're a K-12 student or K-12 educator\" (they can use the ordinary Free Plan) and accounts on a personal email such as gmail.com. Requires a school email from an institution listed in the World Higher Education Database (WHED); student IDs and other documentation are not accepted. One member per workspace with up to 100 guests. Each school email can claim it once; upgrading that workspace to Plus/Business/Enterprise permanently ends its education eligibility. Status must be re-verified once a year."
   },
-  "platforms": ["web", "chrome", "safari", "ios", "android", "windows", "mac"],
+  "platforms": [
+    "web",
+    "chrome",
+    "safari",
+    "ios",
+    "android",
+    "windows",
+    "mac"
+  ],
   "features": {
     "aiAutoTagging": false,
     "semanticSearch": true,
@@ -76,5 +87,5 @@
       "a": "Yes. Notion exports content as Markdown, HTML, CSV (for databases, including a clippings database), and PDF on every plan, and you can export an entire workspace at once. Clipped articles export with their converted text. Since clips are stored as regular Notion pages, they are as portable as the rest of your workspace."
     }
   ],
-  "lastVerified": "2026-08-02"
+  "lastVerified": "2026-10-29"
 }

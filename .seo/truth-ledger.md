@@ -188,3 +188,88 @@ window (competitor names are read from `src/data/competitors/*.json`).
   fixed by deepening it/pt/fr to 0.95× rather than dropping the cluster. Lesson: adding a
   TRANSLATIONS row changes the siblings' indexability — re-run isIndexable for every cluster member
   after pairing.
+
+## 2026-10-29 — the 2027 program: four new guard rules
+
+### 1. NEW VARIANT of the 2026-10-05 lesson: growing the EN source also re-prunes its siblings
+
+The 2026-10-05 entry covers *pairing* changing indexability. The 2027 program hit the same gate
+from the other direction and it is the more dangerous one, because nothing looks wrong locally.
+
+Rolling 16 EN money pages to `-2027` **expanded** them heavily (`best-pocket-alternatives`
+2,621 → 4,696 units; `best-web-highlighters` → 5,729; `instapaper-alternatives` → 6,540). The
+Tier-2/3 siblings had been written to parity with the *old, shorter* EN, so against the new
+denominator they fell below 0.8 and were **auto-noindexed, dropped from the sitemap, and stripped
+from their hreflang clusters**: **56 pages** (fr 11, it 11, zh 10, pt 9, tr 6, pl 5, nl 4).
+Tier 1 (`ja ko de es`) is immune — always indexable.
+
+Nothing fails when this happens. Every gate passes. The build is green. The pages simply stop
+existing for Google, silently. Detection required calling `localeParityCensus()` and diffing old
+parity (units vs the *git HEAD* EN file) against new parity — see
+`active/tmp/parity-regression.mjs`.
+
+**Rule going forward: any edit that materially grows an EN source must be followed by
+`node active/tmp/parity-regression.mjs` (or an equivalent census diff) across every cluster that
+source anchors. "All gates pass" does NOT mean "no locale page was pruned."** The sitemap URL count
+is the cheap canary — it fell 1,408 → 1,401 while the page count *rose* 1,963 → 2,010, and that
+divergence is the tell.
+
+### 2. A "vendor is dead" claim must be checked against `src/data/competitors/*.json#website`
+
+A research subagent reported that Weava's domain did not resolve and the vendor was possibly dead.
+Acting on it, a "domain did not resolve" warning was written into the EN students article and
+briefed for propagation into 33 localized files. **It was false.** The agent had fetched
+`weavatool.com` (singular); the vendor is **`weavatools.com`** (plural), which returns HTTP 200, and
+its 70% student discount is published verbatim there. Caught before the propagation agent finished.
+
+**Rule: a negative-existence finding from a subagent ("X is dead", "X no longer exists", "X has no
+Y") is never actionable on the subagent's word alone.** Re-fetch it yourself, and resolve the domain
+from the data layer's `website` field rather than from memory or from the agent's prose. Same shape
+as the retracted benchmark: a confidently-stated claim that was never actually measured.
+
+### 3. Verified vendor corrections, 2026-10-29 (fetched from the vendors' own pages)
+
+Applied to `src/data/competitors/*.json` with `lastVerified: 2026-10-29`, which propagates to
+`/compare` (137 pages) and `/alternatives` (24 pages):
+
+- **Readwise / Readwise Reader** — **50% off for students and other members of academia**; email
+  `hello@readwise.io` *before* subscribing, then subscribe via the Readwise website. The data layer
+  previously implied no student pricing existed. Also corrected an unreproducible Lite `$4.49` →
+  **$5.59** (corroborated by readwise.io and by `readwise-reader.json`).
+- **Glasp** — **40% off Pro for educators and students**. Pro is **$12.50/mo billed yearly
+  ($150/yr)** or **$15/mo billed monthly**; Unlimited **$30/mo billed yearly ($360/yr)**. The old
+  "$15/month or $150/year" conflated a monthly rate with an annual total.
+- **Weava** — **70% off Premium for students** via `education@weavatools.com`; Premium **$3.99/mo**
+  (the page shows $7.99 struck through). **Educators have no published percentage** — only "special
+  offers and packages for classes" via a form. Do not state an educator figure.
+- **Notion Web Clipper** — the free Education Plan is for **accredited colleges and universities
+  only**. Notion states verbatim: *"You're not eligible if: You're a K-12 student or K-12 educator."*
+  WHED-listed school email required (no student IDs), **one member** + up to 100 guests, annual
+  re-verification, and upgrading permanently ends eligibility. **This changes the teacher/school
+  advice materially** — most school teachers do not qualify, so Notion is a paid decision for them.
+- **mymind** — "Student of Life" ($7.99/mo or $79/yr) is a **plan name, not a student discount**.
+  Its free guest plan is **free forever at 100 cards**; the 2026 free-tier roundup wrongly said
+  mymind had no permanent free plan.
+
+**Deliberately NOT applied** (agent-reported, not independently re-fetched — recorded so nobody
+"remembers" them as verified): mymind "Newton $299/yr"; Evernote 40% college-student discount and
+its new Flexible/Unlimited lineup; Karakeep Cloud $40/yr and a `karakeep.app`→`karakeep.com` move;
+LINER returning 410 Gone; and the headline prices for Evernote, Diigo, Workona and Raindrop-web that
+are rendered by JS and could not be read by fetch. Treat all six as **UNKNOWN**, not as confirmed
+and not as refuted.
+
+### 4. Two mechanical traps, both already documented elsewhere and both re-hit
+
+- **`while (re.exec(text))` on a regex without `/g` infinite-loops** when a `continue` skips a match
+  (`lastIndex` never advances). Recorded in `CLAUDE.md` 2026-10-05; re-hit in
+  `active/tmp/validate-2027.mjs`, which hung 5 minutes on `marqly-review-2027.md`. The trigger was
+  *legitimate* copy — "no public API and no self-hosted deployment" is correctly negated. Fixed by
+  rebuilding with `/g` and scanning via `matchAll`.
+- **An unanchored path regex rewrites more than paths.** `/blog/<slug>-2026` also matches the tail
+  of a *localized* path (`/ja/blog/<slug>-2026` contains it) and the tail of an *asset* path
+  (`../../assets/blog/<slug>-2026.png`). The first broke 122 hreflang targets and 10 internal links;
+  the second renamed 6 `heroImage` assets out from under Astro and failed the build with
+  `ImageNotFound`. Repaired by `active/tmp/repair-locale-links.mjs` and by `git mv`-ing the six
+  assets to their `-2027` names. **Rule: anchor path rewrites to a leading boundary
+  (`(?<![\w/-])` or an explicit `](`/`href="` prefix) and exclude `assets/`.**
+

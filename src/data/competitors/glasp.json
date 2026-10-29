@@ -14,9 +14,9 @@
   "tagline": "Social highlighter that turns your reading into a public knowledge profile",
   "pricing": {
     "free": true,
-    "paid": "Pro $15/month or $150/year; Unlimited $36/month or $360/year",
+    "paid": "Pro $12.50/month billed yearly ($150/year) or $15/month billed monthly; Unlimited $30/month billed yearly ($360/year)",
     "trial": null,
-    "notes": "Free plan includes unlimited public highlights only — private highlights require Pro. Free AI caps are tight (3 YouTube summaries/day, 20 PDF chat messages/month). Prices rose ~20-25% in May 2026; subscriptions are non-refundable. Student discount on Pro yearly with an academic email."
+    "notes": "Free plan includes unlimited public highlights only — private highlights require Pro. Free AI caps are tight (3 YouTube summaries/day, 20 PDF chat messages/month). Prices rose ~20-25% in May 2026; subscriptions are non-refundable. EDUCATION: \"we offer a 40% discount for educators and students\" — applies to Pro billed yearly, with a short verification step (glasp.co/posts/glasp-student-discount). Verified verbatim on glasp.co/pricing 2026-10-29."
   },
   "platforms": [
     "web",
@@ -89,5 +89,5 @@
       "a": "Yes — export is one of Glasp's strengths. Highlights and notes export as Markdown, CSV, HTML, or JSON, and integrations push them automatically to Notion (paid, daily sync), Obsidian via an official plugin, Readwise, Roam, and Logseq. Kindle highlights export as TXT, CSV, or Markdown. A developer API and MCP connector cover programmatic access."
     }
   ],
-  "lastVerified": "2026-08-02"
+  "lastVerified": "2026-10-29"
 }

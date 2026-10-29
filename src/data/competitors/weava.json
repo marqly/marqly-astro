@@ -14,9 +14,9 @@
   "tagline": "Web and PDF highlighter built for student research",
   "pricing": {
     "free": true,
-    "paid": "$3.99/month billed annually or $7.99/month billed monthly",
+    "paid": "Premium $3.99/month (the pricing page shows $7.99/month struck through as the former price)",
     "trial": null,
-    "notes": "Free tier includes unlimited highlights and notes but caps storage at 100 MB, blocks sub-folders, and shows ads. Students get 70% off Premium via an education email. No trial advertised. Pricing page appears untouched since ~2022, so verify billing before subscribing."
+    "notes": "Free tier includes unlimited highlights and notes but caps storage at 100 MB, blocks sub-folders, and shows ads; the site states it \"is free and always will be\". EDUCATION (students): \"We offer an 70% discount on premium plans for students. Please contact education@weavatools.com from your student email address.\" EDUCATION (educators): NO published percentage — \"special offers and packages for classes\" via a contact form. Verified verbatim on weavatools.com/premium/ 2026-10-29. DOMAIN NOTE: the site is weavatools.com (plural); weavatool.com does not resolve and is not the vendor. Maintenance-risk signals stand: Chrome extension not updated since Feb 2024, copyright 2022, former iOS app delisted, reports of disappearing highlights."
   },
   "platforms": [
     "web",
@@ -85,5 +85,5 @@
       "a": "Yes. Highlights and notes export to Word (.docx), Excel, TXT, and CSV, plus formatted citations in APA, MLA, Chicago, and Harvard styles — all available on the free plan. There's no bookmark-HTML or JSON export, but several competing highlighters publish Weava import guides, so migrating your research off the platform is feasible."
     }
   ],
-  "lastVerified": "2026-08-02"
+  "lastVerified": "2026-10-29"
 }
