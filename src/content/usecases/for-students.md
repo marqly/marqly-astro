@@ -7,20 +7,20 @@ targetKeyword: "bookmark manager for students"
 navLabel: "Students"
 hero:
   heading: "Every reading, lecture, and source — findable at essay time"
-  subheading: "Marqly saves your articles and lecture videos, highlights your readings, and lets you find any source weeks later by describing what you remember."
-updatedDate: 2026-08-02
+  subheading: "Marqly helps students keep readings, highlights, and lecture links in one library. Start free with up to 100 saves and keyword search; Pro adds automatic tagging, summaries, and semantic search. Organize sources by course, keep your own citation notes, and check imported files before relying on them for an assignment."
+updatedDate: 2026-10-06
 faqs:
   - q: "Is Marqly free for students?"
     a: "Marqly has a free tier that anyone can use — sign up at app.marqly.com with no card required. Verified students also get a discount: Pro is $48 for your first year (instead of $72), confirmed automatically with a university email at checkout. Most students can start on the free tier and upgrade only if they need Pro features like AI summaries, semantic search, and chat."
   - q: "Can Marqly save YouTube lectures with the transcript?"
-    a: "Yes. Marqly adds an AI card to every YouTube watch page with a playback-synced transcript you can copy in one click, plus an AI summary with key sections. A bookmark button in YouTube's action row saves the video to your library with its transcript attached, so semantic search can later find the lecture by what was said in it."
+    a: "Yes. Marqly adds an AI card to every YouTube watch page with a playback-synced transcript you can copy in one click, plus a Pro AI summary with key sections. A bookmark button in YouTube's action row saves the video to your library with its transcript attached, so Pro semantic search can later find the lecture by what was said in it."
   - q: "Do my highlights stay on the page when I come back to a reading?"
     a: "They do. When you highlight text on a website with Marqly, the highlight persists on the page when you revisit it, so a reading looks the way you left it. Highlights also sync to your Marqly library, where you can search them, add notes to them, and group them onto boards alongside the rest of your sources."
 ---
 
 The essay is due Friday. You read the perfect source two weeks ago — you remember it argued something about labor markets after automation — but it's gone. It's not in your browser history, it's not in the doc where you pasted "links to use," and the seventeen tabs you kept open as a filing system got closed by a restart. Students don't have a saving problem; browsers save things fine. They have a *finding* problem, and it gets worse every semester.
 
-Marqly is an AI bookmark manager built around that finding problem. You save readings and lecture videos with one click, AI tags and summarizes them automatically, and when the deadline arrives you search by describing what you remember — not by guessing what a title was.
+Marqly is an AI bookmark manager built around that finding problem. You save readings and lecture videos with one click, Pro tags and summarizes them automatically, and when the deadline arrives you search by describing what you remember — not by guessing what a title was.
 
 ## Highlight readings the way you'd mark up a textbook
 
@@ -30,7 +30,7 @@ Two things make this more than a browser trick. First, highlights persist: reope
 
 ## Save lecture videos with the transcript attached
 
-A huge share of studying now happens on YouTube: recorded lectures, exam-prep channels, that one 40-minute video that finally made eigenvectors click. Marqly puts an AI card on every YouTube watch page. The Summary tab streams a TL;DR with key sections (and lists books mentioned in the video — useful when a lecturer name-drops further reading). The Transcript tab is synced to playback, so you can jump to the exact minute a concept is explained, and copy the whole transcript in one click for your notes.
+A huge share of studying now happens on YouTube: recorded lectures, exam-prep channels, that one 40-minute video that finally made eigenvectors click. Marqly puts an AI card on every YouTube watch page. On Pro, the Summary tab streams a TL;DR with key sections (and lists books mentioned in the video — useful when a lecturer name-drops further reading). The Transcript tab is synced to playback, so you can jump to the exact minute a concept is explained, and copy the whole transcript in one click for your notes.
 
 The part that pays off later: the bookmark button Marqly adds to YouTube's action row saves the video with its transcript attached. That means the *content* of the lecture becomes searchable, not just its title. If you're revising and only remember "the video where he compared entropy to shuffling cards," that's enough. There's a full walkthrough in [how to summarize YouTube videos with AI](/blog/summarize-youtube-videos-with-ai).
 
@@ -38,9 +38,9 @@ On Pro, a Chat tab answers questions from the video's transcript — handy for "
 
 ## Find every source when the deadline hits
 
-This is where the two weeks of saving turn into a bibliography. Marqly's semantic search finds saves by meaning, not keywords — it searches across titles, page content, your highlights, and video transcripts. Type "study about sleep and memory consolidation in undergrads" and the article surfaces even if its actual title was something unhelpful like "New findings challenge assumptions." If you've never used search that works this way, [what is semantic search](/faq/what-is-semantic-search) explains it in two minutes.
+This is where the two weeks of saving turn into a bibliography. Marqly Pro’s semantic search finds saves by meaning, not keywords — it searches across titles, page content, your highlights, and video transcripts. Type "study about sleep and memory consolidation in undergrads" and the article surfaces even if its actual title was something unhelpful like "New findings challenge assumptions." If you've never used search that works this way, [what is semantic search](/faq/what-is-semantic-search) explains it in two minutes.
 
-AI summaries help at the other end of the process too: before an essay, skim the summaries of everything you saved for the unit and shortlist the five sources actually worth citing, instead of reopening twenty tabs.
+Pro AI summaries help at the other end of the process too: before an essay, skim the summaries of everything you saved for the unit and shortlist the five sources actually worth citing, instead of reopening twenty tabs.
 
 ## One board per course
 
@@ -50,7 +50,7 @@ Boards let you group links and highlights, so "ECON 201," "Dissertation," and "I
 
 1. **Install the extension.** Marqly runs in Chrome, Edge, Firefox, and Safari. There's also an iOS app for saving from your phone.
 2. **Import what you already have.** Every browser exports bookmarks as an HTML file, and Marqly imports that format directly — along with Pocket exports and Raindrop.io collections if you used those.
-3. **Let AI tag the backlog.** Every import and every new save gets tagged automatically. The pile of bookmarks from three semesters becomes an organized, searchable library without an afternoon of manual filing.
+3. **Let AI tag the backlog.** On Pro, imports and new saves can be tagged automatically. The pile of bookmarks from three semesters becomes an organized, searchable library without an afternoon of manual filing.
 
 Saving, transcripts and highlighting work on the free tier — [is Marqly free?](/faq/is-marqly-free) covers exactly what's included, and where its limits are. The AI features, semantic search included, are Pro, and you unlock them by upgrading at [app.marqly.com](https://app.marqly.com).
 
@@ -69,3 +69,16 @@ start drafting.
 Works alongside whatever your department recommends (Zotero for citations),
 and with Marqly for the capture-and-re-find loop: save each reading to a
 course board, then find it again by describing the idea.
+
+## Check the plan and import path first
+
+| Need | Free | Pro |
+| --- | --- | --- |
+| Save and find a small reference library | Up to 100 saves; keyword search | Unlimited saves |
+| Organize an imported backlog automatically | Manual tags | Automatic tagging on import |
+| Retrieve sources by meaning | Keyword search | Semantic search |
+| Triage saved articles | Read the source | AI summaries |
+
+Marqly accepts browser bookmark HTML, Pocket `list.csv`, and Raindrop HTML. Original save dates are not preserved. Keep a backup and inspect a small sample with the [bookmark-file viewer](/tools/bookmark-file-viewer) before [migrating your library](/migrate). The [import-fidelity study](/research/bookmark-import-fidelity) explains why an export file and a faithful import are different checks.
+
+Official product documentation checked as of October 6, 2026: [free-plan limits](https://www.marqly.com/faq/is-marqly-free), [semantic search](https://www.marqly.com/faq/what-is-semantic-search), and [browser HTML import](https://www.marqly.com/faq/how-do-i-import-chrome-bookmarks). These are Marqly’s own product documents, not independent reviews. See the [extension’s browser feature matrix](/extension) before choosing a browser, and [current pricing](/pricing) before upgrading.

@@ -2,14 +2,14 @@
 a: raindrop
 b: evernote-web-clipper
 verdict: "For saving and organizing links, Raindrop.io wins easily — Evernote's 50-note free cap and $99–250/year plans are hard to justify for bookmarking. Evernote Web Clipper only makes sense if you already pay for Evernote and want clips living beside your notes."
-updatedDate: 2026-08-02
+updatedDate: 2026-10-06
 faqs:
   - q: "Is Raindrop.io or Evernote Web Clipper better for free users?"
     a: "Raindrop.io, decisively. Its free plan offers unlimited bookmarks, collections, highlights, and devices. Evernote's clipper extension is free, but it saves into Evernote, whose free plan allows just 50 notes, one notebook, and one device — effectively a demo. Sustained clipping in Evernote requires Starter at $99/year or Advanced at $249.99/year."
   - q: "Does Evernote Web Clipper capture more than Raindrop.io?"
     a: "At capture time, yes. Evernote clips full pages, simplified articles, selections, or annotated screenshots, with tags and a destination notebook chosen as you save. It also handles PDFs, and its search reads text inside images via OCR. Raindrop saves the link with tags and can highlight pages, but permanent page copies require its Pro plan."
   - q: "Which has better AI, Raindrop.io or Evernote?"
-    a: "Evernote. Its v11 release added an AI assistant that chats across your notes, semantic search, and AI meeting notes — though meaningful use sits behind expensive paid plans. Raindrop's AI is limited to tag and collection suggestions on Pro, with no summaries or chat. Neither offers AI on their free tiers in any meaningful way."
+    a: "They now overlap. Evernote's paid plans combine semantic search, note-wide chat, and meeting tools. Raindrop Pro's Stella beta retrieves bookmarks by meaning, summarizes articles and YouTube videos, chats across the library, and proposes organization changes for approval. Stella activates only when asked, so it is not background auto-tagging."
 ---
 
 This matchup pits a dedicated bookmark manager against a browser extension whose real product is the note platform behind it. Raindrop.io exists to organize links at scale: unlimited free saves, nested collections, and polished apps everywhere. Evernote Web Clipper is a capture tool — arguably the most capable one, with five browsers, screenshot annotation, and clip-time tagging — feeding into a heavyweight workspace where OCR, semantic search, and an AI assistant do the retrieval.
@@ -27,3 +27,5 @@ This matchup pits a dedicated bookmark manager against a browser extension whose
 - You need offline access to saved content on paid plans, which Raindrop does not offer
 
 Bottom line: as a bookmarking tool judged on its own, Evernote is overkill at a premium price — the free plan is too small to test seriously, and $249.99/year for Advanced buys a note platform, not a better bookmark manager. Raindrop.io does the actual job of saving and finding links better, cheaper, and on more platforms. Pick Evernote only when the clipper is an accessory to a workspace you have already committed to.
+
+*Raindrop feature check, October 6, 2026: [Stella's official documentation](https://help.raindrop.io/stella) confirms meaning-based retrieval, library chat, article and YouTube summaries, and user-approved organization in the Pro beta.*

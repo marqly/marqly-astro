@@ -3,34 +3,34 @@ lang: "fr"
 path: "/fr/etudiants"
 title: "Marqly pour les étudiants"
 seoTitle: "Organiser ses recherches : outil étudiant | Marqly"
-description: "Rassemblez vos sources, surlignez, résumez les cours filmés et retrouvez tout le jour du devoir. Tarif étudiant : 48 $ la première année, soit environ 46 €."
+description: "Rassemblez vos sources, surlignez, résumez les cours filmés et retrouvez tout le jour du devoir. Tarif étudiant vérifié : 48 $ la première année."
 eyebrow: "Pour les étudiants"
 hero:
   heading: "Rassemblez vos sources, retrouvez-les le jour du rendu"
-  subheading: "Sauvegardez un article en un clic, laissez l'IA l'étiqueter et le résumer, puis retrouvez-le en décrivant simplement ce dont vous vous souvenez."
+  subheading: "Sauvegardez gratuitement jusqu'à 100 liens et cherchez-les par mot-clé. Pro ajoute les étiquettes automatiques, les résumés et la recherche sémantique."
 crumbHome: "Accueil"
 trustLine: "Offre gratuite, sans carte · Chrome, Edge, Firefox, Safari et iOS"
 faqHeading: "Questions fréquentes"
 faqs:
   - q: "Existe-t-il un tarif étudiant ?"
-    a: "Oui. Les étudiants vérifiés paient 48 $ la première année, soit environ 46 €, au lieu de 72 $/an (environ 69 €). La vérification du statut étudiant se fait au moment de l'abonnement."
+    a: "Oui. Les étudiants vérifiés paient 48 $ la première année au lieu du tarif Pro standard de 72 $/an. La vérification du statut étudiant se fait au moment de l'abonnement."
   - q: "Puis-je utiliser Marqly gratuitement pendant mes études ?"
     a: "Oui. Il existe une offre gratuite et aucune carte bancaire n'est demandée pour commencer. L'offre Pro, qui ajoute notamment le chat avec vos sauvegardes, est facturée dès l'abonnement et résiliable à tout moment."
   - q: "Marqly remplace-t-il Zotero ou un gestionnaire bibliographique ?"
     a: "Non, et ce n'est pas son rôle. Marqly intervient en amont : il sert à collecter, comprendre et retrouver des sources pendant la phase de recherche. Zotero intervient ensuite, quand il faut structurer la bibliographie et générer les citations au bon format."
   - q: "Puis-je résumer un cours filmé ou une conférence ?"
-    a: "Oui, pour les vidéos YouTube. Marqly affiche une carte IA sur la page de la vidéo, avec un résumé, un chat et une transcription synchronisée. Si vous sauvegardez la vidéo, la transcription lui reste attachée et devient consultable."
+    a: "Oui, pour les vidéos YouTube avec Pro : la carte affiche un résumé et un chat ancré dans la transcription. La transcription synchronisée et sa copie restent gratuites. Si vous sauvegardez la vidéo, sa transcription reste attachée au favori."
   - q: "Marqly fonctionne-t-il sur mon téléphone ?"
     a: "Il existe des applications pour iPhone, iPad et Android, ainsi qu'une application web accessible depuis n'importe quel navigateur."
   - q: "Puis-je récupérer mes favoris déjà accumulés ?"
-    a: "Oui. Marqly importe depuis Pocket, depuis Raindrop et depuis les fichiers HTML de favoris exportés par n'importe quel navigateur. Vos favoris X (Twitter) peuvent aussi être récupérés."
+    a: "Oui. Marqly accepte le HTML exporté par un navigateur, le fichier Pocket list.csv et le HTML de Raindrop. Les titres, URL et étiquettes sont repris, mais pas les dates d'enregistrement d'origine."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Commencez gratuitement avec Marqly"
 ctaSecondaryLabel: "Ajouter à Chrome — c'est gratuit"
-updatedDate: 2026-09-26
+updatedDate: 2026-10-06
 ---
 
-Organiser ses recherches, quand on est étudiant, ce n'est pas créer des dossiers&nbsp;: c'est réussir à remettre la main sur le bon article trois semaines après l'avoir trouvé. Marqly sauvegarde vos sources en un clic, les étiquette et les résume automatiquement, et vous les rend quand vous les décrivez avec vos mots. Le tarif étudiant est de **48 $ la première année (environ 46 €)**, sur vérification du statut.
+Organiser ses recherches, quand on est étudiant, ce n'est pas créer des dossiers&nbsp;: c'est réussir à remettre la main sur le bon article trois semaines après l'avoir trouvé. L'offre gratuite sauvegarde jusqu'à 100 liens et les cherche par mot-clé. Pro les étiquette et les résume automatiquement, puis les retrouve par sens. Le tarif étudiant est de **48 $ la première année**, sur vérification du statut.
 
 ## Le vrai problème du travail de recherche
 
@@ -55,7 +55,7 @@ Autrement dit&nbsp;: **collecter avant de citer**. Marqly vous accompagne pendan
 
 ### 1. Sauvegarder sans rien ranger
 
-Un clic, et l'article part dans votre bibliothèque. L'IA lui pose des étiquettes et écrit un résumé. Vous ne créez aucun dossier, vous ne nommez rien&nbsp;: le classement se fait pendant que vous lisez la suite.
+Un clic, et l'article part dans votre bibliothèque. Avec Pro, l'IA lui pose des étiquettes et écrit un résumé. Vous ne créez aucun dossier, vous ne nommez rien&nbsp;: le classement se fait pendant que vous lisez la suite.
 
 ### 2. Surligner et annoter
 
@@ -63,7 +63,7 @@ Le surligneur six couleurs marque les passages qui comptent, et chaque marque ac
 
 ### 3. Résumer les cours filmés
 
-Un cours enregistré de deux heures, une conférence, une conférence de méthodologie&nbsp;: sur YouTube, Marqly affiche une carte IA avec un résumé, un chat et une transcription synchronisée pour sauter directement à la minute utile. Si vous sauvegardez la vidéo, la transcription reste attachée à elle, ce qui rend le contenu **parlé** consultable. Vous pouvez tester sans installer l'extension avec le [résumeur YouTube](/fr/outils/resume-youtube) ou la [transcription YouTube](/fr/outils/transcription-youtube).
+Un cours enregistré de deux heures, une conférence, une conférence de méthodologie&nbsp;: sur YouTube, la transcription synchronisée est gratuite et permet de sauter directement à la minute utile. Pro ajoute le résumé et le chat. Si vous sauvegardez la vidéo, la transcription reste attachée à elle. Vous pouvez tester le [résumeur YouTube](/fr/outils/resume-youtube) ou la [transcription YouTube](/fr/outils/transcription-youtube).
 
 ### 4. Retrouver en décrivant
 
@@ -79,12 +79,25 @@ Et quand la session de recherche s'éternise, [sauvegardez tous vos onglets](/fr
 
 | Offre | Prix | Détail |
 | --- | --- | --- |
-| Gratuite | 0 $ | Aucune carte bancaire demandée |
-| Étudiants | 48 $ la première année (environ 46 €) | Sur vérification du statut étudiant |
-| Pro annuel | 72 $/an (environ 69 €) | Résiliable à tout moment |
-| Pro mensuel | 9 $/mois (environ 8 €) | Résiliable à tout moment |
+| Gratuite | 0 $ | Jusqu'à 100 favoris, recherche par mot-clé, sans carte |
+| Étudiants | 48 $ la première année | Pro, sur vérification du statut étudiant |
+| Pro annuel | 72 $/an | Résiliable à tout moment |
+| Pro mensuel | 9 $/mois | Résiliable à tout moment |
 
-Commencez par l'offre gratuite pendant un dossier entier. Si les résumés et la recherche sémantique vous font gagner une soirée, le tarif étudiant est là.
+Commencez par l'offre gratuite pendant un dossier entier. Passez à Pro seulement si les résumés, les étiquettes automatiques ou la recherche sémantique répondent à un besoin réel.
+
+## Vérifier le forfait et l'import avant le semestre
+
+| Besoin | Gratuite | Pro |
+| --- | --- | --- |
+| Petite bibliothèque de cours | 100 favoris, recherche par mot-clé | Favoris illimités |
+| Trier un ancien export | Étiquettes manuelles | Étiquetage automatique à l'import |
+| Retrouver une source par idée | Mots du titre, URL ou note | Recherche sémantique |
+| Préparer une lecture ou une vidéo | Lire la source et la transcription | Résumés IA et chat YouTube |
+
+Pour migrer, utilisez le **HTML de favoris du navigateur**, le fichier Pocket **`list.csv`** ou le **HTML de Raindrop**. Les dates de sauvegarde d'origine ne sont pas conservées&nbsp;: gardez le fichier source, importez d'abord un petit échantillon et vérifiez titres, URL et étiquettes. Le [visualiseur de fichier de favoris](/tools/bookmark-file-viewer) aide à contrôler le fichier avant la [migration](/migrate).
+
+Documentation officielle vérifiée le 6 octobre 2026&nbsp;: [limites de l'offre gratuite](https://www.marqly.com/faq/is-marqly-free), [recherche sémantique](https://www.marqly.com/faq/what-is-semantic-search) et [import HTML du navigateur](https://www.marqly.com/faq/how-do-i-import-chrome-bookmarks). Consultez aussi les [tarifs actuels](/pricing) avant de passer à Pro.
 
 ## Ce que Marqly ne fait pas
 

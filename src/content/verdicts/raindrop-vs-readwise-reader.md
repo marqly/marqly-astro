@@ -2,12 +2,12 @@
 a: raindrop
 b: readwise-reader
 verdict: "Raindrop.io if you organize bookmarks; Readwise Reader if you seriously read. Raindrop covers unlimited collecting for $0, while Reader justifies its $119.88/year only for heavy readers who want RSS, newsletters, AI, and highlights flowing into Notion or Obsidian."
-updatedDate: 2026-08-02
+updatedDate: 2026-10-06
 faqs:
   - q: "Is Readwise Reader worth the price over Raindrop.io?"
     a: "Only for high-volume readers. Reader has no free tier — $9.99/month billed annually ($119.88/year) after a 30-day trial — and earns it with Ghostreader AI, YouTube transcripts, RSS, newsletters, and a best-in-class highlights pipeline. If you mostly store and organize links, Raindrop's unlimited free plan and $28/year Pro deliver more per dollar by a wide margin."
   - q: "Does Raindrop.io have AI features like Readwise Reader?"
-    a: "Barely. Raindrop's AI is limited to tag and collection suggestions on the Pro plan — no summaries, no chat, no YouTube features. Reader's Ghostreader summarizes documents, defines terms, and answers questions about what you're reading, and YouTube videos get synced, highlightable transcripts. Notably, neither product offers semantic search; both retrieve by keywords."
+    a: "Both now have substantial AI on paid plans. Raindrop Pro's Stella beta retrieves by meaning, summarizes articles and YouTube videos, chats across the library, and proposes organization changes for approval. Reader's Ghostreader works inside documents, while Global Ghostreader answers cited questions across the library; Reader also makes YouTube transcripts readable and highlightable."
   - q: "Which handles more content types, Raindrop.io or Readwise Reader?"
     a: "Reader ingests articles, RSS feeds, email newsletters, PDFs, ePubs, Twitter threads, and YouTube videos into one inbox built for working through them. Raindrop stores any link and organizes it superbly, but it doesn't subscribe to feeds or receive newsletters. Raindrop counters with public collection sharing and 2,600+ integrations, which Reader lacks entirely."
 ---
@@ -26,4 +26,6 @@ One of these is a library, the other is a pipeline. Raindrop.io wants to hold yo
 - AI while reading earns its keep for you: Ghostreader summarizes, defines, and answers questions against the text, and YouTube transcripts are readable and highlightable.
 - Your notes system is the destination — the highlight-to-Notion/Obsidian loop with daily review is the strongest reason Reader exists.
 
-Neither searches semantically — both are keyword-based, so retrieval still leans on your tagging habits. Both are healthy, actively developed businesses, so there's no shutdown-risk tiebreaker. Plenty of people run the two together, letting Reader burn down the reading queue while Raindrop archives the keepers. Forced to one: casual savers and visual organizers should keep the $120 and take Raindrop; daily heavy readers with a PKM habit will feel Reader pay for itself within a month.
+Both now support meaning-based retrieval: Raindrop through Stella and Reader through Global Ghostreader's cited library-wide answers. Their workflows still differ. Plenty of people run the two together, letting Reader burn down the reading queue while Raindrop archives the keepers. Forced to one: casual savers and visual organizers should keep the $120 and take Raindrop; daily heavy readers with a PKM habit will get more from Reader's reading and export pipeline.
+
+*Raindrop feature check, October 6, 2026: [Stella's official documentation](https://help.raindrop.io/stella) confirms meaning-based retrieval, library chat, article and YouTube summaries, and user-approved organization in the Pro beta.*

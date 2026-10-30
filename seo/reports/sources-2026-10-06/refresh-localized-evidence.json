@@ -1,0 +1,81 @@
+{
+  "generatedAt": "2026-10-06T12:05:00Z",
+  "asOf": "2026-10-06",
+  "faqPolicy": "Original useful FAQ frontmatter retained on all six pages. top40-refresh-baseline.json reports visibleQuestions: [] for these localized URLs, so no new questions were added and no PAA claim was made. Pocket shutdown/import answers and the YouTube plan-boundary answer received required factual corrections.",
+  "pages": [
+    {
+      "file": "src/content/blog/ja/chrome-bookmarks-not-syncing-fix-2026.md",
+      "edits": "Replaced the opening with a direct diagnostic sequence; added a symptom/first-check decision table, dated caveat, two contextual links, and three official Google sources.",
+      "introUnits": "177 Japanese characters",
+      "internalLinks": 5,
+      "internalLinkStatus": "5/5 returned HTTP 200",
+      "officialSources": [
+        { "url": "https://support.google.com/chrome/answer/9175737?hl=ja", "status": 200 },
+        { "url": "https://support.google.com/chrome/answer/165139?hl=ja", "status": 200 },
+        { "url": "https://support.google.com/chrome/answer/3296214?hl=ja", "status": 200 }
+      ]
+    },
+    {
+      "file": "src/content/blog/tr/instagram-kaydedilen-gonderileri-disa-aktarma-2026.md",
+      "edits": "Added a 44-word answer-first intro, export decision table, download limitations, truthful Free/Pro boundaries and pricing, five Turkish contextual links, and three Meta sources.",
+      "introUnits": "44 Turkish words",
+      "internalLinks": 5,
+      "internalLinkStatus": "5/5 returned HTTP 200",
+      "officialSources": [
+        { "url": "https://www.facebook.com/help/943858526073065", "status": 200 },
+        { "url": "https://www.facebook.com/help/506794473544588", "status": 200 },
+        { "url": "https://privacycenter.instagram.com/policy/", "status": 200 }
+      ]
+    },
+    {
+      "file": "src/content/blog/de/chrome-lesezeichen-synchronisieren-nicht-losung-2026.md",
+      "edits": "Added a 49-word answer-first intro, symptom/first-check table, dated caveat, two contextual links, Pro-scoped import tagging, and three official Google sources.",
+      "introUnits": "49 German words",
+      "internalLinks": 5,
+      "internalLinkStatus": "5/5 returned HTTP 200",
+      "officialSources": [
+        { "url": "https://support.google.com/chrome/answer/9175737?hl=de", "status": 200 },
+        { "url": "https://support.google.com/chrome/answer/165139?hl=de", "status": 200 },
+        { "url": "https://support.google.com/chrome/answer/3296214?hl=de", "status": 200 }
+      ]
+    },
+    {
+      "file": "src/content/blog/ja/youtube-transcript-shutoku-guide-2026.md",
+      "edits": "Tightened the answer-first opening, corrected AI summaries/chat to Pro while keeping transcript display/copy free, added an October 6 verification note and four official YouTube/Chrome sources; retained the existing comparison table and contextual link network.",
+      "introUnits": "135 Japanese characters",
+      "internalLinks": 9,
+      "internalLinkStatus": "9/9 unique targets returned HTTP 200",
+      "officialSources": [
+        { "url": "https://support.google.com/youtube/answer/15930243?hl=ja", "status": 200 },
+        { "url": "https://support.google.com/youtube/answer/2734796?hl=ja", "status": 200 },
+        { "url": "https://support.google.com/youtube/answer/6373554?hl=ja", "status": 200 },
+        { "url": "https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc", "status": 200 }
+      ]
+    },
+    {
+      "file": "src/content/blog/de/pocket-alternativen-2026.md",
+      "edits": "Rewrote the 48-word opening and shutdown timeline; corrected list.csv/import-date/Pro boundaries; corrected mymind and Notion table rows; dated competitor evidence; added four official sources.",
+      "introUnits": "48 German words",
+      "internalLinks": 9,
+      "internalLinkStatus": "9/9 unique targets returned HTTP 200",
+      "officialSources": [
+        { "url": "https://support.mozilla.org/en-US/kb/future-of-pocket", "status": 200 },
+        { "url": "https://help.raindrop.io/import", "status": 200 },
+        { "url": "https://help.marqly.com/getting-started/import-bookmarks/", "status": 200 },
+        { "url": "https://www.marqly.com/pricing", "status": 200 }
+      ]
+    },
+    {
+      "file": "src/content/blog/ko/chrome-bookmarks-not-syncing-fix-2026.md",
+      "edits": "Replaced the opening with a concise diagnostic sequence; added a symptom/first-check table, dated caveat, two contextual links, and three official Google sources.",
+      "introUnits": "41 Korean whitespace-delimited units / 211 characters",
+      "internalLinks": 5,
+      "internalLinkStatus": "5/5 returned HTTP 200",
+      "officialSources": [
+        { "url": "https://support.google.com/chrome/answer/9175737?hl=ko", "status": 200 },
+        { "url": "https://support.google.com/chrome/answer/165139?hl=ko", "status": 200 },
+        { "url": "https://support.google.com/chrome/answer/3296214?hl=ko", "status": 200 }
+      ]
+    }
+  ]
+}

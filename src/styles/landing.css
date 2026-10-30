@@ -18,6 +18,7 @@
 @source "../layouts/LandingV2.astro";
 @source "../pages/index.astro";
 @source "../pages/extension.astro";
+@source "../pages/pricing.astro";
 @source "../pages/teams.astro";
 
 /* -------------------------------------------------------------- fonts --- */

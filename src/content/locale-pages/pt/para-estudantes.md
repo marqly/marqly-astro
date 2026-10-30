@@ -3,11 +3,11 @@ lang: "pt"
 path: "/pt/para-estudantes"
 title: "Marqly para estudantes"
 seoTitle: "IA para estudar: extensão para estudantes | Marqly"
-description: "Resuma videoaulas, salve fontes e grife suas leituras com IA. O Marqly organiza o material sozinho — e quem é estudante paga US$ 48 no primeiro ano de Pro."
+description: "Salve fontes, grife leituras e encontre o material do curso. Estudantes verificados pagam US$ 48 no primeiro ano de Pro."
 eyebrow: "Para estudantes"
 hero:
   heading: "Estude com IA sem perder suas fontes"
-  subheading: "Resuma videoaula, grife leitura e salve tudo em um clique. Depois é só descrever o que você lembra para achar de novo."
+  subheading: "Salve grátis até 100 links e busque por palavra-chave. O Pro adiciona tags automáticas, resumos, busca semântica e chat com seus salvos."
 crumbHome: "Início"
 trustLine: "Plano grátis, sem cartão · Chrome, Edge, Firefox, Safari e iOS"
 faqHeading: "Perguntas frequentes"
@@ -15,22 +15,22 @@ faqs:
   - q: "Como funciona o desconto de estudante?"
     a: "Estudante com matrícula verificada paga US$ 48 no primeiro ano de Pro, em vez de US$ 72. É o mesmo plano, com todos os recursos de IA — inclusive o chat com o que você salvou."
   - q: "Dá para usar sem pagar nada?"
-    a: "Dá. O plano grátis não pede cartão de crédito e já serve para salvar, montar boards, grifar e buscar por palavra-chave em toda a biblioteca. As tags automáticas e a busca semântica por IA são recursos do Pro — que é cobrado no momento do upgrade e pode ser cancelado quando quiser."
+    a: "Dá. O plano grátis não pede cartão de crédito e já serve para salvar até 100 links, montar boards, grifar e buscar por palavra-chave. Tags automáticas, resumos, busca semântica e chat são recursos do Pro — cobrado no momento do upgrade e cancelável quando quiser."
   - q: "O Marqly resume videoaula do YouTube?"
-    a: "Sim. Ao abrir um vídeo aparece um cartão de IA com resumo, chat e transcrição sincronizada — clicou na frase, o vídeo pula para aquele trecho. Quando você salva o vídeo, a transcrição vai junto para a sua biblioteca."
+    a: "Sim, no Pro: o cartão do YouTube oferece resumo e chat baseados na transcrição. A transcrição sincronizada e a cópia continuam grátis. Ao salvar o vídeo, a transcrição fica anexada ao favorito."
   - q: "Isso não é colar?"
     a: "O Marqly resume, organiza e te devolve a fonte de cada coisa. Ele não escreve trabalho por você. O ganho é de tempo de garimpo: você chega mais rápido no material certo e cita a origem sem ter que refazer a busca."
   - q: "Funciona no celular?"
     a: "Funciona no iPhone, no iPad e no Android pelo aplicativo, e em qualquer celular pelo app web no navegador."
   - q: "Consigo trazer o que já está salvo em outro app?"
-    a: "Sim. Dá para importar do Pocket, do Raindrop e de arquivos HTML de favoritos exportados do navegador. Também dá para trazer o que você salvou no X/Twitter."
+    a: "Sim. O Marqly aceita o HTML exportado pelo navegador, o arquivo list.csv do Pocket e o HTML do Raindrop. Títulos, URLs e tags são importados, mas as datas originais de salvamento não são preservadas."
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Comece grátis com o Marqly"
 ctaSecondaryLabel: "Adicionar ao Chrome — grátis"
-updatedDate: 2026-09-26
+updatedDate: 2026-10-06
 ---
 
-Se você estuda pela internet, o gargalo não é falta de material — é excesso. Videoaula de duas horas, PDF do professor, três artigos abertos em abas diferentes e um vídeo do YouTube que explicava exatamente aquilo, mas você não faz ideia de qual era. O Marqly é uma extensão com IA que salva tudo isso em um clique, resume, organiza sozinho e devolve o material quando você precisa — mesmo que você só lembre vagamente do assunto. E quem é estudante verificado paga **US$ 48 no primeiro ano** de Pro.
+Se você estuda pela internet, o gargalo não é falta de material — é excesso. Videoaula, PDF do professor e artigos se espalham por abas e aplicativos. O plano grátis do Marqly salva até 100 links e busca por palavra-chave; o Pro adiciona tags automáticas, resumos e busca semântica. Quem é estudante verificado paga **US$ 48 no primeiro ano** de Pro.
 
 ## O ciclo que trava o estudo online
 
@@ -45,11 +45,11 @@ O tempo não se perde estudando. Se perde procurando de novo o que você já tin
 
 ## Videoaula: assista o que interessa
 
-Quando você abre um vídeo no YouTube, o Marqly mostra um cartão de IA com três coisas:
+Quando você abre um vídeo no YouTube, o Marqly mostra um cartão com três coisas, separando o que é grátis do que exige Pro:
 
-- **resumo** dos pontos principais;
-- **chat**, para perguntar se aquele vídeo cobre o tópico que você precisa antes de gastar duas horas;
-- **transcrição sincronizada** — você clica na frase e o vídeo pula para aquele minuto.
+- **resumo no Pro** dos pontos principais;
+- **chat no Pro**, para perguntar se o vídeo cobre o tópico necessário;
+- **transcrição sincronizada grátis** — você clica na frase e o vídeo pula para aquele minuto, além de poder copiar o texto.
 
 Ao salvar o vídeo, a transcrição vai junto para a sua biblioteca. Isso muda o estudo de véspera: em vez de reassistir tudo, você busca o conceito no texto e vai direto ao trecho.
 
@@ -74,7 +74,7 @@ Os grifos entram na busca junto com o resto. Detalhe importante para trabalho ac
 
 Terminou de pesquisar com a janela cheia? Salve **todas as abas abertas** de uma vez e feche tudo. As sessões de abas salvam o conjunto para você reabrir depois no mesmo estado — útil quando um trabalho fica parado por uma semana. Veja [salvar abas](/pt/salvar-abas).
 
-Se a sua rotina é mais de acumular links para ler no fim de semana, os resumos de IA ajudam a triar: você lê três linhas e decide se vale a leitura inteira. Isso está em [salvar para ler depois](/pt/salvar-para-ler-depois).
+Se a sua rotina é mais de acumular links para ler no fim de semana, os resumos de IA do Pro ajudam a triar: você lê três linhas e decide se vale a leitura inteira. Isso está em [salvar para ler depois](/pt/salvar-para-ler-depois).
 
 ## Achar depois: descreva, não lembre
 
@@ -86,7 +86,7 @@ Você não precisa lembrar do título, do autor nem do site. No Pro, dá para co
 
 ## Também ajuda no ENEM e no vestibular
 
-Para quem está no ensino médio, o uso mais direto é montar um board por matéria com as videoaulas e as listas de exercícios, deixar a IA colocar as tags e usar a busca na revisão. Boards podem virar página pública, então dá para dividir o material com o grupo de estudo mandando um link só.
+Para quem está no ensino médio, o uso mais direto é montar um board por matéria com as videoaulas e listas de exercícios. No Pro, as tags automáticas ajudam a organizar o acervo; no plano grátis, você pode usar tags manuais e busca por palavra-chave. Boards podem virar página pública, então dá para dividir o material com o grupo de estudo mandando um link só.
 
 Se o seu foco é prova de concurso, a rotina é um pouco diferente — veja [Marqly para concurseiros](/pt/para-concurseiros).
 
@@ -98,10 +98,23 @@ Se o seu foco é prova de concurso, a rotina é um pouco diferente — veja [Mar
 
 Vale lembrar do que o Marqly **não** faz, para você não se planejar errado: a leitura offline só existe no Pro e por dispositivo — as páginas marcadas ficam salvas no app web ou no app de iOS, sem sincronizar entre aparelhos — e, no plano pessoal, o compartilhamento é apenas leitura; para a equipe editar junto existe o Marqly Teams. No iPhone, no iPad e no Android existe app; em qualquer outro celular, o app web resolve pelo navegador.
 
+## Confira o plano e a importação antes do semestre
+
+| Necessidade | Grátis | Pro |
+| --- | --- | --- |
+| Biblioteca pequena de uma disciplina | Até 100 favoritos e busca por palavra-chave | Favoritos ilimitados |
+| Organizar um arquivo antigo | Tags manuais | Tags automáticas na importação |
+| Reencontrar uma fonte por ideia | Título, URL, nota ou tag | Busca semântica |
+| Avaliar artigo ou videoaula | Ler a fonte e a transcrição | Resumos com IA e chat do YouTube |
+
+Os formatos corretos são **HTML de favoritos do navegador**, Pocket **`list.csv`** e **HTML do Raindrop**. As datas originais de salvamento não são preservadas. Guarde uma cópia do arquivo, importe primeiro uma amostra e confira títulos, URLs e tags com o [visualizador de arquivos de favoritos](/tools/bookmark-file-viewer) antes de concluir a [migração](/migrate).
+
+Documentação oficial consultada em 6 de outubro de 2026: [limites do plano grátis](https://www.marqly.com/faq/is-marqly-free), [busca semântica](https://www.marqly.com/faq/what-is-semantic-search) e [importação de HTML do navegador](https://www.marqly.com/faq/how-do-i-import-chrome-bookmarks). Confira também os [preços atuais](/pricing) antes de assinar o Pro.
+
 ## Uma rotina de estudo que se sustenta
 
 1. Pesquisou? Salve tudo e feche as abas.
-2. Videoaula longa? Leia o resumo, decida, salve com a transcrição.
+2. Videoaula longa? No Pro, leia o resumo; depois salve com a transcrição.
 3. Leitura obrigatória? Grife só o que você usaria numa prova.
 4. Revisão? Busque descrevendo — não procurando.
 

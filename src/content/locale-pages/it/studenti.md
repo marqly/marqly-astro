@@ -3,11 +3,11 @@ lang: "it"
 path: "/it/studenti"
 title: "Marqly per studenti: studiare con l'AI"
 seoTitle: "Studiare con l'AI: riassunti e appunti | Marqly"
-description: "Riassumi le videolezioni, evidenzia le letture e ritrova il materiale per l'esame. Marqly per studenti: sconto studenti a 48 $ il primo anno (circa 46 €)."
+description: "Riassumi le videolezioni, evidenzia le letture e ritrova il materiale per l'esame. Per studenti verificati: 48 $ il primo anno di Pro."
 eyebrow: "Per studenti"
 hero:
   heading: "Studiare con l'AI senza perdere il filo del materiale"
-  subheading: "Riassumi le videolezioni, evidenzia le letture e ritrova tutto a fine semestre descrivendolo a parole tue. Sconto studenti: 48 $ il primo anno."
+  subheading: "Salva gratis fino a 100 link e cercali per parola chiave. Pro aggiunge tag automatici, riassunti e ricerca semantica. Studenti: 48 $ il primo anno."
 crumbHome: "Home"
 trustLine: "Piano gratuito, senza carta · Chrome, Edge, Firefox, Safari e iOS"
 faqHeading: "Domande frequenti"
@@ -15,9 +15,9 @@ faqs:
   - q: "Come si usa l'AI per studiare senza barare?"
     a: "L'AI ti fa risparmiare tempo sulla parte meccanica: capire in trenta secondi se una fonte ti serve, avere la trascrizione di una lezione, ritrovare il materiale. Studiare — capire, collegare, ripetere — resta lavoro tuo, e i riassunti di Marqly rimandano sempre alla fonte da cui vengono."
   - q: "C'è uno sconto per studenti?"
-    a: "Sì: 48 $ il primo anno (circa 46 €) invece di 72 $, con la verifica dello status di studente. Dopo il primo anno il prezzo torna quello normale. C'è anche un piano gratuito, senza carta, se vuoi provare prima."
+    a: "Sì: 48 $ il primo anno invece di 72 $, con verifica dello status di studente. Dopo il primo anno torna il prezzo normale. Puoi iniziare dal piano gratuito senza carta; non è una prova Pro e l'upgrade viene addebitato subito."
   - q: "Posso riassumere una videolezione di YouTube?"
-    a: "Sì. Su ogni pagina YouTube compare una scheda AI con riassunto, chat sul contenuto e trascrizione sincronizzata, così salti al minuto che ti serve. Se salvi il video, la trascrizione resta allegata e diventa cercabile."
+    a: "Sì, con Pro: la scheda YouTube offre riassunto e chat basati sulla trascrizione. La trascrizione sincronizzata e la copia restano gratuite. Se salvi il video, la trascrizione resta allegata al preferito."
   - q: "Serve per la tesi?"
     a: "È il caso in cui rende di più: salvi le fonti mentre le trovi, evidenzi i passaggi con una nota su perché ti servono e mesi dopo li ritrovi descrivendo l'argomento, senza rileggere tutto da capo."
   - q: "Funziona sul telefono?"
@@ -27,10 +27,10 @@ faqs:
 ctaUrl: "https://app.marqly.com"
 ctaLabel: "Inizia gratis con Marqly"
 ctaSecondaryLabel: "Aggiungi a Chrome — è gratis"
-updatedDate: 2026-09-26
+updatedDate: 2026-10-06
 ---
 
-Studiare con l'AI non vuol dire farsi scrivere la tesi. Vuol dire smettere di perdere ore nella parte meccanica: capire al volo se una fonte serve, avere la trascrizione di una videolezione da due ore, ritrovare a maggio la dispensa salvata a novembre. Marqly fa esattamente questo: salvi con un clic, l'intelligenza artificiale mette i tag e scrive i riassunti, e la ricerca ti restituisce il materiale anche quando ricordi solo di cosa parlava. Per gli studenti verificati il primo anno costa **48 $ (circa 46 €)** invece di 72 $.
+Studiare con l'AI non vuol dire farsi scrivere la tesi. Vuol dire smettere di perdere ore nella parte meccanica: salvare una fonte, avere la trascrizione di una videolezione, ritrovare a maggio la dispensa di novembre. Il piano gratuito conserva fino a 100 link con ricerca per parola chiave; Pro aggiunge tag, riassunti e ricerca semantica. Per gli studenti verificati il primo anno costa **48 $** invece di 72 $.
 
 ## Il problema di ogni sessione d'esame
 
@@ -40,11 +40,11 @@ I preferiti del browser cercano nel titolo. Marqly cerca nel contenuto: scrivi �
 
 ## Videolezioni: riassunto, trascrizione, minuto esatto
 
-Su ogni pagina YouTube Marqly aggiunge una scheda AI con tre cose:
+Su ogni pagina YouTube Marqly aggiunge una scheda con tre cose, distinguendo bene ciò che è gratuito da ciò che richiede Pro:
 
-- **Riassunto**, per sapere in trenta secondi se quella lezione copre il tuo programma.
-- **Chat sul video**, per chiedere «qui spiega gli integrali per parti?» prima di investirci due ore.
-- **Trascrizione sincronizzata**, per saltare direttamente al punto in cui parla di quello che ti serve.
+- **Riassunto Pro**, per capire se quella lezione copre il programma.
+- **Chat Pro sul video**, per chiedere «qui spiega gli integrali per parti?».
+- **Trascrizione sincronizzata gratuita**, per saltare al punto utile e copiare il testo.
 
 E se salvi il video, la trascrizione resta allegata: da lì in poi la ricerca trova anche quello che è stato **detto** a lezione, non solo il titolo. Puoi provare subito senza installare niente con il [riassunto dei video di YouTube](/it/strumenti/riassunto-video-youtube) o prenderti il testo intero con la [trascrizione dei video di YouTube](/it/strumenti/trascrizione-video-youtube).
 
@@ -65,7 +65,7 @@ Un sistema di colori che regge un semestre intero:
 
 ## Per la tesi (e per la maturità)
 
-Una tesi dura mesi e il materiale si accumula prima che tu sappia dove finirà. Il flusso che funziona è semplice: salvi tutto quello che ti sembra rilevante senza fermarti a catalogare, evidenzi i passaggi con una nota sul perché, e lasci che i tag automatici tengano insieme le cose. Al momento di scrivere un capitolo cerchi per argomento e trovi le fonti, i tuoi colori e le tue note già insieme. Con Pro puoi anche **chattare con i tuoi salvataggi** e chiedere cosa dicevano le tue fonti su un certo punto, con i link da cui viene la risposta.
+Una tesi dura mesi e il materiale si accumula prima che tu sappia dove finirà. Il flusso che funziona è semplice: salvi ciò che sembra rilevante, evidenzi i passaggi con una nota sul perché e, su Pro, lasci che i tag automatici tengano insieme le cose. Con Pro puoi anche **chattare con i tuoi salvataggi** e chiedere cosa dicevano le fonti su un punto, con i link da cui viene la risposta.
 
 Per la maturità vale lo stesso, in scala ridotta: un posto solo per i video di ripasso, le pagine e i materiali che girano nella chat di classe. Puoi anche raccogliere una materia in una **bacheca** e condividerla come pagina pubblica: il ripasso condiviso è un link, non venti messaggi.
 
@@ -77,12 +77,25 @@ Ricerca di gruppo vuol dire quaranta schede aperte e paura di chiudere il browse
 
 | Piano | Prezzo | Note |
 | --- | --- | --- |
-| Gratuito | 0 $ | Senza carta, per provare |
-| Studenti | 48 $ il primo anno (circa 46 €) | Con verifica dello status di studente |
-| Pro annuale | 72 $/anno (circa 69 €) | Disdici quando vuoi |
-| Pro mensile | 9 $/mese (circa 8 €) | Disdici quando vuoi |
+| Gratuito | 0 $ | Fino a 100 preferiti, ricerca per parola chiave, senza carta |
+| Studenti | 48 $ il primo anno | Pro, con verifica dello status di studente |
+| Pro annuale | 72 $/anno | Disdici quando vuoi |
+| Pro mensile | 9 $/mese | Disdici quando vuoi |
 
-Sono circa quattro euro al mese per il primo anno, meno di un libro usato. Pro è quello che sblocca la chat con i tuoi salvataggi; salvare, riassumere e ritrovare li provi già dal piano gratuito.
+Pro sblocca tag automatici, riassunti, ricerca semantica e chat con i tuoi salvataggi. Il piano gratuito serve invece per salvare, evidenziare e cercare per parola chiave.
+
+## Controlla piano e importazione prima di iniziare
+
+| Esigenza | Gratuito | Pro |
+| --- | --- | --- |
+| Piccola raccolta per un corso | 100 preferiti, ricerca per parola chiave | Preferiti illimitati |
+| Sistemare un vecchio archivio | Tag manuali | Tag automatici all'importazione |
+| Ritrovare una fonte per concetto | Titolo, URL, nota o tag | Ricerca semantica |
+| Valutare articoli e video | Leggi la fonte e la trascrizione | Riassunti AI e chat YouTube |
+
+I formati corretti sono **HTML dei preferiti del browser**, Pocket **`list.csv`** e **HTML di Raindrop**. Le date originali di salvataggio non vengono conservate. Tieni quindi una copia del file, importa prima un campione e controlla titoli, URL e tag con il [visualizzatore dei file di preferiti](/tools/bookmark-file-viewer) prima di completare la [migrazione](/migrate).
+
+Documentazione ufficiale verificata il 6 ottobre 2026: [limiti del piano gratuito](https://www.marqly.com/faq/is-marqly-free), [ricerca semantica](https://www.marqly.com/faq/what-is-semantic-search) e [importazione HTML dal browser](https://www.marqly.com/faq/how-do-i-import-chrome-bookmarks). Controlla anche i [prezzi correnti](/pricing) prima dell'upgrade.
 
 ## Comincia da questo semestre
 

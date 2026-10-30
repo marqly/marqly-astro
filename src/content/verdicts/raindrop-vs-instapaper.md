@@ -2,7 +2,7 @@
 a: raindrop
 b: instapaper
 verdict: "Raindrop.io for organizing, Instapaper for reading. Collectors filing hundreds of links into collections should pick Raindrop's unlimited free plan; long-form readers who want a quiet, beautifully typeset queue — especially Kindle owners — should pick Instapaper."
-updatedDate: 2026-08-02
+updatedDate: 2026-10-06
 faqs:
   - q: "Which is better for actually reading articles, Raindrop.io or Instapaper?"
     a: "Instapaper, decisively. Its typography-first reader has been refined since 2008 and pairs with dependable offline reading on iPhone, iPad, and Android, plus speed reading and text-to-speech playlists for Premium subscribers. Raindrop's reading view is basic by comparison and it has no true offline mode — it's an organizer that can display articles, not a reading app."
@@ -26,4 +26,6 @@ This is the cleanest philosophical split in the bookmarking world: Raindrop.io i
 - You own a Kindle — Premium's send-to-Kindle delivery alone justifies it for many readers.
 - You want extras built for readers, not organizers: speed reading, text-to-speech playlists, and a permanent article archive.
 
-On price, Raindrop is the better deal: Pro runs $28/year against Instapaper Premium's $59.99/year (doubled from $30 in late 2023), and both paywall full-text search — free Instapaper additionally caps notes at five a month. Neither offers AI tagging or semantic search, so finding old saves depends on your own discipline either way. The bottom line is to match the tool to the verb: if your backlog problem is "where did I put it," get Raindrop; if it's "I never actually read it," get Instapaper.
+On price, Raindrop is the better deal: Pro runs $28/year against Instapaper Premium's $59.99/year (doubled from $30 in late 2023), and both paywall full-text search — free Instapaper additionally caps notes at five a month. Raindrop Pro's Stella beta can retrieve saves by meaning, summarize articles and YouTube videos, and chat across the library when asked; Instapaper Premium's AI Voices focus instead on narrated reading. The bottom line is to match the tool to the verb: if your backlog problem is "where did I put it," get Raindrop; if it's "I never actually read it," get Instapaper.
+
+*Raindrop feature check, October 6, 2026: [Stella's official documentation](https://help.raindrop.io/stella) confirms meaning-based retrieval, library chat, article and YouTube summaries, and user-approved organization in the Pro beta.*

@@ -2,14 +2,14 @@
 a: raindrop
 b: obsidian-web-clipper
 verdict: "Raindrop.io wins for people who want a hosted bookmark library that just works across devices. Obsidian Web Clipper wins for local-first users who want web content as Markdown files they own forever — provided they already run Obsidian and will handle sync and organization themselves."
-updatedDate: 2026-08-02
+updatedDate: 2026-10-06
 faqs:
   - q: "Is Obsidian Web Clipper really free compared to Raindrop.io?"
     a: "Yes — the clipper and Obsidian itself are completely free, including commercial use. The catch is add-ons: cross-device sync via Obsidian Sync starts at $4/month and public sharing via Publish costs $8/month. Raindrop is free with unlimited bookmarks and built-in sync across all devices; its Pro plan is about $28/year — cheaper than a year of Obsidian Sync."
   - q: "Which handles highlights better, Raindrop.io or Obsidian Web Clipper?"
     a: "Both support highlighting, differently. Obsidian's highlighter mode captures the passages you mark as Markdown in your vault, and per-site templates can auto-title, tag, and file each clip. Raindrop highlights live on the saved bookmark and sync across its apps, but annotations require the Pro plan. For working with excerpts in notes, Obsidian is stronger."
   - q: "Does Raindrop.io or Obsidian Web Clipper have better AI?"
-    a: "Neither ships turnkey AI. Obsidian's Interpreter runs clip-time prompts — summarize, extract, translate — but you supply your own API key from Anthropic, OpenAI, or Gemini, or run a free local Ollama model. Raindrop's AI only suggests tags and collections, and only on Pro. Obsidian is more capable if you are willing to configure a provider."
+    a: "Raindrop Pro ships a hosted assistant: its Stella beta retrieves by meaning, summarizes articles and YouTube videos, chats across the library, and proposes organization changes for approval. Obsidian's Interpreter instead runs configurable clip-time prompts, but you supply an API key or local Ollama setup. Local inference avoids an API subscription but still uses your hardware and electricity."
 ---
 
 Ownership is the dividing line. Raindrop.io keeps your bookmarks on its servers and gives you polished apps, instant sync, and public sharing in return. Obsidian Web Clipper writes every clip as a plain Markdown file on your own disk — total privacy and zero lock-in, at the cost of doing your own sync, search, and filing. One is a service; the other is a pipeline into files you control.
@@ -27,3 +27,5 @@ Ownership is the dividing line. Raindrop.io keeps your bookmarks on its servers 
 - You distrust hosted services on principle; plain files on disk survive any company's pivot or shutdown
 
 Bottom line: these tools overlap less than the category suggests. Raindrop is for keeping and finding links; the clipper is for extracting content into a note system, and it is only useful if you run Obsidian. If you want both behaviors — quick link saving plus deep article capture — the honest answer is that plenty of people run the two side by side, since the clipper costs nothing and Raindrop's free tier is unlimited.
+
+*Raindrop feature check, October 6, 2026: [Stella's official documentation](https://help.raindrop.io/stella) confirms meaning-based retrieval, library chat, article and YouTube summaries, and organization changes that require approval. Stella activates only when asked.*

@@ -36,6 +36,7 @@ const verifiedLabel =
       </>
     ))}
   </span>
+  {uniqueTools.flatMap(tool => (tool.sourceChecks ?? []).map(check => <span><a href={check.url} target="_blank" rel="noopener">{tool.name}: {check.label}</a>{' '}(as of {formatDate(check.date)})</span>))}
   <span class="source-byline">Written by <a class="src-author" href={AUTHOR.url}>{AUTHOR.name}</a>, founder of <a class="src-author" href="/about">Marqly</a> — one of the tools compared. Where a competitor fits a job better, we say so; check any claim here against the sources above. How we evaluate: <a class="src-method" href="/how-we-test">how we test</a>.</span>
 </aside>
 

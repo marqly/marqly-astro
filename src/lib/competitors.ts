@@ -19,6 +19,8 @@ export interface Competitor {
   overview: string;
   faqs: { q: string; a: string }[];
   lastVerified: string;
+  /** Dated checks of specific claims; do not imply all prices/features were reverified. */
+  sourceChecks?: { date: string; label: string; url: string }[];
 }
 
 const modules = import.meta.glob<Competitor>('../data/competitors/*.json', {

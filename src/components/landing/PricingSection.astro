@@ -4,9 +4,10 @@ import { CheckIcon } from './icons';
 
 export interface Props {
   isPage?: boolean;
+  intro?: string;
 }
 
-const { isPage = false } = Astro.props;
+const { isPage = false, intro } = Astro.props;
 
 const freePerks = [
   // 2026-09-05: the read wall was removed — FREE reads and searches its whole
@@ -103,6 +104,7 @@ const PROMO_CODE = 'STANDING49';
           </h2>
         )
       }
+      {intro && <p class="mt-5 text-[17px] leading-relaxed text-muted">{intro}</p>}
     </div>
 
     <div

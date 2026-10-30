@@ -1,7 +1,10 @@
 {
   "name": "Raindrop.io",
   "slug": "raindrop",
-  "aka": ["raindrop-io", "raindropio"],
+  "aka": [
+    "raindrop-io",
+    "raindropio"
+  ],
   "category": "bookmark-manager",
   "status": "active",
   "shutdownNote": null,
@@ -11,15 +14,26 @@
     "free": true,
     "paid": "$28/year or $3.25/month (Pro; App Store pricing $27.99/year, $2.99/month)",
     "trial": null,
-    "notes": "The free plan offers unlimited bookmarks, collections, and devices, with up to 3 highlights per bookmark and 100 MB/month uploads. Pro adds full-text search, Stella AI save-time tag and collection suggestions, permanent page copies, reminders, annotations (unlimited highlights in 4 colors with notes), and daily backups. Yearly billing is about 20% cheaper than monthly."
+    "notes": "Free includes unlimited bookmarks, collections, highlights, and devices, plus 100 MB/month uploads. Pro includes full-text search, Stella AI beta chat and summaries, AI suggestions, web archive, annotations, reminders, and daily backups. Feature details checked October 6, 2026 at https://raindrop.io/pro/buy and https://help.raindrop.io/stella; price amounts retain their September 12 verification."
   },
-  "platforms": ["web", "chrome", "edge", "firefox", "safari", "ios", "android", "macos", "windows", "linux"],
+  "platforms": [
+    "web",
+    "chrome",
+    "edge",
+    "firefox",
+    "safari",
+    "ios",
+    "android",
+    "macos",
+    "windows",
+    "linux"
+  ],
   "features": {
     "aiAutoTagging": false,
-    "semanticSearch": false,
-    "aiSummaries": false,
-    "youtubeAi": false,
-    "chatWithSaves": false,
+    "semanticSearch": true,
+    "aiSummaries": true,
+    "youtubeAi": true,
+    "chatWithSaves": true,
     "highlights": true,
     "annotationNotes": true,
     "savePdf": true,
@@ -37,7 +51,7 @@
     "selfHosted": false
   },
   "pros": [
-    "One of the most generous free plans anywhere: unlimited bookmarks, collections, and up to 3 highlights per bookmark",
+    "One of the most generous free plans anywhere: unlimited bookmarks, collections, and unlimited highlights",
     "Polished apps on every platform — web, Mac, Windows, Linux, iOS, Android, and all major browser extensions",
     "Strong visual organization with covers, nested collections, and multiple view modes",
     "Public collections make sharing a curated list as easy as sending a link",
@@ -45,18 +59,17 @@
     "Open API and 2,600+ integrations via services like Zapier and IFTTT"
   ],
   "cons": [
-    "Search is keyword-based — no semantic search, so you need to remember titles, tags, or exact words",
-    "AI is limited to save-time tag and collection suggestions (Stella) on Pro; no automatic tagging across saves, no summaries, no chat, no YouTube features",
-    "Full-text search and annotations (beyond 3 highlights/bookmark) are paywalled behind Pro",
-    "Reading experience is basic compared to dedicated read-it-later apps, with no true offline mode"
+    "Standard search uses keywords and full text; Stella Pro beta also accepts natural-language questions about saved content. Check which retrieval workflow you need.",
+    "Reading experience is basic compared to dedicated read-it-later apps, with no true offline mode",
+    "Stella AI is a Pro beta; full-text search, web archive, and annotations also require Pro."
   ],
   "bestFor": "Collectors and visual organizers who file thousands of bookmarks into structured collections and want polished apps everywhere without paying.",
-  "verdict": "The best traditional bookmark filing cabinet — organization is world-class, but finding things still depends on your own tags and keywords.",
-  "overview": "Raindrop.io is a bookmark manager that has been in continuous development since 2013 and is widely treated as the benchmark for organizing links at scale. Bookmarks live in nested collections with cover art, tags, and several view modes, and the free plan is unusually generous: unlimited bookmarks, collections, up to 3 highlights per bookmark, and devices, plus import and export. Apps cover the web, Mac, Windows, Linux, iOS, and Android, with extensions for Chrome, Safari, Firefox, Edge, and other major browsers. The Pro plan — about $28 a year ($3.25/mo direct) — adds full-text search across saved pages and PDFs, an AI assistant (Stella) that suggests tags and collections at save time, permanent archived copies of pages, annotations, reminders, a duplicate finder, and daily backups. Collections can be shared publicly or used collaboratively, and a documented API plus thousands of integrations make it easy to wire into other tools. Raindrop imports from Pocket, browser bookmark HTML files, and most competing services.",
+  "verdict": "A visual bookmark library with generous free collections and highlights. Pro adds full-text search and Stella AI beta for meaning-based retrieval, summaries, and library chat.",
+  "overview": "Raindrop.io is a bookmark manager that has been in continuous development since 2013 and is widely treated as the benchmark for organizing links at scale. Bookmarks live in nested collections with cover art, tags, and several view modes, and the free plan is unusually generous: unlimited bookmarks, collections, unlimited highlights, and devices, plus import and export. Apps cover the web, Mac, Windows, Linux, iOS, and Android, with extensions for Chrome, Safari, Firefox, Edge, and other major browsers. The Pro plan — about $28 a year ($3.25/mo direct) — adds full-text search across saved pages and PDFs, Stella AI beta chat and summaries, plus AI suggestions, permanent archived copies of pages, annotations, reminders, a duplicate finder, and daily backups. Collections can be shared publicly or used collaboratively, and a documented API plus thousands of integrations make it easy to wire into other tools. Raindrop imports from Pocket, browser bookmark HTML files, and most competing services.",
   "faqs": [
     {
       "q": "Is Raindrop.io free?",
-      "a": "Yes — Raindrop.io has one of the most generous free plans in the category: unlimited bookmarks, collections, and devices with up to 3 highlights per bookmark, plus import and export. The paid Pro plan costs about $28/year (or $3.25/month direct, $27.99/year on the App Store) and adds full-text search, Stella AI tag suggestions, permanent copies of saved pages, annotations, reminders, and daily backups."
+      "a": "Yes — Raindrop.io has one of the most generous free plans in the category: unlimited bookmarks, collections, and devices with unlimited highlights, plus import and export. The paid Pro plan costs about $28/year (or $3.25/month direct, $27.99/year on the App Store) and adds full-text search, Stella AI beta chat, summaries, and suggestions, permanent copies of saved pages, annotations, reminders, and daily backups."
     },
     {
       "q": "Is Raindrop.io still active in 2026?",
@@ -64,11 +77,11 @@
     },
     {
       "q": "What is the best Raindrop.io alternative?",
-      "a": "The best Raindrop.io alternative in 2026 is Marqly if you want an AI-first bookmark manager that solves Raindrop's biggest friction point: manual tagging and keyword search. With Marqly, you find saves by describing what you remember (semantic search), get automatic AI summaries of articles and YouTube videos, and can chat directly with your saved content. For open-source self-hosting, Linkwarden or Karakeep are solid alternatives; for dedicated long-form reading queues, Readwise Reader or Instapaper."
+      "a": "Choose by workflow: Raindrop offers an unlimited free bookmark library and Stella AI on Pro; Linkwarden and Karakeep offer self hosting; Instapaper and Reader emphasize reading. Marqly offers up to 100 free saves with keyword search, while Pro adds automatic tagging, summaries, and semantic search."
     },
     {
       "q": "How do I switch from Raindrop.io to Marqly?",
-      "a": "Switching from Raindrop to Marqly takes under two minutes: in Raindrop, go to Settings → Backups and click Export HTML. Then log in to Marqly, open Settings → Import, and upload your Raindrop file. Marqly preserves your collections, extracts full content, and runs AI auto-tagging so your entire library becomes searchable by meaning."
+      "a": "Export Raindrop bookmarks as HTML and keep a backup. Marqly accepts Raindrop HTML but does not preserve original save dates. Test a small sample first. Pro adds automatic tagging on import and semantic search; free supports up to 100 saves with keyword search."
     },
     {
       "q": "Does Raindrop.io work on iPhone?",
@@ -76,8 +89,25 @@
     },
     {
       "q": "Can I export my data from Raindrop.io?",
-      "a": "Yes, and export is available on the free plan. Raindrop.io exports your bookmarks as HTML or CSV files, which nearly every bookmark manager can import — Marqly, for example, has a dedicated Raindrop import. Pro subscribers additionally get automatic daily backups of their library. There is no lock-in; a full export takes about a minute."
+      "a": "Yes. Raindrop offers HTML, CSV, and TXT exports. Check the destination’s accepted format before migrating: Marqly accepts Raindrop HTML (Raindrop’s JSON export is not accepted) and does not preserve original save dates. Pro subscribers also get daily backups. Keep the exported file and test a small sample first."
     }
   ],
-  "lastVerified": "2026-09-12"
+  "lastVerified": "2026-09-12",
+  "sourceChecks": [
+    {
+      "date": "2026-10-06",
+      "label": "Free highlights; Pro annotations",
+      "url": "https://help.raindrop.io/highlights/"
+    },
+    {
+      "date": "2026-10-06",
+      "label": "Stella Pro beta: retrieval by meaning, summaries, library chat, and YouTube transcripts",
+      "url": "https://help.raindrop.io/stella"
+    },
+    {
+      "date": "2026-10-06",
+      "label": "Plan features (price amounts retain prior verification)",
+      "url": "https://raindrop.io/pro/buy"
+    }
+  ]
 }

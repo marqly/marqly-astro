@@ -2,7 +2,7 @@
 a: raindrop
 b: wallabag
 verdict: "Raindrop.io for polished, hosted bookmark organization; Wallabag for a self-hosted reading queue you own outright. Pick by what you distrust more — your own server maintenance (choose Raindrop) or a company's roadmap (choose Wallabag)."
-updatedDate: 2026-08-02
+updatedDate: 2026-10-06
 faqs:
   - q: "Is Wallabag or Raindrop.io cheaper?"
     a: "Both are nearly free, differently. Raindrop's free plan has unlimited bookmarks, collections, and highlights, with Pro at $28/year for full-text search and permanent copies. Wallabag is free to self-host, and the official wallabag.it hosting costs €11/year with every feature included and a 14-day trial. Hosted Wallabag undercuts Raindrop Pro; Raindrop's free plan beats everything if you skip full-text search."
@@ -26,4 +26,6 @@ These two answer different anxieties. Raindrop.io answers "how do I keep a thous
 - You read on an e-reader: exporting saves to ePub and PDF is a signature capability nothing in Raindrop matches.
 - You want a true reading queue — clean article view, offline iOS and Android apps, rule-based auto-tagging — rather than a filing system.
 
-The trade-offs are honest on both sides. Wallabag's interface feels dated, parsing fails on some script-heavy sites, and self-hosting means ongoing maintenance; Raindrop keeps full-text search and annotations behind Pro and can't match €11/year hosted pricing. Neither has meaningful AI. Pick by temperament: pragmatists who want things to just work choose Raindrop; principled self-hosters and e-reader owners choose Wallabag and sleep well knowing the shutdown story can never happen to them.
+The trade-offs are honest on both sides. Wallabag's interface feels dated, parsing fails on some script-heavy sites, and self-hosting means ongoing maintenance; Raindrop keeps full-text search and annotations behind Pro and can't match €11/year hosted pricing. Raindrop Pro also adds Stella for meaning-based retrieval, summaries, library chat, and user-approved organization when asked; Wallabag remains focused on open-source reading and ownership. Pick by temperament: pragmatists who want things to just work choose Raindrop; principled self-hosters and e-reader owners choose Wallabag and sleep well knowing the shutdown story can never happen to them.
+
+*Raindrop feature check, October 6, 2026: [Stella's official documentation](https://help.raindrop.io/stella) confirms meaning-based retrieval, library chat, article and YouTube summaries, and user-approved organization in the Pro beta.*

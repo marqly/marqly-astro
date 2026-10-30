@@ -1,0 +1,186 @@
+{
+  "generatedOn": "2026-10-06",
+  "scope": "Phase D3 substantive refresh, editorial batch B",
+  "baseline": "active/tmp/top40-refresh-baseline.json (current90 visibleQuestions)",
+  "pages": [
+    {
+      "file": "src/content/blog/marqly-review-2026.md",
+      "introWordCount": 51,
+      "changes": [
+        "Replaced the opening with a direct plan-and-fit answer.",
+        "Added a decision table, current Free/Pro boundaries, no-trial language, honest import/export limitations, and owner disclosure.",
+        "Retained the four useful existing FAQs covering product definition, price, fit, and limitations."
+      ],
+      "internalLinks": [
+        "/pricing",
+        "/blog/how-to-search-bookmarks-with-ai",
+        "/blog/how-to-chat-with-your-saved-articles",
+        "/blog/how-to-get-youtube-video-transcript",
+        "/blog/chat-with-youtube-videos",
+        "/research/bookmark-import-fidelity",
+        "/blog/best-pocket-alternatives-2026",
+        "/migrate",
+        "/compare/marqly-vs-pocket",
+        "/compare/marqly-vs-raindrop"
+      ],
+      "sources": [
+        {"url": "https://www.marqly.com/pricing", "status": 200, "fetchedOn": "2026-10-06"},
+        {"url": "https://help.marqly.com/getting-started/quick-start/", "status": 200, "fetchedOn": "2026-10-06"},
+        {"url": "https://help.marqly.com/getting-started/import-bookmarks/", "status": 200, "fetchedOn": "2026-10-06"},
+        {"url": "https://help.marqly.com/account/export-data/", "status": 200, "fetchedOn": "2026-10-06"}
+      ],
+      "factEvidence": [
+        "docs/superpowers/specs/2026-08-02-marqly-product-facts.md: Free=100 bookmarks; Pro=$72/year or $9/month; $49 standing first-year offer; no trial; AI features are Pro.",
+        ".seo/truth-ledger.md:169-175 overrides the older facts-sheet Pocket HTML claim: import Pocket list.csv, not ril_export.html; imported dates are not preserved.",
+        "The page's four useful existing FAQs were retained even though the current90 baseline has no visible question query."
+      ]
+    },
+    {
+      "file": "src/content/blog/how-to-highlight-text-on-any-website.md",
+      "introWordCount": 52,
+      "changes": [
+        "Replaced the opening with a direct highlighting workflow.",
+        "Corrected the prior false Pro-only claim: six-color highlighting is Free; Free has up to 10 highlight notes and Pro has unlimited notes.",
+        "Reworked the capture-method decision table and limited FAQ frontmatter to two actual GSC queries."
+      ],
+      "internalLinks": [
+        "/blog/how-to-find-a-saved-article-you-forgot-the-title-of",
+        "/blog/save-webpage-as-pdf",
+        "/blog/how-to-build-a-second-brain",
+        "/blog/how-to-search-bookmarks-with-ai",
+        "/blog/what-is-a-second-brain-app",
+        "/teams"
+      ],
+      "sources": [
+        {"url": "https://help.marqly.com/browser-extension/overview/", "status": 200, "fetchedOn": "2026-10-06"},
+        {"url": "https://help.marqly.com/bookmarks/bookmark-details/", "status": 200, "fetchedOn": "2026-10-06"},
+        {"url": "https://help.marqly.com/notes-highlights/adding-notes/", "status": 200, "fetchedOn": "2026-10-06"},
+        {"url": "https://chromewebstore.google.com/detail/marqly-all-in-one-bookmar/kcadneobjofkppmekgadodnaojoehemc", "status": 200, "fetchedOn": "2026-10-06", "finalUrl": "https://chromewebstore.google.com/detail/marqly-bookmark-manager-n/kcadneobjofkppmekgadodnaojoehemc"}
+      ],
+      "factEvidence": [
+        "docs/superpowers/specs/2026-08-02-marqly-product-facts.md: highlighter is Free in six colors; Free note cap is 10; Pro notes are unlimited.",
+        "FAQ questions are exact current90 baseline queries: 'how to highlight keywords on web page' and 'is there a way to highlight text on a website'."
+      ]
+    },
+    {
+      "file": "src/content/blog/chrome-bookmarks-not-syncing-fix.md",
+      "introWordCount": 54,
+      "changes": [
+        "Replaced the unsupported eight-fix sequence with a backup-first diagnostic flow based on account, profile, sync-type, update, and test-bookmark checks.",
+        "Removed broad sync-reset and Bookmarks.bak recovery instructions.",
+        "Added a symptom-to-next-check decision table and constrained FAQ frontmatter to actual GSC questions."
+      ],
+      "internalLinks": [
+        "/tools/bookmark-file-viewer",
+        "/tools/duplicate-bookmark-finder",
+        "/migrate/browser-bookmarks",
+        "/blog/how-to-import-chrome-bookmarks-to-ai",
+        "/blog/how-to-organize-bookmarks"
+      ],
+      "sources": [
+        {"url": "https://support.google.com/chrome/answer/165139?hl=en", "status": 200, "fetchedOn": "2026-10-06"},
+        {"url": "https://support.google.com/chrome/answer/96816?hl=en", "status": 200, "fetchedOn": "2026-10-06"},
+        {"url": "https://support.google.com/chrome/answer/17559054?hl=en", "status": 200, "fetchedOn": "2026-10-06"}
+      ],
+      "factEvidence": [
+        "Google Chrome Help documents same-account sync, profile separation, and HTML bookmark import/export.",
+        "FAQ questions are exact current90 baseline queries: 'why are my chrome bookmarks not syncing' and 'how to sync your bookmarks in chrome'."
+      ]
+    },
+    {
+      "file": "src/content/blog/save-youtube-videos-watch-later.md",
+      "introWordCount": 51,
+      "changes": [
+        "Replaced the opening with YouTube's current save controls and a short-queue versus long-term-library decision.",
+        "Scoped Marqly auto-tagging, semantic search, summaries, and video chat to Pro.",
+        "Updated the comparison table and retained one exact GSC FAQ query."
+      ],
+      "internalLinks": [
+        "/blog/best-read-it-later-apps-2026",
+        "/blog/summarize-youtube-videos-with-ai",
+        "/blog/chat-with-youtube-videos",
+        "/blog/how-to-get-youtube-video-transcript",
+        "/tools/youtube-transcript",
+        "/blog/how-to-search-bookmarks-with-ai",
+        "/blog/export-youtube-watch-later"
+      ],
+      "sources": [
+        {"url": "https://support.google.com/youtube/answer/56101?hl=en", "status": 200, "fetchedOn": "2026-10-06"},
+        {"url": "https://support.google.com/youtube/answer/9546304?hl=en", "status": 200, "fetchedOn": "2026-10-06"},
+        {"url": "https://help.marqly.com/browser-extension/overview/", "status": 200, "fetchedOn": "2026-10-06"},
+        {"url": "https://help.marqly.com/bookmarks/bookmark-details/", "status": 200, "fetchedOn": "2026-10-06"}
+      ],
+      "factEvidence": [
+        "docs/superpowers/specs/2026-08-02-marqly-product-facts.md: YouTube transcript attachment; Pro summaries/chat; semantic search and auto-tagging are Pro.",
+        "FAQ question is an exact current90 baseline query: 'how to save a youtube video to watch later'."
+      ]
+    },
+    {
+      "file": "src/content/blog/best-free-bookmark-managers-2026.md",
+      "introWordCount": 50,
+      "changes": [
+        "Replaced the opening with a direct category recommendation.",
+        "Refreshed the decision table and competitor sections from official plan/setup pages without star, testing, or invented feature claims.",
+        "Corrected Marqly AI plan scope and Pocket import fidelity; retained one relevant exact GSC FAQ query."
+      ],
+      "internalLinks": [
+        "/blog/best-pocket-alternatives-2026",
+        "/blog/best-ai-bookmark-manager-2026",
+        "/migrate/raindrop",
+        "/migrate/pocket",
+        "/migrate/browser-bookmarks",
+        "/tools/bookmark-file-viewer",
+        "/tools/duplicate-bookmark-finder",
+        "/compare"
+      ],
+      "sources": [
+        {"url": "https://raindrop.io/pro/buy", "status": 200, "fetchedOn": "2026-10-06"},
+        {"url": "https://www.marqly.com/pricing", "status": 200, "fetchedOn": "2026-10-06"},
+        {"url": "https://linkwarden.app/pricing", "status": 200, "fetchedOn": "2026-10-06"},
+        {"url": "https://docs.linkwarden.app/self-hosting/setup", "status": 200, "fetchedOn": "2026-10-06"},
+        {"url": "https://docs.karakeep.app/installation/minimal-install/", "status": 200, "fetchedOn": "2026-10-06"},
+        {"url": "https://docs.karakeep.app/installation/docker/", "status": 200, "fetchedOn": "2026-10-06"}
+      ],
+      "factEvidence": [
+        "src/data/competitors/{raindrop,linkwarden,karakeep}.json provides dated competitor facts; fetched official pages were used where available.",
+        "docs/superpowers/specs/2026-08-02-marqly-product-facts.md and .seo/truth-ledger.md provide Marqly pricing, plan scope, no-trial, Pocket list.csv-only, and no-date-preservation facts.",
+        "FAQ question is the relevant exact current90 baseline query: 'what's the best tool for team links'."
+      ]
+    },
+    {
+      "file": "src/content/blog/export-youtube-watch-later.md",
+      "introWordCount": 49,
+      "changes": [
+        "Reframed the guide around what Google documents and what the reader must verify in their own Takeout archive.",
+        "Removed unsupported current API, quota, 5,000-item, exact archive-format, bulk-copy, timing, and backlog-percentage claims.",
+        "Added a goal/path decision table, manual fallbacks, and two exact GSC FAQ queries."
+      ],
+      "internalLinks": [
+        "/faq/how-do-i-save-all-my-open-tabs",
+        "/tab-manager",
+        "/faq/how-do-i-save-a-youtube-video-with-its-transcript",
+        "/blog/how-to-get-youtube-video-transcript",
+        "/tools/youtube-transcript",
+        "/blog/summarize-youtube-videos-with-ai",
+        "/tools/youtube-summarize",
+        "/blog/chat-with-youtube-videos",
+        "/blog/how-to-search-bookmarks-with-ai",
+        "/blog/save-youtube-videos-watch-later"
+      ],
+      "sources": [
+        {"url": "https://support.google.com/accounts/answer/3024190?hl=en", "status": 200, "fetchedOn": "2026-10-06"},
+        {"url": "https://support.google.com/youtube/answer/56101?hl=en", "status": 200, "fetchedOn": "2026-10-06"},
+        {"url": "https://support.google.com/youtube/answer/3127309?hl=en", "status": 200, "fetchedOn": "2026-10-06"},
+        {"url": "https://support.google.com/youtube/answer/4541577?hl=en", "status": 200, "fetchedOn": "2026-10-06"}
+      ],
+      "factEvidence": [
+        "Google Takeout help confirms archive creation but does not provide a current file-by-file Watch Later guarantee; copy now tells readers to inspect their archive.",
+        "FAQ questions are exact current90 baseline queries: 'how to export youtube watch later playlist' and 'how to make watch later playlist public'."
+      ]
+    }
+  ],
+  "validationNotes": [
+    "The earlier seo:check failures were from a stale dist build while concurrent English additions were in progress; they were not classified as pre-existing source defects.",
+    "Root integration owns a fresh build and final rendered SEO gate run."
+  ]
+}

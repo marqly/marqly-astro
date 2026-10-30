@@ -1,0 +1,20 @@
+{
+  "auditedOn": "2026-10-06",
+  "scope": "20 root-owned refresh pages",
+  "introWordRange": [
+    50,
+    55
+  ],
+  "minimumContextualInternalLinks": 5,
+  "sources": "3+ fetched official sources per page, with unsuccessful direct requests and alternate web content retrieval recorded separately",
+  "decisionTables": "Existing tables retained; root added browser-choice decision table to extension after audit",
+  "corrections": [
+    "Italian body Free/Pro gating and unsupported timings",
+    "GoodLinks saving extensions supported",
+    "OneTab free core vs optional sync license",
+    "mymind individual-card sharing and Student of Life price",
+    "Raindrop Stella retrieval-by-meaning and export format restrictions"
+  ],
+  "otherLocales": "French, Italian and Portuguese student pages corrected and retain their indexability; all existing FAQ questions retained",
+  "attribution": "Root source audit performed by refresh_editorial_a; fixes integrated and validated by root"
+}

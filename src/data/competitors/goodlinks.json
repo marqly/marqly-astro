@@ -1,7 +1,10 @@
 {
   "name": "GoodLinks",
   "slug": "goodlinks",
-  "aka": ["good-links", "goodlinks-app"],
+  "aka": [
+    "good-links",
+    "goodlinks-app"
+  ],
   "category": "read-it-later",
   "status": "active",
   "shutdownNote": null,
@@ -13,7 +16,11 @@
     "trial": null,
     "notes": "No free tier or trial. The $9.99 purchase includes all current features plus one year of new ones; afterward an optional $4.99/year \"annual feature upgrade\" unlocks later additions. Anything unlocked during a paid year stays yours forever — features never expire."
   },
-  "platforms": ["ios", "mac", "visionos"],
+  "platforms": [
+    "ios",
+    "mac",
+    "visionos"
+  ],
   "features": {
     "aiAutoTagging": false,
     "semanticSearch": false,
@@ -31,7 +38,7 @@
     "offlineReading": true,
     "iosApp": true,
     "androidApp": false,
-    "browserExtension": false,
+    "browserExtension": true,
     "freeTier": false,
     "api": false,
     "selfHosted": false
@@ -46,14 +53,14 @@
   ],
   "cons": [
     "Apple-only — no Android, Windows, or web version at all",
-    "No browser extension; saving outside Safari's share sheet requires workarounds",
+    "Saving extensions are available for Safari, Chrome, and Firefox, while the reading library remains on Apple devices",
     "No public sharing or collaboration features",
     "No AI tagging or semantic search — organization is manual tags and keyword search",
     "Features shipped after your first year need the $4.99/year upgrade pass"
   ],
   "bestFor": "Apple-ecosystem readers who want a fast, private, subscription-free read-it-later app with strong Shortcuts automation.",
   "verdict": "The best-value read-it-later app on Apple platforms — as long as everything you own has an Apple logo on it.",
-  "overview": "GoodLinks is a read-it-later app built exclusively for Apple platforms — iPhone, iPad, Mac, and Apple Vision Pro — sold for a one-time $9.99 rather than a subscription. There is no account: links sync privately through iCloud, articles are stored on-device for offline reading, and the Article Sync feature keeps permanent copies, images included, even after the original page dies. The reader is fast and clean, with multi-color highlights, notes attached to highlights, tag-based organization, and full-text search across saved content. Automation is a signature strength, with deep Shortcuts support, a URL scheme, and a local API on macOS. Version 3.3 in 2026 added one-tap AI summaries via Apple Intelligence or your own LLM API keys. Purchases include a year of new features; after that, an optional $4.99-per-year upgrade pass unlocks newer additions, and anything unlocked stays yours forever. Imports cover Pocket, Instapaper, Raindrop, Pinboard, browser bookmarks, and more.",
+  "overview": "GoodLinks is a read-it-later app built exclusively for Apple platforms — iPhone, iPad, Mac, and Apple Vision Pro — sold for a one-time $9.99 rather than a subscription. There is no account: links sync privately through iCloud, articles are stored on-device for offline reading, and the Article Sync feature keeps permanent copies, images included, even after the original page dies. The reader is fast and clean, with multi-color highlights, notes attached to highlights, tag-based organization, and full-text search across saved content. Automation is a signature strength, with deep Shortcuts support, a URL scheme, and a local API on macOS. Version 3.3 in 2026 added one-tap AI summaries via Apple Intelligence or your own LLM API keys. Purchases include a year of new features; after that, an optional $4.99-per-year upgrade pass unlocks newer additions, and anything unlocked stays yours forever. Imports cover Pocket, Instapaper, Raindrop, Pinboard, browser bookmarks, and more. Official saving documentation also lists Safari, Chrome and Firefox extensions, with Chromium browser support.",
   "faqs": [
     {
       "q": "Is GoodLinks free?",
@@ -65,7 +72,7 @@
     },
     {
       "q": "What is the best GoodLinks alternative?",
-      "a": "On Apple platforms, Instapaper and Matter are the closest read-it-later rivals, and Readwise Reader suits heavy highlighters. If you need cross-platform access or smarter retrieval, Marqly is a strong option — it works in any browser with extensions for Chrome, Edge, Firefox, and Safari, and adds AI auto-tagging, summaries, and semantic search that GoodLinks lacks."
+      "a": "Choose by device and workflow. GoodLinks provides an Apple reading library with offline access and AI summaries. Instapaper and Reader emphasize reading across more platforms; Raindrop emphasizes bookmark collections. Marqly offers up to 100 free saves with keyword search, and Pro adds automatic tags, summaries, and semantic search."
     },
     {
       "q": "Does GoodLinks work on Android or Windows?",
@@ -76,5 +83,12 @@
       "a": "Yes. GoodLinks exports your full library as JSON from the Mac app's File menu or iOS settings, and highlights export as Markdown with customizable formats. Individual articles can be exported as PDF, Markdown, or plain text, and Shortcuts support enables automated exports. Since data lives locally and in your iCloud, nothing is held on a company server."
     }
   ],
-  "lastVerified": "2026-08-02"
+  "lastVerified": "2026-08-02",
+  "sourceChecks": [
+    {
+      "date": "2026-10-06",
+      "label": "Saving extensions and supported browsers",
+      "url": "https://goodlinks.app/help/how-to-save/"
+    }
+  ]
 }

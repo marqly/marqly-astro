@@ -63,12 +63,12 @@ export function switchSentence(c: Competitor): string {
     return 'Yes. Marqly imports the list.csv from your Pocket export ZIP — titles, URLs and tags carry over, and on Pro every save is re-tagged by AI and becomes searchable by meaning. (The HTML file in the ZIP does not import; the free Pocket converter handles that.)';
   }
   if (c.slug === 'raindrop') {
-    return 'Yes. Marqly imports Raindrop.io collections directly, and on Pro AI re-tags everything on the way in so your saves become searchable by meaning.';
+    return 'Marqly imports Raindrop HTML exports. Original save dates are not preserved. Pro adds automatic tagging on import and semantic search; the free plan supports up to 100 saves with keyword search.';
   }
   if (c.slug === 'diigo') {
-    return 'Yes. Diigo exports a standard bookmark HTML file with your links, titles, dates, tags, and descriptions, and Marqly imports it directly. One honest catch: on-page highlights, sticky notes, and Outliners are not part of that export — the Diigo migration guide covers the manual rescue route for those.';
+    return 'Use a browser-compatible bookmark HTML export for Marqly; original save dates are not preserved. Diigo highlights, sticky notes, and Outliners need a separate rescue workflow, described in the Diigo migration guide. Pro adds automatic tagging on import and semantic search.';
   }
-  return `Yes. Export your data from ${c.name} (most tools export standard bookmark HTML or CSV), then import the file into Marqly — AI tags everything automatically and semantic search works across all of it.`;
+  return `Check ${c.name}’s current export format before switching. Marqly accepts browser bookmark HTML, Pocket list.csv, and Raindrop HTML; it does not preserve original save dates. Other formats may not import cleanly, so test a small sample first. Pro adds automatic tagging on import and semantic search; free supports up to 100 saves with keyword search.`;
 }
 
 export function aiFeaturesSentence(c: Competitor): string {
@@ -80,7 +80,7 @@ export function aiFeaturesSentence(c: Competitor): string {
   if (has.length === 0) {
     return `${c.name} does not offer AI organization features — saving, tagging, and finding content is manual. That gap is exactly what AI-first tools like Marqly automate.`;
   }
-  return `${c.name} offers ${has.join(', ')}. Marqly covers the full AI layer — auto-tagging, summaries, semantic search, and AI Q&A over your saves — plus YouTube summaries, transcripts, and video chat on the watch page.`;
+  return `${c.name} offers ${has.join(', ')}. Marqly covers the full AI layer — auto-tagging, summaries, semantic search, and AI Q&A over your saves — plus YouTube summaries, transcripts, and video chat on the watch page. Marqly’s AI features require Pro; free supports up to 100 saves with keyword search.`;
 }
 
 /** Generated FAQ set for Marqly-vs-X pages (all data-derived, no hand-waving). */

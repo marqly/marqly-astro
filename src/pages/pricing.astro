@@ -8,6 +8,7 @@
 import LandingV2 from '../layouts/LandingV2.astro';
 import { alternatesForPath } from '../i18n/routes';
 import { organization } from '../lib/schema';
+import UpdatedDate from '../components/seo/UpdatedDate.astro';
 
 import Nav from '../components/landing/Nav.astro';
 import PricingSection from '../components/landing/PricingSection.astro';
@@ -120,7 +121,13 @@ const jsonLd = [
   alternates={alternatesForPath('/pricing')}
 >
   <Nav slot="nav" />
-  <PricingSection isPage={true} />
+  <PricingSection isPage={true} intro="Marqly is free for up to 100 saves with keyword search across your library. Pro removes the save limit and adds semantic search, automatic tagging, and AI summaries for $72 per year or $9 monthly. The standing $49 first-year offer is available with STANDING49; Pro is billed when you upgrade." />
+  <section class="mx-auto max-w-[1120px] px-5 pb-16 md:px-8">
+    <UpdatedDate date={new Date('2026-10-06T00:00:00Z')} />
+    <h2 class="mt-6 text-2xl font-semibold">Choose by the work you need to do</h2>
+    <div class="mt-4 overflow-x-auto"><table class="w-full text-left"><thead><tr><th>Workflow</th><th>Plan</th></tr></thead><tbody><tr><td>Save up to 100 links and search by words</td><td>Free</td></tr><tr><td>Import and organize automatically with AI tags</td><td>Pro</td></tr><tr><td>Find sources by meaning and read AI summaries</td><td>Pro</td></tr></tbody></table></div>
+    <p class="mt-5">Read the <a href="/faq/is-marqly-free">free-plan limits</a>, <a href="/faq/what-is-semantic-search">semantic-search explanation</a>, and <a href="/faq/how-do-i-import-chrome-bookmarks">HTML import guide</a> before upgrading. For browser capture, see the <a href="/extension">extension feature matrix</a>; for moving an existing library, use the <a href="/migrate">migration checklist</a>. These official Marqly product documents were checked as of October 6, 2026.</p>
+  </section>
   <ReviewsSection />
   <FaqSection />
   <CloseSection />

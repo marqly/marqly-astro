@@ -16,7 +16,7 @@
     "free": true,
     "paid": null,
     "trial": null,
-    "notes": "Entirely free: no paid tier, no limits, no account required. The announced end-to-end-encrypted cross-device sync is 'coming soon' with no pricing stated, so whether sync stays free is unknown."
+    "notes": "The core tab-saving extension is free. Current official help documents optional encrypted cloud backup and sync; this check did not establish its current license price. Core price record retains its August 2 verification."
   },
   "platforms": [
     "chrome",
@@ -47,27 +47,27 @@
     "selfHosted": false
   },
   "pros": [
-    "Completely free with no account, no limits, and no upsell — rare in this category",
+    "Free local tab saving; optional encrypted cloud backup and sync is a separate service with its own license terms",
     "One-click tab collapse that the developer says cuts browser memory use by up to 95%",
-    "Strong privacy stance: tab URLs are never transmitted to the developers or anyone else unless you deliberately share a list",
+    "Local saved tabs stay in your browser; optional cloud backup encrypts them, and sharing a list publishes its links",
     "Actively developed again — a 2026 v2 rewrite added folders, search, stars, tasks, and dark mode",
     "Share-as-web-page turns any tab list into an instant public URL for another person or device",
     "Plain-text export and a 2M+ Chrome install base mean lock-in is close to zero"
   ],
   "cons": [
-    "No sync yet — your list lives in one browser profile, and the promised encrypted sync is still 'coming soon'",
     "Real data-loss risk: uninstalling the extension deletes your stored tabs, and clearing browser data can wipe them too",
     "Saves URLs and titles only — no page content, snapshots, or full-text search, so a dead link means the content is gone",
     "No mobile story at all: no iOS or Android app and no web app to view your list from a phone",
-    "The Mac-only Safari app is a minimal port stuck well behind the Chrome version"
+    "The Mac-only Safari app is a minimal port stuck well behind the Chrome version",
+    "Optional cloud backup and sync is distinct from local tab saving; check current license terms before enabling it."
   ],
-  "bestFor": "Anyone drowning in open tabs who wants a free, private, zero-setup way to park them — and doesn't need sync, mobile access, or saved page content.",
+  "bestFor": "People who want to park open tabs as organized URL lists; check optional sync separately if you need access across computers.",
   "verdict": "The best free tab parker ever made; just don't mistake a local URL list for a permanent library.",
-  "overview": "OneTab is a free browser extension from UK-based OneTab Ltd that collapses every open tab into a single list with one click, cutting browser memory use by up to 95% by the developer's estimate. Tabs restore individually or all at once, and any list can be shared as a hosted web page. First released in 2013, it spent years nearly unchanged before a full v2 rewrite in 2026 added folders, in-list search, stars and tasks, and dark mode, with end-to-end-encrypted sync announced as coming soon. It stores only URLs and titles, locally in the browser profile — nothing is transmitted to the developers — and there is no account to create. Extensions exist for Chrome, Edge, and Firefox, plus a Mac-only Safari app that lags well behind. Export is a plain-text URL list. The whole product is free, with more than two million Chrome users, no limits, and no paid tier.",
+  "overview": "OneTab is a browser extension that stores open tabs as grouped URL lists and restores them individually or together. Current official help describes folders, saved-tab search, stars and tasks, and optional encrypted cloud backup and synchronization. Local tab saving and sharing a group as a public webpage are distinct from the optional sync service. It stores links rather than full article archives. Back up saved lists before uninstalling: its help warns that uninstalling deletes the browser’s stored tabs.",
   "faqs": [
     {
       "q": "Is OneTab free?",
-      "a": "Yes, completely. OneTab has no paid tier, no limits, and doesn't even require an account — you install the extension and it works. The developer has announced encrypted cross-device sync as 'coming soon' without stating whether it will cost anything, but the core tab-collapsing product has been free since 2013 and remains so today."
+      "a": "The core tab-saving extension is free. Optional backup and sync is now documented; check the current service terms and license price separately. The older coming-soon description is outdated."
     },
     {
       "q": "Is OneTab still maintained?",
@@ -75,16 +75,28 @@
     },
     {
       "q": "What is the best OneTab alternative?",
-      "a": "For richer tab management, Workona adds synced project workspaces and Toby adds visual, shareable collections — both with free tiers. If the tabs you're parking are really things you mean to read or reference later, a bookmark manager fits better: Marqly saves all open tabs in one click, then auto-tags them and makes them findable by semantic search, which a plain URL list can't do."
+      "a": "Choose Workona or Toby for a different tab-workspace workflow. If you want to keep links as a reference library, Marqly saves open tabs with keyword search on its free plan of up to 100 saves; Pro adds automatic tags, summaries, and semantic search. OneTab also documents optional cloud sync, so compare that service separately."
     },
     {
       "q": "Does OneTab work on iPhone?",
-      "a": "No. There's no iOS app — the App Store listing is a Mac-only Safari app — no Android app, and no web app to log into, since OneTab has no accounts. Your tab list lives inside one desktop browser profile. The only way to see a list on a phone is to share it as a web page first and open that URL."
+      "a": "OneTab does not provide an iOS or Android app. It documents sharing tab groups as webpages, which you can open on a phone. Optional encrypted backup and sync is a separate service; check its device support before relying on it for mobile access."
     },
     {
       "q": "Can I export my data from OneTab?",
       "a": "Yes, easily. OneTab exports your saved tabs as a plain-text list of URLs with page titles, one per line, which you can copy anywhere and re-import into OneTab on another machine. You can also share any list as a hosted web page. There's no HTML, JSON, or CSV format, but a text list of URLs is about as portable as data gets."
     }
   ],
-  "lastVerified": "2026-08-02"
+  "lastVerified": "2026-08-02",
+  "sourceChecks": [
+    {
+      "date": "2026-10-06",
+      "label": "Optional encrypted backup and sync",
+      "url": "https://www.one-tab.com/help"
+    },
+    {
+      "date": "2026-10-06",
+      "label": "Data handling and optional sync",
+      "url": "https://www.one-tab.com/privacy"
+    }
+  ]
 }

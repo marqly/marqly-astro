@@ -21,6 +21,7 @@ import YouTubeShowcase from '../components/landing/YouTubeShowcase';
 import { NewTabDemo } from '../components/landing/demos';
 import { CheckIcon } from '../components/landing/icons';
 import { APP_URL, CHROME_URL, EDGE_URL, FIREFOX_URL } from '../components/landing/data';
+import UpdatedDate from '../components/seo/UpdatedDate.astro';
 
 const title = 'Marqly Browser Extension — Every Feature';
 const description =
@@ -159,8 +160,7 @@ const browsers = [
           Your browser <em class="mark-stroke">workspace.</em>
         </h1>
         <p class="mx-auto mt-6 max-w-[560px] text-[17px] leading-relaxed text-[#4b4b53]">
-          Marqly is more than a save button. It turns your New Tab page, copied text, highlights,
-          AI conversations, videos, and open tabs into one organized workspace.
+          The Marqly extension saves webpages, highlights, and links into one account across supported browsers. Start free with up to 100 saves and keyword search; Pro adds automatic tagging, summaries, and semantic search. Check the browser matrix below before installing, because the side panel, clipboard history, and AI-chat capture are not available in every browser.
         </p>
         <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
           <a
@@ -256,7 +256,7 @@ const browsers = [
           </div>
           <figcaption class="mt-4 text-sm leading-relaxed text-muted">
             <b class="font-semibold text-foreground">Caught mid-thought.</b>
-            The AI is finding the board and writing the tags while the dialog is still open.
+            On Pro, the AI suggests a board and tags while the dialog is open.
           </figcaption>
         </figure>
 
@@ -296,7 +296,7 @@ const browsers = [
         <YouTubeShowcase bare client:visible />
         <figcaption class="mt-4 max-w-[640px] text-sm leading-relaxed text-muted">
           <b class="font-semibold text-foreground">The AI card sits beside the player.</b>
-          Streaming summary, chat over the transcript, playback-synced timestamps. Save the video
+          Pro adds streaming summaries and chat over the transcript; the transcript has playback-synced timestamps. Save the video
           and all of it stays searchable. <a
             href="/youtube-summarizer"
             class="font-medium text-foreground underline underline-offset-2">More on YouTube AI</a
@@ -372,6 +372,18 @@ const browsers = [
         </p>
       </div>
 
+      <div class="mt-8 overflow-x-auto">
+        <table class="w-full text-left text-sm">
+          <caption class="mb-3 text-left font-medium">Choose by the workspace features you need</caption>
+          <thead><tr><th scope="col" class="p-3">Feature</th><th scope="col" class="p-3">Browsers</th></tr></thead>
+          <tbody>
+            <tr><th scope="row" class="p-3">Save links and highlight webpages</th><td class="p-3">Chrome, Edge, Firefox, Safari</td></tr>
+            <tr><th scope="row" class="p-3">Side panel and clipboard history</th><td class="p-3">Chrome and Edge</td></tr>
+            <tr><th scope="row" class="p-3">Capture AI conversations</th><td class="p-3">Chrome, Edge, Firefox</td></tr>
+            <tr><th scope="row" class="p-3">Automatic tags, summaries, semantic search</th><td class="p-3">Pro account features; check the browser cards below</td></tr>
+          </tbody>
+        </table>
+      </div>
       <div class="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
         {
           browsers.map((b, i) => (
@@ -462,5 +474,10 @@ const browsers = [
   </section>
 
   <CloseSection padTop />
+  <section class="mx-auto max-w-[1120px] px-5 py-12 md:px-8">
+    <UpdatedDate date={new Date('2026-10-06T00:00:00Z')} />
+    <h2 class="mt-5 text-2xl font-semibold">Check the plan and capture workflow</h2>
+    <p class="mt-4">Use <a href="/faq/is-marqly-free">free-plan documentation</a>, <a href="/faq/what-is-semantic-search">Pro semantic search</a>, and <a href="/faq/can-i-save-chatgpt-claude-gemini-conversations">AI-conversation capture</a> for the current limits, checked as of October 6, 2026. See <a href="/pricing">pricing</a> before upgrading and <a href="/migrate">migration guides</a> before importing existing saves. Browser HTML, Pocket list.csv, and Raindrop HTML are supported; original save dates are not preserved.</p>
+  </section>
   <FooterV2 slot="footer" />
 </LandingV2>

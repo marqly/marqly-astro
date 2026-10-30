@@ -6,6 +6,7 @@ import ComparisonTable from '../../components/seo/ComparisonTable.astro';
 import FaqAccordion from '../../components/seo/FaqAccordion.astro';
 import CtaBox from '../../components/seo/CtaBox.astro';
 import SourceNote from '../../components/seo/SourceNote.astro';
+import UpdatedDate from '../../components/seo/UpdatedDate.astro';
 import { competitors, marqly, getCompetitor } from '../../lib/competitors';
 import { marqlyPairFaqs, marqlyEdges, otherEdges, pricingSentence, switchSentence, MIGRATIONS, MIGRATION_SLUGS } from '../../lib/compare-content';
 import { breadcrumbList, faqPage, organization, softwareApplication, webSite } from '../../lib/schema';
@@ -92,7 +93,7 @@ const tableTools = isMarqlyPair ? [marqly, b] : [a, b, marqly];
     <div class="container">
       <Breadcrumbs items={crumbs} />
       <h1>{h1}</h1>
-      <SourceNote tools={tableTools} />
+      {verdictEntry && ['linkwarden-vs-karakeep', 'readwise-vs-readwise-reader'].includes(pairSlug) && <UpdatedDate date={verdictEntry.data.updatedDate} />}
 
       <div class="verdict-box">
         <p class="verdict-label">Executive verdict &amp; bottom line</p>
@@ -113,6 +114,8 @@ const tableTools = isMarqlyPair ? [marqly, b] : [a, b, marqly];
           <p class="verdict-prose">{verdictEntry!.data.verdict}</p>
         )}
       </div>
+
+      <SourceNote tools={tableTools} />
 
       <h2>Feature comparison</h2>
       <ComparisonTable tools={tableTools} variant="full" caption={`${a.name} vs ${b.name}${isMarqlyPair ? '' : ' vs Marqly'} — feature by feature`} />

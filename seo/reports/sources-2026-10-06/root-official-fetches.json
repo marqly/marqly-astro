@@ -1,0 +1,416 @@
+[
+  {
+    "url": "https://raindrop.io/pro/buy",
+    "status": 200,
+    "finalUrl": "https://raindrop.io/pro/buy",
+    "fetchedAt": "2026-10-06T12:00:35.742Z",
+    "bytes": 68062,
+    "bodyFile": "active/tmp/d3-source-3.html",
+    "sha256": "900030e75ec1ee897638bd7e968e2ee270bd4bfe06056ea4d1286f51b843cc46",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://help.pinterest.com/en/article/boards",
+    "status": 200,
+    "finalUrl": "https://help.pinterest.com/en/article/boards",
+    "fetchedAt": "2026-10-06T12:00:37.018Z",
+    "bytes": 130242,
+    "bodyFile": "active/tmp/d3-source-0.html",
+    "sha256": "8946718198ae23af893da0e3642aec7fb3902bc3d5d0afa33c88b3d0b6c83cb4",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://help.pinterest.com/en-gb/article/download-your-pinterest-data",
+    "status": 200,
+    "finalUrl": "https://help.pinterest.com/en-gb/article/download-your-pinterest-data",
+    "fetchedAt": "2026-10-06T12:00:37.111Z",
+    "bytes": 151931,
+    "bodyFile": "active/tmp/d3-source-1.html",
+    "sha256": "e72efc89f6b80acc9b243ed27c7f7e2d59106b4f05f7d3654c61748fc1652a29",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://help.pinterest.com/en/article/add-pins-from-the-web",
+    "status": 200,
+    "finalUrl": "https://help.pinterest.com/en/article/add-pins-from-the-web",
+    "fetchedAt": "2026-10-06T12:00:37.133Z",
+    "bytes": 137396,
+    "bodyFile": "active/tmp/d3-source-2.html",
+    "sha256": "f39ab681e57e7324035153a1f5b7e32b1cacf436e5e1d91354417472759d814a",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://help.raindrop.io/export/",
+    "status": 200,
+    "finalUrl": "https://help.raindrop.io/export/",
+    "fetchedAt": "2026-10-06T12:00:37.829Z",
+    "bytes": 348898,
+    "bodyFile": "active/tmp/d3-source-4.html",
+    "sha256": "3e22289de45d645e5d7ba47f46be2536f8aeee354b547f83469c5af645c11548",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://help.raindrop.io/highlights/",
+    "status": 200,
+    "finalUrl": "https://help.raindrop.io/highlights/",
+    "fetchedAt": "2026-10-06T12:00:37.896Z",
+    "bytes": 417958,
+    "bodyFile": "active/tmp/d3-source-5.html",
+    "sha256": "ca650d1267ee5ed6a555fcbdf65a586722bd46fa5d2ddd6002b282f0b2f1b4bd",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://docs.karakeep.app/",
+    "status": 200,
+    "finalUrl": "https://docs.karakeep.app/",
+    "fetchedAt": "2026-10-06T12:00:38.070Z",
+    "bytes": 27717,
+    "bodyFile": "active/tmp/d3-source-6.html",
+    "sha256": "ae793d1e1f40d20279177ec66ed51593ae3cfdfbd45ce2e0f9203b540dbf4f6c",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://docs.karakeep.app/configuration/environment-variables/",
+    "status": 200,
+    "finalUrl": "https://docs.karakeep.app/configuration/environment-variables/",
+    "fetchedAt": "2026-10-06T12:00:38.207Z",
+    "bytes": 74371,
+    "bodyFile": "active/tmp/d3-source-7.html",
+    "sha256": "c6f33998b15fcbcac8cbb883f9938347f6ae31bb390ef5e1ab0896a44c6f2201",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://docs.karakeep.app/using-karakeep/tags/",
+    "status": 200,
+    "finalUrl": "https://docs.karakeep.app/using-karakeep/tags/",
+    "fetchedAt": "2026-10-06T12:00:38.480Z",
+    "bytes": 22620,
+    "bodyFile": "active/tmp/d3-source-8.html",
+    "sha256": "50db7d1f8a76d57284f0ed8236bc2baa802dd758403b8a8ef0e3faf4d46acdd2",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://help.evernote.com/hc/en-us/articles/209125827-Clip-formats",
+    "status": 403,
+    "finalUrl": "https://help.evernote.com/hc/en-us/articles/209125827-Clip-formats",
+    "fetchedAt": "2026-10-06T12:00:38.553Z",
+    "bytes": 5592,
+    "bodyFile": "active/tmp/d3-source-10.html",
+    "sha256": "b480920a952bef15d6ac074d2430ecf0f608ff42534f3fb7028e804560fd6e4c",
+    "retrievalMethod": "direct Node fetch",
+    "alternateRetrieval": {
+      "method": "web open primary page",
+      "date": "2026-10-06",
+      "result": "content read successfully",
+      "support": "clip types, browser support and research workflow; no current pricing claims"
+    }
+  },
+  {
+    "url": "https://help.evernote.com/hc/en-us/articles/209125877-Evernote-Web-Clipper-Quick-Start-Guide",
+    "status": 403,
+    "finalUrl": "https://help.evernote.com/hc/en-us/articles/209125877-Evernote-Web-Clipper-Quick-Start-Guide",
+    "fetchedAt": "2026-10-06T12:00:38.558Z",
+    "bytes": 5712,
+    "bodyFile": "active/tmp/d3-source-9.html",
+    "sha256": "4cc9d2b32dfe68356639934d15f8a1b99fd0952b6649a2b6622afea3d334fd27",
+    "retrievalMethod": "direct Node fetch",
+    "alternateRetrieval": {
+      "method": "web open primary page",
+      "date": "2026-10-06",
+      "result": "content read successfully",
+      "support": "clip types, browser support and research workflow; no current pricing claims"
+    }
+  },
+  {
+    "url": "https://help.evernote.com/hc/en-us/articles/1500006654621-Workflow-Research-that-saves-you-time",
+    "status": 403,
+    "finalUrl": "https://help.evernote.com/hc/en-us/articles/1500006654621-Workflow-Research-that-saves-you-time",
+    "fetchedAt": "2026-10-06T12:00:38.558Z",
+    "bytes": 5721,
+    "bodyFile": "active/tmp/d3-source-11.html",
+    "sha256": "a8647c6c3a5edb392582192e9d990c09799ee021feaa514e1c3e135f8fef2742",
+    "retrievalMethod": "direct Node fetch",
+    "alternateRetrieval": {
+      "method": "web open primary page",
+      "date": "2026-10-06",
+      "result": "content read successfully",
+      "support": "clip types, browser support and research workflow; no current pricing claims"
+    }
+  },
+  {
+    "url": "https://www.notion.com/help/web-clipper",
+    "status": 200,
+    "finalUrl": "https://www.notion.com/help/web-clipper",
+    "fetchedAt": "2026-10-06T12:00:38.927Z",
+    "bytes": 381859,
+    "bodyFile": "active/tmp/d3-source-15.html",
+    "sha256": "3c52bf6e9b8a47cc6d50ef9a63204ebc06062a0c050fa9ec2e7574e45ccdf40b",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://docs.linkwarden.app/usage/overview",
+    "status": 200,
+    "finalUrl": "https://docs.linkwarden.app/usage/overview",
+    "fetchedAt": "2026-10-06T12:00:39.400Z",
+    "bytes": 17361,
+    "bodyFile": "active/tmp/d3-source-13.html",
+    "sha256": "ae75e353c49a47f3e8d250c82e881512413cc31b8662784480ef564f51850126",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://linkwarden.app/pricing",
+    "status": 200,
+    "finalUrl": "https://linkwarden.app/pricing",
+    "fetchedAt": "2026-10-06T12:00:39.475Z",
+    "bytes": 52546,
+    "bodyFile": "active/tmp/d3-source-12.html",
+    "sha256": "68c2e5ff01765309a6b316e3d08093b0fe8acad43f2df3305e613541830e2935",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://docs.linkwarden.app/usage/preservation",
+    "status": 200,
+    "finalUrl": "https://docs.linkwarden.app/usage/preservation",
+    "fetchedAt": "2026-10-06T12:00:39.540Z",
+    "bytes": 27681,
+    "bodyFile": "active/tmp/d3-source-14.html",
+    "sha256": "1c8718a29bc72700cec81d1423edecb9f5176964fa343cb69a4889e1b41534dc",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://www.notion.com/help/import-data-into-notion",
+    "status": 200,
+    "finalUrl": "https://www.notion.com/help/import-data-into-notion",
+    "fetchedAt": "2026-10-06T12:00:39.791Z",
+    "bytes": 690901,
+    "bodyFile": "active/tmp/d3-source-16.html",
+    "sha256": "f6cce3ca1508a66de28d092dbd234517517104064d4971c6ca347a783722922f",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://www.notion.com/pricing",
+    "status": 200,
+    "finalUrl": "https://www.notion.com/pricing",
+    "fetchedAt": "2026-10-06T12:00:39.819Z",
+    "bytes": 511832,
+    "bodyFile": "active/tmp/d3-source-17.html",
+    "sha256": "02e59ada70f58b60a8e428d2983bb3868e053728c72462e764ec1b7e75cd09d1",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://www.one-tab.com/",
+    "status": 200,
+    "finalUrl": "https://www.one-tab.com/",
+    "fetchedAt": "2026-10-06T12:00:40.657Z",
+    "bytes": 26435,
+    "bodyFile": "active/tmp/d3-source-18.html",
+    "sha256": "ced8d2d85b85282cee1fb95b43b579c546d8f2e7788f5858759dbfc64b85ff06",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://www.one-tab.com/help",
+    "status": 200,
+    "finalUrl": "https://www.one-tab.com/help",
+    "fetchedAt": "2026-10-06T12:00:40.679Z",
+    "bytes": 34107,
+    "bodyFile": "active/tmp/d3-source-19.html",
+    "sha256": "22c29689a9e893efcbb12022949651f77a8339e7b2c94feac0dea18930a06d05",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://www.one-tab.com/privacy",
+    "status": 200,
+    "finalUrl": "https://www.one-tab.com/privacy",
+    "fetchedAt": "2026-10-06T12:00:40.964Z",
+    "bytes": 11812,
+    "bodyFile": "active/tmp/d3-source-20.html",
+    "sha256": "07e785355a4e1cfd2876edd20a67f0a1d698773562219061f3b4eee4efb2859f",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://goodlinks.app/",
+    "status": 200,
+    "finalUrl": "https://goodlinks.app/",
+    "fetchedAt": "2026-10-06T12:00:41.873Z",
+    "bytes": 28383,
+    "bodyFile": "active/tmp/d3-source-23.html",
+    "sha256": "63fca73e7f9b0668955efc0cb0ab547d8770c7aa41ba54651b234bc062b9a120",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://www.instapaper.com/docs/save/browser",
+    "status": 200,
+    "finalUrl": "https://www.instapaper.com/docs/save/browser",
+    "fetchedAt": "2026-10-06T12:00:42.124Z",
+    "bytes": 6727,
+    "bodyFile": "active/tmp/d3-source-22.html",
+    "sha256": "13c441273bedea804ebff73c326f8f838778bdc2887e87cc9a5a41df3798eee0",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://www.instapaper.com/premium",
+    "status": 200,
+    "finalUrl": "https://www.instapaper.com/premium",
+    "fetchedAt": "2026-10-06T12:00:42.322Z",
+    "bytes": 16170,
+    "bodyFile": "active/tmp/d3-source-21.html",
+    "sha256": "4c09ef470ff92135942cd02a48ddab429c0d950310ff496e7161b4a2604ff39e",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split",
+    "status": 200,
+    "finalUrl": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split",
+    "fetchedAt": "2026-10-06T12:00:42.896Z",
+    "bytes": 180793,
+    "bodyFile": "active/tmp/d3-source-26.html",
+    "sha256": "19e3ee8a84803e2b9ba8e4955afce99cc1a60becf7d076d39547674b5600c660",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length",
+    "status": 200,
+    "finalUrl": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length",
+    "fetchedAt": "2026-10-06T12:00:42.900Z",
+    "bytes": 170778,
+    "bodyFile": "active/tmp/d3-source-27.html",
+    "sha256": "98efa2ecd4df2e6895185957ae319638f47812c3136cf7d94f267e4f61b2e105",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://mymind.com/",
+    "status": 200,
+    "finalUrl": "https://mymind.com/",
+    "fetchedAt": "2026-10-06T12:00:43.235Z",
+    "bytes": 157476,
+    "bodyFile": "active/tmp/d3-source-24.html",
+    "sha256": "e992c38e80d4a76166ade8d19b98424714696d3dc4266f5fbe7c5072616f7fce",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://biblio.ugent.be/publication/8647789",
+    "status": 200,
+    "finalUrl": "https://biblio.ugent.be/publication/8647789",
+    "fetchedAt": "2026-10-06T12:00:43.238Z",
+    "bytes": 37810,
+    "bodyFile": "active/tmp/d3-source-25.html",
+    "sha256": "192f6fd7cf2b679420edcf6283d4c276db2eb4728bf7e1acce30d9c86f7798ee",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://readwise.io/pricing",
+    "status": 200,
+    "finalUrl": "https://readwise.io/pricing",
+    "fetchedAt": "2026-10-06T12:00:44.247Z",
+    "bytes": 140757,
+    "bodyFile": "active/tmp/d3-source-31.html",
+    "sha256": "c9b71a6f5eb24dde112ad126cb552eb050d1da4501daef8fd37922be917feb88",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://support.google.com/youtube/answer/72431",
+    "status": 200,
+    "finalUrl": "https://support.google.com/youtube/answer/72431",
+    "fetchedAt": "2026-10-06T12:00:44.701Z",
+    "bytes": 1622373,
+    "bodyFile": "active/tmp/d3-source-29.html",
+    "sha256": "f5ab5a67f5ee239567a68ade7bb8bce305ac11f336c4c1bd1a0f6b33c199a02a",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://support.google.com/youtube/answer/2797466",
+    "status": 200,
+    "finalUrl": "https://support.google.com/youtube/answer/2797466",
+    "fetchedAt": "2026-10-06T12:00:44.756Z",
+    "bytes": 1612407,
+    "bodyFile": "active/tmp/d3-source-30.html",
+    "sha256": "51b0c00f33846d1af178add2261b0dd6e90fc6acbdee20931433c2dc30a04a10",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://developers.google.com/youtube/v3/docs/thumbnails",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/youtube/v3/docs/thumbnails?hl=he",
+    "fetchedAt": "2026-10-06T12:00:45.021Z",
+    "bytes": 94947,
+    "bodyFile": "active/tmp/d3-source-28.html",
+    "sha256": "c280482f591983fad1c6f1186d4cb8859d82595d9044429ffab0edc932143b28",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://readwise.io/",
+    "status": 200,
+    "finalUrl": "https://readwise.io/",
+    "fetchedAt": "2026-10-06T12:00:45.416Z",
+    "bytes": 147452,
+    "bodyFile": "active/tmp/d3-source-32.html",
+    "sha256": "5fbfb92ace0da5e47639942b5d38055eaa20d8fa4e3e64207fa49efa783332f5",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://www.marqly.com/faq/is-marqly-free",
+    "status": 200,
+    "finalUrl": "https://www.marqly.com/faq/is-marqly-free",
+    "fetchedAt": "2026-10-06T12:00:45.887Z",
+    "bytes": 79704,
+    "bodyFile": "active/tmp/d3-source-34.html",
+    "sha256": "f88c9a8e9fef66dd050afb59b4ad885b6ec62db181d15cadfe265607d184537d",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://www.marqly.com/faq/what-is-semantic-search",
+    "status": 200,
+    "finalUrl": "https://www.marqly.com/faq/what-is-semantic-search",
+    "fetchedAt": "2026-10-06T12:00:45.928Z",
+    "bytes": 79819,
+    "bodyFile": "active/tmp/d3-source-35.html",
+    "sha256": "f85fa7e7a7e9628a525cf7c2048f4cbad13f5aed87c6ceef738fd5c88006ad7d",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://docs.readwise.io/reader/docs/faqs",
+    "status": 200,
+    "finalUrl": "https://docs.readwise.io/reader/docs/faqs",
+    "fetchedAt": "2026-10-06T12:00:46.043Z",
+    "bytes": 223998,
+    "bodyFile": "active/tmp/d3-source-33.html",
+    "sha256": "a1074b5fdbb40051a0272bd58b7721501e4dc2151e8bc169c3588aeee1cb4103",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://www.marqly.com/faq/can-i-save-chatgpt-claude-gemini-conversations",
+    "status": 200,
+    "finalUrl": "https://www.marqly.com/faq/can-i-save-chatgpt-claude-gemini-conversations",
+    "fetchedAt": "2026-10-06T12:00:46.271Z",
+    "bytes": 80009,
+    "bodyFile": "active/tmp/d3-source-37.html",
+    "sha256": "2c8edd20f4058c475ae293f2797b8865b043f386411a99ddaed5c2d3f4a58234",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://www.marqly.com/faq/how-do-i-import-chrome-bookmarks",
+    "status": 200,
+    "finalUrl": "https://www.marqly.com/faq/how-do-i-import-chrome-bookmarks",
+    "fetchedAt": "2026-10-06T12:00:46.305Z",
+    "bytes": 79962,
+    "bodyFile": "active/tmp/d3-source-36.html",
+    "sha256": "752cc2fd49c32cd939ef95d5cac51d5f74c84c6255beb1ed08ee77b2d6426c36",
+    "retrievalMethod": "direct Node fetch"
+  },
+  {
+    "url": "https://goodlinks.app/help/how-to-save/",
+    "status": 200,
+    "retrievedOn": "2026-10-06",
+    "retrievalMethod": "delegated direct fetch by editorial audit",
+    "facts": "Safari, Chrome and Firefox saving extensions; Chromium browsers supported"
+  },
+  {
+    "url": "https://apps.apple.com/us/app/mymind-extend-your-mind/id1520332347",
+    "status": 200,
+    "bytes": 625858,
+    "retrievedOn": "2026-10-06",
+    "retrievalMethod": "delegated direct GET by editorial audit",
+    "facts": "Individual-card Share or Download option; public boards and shared-library collaboration not established",
+    "laterRequest": "web open returned429; successful direct GET retained separately"
+  }
+]

@@ -1,0 +1,334 @@
+{
+  "scope": "Phase D3 editorial refresh: eight assigned English blog posts",
+  "method": "Official pages were fetched with web search/open during this run. No screenshots or PAA sampling were used. Newly added FAQ questions come only from active/tmp/top40-refresh-baseline.json visibleQuestions; useful existing self-hosted FAQs were retained and fact-corrected.",
+  "pages": [
+    {
+      "file": "src/content/blog/best-pocket-alternatives-2026.md",
+      "introWordCount": 51,
+      "internalLinkCount": 17,
+      "changes": [
+        "Rewrote the direct-answer introduction and retained the decision table.",
+        "Corrected Pocket wording to shutdown July 8, 2025; export and API closed November 12, 2025; data queued for deletion and deletion began, with no claim that deletion completed that day.",
+        "Updated Raindrop Stella retrieval, summaries and organization, Instapaper Premium AI voices, Notion Business AI search/chat, Readwise pricing, and mymind pricing.",
+        "Scoped Marqly import auto-tagging and semantic search to Pro and documented list.csv/Raindrop HTML/browser HTML plus non-preserved dates.",
+        "Preserved the three observed query questions and restored four useful original FAQs with corrected shutdown, import-format, date-preservation, and export-content details."
+      ],
+      "sources": [
+        {
+          "url": "https://support.mozilla.org/en-US/kb/future-of-pocket",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Pocket shut down July 8, 2025; export and API disabled November 12, 2025; user data queued for permanent deletion and deletion began."
+        },
+        {
+          "url": "https://raindrop.io/pro/buy",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Free has unlimited bookmarks, collections, highlights, devices, import/export; Pro adds AI assistant, AI suggestions, MCP, full-text search, archive, annotations, and backups. Currency amount did not render in fetched HTML."
+        },
+        {
+          "url": "https://help.raindrop.io/import/",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Raindrop documents Pocket HTML import and HTML/CSV/JSON/TXT/ENEX support generally."
+        },
+        {
+          "url": "https://readwise.io/pricing/reader",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Reader/Readwise costs $9.99 monthly billed annually ($119.88 charged for 12 months) or $12.99 monthly after a 30-day trial."
+        },
+        {
+          "url": "https://access.mymind.com/pricing",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Student of Life $7.99/month or $79/year; Mastermind $12.99/month or $129/year; Newton listed as coming soon."
+        },
+        {
+          "url": "https://help.raindrop.io/stella",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Stella is a Pro beta with retrieval by meaning, library chat, article and YouTube summaries, source comparison, and user-approved organization changes; it activates only when asked."
+        }
+      ]
+    },
+    {
+      "file": "src/content/blog/export-instagram-saved-posts.md",
+      "introWordCount": 51,
+      "internalLinkCount": 9,
+      "changes": [
+        "Added updatedDate, a direct-answer introduction, and an HTML-versus-JSON decision table.",
+        "Narrowed archive claims to what Meta documents and labeled the dedicated Instagram download page as rate-limited during this run.",
+        "Clarified that Marqly accepts converted browser bookmark HTML, not raw Instagram JSON, and that dates are not preserved.",
+        "Preserved three observed query questions and restored useful media-coverage and delivery-time FAQs without unsupported filenames or timing promises."
+      ],
+      "sources": [
+        {
+          "url": "https://www.facebook.com/help/943858526073065",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Accounts Center manages connected Instagram and Facebook account settings."
+        },
+        {
+          "url": "https://www.facebook.com/help/windows-desktop/506794473544588/",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Meta Download Your Information supports selecting categories and date ranges."
+        },
+        {
+          "url": "https://www.facebook.com/help/instagram/139886812848894",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Instagram recommends exporting a copy of information before account deletion."
+        },
+        {
+          "url": "https://help.instagram.com/181231772500920",
+          "status": 429,
+          "fetched": "2026-10-06",
+          "facts": "Dedicated Instagram download article was rate-limited; no fresh facts were claimed from it."
+        }
+      ]
+    },
+    {
+      "file": "src/content/blog/mymind-review-2026.md",
+      "introWordCount": 49,
+      "internalLinkCount": 11,
+      "changes": [
+        "Kept the direct-answer introduction and plan decision table, adding fresh official source notes.",
+        "Retained the competitor JSON verification date of October 5 for the 100-card guest plan while verifying paid amounts on the accessible official pricing host.",
+        "Aligned associative search, beta API, and individual-card sharing with the dated competitor record and official iOS listing; retained the absence of public boards, team collaboration, and bulk import.",
+        "Preserved three observed query questions and restored useful worth-it and Marqly-comparison FAQs with current plan and import limits."
+      ],
+      "sources": [
+        {
+          "url": "https://access.mymind.com/pricing",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Paid plan prices and feature gates for Bookmarker, Student of Life, Mastermind, and coming-soon Newton."
+        },
+        {
+          "url": "https://mymind.com/features",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Private visual library, automatic organization, associative search, Smart Spaces, AI summaries, and mobile/browser coverage."
+        },
+        {
+          "url": "https://mymind.com/browser-extensions",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Official browser extension availability."
+        },
+        {
+          "url": "https://apps.apple.com/us/app/mymind-extend-your-mind/id1520332347",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Official iOS/iPad listing and current app availability."
+        },
+        {
+          "url": "https://mymind.com/pricing",
+          "status": 403,
+          "fetched": "2026-10-06",
+          "facts": "Blocked; not used as a fresh verification source."
+        }
+      ]
+    },
+    {
+      "file": "src/content/blog/export-twitter-x-bookmarks.md",
+      "introWordCount": 55,
+      "internalLinkCount": 5,
+      "changes": [
+        "Added updatedDate and a direct-answer introduction.",
+        "Removed unsupported 800-1,000 bookmark caps, definitive archive-exclusion language, unverified service endorsements, and stale Premium-search claims.",
+        "Documented only the official archive, private bookmark, and Premium folder behavior supported by X help.",
+        "Preserved three observed query questions and restored the useful long-term-search FAQ with free-versus-Pro Marqly gating."
+      ],
+      "sources": [
+        {
+          "url": "https://help.x.com/en/managing-your-account/how-to-download-your-x-archive",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Archive request steps, identity verification, notification, ZIP delivery, machine-readable HTML/JSON examples, and preparation taking a few days."
+        },
+        {
+          "url": "https://help.x.com/en/using-x/bookmarks",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Bookmark save/view/remove flow and private visibility; no export workflow documented."
+        },
+        {
+          "url": "https://help.x.com/en/using-x/x-premium-how-to",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Bookmark Folders are a Premium feature and remain private."
+        }
+      ]
+    },
+    {
+      "file": "src/content/blog/raindrop-review-2026.md",
+      "introWordCount": 47,
+      "internalLinkCount": 8,
+      "changes": [
+        "Added updatedDate, direct-answer introduction, and source note while retaining and correcting the plan/comparison tables.",
+        "Corrected free highlights to unlimited and Pro annotations; documented Stella Pro beta retrieval by meaning, library chat, summaries, YouTube transcripts, and approval-based organization alongside save-time AI suggestions.",
+        "Kept the September 12 dated competitor-record price because the fresh official HTML did not render a currency amount.",
+        "Preserved three observed query questions and restored useful worth-it, alternatives, and AI-search FAQs with current Stella behavior."
+      ],
+      "sources": [
+        {
+          "url": "https://raindrop.io/pro/buy",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Free and Pro feature split; yearly billing usually about 20% cheaper; no currency amount in fetched HTML."
+        },
+        {
+          "url": "https://help.raindrop.io/stella",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Stella is a Pro beta that finds by meaning, chats across the library, summarizes articles and YouTube transcripts, compares sources, and proposes organization changes for approval; it runs only when invoked."
+        },
+        {
+          "url": "https://help.raindrop.io/highlights/",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Highlights are unlimited and free; annotations require Pro; extension can show highlights on revisited live pages."
+        },
+        {
+          "url": "https://help.raindrop.io/import/",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Accepted import formats and Pocket HTML guidance."
+        },
+        {
+          "url": "https://help.raindrop.io/export",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Exports whole account, collections, or selections as HTML/CSV/TXT; Pro daily backups; uploaded files exported separately."
+        }
+      ]
+    },
+    {
+      "file": "src/content/blog/best-self-hosted-pocket-alternative.md",
+      "introWordCount": 45,
+      "internalLinkCount": 5,
+      "changes": [
+        "Added updatedDate, a direct-answer introduction, and six official source citations while retaining the tool decision table.",
+        "Corrected Karakeep to current semantic search plus LLM tagging/summaries, and corrected wallabag's post-API-shutdown Pocket migration path.",
+        "Removed completed-deletion and zero-risk language and documented Marqly import/pricing limits.",
+        "Retained six useful existing FAQs and corrected Pocket migration, deletion, AI, semantic-search, and hosting claims; no unsupported migration guarantee remains."
+      ],
+      "sources": [
+        {
+          "url": "https://doc.wallabag.org/admin/installation/installation/",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Official self-hosted installation and Docker/SQLite example."
+        },
+        {
+          "url": "https://doc.wallabag.org/user/import/pocket/",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Legacy API flow plus a community Pocket ZIP-to-CSV converter alternative."
+        },
+        {
+          "url": "https://github.com/karakeep-app/karakeep",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Official repository documents full-text and semantic search, LLM tagging/summarization, Ollama, apps, and extensions."
+        },
+        {
+          "url": "https://github.com/linkwarden/linkwarden",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Official repository documents self-hosting, collaboration, screenshots, PDFs, HTML preservation, annotations, and optional local AI tagging."
+        },
+        {
+          "url": "https://github.com/ArchiveBox/ArchiveBox",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Official repository documents self-hosted durable web archiving and Docker setup."
+        },
+        {
+          "url": "https://support.mozilla.org/en-US/kb/future-of-pocket",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Pocket shutdown and export/API/data-deletion timeline."
+        }
+      ]
+    },
+    {
+      "file": "src/content/blog/export-reddit-saved-posts.md",
+      "introWordCount": 55,
+      "internalLinkCount": 5,
+      "changes": [
+        "Added updatedDate and a direct-answer introduction.",
+        "Removed unsupported 1,000-item cap, typical-delivery statistics, fixed CSV-schema claims, named-script endorsements, and invented triage percentages.",
+        "Reframed the guide around the official request, preserving the source ZIP, inspecting current files, and converting permalinks carefully.",
+        "Preserved three observed query questions and restored the useful saved-post export FAQ without assuming a filename, schema, or item cap."
+      ],
+      "sources": [
+        {
+          "url": "https://support.reddithelp.com/hc/en-us/articles/360043048352-How-do-I-request-a-copy-of-my-Reddit-data-and-information",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Desktop request URL, login/submit flow, up-to-30-day preparation, inbox or verified-email delivery, and inaccessible-account email route."
+        },
+        {
+          "url": "https://support.reddithelp.com/hc/en-us/articles/205243605-How-do-I-save-a-post-and-where-does-it-get-saved",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Official Save and Saved-view instructions for web and mobile."
+        },
+        {
+          "url": "https://support.reddithelp.com/hc/en-us/articles/16160319875092-Reddit-Data-API-Wiki",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "OAuth requirement, current API policy caveat, deletion obligations, and published rate-limit guidance."
+        }
+      ]
+    },
+    {
+      "file": "src/content/blog/readwise-reader-review-2026.md",
+      "introWordCount": 48,
+      "internalLinkCount": 7,
+      "changes": [
+        "Rewrote the direct-answer introduction and corrected the retained pricing/comparison tables.",
+        "Added current library-wide Global Ghostreader capability, citations, skills/tools, and web/desktop scope.",
+        "Added current export formats and retained exact $9.99 annual-billing equivalent, $119.88 annual charge, $12.99 monthly price, and 30-day trial.",
+        "Preserved two observed query questions and restored useful worth-it, alternatives, and subscription-relationship FAQs."
+      ],
+      "sources": [
+        {
+          "url": "https://readwise.io/pricing/reader",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "$9.99/month billed annually, $119.88 charged for 12 months, $12.99 monthly, 30-day trial, and student discount."
+        },
+        {
+          "url": "https://docs.readwise.io/reader/docs",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Unified articles/newsletters/EPUB/PDF/video/tweet workflow, highlights, Readwise sync, imports, RSS, Ghostreader, TTS, and sharing."
+        },
+        {
+          "url": "https://docs.readwise.io/reader/guides/ghostreader/global",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Library-wide cited answers, skills, tools, permissions, conversation history, and web/desktop scope."
+        },
+        {
+          "url": "https://docs.readwise.io/reader/docs/faqs/exporting",
+          "status": 200,
+          "fetched": "2026-10-06",
+          "facts": "Highlight sync, Markdown, library CSV, feed OPML, full files/articles ZIP, and annotated-print export."
+        }
+      ]
+    }
+  ],
+  "verificationNotes": [
+    "The Pocket alternatives seoTitle had the unsupported word “Tested” removed at the root agent’s explicit request; other seoTitle fields were unchanged.",
+    "No screenshots were created or claimed.",
+    "No build was run because the parent agent owns the root build.",
+    "mymind's public mymind.com/pricing URL returned 403; access.mymind.com/pricing was accessible and the competitor JSON remains dated October 5, 2026 for the guest-plan fact."
+  ],
+  "generatedOn": "2026-10-06"
+}
