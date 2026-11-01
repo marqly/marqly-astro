@@ -202,7 +202,7 @@ function HeroScene({ step, draft, words, compact, dockWidth, reduce }: HeroScene
         <div className="relative h-full overflow-hidden bg-background" aria-hidden>
           {/* The library, list view — hidden below sm where the app shows Ask as a full sheet */}
           <div className="absolute inset-y-0 left-0" style={{ right: dockWidth, display: compact ? 'none' : undefined }}>
-            <LibraryRows added={applied} saved={saved} filed={filed} view={cards ? 'cards' : 'list'} reduce={!!reduce} />
+            <LibraryRows tall added={applied} saved={saved} filed={filed} view={cards ? 'cards' : 'list'} reduce={!!reduce} />
             {/* Save / file toast — bottom snackbar, never covers the rows it talks about */}
             <div
               className="pointer-events-none absolute inset-x-4 bottom-5 z-20 will-change-transform flex justify-center transition-[opacity,transform] duration-300 ease-[var(--ease-smooth)]"
@@ -265,6 +265,22 @@ function HeroScene({ step, draft, words, compact, dockWidth, reduce }: HeroScene
                 >
                   <AskActionCard kind={applied ? 'applied' : 'preview'} title={askHero.proposal.title} count={proposalItems.length} items={compact ? proposalItems.map((it, i) => ({ ...it, title: ['Kyoto Travel Guide', 'Tokyo restaurants', 'Japan Rail Pass'][i]! })) : proposalItems} reduce={reduce} />
                 </div>
+                {/* Compact has no library pane, so the board payoff lands here. */}
+                {compact && (
+                  <Fade show={filed}>
+                    <p className="mt-1 text-[13px] leading-5 font-medium text-foreground">
+                      {japanBoard.emoji} {japanBoard.name}
+                      <span className="ml-2 font-mono text-[11px] text-muted">{japanBoard.count}</span>
+                    </p>
+                    <div className="mt-2 grid grid-cols-2 gap-2">
+                      {CARD_ROWS.map(({ bookmark }) => (
+                        <div key={bookmark.id} className="relative h-16 overflow-hidden rounded-xl shadow-surface">
+                          <BrandCover bookmark={bookmark} />
+                        </div>
+                      ))}
+                    </div>
+                  </Fade>
+                )}
               </div>
             </AskDock>
           </div>
@@ -363,10 +379,10 @@ const CARD_ROWS = HERO_ROWS.filter((r) => r.kind !== 'grid').map((r) => ({
 
 /** Grid-view bookmark card — the app's BookmarkCard geometry (cover, meta
  *  row, clamped title, tag row) at the hero's compact scale. */
-function BoardCard({ bookmark, chips }: { bookmark: DemoBookmark; chips: string[] }) {
+function BoardCard({ bookmark, chips, tall }: { bookmark: DemoBookmark; chips: string[]; tall: boolean }) {
   return (
     <article className="flex h-full flex-col overflow-hidden rounded-2xl bg-surface shadow-surface">
-      <div className="relative h-28 w-full overflow-hidden">
+      <div className={`relative w-full overflow-hidden ${tall ? 'h-[152px]' : 'h-28'}`}>
         <BrandCover bookmark={bookmark} />
       </div>
       <div className="flex flex-1 flex-col gap-1 px-3 py-2">
@@ -399,7 +415,10 @@ export function LibraryRows({
   view = 'list',
   reduce = false,
   dimmed = false,
+  tall = false,
 }: {
+  /** The 720px hero stage: every row at every width, and taller card covers. */
+  tall?: boolean;
   added?: boolean;
   saved?: boolean;
   filed?: boolean;
@@ -461,7 +480,7 @@ export function LibraryRows({
           className="flex flex-col gap-1.5 transition-opacity duration-300 lg:gap-2"
           style={{ opacity: view === 'cards' ? 0 : 1 }}
         >
-          {HERO_ROWS.slice(0, 7).map(({ bookmark, chips, kind }, i) => {
+          {HERO_ROWS.slice(0, tall ? 8 : 7).map(({ bookmark, chips, kind }, i) => {
           const isJapanish = kind !== 'grid';
           const show = kind === 'save' ? saved : kind === 'japan' ? added : true;
           const ghost = kind === 'save' && !saved;
@@ -469,7 +488,7 @@ export function LibraryRows({
             <li
               key={bookmark.id}
               className={`flex min-h-[44px] items-center gap-3 rounded-lg bg-surface px-3 py-2 shadow-surface transition-opacity duration-500 ${
-                i >= 6 ? 'max-lg:hidden' : ''
+                i >= 6 && !tall ? 'max-lg:hidden' : ''
               } ${kind === 'save' && saved && !reduce ? 'just-added' : ''}`}
               style={{ opacity: ghost ? 0.35 : filed && !isJapanish ? 0.35 : 1 }}
             >
@@ -505,7 +524,7 @@ export function LibraryRows({
                 transitionDelay: view === 'cards' && !reduce ? `${150 + i * 90}ms` : '0ms',
               }}
             >
-              <BoardCard bookmark={c.bookmark} chips={c.chips} />
+              <BoardCard bookmark={c.bookmark} chips={c.chips} tall={tall} />
             </div>
           ))}
         </div>

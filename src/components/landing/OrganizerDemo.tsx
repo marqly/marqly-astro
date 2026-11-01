@@ -9,8 +9,8 @@
  *   4. ready    — actions arm; nothing moves until "Approve and file"
  *
  * The proposal rows always size the card (hidden by opacity only) and the
- * pile floats above them, so no phase ever changes the layout. Plays on
- * scroll-into-view, loops 3 times, then rests on the proposal.
+ * pile floats above them, so no phase ever changes the layout. Plays once
+ * on scroll-into-view, then rests on the proposal.
  * SSR / no-JS / reduced motion: the finished proposal, static.
  */
 import { useEffect, useRef, useState } from 'react';
@@ -22,7 +22,6 @@ import { SparklesIcon, CheckIcon } from './icons';
 type Phase = 'pile' | 'scan' | 'organize' | 'ready';
 
 const EASE = [0.32, 0.72, 0, 1] as const;
-const AUTO_RUNS = 3;
 
 const BEATS: [Phase, number][] = [
   ['pile', 1500],
@@ -66,28 +65,18 @@ export default function OrganizerDemo() {
   const [cycle, setCycle] = useState(0);
   const reduce = useReducedMotion();
   const rootRef = useRef<HTMLDivElement>(null);
-  const inView = useRef(false);
   const started = useRef(false);
-  const runs = useRef(0);
   const timers = useRef<ReturnType<typeof setTimeout>[]>([]);
 
   const play = () => {
     timers.current.forEach(clearTimeout);
     timers.current = [];
-    runs.current += 1;
     setCycle((c) => c + 1);
     let t = 0;
     for (const [p, dur] of BEATS) {
       const at = t;
       timers.current.push(setTimeout(() => setPhase(p), at));
       t += dur;
-    }
-    if (runs.current < AUTO_RUNS) {
-      timers.current.push(
-        setTimeout(() => {
-          if (inView.current) play();
-        }, t)
-      );
     }
   };
 
@@ -98,7 +87,6 @@ export default function OrganizerDemo() {
     const io = new IntersectionObserver(
       (entries) => {
         entries.forEach((e) => {
-          inView.current = e.isIntersecting;
           if (e.isIntersecting && !started.current) {
             started.current = true;
             play();
@@ -119,7 +107,13 @@ export default function OrganizerDemo() {
   const showRows = phase === 'organize' || phase === 'ready';
 
   return (
-    <div ref={rootRef} className="rounded-3xl bg-surface p-5 shadow-frame sm:p-6">
+    <div
+      ref={rootRef}
+      role="img"
+      aria-label="The AI Organizer turns a pile of 1,412 bookmarks into a proposed board structure. Nothing moves until you choose Approve and file."
+      className="rounded-3xl bg-surface p-5 shadow-frame sm:p-6"
+    >
+      <div aria-hidden>
       {/* Header — fixed height, text swaps in place */}
       <div className="flex items-center gap-2.5">
         <motion.span
@@ -264,6 +258,7 @@ export default function OrganizerDemo() {
           Approve and file
         </motion.span>
       </motion.div>
+      </div>
     </div>
   );
 }

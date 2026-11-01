@@ -4,7 +4,7 @@
  * the board, suggests tags), then lands in the Design systems board next to
  * another real design reference.
  *
- * The sequence LOOPS while the demo is on screen (paused off-screen).
+ * Plays once on scroll-into-view, then rests on the board.
  * SSR frame: the "suggested" modal state, so the story reads with JS off.
  * Reduced motion: a single static "suggested" frame, no loop.
  */
@@ -27,7 +27,6 @@ export default function SaveDemo() {
   const reduce = useReducedMotion();
   const rootRef = useRef<HTMLDivElement>(null);
   const timers = useRef<ReturnType<typeof setTimeout>[]>([]);
-  const inView = useRef(false);
 
   useEffect(() => {
     if (reduce) return;
@@ -37,30 +36,26 @@ export default function SaveDemo() {
       timers.current.push(setTimeout(() => alive && fn(), ms));
     };
 
-    const cycle = () => {
-      if (!alive) return;
-      if (!inView.current) {
-        // Off-screen: hold the finished frame and poll cheaply.
-        timers.current.push(setTimeout(cycle, 1200));
-        return;
-      }
+    const playOnce = () => {
       setStep('article');
       at(500, () => setStep('thinking'));
       at(2100, () => setStep('suggested'));
       at(3700, () => setStep('saved'));
-      at(7600, cycle); // hold the library, then loop
     };
 
     let io: IntersectionObserver | undefined;
     if (rootRef.current && 'IntersectionObserver' in window) {
       io = new IntersectionObserver(
-        (entries) => entries.forEach((e) => (inView.current = e.isIntersecting)),
+        (entries) => {
+          if (!entries.some((e) => e.isIntersecting)) return;
+          io?.disconnect();
+          playOnce();
+        },
         { threshold: 0.25 }
       );
       io.observe(rootRef.current);
     }
 
-    cycle();
     return () => {
       alive = false;
       io?.disconnect();
@@ -72,7 +67,13 @@ export default function SaveDemo() {
   const showModal = step === 'thinking' || step === 'suggested';
 
   return (
-    <div ref={rootRef} className="relative w-full">
+    <div
+      ref={rootRef}
+      role="img"
+      aria-label="Saving a page with Marqly: the save dialog picks the Design systems board and suggests three tags, then the page lands on that board."
+      className="relative w-full"
+    >
+      <div aria-hidden>
       <BrowserFrame url="haraldurthorleifsson.com">
         <div className="relative h-[400px] overflow-hidden bg-background sm:h-[420px]">
           <AnimatePresence mode="wait" initial={false}>
@@ -127,6 +128,7 @@ export default function SaveDemo() {
           </AnimatePresence>
         </div>
       </BrowserFrame>
+      </div>
     </div>
   );
 }

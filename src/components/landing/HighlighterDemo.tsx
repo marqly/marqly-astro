@@ -31,7 +31,7 @@ async function recolor(a: Act<Scene>) {
 export default function HighlighterDemo() {
   const [chosen, setChosen] = useState<string | null>(null);
   return (
-    <div className="w-full max-w-[440px] overflow-hidden rounded-3xl bg-white shadow-overlay" data-showcase="highlighter">
+    <div role="group" aria-label="Highlighter demo: choose a color to recolor the first highlight" className="w-full max-w-[440px] overflow-hidden rounded-3xl bg-white shadow-overlay" data-showcase="highlighter">
       <Stage width={440} height={280} compact={{ below: 420, width: 358, height: 330 }}
         initial={INITIAL} poster={chosen ? { color: chosen } : POSTER} script={chosen ? undefined : recolor} play="once"
         cursor={{ at: { x: 310, y: 275 }, idle: 900 }} accent="#000"

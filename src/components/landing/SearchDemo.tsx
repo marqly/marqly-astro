@@ -5,9 +5,9 @@
  *
  * Layout is JUMP-FREE by construction: the result rows are always in the
  * DOM sizing the dropdown (hidden with opacity only), and the interim
- * "typing / searching" messages float on top. Plays on scroll-into-view,
- * loops 3 times with a pause, then rests; the field's replay button runs
- * it once more. SSR frame: finished results. Reduced motion: static.
+ * "typing / searching" messages float on top. Plays once on
+ * scroll-into-view, then rests; the field's replay button runs it again.
+ * SSR frame: finished results. Reduced motion: static.
  */
 import { useEffect, useRef, useState } from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
@@ -18,8 +18,6 @@ import { SearchIcon, ReplayIcon, ArrowRightIcon } from './icons';
 type Phase = 'typing' | 'thinking' | 'results';
 
 const EASE = [0.32, 0.72, 0, 1] as const;
-const AUTO_RUNS = 3;
-const HOLD_MS = 3600;
 
 export default function SearchDemo() {
   const [phase, setPhase] = useState<Phase>('results');
@@ -27,9 +25,7 @@ export default function SearchDemo() {
   const [cycle, setCycle] = useState(0);
   const reduce = useReducedMotion();
   const rootRef = useRef<HTMLDivElement>(null);
-  const inView = useRef(false);
   const started = useRef(false);
-  const runs = useRef(0);
   const timers = useRef<ReturnType<typeof setTimeout>[]>([]);
 
   const clearTimers = () => {
@@ -37,9 +33,8 @@ export default function SearchDemo() {
     timers.current = [];
   };
 
-  const play = (auto: boolean) => {
+  const play = () => {
     clearTimers();
-    runs.current += 1;
     setCycle((c) => c + 1);
     setChars(0);
     setPhase('typing');
@@ -49,13 +44,6 @@ export default function SearchDemo() {
     const doneTyping = 350 + searchQuery.length * 32;
     timers.current.push(setTimeout(() => setPhase('thinking'), doneTyping + 250));
     timers.current.push(setTimeout(() => setPhase('results'), doneTyping + 1400));
-    if (auto && runs.current < AUTO_RUNS) {
-      timers.current.push(
-        setTimeout(() => {
-          if (inView.current) play(true);
-        }, doneTyping + 1400 + HOLD_MS)
-      );
-    }
   };
 
   useEffect(() => {
@@ -65,10 +53,9 @@ export default function SearchDemo() {
     const io = new IntersectionObserver(
       (entries) => {
         entries.forEach((e) => {
-          inView.current = e.isIntersecting;
           if (e.isIntersecting && !started.current) {
             started.current = true;
-            play(true);
+            play();
           }
         });
       },
@@ -87,6 +74,11 @@ export default function SearchDemo() {
 
   return (
     <div ref={rootRef} className="relative mx-auto w-full max-w-[620px]">
+      {/* The simulated search stays out of the accessibility tree; only the
+          replay button is real, so this line tells its story instead. */}
+      <p className="sr-only">
+        Demo: searching “{searchQuery}” brings up {searchResults.find((r) => r.top)!.bookmark.title} first, with the sentence that matched.
+      </p>
       {/* The app's header search field */}
       <div
         className={`flex h-11 items-center gap-2.5 rounded-xl bg-field px-3.5 shadow-surface ${
@@ -94,13 +86,10 @@ export default function SearchDemo() {
         }`}
       >
         <SearchIcon size={16} className="shrink-0 text-muted" />
-        <span className="min-w-0 flex-1 truncate text-[15px] text-foreground">
+        <span aria-hidden className="min-w-0 flex-1 truncate text-[15px] text-foreground">
           {typed}
           {phase === 'typing' && (
-            <span
-              aria-hidden
-              className="ml-px inline-block h-4 w-px animate-pulse bg-foreground align-middle"
-            />
+            <span className="ml-px inline-block h-4 w-px animate-pulse bg-foreground align-middle" />
           )}
         </span>
         {/* Fixed-size right slot so the ⌘K → replay swap never shifts the field */}
@@ -108,20 +97,20 @@ export default function SearchDemo() {
           {showResults ? (
             <button
               type="button"
-              onClick={() => play(false)}
+              onClick={play}
               aria-label="Replay the search demo"
               className="flex size-7 cursor-pointer items-center justify-center rounded-full text-muted transition-colors hover:bg-default hover:text-foreground"
             >
               <ReplayIcon size={13} />
             </button>
           ) : (
-            <Kbd>⌘K</Kbd>
+            <span aria-hidden><Kbd>⌘K</Kbd></span>
           )}
         </span>
       </div>
 
       {/* Dropdown — rows always size the box; interim states float on top */}
-      <div className="mt-2 overflow-hidden rounded-2xl bg-surface shadow-overlay">
+      <div aria-hidden className="mt-2 overflow-hidden rounded-2xl bg-surface shadow-overlay">
         <div className="flex items-center justify-between px-4 pt-3 pb-2">
           <span className="rounded-full bg-default px-2.5 py-1 text-[11px] font-medium text-foreground/80">
             All bookmarks
@@ -130,13 +119,13 @@ export default function SearchDemo() {
             semantic + full-text
           </span>
         </div>
-        <div className="relative px-1.5 pb-2" aria-live="polite">
+        <div className="relative px-1.5 pb-2">
           {!showResults && (
             <p className="absolute top-1 left-4 z-10 text-sm text-muted">
               {phase === 'thinking' ? 'Searching by meaning…' : 'Keep typing…'}
             </p>
           )}
-          <div className={showResults ? '' : 'pointer-events-none'} aria-hidden={!showResults}>
+          <div className={showResults ? '' : 'pointer-events-none'}>
             {searchResults.map((r, i) => (
               <motion.div
                 key={`${cycle}-${r.bookmark.id}`}

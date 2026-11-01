@@ -1,10 +1,11 @@
 /**
- * Full-width Ask showcase — the panel next to the library, touring once
- * through its four jobs: answer with sources, find problems, tidy up, and
- * the same tools from Claude / ChatGPT / Cursor (Connected apps). Clicking a
- * tab pins it; ← → move between tabs. Fixed stage height = zero layout jump.
- * Each pane owns a short timeline (cleared on unmount) and rests on a final
- * frame. Reduced motion: the final frames, static; no cycling. Opens on Connected apps.
+ * Full-width Ask showcase — the panel next to the library and its four jobs:
+ * answer with sources, find problems, tidy up, and the same tools from
+ * Claude / ChatGPT / Cursor (Connected apps). No auto-tour: the hero above has
+ * just played the Ask story, so tabs change on click or ← →. Fixed stage
+ * height = zero layout jump. Each pane owns a short timeline (cleared on
+ * unmount) and rests on a final frame. Reduced motion: the final frames,
+ * static. Opens on Connected apps.
  */
 import { useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -36,43 +37,27 @@ const TABS = ['From Claude & ChatGPT', 'Ask', 'Find problems', 'Tidy up'] as con
 type Tab = (typeof TABS)[number];
 
 const EASE = [0.32, 0.72, 0, 1] as const;
-const DWELL: Record<Tab, number> = { 'From Claude & ChatGPT': 9000, Ask: 11000, 'Find problems': 10000, 'Tidy up': 10000 };
 const WORD_MS = 45;
+
+/** The panes are hidden from assistive tech, so each tab states its story here. */
+const PANE_SUMMARY: Record<Tab, string> = {
+  'From Claude & ChatGPT': 'The same Marqly tools work from Claude, ChatGPT, Cursor, and VS Code.',
+  Ask: 'Ask answers a question from a saved video transcript, with a numbered source under the answer.',
+  'Find problems': 'Ask finds 288 dead links out of 1,412 saves and proposes moving them to Trash, where they can be restored.',
+  'Tidy up': 'Ask proposes tags for three untagged saves from this week and applies them once you approve.',
+};
 
 export default function AskShowcase() {
   const [tab, setTab] = useState<Tab>(TABS[0]);
-  const [pinned, setPinned] = useState(false);
   const reduce = useReducedMotion();
   const rootRef = useRef<HTMLDivElement>(null);
-  const inView = useRef(false);
-
-  useEffect(() => {
-    if (reduce || pinned || tab === TABS[TABS.length - 1]) return;
-    const el = rootRef.current;
-    if (!el) return;
-    let timer: ReturnType<typeof setTimeout> | undefined;
-    const io = new IntersectionObserver(([entry]) => {
-      inView.current = entry.isIntersecting;
-      clearTimeout(timer);
-      if (entry.isIntersecting) timer = setTimeout(() => {
-        setTab((cur) => TABS[TABS.indexOf(cur) + 1]!);
-      }, DWELL[tab]);
-    }, { threshold: 0.3 });
-    io.observe(el);
-    return () => { clearTimeout(timer); io.disconnect(); };
-  }, [reduce, pinned, tab]);
-
-  const pick = (t: Tab) => {
-    setTab(t);
-    setPinned(true);
-  };
 
   const onKey = (e: React.KeyboardEvent<HTMLDivElement>) => {
     if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
     e.preventDefault();
     const i = TABS.indexOf(tab);
     const next = TABS[(i + (e.key === 'ArrowRight' ? 1 : TABS.length - 1)) % TABS.length]!;
-    pick(next);
+    setTab(next);
     const btn = rootRef.current?.querySelector<HTMLButtonElement>(`[data-tab="${next}"]`);
     btn?.focus();
   };
@@ -95,7 +80,7 @@ export default function AskShowcase() {
             aria-controls="ask-showcase-panel"
             aria-selected={tab === t}
             tabIndex={tab === t ? 0 : -1}
-            onClick={() => pick(t)}
+            onClick={() => setTab(t)}
             className={`cursor-pointer rounded-3xl px-3 py-1 text-xs font-medium transition-colors duration-150 ${
               tab === t ? 'bg-accent text-accent-foreground' : 'bg-default text-foreground/70 hover:text-foreground'
             }`}
@@ -107,6 +92,7 @@ export default function AskShowcase() {
       </div>
 
       <div className="mt-3" role="tabpanel" id="ask-showcase-panel" aria-labelledby={`ask-tab-${TABS.indexOf(tab)}`}>
+        <p className="sr-only">{PANE_SUMMARY[tab]}</p>
         <BrowserFrame url="app.marqly.com" className="border border-black/5">
           <div className="relative h-[520px] overflow-hidden bg-background sm:h-[560px] lg:h-[560px]" aria-hidden>
             {/* The library behind, quiet */}

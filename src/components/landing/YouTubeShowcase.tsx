@@ -141,6 +141,8 @@ export default function YouTubeShowcase({ bare = false }: { bare?: boolean }) {
   return (
     <div
       ref={rootRef}
+      role="group"
+      aria-label="Demo of Marqly's AI card next to a YouTube video"
       data-showcase="youtube"
       className={bare ? '' : 'rounded-3xl p-3 sm:p-6'}
       style={bare ? undefined : { background: 'color-mix(in oklab, var(--hl-coral) 24%, white)' }}
@@ -159,7 +161,7 @@ export default function YouTubeShowcase({ bare = false }: { bare?: boolean }) {
                 <PlayIcon size={22} />
               </span>
             </span>
-            <div className="absolute right-0 bottom-0 left-0 px-3 pb-2" aria-label={`Paused at ${currentTime}`}>
+            <div role="img" className="absolute right-0 bottom-0 left-0 px-3 pb-2" aria-label={`Paused at ${currentTime}`}>
               <div className="h-[3px] overflow-hidden rounded-full bg-white/25">
                 <motion.div
                   className="h-full rounded-full bg-[#f03]"
