@@ -1,5 +1,5 @@
 /**
- * Full-width Ask showcase — the panel next to the library, auto-cycling
+ * Full-width Ask showcase — the panel next to the library, touring once
  * through its four jobs: answer with sources, find problems, tidy up, and
  * the same tools from Claude / ChatGPT / Cursor (Connected apps). Clicking a
  * tab pins it; ← → move between tabs. Fixed stage height = zero layout jump.
@@ -7,8 +7,11 @@
  * frame. Reduced motion: the final frames, static; no cycling. Opens on Connected apps.
  */
 import { useEffect, useRef, useState } from 'react';
-import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
+import { useReducedMotion } from './stageshow/reduced-motion';
 import { BrowserFrame } from './BrowserFrame';
+import { Stage } from './stageshow/stage';
+import type { Act } from './stageshow/act';
 import { askPanes, gridBookmarks } from './data';
 import {
   AskActionCard,
@@ -33,7 +36,7 @@ const TABS = ['From Claude & ChatGPT', 'Ask', 'Find problems', 'Tidy up'] as con
 type Tab = (typeof TABS)[number];
 
 const EASE = [0.32, 0.72, 0, 1] as const;
-const CYCLE_MS = 6200;
+const DWELL: Record<Tab, number> = { 'From Claude & ChatGPT': 9000, Ask: 11000, 'Find problems': 10000, 'Tidy up': 10000 };
 const WORD_MS = 45;
 
 export default function AskShowcase() {
@@ -44,25 +47,20 @@ export default function AskShowcase() {
   const inView = useRef(false);
 
   useEffect(() => {
-    if (reduce || pinned) return;
+    if (reduce || pinned || tab === TABS[TABS.length - 1]) return;
     const el = rootRef.current;
-    let io: IntersectionObserver | undefined;
-    if (el && 'IntersectionObserver' in window) {
-      io = new IntersectionObserver(
-        (entries) => entries.forEach((e) => (inView.current = e.isIntersecting)),
-        { threshold: 0.3 }
-      );
-      io.observe(el);
-    }
-    const t = setInterval(() => {
-      if (!inView.current) return;
-      setTab((cur) => TABS[(TABS.indexOf(cur) + 1) % TABS.length]!);
-    }, CYCLE_MS);
-    return () => {
-      clearInterval(t);
-      io?.disconnect();
-    };
-  }, [reduce, pinned]);
+    if (!el) return;
+    let timer: ReturnType<typeof setTimeout> | undefined;
+    const io = new IntersectionObserver(([entry]) => {
+      inView.current = entry.isIntersecting;
+      clearTimeout(timer);
+      if (entry.isIntersecting) timer = setTimeout(() => {
+        setTab((cur) => TABS[TABS.indexOf(cur) + 1]!);
+      }, DWELL[tab]);
+    }, { threshold: 0.3 });
+    io.observe(el);
+    return () => { clearTimeout(timer); io.disconnect(); };
+  }, [reduce, pinned, tab]);
 
   const pick = (t: Tab) => {
     setTab(t);
@@ -80,7 +78,7 @@ export default function AskShowcase() {
   };
 
   return (
-    <div ref={rootRef}>
+    <div ref={rootRef} data-showcase="ask">
       <div
         role="tablist"
         aria-label="What Ask can do"
@@ -93,6 +91,8 @@ export default function AskShowcase() {
             type="button"
             role="tab"
             data-tab={t}
+            id={`ask-tab-${TABS.indexOf(t)}`}
+            aria-controls="ask-showcase-panel"
             aria-selected={tab === t}
             tabIndex={tab === t ? 0 : -1}
             onClick={() => pick(t)}
@@ -103,14 +103,14 @@ export default function AskShowcase() {
             {t}
           </button>
         ))}
-        <span className="ml-auto text-[10px] font-medium tracking-wide text-muted uppercase">Ask panel · Pro</span>
+        <span className="ml-auto text-[10px] font-medium tracking-wide text-muted uppercase max-sm:hidden">Ask panel · Pro</span>
       </div>
 
-      <div className="mt-3">
+      <div className="mt-3" role="tabpanel" id="ask-showcase-panel" aria-labelledby={`ask-tab-${TABS.indexOf(tab)}`}>
         <BrowserFrame url="app.marqly.com" className="border border-black/5">
-          <div className="relative h-[520px] overflow-hidden bg-background sm:h-[580px] lg:h-[680px]" aria-hidden>
+          <div className="relative h-[520px] overflow-hidden bg-background sm:h-[560px] lg:h-[560px]" aria-hidden>
             {/* The library behind, quiet */}
-            <div className="absolute inset-y-0 right-0 left-0 max-sm:hidden sm:right-[340px] md:right-[380px]">
+            <div className={`absolute inset-y-0 right-0 left-0 sm:right-[340px] md:right-[380px] ${tab === TABS[0] ? '' : 'max-sm:hidden'}`}>
               <LibraryRows added dimmed reduce={!!reduce} />
             </div>
             <AnimatePresence mode="wait" initial={false}>
@@ -146,7 +146,7 @@ export default function AskShowcase() {
  *  With reduced motion nothing is scheduled — the pane renders its final frame. */
 function useBeats(beats: [number, () => void][], reduce: boolean) {
   useEffect(() => {
-    if (reduce) return;
+    if (reduce) { beats.forEach(([, fn]) => fn()); return; }
     const timers = beats.map(([ms, fn]) => setTimeout(fn, ms));
     return () => timers.forEach(clearTimeout);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -162,7 +162,7 @@ function useStream(total: number, startMs: number, reduce: boolean) {
     for (let i = 1; i <= total; i++) timers.push(setTimeout(() => setWords(i), startMs + i * WORD_MS));
     return () => timers.forEach(clearTimeout);
   }, [total, startMs, reduce]);
-  return words;
+  return reduce ? total : words;
 }
 
 function Fade({ show, children, className = '' }: { show: boolean; children: React.ReactNode; className?: string }) {
@@ -316,12 +316,28 @@ function TidyPane({ reduce }: { reduce: boolean }) {
 
 /* --------------------------------------------------- Connected apps -- */
 
-function ConnectedPane({ reduce }: { reduce: boolean }) {
-  const [editing, setEditing] = useState(reduce ? 2 : -1);
-  useBeats([[1500, () => setEditing(2)]], reduce);
+type PermissionScene = { editing: number };
+async function allowChanges(a: Act<PermissionScene>) {
+  await a.wait(1300);
+  await a.move('permission-2');
+  await a.wait(400);
+  await a.click();
+  await a.set({ editing: 2 });
+  a.mark('permission-granted');
+  await a.move('permission-rest');
+  await a.wait(2300);
+}
+
+function ConnectedPane({ reduce: _reduce }: { reduce: boolean }) {
   return (
-    <div className="absolute inset-0 flex items-center justify-center bg-black/30 p-4">
-      <ConnectedAppsDemo editing={editing} />
+    <div className="absolute inset-0 flex items-center justify-center bg-black/35 p-4 sm:p-6">
+      <div className="w-full max-w-[520px] overflow-hidden rounded-3xl shadow-overlay">
+        <Stage fill width={440} height={382} compact={{ below: 400, width: 358, height: 382 }}
+          initial={{ editing: -1 }} poster={{ editing: 2 }} script={allowChanges} play="once"
+          tokens={{ '--ss-font': 'var(--font-app)' }} cursor={{ at: { x: 320, y: 390 }, idle: 900 }} accent="#000">
+          {(s) => <><ConnectedAppsDemo editing={s.editing} /><span data-target="permission-rest" className="absolute right-5 bottom-5 size-px" /></>}
+        </Stage>
+      </div>
     </div>
   );
 }

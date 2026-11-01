@@ -11,6 +11,7 @@
  *  of the site (Framer-clone pages) never loads this file.
  * ------------------------------------------------------------------------- */
 
+@layer theme, base, stageshow, components, utilities;
 @import "tailwindcss" source(none);
 
 @source "../components/landing";
@@ -562,3 +563,13 @@ main a:not([class]) {
   text-decoration-thickness: 1px;
 }
 main a:not([class]):hover { color: var(--link-accent-hover, var(--black)); }
+
+/* Authored product gestures: the target keeps its own surface when pressed. */
+.marqly-hero-stage [data-target="approve"],
+.marqly-hero-stage [data-target="card-view"],
+.marqly-hero-stage [data-target="japan-board"] {
+  transition: scale 140ms var(--ease-smooth), background-color 140ms, opacity 250ms;
+}
+.marqly-hero-stage [data-target][data-pressed] {
+  scale: 0.96;
+}

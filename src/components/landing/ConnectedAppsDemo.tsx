@@ -32,13 +32,14 @@ export function ConnectedAppsDemo({ editing = -1, className = '' }: { editing?: 
               <FaviconTile domain={app.domain} size={18} />
               <span className="min-w-0 flex-1 truncate text-[13px] font-medium text-foreground">{app.name}</span>
               <span
-                className={`rounded-2xl px-1.5 py-px text-[10px] font-semibold transition-colors ${
+                className={`w-[58px] shrink-0 whitespace-nowrap rounded-2xl px-1.5 py-px text-center text-[10px] font-semibold transition-colors ${
                   on ? 'bg-[color:var(--warning)]/20 text-foreground' : 'bg-default text-muted'
                 }`}
               >
                 {on ? 'Can edit' : 'Read-only'}
               </span>
               <span
+                data-target={`permission-${i}`} data-cursor="hand"
                 className={`relative h-4 w-7 shrink-0 rounded-full transition-colors duration-200 ${on ? 'bg-accent' : 'bg-default'}`}
               >
                 <span
@@ -46,7 +47,7 @@ export function ConnectedAppsDemo({ editing = -1, className = '' }: { editing?: 
                   style={{ transform: on ? 'translateX(14px)' : 'translateX(2px)' }}
                 />
               </span>
-              <span className="text-[11px] text-muted">Revoke access</span>
+              <span className="shrink-0 text-[11px] text-muted max-sm:hidden">Revoke access</span>
             </li>
           );
         })}

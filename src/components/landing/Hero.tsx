@@ -14,7 +14,7 @@
  *   5. BROWSE   — the view toggle flips to cards: the same four saves as the
  *                 app's real bookmark cards, covers and tags on show.
  *
- * The sequence LOOPS while the demo is on screen (paused off-screen).
+ * Plays once while visible, holds the finished board, and replays on request.
  * Jump-free by construction: the dock is a fixed-size stage, every element
  * of the conversation is in the DOM from the first frame and only ever
  * changes opacity/transform; the library rows reserve a chip slot, and the
@@ -24,8 +24,10 @@
  * in one glance, JS off.
  * Reduced motion: that single static frame, no loop.
  */
-import { useEffect, useRef, useState } from 'react';
-import { useReducedMotion } from 'framer-motion';
+import { useLayoutEffect, useRef, useState } from 'react';
+import { Stage } from './stageshow/stage';
+import type { Act } from './stageshow/act';
+import { useReducedMotion } from './stageshow/reduced-motion';
 import { BrowserFrame } from './BrowserFrame';
 import { FaviconTile, Kbd, TagChip, BrandCover } from './bits';
 import { askEmptyBoxes, askHero, gridBookmarks, heroSave, japanBoard, japanBookmarks, type AskBoxKind, type DemoBookmark } from './data';
@@ -51,7 +53,7 @@ import {
   HistoryIcon,
   RowsIcon,
   SearchIcon,
-  SparklesIcon,
+  ReplayIcon,
   UnlinkIcon,
 } from './icons';
 
@@ -69,8 +71,6 @@ type Step =
   | 'board'
   | 'cards';
 
-const TYPE_MS = 32;
-const WORD_MS = 45;
 
 /** Steps where the Ask dock shows the conversation instead of the empty state. */
 const IN_CONVERSATION: Step[] = ['searching', 'writing', 'answer', 'proposal', 'applied', 'board', 'cards'];
@@ -98,76 +98,93 @@ const proposalItems = askHero.proposal.items.map((it) => ({
   chips: it.chips,
 }));
 
+type HeroSceneState = { step: Step; draft: string; words: number };
+const POSTER: HeroSceneState = { step: 'cards', draft: '', words: answerWords };
+
+// Adapted from stageshow's hero-demo: targets are measured after every commit.
+// The scene plays once, so saved data never silently rewinds in front of the viewer.
+async function heroStory(a: Act<HeroSceneState>) {
+  await a.set({ step: 'saving', draft: '', words: 0 });
+  a.mark('save');
+  await a.wait(650);
+  await a.set({ step: 'reading' });
+  await a.wait(900);
+  await a.set({ step: 'saved' });
+  await a.wait(900);
+  await a.set({ step: 'typing' });
+  await a.move('ask-input');
+  await a.click();
+  await a.type('draft', askHero.question, { interval: 25 });
+  await a.key('enter');
+  await a.set({ step: 'searching', draft: '' });
+  await a.move('hero-rest');
+  await a.wait(700);
+  await a.set({ step: 'answer' });
+  a.mark('answer');
+  for (let i = 1; i <= answerWords; i++) {
+    a.put({ words: i });
+    await a.wait(32);
+  }
+  await a.wait(500);
+  await a.set({ step: 'proposal' });
+  a.mark('proposal');
+  await a.wait(1500);
+  await a.move({ at: 'approve', x: 0.85, y: 0.65 });
+  await a.wait(250);
+  await a.click();
+  await a.set({ step: 'applied' });
+  a.mark('approved');
+  await a.move('hero-rest');
+  await a.wait(900);
+  if (a.layout === 'wide') {
+    await a.move('japan-board');
+    await a.click();
+    await a.set({ step: 'board' });
+    await a.wait(600);
+    await a.move('card-view');
+    await a.click();
+  }
+  await a.set({ step: 'cards' });
+  a.mark('payoff');
+  await a.move('hero-rest');
+  await a.wait(2200);
+}
+
 export default function Hero() {
-  // SSR / reduced-motion static frame: the finished story, browsed as cards
-  // (saved, answered, tagged, filed, card view). The loop takes over from
-  // beat 1 once hydrated.
-  const [step, setStep] = useState<Step>('cards');
-  const [chars, setChars] = useState(askHero.question.length);
-  const [words, setWords] = useState<number>(answerWords);
-  const [pulse, setPulse] = useState(false);
-  const reduce = useReducedMotion();
   const rootRef = useRef<HTMLDivElement>(null);
-  const timers = useRef<ReturnType<typeof setTimeout>[]>([]);
-  const inView = useRef(true);
+  const [width, setWidth] = useState(1056);
+  const [replay, setReplay] = useState(0);
+  const reduce = useReducedMotion();
+  // Keep the existing product components at their native text size on tablet.
+  useLayoutEffect(() => {
+    const el = rootRef.current;
+    if (!el) return;
+    const ro = new ResizeObserver(() => setWidth(Math.round(el.clientWidth)));
+    setWidth(Math.round(el.clientWidth));
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+  return (
+    <div ref={rootRef} className="relative" data-showcase="hero">
+      <BrowserFrame url="app.marqly.com">
+        <Stage key={replay} width={width} height={560} compact={{ below: 640, width: 358, height: 540 }}
+          initial={POSTER} poster={POSTER} script={heroStory} play="once" accent="#000000"
+          tokens={{ '--ss-font': 'var(--font-app)', '--ss-well': 'var(--background)' }}
+          cursor={{ at: { x: 280, y: 480 }, idle: 1200 }} className="marqly-hero-stage">
+          {(state, _rect, layout) => <HeroScene {...state} compact={layout === 'compact'} dockWidth={width < 900 ? 340 : 400} reduce={!!reduce} />}
+        </Stage>
+      </BrowserFrame>
+      <div className="mt-3 flex justify-end">
+        <button type="button" onClick={() => setReplay((n) => n + 1)} className="inline-flex cursor-pointer items-center gap-1.5 rounded-full px-3 py-1.5 text-xs text-muted transition-colors hover:bg-default hover:text-foreground" aria-label="Replay the Marqly demo">
+          <ReplayIcon size={12} /> Replay demo
+        </button>
+      </div>
+      <p className="sr-only">A page is saved and tagged. Ask answers from the library with sources. A proposal is approved, then the Japan board opens as cards.</p>
+    </div>
+  );
+}
 
-  useEffect(() => {
-    if (reduce) return;
-    let alive = true;
-
-    const at = (ms: number, fn: () => void) => {
-      timers.current.push(setTimeout(() => alive && fn(), ms));
-    };
-
-    const cycle = () => {
-      if (!alive) return;
-      if (!inView.current) {
-        // Off-screen: hold the finished frame and poll cheaply.
-        timers.current.push(setTimeout(cycle, 1200));
-        return;
-      }
-      setStep('saving');
-      setChars(0);
-      setWords(0);
-      setPulse(false);
-      at(1500, () => setStep('reading'));
-      at(3100, () => setStep('saved'));
-      at(4800, () => setStep('empty'));
-      at(5500, () => setStep('typing'));
-      for (let i = 1; i <= askHero.question.length; i++) at(5500 + i * TYPE_MS, () => setChars(i));
-      const typed = 5500 + askHero.question.length * TYPE_MS; // ≈ 6330
-      at(typed + 300, () => setStep('searching'));
-      at(typed + 1100, () => setStep('writing'));
-      const answerAt = typed + 1500;
-      at(answerAt, () => setStep('answer'));
-      for (let i = 1; i <= answerWords; i++) at(answerAt + i * WORD_MS, () => setWords(i));
-      const answered = answerAt + answerWords * WORD_MS;
-      at(answered + 600, () => setStep('proposal'));
-      at(answered + 100, () => setPulse(true));
-      at(answered + 2900, () => setStep('applied'));
-      at(answered + 5200, () => setStep('board'));
-      at(answered + 7500, () => setStep('cards'));
-      at(answered + 11400, cycle); // hold the cards, then loop
-    };
-
-    let io: IntersectionObserver | undefined;
-    if (rootRef.current && 'IntersectionObserver' in window) {
-      io = new IntersectionObserver(
-        (entries) => entries.forEach((e) => (inView.current = e.isIntersecting)),
-        { threshold: 0.25 }
-      );
-      io.observe(rootRef.current);
-    }
-
-    cycle();
-    return () => {
-      alive = false;
-      io?.disconnect();
-      timers.current.forEach(clearTimeout);
-      timers.current = [];
-    };
-  }, [reduce]);
-
+function HeroScene({ step, draft, words, compact, dockWidth, reduce }: HeroSceneState & { compact: boolean; dockWidth: number; reduce: boolean }) {
   // The save beat is done; the saved row is solid.
   const saved = step !== 'saving' && step !== 'reading';
   const justSaved = step === 'saved';
@@ -182,15 +199,13 @@ export default function Hero() {
   const showToast = justSaved || step === 'saving' || step === 'reading' || filed;
 
   return (
-    <div ref={rootRef} className="relative">
-      <BrowserFrame url="app.marqly.com">
-        <div className="relative h-[520px] overflow-hidden bg-background sm:h-[580px] lg:h-[680px]" aria-hidden>
+        <div className="relative h-full overflow-hidden bg-background" aria-hidden>
           {/* The library, list view — hidden below sm where the app shows Ask as a full sheet */}
-          <div className="absolute inset-y-0 right-0 left-0 max-sm:hidden sm:right-[320px] md:right-[340px] lg:right-[400px]">
+          <div className="absolute inset-y-0 left-0" style={{ right: dockWidth, display: compact ? 'none' : undefined }}>
             <LibraryRows added={applied} saved={saved} filed={filed} view={cards ? 'cards' : 'list'} reduce={!!reduce} />
             {/* Save / file toast — bottom snackbar, never covers the rows it talks about */}
             <div
-              className="pointer-events-none absolute inset-x-4 bottom-5 z-20 flex justify-center transition-[opacity,transform] duration-300 ease-[var(--ease-smooth)]"
+              className="pointer-events-none absolute inset-x-4 bottom-5 z-20 will-change-transform flex justify-center transition-[opacity,transform] duration-300 ease-[var(--ease-smooth)]"
               style={{ opacity: showToast ? 1 : 0, transform: showToast ? 'none' : 'translateY(8px)' }}
             >
               <SaveToast step={step} reduce={!!reduce} />
@@ -198,11 +213,11 @@ export default function Hero() {
           </div>
 
           {/* Ask, docked on the right */}
-          <div className="absolute inset-y-0 right-0 w-full sm:w-[320px] md:w-[340px] lg:w-[400px]">
+          <div className="absolute inset-y-0 right-0" style={{ width: compact ? '100%' : dockWidth }}>
             <AskDock
               composer={
                 <AskComposer
-                  value={conversation ? '' : askHero.question.slice(0, chars)}
+                  value={conversation ? '' : draft}
                   typing={step === 'typing'}
                   streaming={thinking || (step === 'answer' && !answerDone)}
                 />
@@ -210,15 +225,16 @@ export default function Hero() {
             >
               {/* Empty state layer */}
               <div
-                className="absolute inset-x-3 top-3 transition-opacity duration-300"
+                className="absolute inset-x-4 top-3 transition-opacity duration-300"
                 style={{ opacity: conversation ? 0 : 1 }}
               >
                 <AskEmptyState boxes={emptyBoxes} reduce={!!reduce} visible={!conversation} />
+                {compact && <div className="mt-5 flex items-center gap-2 rounded-xl bg-default px-3 py-2.5 text-xs text-muted"><FaviconTile domain={heroSave.bookmark.domain} size={16} /><span>{saved ? 'teamLab Planets · saved and tagged' : 'Saving teamLab Planets…'}</span></div>}
               </div>
 
               {/* Conversation layer — every element mounted from frame one */}
               <div
-                className="absolute inset-x-3 top-3 bottom-0 flex flex-col gap-2 transition-opacity duration-300"
+                className="absolute inset-x-4 top-3 bottom-0 flex flex-col gap-2 transition-opacity duration-300"
                 style={{ opacity: conversation ? 1 : 0 }}
               >
                 <AskUserBubble>{askHero.question}</AskUserBubble>
@@ -242,37 +258,18 @@ export default function Hero() {
                 <Fade show={answering && answerDone}>
                   <AskSourcesRow domains={askHero.sources.domains} count={askHero.sources.count} />
                 </Fade>
-                {/* The proposal card: preview sizes the slot, applied overlays it */}
+                {/* One retained proposal card becomes its approved record. */}
                 <div
-                  className="relative mt-1 transition-[opacity,transform] duration-300 ease-[var(--ease-smooth)]"
+                  className="relative mt-1 will-change-transform transition-[opacity,transform] duration-300 ease-[var(--ease-smooth)]"
                   style={{ opacity: proposed ? 1 : 0, transform: proposed ? 'none' : 'translateY(6px)' }}
                 >
-                  <div className="transition-opacity duration-200" style={{ opacity: applied ? 0 : 1 }}>
-                    <AskActionCard
-                      kind="preview"
-                      title={askHero.proposal.title}
-                      count={proposalItems.length}
-                      items={proposalItems}
-                      pulse={pulse && !applied}
-                      reduce={!!reduce}
-                    />
-                  </div>
-                  <div className="absolute inset-0 transition-opacity duration-200" style={{ opacity: applied ? 1 : 0 }}>
-                    <AskActionCard kind="applied" title={askHero.proposal.title} count={proposalItems.length} items={proposalItems} />
-                  </div>
+                  <AskActionCard kind={applied ? 'applied' : 'preview'} title={askHero.proposal.title} count={proposalItems.length} items={compact ? proposalItems.map((it, i) => ({ ...it, title: ['Kyoto Travel Guide', 'Tokyo restaurants', 'Japan Rail Pass'][i]! })) : proposalItems} reduce={reduce} />
                 </div>
               </div>
             </AskDock>
           </div>
+          <span data-target="hero-rest" className="pointer-events-none absolute right-4 bottom-24 size-px" />
         </div>
-      </BrowserFrame>
-      <p className="sr-only">
-        Marqly in one loop: a new page is saved and auto-tagged as it lands; Ask then answers "what did I save
-        about Japan?" from the user's own bookmarks, citing sources; tags for three untagged saves are proposed,
-        applied after approval; the four Japan bookmarks show up filed together on one "Travel · Japan" board —
-        and the board then opens in the app's card view.
-      </p>
-    </div>
   );
 }
 
@@ -301,7 +298,7 @@ function SaveToast({ step, reduce }: { step: Step; reduce: boolean }) {
       <div className={wrap} style={{ opacity: show(step === 'saving') }}>
         <span
           aria-hidden
-          className={`size-3.5 shrink-0 rounded-full border-2 border-default border-t-foreground ${step === 'saving' && !reduce ? 'hero-spin' : ''}`}
+          className={`size-4 shrink-0 rounded-full border-2 border-default border-t-foreground ${step === 'saving' && !reduce ? 'hero-spin' : ''}`}
         />
         <FaviconTile domain={heroSave.bookmark.domain} size={16} />
         <span className="max-w-[180px] truncate text-foreground">{heroSave.bookmark.title}</span>
@@ -309,8 +306,8 @@ function SaveToast({ step, reduce }: { step: Step; reduce: boolean }) {
       </div>
       {/* AI reading/tagging */}
       <div className={wrap} style={{ opacity: show(step === 'reading') }}>
-        <span aria-hidden className="ai-shimmer flex size-3.5 shrink-0 items-center justify-center rounded-full text-foreground">
-          <SparklesIcon size={10} />
+        <span aria-hidden className="ai-shimmer flex size-4 shrink-0 items-center justify-center rounded-full text-foreground">
+          <SearchIcon size={10} />
         </span>
         <FaviconTile domain={heroSave.bookmark.domain} size={16} />
         <span className="max-w-[180px] truncate text-foreground">{heroSave.bookmark.title}</span>
@@ -334,7 +331,7 @@ function SaveToast({ step, reduce }: { step: Step; reduce: boolean }) {
       {/* filed to the board */}
       <div className={wrap} style={{ opacity: show(step === 'board' || step === 'cards') }}>
         <span aria-hidden className="ai-shimmer flex size-4 shrink-0 items-center justify-center rounded-full text-foreground">
-          <SparklesIcon size={11} />
+          <CheckIcon size={12} />
         </span>
         <span className="text-foreground">
           {japanBoard.emoji} {japanBoard.count} Japan saves filed to <span className="font-semibold">{japanBoard.name}</span>
@@ -369,7 +366,7 @@ const CARD_ROWS = HERO_ROWS.filter((r) => r.kind !== 'grid').map((r) => ({
 function BoardCard({ bookmark, chips }: { bookmark: DemoBookmark; chips: string[] }) {
   return (
     <article className="flex h-full flex-col overflow-hidden rounded-2xl bg-surface shadow-surface">
-      <div className="relative h-20 w-full overflow-hidden lg:aspect-video lg:h-auto">
+      <div className="relative h-28 w-full overflow-hidden">
         <BrandCover bookmark={bookmark} />
       </div>
       <div className="flex flex-1 flex-col gap-1 px-3 py-2">
@@ -422,6 +419,7 @@ export function LibraryRows({
         </div>
         <span className="flex h-9 items-center gap-0.5 rounded-lg bg-default p-1 text-muted">
           <span
+            data-target="card-view" data-cursor="hand"
             className={`flex size-7 items-center justify-center rounded-md transition-colors duration-300 ${
               view === 'cards' ? 'bg-surface text-foreground shadow-surface' : ''
             }`}
@@ -452,6 +450,9 @@ export function LibraryRows({
           {japanBoard.emoji} {japanBoard.name}
           <span className="font-mono text-[11px] font-medium text-muted">{japanBoard.count}</span>
         </span>
+        <span data-target="japan-board" data-cursor="hand" className="absolute right-0 -top-1 flex items-center gap-1.5 rounded-lg bg-surface px-2.5 py-1 text-xs shadow-surface transition-opacity" style={{ opacity: added && !filed ? 1 : 0 }}>
+          {japanBoard.emoji} {japanBoard.name} <span aria-hidden>→</span>
+        </span>
       </p>
       {/* Content stage: the list and the card grid share the slot — one
           crossfades out as the other staggers in. Zero layout shift. */}
@@ -460,7 +461,7 @@ export function LibraryRows({
           className="flex flex-col gap-1.5 transition-opacity duration-300 lg:gap-2"
           style={{ opacity: view === 'cards' ? 0 : 1 }}
         >
-          {HERO_ROWS.map(({ bookmark, chips, kind }, i) => {
+          {HERO_ROWS.slice(0, 7).map(({ bookmark, chips, kind }, i) => {
           const isJapanish = kind !== 'grid';
           const show = kind === 'save' ? saved : kind === 'japan' ? added : true;
           const ghost = kind === 'save' && !saved;
@@ -497,7 +498,7 @@ export function LibraryRows({
           {CARD_ROWS.map((c, i) => (
             <div
               key={c.bookmark.id}
-              className="transition-[opacity,transform] duration-300 ease-[var(--ease-smooth)]"
+              className="will-change-transform transition-[opacity,transform] duration-300 ease-[var(--ease-smooth)]"
               style={{
                 opacity: view === 'cards' ? 1 : 0,
                 transform: view === 'cards' ? 'none' : 'translateY(10px)',

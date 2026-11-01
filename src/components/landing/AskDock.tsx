@@ -84,7 +84,7 @@ export function AskComposer({
           streaming ? 'ai-shimmer' : ''
         }`}
       >
-        <span className={`min-w-0 flex-1 text-[13px] leading-5 ${empty ? 'text-muted' : 'text-foreground'}`}>
+        <span data-target="ask-input" data-cursor="ibeam" data-typing={typing || undefined} className={`min-w-0 flex-1 text-[13px] leading-5 ${empty ? 'text-muted' : 'text-foreground'}`}>
           {empty ? placeholder : value}
           {typing && (
             <span aria-hidden className="ml-px inline-block h-4 w-px animate-pulse bg-foreground align-middle" />
@@ -95,7 +95,10 @@ export function AskComposer({
             empty && !streaming ? 'bg-default text-muted' : 'bg-accent text-accent-foreground'
           }`}
         >
-          {streaming ? <span className="size-2.5 rounded-[2px] bg-current" /> : <ArrowUpIcon size={14} />}
+          <span className="grid place-items-center">
+            <span className="col-start-1 row-start-1 transition-opacity duration-150" style={{ opacity: streaming ? 0 : 1 }}><ArrowUpIcon size={14} /></span>
+            <span className="col-start-1 row-start-1 size-2.5 rounded-[2px] bg-current transition-opacity duration-150" style={{ opacity: streaming ? 1 : 0 }} />
+          </span>
         </span>
       </div>
       <p className="mt-1.5 text-[10px] text-muted">Enter to send · Shift+Enter for a new line</p>
@@ -129,7 +132,7 @@ export function AskToolPill({
       <Icon size={12} className="shrink-0" />
       <span className="shrink-0 whitespace-nowrap">{label}</span>
       {(tail || state === 'start') && (
-        <span className="min-w-0 truncate">
+        <span className="min-w-0 truncate leading-4">
           <span className="mr-1">·</span>
           {state === 'start' ? '…' : tail}
         </span>
@@ -251,9 +254,9 @@ export function AskCite({ n, visible = true }: { n: number; visible?: boolean })
 export function AskSourcesRow({ domains, count }: { domains: string[]; count: number }) {
   return (
     <span className="inline-flex items-center gap-2 self-start rounded-full border border-separator py-1 pr-2.5 pl-1.5 text-[12px] leading-none text-muted">
-      <span className="flex items-center">
-        {domains.map((d, i) => (
-          <span key={d} className={`rounded-full ring-2 ring-surface ${i ? '-ml-1.5' : ''}`}>
+      <span className="flex items-center gap-1">
+        {domains.slice(0, 2).map((d) => (
+          <span key={d} className="rounded-full">
             <FaviconTile domain={d} size={16} />
           </span>
         ))}
@@ -305,11 +308,10 @@ export function AskActionCard({
       }`}
     >
       <div className="flex items-center gap-2">
-        {applied ? (
-          <CheckCircleIcon size={16} className="shrink-0 text-[color:var(--success-solid)]" />
-        ) : (
-          <MessageIcon size={14} className="shrink-0 text-muted" />
-        )}
+        <span className="grid size-4 shrink-0 place-items-center">
+          <span className="col-start-1 row-start-1 text-[color:var(--success-solid)] transition-opacity duration-200" style={{ opacity: applied ? 1 : 0 }}><CheckCircleIcon size={16} /></span>
+          <span className="col-start-1 row-start-1 text-muted transition-opacity duration-200" style={{ opacity: applied ? 0 : 1 }}><MessageIcon size={16} /></span>
+        </span>
         <span className="truncate font-semibold text-foreground">{title}</span>
         <span className="ml-auto shrink-0 text-[11px] text-muted">
           {count} {countLabel}
@@ -336,33 +338,19 @@ export function AskActionCard({
         ))}
         {more && <li className="pl-6 text-[11px] text-muted">{more}</li>}
       </ul>
-      <div className="mt-0.5 flex items-center justify-end gap-2">
-        {applied ? (
-          <>
-            <span className="text-[11px] text-muted">for 30 days</span>
-            <span className="flex h-7 items-center gap-1 rounded-3xl bg-default px-3 text-[12px] font-medium text-foreground">
-              <UndoIcon size={12} />
-              Undo
-            </span>
-          </>
-        ) : (
-          <>
-            <span className="flex h-7 items-center rounded-3xl px-3 text-[12px] font-medium text-muted">
-              {secondary}
-            </span>
-            <motion.span
-              animate={
-                pulse && !reduce
-                  ? { scale: [1, 1.04, 1], transition: { duration: 0.5, ease: EASE } }
-                  : { scale: 1 }
-              }
-              className="flex h-7 items-center gap-1 rounded-3xl bg-accent px-3 text-[12px] font-medium text-accent-foreground"
-            >
-              <CheckIcon size={12} />
-              {primary}
-            </motion.span>
-          </>
-        )}
+      <div className="mt-0.5 grid h-7 justify-items-end">
+        <div className="col-start-1 row-start-1 flex items-center gap-2 transition-opacity duration-200" style={{ opacity: applied ? 1 : 0 }} aria-hidden={!applied}>
+          <span className="text-[11px] text-muted">for 30 days</span>
+          <span className="flex h-7 items-center gap-1 rounded-3xl bg-default px-3 text-[12px] font-medium text-foreground"><UndoIcon size={12} />Undo</span>
+        </div>
+        <div className="col-start-1 row-start-1 flex items-center gap-2 transition-opacity duration-200" style={{ opacity: applied ? 0 : 1, pointerEvents: applied ? 'none' : undefined }} aria-hidden={applied}>
+          <span className="flex h-7 items-center rounded-3xl px-3 text-[12px] font-medium text-muted">{secondary}</span>
+          <motion.span data-target="approve" data-cursor="hand"
+            animate={pulse && !reduce ? { scale: [1, 1.04, 1], transition: { duration: 0.5, ease: EASE } } : { scale: 1 }}
+            className="flex h-7 items-center gap-1 rounded-3xl bg-accent px-3 text-[12px] font-medium text-accent-foreground">
+            <CheckIcon size={12} />{primary}
+          </motion.span>
+        </div>
       </div>
     </div>
   );
@@ -394,7 +382,10 @@ export function AskChip({ label, done = false, arrow = false }: { label: string;
           : { background: `color-mix(in oklab, ${tint} 13%, transparent)`, color: `color-mix(in oklab, ${tint} 82%, var(--foreground))` }
       }
     >
-      {done ? <CheckIcon size={10} /> : <span aria-hidden>{arrow ? '→' : '+'}</span>}
+      <span aria-hidden className="grid size-2.5 shrink-0 place-items-center">
+        <span className="col-start-1 row-start-1 transition-opacity duration-200" style={{ opacity: done ? 1 : 0 }}><CheckIcon size={10} /></span>
+        <span className="col-start-1 row-start-1 transition-opacity duration-200" style={{ opacity: done ? 0 : 1 }}>{arrow ? '→' : '+'}</span>
+      </span>
       {label}
     </span>
   );
