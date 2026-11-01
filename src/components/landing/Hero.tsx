@@ -167,7 +167,7 @@ export default function Hero() {
   return (
     <div ref={rootRef} className="relative" data-showcase="hero">
       <BrowserFrame url="app.marqly.com">
-        <Stage key={replay} width={width} height={560} compact={{ below: 640, width: 358, height: 540 }}
+        <Stage key={replay} width={width} height={720} compact={{ below: 640, width: 358, height: 700 }}
           initial={POSTER} poster={POSTER} script={heroStory} play="once" accent="#000000"
           tokens={{ '--ss-font': 'var(--font-app)', '--ss-well': 'var(--background)' }}
           cursor={{ at: { x: 280, y: 480 }, idle: 1200 }} className="marqly-hero-stage">
